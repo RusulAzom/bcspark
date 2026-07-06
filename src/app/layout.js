@@ -17,9 +17,10 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="bn"
+      suppressHydrationWarning
       className={`${hindSiliguri.variable} scroll-smooth`}
     >
-      <body className="bg-brand-bg text-primary min-h-screen flex flex-col font-sans">
+      <body suppressHydrationWarning className="bg-brand-bg text-primary min-h-screen flex flex-col font-sans">
         {children}
       </body>
     </html>
