@@ -17,7 +17,7 @@ export default function Navbar() {
           <img 
             src="/logo/logo.png" 
             alt="BCS Spark Logo" 
-            className="h-9 w-auto object-contain"
+            className="h-20 w-auto object-contain"
           />
         </Link>
 

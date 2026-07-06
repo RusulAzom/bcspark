@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { 
-  Zap, Target, Cpu, FileText, BarChart3, Newspaper, 
-  BookOpen, Calculator, Globe, Trophy, Map, ArrowRight 
+import {
+  Zap, Target, Cpu, FileText, BarChart3, Newspaper,
+  BookOpen, Calculator, Globe, Trophy, Map, ArrowRight
 } from "lucide-react";
 import HeroCarousel from "./HeroCarousel";
 
@@ -23,11 +23,10 @@ const topTools = [
 export default function HeroSection() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
+
         {/* Left Column: Top AI Tools Sidebar */}
-        <div className="lg:col-span-1 flex flex-col justify-between rounded-3xl border border-gray-100 bg-white p-6 shadow-sm hover:shadow-md transition-shadow">
-          <div>
+<div className="order-2 lg:order-1 lg:col-span-1 flex flex-col justify-between rounded-3xl border border-gray-100 bg-white p-6 shadow-sm hover:shadow-md transition-shadow">         <div>
             {/* Header */}
             <div className="flex items-center gap-2 mb-6">
               <Zap className="h-5 w-5 fill-amber-500 stroke-amber-500 animate-pulse" />
@@ -35,10 +34,10 @@ export default function HeroSection() {
             </div>
 
             {/* Menu List */}
-            <div className="space-y-1.5">
+            <div className="grid grid-cols-2 grid-rows-5 grid-flow-col gap-1.5">
               {topTools.map((tool) => (
-                <Link 
-                  key={tool.id} 
+                <Link
+                  key={tool.id}
                   href={`/tools/${tool.id}`}
                   className="flex items-center gap-3.5 rounded-xl px-3.5 py-2.5 text-sm font-bold text-slate-700 transition-all hover:bg-blue-50/50 hover:text-primary group"
                 >
@@ -52,8 +51,8 @@ export default function HeroSection() {
           </div>
 
           {/* Footer Navigation Link */}
-          <Link 
-            href="/tools" 
+          <Link
+            href="/tools"
             className="mt-6 flex items-center gap-1.5 px-3.5 text-sm font-extrabold text-primary transition-all hover:text-accent group"
           >
             <span>সকল 40+ টুলস</span>
@@ -62,7 +61,7 @@ export default function HeroSection() {
         </div>
 
         {/* Right Column: Hero Carousel */}
-        <div className="lg:col-span-2">
+        <div className="order-1 lg:order-2 lg:col-span-2">
           <HeroCarousel />
         </div>
 
