@@ -116,8 +116,7 @@ export default function QuickPracticeEngine({ questions, title }) {
             <div className="max-w-6xl mx-auto p-6">
                 {/* পপআপ মডাল */}
                 {showSetup && (
-                    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-                        <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md">
+<div className="fixed inset-x-0 bottom-0 top-16 bg-black/60 z-30 flex items-center justify-center p-4">                        <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md">
                             <h2 className="text-2xl font-bold mb-6 text-center">Quick Practice শুরু করো</h2>
 
                             <div className="mb-4">
