@@ -8,16 +8,16 @@ import {
 import HeroCarousel from "./HeroCarousel";
 
 const topTools = [
-  { id: 1, name: "দৈনিক কুইজ", icon: <Target className="h-4.5 w-4.5" /> },
-  { id: 2, name: "AI টিউটর", icon: <Cpu className="h-4.5 w-4.5" /> },
-  { id: 3, name: "MCQ প্র্যাকটিস", icon: <FileText className="h-4.5 w-4.5" /> },
-  { id: 4, name: "মডেল টেস্ট", icon: <BarChart3 className="h-4.5 w-4.5" /> },
-  { id: 5, name: "BCS নিউজ", icon: <Newspaper className="h-4.5 w-4.5" /> },
-  { id: 6, name: "বাংলা সাহিত্য", icon: <BookOpen className="h-4.5 w-4.5" /> },
-  { id: 7, name: "গণিত প্র্যাকটিস", icon: <Calculator className="h-4.5 w-4.5" /> },
-  { id: 8, name: "আন্তর্জাতিক বিষয়", icon: <Globe className="h-4.5 w-4.5" /> },
-  { id: 9, name: "লিডারবোর্ড", icon: <Trophy className="h-4.5 w-4.5" /> },
-  { id: 10, name: "সিলেবাস গাইড", icon: <Map className="h-4.5 w-4.5" /> }
+  { id: 1, name: "T20 কুইজ", icon: <Target className="h-4.5 w-4.5" />, href: "/t20" }, // শুধু এটা চালু
+  { id: 2, name: "AI টিউটর", icon: <Cpu className="h-4.5 w-4.5" />, href: "#" },
+  { id: 3, name: "MCQ প্র্যাকটিস", icon: <FileText className="h-4.5 w-4.5" />, href: "#" },
+  { id: 4, name: "মডেল টেস্ট", icon: <BarChart3 className="h-4.5 w-4.5" />, href: "#" },
+  { id: 5, name: "BCS নিউজ", icon: <Newspaper className="h-4.5 w-4.5" />, href: "#" },
+  { id: 6, name: "বাংলা সাহিত্য", icon: <BookOpen className="h-4.5 w-4.5" />, href: "#" },
+  { id: 7, name: "গণিত প্র্যাকটিস", icon: <Calculator className="h-4.5 w-4.5" />, href: "#" },
+  { id: 8, name: "আন্তর্জাতিক বিষয়", icon: <Globe className="h-4.5 w-4.5" />, href: "#" },
+  { id: 9, name: "লিডারবোর্ড", icon: <Trophy className="h-4.5 w-4.5" />, href: "#" },
+  { id: 10, name: "সিলেবাস গাইড", icon: <Map className="h-4.5 w-4.5" />, href: "#" }
 ];
 
 export default function HeroSection() {
@@ -38,7 +38,7 @@ export default function HeroSection() {
               {topTools.map((tool) => (
                 <Link
                   key={tool.id}
-                  href={`/tools/${tool.id}`}
+                  href={tool.href}
                   className="flex items-center gap-3.5 rounded-xl px-3.5 py-2.5 text-sm font-bold text-slate-700 transition-all hover:bg-blue-50/50 hover:text-primary group"
                 >
                   <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#f0f4f8] text-primary transition-colors group-hover:bg-primary group-hover:text-white">

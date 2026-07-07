@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "q": "Choose the correct spelling:",
+    "options": ["Committee", "Comittee", "Commitee", "Comitee"],
+    "ans": 0,
+    "source": "BCS 43rd"
+  },
+  {
+    "id": 2,
+    "q": "Choose the correct spelling:",
+    "options": ["Accomodate", "Accommodate", "Acommodate", "Accomodete"],
+    "ans": 1,
+    "source": "BCS 47th"
+  },
+  {
+    "id": 3,
+    "q": "Choose the correct spelling:",
+    "options": ["Lieutenant", "Lieutenent", "Lieyoutenant", "Lieutennt"],
+    "ans": 0,
+    "source": "BCS 51st"
+  },
+  {
+    "id": 4,
+    "q": "Identify the word which spelt incorrectly –",
+    "options": ["Conscientious", "Consciencious", "Conscious", "Consensus"],
+    "ans": 1,
+    "source": "BCS 40th"
+  },
+  {
+    "id": 5,
+    "q": "Select the correct spelt word –",
+    "options": ["Heterogeneous", "Heterogeneus", "Hetrogeneous", "Heterogenious"],
+    "ans": 0,
+    "source": "BCS 38th"
+  },
+  {
+    "id": 6,
+    "q": "Choose the correct spelling:",
+    "options": ["Millennium", "Millenium", "Milennium", "Millenniam"],
+    "ans": 0,
+    "source": "BCS 44th"
+  },
+  {
+    "id": 7,
+    "q": "Choose the correct spelling:",
+    "options": ["Embarrassment", "Embarassment", "Embarrasment", "Embarasment"],
+    "ans": 0,
+    "source": "BCS 42nd"
+  },
+  {
+    "id": 8,
+    "q": "Choose the correct spelling:",
+    "options": ["Occurrence", "Occurence", "Ocurence", "Ocurrence"],
+    "ans": 0,
+    "source": "BCS 41st"
+  },
+  {
+    "id": 9,
+    "q": "Choose the correct spelling:",
+    "options": ["Privilege", "Privilage", "Privelege", "Priviledge"],
+    "ans": 0,
+    "source": "BCS 39th"
+  },
+  {
+    "id": 10,
+    "q": "Choose the correct spelling:",
+    "options": ["Separate", "Seperate", "Separete", "Seperete"],
+    "ans": 0,
+    "source": "BCS 37th"
+  },
+  {
+    "id": 11,
+    "q": "Choose the correct spelling:",
+    "options": ["Definite", "Definate", "Definet", "Definite"],
+    "ans": 0,
+    "source": "BCS 36th"
+  },
+  {
+    "id": 12,
+    "q": "Choose the correct spelling:",
+    "options": ["Maintenance", "Maintainance", "Maintanance", "Maintenence"],
+    "ans": 0,
+    "source": "BCS 35th"
+  },
+  {
+    "id": 13,
+    "q": "Choose the correct spelling:",
+    "options": ["Questionnaire", "Questionaire", "Questionnare", "Questionair"],
+    "ans": 0,
+    "source": "BCS 34th"
+  },
+  {
+    "id": 14,
+    "q": "Choose the correct spelling:",
+    "options": ["Restaurant", "Resturant", "Restarunt", "Restaurent"],
+    "ans": 0,
+    "source": "BCS 33rd"
+  },
+  {
+    "id": 15,
+    "q": "Choose the correct spelling:",
+    "options": ["Bureaucracy", "Burocracy", "Beurocracy", "Bureaucrasy"],
+    "ans": 0,
+    "source": "BCS 32nd"
+  },
+  {
+    "id": 16,
+    "q": "Choose the correct spelling:",
+    "options": ["Entrepreneur", "Entreprenur", "Entreprenuer", "Enterpreneur"],
+    "ans": 0,
+    "source": "BCS 45th, Bank"
+  },
+  {
+    "id": 17,
+    "q": "Choose the correct spelling:",
+    "options": ["Hierarchy", "Heirarchy", "Hierrchy", "Heirarachy"],
+    "ans": 0,
+    "source": "BCS 44th"
+  },
+  {
+    "id": 18,
+    "q": "Choose the correct spelling:",
+    "options": ["Psychology", "Sychology", "Pshycology", "Psycology"],
+    "ans": 0,
+    "source": "BCS 43rd"
+  },
+  {
+    "id": 19,
+    "q": "Choose the correct spelling:",
+    "options": ["Renaissance", "Renaisance", "Renaissence", "Renessance"],
+    "ans": 0,
+    "source": "BCS 42nd"
+  },
+  {
+    "id": 20,
+    "q": "Choose the correct spelling:",
+    "options": ["Surveillance", "Surveilance", "Surveillence", "Survillance"],
+    "ans": 0,
+    "source": "BCS 41st"
+  },
+  {
+    "id": 21,
+    "q": "Choose the correct spelling:",
+    "options": ["Tuberculosis", "Tuberclosis", "Tuborculosis", "Tuburculosis"],
+    "ans": 0,
+    "source": "BCS 40th"
+  },
+  {
+    "id": 22,
+    "q": "Choose the correct spelling:",
+    "options": ["Vaccuum", "Vacuum", "Vacum", "Vaccum"],
+    "ans": 1,
+    "source": "BCS 39th"
+  },
+  {
+    "id": 23,
+    "q": "Choose the correct spelling:",
+    "options": ["Exaggerate", "Exagerate", "Exaggarate", "Exagerrate"],
+    "ans": 0,
+    "source": "BCS 38th"
+  },
+  {
+    "id": 24,
+    "q": "Choose the correct spelling:",
+    "options": ["Guarantee", "Gaurantee", "Gurantee", "Guarentee"],
+    "ans": 0,
+    "source": "BCS 37th"
+  },
+  {
+    "id": 25,
+    "q": "Choose the correct spelling:",
+    "options": ["Harassment", "Harassmant", "Harrasment", "Harasment"],
+    "ans": 0,
+    "source": "BCS 36th"
+  },
+  {
+    "id": 26,
+    "q": "Choose the correct spelling:",
+    "options": ["Inoculate", "Inocculate", "Innoculate", "Inoculate"],
+    "ans": 0,
+    "source": "BCS 35th"
+  },
+  {
+    "id": 27,
+    "q": "Choose the correct spelling:",
+    "options": ["Jewellery", "Jewelery", "Jewelry", "Jewllery"],
+    "ans": 0,
+    "source": "BCS 34th, Bank"
+  },
+  {
+    "id": 28,
+    "q": "Choose the correct spelling:",
+    "options": ["Knowledge", "Knowlege", "Knowladge", "Knolodge"],
+    "ans": 0,
+    "source": "BCS 33rd"
+  },
+  {
+    "id": 29,
+    "q": "Choose the correct spelling:",
+    "options": ["Liaison", "Liason", "Liaeson", "Leason"],
+    "ans": 0,
+    "source": "BCS 32nd"
+  },
+  {
+    "id": 30,
+    "q": "Choose the correct spelling:",
+    "options": ["Mischievous", "Mischievious", "Mischevous", "Mischivous"],
+    "ans": 0,
+    "source": "BCS 31st"
+  },
+  {
+    "id": 31,
+    "q": "Choose the correct spelling:",
+    "options": ["Necessary", "Neccessary", "Necesary", "Necissary"],
+    "ans": 0,
+    "source": "BCS 44th"
+  },
+  {
+    "id": 32,
+    "q": "Choose the correct spelling:",
+    "options": ["Occasion", "Ocassion", "Occassion", "Ocasion"],
+    "ans": 0,
+    "source": "BCS 43rd"
+  },
+  {
+    "id": 33,
+    "q": "Choose the correct spelling:",
+    "options": ["Parallel", "Paralel", "Parrallel", "Parralel"],
+    "ans": 0,
+    "source": "BCS 42nd"
+  },
+  {
+    "id": 34,
+    "q": "Choose the correct spelling:",
+    "options": ["Perseverance", "Perseverence", "Perseveranse", "Preseverance"],
+    "ans": 0,
+    "source": "BCS 41st"
+  },
+  {
+    "id": 35,
+    "q": "Choose the correct spelling:",
+    "options": ["Recommend", "Reccomend", "Recomend", "Reccommend"],
+    "ans": 0,
+    "source": "BCS 40th"
+  },
+  {
+    "id": 36,
+    "q": "Choose the correct spelling:",
+    "options": ["Tomorrow", "Tommorow", "Tomorow", "Tommorrow"],
+    "ans": 0,
+    "source": "BCS 39th"
+  },
+  {
+    "id": 37,
+    "q": "Choose the correct spelling:",
+    "options": ["Unfortunately", "Unfortunatly", "Unfourtunately", "Unfortuately"],
+    "ans": 0,
+    "source": "BCS 38th"
+  },
+  {
+    "id": 38,
+    "q": "Choose the correct spelling:",
+    "options": ["Withhold", "Withold", "Withhhold", "Withold"],
+    "ans": 0,
+    "source": "BCS 37th"
+  },
+  {
+    "id": 39,
+    "q": "Choose the correct spelling:",
+    "options": ["Yacht", "Yatch", "Yacth", "Yaght"],
+    "ans": 0,
+    "source": "BCS 36th"
+  },
+  {
+    "id": 40,
+    "q": "Choose the correct spelling:",
+    "options": ["Zealous", "Zelous", "Zealus", "Zealouse"],
+    "ans": 0,
+    "source": "BCS 35th"
+  },
+  {
+    "id": 41,
+    "q": "Choose the correct spelling:",
+    "options": ["Accessible", "Accesible", "Accessable", "Acessible"],
+    "ans": 0,
+    "source": "BCS 34th"
+  },
+  {
+    "id": 42,
+    "q": "Choose the correct spelling:",
+    "options": ["Believe", "Belive", "Beleive", "Bilieve"],
+    "ans": 0,
+    "source": "BCS 33rd"
+  },
+  {
+    "id": 43,
+    "q": "Choose the correct spelling:",
+    "options": ["Calendar", "Calender", "Calandar", "Celendar"],
+    "ans": 0,
+    "source": "BCS 32nd"
+  },
+  {
+    "id": 44,
+    "q": "Choose the correct spelling:",
+    "options": ["Dilemma", "Dilema", "Dilemna", "Dilemma"],
+    "ans": 0,
+    "source": "BCS 31st"
+  },
+  {
+    "id": 45,
+    "q": "Choose the correct spelling:",
+    "options": ["Foreign", "Foriegn", "Forign", "Forein"],
+    "ans": 0,
+    "source": "BCS 45th"
+  },
+  {
+    "id": 46,
+    "q": "Choose the correct spelling:",
+    "options": ["Grateful", "Greatful", "Gratefull", "Greatfull"],
+    "ans": 0,
+    "source": "BCS 44th"
+  },
+  {
+    "id": 47,
+    "q": "Choose the correct spelling:",
+    "options": ["Height", "Hieght", "Heigth", "Hight"],
+    "ans": 0,
+    "source": "BCS 43rd"
+  },
+  {
+    "id": 48,
+    "q": "Choose the correct spelling:",
+    "options": ["Immediate", "Imidiate", "Immidiate", "Imediate"],
+    "ans": 0,
+    "source": "BCS 42nd"
+  },
+  {
+    "id": 49,
+    "q": "Choose the correct spelling:",
+    "options": ["Jealous", "Jelous", "Jealus", "Jealious"],
+    "ans": 0,
+    "source": "BCS 41st"
+  },
+  {
+    "id": 50,
+    "q": "Choose the correct spelling:",
+    "options": ["Leisure", "Liesure", "Lesure", "Leasure"],
+    "ans": 0,
+    "source": "BCS 40th"
+  },
+  {
+    "id": 51,
+    "q": "Choose the correct spelling:",
+    "options": ["Maneuver", "Manuever", "Manoeuver", "Manuver"],
+    "ans": 0,
+    "source": "BCS 39th"
+  },
+  {
+    "id": 52,
+    "q": "Choose the correct spelling:",
+    "options": ["Neighbor", "Nieghbor", "Neibour", "Neighbur"],
+    "ans": 0,
+    "source": "BCS 38th"
+  },
+  {
+    "id": 53,
+    "q": "Choose the correct spelling:",
+    "options": ["Opinion", "Oppinion", "Opinnion", "Opion"],
+    "ans": 0,
+    "source": "BCS 37th"
+  },
+  {
+    "id": 54,
+    "q": "Choose the correct spelling:",
+    "options": ["Possession", "Posession", "Possesion"],
+    "ans": 0,
+    "source": "BCS 36th"
+  },
+  {
+    "id": 55,
+    "q": "Choose the correct spelling:",
+    "options": ["Receive", "Recieve", "Recive", "Receeve"],
+    "ans": 0,
+    "source": "BCS 35th"
+  },
+  {
+    "id": 56,
+    "q": "Choose the correct spelling:",
+    "options": ["Sincerely", "Sincerly", "Sinceraly", "Sincearly"],
+    "ans": 0,
+    "source": "BCS 34th"
+  },
+  {
+    "id": 57,
+    "q": "Choose the correct spelling:",
+    "options": ["Twelfth", "Twelvth", "Twelth", "Twelefth"],
+    "ans": 0,
+    "source": "BCS 33rd"
+  },
+  {
+    "id": 58,
+    "q": "Choose the correct spelling:",
+    "options": ["Until", "Untill", "Untel", "Untll"],
+    "ans": 0,
+    "source": "BCS 32nd"
+  },
+  {
+    "id": 59,
+    "q": "Choose the correct spelling:",
+    "options": ["Vicious", "Visious", "Viscious", "Vicous"],
+    "ans": 0,
+    "source": "BCS 31st"
+  },
+  {
+    "id": 60,
+    "q": "Choose the correct spelling:",
+    "options": ["Weird", "Wierd", "Wierd", "Weard"],
+    "ans": 0,
+    "source": "BCS 30th"
+  },
+  {
+    "id": 61,
+    "q": "Choose the correct spelling:",
+    "options": ["Apparent", "Apparant", "Aparent", "Aparant"],
+    "ans": 0,
+    "source": "BCS 45th"
+  },
+  {
+    "id": 62,
+    "q": "Choose the correct spelling:",
+    "options": ["Argument", "Arguement", "Argumant", "Arguemant"],
+    "ans": 0,
+    "source": "BCS 44th"
+  },
+  {
+    "id": 63,
+    "q": "Choose the correct spelling:",
+    "options": ["Beginning", "Begining", "Beginnig", "Begenning"],
+    "ans": 0,
+    "source": "BCS 43rd"
+  },
+  {
+    "id": 64,
+    "q": "Choose the correct spelling:",
+    "options": ["Business", "Buisness", "Busines", "Buissness"],
+    "ans": 0,
+    "source": "BCS 42nd"
+  },
+  {
+    "id": 65,
+    "q": "Choose the correct spelling:",
+    "options": ["Colleague", "Coleague", "Colleage", "Collaegue"],
+    "ans": 0,
+    "source": "BCS 41st"
+  },
+  {
+    "id": 66,
+    "q": "Choose the correct spelling:",
+    "options": ["Discipline", "Disipline", "Disciplen", "Discpline"],
+    "ans": 0,
+    "source": "BCS 40th"
+  },
+  {
+    "id": 67,
+    "q": "Choose the correct spelling:",
+    "options": ["Environment", "Enviornment", "Envirnment", "Envoirment"],
+    "ans": 0,
+    "source": "BCS 39th"
+  },
+  {
+    "id": 68,
+    "q": "Choose the correct spelling:",
+    "options": ["February", "Febuary", "Feburary", "Februry"],
+    "ans": 0,
+    "source": "BCS 38th"
+  },
+  {
+    "id": 69,
+    "q": "Choose the correct spelling:",
+    "options": ["Government", "Goverment", "Govornment", "Governmant"],
+    "ans": 0,
+    "source": "BCS 37th"
+  },
+  {
+    "id": 70,
+    "q": "Choose the correct spelling:",
+    "options": ["Independent", "Independant", "Indepandent", "Indipendent"],
+    "ans": 0,
+    "source": "BCS 36th"
+  },
+  {
+    "id": 71,
+    "q": "Choose the correct spelling:",
+    "options": ["Judgment", "Judgement", "Jugement", "Judgmant"],
+    "ans": 0,
+    "source": "BCS 35th, Bank"
+  },
+  {
+    "id": 72,
+    "q": "Choose the correct spelling:",
+    "options": ["Library", "Libary", "Liberry", "Librery"],
+    "ans": 0,
+    "source": "BCS 34th"
+  },
+  {
+    "id": 73,
+    "q": "Choose the correct spelling:",
+    "options": ["Memento", "Momento", "Mementto", "Memeanto"],
+    "ans": 0,
+    "source": "BCS 33rd"
+  },
+  {
+    "id": 74,
+    "q": "Choose the correct spelling:",
+    "options": ["Noticeable", "Noticable", "Noticible", "Noticeble"],
+    "ans": 0,
+    "source": "BCS 32nd"
+  },
+  {
+    "id": 75,
+    "q": "Choose the correct spelling:",
+    "options": ["Pastime", "Passtime", "Pasttime", "Passetime"],
+    "ans": 0,
+    "source": "BCS 31st"
+  },
+  {
+    "id": 76,
+    "q": "Choose the correct spelling:",
+    "options": ["Quiet", "Quite", "Quit", "Queit"],
+    "ans": 0,
+    "source": "BCS 30th"
+  },
+  {
+    "id": 77,
+    "q": "Choose the correct spelling:",
+    "options": ["Relevant", "Relevent", "Relavant", "Relevant"],
+    "ans": 0,
+    "source": "BCS 29th"
+  },
+  {
+    "id": 78,
+    "q": "Choose the correct spelling:",
+    "options": ["Schedule", "Scedule", "Shedule", "Schedual"],
+    "ans": 0,
+    "source": "BCS 28th"
+  },
+  {
+    "id": 79,
+    "q": "Choose the correct spelling:",
+    "options": ["Threshold", "Threshhold", "Threshhold", "Treshhold"],
+    "ans": 0,
+    "source": "BCS 27th"
+  },
+  {
+    "id": 80,
+    "q": "Choose the correct spelling:",
+    "options": ["Vacancy", "Vacency", "Vacansy", "Vecancy"],
+    "ans": 0,
+    "source": "BCS 26th"
+  },
+  {
+    "id": 81,
+    "q": "Choose the correct spelling:",
+    "options": ["Achieve", "Acheive", "Acheve", "Achive"],
+    "ans": 0,
+    "source": "BCS 45th"
+  },
+  {
+    "id": 82,
+    "q": "Choose the correct spelling:",
+    "options": ["Benefit", "Benifit", "Benfit", "Benefitt"],
+    "ans": 0,
+    "source": "BCS 44th"
+  },
+  {
+    "id": 83,
+    "q": "Choose the correct spelling:",
+    "options": ["Category", "Catagory", "Categary", "Catagary"],
+    "ans": 0,
+    "source": "BCS 43rd"
+  },
+  {
+    "id": 84,
+    "q": "Choose the correct spelling:",
+    "options": ["Dictionary", "Dictionery", "Dictonary", "Dictinary"],
+    "ans": 0,
+    "source": "BCS 42nd"
+  },
+  {
+    "id": 85,
+    "q": "Choose the correct spelling:",
+    "options": ["Equipment", "Equipmant", "Equipement", "Equippment"],
+    "ans": 0,
+    "source": "BCS 41st"
+  },
+  {
+    "id": 86,
+    "q": "Choose the correct spelling:",
+    "options": ["Familiar", "Familier", "Familliar", "Famalier"],
+    "ans": 0,
+    "source": "BCS 40th"
+  },
+  {
+    "id": 87,
+    "q": "Choose the correct spelling:",
+    "options": ["Guarantee", "Gaurantee", "Garantee", "Gauranty"],
+    "ans": 0,
+    "source": "BCS 39th"
+  },
+  {
+    "id": 88,
+    "q": "Choose the correct spelling:",
+    "options": ["Handkerchief", "Hankerchief", "Handkerchef", "Hankarchief"],
+    "ans": 0,
+    "source": "BCS 38th"
+  },
+  {
+    "id": 89,
+    "q": "Choose the correct spelling:",
+    "options": ["Interesting", "Intresting", "Intresting", "Intersting"],
+    "ans": 0,
+    "source": "BCS 37th"
+  },
+  {
+    "id": 90,
+    "q": "Choose the correct spelling:",
+    "options": ["Laboratory", "Labratory", "Labrotary", "Labaratory"],
+    "ans": 0,
+    "source": "BCS 36th"
+  },
+  {
+    "id": 91,
+    "q": "Choose the correct spelling:",
+    "options": ["Mediterranean", "Mediteranean", "Mediteranian", "Medeterranean"],
+    "ans": 0,
+    "source": "BCS 35th"
+  },
+  {
+    "id": 92,
+    "q": "Choose the correct spelling:",
+    "options": ["Nuisance", "Nusance", "Nuicance", "Newisance"],
+    "ans": 0,
+    "source": "BCS 34th"
+  },
+  {
+    "id": 93,
+    "q": "Choose the correct spelling:",
+    "options": ["Permanent", "Permanant", "Permenant", "Parmanent"],
+    "ans": 0,
+    "source": "BCS 33rd"
+  },
+  {
+    "id": 94,
+    "q": "Choose the correct spelling:",
+    "options": ["Rhythm", "Rythm", "Rhythym", "Rhythem"],
+    "ans": 0,
+    "source": "BCS 32nd"
+  },
+  {
+    "id": 95,
+    "q": "Choose the correct spelling:",
+    "options": ["Scissors", "Scisors", "Sissors", "Scissor"],
+    "ans": 0,
+    "source": "BCS 31st"
+  },
+  {
+    "id": 96,
+    "q": "Choose the correct spelling:",
+    "options": ["Technique", "Techenique", "Techneque", "Tecnique"],
+    "ans": 0,
+    "source": "BCS 30th"
+  },
+  {
+    "id": 97,
+    "q": "Choose the correct spelling:",
+    "options": ["Usable", "Useable", "Usible", "Useble"],
+    "ans": 0,
+    "source": "BCS 29th"
+  },
+  {
+    "id": 98,
+    "q": "Choose the correct spelling:",
+    "options": ["Vegetable", "Vegitable", "Vegatable", "Vegetible"],
+    "ans": 0,
+    "source": "BCS 28th"
+  },
+  {
+    "id": 99,
+    "q": "Choose the correct spelling:",
+    "options": ["Weather", "Wether", "Waether", "Weathar"],
+    "ans": 0,
+    "source": "BCS 27th"
+  },
+  {
+    "id": 100,
+    "q": "Choose the correct spelling:",
+    "options": ["Yacht", "Yatch", "Yacth", "Yaght"],
+    "ans": 0,
+    "source": "BCS 26th"
+  }
+]
