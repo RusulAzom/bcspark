@@ -23,6 +23,12 @@ export default function QuickPracticeEngine({ questions, title }) {
     const [selectedSubject, setSelectedSubject] = useState('');
     const [selectedTopic, setSelectedTopic] = useState('');
 
+    // ================negative merking============
+    const [correctCount, setCorrectCount] = useState(0)
+    const [wrongCount, setWrongCount] = useState(0)
+    const [skippedCount, setSkippedCount] = useState(0)
+
+    // ==============user name defult setting=============
     useEffect(() => {
         setUserName(searchParams.get('user') || 'BCSpark');
     }, [searchParams]);
@@ -54,9 +60,16 @@ export default function QuickPracticeEngine({ questions, title }) {
         }
     }, [submitted, time]);
 
+    // handle secelt option
     const handleSelect = (qIndex, optionIndex) => {
         if (submitted) return;
         setAnswers({ ...answers, [qIndex]: optionIndex });
+        const currentQ = questions[qIndex]
+        if (optionIndex === currentQ.ans) {
+            setCorrectCount(prev => prev + 1)
+        } else {
+            setWrongCount(prev => prev + 1)
+        }
     };
 
     const score = questions.filter((q, i) => answers[i] === q.ans).length;
@@ -116,59 +129,59 @@ export default function QuickPracticeEngine({ questions, title }) {
             <div className="max-w-6xl mx-auto p-6">
                 {/* পপআপ মডাল */}
                 {showSetup && (
-<div className="fixed inset-x-0 bottom-0 top-16 bg-black/60 z-30 flex items-center justify-center p-4">                        <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md">
-                            <h2 className="text-2xl font-bold mb-6 text-center">Quick Practice শুরু করো</h2>
+                    <div className="fixed inset-x-0 bottom-0 top-16 bg-black/60 z-30 flex items-center justify-center p-4">                        <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md">
+                        <h2 className="text-2xl font-bold mb-6 text-center">Quick Practice শুরু করো</h2>
 
-                            <div className="mb-4">
-                                <label className="block font-semibold mb-2">পরীক্ষার্থীর নাম: *</label>
-                                <input
-                                    type="text"
-                                    value={userName}
-                                    onChange={(e) => setUserName(e.target.value)}
-                                    placeholder="তোমার নাম লেখো"
-                                    className="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:border-blue-500 outline-none"
-                                />
-                            </div>
+                        <div className="mb-4">
+                            <label className="block font-semibold mb-2">পরীক্ষার্থীর নাম: *</label>
+                            <input
+                                type="text"
+                                value={userName}
+                                onChange={(e) => setUserName(e.target.value)}
+                                placeholder="তোমার নাম লেখো"
+                                className="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:border-blue-500 outline-none"
+                            />
+                        </div>
 
-                            <div className="mb-4">
-                                <label className="block font-semibold mb-2">Subject সিলেক্ট করো ▼</label>
+                        <div className="mb-4">
+                            <label className="block font-semibold mb-2">Subject সিলেক্ট করো ▼</label>
+                            <select
+                                value={selectedSubject}
+                                onChange={(e) => { setSelectedSubject(e.target.value); setSelectedTopic(''); }}
+                                className="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:border-blue-500 outline-none"
+                            >
+                                <option value="">-- সিলেক্ট করো --</option>
+                                <option value="English">English</option>
+                                <option value="Bangla">Bangla</option>
+                                <option value="Math">Math</option>
+                                <option value="GK">GK</option>
+                            </select>
+                        </div>
+
+                        {selectedSubject === 'English' && (
+                            <div className="mb-6">
+                                <label className="block font-semibold mb-2">Topic সিলেক্ট করো ▼</label>
                                 <select
-                                    value={selectedSubject}
-                                    onChange={(e) => { setSelectedSubject(e.target.value); setSelectedTopic(''); }}
+                                    value={selectedTopic}
+                                    onChange={(e) => setSelectedTopic(e.target.value)}
                                     className="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:border-blue-500 outline-none"
                                 >
                                     <option value="">-- সিলেক্ট করো --</option>
-                                    <option value="English">English</option>
-                                    <option value="Bangla">Bangla</option>
-                                    <option value="Math">Math</option>
-                                    <option value="GK">GK</option>
+                                    <option value="Spelling Test">Grammar - Spelling Test ✅ Active</option>
+                                    <option value="Synonyms" disabled>Grammar - Synonyms 🔒 Coming Soon</option>
+                                    <option value="One Word" disabled>Vocabulary - One Word Substitution 🔒 Coming Soon</option>
                                 </select>
                             </div>
+                        )}
 
-                            {selectedSubject === 'English' && (
-                                <div className="mb-6">
-                                    <label className="block font-semibold mb-2">Topic সিলেক্ট করো ▼</label>
-                                    <select
-                                        value={selectedTopic}
-                                        onChange={(e) => setSelectedTopic(e.target.value)}
-                                        className="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:border-blue-500 outline-none"
-                                    >
-                                        <option value="">-- সিলেক্ট করো --</option>
-                                        <option value="Spelling Test">Grammar - Spelling Test ✅ Active</option>
-                                        <option value="Synonyms" disabled>Grammar - Synonyms 🔒 Coming Soon</option>
-                                        <option value="One Word" disabled>Vocabulary - One Word Substitution 🔒 Coming Soon</option>
-                                    </select>
-                                </div>
-                            )}
-
-                            <button
-                                onClick={handleStart}
-                                disabled={!canStart}
-                                className={`w-full py-4 rounded-lg font-bold text-white transition ${canStart ? 'bg-blue-600 hover:bg-blue-700' : 'bg-gray-400 cursor-not-allowed'}`}
-                            >
-                                Start Practice 🚀
-                            </button>
-                        </div>
+                        <button
+                            onClick={handleStart}
+                            disabled={!canStart}
+                            className={`w-full py-4 rounded-lg font-bold text-white transition ${canStart ? 'bg-blue-600 hover:bg-blue-700' : 'bg-gray-400 cursor-not-allowed'}`}
+                        >
+                            Start Practice 🚀
+                        </button>
+                    </div>
                     </div>
                 )}
 
@@ -177,7 +190,7 @@ export default function QuickPracticeEngine({ questions, title }) {
                     <>
                         {/* ==================Top Branding header================= */}
                         <div className="flex items-center justify-between mb-6 pb-4">
-                            
+
                             <div className={`fixed top-4 right-4 z-50 text-xl font-mono px-4 py-2 rounded-lg font-bold shadow-lg ${timerColor}`}>
                                 ⏱️ {time}s
                             </div>
@@ -244,9 +257,8 @@ export default function QuickPracticeEngine({ questions, title }) {
 
                                 <div className="mt-6 p-2 mb-4 rounded-2xl text-white shadow-2xl relative z-10"
                                     style={{
-                                        background: 'linear-gradient(135deg, #1E65B3 0%, #0E1B4D 60%, #1d4ed8 100%)',
-                                        color: '#ffffff'
-                                    }}>
+                                        background: 'linear-gradient(135deg, #E95420 0%, #F9A825 60%, #e956208e 50%)'
+                                     }}>
 
                                     <div className="grid grid-cols-2 gap-4 items-center">
                                         <div className="text-left space-y-3">
@@ -258,12 +270,16 @@ export default function QuickPracticeEngine({ questions, title }) {
                                                 ))}
                                             </div>
 
-                                            <h4 className="text-xl pt-2">
-                                                {submittedByTime ? "⏰ টাইম শেষ!" : `সময় নিয়েছো: ${timeTaken} সেকেন্ড`}
+                                            <h4 className="text-xl mt-2">
+                                                {submittedByTime ? "⏰ টাইম শেষ!" : `⏰সময় নিয়েছো: ${timeTaken} সেকেন্ড`}
                                             </h4>
-
+                                            <p className="flex gap-6 text-xl">
+                                                <span>✅ সঠিক: {correctCount}</span>
+                                                <span>❌ ভুল: {wrongCount}</span>
+                                                <span>⏭️ স্কিপ: {skippedCount}</span>
+                                            </p>
                                             <h3 className="text-2xl font-bold">
-                                                Result: {score}/{questions.length}
+                                                আমোলনামা: {(correctCount - (wrongCount * 0.5)).toFixed(2)} / {questions.length}
                                             </h3>
                                         </div>
 
@@ -300,7 +316,7 @@ export default function QuickPracticeEngine({ questions, title }) {
                                         onClick={downloadJPEG}
                                         className="flex-1 bg-purple-600 text-white py-3 rounded-lg font-semibold hover:bg-purple-700"
                                     >
-                                        📥 JPEG ডাউনলোড করো
+                                        📥 উত্তরপত্র ডাউনলোড করো
                                     </button>
 
                                     {showPracticeBtn && (
