@@ -2,7 +2,7 @@
 import { useState, useEffect, useRef } from 'react';
 import html2canvas from 'html2canvas';
 import { useSearchParams } from 'next/navigation'
-
+import { useRouter } from "next/navigation";
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -28,6 +28,9 @@ export default function QuickPracticeEngine({ questions, title }) {
     const [wrongCount, setWrongCount] = useState(0)
     const [skippedCount, setSkippedCount] = useState(0)
 
+    // ==============topic selecter path============
+    const router = useRouter();
+
     // ==============user name defult setting=============
     useEffect(() => {
         setUserName(searchParams.get('user') || 'BCSpark');
@@ -35,8 +38,30 @@ export default function QuickPracticeEngine({ questions, title }) {
 
     const canStart = userName.trim().length > 0 && selectedSubject && selectedTopic;
 
+    // ===========Topic Selector Handeler===========
+    // const handleStart = () => {
+    //     if (canStart) setShowSetup(false);
+    // };
     const handleStart = () => {
-        if (canStart) setShowSetup(false);
+        if (!canStart) return;
+
+        // English
+        if (
+            selectedSubject === "English" &&
+            selectedTopic === "Spelling Test"
+        ) {
+            router.push("/t20/english/spelling");
+            return;
+        }
+
+        // GK
+        if (
+            selectedSubject === "GK" &&
+            selectedTopic === "All GK"
+        ) {
+            router.push("/t20/gk/all");
+            return;
+        }
     };
 
     // ====== টাইমার ======
@@ -60,7 +85,7 @@ export default function QuickPracticeEngine({ questions, title }) {
         }
     }, [submitted, time]);
 
-    // handle secelt option
+    // ========handle secelt option===============
     const handleSelect = (qIndex, optionIndex) => {
         if (submitted) return;
         setAnswers({ ...answers, [qIndex]: optionIndex });
@@ -127,7 +152,7 @@ export default function QuickPracticeEngine({ questions, title }) {
         <>
             <Navbar />
             <div className="max-w-6xl mx-auto p-6">
-                {/* পপআপ মডাল */}
+                {/* ==========================পপআপ QUIZ SECTOR মডাল============== */}
                 {showSetup && (
                     <div className="fixed inset-x-0 bottom-0 top-16 bg-black/60 z-30 flex items-center justify-center p-4">                        <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md">
                         <h2 className="text-2xl font-bold mb-6 text-center">Quick Practice শুরু করো</h2>
@@ -151,28 +176,77 @@ export default function QuickPracticeEngine({ questions, title }) {
                                 className="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:border-blue-500 outline-none"
                             >
                                 <option value="">-- সিলেক্ট করো --</option>
-                                <option value="English">English</option>
+                                <option value="English"> English</option>
                                 <option value="Bangla">Bangla</option>
                                 <option value="Math">Math</option>
                                 <option value="GK">GK</option>
                             </select>
                         </div>
 
-                        {selectedSubject === 'English' && (
+                        {/* =================selecting subtopics=============== */}
+                        {(selectedSubject === 'English' || selectedSubject === 'GK') && (
                             <div className="mb-6">
-                                <label className="block font-semibold mb-2">Topic সিলেক্ট করো ▼</label>
+                                <label className="block font-semibold mb-2">
+                                    Topic সিলেক্ট করো ▼
+                                </label>
+
                                 <select
                                     value={selectedTopic}
                                     onChange={(e) => setSelectedTopic(e.target.value)}
                                     className="w-full border-2 border-gray-300 rounded-lg px-4 py-3 focus:border-blue-500 outline-none"
                                 >
                                     <option value="">-- সিলেক্ট করো --</option>
-                                    <option value="Spelling Test">Grammar - Spelling Test ✅ Active</option>
-                                    <option value="Synonyms" disabled>Grammar - Synonyms 🔒 Coming Soon</option>
-                                    <option value="One Word" disabled>Vocabulary - One Word Substitution 🔒 Coming Soon</option>
+
+                                    {selectedSubject === 'English' ? (
+                                        <>
+                                            <option value="Spelling Test">
+                                                Grammar - Spelling Test ✅ Active
+                                            </option>
+                                            <option value="Synonyms" disabled>
+                                                Grammar - Synonyms 🔒 Coming Soon
+                                            </option>
+                                            <option value="One Word" disabled>
+                                                Vocabulary - One Word Substitution 🔒 Coming Soon
+                                            </option>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <option value="All GK">
+                                                GK &gt; All Topics ✅ Active
+                                            </option>
+                                            <option value="Bangladesh Affairs" disabled>
+                                                GK &gt; বাংলাদেশ বিষয়াবলি 🔒 Coming Soon
+                                            </option>
+                                            <option value="Language Movement" disabled>
+                                                GK &gt; ভাষা আন্দোলন - মুক্তিযুদ্ধ 🔒 Coming Soon
+                                            </option>
+                                            <option value="Bangladesh Economy" disabled>
+                                                GK &gt; বাংলাদেশের অর্থনীতি 🔒 Coming Soon
+                                            </option>
+                                            <option value="Bangladesh Census" disabled>
+                                                GK &gt; বাংলাদেশের জনশুমারি 🔒 Coming Soon
+                                            </option>
+                                            <option value="Industry & Commerce" disabled>
+                                                GK &gt; বাংলাদেশের শিল্প ও বাণিজ্য 🔒 Coming Soon
+                                            </option>
+                                            <option value="Constitution" disabled>
+                                                GK &gt; বাংলাদেশের সংবিধান 🔒 Coming Soon
+                                            </option>
+                                            <option value="International Affairs" disabled>
+                                                GK &gt; আন্তর্জাতিক বিষয়াবলি 🔒 Coming Soon
+                                            </option>
+                                            <option value="World History" disabled>
+                                                GK &gt; বৈশ্বিক ইতিহাস 🔒 Coming Soon
+                                            </option>
+                                            <option value="Recent Events" disabled>
+                                                GK &gt; সাম্প্রতিক ও ঘটনাপ্রবাহ 🔒 Coming Soon
+                                            </option>
+                                        </>
+                                    )}
                                 </select>
                             </div>
                         )}
+
 
                         <button
                             onClick={handleStart}
@@ -182,6 +256,7 @@ export default function QuickPracticeEngine({ questions, title }) {
                             Start Practice 🚀
                         </button>
                     </div>
+                        {/* ================================Form Select hole Quiz er Part ase nihce================================== */}
                     </div>
                 )}
 
@@ -239,6 +314,7 @@ export default function QuickPracticeEngine({ questions, title }) {
                             })}
                         </div>
 
+                        {/* Answer Submint Button */}
                         {!submitted ? (
                             <button
                                 onClick={() => setSubmitted(true)}
@@ -258,7 +334,7 @@ export default function QuickPracticeEngine({ questions, title }) {
                                 <div className="mt-6 p-2 mb-4 rounded-2xl text-white shadow-2xl relative z-10"
                                     style={{
                                         background: 'linear-gradient(135deg, #E95420 0%, #F9A825 60%, #e956208e 50%)'
-                                     }}>
+                                    }}>
 
                                     <div className="grid grid-cols-2 gap-4 items-center">
                                         <div className="text-left space-y-3">

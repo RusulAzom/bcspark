@@ -1,4 +1,4 @@
-import questions from '../../../data/t20/english/grammar/spelling/spelling.json';
+import questions from '../../../../../data/t20/english/grammar/spelling/spelling.json';
 import QuickPracticeEngine from '@/components/QuickPracticeEngine';
 
 export default function SpellingPage() {
