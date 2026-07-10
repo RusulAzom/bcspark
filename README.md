@@ -35,6 +35,233 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+# 🚀 BCSpark QuickPracticeEngine v2
+
+This guide explains how to add a new quiz to the **QuickPracticeEngine**.
+
+---
+
+# 📂 Step 1: Create Question JSON
+
+Create a new JSON file inside the appropriate topic folder.
+
+Example:
+
+```
+src/data/t20/english/grammar/synonyms/synonyms.json
+```
+
+Each question must follow this structure:
+
+```json
+{
+  "id": 1,
+  "q": "মহাস্থানগড় কোন নদীর তীরে অবস্থিত?",
+  "options": [
+    "পদ্মা",
+    "করতোয়া",
+    "মেঘনা",
+    "যমুনা"
+  ],
+  "ans": 1,
+  "source": "BCS 38th",
+  "topicsId": 111,
+  "explain": "প্রাচীন পুণ্ড্রবর্ধন ভুক্তির রাজধানী মহাস্থানগড় করতোয়া নদীর পশ্চিম তীরে অবস্থিত।"
+}
+```
+
+## Question Fields
+
+| Field | Type | Description |
+|------|------|-------------|
+| id | Number | Unique Question ID |
+| q | String | Question |
+| options | Array | Answer options |
+| ans | Number | Correct answer index (0-based) |
+| source | String | Question source |
+| topicsId | Number | Topic ID |
+| explain | String | Explanation shown after submission |
+
+---
+
+# 📄 Step 2: Create Quiz Page
+
+Create a new page inside the App Router.
+
+Example:
+
+```
+src/app/t20/english/synonyms/page.jsx
+```
+
+Example:
+
+```jsx
+import questions from "@/data/t20/english/grammar/synonyms/synonyms.json";
+import QuickPracticeEngine from "@/components/QuickPracticeEngine";
+
+export default function SynonymsPage() {
+
+    const randomQuestions = [...questions]
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 20);
+
+    return (
+        <QuickPracticeEngine
+            questions={randomQuestions}
+            config={{
+                title: "Grammar - Synonyms",
+                questionLimit: 20,
+                timeLimit: 120,
+                timerDisplay: "seconds"
+            }}
+        />
+    );
+}
+```
+
+---
+
+# 🛣 Step 3: Register Route
+
+Open
+
+```
+src/data/practiceRoutes.js
+```
+
+Add the new quiz inside the correct subject.
+
+Example:
+
+```javascript
+synonyms: {
+    label: "Grammar - Synonyms",
+    route: "/t20/english/synonyms",
+    active: true,
+},
+```
+
+If `active` is set to `false`, the quiz will appear as **Coming Soon**.
+
+---
+
+# ⚙️ Config Options
+
+| Property | Description | Example |
+|----------|-------------|---------|
+| title | Quiz title | "Spelling Test" |
+| questionLimit | Number of questions | 20 |
+| timeLimit | Time in seconds | 120 |
+| timerDisplay | Timer style | "seconds" / "clock" |
+
+Example:
+
+```jsx
+config={{
+    title: "Model Test 01",
+    questionLimit: 200,
+    timeLimit: 7200,
+    timerDisplay: "clock"
+}}
+```
+
+---
+
+# ⏱ Timer Modes
+
+### T20 Practice
+
+```jsx
+timerDisplay: "seconds"
+```
+
+Shows:
+
+```
+118s
+```
+
+---
+
+### Model Test
+
+```jsx
+timerDisplay: "clock"
+```
+
+Shows:
+
+```
+02:00:00
+01:35:45
+00:08:21
+```
+
+---
+
+# 📁 Recommended Folder Structure
+
+```
+src/
+│
+├── app/
+│   └── t20/
+│       ├── english/
+│       └── gk/
+│
+├── components/
+│   └── QuickPracticeEngine.jsx
+│
+└── data/
+    ├── practiceRoutes.js
+    └── t20/
+        ├── english/
+        └── GK/
+```
+
+---
+
+# ✅ Current Features
+
+- Random Question Selection
+- Config Driven Quiz
+- Auto Route Registration
+- Negative Marking
+- Skip Detection
+- Question Explanation
+- Source Display
+- Timer
+- Screenshot Result Card
+- Reusable Quiz Engine
+
+---
+
+# 🔮 Future Support
+
+The engine is designed to support:
+
+- Chapter Practice
+- 50 Question Tests
+- 100 Question Tests
+- 200 Question Model Tests
+- Multiple JSON Question Banks
+- AI Explanation
+- Weak Topic Analysis
+- Analytics Dashboard
+
+---
+
+## 🎉 Done!
+
+After completing these three steps:
+
+1. Create Question JSON
+2. Create `page.jsx`
+3. Register the route
+
+Your new quiz will automatically work with the **QuickPracticeEngine**.
+
 ## Sylebus Topics Code
 1. GK বাংলাদেশ বিষয়াবলি 	২৫ 
 2. GK আন্তজার্তিক বিষয়াবলি 	২৫ 

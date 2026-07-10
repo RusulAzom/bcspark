@@ -75,6 +75,27 @@ const practiceRoutes = {
             },
         },
     },
+
+    Bangla: {
+        label: "Bangla",
+        topics: {
+            all: {
+                label: "BN > বাংলা ভাষা ও সাহিত্য (All Topics)",
+                route: "/t20/bangla/all",
+                active: true,
+            },
+            bakaron1: {
+                label: "BN > ভাষা, প্রয়োগ-অপ্রয়োগ, বানান ও বাক্য শুদ্ধি ..ect ",
+                route: "/t20/bangla/bakaron1",
+                active: false,
+            },
+            bakaron2: {
+                label: "BN > ভাষাতত্ত্ব (শব্দ, ধ্বনি, ....সন্ধি ) ",
+                route: "/t20/bangla/language-movement",
+                active: false,
+            },
+        },
+    },
 };
 
 export default practiceRoutes;

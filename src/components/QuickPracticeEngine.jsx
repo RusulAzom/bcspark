@@ -107,7 +107,7 @@ export default function QuickPracticeEngine({
 
         const dataURL = canvas.toDataURL('image/jpeg', 0.92);
         const link = document.createElement('a');
-        link.download = `BCSparkT20-${score}-${questions.length}.jpg`;
+        link.download = `BCSparkT20-${finalScore.toFixed(2)}-${questions.length}.jpg`;
         link.href = dataURL;
         link.click();
     };
@@ -315,17 +315,20 @@ export default function QuickPracticeEngine({
                                     </div>
                                 </div>
                             </div>
-
+                            {/* ===================Answer Sheets====================== */}
                             <div className="grid grid-cols-2 gap-3 mb-6 relative z-10">
                                 {questions.map((q, i) => (
                                     <div key={q.id} className="border rounded-lg p-2 bg-gray-30">
-                                        <p className="font-semibold text-xs mb-1">প্রশ্ন {i + 1}: {q.q}</p>
+                                        <p className="font-semibold text-xs mb-1">প্রশ্ন {i + 1}: {q.q}
+                                            {/* to show question source */}
+                                            <span className="text-[9px] text-gray-500 mt-0.5"> {q.source} </span>
+                                        </p>
                                         <p className="text-[11px]">উত্তর: {q.options[answers[i]] || 'দাও নাই'}
                                             <span className={`ml-1 font-bold ${answers[i] === q.ans ? 'text-green-600' : 'text-red-600'}`}>
                                                 {answers[i] === q.ans ? '✓' : `✗ ${q.options[q.ans]}`}
                                             </span>
                                         </p>
-                                        <p className="text-[9px] text-gray-500 mt-0.5">Source: {q.source}</p>
+                                        <p className="text-[9px] text-gray-500 mt-0.5">explain: {q.explain}</p>
                                     </div>
                                 ))}
                             </div>
