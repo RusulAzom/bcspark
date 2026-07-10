@@ -1,35 +1,35 @@
 'use client';
-import practiceRoutes from '@/data/practiceRoutes';
 import { useState, useEffect, useRef } from 'react';
 import html2canvas from 'html2canvas';
-import { useSearchParams } from 'next/navigation'
-import { useRouter } from "next/navigation";
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
-export default function QuickPracticeEngine({ questions, title }) {
-    const searchParams = useSearchParams()
+export default function QuickPracticeEngine({
+    questions,
+    config = {}
+}) {
+    const {
+        title = "Quick Practice",
+        questionLimit = 20,
+        timeLimit = 120,
+        timerDisplay = "seconds",
+    } = config;
 
     const [userName, setUserName] = useState("BCSpark");
     const [answers, setAnswers] = useState({});
     const [submitted, setSubmitted] = useState(false);
-    const [time, setTime] = useState(120);
-
+    const [time, setTime] = useState(timeLimit);
     const resultRef = useRef(null);
 
     // =======quiz time keeper ========
-    const [timeTaken, setTimeTaken] = useState(120);
+    const [timeTaken, setTimeTaken] = useState(0);
     const [submittedByTime, setSubmittedByTime] = useState(false);
 
 
     // ================negative merking============
-    const [correctCount, setCorrectCount] = useState(0)
-    const [wrongCount, setWrongCount] = useState(0)
-    const [skippedCount, setSkippedCount] = useState(0)
-
-
-    // ==============topic selecter path============
-    const router = useRouter();
+    const [correctCount, setCorrectCount] = useState(0);
+    const [wrongCount, setWrongCount] = useState(0);
+    const skippedCount = questions.length - Object.keys(answers).length;
 
     // ==========sessionStorage=============
     useEffect(() => {
@@ -58,21 +58,21 @@ export default function QuickPracticeEngine({ questions, title }) {
         return () => clearInterval(timer);
     }, [time, submitted]);
 
-    // ========handle secelt option===============
+    // ===== Calculate total time taken =====
+    useEffect(() => {
+        if (submitted) {
+            setTimeTaken(timeLimit - time);
+        }
+    }, [submitted, time, timeLimit]);
 
     const handleSelect = (qIndex, optionIndex) => {
         if (submitted) return;
-        setAnswers({ ...answers, [qIndex]: optionIndex });
-        const currentQ = questions[qIndex]
-        if (optionIndex === currentQ.ans) {
-            setCorrectCount(prev => prev + 1)
-        } else {
-            setWrongCount(prev => prev + 1)
-        }
-    };
 
-    const score = questions.filter((q, i) => answers[i] === q.ans).length;
-    const showPracticeBtn = (score / questions.length) < 0.9;
+        setAnswers(prev => ({
+            ...prev,
+            [qIndex]: optionIndex,
+        }));
+    };
 
     // =============Download JPEG============
     const downloadJPEG = async () => {
@@ -112,15 +112,91 @@ export default function QuickPracticeEngine({ questions, title }) {
         link.click();
     };
 
-    const getResultMessage = (name) => {
-        if (score === 20) return [`${name}!🔥 আগুন লাগায় দিলা!`, "পুরা ২০ এ ২০!", "তোরে দিয়েই হবে বস, চালায় যা! 🔥"];
-        if (score >= 16) return [`${name}!💪 ভালো স্কোর!`, "আরেকটু পড়লেই টপার।", "নকল ছাইড়া দে এবার 📚"];
-        if (score >= 12) return [`${name}!😎তুই মোটামুটি পাস!`, "কিন্তু এই স্কোরে ক্যাডার হওয়া টাফ আছে", "মামা রাগ করলা নাকি? 😅"];
-        if (score >= 5) return [`${name}!💀 তুই... ফেইল!`, "ভবিষ্যৎ ফকফকা আন্ধার", "সময় আছে, পড়তে বসো এখনই 📖"];
-        return [`🪦 সর্বনাশ, ${name}!`, "লেখাপড়া বাদ দিয়া বিয়ের প্ল্যান নাকি?", "মজা করলাম! উঠো দাঁড়াও! নিচের রিসোর্স দেখো 💪"];
+    //  score and result review
+    const finalScore = correctCount - (wrongCount * 0.5);
+
+    const getResultMessage = (name, score, totalQuestions) => {
+        const percentage = (score / totalQuestions) * 100;
+
+        if (percentage >= 95)
+            return [
+                `🔥 ${name}! আগুন লাগায় দিলা!`,
+                "অসাধারণ! প্রায় ফুল মার্কস!",
+                "এভাবেই চালিয়ে যাও! 🚀"
+            ];
+
+        if (percentage >= 80)
+            return [
+                `💪 ${name}! দারুণ করেছো!`,
+                "আর একটু চর্চা করলে টপার!",
+                "চালিয়ে যাও 📚"
+            ];
+
+        if (percentage >= 60)
+            return [
+                `😎 ${name}! ভালোই হচ্ছে!`,
+                "আরেকটু মনোযোগ দিলে আরও ভালো হবে।",
+                "হাল ছেড়ো না 💯"
+            ];
+
+        if (percentage >= 35)
+            return [
+                `🙂 ${name}! উন্নতির সুযোগ আছে।`,
+                "নিয়মিত প্র্যাকটিস করো।",
+                "তুমি পারবে! 💪"
+            ];
+
+        return [
+            `🪦 সর্বনাশ, ${name}!`,
+            "লেখাপড়া বাদ দিয়া বিয়ের প্ল্যান নাকি?",
+            "মজা করলাম! উঠো দাঁড়াও! নিচের রিসোর্স দেখো 💪"
+        ];
     };
 
+    // ======== Timer Formatter =========
+    const formatTimer = (seconds) => {
+
+        // T20 Mode (show seconds)
+        if (timerDisplay === "t20") {
+            return `${seconds}s`;
+        }
+
+        // Clock Mode
+        const hours = Math.floor(seconds / 3600);
+        const minutes = Math.floor((seconds % 3600) / 60);
+        const secs = seconds % 60;
+
+        // 1 hour or more → HH:MM:SS
+        if (hours > 0) {
+            return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+        }
+
+        // Less than 1 hour → MM:SS
+        return `${String(minutes).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+    };
+    // warning color 
     const timerColor = time <= 10 ? 'bg-red-200 text-red-900 animate-pulse' : 'bg-red-100 text-red-900';
+
+    // submit handeler 
+    const handleSubmit = () => {
+        let correct = 0;
+        let wrong = 0;
+
+        Object.entries(answers).forEach(([questionIndex, selectedOption]) => {
+            const question = questions[questionIndex];
+
+            if (Number(selectedOption) === question.ans) {
+                correct++;
+            } else {
+                wrong++;
+            }
+        });
+
+        setCorrectCount(correct);
+        setWrongCount(wrong);
+
+        setSubmitted(true);
+    };
 
     return (
         <>
@@ -133,7 +209,7 @@ export default function QuickPracticeEngine({ questions, title }) {
                     <div className="flex items-center justify-between mb-6 pb-4">
 
                         <div className={`fixed top-20 right-4 z-50 text-xl font-mono px-4 py-2 rounded-lg font-bold shadow-lg ${timerColor}`}>
-                            ⏱️ {time}s
+                            ⏱️ {formatTimer(time)}
                         </div>
                     </div>
 
@@ -183,7 +259,7 @@ export default function QuickPracticeEngine({ questions, title }) {
                     {/* Answer Submint Button */}
                     {!submitted ? (
                         <button
-                            onClick={() => setSubmitted(true)}
+                            onClick={handleSubmit}
                             className="mt-8 w-full bg-blue-600 text-white py-4 rounded-lg text-xl font-bold hover:bg-blue-700"
                         >
                             Submit করো
@@ -206,7 +282,7 @@ export default function QuickPracticeEngine({ questions, title }) {
                                 <div className="grid grid-cols-2 gap-4 items-center">
                                     <div className="text-left space-y-3">
                                         <div className="space-y-2">
-                                            {getResultMessage(userName).map((line, index) => (
+                                            {getResultMessage(userName, finalScore, questions.length).map((line, index) => (
                                                 <p key={index} className={`font-bold ${index === 0 ? "text-2xl" : "text-lg opacity-90"}`}>
                                                     {line}
                                                 </p>
@@ -222,7 +298,7 @@ export default function QuickPracticeEngine({ questions, title }) {
                                             <span>⏭️ স্কিপ: {skippedCount}</span>
                                         </p>
                                         <h3 className="text-2xl font-bold">
-                                            আমোলনামা: {(correctCount - (wrongCount * 0.5)).toFixed(2)} / {questions.length}
+                                            আমোলনামা: {finalScore.toFixed(2)} / {questions.length}
                                         </h3>
                                     </div>
 
@@ -262,14 +338,13 @@ export default function QuickPracticeEngine({ questions, title }) {
                                     📥 উত্তরপত্র ডাউনলোড করো
                                 </button>
 
-                                {showPracticeBtn && (
-                                    <button
-                                        onClick={() => window.location.reload()}
-                                        className="flex-1 bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700"
-                                    >
-                                        🔄 আবার Practice দাও
-                                    </button>
-                                )}
+                                <button
+                                    onClick={() => window.location.reload()}
+                                    className="flex-1 bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700"
+                                >
+                                    🔄 আবার Practice দাও
+                                </button>
+
                             </div>
 
                             <div className="mt-6 pt-4 border-t text-center relative z-10">
