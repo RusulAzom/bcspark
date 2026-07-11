@@ -7,14 +7,14 @@ const practiceRoutes = {
                 route: "/t20/english/spelling",
                 active: true,
             },
+            oneword: {
+                label: "Vocabulary - One Word Substitution",
+                route: "/t20/english/vocabulary",
+                active: true,
+            },
             synonyms: {
                 label: "Grammar - Synonyms",
                 route: "/t20/english/synonyms",
-                active: false,
-            },
-            oneword: {
-                label: "Vocabulary - One Word Substitution",
-                route: "/t20/english/one-word",
                 active: false,
             },
         },

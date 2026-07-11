@@ -1,0 +1,1172 @@
+[
+  {
+    "id": 1,
+    "q": "Verdant শব্দের অর্থ কি?",
+    "options": ["সবুজ, শ্যামল", "শুষ্ক, রুক্ষ", "ধূসর", "পাথুরে"],
+    "ans": 0,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Verdant অর্থ সবুজ/শ্যামল। সমার্থক শব্দ (Synonyms): Green, Lush। বিপরীত শব্দ (Antonyms): Barren, Arid- অনুর্বর, শুষ্ক।"
+  },
+  {
+    "id": 2,
+    "q": "Cunning শব্দের অর্থ কি?",
+    "options": ["সরল, নির্বোধ", "চতুর, ধূর্ত", "উদার", "সাহসী"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Cunning অর্থ চতুর/ধূর্ত। সমার্থক শব্দ (Synonyms): Crafty, Devious, Sly। বিপরীত শব্দ (Antonyms): Naive, Ingenuous- সরল, অকপট।"
+  },
+  {
+    "id": 3,
+    "q": "Gargantuan শব্দের অর্থ কি?",
+    "options": ["ক্ষুদ্র", "মাঝারি", "খুব বড়", "সংকুচিত"],
+    "ans": 2,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Gargantuan অর্থ খুব বড়/বিশাল। সমার্থক শব্দ (Synonyms): Colossal, Immense, Vast। বিপরীত শব্দ (Antonyms): Tiny, Minuscule- ক্ষুদ্র।"
+  },
+  {
+    "id": 4,
+    "q": "Abhorrent শব্দের অর্থ কি?",
+    "options": ["আনন্দদায়ক", "ঘৃণাপূর্ণ, জঘন্য", "প্রিয়", "নিরপেক্ষ"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Abhorrent অর্থ ঘৃণাপূর্ণ/জঘন্য। সমার্থক শব্দ (Synonyms): Repugnant, Detestable, Vile। বিপরীত শব্দ (Antonyms): Delightful, Pleasing- আনন্দদায়ক, প্রীতিকর।"
+  },
+  {
+    "id": 5,
+    "q": "Abundance শব্দের অর্থ কি?",
+    "options": ["অভাব", "আধিক্য, প্রাচুর্য", "সংকট", "নিঃস্বতা"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Abundance অর্থ আধিক্য/প্রাচুর্য। সমার্থক শব্দ (Synonyms): Plenty, Opulence, Profusion। বিপরীত শব্দ (Antonyms): Scarcity, Dearth- অভাব, স্বল্পতা।"
+  },
+  {
+    "id": 6,
+    "q": "Feeble শব্দের অর্থ কি?",
+    "options": ["শক্তিশালী", "দুর্বল", "কঠোর", "স্থির"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Feeble অর্থ দুর্বল। সমার্থক শব্দ (Synonyms): Weak, Frail, Fragile। বিপরীত শব্দ (Antonyms): Robust, Sturdy- শক্তিশালী, মজবুত।"
+  },
+  {
+    "id": 7,
+    "q": "Persistent শব্দের অর্থ কি?",
+    "options": ["ক্ষণস্থায়ী", "উদাসীন", "নাছোড়বান্দা", "অনিশ্চিত"],
+    "ans": 2,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Persistent অর্থ নাছোড়বান্দা/অবিচল। সমার্থক শব্দ (Synonyms): Tenacious, Relentless, Insistent। বিপরীত শব্দ (Antonyms): Fickle, Irresolute- চঞ্চল, দ্বিধাগ্রস্ত।"
+  },
+  {
+    "id": 8,
+    "q": "Astute শব্দের অর্থ কি?",
+    "options": ["বোকা", "জ্ঞানী, বিচক্ষণ", "উদাসীন", "অসতর্ক"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Astute অর্থ জ্ঞানী/বিচক্ষণ। সমার্থক শব্দ (Synonyms): Shrewd, Perceptive, Sagacious। বিপরীত শব্দ (Antonyms): Naive, Foolish- সরল, বোকা।"
+  },
+  {
+    "id": 9,
+    "q": "Valiant শব্দের অর্থ কি?",
+    "options": ["ভীরু", "সাহসী", "লাজুক", "অলস"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Valiant অর্থ সাহসী। সমার্থক শব্দ (Synonyms): Brave, Courageous, Gallant। বিপরীত শব্দ (Antonyms): Cowardly, Timid- ভীরু, কাপুরুষোচিত।"
+  },
+  {
+    "id": 10,
+    "q": "Devious শব্দের অর্থ কি?",
+    "options": ["সরল, সোজা", "আঁকাবাঁকা, কুটিল", "স্বচ্ছ", "সৎ"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Devious অর্থ আঁকাবাঁকা/কুটিল। সমার্থক শব্দ (Synonyms): Deceitful, Underhand, Crooked। বিপরীত শব্দ (Antonyms): Honest, Straightforward- সৎ, সরল।"
+  },
+  {
+    "id": 11,
+    "q": "Sagacious শব্দের অর্থ কি?",
+    "options": ["মূর্খ", "জ্ঞানী, প্রখর বুদ্ধিসম্পন্ন", "অস্থির", "নিষ্ঠুর"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Sagacious অর্থ জ্ঞানী/প্রখর বুদ্ধিসম্পন্ন। সমার্থক শব্দ (Synonyms): Wise, Prudent, Judicious। বিপরীত শব্দ (Antonyms): Foolish, Imprudent- মূর্খ, অবিবেচক।"
+  },
+  {
+    "id": 12,
+    "q": "Acumen শব্দের অর্থ কি?",
+    "options": ["সূক্ষ্ম বিচারশক্তি", "অজ্ঞতা", "অলসতা", "বিভ্রান্তি"],
+    "ans": 0,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Acumen অর্থ সূক্ষ্ম বিচারশক্তি/তীক্ষ্ণ বুদ্ধি। সমার্থক শব্দ (Synonyms): Insight, Discernment, Shrewdness। বিপরীত শব্দ (Antonyms): Ignorance, Obtuseness- অজ্ঞতা, স্থূলবুদ্ধি।"
+  },
+  {
+    "id": 13,
+    "q": "Arrogant শব্দের অর্থ কি?",
+    "options": ["বিনয়ী", "অহংকারী", "লজ্জাশীল", "সহনশীল"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Arrogant অর্থ অহংকারী। সমার্থক শব্দ (Synonyms): Haughty, Conceited, Pompous। বিপরীত শব্দ (Antonyms): Humble, Modest- বিনয়ী, নম্র।"
+  },
+  {
+    "id": 14,
+    "q": "Indispensable শব্দের বিপরীত শব্দ (Antonym) কোনটি?",
+    "options": ["Essential", "Dispensable", "Vital", "Crucial"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Indispensable অর্থ অপরিহার্য। বিপরীত শব্দ (Antonym): Dispensable- পরিহারযোগ্য, যা ছাড়া চলে। সমার্থক শব্দ (Synonyms): Essential, Vital, Crucial।"
+  },
+  {
+    "id": 15,
+    "q": "Belittle শব্দের অর্থ কি?",
+    "options": ["প্রশংসা করা", "ছোট করা, তুচ্ছ করা", "সাহায্য করা", "সম্মান করা"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Belittle অর্থ ছোট করা/তুচ্ছ করা। সমার্থক শব্দ (Synonyms): Disparage, Demean, Deride। বিপরীত শব্দ (Antonyms): Praise, Extol- প্রশংসা করা।"
+  },
+  {
+    "id": 16,
+    "q": "The antonym of the word 'Rigid' is-",
+    "options": ["Flexible", "Strict", "Stiff", "Firm"],
+    "ans": 0,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Rigid অর্থ কঠোর/অনমনীয়। বিপরীত শব্দ (Antonym): Flexible- নমনীয়। সমার্থক শব্দ (Synonyms): Stiff, Firm, Inflexible।"
+  },
+  {
+    "id": 17,
+    "q": "Obscure শব্দের অর্থ কি?",
+    "options": ["সুস্পষ্ট", "অন্ধকার, গোপন", "উজ্জ্বল", "প্রকাশ্য"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Obscure অর্থ অন্ধকার/গোপন/অস্পষ্ট। সমার্থক শব্দ (Synonyms): Vague, Ambiguous, Unclear। বিপরীত শব্দ (Antonyms): Clear, Evident- সুস্পষ্ট, প্রকাশ্য।"
+  },
+  {
+    "id": 18,
+    "q": "Despair শব্দের অর্থ কি?",
+    "options": ["আশা", "হতাশা", "আনন্দ", "উৎসাহ"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Despair অর্থ হতাশা। সমার্থক শব্দ (Synonyms): Hopelessness, Despondency, Anguish। বিপরীত শব্দ (Antonyms): Hope, Optimism- আশা, আশাবাদ।"
+  },
+  {
+    "id": 19,
+    "q": "Melancholy শব্দের অর্থ কি?",
+    "options": ["আনন্দ", "দুঃখ, বিষণ্নতা", "উত্তেজনা", "শান্তি"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Melancholy অর্থ দুঃখ/বিষণ্নতা। সমার্থক শব্দ (Synonyms): Sorrow, Gloom, Sadness। বিপরীত শব্দ (Antonyms): Joy, Cheerfulness- আনন্দ, উল্লাস।"
+  },
+  {
+    "id": 20,
+    "q": "Reticent শব্দের অর্থ কি?",
+    "options": ["বাচাল", "স্বল্পভাষী", "রাগী", "উদ্ধত"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Reticent অর্থ স্বল্পভাষী/অন্তর্মুখী। সমার্থক শব্দ (Synonyms): Reserved, Taciturn, Quiet। বিপরীত শব্দ (Antonyms): Garrulous, Talkative- বাচাল, কথাবার্তায় পটু।"
+  },
+  {
+    "id": 21,
+    "q": "Amiable শব্দের অর্থ কি?",
+    "options": ["শত্রুভাবাপন্ন", "বন্ধুত্বপূর্ণ", "নির্মম", "উদাসীন"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Amiable অর্থ বন্ধুত্বপূর্ণ/সদাশয়। সমার্থক শব্দ (Synonyms): Friendly, Genial, Amicable। বিপরীত শব্দ (Antonyms): Hostile, Unfriendly- শত্রুভাবাপন্ন।"
+  },
+  {
+    "id": 22,
+    "q": "Turmoil শব্দের অর্থ কি?",
+    "options": ["শান্তি", "অস্থিরতা, গোলযোগ", "স্থিরতা", "সামঞ্জস্য"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Turmoil অর্থ অস্থিরতা/গোলযোগ। সমার্থক শব্দ (Synonyms): Chaos, Upheaval, Disorder। বিপরীত শব্দ (Antonyms): Calm, Tranquility- শান্তি, প্রশান্তি।"
+  },
+  {
+    "id": 23,
+    "q": "Suppress শব্দের অর্থ কি?",
+    "options": ["প্রকাশ করা", "চেপে রাখা, দমন করা", "বৃদ্ধি করা", "মুক্ত করা"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Suppress অর্থ চেপে রাখা/দমন করা। সমার্থক শব্দ (Synonyms): Repress, Subdue, Quell। বিপরীত শব্দ (Antonyms): Release, Reveal- প্রকাশ করা, মুক্ত করা।"
+  },
+  {
+    "id": 24,
+    "q": "Eternal শব্দের অর্থ কি?",
+    "options": ["ক্ষণস্থায়ী", "চিরন্তন", "অস্থায়ী", "সীমিত"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Eternal অর্থ চিরন্তন/অনন্ত। সমার্থক শব্দ (Synonyms): Everlasting, Perpetual, Endless। বিপরীত শব্দ (Antonyms): Temporary, Transient- ক্ষণস্থায়ী, অস্থায়ী।"
+  },
+  {
+    "id": 25,
+    "q": "Evasive শব্দের অর্থ কি?",
+    "options": ["সরাসরি, স্পষ্ট", "এড়িয়ে যায় এমন", "আন্তরিক", "নির্ভরযোগ্য"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Evasive অর্থ এড়িয়ে যায় এমন/অস্পষ্ট উত্তরদাতা। সমার্থক শব্দ (Synonyms): Elusive, Vague, Non-committal। বিপরীত শব্দ (Antonyms): Direct, Candid- সরাসরি, অকপট।"
+  },
+  {
+    "id": 26,
+    "q": "Conceal শব্দের অর্থ কি?",
+    "options": ["প্রকাশ করা", "গোপন করা", "সংগ্রহ করা", "বিতরণ করা"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Conceal অর্থ গোপন করা/লুকানো। সমার্থক শব্দ (Synonyms): Hide, Disguise, Camouflage। বিপরীত শব্দ (Antonyms): Reveal, Expose- প্রকাশ করা।"
+  },
+  {
+    "id": 27,
+    "q": "Autocrat শব্দের অর্থ কি?",
+    "options": ["গণতান্ত্রিক শাসক", "একনায়ক, স্বৈরশাসক", "প্রজা", "মন্ত্রী"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Autocrat অর্থ একনায়ক/স্বৈরশাসক। সমার্থক শব্দ (Synonyms): Dictator, Tyrant, Despot। বিপরীত শব্দ (Antonyms): Democrat- গণতন্ত্রী।"
+  },
+  {
+    "id": 28,
+    "q": "Exorbitant শব্দের অর্থ কি?",
+    "options": ["যুক্তিসঙ্গত", "অতিরিক্ত", "স্বল্প", "নির্ধারিত"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Exorbitant অর্থ অতিরিক্ত/মাত্রাতিরিক্ত (সাধারণত দাম প্রসঙ্গে)। সমার্থক শব্দ (Synonyms): Excessive, Extortionate, Steep। বিপরীত শব্দ (Antonyms): Reasonable, Moderate- যুক্তিসঙ্গত।"
+  },
+  {
+    "id": 29,
+    "q": "Artifice শব্দের অর্থ কি?",
+    "options": ["সততা", "নকল, কৃত্রিম কৌশল", "সাহায্য", "বিশ্বাস"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Artifice অর্থ নকল/কৃত্রিম কৌশল/চতুরতা। সমার্থক শব্দ (Synonyms): Trickery, Ruse, Stratagem। বিপরীত শব্দ (Antonyms): Honesty, Sincerity- সততা, আন্তরিকতা।"
+  },
+  {
+    "id": 30,
+    "q": "Vicious শব্দের অর্থ কি?",
+    "options": ["দয়ালু", "ঘৃণ্য, নিষ্ঠুর", "নম্র", "শান্ত"],
+    "ans": 1,
+    "source": "BCS Vocabulary Practice",
+    "topicsId": 437,
+    "explain": "Vicious অর্থ ঘৃণ্য/নিষ্ঠুর। সমার্থক শব্দ (Synonyms): Brutal, Savage, Malicious। বিপরীত শব্দ (Antonyms): Gentle, Kind- দয়ালু, ভদ্র।"
+  },
+  {
+    "id": 31,
+    "q": "Verdant শব্দের অর্থ কি?",
+    "options": ["শুষ্ক", "সবুজ, শ্যামল", "বন্ধ্যা", "পাথুরে"],
+    "ans": 1,
+    "source": "39th BCS",
+    "topicsId": 437,
+    "explain": "Verdant অর্থ সবুজ, তরতাজা, ঘাসে ঢাকা। Synonyms: Lush, Green, Grassy। Antonyms: Barren, Arid - শুষ্ক, বন্ধ্যা।"
+  },
+  {
+    "id": 32,
+    "q": "Indolent শব্দের অর্থ কি?",
+    "options": ["পরিশ্রমী", "অলস, কর্মবিমুখ", "চতুর", "সাহসী"],
+    "ans": 1,
+    "source": "40th BCS",
+    "topicsId": 437,
+    "explain": "Indolent অর্থ অলস, কুঁড়ে। Synonyms: Lazy, Slothful, Idle। Antonyms: Industrious, Diligent - পরিশ্রমী।"
+  },
+  {
+    "id": 33,
+    "q": "Industrious শব্দের অর্থ কি?",
+    "options": ["অলস", "পরিশ্রমী, কর্মঠ", "অসৎ", "ভীরু"],
+    "ans": 1,
+    "source": "38th BCS",
+    "topicsId": 437,
+    "explain": "Industrious অর্থ কঠোর পরিশ্রমী। Synonyms: Diligent, Hardworking, Assiduous। Antonyms: Indolent, Lazy - অলস।"
+  },
+  {
+    "id": 34,
+    "q": "Indefatigably শব্দের অর্থ কি?",
+    "options": ["ক্লান্তভাবে", "অক্লান্তভাবে", "দ্রুত", "ধীরে"],
+    "ans": 1,
+    "source": "Bank Job Exam 2022",
+    "topicsId": 437,
+    "explain": "Indefatigably অর্থ অক্লান্তভাবে, ক্লান্তিহীনভাবে। Synonyms: Tirelessly, Persistently। Antonyms: Weary, Exhausted - ক্লান্ত।"
+  },
+  {
+    "id": 35,
+    "q": "Scorching শব্দের অর্থ কি?",
+    "options": ["বরফশীতল", "প্রচণ্ড গরম, দগ্ধকারী", "স্যাঁতসেঁতে", "মৃদু"],
+    "ans": 1,
+    "source": "41st BCS",
+    "topicsId": 437,
+    "explain": "Scorching অর্থ অত্যন্ত গরম, ঝলসানো। Synonyms: Blazing, Searing, Sweltering। Antonyms: Frigid, Freezing - হিমশীতল।"
+  },
+  {
+    "id": 36,
+    "q": "Persevered শব্দের অর্থ কি?",
+    "options": ["হাল ছেড়ে দেওয়া", "অধ্যবসায় চালিয়ে যাওয়া", "পালিয়ে যাওয়া", "অবহেলা করা"],
+    "ans": 1,
+    "source": "36th BCS",
+    "topicsId": 437,
+    "explain": "Persevere অর্থ অধ্যবসায়ের সাথে লেগে থাকা। Synonyms: Persist, Endure, Continue। Antonyms: Surrender, Quit - হাল ছেড়ে দেওয়া।"
+  },
+  {
+    "id": 37,
+    "q": "Arduous শব্দের অর্থ কি?",
+    "options": ["সহজ", "কষ্টসাধ্য, পরিশ্রমসাধ্য", "আনন্দদায়ক", "সংক্ষিপ্ত"],
+    "ans": 1,
+    "source": "42nd BCS",
+    "topicsId": 437,
+    "explain": "Arduous অর্থ কঠিন, দুঃসাধ্য। Synonyms: Difficult, Laborious, Strenuous। Antonyms: Easy, Effortless - সহজ।"
+  },
+  {
+    "id": 38,
+    "q": "Imminent শব্দের অর্থ কি?",
+    "options": ["অতীত", "আসন্ন, ঘটতে যাচ্ছে", "অসম্ভব", "দূরবর্তী"],
+    "ans": 1,
+    "source": "37th BCS",
+    "topicsId": 437,
+    "explain": "Imminent অর্থ যা খুব শীঘ্রই ঘটবে। Synonyms: Impending, Approaching, Near। Antonyms: Distant, Remote - দূরবর্তী।"
+  },
+  {
+    "id": 39,
+    "q": "Frivolous শব্দের অর্থ কি?",
+    "options": ["গুরুত্বপূর্ণ", "তুচ্ছ, হালকা", "গম্ভীর", "প্রয়োজনীয়"],
+    "ans": 1,
+    "source": "43rd BCS",
+    "topicsId": 437,
+    "explain": "Frivolous অর্থ গুরুত্বহীন, ছেলেমানুষি। Synonyms: Trivial, Silly, Petty। Antonyms: Serious, Important - গুরুত্বপূর্ণ।"
+  },
+  {
+    "id": 40,
+    "q": "Admonition শব্দের অর্থ কি?",
+    "options": ["প্রশংসা", "সতর্কবাণী, তিরস্কার", "পুরস্কার", "আমন্ত্রণ"],
+    "ans": 1,
+    "source": "Combined Bank 2021",
+    "topicsId": 437,
+    "explain": "Admonition অর্থ মৃদু তিরস্কার বা সতর্কীকরণ। Synonyms: Warning, Reprimand, Caution। Antonyms: Praise, Commendation - প্রশংসা।"
+  },
+  {
+    "id": 41,
+    "q": "Disdain শব্দের অর্থ কি?",
+    "options": ["শ্রদ্ধা", "ঘৃণা, অবজ্ঞা", "ভালোবাসা", "সমর্থন"],
+    "ans": 1,
+    "source": "35th BCS",
+    "topicsId": 437,
+    "explain": "Disdain অর্থ তীব্র অবজ্ঞা, ঘৃণা। Synonyms: Contempt, Scorn, Despise। Antonyms: Respect, Admiration - শ্রদ্ধা।"
+  },
+  {
+    "id": 42,
+    "q": "Frigid শব্দের অর্থ কি?",
+    "options": ["উষ্ণ", "প্রচণ্ড ঠাণ্ডা, হিমশীতল", "গরম", "নাতিশীতোষ্ণ"],
+    "ans": 1,
+    "source": "44th BCS",
+    "topicsId": 437,
+    "explain": "Frigid অর্থ অত্যন্ত ঠাণ্ডা। Synonyms: Freezing, Icy, Arctic। Antonyms: Scorching, Hot - প্রচণ্ড গরম।"
+  },
+  {
+    "id": 43,
+    "q": "Famine শব্দের অর্থ কি?",
+    "options": ["প্রাচুর্য", "দুর্ভিক্ষ, খাদ্যাভাব", "উৎসব", "বন্যা"],
+    "ans": 1,
+    "source": "DU Admission Test",
+    "topicsId": 437,
+    "explain": "Famine অর্থ দুর্ভিক্ষ, তীব্র খাদ্য সংকট। Synonyms: Starvation, Scarcity, Dearth। Antonyms: Abundance, Plenty - প্রাচুর্য।"
+  },
+  {
+    "id": 44,
+    "q": "Provident শব্দের অর্থ কি?",
+    "options": ["অপচয়ী", "দূরদর্শী, মিতব্যয়ী", "অলস", "বেপরোয়া"],
+    "ans": 1,
+    "source": "45th BCS",
+    "topicsId": 437,
+    "explain": "Provident অর্থ ভবিষ্যতের জন্য সঞ্চয়ী, দূরদর্শী। Synonyms: Prudent, Frugal, Foresighted। Antonyms: Wasteful, Prodigal - অপচয়ী।"
+  },
+  {
+    "id": 45,
+    "q": "Destitution শব্দের অর্থ কি?",
+    "options": ["ধনী", "চরম দারিদ্র্য, নিঃস্বতা", "সুখ", "ক্ষমতা"],
+    "ans": 1,
+    "source": "34th BCS",
+    "topicsId": 437,
+    "explain": "Destitution অর্থ চরম অভাব, কপর্দকহীন অবস্থা। Synonyms: Poverty, Penury, Indigence। Antonyms: Affluence, Wealth - ধনাঢ্যতা।"
+  },
+  {
+    "id": 46,
+    "q": "Procrastinate শব্দের অর্থ কি?",
+    "options": ["দ্রুত করা", "দীর্ঘসূত্রিতা করা, ফেলে রাখা", "শুরু করা", "শেষ করা"],
+    "ans": 1,
+    "source": "46th BCS",
+    "topicsId": 437,
+    "explain": "Procrastinate অর্থ কাজে গড়িমসি করা। Synonyms: Delay, Postpone, Defer। Antonyms: Expedite, Hasten - ত্বরান্বিত করা।"
+  },
+  {
+    "id": 47,
+    "q": "Magnanimous শব্দের অর্থ কি?",
+    "options": ["ক্ষুদ্রমনা", "মহানুভব, ক্ষমাশীল", "নিষ্ঠুর", "লোভী"],
+    "ans": 1,
+    "source": "Bank Job 2023",
+    "topicsId": 437,
+    "explain": "Magnanimous অর্থ উদার, মহৎপ্রাণ। Synonyms: Generous, Noble, Benevolent। Antonyms: Petty, Vindictive - ক্ষুদ্রমনা, প্রতিহিংসাপরায়ণ।"
+  },
+  {
+    "id": 48,
+    "q": "Sagacious শব্দের অর্থ কি?",
+    "options": ["বোকা", "বিচক্ষণ, জ্ঞানী", "পাগল", "শিশুসুলভ"],
+    "ans": 1,
+    "source": "33rd BCS",
+    "topicsId": 437,
+    "explain": "Sagacious অর্থ তীক্ষ্ণবুদ্ধিসম্পন্ন, দূরদর্শী। Synonyms: Wise, Shrewd, Prudent। Antonyms: Foolish, Stupid - বোকা।"
+  },
+  {
+    "id": 49,
+    "q": "Petrified শব্দের অর্থ কি?",
+    "options": ["আনন্দিত", "ভয়ে পাথর হয়ে যাওয়া", "রাগান্বিত", "উত্তেজিত"],
+    "ans": 1,
+    "source": "NSI AD Exam",
+    "topicsId": 437,
+    "explain": "Petrified অর্থ আতঙ্কে জমে যাওয়া। Synonyms: Terrified, Horrified, Stunned। Antonyms: Calm, Composed - শান্ত।"
+  },
+  {
+    "id": 50,
+    "q": "Infuriated শব্দের অর্থ কি?",
+    "options": ["খুশি", "প্রচণ্ড ক্রুদ্ধ", "দুঃখিত", "বিরক্ত"],
+    "ans": 1,
+    "source": "41st BCS",
+    "topicsId": 437,
+    "explain": "Infuriate অর্থ অত্যন্ত রাগান্বিত করা। Synonyms: Enrage, Incense, Anger। Antonyms: Pacify, Calm - শান্ত করা।"
+  },
+  {
+    "id": 51,
+    "q": "Exonerate শব্দের অর্থ কি?",
+    "options": ["দোষী করা", "দোষমুক্ত করা, ক্ষমা করা", "শাস্তি দেওয়া", "অভিযোগ করা"],
+    "ans": 1,
+    "source": "43rd BCS",
+    "topicsId": 437,
+    "explain": "Exonerate অর্থ দায়মুক্তি দেওয়া। Synonyms: Absolve, Acquit, Pardon। Antonyms: Convict, Blame - দোষী সাব্যস্ত করা।"
+  },
+  {
+    "id": 52,
+    "q": "Derisive শব্দের অর্থ কি?",
+    "options": ["প্রশংসাসূচক", "বিদ্রূপাত্মক, উপহাসমূলক", "সম্মানজনক", "সহানুভূতিশীল"],
+    "ans": 1,
+    "source": "Senior Officer Bank 2022",
+    "topicsId": 437,
+    "explain": "Derisive অর্থ উপহাসকারী। Synonyms: Mocking, Ridiculing, Scornful। Antonyms: Respectful, Admiring - শ্রদ্ধাপূর্ণ।"
+  },
+  {
+    "id": 53,
+    "q": "Clandestinely শব্দের অর্থ কি?",
+    "options": ["প্রকাশ্যে", "গোপনে, লুকিয়ে", "দ্রুত", "জোরে"],
+    "ans": 1,
+    "source": "40th BCS",
+    "topicsId": 437,
+    "explain": "Clandestine অর্থ গোপনীয়, চুপিসারে করা। Synonyms: Secretly, Covertly, Surreptitiously। Antonyms: Openly, Publicly - প্রকাশ্যে।"
+  },
+  {
+    "id": 54,
+    "q": "Futile শব্দের অর্থ কি?",
+    "options": ["সফল", "বৃথা, নিষ্ফল", "উপকারী", "গুরুত্বপূর্ণ"],
+    "ans": 1,
+    "source": "38th BCS",
+    "topicsId": 437,
+    "explain": "Futile অর্থ ব্যর্থ, অর্থহীন। Synonyms: Useless, Vain, Pointless। Antonyms: Effective, Fruitful - ফলপ্রসূ।"
+  },
+  {
+    "id": 55,
+    "q": "Assiduously শব্দের অর্থ কি?",
+    "options": ["অলসভাবে", "অধ্যবসায়ের সাথে", "অনিচ্ছায়", "এলোমেলোভাবে"],
+    "ans": 1,
+    "source": "44th BCS",
+    "topicsId": 437,
+    "explain": "Assiduous অর্থ অত্যন্ত মনোযোগী ও পরিশ্রমী। Synonyms: Diligently, Sedulously, Industriously। Antonyms: Lazily, Carelessly - অলসভাবে।"
+  },
+  {
+    "id": 56,
+    "q": "Emancipated শব্দের অর্থ কি?",
+    "options": ["বন্দী করা", "মুক্ত করা, স্বাধীন করা", "শাসন করা", "দমন করা"],
+    "ans": 1,
+    "source": "45th BCS",
+    "topicsId": 437,
+    "explain": "Emancipate অর্থ দাসত্ব বা বন্ধন থেকে মুক্তি দেওয়া। Synonyms: Liberate, Free, Release। Antonyms: Enslave, Imprison - দাস বানানো।"
+  },
+  {
+    "id": 57,
+    "q": "Belligerent শব্দের অর্থ কি?",
+    "options": ["শান্তিপ্রিয়", "যুদ্ধংদেহী, ঝগড়াটে", "ভীতু", "বন্ধুত্বপূর্ণ"],
+    "ans": 1,
+    "source": "42nd BCS",
+    "topicsId": 437,
+    "explain": "Belligerent অর্থ আক্রমণাত্মক, মারমুখী। Synonyms: Hostile, Aggressive, Pugnacious। Antonyms: Peaceful, Friendly - শান্তিপ্রিয়।"
+  },
+  {
+    "id": 58,
+    "q": "Disparage শব্দের অর্থ কি?",
+    "options": ["প্রশংসা করা", "খাটো করে দেখা, নিন্দা করা", "সমর্থন করা", "গ্রহণ করা"],
+    "ans": 1,
+    "source": "36th BCS",
+    "topicsId": 437,
+    "explain": "Disparage অর্থ অবজ্ঞা করা, মানহানি করা। Synonyms: Belittle, Deprecate, Denigrate। Antonyms: Praise, Compliment - প্রশংসা করা।"
+  },
+  {
+    "id": 59,
+    "q": "Hedonistic শব্দের অর্থ কি?",
+    "options": ["তপস্বী", "সুখবাদী, ভোগবাদী", "দুঃখী", "পরিশ্রমী"],
+    "ans": 1,
+    "source": "DU IBA MBA",
+    "topicsId": 437,
+    "explain": "Hedonistic অর্থ যে শুধু সুখ ও ভোগে বিশ্বাসী। Synonyms: Self-indulgent, Pleasure-seeking। Antonyms: Ascetic, Austere - তপস্বী।"
+  },
+  {
+    "id": 60,
+    "q": "Foresight শব্দের অর্থ কি?",
+    "options": ["অতীত স্মৃতি", "দূরদর্শিতা", "অন্ধত্ব", "অজ্ঞতা"],
+    "ans": 1,
+    "source": "46th BCS",
+    "topicsId": 437,
+    "explain": "Foresight অর্থ ভবিষ্যৎ দেখার ক্ষমতা। Synonyms: Prudence, Prescience, Vision। Antonyms: Hindsight, Myopia - অদূরদর্শিতা।"
+  },
+  {
+    "id": 61,
+    "q": "Succinctly শব্দের অর্থ কি?",
+    "options": ["বিস্তারিতভাবে", "সংক্ষেপে, অল্প কথায়", "অস্পষ্টভাবে", "জটিলভাবে"],
+    "ans": 1,
+    "source": "37th BCS",
+    "topicsId": 437,
+    "explain": "Succinct অর্থ সংক্ষিপ্ত অথচ স্পষ্ট। Synonyms: Concisely, Briefly, Terse। Antonyms: Verbosely, Lengthily - বাগাড়ম্বর করে।"
+  },
+  {
+    "id": 62,
+    "q": "Pessimistic শব্দের অর্থ কি?",
+    "options": ["আশাবাদী", "হতাশাবাদী, নৈরাশ্যবাদী", "বাস্তববাদী", "উদাসীন"],
+    "ans": 1,
+    "source": "39th BCS",
+    "topicsId": 437,
+    "explain": "Pessimistic অর্থ যে সবসময় খারাপ দিক দেখে। Synonyms: Cynical, Gloomy, Hopeless। Antonyms: Optimistic, Hopeful - আশাবাদী।"
+  },
+  {
+    "id": 63,
+    "q": "Paranoid শব্দের অর্থ কি?",
+    "options": ["সাহসী", "অহেতুক সন্দেহপ্রবণ", "শান্ত", "বিশ্বাসী"],
+    "ans": 1,
+    "source": "Combined Bank 2023",
+    "topicsId": 437,
+    "explain": "Paranoid অর্থ যুক্তিহীন ভয় বা সন্দেহে ভোগা। Synonyms: Suspicious, Distrustful, Oversensitive। Antonyms: Trusting, Confident - বিশ্বাসী।"
+  },
+  {
+    "id": 64,
+    "q": "Sustenance শব্দের অর্থ কি?",
+    "options": ["বিনোদন", "খাদ্য, জীবনধারণের উপকরণ", "পোশাক", "বাসস্থান"],
+    "ans": 1,
+    "source": "44th BCS",
+    "topicsId": 437,
+    "explain": "Sustenance অর্থ যা দিয়ে জীবন বাঁচে, মূলত খাবার। Synonyms: Nourishment, Food, Livelihood। Antonyms: Starvation - অনাহার।"
+  },
+  {
+    "id": 65,
+    "q": "Consequence শব্দের অর্থ কি?",
+    "options": ["কারণ", "ফলাফল, পরিণতি", "শুরু", "উদ্দেশ্য"],
+    "ans": 1,
+    "source": "35th BCS",
+    "topicsId": 437,
+    "explain": "Consequence অর্থ কোনো কাজের ফল। Synonyms: Result, Outcome, Effect। Antonyms: Cause, Origin - কারণ।"
+  },
+  {
+    "id": 66,
+    "q": "Prudence শব্দের অর্থ কি?",
+    "options": ["বোকামি", "সতর্কতা, দূরদর্শিতা", "সাহস", "আবেগ"],
+    "ans": 1,
+    "source": "41st BCS",
+    "topicsId": 437,
+    "explain": "Prudence অর্থ বিচক্ষণতা, সাবধানতা। Synonyms: Wisdom, Caution, Discretion। Antonyms: Recklessness, Folly - বেপরোয়া ভাব।"
+  },
+  {
+    "id": 67,
+    "q": "Diligence শব্দের অর্থ কি?",
+    "options": ["অলসতা", "অধ্যবসায়, পরিশ্রম", "অবহেলা", "ঘুম"],
+    "ans": 1,
+    "source": "43rd BCS",
+    "topicsId": 437,
+    "explain": "Diligence অর্থ যত্নসহকারে কঠোর পরিশ্রম। Synonyms: Perseverance, Industry, Effort। Antonyms: Negligence, Idleness - অবহেলা।"
+  },
+  {
+    "id": 68,
+    "q": "Triumph শব্দের অর্থ কি?",
+    "options": ["পরাজয়", "বিজয়, সাফল্য", "সমতা", "পলায়ন"],
+    "ans": 1,
+    "source": "40th BCS",
+    "topicsId": 437,
+    "explain": "Triumph অর্থ বড় জয় বা সাফল্য। Synonyms: Victory, Success, Conquest। Antonyms: Defeat, Failure - পরাজয়।"
+  },
+  {
+    "id": 69,
+    "q": "Reverberated শব্দের অর্থ কি?",
+    "options": ["নীরব হওয়া", "প্রতিধ্বনিত হওয়া", "থেমে যাওয়া", "কমে যাওয়া"],
+    "ans": 1,
+    "source": "Bank Officer 2021",
+    "topicsId": 437,
+    "explain": "Reverberate অর্থ গমগম করে প্রতিধ্বনি তোলা। Synonyms: Echo, Resound, Resonate। Antonyms: Silence, Muffle - নীরব করা।"
+  },
+  {
+    "id": 70,
+    "q": "Benevolence শব্দের অর্থ কি?",
+    "options": ["নিষ্ঠুরতা", "পরোপকারিতা, দয়া", "লোভ", "হিংসা"],
+    "ans": 1,
+    "source": "45th BCS",
+    "topicsId": 437,
+    "explain": "Benevolence অর্থ দয়ালু মনোভাব, কল্যাণকামিতা। Synonyms: Kindness, Charity, Compassion। Antonyms: Malevolence, Cruelty - হিংসা।"
+  },
+  {
+    "id": 71,
+    "q": "Colossal শব্দের অর্থ কি?",
+    "options": ["ক্ষুদ্র", "প্রকাণ্ড, বিশাল", "হালকা", "সাধারণ"],
+    "ans": 1,
+    "source": "42nd BCS",
+    "topicsId": 437,
+    "explain": "Colossal অর্থ অতিকায়, বিশাল। Synonyms: Enormous, Gigantic, Mammoth। Antonyms: Tiny, Minuscule - ক্ষুদ্র।"
+  },
+  {
+    "id": 72,
+    "q": "Insignificant শব্দের অর্থ কি?",
+    "options": ["গুরুত্বপূর্ণ", "নগণ্য, তুচ্ছ", "বিশাল", "মূল্যবান"],
+    "ans": 1,
+    "source": "36th BCS",
+    "topicsId": 437,
+    "explain": "Insignificant অর্থ গুরুত্বহীন। Synonyms: Trivial, Negligible, Minor। Antonyms: Significant, Important - গুরুত্বপূর্ণ।"
+  },
+  {
+    "id": 73,
+    "q": "Appetite শব্দের অর্থ কি?",
+    "options": ["অনিচ্ছা", "ক্ষুধা, আকাঙ্ক্ষা", "ঘৃণা", "ভয়"],
+    "ans": 1,
+    "source": "38th BCS",
+    "topicsId": 437,
+    "explain": "Appetite অর্থ খাওয়ার ইচ্ছা বা কোনো কিছুর প্রতি প্রবল আকাঙ্ক্ষা। Synonyms: Hunger, Craving, Desire। Antonyms: Aversion, Disgust - অনীহা।"
+  },
+  {
+    "id": 74,
+    "q": "Immense শব্দের অর্থ কি?",
+    "options": ["সামান্য", "বিশাল, অপরিমেয়", "সীমিত", "ক্ষুদ্র"],
+    "ans": 1,
+    "source": "44th BCS",
+    "topicsId": 437,
+    "explain": "Immense অর্থ অত্যন্ত বড়। Synonyms: Huge, Vast, Enormous। Antonyms: Tiny, Meager - নগণ্য।"
+  },
+  {
+    "id": 75,
+    "q": "Puny শব্দের অর্থ কি?",
+    "options": ["শক্তিশালী", "দুর্বল, ক্ষুদ্রকায়", "সাহসী", "বুদ্ধিমান"],
+    "ans": 1,
+    "source": "39th BCS",
+    "topicsId": 437,
+    "explain": "Puny অর্থ দুর্বল, ছোট ও শক্তিহীন। Synonyms: Weak, Feeble, Undersized। Antonyms: Strong, Powerful - শক্তিশালী।"
+  },
+  {
+    "id": 76,
+    "q": "Liberate শব্দের অর্থ কি?",
+    "options": ["বন্দী করা", "মুক্ত করা", "শাস্তি দেওয়া", "অত্যাচার করা"],
+    "ans": 1,
+    "source": "46th BCS",
+    "topicsId": 437,
+    "explain": "Liberate অর্থ স্বাধীন করা। Synonyms: Free, Release, Emancipate। Antonyms: Confine, Enslave - বন্দী করা।"
+  },
+  {
+    "id": 77,
+    "q": "Ensnare শব্দের অর্থ কি?",
+    "options": ["মুক্তি দেওয়া", "ফাঁদে ফেলা, জড়িয়ে ফেলা", "সাহায্য করা", "পালাতে দেওয়া"],
+    "ans": 1,
+    "source": "Bank Job 2022",
+    "topicsId": 437,
+    "explain": "Ensnare অর্থ কৌশলে ফাঁদে আটকানো। Synonyms: Trap, Entangle, Capture। Antonyms: Liberate, Release - মুক্ত করা।"
+  },
+  {
+    "id": 78,
+    "q": "Gratitude শব্দের অর্থ কি?",
+    "options": ["ঘৃণা", "কৃতজ্ঞতা", "রাগ", "উদাসীনতা"],
+    "ans": 1,
+    "source": "43rd BCS",
+    "topicsId": 437,
+    "explain": "Gratitude অর্থ কৃতজ্ঞতাবোধ। Synonyms: Thankfulness, Appreciation। Antonyms: Ingratitude, Thanklessness - অকৃতজ্ঞতা।"
+  },
+  {
+    "id": 79,
+    "q": "Underestimated শব্দের অর্থ কি?",
+    "options": ["বেশি মূল্যায়ন করা", "কম মূল্যায়ন করা, খাটো করে দেখা", "প্রশংসা করা", "সম্মান করা"],
+    "ans": 1,
+    "source": "41st BCS",
+    "topicsId": 437,
+    "explain": "Underestimate অর্থ প্রকৃত মূল্য বা ক্ষমতার চেয়ে কম মনে করা। Synonyms: Underrate, Undervalue। Antonyms: Overestimate, Overrate - বেশি ভাবা।"
+  },
+  {
+    "id": 80,
+    "q": "Ferocious শব্দের অর্থ কি?",
+    "options": ["শান্ত", "হিংস্র, ভয়ংকর", "দুর্বল", "বন্ধুত্বপূর্ণ"],
+    "ans": 1,
+    "source": "40th BCS",
+    "topicsId": 437,
+    "explain": "Ferocious অর্থ অত্যন্ত হিংস্র ও নিষ্ঠুর। Synonyms: Fierce, Savage, Brutal। Antonyms: Gentle, Tame - শান্ত, পোষা।"
+  },
+  {
+    "id": 81,
+    "q": "Ubiquitous শব্দের অর্থ কি?",
+    "options": ["দুর্লভ", "সর্বত্র বিদ্যমান", "গোপন", "নতুন"],
+    "ans": 1,
+    "source": "45th BCS",
+    "topicsId": 437,
+    "explain": "Ubiquitous অর্থ যা সব জায়গায় পাওয়া যায়। Synonyms: Omnipresent, Pervasive, Universal। Antonyms: Rare, Scarce - দুর্লভ।"
+  },
+  {
+    "id": 82,
+    "q": "Ephemeral শব্দের অর্থ কি?",
+    "options": ["চিরস্থায়ী", "ক্ষণস্থায়ী", "শক্তিশালী", "প্রাচীন"],
+    "ans": 1,
+    "source": "44th BCS",
+    "topicsId": 437,
+    "explain": "Ephemeral অর্থ খুব অল্প সময়ের জন্য থাকে এমন। Synonyms: Transient, Fleeting, Momentary। Antonyms: Eternal, Permanent - চিরস্থায়ী।"
+  },
+  {
+    "id": 83,
+    "q": "Candid শব্দের অর্থ কি?",
+    "options": ["কপট", "অকপট, স্পষ্টবাদী", "লাজুক", "গোপন"],
+    "ans": 1,
+    "source": "42nd BCS",
+    "topicsId": 437,
+    "explain": "Candid অর্থ খোলামেলা, সত্যবাদী। Synonyms: Frank, Honest, Outspoken। Antonyms: Deceitful, Evasive - কপট।"
+  },
+  {
+    "id": 84,
+    "q": "Meticulous শব্দের অর্থ কি?",
+    "options": ["অমনোযোগী", "অতি সতর্ক, খুঁটিনাটিতে মনোযোগী", "তাড়াহুড়ো", "অলস"],
+    "ans": 1,
+    "source": "46th BCS",
+    "topicsId": 437,
+    "explain": "Meticulous অর্থ খুব যত্নবান ও খুঁটিনাটি বিষয়ে সতর্ক। Synonyms: Careful, Precise, Scrupulous। Antonyms: Careless, Sloppy - অমনোযোগী।"
+  },
+  {
+    "id": 85,
+    "q": "Laconic শব্দের অর্থ কি?",
+    "options": ["বাগাড়ম্বরপূর্ণ", "স্বল্পভাষী", "কলহপ্রিয়", "হাসিখুশি"],
+    "ans": 1,
+    "source": "41st BCS",
+    "topicsId": 437,
+    "explain": "Laconic অর্থ অল্প কথায় ভাব প্রকাশকারী। Synonyms: Terse, Brief, Concise। Antonyms: Verbose, Wordy - বাক্যবহুল।"
+  },
+  {
+    "id": 86,
+    "q": "Ambiguous শব্দের অর্থ কি?",
+    "options": ["স্পষ্ট", "দ্ব্যর্থবোধক, অস্পষ্ট", "সত্য", "সহজ"],
+    "ans": 1,
+    "source": "40th BCS",
+    "topicsId": 437,
+    "explain": "Ambiguous অর্থ যার একাধিক অর্থ হতে পারে, অস্পষ্ট। Synonyms: Vague, Unclear, Equivocal। Antonyms: Clear, Explicit - স্পষ্ট।"
+  },
+  {
+    "id": 87,
+    "q": "Alleviate শব্দের অর্থ কি?",
+    "options": ["বাড়ানো", "লাঘব করা, উপশম করা", "সৃষ্টি করা", "লুকানো"],
+    "ans": 1,
+    "source": "39th BCS",
+    "topicsId": 437,
+    "explain": "Alleviate অর্থ কষ্ট বা তীব্রতা কমানো। Synonyms: Relieve, Ease, Mitigate। Antonyms: Aggravate, Intensify - বাড়ানো।"
+  },
+  {
+    "id": 88,
+    "q": "Exacerbate শব্দের অর্থ কি?",
+    "options": ["উপশম করা", "আরও খারাপ করা, তীব্র করা", "সাহায্য করা", "শেষ করা"],
+    "ans": 1,
+    "source": "43rd BCS",
+    "topicsId": 437,
+    "explain": "Exacerbate অর্থ সমস্যা আরও বাড়িয়ে দেওয়া। Synonyms: Worsen, Aggravate, Intensify। Antonyms: Alleviate, Relieve - লাঘব করা।"
+  },
+  {
+    "id": 89,
+    "q": "Pristine শব্দের অর্থ কি?",
+    "options": ["নোংরা", "আদিম, অকলুষিত, নির্মল", "পুরাতন", "ভাঙা"],
+    "ans": 1,
+    "source": "Bank Officer 2023",
+    "topicsId": 437,
+    "explain": "Pristine অর্থ আদি অবস্থায় থাকা, একদম পরিষ্কার। Synonyms: Unspoiled, Pure, Immaculate। Antonyms: Dirty, Contaminated - দূষিত।"
+  },
+  {
+    "id": 90,
+    "q": "Resilient শব্দের অর্থ কি?",
+    "options": ["ভঙ্গুর", "স্থিতিস্থাপক, ঘুরে দাঁড়াতে সক্ষম", "দুর্বল", "জেদি"],
+    "ans": 1,
+    "source": "44th BCS",
+    "topicsId": 437,
+    "explain": "Resilient অর্থ আঘাতের পর দ্রুত স্বাভাবিক অবস্থায় ফিরে আসতে পারে এমন। Synonyms: Flexible, Tough, Buoyant। Antonyms: Fragile, Weak - ভঙ্গুর।"
+  },
+  {
+    "id": 91,
+    "q": "Voracious শব্দের অর্থ কি?",
+    "options": ["অল্পাহারী", "অতিভোজনকারী, অতৃপ্ত", "ঘৃণাকারী", "উদাসীন"],
+    "ans": 1,
+    "source": "38th BCS",
+    "topicsId": 437,
+    "explain": "Voracious অর্থ খুব বেশি খায় বা জানতে চায় এমন। Synonyms: Insatiable, Greedy, Ravenous। Antonyms: Satisfied, Apathetic - তৃপ্ত।"
+  },
+  {
+    "id": 92,
+    "q": "Aesthetic শব্দের অর্থ কি?",
+    "options": ["কুৎসিত", "নান্দনিক, সৌন্দর্যবোধ সম্পর্কিত", "ব্যবহারিক", "গাণিতিক"],
+    "ans": 1,
+    "source": "DU Admission 2022",
+    "topicsId": 437,
+    "explain": "Aesthetic অর্থ সৌন্দর্য বিষয়ক। Synonyms: Beautiful, Artistic, Pleasing। Antonyms: Ugly, Unattractive - কুৎসিত।"
+  },
+  {
+    "id": 93,
+    "q": "Culminate শব্দের অর্থ কি?",
+    "options": ["শুরু হওয়া", "চূড়ান্ত পর্যায়ে পৌঁছানো", "ব্যর্থ হওয়া", "থেমে যাওয়া"],
+    "ans": 1,
+    "source": "45th BCS",
+    "topicsId": 437,
+    "explain": "Culminate অর্থ চরম সীমায় বা পরিণতিতে পৌঁছানো। Synonyms: Climax, End, Conclude। Antonyms: Begin, Start - শুরু হওয়া।"
+  },
+  {
+    "id": 94,
+    "q": "Mitigate শব্দের অর্থ কি?",
+    "options": ["তীব্র করা", "প্রশমিত করা, হ্রাস করা", "সৃষ্টি করা", "অস্বীকার করা"],
+    "ans": 1,
+    "source": "37th BCS",
+    "topicsId": 437,
+    "explain": "Mitigate অর্থ তীব্রতা কমানো। Synonyms: Alleviate, Reduce, Lessen। Antonyms: Intensify, Aggravate - তীব্র করা।"
+  },
+  {
+    "id": 95,
+    "q": "Tenacious শব্দের অর্থ কি?",
+    "options": ["দুর্বলচিত্ত", "নাছোড়বান্দা, দৃঢ়সংকল্প", "ভুলে যায় এমন", "ভীতু"],
+    "ans": 1,
+    "source": "42nd BCS",
+    "topicsId": 437,
+    "explain": "Tenacious অর্থ কোনো কিছু আঁকড়ে ধরে থাকে এমন। Synonyms: Persistent, Determined, Stubborn। Antonyms: Weak, Yielding - নতিস্বীকারকারী।"
+  },
+  {
+    "id": 96,
+    "q": "Elusive শব্দের অর্থ কি?",
+    "options": ["সহজলভ্য", "ধরা-ছোঁয়ার বাইরে, অধরা", "স্পষ্ট", "স্থায়ী"],
+    "ans": 1,
+    "source": "46th BCS",
+    "topicsId": 437,
+    "explain": "Elusive অর্থ যা ধরা বা বোঝা কঠিন। Synonyms: Evasive, Slippery, Intangible। Antonyms: Accessible, Definite - সহজলভ্য।"
+  },
+  {
+    "id": 97,
+    "q": "Precarious শব্দের অর্থ কি?",
+    "options": ["নিরাপদ", "অনিশ্চিত, বিপজ্জনক", "স্থায়ী", "সহজ"],
+    "ans": 1,
+    "source": "41st BCS",
+    "topicsId": 437,
+    "explain": "Precarious অর্থ যা নিরাপদ নয়, টলমলে। Synonyms: Unstable, Risky, Dangerous। Antonyms: Safe, Secure - নিরাপদ।"
+  },
+  {
+    "id": 98,
+    "q": "Rhetoric শব্দের অর্থ কি?",
+    "options": ["নীরবতা", "অলংকারপূর্ণ বক্তৃতা, বাগ্মিতা", "সততা", "গণিত"],
+    "ans": 1,
+    "source": "40th BCS",
+    "topicsId": 437,
+    "explain": "Rhetoric অর্থ বাগ্মিতা, প্রায়ই অতিরঞ্জিত ভাষণ। Synonyms: Oratory, Eloquence, Bombast। Antonyms: Conciseness - সংক্ষিপ্ততা।"
+  },
+  {
+    "id": 99,
+    "q": "Serene শব্দের অর্থ কি?",
+    "options": ["অশান্ত", "শান্ত, সৌম্য", "রাগান্বিত", "কোলাহলপূর্ণ"],
+    "ans": 1,
+    "source": "Combined Bank 2022",
+    "topicsId": 437,
+    "explain": "Serene অর্থ শান্ত ও নির্মল। Synonyms: Calm, Peaceful, Tranquil। Antonyms: Turbulent, Agitated - অশান্ত।"
+  },
+  {
+    "id": 100,
+    "q": "Oblivious শব্দের অর্থ কি?",
+    "options": ["সচেতন", "অন্যমনস্ক, খেয়াল নেই এমন", "স্মরণশক্তি সম্পন্ন", "সতর্ক"],
+    "ans": 1,
+    "source": "43rd BCS",
+    "topicsId": 437,
+    "explain": "Oblivious অর্থ কোনো কিছু সম্পর্কে অসচেতন। Synonyms: Unaware, Unconscious, Heedless। Antonyms: Aware, Conscious - সচেতন।"
+  },
+  {
+    "id": 101,
+    "q": "Deleterious শব্দের অর্থ কি?",
+    "options": ["উপকারী", "ক্ষতিকর", "সুস্বাদু", "সহজ"],
+    "ans": 1,
+    "source": "39th BCS",
+    "topicsId": 437,
+    "explain": "Deleterious অর্থ ক্ষতি করে এমন। Synonyms: Harmful, Damaging, Injurious। Antonyms: Beneficial, Helpful - উপকারী।"
+  },
+  {
+    "id": 102,
+    "q": "Eloquent শব্দের অর্থ কি?",
+    "options": ["বোবা", "বাগ্মী, প্রাঞ্জলভাষী", "অস্পষ্টভাষী", "নীরব"],
+    "ans": 1,
+    "source": "38th BCS",
+    "topicsId": 437,
+    "explain": "Eloquent অর্থ সুন্দর ও প্রভাবশালীভাবে কথা বলে এমন। Synonyms: Articulate, Fluent, Expressive। Antonyms: Inarticulate - অস্পষ্টভাষী।"
+  },
+  {
+    "id": 103,
+    "q": "Fallacy শব্দের অর্থ কি?",
+    "options": ["সত্য", "ভ্রান্ত ধারণা, কুতর্ক", "প্রমাণ", "আইন"],
+    "ans": 1,
+    "source": "44th BCS",
+    "topicsId": 437,
+    "explain": "Fallacy অর্থ ভুল যুক্তি বা ভ্রান্ত বিশ্বাস। Synonyms: Misconception, Error, Delusion। Antonyms: Truth, Fact - সত্য।"
+  },
+  {
+    "id": 104,
+    "q": "Gregarious শব্দের অর্থ কি?",
+    "options": ["একাকী", "দলপ্রিয়, মিশুক", "লাজুক", "রাগী"],
+    "ans": 1,
+    "source": "45th BCS",
+    "topicsId": 437,
+    "explain": "Gregarious অর্থ যে মানুষের সঙ্গ পছন্দ করে। Synonyms: Sociable, Outgoing, Affable। Antonyms: Introverted, Solitary - অন্তর্মুখী।"
+  },
+  {
+    "id": 105,
+    "q": "Inevitable শব্দের অর্থ কি?",
+    "options": ["এড়ানো যায় এমন", "অনিবার্য, অবশ্যম্ভাবী", "অসম্ভব", "অনিশ্চিত"],
+    "ans": 1,
+    "source": "36th BCS",
+    "topicsId": 437,
+    "explain": "Inevitable অর্থ যা ঘটবেই। Synonyms: Unavoidable, Certain, Inescapable। Antonyms: Avoidable, Uncertain - এড়ানো যায় এমন।"
+  },
+  {
+    "id": 106,
+    "q": "Lethargic শব্দের অর্থ কি?",
+    "options": ["কর্মঠ", "অলস, নিস্তেজ", "উত্তেজিত", "রাগান্বিত"],
+    "ans": 1,
+    "source": "Bank Job 2021",
+    "topicsId": 437,
+    "explain": "Lethargic অর্থ শক্তিহীন, অবসাদগ্রস্ত। Synonyms: Sluggish, Lazy, Drowsy। Antonyms: Energetic, Active - কর্মঠ।"
+  },
+  {
+    "id": 107,
+    "q": "Novice শব্দের অর্থ কি?",
+    "options": ["বিশেষজ্ঞ", "নবিশ, আনকোরা", "শিক্ষক", "বৃদ্ধ"],
+    "ans": 1,
+    "source": "42nd BCS",
+    "topicsId": 437,
+    "explain": "Novice অর্থ নতুন, অনভিজ্ঞ ব্যক্তি। Synonyms: Beginner, Amateur, Learner। Antonyms: Expert, Veteran - বিশেষজ্ঞ।"
+  },
+  {
+    "id": 108,
+    "q": "Obsolete শব্দের অর্থ কি?",
+    "options": ["আধুনিক", "সেকেলে, অপ্রচলিত", "নতুন", "দামি"],
+    "ans": 1,
+    "source": "46th BCS",
+    "topicsId": 437,
+    "explain": "Obsolete অর্থ যা আর ব্যবহার হয় না। Synonyms: Outdated, Antiquated, Archaic। Antonyms: Modern, Current - আধুনিক।"
+  },
+  {
+    "id": 109,
+    "q": "Plausible শব্দের অর্থ কি?",
+    "options": ["অবিশ্বাস্য", "বিশ্বাসযোগ্য, যুক্তিসংগত", "মিথ্যা", "অসম্ভব"],
+    "ans": 1,
+    "source": "40th BCS",
+    "topicsId": 437,
+    "explain": "Plausible অর্থ যা সত্য বলে মনে হয়। Synonyms: Believable, Credible, Reasonable। Antonyms: Implausible, Unlikely - অবিশ্বাস্য।"
+  },
+  {
+    "id": 110,
+    "q": "Recalcitrant শব্দের অর্থ কি?",
+    "options": ["বাধ্য", "একগুঁয়ে, অবাধ্য", "নম্র", "ভদ্র"],
+    "ans": 1,
+    "source": "43rd BCS",
+    "topicsId": 437,
+    "explain": "Recalcitrant অর্থ যে আদেশ মানতে চায় না। Synonyms: Defiant, Unruly, Stubborn। Antonyms: Obedient, Compliant - বাধ্য।"
+  },
+  {
+    "id": 111,
+    "q": "Stringent শব্দের অর্থ কি?",
+    "options": ["শিথিল", "কঠোর, কড়া", "সহজ", "দুর্বল"],
+    "ans": 1,
+    "source": "41st BCS",
+    "topicsId": 437,
+    "explain": "Stringent অর্থ খুব কড়া নিয়ম বা শর্ত। Synonyms: Strict, Rigorous, Severe। Antonyms: Lenient, Lax - শিথিল।"
+  },
+  {
+    "id": 112,
+    "q": "Tangible শব্দের অর্থ কি?",
+    "options": ["অস্পৃশ্য", "স্পর্শযোগ্য, বাস্তব", "কাল্পনিক", "অদৃশ্য"],
+    "ans": 1,
+    "source": "39th BCS",
+    "topicsId": 437,
+    "explain": "Tangible অর্থ যা ধরা ছোঁয়া যায়, বাস্তব। Synonyms: Concrete, Real, Palpable। Antonyms: Intangible, Abstract - অস্পৃশ্য।"
+  },
+  {
+    "id": 113,
+    "q": "Unanimous শব্দের অর্থ কি?",
+    "options": ["বিভক্ত", "সর্বসম্মত", "একক", "বিরোধী"],
+    "ans": 1,
+    "source": "44th BCS",
+    "topicsId": 437,
+    "explain": "Unanimous অর্থ সবাই একমত। Synonyms: Unified, United, Agreed। Antonyms: Divided, Split - বিভক্ত।"
+  },
+  {
+    "id": 114,
+    "q": "Verbose শব্দের অর্থ কি?",
+    "options": ["সংক্ষিপ্ত", "বাগাড়ম্বরপূর্ণ, শব্দবহুল", "নীরব", "স্পষ্ট"],
+    "ans": 1,
+    "source": "45th BCS",
+    "topicsId": 437,
+    "explain": "Verbose অর্থ প্রয়োজনের চেয়ে বেশি শব্দ ব্যবহারকারী। Synonyms: Wordy, Long-winded, Prolix। Antonyms: Concise, Laconic - সংক্ষিপ্ত।"
+  },
+  {
+    "id": 115,
+    "q": "Wary শব্দের অর্থ কি?",
+    "options": ["অসতর্ক", "সতর্ক, সাবধানী", "সাহসী", "বোকা"],
+    "ans": 1,
+    "source": "38th BCS",
+    "topicsId": 437,
+    "explain": "Wary অর্থ বিপদ সম্পর্কে সজাগ। Synonyms: Cautious, Vigilant, Alert। Antonyms: Careless, Reckless - অসতর্ক।"
+  },
+  {
+    "id": 116,
+    "q": "Zeal শব্দের অর্থ কি?",
+    "options": ["উদাসীনতা", "প্রবল আগ্রহ, উদ্যম", "ঘৃণা", "ভয়"],
+    "ans": 1,
+    "source": "42nd BCS",
+    "topicsId": 437,
+    "explain": "Zeal অর্থ কোনো কাজের প্রতি তীব্র উৎসাহ। Synonyms: Passion, Enthusiasm, Fervor। Antonyms: Apathy, Indifference - উদাসীনতা।"
+  },
+  {
+    "id": 117,
+    "q": "Abrasive শব্দের অর্থ কি?",
+    "options": ["মসৃণ", "কর্কশ, রূঢ়", "নরম", "ভদ্র"],
+    "ans": 1,
+    "source": "NSI Officer",
+    "topicsId": 437,
+    "explain": "Abrasive অর্থ রূঢ় ব্যবহার বা ঘষে ক্ষয় করে এমন। Synonyms: Harsh, Rough, Caustic। Antonyms: Gentle, Polite - নম্র।"
+  },
+  {
+    "id": 118,
+    "q": "Banal শব্দের অর্থ কি?",
+    "options": ["মৌলিক", "গতানুগতিক, মামুলি", "চমকপ্রদ", "নতুন"],
+    "ans": 1,
+    "source": "46th BCS",
+    "topicsId": 437,
+    "explain": "Banal অর্থ নতুনত্বহীন, সাদামাটা। Synonyms: Trite, Clichéd, Commonplace। Antonyms: Original, Fresh - মৌলিক।"
+  },
+  {
+    "id": 119,
+    "q": "Cajole শব্দের অর্থ কি?",
+    "options": ["ধমক দেওয়া", "তোষামোদ করে রাজি করানো", "উপেক্ষা করা", "লড়াই করা"],
+    "ans": 1,
+    "source": "Bank SO 2023",
+    "topicsId": 437,
+    "explain": "Cajole অর্থ মিষ্টি কথায় ভুলিয়ে কাজ আদায় করা। Synonyms: Coax, Persuade, Wheedle। Antonyms: Bully, Force - জোর করা।"
+  },
+  {
+    "id": 120,
+    "q": "Deference শব্দের অর্থ কি?",
+    "options": ["অবাধ্যতা", "শ্রদ্ধা, সম্মান প্রদর্শন", "ঘৃণা", "উপহাস"],
+    "ans": 1,
+    "source": "40th BCS",
+    "topicsId": 437,
+    "explain": "Deference অর্থ বয়োজ্যেষ্ঠ বা গুরুজনকে সম্মান দেখানো। Synonyms: Respect, Reverence, Courtesy। Antonyms: Disrespect, Defiance - অশ্রদ্ধা।"
+  },
+  {
+    "id": 121,
+    "q": "Eccentric শব্দের অর্থ কি?",
+    "options": ["সাধারণ", "খামখেয়ালি, অদ্ভুত", "গম্ভীর", "বুদ্ধিমান"],
+    "ans": 1,
+    "source": "43rd BCS",
+    "topicsId": 437,
+    "explain": "Eccentric অর্থ প্রচলিত রীতির বাইরে আচরণকারী। Synonyms: Odd, Peculiar, Quirky। Antonyms: Normal, Conventional - সাধারণ।"
+  },
+  {
+    "id": 122,
+    "q": "Fastidious শব্দের অর্থ কি?",
+    "options": ["অগোছালো", "খুঁতখুঁতে, সহজে সন্তুষ্ট হয় না এমন", "উদাসীন", "অলস"],
+    "ans": 1,
+    "source": "41st BCS",
+    "topicsId": 437,
+    "explain": "Fastidious অর্থ খুব বাছবিচারকারী। Synonyms: Finicky, Fussy, Meticulous। Antonyms: Easygoing, Indifferent - সহজে সন্তুষ্ট।"
+  },
+  {
+    "id": 123,
+    "q": "Garner শব্দের অর্থ কি?",
+    "options": ["ছড়িয়ে দেওয়া", "সংগ্রহ করা, জড়ো করা", "নষ্ট করা", "হারানো"],
+    "ans": 1,
+    "source": "44th BCS",
+    "topicsId": 437,
+    "explain": "Garner অর্থ সংগ্রহ করা, বিশেষ করে তথ্য বা সমর্থন। Synonyms: Gather, Collect, Accumulate। Antonyms: Scatter, Disperse - ছড়ানো।"
+  },
+  {
+    "id": 124,
+    "q": "Haughty শব্দের অর্থ কি?",
+    "options": ["নম্র", "উদ্ধত, অহংকারী", "লাজুক", "বন্ধুসুলভ"],
+    "ans": 1,
+    "source": "39th BCS",
+    "topicsId": 437,
+    "explain": "Haughty অর্থ দাম্ভিক, অন্যকে তুচ্ছ ভাবে এমন। Synonyms: Arrogant, Proud, Snobbish। Antonyms: Humble, Modest - বিনয়ী।"
+  },
+  {
+    "id": 125,
+    "q": "Impetuous শব্দের অর্থ কি?",
+    "options": ["ধীরস্থির", "হঠকারী, চিন্তা না করে কাজ করে এমন", "শান্ত", "সতর্ক"],
+    "ans": 1,
+    "source": "45th BCS",
+    "topicsId": 437,
+    "explain": "Impetuous অর্থ হুট করে সিদ্ধান্ত নেয় এমন। Synonyms: Rash, Impulsive, Hasty। Antonyms: Cautious, Considered - বিবেচক।"
+  },
+  {
+    "id": 126,
+    "q": "Juxtapose শব্দের অর্থ কি?",
+    "options": ["আলাদা করা", "পাশাপাশি স্থাপন করা", "ধ্বংস করা", "লুকানো"],
+    "ans": 1,
+    "source": "DU English Dept",
+    "topicsId": 437,
+    "explain": "Juxtapose অর্থ তুলনা করার জন্য পাশাপাশি রাখা। Synonyms: Compare, Place side by side। Antonyms: Separate - আলাদা করা।"
+  },
+  {
+    "id": 127,
+    "q": "Luminous শব্দের অর্থ কি?",
+    "options": ["অন্ধকার", "উজ্জ্বল, আলোকিত", "নোংরা", "ভারী"],
+    "ans": 1,
+    "source": "42nd BCS",
+    "topicsId": 437,
+    "explain": "Luminous অর্থ আলো দেয় এমন। Synonyms: Bright, Shining, Radiant। Antonyms: Dark, Dim - অন্ধকার।"
+  },
+  {
+    "id": 128,
+    "q": "Nefarious শব্দের অর্থ কি?",
+    "options": ["পবিত্র", "অতি দুষ্ট, জঘন্য", "সৎ", "উপকারী"],
+    "ans": 1,
+    "source": "46th BCS",
+    "topicsId": 437,
+    "explain": "Nefarious অর্থ চরম খারাপ বা অপরাধমূলক। Synonyms: Wicked, Evil, Villainous। Antonyms: Virtuous, Good - সৎ।"
+  },
+  {
+    "id": 129,
+    "q": "Obscure শব্দের অর্থ কি?",
+    "options": ["প্রসিদ্ধ", "অস্পষ্ট, দুর্বোধ্য", "পরিষ্কার", "উজ্জ্বল"],
+    "ans": 1,
+    "source": "40th BCS",
+    "topicsId": 437,
+    "explain": "Obscure অর্থ যা বোঝা কঠিন বা অখ্যাত। Synonyms: Unclear, Vague, Unknown। Antonyms: Clear, Famous - স্পষ্ট, বিখ্যাত।"
+  },
+  {
+    "id": 130,
+    "q": "Perfunctory শব্দের অর্থ কি?",
+    "options": ["আন্তরিক", "দায়সারা, অনাগ্রহে করা", "উৎসাহী", "গভীর"],
+    "ans": 1,
+    "source": "43rd BCS",
+    "topicsId": 437,
+    "explain": "Perfunctory অর্থ শুধু নিয়ম রক্ষার জন্য করা কাজ। Synonyms: Cursory, Casual, Superficial। Antonyms: Thorough, Careful - যত্নশীল।"
+  }
+]
