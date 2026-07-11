@@ -121,7 +121,7 @@ export default function QuickPracticeEngine({
         if (percentage >= 95)
             return [
                 `🔥 ${name}! আগুন লাগায় দিলা!`,
-                "অসাধারণ! প্রায় ফুল মার্কস!",
+                "অসাধারণ! তোমাকে দিয়ে হবে, থেমে থাকা যাবে না!",
                 "এভাবেই চালিয়ে যাও! 🚀"
             ];
 
@@ -129,27 +129,27 @@ export default function QuickPracticeEngine({
             return [
                 `💪 ${name}! দারুণ করেছো!`,
                 "আর একটু চর্চা করলে টপার!",
-                "চালিয়ে যাও 📚"
+                "চালিয়ে যাও 📚 এগিয়ে যাও স্বপনের পথে"
             ];
 
         if (percentage >= 60)
             return [
-                `😎 ${name}! ভালোই হচ্ছে!`,
+                `😎 ${name}! বিশেষ বিবেচনায় পাশ!`,
                 "আরেকটু মনোযোগ দিলে আরও ভালো হবে।",
-                "হাল ছেড়ো না 💯"
+                "হাল ছেড়ো না, মেধা আছে কিন্তু পড়ে না 💯"
             ];
 
         if (percentage >= 35)
             return [
-                `🙂 ${name}! উন্নতির সুযোগ আছে।`,
-                "নিয়মিত প্র্যাকটিস করো।",
-                "তুমি পারবে! 💪"
+                `🙂 ${name} ফেল্টুস!`,
+                "ভালো করে পড়, নিয়মিত প্র্যাকটিস করো।",
+                "লেগে থাকলে তুমি নিশ্চয়ই পারবে! 💪"
             ];
 
         return [
-            `🪦 সর্বনাশ, ${name}!`,
+            `⚠️ সর্বনাশ, ${name} ফেল্টুস!`,
             "লেখাপড়া বাদ দিয়া বিয়ের প্ল্যান নাকি?",
-            "মজা করলাম! উঠো দাঁড়াও! নিচের রিসোর্স দেখো 💪"
+            "এভাবে চললে কপালে দুঃখ আছে ...... ভালো করে পড় 💪"
         ];
     };
 
@@ -323,11 +323,36 @@ export default function QuickPracticeEngine({
                                             {/* to show question source */}
                                             <span className="text-[9px] text-gray-500 mt-0.5"> {q.source} </span>
                                         </p>
-                                        <p className="text-[11px]">উত্তর: {q.options[answers[i]] || 'দাও নাই'}
+                                        {/* <p className="text-[11px]">উত্তর: {q.options[answers[i]] || 'দাও নাই'}
                                             <span className={`ml-1 font-bold ${answers[i] === q.ans ? 'text-green-600' : 'text-red-600'}`}>
                                                 {answers[i] === q.ans ? '✓' : `✗ ${q.options[q.ans]}`}
                                             </span>
-                                        </p>
+                                        </p> */}
+                                        {/* উত্তর দেখা skipped, correct, worong ans */}
+                                        {answers[i] === undefined ? (
+                                            <>
+                                                <p className="text-[11px] text-red-600 font-semibold">
+                                                    ✗ Your Ans: Skipped 
+                                                </p>
+                                                <p className="text-[11px] text-green-600 font-semibold">
+                                                    ✓ Correct Ans: {q.options[q.ans]}
+                                                </p>
+                                            </>
+                                        ) : answers[i] === q.ans ? (
+                                            <p className="text-[11px] text-green-600 font-semibold">
+                                                ✓ Your Ans: {q.options[q.ans]}
+                                            </p>
+                                        ) : (
+                                            <>
+                                                <p className="text-[11px] text-red-600 font-semibold">
+                                                    ✗ Your Ans: {q.options[answers[i]]}
+                                                </p>
+                                                <p className="text-[11px] text-green-600 font-semibold">
+                                                    ✓ Correct Ans: {q.options[q.ans]}
+                                                </p>
+                                            </>
+                                        )}
+                                        {/* Hitnts or explain of answer */}
                                         <p className="text-[9px] text-gray-500 mt-0.5">explain: {q.explain}</p>
                                     </div>
                                 ))}
