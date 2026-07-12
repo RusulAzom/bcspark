@@ -96,6 +96,32 @@ const practiceRoutes = {
             },
         },
     },
+
+    ICT: {
+        label: "ICT",
+        topics: {
+            all: {
+                label: "ICT > All Topics",
+                route: "/t20/ict/all",
+                active: true,
+            },
+            computerPeripherals: {
+                label: "ICT > কম্পিউটার পেরিফেরালস",
+                route: "/t20/gk/bangladesh-affairs",
+                active: false,
+            },
+            computerArchitecture: {
+                label: "ICT > কম্পিউটারের অঙ্গসংগঠন ",
+                route: "/t20/gk/language-movement",
+                active: false,
+            },
+            computerPracticalFields: {
+                label: "ICT > দৈনন্দিন জীবনে কম্পিউটার",
+                route: "/t20/gk/economy",
+                active: false,
+            },
+        },
+    },
 };
 
 export default practiceRoutes;
