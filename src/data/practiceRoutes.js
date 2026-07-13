@@ -124,4 +124,11 @@ const practiceRoutes = {
     },
 };
 
+export const defaultQuizConfig = {
+    questionLimit: 20,
+    timeLimit: 120,
+    negativeMarking: 0.5,
+    timerDisplay: "t20",
+};
+
 export default practiceRoutes;

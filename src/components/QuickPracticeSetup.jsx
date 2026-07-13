@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import practiceRoutes from '@/data/practiceRoutes';
+import practiceRoutes, { defaultQuizConfig } from '@/data/practiceRoutes';
 
 export default function QuickPracticeSetup() {
 
@@ -11,10 +11,14 @@ export default function QuickPracticeSetup() {
     const [userName, setUserName] = useState('BCSpark');
     const [selectedSubject, setSelectedSubject] = useState('');
     const [selectedTopic, setSelectedTopic] = useState('');
-    const canStart = userName.trim().length > 0 && selectedSubject && selectedTopic;
-    const handleStart = () => {
+    const [showConfirm, setShowConfirm] = useState(false);
 
-        if (!canStart) return;
+    const canStart = userName.trim().length > 0 && selectedSubject && selectedTopic;
+
+    const topicConfig =
+        practiceRoutes[selectedSubject]?.topics[selectedTopic]?.config || defaultQuizConfig;
+
+    const proceed = () => {
 
         sessionStorage.setItem(
             "quickPracticeSetup",
@@ -34,8 +38,14 @@ export default function QuickPracticeSetup() {
         }
     };
 
+    const handleStart = () => {
+        if (!canStart) return;
+        setShowConfirm(true);
+    };
+
     return (
-        <div className="max-w-md mx-auto mt-10 bg-white rounded-2xl shadow-xl p-8">
+        <>
+            <div className="max-w-md mx-auto mt-10 bg-white rounded-2xl shadow-xl p-8">
 
             <h2 className="text-2xl font-bold text-center mb-6">
                 Quick Practice শুরু করো
@@ -130,5 +140,84 @@ export default function QuickPracticeSetup() {
             </button>
 
         </div>
+
+        {/* ====== Match Ready Confirmation Popup ====== */}
+        {showConfirm && (
+            <div
+                className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4"
+                onClick={() => setShowConfirm(false)}
+            >
+                <div
+                    className="w-full max-w-md bg-white rounded-2xl shadow-2xl overflow-hidden"
+                    onClick={(e) => e.stopPropagation()}
+                >
+                    {/* Header */}
+                    <div
+                        className="px-6 py-5 text-white text-center"
+                        style={{
+                            background: 'linear-gradient(135deg, #E95420 0%, #F9A825 100%)'
+                        }}
+                    >
+                        <h3 className="text-xl font-extrabold leading-snug">
+                            তুমি কি ম্যাচ খেলতে প্রস্তুত?
+                        </h3>
+                        {userName.trim() && (
+                            <p className="text-sm opacity-90 mt-1">
+                                {userName.trim()} 🏏
+                            </p>
+                        )}
+                    </div>
+
+                    {/* Rules List */}
+                    <div className="px-6 py-5">
+                        <p className="font-bold text-gray-700 mb-3">
+                            নিয়মের তালিকা
+                        </p>
+                        <ul className="space-y-3 text-gray-800">
+                            <li className="flex items-start gap-2">
+                                <span>⏱️</span>
+                                <span>
+                                    পরীক্ষার সময়: <strong>{topicConfig.timeLimit} সেকেন্ড</strong>
+                                </span>
+                            </li>
+                            <li className="flex items-start gap-2">
+                                <span>🎯</span>
+                                <span>
+                                    মোট প্রশ্ন সংখ্যা: <strong>{topicConfig.questionLimit}টি</strong>
+                                </span>
+                            </li>
+                            <li className="flex items-start gap-2">
+                                <span>⚠️</span>
+                                <span>
+                                    নেগেটিভ মার্কিং: প্রতিটি ভুল উত্তরের জন্য{' '}
+                                    <strong>{topicConfig.negativeMarking.toFixed(2)} নম্বর</strong> কাটা যাবে!
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {/* Action Buttons */}
+                    <div className="px-6 pb-6 flex flex-col gap-3">
+                        <button
+                            onClick={proceed}
+                            className="w-full py-3 rounded-lg font-bold text-white transition hover:opacity-90"
+                            style={{
+                                background: 'linear-gradient(135deg, #E95420 0%, #F9A825 100%)'
+                            }}
+                        >
+                            🔥 হ্যাঁ! খেলা হবে
+                        </button>
+                        <button
+                            onClick={() => setShowConfirm(false)}
+                            className="w-full py-3 rounded-lg font-semibold text-gray-700 bg-gray-100 border-2 border-gray-300 transition hover:bg-gray-200"
+                        >
+                            🏃‍♂️ না, পরে খেলি
+                        </button>
+                    </div>
+                </div>
+            </div>
+        )}
+
+    </>
     );
 }
