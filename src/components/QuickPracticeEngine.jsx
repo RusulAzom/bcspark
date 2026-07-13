@@ -107,6 +107,12 @@ export default function QuickPracticeEngine({
                 clonedDoc.body.style.background = '#ffffff';
                 clonedDoc.body.style.width = '1080px';
 
+                const resultSheet = clonedDoc.getElementById('resultSheet');
+                if (resultSheet) {
+                    resultSheet.style.width = '1080px';
+                    resultSheet.style.maxWidth = 'none';
+                }
+
                 const allElements = clonedDoc.querySelectorAll('*');
                 allElements.forEach(el => {
                     const style = window.getComputedStyle(el);
@@ -311,7 +317,7 @@ export default function QuickPracticeEngine({
                         </button>
                         // ============Result Page============
                     ) : (
-                        <div ref={resultRef} className="w-[1080px] mt-8 bg-white p-1 rounded-xl shadow relative overflow-hidden">
+                        <div ref={resultRef} id="resultSheet" className="w-full max-w-[1080px] mx-auto mt-8 bg-white p-1 rounded-xl shadow relative overflow-hidden">
 
                             <img
                                 src="/logo/logo.png"
@@ -324,7 +330,7 @@ export default function QuickPracticeEngine({
                                     background: 'linear-gradient(135deg, #E95420 0%, #F9A825 60%, #e956208e 50%)'
                                 }}>
 
-                                <div className="grid grid-cols-2 gap-4 items-center">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
                                     <div className="text-left space-y-3">
                                         <div className="space-y-2">
                                             {getResultMessage(userName, finalScore, questions.length).map((line, index) => (
@@ -361,7 +367,7 @@ export default function QuickPracticeEngine({
                                 </div>
                             </div>
                             {/* ===================Answer Sheets====================== */}
-                            <div ref={reviewRef} className="grid grid-cols-2 gap-3 mb-6 relative z-10">
+                            <div ref={reviewRef} className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6 relative z-10">
                                 {questions.map((q, i) => (
                                     <div key={q.id} className="border rounded-lg p-2 bg-gray-30">
                                         <p className="font-semibold text-xs mb-1">প্রশ্ন {i + 1}: {q.q}
