@@ -177,8 +177,8 @@ export default function QuickPracticeEngine({
     // warning color 
     const timerColor = time <= 10 ? 'bg-red-200 text-red-900 animate-pulse' : 'bg-red-100 text-red-900';
 
-    // submit handeler 
-    const handleSubmit = () => {
+    // =============Score Calculation============
+    const calculateResults = () => {
         let correct = 0;
         let wrong = 0;
 
@@ -194,7 +194,18 @@ export default function QuickPracticeEngine({
 
         setCorrectCount(correct);
         setWrongCount(wrong);
+    };
 
+    // Auto-calculate score whenever the quiz is submitted (manual OR by timer)
+    useEffect(() => {
+        if (submitted) {
+            calculateResults();
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [submitted]);
+
+    // submit handeler 
+    const handleSubmit = () => {
         setSubmitted(true);
     };
 
