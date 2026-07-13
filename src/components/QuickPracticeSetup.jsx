@@ -171,7 +171,7 @@ export default function QuickPracticeSetup() {
                     {/* Rules List */}
                     <div className="px-6 py-5">
                         <p className="font-bold text-gray-700 mb-3">
-                            নিয়মের তালিকা
+                            খেলার নিয়মঃ 
                         </p>
                         <ul className="space-y-3 text-gray-800">
                             <li className="flex items-start gap-2">
@@ -183,7 +183,7 @@ export default function QuickPracticeSetup() {
                             <li className="flex items-start gap-2">
                                 <span>🎯</span>
                                 <span>
-                                    মোট প্রশ্ন সংখ্যা: <strong>{topicConfig.questionLimit}টি</strong>
+                                    মোট প্রশ্নসংখ্যা: <strong>{topicConfig.questionLimit}টি</strong>
                                 </span>
                             </li>
                             <li className="flex items-start gap-2">
