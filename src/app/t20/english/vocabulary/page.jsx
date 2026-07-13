@@ -12,6 +12,10 @@ export default function VocabularyPage() {
                 questions={randomQuestions}
                 config={{
                     title: "Vocabulary Test - BCS",
+                    category: "English",
+                    subject: "Vocabulary",
+                    step: "01",
+                    passMark: 50,
                     questionLimit: 20,
                     timeLimit: 120,
                     timerDisplay: "t20",

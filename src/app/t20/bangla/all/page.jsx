@@ -12,6 +12,10 @@ export default function banglaPage() {
                 questions={randomQuestions}
                 config={{
                     title: "Bangla Quick Practice - BCS",
+                    category: "Bangla",
+                    subject: "Bangla All",
+                    step: "01",
+                    passMark: 50,
                     questionLimit: 20,
                     // time in second
                     timeLimit: 120,

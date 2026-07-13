@@ -12,6 +12,10 @@ export default function SpellingPage() {
                 questions={randomQuestions}
                 config={{
                     title: "Spelling Test - BCS",
+                    category: "English",
+                    subject: "Spelling",
+                    step: "01",
+                    passMark: 50,
                     questionLimit: 20,
                     timeLimit: 120,
                     timerDisplay: "t20",

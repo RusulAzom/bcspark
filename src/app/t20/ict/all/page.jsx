@@ -12,6 +12,10 @@ export default function ICTPage() {
                 questions={randomQuestions}
                 config={{
                     title: "ICT Quick Practice - BCS",
+                    category: "ICT",
+                    subject: "ICT All",
+                    step: "01",
+                    passMark: 50,
                     questionLimit: 20,
                     // time in second
                     timeLimit: 120,

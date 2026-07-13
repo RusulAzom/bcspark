@@ -12,6 +12,10 @@ export default function GKPage() {
                 questions={randomQuestions}
                 config={{
                     title: "GK Quick Practice - BCS",
+                    category: "GK",
+                    subject: "GK All",
+                    step: "01",
+                    passMark: 50,
                     questionLimit: 20,
                     // time in second
                     timeLimit: 120,
