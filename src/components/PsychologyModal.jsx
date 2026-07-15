@@ -1,7 +1,6 @@
 // src/components/PsychologyModal.jsx
 "use client";
 import React, { useState, useMemo, useRef } from 'react';
-import html2canvas from 'html2canvas';
 import { psychologyCategories, psychologyTests } from '../app/frontApp/psychologyData';
 
 // 🎯 এখানে { onClose } প্রোপটি সঠিকভাবে রিসিভ করা হলো
@@ -34,13 +33,20 @@ export default function PsychologyModal({ onClose }) {
     const activeTestData = psychologyTests[selectedTest];
     const totalQuestions = activeTestData?.questions?.length || 0;
 
-    // ৫. স্কোর ক্যালকুলেশন
+    // ৫. সর্বোচ্চ সম্ভাব্য স্কোর নির্ণয় (প্রশ্ন সংখ্যা × সর্বোচ্চ অপশন ভ্যালু)
+    const maxPossibleScore = useMemo(() => {
+        if (!activeTestData?.options?.length) return totalQuestions;
+        const maxVal = Math.max(...activeTestData.options.map((o) => o.value || 0));
+        return totalQuestions * maxVal;
+    }, [activeTestData, totalQuestions]);
+
+    // ৬. স্কোর ক্যালকুলেশন
     const totalScore = useMemo(() => {
         if (!userAnswers.length) return 0;
         return userAnswers.reduce((sum, val) => sum + (val || 0), 0);
     }, [userAnswers]);
 
-    // ৬. স্কোর অনুযায়ী সিভিয়ারিটি ডেটা বের করা
+    // ৭. স্কোর অনুযায়ী সিভিয়ারিটি ডেটা বের করা
     const severityResult = useMemo(() => {
         if (!activeTestData?.scoring) return null;
         const matched = activeTestData.scoring.find(
@@ -49,7 +55,7 @@ export default function PsychologyModal({ onClose }) {
         return matched || activeTestData.scoring[activeTestData.scoring.length - 1];
     }, [totalScore, activeTestData]);
 
-    // ৭. অপশন ক্লিক হ্যান্ডেলার
+    // ৮. অপশন ক্লিক হ্যান্ডেলার
     const handleOptionSelect = (score) => {
         const updatedAnswers = [...userAnswers];
         updatedAnswers[currentQuestionIndex] = score;
@@ -62,7 +68,7 @@ export default function PsychologyModal({ onClose }) {
         }
     };
 
-    // ৮. লিড ফর্ম সাবমিট হ্যান্ডেলার
+    // ৯. লিড ফর্ম সাবমিট হ্যান্ডেলার
     const handleLeadSubmit = (e) => {
         e.preventDefault();
         const errors = {};
@@ -89,13 +95,14 @@ export default function PsychologyModal({ onClose }) {
                 testId: selectedTest,
                 testName: activeTestData?.name,
                 totalScore,
+                maxScore: maxPossibleScore,
                 severity: severityResult?.status,
             });
             setIsLeadSubmitted(true);
         }
     };
 
-    // ৯. মডাল রিসেট (আবার পরীক্ষা করুন)
+    // ১০. মডাল রিসেট (আবার পরীক্ষা করুন)
     const handleReset = () => {
         setSelectedCategory("");
         setSelectedTest("");
@@ -109,25 +116,6 @@ export default function PsychologyModal({ onClose }) {
         setFormErrors({});
     };
 
-    // ১০. জেপিজি হিসেবে সেভ করার ফাংশন
-    const handleSaveAsJPG = async () => {
-        if (!resultRef.current) return;
-        try {
-            const canvas = await html2canvas(resultRef.current, {
-                scale: 2,
-                backgroundColor: '#ffffff',
-                useCORS: true,
-                logging: false,
-            });
-            const link = document.createElement('a');
-            link.download = `BCSpark_Psychology_Report_${activeTestData?.id || 'test'}.jpg`;
-            link.href = canvas.toDataURL('image/jpeg', 0.95);
-            link.click();
-        } catch (err) {
-            console.error('Failed to save result as JPG:', err);
-        }
-    };
-
     // ১১. স্কোর অনুযায়ী কালার ক্লাস ম্যাপিং
     const getScoreColorClasses = (color) => {
         const map = {
@@ -135,35 +123,50 @@ export default function PsychologyModal({ onClose }) {
                 bg: "bg-green-100",
                 text: "text-green-700",
                 ring: "ring-green-400",
-                badge: "bg-green-500",
                 gradient: "from-green-400 to-emerald-500",
+                solid: "#22c55e",
+                scoreBg: "bg-green-500",
             },
             blue: {
                 bg: "bg-blue-100",
                 text: "text-blue-700",
                 ring: "ring-blue-400",
-                badge: "bg-blue-500",
                 gradient: "from-blue-400 to-indigo-500",
+                solid: "#3b82f6",
+                scoreBg: "bg-blue-500",
             },
             orange: {
                 bg: "bg-orange-100",
                 text: "text-orange-700",
                 ring: "ring-orange-400",
-                badge: "bg-orange-500",
                 gradient: "from-orange-400 to-amber-500",
+                solid: "#f97316",
+                scoreBg: "bg-orange-500",
             },
             red: {
                 bg: "bg-red-100",
                 text: "text-red-700",
                 ring: "ring-red-400",
-                badge: "bg-red-500",
                 gradient: "from-red-400 to-rose-500",
+                solid: "#ef4444",
+                scoreBg: "bg-red-500",
             },
         };
         return map[color] || map.green;
     };
 
     const colorClasses = getScoreColorClasses(severityResult?.color);
+
+    // ১২. লিনিয়ার রেঞ্জ ইন্ডিকেটরের জন্য কনফিগারেশন
+    const rangeConfig = activeTestData?.scoring
+        ? activeTestData.scoring.map((r) => ({
+              ...r,
+              startPercent: (r.min / maxPossibleScore) * 100,
+              endPercent: ((r.max + 1) / maxPossibleScore) * 100,
+          }))
+        : [];
+
+    const scorePercent = maxPossibleScore > 0 ? (totalScore / maxPossibleScore) * 100 : 0;
 
     return (
         /* 🎯 কালো ব্যাকড্রপ এরিয়ায় ক্লিক করলে যেন মডাল বন্ধ হয় (onClose), কিন্তু ভেতরের সাদা বক্সে ক্লিক করলে যেন বন্ধ না হয় (e.stopPropagation) */
@@ -404,13 +407,16 @@ export default function PsychologyModal({ onClose }) {
 
                         {/* স্কোর সার্কেল */}
                         <div className="flex flex-col items-center justify-center py-4">
-                            <div className={`relative w-28 h-28 rounded-full flex items-center justify-center bg-gradient-to-br ${colorClasses.gradient} shadow-lg ring-4 ${colorClasses.ring} ring-offset-2`}>
+                            <div
+                                data-score-circle
+                                className={`relative w-28 h-28 rounded-full flex items-center justify-center bg-gradient-to-br ${colorClasses.gradient} shadow-lg ring-4 ${colorClasses.ring} ring-offset-2`}
+                            >
                                 <div className="text-center">
                                     <span className="block text-3xl font-black text-white">
                                         {totalScore}
                                     </span>
                                     <span className="block text-xs font-semibold text-white/80">
-                                        / {activeTestData?.totalQuestions || totalQuestions}
+                                        / {maxPossibleScore}
                                     </span>
                                 </div>
                             </div>
@@ -419,39 +425,94 @@ export default function PsychologyModal({ onClose }) {
                             </div>
                         </div>
 
-                        {/* সাজেশন / এডভাইস */}
-                        <div className={`rounded-2xl p-5 border ${colorClasses.bg} border-opacity-40`}>
-                            <p className="text-sm leading-relaxed text-gray-700">
-                                <strong>💡 পরামর্শ:</strong> {severityResult.suggestion}
-                            </p>
+                        {/* লিনিয়ার রেঞ্জ গ্রাফ */}
+                        <div className="bg-gray-50 rounded-2xl p-4 border border-gray-100">
+                            <p className="text-xs font-bold text-gray-600 mb-3 text-center">📊 রিস্ক রেঞ্জ চার্ট</p>
+                            <div className="relative h-6 w-full bg-gray-200 rounded-full overflow-hidden">
+                                {/* রেঞ্জ সেগমেন্টগুলো */}
+                                {rangeConfig.map((range, idx) => (
+                                    <div
+                                        key={idx}
+                                        className="absolute top-0 h-full"
+                                        style={{
+                                            left: `${range.startPercent}%`,
+                                            width: `${range.endPercent - range.startPercent}%`,
+                                            backgroundColor:
+                                                range.color === 'green' ? '#22c55e' :
+                                                range.color === 'blue' ? '#3b82f6' :
+                                                range.color === 'orange' ? '#f97316' : '#ef4444',
+                                            opacity: 0.85,
+                                        }}
+                                    ></div>
+                                ))}
+                                {/* স্কোর ইন্ডিকেটর পয়েন্টার */}
+                                <div
+                                    className="absolute top-1/2 -translate-y-1/2 w-5 h-5 bg-white border-2 border-gray-700 rounded-full shadow-md z-10 transition-all duration-500"
+                                    style={{
+                                        left: `calc(${scorePercent}% - 10px)`,
+                                    }}
+                                >
+                                    <div className="absolute -top-5 left-1/2 -translate-x-1/2 text-[9px] font-bold text-gray-700 whitespace-nowrap">
+                                        {totalScore}
+                                    </div>
+                                </div>
+                            </div>
+                            {/* রেঞ্জ লেজেন্ড */}
+                            <div className="flex justify-between mt-2 text-[9px] text-gray-400 px-0.5">
+                                <span>০ (নিরাপদ)</span>
+                                <span>{maxPossibleScore} (ঝুঁকিপূর্ণ)</span>
+                            </div>
+                            {/* কালার লেজেন্ড */}
+                            <div className="flex flex-wrap gap-2 mt-3 justify-center">
+                                {activeTestData.scoring.map((range, idx) => (
+                                    <div key={idx} className="flex items-center gap-1 text-[9px] text-gray-500">
+                                        <span
+                                            className="inline-block w-2.5 h-2.5 rounded-full"
+                                            style={{
+                                                backgroundColor:
+                                                    range.color === 'green' ? '#22c55e' :
+                                                    range.color === 'blue' ? '#3b82f6' :
+                                                    range.color === 'orange' ? '#f97316' : '#ef4444',
+                                            }}
+                                        ></span>
+                                        {range.status.split(' (')[0]}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* নোট: কম স্কোর নিরাপদ, বেশি স্কোর বিপজ্জনক (রেঞ্জ চার্টের পরে) */}
+                        <div className="bg-amber-50/70 border border-amber-200 rounded-xl p-2.5 text-[11px] text-amber-700 text-center leading-relaxed">
+                            ⚠️ <strong>নোট:</strong> এই টেস্টে <strong>কম স্কোর</strong> মানে তুলনামূলকভাবে <strong>নিরাপদ</strong>, আর <strong>বেশি স্কোর</strong> মানে <strong>ঝুঁকি বেশি</strong>।
+                        </div>
+
+                        {/* সাজেশন / এডভাইস - হাইলাইটেড */}
+                        <div className={`rounded-2xl p-5 border-2 ${colorClasses.bg} border-${colorClasses.text.replace('text-', '')}/30 shadow-lg`}>
+                            <div className="flex items-start gap-3">
+                                <span className="text-2xl shrink-0 mt-0.5">💡</span>
+                                <div>
+                                    <h4 className="text-base font-black text-gray-800 mb-1.5">বিশেষজ্ঞ পরামর্শ</h4>
+                                    <p className="text-sm leading-relaxed text-gray-700">
+                                        {severityResult.suggestion}
+                                    </p>
+                                </div>
+                            </div>
                         </div>
 
                         {/* বিবরণ */}
                         <div className="bg-gray-50 rounded-2xl p-4 text-xs text-gray-500 space-y-1.5 border border-gray-100">
                             <p><strong>পরীক্ষার নাম:</strong> {activeTestData?.name}</p>
-                            <p><strong>মোট স্কোর:</strong> {totalScore} / {activeTestData?.totalQuestions || totalQuestions}</p>
+                            <p><strong>মোট স্কোর:</strong> {totalScore} / {maxPossibleScore}</p>
                             <p><strong>পরিস্থিতি:</strong> {severityResult.status}</p>
                         </div>
 
                         {/* ক্রেডেনশিয়াল ফুটার */}
                         <div className="text-center text-[10px] text-gray-300 pt-1 pb-3 border-t border-gray-100">
-                            পরীক্ষিত: <span className="font-semibold text-gray-400">BCSpark.bd</span> - বাংলাদেশের ক্যারিয়ার ও মানসিক স্বাস্থ্য প্ল্যাটফর্ম
+                            T Tested on :<span className="font-semibold text-gray-400">BCSpark.bd</span> - বাংলাদেশের ক্যারিয়ার প্ল্যাটফর্ম
                         </div>
 
                         {/* সিটিএ বাটন */}
-                        <div className="space-y-3 pt-2">
-                            <button className="w-full py-3.5 px-5 text-base font-bold text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 rounded-xl transition shadow-lg shadow-blue-600/30 active:scale-[0.98] animate-pulse">
-                                🧑‍⚕️ বিশেষজ্ঞের পরামর্শ নিন (বুকিং অ্যাপয়েন্টমেন্ট)
-                            </button>
-                            <button
-                                onClick={handleSaveAsJPG}
-                                className="w-full py-3 px-5 text-sm font-bold text-gray-600 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-xl transition active:scale-[0.98] flex items-center justify-center gap-2"
-                            >
-                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 11l5 5 5-5M12 4v12" />
-                                </svg>
-                                ফলাফল ফোনে সেভ করুন (JPG)
-                            </button>
+                        <div className="pt-2">
                             <button
                                 onClick={handleReset}
                                 className="w-full py-3 px-5 text-sm font-bold text-gray-500 bg-gray-100 hover:bg-gray-200 rounded-xl transition active:scale-[0.98]"
