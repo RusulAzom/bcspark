@@ -22,6 +22,8 @@ export default function PsychologyModal({ onClose }) {
     const [leadName, setLeadName] = useState("");
     const [leadContact, setLeadContact] = useState("");
     const [isLeadSubmitted, setIsLeadSubmitted] = useState(false);
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submitError, setSubmitError] = useState("");
     const [formErrors, setFormErrors] = useState({});
 
     // ৪. সিলেক্টেড ক্যাটাগরির টেস্ট ফিল্টার করার লজিক
@@ -68,9 +70,12 @@ export default function PsychologyModal({ onClose }) {
         }
     };
 
-    // ৯. লিড ফর্ম সাবমিট হ্যান্ডেলার
-    const handleLeadSubmit = (e) => {
+    const SHEETDB_API = "https://sheetdb.io/api/v1/hyafyjkys9216";
+
+    // ৯. লিড ফর্ম সাবমিট হ্যান্ডেলার (Google Sheets via SheetDB)
+    const handleLeadSubmit = async (e) => {
         e.preventDefault();
+        setSubmitError("");
         const errors = {};
 
         if (!leadName.trim()) {
@@ -87,18 +92,36 @@ export default function PsychologyModal({ onClose }) {
 
         setFormErrors(errors);
 
-        if (Object.keys(errors).length === 0) {
-            // ডিবাগ লগ
-            console.log("📋 Lead Data Submitted:", {
+        if (Object.keys(errors).length > 0) return;
+
+        setIsSubmitting(true);
+        const payload = {
+            data: {
                 name: leadName.trim(),
                 contact: leadContact.trim(),
-                testId: selectedTest,
-                testName: activeTestData?.name,
-                totalScore,
-                maxScore: maxPossibleScore,
-                severity: severityResult?.status,
+                test: activeTestData?.name || "",
+                score: totalScore.toString(),
+                maxScore: maxPossibleScore.toString(),
+                severity: severityResult?.status || "",
+                responses: JSON.stringify(userAnswers),
+                date: new Date().toISOString(),
+            },
+        };
+
+        try {
+            const res = await fetch(SHEETDB_API, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload),
             });
+            if (!res.ok) throw new Error(`Server responded with ${res.status}`);
+            console.log("📋 Lead saved to Google Sheets:", payload.data);
             setIsLeadSubmitted(true);
+        } catch (err) {
+            console.error("❌ Failed to save lead to SheetDB:", err);
+            setSubmitError("ডেটা সংরক্ষণে সমস্যা হয়েছে। দয়া করে আবার চেষ্টা করুন।");
+        } finally {
+            setIsSubmitting(false);
         }
     };
 
@@ -367,13 +390,34 @@ export default function PsychologyModal({ onClose }) {
                                 )}
                             </div>
 
+                            {/* সাবমিট এরর */}
+                            {submitError && (
+                                <div className="bg-red-50 border border-red-200 rounded-xl p-2.5 text-xs text-red-600 text-center">
+                                    ❌ {submitError}
+                                </div>
+                            )}
+
                             {/* সাবমিট বাটন */}
                             <div className="pt-2">
                                 <button
                                     type="submit"
-                                    className="w-full py-3.5 px-5 text-base font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-xl transition shadow-lg shadow-blue-600/20 active:scale-[0.98]"
+                                    disabled={isSubmitting}
+                                    className={`w-full py-3.5 px-5 text-base font-bold text-white rounded-xl transition shadow-lg active:scale-[0.98] ${isSubmitting
+                                            ? 'bg-blue-400 cursor-not-allowed shadow-none'
+                                            : 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/20'
+                                        }`}
                                 >
-                                    ফলাফল দেখুন 📊
+                                    {isSubmitting ? (
+                                        <span className="flex items-center justify-center gap-2">
+                                            <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24" fill="none">
+                                                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                                                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                                            </svg>
+                                            সংরক্ষণ করা হচ্ছে...
+                                        </span>
+                                    ) : (
+                                        'ফলাফল দেখুন 📊'
+                                    )}
                                 </button>
                             </div>
                         </form>
