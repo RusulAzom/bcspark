@@ -1,10 +1,14 @@
+'use client';
+import { useState } from 'react';
 import questions from '../../../../../data/t20/ict/ictAll.json';
 import QuickPracticeEngine from '@/components/QuickPracticeEngine';
 
 export default function ICTPage() {
-    const randomQuestions = [...questions]
-        .sort(() => 0.5 - Math.random())
-        .slice(0, 20);
+    const [randomQuestions] = useState(() => {
+        return [...questions]
+            .sort(() => 0.5 - Math.random())
+            .slice(0, 20);
+    });
 
     return (
         <div className="min-h-screen bg-gray-50 py-10">

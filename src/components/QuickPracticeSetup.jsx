@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import practiceRoutes, { defaultQuizConfig } from '@/data/practiceRoutes';
 
@@ -13,12 +13,35 @@ export default function QuickPracticeSetup() {
     const [selectedTopic, setSelectedTopic] = useState('');
     const [showConfirm, setShowConfirm] = useState(false);
 
+    // Restore previous setup from sessionStorage and auto-show popup on retry
+    useEffect(() => {
+        const savedSetup = sessionStorage.getItem("quickPracticeSetup");
+        if (savedSetup) {
+            try {
+                const setup = JSON.parse(savedSetup);
+                if (setup.name) setUserName(setup.name);
+                if (setup.subject) setSelectedSubject(setup.subject);
+                if (setup.topic) setSelectedTopic(setup.topic);
+            } catch (e) {
+                // ignore parse errors
+            }
+        }
+
+        const isRetry = sessionStorage.getItem("quickPracticeRetry");
+        if (isRetry) {
+            setShowConfirm(true);
+            sessionStorage.removeItem("quickPracticeRetry");
+        }
+    }, []);
+
     const canStart = userName.trim().length > 0 && selectedSubject && selectedTopic;
 
     const topicConfig =
         practiceRoutes[selectedSubject]?.topics[selectedTopic]?.config || defaultQuizConfig;
 
     const proceed = () => {
+
+        sessionStorage.removeItem("quickPracticeRetry");
 
         sessionStorage.setItem(
             "quickPracticeSetup",
@@ -145,7 +168,10 @@ export default function QuickPracticeSetup() {
         {showConfirm && (
             <div
                 className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4"
-                onClick={() => setShowConfirm(false)}
+                onClick={() => {
+                    sessionStorage.removeItem("quickPracticeRetry");
+                    setShowConfirm(false);
+                }}
             >
                 <div
                     className="w-full max-w-md bg-white rounded-2xl shadow-2xl overflow-hidden"
@@ -208,7 +234,10 @@ export default function QuickPracticeSetup() {
                             🔥 হ্যাঁ! খেলা হবে
                         </button>
                         <button
-                            onClick={() => setShowConfirm(false)}
+                            onClick={() => {
+                                sessionStorage.removeItem("quickPracticeRetry");
+                                setShowConfirm(false);
+                            }}
                             className="w-full py-3 rounded-lg font-semibold text-gray-700 bg-gray-100 border-2 border-gray-300 transition hover:bg-gray-200"
                         >
                             🏃‍♂️ না, পরে খেলি

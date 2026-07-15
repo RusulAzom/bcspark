@@ -3,11 +3,13 @@ import { useState, useEffect, useRef } from 'react';
 import html2canvas from 'html2canvas';
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import { useRouter } from 'next/navigation';
 
 export default function QuickPracticeEngine({
     questions,
     config = {}
 }) {
+    const router = useRouter();
     const {
         title = "Quick Practice",
         category = "Quiz",
@@ -418,7 +420,10 @@ export default function QuickPracticeEngine({
                                 </button>
 
                                 <button
-                                    onClick={() => window.location.reload()}
+                                    onClick={() => {
+                                        sessionStorage.setItem("quickPracticeRetry", "true");
+                                        router.push('/t20');
+                                    }}
                                     className="flex-1 bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700"
                                 >
                                     🔄 আবার Practice দাও
