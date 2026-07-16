@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import Link from "next/link";
 import { ChevronLeft, ChevronRight, Trophy, Newspaper, Zap, BookOpen, Bot } from "lucide-react";
 
 const slides = [
@@ -51,10 +52,20 @@ const slides = [
     id: 5,
     badge: "🤖 AI ২৪/৭ মেন্টরিং",
     title: "Study Buddy AI",
-    description: "BCS সিলেবাসের যেকোনো কঠিন বিষয় বুঝতে চ্যাট করুন আমাদের পার্সোনাল AI মেন্টরের সাথে। সাথে থাকছে ইন্সট্যান্ট সমাধান ও কাস্টম নোট জেনারেশন।",
+    description: "BCS সিলেবাসের যেকোনো কঠিন বিষয় বুঝতে চ্যাট করুন আমাদের পার্সোনাল AI মেন্টরের সাথে। সাথে থাকছে ইন্সট্যান্ট সমাধান ও কাস্টম নোট জেনারেশন।",
     ctaText: "চ্যাট শুরু করো",
     emoji: "🤖",
     bgGradient: "from-teal-950 via-[#1a365d] to-[#319795]"
+  },
+  {
+    id: 6,
+    badge: "🧠 মানসিক স্বাস্থ্য যাচাই",
+    title: "আপনার মানসিক鸠াহ্য কেমন আছে?",
+    description: "ডিপ্রেশন, দুশ্চিন্তা ও সম্পর্কের টানাপোড়েন পরিমাপ করুন আন্তর্জাতিক বৈজ্ঞানিক স্কেলে—সম্পূর্ণ বিনামূল্যে ও গোপনে।",
+    ctaText: "পরীক্ষা শুরু করুন",
+    emoji: "🧠",
+    link: "/psychology-test-bangla",
+    bgGradient: "from-indigo-900 via-blue-800 to-purple-900"
   }
 ];
 
@@ -137,13 +148,20 @@ export default function HeroCarousel() {
                 )}
               </div>
 
-              {/* Bottom Actions */}
-              <div className="flex items-end justify-between mt-6">
-                <button className="inline-flex items-center gap-2 rounded-xl bg-accent px-6 py-3 text-base font-bold text-primary shadow-lg transition-all hover:bg-accent-dark hover:-translate-y-0.5 active:translate-y-0">
-                  <span>{slide.ctaText}</span>
-                  <ChevronRight className="h-5 w-5" />
-                </button>
-              </div>
+                {/* Bottom Actions */}
+                <div className="flex items-end justify-between mt-6">
+                  {slide.link ? (
+                    <Link href={slide.link} className="inline-flex items-center gap-2 rounded-xl bg-accent px-6 py-3 text-base font-bold text-primary shadow-lg transition-all hover:bg-accent-dark hover:-translate-y-0.5 active:translate-y-0">
+                      <span>{slide.ctaText}</span>
+                      <ChevronRight className="h-5 w-5" />
+                    </Link>
+                  ) : (
+                    <button className="inline-flex items-center gap-2 rounded-xl bg-accent px-6 py-3 text-base font-bold text-primary shadow-lg transition-all hover:bg-accent-dark hover:-translate-y-0.5 active:translate-y-0">
+                      <span>{slide.ctaText}</span>
+                      <ChevronRight className="h-5 w-5" />
+                    </button>
+                  )}
+                </div>
 
             </div>
           </div>

@@ -96,6 +96,25 @@ export default function HeroSection() {
         </div>
       </section>
 
+      {/* কুইক ক্যাটাগরি বাটন রো — হিরো স্লাইডারের নিচে */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-6">
+        <div className="flex overflow-x-auto whitespace-nowrap scrollbar-hide gap-3 justify-center lg:justify-center">
+          <Link href="#" className="shrink-0 rounded-full border border-gray-200 bg-white px-5 py-2.5 text-sm font-bold text-gray-700 shadow-sm hover:shadow-md hover:border-accent hover:text-accent transition-all active:scale-95">
+            HSC
+          </Link>
+          <Link href="#" className="shrink-0 rounded-full border border-gray-200 bg-white px-5 py-2.5 text-sm font-bold text-gray-700 shadow-sm hover:shadow-md hover:border-accent hover:text-accent transition-all active:scale-95">
+            Admission Test
+          </Link>
+          <Link href="#" className="shrink-0 rounded-full border border-gray-200 bg-white px-5 py-2.5 text-sm font-bold text-gray-700 shadow-sm hover:shadow-md hover:border-accent hover:text-accent transition-all active:scale-95">
+            SSC
+          </Link>
+          <Link href="/psychology-test-bangla" className="shrink-0 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 px-5 py-2.5 text-sm font-bold text-white shadow-md hover:shadow-lg hover:from-indigo-700 hover:to-purple-700 transition-all active:scale-95 flex items-center gap-2">
+            <span>🧠</span>
+            <span>মানসিক স্বাস্থ্য পরীক্ষা</span>
+          </Link>
+        </div>
+      </section>
+
       {/* সাইকোলজি টেস্ট মডাল (পপআপ) */}
       {isPsychologyModalOpen && (
         <PsychologyModal
