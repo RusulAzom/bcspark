@@ -37,8 +37,10 @@ export default function PsychologyModal({ onClose }) {
 
     // ৫. সর্বোচ্চ সম্ভাব্য স্কোর নির্ণয় (প্রশ্ন সংখ্যা × সর্বোচ্চ অপশন ভ্যালু)
     const maxPossibleScore = useMemo(() => {
-        if (!activeTestData?.options?.length) return totalQuestions;
-        const maxVal = Math.max(...activeTestData.options.map((o) => o.value || 0));
+        if (!activeTestData?.questions?.length) return totalQuestions;
+        const allValues = activeTestData.questions.flatMap(q => q.options?.map(o => o.value) || [0]);
+        if (allValues.length === 0) return totalQuestions;
+        const maxVal = Math.max(...allValues);
         return totalQuestions * maxVal;
     }, [activeTestData, totalQuestions]);
 
@@ -207,7 +209,7 @@ export default function PsychologyModal({ onClose }) {
                     <>
                         <div className="flex justify-center items-center border-b pb-4 mb-5">
                             <h3 className="text-2xl font-black text-gray-800 flex items-center gap-2">
-                                🧠 সাইকোলজিক্যাল টেস্ট জোন
+                                🧠 সাইকোলজিক্যাল টেস্ট / মানসিক স্বাস্থ্য পরীক্ষা সেন্টার  
                             </h3>
                         </div>
 
@@ -238,7 +240,7 @@ export default function PsychologyModal({ onClose }) {
                             {selectedCategory && (
                                 <div className="space-y-1 animate-in slide-in-from-top-3 duration-200">
                                     <label className="block text-lg font-bold text-gray-800">
-                                        ২. আপনার কাঙ্খিত পরীক্ষাটি নির্বাচন করুন:
+                                        ২. আপনার কাঙ্খিত মানসিক স্বাস্থ্য পরীক্ষাটি নির্বাচন করুন:
                                     </label>
                                     <select
                                         value={selectedTest}
@@ -311,13 +313,13 @@ export default function PsychologyModal({ onClose }) {
 
                         {/* কুইজ অপশন বাটন সমূহ */}
                         <div className="space-y-3">
-                            {activeTestData.options.map((option, index) => (
+                            {activeTestData.questions[currentQuestionIndex]?.options?.map((option, index) => (
                                 <button
                                     key={index}
                                     onClick={() => handleOptionSelect(option.value)}
                                     className="w-full text-left p-4 rounded-xl border-2 border-gray-150 hover:border-blue-500 hover:bg-blue-50/30 text-gray-700 hover:text-blue-700 font-semibold transition active:scale-[0.99] flex justify-between items-center group"
                                 >
-                                    <span>{option.text || option}</span>
+                                    <span>{option.text}</span>
                                     <span className="opacity-0 group-hover:opacity-100 text-blue-500 font-bold transition">➔</span>
                                 </button>
                             ))}
@@ -556,12 +558,18 @@ export default function PsychologyModal({ onClose }) {
                         </div>
 
                         {/* সিটিএ বাটন */}
-                        <div className="pt-2">
+                        <div className="pt-2 flex gap-3">
                             <button
                                 onClick={handleReset}
-                                className="w-full py-3 px-5 text-sm font-bold text-gray-500 bg-gray-100 hover:bg-gray-200 rounded-xl transition active:scale-[0.98]"
+                                className="flex-1 py-3 px-4 text-sm font-bold text-gray-500 bg-gray-100 hover:bg-gray-200 rounded-xl transition active:scale-[0.98]"
                             >
                                 🔄 আবার পরীক্ষা করুন
+                            </button>
+                            <button
+                                onClick={onClose}
+                                className="flex-1 py-3 px-4 text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-xl transition shadow-lg shadow-blue-600/20 active:scale-[0.98]"
+                            >
+                                🏠 হোম পেজে যান
                             </button>
                         </div>
                     </div>
