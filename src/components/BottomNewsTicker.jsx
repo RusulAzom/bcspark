@@ -17,15 +17,10 @@ export default function BottomNewsTicker() {
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 flex h-10 w-full items-center border-t border-blue-950 bg-[#15294a] shadow-[0_-4px_10px_rgba(0,0,0,0.1)] overflow-hidden font-bengali">
       
-      {/* Left fixed badge: "আজকের ঘটনা" */}
-      <div className="relative z-20 flex h-full items-center gap-2 bg-accent px-5 font-extrabold text-primary shadow-[4px_0_10px_rgba(0,0,0,0.2)]">
+      {/* Left fixed badge: "ইতিহাস" */}
+      <div className="relative z-20 flex h-full items-center gap-1.5 bg-accent px-2 sm:px-3 w-fit font-extrabold text-primary shadow-[4px_0_10px_rgba(0,0,0,0.2)]">
         <Flame className="h-4 w-4 fill-primary stroke-primary animate-pulse" />
-        <span className="text-xs sm:text-sm tracking-wide whitespace-nowrap">오늘의 Event</span>
-        {/* Translate "오늘의 Event" back to Bangla "আজকের ঘটনা" since Bangla text must be 100% same */}
-        <span className="absolute inset-0 bg-accent flex items-center justify-center gap-1.5 px-4">
-          <Flame className="h-4 w-4 fill-primary stroke-primary animate-pulse" />
-          <span className="text-xs sm:text-sm tracking-wide whitespace-nowrap">আজকের ঘটনা</span>
-        </span>
+          <span className="text-xs sm:text-sm tracking-wide whitespace-nowrap">ইতিহাজ</span>
       </div>
 
       {/* Right Marquee Container */}
