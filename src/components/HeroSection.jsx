@@ -12,7 +12,7 @@ import PsychologyModal from './PsychologyModal';
 // 40+ tools list 
 const topTools = [
   { id: 1, name: "T20 কুইজ", icon: <Target className="h-4.5 w-4.5" />, href: "/t20" }, // চালু 
-  { id: 2, name: "সাইকোলজি টেস্ট", icon: <Cpu className="h-4.5 w-4.5" />, href: "#" }, // চালু 
+  { id: 2, name: "সাইকোলজি টেস্ট", icon: <Cpu className="h-4.5 w-4.5" />, href: "/psychology-test-bangla" }, // চালু 
   { id: 3, name: "MCQ প্র্যাকটিস", icon: <FileText className="h-4.5 w-4.5" />, href: "#" },
   { id: 4, name: "মডেল টেস্ট", icon: <BarChart3 className="h-4.5 w-4.5" />, href: "#" },
   { id: 5, name: "BCS নিউজ", icon: <Newspaper className="h-4.5 w-4.5" />, href: "#" },
@@ -45,20 +45,19 @@ export default function HeroSection() {
               {/* Menu List */}
               <div className="grid grid-cols-2 grid-rows-5 grid-flow-col gap-1.5">
                 {topTools.map((tool) => {
-                  // সাইকোলজি টেস্ট বাটনের জন্য আলাদা ক্লিক ইভেন্ট হ্যান্ডেলার
+                  // সাইকোলজি টেস্ট বাটন — এখন পেজে রিডাইরেক্ট হবে
                   if (tool.id === 2) {
       return (
-        <button
+        <Link
           key={tool.id}
-          onClick={() => setIsPsychologyModalOpen(true)}
+          href={tool.href}
           className="flex items-center gap-3.5 rounded-xl px-3.5 py-2.5 text-sm font-bold text-slate-700 transition-all hover:bg-blue-50/50 hover:text-primary group text-left w-full"
         >
           <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#f0f4f8] text-primary transition-colors group-hover:bg-primary group-hover:text-white">
             {tool.icon}
           </div>
-          {/* 🎯 নিশ্চিত করুন এখানে tool.name আছে, tool.text বা শুধু tool নয় */}
           <span>{tool.name}</span> 
-        </button>
+        </Link>
       );
                   }
 
