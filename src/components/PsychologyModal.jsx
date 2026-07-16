@@ -4,13 +4,14 @@ import React, { useState, useMemo, useRef } from 'react';
 import { psychologyCategories, psychologyTests } from '../app/frontApp/psychologyData';
 
 // 🎯 এখানে { onClose } প্রোপটি সঠিকভাবে রিসিভ করা হলো
-export default function PsychologyModal({ onClose }) {
+// initialTestId পাঠানো হলে সরাসরি সেই টেস্ট চালু হবে, সিলেকশন স্ক্রিন স্কিপ হবে
+export default function PsychologyModal({ onClose, initialTestId }) {
     // ০. রেজাল্ট ক্যাপচার রেফারেন্স
     const resultRef = useRef(null);
 
     // ১. ড্রপডাউন ও সিলেকশন স্টেট
     const [selectedCategory, setSelectedCategory] = useState("");
-    const [selectedTest, setSelectedTest] = useState("");
+    const [selectedTest, setSelectedTest] = useState(initialTestId || "");
 
     // ২. কুইজ ফ্লো কন্ট্রোল স্টেট
     const [isTestStarted, setIsTestStarted] = useState(false);
