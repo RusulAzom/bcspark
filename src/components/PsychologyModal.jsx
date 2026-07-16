@@ -26,10 +26,9 @@ export default function PsychologyModal({ onClose }) {
     const [submitError, setSubmitError] = useState("");
     const [formErrors, setFormErrors] = useState({});
 
-    // ৪. সিলেক্টেড ক্যাটাগরির টেস্ট ফিল্টার করার লজিক
-    const availableTests = Object.values(psychologyTests).filter(
-        (test) => test.parentId === selectedCategory
-    );
+    // ৪. সিলেক্টেড ক্যাটাগরি অবজেক্ট খুঁজে বের করা
+    const selectedCategoryObj = psychologyCategories.find(c => c.id === selectedCategory);
+    const hasSubTests = selectedCategoryObj?.subTests && selectedCategoryObj.subTests.length > 0;
 
     // বর্তমানে সিলেক্ট করা টেস্টের ডেটা
     const activeTestData = psychologyTests[selectedTest];
@@ -102,6 +101,7 @@ export default function PsychologyModal({ onClose }) {
                 name: leadName.trim(),
                 contact: leadContact.trim(),
                 test: activeTestData?.name || "",
+                testId: activeTestData?.id || "",
                 score: totalScore.toString(),
                 maxScore: maxPossibleScore.toString(),
                 severity: severityResult?.status || "",
@@ -222,8 +222,19 @@ export default function PsychologyModal({ onClose }) {
                                 <select
                                     value={selectedCategory}
                                     onChange={(e) => {
-                                        setSelectedCategory(e.target.value);
+                                        const newCat = e.target.value;
+                                        setSelectedCategory(newCat);
+                                        // ক্যাটাগরি পরিবর্তন করলে টেস্ট রিসেট
                                         setSelectedTest("");
+                                        // যদি এই ক্যাটাগরির কোনো সাব-টেস্ট না থাকে, তাহলে অটো-সিলেক্ট করি
+                                        const catObj = psychologyCategories.find(c => c.id === newCat);
+                                        if (catObj && (!catObj.subTests || catObj.subTests.length === 0)) {
+                                            // parentId ম্যাচ করে প্রথম টেস্টটি অটো-সিলেক্ট করুন
+                                            const matchingTest = Object.values(psychologyTests).find(t => t.parentId === newCat);
+                                            if (matchingTest) {
+                                                setSelectedTest(matchingTest.id);
+                                            }
+                                        }
                                     }}
                                     className="w-full p-3.5 border-2 rounded-xl bg-gray-50 border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none text-gray-700 transition font-medium"
                                 >
@@ -236,8 +247,8 @@ export default function PsychologyModal({ onClose }) {
                                 </select>
                             </div>
 
-                            {/* ২য় লেয়ার ড্রপডাউন */}
-                            {selectedCategory && (
+                            {/* ২য় লেয়ার ড্রপডাউন — শুধুমাত্র সাব-টেস্ট আছে এমন ক্যাটাগরির জন্য */}
+                            {selectedCategory && hasSubTests && (
                                 <div className="space-y-1 animate-in slide-in-from-top-3 duration-200">
                                     <label className="block text-lg font-bold text-gray-800">
                                         ২. আপনার কাঙ্খিত মানসিক স্বাস্থ্য পরীক্ষাটি নির্বাচন করুন:
@@ -248,9 +259,9 @@ export default function PsychologyModal({ onClose }) {
                                         className="w-full p-3.5 border-2 rounded-xl bg-gray-50 border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none text-gray-700 transition font-medium"
                                     >
                                         <option value="">-- এখানে ক্লিক করে টেস্টটি সিলেক্ট করুন --</option>
-                                        {availableTests.map((test) => (
-                                            <option key={test.id} value={test.id}>
-                                                {test.name}
+                                        {selectedCategoryObj.subTests.map((sub) => (
+                                            <option key={sub.id} value={sub.id}>
+                                                {sub.name}
                                             </option>
                                         ))}
                                     </select>
