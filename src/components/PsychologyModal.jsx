@@ -251,7 +251,7 @@ export default function PsychologyModal({ onClose }) {
                             {selectedCategory && hasSubTests && (
                                 <div className="space-y-1 animate-in slide-in-from-top-3 duration-200">
                                     <label className="block text-lg font-bold text-gray-800">
-                                        ২. আপনার কাঙ্খিত মানসিক স্বাস্থ্য পরীক্ষাটি নির্বাচন করুন:
+                                        ২. আপনার কাঙ্খিত Psychology Test নির্বাচন করুন:
                                     </label>
                                     <select
                                         value={selectedTest}
@@ -290,7 +290,7 @@ export default function PsychologyModal({ onClose }) {
                                         : 'bg-emerald-600 hover:bg-emerald-700 active:scale-[0.98] shadow-lg shadow-emerald-600/20'
                                     }`}
                             >
-                                শুরু করুন 🚀
+                                শুরু করুন ⚡
                             </button>
                         </div>
                     </>
