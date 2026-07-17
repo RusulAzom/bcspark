@@ -13,6 +13,7 @@ import septemberData from "@/data/history/september.json";
 import octoberData from "@/data/history/october.json";
 import novemberData from "@/data/history/november.json";
 import decemberData from "@/data/history/december.json";
+import todayInHistoryData from "@/data/today_in_history.json";
 
 const newsItems = (() => {
   const today = new Date();
@@ -44,6 +45,23 @@ const newsItems = (() => {
   (todayData.deaths || []).forEach((d) => {
     if (d.marquee_text) items.push(d.marquee_text);
   });
+
+  // Merge marquee texts from the global today_in_history.json source
+  // (structure: { [month]: { [day]: { events, birthdays, deaths } } })
+  const globalMonthData = todayInHistoryData[monthKey];
+  const globalTodayData =
+    (globalMonthData && (globalMonthData[dayKey] || globalMonthData["16"])) ||
+    { events: [], birthdays: [], deaths: [] };
+  (globalTodayData.events || []).forEach((ev) => {
+    if (ev.marquee_text) items.push(ev.marquee_text);
+  });
+  (globalTodayData.birthdays || []).forEach((b) => {
+    if (b.marquee_text) items.push(b.marquee_text);
+  });
+  (globalTodayData.deaths || []).forEach((d) => {
+    if (d.marquee_text) items.push(d.marquee_text);
+  });
+
   return items.length ? items : ["আজকের ঐতিহাসিক ঘটনা এখনও যোগ করা হয়নি।"];
 })();
 

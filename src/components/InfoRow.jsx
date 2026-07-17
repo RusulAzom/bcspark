@@ -252,115 +252,109 @@ export default function InfoRow() {
           <button className="w-full mt-6 rounded-xl border border-blue-100 py-3 text-center text-sm font-semibold text-primary transition-all hover:bg-blue-50/40">
             আরও দেখো &rarr;
           </button>
-        </div>
+          </div>
 
         {/* Column 2: মক মডেল টেস্ট */}
         <div className="flex flex-col justify-between rounded-3xl border border-gray-100 bg-white p-6 shadow-sm hover:shadow-md transition-shadow min-h-[460px]">
-          <form onSubmit={handleStartTest} className="flex flex-col h-full justify-between">
-            <div>
-              {/* Header */}
-              <div className="flex items-center gap-4 mb-5">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-500">
-                  <CheckSquare className="h-6 w-6" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-bold text-primary leading-tight">মক মডেল টেস্ট</h3>
-                  <p className="text-xs text-gray-500">পরীক্ষা নির্বাচন করুন</p>
-                </div>
+          <div>
+            {/* Header */}
+            <div className="flex items-center gap-4 mb-5">
+              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-500">
+                <Play className="h-6 w-6" />
               </div>
-
-              {/* Form Controls */}
-              <div className="space-y-3">
-                <div>
-                  <label className="block text-xs font-semibold text-gray-500 mb-1">পরীক্ষা</label>
-                  <select 
-                    value={exam} 
-                    onChange={(e) => setExam(e.target.value)}
-                    className="w-full rounded-xl bg-[#f0f4f8] py-2 px-3.5 text-sm font-medium text-primary outline-none focus:ring-1 focus:ring-primary/20 border-none"
-                  >
-                    <option>BCS</option>
-                    <option>প্রাথমিক সহকারী শিক্ষক</option>
-                    <option>ব্যাংক জব</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-xs font-semibold text-gray-500 mb-1">ধাপ</label>
-                  <select 
-                    value={phase} 
-                    onChange={(e) => setPhase(e.target.value)}
-                    className="w-full rounded-xl bg-[#f0f4f8] py-2 px-3.5 text-sm font-medium text-primary outline-none focus:ring-1 focus:ring-primary/20 border-none"
-                  >
-                    <option>Preli</option>
-                    <option>Written</option>
-                    <option>Viva</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="block text-xs font-semibold text-gray-500 mb-1">বিষয়</label>
-                  <select 
-                    value={subject} 
-                    onChange={(e) => setSubject(e.target.value)}
-                    className="w-full rounded-xl bg-[#f0f4f8] py-2 px-3.5 text-sm font-medium text-primary outline-none focus:ring-1 focus:ring-primary/20 border-none"
-                  >
-                    <option>বাংলা</option>
-                    <option>ইংরেজি</option>
-                    <option>গণিত</option>
-                    <option>সাধারণ জ্ঞান</option>
-                    <option>বিজ্ঞান ও প্রযুক্তি</option>
-                  </select>
-                </div>
-
-                {/* 2-Column Selectors */}
-                <div className="grid grid-cols-2 gap-3">
-                  <div>
-                    <label className="block text-xs font-semibold text-gray-500 mb-1">প্রশ্ন</label>
-                    <select 
-                      value={questions} 
-                      onChange={(e) => setQuestions(e.target.value)}
-                      className="w-full rounded-xl bg-[#f0f4f8] py-2 px-3.5 text-sm font-medium text-primary outline-none focus:ring-1 focus:ring-primary/20 border-none"
-                    >
-                      <option>১০টি</option>
-                      <option>২০টি</option>
-                      <option>৩০টি</option>
-                      <option>৫০টি</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label className="block text-xs font-semibold text-gray-500 mb-1">সময়</label>
-                    <select 
-                      value={duration} 
-                      onChange={(e) => setDuration(e.target.value)}
-                      className="w-full rounded-xl bg-[#f0f4f8] py-2 px-3.5 text-sm font-medium text-primary outline-none focus:ring-1 focus:ring-primary/20 border-none"
-                    >
-                      <option>১০ মিনিট</option>
-                      <option>২০ মিনিট</option>
-                      <option>৩০ মিনিট</option>
-                      <option>৫০ মিনিট</option>
-                    </select>
-                  </div>
-                </div>
+              <div>
+                <h3 className="text-lg font-bold text-primary leading-tight">মক মডেল টেস্ট</h3>
+                <p className="text-xs text-gray-500">পরীক্ষার সেটআপ ও প্রস্তুতি</p>
               </div>
             </div>
 
-            {/* Test Action */}
-            <button 
-              type="submit" 
-              disabled={testStarted}
-              className="w-full mt-5 inline-flex items-center justify-center gap-2 rounded-xl bg-primary py-3 text-sm font-bold text-white shadow-lg shadow-blue-900/10 transition-all hover:bg-opacity-90 disabled:bg-slate-400 active:scale-98"
+            <form id="mockTestForm" onSubmit={handleStartTest} className="space-y-4">
+              {/* Exam Select */}
+              <div>
+                <label className="block text-[11px] font-semibold text-gray-600 mb-1">পরীক্ষা</label>
+                <select
+                  value={exam}
+                  onChange={(e) => setExam(e.target.value)}
+                  className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-800 focus:border-blue-400 focus:outline-none"
+                >
+                  <option value="BCS">BCS</option>
+                  <option value="ব্যাংক">ব্যাংক</option>
+                  <option value="আমিন">আমিন</option>
+                  <option value="অন্যান্য">অন্যান্য</option>
+                </select>
+              </div>
+
+              {/* Phase Select */}
+              <div>
+                <label className="block text-[11px] font-semibold text-gray-600 mb-1">ধাপ</label>
+                <select
+                  value={phase}
+                  onChange={(e) => setPhase(e.target.value)}
+                  className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-800 focus:border-blue-400 focus:outline-none"
+                >
+                  <option value="Preli">প্রিলি</option>
+                  <option value="Written">লিখিত</option>
+                  <option value="Viva">ভাইভা</option>
+                </select>
+              </div>
+
+              {/* Subject Select */}
+              <div>
+                <label className="block text-[11px] font-semibold text-gray-600 mb-1">বিষয়</label>
+                <select
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
+                  className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-800 focus:border-blue-400 focus:outline-none"
+                >
+                  <option value="বাংলা">বাংলা</option>
+                  <option value="ইংরেজি">ইংরেজি</option>
+                  <option value="গণিত">গণিত</option>
+                  <option value="সাধারণ জ্ঞান">সাধারণ জ্ঞান</option>
+                </select>
+              </div>
+
+              {/* Questions & Duration */}
+              <div className="grid grid-cols-2 gap-3">
+                <div>
+                  <label className="block text-[11px] font-semibold text-gray-600 mb-1">প্রশ্ন</label>
+                  <input
+                    type="text"
+                    value={questions}
+                    onChange={(e) => setQuestions(e.target.value)}
+                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-800 focus:border-blue-400 focus:outline-none"
+                  />
+                </div>
+                <div>
+                  <label className="block text-[11px] font-semibold text-gray-600 mb-1">সময়</label>
+                  <input
+                    type="text"
+                    value={duration}
+                    onChange={(e) => setDuration(e.target.value)}
+                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-800 focus:border-blue-400 focus:outline-none"
+                  />
+                </div>
+              </div>
+
+            </form>
+          </div>
+
+          {/* Footer: submit button (card footer) + caption below it */}
+          <div>
+            <p className="mt-2 text-[10px] mb-5 text-center text-gray-400 font-medium">
+              মক টেস্ট দিয়ে নিজেকে যাচাই করুন
+            </p>
+            <button
+              type="submit"
+              form="mockTestForm"
+              className="w-full mt-2 rounded-xl bg-blue-600 py-3 text-center text-sm font-bold text-white transition-all hover:bg-blue-700 active:scale-[0.98]"
             >
-              {testStarted ? (
-                <RefreshCw className="h-4 w-4 animate-spin" />
-              ) : (
-                <Play className="h-4 w-4 fill-white" />
-              )}
-              <span>টেস্ট শুরু করো</span>
+              {testStarted ? "শুরু হচ্ছে..." : "পরীক্ষা শুরু করুন ⚡"}
             </button>
-          </form>
+            
+          </div>
         </div>
 
-        {/* Column 3: আজকের দিনে — ঐতিহাসিক ঘটনা ও বিখ্যাত ব্যক্তিত্ব */}
+  {/* Column 3: আজকের দিনে — ঐতিহাসিক ঘটনা ও বিখ্যাত ব্যক্তিত্ব */}
         <div className="flex flex-col justify-between rounded-3xl border border-gray-100 bg-white p-6 shadow-sm hover:shadow-md transition-shadow min-h-[460px]">
           <div>
             {/* Header */}
@@ -370,7 +364,7 @@ export default function InfoRow() {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-primary leading-tight">আজকের দিনে</h3>
-              <p className="text-xs text-gray-500">{todayDateObj.toLocaleDateString("bn-BD", { day: "numeric", month: "long", year: "numeric" })}: ঐতিহাসিক ঘটনা ও গুরুত্বপূর্ণ সাধারণ জ্ঞান</p>
+                <p className="text-xs text-gray-500">{todayDateObj.toLocaleDateString("bn-BD", { day: "numeric", month: "long", year: "numeric" })}: ঐতিহাসিক ঘটনা ও গুরুত্বপূর্ণ সাধারণ জ্ঞান</p>
               </div>
             </div>
 
@@ -405,10 +399,10 @@ export default function InfoRow() {
                 )}
                 {famousPersonalities.map((item, idx) => (
                   <div key={item.year + idx} className="flex items-start gap-2 rounded-xl bg-gray-50/80 p-2.5">
-                    <span className="shrink-0 rounded-full bg-indigo-600 px-2 py-0.5 text-[9px] font-extrabold text-white flex items-center gap-1">
-                      <span>🎂</span>
-                      <span>{item.year}</span>
-                    </span>
+<span className="shrink-0 rounded-full bg-indigo-600 px-2.5 py-0.5 text-[9px] font-bold text-white flex flex-col items-center gap-1">
+                        <span className="text-[9px] font-medium">জন্মদিবস</span>
+                        <span className="font-bold">{item.year}</span>
+                      </span>
                     <div>
                       <p className="text-[11px] font-bold text-gray-800">{item.name}</p>
                       <p className="text-[10px] leading-relaxed text-gray-600">{item.desc}</p>
@@ -444,7 +438,10 @@ export default function InfoRow() {
             </div>
           </div>
 
-          <button className="w-full mt-4 rounded-xl border border-blue-100 py-3 text-center text-sm font-semibold text-primary transition-all hover:bg-blue-50/40">
+          <button 
+            onClick={() => window.location.href = '/itihase-ajj'}
+            className="w-full mt-4 rounded-xl border border-blue-100 py-3 text-center text-sm font-semibold text-primary transition-all hover:bg-blue-50/40"
+          >
             আরও দেখো &rarr;
           </button>
         </div>
