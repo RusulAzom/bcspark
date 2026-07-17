@@ -1,0 +1,46 @@
+<!--
+Reference file: Original HTML layout for itihase-ajj page
+This file serves as backup documentation for the "ইতিহাসে আজ" feature
+Original source: D:\antigravity\bcspark\src\app\itihaseAjj\itihashe_aj.html
+--
+<html>
+<head>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans,system-ui,sans-serif);background:var(--surface-0)}
+.app{max-width:420px;margin:0 auto;min-height:100vh;background:var(--surface-2);position:relative}
+.hdr{position:sticky;top:0;z-index:30;background:var(--surface-2);border-bottom:0.5px solid var(--border);padding:14px 16px 10px}
+.hdr-title{font-size:20px;font-weight:500;color:var(--text-primary);display:flex;align-items:center;gap:8px}
+.hdr-sub{font-size:12px;color:var(--text-muted);margin-top:2px}
+.tabs{display:flex;gap:0;overflow-x:auto;padding:10px 16px 0;scrollbar-width:none;border-bottom:0.5px solid var(--border)}
+.tab{flex-shrink:0;padding:6px 14px;font-size:13px;font-weight:500;color:var(--text-secondary);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:all .2s}
+.tab.active{color:var(--text-accent);border-bottom-color:var(--border-accent)}
+.sec{padding:14px 16px}
+.sec-title{font-size:15px;font-weight:500;color:var(--text-primary);margin-bottom:12px}
+.tl-era{margin-bottom:10px;border-radius:12px;border:0.5px solid var(--border);overflow:hidden}
+.era-hdr{padding:14px 16px;cursor:pointer;display:flex;align-items:center;gap:10px;justify-content:space-between}
+.era-dot{width:14px;height:14px;border-radius:50%}
+.era-name{font-size:14px;font-weight:500}
+.event-item{padding:10px 16px;display:flex;gap:10px;border-bottom:0.5px solid var(--border)}
+.persons-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.person-card{background:var(--surface-1);border:0.5px solid var(--border);border-radius:12px;padding:14px}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="hdr">
+  <div class="hdr-title">ইতিহাসে আজ</div>
+</header>
+<nav class="tabs">
+  <button class="tab active">টাইমলাইন</button>
+  <button class="tab">ফ্ল্যাশকার্ড</button>
+  <button class="tab">কবি-সাহিত্যিক</button>
+  <button class="tab">কুইজ</button>
+</nav>
+<div class="sec">
+  <div class="sec-title">যুগ অনুযায়ী ইতিহাস</div>
+  <div id="timeline-list"></div>
+</div>
+</div>
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Calendar, MapPin, Users, BookMarked, Clock, Trophy, Landmark, Award } from "lucide-react";
-import Header from "@/components/Header";
+import Header from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export default function HistoryPage() {
@@ -430,7 +430,7 @@ export default function HistoryPage() {
         )}
       </section>
 
-      {/* About Section */}
+{/* About Section */}
       <section className="bg-gradient-to-b from-white to-blue-50 py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
@@ -440,26 +440,18 @@ export default function HistoryPage() {
 
             <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-4">
               <p>
-                আজকের দিনে পেজে আপনাকে স্বাগতম! এটি <strong>বাংলাদেশের ইতিহাস</strong>।
-                এই পেজে আপনি পাবেন <strong>বাংলার প্রতিটি জেলারört История</strong>।
+                আজকের দিনে পেজে আপনাকে স্বাগতম! এটি <strong>বাংলাদেশের ইতিহাস</strong> ও <strong>বিশ্ব ইতিহাস</strong>।
               </p>
 
               <p>
                 আমাদের <strong>আজকের দিনে</strong> ফিচার আপনাকে দেখাবে <strong>বিশ্বের ইতিহাস</strong>।
-                এটি <>
-                  <strong>বাংলা Sahitya</strong>, <>
-                    <strong>বিশ্ব সাহিত্য</strong>, <>
-                      <strong>বাংলা Culture</strong> এবং <>
-                        <strong>বিশ্ব Culture</strong> সবসম্পর্কিত。
-                      </>
-                    </>
-                  </>
-                </>
-              </>
-            </p>
+                এটি <strong>বাংলা সাহিত্য</strong>, <strong>বিশ্ব সাহিত্য</strong>, <strong>বাংলা সংস্কৃতি</strong> এবং <strong>বিশ্ব সংস্কৃতি</strong> সম্পর্কে।
+              </p>
 
-            <p>
-              <strong>আজকের দিনে</strong> আপনাকে দেবে <strong>ইতিহাসের}\}\)\ allen。</p>
+              <p>
+                <strong>আজকের দিনে</strong> আপনাকে দেবে <strong>ইতিহাসের অসাম্য অভিজ্ঞতা</strong>।
+              </p>
+            </div>
           </div>
         </div>
       </section>
