@@ -249,7 +249,7 @@ export default function InfoRow() {
             অগ্রগতি প্রতিদিন মধ্যরাতে রিসেট হবে
           </div>
 
-          <button className="w-full mt-6 rounded-xl border border-blue-100 py-3 text-center text-sm font-semibold text-primary transition-all hover:bg-blue-50/40">
+          <button className="w-full cursor-pointer mt-6 rounded-xl border border-blue-100 py-3 text-center text-sm font-semibold text-primary transition-all hover:bg-blue-50/40">
             আরও দেখো &rarr;
           </button>
           </div>
@@ -346,7 +346,7 @@ export default function InfoRow() {
             <button
               type="submit"
               form="mockTestForm"
-              className="w-full mt-2 rounded-xl bg-blue-600 py-3 text-center text-sm font-bold text-white transition-all hover:bg-blue-700 active:scale-[0.98]"
+              className="w-full cursor-pointer mt-2 rounded-xl bg-blue-600 py-3 text-center text-sm font-bold text-white transition-all hover:bg-blue-700 active:scale-[0.98]"
             >
               {testStarted ? "শুরু হচ্ছে..." : "পরীক্ষা শুরু করুন ⚡"}
             </button>
@@ -440,7 +440,7 @@ export default function InfoRow() {
 
           <button 
             onClick={() => window.location.href = '/itihase-ajj'}
-            className="w-full mt-4 rounded-xl border border-blue-100 py-3 text-center text-sm font-semibold text-primary transition-all hover:bg-blue-50/40"
+            className="w-full cursor-pointer mt-4 rounded-xl border border-blue-100 py-3 text-center text-sm font-semibold text-primary transition-all hover:bg-blue-50/40"
           >
             আরও দেখো &rarr;
           </button>
