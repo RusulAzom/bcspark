@@ -27,29 +27,7 @@ export default function PsychologyTestBanglaPage() {
   const popularTests = allTests.slice(0, 4);
 
   return (
-    <>
-      {/* SEO Meta Tags */}
-      <head>
-        <title>মানসিক স্বাস্থ্য পরীক্ষা | Psychology Test Bangla — BCSpark</title>
-        <meta
-          name="description"
-          content="BCSpark-এ করুন বিনামূল্যে অনলাইন মানসিক চিকিৎসা ও টেস্ট। উদ্বেগ ও দুশ্চিন্তা পরীক্ষা, ডিপ্রেশন টেস্ট বাংলা, সম্পর্কের টানাপোড়েন ও মানসিক চাপ, পড়াশোনায় ক্লান্তি ও বার্নআউট — সবকিছু এক জায়গায়। Scientific Mental Health Assessment."
-        />
-        <meta
-          name="keywords"
-          content="মানসিক স্বাস্থ্য পরীক্ষা, Psychology Test Bangla, অনলাইন মানসিক চিকিৎসা ও টেস্ট, উদ্বেগ ও দুশ্চিন্তা পরীক্ষা, ডিপ্রেশন টেস্ট বাংলা, সম্পর্কের টানাপোড়েন ও মানসিক চাপ, পড়াশোনায় ক্লান্তি ও বার্নআউট, Scientific Mental Health Assessment, বাংলা সাইকোলজি টেস্ট, GAD-7 and DASS-21 Bangla"
-        />
-        <meta property="og:title" content="মানসিক স্বাস্থ্য পরীক্ষা | Psychology Test Bangla" />
-        <meta
-          property="og:description"
-          content="বাংলাদেশের প্রথম AI-চালিত প্ল্যাটফর্মে বিনামূল্যে আপনার মানসিক স্বাস্থ্য যাচাই করুন। GAD-7, BAI, HAM-A, RAS সহ সব সাইকোলজি টেস্ট বাংলায়।"
-        />
-        <meta property="og:url" content="https://bcspark.bd/psychology-test-bangla" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://bcspark.bd/psychology-test-bangla" />
-      </head>
-
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 flex flex-col">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 flex flex-col">
         {/* Sticky Navigation Bar */}
         <Navbar />
 
@@ -223,6 +201,5 @@ export default function PsychologyTestBanglaPage() {
           />
         )}
       </div>
-    </>
   );
 }

@@ -1,0 +1,48 @@
+Γû▓ Next.js 16.2.10 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 3 errors:
+./src/app/history/page.js:458:17
+Expression expected
+  456 |                   </>
+  457 |                 </>
+> 458 |               </>
+      |                 ^
+  459 |             </p>
+  460 |
+  461 |             <p>
+
+Parsing ecmascript source code failed
+
+
+./src/app/history/page.js:459:13
+Expression expected
+  457 |                 </>
+  458 |               </>
+> 459 |             </p>
+      |             ^
+  460 |
+  461 |             <p>
+  462 |               <strong>αªåαª£αªòαºçαª░ αªªαª┐αª¿αºç</strong> αªåαª¬αª¿αª╛αªòαºç αªªαºçαª¼αºç <strong>αªçαªñαª┐αª╣αª╛αª╕αºçαª░}\}\)\ allenπÇé</p>
+
+Parsing ecmascript source code failed
+
+
+./src/app/history/page.js:459:14
+Unterminated regexp literal
+  457 |                 </>
+  458 |               </>
+> 459 |             </p>
+      |              ^^^
+  460 |
+  461 |             <p>
+  462 |               <strong>αªåαª£αªòαºçαª░ αªªαª┐αª¿αºç</strong> αªåαª¬αª¿αª╛αªòαºç αªªαºçαª¼αºç <strong>αªçαªñαª┐αª╣αª╛αª╕αºçαª░}\}\)\ allenπÇé</p>
+
+Parsing ecmascript source code failed
+
+
+    at <unknown> (./src/app/history/page.js:458:17)
+    at <unknown> (./src/app/history/page.js:459:13)
+    at <unknown> (./src/app/history/page.js:459:14)
