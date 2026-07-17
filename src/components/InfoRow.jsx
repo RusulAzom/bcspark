@@ -5,6 +5,18 @@ import {
   Cake, CheckSquare, Play, Zap, Clock, CheckCircle2, 
   TrendingUp, Flame, AlertCircle, RefreshCw, BookOpen
 } from "lucide-react";
+import januaryData from "@/data/history/january.json";
+import februaryData from "@/data/history/february.json";
+import marchData from "@/data/history/march.json";
+import aprilData from "@/data/history/april.json";
+import mayData from "@/data/history/may.json";
+import juneData from "@/data/history/june.json";
+import julyData from "@/data/history/july.json";
+import augustData from "@/data/history/august.json";
+import septemberData from "@/data/history/september.json";
+import octoberData from "@/data/history/october.json";
+import novemberData from "@/data/history/november.json";
+import decemberData from "@/data/history/december.json";
 
 export default function InfoRow() {
   // Mock Model Test Form State
@@ -65,37 +77,44 @@ export default function InfoRow() {
     }, 800);
   };
 
-  // আজকের দিনে ডাটা
-  const historicalEvents = [
-    {
-      year: "২০২৫",
-      title: "জুলাই শহীদ দিবস",
-      desc: "২০২৪ সালের জুলাই আন্দোলনের শহীদদের স্মরণে ২০২৫ সাল থেকে প্রতিবছর ১৬ জুলাই দিবসটি পালন করা হয়।"
-    },
-    {
-      year: "২০১৬",
-      title: "হোলি আর্টিসান ক্যাফে হামলা",
-      desc: "বাংলাদেশের ইতিহাসের সবচেয়ে মারাত্মক ও ভয়াবহ সন্ত্রাসী হামলা। ১২ ঘণ্টার জিম্মি দশা ও আন্তর্জাতিক নাগরিকদের প্রাণহানি।"
-    },
-    {
-      year: "২০২৪",
-      title: "আবু সাঈদ (শহীদুন্নাহার)",
-      desc: "বেগম রোকেয়া বিশ্ববিদ্যালয়ের ইংরেজি বিভাগের বীর ছাত্র, যিনি ১৬ জুলাই ২০২৪-এ জুলাই গণআন্দোলনের প্রথম শহীদদের একজন হিসেবে আত্মত্যাগ করেন।"
-    }
-  ];
+  // আজকের দিনে ডাটা — ডাইনামিক JSON
+  const todayDateObj = new Date();
+  const monthKey = todayDateObj.toLocaleString("en-US", { month: "long" }).toLowerCase();
+  const dayKey = String(todayDateObj.getDate());
+  const monthDataMap = {
+    january: januaryData,
+    february: februaryData,
+    march: marchData,
+    april: aprilData,
+    may: mayData,
+    june: juneData,
+    july: julyData,
+    august: augustData,
+    september: septemberData,
+    october: octoberData,
+    november: novemberData,
+    december: decemberData
+  };
+  const currentMonthData = monthDataMap[monthKey] || julyData;
+  const todayData = currentMonthData[dayKey] || currentMonthData["16"] || { events: [], birthdays: [] };
 
-  const famousPersonalities = [
-    {
-      year: "১৮৯৬",
-      name: "ত্রিগভে লি (Trygve Lie)",
-      desc: "জাতিসংঘের প্রথম মহাসচিব (সেবাকাল: ১৯৪৬-১৯৫২)।"
-    },
-    {
-      year: "১৮৭২",
-      name: "রোনাল্ড আমুন্ডসেন",
-      desc: "বিশ্ববিখ্যাত নরওয়েজিয়ান অভিযাত্রী; প্রথম সফলভাবে দক্ষিণ মেরু (South Pole) জয় করেন।"
-    }
-  ];
+  const historicalEvents = (todayData.events || []).map((item) => ({
+    year: String(item.year),
+    title: item.title,
+    desc: item.description
+  }));
+
+  const famousPersonalities = (todayData.birthdays || []).map((item) => ({
+    year: String(item.year),
+    name: item.name,
+    desc: item.description
+  }));
+
+  const deathAnniversaries = (todayData.deaths || []).map((item) => ({
+    year: String(item.year),
+    name: item.name,
+    desc: item.description
+  }));
 
   return (
     <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
@@ -351,7 +370,7 @@ export default function InfoRow() {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-primary leading-tight">আজকের দিনে</h3>
-                <p className="text-xs text-gray-500">১৬ জুলাই: ঐতিহাসিক ঘটনা ও গুরুত্বপূর্ণ সাধারণ জ্ঞান</p>
+              <p className="text-xs text-gray-500">{todayDateObj.toLocaleDateString("bn-BD", { day: "numeric", month: "long", year: "numeric" })}: ঐতিহাসিক ঘটনা ও গুরুত্বপূর্ণ সাধারণ জ্ঞান</p>
               </div>
             </div>
 
@@ -359,44 +378,68 @@ export default function InfoRow() {
             <div className="mb-4">
               <div className="flex items-center gap-2 mb-2">
                 <span className="rounded-full bg-red-100 px-2.5 py-1 text-xs font-bold text-red-700">ঐতিহাসিক ঘটনা</span>
-                <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide">July 16</span>
+                <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide">{todayDateObj.toLocaleDateString("en-US", { month: "short", day: "numeric" }).toUpperCase()}</span>
               </div>
               <div className="space-y-2 max-h-[140px] overflow-y-auto scrollbar-hide">
-                <div className="flex items-start gap-2 rounded-xl bg-gray-50/80 p-2.5">
-                  <span className="shrink-0 rounded-full bg-red-600 px-2 py-0.5 text-[9px] font-extrabold text-white">২০২৫</span>
-                  <p className="text-[11px] leading-relaxed text-gray-700"><strong>জুলাই শহীদ দিবস:</strong> ২০২৪ সালের জুলাই আন্দোলনের শহীদদের স্মরণে ২০২৫ সাল থেকে প্রতিবছর ১৬ জুলাই দিবসটি পালন করা হয়।</p>
-                </div>
-                <div className="flex items-start gap-2 rounded-xl bg-gray-50/80 p-2.5">
-                  <span className="shrink-0 rounded-full bg-red-600 px-2 py-0.5 text-[9px] font-extrabold text-white">২০১৬</span>
-                  <p className="text-[11px] leading-relaxed text-gray-700"><strong>হোলি আর্টিসান ক্যাফে হামলা:</strong> বাংলাদেশের ইতিহাসের সবচেয়ে মারাত্মক ও ভয়াবহ সন্ত্রাসী হামলা।</p>
-                </div>
-                <div className="flex items-start gap-2 rounded-xl bg-gray-50/80 p-2.5">
-                  <span className="shrink-0 rounded-full bg-red-600 px-2 py-0.5 text-[9px] font-extrabold text-white">২০২৪</span>
-                  <p className="text-[11px] leading-relaxed text-gray-700"><strong>আবু সাঈদ (শহীদুন্নাহার):</strong> বেগম রোকেয়া বিশ্ববিদ্যালয়ের ইংরেজি বিভাগের বীর ছাত্র, যিনি ১৬ জুলাই ২০২৪-এ জুলাই গণআন্দোলনের প্রথম শহীদদের একজন হিসেবে আত্মত্যাগ করেন।</p>
-                </div>
+                {historicalEvents.length === 0 && (
+                  <p className="text-[11px] text-gray-500">আজকের তারিখের জন্য কোনো ঐতিহাসিক ঘটনা পাওয়া যায়নি।</p>
+                )}
+                {historicalEvents.map((item, idx) => (
+                  <div key={item.year + idx} className="flex items-start gap-2 rounded-xl bg-gray-50/80 p-2.5">
+                    <span className="shrink-0 rounded-full bg-red-600 px-2 py-0.5 text-[9px] font-extrabold text-white">{item.year}</span>
+                    <p className="text-[11px] leading-relaxed text-gray-700"><strong>{item.title}:</strong> {item.desc}</p>
+                  </div>
+                ))}
               </div>
             </div>
 
             {/* বিখ্যাত ব্যক্তিত্ব */}
-            <div className="mb-2">
+            <div className="mb-4">
               <div className="flex items-center gap-2 mb-2">
                 <span className="rounded-full bg-indigo-100 px-2.5 py-1 text-xs font-bold text-indigo-700">বিখ্যাত ব্যক্তিত্ব</span>
+                <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide">{todayDateObj.toLocaleDateString("en-US", { month: "short", day: "numeric" }).toUpperCase()}</span>
               </div>
               <div className="space-y-2 max-h-[140px] overflow-y-auto scrollbar-hide">
-                <div className="flex items-start gap-2 rounded-xl bg-gray-50/80 p-2.5">
-                  <span className="shrink-0 rounded-full bg-indigo-600 px-2 py-0.5 text-[9px] font-extrabold text-white">১৮৯৬</span>
-                  <div>
-                    <p className="text-[11px] font-bold text-gray-800">ত্রিগভে লি (Trygve Lie)</p>
-                    <p className="text-[10px] leading-relaxed text-gray-600">জাতিসংঘের প্রথম মহাসচিব (সেবাকাল: ১৯৪৬-১৯৫২)।</p>
+                {famousPersonalities.length === 0 && (
+                  <p className="text-[11px] text-gray-500">আজকের তারিখের জন্য কোনো বিখ্যাত ব্যক্তিত্ব পাওয়া যায়নি।</p>
+                )}
+                {famousPersonalities.map((item, idx) => (
+                  <div key={item.year + idx} className="flex items-start gap-2 rounded-xl bg-gray-50/80 p-2.5">
+                    <span className="shrink-0 rounded-full bg-indigo-600 px-2 py-0.5 text-[9px] font-extrabold text-white flex items-center gap-1">
+                      <span>🎂</span>
+                      <span>{item.year}</span>
+                    </span>
+                    <div>
+                      <p className="text-[11px] font-bold text-gray-800">{item.name}</p>
+                      <p className="text-[10px] leading-relaxed text-gray-600">{item.desc}</p>
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-start gap-2 rounded-xl bg-gray-50/80 p-2.5">
-                  <span className="shrink-0 rounded-full bg-indigo-600 px-2 py-0.5 text-[9px] font-extrabold text-white">১৮৭২</span>
-                  <div>
-                    <p className="text-[11px] font-bold text-gray-800">রোনাল্ড আমুন্ডসেন</p>
-                    <p className="text-[10px] leading-relaxed text-gray-600">বিশ্ববিখ্যাত নরওয়েজিয়ান অভিযাত্রী; প্রথম সফলভাবে দক্ষিণ মেরু (South Pole) জয় করেন।</p>
+                ))}
+              </div>
+            </div>
+
+            {/* প্রয়াণ দিবস */}
+            <div className="mb-2">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="rounded-full bg-gray-200 px-2.5 py-1 text-xs font-bold text-gray-700">প্রয়াণ দিবস</span>
+                <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide">{todayDateObj.toLocaleDateString("en-US", { month: "short", day: "numeric" }).toUpperCase()}</span>
+              </div>
+              <div className="space-y-2 max-h-[140px] overflow-y-auto scrollbar-hide">
+                {deathAnniversaries.length === 0 && (
+                  <p className="text-[11px] text-gray-500">আজকের তারিখের জন্য কোনো প্রয়াণ দিবস পাওয়া যায়নি।</p>
+                )}
+                {deathAnniversaries.map((item, idx) => (
+                  <div key={item.year + idx} className="flex items-start gap-2 rounded-xl bg-gray-50/80 p-2.5">
+                    <span className="shrink-0 rounded-full bg-gray-700 px-2 py-0.5 text-[9px] font-extrabold text-white flex items-center gap-1">
+                      <span>🕊️</span>
+                      <span>{item.year}</span>
+                    </span>
+                    <div>
+                      <p className="text-[11px] font-bold text-gray-800">{item.name}</p>
+                      <p className="text-[10px] leading-relaxed text-gray-600">{item.desc}</p>
+                    </div>
                   </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

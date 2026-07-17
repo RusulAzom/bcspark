@@ -1,14 +1,54 @@
 "use client";
 
 import { Flame } from "lucide-react";
+import januaryData from "@/data/history/january.json";
+import februaryData from "@/data/history/february.json";
+import marchData from "@/data/history/march.json";
+import aprilData from "@/data/history/april.json";
+import mayData from "@/data/history/may.json";
+import juneData from "@/data/history/june.json";
+import julyData from "@/data/history/july.json";
+import augustData from "@/data/history/august.json";
+import septemberData from "@/data/history/september.json";
+import octoberData from "@/data/history/october.json";
+import novemberData from "@/data/history/november.json";
+import decemberData from "@/data/history/december.json";
 
-const newsItems = [
-  "আজকের এই দিনে ১৮৮৫ সালে লুই পাস্তুর সফলভাবে প্রথম জলাতঙ্ক রোগের টিকা আবিষ্কার করেন",
-  "আজকের এই দিনে ১৯৪৪ সালে নেতাজি সুভাষচন্দ্র বসু মহাত্মা গান্ধীকে প্রথমবার 'জাতির জনক' উপাধিতে ভূষিত করেন",
-  "আজকে ৬ জুলাই, ১৯৫৩ সালে রাজশাহী বিশ্ববিদ্যালয় প্রতিষ্ঠা লাভ করে",
-  "আজকের এই দিনে ১৮২৭ সালে লন্ডনের চুক্তি স্বাক্ষরিত হয়, যা গ্রিসের স্বাধীনতার পথ সুগম করে",
-  "আজকের এই দিনে ১৯১৮ সালে প্রখ্যাত ভারতীয় চিত্রশিল্পী হেমেন্দ্রনাথ মজুমদার জন্মগ্রহণ করেন"
-];
+const newsItems = (() => {
+  const today = new Date();
+  const monthKey = today.toLocaleString("en-US", { month: "long" }).toLowerCase();
+  const dayKey = String(today.getDate());
+  const monthDataMap = {
+    january: januaryData,
+    february: februaryData,
+    march: marchData,
+    april: aprilData,
+    may: mayData,
+    june: juneData,
+    july: julyData,
+    august: augustData,
+    september: septemberData,
+    october: octoberData,
+    november: novemberData,
+    december: decemberData
+  };
+  const currentMonthData = monthDataMap[monthKey] || julyData;
+  const todayData = currentMonthData[dayKey] || currentMonthData["16"] || { events: [], birthdays: [], deaths: [] };
+  const items = [];
+  (todayData.events || []).forEach((ev) => {
+    if (ev.marquee_text) items.push(ev.marquee_text);
+  });
+  (todayData.birthdays || []).forEach((b) => {
+    if (b.marquee_text) items.push(b.marquee_text);
+  });
+  (todayData.deaths || []).forEach((d) => {
+    if (d.marquee_text) items.push(d.marquee_text);
+  });
+  return items.length ? items : ["আজকের ঐতিহাসিক ঘটনা এখনও যোগ করা হয়নি।"];
+})();
+
+const marqueeText = newsItems.join(" ⚡ ");
+const marqueeDuration = Math.max(12, marqueeText.length / 18);
 
 export default function BottomNewsTicker() {
   // Duplicate the array to create a seamless infinite scrolling effect
@@ -25,7 +65,7 @@ export default function BottomNewsTicker() {
 
       {/* Right Marquee Container */}
       <div className="relative flex flex-1 h-full items-center overflow-hidden">
-        <div className="animate-marquee flex items-center gap-16 py-1 whitespace-nowrap text-white text-xs sm:text-sm font-medium">
+        <div className="animate-marquee flex items-center gap-16 py-1 whitespace-nowrap text-white text-xs sm:text-sm font-medium" style={{ animationDuration: `${marqueeDuration}s` }}>
           {doubleItems.map((item, index) => (
             <div key={index} className="flex items-center gap-4">
               <span>{item}</span>
