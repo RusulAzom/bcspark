@@ -274,9 +274,9 @@ export default function A2ZDemoPage() {
               আমাদের আধুনিক অনলাইন কুইজ এবং ট্র্যাকিং সিস্টেমের মাধ্যমে আপনার মেধা যাচাই করুন
               এবং হাজারো পরীক্ষার্থীর মাঝে নিজের অবস্থান সুদৃঢ় করুন।
             </p>
-            <div className="flex justify-center gap-3 mt-4">
+            {/* <div className="flex justify-center gap-3 mt-4">
               <a
-                href="http://localhost:3000/t20/gk/a2z"
+                href="#"
                 className="inline-flex items-center gap-2 bg-[#E53935] hover:bg-[#C62828] text-white font-bold px-6 py-2.5 rounded-xl shadow-lg shadow-[#E53935]/30 hover:shadow-xl transition-all duration-200 hover:-translate-y-0.5 text-sm"
               >
                 🚀 Start Free Demo
@@ -287,7 +287,7 @@ export default function A2ZDemoPage() {
               <button className="inline-flex items-center gap-2 bg-white/80 hover:bg-white text-[#1E3A8A] font-bold px-6 py-2.5 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 border border-[#1E3A8A]/10 text-sm">
                 📞 Contact Us
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </header>
@@ -354,7 +354,7 @@ export default function A2ZDemoPage() {
               </div>
               <div className="mt-3 md:mt-5">
                 <a
-                  href="/t20/gk/all"
+                  href="/t20/gk/a2z"
                   className="w-full flex items-center justify-center gap-1.5 bg-gradient-to-r from-[#E53935] to-[#C62828] text-white font-bold py-2.5 md:py-3 rounded-lg md:rounded-xl text-xs md:text-sm hover:from-[#C62828] hover:to-[#B71C1C] transition-all duration-200 shadow-md shadow-[#E53935]/20"
                 >
                   Start Quiz Now 🚀
