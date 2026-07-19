@@ -168,7 +168,7 @@ export default function A2ZDemoPage() {
 
             {/* Mini CTA */}
             {/* <a
-              href="http://localhost:3000/t20/gk/a2z"
+              href="/t20/gk/a2z"
               className="inline-flex items-center gap-1 bg-[#E53935] hover:bg-[#C62828] text-white text-[10px] font-bold px-4 py-1.5 rounded-lg shadow-sm shadow-[#E53935]/30 mt-1.5 transition-all duration-200"
             >
               🚀 Play Now
@@ -219,10 +219,10 @@ export default function A2ZDemoPage() {
 
             <div className="mt-2.5">
               <a
-                href="http://localhost:3000/t20/gk/a2z"
+                href="/t20/gk/a2z"
                 className="w-full flex items-center justify-center gap-1.5 bg-gradient-to-r from-[#E53935] to-[#C62828] text-white font-bold py-2.5 rounded-lg text-xs hover:from-[#C62828] hover:to-[#B71C1C] transition-all duration-200 shadow-md shadow-[#E53935]/20"
               >
-                Start Exam 🚀
+                কুইজ শুরু করুন 🚀
               </a>
             </div>
           </div>
@@ -255,7 +255,7 @@ export default function A2ZDemoPage() {
                 Demo Portal
               </span>
               <a
-                href="http://localhost:3000/t20/gk/a2z"
+                href="/t20/gk/a2z"
                 className="inline-flex items-center gap-1.5 bg-[#E53935] hover:bg-[#C62828] text-white text-xs font-bold px-5 py-2 rounded-lg shadow-sm shadow-[#E53935]/30 hover:shadow-md transition-all duration-200"
               >
                 🚀 Start Demo
