@@ -6,7 +6,7 @@ import json
 import re
 import os
 
-BASE_DIR = r"D:\antigravity\bcspark\data\t20\english\literature"
+BASE_DIR = r"D:\antigravity\bcspark\data\t20\bangla\grammar\writing"
 INPUT_FILE = os.path.join(BASE_DIR, "input.txt")
 OUTPUT_FILE = os.path.join(BASE_DIR, "literature.json")
 
