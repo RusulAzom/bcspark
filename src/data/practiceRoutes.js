@@ -28,10 +28,15 @@ const practiceRoutes = {
                 route: "/t20/gk/all",
                 active: true,
             },
+            // bangladesh: {
+            //     label: "GK > বাংলাদেশ বিষয়াবলি",
+            //     route: "/t20/gk/bangladesh-affairs",
+            //     active: false,
+            // },
             bangladesh: {
-                label: "GK > বাংলাদেশ বিষয়াবলি",
-                route: "/t20/gk/bangladesh-affairs",
-                active: false,
+                label: "AtoZ GK Lecture 1 > বাংলাদেশ বিষয়াবলি",
+                route: "/t20/gk/a2z",
+                active: true,
             },
             language: {
                 label: "GK > ভাষা আন্দোলন - মুক্তিযুদ্ধ",
