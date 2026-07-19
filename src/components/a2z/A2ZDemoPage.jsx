@@ -354,10 +354,10 @@ export default function A2ZDemoPage() {
               </div>
               <div className="mt-3 md:mt-5">
                 <a
-                  href="http://localhost:3000/t20/gk/a2z"
+                  href="/t20/gk/all"
                   className="w-full flex items-center justify-center gap-1.5 bg-gradient-to-r from-[#E53935] to-[#C62828] text-white font-bold py-2.5 md:py-3 rounded-lg md:rounded-xl text-xs md:text-sm hover:from-[#C62828] hover:to-[#B71C1C] transition-all duration-200 shadow-md shadow-[#E53935]/20"
                 >
-                  Start Exam 🚀
+                  Start Quiz Now 🚀
                 </a>
               </div>
             </div>
