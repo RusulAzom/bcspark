@@ -118,6 +118,10 @@ export default function HeroSection() {
           <Link href="#" className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs md:text-sm font-bold text-gray-700 shadow-sm hover:shadow hover:border-accent hover:text-accent transition-all active:scale-95">
             Learn by Fun
           </Link>
+          <Link href="/vocabulary" className="rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 px-3 py-1.5 text-xs md:text-sm font-bold text-white shadow-md hover:shadow-lg hover:from-indigo-700 hover:to-purple-700 transition-all active:scale-95 flex items-center gap-1">
+            <span>🔠</span>
+            <span>ভোকাবুলারি ভাণ্ডার</span>
+          </Link>
           <Link href="#" className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs md:text-sm font-bold text-gray-700 shadow-sm hover:shadow hover:border-accent hover:text-accent transition-all active:scale-95">
             School
           </Link>
