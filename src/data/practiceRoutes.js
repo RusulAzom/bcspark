@@ -99,6 +99,11 @@ const practiceRoutes = {
                 route: "/t20/bangla/bacaron/karokobivokti",
                 active: true,
             },
+            shahitto2: {
+                label: "BN > বাংলা সাহিত্য (মধ্যযুগ)",
+                route: "/t20/bangla/shahitto/modhdhojug",
+                active: true,
+            },
             bakaron2: {
                 label: "BN > ভাষা, প্রয়োগ-অপ্রয়োগ, বানান ও বাক্য শুদ্ধি ..ect ",
                 route: "/t20/bangla/bakaron1",

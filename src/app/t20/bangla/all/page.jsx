@@ -1,17 +1,39 @@
 'use client';
+// নতুন পেজ যুক্ত করলে এখানে import করতে হবে, তারপর number হিসেব করে দিতে হবে,  
 import { useState, useEffect } from 'react';
-import questions from '../../../../../data/t20/bangla/banglaAll.json';
+// update here after new data
+import modhdhojug from '../../../../../data/t20/bangla/literature/modhdhojug.json';
+import writing from '../../../../../data/t20/bangla/grammar/writing/writing.json';
+import karokobivokti from '../../../../../data/t20/bangla/grammar/theory/karokobivokti.json';
+
 import QuickPracticeEngine from '@/components/QuickPracticeEngine';
+
+// Helper: array থেকে random n টা item নেওয়া - Type বাদ
+function getRandomItems(arr, n) {
+    const shuffled = [...arr].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, n);
+}
 
 export default function banglaPage() {
     const [randomQuestions, setRandomQuestions] = useState([]);
     const [isReady, setIsReady] = useState(false);
 
     useEffect(() => {
-        const shuffled = [...questions]
-            .sort(() => 0.5 - Math.random())
-            .slice(0, 20);
-        setRandomQuestions(shuffled);
+        // update here after new data
+        const questionsFromModhdhojug = getRandomItems(modhdhojug, 7);
+        const questionsFromWriting = getRandomItems(writing, 4);
+        const questionsFromKarok = getRandomItems(karokobivokti, 9);
+
+        // update here after new data
+        const combinedQuestions = [
+            ...questionsFromModhdhojug,
+            ...questionsFromWriting,
+            ...questionsFromKarok
+        ];
+
+        const finalShuffled = combinedQuestions.sort(() => 0.5 - Math.random());
+
+        setRandomQuestions(finalShuffled);
         setIsReady(true);
     }, []);
 

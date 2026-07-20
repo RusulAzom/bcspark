@@ -273,7 +273,7 @@ export default function QuickPracticeEngine({
                             const selectedOptionIndex = answers[i];
 
                             return (
-                                <div key={q.id} className="bg-white p-4 rounded-xl shadow border">
+                                <div key={`${q.source}-${q.id}-${i}`} className="bg-white p-4 rounded-xl shadow border">
                                     <div className="flex justify-between items-start mb-3">
                                         <p className="font-semibold text-lg">প্রশ্ন {i + 1}</p>
                                         <span className="text-xs bg-gray-200 px-2 py-1 rounded-full">{q.source}</span>
