@@ -7,7 +7,12 @@ const practiceRoutes = {
                 route: "/t20/english/spelling",
                 active: true,
             },
-            oneword: {
+            literature: {
+                label: "Eng - Literature (ইংরেজি সাহিত্য)",
+                route: "/t20/english/literature",
+                active: true,
+            },
+            vocabulary: {
                 label: "Vocabulary - One Word Substitution",
                 route: "/t20/english/vocabulary",
                 active: true,
