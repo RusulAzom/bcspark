@@ -90,11 +90,16 @@ const practiceRoutes = {
                 active: true,
             },
             bakaron1: {
+                label: "BN > কারক ও বিভক্তি ",
+                route: "/t20/bangla/bacaron/karokobivokti",
+                active: true,
+            },
+            bakaron2: {
                 label: "BN > ভাষা, প্রয়োগ-অপ্রয়োগ, বানান ও বাক্য শুদ্ধি ..ect ",
                 route: "/t20/bangla/bakaron1",
                 active: false,
             },
-            bakaron2: {
+            bakaron3: {
                 label: "BN > ভাষাতত্ত্ব (শব্দ, ধ্বনি, ....সন্ধি ) ",
                 route: "/t20/bangla/language-movement",
                 active: false,
