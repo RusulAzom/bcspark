@@ -2,13 +2,18 @@ const practiceRoutes = {
     english: {
         label: "English",
         topics: {
+            engall: {
+                label: "Englight All (Grammer and Literature)",
+                route: "/t20/english/all",
+                active: true,
+            },
             spelling: {
-                label: "Grammar - Spelling Test",
+                label: "Spelling Test",
                 route: "/t20/english/spelling",
                 active: true,
             },
             literature: {
-                label: "Eng - Literature (ইংরেজি সাহিত্য)",
+                label: "Literature (ইংরেজি সাহিত্য)",
                 route: "/t20/english/literature",
                 active: true,
             },
@@ -17,10 +22,20 @@ const practiceRoutes = {
                 route: "/t20/english/vocabulary",
                 active: true,
             },
-            synonyms: {
-                label: "Grammar - Synonyms",
-                route: "/t20/english/synonyms",
-                active: false,
+            tense: {
+                label: "The Tense (Feture, Present, Past)",
+                route: "/t20/english/tense",
+                active: true,
+            },
+            verb: {
+                label: "The Verb, Adverb, Group Verb and Right Form of Verb",
+                route: "/t20/english/verb482",
+                active: true,
+            },
+            voice: {
+                label: "Voice Change ( Active & Passive Voice)",
+                route: "/t20/english/voice",
+                active: true,
             },
         },
     },

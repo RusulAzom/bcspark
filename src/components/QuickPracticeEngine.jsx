@@ -371,7 +371,7 @@ export default function QuickPracticeEngine({
                             {/* ===================Answer Sheets====================== */}
                             <div ref={reviewRef} className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6 relative z-10">
                                 {questions.map((q, i) => (
-                                    <div key={q.id} className="border rounded-lg p-2 bg-gray-30">
+                                    <div key={`${q.source}-${q.id}-${i}`} className="border rounded-lg p-2 bg-gray-30">
                                         <p className="font-semibold text-xs mb-1">প্রশ্ন {i + 1}: {q.q}
                                             {/* to show question source */}
                                             <span className="text-[9px] text-gray-500 mt-0.5"> {q.source} </span>
