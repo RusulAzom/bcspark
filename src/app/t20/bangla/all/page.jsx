@@ -1,8 +1,10 @@
 'use client';
 // নতুন পেজ যুক্ত করলে এখানে import করতে হবে, তারপর number হিসেব করে দিতে হবে,  
 import { useState, useEffect } from 'react';
-// update here after new data
+// *********1. update here after new data muktijudhovashaandolon *****************
+import muktijudhovashaandolon from '../../../../../data/t20/bangla/literature/muktijudhdhovashaandolon.json';
 import modhdhojug from '../../../../../data/t20/bangla/literature/modhdhojug.json';
+import prachinjug from '../../../../../data/t20/bangla/literature/prachinjug.json';
 import writing from '../../../../../data/t20/bangla/grammar/writing/writing.json';
 import karokobivokti from '../../../../../data/t20/bangla/grammar/theory/karokobivokti.json';
 
@@ -19,14 +21,18 @@ export default function banglaPage() {
     const [isReady, setIsReady] = useState(false);
 
     useEffect(() => {
-        // update here after new data
-        const questionsFromModhdhojug = getRandomItems(modhdhojug, 7);
+        // 2. ************* update here after new data নম্বর বণ্টন কর*************
+        const questionsFromMuktijudhovashaandolon = getRandomItems(muktijudhovashaandolon, 2);
+        const questionsFromModhdhojug = getRandomItems(modhdhojug, 4);
+        const questionsFromPrachinjug = getRandomItems(prachinjug, 4);
         const questionsFromWriting = getRandomItems(writing, 4);
-        const questionsFromKarok = getRandomItems(karokobivokti, 9);
+        const questionsFromKarok = getRandomItems(karokobivokti, 6);
 
-        // update here after new data
+        // 3.update here after new data
         const combinedQuestions = [
             ...questionsFromModhdhojug,
+            ...questionsFromMuktijudhovashaandolon,
+            ...questionsFromPrachinjug,
             ...questionsFromWriting,
             ...questionsFromKarok
         ];

@@ -100,8 +100,18 @@ const practiceRoutes = {
                 active: true,
             },
             shahitto2: {
-                label: "BN > বাংলা সাহিত্য (মধ্যযুগ)",
+                label: "BN > বাংলা সাহিত্য (মধ্যযুগ)", 
                 route: "/t20/bangla/shahitto/modhdhojug",
+                active: true,
+            },
+            shahitto3: {
+                label: "BN > বাংলা সাহিত্য (প্রাচীন যুগ/চর্যাপদ)", 
+                route: "/t20/bangla/shahitto/prachinjug",
+                active: true,
+            },
+            shahitto4: {
+                label: "BN > মুক্তিযুদ্ধ ও ভাষা আন্দোলন বিষয়ক সাহিত্য", 
+                route: "/t20/bangla/shahitto/muktijudhovashaandolon",
                 active: true,
             },
             bakaron2: {
