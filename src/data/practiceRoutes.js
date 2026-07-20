@@ -115,13 +115,13 @@ const practiceRoutes = {
                 active: true,
             },
             bakaron2: {
-                label: "BN > ভাষা, প্রয়োগ-অপ্রয়োগ, বানান ও বাক্য শুদ্ধি ..ect ",
-                route: "/t20/bangla/bakaron1",
-                active: false,
+                label: "BN > প্রকৃতি ও প্রত্যয় ",
+                route: "/t20/bangla/bacaron/pokritioprotoy",
+                active: true,
             },
             bakaron3: {
                 label: "BN > ভাষাতত্ত্ব (শব্দ, ধ্বনি, ....সন্ধি ) ",
-                route: "/t20/bangla/language-movement",
+                route: "/t20/bangla/bacaron/",
                 active: false,
             },
         },
