@@ -112,7 +112,7 @@ export default function HeroSection() {
             <span>🧠</span>
             <span>মানসিক স্বাস্থ্য পরীক্ষা</span>
           </Link>
-          <Link href="#" className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs md:text-sm font-bold text-gray-700 shadow-sm hover:shadow hover:border-accent hover:text-accent transition-all active:scale-95">
+          <Link href="/vocabulary/stories" className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs md:text-sm font-bold from-amber-400 to-yellow-600 text-gray-700 shadow-sm hover:shadow hover:border-accent hover:text-accent transition-all active:scale-95">
             Vocabulary Story
           </Link>
           <Link href="#" className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs md:text-sm font-bold text-gray-700 shadow-sm hover:shadow hover:border-accent hover:text-accent transition-all active:scale-95">

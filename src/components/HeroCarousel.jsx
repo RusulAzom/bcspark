@@ -83,6 +83,17 @@ const slides = [
     link: "/vocabulary",
     centerCta: true,
     bgGradient: "from-indigo-900 via-blue-800 to-purple-900"
+  },
+  {
+    id: 8,
+    badge: "📖 ভোকাব স্টোরি হাব",
+    title: "গল্পে গল্পে BCS ও জব এক্সাম ভোকাবুলারি মাস্টারক্লাস",
+    description: "আকর্ষণীয় গল্প, ইন্টারেক্টিভ মিনি-কুইজ এবং ভিজ্যুয়াল মিনিং-এর মাধ্যমে আপনার ভোকাবুলারি রিটেনশন বাড়ান ১০০%—সম্পূর্ণ ফ্রি।",
+    ctaText: "গল্প পড়া শুরু করুন",
+    emoji: "📖",
+    link: "/vocabulary/stories",
+    centerCta: true,
+    bgGradient: "from-indigo-900 via-blue-800 to-purple-900"
   }
 ];
 
