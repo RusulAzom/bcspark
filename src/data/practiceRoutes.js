@@ -143,27 +143,57 @@ const practiceRoutes = {
     },
 
     ICT: {
-        label: "ICT",
+        label: "তথ্য ও প্রযুক্তি-ICT",
         topics: {
             all: {
-                label: "ICT > All Topics",
+                label: "ICT > তথ্য প্রযুক্তি (All Topics)",
                 route: "/t20/ict/all",
                 active: true,
             },
+            computerMaintanence: {
+                label: "ICT > কম্পিউটার রক্ষণাবেক্ষণ, Virus, Cyber Security, firewall, software, Operating System ect.",
+                route: "/t20/ict/comMaintanence",
+                active: true,
+            },
             computerPeripherals: {
-                label: "ICT > কম্পিউটার পেরিফেরালস",
-                route: "/t20/gk/bangladesh-affairs",
-                active: false,
+                label: "ICT > কম্পিউটার পেরিফেরালস (Computer Peripherals, কি-বোর্ড, মাউস, OCR )",
+                route: "/t20/ict/computer-peripherals",
+                active: true,
             },
             computerArchitecture: {
-                label: "ICT > কম্পিউটারের অঙ্গসংগঠন ",
-                route: "/t20/gk/language-movement",
-                active: false,
+                label: "ICT > কম্পিউটারের অঙ্গসংগঠন (CPU, Hard Disk, ALU, RAM, ROM)",
+                route: "/t20/ict/computer-architecture",
+                active: true,
             },
             computerPracticalFields: {
                 label: "ICT > দৈনন্দিন জীবনে কম্পিউটার",
-                route: "/t20/gk/economy",
-                active: false,
+                route: "/t20/ict/doinondin-jibone-computer",
+                active: true,
+            },
+            computerNumberSystem: {
+                label: "ICT > Computer Number System (বাইনারি, অক্টাল, হেক্সা ডেসিমল ও রুপান্তর)",
+                route: "/t20/ict/number-system",
+                active: true,
+            },
+            computerHistory: {
+                label: "ICT > কম্পিউটারের ইতিহাস, প্রকারভেদ, প্রজন্ম",
+                route: "/t20/ict/computarer-itihas-prokarved",
+                active: true,
+            },
+            computerDatabase: {
+                label: "ICT > ডেটাবেইস সিস্টেম (Database Management System)",
+                route: "/t20/ict/computer-database",
+                active: true,
+            },
+            computerNetworking: {
+                label: "ICT > কম্পিউটার নেটওয়ার্ক & Data communications",
+                route: "/t20/ict/computer-networking",
+                active: true,
+            },
+            computerMachineCode: {
+                label: "ICT > Machine Code (ASCII, BCD, Unicode ..ect.)",
+                route: "/t20/ict/machine-code",
+                active: true,
             },
         },
     },

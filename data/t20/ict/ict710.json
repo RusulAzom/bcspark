@@ -1,0 +1,1771 @@
+[
+  {
+    "id": 1,
+    "topicsId": 710,
+    "q": "... is the term used to define all output and input devices in the computer system ?",
+    "options": [
+      "Software",
+      "Monitor",
+      "Hardware",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "কম্পিউটার সিস্টেমের সমস্ত ইনপুট এবং আউটপুট ডিভাইসগুলোকে একত্রে 'Hardware' বলা হয়। সফটওয়্যার হলো প্রোগ্রাম বা নির্দেশনাবলী, যা হার্ডওয়্যারকে পরিচালনা করে। ইনপুট ডাটা ইনপুট ডিভাইসের মাধ্যমে দেওয়া হয় এবং আউটপুট ডিভাইসের মাধ্যমে ফলাফল পাওয়া যায়। এখানে সঠিক উত্তরটি (Hardware) হওয়া উচিত, কারণ কম্পিউটার সিস্টেমের ভৌত অংশগুলোই হার্ডওয়্যার।",
+    "source": [
+      "Probashi Kallyen Bank Ltd. Executive Officer (Cash): 19"
+    ]
+  },
+  {
+    "id": 2,
+    "topicsId": 710,
+    "q": "Any data or instruction entered into the memory of a computer is considred as -",
+    "options": [
+      "Storage",
+      "Output",
+      "Input",
+      "Information"
+    ],
+    "ans": 2,
+    "explain": "কম্পিউটারের মেমরিতে কোনো তথ্য বা নির্দেশনা প্রবেশ করানোকে 'Input' বলা হয়। কিবোর্ড, মাউস ইত্যাদি ডিভাইসের মাধ্যমে আমরা কম্পিউটারে ইনপুট প্রদান করি। প্রসেসিং এর পর যা পাওয়া যায় তা হলো আউটপুট বা ইনফরমেশন।",
+    "source": [
+      "Basic Bank Ltd. Asst. Manager: 18"
+    ]
+  },
+  {
+    "id": 3,
+    "topicsId": 710,
+    "q": "Which of the following is NOT a peripheral device ?",
+    "options": [
+      "Motherboard",
+      "Scanner",
+      "Monitor",
+      "None"
+    ],
+    "ans": 0,
+    "explain": "পেরিফেরাল ডিভাইস (Peripheral device) বলতে সেই সব হার্ডওয়্যারকে বোঝায় যা কম্পিউটারের মূল কাঠামোর বাইরে যুক্ত থাকে (যেমন: স্ক্যানার, মনিটর, মাউস)। মাদারবোর্ড (Motherboard) কম্পিউটারের একটি অভ্যন্তরীণ এবং অপরিহার্য অংশ, এটি পেরিফেরাল ডিভাইস নয়।",
+    "source": [
+      "Pubali Bank Ltd. (SO): 14"
+    ]
+  },
+  {
+    "id": 4,
+    "topicsId": 710,
+    "q": "নিচের কোনটি ইনপুট ডিভাইস (Input Divece) ?",
+    "options": [
+      "মনিটর",
+      "প্রিন্টার",
+      "সিপিইউ",
+      "কী-বোর্ড"
+    ],
+    "ans": 3,
+    "explain": "কী-বোর্ড একটি ইনপুট ডিভাইস, যার মাধ্যমে কম্পিউটারে বিভিন্ন বর্ণ, সংখ্যা বা বিশেষ চিহ্ন ইনপুট হিসেবে দেওয়া হয়। অন্যদিকে মনিটর ও প্রিন্টার আউটপুট ডিভাইস এবং সিপিইউ হলো প্রসেসিং ইউনিট।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরো (বিবিএস) এর পরিসংখ্যান সহকারী। ২০/ সাধারণ বীমা কর্পোরেশন উচ্চমান সহকারী : ১৯ /জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)-এর অফিস সহায়ক : ১৭"
+    ]
+  },
+  {
+    "id": 5,
+    "topicsId": 710,
+    "q": "নিচের কোনটি কম্পিউটারের একটি ইনপুট যন্ত্র ?",
+    "options": [
+      "স্পিকার",
+      "প্রিন্টার",
+      "মনিটর",
+      "মাউস"
+    ],
+    "ans": 3,
+    "explain": "মাউস একটি ইনপুট ডিভাইস, যা পয়েন্ট করার কাজে ব্যবহৃত হয়। স্পিকার, প্রিন্টার এবং মনিটর হলো আউটপুট ডিভাইস, কারণ এগুলোর মাধ্যমে কম্পিউটার আমাদের ফলাফল প্রদান করে।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়ের অফিস সহকারি কাম কম্পিউটার অপারেটর: ১৯"
+    ]
+  },
+  {
+    "id": 6,
+    "topicsId": 710,
+    "q": "নিচের কোনটি ইনপুট ডিভাইস ?",
+    "options": [
+      "OMR",
+      "COM",
+      "Plotter",
+      "Monitor"
+    ],
+    "ans": 0,
+    "explain": "OMR এর পূর্ণরূপ হলো Optical Mark Recognition। এটি একটি ইনপুট ডিভাইস যা সাধারণত পরীক্ষার উত্তরপত্র মূল্যায়নের কাজে ব্যবহৃত হয়। প্লটার এবং মনিটর আউটপুট ডিভাইস।",
+    "source": [
+      "৩৭ তম বিসিএস / মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের ওয়ারলেস অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 7,
+    "topicsId": 710,
+    "q": "কোনটি ইনপুট ডিভাইস ?",
+    "options": [
+      "মডেম",
+      "র‍্যাম",
+      "রম",
+      "প্লটার"
+    ],
+    "ans": 0,
+    "explain": "মডেম (Modem) একই সাথে ইনপুট এবং আউটপুট ডিভাইস হিসেবে কাজ করে। তবে অপশনে থাকা অন্যগুলোর মধ্যে র‍্যাম ও রম হলো মেমোরি এবং প্লটার হলো আউটপুট ডিভাইস। মডেম ডাটা গ্রহণ ও প্রেরণ করতে পারে বলে এটি এখানে সঠিক উত্তর।",
+    "source": [
+      "জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয় (ডি ইউনিট): ১৯-২০"
+    ]
+  },
+  {
+    "id": 8,
+    "topicsId": 710,
+    "q": "Which of the following group has only input devices ?",
+    "options": [
+      "Mouse, Keyboard and Monitor",
+      "Mouse, Keyboard and Printer",
+      "Mouse, Keyboard and Plotter",
+      "Mouse, Keyboard and Scanner"
+    ],
+    "ans": 3,
+    "explain": "শেষের অপশনে মাউস, কিবোর্ড এবং স্ক্যানার তিনটিই ইনপুট ডিভাইস। অন্য অপশনগুলোতে মনিটর, প্রিন্টার বা প্লটার ছিল যেগুলো আউটপুট ডিভাইস।",
+    "source": [
+      "Combined 9 Banks Officer (General): 22"
+    ]
+  },
+  {
+    "id": 9,
+    "topicsId": 710,
+    "q": "কোনটি কম্পিউটারের গ্রহণ মুখ (Input Divece) নয় ?",
+    "options": [
+      "কী বোর্ড",
+      "বারকোড",
+      "মনিটর",
+      "ওএমআর"
+    ],
+    "ans": 2,
+    "explain": "মনিটর হলো একটি প্রদর্শক বা আউটপুট ডিভাইস। এটি কম্পিউটারের প্রসেস করা তথ্য আমাদের দেখায়, তাই এটি ইনপুট ডিভাইস নয়। কিবোর্ড, বারকোড রিডার এবং ওএমআর হলো ইনপুট ডিভাইস।",
+    "source": [
+      "মৎস্য অধিদপ্তর এর অফিস সহকারী : ২১"
+    ]
+  },
+  {
+    "id": 10,
+    "topicsId": 710,
+    "q": "কোনটি কম্পিউটারের ইনপুট ডিভাইস নয় ?",
+    "options": [
+      "স্ক্যানার",
+      "মাউস",
+      "কী-বোর্ড",
+      "প্রিন্টার"
+    ],
+    "ans": 3,
+    "explain": "প্রিন্টার হলো একটি আউটপুট ডিভাইস, যার মাধ্যমে কম্পিউটারের সফট কপিকে হার্ড কপি বা কাগজে ছাপানো হয়। বাকি তিনটি ইনপুট ডিভাইস।",
+    "source": [
+      "ঢাকা পাওয়ার ডিস্ট্রিবিউশন কো. লি. এর সুইচ বোর্ড অ্যাটেনডেন্ট : ২১"
+    ]
+  },
+  {
+    "id": 11,
+    "topicsId": 710,
+    "q": "Mobile Phone-এর কোনটি input device নয় ?",
+    "options": [
+      "Keypad",
+      "Touch Screen",
+      "Camera",
+      "Power Supply"
+    ],
+    "ans": 3,
+    "explain": "পাওয়ার সাপ্লাই (Power Supply) কোনো ডাটা ইনপুট দেওয়ার যন্ত্র নয়, এটি কেবল বিদ্যুৎ সরবরাহ করে। কিপ্যাড, টাচ স্ক্রিন এবং ক্যামেরা ব্যবহার করে ডাটা বা কমান্ড দেওয়া সম্ভব, তাই এগুলো ইনপুট ডিভাইসের আওতায় পড়ে।",
+    "source": [
+      "৩৬ তম বিসিএস"
+    ]
+  },
+  {
+    "id": 12,
+    "topicsId": 710,
+    "q": "নিচের কোনটি input device নয় ?",
+    "options": [
+      "Keyboard",
+      "Mouse",
+      "Speaker",
+      "Scanner"
+    ],
+    "ans": 2,
+    "explain": "স্পিকার (Speaker) একটি আউটপুট ডিভাইস যা শব্দের মাধ্যমে তথ্য প্রদান করে।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 13,
+    "topicsId": 710,
+    "q": "Which of the following is not an input device ?",
+    "options": [
+      "Touch Screen",
+      "Touch Pad",
+      "Mouse Pad",
+      "Optical Scanners"
+    ],
+    "ans": 2,
+    "explain": "মাউস প্যাড (Mouse Pad) কোনো ইলেকট্রনিক ডিভাইস নয়, এটি কেবল মাউস ব্যবহারের জন্য একটি মসৃণ পৃষ্ঠ। টাচ স্ক্রিন, টাচ প্যাড এবং অপটিক্যাল স্ক্যানার হলো ডাটা গ্রহণের মাধ্যম বা ইনপুট ডিভাইস।",
+    "source": [
+      "Janata Bank Assistant Executive Officer (Teller): 15"
+    ]
+  },
+  {
+    "id": 14,
+    "topicsId": 710,
+    "q": "কোনটি কম্পিউটারের ইনপুট ডিভাইস নয় ?",
+    "options": [
+      "মাউস",
+      "পেনড্রাইভ",
+      "ওএমআর",
+      "মাইক্রোফোন"
+    ],
+    "ans": 1,
+    "explain": "পেনড্রাইভ (Pendrive) হলো একটি স্টোরেজ ডিভাইস বা তথ্য সংরক্ষণের মাধ্যম। যদিও এটি দিয়ে ডাটা আনা-নেওয়া করা হয়, এটি মৌলিকভাবে ইনপুট ডিভাইস নয়।",
+    "source": [
+      "কৃষি সম্প্রসারণ অধিদপ্তর এর উপ-সহকারী কৃষি কর্মকর্তা : ২১"
+    ]
+  },
+  {
+    "id": 15,
+    "topicsId": 710,
+    "q": "Which of the following is not an input device ?",
+    "options": [
+      "OCR",
+      "Optical scanners",
+      "Voice recognition device",
+      "COM (Computer Output to Microfilm)"
+    ],
+    "ans": 3,
+    "explain": "COM এর পূর্ণরূপ হলো Computer Output to Microfilm। এর নাম থেকেই বোঝা যাচ্ছে এটি একটি আউটপুট ব্যবস্থা। বাকি অপশনগুলো ইনপুট হিসেবে ডাটা বা ভয়েস গ্রহণ করে।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 16"
+    ]
+  },
+  {
+    "id": 16,
+    "topicsId": 710,
+    "q": "Which one of the following devices is the most common output device ?",
+    "options": [
+      "Keyboard",
+      "Monitor",
+      "Scanner",
+      "Printer",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "মনিটর (Monitor) হলো কম্পিউটারের সবচেয়ে সাধারণ আউটপুট ডিভাইস। প্রতিটি কম্পিউটার সিস্টেমেই ফলাফল দেখার জন্য মনিটর অপরিহার্য।",
+    "source": [
+      "EXIM Bank Ltd. Officer (Cash): 13 / DBBL MTO: 12 / Agrani Bank Ltd. Officer: 10"
+    ]
+  },
+  {
+    "id": 17,
+    "topicsId": 710,
+    "q": "নিচের কোনটি আউটপুট ডিভাইস ?",
+    "options": [
+      "Mouse",
+      "Keyboard",
+      "Printer",
+      "Scanner"
+    ],
+    "ans": 2,
+    "explain": "প্রিন্টার হলো আউটপুট ডিভাইস কারণ এটি কম্পিউটার থেকে প্রাপ্ত ফলাফল কাগজে ছাপিয়ে বের করে। মাউস, কিবোর্ড এবং স্ক্যানার হলো ইনপুট ডিভাইস।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)-এর অফিস সহায়ক : ১৭"
+    ]
+  },
+  {
+    "id": 18,
+    "topicsId": 710,
+    "q": "Using output devices one can-",
+    "options": [
+      "Process Data",
+      "Store Data",
+      "Scan Data",
+      "Print Data"
+    ],
+    "ans": 3,
+    "explain": "আউটপুট ডিভাইসের প্রধান কাজ হলো ডাটা দেখা বা প্রিন্ট করা (View or Print Data)। অপশনে Print Data সঠিক কাজ হিসেবে গণ্য হবে।",
+    "source": [
+      "Combined 9 Banks Officer (General):22"
+    ]
+  },
+  {
+    "id": 19,
+    "topicsId": 710,
+    "q": "নিচের কোনটি output device নয় ?",
+    "options": [
+      "monitor",
+      "microphone",
+      "printer",
+      "speaker"
+    ],
+    "ans": 1,
+    "explain": "মাইক্রোফোন (Microphone) একটি ইনপুট ডিভাইস যা মানুষের কণ্ঠস্বর বা শব্দ কম্পিউটারে ইনপুট হিসেবে পাঠায়। মনিটর, প্রিন্টার এবং স্পিকার হলো আউটপুট ডিভাইস।",
+    "source": [
+      "৪৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 20,
+    "topicsId": 710,
+    "q": "Which of the following is not an output device ? / নিচের কোনটি একটি আউটপুট যন্ত্র নয় ?",
+    "options": [
+      "CD-ROM",
+      "Floppy disk",
+      "Monitor",
+      "Light pen"
+    ],
+    "ans": 3,
+    "explain": "লাইট পেন (Light Pen) একটি ইনপুট ডিভাইস যা মনিটর স্ক্রিনের উপর সরাসরি ইনপুট দেওয়ার জন্য ব্যবহৃত হয়। সিডি-রম এবং ফ্লপি ডিস্ক মূলত স্টোরেজ হলেও এগুলো থেকে ডাটা পড়া যায়, আর মনিটর সরাসরি আউটপুট ডিভাইস।",
+    "source": [
+      "Mercantile Bank Ltd. Officer : 04"
+    ]
+  },
+  {
+    "id": 21,
+    "topicsId": 710,
+    "q": "Which of the following is not an output device ?/ নিচের কোনটি একটি আউটপুট যন্ত্র নয় ?",
+    "options": [
+      "Monitor",
+      "Printer",
+      "Mouse",
+      "Speaker"
+    ],
+    "ans": 2,
+    "explain": "মাউস (Mouse) হলো একটি পয়েন্টার বা ইনপুট ডিভাইস। এটি আউটপুট ডিভাইস নয়।",
+    "source": [
+      "Sonali Bank Ltd. Officer 18/ ICB Senior Officer: 11"
+    ]
+  },
+  {
+    "id": 22,
+    "topicsId": 710,
+    "q": "Which of the following is not an output device ? / নিচের কোনটি একটি আউটপুট যন্ত্র নয় ?",
+    "options": [
+      "Scanner",
+      "Printer",
+      "Laser printer",
+      "Monitor",
+      "Touch screen"
+    ],
+    "ans": 0,
+    "explain": "স্ক্যানার (Scanner) একটি ইনপুট ডিভাইস যা কোনো ছবি বা লেখাকে ডিজিটাল ফরমেটে রূপান্তর করে। বাকিগুলো আউটপুট প্রদান করে (টাচ স্ক্রিন উভয় হলেও এখানে স্ক্যানার সবচেয়ে সঠিক ইনপুট ডিভাইস)।",
+    "source": [
+      "CGDF Junior Auditor: 22 Meghna Bank Lad. MTO: 14"
+    ]
+  },
+  {
+    "id": 23,
+    "topicsId": 710,
+    "q": "OCR কী ?",
+    "options": [
+      "An output device",
+      "An input device",
+      "A part of the monitor",
+      "A part of the key-board"
+    ],
+    "ans": 1,
+    "explain": "OCR (Optical Character Recognition) হলো একটি ইনপুট ডিভাইস। এটি হাতের লেখা বা টাইপ করা টেক্সটকে স্ক্যান করে কম্পিউটারে বোধগম্য ডিজিটাল টেক্সটে রূপান্তর করে।",
+    "source": [
+      "Bangladesh Commerce Bank Ltd. Officer (Grade-III):00"
+    ]
+  },
+  {
+    "id": 24,
+    "topicsId": 710,
+    "q": "কম্পিউটার সিস্টেম এ Scanner একটি কোন ধরনের যন্ত্র ?",
+    "options": [
+      "Output device",
+      "Input device",
+      "Input-output device",
+      "Memory device"
+    ],
+    "ans": 1,
+    "explain": "স্ক্যানার একটি ইনপুট ডিভাইস, কারণ এটি ব্যবহার করে আমরা তথ্য কম্পিউটারে প্রবেশ করাই।",
+    "source": [
+      "৩৫তম বিসিএস"
+    ]
+  },
+  {
+    "id": 25,
+    "topicsId": 710,
+    "q": "বার কোড রিডার কী ধরনের ডিভাইস ?",
+    "options": [
+      "আউটপুট",
+      "ইনপুট",
+      "স্টোরেজ",
+      "মেমোরি"
+    ],
+    "ans": 1,
+    "explain": "বার কোড রিডার (Bar Code Reader) হলো একটি ইনপুট ডিভাইস যা পণ্যের গায়ের বারকোড পড়ে তথ্যাদি কম্পিউটারে ইনপুট দেয়।",
+    "source": [
+      "বাংলাদেশ লোক প্রশাসন প্রশিক্ষণ কেন্দ্র (BPAIC)-এর বিভিন্ন পদ: ১৯"
+    ]
+  },
+  {
+    "id": 26,
+    "topicsId": 710,
+    "q": "Keyboard is a computer device known as-",
+    "options": [
+      "Input device",
+      "Output device",
+      "Storage device",
+      "Processing device"
+    ],
+    "ans": 0,
+    "explain": "কিবোর্ড হলো কম্পিউটারের প্রধান ইনপুট ডিভাইস।",
+    "source": [
+      "EXIM Bank Ltd. Trainee Officer : 15 / স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়ে ডাটা এন্ট্রি অপারেটর : ১০"
+    ]
+  },
+  {
+    "id": 27,
+    "topicsId": 710,
+    "q": "A.......is a pointing device.",
+    "options": [
+      "Monitor",
+      "Mouse",
+      "Keyboard",
+      "CPU"
+    ],
+    "ans": 1,
+    "explain": "মাউস (Mouse) একটি পয়েন্টিং ডিভাইস। এটি গ্রাফিক্যাল ইউজার ইন্টারফেসে কার্সার নাড়াচড়া করতে সাহায্য করে।",
+    "source": [
+      "Pubali Bank Ltd. Senior Officer : 13"
+    ]
+  },
+  {
+    "id": 28,
+    "topicsId": 710,
+    "q": "Trackball is an example of a/an::",
+    "options": [
+      "Programming device",
+      "Pointing device",
+      "Output device",
+      "Software device"
+    ],
+    "ans": 1,
+    "explain": "লেজার প্রিন্টার একসাথে পুরো এক পৃষ্ঠা প্রিন্ট করতে পারে বলে একে 'Page Printer' বলা হয়।",
+    "source": [
+      "Rupali Bank Ltd. (Cash): 18",
+      "Agrani Bank Ltd. Officer: 10/Agrani Bank Ltd. Senior Officer: 10"
+    ]
+  },
+  {
+    "id": 29,
+    "topicsId": 710,
+    "q": "A laser printer's speed is measured in -",
+    "options": [
+      "cps",
+      "ppm",
+      "dpi",
+      "cpi"
+    ],
+    "ans": 1,
+    "explain": "লেজার প্রিন্টারের গতি PPM (Pages Per Minute) এককে মাপা হয়।",
+    "source": [
+      "EXIM Bank TAO: 18/ IBBL Assi: Officer (IT): 17"
+    ]
+  },
+  {
+    "id": 30,
+    "topicsId": 710,
+    "q": "কোন ধরনের প্রিন্টার সবচেয়ে দ্রুতগতিতে উন্নতমানের প্রিন্ট প্রদানে সক্ষম ?",
+    "options": [
+      "লেজার প্রিন্টার",
+      "ইনকজেট প্রিন্টার",
+      "ডট ম্যাট্রিক্স প্রিন্টার",
+      "বাবল জেট প্রিন্টার"
+    ],
+    "ans": 0,
+    "explain": "লেজার প্রিন্টার বর্তমানে সবচেয়ে দ্রুতগতিসম্পন্ন এবং অত্যন্ত উচ্চমানের রেজোলিউশন দিতে সক্ষম।",
+    "source": [
+      "বাংলাদেশ পরিসংখান ব্যুরো ডেটা এন্ট্রি অপারেটর: ২১/ দুর্নীতি দমন কমিশনে সহকারী পরিচালক: ১৩/ উপজেলা পোস্ট মাস্টার: ১০"
+    ]
+  },
+  {
+    "id": 31,
+    "topicsId": 710,
+    "q": "Which of the following produces the best graphics reproduction ?",
+    "options": [
+      "Laser printer",
+      "Ink jet printer",
+      "Plotter",
+      "Dot matrix Printer"
+    ],
+    "ans": 2,
+    "explain": "বড় সাইজের মানচিত্র বা ইঞ্জিনিয়ারিং ড্রয়িংয়ের মতো উচ্চমানের গ্রাফিক্স রিপ্রোডাকশনের জন্য প্লটার (Plotter) সবচেয়ে সেরা।",
+    "source": [
+      "Sadharan Bima Corporation Junior Officer: 19/Bangladesh Bank Assistant Director: 16"
+    ]
+  },
+  {
+    "id": 32,
+    "topicsId": 710,
+    "q": "প্লটার কয় ধরনের ?",
+    "options": [
+      "পাঁচ ধরনের",
+      "তিন ধরনের",
+      "চার ধরনের",
+      "দুই ধরনের"
+    ],
+    "ans": 3,
+    "explain": "প্লটার প্রধানত দুই ধরনের হয়: ড্রাম প্লটার (Drum Plotter) এবং ফ্ল্যাটবেড প্লটার (Flatbed Plotter)।\nকরে।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 33,
+    "topicsId": 710,
+    "q": "Monitor is a computer device known as-",
+    "options": [
+      "Output device",
+      "Input device",
+      "I/O device",
+      "None of the above"
+    ],
+    "ans": 0,
+    "explain": "মনিটর একটি আউটপুট ডিভাইস যার মাধ্যমে ফলাফল দেখা যায়।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের পোস্টাল অপারেটর: ১৯ / স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়ের ডাটা এন্ট্রি অপারেটর : ১০"
+    ]
+  },
+  {
+    "id": 34,
+    "topicsId": 710,
+    "q": "Plotter কোন ধরনের ডিভাইস ?",
+    "options": [
+      "ইনপুট",
+      "আউটপুট",
+      "মেমোরি",
+      "উপরের কোনটিই নয়"
+    ],
+    "ans": 1,
+    "explain": "প্লটার (Plotter) হলো একটি উন্নত মানের আউটপুট ডিভাইস যা বড় আকারের নকশা বা মানচিত্র প্রিন্ট করতে ব্যবহৃত হয়।",
+    "source": [
+      "৩৬ তম বিসিএস / রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 35,
+    "topicsId": 710,
+    "q": "Which of the following devices doesn't use scanning as a first step in its working principle ?",
+    "options": [
+      "Plotter",
+      "OCR",
+      "MICR",
+      "Bar Code Reader"
+    ],
+    "ans": 0,
+    "explain": "প্লটার (Plotter) একটি আউটপুট ডিভাইস যা পেনের মাধ্যমে ছবি আঁকে বা নকশা তৈরি করে। এটি স্ক্যানিং নীতিতে কাজ করে না। অন্যদিকে OCR, MICR এবং বারকোড রিডার প্রথমে স্ক্যানিং এর মাধ্যমে ডাটা গ্রহণ করে।",
+    "source": [
+      "Sonali Bank Ltd Senior Officer: 13"
+    ]
+  },
+  {
+    "id": 36,
+    "topicsId": 710,
+    "q": "'Touch pad' একটি......... ডিভাইস ?",
+    "options": [
+      "ইনপুট",
+      "আউটপুট",
+      "ইনপুট ও আউটপুট",
+      "নেটওয়ার্ক"
+    ],
+    "ans": 0,
+    "explain": "টাচ প্যাড মূলত ল্যাপটপে মাউসের বিকল্প হিসেবে ব্যবহৃত একটি ইনপুট ডিভাইস।",
+    "source": [
+      "মৎস্য ও প্রাণিসম্পদ মন্ত্রণালয়ের মাঠ সহকারি: ১৯"
+    ]
+  },
+  {
+    "id": 37,
+    "topicsId": 710,
+    "q": "টাচস্ক্রিন প্রযুক্তির জনক কে ?",
+    "options": [
+      "ড. স্যামুয়েল হাস্ট",
+      "মার্টিন কুপার",
+      "স্টিভ জবস",
+      "বিল গেটস"
+    ],
+    "ans": 0,
+    "explain": "টাচস্ক্রিন প্রযুক্তির উদ্ভাবক হিসেবে ড. স্যামুয়েল হাস্ট (Samuel Hurst) পরিচিত। তিনি ১৯৭১ সালে প্রথম টাচ সেন্সর উদ্ভাবন করেন।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 38,
+    "topicsId": 710,
+    "q": "Which one is both input and output device ? / নিচের কোনটি একই সাথে ইনপুট ও আউটপুট হিসাবে কাজ করে ?",
+    "options": [
+      "Mouse",
+      "Microphone",
+      "Touch Screen",
+      "Printer"
+    ],
+    "ans": 2,
+    "explain": "টাচ স্ক্রিন (Touch Screen) এমন একটি ডিভাইস যার মাধ্যমে একই সাথে তথ্য ইনপুট দেওয়া যায় এবং আউটপুট দেখা যায়।",
+    "source": [
+      "Bangladesh Bank Assistant Director (General): 18/ Bangladesh Krishi Bank Ltd. Senior Officer: 17 / ৪৪তম বিসিএস / ৪০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 39,
+    "topicsId": 710,
+    "q": "Which one works as both an output and input device ? / কোন যন্ত্রাংশটি ইনপুট এবং আউটপুট উভয়ের জন্য ব্যবহৃত হয় ?",
+    "options": [
+      "Modem",
+      "Scanner",
+      "Mouse",
+      "Monitor",
+      "Keyboard"
+    ],
+    "ans": 0,
+    "explain": "মডেম (Modem) ডিজিটাল ডাটাকে অ্যানালগ এবং অ্যানালগ ডাটাকে ডিজিটালে রূপান্তর করে তথ্য আদান-প্রদান করতে পারে, তাই এটি ইনপুট এবং আউটপুট উভয় হিসেবে ব্যবহৃত হয়।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 10 / বাংলাদেশ গ্যাস ফিল্ড কোম্পানি লি. এর সাব-এসিস্ট্যান্ট ইঞ্জিনিয়ার (সিভিল): ২১/ বাংলাদেশ ডাক বিভাগের উপজেলা পোস্টমাস্টার: ১৬"
+    ]
+  },
+  {
+    "id": 40,
+    "topicsId": 710,
+    "q": "নিচের কোনটি ইনপুট এবং আউটপুট দুটোই ?",
+    "options": [
+      "মনিটর",
+      "ওয়েব ক্যাম",
+      "জয়স্টিক",
+      "নেটওয়ার্ক কার্ড"
+    ],
+    "ans": 3,
+    "explain": "নেটওয়ার্ক কার্ড (NIC) তথ্য আদান-প্রদান (Send and Receive) করে বলে এটি ইনপুট এবং আউটপুট উভয় ডিভাইস হিসেবে গণ্য হয়।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 41,
+    "topicsId": 710,
+    "q": "Computer keyboard is also known as -",
+    "options": [
+      "Function Board",
+      "Control Board",
+      "Console",
+      "Option Board",
+      "None"
+    ],
+    "ans": 2,
+    "explain": "কিবোর্ডকে অনেক সময় 'Console' বা ইনপুট কনসোল বলা হয়।",
+    "source": [
+      "IBBL Probationary Officer : 17"
+    ]
+  },
+  {
+    "id": 42,
+    "topicsId": 710,
+    "q": "The common keyboard arrangement is called the layout./ সাধারণ কী-বোর্ড বিন্যাসকে বলা হয়---------বিন্যাস।",
+    "options": [
+      "QEWTYR",
+      "QYWERT",
+      "QYTRWR",
+      "QWERTY"
+    ],
+    "ans": 3,
+    "explain": "সবচেয়ে বেশি ব্যবহৃত কিবোর্ড লেআউট হলো 'QWERTY'। কিবোর্ডের প্রথম লাইনের প্রথম ছয়টি অক্ষরের ক্রমানুযায়ী এই নামকরণ করা হয়েছে।",
+    "source": [
+      "The Security Printing Corporation Ltd. Officer (General): 21 / IFIC Bank Ltd. MTO : 17"
+    ]
+  },
+  {
+    "id": 43,
+    "topicsId": 710,
+    "q": "Who invented QWERTY keyboard ?",
+    "options": [
+      "Steve Jobs",
+      "Christopher Latham Sholes",
+      "Brian Sams",
+      "Anderson Palimar"
+    ],
+    "ans": 1,
+    "explain": "ক্রিস্টোফার লাথাম শোলস (Christopher Latham Sholes) ১৮৬৮ সালে কোয়ার্টি (QWERTY) কিবোর্ড লেআউট উদ্ভাবন করেন।",
+    "source": [
+      "Education Engineer Department Computer Operator: 21/ Sonali & Janata Ltd. Senior Officer (IT/ICT): 18"
+    ]
+  },
+  {
+    "id": 44,
+    "topicsId": 710,
+    "q": "How many keys are available in the numerical keypad of a standard keyboard ? /একটি প্রামাণিক কী-বোর্ডে সংখ্যাসূচক কতগুলো কী থাকে ?",
+    "options": [
+      "20",
+      "17",
+      "15",
+      "13"
+    ],
+    "ans": 1,
+    "explain": "একটি প্রামাণিক (Standard) কিবোর্ডের নিউমেরিক কী-প্যাডে মোট ১৭টি কি (Key) থাকে।",
+    "source": [
+      "Dutch Bangla Bank Ltd. Assistant Officer : 09"
+    ]
+  },
+  {
+    "id": 45,
+    "topicsId": 710,
+    "q": "নিউমেরিক কী-প্যাড কোথায় থাকে ?",
+    "options": [
+      "কী বোর্ডের মাঝের দিকে",
+      "কী বোর্ডের পিছনের দিকে",
+      "কী বোর্ডের বাম দিকে",
+      "কী বোর্ডের ডান দিকে"
+    ],
+    "ans": 3,
+    "explain": "কিবোর্ডের ডান পাশে নিউমেরিক কী-প্যাড (Numerical Keypad) অবস্থান করে, যা দ্রুত সংখ্যা টাইপ করার কাজে ব্যবহৃত হয়।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার অপারেটর : ১৬"
+    ]
+  },
+  {
+    "id": 46,
+    "topicsId": 710,
+    "q": "Which of the keys is not on the number keypad ?",
+    "options": [
+      "Ctrl",
+      "Del",
+      "Enter",
+      "Num lock"
+    ],
+    "ans": 0,
+    "explain": "নিউমেরিক কিপ্যাডে 'Ctrl' কি-টি থাকে না। সেখানে সংখ্যা ছাড়াও Del, Enter এবং Num Lock কি থাকে।",
+    "source": [
+      "Combined 9 Bank Officer (General): 22"
+    ]
+  },
+  {
+    "id": 47,
+    "topicsId": 710,
+    "q": "কী বোর্ডের Shift, Ctrl, Alt কী গুলোকে বলা হয়-",
+    "options": [
+      "Function key",
+      "Numeric Key",
+      "Space key",
+      "Modifier key"
+    ],
+    "ans": 3,
+    "explain": "Shift, Ctrl এবং Alt-কে 'Modifier key' বলা হয়, কারণ এগুলো একাকী কাজ না করে অন্য কোনো কি-এর সাথে যুক্ত হয়ে কাজ পরিবর্তন বা সংশোধন করে।",
+    "source": [
+      "সিজিডিএফ এর জুনিয়র অডিটর : ২২"
+    ]
+  },
+  {
+    "id": 48,
+    "topicsId": 710,
+    "q": "The modern keyboard typically has.........Function keys. / কম্পিউটারে কয়টি 'ফাংশন কী' থাকে ?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "ans": 1,
+    "explain": "আধুনিক কিবোর্ডে সাধারণত ১২টি ফাংশন কি থাকে (F1 থেকে F12 পর্যন্ত)।",
+    "source": [
+      "5 Govt Banka Officer (Cash):19 / ঢাকা বিশ্ববিদ্যালয় (খ ইউনিট): ১৯-২০"
+    ]
+  },
+  {
+    "id": 49,
+    "topicsId": 710,
+    "q": "Key Board এ F1-F12 বোতামগুলোকে কী বলা হয় ?",
+    "options": [
+      "Delete Key",
+      "Space Key",
+      "Function Key",
+      "Special Key"
+    ],
+    "ans": 2,
+    "explain": "F1 থেকে F12 কি-গুলোকে ফাংশন কি (Function Key) বলা হয়।",
+    "source": [
+      "পরিসংখ্যান ব্যুরোর জুনিয়ার পরিসংখ্যান সহকারী : ১৬ / পরিসংখ্যান ব্যুরোর ডাটা এন্ট্রি অপারেটর: ১৬/ মহা হিসাব নিরীক্ষক ও নিয়ন্ত্রয়কের কার্যালয়ের অধীন অডিটর: ১৫"
+    ]
+  },
+  {
+    "id": 50,
+    "topicsId": 710,
+    "q": "In a computer, which of the following keys you can use to get help in most of the programs ? / কম্পিউটারে নিচের কোন বাটনটি অধিকাংশ প্রোগ্রামে ব্যবহৃত হয় ?",
+    "options": [
+      "F10",
+      "F3",
+      "F1",
+      "ESC",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "অধিকাংশ সফটওয়্যার বা অপারেটিং সিস্টেমে 'Help' মেনু চালু করার জন্য F1 কি ব্যবহৃত হয়।",
+    "source": [
+      "EXIM Bank Ltd. MTO. 13 / City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 51,
+    "topicsId": 710,
+    "q": "In most application 'F1' stands for ?",
+    "options": [
+      "Help",
+      "Save",
+      "Save as",
+      "Cut - paste",
+      "Copy - paste"
+    ],
+    "ans": 0,
+    "explain": "F1 সাধারণত 'Help' কমান্ডের জন্য ব্যবহৃত হয়।",
+    "source": [
+      "BKB Senior Officer: 17/Sonali Bank Ltd Senior Officer: 13"
+    ]
+  },
+  {
+    "id": 52,
+    "topicsId": 710,
+    "q": "What function key does F3 stand for in most computers ? / কম্পিউটারে 'F3 Key' এর কাজ-",
+    "options": [
+      "Refresh",
+      "Find",
+      "Help",
+      "Save"
+    ],
+    "ans": 1,
+    "explain": "অনেক অপারেটিং সিস্টেম এবং ব্রাউজারে F3 কি-টি কোনো কিছু খোঁজার জন্য (Find/Search) ব্যবহৃত হয়।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 21 / রাজশাহী বিশ্ববিদ্যালয় (বি ইউনিট) : ১৯-২০"
+    ]
+  },
+  {
+    "id": 53,
+    "topicsId": 710,
+    "q": "কী-বোর্ডের Exit বোতাম হচ্ছে -",
+    "options": [
+      "F3 বোতাম",
+      "F7 বোতাম",
+      "F9 বোতাম",
+      "F10 বোতাম",
+      "F4"
+    ],
+    "ans": 4,
+    "explain": "কিবোর্ডে সরাসরি 'Exit' নামে কোনো বাটন নেই, তবে Alt+F4 চেপে যেকোনো প্রোগ্রাম থেকে বের হওয়া যায়। এখানে অপশন অনুযায়ী F4 সঠিক হওয়ার কথা।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক : ১৬"
+    ]
+  },
+  {
+    "id": 54,
+    "topicsId": 710,
+    "q": "In MS word, which one of the following key will refresh or reload the page.",
+    "options": [
+      "F5",
+      "F7",
+      "F8",
+      "F10"
+    ],
+    "ans": 0,
+    "explain": "উইন্ডোজ বা ওয়েব ব্রাউজারে পেজ রিলোড বা রিফ্রেশ করতে F5 কি ব্যবহৃত হয়।",
+    "source": [
+      "Combined 5 Banks Officer (Cash): 21"
+    ]
+  },
+  {
+    "id": 55,
+    "topicsId": 710,
+    "q": "Which function key is used to check spellings ?",
+    "options": [
+      "F7",
+      "F9",
+      "F11",
+      "Shift + F7",
+      "None of these"
+    ],
+    "ans": 0,
+    "explain": "MS Word বা অন্যান্য মাইক্রোসফট অ্যাপ্লিকেশনগুলোতে বানান এবং ব্যাকরণ (Spelling and Grammar) যাচাই করার জন্য ফাংশন কী F7 ব্যবহৃত হয়।",
+    "source": [
+      "Joint Recruitment Test for 8 Banks (Senior Officer): 18/Islami Bank Ltd. Probationary Officer: 17"
+    ]
+  },
+  {
+    "id": 56,
+    "topicsId": 710,
+    "q": "You can detect spelling and grammar errors by-",
+    "options": [
+      "Press Shift + F7",
+      "Press Ctrl+F7",
+      "Press Alt + F7",
+      "Press F7"
+    ],
+    "ans": 3,
+    "explain": "কীবোর্ডের F7 কী চাপলে স্পেল চেক ডায়ালগ বক্স ওপেন হয়, যার মাধ্যমে বানান ও ব্যাকরণগত ভুল শনাক্ত করা যায়।",
+    "source": [
+      "Janata Bank Ltd Asst. Executive Officer: 19/Probashi Kallyan Bank Senior Officer: 18"
+    ]
+  },
+  {
+    "id": 57,
+    "topicsId": 710,
+    "q": "In MS Word, pressing F8 key for the three times selects - / MS Word এ F8 কী তিনবার চাপা হলে কি হয় ?",
+    "options": [
+      "whole page",
+      "a sentence",
+      "a word",
+      "a paragraph"
+    ],
+    "ans": 1,
+    "explain": "MS Word-এ F8 কী একবার চাপলে সিলেকশন মোড অন হয়, দুইবার চাপলে একটি শব্দ (word), তিনবার চাপলে একটি বাক্য (sentence), চারবার চাপলে একটি প্যারাগ্রাফ এবং পাঁচবার চাপলে সম্পূর্ণ ডকুমেন্ট সিলেক্ট হয়।",
+    "source": [
+      "Dhaka Bank Ltd. TACO: 21 / NSI Assistant Director: 21 / সিজিডিএফ এর জুনিয়র অডিটর : ২২"
+    ]
+  },
+  {
+    "id": 58,
+    "topicsId": 710,
+    "q": "Which of the following is the save button in computer key board ? / কম্পিউটার কী-বোর্ডে সংরক্ষণ বাটন হিসেবে কোনটি ব্যবহৃত হয় ?",
+    "options": [
+      "F12",
+      "F8",
+      "F6",
+      "F1",
+      "F10"
+    ],
+    "ans": 0,
+    "explain": "সাধারণত ফাইল সংরক্ষণের জন্য Ctrl + S ব্যবহৃত হলেও, ফাংশন কী-এর মধ্যে F12 বাটনটি 'Save As' কমান্ডের জন্য ব্যবহৃত হয়, যা নতুন নামে ফাইল সংরক্ষণে সাহায্য করে।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 13"
+    ]
+  },
+  {
+    "id": 59,
+    "topicsId": 710,
+    "q": "Which key can be used to display the save-as box in MS Word ?",
+    "options": [
+      "F12",
+      "F5",
+      "F9",
+      "F6"
+    ],
+    "ans": 0,
+    "explain": "MS Word-এ 'Save As' ডায়ালগ বক্সটি সরাসরি ওপেন করার শর্টকাট ফাংশন কী হলো F12।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 21"
+    ]
+  },
+  {
+    "id": 60,
+    "topicsId": 710,
+    "q": "What is the shortcut key to open the Open dialog box ?",
+    "options": [
+      "F12",
+      "Alt+F12",
+      "Shift+F12",
+      "Ctrl+F12"
+    ],
+    "ans": 3,
+    "explain": "Ctrl + F12 কি-বোর্ড শর্টকাটটি MS Word-এ 'Open' ডায়ালগ বক্স খোলার জন্য ব্যবহৃত হয়।",
+    "source": [
+      "Bangladesh Bank Officer (General): 19/ Sonali Bank Ltd. Officer (Cash) Freedom Fighter: 19"
+    ]
+  },
+  {
+    "id": 61,
+    "topicsId": 710,
+    "q": "Who invented the computer mouse ?",
+    "options": [
+      "Douglas Engelbart",
+      "Alan kay",
+      "Ted Nelson",
+      "Vannevar Bush"
+    ],
+    "ans": 0,
+    "explain": "১৯৬০-এর দশকে স্ট্যানফোর্ড রিসার্চ ইনস্টিটিউটে ডগলাস এঙ্গেলবার্ট (Douglas Engelbart) কম্পিউটার মাউস উদ্ভাবন করেন।",
+    "source": [
+      "Pubali Bank Ltd. Trainee Ass Junior Officer (Cash): 19"
+    ]
+  },
+  {
+    "id": 62,
+    "topicsId": 710,
+    "q": "The wheel of mouse can make it easier to do what ? / মাউসের চাকার সাহায্যে কোন কাজটি খুব সহজে করা যায় ?",
+    "options": [
+      "scroll through documents",
+      "select object",
+      "open decument",
+      "change volume",
+      "right-clicking"
+    ],
+    "ans": 0,
+    "explain": "মাউসের মাঝখানে থাকা চাকা বা স্ক্রল হুইল ব্যবহার করে কোনো ডকুমেন্টের ওপর-নিচে সহজে চলাচল বা স্ক্রল (Scroll) করা যায়।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer: 11"
+    ]
+  },
+  {
+    "id": 63,
+    "topicsId": 710,
+    "q": "To select the text by shading as you drag the mouse arrow over the text is known as-",
+    "options": [
+      "Decode",
+      "Fetch",
+      "Highlight",
+      "Clip art",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "মাউস ড্র্যাগ করে কোনো টেক্সট সিলেক্ট করলে তার ওপর একটি ছায়া পড়ে, একে 'Highlight' করা বলা হয়।",
+    "source": [
+      "Bank Asia Ltd. Management Trainee: 11"
+    ]
+  },
+  {
+    "id": 64,
+    "topicsId": 710,
+    "q": "A light sensitive device that converts drawing, printed text or other images into digital form is-",
+    "options": [
+      "Keyboard",
+      "Plotter",
+      "Scanner",
+      "None of the above"
+    ],
+    "ans": 2,
+    "explain": "স্ক্যানার (Scanner) হলো একটি আলোক সংবেদনশীল ডিভাইস যা হার্ডকপি ডকুমেন্ট বা ছবিকে ডিজিটাল ইমেজ বা ফর্মে রূপান্তর করে।",
+    "source": [
+      "5 Govt Banks Officer (Cash) 19/BHBFC Senior Officer: 18"
+    ]
+  },
+  {
+    "id": 65,
+    "topicsId": 710,
+    "q": "The type of scanner used in banking industry is.... ব্যাংকিং শিল্পে যে ধরনের স্ক্যানার ব্যবহার করা হয়..",
+    "options": [
+      "OCR",
+      "CAT",
+      "OMR",
+      "MICR",
+      "NMR"
+    ],
+    "ans": 3,
+    "explain": "ব্যাংকিং সেক্টরে চেক বইয়ের নম্বর পড়ার জন্য MICR (Magnetic Ink Character Recognition) স্ক্যানার ব্যবহার করা হয়।",
+    "source": [
+      "Sonali Bank Ltd. Officer (Cash): 14/ Agrani Bank Ltd. Senior Officer: 10"
+    ]
+  },
+  {
+    "id": 66,
+    "topicsId": 710,
+    "q": "MICR stands for-",
+    "options": [
+      "Magnetic Ink Character Reader",
+      "Magnetic Ink Code Reader",
+      "Magnetic Ink Cases Reader",
+      "Mechanic Ink Codes Reader",
+      "Mechanic Ink Cases Reader"
+    ],
+    "ans": 0,
+    "explain": "MICR-এর পূর্ণরূপ হলো Magnetic Ink Character Recognition (বা Reader)। এটি চুম্বকীয় কালিতে লেখা বিশেষ অক্ষর পড়তে পারে।",
+    "source": [
+      "৩৫তম বিসিএস / কর্মসংস্থান ব্যাংক এর ডাটা এন্ট্রি অপারেটর : ২২"
+    ]
+  },
+  {
+    "id": 67,
+    "topicsId": 710,
+    "q": "বর্তমানে বাংলাদেশে নিচের কোনটিতে MICR Technology হচ্ছে ?",
+    "options": [
+      "জাতীয় পরিচয়পত্র",
+      "পাসপোর্ট",
+      "ব্যাংকের চেকবই",
+      "সবগুলোতেই ব্যবহৃত হচ্ছে"
+    ],
+    "ans": 2,
+    "explain": "বাংলাদেশে ব্যাংকের চেক ক্লিয়ারিং প্রক্রিয়ায় দ্রুততার জন্য চেকবইয়ের নিচের অংশে MICR কোড ব্যবহার করা হয়।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১/ জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা সহকারী পরিচালক : ১৫/ দুর্নীতি দমন কমিশনে উপসহকারী পরিচালক : ১০"
+    ]
+  },
+  {
+    "id": 68,
+    "topicsId": 710,
+    "q": "গোলক ভরাট করা খাতা পড়তে পারে কোন ইনপুট ডিভাইস ?",
+    "options": [
+      "বারকোড রিডার",
+      "স্ক্যানার",
+      "ও এম আর",
+      "ওয়েব ক্যাম"
+    ],
+    "ans": 2,
+    "explain": "ওএমআর (OMR - Optical Mark Recognition) পেন্সিল বা কালির দাগ চিহ্নিত করতে পারে, যা প্রতিযোগিতামূলক পরীক্ষার উত্তরপত্র মূল্যায়নে ব্যবহৃত হয়।",
+    "source": [
+      "শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা: ১৯"
+    ]
+  },
+  {
+    "id": 69,
+    "topicsId": 710,
+    "q": "Questionnaires and many standardized tests use......technology to input the data/বহু পরীক্ষার প্রশ্নাবলির ডেটা ইনপুট দিতে......টেকনোলজি ব্যবহৃত হয়।",
+    "options": [
+      "OMR",
+      "OCR",
+      "POS",
+      "MICR"
+    ],
+    "ans": 0,
+    "explain": "প্রমিত পরীক্ষার (Standardized tests) বৃত্তাকার মার্কিং পড়ার জন্য OMR প্রযুক্তি সবচেয়ে কার্যকর।",
+    "source": [
+      "REB Office Assistant: 16/Dutch Bangla Bank Ltd. Officer: 04"
+    ]
+  },
+  {
+    "id": 70,
+    "topicsId": 710,
+    "q": "OMR-এর পূর্ণরূপ হচ্ছে-",
+    "options": [
+      "Optical Mark Recognition",
+      "Original Mark Recognition",
+      "Only Mark Reading",
+      "Optical Media Reading"
+    ],
+    "ans": 0,
+    "explain": "OMR-এর পূর্ণরূপ হলো Optical Mark Recognition। এটি আলোর প্রতিফলনের মাধ্যমে চিহ্নের উপস্থিতি বুঝতে পারে।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের সহকারী শিক্ষক: ১৭"
+    ]
+  },
+  {
+    "id": 71,
+    "topicsId": 710,
+    "q": "বাংলাদেশের পরীক্ষার প্রশ্নপত্রের ডাটা ইনপুট দিতে প্রথম কত সনে OMR টেকনোলজি ব্যবহার করা হয়েছে ?",
+    "options": [
+      "১৯৯৪ সালে",
+      "১৯৯৫ সালে",
+      "১৯৯৬ সালে",
+      "১৯৯৭ সালে"
+    ],
+    "ans": 0,
+    "explain": "বাংলাদেশে প্রথম ১৯৯৪ সালের এসএসসি (SSC) পরীক্ষার ফলাফল প্রসেসিংয়ের কাজে ওএমআর (OMR) প্রযুক্তি ব্যবহার করা হয়।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোর ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 72,
+    "topicsId": 710,
+    "q": "Optical Mark Reader (OMR) আলোর কোন নীতির ভিত্তিতে কাজ করে ?",
+    "options": [
+      "প্রতিসরণ",
+      "প্রতিফলন",
+      "প্রতিবিম্ব",
+      "ব্যতিচার"
+    ],
+    "ans": 1,
+    "explain": "ওএমআর আলোর প্রতিফলন (Reflection) নীতির ভিত্তিতে কাজ করে। কাগজ থেকে প্রতিফলিত আলোর তীব্রতা যাচাই করে এটি মার্ক শনাক্ত করে।",
+    "source": [
+      "বিবিএস এর জুনিয়র পরিসংখ্যান সহকারী : ২১"
+    ]
+  },
+  {
+    "id": 73,
+    "topicsId": 710,
+    "q": "In computer terminology, OCR stands for-",
+    "options": [
+      "Optical Character Reader",
+      "Optical Card Reader",
+      "Office Cash Receiver",
+      "Online Computer Retrieval"
+    ],
+    "ans": 0,
+    "explain": "OCR-এর পূর্ণরূপ হলো Optical Character Recognition (বা Reader)। এটি মুদ্রিত বা হাতে লেখা অক্ষরকে এডিটেবল টেক্সটে রূপান্তর করে।",
+    "source": [
+      "Titas Gas Transmission and distribution co. Assistant Manager: 21/ Dhaka Bank Ltd. Management Trainee Officer: 18"
+    ]
+  },
+  {
+    "id": 74,
+    "topicsId": 710,
+    "q": "মুদ্রিত লেখা সরাসরি ইনপুট নেওয়ার জন্য নিচের কোনটি ব্যবহৃত হয় ?",
+    "options": [
+      "OMR",
+      "OCR",
+      "MICR",
+      "Scanner"
+    ],
+    "ans": 1,
+    "explain": "মুদ্রিত কোনো লেখাকে সরাসরি ডিজিটাল টেক্সট হিসেবে ইনপুট নেওয়ার জন্য OCR প্রযুক্তি ব্যবহার করা হয়।",
+    "source": [
+      "৪০তম বিসিএস / সিজিএ বা কম্পিউটার মুদ্রাক্ষরিক : ২২ / রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 75,
+    "topicsId": 710,
+    "q": "নিচের কোনটি স্ক্যান দ্বারা টেক্সটকে এডিটেবল টেক্সটে রূপান্তর করতে পারে ? / Which one of the following converts scanned text into editable text ?",
+    "options": [
+      "OMR",
+      "Image Scanner",
+      "OCR",
+      "সবগুলোই"
+    ],
+    "ans": 2,
+    "explain": "স্ক্যান করা ছবি বা পিডিএফ থেকে টেক্সট আলাদা করে তা এডিট করার উপযোগী করার প্রযুক্তি হলো OCR।",
+    "source": [
+      "বেবিচক এর অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক : ২১ / Janata Bank Ltd. Senior Officer (IT): 16/DBBL MTO: 12"
+    ]
+  },
+  {
+    "id": 76,
+    "topicsId": 710,
+    "q": "A bar code reader emits /একটি বারকোড রিডার থেকে.........বের হয়।",
+    "options": [
+      "Sound",
+      "Commands",
+      "Light",
+      "Magnetic field",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "বারকোড রিডার থেকে আলোক রশ্মি (Light Beam/Laser) বের হয় যা বারকোডের সাদা-কালো লাইনের ওপর প্রতিফলিত হয়ে তথ্য সংগ্রহ করে।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)-এর সহকারী পরিচালক: ১৭/ City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 77,
+    "topicsId": 710,
+    "q": "Bar codes are most common in-/ বারকোড সবচেয়ে বেশি ব্যবহৃত হয়-",
+    "options": [
+      "medical laboratories",
+      "banks",
+      "supermarkets",
+      "admission test",
+      "college final examinations"
+    ],
+    "ans": 2,
+    "explain": "সুপারমার্কেটগুলোতে পণ্যের দাম এবং ইনভেন্টরি ম্যানেজমেন্টের জন্য বারকোড সবচেয়ে বেশি ব্যবহৃত হয়।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 10"
+    ]
+  },
+  {
+    "id": 78,
+    "topicsId": 710,
+    "q": "Which of the following type of technology lets computers use light as a source of input ? / নিচের কোন ধরনের টেকনোলজির সাহায্যে কম্পিউটারে আলোকে ইনপুট হিসেবে ব্যবহার করে।",
+    "options": [
+      "Operative",
+      "Optical",
+      "Optimal",
+      "Optional",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "অপটিক্যাল (Optical) টেকনোলজিতে আলোর প্রতিফলন বা আলোক রশ্মিকে সিগন্যাল বা ডাটা ইনপুট হিসেবে ব্যবহার করা হয় (যেমন: স্ক্যানার, ওএমআর)।",
+    "source": [
+      "City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 79,
+    "topicsId": 710,
+    "q": "Webcam কী কাজে লাগে ?",
+    "options": [
+      "ভিডিও কল করতে",
+      "ওয়েবপেজ এ ক্যামেরার ডিজাইন করতে",
+      "Webpage এ ক্যামেরা সার্চ করতে",
+      "কম্পিউটারের সকল যন্ত্র সচল রাখতে"
+    ],
+    "ans": 0,
+    "explain": "ওয়েবক্যাম (Webcam) প্রধানত ইন্টারনেটের মাধ্যমে রিয়েল-টাইম ভিডিও চ্যাটিং বা ভিডিও কল করার জন্য ব্যবহৃত একটি ইনপুট ডিভাইস।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 80,
+    "topicsId": 710,
+    "q": "Which of the following peripheral devices displays information to a user ?",
+    "options": [
+      "Keyboard",
+      "Monitor",
+      "Both A and B",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "মনিটর (Monitor) হলো একটি আউটপুট ডিভাইস যা ব্যবহারকারীকে তথ্য প্রদর্শন করে। কিবোর্ড তথ্য প্রদর্শন করে না বরং ডাটা ইনপুট নেয়।",
+    "source": [
+      "Sonali Bank Ltd. Officer Cash (Freedom Fighter): 19"
+    ]
+  },
+  {
+    "id": 81,
+    "topicsId": 710,
+    "q": "কম্পিউটার মনিটরকে আরও বলা হয়-",
+    "options": [
+      "DVU",
+      "UVD",
+      "VDU",
+      "CCTV"
+    ],
+    "ans": 2,
+    "explain": "কম্পিউটার মনিটরকে VDU বা Visual Display Unit বলা হয়।",
+    "source": [
+      "পিএসসি'র এর সিনিয়র ইনস্ট্রাক্টর (TTC): ২১"
+    ]
+  },
+  {
+    "id": 82,
+    "topicsId": 710,
+    "q": "মনিটরের কাজ হলো-",
+    "options": [
+      "গাণিতিক সমাধান করা",
+      "বিভিন্ন কাজের মধ্যে সংগতি স্থাপন করা",
+      "লেখা ও ছবি দেখানো",
+      "এদের কোনোটিই নয়"
+    ],
+    "ans": 2,
+    "explain": "মনিটর একটি আউটপুট ডিভাইস যার প্রধান কাজ হলো প্রসেস করা তথ্য যেমন- লেখা, ছবি বা ভিডিও স্ক্রিনে প্রদর্শন করা।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক: ১০"
+    ]
+  },
+  {
+    "id": 83,
+    "topicsId": 710,
+    "q": "CRTs, LEDs and LCDs are-",
+    "options": [
+      "NMR variations",
+      "used for output, not for input",
+      "common types of display screens",
+      "Obsolete the discovery of electrical mouse",
+      "punch card technology"
+    ],
+    "ans": 2,
+    "explain": "CRT, LED এবং LCD হলো বিভিন্ন ধরনের ডিসপ্লে স্ক্রিন প্রযুক্তি যা মনিটর বা টিভিতে ব্যবহৃত হয়।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer : 10"
+    ]
+  },
+  {
+    "id": 84,
+    "topicsId": 710,
+    "q": "What does LCD stand for ?",
+    "options": [
+      "Light Control Diode",
+      "Liquid Crystal Display",
+      "Liquid Crystal Disk",
+      "Liquid Crystal Diode"
+    ],
+    "ans": 1,
+    "explain": "LCD-এর পূর্ণরূপ হলো Liquid Crystal Display।",
+    "source": [
+      "BREB Sub-Assistant Engineer: 20 / Agrani Bank Ltd.(SO) : 11"
+    ]
+  },
+  {
+    "id": 85,
+    "topicsId": 710,
+    "q": "ডিজিটাল ঘড়ি বা ক্যালকুলেটারে কালচে অনুজ্জ্বল যে লেখা ফুটে উঠে তা কিসের ভিত্তিতে তৈরি ?",
+    "options": [
+      "এল.ই.ডি",
+      "আই. সি",
+      "এল.সি.ডি",
+      "সিলিকন চিপ"
+    ],
+    "ans": 2,
+    "explain": "ডিজিটাল ঘড়ি বা ক্যালকুলেটারে সাধারণত LCD (Liquid Crystal Display) প্যানেল ব্যবহার করা হয়।",
+    "source": [
+      "২৬তম বিসিএস / ১৫তম বিসিএস"
+    ]
+  },
+  {
+    "id": 86,
+    "topicsId": 710,
+    "q": "....... supports to display black letters in calculator./......এর সাহায্যে ক্যালকুলেটরে কালো লেখাগুলো ফুটে উঠে।",
+    "options": [
+      "LED",
+      "Silicon Chip",
+      "LC",
+      "LCD"
+    ],
+    "ans": 3,
+    "explain": "ক্যালকুলেটরের স্ক্রিনে কালো অক্ষরগুলো ফুটে ওঠার প্রযুক্তি হলো LCD।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় ভর্তি পরীক্ষা (লোক প্রশাসন): ০৭-০৮"
+    ]
+  },
+  {
+    "id": 87,
+    "topicsId": 710,
+    "q": "What does LED stand for ?",
+    "options": [
+      "Large & Extended Display",
+      "Light Emitting Diode",
+      "Light Enabled Dot",
+      "Large Electronic Display",
+      "Large Electric Display"
+    ],
+    "ans": 1,
+    "explain": "LED-এর পূর্ণরূপ হলো Light Emitting Diode।",
+    "source": [
+      "Social Islami Bank Ltd. Probationary Officer: 17 / A Bank Ltd. Senior Officer: 13"
+    ]
+  },
+  {
+    "id": 88,
+    "topicsId": 710,
+    "q": "ডট পিচ (Dot Pitch) নিচের কোন এককে প্রকাশ করা হয় ?",
+    "options": [
+      "মিলিমিটার",
+      "সেন্টিমিটার",
+      "হার্ডজ",
+      "পিক্সেল"
+    ],
+    "ans": 0,
+    "explain": "মনিটরের দুটি পিক্সেলের মধ্যবর্তী দূরত্বকে ডট পিচ বলা হয়, যা মিলিমিটার (mm) এককে পরিমাপ করা হয়। ডট পিচ যত কম হয়, ছবির মান তত ভালো হয়।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের কম্পিউটার অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 89,
+    "topicsId": 710,
+    "q": "পিকচার ইলিমেন্টের সংক্ষিপ্ত রূপ-",
+    "options": [
+      "পিকমেন্ট",
+      "আইকন",
+      "পিক্সেল",
+      "কার্সর"
+    ],
+    "ans": 2,
+    "explain": "Picture Element কথাটির সংক্ষিপ্ত রূপ হলো Pixel। এটি ডিজিটাল ইমেজের ক্ষুদ্রতম একক।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 90,
+    "topicsId": 710,
+    "q": "রঙিন মনিটরের পিক্সেল কয় ধরনের রঙ থাকে ?",
+    "options": [
+      "৩",
+      "৮",
+      "৫",
+      "৬"
+    ],
+    "ans": 0,
+    "explain": "রঙিন মনিটরের প্রতিটি পিক্সেল তিনটি মৌলিক রঙের সমন্বয়ে গঠিত: লাল, সবুজ এবং নীল (RGB)।",
+    "source": [
+      "বিমান বাংলাদেশ এয়ারলাইন্স লি এর সহকারী ব্যবস্থাপক: ২১"
+    ]
+  },
+  {
+    "id": 91,
+    "topicsId": 710,
+    "q": "Pixel of a color monitor consists of 3 color dots. The colors are",
+    "options": [
+      "red, green, blue",
+      "cyan, magenta, black",
+      "red, black, white",
+      "black, white, green"
+    ],
+    "ans": 0,
+    "explain": "কালার মনিটরে RGB মডেল ব্যবহৃত হয়, অর্থাৎ Red (লাল), Green (সবুজ) এবং Blue (নীল)।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer : 13 / Bangladesh Bank Assistant Director: 11"
+    ]
+  },
+  {
+    "id": 92,
+    "topicsId": 710,
+    "q": "The three primary colors that can create other colors are -",
+    "options": [
+      "Red, Yellow, Blue",
+      "Red, Orange, Blue",
+      "Red, Blue, Green",
+      "Red, Green, Black"
+    ],
+    "ans": 2,
+    "explain": "কম্পিউটার বা টিভির ক্ষেত্রে মৌলিক রঙগুলো হলো লাল, সবুজ এবং নীল (RGB)। এগুলোর মিশ্রণেই বাকি সব রঙ তৈরি করা হয়।",
+    "source": [
+      "IFIC Bank Ltd MTO: 17"
+    ]
+  },
+  {
+    "id": 93,
+    "topicsId": 710,
+    "q": "In case of a computer monitor, which of the following term refers to the sharpness of an image ? / কম্পিউটার মনিটরের ক্ষেত্রে নিচের কোন শব্দটি ছবির সূক্ষ্মতা নির্দেশ করে ?",
+    "options": [
+      "Resolution",
+      "Refresh rate",
+      "Size",
+      "Dot pitch",
+      "None of these"
+    ],
+    "ans": 0,
+    "explain": "রেজোলিউশন (Resolution) হলো স্ক্রিনে পিক্সেলের সংখ্যা। রেজোলিউশন যত বেশি হয়, ছবির সূক্ষ্মতা বা শার্পনেস তত বাড়ে।",
+    "source": [
+      "City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 94,
+    "topicsId": 710,
+    "q": "Which of the following properties of a monitor is measured in Hertz ? / নিচের মনিটর সম্পর্কিত কোন বৈশিষ্ট্যটি হার্টজ এককে মাপা হয় ?",
+    "options": [
+      "Refresh rate",
+      "Speed",
+      "Resolution",
+      "Viewable area",
+      "None of these"
+    ],
+    "ans": 0,
+    "explain": "রিফ্রেশ রেট (Refresh rate) হলো মনিটর প্রতি সেকেন্ডে কতবার নতুন ছবি আঁকতে পারে, এর একক হলো হার্টজ (Hz)।",
+    "source": [
+      "City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 95,
+    "topicsId": 710,
+    "q": "To avoid eyestrain, you should place the monitor.........away from your eye./চোখের উপর চাপ কমাতে চোখ থেকে মনিটরটি......দূরে স্থাপন করা উচিত।",
+    "options": [
+      "5-6 feet",
+      "2-3 meters",
+      "5 meters",
+      "2-3 feet",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "চোখের স্বাস্থ্য রক্ষার জন্য মনিটর অন্তত ২ থেকে ৩ ফুট দূরে রাখা উচিত।",
+    "source": []
+  },
+  {
+    "id": 96,
+    "topicsId": 710,
+    "q": "'Dpi' stands for",
+    "options": [
+      "Digits per inch",
+      "Dots per inch",
+      "Dots pixel per inch",
+      "Diagrams per inch"
+    ],
+    "ans": 1,
+    "explain": "DPI-এর পূর্ণরূপ হলো Dots Per Inch। এটি প্রিন্টার বা স্ক্যানারের রেজোলিউশন পরিমাপে ব্যবহৃত হয়।",
+    "source": [
+      "Pubali Bank Ltd. Trainee Assistant Junior Officer (Cash):19"
+    ]
+  },
+  {
+    "id": 97,
+    "topicsId": 710,
+    "q": "The output quality of a printer is measured by - / একটি প্রিন্টারের আউটপুট এর মান পরিমাপ করা হয়",
+    "options": [
+      "Dots per inch",
+      "Dots per Sq.inch",
+      "Dot printed per unit time",
+      "সবগুলো"
+    ],
+    "ans": 0,
+    "explain": "প্রিন্টারের রেজোলিউশন বা আউটপুট কোয়ালিটি DPI (Dots Per Inch) এককে মাপা হয়।",
+    "source": [
+      "IFIC Bank Ltd. Transaction Service Officer: 19/Bangladesh Bank Assistant Director: 16/ Bangladesh Bank Cash Officer: 11 /সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক): ১৯/ সোনালী ব্যাংক লি. সিনিয়র অফিসার : ১৯"
+    ]
+  },
+  {
+    "id": 98,
+    "topicsId": 710,
+    "q": "The term dots per inch (dpi) refers to -",
+    "options": [
+      "Speed",
+      "Resolution",
+      "Output",
+      "Colors"
+    ],
+    "ans": 1,
+    "explain": "DPI শব্দটির মাধ্যমে প্রিন্টারের রেজোলিউশন বা স্বচ্ছতা নির্দেশ করা হয়।",
+    "source": [
+      "Bangladesh Krishi Bank Ltd. Senior Officer: 17/Sonali Bank Ltd. Senior Officer: 13"
+    ]
+  },
+  {
+    "id": 99,
+    "topicsId": 710,
+    "q": "Which of the following is an off-line device ? / নিচের কোনটি অফ-লাইন ডিভাইস ?",
+    "options": [
+      "keyboard",
+      "printer",
+      "monitor",
+      "modem",
+      "Motherboard"
+    ],
+    "ans": 1,
+    "explain": "অফ-লাইন ডিভাইস বলতে এমন ডিভাইস বোঝায় যা সরাসরি সিপিইউ (CPU)-র নিয়ন্ত্রণে থেকে প্রসেসিং কাজ করে না। প্রিন্টার একটি অফ-লাইন ডিভাইস হতে পারে যখন এটি ইন্ডিপেন্ডেন্টলি কাজ করে।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 11"
+    ]
+  },
+  {
+    "id": 100,
+    "topicsId": 710,
+    "q": "DOT MATRIX is a kind of- / কম্পিউটার শিল্পে Dot Matrix বলতে কি বোঝায় ?",
+    "options": [
+      "Scanner",
+      "Operating System",
+      "Software",
+      "Printer",
+      "Monitor"
+    ],
+    "ans": 3,
+    "explain": "ডট ম্যাট্রিক্স (Dot Matrix) হলো এক ধরনের ইমপ্যাক্ট প্রিন্টার যা পিনের মাধ্যমে রিবনে আঘাত করে ডট ডট আকারে প্রিন্ট করে।",
+    "source": [
+      "Department of Fisheries Computer Operator: 21 / জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)-এর সাঁটমুদ্রাক্ষরিক : ১৭/ প্রাক-প্রাথমিক সহকারী শিক্ষক : ১৫ / চট্টগ্রাম বিশ্ববিদ্যালয় (ঘ ইউনিট): ০৫-০৬"
+    ]
+  },
+  {
+    "id": 101,
+    "topicsId": 710,
+    "q": "Which of the following measures the speed of a dot matrix printer ? / নিচের কোনটি ডট ম্যাট্রিক্স প্রিন্টারের গতি পরিমাপক ?",
+    "options": [
+      "ppm",
+      "dpi",
+      "cps",
+      "ipm",
+      "resolution"
+    ],
+    "ans": 2,
+    "explain": "ডট ম্যাট্রিক্স প্রিন্টারের গতি CPS (Characters Per Second) এককে মাপা হয়।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer: 11"
+    ]
+  },
+  {
+    "id": 102,
+    "topicsId": 710,
+    "q": "Which one of the following is not a type of a computer printer ? / নিচের কোনটি কম্পিউটার প্রিন্টারের প্রকারভেদ নয় ?",
+    "options": [
+      "Laser",
+      "Dot Matrix",
+      "Dual Core",
+      "Inkjet",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "লেজার, ডট ম্যাট্রিক্স এবং ইনকজেট প্রিন্টারের প্রকারভেদ। কিন্তু ডুয়াল কোর (Dual Core) হলো মাইক্রোপ্রসেসরের একটি প্রকারভেদ।",
+    "source": [
+      "DBBL MTO: 12"
+    ]
+  },
+  {
+    "id": 103,
+    "topicsId": 710,
+    "q": "Which of the following printer is not usually used in official work ? / নিচের কোন ধরনের প্রিন্টার সাধারণত অফিসিয়াল কাজে ব্যবহৃত হয় না ?",
+    "options": [
+      "Dot Matrix",
+      "Line printer",
+      "Inkjet",
+      "LASER"
+    ],
+    "ans": 1,
+    "explain": "লাইন প্রিন্টার (Line Printer) অনেক বেশি দ্রুত এবং শব্দযুক্ত, যা সাধারণত বড় ডেটা সেন্টারে বাল্ক প্রিন্টিংয়ের জন্য ব্যবহৃত হয়, সাধারণ অফিশিয়াল কাজে নয়।",
+    "source": [
+      "Mercantile Bank Ltd. Officer: 04"
+    ]
+  },
+  {
+    "id": 104,
+    "topicsId": 710,
+    "q": "কোন ধরনের প্রিন্টার কাগজের উপর কালি স্প্রে করে ? / Which of the following type of printer sprays ink onto paper ?",
+    "options": [
+      "Laser",
+      "Dot Matrix",
+      "Ink-jet",
+      "সবগুলোই"
+    ],
+    "ans": 2,
+    "explain": "ইনকজেট (Ink-jet) প্রিন্টার তরল কালি নজেলের মাধ্যমে কাগজের ওপর স্প্রে করে প্রিন্ট করে।",
+    "source": [
+      "বাংলাদেশ বেবিচক এর অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক: ২১ / City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 105,
+    "topicsId": 710,
+    "q": "Laser printers are known as-",
+    "options": [
+      "character printers",
+      "line printers",
+      "page printers",
+      "graphic printers",
+      "design printers"
+    ],
+    "ans": 2,
+    "explain": "লেজার প্রিন্টার একসাথে পুরো এক পৃষ্ঠা প্রিন্ট করতে পারে বলে একে 'Page Printer' বলা হয়।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 10/Agrani Bank Ltd. Senior Officer: 10"
+    ]
+  },
+  {
+    "id": 106,
+    "topicsId": 710,
+    "q": "A laser printer's speed is measured in -",
+    "options": [
+      "cps",
+      "ppm",
+      "dpi",
+      "cpi"
+    ],
+    "ans": 1,
+    "explain": "লেজার প্রিন্টারের গতি PPM (Pages Per Minute) এককে মাপা হয়।",
+    "source": [
+      "EXIM Bank TAO: 18/ IBBL Assi: Officer (IT): 17"
+    ]
+  },
+  {
+    "id": 107,
+    "topicsId": 710,
+    "q": "কোন ধরনের প্রিন্টার সবচেয়ে দ্রুতগতিতে উন্নতমানের প্রিন্ট প্রদানে সক্ষম ?",
+    "options": [
+      "লেজার প্রিন্টার",
+      "ইনকজেট প্রিন্টার",
+      "ডট ম্যাট্রিক্স প্রিন্টার",
+      "বাবল জেট প্রিন্টার"
+    ],
+    "ans": 0,
+    "explain": "লেজার প্রিন্টার বর্তমানে সবচেয়ে দ্রুতগতিসম্পন্ন এবং অত্যন্ত উচ্চমানের রেজোলিউশন দিতে সক্ষম।",
+    "source": [
+      "বাংলাদেশ পরিসংখান ব্যুরো ডেটা এন্ট্রি অপারেটর: ২১/ দুর্নীতি দমন কমিশনে সহকারী পরিচালক: ১৩/ উপজেলা পোস্ট মাস্টার: ১০"
+    ]
+  },
+  {
+    "id": 108,
+    "topicsId": 710,
+    "q": "Which of the following produces the best graphics reproduction ?",
+    "options": [
+      "Laser printer",
+      "Ink jet printer",
+      "Plotter",
+      "Dot matrix Printer"
+    ],
+    "ans": 2,
+    "explain": "বড় সাইজের মানচিত্র বা ইঞ্জিনিয়ারিং ড্রয়িংয়ের মতো উচ্চমানের গ্রাফিক্স রিপ্রোডাকশনের জন্য প্লটার (Plotter) সবচেয়ে সেরা।",
+    "source": [
+      "Sadharan Bima Corporation Junior Officer: 19/Bangladesh Bank Assistant Director: 16"
+    ]
+  },
+  {
+    "id": 109,
+    "topicsId": 710,
+    "q": "প্লটার কয় ধরনের ?",
+    "options": [
+      "পাঁচ ধরনের",
+      "তিন ধরনের",
+      "চার ধরনের",
+      "দুই ধরনের"
+    ],
+    "ans": 3,
+    "explain": "প্লটার প্রধানত দুই ধরনের হয়: ড্রাম প্লটার (Drum Plotter) এবং ফ্ল্যাটবেড প্লটার (Flatbed Plotter)।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের কম্পিউটার অপারেটর: ২১"
+    ]
+  }
+]

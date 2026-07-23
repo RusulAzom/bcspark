@@ -1,0 +1,3684 @@
+[
+  {
+    "id": 1,
+    "topicsId": 720,
+    "q": "কম্পিউটার সিস্টেমে কয়টি অংশ থাকে ?",
+    "options": [
+      "২ টি",
+      "৪ টি",
+      "৬ টি",
+      "৮ টি"
+    ],
+    "ans": 0,
+    "explain": "একটি কম্পিউটার সিস্টেম প্রধানত দুটি অংশ নিয়ে গঠিত: হার্ডওয়্যার (Hardware) এবং সফটওয়্যার (Software)। হার্ডওয়্যার হলো কম্পিউটারের বাহ্যিক যন্ত্রাংশ এবং সফটওয়্যার হলো সেই যন্ত্রাংশ পরিচালনার জন্য প্রয়োজনীয় নির্দেশনাবলী বা প্রোগ্রাম।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 2,
+    "topicsId": 720,
+    "q": "কম্পিউটার পদ্ধতির দুটি প্রধান অঙ্গ হচ্ছে-",
+    "options": [
+      "কেন্দ্রীয় প্রক্রিয়াকরণ অংশ ও স্মৃতি অংশ",
+      "হার্ডওয়‍্যার ও অপারেটিং সিস্টেম অংশ",
+      "হার্ডওয়্যার ও সফটওয়‍্যার অংশ",
+      "সফটওয়্যার ও কেন্দ্রীয় প্রক্রিয়াকরণ অংশ"
+    ],
+    "ans": 2,
+    "explain": "কম্পিউটার পদ্ধতির মূল ভিত্তি হলো হার্ডওয়্যার এবং সফটওয়্যারের সমন্বয়। হার্ডওয়্যার ছাড়া সফটওয়্যার কাজ করতে পারে না, আবার সফটওয়্যার ছাড়া হার্ডওয়্যার কেবল একটি প্রাণহীন যন্ত্র মাত্র।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক: ১০"
+    ]
+  },
+  {
+    "id": 3,
+    "topicsId": 720,
+    "q": "কম্পিউটারের Software এবং Hardware মিলে হয় ?",
+    "options": [
+      "ROM",
+      "CPU",
+      "PDA",
+      "PC"
+    ],
+    "ans": 3,
+    "explain": "সফটওয়্যার এবং হার্ডওয়্যারের পূর্ণাঙ্গ সমন্বয়ে একটি পার্সোনাল কম্পিউটার বা PC (Personal Computer) গঠিত হয়। এটি একটি সম্পূর্ণ কার্যকর ব্যবস্থা যা ব্যবহারকারীর নির্দেশ পালন করতে সক্ষম।",
+    "source": [
+      "প্রত্নতত্ত্ব অধিদপ্তরের এস্টিমেটর: ১৯"
+    ]
+  },
+  {
+    "id": 4,
+    "topicsId": 720,
+    "q": "The basic operation performed by computer are-",
+    "options": [
+      "Arithmetic operation",
+      "Logical operation",
+      "Storage and relative",
+      "All of them"
+    ],
+    "ans": 3,
+    "explain": "কম্পিউটার মূলত তিনটি প্রধান কাজ করে: গাণিতিক কাজ (Arithmetic), যৌক্তিক সিদ্ধান্ত গ্রহণ (Logical) এবং তথ্য সংরক্ষণ (Storage)। যেহেতু অপশনে সবগুলোই আছে, তাই উত্তর হবে 'All of them'।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 16"
+    ]
+  },
+  {
+    "id": 5,
+    "topicsId": 720,
+    "q": "A complete microcomputer system consists of-/...... এর সমন্বয়ে একটি পূর্ণাঙ্গ মাইক্রোকম্পিউটার গঠিত হয়।",
+    "options": [
+      "microprocessors",
+      "memory",
+      "peripheral equipment",
+      "all of a,b and c",
+      "monitor"
+    ],
+    "ans": 3,
+    "explain": "একটি পূর্ণাঙ্গ মাইক্রোকম্পিউটার সিস্টেম গঠিত হয় মাইক্রোপ্রসেসর (CPU), মেমরি (RAM/ROM) এবং পেরিফেরাল ইক্যুইপমেন্ট (ইনপুট/আউটপুট ডিভাইস) এর সমন্বয়ে।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 10"
+    ]
+  },
+  {
+    "id": 6,
+    "topicsId": 720,
+    "q": "কোনটি কম্পিউটারের সকল কাজ নিয়ন্ত্রণ করে ?",
+    "options": [
+      "Hard disk",
+      "Central processing Unit",
+      "Floppy disk",
+      "Keyboard"
+    ],
+    "ans": 1,
+    "explain": "সেন্ট্রাল প্রসেসিং ইউনিট বা CPU-কে কম্পিউটারের মস্তিষ্ক বলা হয়, কারণ এটি কম্পিউটারের সকল হার্ডওয়্যার এবং সফটওয়্যারের কাজের মধ্যে সমন্বয় ও নিয়ন্ত্রণ করে।",
+    "source": [
+      "আইডিইএ প্রকল্প (২য় পর্যায়) ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 7,
+    "topicsId": 720,
+    "q": "CPU-এর পূর্ণরূপ কী ?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Processing Unit",
+      "Central Power Unit",
+      "Computer Power Unit"
+    ],
+    "ans": 0,
+    "explain": "CPU-এর পূর্ণরূপ হলো Central Processing Unit। এটি কম্পিউটারের প্রধান প্রক্রিয়াকরণ অংশ।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১/ কৃষি মন্ত্রণালয়ের ডাটা এন্ট্রি অপারেটর: ২১ / শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 8,
+    "topicsId": 720,
+    "q": "Central Processing Unit consists of-",
+    "options": [
+      "control unit",
+      "arithmetic and Logic unit",
+      "main store",
+      "all of the above"
+    ],
+    "ans": 3,
+    "explain": "একটি CPU মূলত কন্ট্রোল ইউনিট (CU), অ্যারিথমেটিক লজিক ইউনিট (ALU) এবং রেজিস্টার বা ইন্টারনাল মেমরি (Main Store) নিয়ে গঠিত। তাই সঠিক উত্তর 'all of the above'।",
+    "source": [
+      "Pubali Bank Ltd Junior Officer: 19"
+    ]
+  },
+  {
+    "id": 9,
+    "topicsId": 720,
+    "q": "কম্পিউটার হার্ডওয়্যার বলতে বুঝানো হয়-",
+    "options": [
+      "স্মৃতি অংশ",
+      "কেন্দ্রীয় প্রক্রিয়াকরণ অংশ",
+      "শক্ত ধাতব অংশ",
+      "কম্পিউটার ও সংশ্লিষ্ট যান্ত্রিক সরঞ্জাম"
+    ],
+    "ans": 3,
+    "explain": "কম্পিউটারের যেসব অংশ স্পর্শ করা যায় এবং দেখা যায়, অর্থাৎ কম্পিউটার ও এর সাথে সংশ্লিষ্ট সকল যান্ত্রিক সরঞ্জামকেই হার্ডওয়্যার বলা হয়।",
+    "source": [
+      "সোস্যাল ডেভেলপমেন্ট ফাউন্ডেশনের ডেটা এন্ট্রি অপারেটর : ১২"
+    ]
+  },
+  {
+    "id": 10,
+    "topicsId": 720,
+    "q": "কম্পিউটারের যন্ত্রাংশ বা যন্ত্রকে কি বলে ?",
+    "options": [
+      "মনিটর",
+      "আউটপুট",
+      "হার্ডওয়্যার",
+      "সফটওয়্যার"
+    ],
+    "ans": 2,
+    "explain": "কম্পিউটারের ভৌত কাঠামো বা সকল মেকানিক্যাল এবং ইলেকট্রনিক যন্ত্রাংশকে সমষ্টিগতভাবে হার্ডওয়্যার বলা হয়।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর: ২১/ সমাজসেবা অধিদপ্তরের ফিল্ড সুপারভাইজার : ১৭"
+    ]
+  },
+  {
+    "id": 11,
+    "topicsId": 720,
+    "q": "Mechanical devices in the computer are called- / কম্পিউটারে মেকানিক্যাল ডিভাইসকে বলা হয়-",
+    "options": [
+      "Data",
+      "User",
+      "Software",
+      "Hardware",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "কম্পিউটারের মেকানিক্যাল বা যান্ত্রিক অংশগুলোকে হার্ডওয়্যার বলা হয়।",
+    "source": [
+      "HDFC Assistant Manager: 13 / রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক: ১১"
+    ]
+  },
+  {
+    "id": 12,
+    "topicsId": 720,
+    "q": "Physical components of a computer are called -",
+    "options": [
+      "Software",
+      "Hardware",
+      "Malware",
+      "Terminals"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটারের ফিজিক্যাল বা ভৌত উপাদানগুলো হলো হার্ডওয়্যার।",
+    "source": [
+      "Rupali Bank Ltd. Senior Officer: 13"
+    ]
+  },
+  {
+    "id": 13,
+    "topicsId": 720,
+    "q": "কম্পিউটারের সাংগঠনিক অংশ নয় কোনটি ?",
+    "options": [
+      "ইনপুট ইউনিট",
+      "রিপেয়ারিং ইউনিট",
+      "মেমরি ইউনিট",
+      "প্রসেসিং ইউনিট"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটারের প্রধান সাংগঠনিক অংশগুলো হলো ইনপুট, মেমরি, প্রসেসিং এবং আউটপুট ইউনিট। রিপেয়ারিং ইউনিট কোনো সাংগঠনিক অংশ নয়, এটি মেরামতের কাজ বোঝায়।",
+    "source": [
+      "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক ১৬"
+    ]
+  },
+  {
+    "id": 14,
+    "topicsId": 720,
+    "q": "কম্পিউটারের হার্ডওয়্যারের মধ্যে কয়টি অংশ আছে ?",
+    "options": [
+      "৩টি অংশ",
+      "৪টি অংশ",
+      "৫টি অংশ",
+      "৬টি অংশ"
+    ],
+    "ans": 0,
+    "explain": "কম্পিউটার হার্ডওয়্যারকে সাধারণত ৩টি প্রধান অংশে ভাগ করা যায়: ইনপুট ইউনিট, সেন্ট্রাল প্রসেসিং ইউনিট (CPU) এবং আউটপুট ইউনিট। তবে তাত্ত্বিকভাবে ৩টি প্রধান অংশই বেশি গ্রহণযোগ্য, তবুও কিছু ক্ষেত্রে মেমরিকে আলাদা ধরে ৪টি বলা হয়। প্রচলিত উত্তর ৩টি।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর : ২১ / বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা: ১৮"
+    ]
+  },
+  {
+    "id": 15,
+    "topicsId": 720,
+    "q": "Of the following, which one is a hardware ?",
+    "options": [
+      "System unit",
+      "Lotus",
+      "Vista",
+      "DOS",
+      "dBase"
+    ],
+    "ans": 0,
+    "explain": "সিস্টেম ইউনিট (System Unit) হলো হার্ডওয়্যার। অন্যদিকে Lotus, Vista, DOS এবং dBase হলো সফটওয়্যার।",
+    "source": [
+      "Sonali, Janata and Agrani Bank Cash Officers: 08"
+    ]
+  },
+  {
+    "id": 16,
+    "topicsId": 720,
+    "q": "নিচের কোনটি কম্পিউটারের হার্ডওয়্যার নয় ?",
+    "options": [
+      "মাউস",
+      "মনিটর",
+      "সিপিইউ",
+      "পাওয়ার পয়েন্ট"
+    ],
+    "ans": 3,
+    "explain": "পাওয়ার পয়েন্ট (PowerPoint) একটি অ্যাপ্লিকেশন সফটওয়্যার, এটি কোনো হার্ডওয়্যার নয়।",
+    "source": [
+      "বিমান বাংলাদেশ এয়ারলাইন্স লি. এর সহকারী ব্যবস্থাপক : ২১"
+    ]
+  },
+  {
+    "id": 17,
+    "topicsId": 720,
+    "q": "নিম্নের কোনটি হার্ডওয়‍্যার নয় ?",
+    "options": [
+      "মাউস",
+      "মনিটর",
+      "সিপিইউ",
+      "উইন্ডোজ"
+    ],
+    "ans": 3,
+    "explain": "উইন্ডোজ (Windows) একটি অপারেটিং সিস্টেম বা সফটওয়্যার, তাই এটি হার্ডওয়্যার নয়।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 18,
+    "topicsId": 720,
+    "q": "Data processing cycle comprises - /........এর সমন্বয়ে ডেটা প্রসেসিং চক্র গঠিত।",
+    "options": [
+      "input, storage and output",
+      "store, retrieve and output",
+      "input, output and retrieve",
+      "input, processing and output"
+    ],
+    "ans": 3,
+    "explain": "ডেটা প্রসেসিং চক্রের তিনটি মূল পর্যায় হলো: ইনপুট (উপাত্ত গ্রহণ), প্রসেসিং (প্রক্রিয়াকরণ) এবং আউটপুট (ফলাফল প্রদান)।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer: 11"
+    ]
+  },
+  {
+    "id": 19,
+    "topicsId": 720,
+    "q": "What are the four basic functions of a computer system ? / কম্পিউটার সিস্টেমের প্রধান চারটি কাজ হলো-",
+    "options": [
+      "Input, Processing, Output and Storage",
+      "Keyboard, Display, Memory and Disk Drive",
+      "Bits, Bytes, Words and OSI",
+      "Word processing, Spreadsheet and Database",
+      "OS, Processing, Monitor and Display"
+    ],
+    "ans": 0,
+    "explain": "কম্পিউটার সিস্টেমের প্রধান চারটি কাজ হলো: ইনপুট গ্রহণ, সেই ইনপুট প্রক্রিয়াকরণ (Processing), ফলাফল প্রদান (Output) এবং ভবিষ্যতে ব্যবহারের জন্য তথ্য সংরক্ষণ (Storage)।",
+    "source": [
+      "Standard Bank Assistant Officer: 12"
+    ]
+  },
+  {
+    "id": 20,
+    "topicsId": 720,
+    "q": "IPOS cycle includes Input, Processing, Output and-",
+    "options": [
+      "Storage",
+      "System",
+      "Syntax",
+      "Simulation"
+    ],
+    "ans": 0,
+    "explain": "IPOS এর পূর্ণরূপ হলো Input, Processing, Output, Storage। এটি কম্পিউটারের কাজের একটি পূর্ণাঙ্গ চক্র।",
+    "source": [
+      "Mercantile Bank Ltd. Officer : 04"
+    ]
+  },
+  {
+    "id": 21,
+    "topicsId": 720,
+    "q": "Which one of the following devices is a must to run a computer ?",
+    "options": [
+      "Speaker",
+      "CD-ROM",
+      "USB Drive",
+      "Processor",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "প্রসেসর (Processor) ছাড়া কম্পিউটার চালানো অসম্ভব কারণ এটিই সকল নির্দেশনা কার্যকর করে। স্পিকার বা সিডি-রম ঐচ্ছিক পেরিফেরাল।",
+    "source": [
+      "EXIM Bank Ltd. Officer: 14"
+    ]
+  },
+  {
+    "id": 22,
+    "topicsId": 720,
+    "q": "কম্পিউটারের Heart বলা হয় কোনটিকে ?",
+    "options": [
+      "Memory",
+      "Monitor",
+      "CPU",
+      "Disks"
+    ],
+    "ans": 2,
+    "explain": "CPU-কে কম্পিউটারের হৃৎপিণ্ড বা মস্তিষ্ক বলা হয় কারণ এটি ছাড়া কম্পিউটার কোনো কাজই করতে পারে না।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 23,
+    "topicsId": 720,
+    "q": "নিচের কোনটিকে কম্পিউটারের মস্তিষ্ক (Brain of the computer) বলা হয়-",
+    "options": [
+      "Memory",
+      "CPU",
+      "Hard Disk",
+      "RAM"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটারের সকল কার্যাবলী পরিচালনা ও নিয়ন্ত্রণ করার কারণে CPU (Central Processing Unit)-কে এর মস্তিষ্ক বলা হয়।",
+    "source": [
+      "ইসলামী ব্যাংক বাংলাদেশ লিমিটেড ফিল্ড অফিসার। ২২/ ৪টি সরকারি ব্যাংকের অফিসার : ১৯"
+    ]
+  },
+  {
+    "id": 24,
+    "topicsId": 720,
+    "q": "কম্পিউটারের মস্তিষ্ক হলো-",
+    "options": [
+      "Memory",
+      "Hardware",
+      "Software",
+      "Microprocessor",
+      "Mother Board"
+    ],
+    "ans": 3,
+    "explain": "আধুনিক পার্সোনাল কম্পিউটারে মাইক্রোপ্রসেসরই CPU হিসেবে কাজ করে, তাই একে কম্পিউটারের মস্তিষ্ক বলা হয়।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের প্রবেশন অফিসার: ১৩ / সহকারী জজ প্রিলিমিনারি টেস্ট : ০৯"
+    ]
+  },
+  {
+    "id": 25,
+    "topicsId": 720,
+    "q": "নিচের কোনটি কম্পিউটারের মস্তিষ্ক রূপে কাজ করে ?",
+    "options": [
+      "গ্রাফিক্স কার্ড",
+      "হার্ড ডিস্ক",
+      "রম",
+      "প্রসেসর",
+      "কোনোটিই নয়"
+    ],
+    "ans": 3,
+    "explain": "প্রসেসর কম্পিউটারের সকল হিসাব-নিকাশ ও নিয়ন্ত্রণমূলক কাজ করে বলে একে মস্তিষ্ক বলা হয়।",
+    "source": [
+      "উপজেলা পোস্ট মাস্টার: ১০"
+    ]
+  },
+  {
+    "id": 26,
+    "topicsId": 720,
+    "q": "Another word for the CPU is-",
+    "options": [
+      "Execute",
+      "Micro chip",
+      "Microprocessor",
+      "Decode",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "পার্সোনাল কম্পিউটারের ক্ষেত্রে CPU এবং মাইক্রোপ্রসেসর (Microprocessor) শব্দ দুটি সমার্থক হিসেবে ব্যবহৃত হয়।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 09"
+    ]
+  },
+  {
+    "id": 27,
+    "topicsId": 720,
+    "q": "Microprocessor কম্পিউটারের নিম্নের অংশে ব্যবহৃত হয়-",
+    "options": [
+      "Power Unit",
+      "RAM",
+      "CPU",
+      "Hard Drive"
+    ],
+    "ans": 2,
+    "explain": "মাইক্রোপ্রসেসর হলো CPU-এর মূল উপাদান যা কম্পিউটারের প্রক্রিয়াকরণ অংশে ব্যবহৃত হয়।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)-এর সাঁটমুদ্রাক্ষরিক : ১৭"
+    ]
+  },
+  {
+    "id": 28,
+    "topicsId": 720,
+    "q": "What part of the computer interprets and executes instructions that are posed to it ?",
+    "options": [
+      "RAM",
+      "CPU",
+      "ROM",
+      "Cache"
+    ],
+    "ans": 1,
+    "explain": "CPU (Central Processing Unit) কম্পিউটারের সকল নির্দেশ ব্যাখ্যা (Interpret) এবং সম্পাদন (Execute) করে।",
+    "source": [
+      "Rupali Bank Ltd. Senior Officer: 13"
+    ]
+  },
+  {
+    "id": 29,
+    "topicsId": 720,
+    "q": "All the logical and mathematical calculations done by the computer happen in/on the-/কম্পিউটারের সকল গাণিতিক এবং যুক্তি সম্পর্কিত হিসাবাদি........ সম্পন্ন হয়।",
+    "options": [
+      "Motherboard",
+      "Memory",
+      "Hard Disk",
+      "CPU",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "কম্পিউটারের সকল গাণিতিক ও যৌক্তিক কাজ CPU-এর ভেতরে ALU অংশে সম্পন্ন হয়।",
+    "source": [
+      "জাতীয় নিরাপরা গোয়েন্দা সংস্থা (NSI)-এর সহকারী পরিচালক: ১৭/ Standard Bank Ltd. Trainee Assistant Officer: 13/DBBL MTO: 12"
+    ]
+  },
+  {
+    "id": 30,
+    "topicsId": 720,
+    "q": "কম্পিউটারের কেন্দ্রীয় প্রক্রিয়াকরণ অংশ গঠিত-",
+    "options": [
+      "গ্রহণ মুখ ও নিয়ন্ত্রণ অংশের সমন্বয়ে",
+      "স্মৃতি ও যুক্তি বর্তনী অংশের সমন্বয়ে",
+      "অভ্যন্তরীণ স্মৃতি ও নিয়ন্ত্রণ অংশের সমন্বয়ে",
+      "অভ্যন্তরীণ স্মৃতি, গাণিতিক যুক্তি অংশ ও নিয়ন্ত্রণ অংশের সমন্বয়ে"
+    ],
+    "ans": 3,
+    "explain": "একটি পূর্ণাঙ্গ CPU মূলত তিনটি অংশের সমন্বয়ে গঠিত: কন্ট্রোল ইউনিট, অ্যারিথমেটিক লজিক ইউনিট (ALU) এবং ইন্টারনাল রেজিস্টার বা মেমরি।",
+    "source": [
+      "পরিকল্পনা মন্ত্রণালয় ডাটা প্রসেসিং অপারেটর: ০২"
+    ]
+  },
+  {
+    "id": 31,
+    "topicsId": 720,
+    "q": "Which one is not a part of CPU ?",
+    "options": [
+      "Arithmetic Unit (গাণিতিক অংশ)",
+      "Logic Unit (যুক্তি অংশ)",
+      "Register (রেজিস্টার)",
+      "Execution Unit (সম্পাদন অংশ)",
+      "Memory (স্মৃতি)"
+    ],
+    "ans": 4,
+    "explain": "তাত্ত্বিকভাবে CPU-এর প্রধান তিনটি অংশ হলো ALU, CU এবং রেজিস্টার। মূল মেমরি বা RAM মূলত CPU-এর বাইরের অংশ। তাই এখানে মেমরিকে CPU-এর অংশ হিসেবে ধরা হয় না।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 10"
+    ]
+  },
+  {
+    "id": 32,
+    "topicsId": 720,
+    "q": "The brain of a computer within the CPU is-",
+    "options": [
+      "ALU",
+      "Josephson Bubble",
+      "Register",
+      "Control Unit",
+      "RAM"
+    ],
+    "ans": 0,
+    "explain": "CPU-এর ভেতরে গাণিতিক ও যুক্তি সংক্রান্ত সকল কাজ ALU (Arithmetic Logic Unit) সম্পন্ন করে, যা প্রসেসরের মূল চিন্তাশীল অংশ হিসেবে কাজ করে।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের সহকারী পরিচালক : ১৬ / Agrani Bank Ltd. Senior Officer: 10"
+    ]
+  },
+  {
+    "id": 33,
+    "topicsId": 720,
+    "q": "Which unit is known as nerve center of computer ?",
+    "options": [
+      "ALU",
+      "CU",
+      "Memory",
+      "Registers"
+    ],
+    "ans": 1,
+    "explain": "কন্ট্রোল ইউনিট (CU) কম্পিউটারের সকল যন্ত্রাংশের কাজের মধ্যে সমন্বয় ও সংকেত আদান-প্রদান করে বলে একে 'Nerve Center' বলা হয়।",
+    "source": [
+      "Bangladesh Bank Cash officer: 16"
+    ]
+  },
+  {
+    "id": 34,
+    "topicsId": 720,
+    "q": "কোনটি কম্পিউটারের সকল কার্যক্রম নিয়ন্ত্রণ করে ?",
+    "options": [
+      "কন্ট্রোল ইউনিট",
+      "সেন্ট্রাল প্রসেসিং ইউনিট",
+      "গাণিতিক ইউনিট",
+      "যুক্তি বর্তনী ইউনিট"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটারের সকল কার্যক্রম নিয়ন্ত্রণ করে সেন্ট্রাল প্রসেসিং ইউনিট (Central Processing Unit - CPU)। এটি কম্পিউটারের মস্তিষ্ক হিসেবে পরিচিত এবং মেমরি, কন্ট্রোল ইউনিট ও গাণিতিক ইউনিটের সমন্বয়ে গঠিত হয়ে পুরো সিস্টেমের কার্যক্রম পরিচালনা ও ডেটা প্রসেস করে।",
+    "source": [
+      "পরিকল্পনা মন্ত্রণালয় ডাটা প্রসেসিং অপারেটর: ০২"
+    ]
+  },
+  {
+    "id": 35,
+    "topicsId": 720,
+    "q": "In the CPU, which unit controls resources in the computer? / কম্পিউটারের রিসোর্সসমূহ নিয়ন্ত্রণ করে।",
+    "options": [
+      "Command",
+      "Arithmetic logic",
+      "Memory",
+      "Control",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "কন্ট্রোল ইউনিট (Control Unit) কম্পিউটারের সকল হার্ডওয়্যার ও সফটওয়্যার রিসোর্স নিয়ন্ত্রণ করে।",
+    "source": [
+      "City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 36,
+    "topicsId": 720,
+    "q": "Control Unit-",
+    "options": [
+      "Performs mathematical operations",
+      "Performs logical operations",
+      "Directs the movement of electrical signals",
+      "Performs comparisons of numbers"
+    ],
+    "ans": 2,
+    "explain": "কন্ট্রোল ইউনিট মূলত ইলেকট্রিক্যাল সিগন্যাল বা নির্দেশনার প্রবাহ নিয়ন্ত্রণ করে বিভিন্ন যন্ত্রাংশকে পরিচালনা করে।",
+    "source": [
+      "Sonali Bank Ltd. Officer (Cash): 13"
+    ]
+  },
+  {
+    "id": 37,
+    "topicsId": 720,
+    "q": "What is the full form of ALU ?",
+    "options": [
+      "Arithmetic logic unit",
+      "Allowed logic unit",
+      "Ascii logic unit",
+      "Arithmetic least unit"
+    ],
+    "ans": 0,
+    "explain": "ALU এর পূর্ণরূপ হলো Arithmetic Logic Unit।",
+    "source": [
+      "NRBC Bank Ltd Trainee Assistant Officers : 21"
+    ]
+  },
+  {
+    "id": 38,
+    "topicsId": 720,
+    "q": "Microprocessor এর কোন অংশে ALU থাকে ?",
+    "options": [
+      "Fetch unit",
+      "Control unit",
+      "Processing unit",
+      "Flags unit"
+    ],
+    "ans": 2,
+    "explain": "মাইক্রোপ্রসেসরের প্রসেসিং ইউনিটের মধ্যে ALU অবস্থিত যেখানে উপাত্ত প্রক্রিয়াকরণের কাজ সম্পন্ন হয়।",
+    "source": [
+      "তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তরের সহকারী প্রোগ্রামার : ২০"
+    ]
+  },
+  {
+    "id": 39,
+    "topicsId": 720,
+    "q": "মেমোরি এবং ALU এর মধ্যে সংযোগ স্থাপন করে-",
+    "options": [
+      "কীবোর্ড",
+      "র‌্যাম",
+      "কন্ট্রোল ইউনিট",
+      "মাউস"
+    ],
+    "ans": 2,
+    "explain": "কন্ট্রোল ইউনিট মেমরি থেকে ডাটা এনে ALU-কে দেয় এবং ALU-র ফলাফল আবার মেমরিতে সংরক্ষণের নির্দেশ দেয়।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের উপজেলা পোস্টমাস্টার : ১৬ / শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 40,
+    "topicsId": 720,
+    "q": "কম্পিউটার সি.পি.ইউ (CPU)-এর কোন অংশ গাণিতিক সিদ্ধান্ত গ্রহণের কাজ করে ?",
+    "options": [
+      "এ.এল.ইউ (ALU)",
+      "কন্ট্রোল ইউনিট (control unit)",
+      "রেজিস্ট্রার সেট (Register set)",
+      "কোনটিই নয়"
+    ],
+    "ans": 0,
+    "explain": "ALU (Arithmetic Logic Unit) সকল গাণিতিক ও যৌক্তিক সিদ্ধান্ত গ্রহণের কাজ সম্পন্ন করে।",
+    "source": [
+      "৩৭ তম বিসিএস / কর্মসংস্থান ব্যাংক অ্যাসিসটেন্ট অফিসার : ২১"
+    ]
+  },
+  {
+    "id": 41,
+    "topicsId": 720,
+    "q": "প্রসেসর যা পাটিগণিত এবং লজিক্যাল অপারেশন সম্পাদন করে তাকে বলা হয়-",
+    "options": [
+      "কন্ট্রোল",
+      "এএলইউ",
+      "রেজিস্টার",
+      "ক্যাশ মেমোরি"
+    ],
+    "ans": 1,
+    "explain": "Arithmetic logic unit (ALU) পাটিগণিত ও লজিক্যাল অপারেশন সম্পাদন করে।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 42,
+    "topicsId": 720,
+    "q": "মাইক্রোপ্রসেসরের কোন অংশটি ডাটা প্রসেসিং এর জন্য ব্যবহত হয়ঃ",
+    "options": [
+      "ALU",
+      "Control Unit",
+      "Register Array",
+      "Accumulator"
+    ],
+    "ans": 0,
+    "explain": "ডাটা প্রসেসিং বা প্রক্রিয়াকরণের মূল কাজটি ALU-তে হয়।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক : ১৬"
+    ]
+  },
+  {
+    "id": 43,
+    "topicsId": 720,
+    "q": "8086 কত বিটের মাইক্রো প্রসেসরঃ",
+    "options": [
+      "8",
+      "16",
+      "32",
+      "উপরের কোনটিই নয়"
+    ],
+    "ans": 1,
+    "explain": "Intel 8086 হলো একটি বিখ্যাত ১৬-বিটের (16-bit) মাইক্রোপ্রসেসর যা ১৯৭৮ সালে বাজারে আসে।",
+    "source": [
+      "৩৬ তম বিসিএস / রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 44,
+    "topicsId": 720,
+    "q": "Pentium কোনটির সাথে সম্পর্কিত ?",
+    "options": [
+      "Mouse",
+      "Microprocessor",
+      "Hard Disk",
+      "DVD"
+    ],
+    "ans": 1,
+    "explain": "পেন্টিয়াম (Pentium) হলো ইন্টেল কর্পোরেশনের একটি জনপ্রিয় মাইক্রোপ্রসেসর সিরিজের নাম।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 45,
+    "topicsId": 720,
+    "q": "Intel Pentium is a-",
+    "options": [
+      "Hard disk",
+      "RAM",
+      "CD ROM",
+      "Processor"
+    ],
+    "ans": 3,
+    "explain": "Intel Pentium মূলত একটি প্রসেসর।",
+    "source": [
+      "ভূতাত্ত্বিক জরিপ অধিদপ্তরের সহকারী ড্রিলিং প্রকৌশলী : ১৯"
+    ]
+  },
+  {
+    "id": 46,
+    "topicsId": 720,
+    "q": "Which of the following is not a processor used in PC ?/ নিচের কোনটি পিসিতে ব্যবহৃত প্রসেসর নয় ?",
+    "options": [
+      "Pentium",
+      "Athlon",
+      "AMD K6",
+      "Zylog"
+    ],
+    "ans": 3,
+    "explain": "পেন্টিয়াম, অ্যাথলন এবং এএমডি হলো বিখ্যাত পিসি প্রসেসর। জাইলগ (Zilog) সাধারণত এমবেডেড সিস্টেম বা কন্ট্রোলারের জন্য ব্যবহৃত হয়, আধুনিক পিসিতে নয়।",
+    "source": [
+      "Mercantile Bank Ltd. Officer: 04"
+    ]
+  },
+  {
+    "id": 47,
+    "topicsId": 720,
+    "q": "ইনটেল ITANIUM কত বিট মাইক্রোপ্রসেসর ?",
+    "options": [
+      "32",
+      "64",
+      "128",
+      "256"
+    ],
+    "ans": 1,
+    "explain": "ইন্টেল ইটানিয়াম (Itanium) হলো একটি ৬৪-বিটের হাই-এন্ড সার্ভার প্রসেসর।",
+    "source": [
+      "পরিকল্পনা মন্ত্রণালয় ডেটা প্রসেসিং অপারেটর: ০২"
+    ]
+  },
+  {
+    "id": 48,
+    "topicsId": 720,
+    "q": "In a 64-bit Microprocessor, the term '64-bit' refers to-",
+    "options": [
+      "RAM speed",
+      "CPU internal",
+      "Logic unit Size",
+      "RAM Size",
+      "None"
+    ],
+    "ans": 1,
+    "explain": "৬৪-বিট দ্বারা মূলত CPU-র ইন্টারনাল রেজিস্টারের প্রশস্ততা বা ওয়ার্ড সাইজ বোঝায় যা একসাথে কতগুলো ডেটা বিট প্রসেস করতে পারে।",
+    "source": [
+      "Bangladesh Bridge Authority Assistant Director: 20"
+    ]
+  },
+  {
+    "id": 49,
+    "topicsId": 720,
+    "q": "1 MHz = ?",
+    "options": [
+      "103 Hz",
+      "104 Hz",
+      "105 Hz",
+      "106 Hz"
+    ],
+    "ans": 3,
+    "explain": "১ মেগাহার্টজ (1 MHz) সমান ১০ লক্ষ হার্টজ বা 106 হার্টজ।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 15"
+    ]
+  },
+  {
+    "id": 50,
+    "topicsId": 720,
+    "q": "Sequence Control Register আর কি নামে পরিচিত ?",
+    "options": [
+      "Program Counter",
+      "Instruction Counter",
+      "Sequence Register",
+      "Controlling Register"
+    ],
+    "ans": 0,
+    "explain": "প্রোগ্রাম কাউন্টার (Program Counter) পরবর্তী কোন নির্দেশটি নির্বাহ হবে তার ঠিকানা সংরক্ষণ করে, তাই একে সিকোয়েন্স কন্ট্রোল রেজিস্টারও বলা হয়।",
+    "source": [
+      "তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তরের সহকারী প্রোগ্রামার: ২০"
+    ]
+  },
+  {
+    "id": 51,
+    "topicsId": 720,
+    "q": "Arithmetic ও Logical operation এর ডাটা কাজের সময় কোথায় রাখা হয় ?",
+    "options": [
+      "Arithmetic register",
+      "Accumulator",
+      "Logical register",
+      "Controller"
+    ],
+    "ans": 1,
+    "explain": "অ্যাকিউমুলেটর (Accumulator) হলো প্রসেসরের একটি বিশেষ রেজিস্টার যেখানে গাণিতিক ও যৌক্তিক অপারেশনের অন্তর্বর্তীকালীন উপাত্ত জমা থাকে।",
+    "source": [
+      "তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তরের সহকারী প্রোগ্রামার: ২০"
+    ]
+  },
+  {
+    "id": 52,
+    "topicsId": 720,
+    "q": "The main circuit board in a personal computer is called the - / পার্সোনাল কম্পিউটার এর মেইন সার্কিট বোর্ড নিচের কোনটি ?",
+    "options": [
+      "Mother Board",
+      "ROM Board",
+      "RAM Board",
+      "System Unit"
+    ],
+    "ans": 0,
+    "explain": "পার্সোনাল কম্পিউটারের প্রধান সার্কিট বোর্ডকে মাদারবোর্ড বলা হয়।",
+    "source": [
+      "Bangladesh Development Bank Ltd. Senior Officer : 11 / শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 53,
+    "topicsId": 720,
+    "q": "In most IBM PCs, the CPU, the device drivers, memory expansion slots and active components are mounted on a single board. What is the name of this board ?",
+    "options": [
+      "Breadboard",
+      "Mother board",
+      "Grandmother board",
+      "Daughter board",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটারের প্রধান উপাদানগুলো যে বোর্ডে সংযুক্ত থাকে তাকে মাদারবোর্ড (Motherboard) বলে।",
+    "source": [
+      "City Bank Ltd. Probationary officer: 11"
+    ]
+  },
+  {
+    "id": 54,
+    "topicsId": 720,
+    "q": "Where is RAM located ? / র‍্যাম কোথায় অবস্থান করে ?",
+    "options": [
+      "Expansion board",
+      "Mother board",
+      "Hard disk",
+      "CPU",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "RAM মাদারবোর্ডের মেমরি স্লটে অবস্থান করে।",
+    "source": [
+      "EXIM Bank Ltd. Trainee Officer: 15 / বাংলাদেশ ডাক বিভাগের উপজেলা পোস্টমাস্টার: ১৬"
+    ]
+  },
+  {
+    "id": 55,
+    "topicsId": 720,
+    "q": "Mother board -এ PCI BUS কত বিটে কাজ করে ?",
+    "options": [
+      "৪ বিট",
+      "16 বিট",
+      "32 বিট",
+      "64 বিট"
+    ],
+    "ans": 2,
+    "explain": "স্ট্যান্ডার্ড PCI (Peripheral Component Interconnect) বাস ৩২-বিট প্রশস্ততায় কাজ করে।",
+    "source": [
+      "Bangladesh Commerce Bank Ltd. Officer (Grade - III): 00"
+    ]
+  },
+  {
+    "id": 56,
+    "topicsId": 720,
+    "q": "Any hardware or software which is used to connect two devices by enabling them to communicate is classified as-",
+    "options": [
+      "analogue modem",
+      "digital modem",
+      "analogue interface",
+      "interface"
+    ],
+    "ans": 3,
+    "explain": "দুটি ডিভাইসের মধ্যে যোগাযোগ স্থাপনের মাধ্যমকে ইন্টারফেস (Interface) বলা হয়।",
+    "source": [
+      "Probashi Kallyan Bank Programmer: 19"
+    ]
+  },
+  {
+    "id": 57,
+    "topicsId": 720,
+    "q": "What does the term SCSI stands for -",
+    "options": [
+      "Small Computer Software Interface",
+      "Small Computer System Interface",
+      "Small Computer Storage Interface",
+      "Small Computer Standard Interface"
+    ],
+    "ans": 1,
+    "explain": "SCSI এর পূর্ণরূপ হলো Small Computer System Interface। এটি হার্ড ড্রাইভ বা অন্যান্য পেরিফেরাল যুক্ত করতে ব্যবহৃত হয়।",
+    "source": [
+      "৪৪তম বিসিএস / Sonali Bank Ltd. Seninr Officer: 13"
+    ]
+  },
+  {
+    "id": 58,
+    "topicsId": 720,
+    "q": "Small computer system interface (SCSI) is pronounced as......",
+    "options": [
+      "Asci",
+      "Scuzzy",
+      "SCSI",
+      "None"
+    ],
+    "ans": 1,
+    "explain": "SCSI শব্দটিকে সংক্ষেপে 'স্কাজি' (Scuzzy) হিসেবে উচ্চারণ করা হয়।",
+    "source": [
+      "Bangladesh Bank Data Entry/Control Operator (IT): 20"
+    ]
+  },
+  {
+    "id": 59,
+    "topicsId": 720,
+    "q": "Which bus is used to connect the monitor to the CPU ?",
+    "options": [
+      "PCI bus",
+      "STE bus",
+      "Memory bus",
+      "SCSI bus"
+    ],
+    "ans": 3,
+    "explain": "মনিটরকে CPU-এর সাথে যুক্ত করতে সাধারণত ভিডিও গ্রাফিক্স কার্ড ব্যবহার করা হয় যা অনেক সময় SCSI বা পেরিফেরাল বাসের মাধ্যমে সংযুক্ত থাকে (যদিও আধুনিক পিসিতে এটি ভিডিও পোর্টের মাধ্যমে সরাসরি হয়, তবে ব্যাংকিং পরীক্ষার প্রশ্ন অনুযায়ী SCSI একটি অপশন)।",
+    "source": [
+      "Janata Bank Ltd. Senior Officer (IT): 16"
+    ]
+  },
+  {
+    "id": 60,
+    "topicsId": 720,
+    "q": "A computer port is used to -",
+    "options": [
+      "Communicate with hard disks",
+      "Communicate with other computer peripherals",
+      "Download files",
+      "None"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটার পোর্টের কাজ হলো কিবোর্ড, মাউস, প্রিন্টার বা অন্যান্য পেরিফেরাল ডিভাইসের সাথে যোগাযোগ স্থাপন করা।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 14"
+    ]
+  },
+  {
+    "id": 61,
+    "topicsId": 720,
+    "q": "Serial Port এ পিন সংখ্যা কত ?",
+    "options": [
+      "৩",
+      "৬",
+      "৯",
+      "১২"
+    ],
+    "ans": 2,
+    "explain": "স্ট্যান্ডার্ড ডিবি-৯ (DB-9) সিরিয়াল পোর্টে ৯টি পিন থাকে।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 62,
+    "topicsId": 720,
+    "q": "Using which of the following ports can you connect an electronic musical instrument to your computer ? / গানের ইলেকট্রনিক যন্ত্রপাতি কম্পিউটারের সাথে সংযোগ দেয়ার জন্য কোন পোর্ট ব্যবহৃত হয় ?",
+    "options": [
+      "PS2",
+      "USB",
+      "HDX",
+      "MIDI"
+    ],
+    "ans": 3,
+    "explain": "MIDI (Musical Instrument Digital Interface) পোর্ট ব্যবহার করে ইলেকট্রনিক বাদ্যযন্ত্র কম্পিউটারের সাথে যুক্ত করা হয়।",
+    "source": [
+      "Sonali Bank Ltd. Senior Officer: 13/DBBL MTO:12"
+    ]
+  },
+  {
+    "id": 63,
+    "topicsId": 720,
+    "q": "API মানে-",
+    "options": [
+      "Advanced Processing Information",
+      "Application Processing Information",
+      "Application Programming Interface",
+      "Application Processing interface"
+    ],
+    "ans": 2,
+    "explain": "API এর পূর্ণরূপ হলো Application Programming Interface।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 64,
+    "topicsId": 720,
+    "q": "কম্পিউটারের কোন যন্ত্রাংশের ক্ষমতার উপর মনিটরে দৃশ্যমান ছবির গুণগত মান নির্ভর করে ?",
+    "options": [
+      "মডেম",
+      "অডিও কার্ড",
+      "সিম কার্ড",
+      "ভিজিএ কার্ড"
+    ],
+    "ans": 3,
+    "explain": "VGA বা গ্রাফিক্স কার্ডের ক্ষমতার ওপর মনিটরের ছবির রেজোলিউশন ও গুণগত মান নির্ভর করে।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা সহকারী পরিচালক: ১৫/Sonali Bank Ltd. Junior Officer: 10"
+    ]
+  },
+  {
+    "id": 65,
+    "topicsId": 720,
+    "q": "VGA stands for -",
+    "options": [
+      "Video Graphics Array",
+      "Visual Graphics Array",
+      "Volatile Graphics Array",
+      "Video Graphics Adaptor",
+      "Visual Gallery Adaptor"
+    ],
+    "ans": 0,
+    "explain": "VGA এর পূর্ণরূপ হলো Video Graphics Array।",
+    "source": [
+      "ICB Senior Officer: 11"
+    ]
+  },
+  {
+    "id": 66,
+    "topicsId": 720,
+    "q": "SVGA এর পূর্ণ নাম কী ?",
+    "options": [
+      "Super Virtual Graphics Array",
+      "Super Video graphical Array",
+      "Super Visual graphical Array",
+      "Super Video Graphics Array"
+    ],
+    "ans": 3,
+    "explain": "SVGA এর পূর্ণরূপ হলো Super Video Graphics Array।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 67,
+    "topicsId": 720,
+    "q": "HDMI- এর পূর্ণরূপ কী ?",
+    "options": [
+      "High Definition Multilanguage Interface",
+      "High Definition Multimedia Interface",
+      "Highly defined Multinational Integrity",
+      "Highly Defined Multimedia international"
+    ],
+    "ans": 1,
+    "explain": "HDMI এর পূর্ণরূপ হলো High-Definition Multimedia Interface।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (ঘ ইউনিট): ১৬-১৭"
+    ]
+  },
+  {
+    "id": 68,
+    "topicsId": 720,
+    "q": "কম্পিউটারের ক্ষেত্রে তথ্য পরিবহনের জন্য পরিবাহী পথকে বলা হয়-",
+    "options": [
+      "মাউস",
+      "বাস",
+      "স্ক্যানার",
+      "ইনফরমেশন সুপার হাইওয়ে"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটারের ভেতর ডেটা বা তথ্য আদান-প্রদানের বৈদ্যুতিক পথকে বাস (Bus) বলা হয়।",
+    "source": [
+      "গণমাধ্যম ইনস্টিটিউট সহকারী পরিচালক , টেলিভিশন ও বেতার প্রকৌশলী প্রশিক্ষণ : ০১"
+    ]
+  },
+  {
+    "id": 69,
+    "topicsId": 720,
+    "q": "An electrical pathway within a computer is called-",
+    "options": [
+      "Buffer",
+      "Sector",
+      "Track",
+      "Bus",
+      "None of them"
+    ],
+    "ans": 3,
+    "explain": "কম্পিউটারের অভ্যন্তরীণ বৈদ্যুতিক সিগন্যাল চলাচলের পথকে বাস বলে।",
+    "source": [
+      "Bangladesh Bank General Officer: 18/ Pubali Bank Ltd Senior Officer: 13"
+    ]
+  },
+  {
+    "id": 70,
+    "topicsId": 720,
+    "q": "How do the main components of the computer communicate with each other ?",
+    "options": [
+      "System bus",
+      "Memory",
+      "Keyboard",
+      "None"
+    ],
+    "ans": 0,
+    "explain": "সিস্টেম বাসের মাধ্যমে কম্পিউটারের প্রধান উপাদানগুলো (CPU, RAM, I/O) একে অপরের সাথে তথ্য আদান-প্রদান করে।",
+    "source": [
+      "ICB Bank Ltd. Senior Officer (Cash): 14"
+    ]
+  },
+  {
+    "id": 71,
+    "topicsId": 720,
+    "q": "In computers, bus width is measured in ......./কম্পিউটারে বাসের প্রশস্ততা মাপা হয়",
+    "options": [
+      "Bits",
+      "Characters",
+      "Bytes",
+      "Megabytes",
+      "None of these"
+    ],
+    "ans": 0,
+    "explain": "বাসের প্রশস্ততা (Bus width) বিট (Bits) এককে মাপা হয়, যেমন: ৮-বিট, ১৬-বিট বা ৩২-বিট বাস।",
+    "source": [
+      "City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 72,
+    "topicsId": 720,
+    "q": "কম্পিউটারের বাস কোনটি ?",
+    "options": [
+      "কন্ট্রোল বাস",
+      "ডেটা বাস",
+      "ভিই এসএ",
+      "উপরের সবগুলো"
+    ],
+    "ans": 3,
+    "explain": "কন্ট্রোল বাস ও ডেটা বাস হলো সিস্টেম বাস এবং ভিইএসএ (VESA) হলো এক্সপানশন বাস। তাই 'উপরের সবগুলো' সঠিক উত্তর।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক: ১৬"
+    ]
+  },
+  {
+    "id": 73,
+    "topicsId": 720,
+    "q": "কোন ধরনের bus ব্যবহৃত হয় না ?",
+    "options": [
+      "address bus",
+      "input-reader bus",
+      "data bus",
+      "control bus"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটারে এড্রেস, ডেটা এবং কন্ট্রোল বাস ব্যবহৃত হয়। ইনপুট-রিডার বাস নামে কোনো স্বীকৃত বাসের প্রকারভেদ নেই।",
+    "source": [
+      "৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 74,
+    "topicsId": 720,
+    "q": "উপাত্ত গ্রহণ ও নির্গমন বাসের নাম-",
+    "options": [
+      "ইনপুট",
+      "আউটপুট",
+      "পাওয়ার সাপ্লাই",
+      "ডেটা বাস"
+    ],
+    "ans": 3,
+    "explain": "ডেটা বাস (Data Bus) ব্যবহার করে কম্পিউটার বিভিন্ন যন্ত্রাংশের মধ্যে উপাত্ত আদান-প্রদান (গ্রহণ ও নির্গমন) করে।",
+    "source": [
+      "গণমাধ্যম ইনস্টিটিউট সহকারী পরিচালক (টেলিভিশন ও বেতার প্রকৌশলী): ০১"
+    ]
+  },
+  {
+    "id": 75,
+    "topicsId": 720,
+    "q": "কোন বাসের মাধ্যমে মাইক্রোকম্পিউটারের যন্ত্রাংশগুলোর মধ্যে ডাটা পরিবহন হয় ?",
+    "options": [
+      "কন্ট্রোল বাস",
+      "এড্রেস বাস",
+      "ডাটা বাস",
+      "ক, খ, গ সবগুলিই"
+    ],
+    "ans": 3,
+    "explain": "একটি সিস্টেম বাসের তিনটি অংশই (কন্ট্রোল, এড্রেস ও ডাটা বাস) সম্মিলিতভাবে ডাটা পরিবহনের পুরো প্রক্রিয়া সম্পন্ন করে।",
+    "source": [
+      "লোক প্রশাসন প্রশিক্ষণ কেন্দ্র (BPATC)-এর বিভিন্ন পদ: ১৯"
+    ]
+  },
+  {
+    "id": 76,
+    "topicsId": 720,
+    "q": "Physical connection between Microprocessor Memory and other parts is called -",
+    "options": [
+      "Address bus",
+      "Path",
+      "Hub",
+      "None of these"
+    ],
+    "ans": 0,
+    "explain": "মেমরি এবং অন্যান্য অংশের সাথে ফিজিক্যাল সংযোগ স্থাপনের প্রধান মাধ্যম হলো বাস, যার মধ্যে এড্রেস বাস একটি প্রধান অংশ।",
+    "source": [
+      "Janata Bank Assistant Executive Officer: 15"
+    ]
+  },
+  {
+    "id": 77,
+    "topicsId": 720,
+    "q": "CPU কোন address generate করে ?",
+    "options": [
+      "Physical address",
+      "Logical address",
+      "Both physical and logical addresses",
+      "উপরের কোনোটি নয়"
+    ],
+    "ans": 1,
+    "explain": "CPU যে অ্যাড্রেস জেনারেট করে তাকে লজিক্যাল অ্যাড্রেস (Logical Address) বলা হয়। মেমরি ম্যানেজমেন্ট ইউনিট (MMU) পরে একে ফিজিক্যাল অ্যাড্রেসে রূপান্তর করে।",
+    "source": [
+      "৪০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 78,
+    "topicsId": 720,
+    "q": "USB stands for -",
+    "options": [
+      "United Serial Bus",
+      "Universal Strategic Bus",
+      "Universal Serial Bus",
+      "Uninterrupted Strategic Bus"
+    ],
+    "ans": 2,
+    "explain": "USB এর পূর্ণরূপ হলো Universal Serial Bus।",
+    "source": [
+      "Combined 8 Banks Officer (General): 22/ BREB General Manager: 22"
+    ]
+  },
+  {
+    "id": 79,
+    "topicsId": 720,
+    "q": "The computer stores its program and data in- / কম্পিউটারে সকল প্রোগ্রাম ও ডেটা সংরক্ষণ করে-",
+    "options": [
+      "ALU",
+      "Control Unit",
+      "Memory",
+      "Cache Memory"
+    ],
+    "ans": 2,
+    "explain": "কম্পিউটারে যেকোনো তথ্য বা প্রোগ্রাম দীর্ঘমেয়াদী বা সাময়িকভাবে জমা রাখার স্থানকে মেমরি (Memory) বলা হয়। ALU গাণিতিক কাজ করে এবং Control Unit কম্পিউটারকে পরিচালনা করে।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 10/ Sonali, Janata, Agrani and Rupali Bank Ltd. Officers: 08/ Bank Alfalah Ltd. MTOs: 05 / সোনালী ব্যাংক লি. সিনিয়র অফিসার: ১৪"
+    ]
+  },
+  {
+    "id": 80,
+    "topicsId": 720,
+    "q": "'কম্পিউটার মেমরি' বলতে কী বুঝায় ?",
+    "options": [
+      "কম্পিউটার ব্রেইন",
+      "তথ্য সংগ্রহের স্থান",
+      "কম্পিউটার সফটওয়্যার",
+      "কোনোটিই নয়"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটার মেমরি হলো ডিজিটাল তথ্য বা উপাত্ত সংগ্রহের একটি ভৌত স্থান। এখানে ডেটা বাইনারি ফরমেটে জমা থাকে।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)-এর সহকারী পরিচালক: ১৭"
+    ]
+  },
+  {
+    "id": 81,
+    "topicsId": 720,
+    "q": "Data and instructions waiting to be processed and the resulting output are stored in-",
+    "options": [
+      "Control Unit",
+      "Memory",
+      "Analog decoders",
+      "Logic unit",
+      "Check bits"
+    ],
+    "ans": 1,
+    "explain": "প্রসেসিংয়ের জন্য অপেক্ষমান ডেটা এবং প্রসেসিং পরবর্তী আউটপুট উভয়ই মেমরিতে (সাধারণত RAM বা প্রাইমারি মেমরি) সংরক্ষিত থাকে।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer: 10"
+    ]
+  },
+  {
+    "id": 82,
+    "topicsId": 720,
+    "q": "Memory Unit is a part of -",
+    "options": [
+      "CPU",
+      "Input Device",
+      "Output Device",
+      "Control Unit",
+      "None of these"
+    ],
+    "ans": 0,
+    "explain": "কম্পিউটারের স্থাপত্য অনুযায়ী, মেমরি ইউনিট (বিশেষ করে ইন্টারনাল রেজিস্টার এবং ক্যাশ) সিপিইউ (CPU)-র একটি অবিচ্ছেদ্য অংশ হিসেবে কাজ করে।",
+    "source": [
+      "DBBL MTO: 10"
+    ]
+  },
+  {
+    "id": 83,
+    "topicsId": 720,
+    "q": "Main memory works in conjunction with which of the following ? / নিচের কোনটি সহযোগে প্রধান মেমরি কাজ করে ?",
+    "options": [
+      "Special Function Card",
+      "NIC",
+      "Graphics Card",
+      "CPU"
+    ],
+    "ans": 3,
+    "explain": "প্রধান মেমরি সরাসরি সিপিইউ (CPU)-র সাথে সংযুক্ত থাকে এবং সিপিইউ এর নির্দেশ অনুযায়ী ডেটা আদান-প্রদান করে।",
+    "source": [
+      "DBBL MTO: 12"
+    ]
+  },
+  {
+    "id": 84,
+    "topicsId": 720,
+    "q": "The smallest unit of information is-",
+    "options": [
+      "A block",
+      "A bit",
+      "A byte",
+      "A chain"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটারে তথ্যের ক্ষুদ্রতম একক হলো বিট (Bit)। ১টি বিট দিয়ে কেবল ০ অথবা ১ প্রকাশ করা যায়।",
+    "source": [
+      "The Security Printing Corporation Itd. Officer (General): 21"
+    ]
+  },
+  {
+    "id": 85,
+    "topicsId": 720,
+    "q": "বাইনারি পদ্ধতিতে তথ্য প্রকাশের মৌলিক একক কোনটি ?",
+    "options": [
+      "মেগাবাইট",
+      "বাইট",
+      "কিলোবাইট",
+      "বিট"
+    ],
+    "ans": 3,
+    "explain": "বাইনারি নম্বর সিস্টেম (০ এবং ১) এর প্রতিটি অঙ্ককে বিট বলা হয়, যা ডিজিটাল তথ্যের মৌলিক একক।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের উপজেলা পোস্টমাস্টার: ১৬"
+    ]
+  },
+  {
+    "id": 86,
+    "topicsId": 720,
+    "q": "Bit Stands for-",
+    "options": [
+      "Binary Information Term",
+      "Binary Digit",
+      "Binary Tree",
+      "None"
+    ],
+    "ans": 1,
+    "explain": "Bit শব্দটি 'Binary Digit' এর সংক্ষিপ্ত রূপ।",
+    "source": [
+      "Pubali Bank Ltd. Junior Officer: 14 / Probashi Kallyan Bank Ltd. junior Officer (Cash) : 14"
+    ]
+  },
+  {
+    "id": 87,
+    "topicsId": 720,
+    "q": "কম্পিউটার ব্যবহৃত দুটি অঙ্ক কী ?",
+    "options": [
+      "০ ও ৯",
+      "০ ও ১",
+      "১ ও ৯",
+      "১ ও ২"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটার কেবল বাইনারি ভাষা বোঝে, যার মৌলিক অঙ্ক দুটি হলো ০ (Off) এবং ১ (On)।",
+    "source": [
+      "কর্মসংস্থান ব্যাংক ডাটা এন্ট্রি অপারেটর: ১১"
+    ]
+  },
+  {
+    "id": 88,
+    "topicsId": 720,
+    "q": "0 ও 1 এই দুটি সংখ্যার প্রত্যেকটিকে কী বলা হয় ?",
+    "options": [
+      "বিট",
+      "ডিজিট",
+      "বাইনারি",
+      "হেক্সাডেসিমাল"
+    ],
+    "ans": 0,
+    "explain": "বাইনারি পদ্ধতির ০ এবং ১-এর প্রত্যেকটি আলাদাভাবে একটি বিট (Bit) নামে পরিচিত।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক : ১৬"
+    ]
+  },
+  {
+    "id": 89,
+    "topicsId": 720,
+    "q": "1011 সংখ্যা কয়টি বিট আছে ?",
+    "options": [
+      "২",
+      "৩",
+      "৪",
+      "১০"
+    ],
+    "ans": 2,
+    "explain": "১০১১ সংখ্যাটিতে মোট ৪টি বাইনারি অঙ্ক বা পজিশন রয়েছে, তাই এতে ৪টি বিট বিদ্যমান।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক) : ১৯"
+    ]
+  },
+  {
+    "id": 90,
+    "topicsId": 720,
+    "q": "In binary number system, each bit represents a",
+    "options": [
+      "Character",
+      "Switch",
+      "Signal",
+      "Number"
+    ],
+    "ans": 2,
+    "explain": "ডিজিটাল সার্কিটে প্রতিটি বিট মূলত একটি ইলেকট্রিক্যাল সিগন্যাল (High/Low) রিপ্রেজেন্ট করে।",
+    "source": [
+      "City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 91,
+    "topicsId": 720,
+    "q": "1 nibble equals to-",
+    "options": [
+      "1 bit",
+      "2 bits",
+      "4 bits",
+      "8 bits"
+    ],
+    "ans": 2,
+    "explain": "৪টি বিটের সমষ্টিকে একত্রে ১ নিবল (Nibble) বলা হয়।",
+    "source": [
+      "Sonali Bank, Janata Bank Ltd. Senior Officer (IT/ICT): 18"
+    ]
+  },
+  {
+    "id": 92,
+    "topicsId": 720,
+    "q": "The word length of a computer is measured in-",
+    "options": [
+      "Bytes",
+      "Millimeters",
+      "Meters",
+      "Bits"
+    ],
+    "ans": 3,
+    "explain": "সিপিইউ একবারে যতগুলো বিট প্রসেস করতে পারে তাকে ওয়ার্ড লেন্থ বলে এবং এটি বিট (Bits) এককে প্রকাশ করা হয়।",
+    "source": [
+      "Islami Bank Ltd. Probationary Officer. 19/Bangladesh Bank Officer (Cash): 16"
+    ]
+  },
+  {
+    "id": 93,
+    "topicsId": 720,
+    "q": "এক word কত বিট বিশিষ্ট হয় ?",
+    "options": [
+      "8",
+      "16",
+      "4",
+      "2"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটার ভেদে ওয়ার্ড লেন্থ ভিন্ন হতে পারে, তবে স্ট্যান্ডার্ড মাইক্রোকম্পিউটারে সাধারণত ১৬ বিট বা এর গুণিতক (৩২, ৬৪) ব্যবহৃত হয়। অপশন অনুযায়ী ১৬ সঠিক।",
+    "source": [
+      "৩৮তম বিসিএস/ কর্মসংস্থান ব্যাংক অ্যাসিসটেন্ট অফিসার (জেনারেল ও ক্যাশ) : ২০"
+    ]
+  },
+  {
+    "id": 94,
+    "topicsId": 720,
+    "q": "How many bits are there in a byte ? / 1 বাইটে বিটের সংখ্যা কত ?",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "32",
+      "64"
+    ],
+    "ans": 1,
+    "explain": "৮টি বিট মিলে ১ বাইট (Byte) তৈরি হয়।",
+    "source": [
+      "Sonali Bank Ltd. Officer (Cash): 13 / স্বাস্থ্য প্রকৌশল অধিদপ্তরের সহকারী প্রকৌশলী (সিভিল) : ১৭"
+    ]
+  },
+  {
+    "id": 95,
+    "topicsId": 720,
+    "q": "One character is represented by-",
+    "options": [
+      "One Bit",
+      "One Byte",
+      "One Kilobyte",
+      "One Megabyte"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটারে একটি সাধারণ ক্যারেক্টার (যেমন: 'A') সংরক্ষণের জন্য ৮ বিট বা ১ বাইট জায়গার প্রয়োজন হয়।",
+    "source": [
+      "EXIM Bank Officer (Cash): 11"
+    ]
+  },
+  {
+    "id": 96,
+    "topicsId": 720,
+    "q": "A name or number used to identify a storage location is called-",
+    "options": [
+      "a byte",
+      "a record",
+      "an address",
+      "a bit"
+    ],
+    "ans": 2,
+    "explain": "মেমরির প্রতিটি নির্দিষ্ট স্টোরেজ লোকেশনকে শনাক্ত করার জন্য যে নাম বা নম্বর থাকে তাকে মেমরি অ্যাড্রেস (Address) বলে।",
+    "source": [
+      "Joint Five Banks & Financial Institution Officer: 15"
+    ]
+  },
+  {
+    "id": 97,
+    "topicsId": 720,
+    "q": "কম্পিউটার মেমরি থেকে সংরক্ষিত ডাটা উত্তোলনের পদ্ধতিকে কী বলে ?",
+    "options": [
+      "Read-out",
+      "Read from",
+      "Read",
+      "উপরের সবগুলোই"
+    ],
+    "ans": 2,
+    "explain": "মেমরি থেকে ডাটা গ্রহণ বা উদ্ধার করার প্রক্রিয়াকে টেকনিক্যাল ভাষায় 'Read' বলা হয়।",
+    "source": [
+      "৩৫তম বিসিএস/ কর্মসংস্থান ব্যাংক অ্যাসিসটেন্ট অফিসার (জেনারেল ও ক্যাশ): ২১ / খনিজ সম্পদ মন্ত্রণালয়ের সহকারী সচিব: ১৯"
+    ]
+  },
+  {
+    "id": 98,
+    "topicsId": 720,
+    "q": "Content of the memory get lost when power goes off-/ বিদ্যুৎ চলে গেলে যে মেমরির ধারণকৃত উপাত্ত হারিয়ে যায়, তাকে বলা হয়-",
+    "options": [
+      "volatile",
+      "Non volatile",
+      "Destructive",
+      "Non Destructive"
+    ],
+    "ans": 0,
+    "explain": "বিদ্যুৎ প্রবাহ বন্ধ হলে যে মেমরির তথ্য মুছে যায় তাকে ভোলাটাইল (Volatile) বা অস্থায়ী মেমরি বলে।",
+    "source": [
+      "স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়ে সহকারী মেইনটেনেন্স প্রকৌশলী: ১০"
+    ]
+  },
+  {
+    "id": 99,
+    "topicsId": 720,
+    "q": "When electrical power is disrupted or cut off, data and programs are lost in-/ যদি বৈদ্যুতিক সংযোগ বিচ্ছিন্ন হয় বা বিদ্যুৎ চলে গেলে.,............এ সংরক্ষিত ডেটা ও প্রোগ্রাম মুছে যায়।",
+    "options": [
+      "Secondary Storage",
+      "Hard Disk",
+      "Operating System",
+      "RAM",
+      "ROM"
+    ],
+    "ans": 3,
+    "explain": "RAM (Random Access Memory) একটি অস্থায়ী মেমরি, তাই বিদ্যুৎ চলে গেলে এতে থাকা সকল ডেটা মুছে যায়।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক: ১৬"
+    ]
+  },
+  {
+    "id": 100,
+    "topicsId": 720,
+    "q": "The volatile memory of the computer is known as- / কম্পিউটারের অস্থায়ী স্মৃতিশক্তিকে বলে-",
+    "options": [
+      "ROM",
+      "BIOS",
+      "RAM",
+      "None"
+    ],
+    "ans": 2,
+    "explain": "RAM হলো কম্পিউটারের প্রধান ভোলাটাইল মেমরি।",
+    "source": [
+      "BCIC Assistant Administrative Officer: 21 / প্রাথমিক বিদ্যালয় প্রধান শিক্ষক: ০৯"
+    ]
+  },
+  {
+    "id": 101,
+    "topicsId": 720,
+    "q": "কোন বৈশিষ্ট্যের কারণে RAM স্থায়ী স্মৃতি-স্টোরেজ হিসাবে ব্যবহার অনুপযোগী ?",
+    "options": [
+      "Too Slow",
+      "Unreliable",
+      "Volatility",
+      "Too Bulky"
+    ],
+    "ans": 2,
+    "explain": "স্থায়িত্ব না থাকার বা উদ্বায়ী (Volatility) বৈশিষ্ট্যের কারণে RAM-এ স্থায়ীভাবে তথ্য রাখা যায় না।",
+    "source": [
+      "সামরিক ভূমি ও ক্যান্টনমেন্ট অধিদপ্তরের জুনিয়র শিক্ষক: ২২/ বিটিআরসি-এর উপ-সহকারী পরিচালক: ২১"
+    ]
+  },
+  {
+    "id": 102,
+    "topicsId": 720,
+    "q": "The size of a computer memory is measured in -",
+    "options": [
+      "Bytes",
+      "Millimeters",
+      "Meters",
+      "Bits"
+    ],
+    "ans": 0,
+    "explain": "মেমরির ধারণক্ষমতা সাধারণত বাইট (Bytes) বা এর উচ্চতর একক (KB, MB, GB) দ্বারা পরিমাপ করা হয়।",
+    "source": [
+      "Sadharan bima Corporation Assistant Manager: 19"
+    ]
+  },
+  {
+    "id": 103,
+    "topicsId": 720,
+    "q": "1 KB = কত বাইট ?",
+    "options": [
+      "১,০০০ বাইট",
+      "১,০২৪ বাইট",
+      "১,০৫৬ বাইট",
+      "১,০৬৪ বাইট"
+    ],
+    "ans": 1,
+    "explain": "বাইনারি হিসাব অনুযায়ী 210 অর্থাৎ ১,০২৪ বাইটে ১ কিলোবাইট হয়।",
+    "source": [
+      "বিমান বাংলাদেশ এয়ারলাইন্স লি. এর সহকারী ব্যবস্থাপক : ২১/ আইডিইএ প্রকল্প (২য় পর্যায়) ডাটা এন্ট্রি অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 104,
+    "topicsId": 720,
+    "q": "Which one of the following is equal to 2KB ?",
+    "options": [
+      "200",
+      "1024",
+      "2000",
+      "2048"
+    ],
+    "ans": 3,
+    "explain": "১ KB = ১০২৪ বাইট, সুতরাং ২ KB = 2×1024=2048 বাইট।",
+    "source": [
+      "The Security Printing Corporation (Bangladesh) Ltd. Assistant Manager: 21"
+    ]
+  },
+  {
+    "id": 105,
+    "topicsId": 720,
+    "q": "A megabyte is actually equal to ..... kilobytes. / 1 মেগাবাইট সমান কত কিলোবাইট ?",
+    "options": [
+      "100",
+      "1000",
+      "1028",
+      "1024"
+    ],
+    "ans": 3,
+    "explain": "১০২৪ কিলোবাইটে (KB) ১ মেগাবাইট (MB) গঠিত হয়।",
+    "source": [
+      "Pubali Bank Junior Officer: 19 / সুন্দরবন গ্যাস কোম্পানি লিমিটেডের এসিস্ট্যান্ট কো-অর্ডিনেশন অফিসার : ২০"
+    ]
+  },
+  {
+    "id": 106,
+    "topicsId": 720,
+    "q": "কম্পিউটার পদ্ধতিতে এক মেগাবাইটে কত বাইট ?",
+    "options": [
+      "১০০০×১০০০",
+      "১০২৪×১০২৪",
+      "১০৩২×১০৩২",
+      "১০০×১০০"
+    ],
+    "ans": 1,
+    "explain": "১ মেগাবাইট = ১০২৪ কিলোবাইট এবং ১ কিলোবাইট = ১০২৪ বাইট। সুতরাং ১ MB = ১০২৪ × ১০২৪ বাইট।",
+    "source": [
+      "পরিকল্পনা মন্ত্রণালয় ডাটা প্রসেসিং অপারেটর: ০২"
+    ]
+  },
+  {
+    "id": 107,
+    "topicsId": 720,
+    "q": "One Megabyte is equal to-",
+    "options": [
+      "26bytes",
+      "220bytes",
+      "210bytes",
+      "25bytes",
+      "23bytes"
+    ],
+    "ans": 1,
+    "explain": "১ মেগাবাইট = 210×210=220 বাইট।",
+    "source": [
+      "Sonali, Janata, Agrani and Rupali Bank Ltd. Officers: 06"
+    ]
+  },
+  {
+    "id": 108,
+    "topicsId": 720,
+    "q": "Which is equivalent to 1GB ?",
+    "options": [
+      "104B",
+      "106B",
+      "108B",
+      "109B"
+    ],
+    "ans": 3,
+    "explain": "ডেসিমাল পদ্ধতিতে ১ গিগাবাইটকে 109 বাইট হিসেবে ধরা হয়।",
+    "source": [
+      "Karmasangsthan Bank Data Entry Operator: 22 / Janata Bank Ltd. Senior Officer (IT): 16"
+    ]
+  },
+  {
+    "id": 109,
+    "topicsId": 720,
+    "q": "কত মেগাবাইটে 1 গিগাবাইট ?",
+    "options": [
+      "29",
+      "210",
+      "211",
+      "213"
+    ],
+    "ans": 1,
+    "explain": "১০২৪ মেগাবাইট বা 210 মেগাবাইটে ১ গিগাবাইট হয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (তৃতীয় পর্যায়): ১৯"
+    ]
+  },
+  {
+    "id": 110,
+    "topicsId": 720,
+    "q": "1 জিবি = কত ?",
+    "options": [
+      "৫১২ কেবি",
+      "১০২৪ এমবি",
+      "১০২৪ কেবি",
+      "৫১২ এমবি"
+    ],
+    "ans": 1,
+    "explain": "১ গিগাবাইট (GB) সমান ১০২৪ মেগাবাইট (MB)।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের ক্যাশিয়ার: ২১"
+    ]
+  },
+  {
+    "id": 111,
+    "topicsId": 720,
+    "q": "A hard disk has the storage capacity of 80 GB. It can store a total of -",
+    "options": [
+      "80×230bytes information",
+      "80×228bytes information",
+      "80×232bytes information",
+      "80×236bytes information"
+    ],
+    "ans": 0,
+    "explain": "১ গিগাবাইট = 230 বাইট। সুতরাং ৮০ গিগাবাইট = 80×230 বাইট।",
+    "source": [
+      "DBBL Assistant Officer :09"
+    ]
+  },
+  {
+    "id": 112,
+    "topicsId": 720,
+    "q": "A hard disk has storage capacity of 500 GB. How much bytes of information it can store ? / একটি হার্ডডিস্কের ধারণক্ষমতা 500 গিগাবাইট। তথ্যের ধারণক্ষমতা কত ?",
+    "options": [
+      "500×230bytes information",
+      "500×228bytes information",
+      "500×232bytes information",
+      "500×236bytes information"
+    ],
+    "ans": 0,
+    "explain": "গিগাবাইটকে বাইটে রূপান্তর করতে 230 দিয়ে গুণ করতে হয়।",
+    "source": [
+      "Bangladesh Bank Officer (General Side) 14/ DBBL Assistant Officer : 09"
+    ]
+  },
+  {
+    "id": 113,
+    "topicsId": 720,
+    "q": "নিচের কোন উক্তিটি সঠিক ?",
+    "options": [
+      "1 কিলোবাইট= 1024 বাইট",
+      "1 মেগাবাইট = 1024 বাইট",
+      "1 কিলোবাইট = 1000 বাইট",
+      "1 মেগাবাইট = 1000 বাইট"
+    ],
+    "ans": 0,
+    "explain": "কম্পিউটারের স্ট্যান্ডার্ড মেমরি পরিমাপ অনুযায়ী ১ কিলোবাইট সর্বদা ১০২৪ বাইটের সমান।",
+    "source": [
+      "৩০ তম বিসিএস / বাংলাদেশ পরিসংখ্যান ব্যুরো ডাটা এন্ট্রি/কন্ট্রোল অপারেটর: ২০"
+    ]
+  },
+  {
+    "id": 114,
+    "topicsId": 720,
+    "q": "1 টেরাবাইট সমান -",
+    "options": [
+      "১০২৪ বাইট",
+      "১০২৪ কিলোবাইট",
+      "১০২৪ মেগাবাইট",
+      "১০২৪ গিগাবাইট"
+    ],
+    "ans": 3,
+    "explain": "১০২৪ গিগাবাইট (GB) মিলে ১ টেরাবাইট (TB) হয়।",
+    "source": [
+      "সিজিএ-এর কম্পিউটার মুদ্রাক্ষরিক : ২২"
+    ]
+  },
+  {
+    "id": 115,
+    "topicsId": 720,
+    "q": "1 টেরাবাইট = কত মেগাবাইট ?",
+    "options": [
+      "১ লক্ষ মেগাবাইট",
+      "১০ লক্ষ মেগাবাইট",
+      "১০ কোটি মেগাবাইট",
+      "১০০০০ মেগাবাইট"
+    ],
+    "ans": 1,
+    "explain": "১ টেরাবাইট = ১০২৪ গিগাবাইট ≈ ১০০০ গিগাবাইট। ১ গিগাবাইট = ১০২৪ মেগাবাইট ≈ ১০০০ মেগাবাইট। ফলে ১ টেরাবাইট ≈ ১০,০০,০০০ (১০ লক্ষ) মেগাবাইট।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ মাধ্যমিক শিক্ষা অধিদপ্তরের প্রদর্শক (পদার্থ) : ২১"
+    ]
+  },
+  {
+    "id": 116,
+    "topicsId": 720,
+    "q": "1 টেরাবাইট = ......গিগাবাইট ? / 1 terabyte ..... gigabytes in the decimal system.",
+    "options": [
+      "1,000",
+      "720",
+      "1,950",
+      "1,970"
+    ],
+    "ans": 0,
+    "explain": "ডেসিমাল বা দশমিক পদ্ধতিতে ১ টেরাবাইটকে ১,০০০ গিগাবাইট হিসেবে ধরা হয় (যদিও বাইনারিতে এটি ১০২৪)।",
+    "source": [
+      "ঢাকা পাওয়ার ডিস্ট্রিবিউশন কো. লি. এর সুইচ বোর্ড অ্যাটেনডেন্ট: ২১ / Bangladesh Bank Data Entry/Control Operator (IT): 20"
+    ]
+  },
+  {
+    "id": 117,
+    "topicsId": 720,
+    "q": "কত গিগাবাইটে এক পেটাবাইট ?",
+    "options": [
+      "1000000",
+      "1024",
+      "1030",
+      "10000"
+    ],
+    "ans": 0,
+    "explain": "১ পেটাবাইট = ১০২৪ টেরাবাইট। ১ টেরাবাইট = ১০২৪ গিগাবাইট। সুতরাং ১ পেটাবাইট = ১০২৪ × ১০২৪ গিগাবাইট যা প্রায় ১০,০০,০০০ গিগাবাইটের সমান।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের উপজেলা পোস্টমাস্টার: ১৬"
+    ]
+  },
+  {
+    "id": 118,
+    "topicsId": 720,
+    "q": "One Petabyte is equal to 1024.......",
+    "options": [
+      "Exabyte",
+      "Terabyte",
+      "Giga",
+      "Zetta"
+    ],
+    "ans": 1,
+    "explain": "১০২৪ টেরাবাইট (TB) সমান ১ পেটাবাইট (PB)।",
+    "source": [
+      "Combined 8 Banks Officer (General): 22 / Titas gas transmission & distribution co. Ltd. assistant manager 21"
+    ]
+  },
+  {
+    "id": 119,
+    "topicsId": 720,
+    "q": "Computer memory is normally measured in- / কম্পিউটার মেমরি সাধারণত.........এ পরিমাপ করা হয় ?",
+    "options": [
+      "Kilobytes",
+      "Megabytes",
+      "Gigabytes",
+      "Terabytes",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "বর্তমানে আধুনিক কম্পিউটারের মেমরি (RAM) সাধারণত গিগাবাইট (GB) এককে পরিমাপ করা হয়।",
+    "source": [
+      "Karmasangsthan Bank Senior Officer: 09"
+    ]
+  },
+  {
+    "id": 120,
+    "topicsId": 720,
+    "q": "The memory sizes in mainframe computers and advanced technology microcomputer are expressed as-",
+    "options": [
+      "Bytes",
+      "Kilobytes",
+      "Megabytes",
+      "All of these"
+    ],
+    "ans": 2,
+    "explain": "মেইনফ্রেম এবং উন্নত মাইক্রোকম্পিউটারের মেমরি সাধারণত মেগাবাইট বা তার বেশি এককে প্রকাশ করা হয়।",
+    "source": [
+      "6 Govt. Bank & Financial Institutes Senior Officer (General): 19"
+    ]
+  },
+  {
+    "id": 121,
+    "topicsId": 720,
+    "q": "কম্পিউটারে তথ্য সংরক্ষণের এককগুলোর মধ্যে নিচের কোনটি বৃহত্তম ?",
+    "options": [
+      "টেরাবাইট",
+      "পেটাবাইট",
+      "এক্সাবাইট",
+      "জেট্টাবাইট"
+    ],
+    "ans": 3,
+    "explain": "প্রদত্ত অপশনগুলোর মধ্যে জেট্টাবাইট (Zettabyte) সবচেয়ে বড় একক। ক্রমটি হলো: TB < PB < EB < ZB।",
+    "source": [
+      "BPATC-এর বিভিন্ন পদ: ১৯"
+    ]
+  },
+  {
+    "id": 122,
+    "topicsId": 720,
+    "q": "এগুলোর মধ্যে কোনটির সর্বোচ্চ ভ্যালু ?",
+    "options": [
+      "Giga-byte",
+      "Mega-byte",
+      "Tera-byte",
+      "Exa-byte"
+    ],
+    "ans": 3,
+    "explain": "প্রদত্ত অপশনগুলোর মধ্যে এক্সাবাইট (Exa-byte) হলো সর্বোচ্চ একক।",
+    "source": [
+      "Probashi Kallyan Bank Executive Officer: 17"
+    ]
+  },
+  {
+    "id": 123,
+    "topicsId": 720,
+    "q": "যেটি কম্পিউটারে তথ্য সংরক্ষণের ক্ষেত্রে সর্ববৃহৎ একক- / Which is the largest unit of storage in computer ?",
+    "options": [
+      "TB",
+      "KB",
+      "MB",
+      "GB"
+    ],
+    "ans": 0,
+    "explain": "এখানে দেওয়া এককগুলোর মধ্যে টেরাবাইট (TB) বৃহত্তম।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় (অধিভুক্ত ৭ কলেজ) : ১৯-২০ / IFIC Bank Ltd. MTO: 17"
+    ]
+  },
+  {
+    "id": 124,
+    "topicsId": 720,
+    "q": "Arrange in ascending order the units of memory TB, KB, GB, MB-",
+    "options": [
+      "TB>MB>GB>KB",
+      "MB>GB>TB>KB",
+      "TB>GB>MB>KB",
+      "GB>MB>KB>TB"
+    ],
+    "ans": 2,
+    "explain": "উর্ধক্রম (বড় থেকে ছোট) সাজালে হয়: টেরাবাইট (TB) > গিগাবাইট (GB) > মেগাবাইট (MB) > কিলোবাইট (KB)।",
+    "source": [
+      "Combined 9 Banks Officer (General): 22"
+    ]
+  },
+  {
+    "id": 125,
+    "topicsId": 720,
+    "q": "নিচের কোনটির Memory capacity সর্বোচ্চ ?",
+    "options": [
+      "Kilobyte",
+      "Megabyte",
+      "Terabyte",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "প্রদত্ত তালিকার মধ্যে টেরাবাইট (Terabyte) এর ক্ষমতা সবচেয়ে বেশি।",
+    "source": [
+      "NSI-এর কম্পিউটার টেকনিশিয়ান: ২১"
+    ]
+  },
+  {
+    "id": 126,
+    "topicsId": 720,
+    "q": "মেমরি ভাগ করা হয়েছে-",
+    "options": [
+      "দুইভাগে",
+      "তিনভাগে",
+      "চারভাগে",
+      "পাঁচভাগে"
+    ],
+    "ans": 0,
+    "explain": "কম্পিউটার মেমরিকে প্রধানত দুই ভাগে ভাগ করা হয়: ১. প্রধান মেমরি (Primary) এবং ২. সহায়ক মেমরি (Secondary)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক: ১২"
+    ]
+  },
+  {
+    "id": 127,
+    "topicsId": 720,
+    "q": "The main memory of a computer is also called- / কম্পিউটারের প্রধান মেমরিকে বলা হয়-",
+    "options": [
+      "Primary Storage",
+      "Primary Memory",
+      "Internal Memory",
+      "All of these",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "কম্পিউটারের প্রধান মেমরিকে Primary Storage, Primary Memory এবং Internal Memory—সবগুলো নামেই ডাকা হয়।",
+    "source": [
+      "EXIM Bank Ltd. Officer (Cash): 11"
+    ]
+  },
+  {
+    "id": 128,
+    "topicsId": 720,
+    "q": "প্রধান মেমরির মধ্যে থাকে-",
+    "options": [
+      "সম্পূর্ণ সমাধান",
+      "প্রয়োজনীয় তথ্য",
+      "গাণিতিক তথ্য",
+      "অন্তর্বর্তী ফল"
+    ],
+    "ans": 1,
+    "explain": "প্রধান মেমরি বা RAM-এ প্রসেসিং এর জন্য প্রয়োজনীয় সকল বর্তমান ডাটা ও ইনস্ট্রাকশন জমা থাকে।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক : ১২"
+    ]
+  },
+  {
+    "id": 129,
+    "topicsId": 720,
+    "q": "কম্পিউটারের প্রধান মেমরি মাইক্রোপ্রসেসরের ভেতরে থাকে, কথাটি-",
+    "options": [
+      "সত্য",
+      "মিথ্যা",
+      "দুটোই হতে পারে",
+      "কোনোটিই সত্য নয়"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটারের প্রধান মেমরি (Main Memory) সাধারণত মাইক্রোপ্রসেসরের বাইরে থাকে এবং মাদারবোর্ডে নির্দিষ্ট স্লটে বসানো থাকে। মাইক্রোপ্রসেসরের ভেতরে মূলত ক্যাশ মেমরি (Cache Memory) এবং রেজিস্টার (Register) থাকে।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (টেলিভিশন): ০১"
+    ]
+  },
+  {
+    "id": 130,
+    "topicsId": 720,
+    "q": "কম্পিউটারের প্রধান মেমরি-",
+    "options": [
+      "মাইক্রোপ্রসেসরের ভেতরে থাকে",
+      "মাইক্রোপ্রসেসরের বাইরে থাকে",
+      "সিপিইউ এর ভেতরে থাকে",
+      "মাইক্রোপ্রসেসর এবং সিপিইউ-এর মাঝখানে থাকে"
+    ],
+    "ans": 1,
+    "explain": "প্রধান মেমরি বা RAM মাইক্রোপ্রসেসরের বাইরে মাদারবোর্ডের মেমরি স্লটে অবস্থান করে। এটি বাসের মাধ্যমে সিপিইউ-এর সাথে সংযুক্ত থাকে।",
+    "source": [
+      "শ্রম ও কর্মসংস্থান মন্ত্রণালয়ের অধীনে সহকারী শ্রম অফিসার : ০৩"
+    ]
+  },
+  {
+    "id": 131,
+    "topicsId": 720,
+    "q": "The two kinds of main memory are-",
+    "options": [
+      "Primary and secondary",
+      "Random and sequential",
+      "ROM and RAM",
+      "All of them"
+    ],
+    "ans": 2,
+    "explain": "কম্পিউটারের প্রধান মেমরি দুই প্রকার: র‍্যাম (RAM - Random Access Memory) এবং রম (ROM - Read Only Memory)।",
+    "source": [
+      "Bangladesh Bank Assistant Director :16"
+    ]
+  },
+  {
+    "id": 132,
+    "topicsId": 720,
+    "q": "নিচের কোনটি কম্পিউটারের প্রাইমারি মেমরি ?",
+    "options": [
+      "RAM",
+      "Hard Disk",
+      "Pen drive",
+      "কোনোটিই নয়"
+    ],
+    "ans": 0,
+    "explain": "র‍্যাম (RAM) হলো কম্পিউটারের প্রাইমারি বা প্রধান মেমরি। হার্ডডিস্ক এবং পেন ড্রাইভ হলো সেকেন্ডারি বা সহায়ক মেমরি।",
+    "source": [
+      "৩৬তম বিসিএস / বাংলাদেশ পরিসংখ্যান ব্যুরো ডেটা এন্ট্রি অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 133,
+    "topicsId": 720,
+    "q": "নিচের কোন যন্ত্রাংশটি কম্পিউটার বানানোর জন্য অত্যাবশ্যক ?",
+    "options": [
+      "CD-ROM",
+      "Floppy Disk",
+      "Printer",
+      "RAM"
+    ],
+    "ans": 3,
+    "explain": "র‍্যাম (RAM) ছাড়া কম্পিউটার বুট বা চালু হতে পারে না। সিডি-রম, ফ্লপি ডিস্ক বা প্রিন্টার ঐচ্ছিক যন্ত্রাংশ, কিন্তু র‍্যাম একটি কম্পিউটারের অপরিহার্য অংশ।",
+    "source": [
+      "Krishi Bank (Data Entry Operator). 10"
+    ]
+  },
+  {
+    "id": 134,
+    "topicsId": 720,
+    "q": "RAM কী ?",
+    "options": [
+      "Extra memory",
+      "Secret information store",
+      "Hard disk device",
+      "Fast memory used for data"
+    ],
+    "ans": 3,
+    "explain": "র‍্যাম (RAM) হলো একটি দ্রুতগতির মেমরি যা প্রসেসিং চলাকালীন অস্থায়ীভাবে তথ্য ধরে রাখে। এটি সেকেন্ডারি স্টোরেজের চেয়ে অনেক দ্রুত কাজ করে।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 135,
+    "topicsId": 720,
+    "q": "কাজের গতি বাড়ানোর জন্য কি ব্যবহৃত হয় ?",
+    "options": [
+      "Core Storage",
+      "Main Storage",
+      "Cache",
+      "RAM Chips"
+    ],
+    "ans": 2,
+    "explain": "ক্যাশ মেমরি (Cache Memory) অত্যন্ত দ্রুতগতির মেমরি যা সিপিইউ এবং র‍্যামের মাঝে অবস্থান করে কম্পিউটারের প্রসেসিং স্পিড বা কাজের গতি বৃদ্ধি করে।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক: ১৬"
+    ]
+  },
+  {
+    "id": 136,
+    "topicsId": 720,
+    "q": "The most frequently used instructions are kept in the-",
+    "options": [
+      "ROM",
+      "Cache memory",
+      "RAM",
+      "CD"
+    ],
+    "ans": 1,
+    "explain": "বারবার ব্যবহৃত বা ঘন ঘন প্রয়োজন হয় এমন নির্দেশনাবলী ক্যাশ মেমরিতে (Cache memory) রাখা হয় যাতে সিপিইউ দ্রুত সেগুলো অ্যাক্সেস করতে পারে।",
+    "source": [
+      "Sonali Bank Ltd. Officer (Cash): 13"
+    ]
+  },
+  {
+    "id": 137,
+    "topicsId": 720,
+    "q": "Cache memory acts between-",
+    "options": [
+      "CPU and RAM",
+      "RAM and ROM",
+      "CPU and Hard Disk",
+      "None"
+    ],
+    "ans": 0,
+    "explain": "ক্যাশ মেমরি মূলত সেন্ট্রাল প্রসেসিং ইউনিট (CPU) এবং প্রধান মেমরি (RAM)-এর মাঝখানে বাফার হিসেবে কাজ করে ডাটা ট্রান্সফার দ্রুত করে।",
+    "source": [
+      "Pubali Bank Ltd. Junior Officer: 14"
+    ]
+  },
+  {
+    "id": 138,
+    "topicsId": 720,
+    "q": "কম্পিউটারের মেমরি নিম্নের কোনটি ?",
+    "options": [
+      "কী-বোর্ড",
+      "মাইক্রোপ্রসেসর",
+      "রম (ROM)",
+      "মাদারবোর্ড"
+    ],
+    "ans": 2,
+    "explain": "প্রদত্ত অপশনগুলোর মধ্যে রম (ROM) হলো মেমরি। কী-বোর্ড ইনপুট ডিভাইস, মাইক্রোপ্রসেসর প্রসেসিং ডিভাইস এবং মাদারবোর্ড হলো মূল সার্কিট বোর্ড।",
+    "source": [
+      "সোনালী ব্যাংক লি.সিনিয়র অফিসার: ১৪"
+    ]
+  },
+  {
+    "id": 139,
+    "topicsId": 720,
+    "q": "অতিরিক্ত তথ্য ও প্রোগ্রাম যা প্রসেসর ব্যবহার করে না তা কোথায় স্টোর করা হয় ?",
+    "options": [
+      "Input units",
+      "Output units",
+      "Secondary storage",
+      "CPU"
+    ],
+    "ans": 2,
+    "explain": "প্রসেসর সরাসরি ব্যবহার করছে না এমন বিশাল পরিমাণ তথ্য সেকেন্ডারি স্টোরেজে (যেমন: হার্ডডিস্ক) স্থায়ীভাবে জমা রাখা হয়।",
+    "source": [
+      "‍Bankers Selection Committee (BSC) Senior Officer (Cancelled): 18"
+    ]
+  },
+  {
+    "id": 140,
+    "topicsId": 720,
+    "q": "Disk storage is a special type of-",
+    "options": [
+      "processor",
+      "I/O device",
+      "memory",
+      "micro-computer",
+      "PC"
+    ],
+    "ans": 2,
+    "explain": "ডিস্ক স্টোরেজ (যেমন: হার্ড ডিস্ক) হলো এক ধরণের স্টোরেজ মেমরি, যা স্থায়ীভাবে তথ্য সংরক্ষণে ব্যবহৃত হয়।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 11"
+    ]
+  },
+  {
+    "id": 141,
+    "topicsId": 720,
+    "q": "The most common storage media are",
+    "options": [
+      "ROM and Modems",
+      "Printers and monitors",
+      "CD-ROMs and WROMs",
+      "Discs and tapes"
+    ],
+    "ans": 3,
+    "explain": "সাধারণভাবে তথ্য সংরক্ষণের জন্য ম্যাগনেটিক ডিস্ক (Hard disk, Floppy) এবং টেপ সবচেয়ে বেশি ব্যবহৃত মিডিয়া।",
+    "source": [
+      "Dutch Bangla Bank Ltd. Officer: 04"
+    ]
+  },
+  {
+    "id": 142,
+    "topicsId": 720,
+    "q": "Which one of the following is a storage device ?",
+    "options": [
+      "CPU",
+      "Modem",
+      "Hard disk",
+      "Printer",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "হার্ডডিস্ক হলো একটি স্টোরেজ ডিভাইস। সিপিইউ প্রসেসর, মডেম নেটওয়ার্কিং ডিভাইস এবং প্রিন্টার আউটপুট ডিভাইস।",
+    "source": [
+      "EXIM Bank Ltd. Office (Cash) : 13"
+    ]
+  },
+  {
+    "id": 143,
+    "topicsId": 720,
+    "q": "Which of the following is a storage media ?",
+    "options": [
+      "Modem",
+      "Scanner",
+      "CD",
+      "Printer"
+    ],
+    "ans": 2,
+    "explain": "সিডি (Compact Disc) হলো একটি অপটিক্যাল স্টোরেজ মিডিয়া যা তথ্য সংরক্ষণে ব্যবহৃত হয়।",
+    "source": [
+      "Trust Bank Ltd. Trainee Assistant Officer : 12"
+    ]
+  },
+  {
+    "id": 144,
+    "topicsId": 720,
+    "q": "Which one is a storage device in computers ?",
+    "options": [
+      "CPU",
+      "Mouse",
+      "Modem",
+      "DVD",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "ডিভিডি (DVD) হলো একটি ডিজিটাল স্টোরেজ ডিভাইস। মাউস ইনপুট এবং মোডেম কানেক্টিভিটি ডিভাইস।",
+    "source": [
+      "Bangladesh Forest Development Corporation Assistant Manager: 13"
+    ]
+  },
+  {
+    "id": 145,
+    "topicsId": 720,
+    "q": "ডিভিডি কোন ধরনের স্মৃতি ?",
+    "options": [
+      "প্রধান স্মৃতি",
+      "সহায়ক স্মৃতি",
+      "অস্থায়ী স্মৃতি",
+      "স্থায়ী স্মৃতি"
+    ],
+    "ans": 1,
+    "explain": "ডিভিডি (DVD) হলো একটি সহায়ক স্মৃতি বা Secondary Memory। এটি প্রধান স্মৃতির পরিপূরক হিসেবে দীর্ঘমেয়াদী তথ্য সংরক্ষণে ব্যবহৃত হয়।",
+    "source": [
+      "বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশনের সহকারী প্রশাসনিক কর্মকর্তা : ১৭"
+    ]
+  },
+  {
+    "id": 146,
+    "topicsId": 720,
+    "q": "কম্পিউটারের হার্ড ডিস্ক কী ধরনের মেমরি ?",
+    "options": [
+      "প্রাথমিক মেমরি",
+      "চার্জ কাপল মেমরি",
+      "প্রধান মেমরি",
+      "সহায়ক মেমরি",
+      "কোনোটিই নয়"
+    ],
+    "ans": 3,
+    "explain": "হার্ডডিস্ক হলো সেকেন্ডারি মেমরি বা সহায়ক মেমরি, যা স্থায়ীভাবে বিশাল পরিমাণ ডেটা জমা রাখতে পারে।",
+    "source": [
+      "বাংলাদেশ পানি উন্নয়ন বোর্ড (BWDB)-এর ডাটা এন্ট্রি অপারেটর : ১৯"
+    ]
+  },
+  {
+    "id": 147,
+    "topicsId": 720,
+    "q": "Which one of the following is a storage device ? / নিচের কোনটি একটি স্টোরেজ মিডিয়া ?",
+    "options": [
+      "CPU",
+      "Modem",
+      "Floppy Disk",
+      "Printer"
+    ],
+    "ans": 2,
+    "explain": "ফ্লপি ডিস্ক হলো একটি পুরনো আমলের পোর্টেবল স্টোরেজ মিডিয়া বা ডিভাইস।",
+    "source": [
+      "DBBL MTO: 12/ Agrani Bank Ltd. Officer: 10"
+    ]
+  },
+  {
+    "id": 148,
+    "topicsId": 720,
+    "q": "USB is which type of storage device ?",
+    "options": [
+      "Tertiary",
+      "Secondary",
+      "Primary",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "ইউএসবি ড্রাইভ বা পেনড্রাইভ হলো সেকেন্ডারি স্টোরেজ ডিভাইসের একটি উদাহরণ কারণ এটি স্থায়ীভাবে ডেটা সংরক্ষণ করে।",
+    "source": [
+      "Probashi Kallyan Bank (PKB) Oficer (Cash): 21 / Sonali Bank Ltd Officer Cash (Freedom Fighter) : 19"
+    ]
+  },
+  {
+    "id": 149,
+    "topicsId": 720,
+    "q": "কোনটি সেকেন্ডারি স্টোরেজ ডিভাইস ?",
+    "options": [
+      "পেন ড্রাইভ",
+      "মডেম",
+      "সিপিইউ",
+      "মনিটর"
+    ],
+    "ans": 0,
+    "explain": "পেন ড্রাইভ একটি সেকেন্ডারি স্টোরেজ ডিভাইস। মনিটর একটি আউটপুট ডিভাইস।",
+    "source": [
+      "বাংলাদেশ পরিসংখান ব্যুরো ডাটা এন্ট্রি অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 150,
+    "topicsId": 720,
+    "q": "নিচের কোন মাধ্যমে তথ্য সংরক্ষণ করা যায় ?",
+    "options": [
+      "ফ্লপি ডিস্ক",
+      "নেটওয়ার্ক ড্রাইভ",
+      "সিডি রম",
+      "উপরের সবগুলো"
+    ],
+    "ans": 3,
+    "explain": "ফ্লপি ডিস্ক, নেটওয়ার্ক ড্রাইভ এবং সিডি-রম—সবগুলোই ডিজিটাল তথ্য সংরক্ষণের মাধ্যম হিসেবে ব্যবহৃত হয়।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের পোস্টাল অপারেটর : ১৬"
+    ]
+  },
+  {
+    "id": 151,
+    "topicsId": 720,
+    "q": "Which of the following objects is an example of computer storage device ?",
+    "options": [
+      "DVDs",
+      "Magnetic disks",
+      "Tapes",
+      "All of these",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "ডিভিডি, ম্যাগনেটিক ডিস্ক এবং টেপ—সবগুলোই কম্পিউটার স্টোরেজ ডিভাইসের অন্তর্ভুক্ত।",
+    "source": [
+      "Basic Bank Ltd. Assistant Manager: 12"
+    ]
+  },
+  {
+    "id": 152,
+    "topicsId": 720,
+    "q": "Which of the following is suitable for storing and carrying data from one computer to another ? / নিচের কোন ডেটা সংরক্ষণ ও স্থানান্তরে ব্যবহৃত হয় ?",
+    "options": [
+      "Power Supply",
+      "Read Only Memory (ROM)",
+      "Processor",
+      "Pen Drive"
+    ],
+    "ans": 3,
+    "explain": "পেন ড্রাইভ হলো একটি পোর্টেবল স্টোরেজ ডিভাইস যা খুব সহজে এক কম্পিউটার থেকে অন্য কম্পিউটারে ডেটা স্থানান্তরে ব্যবহৃত হয়।",
+    "source": [
+      "Trust Bank Assistant Officer: 11 / খাদ্য অধিদপ্তরের সহকারী উপ-খাদ্য পরিদর্শক : ১২"
+    ]
+  },
+  {
+    "id": 153,
+    "topicsId": 720,
+    "q": "নিচের কোনটি ডেটা (Data) সংরক্ষণ ও হস্তান্তরে ব্যবহৃত হয় না ?",
+    "options": [
+      "পেনড্রাইভ",
+      "ফ্লপি ডিস্ক",
+      "ভিজিএ",
+      "মেমোরি কার্ড"
+    ],
+    "ans": 2,
+    "explain": "ভিজিএ (VGA - Video Graphics Array) হলো একটি ভিডিও আউটপুট ইন্টারফেস যা মনিটরের সাথে সংযুক্ত থাকে, এটি ডাটা সংরক্ষণে ব্যবহৃত হয় না।",
+    "source": [
+      "আইডিইএ প্রকল্প (২য় পর্যায়) ডাটা এন্ট্রি অপারেটর: ২১/ শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর: ২১/ খাদ্য অধিদপ্তরের সহকারী উপখাদ্য পরিদর্শক: ১২"
+    ]
+  },
+  {
+    "id": 154,
+    "topicsId": 720,
+    "q": "Which one of the following devices is not an example of secondary storage device in computers ? / নিম্নের কোনটি সেকেন্ডারি স্টোরেজ ডিভাইজ এর উদাহরণ নয় ?",
+    "options": [
+      "Hard disks",
+      "RAM",
+      "Magnetic tapes",
+      "Compact disks"
+    ],
+    "ans": 1,
+    "explain": "র‍্যাম (RAM) হলো একটি প্রাইমারি মেমরি, সেকেন্ডারি নয়। হার্ড ডিস্ক, টেপ এবং সিডি সবই সেকেন্ডারি স্টোরেজ।",
+    "source": [
+      "Combined 5 Banks Officer (Cash) : 22 / UCBL Management Trainee: 17 / সোনালী ব্যাংক লি. সিনিয়র অফিসার: ১৪"
+    ]
+  },
+  {
+    "id": 155,
+    "topicsId": 720,
+    "q": "Which of the following represents examples of an IT input device, output device and storage device respectively ?",
+    "options": [
+      "Bar code reader, CD drive, projector",
+      "Keyboard, monitor, hard disk",
+      "Printer, DVD drive, joystick",
+      "Printer, mouse, monitor",
+      "RAM, webcam, speakers"
+    ],
+    "ans": 1,
+    "explain": "যথাক্রমে ইনপুট (Keyboard), আউটপুট (Monitor) এবং স্টোরেজ (Hard disk) ডিভাইসের সঠিক সেট হলো অপশন ২।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer: 13"
+    ]
+  },
+  {
+    "id": 156,
+    "topicsId": 720,
+    "q": "Which of the following is not related to a computer ? / নিচের কোনটি কম্পিউটারের সাথে সম্পর্কিত নয় ?",
+    "options": [
+      "RAM",
+      "BIOS",
+      "ROM",
+      "All are related"
+    ],
+    "ans": 3,
+    "explain": "র‍্যাম, বায়োস এবং রম—তিনটিই কম্পিউটারের অপরিহার্য অংশ এবং এর সাথে সরাসরি সম্পর্কিত।",
+    "source": [
+      "Bangladesh Bank Assistant Director : 01"
+    ]
+  },
+  {
+    "id": 157,
+    "topicsId": 720,
+    "q": "নিচের কোনটি কম্পিউটারের অভ্যন্তরীণ মেমরি ?",
+    "options": [
+      "হার্ডডিস্ক",
+      "ফ্লপি ডিস্ক",
+      "র‍্যাম",
+      "সিডি"
+    ],
+    "ans": 2,
+    "explain": "র‍্যাম (RAM) হলো কম্পিউটারের ইন্টারনাল বা অভ্যন্তরীণ প্রধান মেমরি। হার্ডডিস্ক ও সিডি এক্সটারনাল বা সেকেন্ডারি স্টোরেজ ক্যাটাগরির অন্তর্ভুক্ত।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের পোস্টাল অপারেটর: ১৬"
+    ]
+  },
+  {
+    "id": 158,
+    "topicsId": 720,
+    "q": "কম্পিউটারের মূল মেমরি তৈরি হয় কী দিয়ে ?",
+    "options": [
+      "অ্যালুমিনিয়াম",
+      "সিলিকন",
+      "প্লাস্টিক",
+      "কোনোটিই নয়"
+    ],
+    "ans": 1,
+    "explain": "কম্পিউটারের চিপ এবং মেমরি মূলত সেমিকন্ডাক্টর পদার্থ 'সিলিকন' দিয়ে তৈরি করা হয়।",
+    "source": [
+      "৩৫তম বিসিএস/শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 159,
+    "topicsId": 720,
+    "q": "সেমিকন্ডাক্টর মেমরি হচ্ছে-",
+    "options": [
+      "র‍্যাম ও রম",
+      "হার্ড ডিস্ক ও ফ্লপি ডিস্ক",
+      "র‍্যাম ও সিডি",
+      "রম ও পেন ড্রাইভ"
+    ],
+    "ans": 0,
+    "explain": "র‍্যাম এবং রম হলো সেমিকন্ডাক্টর বা অর্ধপরিবাহী দিয়ে তৈরি মেমরি, যা বিদ্যুৎ চলাকালীন ডাটা প্রসেস করতে পারে।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক: ১৬"
+    ]
+  },
+  {
+    "id": 160,
+    "topicsId": 720,
+    "q": "কম্পিউটার-এর RAM হচ্ছে-",
+    "options": [
+      "Read access Memory",
+      "Random access Memory",
+      "Read Arithmetic Memory",
+      "Random Arithmetic Memory"
+    ],
+    "ans": 1,
+    "explain": "RAM এর পূর্ণরূপ হলো Random Access Memory। এর অর্থ হলো মেমরির যেকোনো অংশ থেকে সরাসরি ডাটা অ্যাক্সেস করা সম্ভব।",
+    "source": [
+      "NSI-এর ডেসপাচ রাইডার: ২১"
+    ]
+  },
+  {
+    "id": 161,
+    "topicsId": 720,
+    "q": "Which one of this also known as read/write memory ?",
+    "options": [
+      "RAM",
+      "ROM",
+      "DVD",
+      "Hard Disk"
+    ],
+    "ans": 0,
+    "explain": "র‍্যাম-এ তথ্য পড়া (Read) এবং নতুন তথ্য লেখা (Write) উভয়ই যায় বলে একে Read/Write Memory বলা হয়।",
+    "source": [
+      "Sonali Bank Ltd. Officer (Freedom Fighter): 19"
+    ]
+  },
+  {
+    "id": 162,
+    "topicsId": 720,
+    "q": "When we work on any document on any PC. It is stored temporary on ?",
+    "options": [
+      "RAM",
+      "ROM",
+      "Flash memory",
+      "CPU"
+    ],
+    "ans": 0,
+    "explain": "পিসিতে কোনো কাজ করার সময় তথ্যগুলো প্রাথমিকভাবে এবং অস্থায়ীভাবে র‍্যামে (RAM) জমা থাকে। সেভ করলে তা স্থায়ী স্টোরেজে যায়।",
+    "source": [
+      "IFIC Bank Ltd. Transaction Service Officer: 19"
+    ]
+  },
+  {
+    "id": 163,
+    "topicsId": 720,
+    "q": "What is the function of RAM in computer ?",
+    "options": [
+      "storing data permanently (ডেটা স্থায়ীভাবে সংরক্ষণ)",
+      "processing data (ডেটা প্রক্রিয়াকরণ)",
+      "storing data temporarily (ডেটা অস্থায়ীভাবে সংরক্ষণ)",
+      "generating graphics (গ্রাফিক্স প্রস্তুতকরণ)",
+      "printing texts (টেক্সট প্রিন্ট করা)"
+    ],
+    "ans": 2,
+    "explain": "র‍্যামের প্রধান কাজ হলো প্রসেসিংয়ের সময় ডেটা বা ইনস্ট্রাকশনগুলোকে অস্থায়ীভাবে ধরে রাখা।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer: 10"
+    ]
+  },
+  {
+    "id": 164,
+    "topicsId": 720,
+    "q": "Which one of the following is not true for volatile Memory ? / নিচের কোনটি অস্থায়ী মেমরির জন্য প্রযোজ্য নয় ?",
+    "options": [
+      "CPU can read any address (সিপিইউ যেকোন ঠিকানা পাঠ করতে পারে)",
+      "Random Access Memory (র‍্যানডম অ্যাকসেস স্মৃতি)",
+      "Speeds measured in c.p.m (গতি মাপার একক আর.পি.এম)",
+      "Requires power to hold data (ডেটা ধারণ করার জন্য শক্তির প্রয়োজন)",
+      "None of these (কোনোটিই নয়)"
+    ],
+    "ans": 2,
+    "explain": "অস্থায়ী মেমরি বা র‍্যামের গতি আর.পি.এম (RPM) দিয়ে মাপা হয় না; আরপিএম ব্যবহৃত হয় হার্ডডিস্কের ঘূর্ণন গতি মাপতে। মেমরির গতি সাধারণত MHz বা GHz-এ মাপা হয়।",
+    "source": [
+      "City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 165,
+    "topicsId": 720,
+    "q": "Which of the following components has the highest risk failure ?",
+    "options": [
+      "Hard Disk",
+      "Magnetic Disk",
+      "Compact Disc",
+      "RAM"
+    ],
+    "ans": 3,
+    "explain": "প্রশ্ন অনুযায়ী মেমরি ফেইলিউরের ঝুঁকিতে র‍্যাম (RAM) এগিয়ে থাকে, কারণ এটি ইলেকট্রনিকভাবে খুব সংবেদনশীল এবং ভোল্টেজ ফ্লাকচুয়েশনে নষ্ট হওয়ার সম্ভাবনা বেশি থাকে।",
+    "source": [
+      "DBBL Assistant Officer : 09"
+    ]
+  },
+  {
+    "id": 166,
+    "topicsId": 720,
+    "q": "A RAM chip is labeled as '2M×16'. What is the word-size of the RAM ? / একটি র‍্যাম চিপের লেবেল 2M×16, তাহলে র‍্যামের ওয়ার্ড সাইজ কত হবে ?",
+    "options": [
+      "2 bytes",
+      "16 bytes",
+      "2×16 MB",
+      "16 bits"
+    ],
+    "ans": 3,
+    "explain": "র‍্যাম চিপের লেবেলে A×B ফরমেটে B অংশটি ওয়ার্ড সাইজ বা ডাটা পাথ নির্দেশ করে। এখানে ১৬ হলো বিট সংখ্যা।",
+    "source": [
+      "Sonali Bank Ltd. Senior Officer: 13"
+    ]
+  },
+  {
+    "id": 167,
+    "topicsId": 720,
+    "q": "Which of the following memories must be refresh many times per second ?",
+    "options": [
+      "Static RAM (SRAM)",
+      "Dynamic RAM (DRAM)",
+      "EPROM",
+      "ROM"
+    ],
+    "ans": 1,
+    "explain": "Dynamic RAM (DRAM) এর ডাটা ধরে রাখার জন্য প্রতি সেকেন্ডে হাজারবার রিফ্রেশ করতে হয়, অন্যথায় চার্জ হারিয়ে তথ্য মুছে যায়।",
+    "source": [
+      "Joint Five Banks & Financial Institution Officer 18 / Janata Bank Assistant Executive Officer:15"
+    ]
+  },
+  {
+    "id": 168,
+    "topicsId": 720,
+    "q": "Small circuit board on which the main memory DRAM is physically packaged is called-",
+    "options": [
+      "SIMD",
+      "DIMM",
+      "DIMR",
+      "SIMR",
+      "SCBM"
+    ],
+    "ans": 1,
+    "explain": "আধুনিক র‍্যাম চিপগুলো যে ছোট সার্কিট বোর্ডে বসানো থাকে তাকে DIMM (Dual In-line Memory Module) বলা হয়।",
+    "source": [
+      "Agrani Bank Ltd. officer: 11"
+    ]
+  },
+  {
+    "id": 169,
+    "topicsId": 720,
+    "q": "Which computer memory is never erased ? / কোন কম্পিউটার মেমরি কখনো স্মৃতিভ্রংশ হয় না ?",
+    "options": [
+      "ROM",
+      "RAM",
+      "PROM",
+      "EPROM"
+    ],
+    "ans": 0,
+    "explain": "ROM (Read Only Memory) হলো স্থায়ী মেমরি। বিদ্যুৎ চলে গেলেও এর তথ্য মুছে যায় না বা সাধারণ অবস্থায় এটি ইরেজ বা মোছা সম্ভব নয়।",
+    "source": [
+      "Combined & Banks Officer (General) 22 / Sonali Bank Ltd. Officer: 18 / বিদ্যুৎ উন্নয়ন বোর্ডের উপ-সহকারী : ১২"
+    ]
+  },
+  {
+    "id": 170,
+    "topicsId": 720,
+    "q": "কম্পিউটার-এর স্থায়ী স্মৃতিশক্তিকে কি বলে ? / Which one of the following is an example of nonvolatile (permanent) memory ?",
+    "options": [
+      "RAM",
+      "ROM",
+      "Hardware",
+      "Software"
+    ],
+    "ans": 1,
+    "explain": "রম (ROM) হলো নন-ভোলাটাইল বা স্থায়ী মেমরি যা পরিবর্তনযোগ্য নয় এবং পাওয়ার অফ করলেও ডাটা সংরক্ষিত থাকে।",
+    "source": [
+      "২৯তম বিসিএস / সিজিডিএফ এর জুনিয়র অডিটর (এলডিএ কাম টাইপিস্ট) : ২২ / কর্মসংস্থান ব্যাংক অ্যাসিস্ট্যান্ট অফিসার (জেনারেল) : ২১"
+    ]
+  },
+  {
+    "id": 171,
+    "topicsId": 720,
+    "q": "নিচের কোন ডিভাইসটি হতে শুধুমাত্র তথ্য পড়া (Read) যায় কিন্তু লেখা (Write) যায় না ?",
+    "options": [
+      "রম",
+      "র‍্যাম",
+      "হার্ডডিস্ক",
+      "ফ্লপি ডিস্ক"
+    ],
+    "ans": 0,
+    "explain": "ROM (Read Only Memory) থেকে কেবল তথ্য পড়া যায়, স্বাভাবিক প্রক্রিয়ায় এতে নতুন তথ্য লেখা সম্ভব নয়।",
+    "source": [
+      "বাংলাদেশ লোক প্রশাসন প্রশিক্ষণ কেন্দ্র (BPATC)-এর বিভিন্ন পদ: ১৯"
+    ]
+  },
+  {
+    "id": 172,
+    "topicsId": 720,
+    "q": "PROM chips -",
+    "options": [
+      "have nothing recorded on them (কোন কিছু রেকর্ড করা থাকে না)",
+      "permanently stores information without program (স্থায়ীভাবে প্রোগ্রাম ছাড়া অন্য তথ্যাদি জমা রাখে)",
+      "are erasable special program (বিশেষ প্রোগ্রাম যা মুছে ফেলা যায়)",
+      "are erasable electrically (প্রোগ্রাম যা বৈদ্যুতিকভাবে মুছে ফেলা যায়)",
+      "records data very fast without instruction (কোন নির্দেশনা ছাড়া খুব দ্রুত ডেটা রেকর্ড করে)"
+    ],
+    "ans": 0,
+    "explain": "PROM (Programmable ROM) চিপগুলো যখন তৈরি করা হয় তখন এতে কিছুই থাকে না। ব্যবহারকারী পরবর্তীতে বিশেষ ডিভাইসের মাধ্যমে এতে একবার মাত্র প্রোগ্রাম রেকর্ড করতে পারে।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer : 11"
+    ]
+  },
+  {
+    "id": 173,
+    "topicsId": 720,
+    "q": "কোন মেমরি অস্থিতিশীল ও মাত্র একবার লেখা যায় ?",
+    "options": [
+      "RAM",
+      "PROM",
+      "EPROM",
+      "EEPROM"
+    ],
+    "ans": 1,
+    "explain": "PROM চিপে একবার মাত্র প্রোগ্রাম লেখা সম্ভব। এটি মূলত রমের একটি প্রকারভেদ যা একবার রাইট করা যায়। PROM (Programmable Read-Only Memory) হলো একটি স্থিতিশীল বা নন-ভোলাটাইল (Permanent) মেমরি। প্রশ্নে এটিকে অস্থিতিশীল (Volatile) বলা হয়েছে, যা সম্পূর্ণ ভুল তথ্য। অস্থিতিশীল মেমরি হলো RAM।",
+    "source": [
+      "BSC Senior Officer (Cancelled): 18"
+    ]
+  },
+  {
+    "id": 174,
+    "topicsId": 720,
+    "q": "যে স্থায়ী মেমরিতে প্রোগ্রাম করা যায় এবং প্রয়োজনে মুছে ফেলা যায় তা হলো-",
+    "options": [
+      "RAM",
+      "ROM",
+      "PROM",
+      "EPROM"
+    ],
+    "ans": 3,
+    "explain": "EPROM (Erasable Programmable ROM)-এ অতিবেগুনি রশ্মি (UV light) ব্যবহার করে সংরক্ষিত তথ্য মুছে পুনরায় প্রোগ্রাম করা সম্ভব।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক: ১৬"
+    ]
+  },
+  {
+    "id": 175,
+    "topicsId": 720,
+    "q": "ফ্লপি ডিস্ক হচ্ছে -",
+    "options": [
+      "একটি পরিবাহী স্মৃতি",
+      "একটি প্রধান স্মৃতি",
+      "হার্ডডিস্কের চেয়ে ছোট",
+      "একটি শুধু গঠন স্মৃতি"
+    ],
+    "ans": 2,
+    "explain": "ফ্লপি ডিস্ক ভৌত আকার এবং ধারণক্ষমতা উভয় দিক থেকেই হার্ডডিস্কের চেয়ে অনেক ছোট হয়।",
+    "source": [
+      "ভূতাত্ত্বিক জরিপ অধিদপ্তরের সহকারী পরিচালক: ০৬"
+    ]
+  },
+  {
+    "id": 176,
+    "topicsId": 720,
+    "q": "Floppy disks which are made from flexible plastic material are also called-",
+    "options": [
+      "Hard disks",
+      "High density disks",
+      "Diskettes",
+      "Templates"
+    ],
+    "ans": 2,
+    "explain": "ফ্লপি ডিস্ককে 'ডিস্কেট' (Diskette)-ও বলা হয় কারণ এটি পাতলা এবং নমনীয় প্লাস্টিক দিয়ে তৈরি।",
+    "source": [
+      "Bangladesh Bank Officer (Cash): 16"
+    ]
+  },
+  {
+    "id": 177,
+    "topicsId": 720,
+    "q": "Which of the following is the most widely used computer device ?",
+    "options": [
+      "Solid state disks",
+      "Internal hard disk",
+      "External hard disk",
+      "Printer"
+    ],
+    "ans": 1,
+    "explain": "ব্যক্তিগত কম্পিউটারে দীর্ঘমেয়াদী তথ্য সংরক্ষণের জন্য ইন্টারনাল হার্ড ডিস্ক (Internal Hard Disk) সবচেয়ে বেশি ব্যবহৃত ডিভাইস।",
+    "source": [
+      "Dhaka Bank Ltd. MTO: 18"
+    ]
+  },
+  {
+    "id": 178,
+    "topicsId": 720,
+    "q": "What does a computer use for storing programs and data for access by the user ?",
+    "options": [
+      "RAM",
+      "ROM",
+      "Hard drive",
+      "CD-ROM",
+      "Cache memory"
+    ],
+    "ans": 2,
+    "explain": "ইউজারের ব্যবহারের জন্য প্রোগ্রাম এবং ডেটা বড় পরিসরে হার্ড ড্রাইভে (Hard Drive) স্টোর করা থাকে।",
+    "source": [
+      "Agrani Bank Ltd. Officer (Cash): 13"
+    ]
+  },
+  {
+    "id": 179,
+    "topicsId": 720,
+    "q": "'হার্ড ডিস্ক' মাপার একক হল-",
+    "options": [
+      "কিলোবাইট",
+      "মেগাবাইট",
+      "গিগাবাইট",
+      "টেরাবাইট"
+    ],
+    "ans": 2,
+    "explain": "হার্ড ডিস্কের ধারণক্ষমতা সাধারণত গিগাবাইট (GB) বা টেরাবাইট (TB) এককে পরিমাপ করা হয়। তবে প্রশ্নটি ২০০৯ সালের হওয়ায় তৎকালীন প্রেক্ষাপটে 'গিগাবাইট' ছিল সবচেয়ে প্রচলিত বড় একক। বর্তমানে টেরাবাইটও বহুল ব্যবহৃত।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক: ০৯"
+    ]
+  },
+  {
+    "id": 180,
+    "topicsId": 720,
+    "q": "Which one is the most common type of storage devices ?/ নিম্নের কোনটি সবচেয়ে বহুল ব্যবহৃত স্টোরেজ ডিভাইস ?",
+    "options": [
+      "magnetic",
+      "optical",
+      "flash",
+      "persistent"
+    ],
+    "ans": 0,
+    "explain": "কম্পিউটারে দীর্ঘমেয়াদী তথ্য সংরক্ষণের জন্য ম্যাগনেটিক (Magnetic) স্টোরেজ ডিভাইস, বিশেষ করে হার্ড ডিস্ক ড্রাইভ (HDD), সবচেয়ে সাধারণ এবং বহুল ব্যবহৃত মাধ্যম।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 11"
+    ]
+  },
+  {
+    "id": 181,
+    "topicsId": 720,
+    "q": "Which of the following storage devices can store maximum amount of data ?",
+    "options": [
+      "Floppy Disk",
+      "Compact Disk",
+      "Hard Disk",
+      "Magneto Optical Disk"
+    ],
+    "ans": 2,
+    "explain": "প্রদত্ত অপশনগুলোর মধ্যে হার্ড ডিস্ক (Hard Disk) সবচেয়ে বেশি পরিমাণ ডেটা সংরক্ষণ করতে পারে। ফ্লপি ডিস্ক বা সিডির তুলনায় হার্ড ডিস্কের ধারণক্ষমতা বহুগুণ বেশি।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 16"
+    ]
+  },
+  {
+    "id": 182,
+    "topicsId": 720,
+    "q": "Which of the following is not a removable disk ? / নিচের কোনটি অপসারণযোগ্য ডিস্ক নয় ?",
+    "options": [
+      "Floppy disk",
+      "Compact disc",
+      "DVD",
+      "USB mobile disc",
+      "Hard disk"
+    ],
+    "ans": 4,
+    "explain": "হার্ড ডিস্ক সাধারণত কম্পিউটারের কেসিংয়ের ভেতরে স্থায়ীভাবে বসানো থাকে, তাই একে 'নন-রিমুভেবল' ডিস্ক বলা হয়। অন্যদিকে ফ্লপি, সিডি বা পেনড্রাইভ সহজেই অপসারন করা যায়।",
+    "source": [
+      "Sonali, Janata and Agrani Bank Ltd. Officers (Cash): 08"
+    ]
+  },
+  {
+    "id": 183,
+    "topicsId": 720,
+    "q": "A certain hard disk has a data transfer rate of 20 MB/Sec. How much time is required to transfer 5 megabyte data from this disk to memory ?",
+    "options": [
+      "20 sec",
+      "1 sec",
+      "25 sec",
+      "5 sec",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "গাণিতিক হিসাব অনুযায়ী, সময় = মোট ডেটাট্রান্সফার রেট=5 MB20 MB/Sec=0.25 Sec। অর্থাৎ ০.২৫ সেকেন্ড সময় লাগবে।",
+    "source": [
+      "City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 184,
+    "topicsId": 720,
+    "q": "In computers, magnetic storage devices use....../ ম্যাগনেটিক স্টোরেজ ডিভাইস ব্যবহার করে.....",
+    "options": [
+      "Physical switches",
+      "Lasers",
+      "A magnet",
+      "Capacitors",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "ম্যাগনেটিক স্টোরেজ ডিভাইসগুলো ডেটা পড়া এবং লেখার জন্য চুম্বকীয় ক্ষেত্র (Magnet) বা চুম্বকীয় পদার্থের প্রলেপ ব্যবহার করে।",
+    "source": [
+      "City Bank Ltd. Probationary Officer : 11"
+    ]
+  },
+  {
+    "id": 185,
+    "topicsId": 720,
+    "q": "A hard disk is divided into tracks which are further subdivided into-",
+    "options": [
+      "Clusters",
+      "Sectors",
+      "Vectors",
+      "None"
+    ],
+    "ans": 1,
+    "explain": "একটি হার্ড ডিস্ক কতগুলো বৃত্তাকার লাইনে বিভক্ত থাকে যাকে 'ট্র্যাক' বলে। এই ট্র্যাকগুলো আবার ছোট ছোট অংশে বিভক্ত থাকে যাকে 'সেক্টর' বলা হয়।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 14/Pubali Bank Ltd. Senior Officer: 14"
+    ]
+  },
+  {
+    "id": 186,
+    "topicsId": 720,
+    "q": "In magnetic storage devices, tracks are divided into ...../ ম্যাগনেটিক স্টোরেজ ডিভাইসে ট্র্যাকগুলোকে কতগুলো..... ভাগ করা যায়",
+    "options": [
+      "Subtracks",
+      "Supertracks",
+      "Segments",
+      "Sectors"
+    ],
+    "ans": 3,
+    "explain": "ম্যাগনেটিক ডিস্কের প্রতিটি এককেন্দ্রিক বৃত্তাকার পথ বা ট্র্যাককে কতগুলো নির্দিষ্ট ব্লকে ভাগ করা হয়, যাকে সেক্টর (Sectors) বলে। এটি ডেটা সংরক্ষণের ক্ষুদ্রতম একক।",
+    "source": [
+      "City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 187,
+    "topicsId": 720,
+    "q": "Storage capacity of magnetic disk depends on-",
+    "options": [
+      "Tracks per inch of surface",
+      "Bits per inch of tracks",
+      "Disk pack in disk surface",
+      "All of them"
+    ],
+    "ans": 3,
+    "explain": "ম্যাগনেটিক ডিস্কের ধারণক্ষমতা ডিস্কের পৃষ্ঠের ট্র্যাকের ঘনত্ব (Tracks per inch), ট্র্যাকের বিট ঘনত্ব (Bits per inch) এবং ডিস্ক প্যাকের সংখ্যার ওপর নির্ভর করে।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 16"
+    ]
+  },
+  {
+    "id": 188,
+    "topicsId": 720,
+    "q": "Magnetized bits on a disk surface are arranged along concentric rings that are known as....... ডিস্কের পৃষ্ঠদেশে চৌম্বকীয় বিটগুলো এককেন্দ্রিক বৃত্তে সাজানো থাকে, এদের বলা হয়......",
+    "options": [
+      "sectors",
+      "cylinders",
+      "tracks",
+      "clusters"
+    ],
+    "ans": 2,
+    "explain": "ডিস্কের পৃষ্ঠতলে ডেটা সংরক্ষণের জন্য যে এককেন্দ্রিক বৃত্তাকার পথগুলো থাকে, সেগুলোকে টেকনিক্যাল ভাষায় ট্র্যাক (Tracks) বলা হয়।",
+    "source": [
+      "Rajshahi Krishi Unnayan Bank Senior Officer: 11"
+    ]
+  },
+  {
+    "id": 189,
+    "topicsId": 720,
+    "q": "The size of a sector in hard disk is - / হার্ডডিস্কের প্রতিটি সেক্টরের ধারণক্ষমতা-",
+    "options": [
+      "512 bytes",
+      "64 bytes",
+      "510 bytes",
+      "1000 bytes"
+    ],
+    "ans": 0,
+    "explain": "ঐতিহ্যগতভাবে একটি হার্ড ডিস্কের প্রতিটি সেক্টরের স্ট্যান্ডার্ড ধারণক্ষমতা হলো ৫১২ বাইট (512 bytes)। আধুনিক অ্যাডভান্সড ফরম্যাট ডিস্কে এটি ৪০৯৬ বাইটও হতে পারে।",
+    "source": [
+      "Sonali Bank Ltd. Officer (Cash) : 13"
+    ]
+  },
+  {
+    "id": 190,
+    "topicsId": 720,
+    "q": "Which one of the following companies is a leading manufacturer of Hard Disk Drives ? / নিচের কোনটি একটি শীর্ষস্থানীয় হার্ডডিস্ক ড্রাইভ নির্মাতা প্রতিষ্ঠান ?",
+    "options": [
+      "Seagate",
+      "Samsung",
+      "Fujitsu",
+      "Lenovo"
+    ],
+    "ans": 0,
+    "explain": "সিগেট (Seagate) হলো বিশ্বের অন্যতম প্রধান এবং শীর্ষস্থানীয় হার্ডডিস্ক ড্রাইভ উৎপাদনকারী প্রতিষ্ঠান।",
+    "source": [
+      "DBBL MTO : 12"
+    ]
+  },
+  {
+    "id": 191,
+    "topicsId": 720,
+    "q": "Which is not a performance characteristic of hard disk drive ?",
+    "options": [
+      "data transfer time",
+      "response time",
+      "power consumption",
+      "shelf life"
+    ],
+    "ans": 3,
+    "explain": "হার্ড ডিস্কের কার্যকারিতা বা পারফরম্যান্স পরিমাপের জন্য ডেটা ট্রান্সফার রেট বা রেসপন্স টাইম ব্যবহৃত হয়। 'শেলফ লাইফ' বা স্থায়িত্বকাল পারফরম্যান্সের বৈশিষ্ট্য নয়।",
+    "source": [
+      "Sonali & Janata Bank Ltd. Senior Officer (IT): 18"
+    ]
+  },
+  {
+    "id": 192,
+    "topicsId": 720,
+    "q": "Records on magnetic tapes are often grouped into....... in order to enhance reading/writing./ লেখা এবং পড়ার সুবিধার জন্য ম্যাগনেটিক টেপের রেকর্ডসমূহ প্রায়ই কতকগুলো গ্রুপে ভাগ করা হয়, এদের বলা হয়...",
+    "options": [
+      "sectors",
+      "blocks",
+      "tracks",
+      "files",
+      "assembly"
+    ],
+    "ans": 1,
+    "explain": "ম্যাগনেটিক টেপে ডেটা প্রসেসিং দ্রুত করার জন্য রেকর্ডগুলোকে ব্লক (Blocks) আকারে সাজানো হয়।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 10"
+    ]
+  },
+  {
+    "id": 193,
+    "topicsId": 720,
+    "q": "What kind of storage device can be affected by fragmentation ?",
+    "options": [
+      "magnetic",
+      "optical",
+      "solid-state",
+      "laser"
+    ],
+    "ans": 0,
+    "explain": "ম্যাগনেটিক স্টোরেজ (যেমন HDD) ফ্রেগমেন্টেশন দ্বারা প্রভাবিত হয় কারণ এতে মেকানিক্যাল রিড-রাইট হেড থাকে। ডেটা বিভিন্ন স্থানে ছড়িয়ে থাকলে হেডকে নড়াচড়া করতে হয় যা গতি কমিয়ে দেয়।",
+    "source": [
+      "Islami Bank BD Ltd. Assistant Officer (IT): 17"
+    ]
+  },
+  {
+    "id": 194,
+    "topicsId": 720,
+    "q": "ক্যাসেটের ফিতার শব্দ রক্ষিত থাকে কী হিসেবে ?",
+    "options": [
+      "বৈদ্যুতিক ক্ষেত্র হিসেবে",
+      "মেমোরি চিপ হিসেবে",
+      "চৌম্বক ক্ষেত্র হিসেবে",
+      "কার্বন ক্ষেত্র হিসেবে"
+    ],
+    "ans": 2,
+    "explain": "অডিও ক্যাসেটের ফিতায় আয়রন অক্সাইডের প্রলেপ থাকে। রেকর্ড করার সময় শব্দ তরঙ্গকে বৈদ্যুতিক সংকেতের মাধ্যমে চৌম্বক ক্ষেত্রে (Magnetic field) রূপান্তর করে ফিতায় সংরক্ষণ করা হয়।",
+    "source": [
+      "২৩তম বিসিএস/ প্রাক-প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (ভলগা) : ১৩"
+    ]
+  },
+  {
+    "id": 195,
+    "topicsId": 720,
+    "q": "ক্যাসেট প্লেয়ারের টেপে কী ব্যবহৃত হয় ?",
+    "options": [
+      "MnO2",
+      "CrO2",
+      "Na2(SO4)3",
+      "CuSO4"
+    ],
+    "ans": 1,
+    "explain": "ক্যাসেট টেপে সাধারণত ক্রোমিয়াম ডাই-অক্সাইড (CrO2) বা আয়রন অক্সাইডের প্রলেপ ব্যবহার করা হয় চুম্বকীয় বৈশিষ্ট্য তৈরির জন্য।",
+    "source": [
+      "শিক্ষা অধিদপ্তরের অধীন কারিগরী শিক্ষা জুনিয়র ইনস্ট্রাক্টর: ০৫"
+    ]
+  },
+  {
+    "id": 196,
+    "topicsId": 720,
+    "q": "Which one of the following is an example of optical storage device ? / নিচের কোনটি অপটিক্যাল ডিভাইসের উদাহরণ ?",
+    "options": [
+      "CD ROM",
+      "Hard Disk",
+      "RAM",
+      "CPU",
+      "None of these"
+    ],
+    "ans": 0,
+    "explain": "সিডি রম (CD ROM) হলো একটি অপটিক্যাল স্টোরেজ ডিভাইস কারণ এটি লেজার রশ্মি ব্যবহার করে ডেটা পড়া বা লেখার কাজ সম্পন্ন করে।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer 17 / EXIM Bank Ltd. Trainee Officer: 15 / সোনালী ব্যাংক সিং সিনিয়র অফিসার : ১৪"
+    ]
+  },
+  {
+    "id": 197,
+    "topicsId": 720,
+    "q": "নিম্নের কোনটি অপটিক্যাল ডিস্ক ?",
+    "options": [
+      "মেমোরি ডিস্ক",
+      "ম্যাগনেটিক ডিস্ক",
+      "বহুমুখী ডিজিটাল ডিস্ক",
+      "হার্ড ডিস্ক"
+    ],
+    "ans": 2,
+    "explain": "বহুমুখী ডিজিটাল ডিস্ক বা DVD (Digital Versatile Disc) হলো একটি অপটিক্যাল ডিস্ক। এটি লেজার প্রযুক্তি ব্যবহার করে ডেটা সংরক্ষণ করে।",
+    "source": [
+      "Islami Bank Ltd Asistant Trainee Officer (Cash): 17"
+    ]
+  },
+  {
+    "id": 198,
+    "topicsId": 720,
+    "q": "CD পুরো লিখলে কি হয় ?",
+    "options": [
+      "Command Description",
+      "Compact Disc",
+      "Change Data",
+      "Copy Density"
+    ],
+    "ans": 1,
+    "explain": "CD-এর পূর্ণরূপ হলো Compact Disc। এটি একটি অপটিক্যাল মিডিয়া যা ডেটা সংরক্ষণে ব্যবহৃত হয়।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)-এর অফিস সহায়ক : ১৭"
+    ]
+  },
+  {
+    "id": 199,
+    "topicsId": 720,
+    "q": "CD-ROM stands for-",
+    "options": [
+      "Computer Disc Run Only Memory",
+      "Computer Drive Read Only Memory",
+      "Compact Disc Read Only Memory",
+      "Compact Drive Run Only Memory"
+    ],
+    "ans": 2,
+    "explain": "CD-ROM-এর পূর্ণরূপ হলো Compact Disc Read Only Memory। এর মানে হলো এই ডিস্ক থেকে তথ্য শুধু পড়া সম্ভব, সাধারণ ড্রাইভে এতে নতুন তথ্য লেখা যায় না।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer (Cancelled): 17"
+    ]
+  },
+  {
+    "id": 200,
+    "topicsId": 720,
+    "q": "CD-ROM is a-",
+    "options": [
+      "Semiconductor memory",
+      "Memory register",
+      "Magnetic memory",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "CD-ROM কোনো সেমিকন্ডাক্টর বা ম্যাগনেটিক মেমরি নয়; এটি একটি অপটিক্যাল মেমরি। অপশনে অপটিক্যাল মেমরি না থাকায় 'None of these' সঠিক।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 16"
+    ]
+  },
+  {
+    "id": 201,
+    "topicsId": 720,
+    "q": "Which one of the following is a read only memory storage device ?/ শুধু পাঠ করা যায় এমন স্টোরেজ ডিভাইস নিচের কোনটি ?",
+    "options": [
+      "CD-ROM",
+      "Hard disk",
+      "Floppy disk",
+      "Pen drive"
+    ],
+    "ans": 0,
+    "explain": "সিডি-রম (CD-ROM) এমন একটি স্টোরেজ ডিভাইস যেখান থেকে তথ্য শুধু রিড বা পাঠ করা যায়, সহজে কোনো তথ্য মুছে ফেলা বা নতুন তথ্য যোগ করা যায় না।",
+    "source": [
+      "EXIM Bank Ltd. Officer (Cash): 13 / DBBL MTO : 12"
+    ]
+  },
+  {
+    "id": 202,
+    "topicsId": 720,
+    "q": "Which technology is used in compact disks ?",
+    "options": [
+      "Mechanical",
+      "Electrical",
+      "Electro Magnetic",
+      "Laser"
+    ],
+    "ans": 3,
+    "explain": "কম্প্যাক্ট ডিস্ক বা সিডিতে ডেটা রিড এবং রাইট করার জন্য লেজার (Laser) টেকনোলজি ব্যবহার করা হয়।",
+    "source": [
+      "First Security Islami Bank Ltd Probationary Officer: 21"
+    ]
+  },
+  {
+    "id": 203,
+    "topicsId": 720,
+    "q": "A normal CD-ROM usually can store up to......... data.",
+    "options": [
+      "680 KB",
+      "680 Bytes",
+      "680 MB",
+      "680 GB"
+    ],
+    "ans": 2,
+    "explain": "একটি সাধারণ সিডি-রমে সাধারণত ৭০০ এমবি (MB) পর্যন্ত ডেটা রাখা যায়। প্রদত্ত অপশনগুলোর মধ্যে ৬৮০ মেগাবাইট (MB) সঠিক উত্তরের সবচেয়ে কাছাকাছি।",
+    "source": [
+      "Combined 5 Banks Officer (Cash): 21/ Agrani Bank Ltd. Officer (Cash): 13"
+    ]
+  },
+  {
+    "id": 204,
+    "topicsId": 720,
+    "q": "A CD-ROM drive is labeled with 52X, here 52X is a measure of-",
+    "options": [
+      "data transfer rate",
+      "revolution per minute",
+      "capacity of the CD",
+      "time required to read"
+    ],
+    "ans": 0,
+    "explain": "সিডি ড্রাইভের গায়ে থাকা 52X চিহ্নটি ঐ ড্রাইভের ডেটা ট্রান্সফার রেট বা গতি নির্দেশ করে। ১X বলতে সাধারণত ১৫০ কিলোবাইট প্রতি সেকেন্ড বোঝায়।",
+    "source": [
+      "Bangladesh Bank Officer (General Side): 15/ Dutch Bangla Bank Ltd. Asscant Officer :09"
+    ]
+  },
+  {
+    "id": 205,
+    "topicsId": 720,
+    "q": "If a disk has a bad spot on its surface, the spot is called a.",
+    "options": [
+      "Disk crash",
+      "Disk error",
+      "Disk scanner",
+      "Disk sector",
+      "None of these"
+    ],
+    "ans": 4,
+    "explain": "ডিস্কের কোনো নির্দিষ্ট স্থান ক্ষতিগ্রস্ত হলে তাকে কারিগরি ভাষায় 'Bad Sector' বলা হয়। যেহেতু 'Bad Sector' সরাসরি অপশনে নেই, তাই 'None of these' সঠিক।",
+    "source": [
+      "City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 206,
+    "topicsId": 720,
+    "q": "DVD stands for-",
+    "options": [
+      "Digital Versatile Disk",
+      "Digital Version Disk",
+      "Digital Video-audio Disk",
+      "Distance Version Disk"
+    ],
+    "ans": 0,
+    "explain": "DVD-এর পূর্ণরূপ হলো Digital Versatile Disk। অনেক ক্ষেত্রে একে Digital Video Disk-ও বলা হয়ে থাকে।",
+    "source": [
+      "Bangladesh Bank Assistant Director (General): 18"
+    ]
+  },
+  {
+    "id": 207,
+    "topicsId": 720,
+    "q": "Which type of disc can store up to 17GB of Data ? / কোন ধরনের ডিস্ক 17 গিগাবাইট পর্যন্ত ডেটা ধারণ করতে সক্ষম ?",
+    "options": [
+      "Floppy Disk",
+      "CD",
+      "DVD",
+      "Optical Disc"
+    ],
+    "ans": 2,
+    "explain": "ডাবল লেয়ার এবং ডাবল সাইড বিশিষ্ট একটি DVD সর্বোচ্চ ১৭ গিগাবাইট পর্যন্ত তথ্য ধারণ করতে পারে।",
+    "source": [
+      "EXIM Bank Ltd. Officer (Cash): 11"
+    ]
+  },
+  {
+    "id": 208,
+    "topicsId": 720,
+    "q": "DVD এর চেয়ে বেশি Data store করা যায় কোনটিতে ?",
+    "options": [
+      "CD Rom",
+      "Floppy",
+      "Blue Ray Disk",
+      "Red Ray Disk"
+    ],
+    "ans": 2,
+    "explain": "ব্লু-রে ডিস্ক (Blue Ray Disk) অপটিক্যাল স্টোরেজের মধ্যে ডিভিডির উন্নত সংস্করণ, যা একটি সিঙ্গেল লেয়ারে ২৫ জিবি এবং ডাবল লেয়ারে ৫০ জিবি পর্যন্ত ডেটা রাখতে পারে।",
+    "source": [
+      "পিএসসির এর সিনিয়র ইনস্ট্রাক্টর (TTC): ২১"
+    ]
+  },
+  {
+    "id": 209,
+    "topicsId": 720,
+    "q": "Flash memory is -",
+    "options": [
+      "Non-removable",
+      "Non-volatile",
+      "Non- portable",
+      "Volatile"
+    ],
+    "ans": 1,
+    "explain": "ফ্ল্যাশ মেমরি হলো একটি নন-ভোলাটাইল (Non-volatile) স্টোরেজ, যার অর্থ হলো বিদ্যুৎ সংযোগ বিচ্ছিন্ন করলেও এতে সংরক্ষিত তথ্য মুছে যায় না।",
+    "source": [
+      "Sonali Bank Ltd. Officer (Cash): 13"
+    ]
+  },
+  {
+    "id": 210,
+    "topicsId": 720,
+    "q": "Which type of ROM is used in pen drive ? / পেনড্রাইভে কোন ধরনের রম ব্যবহৃত হয় ?",
+    "options": [
+      "Mask ROM",
+      "PROM",
+      "CD ROM",
+      "EE PROM"
+    ],
+    "ans": 3,
+    "explain": "পেনড্রাইভে EEPROM (Electrically Erasable Programmable Read-Only Memory) প্রযুক্তির ফ্ল্যাশ মেমরি ব্যবহৃত হয়, যা বৈদ্যুতিকভাবে মুছে পুনরায় লেখা যায়।",
+    "source": [
+      "Educational Engineering Department Computer Operator: 21"
+    ]
+  },
+  {
+    "id": 211,
+    "topicsId": 720,
+    "q": "Which is a type of Electrically-Erasable Programmable Read- Only Memory ?",
+    "options": [
+      "Flash",
+      "Flange",
+      "Fury",
+      "FRAM"
+    ],
+    "ans": 0,
+    "explain": "ফ্ল্যাশ মেমরি (Flash Memory) হলো এক ধরণের বিশেষ EEPROM যা পেনড্রাইভ বা মেমোরি কার্ডে ব্যবহৃত হয়।",
+    "source": [
+      "Pubali Bank Ltd. Senior Officer: 17"
+    ]
+  },
+  {
+    "id": 212,
+    "topicsId": 720,
+    "q": "Pen Drive এর সহিত Functionally বা কর্ম প্রক্রিয়ায় নিম্নের কোনটি সামঞ্জস্যপূর্ণ ?",
+    "options": [
+      "Hard Disk",
+      "Keyboard",
+      "Mouse",
+      "Display"
+    ],
+    "ans": 0,
+    "explain": "পেন ড্রাইভ এবং হার্ড ডিস্ক উভয়ই সেকেন্ডারি স্টোরেজ হিসেবে কাজ করে এবং ডেটা সংরক্ষণের জন্য ব্যবহৃত হয়, তাই এদের কর্মপ্রক্রিয়া সামঞ্জস্যপূর্ণ।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)-এর অফিস সহায়ক: ১৭"
+    ]
+  },
+  {
+    "id": 213,
+    "topicsId": 720,
+    "q": "Pen drive takes the place of- /পেন ড্রাইভ........... এর স্থান দখল করেছে।",
+    "options": [
+      "Hard Disk",
+      "Printer",
+      "Modem",
+      "Floppy Disk",
+      "WebCam"
+    ],
+    "ans": 3,
+    "explain": "আগে তথ্য আদান-প্রদানের জন্য ফ্লপি ডিস্ক ব্যবহৃত হতো। বর্তমানে এর জায়গা দখল করেছে পেন ড্রাইভ, কারণ এটি অধিক ধারণক্ষমতা সম্পন্ন এবং টেকসই।",
+    "source": [
+      "Sonali, Janata, Agrani and Rupali Bank Ltd.Officers: 08"
+    ]
+  },
+  {
+    "id": 214,
+    "topicsId": 720,
+    "q": "What is the unit of measurement for drive access time ?",
+    "options": [
+      "Nanoseconds",
+      "Seconds",
+      "Microseconds",
+      "Picoseconds",
+      "Milliseconds"
+    ],
+    "ans": 4,
+    "explain": "ডিস্ক বা ড্রাইভ থেকে তথ্য খুঁজে পেতে যে সময় লাগে (Access Time), তা সাধারণত মিলিসেকেন্ড (Milliseconds) এককে পরিমাপ করা হয়।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer: 13"
+    ]
+  },
+  {
+    "id": 215,
+    "topicsId": 720,
+    "q": "Access time is made up of-",
+    "options": [
+      "Seek time",
+      "search time",
+      "data transfer time",
+      "a, b and c",
+      "a and b"
+    ],
+    "ans": 3,
+    "explain": "অ্যাকসেস টাইম হলো সিক টাইম (Seek time), ল্যাটেন্সি বা সার্চ টাইম এবং ডেটা ট্রান্সফার টাইমের সমষ্টি।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer: 10"
+    ]
+  },
+  {
+    "id": 216,
+    "topicsId": 720,
+    "q": "Data access time depends on-",
+    "options": [
+      "Seek time",
+      "Rotational delay",
+      "Operating frequency",
+      "All of them"
+    ],
+    "ans": 3,
+    "explain": "ডিস্ক থেকে ডেটা অ্যাক্সেস করার সময়টি সিক টাইম (মাথা সঠিক ট্র্যাকে পৌঁছানো), রোটেশনাল ডিলে (সঠিক সেক্টর মাথায় আসা) এবং ফ্রিকোয়েন্সির ওপর নির্ভর করে।",
+    "source": [
+      "Pubali Bank Ltd. Junior Officer (Cash): 16/ Janata Bank Assistant Executive Officer (Teller): 15"
+    ]
+  },
+  {
+    "id": 217,
+    "topicsId": 720,
+    "q": "Which of the following is major part of time taken when accessing data on the disk ?",
+    "options": [
+      "Settle time",
+      "Rotational latency",
+      "Waiting time",
+      "Seek time"
+    ],
+    "ans": 3,
+    "explain": "ডিস্ক অ্যাক্সেস টাইমের সবচেয়ে বড় বা প্রধান অংশ হলো সিক টাইম (Seek time), যা রিড-রাইট হেডকে সঠিক ট্র্যাকে নিয়ে যেতে ব্যয় হয়।",
+    "source": [
+      "Govt Bank Officer (IT) : 19"
+    ]
+  },
+  {
+    "id": 218,
+    "topicsId": 720,
+    "q": "নিচের কোন মেমোরিটিতে Access Time সবচেয়ে কম ?",
+    "options": [
+      "Registers",
+      "SSD",
+      "RAM",
+      "Cache memory"
+    ],
+    "ans": 0,
+    "explain": "রেজিস্টার (Registers) হলো সিপিইউ-এর অভ্যন্তরীণ মেমরি এবং এটি সবচেয়ে দ্রুত কাজ করে, তাই এর অ্যাকসেস টাইম সবচেয়ে কম।",
+    "source": [
+      "৪০৩ম বিসিএস"
+    ]
+  },
+  {
+    "id": 219,
+    "topicsId": 720,
+    "q": "Which of the following memory have the shortest access time ?/ নিচের কোন মেমরিতে সবচেয়ে দ্রুত অ্যাকসেস করা যায় ?",
+    "options": [
+      "Magnetic Memory",
+      "Hard Disk",
+      "Cache memory",
+      "Magnetic Bubble"
+    ],
+    "ans": 2,
+    "explain": "প্রদত্ত বিকল্পগুলোর মধ্যে ক্যাশ মেমরি (Cache memory) সবচেয়ে দ্রুতগতির, কারণ এটি সরাসরি প্রসেসরের সাথে যুক্ত থাকে।",
+    "source": [
+      "স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়ে সহকারী মেইনটেনেন্স প্রকৌশলী: ১০"
+    ]
+  },
+  {
+    "id": 220,
+    "topicsId": 720,
+    "q": "Which memory device has highest speed of access ?/ কোনটি উচ্চগতির অ্যাকসেস সম্পন্ন মেমরি ডিভাইস ?",
+    "options": [
+      "CD",
+      "Hard Disk",
+      "Cache",
+      "RAM"
+    ],
+    "ans": 2,
+    "explain": "সিডি, হার্ড ডিস্ক বা র‍্যামের তুলনায় ক্যাশ (Cache) মেমরির অ্যাক্সেস স্পিড বা গতি সবচেয়ে বেশি।",
+    "source": [
+      "Karmasangstan Bank (Officer Cash): 15/ Dutch Bangla Bank Ltd. Assistant Officer: 09"
+    ]
+  },
+  {
+    "id": 221,
+    "topicsId": 720,
+    "q": "কোনটি সবচেয়ে দ্রুত কাজ করে ?",
+    "options": [
+      "RAM",
+      "Hard Disk",
+      "Cache",
+      "Keyboard"
+    ],
+    "ans": 2,
+    "explain": "প্রসেসরের খুব কাছে থাকায় এবং বিশেষ প্রযুক্তিতে তৈরি হওয়ায় ক্যাশ মেমরি (Cache) হার্ড ডিস্ক বা র‍্যামের চেয়েও অনেক দ্রুত তথ্য আদান-প্রদান করতে পারে।",
+    "source": [
+      "তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তরের সহকারী প্রোগ্রামার: ২০"
+    ]
+  },
+  {
+    "id": 222,
+    "topicsId": 720,
+    "q": "নিচের কোনটির ডাটা ট্রান্সমিশন স্পিড সবচেয়ে বেশি ?",
+    "options": [
+      "র‍্যাম",
+      "হার্ডডিস্ক",
+      "পেনড্রাইভ",
+      "ক্যাশ মেমরি"
+    ],
+    "ans": 3,
+    "explain": "মেমোরি হায়ারার্কি বা স্তরবিন্যাস অনুযায়ী ক্যাশ মেমরি (Cache) সবচেয়ে ওপরে থাকে এবং এর ডাটা ট্রান্সমিশন স্পিড সবচেয়ে বেশি।",
+    "source": [
+      "বাংলাদেশ লোক প্রশাসন প্রশিক্ষণ কেন্দ্রের বিভিন্ন পদ : ১৯"
+    ]
+  },
+  {
+    "id": 223,
+    "topicsId": 720,
+    "q": "নিচের কোন মাধ্যমটির ডেটা (data) ধারণক্ষমতা সবচেয়ে বেশি ?",
+    "options": [
+      "ফ্লপি ডিস্ক",
+      "কমপ্যাক্ট ডিস্ক",
+      "ডিজিটাল ভিডিও ডিস্ক",
+      "মডেম",
+      "কোনোটিই নয়"
+    ],
+    "ans": 2,
+    "explain": "ফ্লপি ডিস্ক (১.৪৪ এমবি) এবং সিডি (৭০০ এমবি) এর তুলনায় ডিভিডি বা ডিজিটাল ভিডিও ডিস্ক (৪.৭ জিবি থেকে ১৭ জিবি) এর ধারণক্ষমতা অনেক বেশি।",
+    "source": [
+      "উপজেলা পোস্ট মাস্টার : ১০"
+    ]
+  },
+  {
+    "id": 224,
+    "topicsId": 720,
+    "q": "Which of the following is not a characteristic of RAM ? / নিচের কোনটি র‍্যামের বৈশিষ্ট্য নয় ?",
+    "options": [
+      "RAM is volatile (র‍্যাম অস্থায়ী)",
+      "RAM contains data being used (ব্যবহারের পর ডেটা র‍্যামে থাকে)",
+      "Contents of RAM can be changed (র‍্যামের আধেয়সমূহ পরিবর্তনীয়)",
+      "RAM is faster than cache memory (র‍্যাম ক্যাশ মেমরির চেয়ে দ্রুতগতির)",
+      "None of these (কোনোটিই নয়)"
+    ],
+    "ans": 3,
+    "explain": "ক্যাশ মেমরি র‍্যামের চেয়ে অনেক বেশি দ্রুতগতির। তাই 'র‍্যাম ক্যাশ মেমরির চেয়ে দ্রুতগতির'—এই উক্তিটি ভুল বা র‍্যামের বৈশিষ্ট্য নয়।",
+    "source": [
+      "City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 225,
+    "topicsId": 720,
+    "q": "Which of the following statements is true ?",
+    "options": [
+      "Cache Memories are larger than RAM (ক্যাশ মেমরি র‍্যামের চেয়ে বড়)",
+      "Cache Memories are smaller than RAM (ক্যাশ মেমরি র‍্যামের চেয়ে ছোট)",
+      "Information in ROM can be written by users (ব্যবহারকারী রমে তথ্য লিখতে পারে)",
+      "ROM is faster than RAM (রম র‍্যামের চেয়ে দ্রুতগতির)",
+      "None of these (কোনোটিই নয়)"
+    ],
+    "ans": 1,
+    "explain": "ক্যাশ মেমরি অত্যন্ত ব্যয়বহুল ও দ্রুতগতির হওয়ায় এর আকার র‍্যামের তুলনায় অনেক ছোট হয় (সাধারণত কয়েক মেগাবাইট)।",
+    "source": [
+      "DBBL MTO : 12"
+    ]
+  },
+  {
+    "id": 226,
+    "topicsId": 720,
+    "q": "Which one of the following components impacts on the processing speed of a computer ?/কম্পিউটারের প্রসেসিং স্পিড কোন কোন উপাদানের উপর নির্ভরশীল ?",
+    "options": [
+      "RAM",
+      "Bus width",
+      "Cache Memory",
+      "All of these",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "কম্পিউটারের প্রসেসিং গতি র‍্যামের আকার, ডেটা চলাচলের পথ বা বাস উইডথ এবং ক্যাশ মেমরির ওপর সম্মিলিতভাবে নির্ভর করে।",
+    "source": [
+      "DBBL MTO: 12"
+    ]
+  },
+  {
+    "id": 227,
+    "topicsId": 720,
+    "q": "What kind of secondary storage is provided by magnetic disks ?",
+    "options": [
+      "fast speed, high capacity (উচ্চগতি, অধিক ক্ষমতাসম্পন্ন)",
+      "slow speed, high capacity (নিম্নগতি, অধিক ক্ষমতাসম্পন্ন)",
+      "fast speed, low capacity (উচ্চগতি, নিম্ন ক্ষমতাসম্পন্ন)",
+      "slow speed, low capacity (নিম্নগতি, নিম্ন ক্ষমতাসম্পন্ন)",
+      "none (কোনটিই নয়)"
+    ],
+    "ans": 1,
+    "explain": "প্রাইমারি মেমরির তুলনায় ম্যাগনেটিক ডিস্কের গতি কম (Slow speed) হলেও এটি বিশাল পরিমাণ তথ্য (High capacity) স্থায়ীভাবে জমা রাখতে পারে।",
+    "source": [
+      "Agrani Bank Ltd. Officer : 10"
+    ]
+  }
+]

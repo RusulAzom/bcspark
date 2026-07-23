@@ -1,0 +1,4201 @@
+[
+  {
+    "id": 1,
+    "topicsId": 705,
+    "q": "What do the personal computers form when they are connected together ?",
+    "options": [
+      "Super Computer",
+      "Network",
+      "Server",
+      "Enterprise"
+    ],
+    "ans": 1,
+    "explain": "একাধিক ব্যক্তিগত কম্পিউটার (PC) যখন একে অপরের সাথে সংযুক্ত হয় এবং তথ্য আদান-প্রদান করতে পারে, তখন তাকে কম্পিউটার নেটওয়ার্ক (Network) বলা হয়।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer: 11"
+    ]
+  },
+  {
+    "id": 2,
+    "topicsId": 705,
+    "q": "কোন ব্যক্তির নিকটবর্তী বিভিন্ন ডিভাইসের সংযোগ স্থাপন করে তথ্য আদান-প্রদানের নেটওয়ার্ককে কি বলে ?",
+    "options": [
+      "PAN",
+      "WAN",
+      "MAN",
+      "LAN"
+    ],
+    "ans": 0,
+    "explain": "ব্যক্তির নিকটবর্তী বিভিন্ন ডিভাইস (যেমন: স্মার্টফোন, ল্যাপটপ, ব্লুটুথ স্পিকার) নিয়ে গঠিত নেটওয়ার্ককে PAN (Personal Area Network) বলা হয়। এর ব্যাপ্তি সাধারণত ১০ মিটারের মধ্যে থাকে।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় (ক ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 3,
+    "topicsId": 705,
+    "q": "LAN বলতে কী বুঝায় ?",
+    "options": [
+      "Local Area Network",
+      "Label Area Network",
+      "Link area network",
+      "Long Area Network",
+      "Large Area Network"
+    ],
+    "ans": 0,
+    "explain": "LAN-এর পূর্ণরূপ হলো Local Area Network। এটি নির্দিষ্ট একটি ছোট এলাকা যেমন— বাড়ি, অফিস বা শিক্ষা প্রতিষ্ঠানের কম্পিউটারগুলোর মধ্যে সংযোগ স্থাপন করে।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা অধিদপ্তর (NSI)-এর ফিল্ড অফিসার : ২১/ কৃষি মন্ত্রণালয়ের ডেটা এন্ট্রি অপারেটর: ২১/ সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক): ১৯"
+    ]
+  },
+  {
+    "id": 4,
+    "topicsId": 705,
+    "q": "The word LAN is related to-",
+    "options": [
+      "Air traffic control",
+      "Fertilizer factory",
+      "Bridge design",
+      "Atomic reactor",
+      "Computer network"
+    ],
+    "ans": 4,
+    "explain": "LAN বা Local Area Network শব্দটি সরাসরি কম্পিউটার নেটওয়ার্কিং (Computer network)-এর সাথে সম্পর্কিত।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 08"
+    ]
+  },
+  {
+    "id": 5,
+    "topicsId": 705,
+    "q": "স্বল্প দূরত্বে নেটওয়ার্কিং এর জন্য কোনটি ব্যবহৃত হয় ?",
+    "options": [
+      "ইন্টারনেট",
+      "ইন্ট্রানেট",
+      "LAN",
+      "WAN"
+    ],
+    "ans": 2,
+    "explain": "স্বল্প দূরত্ব বা নির্দিষ্ট সীমানার মধ্যে (যেমন একই বিল্ডিং) নেটওয়ার্কিংয়ের জন্য LAN (Local Area Network) সবচেয়ে বেশি উপযোগী।",
+    "source": [
+      "কন্ট্রোলার জেনারেল ডিফেন্স ফাইন্যান্সের অডিটর : ১৪"
+    ]
+  },
+  {
+    "id": 6,
+    "topicsId": 705,
+    "q": "A network which is used for sharing data, software and hardware among several users owning microcomputer is called:/একটি নেটওয়ার্ক যা কয়েকজন মাইক্রোকম্পিউটারের মালিক নিজেদের মধ্যে তথ্য, সফটওয়্যার এবং হার্ডওয়্যার আদান-প্রদানে ব্যবহার করে, তাকে বলে-",
+    "options": [
+      "WAN",
+      "MAN",
+      "LAN",
+      "VAN"
+    ],
+    "ans": 2,
+    "explain": "একটি নির্দিষ্ট প্রতিষ্ঠানের অভ্যন্তরে মাইক্রোকম্পিউটার ব্যবহারকারীদের মধ্যে রিসোর্স (সফটওয়্যার, হার্ডওয়্যার) শেয়ার করার জন্য LAN ব্যবহৃত হয়।",
+    "source": [
+      "BDBL. Senior Officer 11/Bank Alfalah Ltd. MTO: 05"
+    ]
+  },
+  {
+    "id": 7,
+    "topicsId": 705,
+    "q": "আপনি আপনার অফিসের কম্পিউটার সমূহের মধ্যে একটি নেটওয়ার্ক স্থাপন করলে সেটি কোন ধরনের নেটওয়ার্ক হবে ?",
+    "options": [
+      "Local Area Network",
+      "Campus Area Network",
+      "Wide Area Network",
+      "Global Area Network",
+      "কোনটিই নয়"
+    ],
+    "ans": 0,
+    "explain": "একটি অফিসের অভ্যন্তরীণ কম্পিউটারগুলোর সংযোগকে Local Area Network (LAN) বলা হয়।",
+    "source": [
+      "Bangladesh Krishi Bank Officer (Cash): 15"
+    ]
+  },
+  {
+    "id": 8,
+    "topicsId": 705,
+    "q": "একটি গবেষণাগারে সংযুক্ত কম্পিউটারগুলো কোন নেটওয়ার্কের অন্তর্ভুক্ত ?",
+    "options": [
+      "LAN",
+      "MAN",
+      "WAN",
+      "PAN"
+    ],
+    "ans": 0,
+    "explain": "গবেষণাগার একটি নির্দিষ্ট ছোট এলাকা হওয়ায় সেখানে সংযুক্ত কম্পিউটারগুলো LAN-এর অন্তর্ভুক্ত।",
+    "source": [
+      "GST বিশ্ববিদ্যালয় (খ ইউনিট): ২০-২১"
+    ]
+  },
+  {
+    "id": 9,
+    "topicsId": 705,
+    "q": "একটি বিল্ডিংয়ের কম্পিউটারসমূহের মধ্যে নেটওয়ার্ক স্থাপন করা হলে তাকে কি ধরনের নেটওয়ার্ক বলা হয় ?",
+    "options": [
+      "PAN",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "ans": 1,
+    "explain": "একটি একক বিল্ডিংয়ের ভেতরে সীমাবদ্ধ নেটওয়ার্ককে LAN বলা হয়।",
+    "source": [
+      "রাজশাহী বোর্ড (উচ্চ মাধ্যমিক)- ১৬ / কৃষি উন্নয়ন ব্যাংক ডাটা এন্ট্রি অপারেটর : ১০"
+    ]
+  },
+  {
+    "id": 10,
+    "topicsId": 705,
+    "q": "পাশাপাশি দু'টি ভবনে বিভিন্ন তলায় অবস্থিত 5টি কম্পিউটার থেকে 1টি প্রিন্টারে প্রিন্ট সুবিধা প্রদান করতে হলে কোন ধরনের প্রযুক্তি সেবা সর্বাধিক যুক্তিযুক্ত ?",
+    "options": [
+      "PAN",
+      "MAN",
+      "WAN",
+      "LAN"
+    ],
+    "ans": 3,
+    "explain": "পাশাপাশি অবস্থিত ভবনগুলোর মধ্যে রিসোর্স (যেমন: প্রিন্টার) শেয়ার করার জন্য LAN (Local Area Network) প্রযুক্তি ব্যবহার করা হয়।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক) : ১৭"
+    ]
+  },
+  {
+    "id": 11,
+    "topicsId": 705,
+    "q": "How many pairs of stations can simultaneously communicate on Ethernet LAN ?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Multiple"
+    ],
+    "ans": 0,
+    "explain": "ট্র্যাডিশনাল ইথারনেট ল্যান (যেমন বাস টপোলজি ভিত্তিক ইথারনেট) একটি শেয়ারড মিডিয়াম ব্যবহার করে, যেখানে একটি নির্দিষ্ট সময়ে কেবল এক জোড়া স্টেশন (একক ট্রান্সমিশন) যোগাযোগ করতে পারে। আধুনিক সুইচড ইথারনেটে মাল্টিপল সম্ভব হলেও তাত্ত্বিকভাবে ইথারনেট ল্যানের মৌলিক কনসেপ্ট অনুযায়ী উত্তর ১।",
+    "source": [
+      "Sonali Bank, Janata Bank Ltd. Officer (IT): 19"
+    ]
+  },
+  {
+    "id": 12,
+    "topicsId": 705,
+    "q": "The IEEE standard of LAN is -",
+    "options": [
+      "IEEE 802.1",
+      "IEEE 802",
+      "IEEE 802.12",
+      "IEEE 802.9"
+    ],
+    "ans": 1,
+    "explain": "IEEE 802 হলো লোকাল এরিয়া নেটওয়ার্ক (LAN) এবং মেট্রোপলিটন এরিয়া নেটওয়ার্ক (MAN)-এর জন্য নির্ধারিত স্ট্যান্ডার্ডের একটি পরিবার।",
+    "source": [
+      "Agrani Bank Ltd Senior Officer (Cancelled): 17"
+    ]
+  },
+  {
+    "id": 13,
+    "topicsId": 705,
+    "q": "A varsity campus has hundreds of computers and they are interconnected using Windows Operating system What type of network is it ? / একটি বিশ্ববিদ্যালয়ে শতাধিক কম্পিউটার আছে এবং পরস্পর সংযুক্ত এ সকল কম্পিউটার উইন্ডোজ অপারেটিং সিস্টেম ব্যবহার করে। এটি কি ধরনের নেটওয়ার্ক ?",
+    "options": [
+      "WAN",
+      "MAN",
+      "LAN",
+      "CAN"
+    ],
+    "ans": 3,
+    "explain": "একটি বিশ্ববিদ্যালয়ের ক্যাম্পাসের ভেতরে যখন একাধিক ল্যান (LAN) যুক্ত করা হয়, তখন তাকে CAN (Campus Area Network) বলা হয়।",
+    "source": [
+      "Dutch Bangla Bank Limited Assistant Officer: 09"
+    ]
+  },
+  {
+    "id": 14,
+    "topicsId": 705,
+    "q": "WAN stands for-",
+    "options": [
+      "Wap Area Network",
+      "Wide Area Network",
+      "Wide Array Net",
+      "Wireless Area Network"
+    ],
+    "ans": 1,
+    "explain": "WAN-এর পূর্ণরূপ হলো Wide Area Network। এটি বিশাল ভৌগোলিক এলাকা যেমন— একাধিক দেশ বা মহাদেশ জুড়ে বিস্তৃত নেটওয়ার্ক।",
+    "source": [
+      "Premier Bank Ltd. TIO (Cash): 21"
+    ]
+  },
+  {
+    "id": 15,
+    "topicsId": 705,
+    "q": "The most distinctive difference between a LAN and a WAN is-",
+    "options": [
+      "Distance covered (আওতাধীন দূরত্ব)",
+      "Machine size (মেশিনের আকার)",
+      "Number of users (ব্যবহারকারীর সংখ্যা)",
+      "Number of work stations (কর্মস্থলের সংখ্যা)"
+    ],
+    "ans": 0,
+    "explain": "LAN এবং WAN-এর মধ্যে প্রধান পার্থক্য হলো ভৌগোলিক এলাকা বা আওতাধীন দূরত্ব। ল্যান ছোট এলাকায় সীমাবদ্ধ আর ওয়্যান বিশাল এলাকা জুড়ে বিস্তৃত।",
+    "source": [
+      "Dutch Bangla Bank Ltd. Officer:04"
+    ]
+  },
+  {
+    "id": 16,
+    "topicsId": 705,
+    "q": "What type of network provides access to the regional service providers and typically span distances greater than 100 miles ?",
+    "options": [
+      "LAN",
+      "MAN",
+      "WAN",
+      "WLAN",
+      "DAP"
+    ],
+    "ans": 2,
+    "explain": "১০০ মাইলের বেশি বা বিশাল ভৌগোলিক দূরত্ব কভার করে এবং আঞ্চলিক সার্ভিস প্রোভাইডারদের সাথে সংযুক্ত থাকে এমন নেটওয়ার্ককে WAN বলা হয়।",
+    "source": [
+      "Probashi Kallyan Bank Programmer: 19 / Standard Bank Ltd. Assistant Officer: 12"
+    ]
+  },
+  {
+    "id": 17,
+    "topicsId": 705,
+    "q": "পৃথিবীকে বিশ্বগ্রামে পরিণত করেছে কোন নেটওয়ার্ক ?",
+    "options": [
+      "PAN",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "ans": 3,
+    "explain": "WAN (Wide Area Network) বা ইন্টারনেটের মাধ্যমেই সমগ্র পৃথিবী এখন হাতের মুঠোয় চলে এসেছে, যা পৃথিবীকে একটি বিশ্বগ্রামে (Global Village) পরিণত করেছে।",
+    "source": [
+      "বেরোবি (E ইউনিট) : ১৭-১৮"
+    ]
+  },
+  {
+    "id": 18,
+    "topicsId": 705,
+    "q": "What do we call a network whose elements may be separate by some distance? It usually involves two or more small networks and dedicated high-speed telephone lines.",
+    "options": [
+      "URL",
+      "LAN",
+      "WAN",
+      "www"
+    ],
+    "ans": 2,
+    "explain": "যখন দূরবর্তী অবস্থানে থাকা দুই বা ততোধিক ছোট নেটওয়ার্ককে উচ্চগতির টেলিফোন লাইন বা স্যাটেলাইটের মাধ্যমে যুক্ত করা হয়, তখন তাকে WAN বলা হয়।",
+    "source": [
+      "Pubali Bank Ltd. Senior Officer: 17"
+    ]
+  },
+  {
+    "id": 19,
+    "topicsId": 705,
+    "q": "Office LANs which are scattered geographically on large scale can be connected by the use of corporate-",
+    "options": [
+      "CAN",
+      "WLAN",
+      "WAN",
+      "CLWN"
+    ],
+    "ans": 2,
+    "explain": "ভৌগোলিকভাবে ছড়িয়ে থাকা বিভিন্ন অফিসের ল্যানগুলোকে সংযুক্ত করতে কর্পোরেট WAN ব্যবহার করা হয়।",
+    "source": [
+      "Bangladesh Bank Asst Director (General) : 18"
+    ]
+  },
+  {
+    "id": 20,
+    "topicsId": 705,
+    "q": "বড় ভৌগোলিক এরিয়ার ক্ষেত্রে দুই বা ততোধিক ল্যান একসাথে জুড়ে কি ধরনের নেটওয়ার্ক গড়ে ?",
+    "options": [
+      "WAN",
+      "SAN",
+      "CAN",
+      "HAN"
+    ],
+    "ans": 0,
+    "explain": "বিশাল ভৌগোলিক দূরত্বে দুই বা ততোধিক LAN-কে যুক্ত করে WAN তৈরি করা হয়।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (বি ইউনিট) : ১৯-২০"
+    ]
+  },
+  {
+    "id": 21,
+    "topicsId": 705,
+    "q": "নিচের কোনটি ইন্টারনেট নেটওয়ার্কের কাঠামোর উদাহরণ ?",
+    "options": [
+      "SAN",
+      "JAN",
+      "TAN",
+      "WAN"
+    ],
+    "ans": 3,
+    "explain": "ইন্টারনেট হলো পৃথিবীর সবচেয়ে বড় WAN (Wide Area Network)-এর উদাহরণ।",
+    "source": [
+      "মার্কেনটাইল ব্যাংক লি. প্রবেশনারি অফিসার : ১৫"
+    ]
+  },
+  {
+    "id": 22,
+    "topicsId": 705,
+    "q": "সকল নেটওয়ার্কের নেটওয়ার্ক হলো-",
+    "options": [
+      "ইন্ট্রানেট",
+      "ইন্টারনেট",
+      "গুগল",
+      "ফায়ারফক্স"
+    ],
+    "ans": 1,
+    "explain": "ইন্টারনেটকে বলা হয় 'Network of networks', কারণ এটি বিশ্বজুড়ে ছড়িয়ে থাকা অসংখ্য নেটওয়ার্কের সমষ্টি।",
+    "source": [
+      "বাংলাদেশ বেতারের সহকারী সম্পাদক: ১৯"
+    ]
+  },
+  {
+    "id": 23,
+    "topicsId": 705,
+    "q": "If a computer on the network shares resources for others to use, it is called....... /নেটওয়ার্কের একটি কম্পিউটার যদি অন্যদের রিসোর্স ব্যবহার করার সুযোগ দেয়, তাকে বলে-",
+    "options": [
+      "Server",
+      "Client",
+      "Mainframe",
+      "Superscalar processor",
+      "Fiber Optic"
+    ],
+    "ans": 0,
+    "explain": "সার্ভার (Server) হলো একটি শক্তিশালী কম্পিউটার যা নেটওয়ার্কের অন্যান্য কম্পিউটারকে (ক্লায়েন্টকে) বিভিন্ন রিসোর্স ও সেবা প্রদান করে।",
+    "source": [
+      "Bangladesh Bank Cash Officer: 11"
+    ]
+  },
+  {
+    "id": 24,
+    "topicsId": 705,
+    "q": "সার্ভারের সাথে সংযুক্ত কম্পিউটারকে বলা হয়-",
+    "options": [
+      "পিসি",
+      "অর্ডার",
+      "ওয়ার্ক স্টেশন",
+      "হোস্ট"
+    ],
+    "ans": 2,
+    "explain": "নেটওয়ার্কের যে কম্পিউটারগুলো সার্ভার থেকে রিসোর্স গ্রহণ করে বা কাজ করার জন্য ব্যবহৃত হয়, সেগুলোকে ওয়ার্ক স্টেশন (Work Station) বা ক্লায়েন্ট বলা হয়। তবে নেটওয়ার্কিং-এর মূল পরিভাষা অনুযায়ী, সার্ভারের সাথে যুক্ত প্রধান বা কেন্দ্রীয় কম্পিউটারকে 'হোস্ট' (Host) বলা হয়।",
+    "source": [
+      "মহাহিসাব নিরীক্ষক এবং নিয়ন্ত্রকের অধীনে জুনিয়র অডিটর : ১১"
+    ]
+  },
+  {
+    "id": 25,
+    "topicsId": 705,
+    "q": "The client of computer server is known as-",
+    "options": [
+      "Terminal",
+      "Work Station",
+      "Subscriber",
+      "None"
+    ],
+    "ans": 1,
+    "explain": "ক্লায়েন্ট-সার্ভার মডেলে কম্পিউটার সার্ভারের ক্লায়েন্টকে ওয়ার্ক স্টেশন (Work Station) হিসেবে অভিহিত করা হয়।",
+    "source": [
+      "দুর্নীতি দমন কমিশনের সহকারী পরিচালক: ২০"
+    ]
+  },
+  {
+    "id": 26,
+    "topicsId": 705,
+    "q": "What type of computers are client computers (most of the time) in a client-server system ?",
+    "options": [
+      "PDA",
+      "Microcomputer",
+      "Mini-computer",
+      "Mainframe"
+    ],
+    "ans": 1,
+    "explain": "ক্লায়েন্ট-সার্ভার সিস্টেমে ক্লায়েন্ট হিসেবে সাধারণত সাধারণ পিসি বা মাইক্রোকম্পিউটার (Microcomputer) ব্যবহৃত হয়।",
+    "source": [
+      "Dhaka Bank Probationary Officer : 21"
+    ]
+  },
+  {
+    "id": 27,
+    "topicsId": 705,
+    "q": "What is required when more than one person uses a central computer at the same time ?",
+    "options": [
+      "Light pen",
+      "Mouse",
+      "Terminal",
+      "Digitizer"
+    ],
+    "ans": 2,
+    "explain": "যখন অনেক ব্যক্তি একই সাথে একটি কেন্দ্রীয় কম্পিউটার ব্যবহার করেন, তখন ইনপুট প্রদান ও আউটপুট দেখার জন্য টার্মিনাল (Terminal) প্রয়োজন হয়।",
+    "source": [
+      "SBC Assistant Manager: 19/ BB Assistant Director: 16"
+    ]
+  },
+  {
+    "id": 28,
+    "topicsId": 705,
+    "q": "ক্লায়েন্ট সার্ভার নেটওয়ার্ক ব্যবহৃত হয় কোন ক্ষেত্রে ?",
+    "options": [
+      "PAN",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "ans": 1,
+    "explain": "সাধারণত লোকাল এরিয়া নেটওয়ার্ক বা LAN-এর ক্ষেত্রে একটি কেন্দ্রীয় সার্ভার এবং অনেকগুলো ক্লায়েন্টের মধ্যে ক্লায়েন্ট-সার্ভার মডেল জনপ্রিয়।",
+    "source": [
+      "যশোর বোর্ড (উচ্চ মাধ্যমিক) : ১৬"
+    ]
+  },
+  {
+    "id": 29,
+    "topicsId": 705,
+    "q": "In Mainframe environment, the...terminal does not process data /একটি মেইনফ্রেম কম্পিউটারে,.......টার্মিনালগুলো ডেটা প্রক্রিয়াকরণ করে না ।",
+    "options": [
+      "Intelligent",
+      "Numb",
+      "Dumb",
+      "Smart",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "Dumb Terminal-এর নিজস্ব কোনো প্রসেসিং ক্ষমতা বা স্টোরেজ নেই; এটি কেবল মেইনফ্রেম কম্পিউটারে ইনপুট পাঠাতে এবং আউটপুট গ্রহণ করতে ব্যবহৃত হয়।",
+    "source": [
+      "EXIM Bank Ltd. Officer (Cash): 11"
+    ]
+  },
+  {
+    "id": 30,
+    "topicsId": 705,
+    "q": "Which of the following is used only for data entry and storage, and never for processing ? / নিচের কোনটি ডেটা এন্ট্রি ও সংরক্ষণে ব্যবহৃত হয় কিন্তু কখনই প্রসেসিংয়ে ব্যবহৃত হয় না ?",
+    "options": [
+      "Mouse",
+      "Dumb terminal",
+      "Micro computer",
+      "Dedicated data entry system",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "Dumb terminal নিজে প্রসেসিং করতে পারে না, এটি কেবল কেন্দ্রীয় কম্পিউটারের সাথে সংযোগের মাধ্যম হিসেবে কাজ করে।",
+    "source": [
+      "City Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 31,
+    "topicsId": 705,
+    "q": "The computer that has no hard disk storage but sends input and receives output from the server is known as-",
+    "options": [
+      "Host",
+      "Minicomputer",
+      "File Server",
+      "Thin Client"
+    ],
+    "ans": 3,
+    "explain": "Thin Client হলো এমন একটি কম্পিউটার যার নিজস্ব হার্ড ড্রাইভ বা উচ্চ ক্ষমতা নেই, এটি পুরোপুরি সার্ভারের ওপর নির্ভরশীল।",
+    "source": [
+      "Bangladesh Development Bank Senior Officer: 11"
+    ]
+  },
+  {
+    "id": 32,
+    "topicsId": 705,
+    "q": "In a client/server model, a client program.......",
+    "options": [
+      "asks for information",
+      "distributes data files to other computers",
+      "provides information and files",
+      "None"
+    ],
+    "ans": 0,
+    "explain": "ক্লায়েন্ট-সার্ভার মডেলে ক্লায়েন্ট প্রোগ্রামের কাজ হলো সার্ভারের কাছে তথ্য বা সার্ভিসের জন্য অনুরোধ করা (Asks for information)।",
+    "source": [
+      "BDBL Officer: 14/ICB Bank Ltd. Senior Officer (Cash): 14"
+    ]
+  },
+  {
+    "id": 33,
+    "topicsId": 705,
+    "q": "Computer terminals usually have-/ কম্পিউটার টার্মিনালে সাধারণত থাকে-",
+    "options": [
+      "screen only (শুধু স্ক্রিন)",
+      "keyboard only (শুধু কী-বোর্ড)",
+      "screen and keyboard (স্ক্রিন এবং কী-বোর্ড)",
+      "screen, keyboard and connectivity to the computer in use (স্ক্রিন, কী-বোর্ড এবং কম্পিউটারে সংযোগে ব্যবহৃত যন্ত্রাংশ)",
+      "screen, keyboard, connectivity to the computer in use and data processor (স্ক্রিন, কী-বোর্ড, কম্পিউটারে সংযোগে ব্যবহৃত যন্ত্রাংশ এবং ডেটা প্রসেসর)"
+    ],
+    "ans": 2,
+    "explain": "কম্পিউটার সিস্টেমে 'টার্মিনাল' ধারণাটি বেশ পুরনো। সাধারণ অর্থে লঞ্চ বা বাস টার্মিনাল বলতে যেমন কোনো যাত্রা শুরু বা শেষের স্থানকে বোঝায়, কম্পিউটার বিজ্ঞানেও টার্মিনাল হলো এমন একটি মাধ্যম যা দিয়ে সিস্টেমে ডেটা প্রবেশ করানো হয় এবং প্রসেসড ডেটা বা আউটপুট দেখা যায়। পূর্বে কম্পিউটারের মনিটর বা ডিসপ্লে এবং ইনপুট-আউটপুট ডিভাইসসমূহ (যেমন: কী-বোর্ড, মাউস ইত্যাদি) আলাদা কোনো একক সত্তা হিসেবে কাজ না করে একটি একক প্যাকেজ বা ডিভাইস হিসেবে তৈরি হতো। এই পুরো প্যাকেজ বা ডিভাইসটিকে মূলত কম্পিউটার টার্মিনাল হিসেবে অভিহিত করা হতো, যেখানে আলাদাভাবে ডেটা প্রসেসর বা কানেক্টিভিটির বিষয়গুলোকে টার্মিনালের অংশ হিসেবে গণ্য করা হতো না। অর্থাৎ, মৌলিক বা ট্র্যাডিশনাল কম্পিউটার টার্মিনাল বলতে মূলত স্ক্রিন এবং কী-বোর্ডের সমন্বিত রূপকেই নির্দেশ করে।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 11"
+    ]
+  },
+  {
+    "id": 34,
+    "topicsId": 705,
+    "q": "নিচের কোনটি নেটওয়ার্ক অপারেটিং সিস্টেম ?",
+    "options": [
+      "নোভেল নেটওয়ার্ক",
+      "ইউনিক্স",
+      "উইন্ডোজ এনটি",
+      "উইন্ডোজ এক্সপি"
+    ],
+    "ans": 2,
+    "explain": "সঠিক উত্তরটি হলো উইন্ডোজ এনটি (Windows NT)।উইন্ডোজ এনটি (Windows NT - New Technology) হলো একটি শক্তিশালী নেটওয়ার্ক অপারেটিং সিস্টেম (NOS) যা বিশেষ করে সার্ভার এবং এন্টারপ্রাইজ নেটওয়ার্কিংয়ের জন্য তৈরি করা হয়েছিল। অন্যদিকে, নোভেল নেটওয়ার্ক (Novell NetWare) এবং ইউনিক্স (UNIX) হলো মূলত মাল্টি-ইউজার বা নেটওয়ার্ক অপারেটিং সিস্টেম, আর উইন্ডোজ এক্সপি (Windows XP) হলো মূলত একটি ব্যক্তিগত বা ডেস্কটপ ক্লায়েন্ট অপারেটিং সিস্টেম।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী: ১৬"
+    ]
+  },
+  {
+    "id": 35,
+    "topicsId": 705,
+    "q": "Which approach is used in the client server model of the cluster ?",
+    "options": [
+      "Load configuration",
+      "FIFO",
+      "LIFO",
+      "Round robin"
+    ],
+    "ans": 3,
+    "explain": "ক্লাস্টার সার্ভার সিস্টেমে কাজের চাপ ভাগ করে দেওয়ার জন্য বা লোড ব্যালেন্সিংয়ের জন্য Round Robin অ্যালগরিদম ব্যবহৃত হয়।",
+    "source": [
+      "Janata Bank Ltd. Senior Officer (IT): 16"
+    ]
+  },
+  {
+    "id": 36,
+    "topicsId": 705,
+    "q": "What type of architecture does Skype use while conversation ?",
+    "options": [
+      "Client server architecture",
+      "Peer to Peer architecture",
+      "Service oriented architecture",
+      "MVC architecture"
+    ],
+    "ans": 1,
+    "explain": "Skype কথোপকথনের সময় Peer-to-Peer (P2P) আর্কিটেকচার ব্যবহার করে, যেখানে ডিভাইসগুলো সরাসরি একে অপরের সাথে তথ্য আদান-প্রদান করে।",
+    "source": [
+      "Janata Bank Ltd. Senior Officer (IT): 16"
+    ]
+  },
+  {
+    "id": 37,
+    "topicsId": 705,
+    "q": "কম্পিউটারের সঙ্গে লাগানো প্রিন্টার কী হিসেবে কাজ করে ?",
+    "options": [
+      "অ্যাডাপ্টার",
+      "হাব",
+      "রিসোর্স",
+      "সার্ভার"
+    ],
+    "ans": 2,
+    "explain": "কম্পিউটার নেটওয়ার্কে কোনো হার্ডওয়্যার (যেমন: প্রিন্টার) বা ডাটা যখন অন্যের ব্যবহারের জন্য শেয়ার করা হয়, তখন তাকে রিসোর্স (Resource) বলা হয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (তৃতীয় পর্যায়) : ২২"
+    ]
+  },
+  {
+    "id": 38,
+    "topicsId": 705,
+    "q": "To check to see if the Web server you are trying to reach is available or is down, which command line utility should you use ?",
+    "options": [
+      "PING",
+      "ICS",
+      "Telnet",
+      "None"
+    ],
+    "ans": 0,
+    "explain": "PING কমান্ডের মাধ্যমে দেখা হয় একটি নির্দিষ্ট সার্ভার বা আইপি অ্যাড্রেস নেটওয়ার্কে সচল কি না।",
+    "source": [
+      "Probashi Kallyan Bank Programmer: 19 / Pubali Bank Ltd. Junior Officer : 14"
+    ]
+  },
+  {
+    "id": 39,
+    "topicsId": 705,
+    "q": "বিভিন্ন কম্পিউটারের মধ্যে সংযোগের জন্য যে জ্যামিতিক সন্নিবেশ করা হয় তাকে বলে-",
+    "options": [
+      "মরফোলজী",
+      "টেকনোলজী",
+      "নিউরোলজী",
+      "টপোলজী"
+    ],
+    "ans": 3,
+    "explain": "নেটওয়ার্কের কম্পিউটারগুলোকে একে অপরের সাথে যে জ্যামিতিক পদ্ধতিতে যুক্ত করা হয়, তাকে টপোলজি (Topology) বলে।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের উপজেলা পোস্টমাস্টার: ১৬/পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক: ১৬"
+    ]
+  },
+  {
+    "id": 40,
+    "topicsId": 705,
+    "q": "নেটওয়ার্কভুক্ত কম্পিউটারসমূহের অবস্থানগত এবং সংযোগ বিন্যাসকে কি বলে ?",
+    "options": [
+      "নেটওয়ার্ক",
+      "কমিউনিকেশন",
+      "সোর্স",
+      "টপোলজি"
+    ],
+    "ans": 3,
+    "explain": "কম্পিউটারসমূহের ফিজিক্যাল সংযোগের চিত্র বা লজিক্যাল বিন্যাসই হলো টপোলজি।",
+    "source": [
+      "পল্লী উন্নয়ন ও সমবায় বিভাগের একটি বাড়ি একটি খামার প্রকল্পের উপজেলা সমন্বয়কারী: ১৭"
+    ]
+  },
+  {
+    "id": 41,
+    "topicsId": 705,
+    "q": "কম্পিউটার নেটওয়ার্কিং এর জন্য কয় ধরনের টপোলজি ব্যবহার করা হয় ?",
+    "options": [
+      "৩",
+      "৪",
+      "৫",
+      "৬"
+    ],
+    "ans": 3,
+    "explain": "প্রধানত ৬ ধরনের টপোলজি ব্যবহৃত হয়: বাস, রিং, স্টার, ট্রি, মেশ এবং হাইব্রিড।",
+    "source": [
+      "চট্টগ্রাম বোর্ড (উচ্চ মাধ্যমিক) : ১৬"
+    ]
+  },
+  {
+    "id": 42,
+    "topicsId": 705,
+    "q": "Which of the following is a network topology ?",
+    "options": [
+      "WAN",
+      "STAR",
+      "LAN",
+      "MAN",
+      "all"
+    ],
+    "ans": 1,
+    "explain": "স্টার (STAR) হলো একটি পরিচিত নেটওয়ার্ক টপোলজি। অন্যদিকে LAN, MAN, WAN হলো নেটওয়ার্কের ধরন বা পরিসর।",
+    "source": [
+      "AB Bank Ltd. MTO: 15"
+    ]
+  },
+  {
+    "id": 43,
+    "topicsId": 705,
+    "q": "The topology that connects all computers in a network by a single cable with a terminal at each end is called:/নেটওয়ার্কের সকল কম্পিউটার একটি ক্যাবল দ্বারা সংযুক্ত এবং ক্যাবলের প্রত্যেক প্রান্তে থাকে একটি টার্মিনাল, এ ধরনের সংগঠনকে বলে-",
+    "options": [
+      "terminal",
+      "ring",
+      "star",
+      "bus",
+      "LAN"
+    ],
+    "ans": 3,
+    "explain": "বাস (Bus) টপোলজিতে একটি মূল তারের (Backbone) সাথে সব কম্পিউটার যুক্ত থাকে এবং তারের দুই প্রান্তে টার্মিনেটর থাকে।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer: 11"
+    ]
+  },
+  {
+    "id": 44,
+    "topicsId": 705,
+    "q": "দশটি কম্পিউটার একটি তারের মাধ্যমে সংযুক্ত থাকলে সেটি কোন ধরনের নেটওয়ার্ক ?",
+    "options": [
+      "স্টার",
+      "বাস",
+      "রিং",
+      "হাইব্রিড"
+    ],
+    "ans": 1,
+    "explain": "একটি প্রধান তারের মাধ্যমে একাধিক কম্পিউটার যুক্ত থাকলে তাকে বাস টপোলজি বলা হয়।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক) : ১৭"
+    ]
+  },
+  {
+    "id": 45,
+    "topicsId": 705,
+    "q": "কোন নেটওয়ার্ক টপোলজিতে হাব (Hub) ব্যবহার করা হয় ?",
+    "options": [
+      "বাস টপোলজি",
+      "রিং টপোলজি",
+      "স্টার টপোলজি",
+      "ট্রি টপোলজি"
+    ],
+    "ans": 2,
+    "explain": "স্টার (Star) টপোলজিতে একটি কেন্দ্রীয় নিয়ন্ত্রণকারী ডিভাইস হিসেবে হাব (Hub) বা সুইচ (Switch) ব্যবহার করা হয়।",
+    "source": [
+      "৪১তম বিসিএস / বাংলাদেশ লোক প্রশাসন প্রশিক্ষণ কেন্দ্র (BPATC)-এর বিভিন্ন পদ: ১৯/ বরিশাল বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 46,
+    "topicsId": 705,
+    "q": "কোন টপোলজিতে একটি কেন্দ্রীয় কম্পিউটার থাকে ?",
+    "options": [
+      "স্টার",
+      "রিং",
+      "বাস",
+      "মেশ"
+    ],
+    "ans": 0,
+    "explain": "স্টার টপোলজিতে একটি কেন্দ্রীয় হাব বা সার্ভার কম্পিউটারের সাথে অন্যান্য ওয়ার্ক স্টেশনগুলো যুক্ত থাকে।",
+    "source": [
+      "দিনাজপুর বোর্ড (উচ্চ মাধ্যমিক) : ১৯"
+    ]
+  },
+  {
+    "id": 47,
+    "topicsId": 705,
+    "q": "একটি কেন্দ্রীয় হাব দ্বারা কোন টপোলজি সংযুক্ত থাকে ?",
+    "options": [
+      "BUS",
+      "MESH",
+      "RING",
+      "STAR"
+    ],
+    "ans": 3,
+    "explain": "STAR টপোলজির মূলে থাকে একটি কেন্দ্রীয় হাব।",
+    "source": [
+      "দিনাজপুর বোর্ড (উচ্চ মাধ্যমিক) : ১৬"
+    ]
+  },
+  {
+    "id": 48,
+    "topicsId": 705,
+    "q": ".......is a network topology in which each network component is physically connected to a central node such as a router, hub or switch.",
+    "options": [
+      "Bus topology",
+      "Ring topology",
+      "Mesh topology",
+      "Star topology"
+    ],
+    "ans": 3,
+    "explain": "স্টার টপোলজিতে প্রতিটি কম্পোনেন্ট একটি সেন্ট্রাল নোড (যেমন: রাউটার বা হাব)-এর সাথে সংযুক্ত থাকে।",
+    "source": [
+      "Combined 5 Banks Officer (Cash): 21"
+    ]
+  },
+  {
+    "id": 49,
+    "topicsId": 705,
+    "q": "Which topology does not allow transferring data directly from computer to computer ?",
+    "options": [
+      "Ring",
+      "Bus",
+      "Tree",
+      "Star"
+    ],
+    "ans": 3,
+    "explain": "স্টার টপোলজিতে ডাটা সরাসরি এক কম্পিউটার থেকে অন্য কম্পিউটারে যায় না, বরং তা কেন্দ্রীয় হাবের মাধ্যমে প্রবাহিত হয়।",
+    "source": [
+      "Bangladesh Krishi Bank Officer (Cash): 17"
+    ]
+  },
+  {
+    "id": 50,
+    "topicsId": 705,
+    "q": "অফিসে কি ধরনের নেটওয়ার্ক টপোলজি ব্যবহৃত হয় ?",
+    "options": [
+      "স্টার",
+      "রিং",
+      "বাস",
+      "ট্রি"
+    ],
+    "ans": 0,
+    "explain": "অফিস বা ছোট নেটওয়ার্কে স্টার টপোলজি সবচেয়ে জনপ্রিয় কারণ এটি স্থাপন ও রক্ষণাবেক্ষণ করা সহজ।",
+    "source": [
+      "বেরোবি ( ই - ইউনিট ) : ১৭-১৮"
+    ]
+  },
+  {
+    "id": 51,
+    "topicsId": 705,
+    "q": "কোনটি নেটওয়ার্ক টপোলজি নয় ?",
+    "options": [
+      "LAN",
+      "BUS",
+      "RING",
+      "STAR"
+    ],
+    "ans": 0,
+    "explain": "LAN হলো একটি নেটওয়ার্কের ধরন (Local Area Network), এটি কোনো টপোলজি নয়। বাস, রিং এবং স্টার হলো টপোলজি।",
+    "source": [
+      "জাককানইবি (খ-ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 52,
+    "topicsId": 705,
+    "q": "রহিম বাসায় নেটওয়ার্ক স্থাপনের জন্য দোকান থেকে RJ45 কানেক্টর ও 1টি সুইচ কিনে আনে। রহিমের বাসার নেটওয়ার্ক কোন টপোলজির হবে ?",
+    "options": [
+      "স্টার",
+      "বাস",
+      "রিং",
+      "মেশ"
+    ],
+    "ans": 0,
+    "explain": "সুইচ (Switch) ব্যবহার করে যে নেটওয়ার্ক তৈরি করা হয় তা স্টার টপোলজির অন্তর্গত।",
+    "source": [
+      "যশোর বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 53,
+    "topicsId": 705,
+    "q": "সেলুলার ফোনে কোন টপোলজি ব্যবহৃত হয় ?",
+    "options": [
+      "মেশ",
+      "রিং",
+      "স্টার",
+      "হাইব্রিড"
+    ],
+    "ans": 2,
+    "explain": "সেলুলার নেটওয়ার্কে প্রতিটি বেস স্টেশন একটি কেন্দ্রীয় নিয়ন্ত্রণ ব্যবস্থার সাথে যুক্ত থাকে বলে একে স্টার টপোলজির সাথে তুলনা করা হয়।",
+    "source": [
+      "বরিশাল বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 54,
+    "topicsId": 705,
+    "q": "কোন নেটওয়ার্ক টপোলজিতে সবচেয়ে বেশি ক্যাবল দরকার হয় ?",
+    "options": [
+      "বাস টপোলজি",
+      "রিং টপোলজি",
+      "স্টার টপোলজি",
+      "মেশ টপোলজি"
+    ],
+    "ans": 3,
+    "explain": "মেশ (Mesh) টপোলজিতে প্রতিটি কম্পিউটার একে অপরের সাথে সরাসরি যুক্ত থাকে। এতে তারের সংখ্যা নির্ণয়ের সূত্র হলো: n(n-1)2, যেখানে n হলো কম্পিউটারের সংখ্যা। ফলে এখানে সবচেয়ে বেশি ক্যাবল লাগে।",
+    "source": [
+      "GST গুচ্ছভুক্ত বিশ্ববিদ্যালয় (খ ইউনিট- মানবিক): ২০-২১"
+    ]
+  },
+  {
+    "id": 55,
+    "topicsId": 705,
+    "q": "The OSI model has- / কম্পিউটার নেটওয়ার্কে OSI মডেলের স্তর কয়টি ?",
+    "options": [
+      "7 Layers",
+      "5 Layers",
+      "9 Layers",
+      "8 Layers"
+    ],
+    "ans": 0,
+    "explain": "OSI (Open Systems Interconnection) মডেলের মোট ৭টি লেয়ার বা স্তর রয়েছে।",
+    "source": [
+      "Sonali Bank Ltd. Officer (Cash): 13 / ৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 56,
+    "topicsId": 705,
+    "q": "Which of the following is not in OSI model ?",
+    "options": [
+      "Physical layer",
+      "Internet layer",
+      "Transport layer",
+      "None"
+    ],
+    "ans": 1,
+    "explain": "Internet layer মূলত TCP/IP মডেলে থাকে। OSI মডেলে এর সমতুল্য লেয়ারটির নাম হলো Network Layer।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 14/ Pubali Bank Ltd. Junior Officer: 14"
+    ]
+  },
+  {
+    "id": 57,
+    "topicsId": 705,
+    "q": "Which one is a layer 3 (Network Layer) protocol ?",
+    "options": [
+      "UDP",
+      "DNS",
+      "TCP",
+      "IP"
+    ],
+    "ans": 3,
+    "explain": "IP (Internet Protocol) হলো OSI মডেলের ৩য় লেয়ার বা Network Layer-এর প্রোটোকল।",
+    "source": [
+      "Sonali Bank Ltd. Senior Officer: 13"
+    ]
+  },
+  {
+    "id": 58,
+    "topicsId": 705,
+    "q": "TCP দিয়ে কোনটি বোঝানো হয় ?",
+    "options": [
+      "প্রোগ্রাম",
+      "প্রোটোকল",
+      "প্রোগ্রামিং",
+      "ফ্লোচার্ট"
+    ],
+    "ans": 1,
+    "explain": "TCP (Transmission Control Protocol) হলো ইন্টারনেটের অন্যতম প্রধান নেটওয়ার্ক প্রোটোকল যা তথ্য আদান-প্রদানের নিয়ম কানুন নির্ধারণ করে।",
+    "source": [
+      "৩৭ তম বিসিএস/ বিমান বাংলাদেশ এয়ারলাইন্স লি. এর সহকারী ব্যবস্থাপক : ২১"
+    ]
+  },
+  {
+    "id": 59,
+    "topicsId": 705,
+    "q": "Which protocol is used for the internet access ? / নিচের কোন প্রোটোকলটি ইন্টারনেট সংযোগের ক্ষেত্রে সর্বাধিক ব্যবহৃত হয় ?",
+    "options": [
+      "TCP/IP",
+      "Novel Netware",
+      "NETBEUI",
+      "Linux"
+    ],
+    "ans": 0,
+    "explain": "ইন্টারনেটে তথ্য আদান-প্রদানের জন্য স্ট্যান্ডার্ড প্রোটোকল হলো TCP/IP।",
+    "source": [
+      "RAKUB Senior Officer : 11/ DBBL Assistant Officer: 09 / ৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 60,
+    "topicsId": 705,
+    "q": "How many layers are in a TCP/IP Protocol suit ?",
+    "options": [
+      "7",
+      "5",
+      "10",
+      "4"
+    ],
+    "ans": 3,
+    "explain": "TCP/IP প্রোটোকল সুইটে সাধারণত ৪টি লেয়ার থাকে (Application, Transport, Internet, Network Access)। তবে আধুনিক অনেক বইতে ৫টিও দেখানো হয়, কিন্তু স্ট্যান্ডার্ড ৪।",
+    "source": [
+      "ICB Assistant Officer:08"
+    ]
+  },
+  {
+    "id": 61,
+    "topicsId": 705,
+    "q": "In TCP/IP model which one is not a valid layer ?",
+    "options": [
+      "Presentation Layer",
+      "Protocol Layer",
+      "Transport Layer",
+      "Physical Layer"
+    ],
+    "ans": 1,
+    "explain": "TCP/IP মডেলে সাধারণত ৪টি লেয়ার থাকে (Application, Transport, Internet, এবং Network Access)। OSI মডেলের Presentation Layer এবং Session Layer-কে TCP/IP-এর Application Layer-এর অন্তর্ভুক্ত করা হয়। তবে 'Protocol Layer' নামে কোনো লেয়ার কোনো মডেলই নেই। সঠিক উত্তর হিসেবে ২য় অপশন (Protocol Layer) ধরা হয়েছে কারণ এটি একটি লেয়ার নয়।",
+    "source": [
+      "Janata Bank Ltd. (Senior Officer IT): 16"
+    ]
+  },
+  {
+    "id": 62,
+    "topicsId": 705,
+    "q": "...... provides a connection-oriented reliable service for sending message.",
+    "options": [
+      "TCP",
+      "IP",
+      "UDP",
+      "None of these"
+    ],
+    "ans": 0,
+    "explain": "TCP (Transmission Control Protocol) হলো একটি কানেকশন-ওরিয়েন্টেড প্রোটোকল যা ডেটা পৌঁছানোর নিশ্চয়তা (Reliability) প্রদান করে। অন্যদিকে UDP হলো কানেকশন-লেস প্রোটোকল।",
+    "source": [
+      "Probashi Kallyan Bank Programmer: 19/ Janata Bank Ltd. Assistant Executive Officer (Teller): 15"
+    ]
+  },
+  {
+    "id": 63,
+    "topicsId": 705,
+    "q": "Which of the following services does not normally use TCP ?",
+    "options": [
+      "DNS",
+      "HTTP",
+      "FTP",
+      "None"
+    ],
+    "ans": 0,
+    "explain": "সঠিক উত্তর হবে (DNS)। DNS সাধারণত দ্রুত গতির জন্য UDP প্রোটোকল ব্যবহার করে (কুয়েরি সাইজ ৫১২ বাইটের কম হলে)। HTTP এবং FTP পুরোপুরি TCP-এর ওপর নির্ভরশীল।",
+    "source": [
+      "Pubali Bank Ltd. Senior Officer: 14/ PKSF Assistant Manager: 14"
+    ]
+  },
+  {
+    "id": 64,
+    "topicsId": 705,
+    "q": "Which of the following protocol is not used in the Internet ?",
+    "options": [
+      "Telnet",
+      "WIRL",
+      "Gopher",
+      "None"
+    ],
+    "ans": 1,
+    "explain": "Telnet এবং Gopher ইন্টারনেটের পুরোনো প্রোটোকল হলেও WIRL কোনো স্ট্যান্ডার্ড ইন্টারনেট প্রোটোকল নয়।",
+    "source": [
+      "Pubali Bank Ltd. Junior Officer: 14"
+    ]
+  },
+  {
+    "id": 65,
+    "topicsId": 705,
+    "q": "Ethernet's family of protocol used in -",
+    "options": [
+      "WAN",
+      "MAN",
+      "BIOS",
+      "LAN"
+    ],
+    "ans": 3,
+    "explain": "ইথারনেট (Ethernet) হলো লোকাল এরিয়া নেটওয়ার্ক (LAN)-এর জন্য সবচেয়ে জনপ্রিয় এবং বহুল ব্যবহৃত প্রোটোকল বা স্ট্যান্ডার্ড।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer (Cancelled): 17"
+    ]
+  },
+  {
+    "id": 66,
+    "topicsId": 705,
+    "q": "Which of the standard protocol for network management features ?",
+    "options": [
+      "FTP",
+      "SNA",
+      "SNMP",
+      "SMTP"
+    ],
+    "ans": 2,
+    "explain": "SNMP (Simple Network Management Protocol) হলো নেটওয়ার্ক ডিভাইসগুলো (যেমন রাউটার, সুইচ) তদারকি ও ব্যবস্থাপনার জন্য ব্যবহৃত স্ট্যান্ডার্ড প্রোটোকল।",
+    "source": [
+      "Sonali Bank, Janata Bank Ltd. Officer (IT): 19"
+    ]
+  },
+  {
+    "id": 67,
+    "topicsId": 705,
+    "q": "কোনটি নেটওয়ার্ক ডিভাইস নয় ?",
+    "options": [
+      "Hub",
+      "Switch",
+      "Router",
+      "TCP"
+    ],
+    "ans": 3,
+    "explain": "Hub, Switch এবং Router হলো নেটওয়ার্কিং হার্ডওয়্যার বা ডিভাইস। কিন্তু TCP (Transmission Control Protocol) হলো একটি সফটওয়্যার ভিত্তিক প্রোটোকল বা নিয়মাবলী।",
+    "source": [
+      "GST গুচ্ছভুক্ত বিশ্ববিদ্যালয় (খ ইউনিট-মানবিক): ২০-২১"
+    ]
+  },
+  {
+    "id": 68,
+    "topicsId": 705,
+    "q": "Which one of the following device is required to set up a LAN ?/ LAN তৈরি করার জন্য নিচের কোন যন্ত্রাংশটি প্রয়োজন ?",
+    "options": [
+      "Speaker",
+      "Network Interface Card",
+      "ROM",
+      "Computer",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "LAN বা লোকাল এরিয়া নেটওয়ার্ক তৈরির জন্য প্রতিটি কম্পিউটারে একটি করে NIC (Network Interface Card) থাকা আবশ্যক, যা নেটওয়ার্কের সাথে ফিজিক্যাল কানেকশন তৈরি করে।",
+    "source": [
+      "Sonali Bank Ltd. Senior Officer: 10"
+    ]
+  },
+  {
+    "id": 69,
+    "topicsId": 705,
+    "q": "Which is an essential component of a LAN ?",
+    "options": [
+      "Router",
+      "Gateway",
+      "NIC",
+      "Modem"
+    ],
+    "ans": 2,
+    "explain": "NIC (Network Interface Card) হলো LAN-এর একটি অপরিহার্য উপাদান। রাউটার বা গেটওয়ে মূলত একাধিক নেটওয়ার্ককে যুক্ত করতে ব্যবহৃত হয়, কিন্তু একটি সিঙ্গেল LAN গঠনে NIC প্রধান ভূমিকা পালন করে।",
+    "source": [
+      "Sonali Bank Ltd. Officer (Cash):13"
+    ]
+  },
+  {
+    "id": 70,
+    "topicsId": 705,
+    "q": "LAN-কার্ডের অন্য নাম কি ?",
+    "options": [
+      "Modem",
+      "Internet Card",
+      "Net Connector",
+      "Network Interface Card"
+    ],
+    "ans": 3,
+    "explain": "LAN কার্ডকে টেকনিক্যালি Network Interface Card (NIC) বলা হয়। এটি কম্পিউটারের মাদারবোর্ডে বিল্ট-ইন থাকে বা আলাদাভাবে যুক্ত করা হয়।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের কম্পিউটার অপারেটর: ২১/প্রাক-প্রাথমিক সহকারী শিক্ষক: ১৫"
+    ]
+  },
+  {
+    "id": 71,
+    "topicsId": 705,
+    "q": "NIC-এর পূর্ণনাম কি ?",
+    "options": [
+      "Network In Card",
+      "Network Interface Card",
+      "Net Inter Card",
+      "Network Internet Cable"
+    ],
+    "ans": 1,
+    "explain": "NIC-এর পূর্ণরূপ হলো Network Interface Card।",
+    "source": [
+      "সোনালী, জনতা ও রূপালী ব্যাংক সহকারী প্রকৌশলী : ২১/বঙ্গবন্ধু বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (ইউনিট জি) : ১৯-২০"
+    ]
+  },
+  {
+    "id": 72,
+    "topicsId": 705,
+    "q": "একটি কম্পিউটারকে অন্য কোনো কম্পিউটারের সাথে নেটওয়ার্কের মাধ্যমে সংযুক্ত করতে হলে নিচের কোনটি প্রয়োজন ?",
+    "options": [
+      "বায়োস",
+      "নেটওয়ার্ক ইন্টারফেস কার্ড",
+      "রম",
+      "কাপলার"
+    ],
+    "ans": 1,
+    "explain": "নেটওয়ার্কের মাধ্যমে এক কম্পিউটারকে অন্য কম্পিউটারের সাথে ডেটা আদান-প্রদানের জন্য ইন্টারফেস হিসেবে NIC বা নেটওয়ার্ক ইন্টারফেস কার্ড প্রয়োজন হয়।",
+    "source": [
+      "দুর্নীতি দমন কমিশনে সহকারী পরিচালক: ১৩"
+    ]
+  },
+  {
+    "id": 73,
+    "topicsId": 705,
+    "q": "With respect to a network interface card, the term 10/100 refers to-",
+    "options": [
+      "protocol speed",
+      "minimum and maximum server speed",
+      "megabits per seconds",
+      "None"
+    ],
+    "ans": 2,
+    "explain": "NIC-এর ক্ষেত্রে 10/100 বলতে ডেটা ট্রান্সমিশন রেট বা স্পিড বোঝায়, যা Mbps (Megabits per second) এককে পরিমাপ করা হয়।",
+    "source": [
+      "Pubali Bank Ltd. Junior Officer: 14"
+    ]
+  },
+  {
+    "id": 74,
+    "topicsId": 705,
+    "q": "কম্পিউটার এবং ফোন লাইনের মধ্যে সংযোগ স্থাপনে ব্যবহৃত হয়- / কম্পিউটারকে ইন্টারনেটে সংযুক্ত করার জন্য কোন যন্ত্রাংশটি আবশ্যক ?",
+    "options": [
+      "প্রিন্টার",
+      "মাউস",
+      "মডেম",
+      "প্লটার"
+    ],
+    "ans": 2,
+    "explain": "মডেম (Modem) ডিজিটাল সংকেতকে অ্যানালগ এবং অ্যানালগ সংকেতকে ডিজিটাল করে টেলিফোন লাইনের মাধ্যমে ইন্টারনেটে সংযুক্ত হতে সাহায্য করে।",
+    "source": [
+      "এক্সিম ব্যাংক লি. অফিসার: ১৪ / কর্মসংস্থান ব্যাংক ডাটা এন্ট্রি অপারেটর: ২২ / জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)-এর সহকারী পরিচালক: ১৭ / উপজেলা পোস্ট মাস্টার : ১০"
+    ]
+  },
+  {
+    "id": 75,
+    "topicsId": 705,
+    "q": "মডেমের মাধ্যমে কম্পিউটারের সাথে-",
+    "options": [
+      "ইন্টারনেট লাইনের সংযোগ সাধন করা হয়",
+      "টেলিভিশন লাইনের সংযোগ সাধন করা হয়",
+      "টেলিফোন লাইনের সংযোগ সাধন করা হয়",
+      "রেডিও লাইনের সংযোগ সাধন করা হয়"
+    ],
+    "ans": 2,
+    "explain": "মডেম সাধারণত টেলিফোন লাইনের (Telephone Line) মাধ্যমে কম্পিউটারের সাথে ইন্টারনেটের সংযোগ স্থাপনে ব্যবহৃত হয়।",
+    "source": [
+      "কর্মসংস্থান ব্যাংক ডাটা এন্ট্রি অপারেটর : ১১ / প্রাথমিক বিদ্যালয় প্রধান শিক্ষক: ১০"
+    ]
+  },
+  {
+    "id": 76,
+    "topicsId": 705,
+    "q": "'মডেম' এর মধ্যে থাকে-",
+    "options": [
+      "একটি মডুলেটর",
+      "একটি এনকোডার",
+      "একটি কোডেক",
+      "একটি মডুলেটর ও একটি ডিমডুলেটর"
+    ],
+    "ans": 3,
+    "explain": "MOdulator-DEModulator-এর সংক্ষিপ্ত রূপই হলো MODEM। অর্থাৎ এতে একটি মডুলেটর এবং একটি ডিমডুলেটর থাকে।",
+    "source": [
+      "৩২তম বিসিএস/ আইডিইএ প্রকল্প (২য় পর্যায়) ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 77,
+    "topicsId": 705,
+    "q": "মডেমের কাজ কী ?",
+    "options": [
+      "তথ্য প্রেরণ",
+      "তথ্য সংরক্ষণ",
+      "তথ্য সংশোধন",
+      "তথ্য মুদ্রণ"
+    ],
+    "ans": 0,
+    "explain": "মডেম ডিজিটাল ডেটাকে সিগন্যালে রূপান্তর করে তথ্য প্রেরণে (Data Transmission) সাহায্য করে।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (ইউনিট-বি) : ২০-২১"
+    ]
+  },
+  {
+    "id": 78,
+    "topicsId": 705,
+    "q": "মডেম হচ্ছে-",
+    "options": [
+      "সহায়ক স্মৃতি",
+      "সিপিইউ এর অংশ",
+      "তথ্য আদান প্রদানের যন্ত্র",
+      "উন্নতমানের প্রিন্টার"
+    ],
+    "ans": 2,
+    "explain": "মডেম একটি ইনপুট ও আউটপুট ডিভাইস যা তথ্য আদান-প্রদান (Data Communication) করতে ব্যবহৃত হয়।",
+    "source": [
+      "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা অধিদপ্তরের পরিসংখ্যান কর্মকর্তা :১৭"
+    ]
+  },
+  {
+    "id": 79,
+    "topicsId": 705,
+    "q": "মডেম একটি-",
+    "options": [
+      "রিলে মেশিন",
+      "কনভারশন টুল",
+      "পাওয়ার কানেকশন টুল",
+      "অপটিক্যাল ফাইবার"
+    ],
+    "ans": 1,
+    "explain": "মডেম ডিজিটাল থেকে অ্যানালগ এবং অ্যানালগ থেকে ডিজিটাল সিগন্যাল কনভার্ট করে বলে একে কনভারশন টুল (Conversion Tool) বলা হয়।",
+    "source": [
+      "সোনালী ব্যাংক লি. অফিসার (ক্যাশ): ১৪"
+    ]
+  },
+  {
+    "id": 80,
+    "topicsId": 705,
+    "q": "ডিজিটাল সংকেতকে এনালগ সংকেতে এবং এনালগ সংকেতকে ডিজিটাল সংকেতে রূপান্তর করে নিচের কোনটি ?",
+    "options": [
+      "রিপিয়ার",
+      "মডেম",
+      "সুইচ",
+      "হাব"
+    ],
+    "ans": 1,
+    "explain": "মডুলেশন এবং ডিমডুলেশন প্রক্রিয়ার মাধ্যমে মডেম সংকেত রূপান্তরের কাজ করে।",
+    "source": [
+      "রাজশাহী বিশ্ব : (বি ইউনিট): ১৯-২০/ পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী : ১৬"
+    ]
+  },
+  {
+    "id": 81,
+    "topicsId": 705,
+    "q": "সিগন্যালের পারস্পরিক রূপান্তর করে ?",
+    "options": [
+      "মডেম",
+      "হাব",
+      "রাউটার",
+      "গেটওয়ে"
+    ],
+    "ans": 0,
+    "explain": "মডেম অ্যানালগ এবং ডিজিটাল সিগন্যালের মধ্যে পারস্পরিক রূপান্তর ঘটায়।",
+    "source": [
+      "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের উপ সহকারী প্রকৌশলী: ২০"
+    ]
+  },
+  {
+    "id": 82,
+    "topicsId": 705,
+    "q": "কোন ডিভাইসের মাধ্যমে অ্যানালগ সংকেত ডিজিটাল সংকেতে রূপান্তরিত হয় ?",
+    "options": [
+      "রাউটার",
+      "সুইচ",
+      "রিপিটার",
+      "মডেম"
+    ],
+    "ans": 3,
+    "explain": "মডেমের ডিমডুলেশন প্রক্রিয়ায় অ্যানালগ সংকেতকে ডিজিটাল সংকেতে রূপান্তরিত করা হয়।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক) : ১৬"
+    ]
+  },
+  {
+    "id": 83,
+    "topicsId": 705,
+    "q": "মডেমের অ্যানালগ সংকেতকে ডিজিটাল সংকেতে পরিণত করার কাজকে কী বলে ?",
+    "options": [
+      "মডুলেশন",
+      "ডিমডুলেশন",
+      "ব্রডকাস্ট",
+      "হাফ ডুপ্লেক্স"
+    ],
+    "ans": 1,
+    "explain": "অ্যানালগ থেকে ডিজিটাল রূপান্তরকে বলা হয় ডিমডুলেশন (Demodulation), আর ডিজিটাল থেকে অ্যানালগ রূপান্তরকে বলা হয় মডুলেশন (Modulation)।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 84,
+    "topicsId": 705,
+    "q": "নিচের কোন ডিভাইসটি ডিজিটাল সিগন্যালকে অ্যানালগ সিগন্যালে পরিবর্তনে ব্যবহৃত হয় ? / In data communication which device converts digital data to analog signal ?",
+    "options": [
+      "Router",
+      "Modem",
+      "Switch",
+      "HUB"
+    ],
+    "ans": 1,
+    "explain": "মডেম (Modem) ডিজিটাল ডেটাকে অ্যানালগ সিগন্যালে রূপান্তর করে যা টেলিফোন তারের মধ্য দিয়ে প্রবাহিত হতে পারে।",
+    "source": [
+      "৪৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 85,
+    "topicsId": 705,
+    "q": "একটি কম্পিউটারের কমিউনিকেশন পোর্টে সংযুক্ত থাকে-",
+    "options": [
+      "Printer",
+      "CD-ROM",
+      "Modem",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "মডেম সাধারণত কম্পিউটারের সিরিয়াল কমিউনিকেশন পোর্টে সংযুক্ত হয়ে কাজ করে।",
+    "source": [
+      "বাংলাদেশ কমার্স ব্যাংক লি. অফিসার (গ্রেড-৩):০০"
+    ]
+  },
+  {
+    "id": 86,
+    "topicsId": 705,
+    "q": "কোন ডিভাইসের সাহায্যে প্রেরক কম্পিউটার থেকে সিগন্যাল নির্দিষ্ট প্রাপক কম্পিউটারেই প্রেরণ করা যায় ?",
+    "options": [
+      "হাব",
+      "সুইচ",
+      "রিপিটার",
+      "ব্রিজ"
+    ],
+    "ans": 1,
+    "explain": "সুইচ (Switch) তার মেমোরিতে MAC অ্যাড্রেস সংরক্ষণ করে, ফলে এটি ব্রডকাস্ট না করে নির্দিষ্ট প্রাপক কম্পিউটারেই ডেটা পাঠাতে পারে।",
+    "source": [
+      "সম্মিলিত বোর্ড (উচ্চ মাধ্যমিক): ১৮"
+    ]
+  },
+  {
+    "id": 87,
+    "topicsId": 705,
+    "q": "Which of the following devices takes data sent from one network device and forwards it to the destination node based on MAC Address ?",
+    "options": [
+      "Hub",
+      "Switch",
+      "modem",
+      "Gatway"
+    ],
+    "ans": 1,
+    "explain": "সুইচ একটি লেয়ার ২ ডিভাইস যা ডেটা ফ্রেমের গন্তব্য MAC Address দেখে নির্দিষ্ট পোর্টে ডেটা পাঠায়।",
+    "source": [
+      "Rupali Bank Ltd. Assistent Network Engineer: 21"
+    ]
+  },
+  {
+    "id": 88,
+    "topicsId": 705,
+    "q": "Which one of the following devices is specially designed to forward packets over the internet to specific ports based on the packet's address ?",
+    "options": [
+      "Specialty hub",
+      "Switching hub",
+      "Port hub",
+      "Filtering hub",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "Switching Hub বা সাধারণভাবে 'Switch' অ্যাড্রেস ফিল্টারিংয়ের মাধ্যমে নির্দিষ্ট পোর্টে প্যাকেট বা ফ্রেম পাঠাতে সক্ষম।",
+    "source": [
+      "Dutch-Bangla Bank Ltd. MTO: 12"
+    ]
+  },
+  {
+    "id": 89,
+    "topicsId": 705,
+    "q": "To connect two Ethernet LAN segments with different network IDs, what type of device is required ? / দুইটি ভিন্ন নেটওয়ার্ক আইডির ইথারনেট ল্যান সেগমেন্ট সংযুক্ত করতে কোন ধরনের ডিভাইস প্রয়োজন ?",
+    "options": [
+      "Repeater",
+      "Bridge",
+      "Router",
+      "None of the above"
+    ],
+    "ans": 2,
+    "explain": "ভিন্ন নেটওয়ার্ক আইডি (Network ID) বা ভিন্ন সাবনেটের নেটওয়ার্ককে যুক্ত করতে অবশ্যই লেয়ার ৩ ডিভাইস বা রাউটার (Router) প্রয়োজন। ব্রিজ একই নেটওয়ার্কের দুটি সেগমেন্ট যুক্ত করতে পারে, কিন্তু ভিন্ন নেটওয়ার্ক আইডি হলে রাউটার আবশ্যক।",
+    "source": [
+      "Dutch Bangla Bank Limited Assistant Officer: 09"
+    ]
+  },
+  {
+    "id": 90,
+    "topicsId": 705,
+    "q": "..........is a computer networking device that creates a single, aggregate network from multiple communication networks.",
+    "options": [
+      "Hub",
+      "Bridge",
+      "Switch",
+      "Router"
+    ],
+    "ans": 1,
+    "explain": "ব্রিজ (Bridge) একাধিক নেটওয়ার্ক সেগমেন্টকে যুক্ত করে একটি একক লজিক্যাল নেটওয়ার্ক তৈরি করতে ব্যবহৃত হয়।",
+    "source": [
+      "Combined 5 Banks Officer (Cash): 21"
+    ]
+  },
+  {
+    "id": 91,
+    "topicsId": 705,
+    "q": "Which of the following is a device that is used to connect a number of LANs ?",
+    "options": [
+      "Bridge",
+      "Switch",
+      "Router",
+      "Repeater"
+    ],
+    "ans": 2,
+    "explain": "একাধিক পৃথক LAN-কে একত্রে যুক্ত করতে রাউটার (Router) ব্যবহৃত হয়। রাউটার বিভিন্ন নেটওয়ার্কের মধ্যে ডেটা প্যাকেট আদান-প্রদান নিয়ন্ত্রণ করে।",
+    "source": [
+      "Sonali, Rupali, Janata Bank Assistant Engineer: 21"
+    ]
+  },
+  {
+    "id": 92,
+    "topicsId": 705,
+    "q": "You must install this on a network if you want to share a broadband internet connection-",
+    "options": [
+      "Router",
+      "Modem",
+      "Node",
+      "Cable",
+      "Scanner"
+    ],
+    "ans": 0,
+    "explain": "ব্রডব্যান্ড ইন্টারনেট কানেকশন একাধিক ডিভাইসের মধ্যে শেয়ার করার জন্য রাউটার ব্যবহার করা হয়, যা লোকাল নেটওয়ার্ক এবং ইন্টারনেটের মধ্যে গেটওয়ে হিসেবে কাজ করে।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 13"
+    ]
+  },
+  {
+    "id": 93,
+    "topicsId": 705,
+    "q": "What device includes an adapter that decodes data sent in radio signals ?",
+    "options": [
+      "Modem",
+      "Router",
+      "Digital Translator",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "ওয়্যারলেস রাউটার (Wireless Router) রেডিও সিগন্যাল গ্রহণ ও ডিকোড করার ক্ষমতা রাখে যাতে ডিভাইসগুলো ওয়াইফাই-এর মাধ্যমে নেটওয়ার্কে যুক্ত হতে পারে।",
+    "source": [
+      "Probashi Kallyen Bank Ltd. Exceutive Officer (Cash): 19"
+    ]
+  },
+  {
+    "id": 94,
+    "topicsId": 705,
+    "q": "নিচের কোন ডিভাইসটিতে ডেটা ফিল্টারিং সম্ভব ?",
+    "options": [
+      "হাব",
+      "সুইচ",
+      "রিপিটার",
+      "রাউটার"
+    ],
+    "ans": 3,
+    "explain": "রাউটার IP অ্যাড্রেস এবং নির্দিষ্ট নিয়ম (ACL) অনুযায়ী ডেটা প্যাকেট ফিল্টারিং করতে পারে। সুইচও MAC অ্যাড্রেস অনুযায়ী ফিল্টারিং করে, তবে রাউটারের ফিল্টারিং অধিক শক্তিশালী ও নেটওয়ার্ক স্তরের।",
+    "source": [
+      "GST গুচ্ছভুক্ত বিশ্ববিদ্যালয়: ২০-২১/ দিনাজপুর বোর্ড (উচ্চ মাধ্যমিক) : ১৬"
+    ]
+  },
+  {
+    "id": 95,
+    "topicsId": 705,
+    "q": "What does Router do in Network ?",
+    "options": [
+      "Forwards a packet to all outgoing links",
+      "Forwards a packet to the next free outgoing link",
+      "Determines on which outgoing link a packet is to be forwarded",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "রাউটারের প্রধান কাজ হলো এর রাউটিং টেবিল ব্যবহার করে সিদ্ধান্ত নেওয়া যে কোন পথ (Outgoing link) দিয়ে ডেটা প্যাকেটটি গন্তব্যে পৌঁছাবে।",
+    "source": [
+      "BDBL Officer: 14"
+    ]
+  },
+  {
+    "id": 96,
+    "topicsId": 705,
+    "q": "Which of the followings describes-a router's functions ?",
+    "options": [
+      "Packet Switching",
+      "Packet Filtering",
+      "Internet Communication",
+      "All of the above"
+    ],
+    "ans": 3,
+    "explain": "রাউটার প্যাকেট সুইচিং, প্যাকেট ফিল্টারিং এবং ইন্টারনেটের সাথে যোগাযোগ স্থাপনের মতো বহুমুখী কাজ সম্পন্ন করে।",
+    "source": [
+      "Rupali Bank Ltd. Assistant Network Engineer: 21"
+    ]
+  },
+  {
+    "id": 97,
+    "topicsId": 705,
+    "q": "The function of Gateway is-",
+    "options": [
+      "To connect two dissimilar networks",
+      "To connect two similar networks",
+      "To connect two computer in a LAN",
+      "To connect a printer within a LAN"
+    ],
+    "ans": 0,
+    "explain": "গেটওয়ে (Gateway) হলো এমন একটি ডিভাইস যা দুটি সম্পূর্ণ ভিন্ন প্রোটোকল বা আর্কিটেকচারের (Dissimilar) নেটওয়ার্ককে যুক্ত করতে পারে।",
+    "source": [
+      "Sonali Bank Ltd. Officer (Cash): 15"
+    ]
+  },
+  {
+    "id": 98,
+    "topicsId": 705,
+    "q": "কমিউনিকেশন সিস্টেমে গেটওয়ে কি কাজে ব্যবহার হয় ?",
+    "options": [
+      "বিভিন্ন নেটওয়ার্ক ডিভাইস সংযুক্ত করার কাজে",
+      "দুই বা তার অধিক ভিন্ন ধরনের নেটওয়ার্ককে সংযুক্ত করার কাজে",
+      "এটি নেটওয়ার্ক হাব কিংবা সুইচের মতই কাজ করে",
+      "কোনোটি নয়"
+    ],
+    "ans": 1,
+    "explain": "ভিন্ন ভিন্ন নেটওয়ার্কের মধ্যে প্রোটোকল কনভার্সন এবং ডেটা ট্রান্সফার নিশ্চিত করার জন্য গেটওয়ে ব্যবহৃত হয়।",
+    "source": [
+      "৩৬তম বিসিএস"
+    ]
+  },
+  {
+    "id": 99,
+    "topicsId": 705,
+    "q": "A communication processor that connects dissimilar networks by providing the translation from one set of protocol to another is- প্রোটোকল ট্রান্সলেশনে সুবিধা দেয় কোন নেটওয়ার্ক ডিভাইস ?",
+    "options": [
+      "Bridge",
+      "Gateway",
+      "Router",
+      "Modem"
+    ],
+    "ans": 1,
+    "explain": "প্রোটোকল ট্রান্সলেশন (Protocol Translation) হলো গেটওয়ের একটি প্রধান বৈশিষ্ট্য, যা বিভিন্ন প্রোটোকল বিশিষ্ট নেটওয়ার্ককে এক সুতোয় গাঁথে।",
+    "source": [
+      "Probashi Kallyan Bank (PKB) Senior Officer: 21 / কুমিল্লা বোর্ড (উচ্চ মাধ্যমিক): ১৯/চট্টগ্রাম বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 100,
+    "topicsId": 705,
+    "q": "যে ডিভাইস একটি নেটওয়ার্কের সাথে আরেকটি নেটওয়ার্কের যুক্ত করে তাকে কী বলে ?",
+    "options": [
+      "NIC",
+      "ব্রিজ",
+      "রিপিটার",
+      "গেটওয়ে"
+    ],
+    "ans": 3,
+    "explain": "সাধারণত একাধিক নেটওয়ার্ক বা ভিন্নধর্মী নেটওয়ার্কের মধ্যে সংযোগ সেতু হিসেবে গেটওয়ে কাজ করে।",
+    "source": [
+      "আইডিইএ প্রকল্প (২য় পর্যায়) ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 101,
+    "topicsId": 705,
+    "q": "Bridge works in which layer of the OSI model ?",
+    "options": [
+      "Application layer",
+      "Transport layer",
+      "Datalink layer",
+      "None"
+    ],
+    "ans": 2,
+    "explain": "ব্রিজ (Bridge) OSI মডেলের ২য় স্তর বা ডেটা লিঙ্ক লেয়ারে (Data Link Layer) কাজ করে।",
+    "source": [
+      "Combined 5 Banks Officer (Cash): 21/Pubali Bank Ltd. Senior Officer: 14/ PKSF Assistant Manager: 14"
+    ]
+  },
+  {
+    "id": 102,
+    "topicsId": 705,
+    "q": "Which of the following connectivity devices typically work at the physical layer of the OSI model ?",
+    "options": [
+      "Router",
+      "Bridge",
+      "Repeater",
+      "Gateway"
+    ],
+    "ans": 2,
+    "explain": "রিপিটার (Repeater) এবং হাব (Hub) OSI মডেলের ১ম স্তর বা ফিজিক্যাল লেয়ারে কাজ করে।",
+    "source": [
+      "ICB Assistant Officer: 08"
+    ]
+  },
+  {
+    "id": 103,
+    "topicsId": 705,
+    "q": "Which layer device can be used to enlarge the area covered by single LAN segment ?",
+    "options": [
+      "Switch only",
+      "RJ 45 transceiver only",
+      "Switch and Hub",
+      "Hub and Repeater"
+    ],
+    "ans": 3,
+    "explain": "একটি ল্যান সেগমেন্টের দূরত্ব বাড়াতে রিপিটার (Repeater) সিগন্যালকে অ্যামপ্লিফাই বা রি-জেনারেট করে। হাবও একই স্তরে কাজ করে দূরত্ব বাড়াতে সাহায্য করতে পারে।",
+    "source": [
+      "Rupali Bank Ltd. Assistent Network Engineer: 21"
+    ]
+  },
+  {
+    "id": 104,
+    "topicsId": 705,
+    "q": "When two or more intranets are connected to each other, they form a/an-/ দুই বা ততোধিক ইন্ট্রানেট পরস্পর সংযুক্ত হলে, তাকে বলে-",
+    "options": [
+      "Internet",
+      "Intranet",
+      "Extranet",
+      "VPN"
+    ],
+    "ans": 2,
+    "explain": "যখন কোনো প্রতিষ্ঠানের ইন্ট্রানেট নিয়ন্ত্রিতভাবে বাইরের অনুমোদিত ব্যবহারকারী বা অন্য ইন্ট্রানেটের সাথে যুক্ত হয়, তাকে এক্সট্রানেট (Extranet) বলে।",
+    "source": [
+      "স্থানীয় সরকার, পল্লী উন্নয়ন এবং সমবায় মন্ত্রণালয়ের সহকারী মেইনটেনেন্স ইঞ্জিনিয়ার: ১০"
+    ]
+  },
+  {
+    "id": 105,
+    "topicsId": 705,
+    "q": "Extranet allows-",
+    "options": [
+      "insiders only",
+      "authorized outsiders only",
+      "all outsiders",
+      "both insiders and authentic outsiders"
+    ],
+    "ans": 3,
+    "explain": "এক্সট্রানেট হলো একটি প্রাইভেট নেটওয়ার্ক যেখানে প্রতিষ্ঠানের অভ্যন্তরীণ সদস্য (Insiders) এবং অনুমোদিত বাইরের ব্যক্তিরা (Authentic outsiders) প্রবেশাধিকার পায়।",
+    "source": [
+      "Sonali & Janata Ltd. Senior Officer (IT/ICT): 18"
+    ]
+  },
+  {
+    "id": 106,
+    "topicsId": 705,
+    "q": "What is 'Cloud Computing' ?",
+    "options": [
+      "Online game",
+      "Internet based service",
+      "Online Banking",
+      "None"
+    ],
+    "ans": 1,
+    "explain": "ক্লাউড কম্পিউটিং হলো ইন্টারনেটের মাধ্যমে কম্পিউটিং রিসোর্স (যেমন: সার্ভার, স্টোরেজ, ডাটাবেজ) চাহিবামাত্র ব্যবহার করার একটি সেবা।",
+    "source": [
+      "দুর্নীতি দমন কমিশনের সহকারী পরিচালক: ২০"
+    ]
+  },
+  {
+    "id": 107,
+    "topicsId": 705,
+    "q": "ক্লাউড কম্পিউটিং হল-",
+    "options": [
+      "কম্পিউটার ও ডেটা স্টোরেজ সহজে ক্রেতার সুবিধামতো চাহিবামাত্র এবং ব্যবহার অনুযায়ী ভাড়া দেওয়ার সিস্টেম",
+      "এক ধরনের ইন্টারনেট নির্ভর কম্পিউটিং",
+      "ইন্টারনেটে বা ওয়েবে সংযুক্ত হয়ে কিছু গ্লোবাল সুবিধা ভোগ করার পদ্ধতি",
+      "উপরের সবগুলো"
+    ],
+    "ans": 3,
+    "explain": "উক্ত সবগুলো অপশনই ক্লাউড কম্পিউটিংয়ের বৈশিষ্ট্য ও সংজ্ঞা প্রকাশ করে।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (H-ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 108,
+    "topicsId": 705,
+    "q": "একটি প্রতিষ্ঠানে ডিভাইস ভাগাভাগি করে নেয়ার সুবিধা হলো-",
+    "options": [
+      "অর্থ সাশ্রয়",
+      "স্থানের সাশ্রয়",
+      "সময় সাশ্রয়",
+      "উপরের সবকটি"
+    ],
+    "ans": 3,
+    "explain": "নেটওয়ার্কের মাধ্যমে রিসোর্স বা ডিভাইস শেয়ার করলে হার্ডওয়্যার খরচ কমে (অর্থ সাশ্রয়), জায়গার অপচয় রোধ হয় এবং দ্রুত তথ্য আদান-প্রদান সম্ভব হয়।",
+    "source": [
+      "৩৫তম বিসিএস"
+    ]
+  },
+  {
+    "id": 109,
+    "topicsId": 705,
+    "q": ".........refers to the philosophy of sharing computer-processing resources.",
+    "options": [
+      "Cloud Computing",
+      "Operating System",
+      "Block Chain",
+      "Key Chain"
+    ],
+    "ans": 0,
+    "explain": "ক্লাউড কম্পিউটিংয়ের মূল দর্শনই হলো প্রসেসিং পাওয়ার, স্টোরেজ এবং অন্যান্য রিসোর্স ইন্টারনেটের মাধ্যমে শেয়ার করা।",
+    "source": [
+      "Bangladesh Krishi Bank Ltd. Officer: 17"
+    ]
+  },
+  {
+    "id": 110,
+    "topicsId": 705,
+    "q": "ক্লাউড সার্ভার নিচের কোনটিতে সবচেয়ে ভালো বর্ণনা করা সম্ভব ?",
+    "options": [
+      "নেটওয়ার্কের মাধ্যমে যুক্ত একাধিক কম্পিউটার সার্ভার",
+      "একটি বিশাল ক্ষমতা সম্পন্ন কম্পিউটার সার্ভার",
+      "ব্যবহারকারীর চাহিদা অনুযায়ী কম্পিউটিং সেবা দেয়া",
+      "উপরের কোনোটিই নয়"
+    ],
+    "ans": 2,
+    "explain": "On-demand self-service বা ব্যবহারকারীর চাহিদা অনুযায়ী সেবা দেওয়াই ক্লাউড কম্পিউটিংয়ের সবচেয়ে নিখুঁত বৈশিষ্ট্য।",
+    "source": [
+      "৩৭ তম বিসিএস"
+    ]
+  },
+  {
+    "id": 111,
+    "topicsId": 705,
+    "q": "ক্লাউড কম্পিউটিং এর সুফল কোনটি ?",
+    "options": [
+      "সাশ্রয়ী ও সহজলভ্য",
+      "ইন্টারনেট সংযোগ লাগে না",
+      "তথ্যের গোপনীয়তা বজায় থাকে",
+      "এপ্লিকেশনের উপর নিয়ন্ত্রণ রাখা যায়"
+    ],
+    "ans": 0,
+    "explain": "ক্লাউড কম্পিউটিং ব্যবহারের ফলে নিজের হার্ডওয়্যার বা সফটওয়্যার কেনার প্রয়োজন পড়ে না, যা একে অত্যন্ত সাশ্রয়ী ও সহজলভ্য করে তোলে।",
+    "source": [
+      "দিনাজপুর বোর্ড (উচ্চ মাধ্যমিক) : ১৬"
+    ]
+  },
+  {
+    "id": 112,
+    "topicsId": 705,
+    "q": "স্বয়ংক্রিয়ভাবে আপডেটেড সফটওয়্যার সেবার ক্ষেত্রে কোনটি সর্বোত্তম ?",
+    "options": [
+      "ব্যবহৃত সফটওয়্যারের স্বয়ংক্রিয় আপডেট অন রাখা",
+      "নেটওয়ার্কের আওতায় সফটওয়্যার সেবা গ্রহণ",
+      "ক্লাউডভিত্তিক সফটওয়‍্যার ব্যবহার",
+      "পাইরেটেড সফটওয়্যার এড়িয়ে চলা"
+    ],
+    "ans": 2,
+    "explain": "ক্লাউডভিত্তিক সফটওয়্যার (SaaS) ব্যবহারের অন্যতম সুবিধা হলো এখানে সফটওয়্যার আপডেট সেবা প্রদানকারী কোম্পানি নিজেই নিয়ন্ত্রণ করে, ব্যবহারকারীকে ঝামেলা পোহাতে হয় না।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক) : ১৭"
+    ]
+  },
+  {
+    "id": 113,
+    "topicsId": 705,
+    "q": "ক্লাউড কম্পিউটার এর সার্ভিস মডেল কোনটি ?",
+    "options": [
+      "অবকাঠামোগত",
+      "প্লাটফর্মভিত্তিক",
+      "সফ্টওয়‍্যার",
+      "উপরের সবগুলো"
+    ],
+    "ans": 3,
+    "explain": "ক্লাউড কম্পিউটিংয়ের তিনটি প্রধান সার্ভিস মডেল হলো: IaaS (অবকাঠামোগত), PaaS (প্লাটফর্মভিত্তিক) এবং SaaS (সফটওয়্যারভিত্তিক)।",
+    "source": [
+      "৪১তম বিসিএস/ সিজিএ এর অডিটর : ২২"
+    ]
+  },
+  {
+    "id": 114,
+    "topicsId": 705,
+    "q": "নিচের কোন প্রযুক্তি 'Pay as You Go' সার্ভিস মডেল অনুসরণ করে ?",
+    "options": [
+      "Internet of Things (IoT)",
+      "Cloud Computing",
+      "Client-Server Systems",
+      "Big Data Analytics"
+    ],
+    "ans": 1,
+    "explain": "ক্লাউড কম্পিউটিংয়ে 'Pay as You Go' মডেল অনুযায়ী একজন ব্যবহারকারী যতটুকু রিসোর্স ব্যবহার করবেন, কেবল ততটুকুর জন্যই মূল্য পরিশোধ করেন।",
+    "source": [
+      "৪৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 115,
+    "topicsId": 705,
+    "q": "Which service is/are related with Cloud Computing ?",
+    "options": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "all of these"
+    ],
+    "ans": 3,
+    "explain": "SaaS (Software as a Service), PaaS (Platform as a Service) এবং IaaS (Infrastructure as a Service) এই তিনটিই ক্লাউড কম্পিউটিংয়ের প্রধান পরিষেবা।",
+    "source": [
+      "Janata Bank Ltd. Senior Officer (IT): 16"
+    ]
+  },
+  {
+    "id": 116,
+    "topicsId": 705,
+    "q": "নিচের কোন মডেলটি Cloud Computing সেবা প্রদানকারীগণ ব্যবহার করে না ? / Which one is not a layer of cloud computing ?",
+    "options": [
+      "Computing as a service (CaaS)",
+      "Infrastructure as a service (IaaS)",
+      "Platform as a service (PaaS)",
+      "Software as a service (SaaS)"
+    ],
+    "ans": 0,
+    "explain": "IaaS, PaaS এবং SaaS হলো ক্লাউড কম্পিউটিংয়ের স্বীকৃত সার্ভিস লেয়ার। 'Computing as a service' বা CaaS কোনো স্ট্যান্ডার্ড মডেল নয়।",
+    "source": [
+      "৪৪তম বিসিএস / Sonali, Rupali, Janata Bank Assistant Engineer: 21"
+    ]
+  },
+  {
+    "id": 117,
+    "topicsId": 705,
+    "q": "Which of the following is cloud platform by Microsoft ?",
+    "options": [
+      "Azure",
+      "AWS",
+      "cloudera",
+      "openstack"
+    ],
+    "ans": 0,
+    "explain": "মাইক্রোসফট-এর ক্লাউড কম্পিউটিং প্ল্যাটফর্মের নাম হলো 'Azure'।",
+    "source": [
+      "Janata Bank Ltd. Senior Officer (IT): 16"
+    ]
+  },
+  {
+    "id": 118,
+    "topicsId": 705,
+    "q": "অ্যামাজন- এর ক্লাউড প্ল্যাটফর্ম কোনটি ?",
+    "options": [
+      "Azure",
+      "AWS",
+      "cloudera",
+      "উপরের সবগুলো"
+    ],
+    "ans": 1,
+    "explain": "অ্যামাজন (Amazon)-এর ক্লাউড সার্ভিসের নাম হলো AWS (Amazon Web Services)।",
+    "source": [
+      "৪৪তম বিসিএস"
+    ]
+  },
+  {
+    "id": 119,
+    "topicsId": 705,
+    "q": "Which one of the following is not a platform for Google ?",
+    "options": [
+      "Maps",
+      "Keep",
+      "One Drive",
+      "Sheets"
+    ],
+    "ans": 2,
+    "explain": "Maps, Keep এবং Sheets গুগলের প্ল্যাটফর্ম। কিন্তু One Drive হলো মাইক্রোসফটের ক্লাউড স্টোরেজ প্ল্যাটফর্ম।",
+    "source": [
+      "NRBC Bank Ltd. Trainee Assistant Officers (TAO): 21"
+    ]
+  },
+  {
+    "id": 120,
+    "topicsId": 705,
+    "q": "ক্লাউড কম্পিউটিং-এ নিম্নের কোনটি ক্লাউড হিসেবে চিহ্নিত হয় ?",
+    "options": [
+      "Web Application",
+      "Internet",
+      "Hadoop",
+      "Ali"
+    ],
+    "ans": 1,
+    "explain": "ক্লাউড কম্পিউটিংয়ের রূপক অর্থে 'Cloud' বলতে মূলত ইন্টারনেটকে (Internet) বোঝানো হয়। হ্যাডুপ হলো একটি ডেটা প্রসেসিং ফ্রেমওয়ার্ক।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (খ-ইউনিট, অ-বাণিজ্য): ১৮-১৯"
+    ]
+  },
+  {
+    "id": 121,
+    "topicsId": 705,
+    "q": "কোনটি ক্লাউড স্টোরেজ নয় ?",
+    "options": [
+      "ওয়ান ড্রাইভ",
+      "গুগল ড্রাইভ",
+      "হার্ড ড্রাইভ",
+      "ড্রপবক্স"
+    ],
+    "ans": 2,
+    "explain": "হার্ড ড্রাইভ (Hard Drive) হলো একটি ফিজিক্যাল লোকাল স্টোরেজ ডিভাইস। অন্যদিকে ওয়ান ড্রাইভ, গুগল ড্রাইভ এবং ড্রপবক্স হলো অনলাইন বা ক্লাউড স্টোরেজ।",
+    "source": [
+      "GST গুচ্ছভুক্ত বিশ্ববিদ্যালয় (খ ইউনিট-মানবিক): ২০-২১"
+    ]
+  },
+  {
+    "id": 122,
+    "topicsId": 705,
+    "q": "টেলিপ্রিন্টার একটি-",
+    "options": [
+      "গ্রহণমুখ যন্ত্র",
+      "নির্গমনমুখ যন্ত্র",
+      "টাইপরাইটার",
+      "টারমিনাল"
+    ],
+    "ans": 3,
+    "explain": "টেলিপ্রিন্টার হলো একটি ইলেকট্রো-মেকানিক্যাল ডিভাইস বা টারমিনাল যা টাইপ করা বার্তা এক স্থান থেকে অন্য স্থানে পাঠাতে এবং গ্রহণ করতে ব্যবহৃত হয়। এটি মূলত ইনপুট এবং আউটপুট উভয় কাজই করতে পারে বলে একে টারমিনাল বলা হয়। টাইপরাইটারের সাথে আংশিক মিল থাকলেও প্রযুক্তিগতভাবে এটি একটি টারমিনাল।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (তিতাস): ১০"
+    ]
+  },
+  {
+    "id": 123,
+    "topicsId": 705,
+    "q": "টেলেক্স এর মাধ্যমে নিচের কোনটি পাঠানো হয় ?",
+    "options": [
+      "কথা বা শব্দ",
+      "ছবি",
+      "বার্তা",
+      "শব্দ ও ছবি"
+    ],
+    "ans": 2,
+    "explain": "টেলেক্স (Telex) হলো এমন একটি যোগাযোগ ব্যবস্থা যা টেলিপ্রিন্টার ব্যবহার করে কেবল টেক্সট বা লিখিত বার্তা আদান-প্রদান করে।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের প্রবেশন অফিসার: ১৩"
+    ]
+  },
+  {
+    "id": 124,
+    "topicsId": 705,
+    "q": "দূরবর্তী স্থানে ছবি ও লেখা পাঠানোর ইলেকট্রনিক ব্যবস্থার নাম কী ?",
+    "options": [
+      "টেলিপ্রিন্টিং",
+      "টেলিগ্রাফি",
+      "টেলেক্স",
+      "ফ্যাক্স"
+    ],
+    "ans": 3,
+    "explain": "ফ্যাক্স (Fax) বা ফ্যাক্সিমিলি প্রযুক্তির মাধ্যমে ছবি, হাতে লেখা বা টাইপ করা ডকুমেন্টের হুবহু কপি টেলিফোন লাইনের মাধ্যমে দূরবর্তী স্থানে পাঠানো যায়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক : ৯৩"
+    ]
+  },
+  {
+    "id": 125,
+    "topicsId": 705,
+    "q": "ডেটা কমিউনিকেশন কী ?",
+    "options": [
+      "মাধ্যমবিহীন তথ্যের প্রবাহ",
+      "দুইটি ডিভাইসের মধ্যে তথ্যের বিনিময়",
+      "শুধুমাত্র তারযুক্ত তথ্যের প্রবাহ",
+      "শুধুমাত্র কম্পিউটার নির্ভর যোগাযোগ"
+    ],
+    "ans": 1,
+    "explain": "ডেটা কমিউনিকেশন হলো ডিজিটাল মাধ্যমে এক যন্ত্র থেকে অন্য যন্ত্রে নির্ভরযোগ্যভাবে উপাত্ত বা তথ্যের আদান-প্রদান করার প্রক্রিয়া।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 126,
+    "topicsId": 705,
+    "q": "ডেটা কমিউনিকেশনের মূল উপাদান কয়টি ?",
+    "options": [
+      "৩টি",
+      "৪টি",
+      "৫টি",
+      "৬টি"
+    ],
+    "ans": 2,
+    "explain": "ডেটা কমিউনিকেশনের মূল উপাদান ৫টি। যথা: ১. উৎস (Source), ২. প্রেরক (Sender), ৩. মাধ্যম (Medium), ৪. গ্রাহক (Receiver) এবং ৫. গন্তব্য (Destination)। অনেক ক্ষেত্রে মেসেজ এবং প্রোটোকলকেও অন্তর্ভুক্ত করা হয়।",
+    "source": [
+      "জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয় (ডি ইউনিট): ১৯-২০"
+    ]
+  },
+  {
+    "id": 127,
+    "topicsId": 705,
+    "q": "Five components that make up a data communications system are message, sender, receiver, medium and-",
+    "options": [
+      "Code",
+      "connecting device",
+      "protocol",
+      "All of these"
+    ],
+    "ans": 2,
+    "explain": "ডেটা কমিউনিকেশনের পাঁচটি মূল উপাদান হলো: বার্তা (Message), প্রেরক (Sender), প্রাপক (Receiver), মাধ্যম (Medium) এবং প্রোটোকল (Protocol)। প্রোটোকল হলো ডেটা আদান-প্রদানের নিয়মাবলী।",
+    "source": [
+      "Probashi Kallyan Bank Programmer: 19"
+    ]
+  },
+  {
+    "id": 128,
+    "topicsId": 705,
+    "q": "'ব্যান্ডউইথ' কী ?",
+    "options": [
+      "ডেটা প্রবাহের মাধ্যম",
+      "ডেটা প্রবাহের হার",
+      "ডেটা প্রবাহের গতি",
+      "ডেটা প্রবাহের পদ্ধতি"
+    ],
+    "ans": 1,
+    "explain": "ব্যান্ডউইথ (Bandwidth) বলতে কোনো মাধ্যম বা চ্যানেল দিয়ে প্রতি সেকেন্ডে যে পরিমাণ ডেটা প্রবাহিত হয় তার হারকে বোঝায়। এটি ডেটা ট্রান্সমিশন স্পিড হিসেবেও পরিচিত।",
+    "source": [
+      "জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয় (ডি ইউনিট): ১৯-২০/ মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 129,
+    "topicsId": 705,
+    "q": "একটি নির্দিষ্ট সময়ে কোন চ্যানেল দিয়ে যে পরিমাণ ডেটা স্থানান্তরিত হয় তার পরিমাপকে কী বলে ?",
+    "options": [
+      "Bandwidth",
+      "Download speed",
+      "Bit rate",
+      "Megabyte"
+    ],
+    "ans": 0,
+    "explain": "ডেটা চলাচলের হারকে টেকনিক্যাল ভাষায় ব্যান্ডউইথ বলা হয়। এটি সাধারণত bps (bits per second) এককে পরিমাপ করা হয়।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (H ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 130,
+    "topicsId": 705,
+    "q": "ডেটা স্থানান্তরের হারকে বলে-",
+    "options": [
+      "ব্যান্ড মিটার",
+      "ব্যান্ডউইথ",
+      "ডেটা ট্রান্সমিশন",
+      "ডেটা কানেকশন"
+    ],
+    "ans": 1,
+    "explain": "এক স্থান থেকে অন্য স্থানে নির্দিষ্ট সময়ে ডেটা যাতায়াতের হার বা গতিকে ব্যান্ডউইথ বা বিট রেট বলা হয়।",
+    "source": [
+      "যশোর বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 131,
+    "topicsId": 705,
+    "q": "bps এর পূর্ণরূপ কী ?",
+    "options": [
+      "bit per second",
+      "byte per second",
+      "binary per second",
+      "bit per system"
+    ],
+    "ans": 0,
+    "explain": "bps-এর পূর্ণরূপ হলো bit per second। এটি ডেটা ট্রান্সমিশনের ক্ষুদ্রতম একক পরিমাপের জন্য ব্যবহৃত হয়।",
+    "source": [
+      "যশোর বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 132,
+    "topicsId": 705,
+    "q": "Bandwidth কী ?",
+    "options": [
+      "Bit per second",
+      "Cycle per second",
+      "Bit per minute",
+      "Range of frequencies"
+    ],
+    "ans": 0,
+    "explain": "ডিজিটাল ডেটা কমিউনিকেশনে ব্যান্ডউইথ হলো প্রতি সেকেন্ডে বিট ট্রান্সফারের হার (Bit per second)। তবে অ্যানালগ সিগন্যালের ক্ষেত্রে এটি ফ্রিকোয়েন্সির রেঞ্জকেও বোঝায়।",
+    "source": [
+      "খাদ্য অধিদপ্তরের উপ-খাদ্য পরিদর্শক : ২১"
+    ]
+  },
+  {
+    "id": 133,
+    "topicsId": 705,
+    "q": "ব্যান্ডউইথ (Bandwidth) মানে-",
+    "options": [
+      "Cycle/সেকেন্ড",
+      "Bit/সেকেন্ড",
+      "Bit/মিনিট",
+      "Frequency/সীমা"
+    ],
+    "ans": 1,
+    "explain": "ব্যান্ডউইথ হলো সময়ের সাপেক্ষে ডেটা প্রবাহের পরিমাণ, যা সাধারণত প্রতি সেকেন্ডে কত বিট (Bit/second) যাচ্ছে তা দিয়ে প্রকাশ করা হয়।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (বি ইউনিট): ১৯-২০/ সোনালী ব্যাংক লিং অফিসার (ক্যাশ): ১০"
+    ]
+  },
+  {
+    "id": 134,
+    "topicsId": 705,
+    "q": "The speed of internet data transmission is defined in terms of-",
+    "options": [
+      "RAM",
+      "MHz",
+      "Kbps",
+      "ROM"
+    ],
+    "ans": 2,
+    "explain": "ইন্টারনেটে ডেটা আদান-প্রদানের গতি পরিমাপের জন্য Kbps (Kilobits per second) বা Mbps একক ব্যবহার করা হয়।",
+    "source": [
+      "Combined 5 Banks Officer (Cash): 22"
+    ]
+  },
+  {
+    "id": 135,
+    "topicsId": 705,
+    "q": "MBPS stands for-",
+    "options": [
+      "Megabyte Per Score",
+      "Megabyte Per Second",
+      "Metabyte Per Series",
+      "Metabyte per Second"
+    ],
+    "ans": 1,
+    "explain": "MBPS-এর সঠিক পূর্ণরূপ হলো Megabits Per Second (ডেটা গতির ক্ষেত্রে) অথবা Megabytes Per Second (ডেটা পরিমাণের ক্ষেত্রে)। এখানে অপশন বি সঠিক।",
+    "source": [
+      "Jahangirnagar University (C2 Unit): 13-14"
+    ]
+  },
+  {
+    "id": 136,
+    "topicsId": 705,
+    "q": "What is the smallest unit of data transmission ?",
+    "options": [
+      "MB",
+      "Bit",
+      "KB",
+      "Bytes"
+    ],
+    "ans": 1,
+    "explain": "ডেটা কমিউনিকেশনের ক্ষুদ্রতম একক হলো বিট (Bit)। ৮টি বিট মিলে ১টি বাইট (Byte) তৈরি হয়।",
+    "source": [
+      "Combined 8 Banks Officer (Genenil): 22"
+    ]
+  },
+  {
+    "id": 137,
+    "topicsId": 705,
+    "q": "একটি চ্যানেলের মধ্য দিয়ে 10 সেকেন্ড 100000 বিট ডেটা ট্রান্সফার হলে এর ব্যান্ডউইথ কত ?",
+    "options": [
+      "10000 kbps",
+      "10000 bps",
+      "1000 kbps",
+      "1000 bps"
+    ],
+    "ans": 1,
+    "explain": "ব্যান্ডউইথ নির্ণয়ের সূত্র: টোটাল বিটসময় (সেকেন্ড)=10000010=10000 bps।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় (ক-ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 138,
+    "topicsId": 705,
+    "q": "A certain hard disk has a data transfer rate of 20 MB/Sec. How much time is required to transfer 5 megabyte data from this disk to memory ?/একটি হার্ডডিস্কের ডেটা ট্রান্সফার হার 20 মেগাবাইট/সেকেন্ড। হার্ডডিস্ক থেকে 5 মেগাবাইট ডেটা মেমোরিতে স্থানান্তর করতে কত সময় লাগবে ?",
+    "options": [
+      "20 sec",
+      "1 sec",
+      "5 sec",
+      "25 sec",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "সময় নির্ণয়ের সূত্র: ডেটার পরিমাণগতি=520=0.25 সেকেন্ড।",
+    "source": [
+      "City Bank Ltd Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 139,
+    "topicsId": 705,
+    "q": "ডেটা কমিউনিকেশনের গতিকে কয়ভাগে ভাগ করা যায় ?",
+    "options": [
+      "২",
+      "৩",
+      "৪",
+      "৫"
+    ],
+    "ans": 1,
+    "explain": "ডেটা ট্রান্সমিশন স্পিড বা ব্যান্ডউইথকে সাধারণত ৩ ভাগে ভাগ করা হয়: ন্যারো ব্যান্ড, ভয়েস ব্যান্ড এবং ব্রড ব্যান্ড।",
+    "source": [
+      "চট্টগ্রাম বোর্ড (উচ্চ মাধ্যমিক) : ১৬"
+    ]
+  },
+  {
+    "id": 140,
+    "topicsId": 705,
+    "q": "ন্যারো ব্যান্ডে সর্বনিম্ন ডেটা স্পিড কত বিপিএস ?",
+    "options": [
+      "35",
+      "45",
+      "200",
+      "300"
+    ],
+    "ans": 1,
+    "explain": "ন্যারো ব্যান্ডের ডেটা স্থানান্তরের গতি সাধারণত ৪৫ থেকে ৩০০ bps পর্যন্ত হয়ে থাকে। তাই সর্বনিম্ন গতি ৪৫ bps।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক) : ১৬"
+    ]
+  },
+  {
+    "id": 141,
+    "topicsId": 705,
+    "q": "ন্যারো ব্যান্ডের সর্বোচ্চ গতি কত ?",
+    "options": [
+      "300 bps",
+      "6900 bps",
+      "9600 bps",
+      "1 mbps"
+    ],
+    "ans": 0,
+    "explain": "ন্যারো ব্যান্ডের গতিসীমা ৪৫ bps থেকে ৩০০ bps পর্যন্ত। অর্থাৎ এর সর্বোচ্চ গতি ৩০০ bps।",
+    "source": [
+      "সিলেট বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 142,
+    "topicsId": 705,
+    "q": "কম্পিউটার থেকে প্রিন্টারে ডেটা স্থানান্তরিত হয়-",
+    "options": [
+      "ন্যারো ব্যান্ড",
+      "ভয়েস ব্যান্ড",
+      "হাফ-ডুপ্লেক্স",
+      "ফুল ডুপ্লেক্স"
+    ],
+    "ans": 1,
+    "explain": "ভয়েস ব্যান্ডের গতি সাধারণত ৯৬০০ bps পর্যন্ত হয়। কম্পিউটার থেকে প্রিন্টারে ডেটা প্রেরণে বা টেলিফোন লাইনে এই ব্যান্ড ব্যবহৃত হয়।",
+    "source": [
+      "যশোর বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 143,
+    "topicsId": 705,
+    "q": "স্টোরেজ ডিভাইসে ডেটা সংরক্ষণ না করেই ডেটা ট্রান্সমিট করার প্রক্রিয়াকে বলা হয়........ ট্রান্সমিশন। (Transmitting data without saving in any storage device is called ...transmission.)",
+    "options": [
+      "অ্যাসিনক্রোনাস (asynchronous)",
+      "সিমপ্লেক্স (simplex)",
+      "সিনক্রোনাস (synchronous)",
+      "আইসোক্রোনাস (isochronous)"
+    ],
+    "ans": 3,
+    "explain": "আইসোক্রোনাস ট্রান্সমিশনে প্রেরক ও প্রাপক স্টেশনের মধ্যে কোনো প্রাথমিক স্টোরেজ ডিভাইসে ডেটা সংরক্ষণ না করেই সরাসরি এবং বিরতিহীনভাবে ডেটা পাঠানো হয়। এটি সিনক্রোনাস ও অ্যাসিনক্রোনাসের সমন্বিত রূপ।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় (খ ইউনিট): ২০-২১"
+    ]
+  },
+  {
+    "id": 144,
+    "topicsId": 705,
+    "q": "অ্যাসিনক্রোনাস ট্রান্সমিশনের সুবিধা হলো-",
+    "options": [
+      "ডেটা ট্রান্সমিশনের গতি বেশি",
+      "প্রাইমারি স্টোরেজ ডিভাইসের প্রয়োজন হয় না",
+      "ব্লক আকারে ডেটা প্রেরিত হয়",
+      "স্যাটেলাইটে ব্যবহার অধিক উপযোগী"
+    ],
+    "ans": 1,
+    "explain": "অ্যাসিনক্রোনাস ট্রান্সমিশনে ডেটা ক্যারেক্টার বাই ক্যারেক্টার পাঠানো হয়, তাই এখানে কোনো প্রাইমারি স্টোরেজ ডিভাইসে ডেটা ব্লক করার প্রয়োজন হয় না।",
+    "source": [
+      "বরিশাল বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 145,
+    "topicsId": 705,
+    "q": "ডেটা ট্রান্সমিশন ডিলে সর্বনিম্ন হয়-",
+    "options": [
+      "অ্যাসিনক্রোনাস",
+      "আইসোক্রোনাস",
+      "ব্রডকাস্ট",
+      "ইউনিকাস্ট"
+    ],
+    "ans": 1,
+    "explain": "আইসোক্রোনাস ট্রান্সমিশনে ডেটা ট্রান্সমিশন ডিলে (প্রেরণ বিলম্ব) সবচেয়ে কম থাকে, যা রিয়েল-টাইম অডিও/ভিডিও ডেটা আদান-প্রদানে সহায়ক।",
+    "source": [
+      "যশোর বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 146,
+    "topicsId": 705,
+    "q": "ডেটা ট্রান্সমিশন পদ্ধতি কোনটি ?",
+    "options": [
+      "wi-fi",
+      "Synchronous",
+      "Wi-Max",
+      "Broadband"
+    ],
+    "ans": 1,
+    "explain": "সিনক্রোনাস (Synchronous) হলো একটি ডেটা ট্রান্সমিশন পদ্ধতি যেখানে ডেটা ব্লক বা প্যাকেট আকারে পাঠানো হয়।",
+    "source": [
+      "জাককানইবি (খ-ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 147,
+    "topicsId": 705,
+    "q": "রিয়েল টাইম অডিও ও ভিডিও ডেটা আদান প্রদানে কোনটি বেশি ব্যবহৃত হয় ?",
+    "options": [
+      "আইসোক্রোনাস ট্রান্সমিশন",
+      "অ্যাসিনক্রোনাস ট্রান্সমিশন",
+      "সিনক্রোনাস ট্রান্সমিশন",
+      "কোনোটিই নয়"
+    ],
+    "ans": 0,
+    "explain": "আইসোক্রোনাস ট্রান্সমিশনে ডেটা ব্লকের মধ্যবর্তী সময়ের পার্থক্য শূন্য করার চেষ্টা করা হয়, যা লাইভ স্ট্রিমিং বা রিয়েল টাইম মাল্টিমিডিয়া ডেটার জন্য আদর্শ।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (H-ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 148,
+    "topicsId": 705,
+    "q": "ডেটা ট্রান্সমিশন মোড কত প্রকার ?",
+    "options": [
+      "২",
+      "৩",
+      "৪",
+      "৫"
+    ],
+    "ans": 1,
+    "explain": "ডেটা প্রবাহের দিকের ওপর ভিত্তি করে ট্রান্সমিশন মোড ৩ প্রকার: সিমপ্লেক্স, হাফ-ডুপ্লেক্স এবং ফুল-ডুপ্লেক্স।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 149,
+    "topicsId": 705,
+    "q": "In simplex transmission -",
+    "options": [
+      "Data is sent in both directions simultaneously in a controlled way",
+      "Data can travel in two directions, but only one direction at one time",
+      "Data is sent in both directions simultaneously",
+      "Data can travel in only one direction at all times"
+    ],
+    "ans": 3,
+    "explain": "সিমপ্লেক্স মোডে ডেটা শুধুমাত্র একদিকে প্রবাহিত হতে পারে। যেমন: রেডিও বা টেলিভিশন সম্প্রচার।",
+    "source": [
+      "Sonali Bank Ltd. Officer (Cash): 13"
+    ]
+  },
+  {
+    "id": 150,
+    "topicsId": 705,
+    "q": "কম্পিউটার ও মাল্টিমিডিয়া প্রজেক্টরের মধ্যে ডেটা সঞ্চালন মোড কোনটি ?",
+    "options": [
+      "সিমপ্লেক্স",
+      "হাফ-ডুপ্লেক্স",
+      "ফুল-ডুপ্লেক্স",
+      "মাল্টিকাস্ট"
+    ],
+    "ans": 0,
+    "explain": "কম্পিউটার থেকে প্রজেক্টরে ডেটা শুধুমাত্র একমুখীভাবে প্রবাহিত হয়, তাই এটি সিমপ্লেক্স মোড।",
+    "source": [
+      "রাজশাহী বোর্ড (উচ্চ মাধ্যমিক) : ১৭"
+    ]
+  },
+  {
+    "id": 151,
+    "topicsId": 705,
+    "q": "Keyboard এবং CPU-এর মধ্যে কোন পদ্ধতিতে Data Transmission হয় ?",
+    "options": [
+      "Simplex",
+      "Duplex",
+      "Half duplex",
+      "Triplex"
+    ],
+    "ans": 0,
+    "explain": "কীবোর্ড থেকে সিপিইউ-তে ডেটা শুধুমাত্র এক দিকে যায় (ইনপুট), তাই এটি সিমপ্লেক্স মোডের উদাহরণ।",
+    "source": [
+      "৪৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 152,
+    "topicsId": 705,
+    "q": "সিমপ্লেক্স পদ্ধতির উদাহরণ কোনটি ?",
+    "options": [
+      "মোবাইল",
+      "ওয়াকিটকি",
+      "টেলিফোন",
+      "রেডিও"
+    ],
+    "ans": 3,
+    "explain": "রেডিওতে তথ্য শুধুমাত্র কেন্দ্র থেকে শ্রোতার দিকে প্রবাহিত হয়, শ্রোতা পাল্টা তথ্য পাঠাতে পারে না, তাই এটি সিমপ্লেক্স।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (খ ইউনিট): ২০-২১"
+    ]
+  },
+  {
+    "id": 153,
+    "topicsId": 705,
+    "q": "কোনটির মাধ্যমে একই সময়ে ডেটা দুদিকে যেতে পারে ?",
+    "options": [
+      "Simplex",
+      "Half duplex",
+      "Full duplex",
+      "Broad cast"
+    ],
+    "ans": 2,
+    "explain": "ফুল-ডুপ্লেক্স মোডে একই সময়ে উভয় দিক থেকে ডেটা আদান-প্রদান করা সম্ভব। যেমন: মোবাইল ফোন।",
+    "source": [
+      "দিনাজপুর বোর্ড (উচ্চ মাধ্যমিক) : ১৯"
+    ]
+  },
+  {
+    "id": 154,
+    "topicsId": 705,
+    "q": "মোবাইল ফোনে কোন Mode-এ যোগাযোগ হয় ?",
+    "options": [
+      "Simplex",
+      "Half duplex",
+      "Full duplex",
+      "কোনোটি নয়"
+    ],
+    "ans": 2,
+    "explain": "মোবাইল ফোনে কথা বলার সময় উভয় পক্ষ একই সাথে কথা বলতে ও শুনতে পারে, যা ফুল-ডুপ্লেক্স মোড।",
+    "source": [
+      "৪০তম বিসিএস/ রাজশাহী বিশ্ববিদ্যালয় (ইউনিট-বি) :২০-২১/ মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক) : ১৬"
+    ]
+  },
+  {
+    "id": 155,
+    "topicsId": 705,
+    "q": "Teleconferencing কোন ধরনের ডেটা ট্রান্সমিশন মোড ?",
+    "options": [
+      "Broadcast",
+      "Full-Duplex",
+      "Multicast",
+      "Multicast Simplex"
+    ],
+    "ans": 1,
+    "explain": "টেলিকনফারেন্সিংয়ে অংশগ্রহণকারীরা একই সময়ে পরস্পরের সাথে কথা বলতে পারে, যা ফুল-ডুপ্লেক্স মোডকে নির্দেশ করে।",
+    "source": [
+      "জাককানইবি (খ ইউনিট) : ১৭-১৮"
+    ]
+  },
+  {
+    "id": 156,
+    "topicsId": 705,
+    "q": "কোন ডিভাইসটি ‘ফুল ডুপ্লেক্স’ মোডে কাজ করে ?",
+    "options": [
+      "মোবাইল ফোন",
+      "ওয়াকি টকি",
+      "রেডিও ব্রডকাস্টিং যন্ত্রাংশ",
+      "সবগুলো"
+    ],
+    "ans": 0,
+    "explain": "মোবাইল ফোন ফুল-ডুপ্লেক্স মোডে চলে। অন্যদিকে ওয়াকি-টকি হাফ-ডুপ্লেক্স এবং রেডিও সিমপ্লেক্স মোডে কাজ করে।",
+    "source": [
+      "GST গুচ্ছভূক্ত বিশ্ববিদ্যালয় (মানবিক) : ২০-২১"
+    ]
+  },
+  {
+    "id": 157,
+    "topicsId": 705,
+    "q": "ব্রডকাস্ট মোডের উদাহরণ হলো-",
+    "options": [
+      "টিভি সম্প্রচার",
+      "ভিডিও কনফারেন্সিং",
+      "টেলিফোনে কথোপকথন",
+      "SMS প্রেরণ"
+    ],
+    "ans": 0,
+    "explain": "ব্রডকাস্ট মোডে নেটওয়ার্কের একটি কম্পিউটার বা উৎস থেকে ডেটা পাঠানো হলে তা নেটওয়ার্কের সকল গ্রাহক যন্ত্র গ্রহণ করতে পারে। টিভি সম্প্রচার এর উৎকৃষ্ট উদাহরণ।",
+    "source": [
+      "বরিশাল বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 158,
+    "topicsId": 705,
+    "q": "গ্রুপ SMS প্রদান হলো-",
+    "options": [
+      "ইউনিকাস্ট",
+      "মাল্টিকাস্ট",
+      "ব্রডকাস্ট",
+      "টেলিকাস্ট"
+    ],
+    "ans": 1,
+    "explain": "মাল্টিকাস্ট মোডে নেটওয়ার্কের একটি গ্রুপ বা নির্দিষ্ট কিছু সদস্যদের কাছে ডেটা পাঠানো হয়। গ্রুপ SMS বা ভিডিও কনফারেন্সিং এর উদাহরণ।",
+    "source": [
+      "সিলেট বোর্ড (উচ্চ মাধ্যমিক): ১৭/ চট্টগ্রাম বিশ্ববিদ্যালয় (ক-ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 159,
+    "topicsId": 705,
+    "q": "ভিডিও কনফারেসিং-এ ব্যবহৃত ডাটা ট্রান্সমিশন মোড হলো-",
+    "options": [
+      "মাল্টিকাস্ট",
+      "ব্রডকাস্ট",
+      "সিমপ্লেক্স",
+      "ইউনিকাস্ট"
+    ],
+    "ans": 0,
+    "explain": "ভিডিও কনফারেন্সিংয়ে শুধুমাত্র যারা গ্রুপের সাথে যুক্ত থাকে তারাই অংশগ্রহণ করতে পারে, যা মাল্টিকাস্ট মোডের বৈশিষ্ট্য।",
+    "source": [
+      "GST গুচ্ছভুক্ত বিশ্ববিদ্যালয় (খ ইউনিট): ২০-২১"
+    ]
+  },
+  {
+    "id": 160,
+    "topicsId": 705,
+    "q": "A path for carrying signals between a source and a destination is know as-",
+    "options": [
+      "Router",
+      "Channel",
+      "Link",
+      "Block"
+    ],
+    "ans": 1,
+    "explain": "উৎস এবং গন্তব্যের মধ্যে সংকেত বহনের পথকে চ্যানেল (Channel) বা মাধ্যম বলা হয়।",
+    "source": [
+      "Govt. Bank Officer (IT): 19"
+    ]
+  },
+  {
+    "id": 161,
+    "topicsId": 705,
+    "q": "কো-এক্সিয়াল ক্যাবলের ডেটা প্রেরণের সাধারণ হার কত ?",
+    "options": [
+      "100 Mbps",
+      "200 Mbps",
+      "2 Gbps",
+      "40 Gbps"
+    ],
+    "ans": 1,
+    "explain": "কো-এক্সিয়াল ক্যাবলের ডেটা ট্রান্সমিশন রেট সাধারণত ২০০ Mbps পর্যন্ত হতে পারে। তবে উন্নত ক্যাবলে এটি আরও বেশি হতে পারে।",
+    "source": [
+      "দিনাজপুর বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 162,
+    "topicsId": 705,
+    "q": "কো-এক্সিয়াল ক্যাবল কয়ভাগে বিভক্ত ?",
+    "options": [
+      "দুই",
+      "তিন",
+      "চার",
+      "পাঁচ"
+    ],
+    "ans": 0,
+    "explain": "কো-এক্সিয়াল ক্যাবল মূলত দুই প্রকার: থিননেট (Thinnet) এবং থিকনেট (Thicknet)।",
+    "source": [
+      "সম্মিলিত বোর্ড (উচ্চ মাধ্যমিক): ১৮"
+    ]
+  },
+  {
+    "id": 163,
+    "topicsId": 705,
+    "q": "তারগুলো পেঁচানো ও জোড়া জোড়া থাকে বলে ঐ তারকে বলা হয়-",
+    "options": [
+      "টেলিফোন ক্যাবল",
+      "কো-এক্সিয়াল ক্যাবল",
+      "টুইস্টেড পেয়ার ক্যাবল",
+      "ফাইবার অপটিক ক্যাবল"
+    ],
+    "ans": 2,
+    "explain": "টুইস্টেড পেয়ার ক্যাবলে দুটি পরিবাহী তামার তারকে একে অপরের সাথে পেঁচিয়ে জোড়া তৈরি করা হয় যাতে ইলেক্ট্রোম্যাগনেটিক ইন্টারফারেন্স কমানো যায়।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 164,
+    "topicsId": 705,
+    "q": "টুইস্টেড পেয়ার ক্যাবল এর সাধারণ রং কোনটি ?",
+    "options": [
+      "কমলা",
+      "বাদামী",
+      "কালো",
+      "সাদা"
+    ],
+    "ans": 3,
+    "explain": "টুইস্টেড পেয়ার ক্যাবলে আটটি তার থাকে, যেখানে চারটি প্রধান রঙের তারের সাথে একটি করে সাদা (White) রঙের তার পেঁচানো থাকে। তাই সাদা একটি সাধারণ রং।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৮"
+    ]
+  },
+  {
+    "id": 165,
+    "topicsId": 705,
+    "q": "U.T.P কী ?",
+    "options": [
+      "Uniform Twisted Pair",
+      "Unshielded Twisted Pair",
+      "Uniform Twisted Program",
+      "কোনটিই নয়"
+    ],
+    "ans": 1,
+    "explain": "UTP-এর পূর্ণরূপ হলো Unshielded Twisted Pair। এতে তারের জোড়াগুলোর ওপর বাড়তি কোনো ধাতব আবরণ থাকে না।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক: ১৬)"
+    ]
+  },
+  {
+    "id": 166,
+    "topicsId": 705,
+    "q": "What Does DOCSIS stand for ?",
+    "options": [
+      "Data Over Cable Service Interface Specification",
+      "Data Over Cable Security Internet Std",
+      "Data Over Cable Secure International Stds",
+      "Data Over Cable Service Internet Standard",
+      "None of them"
+    ],
+    "ans": 0,
+    "explain": "DOCSIS হলো একটি আন্তর্জাতিক টেলিকমিউনিকেশন স্ট্যান্ডার্ড যা বিদ্যমান ক্যাবল টিভি সিস্টেমের মাধ্যমে উচ্চ গতির ডেটা ট্রান্সমিশন করার অনুমতি দেয়।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 12"
+    ]
+  },
+  {
+    "id": 167,
+    "topicsId": 705,
+    "q": "নিচের কোনটি দ্বারা সর্বাপেক্ষা দ্রুত ডেটা পরিবহন (Fastest data transmission) করা যায় ?",
+    "options": [
+      "শিল্ডেড টুইস্টেড পেয়ার ক্যাবল",
+      "আন-শিল্ডেড টুইস্টেড পেয়ার ক্যাবল",
+      "কো-এক্সিয়াল ক্যাবল",
+      "ফাইবার অপটিক্যাল ক্যাবল"
+    ],
+    "ans": 3,
+    "explain": "ফাইবার অপটিক্যাল ক্যাবলে ডেটা আলোর গতিতে প্রবাহিত হয়, তাই এটি অন্যান্য যে কোনো তারযুক্ত মাধ্যমের চেয়ে দ্রুত।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক) : ১৭ / দুর্নীতি দমন কমিশনে সহকারী পরিচালক : ১৩"
+    ]
+  },
+  {
+    "id": 168,
+    "topicsId": 705,
+    "q": "অপটিক্যাল ফাইবার (Optical fibre) হচ্ছে-",
+    "options": [
+      "খুব সরু ও নমনীয় কাচতন্তুর আলোকনল",
+      "খুব সূক্ষ্ম সুপরিবাহী তামার তার তন্তু নল",
+      "খুব সরু এসবেস্টোস ফাইবার নল",
+      "সুক্ষ্ম প্লাস্টিক ঘটিত নল"
+    ],
+    "ans": 0,
+    "explain": "অপটিক্যাল ফাইবার হলো অত্যন্ত স্বচ্ছ কাচ বা প্লাস্টিক তন্তু দিয়ে তৈরি একটি ডাই-ইলেকট্রিক মাধ্যম যা আলোক সংকেত পরিবহনে সক্ষম।",
+    "source": [
+      "৩১তম বিসিএস/ প্রাণিসম্পদ অধিদপ্তরের ভিএফএ: ২০"
+    ]
+  },
+  {
+    "id": 169,
+    "topicsId": 705,
+    "q": "Which of the following consists of one or more filaments of glass fiber wrapped in protective layers that carries data by means of pulse of light ?",
+    "options": [
+      "Twisted pair",
+      "Coaxial cable",
+      "Optical fiber",
+      "Satellite"
+    ],
+    "ans": 2,
+    "explain": "অপটিক্যাল ফাইবার গ্লাস ফাইবার বা কাচ তন্তু দ্বারা গঠিত যা আলোর পালস (Pulse of light) ব্যবহার করে ডেটা আদান-প্রদান করে।",
+    "source": [
+      "BEZA Assistant Manager: 20"
+    ]
+  },
+  {
+    "id": 170,
+    "topicsId": 705,
+    "q": "অপটিক্যাল ফাইবারের সবচেয়ে ভিতরের অংশ কোনটি ?",
+    "options": [
+      "বাফার",
+      "জ্যাকেট",
+      "ক্ল্যাডিং",
+      "কোর"
+    ],
+    "ans": 3,
+    "explain": "অপটিক্যাল ফাইবারের তিনটি অংশ থাকে: কোর (সবচেয়ে ভিতরের অংশ), ক্ল্যাডিং (কোরকে ঘিরে থাকে) এবং জ্যাকেট (সবচেয়ে উপরের আবরণ)।",
+    "source": [
+      "রাবি (ইউনিট-বি)। ২০-২১/ মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৪"
+    ]
+  },
+  {
+    "id": 171,
+    "topicsId": 705,
+    "q": "অপটিক্যাল ফাইবার তৈরি করতে ব্যবহৃত হয়-",
+    "options": [
+      "গ্লাস কোর ও প্লাস্টিক ক্লাড",
+      "গ্লাস কোর ও অ্যালুমিনিয়াম ক্লাড",
+      "কপার কোর ও গ্লাস ক্লাড",
+      "প্লাস্টিক কোর ও গ্লাস ক্লাড"
+    ],
+    "ans": 0,
+    "explain": "সাধারণত উন্নত মানের গ্লাস বা প্লাস্টিক দিয়ে এর কেন্দ্রীয় অংশ বা কোর তৈরি করা হয় এবং এর ওপরে কম প্রতিসরাঙ্কের গ্লাস বা প্লাস্টিকের স্তর (ক্ল্যাড) থাকে।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীনে টেলিভিশন প্রকৌশলী (গ্রেড-২): ০৪"
+    ]
+  },
+  {
+    "id": 172,
+    "topicsId": 705,
+    "q": "Internet access by transmitting fastest digital data with heavy bandwidth over the wires are best possible by-",
+    "options": [
+      "Digital lines",
+      "Regular cable lines",
+      "Optical fibers",
+      "Analog lines"
+    ],
+    "ans": 2,
+    "explain": "বিশাল ব্যান্ডউইথ এবং দ্রুততম গতির ইন্টারনেট সংযোগের জন্য অপটিক্যাল ফাইবার সবচেয়ে কার্যকর মাধ্যম।",
+    "source": [
+      "Janata Bank Ltd. Executive Officer Financial Analyst: 15"
+    ]
+  },
+  {
+    "id": 173,
+    "topicsId": 705,
+    "q": "Optical fiber carries data at the speed of light as it is made of-",
+    "options": [
+      "UTA (Ultra thin aluminum)",
+      "Copper",
+      "Titanium",
+      "Bundle of reflecting glass"
+    ],
+    "ans": 3,
+    "explain": "অপটিক্যাল ফাইবার গ্লাস বা সিলিকা দিয়ে তৈরি যা অভ্যন্তরীণ পূর্ণ প্রতিফলনের মাধ্যমে আলোর গতিতে ডেটা বহন করে।",
+    "source": [
+      "Janata Bank Ltd. Executive Officer Financial Analyst: 15"
+    ]
+  },
+  {
+    "id": 174,
+    "topicsId": 705,
+    "q": "কোন মাধ্যমে আলোর পালস ব্যবহৃত হয় ?",
+    "options": [
+      "তামার তার",
+      "কো-এক্সিয়াল ক্যাবল",
+      "অপটিক্যাল ফাইবার",
+      "ওয়্যারলেস মিডিয়া"
+    ],
+    "ans": 2,
+    "explain": "অপটিক্যাল ফাইবার ইলেকট্রিক্যাল সিগন্যালকে আলোক সংকেত বা লাইট পালসে রূপান্তর করে পাঠায়।",
+    "source": [
+      "৩৮তম বিসিএস/৪৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 175,
+    "topicsId": 705,
+    "q": "অপটিক্যাল ফাইবারে আলোর কোন ঘটনাটি ঘটে ?",
+    "options": [
+      "প্রতিসরণ",
+      "বিচ্ছুরণ",
+      "অপবর্তন",
+      "অভ্যন্তরীণ প্রতিফলন"
+    ],
+    "ans": 3,
+    "explain": "অপটিক্যাল ফাইবারের কোরের মধ্য দিয়ে আলো 'অভ্যন্তরীণ পূর্ণ প্রতিফলন' (Total Internal Reflection) পদ্ধতিতে অগ্রসর হয়।",
+    "source": [
+      "৩২তম বিসিএস / খনিজ সম্পদ মন্ত্রণালয়ের সহকারি সচিব : ১৯"
+    ]
+  },
+  {
+    "id": 176,
+    "topicsId": 705,
+    "q": "নিচের কোন ট্রান্সমিশন মিডিয়ামটিতে ইলেক্ট্রোম্যাগনেটিক নয়েজের সমস্যা নেই ?",
+    "options": [
+      "ইউটিপি ক্যাবল",
+      "ফাইবার-অপটিক ক্যাবল",
+      "এসটিপি ক্যাবল",
+      "কোএক্সিয়াল ক্যাবল"
+    ],
+    "ans": 1,
+    "explain": "ফাইবার অপটিক ক্যাবলে ডেটা আলোর মাধ্যমে যায় এবং এতে কোনো ধাতব তার থাকে না, তাই এটি ইলেক্ট্রোম্যাগনেটিক ইন্টারফারেন্স (EMI) বা নয়েজ দ্বারা প্রভাবিত হয় না।",
+    "source": [
+      "প্রশাসন প্রশিক্ষণ কেন্দ্র (BPATC)-এর বিভিন্ন পদ: ১৯"
+    ]
+  },
+  {
+    "id": 177,
+    "topicsId": 705,
+    "q": "Which is the disadvantage of Optical Fiber ?",
+    "options": [
+      "Resistance to corrosive materials",
+      "Greater Immunity to tapping",
+      "Unidirectional light propagation",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "প্রদত্ত অপশনগুলোর মধ্যে ফাইবার অপটিকের কোনো সুনির্দিষ্ট অসুবিধা নেই। এটি ক্ষয়রোধী এবং এতে ট্যাপ করা কঠিন। তবে এর প্রধান অসুবিধা হলো এটি অত্যন্ত ব্যয়বহুল এবং এটি বাঁকানো কঠিন।",
+    "source": [
+      "Sonali, Rupali, Janata Bank Asst. Engineer: 21"
+    ]
+  },
+  {
+    "id": 178,
+    "topicsId": 705,
+    "q": "Which of the information is not wrong about optical fiber ?",
+    "options": [
+      "a special kind of cotton fiber",
+      "a combined structure of two different density glass.",
+      "a special type of fabrics",
+      "none of the above"
+    ],
+    "ans": 1,
+    "explain": "অপটিক্যাল ফাইবার দুটি ভিন্ন ঘনত্বের কাঁচের (কোর ও ক্ল্যাডিং) সমন্বয়ে গঠিত হয় যাতে আলোর পূর্ণ প্রতিফলন সম্ভব হয়।",
+    "source": [
+      "University (School of Social Science): 01-02"
+    ]
+  },
+  {
+    "id": 179,
+    "topicsId": 705,
+    "q": "DWDM is the technology for boosting transmission capacity of optical fiber cable. What is the elaboration of DWDM ?",
+    "options": [
+      "Dual Work Dense Multiplexing",
+      "Do able Wavelength Decrease Multiplexing",
+      "Dense Wavelength Division Multiplexing",
+      "None of above"
+    ],
+    "ans": 2,
+    "explain": "DWDM-এর পূর্ণরূপ হলো Dense Wavelength Division Multiplexing। এটি ফাইবার অপটিক ক্যাবলের ব্যান্ডউইথ বাড়াতে ব্যবহৃত একটি প্রযুক্তি।",
+    "source": [
+      "ICB Assistant Officer: 08"
+    ]
+  },
+  {
+    "id": 180,
+    "topicsId": 705,
+    "q": "Submarine cable is the term used in--/সাবমেরিন ক্যাবল শব্দটি ব্যবহৃত হয়-",
+    "options": [
+      "Education System",
+      "Communication System",
+      "Data Transformation",
+      "Information Technology",
+      "Fast Technology"
+    ],
+    "ans": 1,
+    "explain": "সাবমেরিন ক্যাবল হলো সমুদ্রের তলদেশ দিয়ে এক দেশ থেকে অন্য দেশে তথ্য আদান-প্রদানের বিশাল যোগাযোগ ব্যবস্থা (Communication System)।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 08/ Southeast Bank Ltd. Recruitment: 05"
+    ]
+  },
+  {
+    "id": 181,
+    "topicsId": 705,
+    "q": "সাবমেরিন ক্যাবল প্রযুক্তিতে নিম্নের কোন ধরনের মাধ্যম ব্যবহৃত হয় ?",
+    "options": [
+      "VAST",
+      "শব্দ তরঙ্গ",
+      "চুম্বক তরঙ্গ",
+      "অপটিক্যাল ফাইবার"
+    ],
+    "ans": 3,
+    "explain": "সাবমেরিন ক্যাবলে সমুদ্রের নিচ দিয়ে হাই-স্পিড ডেটা পারাপারের জন্য অপটিক্যাল ফাইবার ক্যাবল ব্যবহার করা হয়।",
+    "source": [
+      "সোনালী ব্যাংক লি. সিনিয়র অফিসার: ১৪"
+    ]
+  },
+  {
+    "id": 182,
+    "topicsId": 705,
+    "q": "'সাবমেরিন ক্যাবল' ব্যবহৃত হয়-",
+    "options": [
+      "নৌচলাচলের বিপদ সংকেত",
+      "জাহাজ চলাচলের সুবিধা",
+      "ইন্টারনেট সংযোগ",
+      "কোনোটিই নয়"
+    ],
+    "ans": 2,
+    "explain": "বিশ্বজুড়ে উচ্চ গতির ইন্টারনেট সংযোগের প্রধান মাধ্যম হলো সমুদ্রের নিচ দিয়ে বিস্তৃত সাবমেরিন ক্যাবল নেটওয়ার্ক।",
+    "source": [
+      "প্রতিরক্ষা মন্ত্রণালয়ের মিলিটারি ইঞ্জিনিয়ার সার্ভিসেসের স্টোরম্যান: ১৮"
+    ]
+  },
+  {
+    "id": 183,
+    "topicsId": 705,
+    "q": "LASER is an acronym for Light Amplification by-",
+    "options": [
+      "Stimulated Emission of Radio waves",
+      "Stimulated Emission of Radiation",
+      "Spontaneous Emission of Radio waves",
+      "Spontaneous Emission of Radiation"
+    ],
+    "ans": 1,
+    "explain": "LASER-এর পূর্ণরূপ হলো Light Amplification by Stimulated Emission of Radiation।",
+    "source": [
+      "National Bank Ltd. (Probationary Officer): 15"
+    ]
+  },
+  {
+    "id": 184,
+    "topicsId": 705,
+    "q": "লেজার রশ্মি কে, কত সালে আবিষ্কার করেন ?",
+    "options": [
+      "বোর, ১৯৬৩",
+      "রাদারফোর্ড, ১৯১৯",
+      "হাইগ্যান, ১৯৬১",
+      "মাইম্যান, ১৯৬০"
+    ],
+    "ans": 3,
+    "explain": "১৯৬০ সালে থিওডোর মাইম্যান (Theodore Maiman) প্রথম কার্যকর লেজার রশ্মি আবিষ্কার করেন।",
+    "source": [
+      "বাতিলকৃত ২৪তম বিসিএস/ প্রাক প্রাথমিক বিদ্যালয় সহকারী শিক্ষক: ১৫"
+    ]
+  },
+  {
+    "id": 185,
+    "topicsId": 705,
+    "q": "বায়ুমণ্ডলের যে স্তরে বেতার তরঙ্গ প্রতিফলিত হয়",
+    "options": [
+      "স্ট্রাটোস্ফিয়ার",
+      "ট্রপোস্ফিয়ার",
+      "আয়োনোস্ফিয়ার",
+      "ওজোনস্তর"
+    ],
+    "ans": 2,
+    "explain": "পৃথিবী থেকে প্রেরিত বেতার তরঙ্গ বায়ুমণ্ডলের আয়োনোস্ফিয়ার (Ionosphere) স্তরে বাধা পেয়ে পুনরায় পৃথিবীতে ফিরে আসে।",
+    "source": [
+      "৩৮তম বিসিএস/বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের জেনারেল ম্যানেজার: ২২"
+    ]
+  },
+  {
+    "id": 186,
+    "topicsId": 705,
+    "q": "তারহীন যোগাযোগ মাধ্যম কোনটি ?",
+    "options": [
+      "ফাইবার অপটিক",
+      "এসটিপি",
+      "মাইক্রোওয়েভ",
+      "ইউটিপি"
+    ],
+    "ans": 2,
+    "explain": "মাইক্রোওয়েভ হলো একটি তারহীন বা ওয়্যারলেস যোগাযোগ মাধ্যম যা উচ্চ কম্পাঙ্কের রেডিও তরঙ্গ ব্যবহার করে।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় (ক ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 187,
+    "topicsId": 705,
+    "q": "মাইক্রোওয়েভ প্রযুক্তির অসুবিধা দূর করতে কোন প্রযুক্তি আবশ্যক ?",
+    "options": [
+      "ইনফ্রারেড",
+      "জিপিএস",
+      "রেডিও ওয়েভ",
+      "কৃত্রিম উপগ্রহ"
+    ],
+    "ans": 3,
+    "explain": "মাইক্রোওয়েভ বাঁকা পথে চলতে পারে না। পৃথিবীর বক্রতার কারণে দীর্ঘ দূরত্বের যোগাযোগের ক্ষেত্রে কৃত্রিম উপগ্রহ বা স্যাটেলাইট ব্যবহার করে এই সীমাবদ্ধতা দূর করা হয়।",
+    "source": [
+      "রাজশাহী বোর্ড (উচ্চ মাধ্যমিক):১৯"
+    ]
+  },
+  {
+    "id": 188,
+    "topicsId": 705,
+    "q": "VSAT বলতে কী বুঝায় ?",
+    "options": [
+      "Very Swift Automatic Terminal",
+      "Very Standard Automobile Test",
+      "Very Small Aperture Terminal",
+      "Very Static Aligned Terminal"
+    ],
+    "ans": 2,
+    "explain": "VSAT-এর পূর্ণরূপ হলো Very Small Aperture Terminal। এটি একটি ছোট ভূ-উপগ্রহ কেন্দ্র যা স্যাটেলাইটের মাধ্যমে ডেটা আদান-প্রদান করে।",
+    "source": [
+      "জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয় (ডি ইউনিট): ১৯-২০"
+    ]
+  },
+  {
+    "id": 189,
+    "topicsId": 705,
+    "q": "VSAT ব্যবহার করা হয় -",
+    "options": [
+      "ভূ-পৃষ্ঠ হতে স্যাটেলাইটে যোগাযোগ করার জন্য",
+      "একটি স্যাটেলাইট থেকে অন্য স্যাটেলাইটে যোগাযোগ করার জন্য",
+      "ভূ-পৃষ্ঠের একস্থান থেকে অন্যস্থানে টেলিফোনের মাধ্যমে যোগাযোগ সহজতর করার জন্য",
+      "এক ধরনের আবহাওয়া জ্ঞাপক ভূ-উপগ্রহ"
+    ],
+    "ans": 0,
+    "explain": "VSAT মূলত ভূ-পৃষ্ঠে স্থাপন করা হয় এবং এটি মহাকাশে থাকা স্যাটেলাইটের সাথে সরাসরি যোগাযোগের মাধ্যম হিসেবে কাজ করে।",
+    "source": [
+      "পিএসসি কর্তৃক নির্ধারিত ১২টি পদ: ০১"
+    ]
+  },
+  {
+    "id": 190,
+    "topicsId": 705,
+    "q": "The local antenna for satellite connection is called a-",
+    "options": [
+      "V-Sat",
+      "Modem",
+      "Terminal",
+      "Data",
+      "Isa"
+    ],
+    "ans": 0,
+    "explain": "স্যাটেলাইট সংযোগের জন্য স্থানীয়ভাবে যে বিশেষ এন্টিনা ব্যবহার করা হয় তাকে VSAT বলা হয়।",
+    "source": [
+      "Agrani Bank Ltd. Cash Officer : 13"
+    ]
+  },
+  {
+    "id": 191,
+    "topicsId": 705,
+    "q": "GEO স্যাটেলাইট ভূমি থেকে কত উচ্চতায় নির্দিষ্ট কক্ষপথ রাখতে হয় ?",
+    "options": [
+      "12000 km",
+      "22000km",
+      "27000 km",
+      "36000 km"
+    ],
+    "ans": 3,
+    "explain": "জিও-সিনক্রোনাস আর্থ অরবিট (GEO) স্যাটেলাইটগুলোকে পৃথিবী থেকে প্রায় ৩৬০০০ কিমি (সঠিকভাবে ৩৫,৭৮৬ কিমি) উচ্চতায় স্থাপন করা হয়।",
+    "source": [
+      "কুমিল্লা বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 192,
+    "topicsId": 705,
+    "q": "কোনটি উপগ্রহে ডাটা প্রেরণের সাথে সম্পর্কিত ?",
+    "options": [
+      "Downlink",
+      "Modulate",
+      "Demodulate",
+      "Uplink"
+    ],
+    "ans": 3,
+    "explain": "পৃথিবী থেকে কৃত্রিম উপগ্রহ বা স্যাটেলাইটে ডাটা পাঠানোকে বলা হয় Uplink। অন্যদিকে স্যাটেলাইট থেকে পৃথিবীতে ডাটা আসাকে বলা হয় Downlink।",
+    "source": [
+      "GST গুচ্ছভুক্ত বিশ্ববিদ্যালয় (খ ইউনিট) : ২০-২১"
+    ]
+  },
+  {
+    "id": 193,
+    "topicsId": 705,
+    "q": "Satellite Communication works through-",
+    "options": [
+      "Radar",
+      "Fiber Optic Cable",
+      "Transponder",
+      "TV signal"
+    ],
+    "ans": 2,
+    "explain": "স্যাটেলাইট কমিউনিকেশনে ব্যবহৃত প্রধান যন্ত্রাংশ হলো ট্রান্সপন্ডার (Transponder)। এটি পৃথিবী থেকে আসা সিগন্যাল গ্রহণ করে, তার শক্তি বৃদ্ধি করে এবং পুনরায় পৃথিবীতে পাঠিয়ে দেয়। তাই সঠিক উত্তর হবে ট্রান্সপন্ডার।",
+    "source": [
+      "Combined 5 Banks Officer (Cash) : 22 / Dhaka Bank Ltd. TACO: 19"
+    ]
+  },
+  {
+    "id": 194,
+    "topicsId": 705,
+    "q": "What kind of wave is used in communication technology of mobile phone ? / কোন ধরনের তরঙ্গ মোবাইল ফোন প্রযুক্তিতে ব্যবহৃত হয় ?",
+    "options": [
+      "Infrared",
+      "X-ray",
+      "Ultra Violet",
+      "Microwave",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "মোবাইল ফোন প্রযুক্তিতে রেডিও ওয়েভ বা রেডিও তরঙ্গের একটি উচ্চ কম্পাঙ্ক যা মাইক্রোওয়েভ (Microwave) নামে পরিচিত, তা ব্যবহার করা হয়।",
+    "source": [
+      "Standard Bank Ltd. Asst. Officer: 12/ Mercantile Bank Ltd. Officer: 09"
+    ]
+  },
+  {
+    "id": 195,
+    "topicsId": 705,
+    "q": "GPS এর পূর্ণরূপ কোনটি ?",
+    "options": [
+      "Great Positioning System",
+      "Global Pointing System",
+      "Global Positioning System",
+      "Global Publication"
+    ],
+    "ans": 2,
+    "explain": "GPS এর পূর্ণরূপ হলো Global Positioning System। এটি মূলত স্যাটেলাইটভিত্তিক একটি নেভিগেশন সিস্টেম যা কোনো ব্যক্তি বা বস্তুর সঠিক অবস্থান নির্ণয়ে ব্যবহৃত হয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (৩য় পর্যায়) : ২২"
+    ]
+  },
+  {
+    "id": 196,
+    "topicsId": 705,
+    "q": "মোবাইল সেট চুরি বা ছিনতাই রোধে কার্যকর পদ্ধতি-",
+    "options": [
+      "মোবাইল ট্র্যাকার",
+      "জিপিএস",
+      "আইএমইআই",
+      "জিএসএম"
+    ],
+    "ans": 2,
+    "explain": "প্রতিটি মোবাইল সেটের ১৫ ডিজিটের একটি অনন্য পরিচিতি নম্বর থাকে যাকে IMEI (International Mobile Equipment Identity) বলা হয়। এটি ব্যবহার করে চুরি হওয়া ফোন শনাক্ত বা লক করা যায়।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (ফাইন্যান্স) : ০৮-০৯"
+    ]
+  },
+  {
+    "id": 197,
+    "topicsId": 705,
+    "q": "TV remote এর Carrier frequency-র range কত ?",
+    "options": [
+      "<100 MHz",
+      "<1 GHz",
+      "<2 GHz",
+      "Infra-red range-এর"
+    ],
+    "ans": 3,
+    "explain": "টেলিভিশনের রিমোট কন্ট্রোলে সাধারণত ইনফ্রারেড (Infrared) রশ্মি ব্যবহার করা হয়। এর কম্পাঙ্ক দৃশ্যমান আলোর চেয়ে কম কিন্তু রেডিও তরঙ্গের চেয়ে বেশি হয়।",
+    "source": [
+      "৪০ তম বিসিএস"
+    ]
+  },
+  {
+    "id": 198,
+    "topicsId": 705,
+    "q": "নিচের কোনটিতে সাধারণত ইনফ্রারেড ডিভাইস ব্যবহার করা হয় ?",
+    "options": [
+      "WAN",
+      "Satellite Communication",
+      "MAN",
+      "TV রিমোর্ট কন্ট্রোলে"
+    ],
+    "ans": 3,
+    "explain": "ইনফ্রারেড (IR) প্রযুক্তি খুব অল্প দূরত্বে (লাইন অফ সাইট) ডাটা বা সিগন্যাল আদান-প্রদানে ব্যবহৃত হয়, যার সবচেয়ে সাধারণ উদাহরণ হলো টিভি রিমোর্ট।",
+    "source": [
+      "৩৬তম বিসিএস"
+    ]
+  },
+  {
+    "id": 199,
+    "topicsId": 705,
+    "q": "বিভিন্ন ধরনের বিকিরণগুলোর মধ্যে কোনটি থেকে আমরা তাপ পাই-",
+    "options": [
+      "গামা রশ্মি",
+      "রঞ্জন রশ্মি",
+      "অতিবেগুনি রশ্মি",
+      "অবলোহিত রশ্মি"
+    ],
+    "ans": 3,
+    "explain": "অবলোহিত রশ্মি বা ইনফ্রারেড (Infrared) রশ্মিকে তাপীয় বিকিরণ বলা হয়। সূর্যের তাপের একটি বড় অংশ এই রশ্মির মাধ্যমে পৃথিবীতে আসে।",
+    "source": [
+      "রাজশাহী বিশ্ব: (ভূগোল ও পরিবেশ) : ০৭-০৮"
+    ]
+  },
+  {
+    "id": 200,
+    "topicsId": 705,
+    "q": "হটস্পট কী ?",
+    "options": [
+      "নির্দিষ্ট উত্তপ্ত এলাকা",
+      "তারযুক্ত ইন্টারনেট ব্যবস্থা",
+      "তারবিহীন ইন্টারনেট ব্যবস্থা",
+      "বিশ্বব্যাপী নেটওয়ার্ক ব্যবস্থা"
+    ],
+    "ans": 2,
+    "explain": "হটস্পট (Hotspot) হলো একটি নির্দিষ্ট ভৌগোলিক এলাকা যেখানে তারবিহীন বা ওয়্যারলেস প্রযুক্তির (যেমন: Wi-Fi) মাধ্যমে ইন্টারনেট সেবা প্রদান করা হয়।",
+    "source": [
+      "রাজশাহী বোর্ড (উচ্চ মাধ্যমিক) : ১৬/ GST গুচ্ছভুক্ত বিশ্ববিদ্যালয় (ণ ইউনিট -মানবিক) : ২০-২১"
+    ]
+  },
+  {
+    "id": 201,
+    "topicsId": 705,
+    "q": "হটস্পট-প্রযুক্তির অন্তর্ভুক্ত নয়-",
+    "options": [
+      "সেলুলার ফোন",
+      "ওয়াই-ফাই",
+      "ওয়াই ম্যাক্স",
+      "এনএফসি"
+    ],
+    "ans": 3,
+    "explain": "ওয়াই-ফাই, ওয়াই-ম্যাক্স এবং ব্লুটুথ হটস্পট তৈরির প্রযুক্তি। এনএফসি (NFC - Near Field Communication) মূলত খুব অল্প দূরত্বে পেমেন্ট বা ডাটা শেয়ারিংয়ে ব্যবহৃত হয়, এটি হটস্পট প্রযুক্তি নয়।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় (খ ইউনিট): ১৯-২০"
+    ]
+  },
+  {
+    "id": 202,
+    "topicsId": 705,
+    "q": "ওয়াই-ফাই (Wi-Fi) নেটওয়ার্কে সংযোগের জন্য সংশ্লিষ্ট ডিভাইসটির সংযোগ মাধ্যম কোনটি ?",
+    "options": [
+      "তামার তার",
+      "অপটিক্যাল ফাইবার",
+      "তারহীন সংযোগ",
+      "উপরের সবকটি"
+    ],
+    "ans": 2,
+    "explain": "Wi-Fi এর পূর্ণরূপ Wireless Fidelity। এটি রেডিও তরঙ্গের মাধ্যমে ডিভাইসের সাথে তারহীন সংযোগ স্থাপন করে।",
+    "source": [
+      "৩৭তম বিসিএস"
+    ]
+  },
+  {
+    "id": 203,
+    "topicsId": 705,
+    "q": "'WIMAX' নিচের কোনটির সাথে সম্পর্কিত ?",
+    "options": [
+      "বায়োটেকনোলজি",
+      "মহাশূন্য প্রযুক্তি",
+      "যোগাযোগ প্রযুক্তি",
+      "মিসাইল প্রযুক্তি"
+    ],
+    "ans": 2,
+    "explain": "WiMAX হলো একটি উচ্চগতির তারবিহীন যোগাযোগ প্রযুক্তি যা দীর্ঘ দূরত্বে ব্রডব্যান্ড ইন্টারনেট সুবিধা প্রদান করে।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (গ-ইউনিট) : ১৬-১৭"
+    ]
+  },
+  {
+    "id": 204,
+    "topicsId": 705,
+    "q": "নিচের কোনটি তার বিহীন দ্রুতগতির ইন্টারনেট সংযোগের জন্য উপযোগী ?",
+    "options": [
+      "সি-মস",
+      "ওয়াই ম্যাক্স",
+      "ব্রডব্যান্ড",
+      "ব্লু-টুথ"
+    ],
+    "ans": 1,
+    "explain": "ব্লুটুথ বা ওয়াই-ফাই এর তুলনায় ওয়াই ম্যাক্স (WiMAX) অনেক বেশি দূরত্বে এবং উচ্চগতিতে ডাটা পাঠাতে সক্ষম।",
+    "source": [
+      "৩২ তম বিসিএস"
+    ]
+  },
+  {
+    "id": 205,
+    "topicsId": 705,
+    "q": "WIMAX একটি-",
+    "options": [
+      "ওয়্যারলেস ব্রডব্যান্ড প্রযুক্তি",
+      "ব্রান্ড ঘড়ি",
+      "মোবাইল ফোন",
+      "ডিভিডি প্লেয়ার"
+    ],
+    "ans": 0,
+    "explain": "WiMAX এর মাধ্যমে একটি বড় শহরজুড়ে তারবিহীন ব্রডব্যান্ড ইন্টারনেট সেবা প্রদান করা সম্ভব।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ড সহকারী সচিব : ১৩"
+    ]
+  },
+  {
+    "id": 206,
+    "topicsId": 705,
+    "q": "WiMAX এর পূর্ণরূপ কী ?",
+    "options": [
+      "Worldwide Interoperability for Microwave Access",
+      "Worldwide Interconnection for Microwave Access",
+      "Worldwide Internet for Microwave Access",
+      "কোনোটিই নয়"
+    ],
+    "ans": 0,
+    "explain": "WiMAX এর পূর্ণরূপ হলো Worldwide Interoperability for Microwave Access।",
+    "source": [
+      "৩৬ তম বিসিএস"
+    ]
+  },
+  {
+    "id": 207,
+    "topicsId": 705,
+    "q": "WiMax এর স্ট্যান্ডার্ড কত ?",
+    "options": [
+      "11 GHz",
+      "11a GHz",
+      "15 GHz",
+      "16 GHz"
+    ],
+    "ans": 3,
+    "explain": "WiMAX প্রযুক্তির জন্য IEEE স্ট্যান্ডার্ড হলো 802.16। অন্যদিকে 802.11 হলো Wi-Fi এর স্ট্যান্ডার্ড।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক) : ১৯"
+    ]
+  },
+  {
+    "id": 208,
+    "topicsId": 705,
+    "q": "WiMax কোন ধরনের নেটওয়ার্কে ব্যবহৃত হয় ?",
+    "options": [
+      "PAN",
+      "LAN",
+      "MAN",
+      "WAN"
+    ],
+    "ans": 2,
+    "explain": "WiMAX সাধারণত একটি নির্দিষ্ট শহর বা মেট্রোপলিটন এলাকা জুড়ে বিস্তৃত থাকে, তাই এটি MAN (Metropolitan Area Network)-এর অন্তর্ভুক্ত।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (ইউনিট-বি) : ২০-২১ / সম্মিলিত বোর্ড (উচ্চ মাধ্যমিক) : ১৮"
+    ]
+  },
+  {
+    "id": 209,
+    "topicsId": 705,
+    "q": "সবচেয়ে বেশি এলাকা জুড়ে যোগাযোগের পদ্ধতি হলো-",
+    "options": [
+      "ওয়াইফাই",
+      "ওয়াইম্যাক্স",
+      "ব্লুটুথ",
+      "স্যাটেলাইট"
+    ],
+    "ans": 3,
+    "explain": "স্যাটেলাইট বা উপগ্রহের মাধ্যমে সমগ্র বিশ্বজুড়ে যোগাযোগ স্থাপন করা সম্ভব। প্রদত্ত অপশনগুলোর মধ্যে এটিই সবচেয়ে বড় এলাকা কভার করে।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (ইউনিট-খ) : ২০-২১"
+    ]
+  },
+  {
+    "id": 210,
+    "topicsId": 705,
+    "q": "WiMAX প্রযুক্তিতে ব্যপ্তি এলাকা (মিটারে) কত ?",
+    "options": [
+      "10-50",
+      "100-500",
+      "1000-5000",
+      "10000-50000"
+    ],
+    "ans": 3,
+    "explain": "WiMAX প্রযুক্তির সীমা সাধারণত ১০ থেকে ৫০ কিলোমিটার (অর্থাৎ ১০০০০ থেকে ৫০০০০ মিটার) পর্যন্ত হতে পারে।",
+    "source": [
+      "GST গুচ্ছভুক্ত বিশ্ববিদ্যালয় : ২০-২১"
+    ]
+  },
+  {
+    "id": 211,
+    "topicsId": 705,
+    "q": "সাশ্রয়ীভাবে পাহাড়ি এলাকায় কার্যকরি নেটওয়ার্ক স্থাপনের জন্য কোন মাধ্যমটি সুবিধাজনক ?",
+    "options": [
+      "অপটিক্যাল ফাইবার",
+      "রেডিও ওয়েভ",
+      "ওয়াইফাই",
+      "ওয়াইম্যাক্স"
+    ],
+    "ans": 3,
+    "explain": "পাহাড়ি এলাকায় তার বিছানো অত্যন্ত ব্যয়বহুল ও কঠিন। সেখানে দীর্ঘ দূরত্বের তারহীন প্রযুক্তি WiMAX সবচেয়ে সুবিধাজনক।",
+    "source": [
+      "বরিশাল বোর্ড (উচ্চ মাধ্যমিক) : ১৭"
+    ]
+  },
+  {
+    "id": 212,
+    "topicsId": 705,
+    "q": "কোন প্রযুক্তি ডেটা ট্রান্সফার রেট সর্বোচ্চ ?",
+    "options": [
+      "ওয়াই-ফাই",
+      "ব্লুটুথ",
+      "ওয়াই-ম্যাক্স",
+      "ইনফ্রারেড"
+    ],
+    "ans": 2,
+    "explain": "সাধারণত ওয়াই-ম্যাক্স (WiMAX) এর থ্রুপুট বা ডাটা ট্রান্সফার রেট অন্যান্য তারহীন ব্যক্তিগত নেটওয়ার্কের চেয়ে অনেক বেশি।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় (ক ইউনিট) : ১৭-১৮"
+    ]
+  },
+  {
+    "id": 213,
+    "topicsId": 705,
+    "q": "Wi-Fi এর পূর্ণরূপ কোনটি ?",
+    "options": [
+      "Wireless Internet",
+      "Wireless Field",
+      "Wireless Fibre",
+      "Wireless Fidelity"
+    ],
+    "ans": 3,
+    "explain": "Wi-Fi এর পূর্ণরূপ হচ্ছে Wireless Fidelity।",
+    "source": [
+      "সমন্বিত ৮ ব্যাংক অফিসার (সাধারণ) : ২২ / বিমান বাংলাদেশ এয়ারলাইন্স লি. এর সহকারী ব্যবস্থাপক : ২১"
+    ]
+  },
+  {
+    "id": 214,
+    "topicsId": 705,
+    "q": "Wi-Fi প্রযুক্তিতে কোন ট্রান্সমিশন মিডিয়া ব্যবহৃত হয় ? / Wi-Fi uses-",
+    "options": [
+      "optic fiber",
+      "radio-waves",
+      "phase line",
+      "sound-waves"
+    ],
+    "ans": 1,
+    "explain": "Wi-Fi সিগন্যাল আদান-প্রদানের জন্য রেডিও ওয়েভ (Radio-waves) ব্যবহার করে।",
+    "source": [
+      "Rupali Bank Ltd-Senior Officer: 19"
+    ]
+  },
+  {
+    "id": 215,
+    "topicsId": 705,
+    "q": "Wi-fi কোন স্ট্যান্ডার্ড-এর উপর ভিত্তি করে কাজ করে ?",
+    "options": [
+      "IEEE 802.11",
+      "IEEE 804.11",
+      "IEEE 803.11",
+      "IEEE 806.11"
+    ],
+    "ans": 0,
+    "explain": "Wi-Fi বা ওয়্যারলেস লোকাল এরিয়া নেটওয়ার্কের স্ট্যান্ডার্ড হলো IEEE 802.11।",
+    "source": [
+      "৩০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 216,
+    "topicsId": 705,
+    "q": "What is the frequency range of the IEEE 802.11a standard ?",
+    "options": [
+      "4 Gbps",
+      "5 Gbps",
+      "4 GHz",
+      "5 GHz"
+    ],
+    "ans": 3,
+    "explain": "IEEE 802.11a স্ট্যান্ডার্ডটি মূলত 5 GHz ফ্রিকোয়েন্সি ব্যান্ডে কাজ করে।",
+    "source": [
+      "Rupali Bank Ltd. Assistant Network Engineer: 21"
+    ]
+  },
+  {
+    "id": 217,
+    "topicsId": 705,
+    "q": "IEEE 802.11 প্রযুক্তির সাহায্যে কোন নেটওয়ার্কটি তৈরি করা যাবে ?",
+    "options": [
+      "PAN",
+      "LAN",
+      "CAN",
+      "WAN"
+    ],
+    "ans": 1,
+    "explain": "IEEE 802.11 হলো WLAN (Wireless Local Area Network) এর স্ট্যান্ডার্ড, যা দিয়ে LAN তৈরি করা হয়।",
+    "source": [
+      "সিলেট বোর্ড (উচ্চ মাধ্যমিক) : ১৯"
+    ]
+  },
+  {
+    "id": 218,
+    "topicsId": 705,
+    "q": "'হটস্পট' কী ধরনের নেটওয়ার্ক ?",
+    "options": [
+      "PAN",
+      "WAN",
+      "LAN",
+      "MAN"
+    ],
+    "ans": 2,
+    "explain": "হটস্পট সাধারণত একটি নির্দিষ্ট সীমাবদ্ধ এলাকা (যেমন অফিস বা বাসা) কভার করে, যা লোকাল এরিয়া নেটওয়ার্ক (LAN)-এর উদাহরণ।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় : ১৮-১৯"
+    ]
+  },
+  {
+    "id": 219,
+    "topicsId": 705,
+    "q": "LAN এর ক্ষেত্রে Wi-fi এর বিস্তৃতি কত ?",
+    "options": [
+      "৩০ মিটার",
+      "২০ মিটার",
+      "৪০ মিটার",
+      "৫০ মিটার"
+    ],
+    "ans": 0,
+    "explain": "সাধারণত ইনডোর পরিবেশে Wi-Fi এর কার্যকর রেঞ্জ বা বিস্তৃতি ৩২ মিটার বা প্রায় ১০০ ফুটের মতো হয়ে থাকে। অপশন অনুযায়ী ৩০ মিটার সঠিক।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের পোস্টাল অপারেটর : ১৬"
+    ]
+  },
+  {
+    "id": 220,
+    "topicsId": 705,
+    "q": "কোন পদ্ধতি ব্যবহার করে কম্পিউটার ও স্মার্টফোনে একই সাথে ইন্টারনেট সংযোগ দেয়া যায় ?",
+    "options": [
+      "Bluetooth",
+      "Wi-Fi",
+      "WAN",
+      "LAN"
+    ],
+    "ans": 1,
+    "explain": "Wi-Fi হটস্পট ব্যবহার করে একাধিক ডিভাইসে (কম্পিউটার, মোবাইল) একই সাথে ইন্টারনেট শেয়ার করা যায়।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের পোস্টাল অপারেটর : ১৬"
+    ]
+  },
+  {
+    "id": 221,
+    "topicsId": 705,
+    "q": "ব্লুটুথ (Bluetooth) কার নামানুসারে নামকরণ করা হয় ?",
+    "options": [
+      "ডেনমার্কের রাজা",
+      "জাপানের সম্রাট",
+      "ব্রিটেনের রানী",
+      "সুইজারল্যান্ডের রাজকুমার"
+    ],
+    "ans": 0,
+    "explain": "দশম শতাব্দীর ডেনমার্কের রাজা 'হ্যারল্ড ব্লুটুথ' (Harald Bluetooth)-এর নামানুসারে এই প্রযুক্তির নামকরণ করা হয়েছে।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের পোস্টাল অপারেটর : ১৫"
+    ]
+  },
+  {
+    "id": 222,
+    "topicsId": 705,
+    "q": "'Bluetooth' নিচের কোন প্রযুক্তি ব্যবহার করে ?",
+    "options": [
+      "Magnetic technology",
+      "Optical technology",
+      "Laser technology",
+      "Radio technology"
+    ],
+    "ans": 3,
+    "explain": "ব্লুটুথ একটি স্বল্প দূরত্বের তারহীন যোগাযোগ প্রযুক্তি যা রেডিও ফ্রিকোয়েন্সি (Radio technology) ব্যবহার করে।",
+    "source": [
+      "Agrani Bank Ltd. Senior Officer :15"
+    ]
+  },
+  {
+    "id": 223,
+    "topicsId": 705,
+    "q": "নিচের কোনটি Bluetooth- IEEE standard ?",
+    "options": [
+      "IEEE 802.15",
+      "IEEE 802.1",
+      "IEEE 802.3",
+      "IEEE 802.11"
+    ],
+    "ans": 0,
+    "explain": "ব্লুটুথ বা WPAN (Wireless Personal Area Network) এর স্ট্যান্ডার্ড হলো IEEE 802.15।",
+    "source": [
+      "৪৩ তম বিসিএস"
+    ]
+  },
+  {
+    "id": 224,
+    "topicsId": 705,
+    "q": "Piconet কী ?",
+    "options": [
+      "Wifi Network",
+      "Wide Area Network",
+      "Bluetooth Network",
+      "5G Network"
+    ],
+    "ans": 2,
+    "explain": "একটি ব্লুটুথ নেটওয়ার্ককে পিকোনেট (Piconet) বলা হয়। এতে একটি মাস্টার এবং সর্বোচ্চ ৭টি সক্রিয় স্লেভ ডিভাইস থাকতে পারে।",
+    "source": [
+      "৪৪তম বিসিএস"
+    ]
+  },
+  {
+    "id": 225,
+    "topicsId": 705,
+    "q": "ব্লুটুথ কত দূরত্ব পর্যন্ত কাজ করে ?",
+    "options": [
+      "১০-৩০ মিটার",
+      "১০-৫০ মিটার",
+      "১০-১০০ মিটার",
+      "১০-৩০০ মিটার"
+    ],
+    "ans": 2,
+    "explain": "ব্লুটুথ সাধারণত ১০ থেকে ১০০ মিটার দূরত্বের মধ্যে কাজ করতে সক্ষম (ক্লাস অনুযায়ী)।",
+    "source": [
+      "৪১তম বিসিএস / বেসামরিক বিমান চলাচল কর্তৃপক্ষ এর উচ্চমান সহকারী : ২১"
+    ]
+  },
+  {
+    "id": 226,
+    "topicsId": 705,
+    "q": "নিচের কোনটি যোগাযোগের দূরত্ব সবচেয়ে কম ?",
+    "options": [
+      "Wi-Fi",
+      "Bluetooth",
+      "Wi-Max",
+      "Cellular network"
+    ],
+    "ans": 1,
+    "explain": "প্রদত্ত অপশনগুলোর মধ্যে ব্লুটুথের রেঞ্জ সবচেয়ে কম (সাধারণত ১০-১০০ মিটার)।",
+    "source": [
+      "৪১তম বিসিএস/ কর্মসংস্থান ব্যাংক অ্যাসিসটেন্ট অফিসার (জেনারেল ও ক্যাশ): ২১"
+    ]
+  },
+  {
+    "id": 227,
+    "topicsId": 705,
+    "q": "Bluetooth কিসের উদাহরণ ?",
+    "options": [
+      "Personal Area Network",
+      "Local Area Network",
+      "Virtual Private Network",
+      "কোনোটি নয়"
+    ],
+    "ans": 0,
+    "explain": "ব্লুটুথ ব্যক্তির খুব কাছাকাছি থাকা ডিভাইসের মধ্যে সংযোগ স্থাপন করে বলে একে Personal Area Network (PAN) বলা হয়।",
+    "source": [
+      "৪০তম বিসিএস/ রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 228,
+    "topicsId": 705,
+    "q": "একটি পিকোনেটে মোট কতটি দাস (Slave) নোড থাকতে পারে ?",
+    "options": [
+      "248 টি",
+      "254 টি",
+      "255 টি",
+      "256 টি"
+    ],
+    "ans": 2,
+    "explain": "একটি ব্লুটুথ পিকোনেটে (Piconet) সক্রিয় অবস্থায় মোট ৭টি দাস (Slave) নোড থাকতে পারে। মূলত, একটিমাত্র কেন্দ্রীয় মাস্টার (Master) নোডের অধীনে সর্বোচ্চ ৭টি সক্রিয় স্লেভ নোড যুক্ত হয়ে পিকোনেট তৈরি করে থাকে, যার ফলে পুরো নেটওয়ার্কে মোট ডিভাইসের সংখ্যা দাঁড়ায় ৮। এছাড়া, ওই পিকোনেটের নেটওয়ার্ক রেঞ্জের মধ্যে স্ট্যান্ডবাই (Standby) বা নিষ্ক্রিয় অবস্থায় আরও ২৫৫টি পর্যন্ত দাস নোড থাকতে পারে, যেগুলো প্রয়োজনে মাস্টারের সাথে যুক্ত হতে পারে।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 229,
+    "topicsId": 705,
+    "q": "মোবাইল ফোন থেকে ডায়াল করলে সৃষ্ট বেতার তরঙ্গ কোথায় যায় ?",
+    "options": [
+      "টেলিফোন অফিসে",
+      "প্রেরক টাওয়ার",
+      "গ্রাহক টাওয়ার",
+      "প্রেরক-গ্রাহক টাওয়ার"
+    ],
+    "ans": 3,
+    "explain": "মোবাইল ফোনের সিগন্যাল মূলত নিকটস্থ বেইজ স্টেশন বা টাওয়ারের (প্রেরক-গ্রাহক টাওয়ার) মাধ্যমে আদান-প্রদান হয়।",
+    "source": [
+      "বহিরাগমন ও পাসপোর্ট অধিদপ্তরের সহকারী পরিচালক: ১৪"
+    ]
+  },
+  {
+    "id": 230,
+    "topicsId": 705,
+    "q": "মোবাইল ফোনের জনক কে ?",
+    "options": [
+      "বিল গেটস্",
+      "স্টিভ জবস",
+      "মার্টিন কুপার",
+      "জাকারবার্গ"
+    ],
+    "ans": 2,
+    "explain": "মটোরোলা কোম্পানির প্রকৌশলী মার্টিন কুপার (Martin Cooper) কে মোবাইল ফোনের জনক বলা হয়। তিনি ১৯৭৩ সালে প্রথম মোবাইল কল করেন।",
+    "source": [
+      "শিক্ষা ও গবেষণা ইনস্টিটিউট (ঢাবি) এর উপজেলা/আরবান প্রোগ্রাম কো-অর্ডিনেটর: ২০"
+    ]
+  },
+  {
+    "id": 231,
+    "topicsId": 705,
+    "q": "বাণিজ্যিকভাবে উৎপাদিত প্রথম মোবাইল ফোন কোনটি ?",
+    "options": [
+      "Nokia",
+      "Motorola",
+      "Sony Erickson",
+      "Samsung",
+      "Apple"
+    ],
+    "ans": 1,
+    "explain": "মটোরোলা (Motorola) কোম্পানি প্রথম বাণিজ্যিক মোবাইল ফোন 'DynaTAC 8000X' বাজারে এনেছিল।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় (F-ইউনিট): ১৪-১৫"
+    ]
+  },
+  {
+    "id": 232,
+    "topicsId": 705,
+    "q": "Battery Capacity প্রকাশ করা হয় নিম্নের কোন এককের মাধ্যমে ?",
+    "options": [
+      "Amps",
+      "Volts",
+      "Amp-Hour",
+      "Watt"
+    ],
+    "ans": 2,
+    "explain": "ব্যাটারির ধারণক্ষমতা সাধারণত Ampere-Hour (Ah) বা Milliampere-Hour (mAh) এককে প্রকাশ করা হয়।",
+    "source": [
+      "বাংলাদেশ কোস্ট গার্ড ও কৃষি প্রশিক্ষণ একাডেমির নার্স: ১৯ / জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)-এর অফিস সহায়ক: ১৭"
+    ]
+  },
+  {
+    "id": 233,
+    "topicsId": 705,
+    "q": "ATM বা মোবাইল ফোনের সিমকার্ডকে কী বলা হয় ?",
+    "options": [
+      "ন্যানো কার্ড",
+      "ডেবিট কার্ড",
+      "স্মার্ট কার্ড",
+      "ক্রেডিট কার্ড"
+    ],
+    "ans": 2,
+    "explain": "সিমকার্ড বা এটিএম কার্ড মূলত একটি স্মার্ট কার্ড (Smart Card), কারণ এতে একটি ইন্টিগ্রেটেড সার্কিট বা চিপ থাকে যা তথ্য সংরক্ষণ ও প্রসেস করতে পারে।",
+    "source": [
+      "জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয় (এ ইউনিট): ১৯-২০"
+    ]
+  },
+  {
+    "id": 234,
+    "topicsId": 705,
+    "q": "SIM-এর পূর্ণ রূপ হচ্ছে-",
+    "options": [
+      "Subscriber Identity Method",
+      "Standard Identity Module",
+      "Subscriber Identification Module",
+      "Subscriber Identity Module",
+      "গ ও ঘ"
+    ],
+    "ans": 4,
+    "explain": "SIM এর পূর্ণরূপ হলো Subscriber Identity Module অথবা Subscriber Identification Module। দুটিই প্রচলিত থাকায় সঠিক উত্তর 'গ ও ঘ'।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষের অধীনে সহকারী হিসাব রক্ষণ কর্মকর্তা: ২১"
+    ]
+  },
+  {
+    "id": 235,
+    "topicsId": 705,
+    "q": "GSM এর পূর্ণ রূপ কী ?",
+    "options": [
+      "Global System for Mobile Telecommunication",
+      "Global System for Management",
+      "Global System for Mobile Communication",
+      "General System for Mobile Management"
+    ],
+    "ans": 2,
+    "explain": "GSM এর পূর্ণরূপ হলো Global System for Mobile Communication।",
+    "source": [
+      "বরিশাল বোর্ড (উচ্চ মাধ্যমিক) : ১৭/ জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা সহকারী পরিচালক : ১৫"
+    ]
+  },
+  {
+    "id": 236,
+    "topicsId": 705,
+    "q": "বাংলাদেশের মোবাইল অপারেটরগণ এখন কোন প্রযুক্তি ব্যবহার করে ?",
+    "options": [
+      "GSM",
+      "CDMA",
+      "TDMA",
+      "FDMA"
+    ],
+    "ans": 0,
+    "explain": "বাংলাদেশের সব প্রধান মোবাইল অপারেটর (গ্রামীণফোন, রবি, বাংলালিংক, টেলিটক) GSM প্রযুক্তি ব্যবহার করে।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় : ১৮-১৯"
+    ]
+  },
+  {
+    "id": 237,
+    "topicsId": 705,
+    "q": "SMS এর পূর্ণ রূপ কী ?",
+    "options": [
+      "System of Marketing Service",
+      "System Management",
+      "Short Message Service",
+      "Support Management System"
+    ],
+    "ans": 2,
+    "explain": "SMS এর পূর্ণরূপ হলো Short Message Service।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (২য় পর্যায়) : ২২ / NSI-এর অফিস সহায়ক: ১০"
+    ]
+  },
+  {
+    "id": 238,
+    "topicsId": 705,
+    "q": "গ্রিন ফোন বলা হয় কোন প্রযুক্তির মোবাইল ফোনকে ?",
+    "options": [
+      "FDMA",
+      "TDMA",
+      "CDMA",
+      "PDMA"
+    ],
+    "ans": 2,
+    "explain": "CDMA (Code Division Multiple Access) প্রযুক্তিতে রেডিয়েশন কম হয় বলে একে গ্রীন ফোন বলা হয়।",
+    "source": [
+      "রাজশাহী বোর্ড : ১৯"
+    ]
+  },
+  {
+    "id": 239,
+    "topicsId": 705,
+    "q": "রেডিও সিগন্যাল প্রথমে ডিজিটাল পদ্ধতিতে কোন প্রজন্মের মোবাইলে ব্যবহৃত হয় ?",
+    "options": [
+      "1G",
+      "2G",
+      "3G",
+      "4G"
+    ],
+    "ans": 1,
+    "explain": "মোবাইল ফোনের দ্বিতীয় প্রজন্ম বা 2G থেকে প্রথম অ্যানালগ সিগন্যালের পরিবর্তে ডিজিটাল সিগন্যাল ব্যবহার শুরু হয়।",
+    "source": [
+      "বরিশাল বোর্ড : ১৯"
+    ]
+  },
+  {
+    "id": 240,
+    "topicsId": 705,
+    "q": "মোবাইলের কোন প্রজন্ম হতে ইন্টারনেট ব্যবহার শুরু হয় ?",
+    "options": [
+      "১ম",
+      "২য়",
+      "৩য়",
+      "চতুর্থ"
+    ],
+    "ans": 1,
+    "explain": "2G প্রযুক্তিতে GPRS ও EDGE ব্যবহারের মাধ্যমে প্রথম সীমিত আকারে ইন্টারনেট সেবা চালু হয়।",
+    "source": [
+      "বরিশাল বোর্ড (উচ্চ মাধ্যমিক) : ১৬"
+    ]
+  },
+  {
+    "id": 241,
+    "topicsId": 705,
+    "q": "কোন প্রজন্মের মোবাইলে সর্বপ্রথম MMS সার্ভিস চালু হয় ?",
+    "options": [
+      "প্রথম",
+      "দ্বিতীয়",
+      "তৃতীয়",
+      "চতুর্থ"
+    ],
+    "ans": 1,
+    "explain": "MMS (Multimedia Messaging Service) দ্বিতীয় প্রজন্মের (2G) মোবাইলে চালু করা হয়।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক) : ১৯"
+    ]
+  },
+  {
+    "id": 242,
+    "topicsId": 705,
+    "q": "International Roaming শব্দটি যার সাথে সম্পৃক্ত-",
+    "options": [
+      "মোবাইল",
+      "ব্যাংক",
+      "ভ্রমণ",
+      "ব্যবসা"
+    ],
+    "ans": 0,
+    "explain": "এক দেশের সিমকার্ড অন্য দেশে ব্যবহার করার সুবিধাকে বলা হয় ইন্টারন্যাশনাল রোমিং।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয়, অ-বাণিজ্য গ্রুপ (ফাইন্যান্স এন্ড ব্যাংকিং বিভাগ) : ০৮-০৯"
+    ]
+  },
+  {
+    "id": 243,
+    "topicsId": 705,
+    "q": "বিশ্বের কোন দেশে প্রথম 3-G প্রযুক্তি চালু হয় ?",
+    "options": [
+      "জাপান",
+      "দক্ষিণ কোরিয়া",
+      "চীন",
+      "যুক্তরাষ্ট্র"
+    ],
+    "ans": 0,
+    "explain": "২০০১ সালে জাপানের NTT DoCoMo কোম্পানি বিশ্বে প্রথম বাণিজ্যিকভিত্তিতে 3G সেবা চালু করে।",
+    "source": [
+      "জগন্নাথ বিশ্ববিদ্যালয় (বি ইউনিট): ১৩-১৪"
+    ]
+  },
+  {
+    "id": 244,
+    "topicsId": 705,
+    "q": "3-G বলতে কী বোঝায় ?",
+    "options": [
+      "Third Gravity",
+      "Third Generation",
+      "Third Global",
+      "Third Game"
+    ],
+    "ans": 1,
+    "explain": "3G মানে হলো Third Generation বা মোবাইল যোগাযোগ প্রযুক্তির তৃতীয় প্রজন্ম।",
+    "source": [
+      "বিদ্যুৎ উন্নয়ন বোর্ডের উপসহকারী: ১২"
+    ]
+  },
+  {
+    "id": 245,
+    "topicsId": 705,
+    "q": "What is the name of the structure where data move through a network ?",
+    "options": [
+      "packets",
+      "payload",
+      "datagrams",
+      "token",
+      "size"
+    ],
+    "ans": 0,
+    "explain": "নেটওয়ার্কের মাধ্যমে ডাটা যখন আদান-প্রদান হয়, তখন তা ছোট ছোট খণ্ডে বিভক্ত থাকে যাকে প্যাকেট (Packets) বলা হয়।",
+    "source": [
+      "Agrani Bank Ltd. Officer: 11"
+    ]
+  },
+  {
+    "id": 246,
+    "topicsId": 705,
+    "q": "The Internet is an example of-",
+    "options": [
+      "packet switched network",
+      "circuit switched network",
+      "cell switched network",
+      "all of them."
+    ],
+    "ans": 0,
+    "explain": "ইন্টারনেট মূলত প্যাকেট সুইচিং (Packet Switching) প্রযুক্তির ওপর ভিত্তি করে কাজ করে।",
+    "source": [
+      "Janata Bank Ltd. Executive Officer Financial Analyst : 15 / Janata Bank Ltd. Assistant Executive Officer (Teller) : 15"
+    ]
+  },
+  {
+    "id": 247,
+    "topicsId": 705,
+    "q": "GPRS-এর পূর্ণরূপ কি ?",
+    "options": [
+      "General Packet Radio Service",
+      "Global Protect Radiation Service",
+      "General Preference Radio Service",
+      "Global Package Remission"
+    ],
+    "ans": 0,
+    "explain": "GPRS এর পূর্ণরূপ হলো General Packet Radio Service।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ের সহকারী সাইফার কর্মকর্তা : ২২"
+    ]
+  },
+  {
+    "id": 248,
+    "topicsId": 705,
+    "q": "Which one of the following enables the mobile devices to access internet resources ?",
+    "options": [
+      "WAP",
+      "ISP",
+      "TCP",
+      "HTTP",
+      "None of these"
+    ],
+    "ans": 0,
+    "explain": "WAP (Wireless Application Protocol) মোবাইল ডিভাইসের মাধ্যমে ইন্টারনেট ব্যবহারের একটি প্রযুক্তিগত স্ট্যান্ডার্ড।",
+    "source": [
+      "EXIM Bank Ltd. Offion (IT): 13/DBBL MTO: 12"
+    ]
+  },
+  {
+    "id": 249,
+    "topicsId": 705,
+    "q": "নিচের কোন প্রতিষ্ঠানটি 4G Standard প্রস্তুতকরণে সম্পৃক্ত ?",
+    "options": [
+      "ISO",
+      "ITU",
+      "3GPP",
+      "ETSI"
+    ],
+    "ans": 1,
+    "explain": "International Telecommunication Union (ITU) চতুর্থ প্রজন্মের মোবাইল যোগাযোগ বা 4G স্ট্যান্ডার্ড নির্ধারণের কাজ করেছে।",
+    "source": [
+      "৪৪তম বিসিএস"
+    ]
+  },
+  {
+    "id": 250,
+    "topicsId": 705,
+    "q": "কোনটি চতুর্থ প্রজন্মের মোবাইল ফোনের প্রধান বৈশিষ্ট্য ?",
+    "options": [
+      "আইপি নির্ভর ওয়্যারলেস নেটওয়ার্ক",
+      "বিশ্বব্যাপী রোমিং সুবিধা",
+      "ফোনের মাধ্যমে ইন্টারনেট সংযোগ",
+      "সেমিকন্ডাক্টর ও মাইক্রো প্রসেসর প্রযুক্তি"
+    ],
+    "ans": 0,
+    "explain": "4G বা LTE প্রযুক্তির প্রধান বৈশিষ্ট্য হলো এটি সম্পূর্ণ আইপি (Internet Protocol) ভিত্তিক নেটওয়ার্ক আর্কিটেকচার ব্যবহার করে।",
+    "source": [
+      "সিলেট বোর্ড : ১৭"
+    ]
+  },
+  {
+    "id": 251,
+    "topicsId": 705,
+    "q": "কোন প্রজন্মের মোবাইল ফোনে LTE (Long Term Evolution) স্ট্যান্ডার্ড অন্তর্ভুক্ত করা হয়েছে ?",
+    "options": [
+      "১ম",
+      "২য়",
+      "৩য়",
+      "৪র্থ"
+    ],
+    "ans": 3,
+    "explain": "LTE (Long Term Evolution) প্রযুক্তিটি চতুর্থ প্রজন্মের (4G) মোবাইল যোগাযোগের প্রধান বৈশিষ্ট্য।",
+    "source": [
+      "GST গুচ্ছভুক্ত বিশ্ববিদ্যালয় : ২০-২১"
+    ]
+  },
+  {
+    "id": 252,
+    "topicsId": 705,
+    "q": "4G-এর সুবিধাসমূহ কী ?",
+    "options": [
+      "Improved download",
+      "Faster Network Browsing",
+      "Better Network Experience",
+      "All the above"
+    ],
+    "ans": 3,
+    "explain": "4G প্রযুক্তি উচ্চগতির ডাউনলোড, দ্রুত ব্রাউজিং এবং সামগ্রিকভাবে উন্নত নেটওয়ার্ক অভিজ্ঞতা প্রদান করে।",
+    "source": [
+      "জাককানইবি (খ-ইউনিট) : ১৭-১৮"
+    ]
+  },
+  {
+    "id": 253,
+    "topicsId": 705,
+    "q": "WIMAX2 মোবাইল ফোনের কোন প্রজন্মের উদাহরণ ?",
+    "options": [
+      "১ম",
+      "২য়",
+      "৩য়",
+      "৪র্থ"
+    ],
+    "ans": 3,
+    "explain": "WiMAX 2 (IEEE 802.16m) হলো চতুর্থ প্রজন্মের (4G) একটি উন্নত প্রযুক্তি যা 1 Gbps পর্যন্ত গতি দিতে পারে।",
+    "source": [
+      "জাককানইবি (খ-ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 254,
+    "topicsId": 705,
+    "q": "মোবাইল কমিউনিকেশনে 4G এর ক্ষেত্রে 3G এর তুলনায় অতিরিক্ত বৈশিষ্ট্য কি ?",
+    "options": [
+      "ভয়েস টেলিফোনি",
+      "ভিডিও কল",
+      "মোবাইল টিভি",
+      "ব্রডব্যান্ড ইন্টারনেট সেবা"
+    ],
+    "ans": 3,
+    "explain": "3G-তে ভিডিও কল চালু হলেও 4G-তে আল্ট্রা-ব্রডব্যান্ড বা উচ্চগতির মোবাইল ইন্টারনেট সেবা নিশ্চিত করা হয়েছে।",
+    "source": [
+      "৩০তম বিসিএস/জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)-এর সহকারী পরিচালক : ১৭"
+    ]
+  },
+  {
+    "id": 255,
+    "topicsId": 705,
+    "q": "আইপিভিত্তিক ডেটা নেটওয়ার্ক কোনটি ?",
+    "options": [
+      "1G",
+      "2G",
+      "3G",
+      "4G"
+    ],
+    "ans": 3,
+    "explain": "চতুর্থ প্রজন্মের (4G) মোবাইল সিস্টেম সম্পূর্ণভাবে আইপি ভিত্তিক ডাটা নেটওয়ার্কের ওপর পরিচালিত হয়।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক) : ১৭"
+    ]
+  },
+  {
+    "id": 256,
+    "topicsId": 705,
+    "q": "মোবাইল ফোনে প্রথম স্যাটেলাইট টিভি সার্ভিস চালু করে-",
+    "options": [
+      "জাপান",
+      "যুক্তরাষ্ট্র",
+      "দক্ষিণ কোরিয়া",
+      "চীন"
+    ],
+    "ans": 2,
+    "explain": "দক্ষিণ কোরিয়া বিশ্বে প্রথম মোবাইল ফোনে স্যাটেলাইট টিভি বা DMB (Digital Multimedia Broadcasting) সেবা চালু করে।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় (খ-ইউনিট): ১২-১৩"
+    ]
+  },
+  {
+    "id": 257,
+    "topicsId": 705,
+    "q": "বিশ্বে সর্বপ্রথম 5জি মোবাইল কমিউনিকেশন ব্যবহার চালু করে কোন দেশ ?",
+    "options": [
+      "দক্ষিণ কোরিয়া",
+      "চীন",
+      "জাপান",
+      "রাশিয়া"
+    ],
+    "ans": 0,
+    "explain": "২০১৯ সালে দক্ষিণ কোরিয়া আনুষ্ঠানিকভাবে বিশ্বের প্রথম ৫জি নেটওয়ার্ক চালু করে।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 258,
+    "topicsId": 705,
+    "q": "বাংলাদেশের আর্ন্তজাতিক ডায়ালিং কোড কত ?",
+    "options": [
+      "+৯৯৯",
+      "+৮৮০",
+      "+৮৬০",
+      "+০১৮"
+    ],
+    "ans": 1,
+    "explain": "বাংলাদেশের আন্তর্জাতিক টেলিকমিউনিকেশন ডায়ালিং কোড হলো +৮৮০।",
+    "source": [
+      "জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয় (ডি ইউনিট): ১৯-২০"
+    ]
+  },
+  {
+    "id": 259,
+    "topicsId": 705,
+    "q": "NWD এর পূর্ণরূপ কী ?",
+    "options": [
+      "নিউজ ওয়াইড ডায়ালিং",
+      "ন্যাশনাল ওয়াইড ডায়ালিং",
+      "নেশন ওয়াইড ডায়ালিং",
+      "নিউ ওয়াইড ডায়ালিং"
+    ],
+    "ans": 2,
+    "explain": "NWD এর পূর্ণরূপ হলো Nation Wide Dialing।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের পোস্টাল অপারেটর: ১৬"
+    ]
+  },
+  {
+    "id": 260,
+    "topicsId": 705,
+    "q": "ISD এর পূর্ণরূপ কী ?",
+    "options": [
+      "International Standard Dialing",
+      "Internet Standard Dialing",
+      "International System Dialing",
+      "Internet System Dialing"
+    ],
+    "ans": 0,
+    "explain": "ISD এর পূর্ণরূপ হলো International Subscriber Dialing বা International Standard Dialing।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (সমাজকর্ম): ০৫-০৬"
+    ]
+  },
+  {
+    "id": 261,
+    "topicsId": 705,
+    "q": "The acronym STD on Telephone booth stands for-",
+    "options": [
+      "Straight Telephone Dial",
+      "Switch Telephone Dial",
+      "Save Telephone Dial",
+      "Subscriber Telephone Dial",
+      "None of them"
+    ],
+    "ans": 3,
+    "explain": "টেলিফোনের ক্ষেত্রে STD এর প্রকৃত পূর্ণরূপ হলো Subscriber Trunk Dialing । যেহেতু প্রদত্ত প্রথম ৪টি অপশনের কোনোটিতেই 'Trunk' শব্দটি নেই, তাই সঠিক উত্তর হবে None of them.",
+    "source": [
+      "Bangladesh Bank Assistant Director: 12"
+    ]
+  }
+]
