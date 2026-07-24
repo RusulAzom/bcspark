@@ -197,6 +197,31 @@ const practiceRoutes = {
             },
         },
     },
+    NoitikotaMS: {
+        label: "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+        topics: {
+            all: {
+                label: "নৈতিকতা, মূল্যবোধ ও সুশাসন (All Topics)",
+                route: "/t20/noitikota-mullobodh-sushahon/all",
+                active: true,
+            },
+            Noitikota: {
+                label: "নৈতিকতা",
+                route: "/t20/noitikota-mullobodh-sushahon/noitikota",
+                active: true,
+            },
+            Mullobodh: {
+                label: "মূল্যবোধ",
+                route: "/t20/noitikota-mullobodh-sushahon/mullobodh",
+                active: true,
+            },
+            Sushason: {
+                label: "সুশাসন",
+                route: "/t20/noitikota-mullobodh-sushahon/sushason",
+                active: true,
+            },
+        },
+    },
 };
 
 export const defaultQuizConfig = {
