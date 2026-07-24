@@ -1,5 +1,6 @@
 import { Hind_Siliguri } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const hindSiliguri = Hind_Siliguri({
   weight: ["300", "400", "500", "600", "700"],
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
     >
       <body suppressHydrationWarning className="bg-brand-bg text-primary min-h-screen flex flex-col font-sans">
         {children}
+        <Analytics />
       </body>
     </html>
   );
