@@ -9,13 +9,13 @@ export const metadata = {
     "মানসিক স্বাস্থ্য পরীক্ষা, Psychology Test Bangla, অনলাইন মানসিক চিকিৎসা ও টেস্ট, উদ্বেগ ও দুশ্চিন্তা পরীক্ষা, ডিপ্রেশন টেস্ট বাংলা, সম্পর্কের টানাপোড়েন ও মানসিক চাপ, পড়াশোনায় ক্লান্তি ও বার্নআউট, Scientific Mental Health Assessment, বাংলা সাইকোলজি টেস্ট, GAD-7 and DASS-21 Bangla",
   robots: "index, follow",
   alternates: {
-    canonical: "https://bcspark.bd/psychology-test-bangla",
+    canonical: "https://bcspark.vercel.app/psychology-test-bangla",
   },
   openGraph: {
     title: "মানসিক স্বাস্থ্য পরীক্ষা | Psychology Test Bangla",
     description:
       "বাংলাদেশের প্রথম AI-চালিত প্ল্যাটফর্মে বিনামূল্যে আপনার মানসিক স্বাস্থ্য যাচাই করুন। GAD-7, BAI, HAM-A, RAS সহ সব সাইকোলজি টেস্ট বাংলায়।",
-    url: "https://bcspark.bd/psychology-test-bangla",
+    url: "https://bcspark.vercel.app/psychology-test-bangla",
     type: "website",
   },
 };
