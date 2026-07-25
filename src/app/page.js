@@ -1,5 +1,9 @@
 import Navbar from "@/components/Navbar";
+// adds 
 import AdBanner728 from '@/components/add/adstra/AdBanner728';
+import NativeBanner from '@/components/add/adstra/NativeBanner';
+import SocialBar from '@/components/add/adstra/SocialBar';
+
 import HeroSection from "@/components/HeroSection";
 import InfoRow from "@/components/InfoRow";
 import WhyChooseBCSpark from "@/components/WhyChooseBCSpark";
@@ -40,8 +44,10 @@ export default function Home() {
         {/* Stats Card & Full-Width Call-to-Action Banner */}
         <CtaAndStats />
         
-        {/* Ad Banner directly before Hero Carousel */}
-        <AdBanner728 />
+        {/* Ad Banner */}
+        <NativeBanner />
+        {/* Ad Banner */}
+        <SocialBar />
       </main>
 
       {/* Footer Section */}

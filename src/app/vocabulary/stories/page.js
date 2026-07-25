@@ -1,6 +1,10 @@
 'use client';
 
 import Navbar from '@/components/Navbar';
+import AdBanner728 from '@/components/add/adstra/AdBanner728';
+import NativeBanner from '@/components/add/adstra/NativeBanner';
+import SocialBar from '@/components/add/adstra/SocialBar';
+
 import Footer from '@/components/Footer';
 import VoTale from '@/components/vocabulary/VoTale';
 import Link from 'next/link';
@@ -12,7 +16,12 @@ export default function VoTalePage() {
       <div className="min-h-screen bg-slate-50">
         {/* Header */}
         <div className="border-b border-slate-200 bg-white">
-          <div className="max-w-6xl mx-auto px-4 py-6">
+          {/* adds 728 */}
+          <AdBanner728 />
+          {/* 🎯 Social Bar Ad Script */}
+          <SocialBar />
+          
+          {/* <div className="max-w-6xl mx-auto px-4 py-6">
             <div className="flex items-center gap-3 mb-1">
               <Link
                 href="/vocabulary"
@@ -30,13 +39,15 @@ export default function VoTalePage() {
             <p className="text-sm text-slate-500">
               Learn vocabulary through engaging narrative stories — hover or click highlighted words to see meanings
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* Content Area */}
         <div className="max-w-6xl mx-auto px-4 py-8">
           <VoTale />
         </div>
+         {/* 🎯 tEst কন্টেন্টের নিচে Native Banner */}
+          <NativeBanner />
       </div>
       <Footer />
     </>

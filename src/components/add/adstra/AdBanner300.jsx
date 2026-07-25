@@ -1,6 +1,6 @@
 'use client';
 
-export default function AdBanner728() {
+export default function AdBanner300() {
   const adHtml = `
     <!DOCTYPE html>
     <html>
@@ -12,14 +12,14 @@ export default function AdBanner728() {
       <body>
         <script type="text/javascript">
           atOptions = {
-            'key' : 'f2e1e1eeecc168e701a09eef94e66de6',
+            'key' : 'fcbf1c856651ffe5e96210126af8dacf',
             'format' : 'iframe',
-            'height' : 90,
-            'width' : 728,
+            'height' : 250,
+            'width' : 300,
             'params' : {}
           };
         </script>
-        <script type="text/javascript" src="https://www.highperformanceformat.com/f2e1e1eeecc168e701a09eef94e66de6/invoke.js"></script>
+        <script type="text/javascript" src="https://www.highperformanceformat.com/fcbf1c856651ffe5e96210126af8dacf/invoke.js"></script>
       </body>
     </html>
   `;
@@ -27,10 +27,10 @@ export default function AdBanner728() {
   return (
     <div className="my-2 flex justify-center items-center overflow-hidden w-full">
       <iframe
-        title="Adsterra Banner"
+        title="Adsterra Sidebar Banner"
         srcDoc={adHtml}
-        width="728"
-        height="90"
+        width="300"
+        height="250"
         className="border-0 overflow-hidden"
         scrolling="no"
       />
