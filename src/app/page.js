@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import AdBanner728 from '@/components/add/adstra/AdBanner728';
 import HeroSection from "@/components/HeroSection";
 import InfoRow from "@/components/InfoRow";
 import WhyChooseBCSpark from "@/components/WhyChooseBCSpark";
@@ -18,11 +19,17 @@ export default function Home() {
         {/* Hero Section: Top Tools List + Carousel */}
         <HeroSection />
 
+        {/* Ad Banner directly before Hero Carousel */}
+        <AdBanner728 />
+
         {/* Info Row: Birthday Card + Mock Test Form + Productivity Widgets */}
         <InfoRow />
 
         {/* Feature Highlights: Why Choose BCSpark */}
         <WhyChooseBCSpark />
+
+        {/* Ad Banner directly before Hero Carousel */}
+        <AdBanner728 />
 
         {/* Tools Grid: 20 tools */}
         <ToolsGrid />
@@ -32,6 +39,9 @@ export default function Home() {
 
         {/* Stats Card & Full-Width Call-to-Action Banner */}
         <CtaAndStats />
+        
+        {/* Ad Banner directly before Hero Carousel */}
+        <AdBanner728 />
       </main>
 
       {/* Footer Section */}
