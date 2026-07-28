@@ -17,9 +17,9 @@ export default function VoTalePage() {
         {/* Header */}
         <div className="border-b border-slate-200 bg-white">
           {/* adds 728 */}
-          <AdBanner728 />
+          {/* <AdBanner728 /> */}
           {/* 🎯 Social Bar Ad Script */}
-          <SocialBar />
+          {/* <SocialBar /> */}
           
           {/* <div className="max-w-6xl mx-auto px-4 py-6">
             <div className="flex items-center gap-3 mb-1">
@@ -47,7 +47,7 @@ export default function VoTalePage() {
           <VoTale />
         </div>
          {/* 🎯 tEst কন্টেন্টের নিচে Native Banner */}
-          <NativeBanner />
+          {/* <NativeBanner /> */}
       </div>
       <Footer />
     </>

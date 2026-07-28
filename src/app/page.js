@@ -24,7 +24,7 @@ export default function Home() {
         <HeroSection />
 
         {/* Ad Banner directly before Hero Carousel */}
-        <AdBanner728 />
+        {/* <AdBanner728 /> */}
 
         {/* Info Row: Birthday Card + Mock Test Form + Productivity Widgets */}
         <InfoRow />
@@ -33,7 +33,7 @@ export default function Home() {
         <WhyChooseBCSpark />
 
         {/* Ad Banner directly before Hero Carousel */}
-        <AdBanner728 />
+        {/* <AdBanner728 /> */}
 
         {/* Tools Grid: 20 tools */}
         <ToolsGrid />
@@ -45,9 +45,9 @@ export default function Home() {
         <CtaAndStats />
         
         {/* Ad Banner */}
-        <NativeBanner />
+        {/* <NativeBanner /> */}
         {/* Ad Banner */}
-        <SocialBar />
+        {/* <SocialBar /> */}
       </main>
 
       {/* Footer Section */}

@@ -47,7 +47,7 @@ export default function PsychologyTestBanglaPage() {
                 🧠 Scientific Mental Health Assessment
               </span>
               {/* 🎯 Social Bar Ad Script */}
-              <SocialBar />
+              {/* <SocialBar /> */}
               <h1 className="text-3xl md:text-5xl font-black leading-tight mb-4">
                 মানসিক স্বাস্থ্য পরীক্ষা —{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-200">
@@ -68,7 +68,7 @@ export default function PsychologyTestBanglaPage() {
                 এখনই টেস্ট শুরু করুন ⚡
               </button>
               {/* adds 728 */}
-              <AdBanner728 />
+              {/* <AdBanner728 /> */}
 
             </div>
           </div>
@@ -139,12 +139,12 @@ export default function PsychologyTestBanglaPage() {
                     ))}
                   </div>
                   {/* adds 728 */}
-                  <AdBanner728 />
+                  {/* <AdBanner728 /> */}
                 </section>
               );
             })}
             {/* 🎯 tEst কন্টেন্টের নিচে Native Banner */}
-            <NativeBanner />
+            {/* <NativeBanner /> */}
           </div>
 
           {/* ===== রাইট সাইডবার (25%) ===== */}
@@ -155,7 +155,7 @@ export default function PsychologyTestBanglaPage() {
                 🔥 জনপ্রিয় Psychology Test
               </h3>
               {/* adds 300 */}
-              <AdBanner300 />
+              {/* <AdBanner300 /> */}
               <ul className="space-y-2">
                 {popularTests.map((test) => (
                   <li key={test.id}>
@@ -177,7 +177,7 @@ export default function PsychologyTestBanglaPage() {
                 📖 মানসিক স্বাস্থ্য গাইড
               </h3>
               {/* adds 300 */}
-              <AdBanner300 />
+              {/* <AdBanner300 /> */}
               <ul className="space-y-3 text-sm">
                 <li>
                   <a href="#" className="block p-3 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-800 transition">
