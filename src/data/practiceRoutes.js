@@ -197,6 +197,31 @@ const practiceRoutes = {
             },
         },
     },
+    Biology: {
+        label: "সাধারণ বিজ্ঞান",
+        topics: {
+            biology: {
+                label: "জীব বিজ্ঞান",
+                route: "/t20/sadharon-biggan/biology",
+                active: true,
+            },
+            Noitikota: {
+                label: "নৈতিকতা",
+                route: "/t20/noitikota-mullobodh-sushahon/noitikota",
+                active: false,
+            },
+            Mullobodh: {
+                label: "মূল্যবোধ",
+                route: "/t20/noitikota-mullobodh-sushahon/mullobodh",
+                active: false,
+            },
+            Sushason: {
+                label: "সুশাসন",
+                route: "/t20/noitikota-mullobodh-sushahon/sushason",
+                active: false,
+            },
+        },
+    },
     NoitikotaMS: {
         label: "নৈতিকতা, মূল্যবোধ ও সুশাসন",
         topics: {
