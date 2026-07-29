@@ -200,6 +200,11 @@ const practiceRoutes = {
     Biology: {
         label: "সাধারণ বিজ্ঞান",
         topics: {
+            all: {
+                label: "সাধারণ বিজ্ঞান (All Topics)",
+                route: "/t20/sadharon-biggan/all",
+                active: true,
+            },
             biology: {
                 label: "জীব বিজ্ঞান",
                 route: "/t20/sadharon-biggan/biology",
