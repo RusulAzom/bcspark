@@ -210,20 +210,10 @@ const practiceRoutes = {
                 route: "/t20/sadharon-biggan/physics",
                 active: true,
             },
-            Noitikota: {
-                label: "নৈতিকতা",
-                route: "/t20/noitikota-mullobodh-sushahon/noitikota",
-                active: false,
-            },
-            Mullobodh: {
-                label: "মূল্যবোধ",
-                route: "/t20/noitikota-mullobodh-sushahon/mullobodh",
-                active: false,
-            },
-            Sushason: {
-                label: "সুশাসন",
-                route: "/t20/noitikota-mullobodh-sushahon/sushason",
-                active: false,
+            chemistry: {
+                label: "রসায়ন বিজ্ঞান",
+                route: "/t20/sadharon-biggan/chemistry",
+                active: true,
             },
         },
     },
