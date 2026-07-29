@@ -98,7 +98,7 @@ export default function sadharonBigganAllPage() {
                     step: "04",
                     passMark: 50,
                     questionLimit: 20,
-                    timeLimit: 180,
+                    timeLimit: 120,
                     timerDisplay: "t20",
                     negativeMarking: 0.5,
                     randomize: true,

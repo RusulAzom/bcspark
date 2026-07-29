@@ -29,6 +29,28 @@ export default function QuickPracticeEngine({
     const resultRef = useRef(null);
     const reviewRef = useRef(null);
 
+    // Helper: if source has multiple separated by /, show only the first one + superscript count
+    const getDisplaySource = (source) => {
+        if (!source) return { display: '', hiddenCount: 0 };
+        try {
+            // source is an array like ["২৩তম বিসিএস/অডিটর পদে নিয়োগ..."]
+            let str = '';
+            if (Array.isArray(source)) {
+                str = source[0] || '';
+            } else if (typeof source === 'string') {
+                str = source;
+            } else {
+                str = String(source);
+            }
+            const parts = str.split('/').map(s => s.trim()).filter(s => s);
+            const display = parts[0] || str;
+            const hiddenCount = parts.length - 1;
+            return { display, hiddenCount };
+        } catch {
+            return { display: String(source), hiddenCount: 0 };
+        }
+    };
+
     // =======quiz time keeper ========
     const [timeTaken, setTimeTaken] = useState(0);
     const [submittedByTime, setSubmittedByTime] = useState(false);
@@ -273,13 +295,15 @@ export default function QuickPracticeEngine({
                             const selectedOptionIndex = answers[i];
 
                             return (
-                                <div key={`${q.source}-${q.id}-${i}`} className="bg-white p-4 rounded-xl shadow border">
-                                    <div className="flex justify-between items-start mb-3">
-                                        <p className="font-semibold text-lg">প্রশ্ন {i + 1}</p>
-                                        <span className="text-xs bg-gray-200 px-2 py-1 rounded-full">{q.source}</span>
-                                    </div>
+                                <div key={`${getDisplaySource(q.source).display}-${q.id}-${i}`} className="bg-white p-4 rounded-xl shadow border">
+                                    <p className="font-semibold text-2xl mb-2">প্রশ্ন {i + 1}: {q.q}</p>
 
-                                    <p className="mb-4 text-base">{q.q}</p>
+                                    <p className="mb-4 text-base italic opacity-20">
+                                        {getDisplaySource(q.source).display}
+                                        {getDisplaySource(q.source).hiddenCount > 0 && (
+                                            <sup className="ml-0.5 text-[9px]">{getDisplaySource(q.source).hiddenCount}+</sup>
+                                        )}
+                                    </p>
 
                                     <div className="grid grid-cols-2 gap-2">
                                         {q.options.map((opt, idx) => {
@@ -365,16 +389,23 @@ export default function QuickPracticeEngine({
                                             className="w-30 h-30 mx-auto md:ml-auto md:mr-0 bg-none p-0 rounded-xl shadow-lg"
                                         />
                                         <p className="text-sm opacity-80 mb-4">Powered by BCSpark</p>
+                                        <p className="text-[10px] opacity-60 border-t border-white/20 pt-2 mt-2">
+                                            Subjects: {category} / {subject}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             {/* ===================Answer Sheets====================== */}
                             <div ref={reviewRef} className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6 relative z-10">
                                 {questions.map((q, i) => (
-                                    <div key={`${q.source}-${q.id}-${i}`} className="border rounded-lg p-2 bg-gray-30">
-                                        <p className="font-semibold text-xs mb-1">প্রশ্ন {i + 1}: {q.q}
-                                            {/* to show question source */}
-                                            <span className="text-[9px] text-gray-500 mt-0.5"> {q.source} </span>
+                                    <div key={`${getDisplaySource(q.source).display}-${q.id}-${i}`} className="border rounded-lg p-2 bg-gray-30">
+                                        <p className="font-semibold text-xs mb-1">প্রশ্ন {i + 1}: {q.q}</p>
+                                        {/* to show question source */}
+                                        <p className="text-[9px] italic opacity-20 mb-1">
+                                            {getDisplaySource(q.source).display}
+                                            {getDisplaySource(q.source).hiddenCount > 0 && (
+                                                <sup className="ml-0.5 text-[8px]">{getDisplaySource(q.source).hiddenCount}+</sup>
+                                            )}
                                         </p>
                                         {/* <p className="text-[11px]">উত্তর: {q.options[answers[i]] || 'দাও নাই'}
                                             <span className={`ml-1 font-bold ${answers[i] === q.ans ? 'text-green-600' : 'text-red-600'}`}>
