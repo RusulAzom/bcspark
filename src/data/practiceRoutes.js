@@ -205,6 +205,11 @@ const practiceRoutes = {
                 route: "/t20/sadharon-biggan/biology",
                 active: true,
             },
+            physics: {
+                label: "পদার্থ বিজ্ঞান",
+                route: "/t20/sadharon-biggan/physics",
+                active: true,
+            },
             Noitikota: {
                 label: "নৈতিকতা",
                 route: "/t20/noitikota-mullobodh-sushahon/noitikota",
