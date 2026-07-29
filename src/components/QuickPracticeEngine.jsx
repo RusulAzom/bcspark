@@ -296,12 +296,12 @@ export default function QuickPracticeEngine({
 
                             return (
                                 <div key={`${getDisplaySource(q.source).display}-${q.id}-${i}`} className="bg-white p-4 rounded-xl shadow border">
-                                    <p className="font-semibold text-2xl mb-2">প্রশ্ন {i + 1}: {q.q}</p>
+                                    <p className="font-semibold text-2xl mb-2">Q{i + 1}: {q.q}</p>
 
-                                    <p className="mb-4 text-base italic opacity-20">
+                                    <p className="mb-4 text-base italic opacity-30">
                                         {getDisplaySource(q.source).display}
                                         {getDisplaySource(q.source).hiddenCount > 0 && (
-                                            <sup className="ml-0.5 text-[9px]">{getDisplaySource(q.source).hiddenCount}+</sup>
+                                            <sup className="ml-0.5 text-[7px]">{getDisplaySource(q.source).hiddenCount}+</sup>
                                         )}
                                     </p>
 

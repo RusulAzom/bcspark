@@ -1,6 +1,6 @@
 const practiceRoutes = {
     english: {
-        label: "English",
+        label: "👉 English",
         topics: {
             engall: {
                 label: "Englight All (Grammer and Literature)",
@@ -41,7 +41,7 @@ const practiceRoutes = {
     },
 
     gk: {
-        label: "GK",
+        label: "👉 GK",
         topics: {
             all: {
                 label: "GK > All Topics",
@@ -102,7 +102,7 @@ const practiceRoutes = {
     },
 
     Bangla: {
-        label: "Bangla",
+        label: "👉 Bangla",
         topics: {
             all: {
                 label: "BN > বাংলা ভাষা ও সাহিত্য (All Topics)",
@@ -143,7 +143,7 @@ const practiceRoutes = {
     },
 
     ICT: {
-        label: "তথ্য ও প্রযুক্তি-ICT",
+        label: "👉 তথ্য ও প্রযুক্তি-ICT",
         topics: {
             all: {
                 label: "ICT > তথ্য প্রযুক্তি (All Topics)",
@@ -198,7 +198,7 @@ const practiceRoutes = {
         },
     },
     Biology: {
-        label: "সাধারণ বিজ্ঞান",
+        label: "👉 সাধারণ বিজ্ঞান",
         topics: {
             all: {
                 label: "সাধারণ বিজ্ঞান (All Topics)",
@@ -222,8 +222,33 @@ const practiceRoutes = {
             },
         },
     },
+    VugolPoribeshDM: {
+        label: "👉 ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+        topics: {
+            all: {
+                label: "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা (All Topics)",
+                route: "/t20/vugol-poribesh-dm/all",
+                active: true,
+            },
+            vugol: {
+                label: "ভূগোল",
+                route: "/t20/vugol-poribesh-dm/vugol",
+                active: true,
+            },
+            poribesh: {
+                label: "পরিবেশ",
+                route: "/t20/vugol-poribesh-dm/poribesh",
+                active: true,
+            },
+            durjogBabosthapona: {
+                label: "দুর্যোগ ব্যবস্থাপনা",
+                route: "/t20/vugol-poribesh-dm/durjog-babosthapona",
+                active: true,
+            },
+        },
+    },
     NoitikotaMS: {
-        label: "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+        label: "👉 নৈতিকতা, মূল্যবোধ ও সুশাসন",
         topics: {
             all: {
                 label: "নৈতিকতা, মূল্যবোধ ও সুশাসন (All Topics)",
