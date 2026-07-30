@@ -101,6 +101,42 @@ const practiceRoutes = {
         },
     },
 
+    GKInternational: {
+        label: "👉 GK - আন্তর্জাতিক",
+        topics: {
+            all: {
+                label: "GK - আন্তর্জাতিক (All Topics)",
+                route: "/t20/gk-international/all",
+                active: true,
+            },
+            itihasVurajniti: {
+                label: "বৈশ্বিক ইতিহাস, আঞ্চলিক ও আন্তর্জাতিক ব্যবস্থা, ভূ-রাজনীতি",
+                route: "/t20/gk-international/itihas-vurajniti",
+                active: true,
+            },
+            nirapottaCkuktti: {
+                label: "আন্তর্জাতিক নিরাপত্তা ও আন্তরাষ্ট্রীয় ক্ষমতা সম্পর্ক",
+                route: "/t20/gk-international/nirapotta-ckuktti",
+                active: true,
+            },
+            currentWorld: {
+                label: "বিশ্বের সাম্প্রতিক ও চলমান ঘটনাস্প্রবাহ",
+                route: "/t20/gk-international/current-world",
+                active: true,
+            },
+            internationalEnviroment: {
+                label: "আন্তর্জাতিক পরিবেশগত ইস্যু ও কূটনীতি",
+                route: "/t20/gk-international/international-enviroment",
+                active: true,
+            },
+            antorjatikSongothon: {
+                label: "আন্তর্জাতিক সংগঠনসমূহ এবং বৈশ্বিক অর্থনৈতিক প্রতিষ্ঠানাদি",
+                route: "/t20/gk-international/antorjatik-songothon",
+                active: true,
+            },
+        },
+    },
+
     Bangla: {
         label: "👉 Bangla",
         topics: {
