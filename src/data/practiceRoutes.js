@@ -41,62 +41,67 @@ const practiceRoutes = {
     },
 
     gk: {
-        label: "👉 GK",
+        label: "👉 GK - বাংলাদেশ বিষয়াবলী",
         topics: {
             all: {
-                label: "GK > All Topics",
+                label: "GK > বাংলাদেশ All Topics",
                 route: "/t20/gk/all",
                 active: true,
             },
-            // bangladesh: {
-            //     label: "GK > বাংলাদেশ বিষয়াবলি",
-            //     route: "/t20/gk/bangladesh-affairs",
-            //     active: false,
-            // },
-            bangladesh: {
-                label: "AtoZ GK Lecture 1 > বাংলাদেশ বিষয়াবলি",
-                route: "/t20/gk/a2z",
+            jatiyaBisoyboli: {
+                label: "জাতীয় বিষয়াবলী",
+                route: "/t20/gk/jatiya-bisoyboli",
                 active: true,
             },
-            language: {
-                label: "GK > ভাষা আন্দোলন - মুক্তিযুদ্ধ",
-                route: "/t20/gk/language-movement",
-                active: false,
+            krisijSompod: {
+                label: "কৃষিজ সম্পদ",
+                route: "/t20/gk/krisij-sompod",
+                active: true,
             },
-            economy: {
-                label: "GK > বাংলাদেশের অর্থনীতি",
-                route: "/t20/gk/economy",
-                active: false,
+            jonosumari: {
+                label: "জনশুমারি",
+                route: "/t20/gk/jonosumari",
+                active: true,
             },
-            census: {
-                label: "GK > বাংলাদেশের জনশুমারি",
-                route: "/t20/gk/census",
-                active: false,
+            orthoniti: {
+                label: "বাংলাদেশের অর্থনীতি",
+                route: "/t20/gk/orthoniti",
+                active: true,
             },
-            industry: {
-                label: "GK > বাংলাদেশের শিল্প ও বাণিজ্য",
-                route: "/t20/gk/industry-commerce",
-                active: false,
+            shilpoBanijjo: {
+                label: "শিল্প ও বাণিজ্য",
+                route: "/t20/gk/shilpo-banijjo",
+                active: true,
             },
-            constitution: {
-                label: "GK > বাংলাদেশের সংবিধান",
-                route: "/t20/gk/constitution",
-                active: false,
+            bangladesherSongbidhan: {
+                label: "বাংলাদেশের সংবিধান",
+                route: "/t20/gk/bangladesher-songbidhan",
+                active: true,
             },
-            international: {
-                label: "GK > আন্তর্জাতিক বিষয়াবলি",
-                route: "/t20/gk/international",
-                active: false,
+            rajnoitikOsorkarBabostha: {
+                label: "রাজনৈতিক ও সরকার ব্যবস্থা",
+                route: "/t20/gk/rajnoitik-osorkar-babostha",
+                active: true,
             },
-            history: {
-                label: "GK > বৈশ্বিক ইতিহাস",
-                route: "/t20/gk/world-history",
-                active: false,
+            jatiyoOrjon: {
+                label: "জাতীয় অর্জন",
+                route: "/t20/gk/jatiyo-orjon",
+                active: true,
             },
-            current: {
-                label: "GK > সাম্প্রতিক ঘটনাপ্রবাহ",
-                route: "/t20/gk/current-affairs",
-                active: false,
+            prothisthanSomuho: {
+                label: "গুরুত্বপূর্ণ প্রতিষ্ঠানসমূহ",
+                route: "/t20/gk/prothisthan-somuho",
+                active: true,
+            },
+            kheladhulaCholochitra: {
+                label: "খেলাধুলা ও চলচ্চিত্র",
+                route: "/t20/gk/kheladhula-cholochitra",
+                active: true,
+            },
+            gonomadhomProjukti: {
+                label: "গণমাধ্যম ও প্রযুক্তি",
+                route: "/t20/gk/gonomadhom-projukti",
+                active: true,
             },
         },
     },
