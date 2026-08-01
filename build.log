@@ -1,48 +1,1212 @@
+
+> app_temp@0.1.0 build
+> next build
+
 Γû▓ Next.js 16.2.10 (Turbopack)
+- Environments: .env.local
 
   Creating an optimized production build ...
 
 > Build error occurred
-Error: Turbopack build failed with 3 errors:
-./src/app/history/page.js:458:17
-Expression expected
-  456 |                   </>
-  457 |                 </>
-> 458 |               </>
-      |                 ^
-  459 |             </p>
-  460 |
-  461 |             <p>
-
-Parsing ecmascript source code failed
+Error: Turbopack build failed with 46 errors:
+./src/app/t20/bangla/all/page.jsx:9:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/karokoBivokti.json'
+   7 | ...rt sobdderBisithoOrtho from '../../../../../data/t20/bangla/bakkotottoOproyog/sobdderBi...
+   8 | ...ubtopic 2: αª¼αºìαª»αª╛αªòαª░αªúαª┐αªò αªëαª¬αª╛αªªαª╛αª¿
+>  9 | ...rt karokoBivokti from '../../../../../data/t20/bangla/bakaronicUpadan/karokoBivokti.json';
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | ...rt kriyarKalOvab from '../../../../../data/t20/bangla/bakaronicUpadan/kriyarKalOvab.json';
+  11 | ...rt ntoBidhanOshtoBidhan from '../../../../../data/t20/bangla/bakaronicUpadan/ntoBidhanO...
+  12 | ...rt onusorgoUposorgo from '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposor...
 
 
-./src/app/history/page.js:459:13
-Expression expected
-  457 |                 </>
-  458 |               </>
-> 459 |             </p>
-      |             ^
-  460 |
-  461 |             <p>
-  462 |               <strong>αªåαª£αªòαºçαª░ αªªαª┐αª¿αºç</strong> αªåαª¬αª¿αª╛αªòαºç αªªαºçαª¼αºç <strong>αªçαªñαª┐αª╣αª╛αª╕αºçαª░}\}\)\ allenπÇé</p>
 
-Parsing ecmascript source code failed
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
 
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
 
-./src/app/history/page.js:459:14
-Unterminated regexp literal
-  457 |                 </>
-  458 |               </>
-> 459 |             </p>
-      |              ^^^
-  460 |
-  461 |             <p>
-  462 |               <strong>αªåαª£αªòαºçαª░ αªªαª┐αª¿αºç</strong> αªåαª¬αª¿αª╛αªòαºç αªªαºçαª¼αºç <strong>αªçαªñαª┐αª╣αª╛αª╕αºçαª░}\}\)\ allenπÇé</p>
-
-Parsing ecmascript source code failed
+https://nextjs.org/docs/messages/module-not-found
 
 
-    at <unknown> (./src/app/history/page.js:458:17)
-    at <unknown> (./src/app/history/page.js:459:13)
-    at <unknown> (./src/app/history/page.js:459:14)
+./src/app/t20/bangla/bakaronic-upadan/page.jsx:3:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/karokoBivokti.json'
+  1 | ...e client';
+  2 | ...ort { useState, useEffect } from 'react';
+> 3 | ...ort karokoBivokti from '../../../../../data/t20/bangla/bakaronicUpadan/karokoBivokti.json';
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...ort kriyarKalOvab from '../../../../../data/t20/bangla/bakaronicUpadan/kriyarKalOvab.json';
+  5 | ...ort ntoBidhanOshtoBidhan from '../../../../../data/t20/bangla/bakaronicUpadan/ntoBidhanO...
+  6 | ...ort onusorgoUposorgo from '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposor...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:10:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/kriyarKalOvab.json'
+   8 | ...ubtopic 2: αª¼αºìαª»αª╛αªòαª░αªúαª┐αªò αªëαª¬αª╛αªªαª╛αª¿
+   9 | ...rt karokoBivokti from '../../../../../data/t20/bangla/bakaronicUpadan/karokoBivokti.json';
+> 10 | ...rt kriyarKalOvab from '../../../../../data/t20/bangla/bakaronicUpadan/kriyarKalOvab.json';
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | ...rt ntoBidhanOshtoBidhan from '../../../../../data/t20/bangla/bakaronicUpadan/ntoBidhanO...
+  12 | ...rt onusorgoUposorgo from '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposor...
+  13 | ...rt prokitiProttoy from '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy.j...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/bakaronic-upadan/page.jsx:4:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/kriyarKalOvab.json'
+  2 | ...ort { useState, useEffect } from 'react';
+  3 | ...ort karokoBivokti from '../../../../../data/t20/bangla/bakaronicUpadan/karokoBivokti.json';
+> 4 | ...ort kriyarKalOvab from '../../../../../data/t20/bangla/bakaronicUpadan/kriyarKalOvab.json';
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...ort ntoBidhanOshtoBidhan from '../../../../../data/t20/bangla/bakaronicUpadan/ntoBidhanO...
+  6 | ...ort onusorgoUposorgo from '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposor...
+  7 | ...ort prokitiProttoy from '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy.j...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:11:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/ntoBidhanOshtoBidhan.json'
+   9 | ...koBivokti from '../../../../../data/t20/bangla/bakaronicUpadan/karokoBivokti.json';
+  10 | ...arKalOvab from '../../../../../data/t20/bangla/bakaronicUpadan/kriyarKalOvab.json';
+> 11 | ...idhanOshtoBidhan from '../../../../../data/t20/bangla/bakaronicUpadan/ntoBidhanOshtoBid...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | ...orgoUposorgo from '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposorgo.json';
+  13 | ...itiProttoy from '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy.json';
+  14 | ...dhiBichched from '../../../../../data/t20/bangla/bakaronicUpadan/shondhiBichched.json';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/bakaronic-upadan/page.jsx:5:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/ntoBidhanOshtoBidhan.json'
+  3 | ...okoBivokti from '../../../../../data/t20/bangla/bakaronicUpadan/karokoBivokti.json';
+  4 | ...yarKalOvab from '../../../../../data/t20/bangla/bakaronicUpadan/kriyarKalOvab.json';
+> 5 | ...BidhanOshtoBidhan from '../../../../../data/t20/bangla/bakaronicUpadan/ntoBidhanOshtoBid...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...sorgoUposorgo from '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposorgo.json';
+  7 | ...kitiProttoy from '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy.json';
+  8 | ...ndhiBichched from '../../../../../data/t20/bangla/bakaronicUpadan/shondhiBichched.json';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:12:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposorgo.json'
+  10 | ...kriyarKalOvab from '../../../../../data/t20/bangla/bakaronicUpadan/kriyarKalOvab.json';
+  11 | ...ntoBidhanOshtoBidhan from '../../../../../data/t20/bangla/bakaronicUpadan/ntoBidhanOsht...
+> 12 | ...onusorgoUposorgo from '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposorgo....
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 | ...prokitiProttoy from '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy.json';
+  14 | ...shondhiBichched from '../../../../../data/t20/bangla/bakaronicUpadan/shondhiBichched.js...
+  15 | ...somash from '../../../../../data/t20/bangla/bakaronicUpadan/somash.json';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/bakaronic-upadan/page.jsx:6:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposorgo.json'
+  4 | ... kriyarKalOvab from '../../../../../data/t20/bangla/bakaronicUpadan/kriyarKalOvab.json';
+  5 | ... ntoBidhanOshtoBidhan from '../../../../../data/t20/bangla/bakaronicUpadan/ntoBidhanOsht...
+> 6 | ... onusorgoUposorgo from '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposorgo....
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | ... prokitiProttoy from '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy.json';
+  8 | ... shondhiBichched from '../../../../../data/t20/bangla/bakaronicUpadan/shondhiBichched.js...
+  9 | ... somash from '../../../../../data/t20/bangla/bakaronicUpadan/somash.json';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:13:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy.json'
+  11 | ...t ntoBidhanOshtoBidhan from '../../../../../data/t20/bangla/bakaronicUpadan/ntoBidhanOs...
+  12 | ...t onusorgoUposorgo from '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposorg...
+> 13 | ...t prokitiProttoy from '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy.js...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 | ...t shondhiBichched from '../../../../../data/t20/bangla/bakaronicUpadan/shondhiBichched....
+  15 | ...t somash from '../../../../../data/t20/bangla/bakaronicUpadan/somash.json';
+  16 | ...btopic 3: αª¡αª╛αª╖αª╛ αªô αªºαºìαª¼αª¿αª┐αª¼αª┐αª£αºìαª₧αª╛αª¿
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/bakaronic-upadan/page.jsx:7:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy.json'
+   5 | ...t ntoBidhanOshtoBidhan from '../../../../../data/t20/bangla/bakaronicUpadan/ntoBidhanOs...
+   6 | ...t onusorgoUposorgo from '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposorg...
+>  7 | ...t prokitiProttoy from '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy.js...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | ...t shondhiBichched from '../../../../../data/t20/bangla/bakaronicUpadan/shondhiBichched....
+   9 | ...t somash from '../../../../../data/t20/bangla/bakaronicUpadan/somash.json';
+  10 | ...t QuickPracticeEngine from '@/components/QuickPracticeEngine';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:14:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/shondhiBichched.json'
+  12 | ... onusorgoUposorgo from '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposorgo...
+  13 | ... prokitiProttoy from '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy.json';
+> 14 | ... shondhiBichched from '../../../../../data/t20/bangla/bakaronicUpadan/shondhiBichched.j...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 | ... somash from '../../../../../data/t20/bangla/bakaronicUpadan/somash.json';
+  16 | ...topic 3: αª¡αª╛αª╖αª╛ αªô αªºαºìαª¼αª¿αª┐αª¼αª┐αª£αºìαª₧αª╛αª¿
+  17 | ... bakaronBisoyokGrontho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/bakaronB...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/bakaronic-upadan/page.jsx:8:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/shondhiBichched.json'
+   6 | ... onusorgoUposorgo from '../../../../../data/t20/bangla/bakaronicUpadan/onusorgoUposorgo...
+   7 | ... prokitiProttoy from '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy.json';
+>  8 | ... shondhiBichched from '../../../../../data/t20/bangla/bakaronicUpadan/shondhiBichched.j...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | ... somash from '../../../../../data/t20/bangla/bakaronicUpadan/somash.json';
+  10 | ... QuickPracticeEngine from '@/components/QuickPracticeEngine';
+  11 | ...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:15:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/somash.json'
+  13 | import prokitiProttoy from '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy....
+  14 | import shondhiBichched from '../../../../../data/t20/bangla/bakaronicUpadan/shondhiBichche...
+> 15 | import somash from '../../../../../data/t20/bangla/bakaronicUpadan/somash.json';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  16 | // Subtopic 3: αª¡αª╛αª╖αª╛ αªô αªºαºìαª¼αª¿αª┐αª¼αª┐αª£αºìαª₧αª╛αª¿
+  17 | import bakaronBisoyokGrontho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/bakar...
+  18 | import dbonniOborno from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dbonniOborno.j...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/bakaronic-upadan/page.jsx:9:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakaronicUpadan/somash.json'
+   7 | import prokitiProttoy from '../../../../../data/t20/bangla/bakaronicUpadan/prokitiProttoy....
+   8 | import shondhiBichched from '../../../../../data/t20/bangla/bakaronicUpadan/shondhiBichche...
+>  9 | import somash from '../../../../../data/t20/bangla/bakaronicUpadan/somash.json';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import QuickPracticeEngine from '@/components/QuickPracticeEngine';
+  11 |
+  12 | function getRandomItems(arr, n) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/bakaronic-upadan/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:4:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoProkoron.json'
+  2 | ...rt { useState, useEffect } from 'react';
+  3 | ...ubtopic 1: αª¼αª╛αªòαºìαª»αªñαªñαºìαªñαºìαª¼ αªô αª¬αºìαª░αª»αª╝αºïαªù
+> 4 | ...rt bakkoProkoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoProkoron.js...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...rt bakkoShudhikoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoShudhiko...
+  6 | ...rt en2bnOnubad from '../../../../../data/t20/bangla/bakkotottoOproyog/en2bnOnubad.json';
+  7 | ...rt sobdderBisithoOrtho from '../../../../../data/t20/bangla/bakkotottoOproyog/sobdderBis...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/bakkototto-oproyog/page.jsx:3:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoProkoron.json'
+  1 | ... client';
+  2 | ...rt { useState, useEffect } from 'react';
+> 3 | ...rt bakkoProkoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoProkoron.js...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...rt bakkoShudhikoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoShudhiko...
+  5 | ...rt en2bnOnubad from '../../../../../data/t20/bangla/bakkotottoOproyog/en2bnOnubad.json';
+  6 | ...rt sobdderBisithoOrtho from '../../../../../data/t20/bangla/bakkotottoOproyog/sobdderBis...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:5:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoShudhikoron.json'
+  3 | ...opic 1: αª¼αª╛αªòαºìαª»αªñαªñαºìαªñαºìαª¼ αªô αª¬αºìαª░αª»αª╝αºïαªù
+  4 | ...bakkoProkoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoProkoron.json';
+> 5 | ...bakkoShudhikoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoShudhikoron...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...en2bnOnubad from '../../../../../data/t20/bangla/bakkotottoOproyog/en2bnOnubad.json';
+  7 | ...sobdderBisithoOrtho from '../../../../../data/t20/bangla/bakkotottoOproyog/sobdderBisith...
+  8 | ...opic 2: αª¼αºìαª»αª╛αªòαª░αªúαª┐αªò αªëαª¬αª╛αªªαª╛αª¿
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/bakkototto-oproyog/page.jsx:4:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoShudhikoron.json'
+  2 | ...{ useState, useEffect } from 'react';
+  3 | ...bakkoProkoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoProkoron.json';
+> 4 | ...bakkoShudhikoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoShudhikoron...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...en2bnOnubad from '../../../../../data/t20/bangla/bakkotottoOproyog/en2bnOnubad.json';
+  6 | ...sobdderBisithoOrtho from '../../../../../data/t20/bangla/bakkotottoOproyog/sobdderBisith...
+  7 | ...QuickPracticeEngine from '@/components/QuickPracticeEngine';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:6:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakkotottoOproyog/en2bnOnubad.json'
+  4 | ...port bakkoProkoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoProkoron....
+  5 | ...port bakkoShudhikoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoShudhi...
+> 6 | ...port en2bnOnubad from '../../../../../data/t20/bangla/bakkotottoOproyog/en2bnOnubad.json';
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | ...port sobdderBisithoOrtho from '../../../../../data/t20/bangla/bakkotottoOproyog/sobdderB...
+  8 | ... Subtopic 2: αª¼αºìαª»αª╛αªòαª░αªúαª┐αªò αªëαª¬αª╛αªªαª╛αª¿
+  9 | ...port karokoBivokti from '../../../../../data/t20/bangla/bakaronicUpadan/karokoBivokti.js...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/bakkototto-oproyog/page.jsx:5:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakkotottoOproyog/en2bnOnubad.json'
+  3 | ...port bakkoProkoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoProkoron....
+  4 | ...port bakkoShudhikoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoShudhi...
+> 5 | ...port en2bnOnubad from '../../../../../data/t20/bangla/bakkotottoOproyog/en2bnOnubad.json';
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...port sobdderBisithoOrtho from '../../../../../data/t20/bangla/bakkotottoOproyog/sobdderB...
+  7 | ...port QuickPracticeEngine from '@/components/QuickPracticeEngine';
+  8 | ...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:7:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakkotottoOproyog/sobdderBisithoOrtho.json'
+   5 | ...oShudhikoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoShudhikoron.js...
+   6 | ...nOnubad from '../../../../../data/t20/bangla/bakkotottoOproyog/en2bnOnubad.json';
+>  7 | ...derBisithoOrtho from '../../../../../data/t20/bangla/bakkotottoOproyog/sobdderBisithoOr...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | ... 2: αª¼αºìαª»αª╛αªòαª░αªúαª┐αªò αªëαª¬αª╛αªªαª╛αª¿
+   9 | ...koBivokti from '../../../../../data/t20/bangla/bakaronicUpadan/karokoBivokti.json';
+  10 | ...arKalOvab from '../../../../../data/t20/bangla/bakaronicUpadan/kriyarKalOvab.json';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/bakkototto-oproyog/page.jsx:6:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/bakkotottoOproyog/sobdderBisithoOrtho.json'
+  4 | ...koShudhikoron from '../../../../../data/t20/bangla/bakkotottoOproyog/bakkoShudhikoron.js...
+  5 | ...bnOnubad from '../../../../../data/t20/bangla/bakkotottoOproyog/en2bnOnubad.json';
+> 6 | ...dderBisithoOrtho from '../../../../../data/t20/bangla/bakkotottoOproyog/sobdderBisithoOr...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | ...ckPracticeEngine from '@/components/QuickPracticeEngine';
+  8 | ...
+  9 | ...etRandomItems(arr, n) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/bakkototto-oproyog/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:23:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/shobdoOruptotto/bochon.json'
+  21 | import vashaObanglaVasha from '../../../../../data/t20/bangla/vashaOdhonniBiggan/vashaOban...
+  22 | // Subtopic 4: αª╢αª¼αºìαªª αªô αª░αºéαª¬αªñαªñαºìαªñαºìαª¼
+> 23 | import bochon from '../../../../../data/t20/bangla/shobdoOruptotto/bochon.json';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 | import podasritoNirdeshok from '../../../../../data/t20/bangla/shobdoOruptotto/podasritoNi...
+  25 | import podProkaron from '../../../../../data/t20/bangla/shobdoOruptotto/podProkaron.json';
+  26 | import purushOdiruttoSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purushOdir...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/shobdo-ruptotto/page.jsx:3:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/shobdoOruptotto/bochon.json'
+  1 | 'use client';
+  2 | import { useState, useEffect } from 'react';
+> 3 | import bochon from '../../../../../data/t20/bangla/shobdoOruptotto/bochon.json';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import podasritoNirdeshok from '../../../../../data/t20/bangla/shobdoOruptotto/podasritoNir...
+  5 | import podProkaron from '../../../../../data/t20/bangla/shobdoOruptotto/podProkaron.json';
+  6 | import purushOdiruttoSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purushOdiru...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:25:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/shobdoOruptotto/podProkaron.json'
+  23 | ...port bochon from '../../../../../data/t20/bangla/shobdoOruptotto/bochon.json';
+  24 | ...port podasritoNirdeshok from '../../../../../data/t20/bangla/shobdoOruptotto/podasritoN...
+> 25 | ...port podProkaron from '../../../../../data/t20/bangla/shobdoOruptotto/podProkaron.json';
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  26 | ...port purushOdiruttoSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purushOdi...
+  27 | ...port purusOstribachokSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purusOs...
+  28 | ...port sobdherSrenibivag from '../../../../../data/t20/bangla/shobdoOruptotto/sobdherSren...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/shobdo-ruptotto/page.jsx:5:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/shobdoOruptotto/podProkaron.json'
+  3 | ...mport bochon from '../../../../../data/t20/bangla/shobdoOruptotto/bochon.json';
+  4 | ...mport podasritoNirdeshok from '../../../../../data/t20/bangla/shobdoOruptotto/podasritoN...
+> 5 | ...mport podProkaron from '../../../../../data/t20/bangla/shobdoOruptotto/podProkaron.json';
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...mport purushOdiruttoSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purushOdi...
+  7 | ...mport purusOstribachokSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purusOs...
+  8 | ...mport sobdherSrenibivag from '../../../../../data/t20/bangla/shobdoOruptotto/sobdherSren...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:24:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/shobdoOruptotto/podasritoNirdeshok.json'
+  22 | ...ic 4: αª╢αª¼αºìαªª αªô αª░αºéαª¬αªñαªñαºìαªñαºìαª¼
+  23 | ...chon from '../../../../../data/t20/bangla/shobdoOruptotto/bochon.json';
+> 24 | ...dasritoNirdeshok from '../../../../../data/t20/bangla/shobdoOruptotto/podasritoNirdesho...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  25 | ...dProkaron from '../../../../../data/t20/bangla/shobdoOruptotto/podProkaron.json';
+  26 | ...rushOdiruttoSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purushOdiruttoSo...
+  27 | ...rusOstribachokSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purusOstribach...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/shobdo-ruptotto/page.jsx:4:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/shobdoOruptotto/podasritoNirdeshok.json'
+  2 | ... useState, useEffect } from 'react';
+  3 | ...ochon from '../../../../../data/t20/bangla/shobdoOruptotto/bochon.json';
+> 4 | ...odasritoNirdeshok from '../../../../../data/t20/bangla/shobdoOruptotto/podasritoNirdesho...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...odProkaron from '../../../../../data/t20/bangla/shobdoOruptotto/podProkaron.json';
+  6 | ...urushOdiruttoSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purushOdiruttoSo...
+  7 | ...urusOstribachokSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purusOstribach...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:27:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/shobdoOruptotto/purusOstribachokSobdo.json'
+  25 | ...okaron from '../../../../../data/t20/bangla/shobdoOruptotto/podProkaron.json';
+  26 | ...hOdiruttoSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purushOdiruttoSobdo...
+> 27 | ...OstribachokSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purusOstribachokS...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  28 | ...erSrenibivag from '../../../../../data/t20/bangla/shobdoOruptotto/sobdherSrenibivag.json';
+  29 | ...
+  30 | ...PracticeEngine from '@/components/QuickPracticeEngine';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/shobdo-ruptotto/page.jsx:7:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/shobdoOruptotto/purusOstribachokSobdo.json'
+   5 | ...okaron from '../../../../../data/t20/bangla/shobdoOruptotto/podProkaron.json';
+   6 | ...hOdiruttoSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purushOdiruttoSobdo...
+>  7 | ...OstribachokSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purusOstribachokS...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | ...erSrenibivag from '../../../../../data/t20/bangla/shobdoOruptotto/sobdherSrenibivag.json';
+   9 | ...PracticeEngine from '@/components/QuickPracticeEngine';
+  10 | ...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:26:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/shobdoOruptotto/purushOdiruttoSobdo.json'
+  24 | ...asritoNirdeshok from '../../../../../data/t20/bangla/shobdoOruptotto/podasritoNirdeshok...
+  25 | ...Prokaron from '../../../../../data/t20/bangla/shobdoOruptotto/podProkaron.json';
+> 26 | ...ushOdiruttoSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purushOdiruttoSob...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  27 | ...usOstribachokSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purusOstribacho...
+  28 | ...dherSrenibivag from '../../../../../data/t20/bangla/shobdoOruptotto/sobdherSrenibivag.j...
+  29 | ...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/shobdo-ruptotto/page.jsx:6:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/shobdoOruptotto/purushOdiruttoSobdo.json'
+  4 | ...dasritoNirdeshok from '../../../../../data/t20/bangla/shobdoOruptotto/podasritoNirdeshok...
+  5 | ...dProkaron from '../../../../../data/t20/bangla/shobdoOruptotto/podProkaron.json';
+> 6 | ...rushOdiruttoSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purushOdiruttoSob...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | ...rusOstribachokSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purusOstribacho...
+  8 | ...bdherSrenibivag from '../../../../../data/t20/bangla/shobdoOruptotto/sobdherSrenibivag.j...
+  9 | ...ickPracticeEngine from '@/components/QuickPracticeEngine';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:28:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/shobdoOruptotto/sobdherSrenibivag.json'
+  26 | ...urushOdiruttoSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purushOdiruttoS...
+  27 | ...urusOstribachokSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purusOstribac...
+> 28 | ...obdherSrenibivag from '../../../../../data/t20/bangla/shobdoOruptotto/sobdherSrenibivag...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  29 | ...
+  30 | ...uickPracticeEngine from '@/components/QuickPracticeEngine';
+  31 | ...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/shobdo-ruptotto/page.jsx:8:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/shobdoOruptotto/sobdherSrenibivag.json'
+   6 | ...urushOdiruttoSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purushOdiruttoS...
+   7 | ...urusOstribachokSobdo from '../../../../../data/t20/bangla/shobdoOruptotto/purusOstribac...
+>  8 | ...obdherSrenibivag from '../../../../../data/t20/bangla/shobdoOruptotto/sobdherSrenibivag...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | ...uickPracticeEngine from '@/components/QuickPracticeEngine';
+  10 | ...
+  11 | ... getRandomItems(arr, n) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/shobdo-ruptotto/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:17:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/vashaOdhonniBiggan/bakaronBisoyokGrontho.json'
+  15 | ... from '../../../../../data/t20/bangla/bakaronicUpadan/somash.json';
+  16 | ...: αª¡αª╛αª╖αª╛ αªô αªºαºìαª¼αª¿αª┐αª¼αª┐αª£αºìαª₧αª╛αª¿
+> 17 | ...nBisoyokGrontho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/bakaronBisoyokG...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  18 | ...Oborno from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dbonniOborno.json';
+  19 | ...rPoriborton from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dhonnirPoriborton.j...
+  20 | ...edChinho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/jotiChedChinho.json';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx:3:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/vashaOdhonniBiggan/bakaronBisoyokGrontho.json'
+  1 | ...;
+  2 | ...State, useEffect } from 'react';
+> 3 | ...onBisoyokGrontho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/bakaronBisoyokG...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...iOborno from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dbonniOborno.json';
+  5 | ...irPoriborton from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dhonnirPoriborton.j...
+  6 | ...hedChinho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/jotiChedChinho.json';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:18:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/vashaOdhonniBiggan/dbonniOborno.json'
+  16 | ...ubtopic 3: αª¡αª╛αª╖αª╛ αªô αªºαºìαª¼αª¿αª┐αª¼αª┐αª£αºìαª₧αª╛αª¿
+  17 | ...rt bakaronBisoyokGrontho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/bakaro...
+> 18 | ...rt dbonniOborno from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dbonniOborno.js...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  19 | ...rt dhonnirPoriborton from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dhonnirPor...
+  20 | ...rt jotiChedChinho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/jotiChedChinh...
+  21 | ...rt vashaObanglaVasha from '../../../../../data/t20/bangla/vashaOdhonniBiggan/vashaObang...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx:4:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/vashaOdhonniBiggan/dbonniOborno.json'
+  2 | ...ort { useState, useEffect } from 'react';
+  3 | ...ort bakaronBisoyokGrontho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/bakaro...
+> 4 | ...ort dbonniOborno from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dbonniOborno.js...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...ort dhonnirPoriborton from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dhonnirPor...
+  6 | ...ort jotiChedChinho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/jotiChedChinh...
+  7 | ...ort vashaObanglaVasha from '../../../../../data/t20/bangla/vashaOdhonniBiggan/vashaObang...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:19:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/vashaOdhonniBiggan/dhonnirPoriborton.json'
+  17 | ...karonBisoyokGrontho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/bakaronBiso...
+  18 | ...onniOborno from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dbonniOborno.json';
+> 19 | ...onnirPoriborton from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dhonnirPoribort...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  20 | ...tiChedChinho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/jotiChedChinho.json';
+  21 | ...shaObanglaVasha from '../../../../../data/t20/bangla/vashaOdhonniBiggan/vashaObanglaVas...
+  22 | ...ic 4: αª╢αª¼αºìαªª αªô αª░αºéαª¬αªñαªñαºìαªñαºìαª¼
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx:5:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/vashaOdhonniBiggan/dhonnirPoriborton.json'
+  3 | ...akaronBisoyokGrontho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/bakaronBiso...
+  4 | ...bonniOborno from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dbonniOborno.json';
+> 5 | ...honnirPoriborton from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dhonnirPoribort...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...otiChedChinho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/jotiChedChinho.json';
+  7 | ...ashaObanglaVasha from '../../../../../data/t20/bangla/vashaOdhonniBiggan/vashaObanglaVas...
+  8 | ...uickPracticeEngine from '@/components/QuickPracticeEngine';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:20:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/vashaOdhonniBiggan/jotiChedChinho.json'
+  18 | ... dbonniOborno from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dbonniOborno.json';
+  19 | ... dhonnirPoriborton from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dhonnirPorib...
+> 20 | ... jotiChedChinho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/jotiChedChinho....
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  21 | ... vashaObanglaVasha from '../../../../../data/t20/bangla/vashaOdhonniBiggan/vashaObangla...
+  22 | ...topic 4: αª╢αª¼αºìαªª αªô αª░αºéαª¬αªñαªñαºìαªñαºìαª¼
+  23 | ... bochon from '../../../../../data/t20/bangla/shobdoOruptotto/bochon.json';
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx:6:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/vashaOdhonniBiggan/jotiChedChinho.json'
+  4 | ...t dbonniOborno from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dbonniOborno.json';
+  5 | ...t dhonnirPoriborton from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dhonnirPorib...
+> 6 | ...t jotiChedChinho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/jotiChedChinho....
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | ...t vashaObanglaVasha from '../../../../../data/t20/bangla/vashaOdhonniBiggan/vashaObangla...
+  8 | ...t QuickPracticeEngine from '@/components/QuickPracticeEngine';
+  9 | ...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/all/page.jsx:21:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/vashaOdhonniBiggan/vashaObanglaVasha.json'
+  19 | ...onnirPoriborton from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dhonnirPoribort...
+  20 | ...tiChedChinho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/jotiChedChinho.json';
+> 21 | ...shaObanglaVasha from '../../../../../data/t20/bangla/vashaOdhonniBiggan/vashaObanglaVas...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  22 | ...ic 4: αª╢αª¼αºìαªª αªô αª░αºéαª¬αªñαªñαºìαªñαºìαª¼
+  23 | ...chon from '../../../../../data/t20/bangla/shobdoOruptotto/bochon.json';
+  24 | ...dasritoNirdeshok from '../../../../../data/t20/bangla/shobdoOruptotto/podasritoNirdesho...
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/all/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/all/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/all/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx:7:1
+Module not found: Can't resolve '../../../../../data/t20/bangla/vashaOdhonniBiggan/vashaObanglaVasha.json'
+   5 | ...onnirPoriborton from '../../../../../data/t20/bangla/vashaOdhonniBiggan/dhonnirPoribort...
+   6 | ...tiChedChinho from '../../../../../data/t20/bangla/vashaOdhonniBiggan/jotiChedChinho.json';
+>  7 | ...shaObanglaVasha from '../../../../../data/t20/bangla/vashaOdhonniBiggan/vashaObanglaVas...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | ...ickPracticeEngine from '@/components/QuickPracticeEngine';
+   9 | ...
+  10 | ...getRandomItems(arr, n) {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Client Component Browser]
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Client Component SSR]
+    ./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./node_modules/next/dist/client/components/router-reducer/ppr-navigations.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/node_modules/next/dist/client/components/router-reducer/ppr-navigations.js [app-ssr] (ecmascript)
+
+Caused by:
+- reading file "D:\\antigravity\\bcspark\\node_modules\\next\\dist\\client\\components\\router-reducer\\ppr-navigations.js.map"
+- The file or directory is corrupted and unreadable. (os error 1392)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/node_modules/next/dist/client/components/router-reducer/ppr-navigations.js [app-ssr] (ecmascript)
+- Execution of <EcmascriptModuleAsset as EcmascriptChunkPlaceable>::chunk_item_content failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- Execution of <SourceMapReference as GenerateSourceMap>::generate_source_map failed
+- Execution of <DiskFileSystem as FileSystem>::read failed
+- reading file "D:\\antigravity\\bcspark\\node_modules\\next\\dist\\client\\components\\router-reducer\\ppr-navigations.js.map"
+- The file or directory is corrupted and unreadable. (os error 1392)
+
+Import traces:
+  Client Component Browser:
+    ./node_modules/next/dist/client/components/router-reducer/ppr-navigations.js
+    ./node_modules/next/dist/client/components/app-router-instance.js
+    ./node_modules/next/dist/client/app-index.js
+    ./node_modules/next/dist/client/app-next-turbopack.js
+
+  Client Component SSR:
+    ./node_modules/next/dist/client/components/router-reducer/ppr-navigations.js [Client Component SSR]
+    ./node_modules/next/dist/client/components/segment-cache/navigation.js [Client Component SSR]
+    ./node_modules/next/dist/client/components/segment-cache/cache.js [Client Component SSR]
+    ./node_modules/next/dist/client/components/segment-cache/scheduler.js [Client Component SSR]
+    ./node_modules/next/dist/client/components/links.js [Client Component SSR]
+    ./node_modules/next/dist/client/app-dir/link.js [Client Component SSR]
+    ./src/components/Footer.jsx [Client Component SSR]
+    ./src/components/QuickPracticeEngine.jsx [Client Component SSR]
+    ./src/app/t20/vugol-poribesh-dm/poribesh/page.jsx [Client Component SSR]
+    ./src/app/t20/vugol-poribesh-dm/poribesh/page.jsx [Server Component]
+
+
+./node_modules/next/dist/esm/server/lib/experimental/ppr.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/node_modules/next/dist/esm/server/lib/experimental/ppr.js [app-rsc] (ecmascript)
+
+Caused by:
+- reading file "D:\\antigravity\\bcspark\\node_modules\\next\\dist\\esm\\server\\lib\\experimental\\ppr.js.map"
+- The file or directory is corrupted and unreadable. (os error 1392)
+
+Debug info:
+- An error occurred while generating the chunk item [project]/node_modules/next/dist/esm/server/lib/experimental/ppr.js [app-rsc] (ecmascript)
+- Execution of <EcmascriptModuleAsset as EcmascriptChunkPlaceable>::chunk_item_content failed
+- Execution of *EcmascriptChunkItemContent::new failed
+- Execution of EcmascriptModuleContent::new failed
+- Execution of <SourceMapReference as GenerateSourceMap>::generate_source_map failed
+- Execution of <DiskFileSystem as FileSystem>::read failed
+- reading file "D:\\antigravity\\bcspark\\node_modules\\next\\dist\\esm\\server\\lib\\experimental\\ppr.js.map"
+- The file or directory is corrupted and unreadable. (os error 1392)
+
+
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:9:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/bakaronic-upadan/page.jsx:3:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:10:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/bakaronic-upadan/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:11:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/bakaronic-upadan/page.jsx:5:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:12:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/bakaronic-upadan/page.jsx:6:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:13:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/bakaronic-upadan/page.jsx:7:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:14:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/bakaronic-upadan/page.jsx:8:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:15:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/bakaronic-upadan/page.jsx:9:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/bakkototto-oproyog/page.jsx:3:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:5:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/bakkototto-oproyog/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:6:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/bakkototto-oproyog/page.jsx:5:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:7:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/bakkototto-oproyog/page.jsx:6:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:23:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/shobdo-ruptotto/page.jsx:3:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:25:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/shobdo-ruptotto/page.jsx:5:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:24:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/shobdo-ruptotto/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:27:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/shobdo-ruptotto/page.jsx:7:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:26:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/shobdo-ruptotto/page.jsx:6:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:28:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/shobdo-ruptotto/page.jsx:8:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:17:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx:3:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:18:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:19:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx:5:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:20:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx:6:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/all/page.jsx:21:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/t20/bangla/vasha-odhonni-biggan/page.jsx:7:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)

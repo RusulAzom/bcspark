@@ -143,42 +143,32 @@ const practiceRoutes = {
     },
 
     Bangla: {
-        label: "👉 Bangla",
+        label: "👉 বাংলা ব্যাকরণ",
         topics: {
             all: {
-                label: "BN > বাংলা ভাষা ও সাহিত্য (All Topics)",
+                label: "বাংলা ব্যাকরণ (All Topics)",
                 route: "/t20/bangla/all",
                 active: true,
             },
-            bakaron1: {
-                label: "BN > কারক ও বিভক্তি ",
-                route: "/t20/bangla/bacaron/karokobivokti",
+            bakkotottoOproyog: {
+                label: "শুদ্ধিকরণ, প্রকরণ, অনুবাদ …. - বাক্যতত্ত্ব ও প্রয়োগ",
+                route: "/t20/bangla/bakkototto-oproyog",
                 active: true,
             },
-            shahitto2: {
-                label: "BN > বাংলা সাহিত্য (মধ্যযুগ)", 
-                route: "/t20/bangla/shahitto/modhdhojug",
+            bakaronicUpadan: {
+                label: "সন্ধি, ণ-ত্ব ও ষ-ত্ব, উপসর্গ, সমাস, প্রকৃতি, কারক, ক্রিয়ার ... - ব্যাকরণিক উপাদান",
+                route: "/t20/bangla/bakaronic-upadan",
                 active: true,
             },
-            shahitto3: {
-                label: "BN > বাংলা সাহিত্য (প্রাচীন যুগ/চর্যাপদ)", 
-                route: "/t20/bangla/shahitto/prachinjug",
+            vashaOdhonniBiggan: {
+                label: "ভাষা, ধ্বনি, চিহ্ন ... - ভাষা ও ধ্বনিবিজ্ঞান",
+                route: "/t20/bangla/vasha-odhonni-biggan",
                 active: true,
             },
-            shahitto4: {
-                label: "BN > মুক্তিযুদ্ধ ও ভাষা আন্দোলন বিষয়ক সাহিত্য", 
-                route: "/t20/bangla/shahitto/muktijudhovashaandolon",
+            shobdoOruptotto: {
+                label: "বচন, পুরুষ ও দ্বিরুক্ত শব্দ, পদাশ্রিত, পদ .... - শব্দ ও রূপতত্ত্ব",
+                route: "/t20/bangla/shobdo-ruptotto",
                 active: true,
-            },
-            bakaron2: {
-                label: "BN > প্রকৃতি ও প্রত্যয় ",
-                route: "/t20/bangla/bacaron/pokritioprotoy",
-                active: true,
-            },
-            bakaron3: {
-                label: "BN > ভাষাতত্ত্ব (শব্দ, ধ্বনি, ....সন্ধি ) ",
-                route: "/t20/bangla/bacaron/",
-                active: false,
             },
         },
     },
