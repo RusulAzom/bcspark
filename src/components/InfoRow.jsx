@@ -69,8 +69,14 @@ export default function InfoRow() {
 
   const todayDateObj = todayHistory?.date?.iso
     ? new Date(`${todayHistory.date.iso}T00:00:00`)
-    : new Date();
+    : null;
   const todayData = todayHistory?.history || { events: [], birthdays: [], deaths: [] };
+  const banglaDateLabel = todayDateObj
+    ? todayDateObj.toLocaleDateString("bn-BD", { day: "numeric", month: "long", year: "numeric" })
+    : "আজকের তারিখ লোড হচ্ছে";
+  const shortDateLabel = todayDateObj
+    ? todayDateObj.toLocaleDateString("en-US", { month: "short", day: "numeric" }).toUpperCase()
+    : "LOADING";
 
   const historicalEvents = (todayData.events || []).map((item) => ({
     year: String(item.year),
@@ -338,7 +344,7 @@ export default function InfoRow() {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-primary leading-tight">আজকের দিনে</h3>
-                <p className="text-xs text-gray-500">{todayDateObj.toLocaleDateString("bn-BD", { day: "numeric", month: "long", year: "numeric" })}: ঐতিহাসিক ঘটনা ও গুরুত্বপূর্ণ সাধারণ জ্ঞান</p>
+                <p className="text-xs text-gray-500">{banglaDateLabel}: ঐতিহাসিক ঘটনা ও গুরুত্বপূর্ণ সাধারণ জ্ঞান</p>
               </div>
             </div>
 
@@ -346,7 +352,7 @@ export default function InfoRow() {
             <div className="mb-4">
               <div className="flex items-center gap-2 mb-2">
                 <span className="rounded-full bg-red-100 px-2.5 py-1 text-xs font-bold text-red-700">ঐতিহাসিক ঘটনা</span>
-                <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide">{todayDateObj.toLocaleDateString("en-US", { month: "short", day: "numeric" }).toUpperCase()}</span>
+                <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide">{shortDateLabel}</span>
               </div>
               <div className="space-y-2 max-h-[140px] overflow-y-auto scrollbar-hide">
                 {historicalEvents.length === 0 && (
@@ -365,7 +371,7 @@ export default function InfoRow() {
             <div className="mb-4">
               <div className="flex items-center gap-2 mb-2">
                 <span className="rounded-full bg-indigo-100 px-2.5 py-1 text-xs font-bold text-indigo-700">বিখ্যাত ব্যক্তিত্ব</span>
-                <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide">{todayDateObj.toLocaleDateString("en-US", { month: "short", day: "numeric" }).toUpperCase()}</span>
+                <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide">{shortDateLabel}</span>
               </div>
               <div className="space-y-2 max-h-[140px] overflow-y-auto scrollbar-hide">
                 {famousPersonalities.length === 0 && (
@@ -390,7 +396,7 @@ export default function InfoRow() {
             <div className="mb-2">
               <div className="flex items-center gap-2 mb-2">
                 <span className="rounded-full bg-gray-200 px-2.5 py-1 text-xs font-bold text-gray-700">প্রয়াণ দিবস</span>
-                <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide">{todayDateObj.toLocaleDateString("en-US", { month: "short", day: "numeric" }).toUpperCase()}</span>
+                <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide">{shortDateLabel}</span>
               </div>
               <div className="space-y-2 max-h-[140px] overflow-y-auto scrollbar-hide">
                 {deathAnniversaries.length === 0 && (
