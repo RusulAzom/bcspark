@@ -5,20 +5,10 @@ import {
   Cake, CheckSquare, Play, Zap, Clock, CheckCircle2, 
   TrendingUp, Flame, AlertCircle, RefreshCw, BookOpen
 } from "lucide-react";
-import januaryData from "@/data/history/january.json";
-import februaryData from "@/data/history/february.json";
-import marchData from "@/data/history/march.json";
-import aprilData from "@/data/history/april.json";
-import mayData from "@/data/history/may.json";
-import juneData from "@/data/history/june.json";
-import julyData from "@/data/history/july.json";
-import augustData from "@/data/history/august.json";
-import septemberData from "@/data/history/september.json";
-import octoberData from "@/data/history/october.json";
-import novemberData from "@/data/history/november.json";
-import decemberData from "@/data/history/december.json";
+import { useTodayHistory } from "@/components/TodayHistoryProvider";
 
 export default function InfoRow() {
+  const { data: todayHistory, isLoading: isHistoryLoading } = useTodayHistory();
   // Mock Model Test Form State
   const [exam, setExam] = useState("BCS");
   const [phase, setPhase] = useState("Preli");
@@ -77,26 +67,10 @@ export default function InfoRow() {
     }, 800);
   };
 
-  // আজকের দিনে ডাটা — ডাইনামিক JSON
-  const todayDateObj = new Date();
-  const monthKey = todayDateObj.toLocaleString("en-US", { month: "long" }).toLowerCase();
-  const dayKey = String(todayDateObj.getDate());
-  const monthDataMap = {
-    january: januaryData,
-    february: februaryData,
-    march: marchData,
-    april: aprilData,
-    may: mayData,
-    june: juneData,
-    july: julyData,
-    august: augustData,
-    september: septemberData,
-    october: octoberData,
-    november: novemberData,
-    december: decemberData
-  };
-  const currentMonthData = monthDataMap[monthKey] || julyData;
-  const todayData = currentMonthData[dayKey] || currentMonthData["16"] || { events: [], birthdays: [] };
+  const todayDateObj = todayHistory?.date?.iso
+    ? new Date(`${todayHistory.date.iso}T00:00:00`)
+    : new Date();
+  const todayData = todayHistory?.history || { events: [], birthdays: [], deaths: [] };
 
   const historicalEvents = (todayData.events || []).map((item) => ({
     year: String(item.year),

@@ -1,74 +1,21 @@
 "use client";
 
 import { Flame } from "lucide-react";
-import januaryData from "@/data/history/january.json";
-import februaryData from "@/data/history/february.json";
-import marchData from "@/data/history/march.json";
-import aprilData from "@/data/history/april.json";
-import mayData from "@/data/history/may.json";
-import juneData from "@/data/history/june.json";
-import julyData from "@/data/history/july.json";
-import augustData from "@/data/history/august.json";
-import septemberData from "@/data/history/september.json";
-import octoberData from "@/data/history/october.json";
-import novemberData from "@/data/history/november.json";
-import decemberData from "@/data/history/december.json";
-import todayInHistoryData from "@/data/today_in_history.json";
+import { useTodayHistory } from "@/components/TodayHistoryProvider";
 
-const newsItems = (() => {
-  const today = new Date();
-  const monthKey = today.toLocaleString("en-US", { month: "long" }).toLowerCase();
-  const dayKey = String(today.getDate());
-  const monthDataMap = {
-    january: januaryData,
-    february: februaryData,
-    march: marchData,
-    april: aprilData,
-    may: mayData,
-    june: juneData,
-    july: julyData,
-    august: augustData,
-    september: septemberData,
-    october: octoberData,
-    november: novemberData,
-    december: decemberData
-  };
-  const currentMonthData = monthDataMap[monthKey] || julyData;
-  const todayData = currentMonthData[dayKey] || currentMonthData["16"] || { events: [], birthdays: [], deaths: [] };
-  const items = [];
-  (todayData.events || []).forEach((ev) => {
-    if (ev.marquee_text) items.push(ev.marquee_text);
-  });
-  (todayData.birthdays || []).forEach((b) => {
-    if (b.marquee_text) items.push(b.marquee_text);
-  });
-  (todayData.deaths || []).forEach((d) => {
-    if (d.marquee_text) items.push(d.marquee_text);
-  });
-
-  // Merge marquee texts from the global today_in_history.json source
-  // (structure: { [month]: { [day]: { events, birthdays, deaths } } })
-  const globalMonthData = todayInHistoryData[monthKey];
-  const globalTodayData =
-    (globalMonthData && (globalMonthData[dayKey] || globalMonthData["16"])) ||
-    { events: [], birthdays: [], deaths: [] };
-  (globalTodayData.events || []).forEach((ev) => {
-    if (ev.marquee_text) items.push(ev.marquee_text);
-  });
-  (globalTodayData.birthdays || []).forEach((b) => {
-    if (b.marquee_text) items.push(b.marquee_text);
-  });
-  (globalTodayData.deaths || []).forEach((d) => {
-    if (d.marquee_text) items.push(d.marquee_text);
-  });
-
-  return items.length ? items : ["আজকের ঐতিহাসিক ঘটনা এখনও যোগ করা হয়নি।"];
-})();
-
-const marqueeText = newsItems.join(" ⚡ ");
-const marqueeDuration = Math.max(12, marqueeText.length / 18);
+function getFallbackItems() {
+  return ["আজকের ঐতিহাসিক ঘটনা এখনও যোগ করা হয়নি।"];
+}
 
 export default function BottomNewsTicker() {
+  const { data: todayHistory, isLoading } = useTodayHistory();
+  const newsItems = todayHistory?.tickerItems?.length
+    ? todayHistory.tickerItems
+    : isLoading
+      ? ["আজকের ঐতিহাসিক ঘটনা লোড হচ্ছে..."]
+      : getFallbackItems();
+  const marqueeText = newsItems.join(" ⚡ ");
+  const marqueeDuration = Math.max(12, marqueeText.length / 18);
   // Duplicate the array to create a seamless infinite scrolling effect
   const doubleItems = [...newsItems, ...newsItems];
 

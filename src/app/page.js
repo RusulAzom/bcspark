@@ -12,10 +12,12 @@ import PricingSection from "@/components/PricingSection";
 import CtaAndStats from "@/components/CtaAndStats";
 import Footer from "@/components/Footer";
 import BottomNewsTicker from "@/components/BottomNewsTicker";
+import { TodayHistoryProvider } from "@/components/TodayHistoryProvider";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col bg-brand-bg text-primary pb-10">
+    <TodayHistoryProvider>
+      <div className="flex min-h-screen flex-col bg-brand-bg text-primary pb-10">
       {/* Sticky Navigation Bar */}
       <Navbar />
 
@@ -55,7 +57,8 @@ export default function Home() {
 
       {/* Fixed news ticker scroll at the very bottom */}
       <BottomNewsTicker />
-    </div>
+      </div>
+    </TodayHistoryProvider>
   );
 }
 
