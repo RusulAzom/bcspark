@@ -1,0 +1,930 @@
+[
+  {
+    "id": 1,
+    "topicsId": 410,
+    "q": "Identify the correct part of speech of the word underlined in the sentence : 'Which ever' of the three sisters you choose to marry , you will have a good wife.",
+    "options": [
+      "Adjective of number",
+      "Countable noun",
+      "Pronoun",
+      "Adverb"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'Whichever' শব্দটি Noun-এর পরিবর্তে বসেছে এবং একটি অনির্দিষ্ট নির্বাচন বোঝাচ্ছে, তাই এটি একটি Pronoun (Relative/Indefinite Pronoun হিসেবে ব্যবহৃত)।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন সহকারী পরিচালক ( গ্রেড-২ ) : ০৩"
+    ]
+  },
+  {
+    "id": 2,
+    "topicsId": 410,
+    "q": "What keeps me awake is coffee. এখানে What কোন Parts of speech ?",
+    "options": [
+      "Relative Pronoun",
+      "Noun",
+      "Adjective",
+      "Adverb"
+    ],
+    "ans": 0,
+    "explain": "'What' এখানে Relative Pronoun হিসেবে কাজ করছে, কারণ এটি বাক্যের একটি অংশকে অন্য অংশের সাথে যুক্ত করছে এবং একইসাথে Subject হিসেবে কাজ করছে।",
+    "source": [
+      "ভূ-তাত্ত্বিক জরিপ অধিদপ্তরের সহকারী পরিচালক: ০৬"
+    ]
+  },
+  {
+    "id": 3,
+    "topicsId": 410,
+    "q": "Which one of the following words is an example of a distributive pronoun ?",
+    "options": [
+      "such",
+      "that",
+      "either",
+      "any"
+    ],
+    "ans": 2,
+    "explain": "যে Pronoun একজাতীয় একাধিক ব্যক্তি বা বস্তুর প্রত্যেকটিকে পৃথকভাবে প্রকাশ করে তাকে Distributive Pronoun বলে। যেমন: each, either, neither।",
+    "source": [
+      "৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 4,
+    "topicsId": 410,
+    "q": "Fill up the blank in the sentence: “Everyone should respect-----teachers”",
+    "options": [
+      "his",
+      "one's",
+      "own",
+      "their"
+    ],
+    "ans": 0,
+    "explain": "Everyone, Everybody, Someone ইত্যাদি Indefinite Pronoun-এর ক্ষেত্রে Possessive Case হিসেবে 'his' ব্যবহৃত হয়।",
+    "source": [
+      "টিবিএল ও এএসপি কর্মসূচী, স্বাস্থ্য অধিদপ্তর, মেডিকেল টেকনোলজিস্ট (ল্যাব) – ২২"
+    ]
+  },
+  {
+    "id": 5,
+    "topicsId": 410,
+    "q": "He Killed himself ---- here himself is –",
+    "options": [
+      "personal pronoun",
+      "Relative Pronoun",
+      "Reflexive pronoun",
+      "As emphatic Pronoun"
+    ],
+    "ans": 2,
+    "explain": "যখন Subject এবং Object একই ব্যক্তি হয় এবং Verb-এর পরে self/selves যুক্ত Pronoun বসে, তখন তাকে Reflexive Pronoun বলে।",
+    "source": [
+      "কন্ট্রোলার জেনারেল ডিফেন্স ফাইন্যান্স এর কার্যালয় (অফিস সহায়ক)-২১"
+    ]
+  },
+  {
+    "id": 6,
+    "topicsId": 410,
+    "q": "Which is example of Demonstrative pronoun ?",
+    "options": [
+      "It",
+      "Who",
+      "He",
+      "This"
+    ],
+    "ans": 3,
+    "explain": "যে Pronoun কোনো ব্যক্তি বা বস্তুর পরিবর্তে বসে তাকে নির্দেশ করে, তাকে Demonstrative Pronoun বলে। যেমন: This, That, These, Those।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর, উপ সহকারী প্রকৌশলী (ইলেকট্রিক্যাল)-২১"
+    ]
+  },
+  {
+    "id": 7,
+    "topicsId": 410,
+    "q": "'None but Allah can help us'- What kind of Pronoun None is ?",
+    "options": [
+      "Reflexive",
+      "Indefinite",
+      "Reciprocal",
+      "Demonstrative"
+    ],
+    "ans": 1,
+    "explain": "'None' শব্দটি কোনো নির্দিষ্ট ব্যক্তি বা বস্তুকে না বুঝিয়ে অনির্দিষ্টভাবে বোঝাচ্ছে, তাই এটি একটি Indefinite Pronoun।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (ডাটা এন্ট্রি অপারেটর)-২১"
+    ]
+  },
+  {
+    "id": 8,
+    "topicsId": 410,
+    "q": "This book is mine. Here 'mine' is-",
+    "options": [
+      "pronoun",
+      "adjective",
+      "preposition",
+      "adverb"
+    ],
+    "ans": 0,
+    "explain": "'Mine' একটি Possessive Pronoun। এটি Noun (book)-এর পরিবর্তে বসে মালিকানা প্রকাশ করছে।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক)-২১"
+    ]
+  },
+  {
+    "id": 9,
+    "topicsId": 410,
+    "q": "Which sentence is an example of reflexive pronoun ?",
+    "options": [
+      "I hurt myself",
+      "I will do it myself",
+      "We saw the king himself",
+      "All of the above"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'myself' এবং 'himself' শব্দগুলো Reflexive এবং Emphatic উভয় অর্থেই ব্যবহৃত হতে পারে, যা মূলত Pronoun-এরই অংশ। অপশনগুলোর প্রতিটিই self-যুক্ত প্রোনাউনের উদাহরণ।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরো নিয়োগ পরীক্ষা (জুনিয়র পরিসংখ্যান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 10,
+    "topicsId": 410,
+    "q": "He loves himself. The underlined word is:",
+    "options": [
+      "Personal pronoun.",
+      "Related pronoun",
+      "Demonstrative pronoun",
+      "Reflexive pronoun"
+    ],
+    "ans": 3,
+    "explain": "Subject (He) এবং Object (himself) একই ব্যক্তি হওয়ায় এটি একটি Reflexive Pronoun।",
+    "source": [
+      "বাংলাদেশ অর্থনৈতিক অঞ্চল কর্তৃপক্ষ (বেজা) এর অধীনে সহকারী ব্যবস্থাপক পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 11,
+    "topicsId": 410,
+    "q": "Select the pronoun from the following:",
+    "options": [
+      "Karim",
+      "Anup",
+      "Quader",
+      "I"
+    ],
+    "ans": 3,
+    "explain": "Karim, Anup, Quader হলো Noun। 'I' হলো একটি Personal Pronoun যা বক্তার নামের পরিবর্তে ব্যবহৃত হয়।",
+    "source": [
+      "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক) : ২০১৯"
+    ]
+  },
+  {
+    "id": 12,
+    "topicsId": 410,
+    "q": "Who, Which, What are – -",
+    "options": [
+      "interrogative pronoun",
+      "both ক এবং গ",
+      "relative pronoun",
+      "demonstrative pronoun"
+    ],
+    "ans": 1,
+    "explain": "Who, Which, What প্রশ্ন করার জন্য ব্যবহৃত হলে Interrogative এবং দুটি বাক্য যুক্ত করলে Relative Pronoun হিসেবে গণ্য হয়। তাই এটি 'ক' ও 'গ' উভয়ই সঠিক।",
+    "source": [
+      "বাংলাদেশ কোস্ট গার্ড ও কৃষি প্রশিক্ষণ একাডেমির নার্স এবং ফায়ার সার্ভিস অ্যান্ড সিভিল ডিফেন্স এর ফোরম্যান : ২০১৯"
+    ]
+  },
+  {
+    "id": 13,
+    "topicsId": 410,
+    "q": "Choose the appropriate pronoun: Any of you may take it; I don't care —",
+    "options": [
+      "which",
+      "what",
+      "who",
+      "Whom"
+    ],
+    "ans": 2,
+    "explain": "বাক্যের অর্থানুসারে, 'যেকেউ এটি নিতে পারে, আমি পরোয়া করি না কে নিল (who)'—তাই সঠিক উত্তর 'who'।",
+    "source": [
+      "বাংলাদেশ প্রতিযোগিতা কমিশনের বিভিন্ন পদ : ২০১৯"
+    ]
+  },
+  {
+    "id": 14,
+    "topicsId": 410,
+    "q": "Which book do you want? Here 'which' is-",
+    "options": [
+      "Relative Pronoun",
+      "Interrogative Pronoun",
+      "Relative Adjective",
+      "Interrogative Adjective"
+    ],
+    "ans": 3,
+    "explain": "'Which' শব্দটি এখানে 'book' (Noun)-এর ঠিক আগে বসে প্রশ্ন করছে, তাই এটি একটি Interrogative Adjective।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক)-২১"
+    ]
+  },
+  {
+    "id": 15,
+    "topicsId": 410,
+    "q": "Which of the following is an example of an indefinite pronoun ?",
+    "options": [
+      "suchs",
+      "this",
+      "any",
+      "either"
+    ],
+    "ans": 2,
+    "explain": "'Any' শব্দটি কোনো নির্দিষ্ট ব্যক্তি বা বস্তুকে না বুঝিয়ে অনির্দিষ্টভাবে ব্যবহৃত হয়, তাই এটি Indefinite Pronoun।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশন ৪ বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা : ২০১১"
+    ]
+  },
+  {
+    "id": 16,
+    "topicsId": 410,
+    "q": "A word that takes the place of a noun is called",
+    "options": [
+      "a subject",
+      "an adverb",
+      "an object",
+      "a pronoun"
+    ],
+    "ans": 3,
+    "explain": "Noun বা বিশেষ্যের পরিবর্তে যে শব্দ ব্যবহৃত হয় তাকে Pronoun বা সর্বনাম বলে।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয় সুপারিনটেনডেন্ট : ২০১৯"
+    ]
+  },
+  {
+    "id": 17,
+    "topicsId": 410,
+    "q": "Which of these is a personal pronoun? It is",
+    "options": [
+      "their",
+      "they",
+      "there",
+      "theirs"
+    ],
+    "ans": 1,
+    "explain": "They হলো Personal Pronoun-এর Nominative form। Their এবং Theirs হলো Possessive form।",
+    "source": [
+      "'বাংলাদেশ বেতার সাঁটলিপিকার কাম কম্পিউটার অপারেটর/হিসাব সহকারী অধিকারী কাম কম্পিউটার অপারেটর ২০১৯"
+    ]
+  },
+  {
+    "id": 18,
+    "topicsId": 410,
+    "q": "Each of the boys gets a prize. Here each is a:",
+    "options": [
+      "Definite Pronoun",
+      "Relative Pronoun",
+      "Indefinite Pronoun",
+      "Distributive Pronoun"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'Each' শব্দটি বালকদের মধ্যে প্রত্যেককে পৃথকভাবে বোঝাচ্ছে, তাই এটি Distributive Pronoun।",
+    "source": [
+      "স্থানীয় সরকার বিভাগের অধীন জনস্বাস্থ্য প্রকৌশল অধিদপ্তরের এস্টিমেটর : ২০১৮"
+    ]
+  },
+  {
+    "id": 19,
+    "topicsId": 410,
+    "q": "Select the correct word: I have read the book — you lent me.",
+    "options": [
+      "whom",
+      "whose",
+      "what",
+      "That"
+    ],
+    "ans": 3,
+    "explain": "অপ্রাণিবাচক বস্তু (book)-এর ক্ষেত্রে Relative Pronoun হিসেবে 'That' অথবা 'Which' ব্যবহৃত হয়।",
+    "source": [
+      "শিক্ষা মন্ত্রণালয়ের অধীন কারিগরি শিক্ষা অধিদপ্তরের জুনিয়র ইন্সট্রাক্টর (ইলেকট্রনি, পাওয়ার, কম্পিউটার) : ২০১৮"
+    ]
+  },
+  {
+    "id": 20,
+    "topicsId": 410,
+    "q": "We insist on------leaving the room.",
+    "options": [
+      "you",
+      "your",
+      "You for",
+      "your after"
+    ],
+    "ans": 1,
+    "explain": "Gerund (leaving)-এর ঠিক আগে Pronoun-এর Possessive case (your) বসে।",
+    "source": [
+      "বিমান বাংলাদেশ এয়ারলাইল নিগ্রাউন্ড সার্ভিস অ্যাসিসটেন্ট : ২০১৮"
+    ]
+  },
+  {
+    "id": 21,
+    "topicsId": 410,
+    "q": "Which one is the reflexive pronoun ?",
+    "options": [
+      "who",
+      "himself",
+      "one",
+      "they"
+    ],
+    "ans": 1,
+    "explain": "Personal Pronoun-এর সাথে self/selves যুক্ত হয়ে যখন সেটি Object হিসেবে কাজ করে, তখন তাকে Reflexive Pronoun বলে।",
+    "source": [
+      "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের নার্সিং ও মিডওয়াইফ অধিদপ্তরের মিডওয়াইফ : ২০১৭"
+    ]
+  },
+  {
+    "id": 22,
+    "topicsId": 410,
+    "q": "Who, Which, What are-",
+    "options": [
+      "Demonstrative Pronoun",
+      "Relative Pronoun",
+      "Reflextive Pronoun",
+      "Indefinite Pronoun"
+    ],
+    "ans": 1,
+    "explain": "বিকল্পগুলোর মধ্যে এগুলো Relative Pronoun হিসেবে পরিচিত (প্রশ্ন করার কাজে ব্যবহৃত না হলে)।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ের সাইফার অফিসার-২০১৭"
+    ]
+  },
+  {
+    "id": 23,
+    "topicsId": 410,
+    "q": "Which one is reflexive pronoun ?",
+    "options": [
+      "he",
+      "each",
+      "myself",
+      "who"
+    ],
+    "ans": 2,
+    "explain": "'Myself' হলো Reflexive Pronoun; এটি Subject-এর কাজকে নিজের দিকে ফিরিয়ে আনে।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোঃ জুনিয়র পরিসংখ্যান সহকারী: ২০২০/প্রাথমিক শিক্ষা অধিদপ্তরে উচ্চমান সহকারি কাম হিসাবরক্ষক নিয়োগ-২০১৭/ ইসলামী বিশ্ববিদ্যালয় (G ইউনিট): ১৬-১৭"
+    ]
+  },
+  {
+    "id": 24,
+    "topicsId": 410,
+    "q": "I met a person----- I never saw earlier.",
+    "options": [
+      "whom",
+      "Who",
+      "that",
+      "which"
+    ],
+    "ans": 0,
+    "explain": "ব্যক্তিবাচক Noun (person)-এর অবজেক্টিভ হিসেবে Relative Pronoun 'whom' বসে।",
+    "source": [
+      "বাংলাদেশ জুট মিল করপোরেশনের অফিসার ২০১৭"
+    ]
+  },
+  {
+    "id": 25,
+    "topicsId": 410,
+    "q": "The horse fell and broke --- legs.",
+    "options": [
+      "it",
+      "het",
+      "its",
+      "His"
+    ],
+    "ans": 2,
+    "explain": "প্রাণীদের ক্ষেত্রে (বিশেষ করে লিঙ্গ নিশ্চিত না হলে) Possessive Adjective হিসেবে 'its' ব্যবহৃত হয়।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI) অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক : ২০১৭"
+    ]
+  },
+  {
+    "id": 26,
+    "topicsId": 410,
+    "q": "Let -- go there.",
+    "options": [
+      "her and you",
+      "she and you",
+      "you and she",
+      "you and her"
+    ],
+    "ans": 3,
+    "explain": "Let-এর পরে Pronoun-এর Objective form বসে এবং একাধিক পারসন থাকলে 2-3-1 (Second, Third, First person) নিয়ম অনুসরণ করা হয়। তাই 'you and her' সঠিক।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (E ইউনিট জোড়) :১৬-১৭"
+    ]
+  },
+  {
+    "id": 27,
+    "topicsId": 410,
+    "q": "'The doctor is a friend of mine'. Identify the parts of speech of ‘mine':",
+    "options": [
+      "noun",
+      "pronoun",
+      "verb",
+      "adjective"
+    ],
+    "ans": 1,
+    "explain": "'Mine' হলো একটি Possessive Pronoun যা 'my friends'-এর পরিবর্তে বসেছে।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (E ইউনিট জোড়) :১৬-১৭"
+    ]
+  },
+  {
+    "id": 28,
+    "topicsId": 410,
+    "q": "I cut myself, here 'myself is a/an –",
+    "options": [
+      "Pronoun",
+      "Adjective",
+      "Adverb",
+      "Reflexive pronoun"
+    ],
+    "ans": 3,
+    "explain": "যখন Subject-এর কাজ তার নিজের উপরই পড়ে, তখন self-যুক্ত শব্দটি Reflexive Pronoun হয়।",
+    "source": [
+      "NSI-এর সহকারী পরিচালক নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 29,
+    "topicsId": 410,
+    "q": "It is you who to blame.",
+    "options": [
+      "is",
+      "was",
+      "Are",
+      "Were"
+    ],
+    "ans": 2,
+    "explain": "Relative Pronoun (who)-এর পরবর্তী Verb তার Antecedent (you) অনুযায়ী বসে। You-এর সাথে 'are' ব্যবহৃত হয়।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন বিটিভির সহকারী প্রকৌশলী (সিভিল) ২০১৭ / NSI-এর সহকারী পরিচালক নিয়োগ পরীক্ষা-২০১৭/ বাংলাদেশ জুট মিল করপোরেশনের অফিসার : ২০১৭"
+    ]
+  },
+  {
+    "id": 30,
+    "topicsId": 410,
+    "q": "I have read the book ---you lent me.",
+    "options": [
+      "that",
+      "whom",
+      "whose",
+      "Who"
+    ],
+    "ans": 0,
+    "explain": "অপ্রাণিবাচক বস্তু (book)-এর জন্য Relative Pronoun হিসেবে 'that' সঠিক।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়ের সহকারী মেইনটেন্যান্স ইঞ্জিনিয়ার ২০১৭/ নন-ক্যাডার বাছাই পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 31,
+    "topicsId": 410,
+    "q": "This is the house - I want to buy.",
+    "options": [
+      "this",
+      "whom",
+      "which",
+      "those"
+    ],
+    "ans": 2,
+    "explain": "বস্তু বা স্থানের ক্ষেত্রে Relative Pronoun হিসেবে 'which' বা 'that' ব্যবহৃত হয়।",
+    "source": [
+      "গণপূর্ত অধিদপ্তরের হিসাব সহকারী : ২০১৬"
+    ]
+  },
+  {
+    "id": 32,
+    "topicsId": 410,
+    "q": "‘This is the book of which I told you'. Here the word 'which' is used as- -",
+    "options": [
+      "Relative pronoun",
+      "Distributive pronoun",
+      "Reciprocal pronoun",
+      "Reflexive pronoun"
+    ],
+    "ans": 0,
+    "explain": "'Which' এখানে দুটি ক্লজকে যুক্ত করছে এবং 'book' এর পরিবর্তে বসেছে, তাই এটি Relative Pronoun।",
+    "source": [
+      "খুলনা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ইঞ্জিনিয়ারিং) :১৬-১৭"
+    ]
+  },
+  {
+    "id": 33,
+    "topicsId": 410,
+    "q": "Neither of the two flowers have fragrance. Here'neither' is —",
+    "options": [
+      "pronoun",
+      "Adverb",
+      "adjective",
+      "conjunction"
+    ],
+    "ans": 0,
+    "explain": "'Neither' এখানে Distributive Pronoun হিসেবে ব্যবহৃত হয়েছে।",
+    "source": [
+      "বঙ্গবন্ধু শেখ মুজিবুর রহমান বিজ্ঞান ও প্রযুক্তি (B ইউনিট): ১৬-১৭"
+    ]
+  },
+  {
+    "id": 34,
+    "topicsId": 410,
+    "q": "Which of the following has an emphatic use of the reflexive pronoun ?",
+    "options": [
+      "She saw herself in the mirror",
+      "He did the work himself",
+      "I myself did the job",
+      "She cooked the meal herself"
+    ],
+    "ans": 2,
+    "explain": "যখন Reflexive Pronoun জোর দেওয়ার জন্য Subject-এর ঠিক পরেই বসে, তখন তাকে Emphatic Pronoun বলে। এখানে 'I myself' জোর প্রকাশ করছে।",
+    "source": [
+      "সাধারণ পুলের আওতায় বিভিন্ন মন্ত্রণালয়ের সহকারী প্রোগ্রামার, উপসহকারী প্রকৌশলী, প্রশাসনিক কর্মকর্তা ও ব্যক্তিগত কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 35,
+    "topicsId": 410,
+    "q": "Which one is Reflexive pronoun ?",
+    "options": [
+      "each",
+      "myself",
+      "who",
+      "he"
+    ],
+    "ans": 1,
+    "explain": "'Myself' একটি Reflexive Pronoun।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তরের পরিবার কল্যাণ পরিদর্শক (FWV) প্রশিক্ষণার্থী ২০১৫/প্রাক-প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা ২০১৫"
+    ]
+  },
+  {
+    "id": 36,
+    "topicsId": 410,
+    "q": "Fill in the gap with a suitable word: ___________ man is mortal is a universal truth.",
+    "options": [
+      "What",
+      "This",
+      "Which",
+      "That"
+    ],
+    "ans": 3,
+    "explain": "'That man is mortal' পুরো অংশটি এখানে একটি Noun Clause, যা শুরু হয়েছে 'That' দিয়ে।",
+    "source": [
+      "স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়ের সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 37,
+    "topicsId": 410,
+    "q": "None of those books belongs to me. (Which of the followings is an indefinite pronoun ?)",
+    "options": [
+      "those",
+      "none",
+      "Belong",
+      "me"
+    ],
+    "ans": 1,
+    "explain": "'None' শব্দটি অনির্দিষ্টতা বোঝায় বলে এটি Indefinite Pronoun।",
+    "source": [
+      "খুলনা বিশ্ববিদ্যালয় (SET B, Mana. & Bus):16-17"
+    ]
+  },
+  {
+    "id": 38,
+    "topicsId": 410,
+    "q": "I wash myself, when I get up in the morning. (Which of the followings is an emphatic pronoun ?)",
+    "options": [
+      "wash",
+      "myself",
+      "when",
+      "morining"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'myself' মূলত Reflexive হিসেবে ব্যবহৃত হলেও প্রশ্নের ক্যাটাগরি অনুযায়ী এটি একটি Pronoun (self-form)।",
+    "source": [
+      "খুলনা বিশ্ববিদ্যালয় (SET B, Mana. & Bus): ১৬-১৭"
+    ]
+  },
+  {
+    "id": 39,
+    "topicsId": 410,
+    "q": "The word ‘everything' is—",
+    "options": [
+      "a pronoun",
+      "a noun",
+      "an adjective",
+      "an adverb"
+    ],
+    "ans": 0,
+    "explain": "'Everything' একটি Indefinite Pronoun।",
+    "source": [
+      "মাওলানা ভাসানী বিজ্ঞান ও প্রযুক্তি (D ইউনিট): ১৬-১৭"
+    ]
+  },
+  {
+    "id": 40,
+    "topicsId": 410,
+    "q": "What is all this noise? The underlined word is a/an",
+    "options": [
+      "Adverb",
+      "Adjective",
+      "Noun",
+      "Pronoun"
+    ],
+    "ans": 3,
+    "explain": "'What' এখানে প্রশ্নবোধক সর্বনাম বা Interrogative Pronoun হিসেবে কাজ করছে।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের আনসার ভিডিপি অধিদপ্তরের সার্কেল অ্যাডজুটেন্ট ২০১৫"
+    ]
+  },
+  {
+    "id": 41,
+    "topicsId": 410,
+    "q": "কোনটি Pronoun ?",
+    "options": [
+      "They",
+      "Bad",
+      "Good",
+      "best"
+    ],
+    "ans": 0,
+    "explain": "'They' হলো Personal Pronoun; অন্যগুলো Adjective।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তর হিসাব রক্ষক/ গুদাম রক্ষক / কোষাধ্যক্ষ-২০১১"
+    ]
+  },
+  {
+    "id": 42,
+    "topicsId": 410,
+    "q": "Which of the following is demonstrative pronoun ?",
+    "options": [
+      "he",
+      "yourself",
+      "those",
+      "who"
+    ],
+    "ans": 2,
+    "explain": "Those হলো Demonstrative Pronoun।",
+    "source": [
+      "সহকারী পল্লী উন্নয়ন কর্মকর্তা-২০১২"
+    ]
+  },
+  {
+    "id": 43,
+    "topicsId": 410,
+    "q": "Who, which, what are—",
+    "options": [
+      "Demonstrative Pronoun",
+      "Reflexive Pronoun",
+      "Relative Pronoun",
+      "Indefinite Pronoun"
+    ],
+    "ans": 2,
+    "explain": "বিকল্পগুলোর মধ্যে এগুলো Relative Pronoun হিসেবে সর্বাধিক পরিচিত।",
+    "source": [
+      "12তম BCS"
+    ]
+  },
+  {
+    "id": 44,
+    "topicsId": 410,
+    "q": "'Who', 'what' and 'which' are pronouns.",
+    "options": [
+      "Demonstrative",
+      "Personal",
+      "Relative",
+      "Reflexive"
+    ],
+    "ans": 2,
+    "explain": "এগুলো Relative Pronoun-এর উদাহরণ।",
+    "source": [
+      "বহিরাগমন ও পাসপোর্ট অধিদপ্তরের সহকারী পরিচালক ২০১৪; বাংলাদেশ পল্লী উন্নয়ন বোর্ডের সহকারী পল্লী উন্নয়ন কর্মকর্তা ২০১৩: টেলিযোগাযোগ মন্ত্রণালয়ের সহকারী পরিচালক (আইন) - ২০১৩"
+    ]
+  },
+  {
+    "id": 45,
+    "topicsId": 410,
+    "q": "Which one is the relative pronoun ?",
+    "options": [
+      "He",
+      "You",
+      "His",
+      "Who"
+    ],
+    "ans": 3,
+    "explain": "'Who' এখানে Relative Pronoun।",
+    "source": [
+      "উচ্চ শিক্ষা অধিদপ্তরের প্রদর্শক : ২০১৩"
+    ]
+  },
+  {
+    "id": 46,
+    "topicsId": 410,
+    "q": "Who is the man that came to you? Here ‘that' is a/an-",
+    "options": [
+      "Indefinite pronoun",
+      "Demonstrative pronoun",
+      "Interrogative pronoun",
+      "Relative pronoun"
+    ],
+    "ans": 3,
+    "explain": "'That' এখানে 'man'-কে নির্দেশ করে দুটি বাক্যকে যুক্ত করেছে, তাই এটি Relative Pronoun।",
+    "source": [
+      "বিশেষ শিক্ষক নিবন্ধন পরীক্ষা (এবতেদায়ী প্রধান, জুনিয়র শিক্ষক ও ক্বারি) – 2010"
+    ]
+  },
+  {
+    "id": 47,
+    "topicsId": 410,
+    "q": "Tell me -- that.",
+    "options": [
+      "whom told you",
+      "that told you",
+      "who told you",
+      "told you"
+    ],
+    "ans": 2,
+    "explain": "ব্যক্তির ক্ষেত্রে Relative Pronoun 'who' বসে। সঠিক গঠন: Tell me who told you that.",
+    "source": [
+      "24th BCS"
+    ]
+  },
+  {
+    "id": 48,
+    "topicsId": 410,
+    "q": "The children studied in a class room windows were never opened.",
+    "options": [
+      "that",
+      "which",
+      "where",
+      "whose"
+    ],
+    "ans": 3,
+    "explain": "মালিকানা বা সম্বন্ধ বোঝাতে (ক্লাসরুমের জানালা) 'whose' ব্যবহৃত হয়।",
+    "source": [
+      "২২তম BCS"
+    ]
+  },
+  {
+    "id": 49,
+    "topicsId": 410,
+    "q": "My, our, her are-",
+    "options": [
+      "nominative case",
+      "dative case",
+      "objective case",
+      "possessive case"
+    ],
+    "ans": 3,
+    "explain": "এগুলো মালিকানা প্রকাশ করে, তাই এগুলো Possessive case (সঠিক উত্তর অপশন ৪ হওয়া উচিত, তবে প্রশ্নপত্রে ১ (dative) থাকলে সেটি ভুল হতে পারে; সাধারণত এগুলো Possessive)।",
+    "source": [
+      "উপজেলা পল্লী উন্নয়ন কর্মকর্তা : ১২"
+    ]
+  },
+  {
+    "id": 50,
+    "topicsId": 410,
+    "q": "Fill up the gap in the form of pronoun. My uncle has three sons --- work in the same office.",
+    "options": [
+      "all of them",
+      "who all",
+      "they all",
+      "all of whom"
+    ],
+    "ans": 3,
+    "explain": "অতিরিক্ত তথ্য দিতে 'all of whom' Relative Clause হিসেবে ব্যবহৃত হয়।",
+    "source": [
+      "উপজেলা মহিলা বিষয়ক কর্মকর্তা ২০০৫"
+    ]
+  },
+  {
+    "id": 51,
+    "topicsId": 410,
+    "q": "কোনটি reflexive pronoun ?",
+    "options": [
+      "He",
+      "Each",
+      "Myself",
+      "Who"
+    ],
+    "ans": 2,
+    "explain": "'Myself' হলো একটি Reflexive Pronoun।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক-০৮"
+    ]
+  },
+  {
+    "id": 52,
+    "topicsId": 410,
+    "q": "If you do this you will hurt yourself. What kind of pronoun is the word in the sentence ? Choose right one out following ?",
+    "options": [
+      "Reflexive pronoun",
+      "Demonstrative pronoun",
+      "Relative Pronoun",
+      "Distributive pronoun"
+    ],
+    "ans": 0,
+    "explain": "'Yourself' এখানে Reflexive Pronoun হিসেবে ব্যবহৃত হয়েছে।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক- ১৯"
+    ]
+  },
+  {
+    "id": 53,
+    "topicsId": 410,
+    "q": "This is my pen , that is yours . What kind of pronouns are 'this' and 'that' in the above sentence .",
+    "options": [
+      "Personal pronoun",
+      "Emphasizing pronoun",
+      "Possessive pronoun",
+      "Demonstrative pronoun"
+    ],
+    "ans": 3,
+    "explain": "This এবং That কোনো কিছুকে নির্দিষ্ট করে দেখাচ্ছে, তাই এগুলো Demonstrative Pronoun।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক- ১৯"
+    ]
+  },
+  {
+    "id": 54,
+    "topicsId": 410,
+    "q": "It is you ---- are to be blame.",
+    "options": [
+      "Who",
+      "Whom",
+      "Which",
+      "Whose"
+    ],
+    "ans": 0,
+    "explain": "ব্যক্তিবাচক Antecedent (you)-এর জন্য 'Who' ব্যবহৃত হয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক- ১৯"
+    ]
+  },
+  {
+    "id": 55,
+    "topicsId": 410,
+    "q": "This is the pen ---- I like.",
+    "options": [
+      "who",
+      "That",
+      "whom",
+      "whose"
+    ],
+    "ans": 1,
+    "explain": "পেন বা বস্তুর ক্ষেত্রে Relative Pronoun 'That' বসে।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক- ১৯"
+    ]
+  },
+  {
+    "id": 56,
+    "topicsId": 410,
+    "q": "I'll write down the phone number --- I forget.",
+    "options": [
+      "if",
+      "unless",
+      "even though",
+      "in case"
+    ],
+    "ans": 3,
+    "explain": "ভবিষ্যতে ঘটতে পারে এমন সতর্কতার জন্য 'in case' ব্যবহৃত হয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক- ১৯"
+    ]
+  },
+  {
+    "id": 57,
+    "topicsId": 410,
+    "q": "A word that takes the place of noun is called ---- ?",
+    "options": [
+      "subject",
+      "verb",
+      "object",
+      "pronoun"
+    ],
+    "ans": 3,
+    "explain": "Noun-এর পরিবর্তে বসা শব্দকে Pronoun বলে।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক- ১৯"
+    ]
+  },
+  {
+    "id": 58,
+    "topicsId": 410,
+    "q": "The children studied in a class room --- windows were never opened.",
+    "options": [
+      "that",
+      "which",
+      "where",
+      "whose"
+    ],
+    "ans": 3,
+    "explain": "অধিকার বা সম্বন্ধ বোঝাতে 'whose' (যার) ব্যবহৃত হয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক- ১৯"
+    ]
+  }
+]

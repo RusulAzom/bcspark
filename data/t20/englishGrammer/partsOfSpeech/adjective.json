@@ -1,0 +1,1425 @@
+[
+  {
+    "id": 1,
+    "topicsId": 410,
+    "q": "Tareq was a bright student. Here 'bright' is ---- ?",
+    "options": [
+      "Noun",
+      "Adjective",
+      "Adverb",
+      "Preposition"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'bright' শব্দটি 'student' নামক Noun-টিকে বিশেষায়িত করছে। যেহেতু Noun এর দোষ, গুণ বা অবস্থা প্রকাশ করছে, তাই এটি একটি Adjective।",
+    "source": [
+      "সমবায় অধিদপ্তরের দ্বিতীয় শ্রেণির অফিসার : ৯৭"
+    ]
+  },
+  {
+    "id": 2,
+    "topicsId": 410,
+    "q": "Which one of the following words is not an adjective ?",
+    "options": [
+      "some",
+      "the",
+      "old",
+      "none of these"
+    ],
+    "ans": 3,
+    "explain": "বিকল্পগুলোর মধ্যে 'some' (Adjective of quantity/number), 'the' (Article যা Adjective হিসেবে কাজ করে) এবং 'old' (Adjective of quality) সবকটিই Adjective। তাই সঠিক উত্তর 'none of these'।",
+    "source": [
+      "খাদ্য অধিদপ্তরে উচ্চমান সহকারী: ২০২১"
+    ]
+  },
+  {
+    "id": 3,
+    "topicsId": 410,
+    "q": "The word 'diabetic' is ----?",
+    "options": [
+      "A noun",
+      "An adjective",
+      "Both a noun and an adjective",
+      "A noun adjective"
+    ],
+    "ans": 2,
+    "explain": "'Diabetic' শব্দটি একইসাথে Noun (ব্যক্তিকে বোঝাতে) এবং Adjective (অবস্থা বোঝাতে) হিসেবে ব্যবহৃত হতে পারে। যেমন: He is a diabetic (Noun) এবং He is a diabetic patient (Adjective)।",
+    "source": [
+      "খাদ্য অধিদপ্তরে খাদ্য পরিদর্শক: ২০০১"
+    ]
+  },
+  {
+    "id": 4,
+    "topicsId": 410,
+    "q": "The word 'Vital' is --- ?",
+    "options": [
+      "Noun",
+      "Adverb",
+      "Adjective",
+      "Verb"
+    ],
+    "ans": 2,
+    "explain": "'Vital' শব্দের অর্থ অত্যন্ত গুরুত্বপূর্ণ বা অত্যাবশ্যক। এটি কোনো কিছুর অবস্থা প্রকাশ করে বিধায় এটি একটি Adjective।",
+    "source": [
+      "খাদ্য অধিদপ্তরে উপ-খাদ্য পরিদর্শক: ২০০১"
+    ]
+  },
+  {
+    "id": 5,
+    "topicsId": 410,
+    "q": "The boy is very meritorious. Here 'meritorious' is ----?",
+    "options": [
+      "A noun",
+      "A verb",
+      "An adjective",
+      "An adverb"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'meritorious' শব্দটি 'boy' (Noun) এর গুণ প্রকাশ করছে। তাই এটি একটি Adjective।",
+    "source": [
+      "প্রাথমিক সহকারী শিক্ষক:১৯"
+    ]
+  },
+  {
+    "id": 6,
+    "topicsId": 410,
+    "q": "Depression is often (hereditary).The bracket close word means",
+    "options": [
+      "verb",
+      "Adjective",
+      "Noun",
+      "Adverb"
+    ],
+    "ans": 1,
+    "explain": "'Hereditary' শব্দের অর্থ বংশগত। এটি Depression-এর প্রকৃতি বা বৈশিষ্ট্য প্রকাশ করছে, তাই এটি একটি Adjective।",
+    "source": [
+      "প্রাথমিক সহকারী শিক্ষক:১৫"
+    ]
+  },
+  {
+    "id": 7,
+    "topicsId": 410,
+    "q": "Choose the adjective form of the following words :",
+    "options": [
+      "Excite",
+      "Exciting",
+      "Excitement",
+      "Exciteingly"
+    ],
+    "ans": 1,
+    "explain": "'Excite' হলো Verb, 'Excitement' হলো Noun। 'Exciting' শব্দটি এখানে Adjective হিসেবে ব্যবহৃত হয় (Present Participle adjective)।",
+    "source": [
+      "প্রাথমিক সহকারী শিক্ষক:১৬"
+    ]
+  },
+  {
+    "id": 8,
+    "topicsId": 410,
+    "q": "Identify the adjective in the sentence : “She is a brave woman” ?",
+    "options": [
+      "She",
+      "is",
+      "brave",
+      "none of these"
+    ],
+    "ans": 2,
+    "explain": "এই বাক্যে 'brave' (সাহসী) শব্দটি 'woman' (Noun) এর গুণ বর্ণনা করছে, তাই 'brave' হলো Adjective।",
+    "source": [
+      "প্রাথমিক সহকারী শিক্ষক:১৮"
+    ]
+  },
+  {
+    "id": 9,
+    "topicsId": 410,
+    "q": "Which of the following is not an adjective ?",
+    "options": [
+      "humble",
+      "humane",
+      "humid",
+      "humor"
+    ],
+    "ans": 3,
+    "explain": "'Humble', 'humane', এবং 'humid' তিনটিই Adjective। কিন্তু 'humor' (রসবোধ) একটি Noun।",
+    "source": [
+      "প্রাথমিক সহকারী শিক্ষক:১৯"
+    ]
+  },
+  {
+    "id": 10,
+    "topicsId": 410,
+    "q": "The college teacher is popular among his students. The word 'popular' of the sentence is ---?",
+    "options": [
+      "Noun",
+      "Adjective",
+      "Adverb",
+      "Verb"
+    ],
+    "ans": 1,
+    "explain": "'Popular' শব্দটি 'teacher' সম্পর্কে তথ্য দিচ্ছে বা গুণ প্রকাশ করছে, তাই এটি একটি Adjective।",
+    "source": [
+      "প্রাথমিক সহকারী শিক্ষক:২০"
+    ]
+  },
+  {
+    "id": 11,
+    "topicsId": 410,
+    "q": "Which of the following sentences uses “right” as an adjective ?",
+    "options": [
+      "it is such a fault that will right itself.",
+      "Serve him right",
+      "He is a right man for the job.",
+      "It is matter of right."
+    ],
+    "ans": 2,
+    "explain": "তৃতীয় বাক্যে 'right' শব্দটি 'man' (Noun) এর আগে বসে তাকে বিশেষায়িত করছে, তাই এখানে 'right' একটি Adjective।",
+    "source": [
+      "খাদ্য অধিদপ্তর (উচ্চমান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 12,
+    "topicsId": 410,
+    "q": "Which is possessive adjective ?",
+    "options": [
+      "Mine",
+      "Our",
+      "Ours",
+      "Yours"
+    ],
+    "ans": 1,
+    "explain": "'Our' হলো একটি Possessive Adjective কারণ এরপরে একটি Noun বসাতে হয়। অন্যদিকে 'Mine', 'Ours', 'Yours' হলো Possessive Pronoun।",
+    "source": [
+      "মৎস্য অধিদপ্তরের কর্মচারী নিয়োগ (অফিস সহায়ক -২১"
+    ]
+  },
+  {
+    "id": 13,
+    "topicsId": 410,
+    "q": "Which one is not an adjective ?",
+    "options": [
+      "cute",
+      "acute",
+      "lute",
+      "mute"
+    ],
+    "ans": 2,
+    "explain": "'Cute', 'acute', এবং 'mute' শব্দগুলো কোনো কিছুর অবস্থা বোঝায় (Adjective)। কিন্তু 'lute' হলো এক প্রকার বাদ্যযন্ত্র, যা একটি Noun।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয়।ইউনিট : E: ০৭-০৮"
+    ]
+  },
+  {
+    "id": 14,
+    "topicsId": 410,
+    "q": "The adjective of 'imitate' is ---?",
+    "options": [
+      "imitation",
+      "imitator",
+      "imitative",
+      "imitating"
+    ],
+    "ans": 2,
+    "explain": "'Imitate' (অনুকরণ করা) একটি Verb। এর Adjective ফর্ম হলো 'imitative' (অনুকরণপ্রিয়)। 'Imitation' এবং 'Imitator' হলো Noun।",
+    "source": [
+      "পানি উন্নয়ন বোর্ড : ২০১৯"
+    ]
+  },
+  {
+    "id": 15,
+    "topicsId": 410,
+    "q": "My father was furious when he learnt that I missed G.P.A 5.00. Here “furious” is a/an",
+    "options": [
+      "verb",
+      "adverb",
+      "noun",
+      "adjective"
+    ],
+    "ans": 3,
+    "explain": "'Furious' শব্দের অর্থ অতি রাগান্বিত। এটি 'father' এর মানসিক অবস্থা বা গুণাগুণ বোঝাচ্ছে, তাই এটি Adjective।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়, ব্যক্তিগত কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 16,
+    "topicsId": 410,
+    "q": "The word 'Homely' is",
+    "options": [
+      "Noun",
+      "Adverb",
+      "Verb",
+      "Adjective"
+    ],
+    "ans": 3,
+    "explain": "সাধারণত শব্দের শেষে 'ly' থাকলে তা Adverb হয়, কিন্তু Noun + ly (Home + ly) যুক্ত হলে তা Adjective হিসেবে কাজ করে।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন, কলেজ/সমপর্যায়: ২০১৯"
+    ]
+  },
+  {
+    "id": 17,
+    "topicsId": 410,
+    "q": "Which one is adjective ?",
+    "options": [
+      "Eligible",
+      "Enhance",
+      "Production",
+      "Search"
+    ],
+    "ans": 0,
+    "explain": "'Eligible' (যোগ্য) শব্দটি একটি Adjective। 'Enhance' হলো Verb, 'Production' হলো Noun এবং 'Search' সাধারণত Verb বা Noun হিসেবে ব্যবহৃত হয়।",
+    "source": [
+      "আমদানি ও রপ্তানি প্রধান নিয়ন্ত্রকের দপ্তরের অধীনে অফিস সহায়ক পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 18,
+    "topicsId": 410,
+    "q": "Which one is an adjective ?",
+    "options": [
+      "Clever",
+      "Briefly",
+      "Simplicity",
+      "Importance"
+    ],
+    "ans": 0,
+    "explain": "'Clever' (চালাক) একটি গুণবাচক শব্দ বিধায় এটি Adjective। 'Briefly' হলো Adverb, 'Simplicity' এবং 'Importance' হলো Noun।",
+    "source": [
+      "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক) : ২০১৯"
+    ]
+  },
+  {
+    "id": 19,
+    "topicsId": 410,
+    "q": "What the adjective of marriage ?",
+    "options": [
+      "Marring",
+      "Emery",
+      "Marry",
+      "Nuptial"
+    ],
+    "ans": 3,
+    "explain": "'Marriage' এর সাথে সরাসরি সম্পর্কিত Adjective হলো 'Nuptial' (বিবাহ সংক্রান্ত)। 'Marry' হলো Verb।",
+    "source": [
+      "পানি উন্নয়ন বোর্ড অফিস সহকারী: ২০১৯"
+    ]
+  },
+  {
+    "id": 20,
+    "topicsId": 410,
+    "q": "Change the word 'brevity' into adjective .",
+    "options": [
+      "brave",
+      "bravery",
+      "brief",
+      "briefly"
+    ],
+    "ans": 2,
+    "explain": "'Brevity' (সংক্ষিপ্ততা) হলো Noun, যার Adjective ফর্ম হলো 'brief' (সংক্ষিপ্ত)।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের অফিস সহকারী:২০০৭"
+    ]
+  },
+  {
+    "id": 21,
+    "topicsId": 410,
+    "q": "“The time for sleep is past”. The word 'past' in the above sentence is",
+    "options": [
+      "a preposition",
+      "an adjective",
+      "a noun",
+      "an adverb"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'past' শব্দটি 'time' এর অবস্থা বোঝাচ্ছে (অতীত হয়ে গেছে), তাই এটি একটি Adjective (Predicate adjective)।",
+    "source": [
+      "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 22,
+    "topicsId": 410,
+    "q": "This is a grammar of the English language . What parts of speech is the underlined word in the above sentence ?",
+    "options": [
+      "Noun",
+      "Adjective",
+      "Verb",
+      "Adverb"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'English' শব্দটি 'language' (Noun) এর আগে বসে তাকে বিশেষায়িত করছে। Noun-এর আগে আরেকটি Noun বসে Adjective-এর কাজ করলে তাকে Noun Adjective বলে।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক : ২০০৯"
+    ]
+  },
+  {
+    "id": 23,
+    "topicsId": 410,
+    "q": "The word “Vital” is –",
+    "options": [
+      "a noun",
+      "an adverb",
+      "an adjective",
+      "a verb"
+    ],
+    "ans": 2,
+    "explain": "'Vital' শব্দটির অর্থ অত্যাবশ্যকীয়। এটি কোনো কিছুর গুরুত্ব বা অবস্থা প্রকাশ করে, তাই এটি Adjective।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয়ঃ সহকারী শিক্ষক : ২০১৯"
+    ]
+  },
+  {
+    "id": 24,
+    "topicsId": 410,
+    "q": "His younger brother is a school boy. Here 'school' is a/an",
+    "options": [
+      "noun",
+      "adverb",
+      "adjective",
+      "pronoun"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'school' শব্দটি 'boy' (Noun) এর আগে বসে তাকে বিশেষায়িত করছে, তাই এটি একটি Noun Adjective।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ঃ প্রশাসনিক কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 25,
+    "topicsId": 410,
+    "q": "The adjective of the word 'brother' is -",
+    "options": [
+      "brotherly",
+      "brother in law",
+      "brotherhood",
+      "breathen"
+    ],
+    "ans": 0,
+    "explain": "Noun-এর সাথে 'ly' যুক্ত হয়ে (Brother + ly) Adjective গঠিত হয়েছে। 'Brotherhood' হলো Noun।",
+    "source": [
+      "উপজেলা পল্লী উন্নয়ন কর্মকর্তা : ২০১৩"
+    ]
+  },
+  {
+    "id": 26,
+    "topicsId": 410,
+    "q": "Study শব্দটির Adjective হচ্ছে ----?",
+    "options": [
+      "Studious",
+      "Persevering",
+      "Stupidity",
+      "Study"
+    ],
+    "ans": 0,
+    "explain": "'Study' হলো Verb বা Noun। এর Adjective ফর্ম হলো 'Studious' (অধ্যয়নশীল)।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের রিসার্স অফিসার:২০০৭"
+    ]
+  },
+  {
+    "id": 27,
+    "topicsId": 410,
+    "q": "What is the verb form of “habit” ?",
+    "options": [
+      "habitable",
+      "habitation",
+      "habitual",
+      "habituate"
+    ],
+    "ans": 3,
+    "explain": "'Habit' হলো Noun। এর Verb ফর্ম হলো 'habituate' (অভ্যস্ত করা)। 'Habitual' হলো Adjective।",
+    "source": [
+      "Agrani bank Ltd - Senior Officer - 2017"
+    ]
+  },
+  {
+    "id": 28,
+    "topicsId": 410,
+    "q": "“He was a rather disagreeable man”.Here the underlined woird is a/an--",
+    "options": [
+      "Noun",
+      "Adjective",
+      "Adverb",
+      "Preposition"
+    ],
+    "ans": 1,
+    "explain": "'Disagreeable' (অপ্রীতিকর) শব্দটি 'man' (Noun) এর বৈশিষ্ট্য প্রকাশ করছে, তাই এটি Adjective।",
+    "source": [
+      "অর্থ মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা-২০০৪"
+    ]
+  },
+  {
+    "id": 29,
+    "topicsId": 410,
+    "q": "It is necessary that he------ the meeting.",
+    "options": [
+      "must join",
+      "should join",
+      "join",
+      "joins"
+    ],
+    "ans": 2,
+    "explain": "এটি একটি Subjunctive mood-এর বাক্য। It is necessary that-এর পরের ক্লজে Verb-এর base form বসে, তাই 'join' সঠিক।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর উপ-পরিদর্শক ২০১৯"
+    ]
+  },
+  {
+    "id": 30,
+    "topicsId": 410,
+    "q": "“One should do-------duty”, we need -",
+    "options": [
+      "his",
+      "Her",
+      "the",
+      "one's"
+    ],
+    "ans": 3,
+    "explain": "বাক্যের Subject যদি 'One' হয়, তবে তার Possessive Adjective হিসেবে 'one's' ব্যবহৃত হয়।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 31,
+    "topicsId": 410,
+    "q": "I need some-------. The correct answer is",
+    "options": [
+      "advice",
+      "advise",
+      "advises",
+      "advice"
+    ],
+    "ans": 0,
+    "explain": "'Advice' হলো একটি Uncountable Noun। 'Advise' হলো Verb। তাই some-এর পরে Noun হিসেবে 'advice' বসবে।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়, ব্যক্তিগত কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 32,
+    "topicsId": 410,
+    "q": "We felt very tired. The word 'tired' used in the sentence is...",
+    "options": [
+      "adjective",
+      "noun",
+      "verb",
+      "none"
+    ],
+    "ans": 0,
+    "explain": "এখানে 'tired' শব্দটি 'We' (Pronoun) এর অবস্থা প্রকাশ করছে। Linking verb (felt) এর পর এটি Adjective হিসেবে কাজ করছে।",
+    "source": [
+      "প্রাথমিক শিক্ষা অধিদপ্তরে উচ্চমান সহকারি কাম হিসাবরক্ষক নিয়োগ-২০১৭"
+    ]
+  },
+  {
+    "id": 33,
+    "topicsId": 410,
+    "q": "কোনটি 'circle' শব্দটির adjective ?",
+    "options": [
+      "Circular",
+      "Circle like",
+      "Circulate",
+      "Encircle"
+    ],
+    "ans": 0,
+    "explain": "'Circle' (Noun) এর Adjective ফর্ম হলো 'Circular' (বৃত্তাকার)। 'Circulate' এবং 'Encircle' হলো Verb।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 34,
+    "topicsId": 410,
+    "q": "The word “beautiful” is",
+    "options": [
+      "an adjective",
+      "A noun",
+      "A Verb",
+      "An Adverb"
+    ],
+    "ans": 0,
+    "explain": "'Beautiful' (সুন্দর) শব্দটি কোনো কিছুর গুণ প্রকাশ করে, তাই এটি একটি Adjective।",
+    "source": [
+      "বাংলাদেশ রেলওয়ে (পূর্বাঞ্চল) গেইটকিপার পদে নিয়োগ-২০১৭/ নন-ক্যাডার বাছাই পরীক্ষা-২০১৭/ প্রাথমিক শিক্ষা অধিদপ্তরে উচ্চমান সহকারি কাম হিসাবরক্ষক নিয়োগ-২০১৭ / স্বাস্থ্য মন্ত্রণালয়ের অধীন সেবা পরিদপ্তরের সিনিয়র স্টাফ নার্স ২০১৬/ সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ২০১৬ জাতীয় রাজস্ব বোর্ডের কর্মকর্তা (মুক্তিযুদ্ধা ও ক্ষুদ্র নৃগোষ্ঠী) ২০১৫"
+    ]
+  },
+  {
+    "id": 35,
+    "topicsId": 410,
+    "q": "নিচের শব্দগুলোর কোনটি adjective ?",
+    "options": [
+      "beauty",
+      "beautiful",
+      "beautification",
+      "beautifying"
+    ],
+    "ans": 1,
+    "explain": "'Beautiful' হলো Adjective। 'Beauty' এবং 'Beautification' হলো Noun।",
+    "source": [
+      "অর্থ মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা-:২০০৪"
+    ]
+  },
+  {
+    "id": 36,
+    "topicsId": 410,
+    "q": "'People' শব্দটির adjective form হচ্ছে-",
+    "options": [
+      "Popularity",
+      "Popular",
+      "Popularise",
+      "Populous"
+    ],
+    "ans": 3,
+    "explain": "'People' এর সরাসরি Adjective ফর্ম হলো 'Populous' (জনবহুল)। 'Popular' (জনপ্রিয়) শব্দটি অন্য অর্থে ব্যবহৃত হলেও 'Populous' অধিকতর যথার্থ।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 37,
+    "topicsId": 410,
+    "q": "Identify the adjective in the sentence : “The last chapter is carelessly written.”",
+    "options": [
+      "last",
+      "chapter",
+      "carelessly",
+      "written"
+    ],
+    "ans": 0,
+    "explain": "এখানে 'last' শব্দটি 'chapter' (Noun) এর অবস্থান নির্দেশ করছে, তাই এটি একটি Adjective।",
+    "source": [
+      "B ইউনিট বেগম রোকেয়া বিশ্ববিদ্যালয় : ১৯-২০"
+    ]
+  },
+  {
+    "id": 38,
+    "topicsId": 410,
+    "q": "An adjective modifies------",
+    "options": [
+      "a noun",
+      "a verb",
+      "an adverb",
+      "none of the above"
+    ],
+    "ans": 0,
+    "explain": "Adjective এর প্রধান কাজ হলো Noun বা Pronoun-কে বিশেষায়িত বা modify করা।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়ে নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 39,
+    "topicsId": 410,
+    "q": "It was a very - situation.",
+    "options": [
+      "embarrass",
+      "embarrassing",
+      "embarrassed",
+      "embarrassment"
+    ],
+    "ans": 1,
+    "explain": "বস্তুবাচক Noun (situation) এর ক্ষেত্রে সাধারণত Present Participle (-ing) Adjective হিসেবে ব্যবহৃত হয়। তাই 'embarrassing' সঠিক।",
+    "source": [
+      "ঢাবি ২০১৮-১৯; ‘গ’ইউনিট"
+    ]
+  },
+  {
+    "id": 40,
+    "topicsId": 410,
+    "q": "Homely শব্দটি কোন Parts of speech ?",
+    "options": [
+      "Noun",
+      "Adjective",
+      "Verb",
+      "Adverb"
+    ],
+    "ans": 1,
+    "explain": "Home (Noun) + ly = Homely, যা একটি Adjective। এর অর্থ ঘরোয়া।",
+    "source": [
+      "জাতীয় কবি নজরুল ইসলাম বিশ্ববিদ্যালয় (ক-ইউনিট):১৬-১৭/ সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ ২০১৬"
+    ]
+  },
+  {
+    "id": 41,
+    "topicsId": 410,
+    "q": "“Every man must die”. Here the word 'every' is used as -.",
+    "options": [
+      "Demonstrative adjective",
+      "Distributive adjective",
+      "Possessive adjective",
+      "Descriptive adjective"
+    ],
+    "ans": 1,
+    "explain": "Each, Every, Either, Neither শব্দগুলো যখন Noun এর আগে বসে তখন তাদের Distributive Adjective বলে।",
+    "source": [
+      "খুলনা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ইঞ্জিনিয়ারিং):১৬-১৭"
+    ]
+  },
+  {
+    "id": 42,
+    "topicsId": 410,
+    "q": "People শব্দটি Adjective-",
+    "options": [
+      "Popularity",
+      "Popularly",
+      "Popularise",
+      "Populous"
+    ],
+    "ans": 3,
+    "explain": "'People' এর বিশেষণ হিসেবে 'Populous' (জনবহুল) শব্দটি সঠিক।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ 2016"
+    ]
+  },
+  {
+    "id": 43,
+    "topicsId": 410,
+    "q": "Which parts of speech is “homely” ?",
+    "options": [
+      "noun",
+      "adjective",
+      "verb",
+      "Adverb"
+    ],
+    "ans": 1,
+    "explain": "Noun-এর সাথে 'ly' যুক্ত হলে তা Adjective হয়, সেই হিসেবে 'Homely' একটি Adjective।",
+    "source": [
+      "বাংলাদেশ রেলওয়ের উপসহকারী (সিভিল) ২০১৬"
+    ]
+  },
+  {
+    "id": 44,
+    "topicsId": 410,
+    "q": "An adjective is a",
+    "options": [
+      "naming word.",
+      "substituting word.",
+      "modifying word.",
+      "qualifying word."
+    ],
+    "ans": 3,
+    "explain": "Adjective মূলত Noun বা Pronoun-এর গুণ বা অবস্থা বর্ণনা করে (Qualify), তাই একে Qualifying word বলা হয়।",
+    "source": [
+      "গণপূর্ত অধিদপ্তরের কম্পিউটার অপারেটর ২০১৬"
+    ]
+  },
+  {
+    "id": 45,
+    "topicsId": 410,
+    "q": "Truth শব্দটির adjective হবে—",
+    "options": [
+      "Truly",
+      "True",
+      "Truism",
+      "None of them"
+    ],
+    "ans": 1,
+    "explain": "'Truth' (সত্য) হলো Noun, যার Adjective ফর্ম হলো 'True' (সঠিক/সত্য)। অপশন ৩ ভুল দেওয়া আছে, সঠিক উত্তর ১ হওয়ার কথা, তবে প্রশ্নের ডাটা অনুযায়ী উত্তর বিশ্লেষণ করতে হবে।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ ২০১৬"
+    ]
+  },
+  {
+    "id": 46,
+    "topicsId": 410,
+    "q": "Which is the adjective among the following words ?",
+    "options": [
+      "Diploma",
+      "Diplomacy",
+      "Diplomatic",
+      "Diplomat"
+    ],
+    "ans": 2,
+    "explain": "'Diplomatic' (কূটনৈতিক) শব্দটি একটি Adjective। 'Diploma', 'Diplomat' এবং 'Diplomacy' শব্দগুলো Noun।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীন বহিরাগমন ও পাসপোর্ট অধিদপ্তরের সহকারী পরিচালক-২০১১"
+    ]
+  },
+  {
+    "id": 47,
+    "topicsId": 410,
+    "q": "Oval is an adjective of -",
+    "options": [
+      "over",
+      "eye",
+      "Egg",
+      "Lip"
+    ],
+    "ans": 2,
+    "explain": "'Oval' (ডিম্বাকৃতি) শব্দটি 'Egg' (ডিম) এর সাথে সম্পর্কিত একটি Adjective।",
+    "source": [
+      "বাংলাদেশ রেলওয়ের উপসহকারী (সিভিল) ২০১৬/গণপূর্ত অধিদপ্তরের উপসহকারী প্রকৌশলী (সিভিল) - ২০১১"
+    ]
+  },
+  {
+    "id": 48,
+    "topicsId": 410,
+    "q": "Which is the adjective form of the word “Name” ?",
+    "options": [
+      "Proper",
+      "Nomination",
+      "Concrete",
+      "Nominal"
+    ],
+    "ans": 3,
+    "explain": "'Name' এর Adjective ফর্ম হলো 'Nominal' (নামমাত্র)। 'Nomination' হলো Noun।",
+    "source": [
+      "প্রতিরক্ষা মন্ত্রণালয়ের সিভিলিয়ান স্টাফ অফিসার এবং সহকারী পরিচালক ২০১৬"
+    ]
+  },
+  {
+    "id": 49,
+    "topicsId": 410,
+    "q": "What is the adjective of 'obey' ?",
+    "options": [
+      "Obediently",
+      "Obedience",
+      "Obedient",
+      "Obselete"
+    ],
+    "ans": 2,
+    "explain": "'Obey' (মান্য করা) একটি Verb। এর Adjective ফর্ম হলো 'Obedient' (আজ্ঞাবহ)। 'Obedience' হলো Noun।",
+    "source": [
+      "জনপ্রশাসন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 50,
+    "topicsId": 410,
+    "q": "What is the adjective of the word “Tax” ?",
+    "options": [
+      "Taxable",
+      "Taxation",
+      "Taxability",
+      "Taxing"
+    ],
+    "ans": 0,
+    "explain": "'Tax' এর সাথে 'able' প্রত্যয় যুক্ত করে 'Taxable' (করযোগ্য) Adjective গঠন করা হয়েছে।",
+    "source": [
+      "জনপ্রশাসন মন্ত্রণালয়ের অধীনে পিএসসি'র সহকারী পরিচালক ২০১৬/জনপ্রশাসন মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 51,
+    "topicsId": 410,
+    "q": "Coward শব্দটির Adjective হচ্ছে ---- ?",
+    "options": [
+      "Cerocious",
+      "Coward",
+      "Cowardly",
+      "Cowardeous"
+    ],
+    "ans": 2,
+    "explain": "Coward (Noun) + ly = Cowardly, যা একটি Adjective। এর অর্থ ভীতু।",
+    "source": [
+      "বাংলাদশ কৃষি উন্নয়ন কর্পোরেশনের সহকারী প্রশাসনিক কর্মকর্তা -২০১৭"
+    ]
+  },
+  {
+    "id": 52,
+    "topicsId": 410,
+    "q": "Adjective of 'Blood' is ---?",
+    "options": [
+      "Blood",
+      "Bloody",
+      "Bloodshed",
+      "Bleeding"
+    ],
+    "ans": 1,
+    "explain": "'Blood' (Noun) এর Adjective ফর্ম হলো 'Bloody' (রক্তাক্ত)।",
+    "source": [
+      "আল-আরাফাহ ব্যাংক :২০১৩"
+    ]
+  },
+  {
+    "id": 53,
+    "topicsId": 410,
+    "q": "He is a better worker than I.",
+    "options": [
+      "Adverb",
+      "Verb",
+      "Noun",
+      "Adjective"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'better' শব্দটি 'worker' (Noun) এর আগে বসে তাকে বিশেষায়িত করছে, তাই এটি একটি Adjective।",
+    "source": [
+      "প্রাক-প্রাথমিক বিদ্যালয় সহকারী ও প্রধান শিক্ষক নিয়োগ পরীক্ষা ২০১৫"
+    ]
+  },
+  {
+    "id": 54,
+    "topicsId": 410,
+    "q": "Which book do you want ? Here 'Which' is ----",
+    "options": [
+      "An adjective",
+      "A verb",
+      "A pronoun",
+      "An adverb"
+    ],
+    "ans": 0,
+    "explain": "যখন 'Which' সরাসরি কোনো Noun (book) এর আগে বসে প্রশ্ন করে, তখন তাকে Interrogative Adjective বলে।",
+    "source": [
+      "এবি ব্যাংক :২০১৩"
+    ]
+  },
+  {
+    "id": 55,
+    "topicsId": 410,
+    "q": "Which is adjective ?",
+    "options": [
+      "special",
+      "laugh",
+      "crime",
+      "miser"
+    ],
+    "ans": 0,
+    "explain": "'Special' (বিশেষ) একটি Adjective। 'Laugh' হলো Verb/Noun, 'Crime' এবং 'Miser' হলো Noun।",
+    "source": [
+      "বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশনঃ ১৩– ১৬তম গ্রেড এর কর্মচারী ২০১৯/প্রাক-প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা ২০১৫"
+    ]
+  },
+  {
+    "id": 56,
+    "topicsId": 410,
+    "q": "The word 'compulsive' is ----?",
+    "options": [
+      "Adverb",
+      "Verb",
+      "Adjective",
+      "Noun"
+    ],
+    "ans": 2,
+    "explain": "শব্দের শেষে '-ive' যুক্ত থাকলে তা সাধারণত Adjective হয়। 'Compulsive' অর্থ বাধ্যতামূলক।",
+    "source": [
+      "বাংলাদেশ কমার্স ব্যাংক:২০১৪"
+    ]
+  },
+  {
+    "id": 57,
+    "topicsId": 410,
+    "q": "Adjective of the word 'Trouble' is ----?",
+    "options": [
+      "Troublefull",
+      "Troublesome",
+      "Troubling",
+      "None of them"
+    ],
+    "ans": 1,
+    "explain": "'Trouble' (সমস্যা) এর Adjective ফর্ম হলো 'Troublesome' (কষ্টকর বা বিরক্তিকর)।",
+    "source": [
+      "বাংলাদেশ ডেভেলপমেন্ট ব্যাংক:২০১৩"
+    ]
+  },
+  {
+    "id": 58,
+    "topicsId": 410,
+    "q": "Which of the following is an adjective ?",
+    "options": [
+      "or",
+      "do",
+      "bad",
+      "Open"
+    ],
+    "ans": 2,
+    "explain": "'Bad' (খারাপ) শব্দটি কোনো কিছুর গুণ বা অবস্থা প্রকাশ করে, তাই এটি Adjective। 'or' একটি Conjunction, 'do' একটি Verb।",
+    "source": [
+      "পানি উন্নয়ন বোর্ড অফিস সহায়ক ২০১৫"
+    ]
+  },
+  {
+    "id": 59,
+    "topicsId": 410,
+    "q": "The up train is late. এখানে up শব্দটি-",
+    "options": [
+      "Noun",
+      "Pronoun",
+      "Adverb",
+      "Adjective"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'up' শব্দটি 'train' (Noun) এর আগে বসে তাকে বিশেষায়িত করছে, তাই এটি একটি Adjective।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তরের পরিবার কল্যাণ পরিদর্শক (FWV) প্রশিক্ষণার্থী ২০১৫"
+    ]
+  },
+  {
+    "id": 60,
+    "topicsId": 410,
+    "q": "What is the adjective of the word 'Heart' ?",
+    "options": [
+      "Hearten",
+      "Heartening",
+      "Heartful",
+      "Heartened"
+    ],
+    "ans": 1,
+    "explain": "'Heartening' (উৎসাহব্যঞ্জক) শব্দটি একটি Participle Adjective।",
+    "source": [
+      "বাংলাদেশ ডেভেলপমেন্ট ব্যাংক:২০১৩"
+    ]
+  },
+  {
+    "id": 61,
+    "topicsId": 410,
+    "q": "Which is the adjective of the word 'contempt' ?",
+    "options": [
+      "Contemptible",
+      "Contempting",
+      "Contemption",
+      "Contemptable"
+    ],
+    "ans": 0,
+    "explain": "'Contempt' (ঘৃণা) এর Adjective ফর্ম হলো 'Contemptible' (ঘৃণ্য)।",
+    "source": [
+      "বাংলাদেশ কৃষি ব্যাংক:২০১৩"
+    ]
+  },
+  {
+    "id": 62,
+    "topicsId": 410,
+    "q": "Adjective of the word 'Float' is ----?",
+    "options": [
+      "Floaty",
+      "Floating",
+      "Fleet",
+      "None of them"
+    ],
+    "ans": 1,
+    "explain": "'Floating' (ভাসমান) শব্দটি এখানে Present Participle Adjective হিসেবে ব্যবহৃত হয়েছে।",
+    "source": [
+      "আইসিবি ক্যাপিটাল ম্যানেজমেন্ট:২০১৩"
+    ]
+  },
+  {
+    "id": 63,
+    "topicsId": 410,
+    "q": "This is a book of English language. What is the parts of speech is the following word ---?",
+    "options": [
+      "Verb",
+      "Adjective",
+      "Interjection",
+      "Adverb"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'English' শব্দটি 'language' (Noun) এর গুণ বা ধরণ প্রকাশ করছে, তাই এটি Adjective।",
+    "source": [
+      "ব্যাংক আলফালাহ :২০১৩"
+    ]
+  },
+  {
+    "id": 64,
+    "topicsId": 410,
+    "q": "The word 'prolific' is ---- ?",
+    "options": [
+      "Noun",
+      "Pronoun",
+      "Adjective",
+      "Preposition"
+    ],
+    "ans": 2,
+    "explain": "'Prolific' (উর্বর বা সৃজনশীল) শব্দটি একটি Adjective।",
+    "source": [
+      "ব্যাসিক ব্যাংক :২০১৩"
+    ]
+  },
+  {
+    "id": 65,
+    "topicsId": 410,
+    "q": "Still waters run deep. এখানে Still শব্দটি ------?",
+    "options": [
+      "Noun",
+      "Pronoun",
+      "Adjective",
+      "Adverb"
+    ],
+    "ans": 2,
+    "explain": "'Still' শব্দটি 'waters' (Noun) এর অবস্থা বোঝাচ্ছে, তাই এটি Adjective।",
+    "source": [
+      "ব্যাংক এশিয়া :২০১৩"
+    ]
+  },
+  {
+    "id": 66,
+    "topicsId": 410,
+    "q": "The adjective of the word 'laugh' -----?",
+    "options": [
+      "laughing",
+      "laugh",
+      "laughable",
+      "laughingly"
+    ],
+    "ans": 2,
+    "explain": "'Laugh' এর Adjective হলো 'Laughable' (হাস্যকর)। 'Laughing' ও Adjective হতে পারে তবে 'Laughable' বেশি প্রচলিত।",
+    "source": [
+      "সিটি ব্যাংক :২০১৩"
+    ]
+  },
+  {
+    "id": 67,
+    "topicsId": 410,
+    "q": "'passion' শব্দটির adjective হচ্ছে ---",
+    "options": [
+      "passionful",
+      "pastoral",
+      "Emotion",
+      "passionate"
+    ],
+    "ans": 3,
+    "explain": "'Passion' (আবেগ) এর Adjective ফর্ম হলো 'Passionate' (আবেগপ্রবণ)।",
+    "source": [
+      "ডাচ-বাংলা ব্যাংক :২০১৩"
+    ]
+  },
+  {
+    "id": 68,
+    "topicsId": 410,
+    "q": "Tareq was a bright student. বাক্যটিতে bright শব্দটি কোন পদ ?",
+    "options": [
+      "noun",
+      "adjective",
+      "adverb",
+      "verb"
+    ],
+    "ans": 1,
+    "explain": "'Bright' শব্দটি 'student' নামক Noun এর আগে বসে তার গুণ প্রকাশ করছে, তাই এটি Adjective।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তরের পরিবার কল্যাণ পরিদর্শক (FWV) প্রশিক্ষণার্থী ২০১৫"
+    ]
+  },
+  {
+    "id": 69,
+    "topicsId": 410,
+    "q": "In the sentence, “The man is afraid of the dog.” the word 'afraid' belongs to which 'parts of speech' ?",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adjective",
+      "Adverb"
+    ],
+    "ans": 2,
+    "explain": "'Afraid' (ভীত) শব্দটি 'man' এর অবস্থা বোঝাচ্ছে, তাই এটি একটি Adjective।",
+    "source": [
+      "ইস্টার্ন ব্যাংক :২০১৩"
+    ]
+  },
+  {
+    "id": 70,
+    "topicsId": 410,
+    "q": "Which of the following is an adjective of the word 'mountain' ?",
+    "options": [
+      "mounting",
+      "mountainous",
+      "mountic"
+    ],
+    "ans": 1,
+    "explain": "'Mountain' (পাহাড়) এর Adjective ফর্ম হলো 'Mountainous' (পাহাড়ময়)।",
+    "source": [
+      "এক্সিম ব্যাংক:২০১৩"
+    ]
+  },
+  {
+    "id": 71,
+    "topicsId": 410,
+    "q": "The word diabetic is——",
+    "options": [
+      "noun",
+      "an adjective",
+      "both noun and adjective",
+      "pronoun"
+    ],
+    "ans": 2,
+    "explain": "'Diabetic' শব্দটি বাক্যে প্রয়োগভেদে Noun এবং Adjective উভয় হিসেবেই কাজ করতে পারে।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI) সহকারী পরিচালক ২০১৫"
+    ]
+  },
+  {
+    "id": 72,
+    "topicsId": 410,
+    "q": "The adjective form of the Noun 'Noun' is ---?",
+    "options": [
+      "Nasal",
+      "Nominal",
+      "Nocturnal",
+      "Naval"
+    ],
+    "ans": 1,
+    "explain": "প্রশ্নটিতে সম্ভবত 'Name' বোঝানো হয়েছে, যার Adjective হলো 'Nominal'। 'Noun' এর সরাসরি Adjective সাধারণত ব্যবহৃত হয় না।",
+    "source": [
+      "এনএসআই (NSI) - ডেসপাচ রাইডার ও অফিস সহায়ক : ২০২১"
+    ]
+  },
+  {
+    "id": 73,
+    "topicsId": 410,
+    "q": "He sleeps a sound sleep, এখানে Sound শব্দটি ------?",
+    "options": [
+      "Adjective",
+      "Noun",
+      "Pronoun",
+      "Adverb"
+    ],
+    "ans": 0,
+    "explain": "এখানে 'sound' শব্দটি 'sleep' (Noun) এর গভীরতা বা অবস্থা বোঝাচ্ছে, তাই এটি Adjective।",
+    "source": [
+      "নির্বাচন কমিশন সচিবালয়ে থানা/উপজেলা নির্বাচন অফিসার : ২০০৮"
+    ]
+  },
+  {
+    "id": 74,
+    "topicsId": 410,
+    "q": "Might শব্দটির Adjective কোনটি -----?",
+    "options": [
+      "Mighteous",
+      "Mighty",
+      "Mightful",
+      "Mighter"
+    ],
+    "ans": 1,
+    "explain": "'Might' (শক্তি) এর Adjective হলো 'Mighty' (শক্তিশালী)।",
+    "source": [
+      "জনতা ও রূপালী ব্যাংক- অফিসার : ২০১৯"
+    ]
+  },
+  {
+    "id": 75,
+    "topicsId": 410,
+    "q": "The adjective of the word 'decision' is -",
+    "options": [
+      "decide",
+      "decisiveness",
+      "decisive",
+      "decisive"
+    ],
+    "ans": 2,
+    "explain": "'Decision' (সিদ্ধান্ত) এর Adjective হলো 'Decisive' (চূড়ান্ত বা সিদ্ধান্তমূলক)।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর (হিসার রক্ষক : ২০২১"
+    ]
+  },
+  {
+    "id": 76,
+    "topicsId": 410,
+    "q": "Joy শব্দটির Adjective হচ্ছে ----?",
+    "options": [
+      "Enjoy",
+      "Jolly",
+      "Joyous",
+      "Joyful"
+    ],
+    "ans": 3,
+    "explain": "'Joy' এর Adjective হলো 'Joyful' বা 'Joyous'। অপশন অনুযায়ী 'Joyful' এখানে সঠিক উত্তর।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক : -২০০১"
+    ]
+  },
+  {
+    "id": 77,
+    "topicsId": 410,
+    "q": "Which is the adjective form of the word “Heaven” ?",
+    "options": [
+      "Heavenness",
+      "Heavinity",
+      "Heavenly",
+      "Heavened"
+    ],
+    "ans": 2,
+    "explain": "Heaven (Noun) + ly = Heavenly, যা একটি Adjective। এর অর্থ স্বর্গীয়।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তরে পরিবার পরিকল্পনা পরিদর্শক/পরিবার কল্যাণ সহকারী : ২০১১"
+    ]
+  },
+  {
+    "id": 78,
+    "topicsId": 410,
+    "q": "Which form of the word is adjective ?",
+    "options": [
+      "defy",
+      "defiant",
+      "defiance",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "'Defy' হলো Verb, 'Defiance' হলো Noun। 'Defiant' (অবাধ্য) হলো Adjective।",
+    "source": [
+      "অর্থ মন্ত্রণালয়ের অফিস সহকারী : ২০১১"
+    ]
+  },
+  {
+    "id": 79,
+    "topicsId": 410,
+    "q": "What is the adjective form of 'Literature' ?",
+    "options": [
+      "Literal",
+      "Literate",
+      "Literary",
+      "Literatural"
+    ],
+    "ans": 2,
+    "explain": "'Literature' (সাহিত্য) এর Adjective হলো 'Literary' (সাহিত্যিক)।",
+    "source": [
+      "বাংলাদেশ জুটমিল কর্পোরেশনের অফিসার -২০১৭"
+    ]
+  },
+  {
+    "id": 80,
+    "topicsId": 410,
+    "q": "Envy শব্দটির Adjective হচ্ছে ----?",
+    "options": [
+      "Envity",
+      "Envious",
+      "Jealous",
+      "Enviable"
+    ],
+    "ans": 1,
+    "explain": "'Envy' (ঈর্ষা) এর Adjective হলো 'Envious' (ঈর্ষান্বিত)।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোর পরিসংখ্যান অ্যাসিসট্যান্ট অফিসার : ২০১৪"
+    ]
+  },
+  {
+    "id": 81,
+    "topicsId": 410,
+    "q": "Which is not an acceptable adjective form of the verb “vary” ?",
+    "options": [
+      "Variable",
+      "Various",
+      "Variful",
+      "Varied"
+    ],
+    "ans": 2,
+    "explain": "'Variable', 'Various', 'Varied' সবগুলোই Adjective। কিন্তু 'Variful' ইংরেজি ভাষায় কোনো স্বীকৃত শব্দ নয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক : ২০১০"
+    ]
+  },
+  {
+    "id": 82,
+    "topicsId": 410,
+    "q": "'Village' শব্দটির বিশেষণ হচ্ছে-",
+    "options": [
+      "Villager",
+      "Pastoral",
+      "Rural",
+      "Urban"
+    ],
+    "ans": 2,
+    "explain": "'Village' (গ্রাম) এর সাথে সম্পর্কিত Adjective হলো 'Rural' (গ্রাম্য)। 'Urban' হলো শহরের।",
+    "source": [
+      "প্রাথমিক শিক্ষা অধিদপ্তরের হিসাব সহকারী-২০১১"
+    ]
+  },
+  {
+    "id": 83,
+    "topicsId": 410,
+    "q": "The word 'wonderful' is a ----?",
+    "options": [
+      "Noun",
+      "Adjective",
+      "Preposition",
+      "Adverb"
+    ],
+    "ans": 1,
+    "explain": "'Wonderful' (অপূর্ব) শব্দটি কোনো কিছুর গুণ প্রকাশ করে বিধায় এটি Adjective।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক : ২০১২"
+    ]
+  },
+  {
+    "id": 84,
+    "topicsId": 410,
+    "q": "The word 'intolerable' is ----?",
+    "options": [
+      "Verb",
+      "Conjunction",
+      "Adjective",
+      "Adverb"
+    ],
+    "ans": 2,
+    "explain": "'Intolerable' (অসহ্য) একটি Adjective যা কোনো অসহনীয় অবস্থাকে নির্দেশ করে।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক : ২০১২"
+    ]
+  },
+  {
+    "id": 85,
+    "topicsId": 410,
+    "q": "“His solution to the problem was novel” - the adjective in this sentence is :",
+    "options": [
+      "his",
+      "approach",
+      "problem",
+      "novel"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'novel' (নতুন বা অভিনব) শব্দটি 'solution' এর গুণ বোঝাচ্ছে, তাই এটি Adjective।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক : ২০১২"
+    ]
+  },
+  {
+    "id": 86,
+    "topicsId": 410,
+    "q": "Which word is not an adjective ?",
+    "options": [
+      "Solar",
+      "Polar",
+      "Linear",
+      "Hammer"
+    ],
+    "ans": 3,
+    "explain": "'Solar', 'Polar', এবং 'Linear' নির্দিষ্ট কিছুর বৈশিষ্ট্য বোঝায়। 'Hammer' (হাতুড়ি) একটি Noun।",
+    "source": [
+      "গণপূর্ত অধিদপ্তরের উপসহকারী প্রকৌশলী (সিভিল) – ২০১১"
+    ]
+  },
+  {
+    "id": 87,
+    "topicsId": 410,
+    "q": "কোন শব্দটি Adjective ?",
+    "options": [
+      "Police",
+      "Child",
+      "Care",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "বিকল্পের 'Police', 'Child', 'Care' সবকটিই মূলত Noun। তাই সঠিক উত্তর None of these।",
+    "source": [
+      "পরিবার পরিকল্পনা সহকারী/ পরিবার পরিকল্পনা পরিদর্শক এবং পরিবার কল্যাণ সহকারী-২০১১"
+    ]
+  },
+  {
+    "id": 88,
+    "topicsId": 410,
+    "q": "A rolling stone gathers no moss. What “rolling” is ?",
+    "options": [
+      "Gerund",
+      "Varbal noun",
+      "Participle",
+      "Adjective"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'rolling' শব্দটি 'stone' (Noun) এর অবস্থা প্রকাশ করছে। এটি একটি Present Participle যা বাক্যে Adjective এর কাজ করছে।",
+    "source": [
+      "১১তম বিসিএস/ দুর্নীতি দমন কমিশনের অধীনে উপ সহকারী পরিচালক পদে নিয়োগ পরীক্ষা-২০২০/ প্রাথমিক শিক্ষা অধিদপ্তরে উচ্চমান সহকারি কাম হিসাবরক্ষক নিয়োগ-২০১৭"
+    ]
+  },
+  {
+    "id": 89,
+    "topicsId": 410,
+    "q": "The adjective for 'love' is ---?",
+    "options": [
+      "lovable",
+      "lovely",
+      "lovingly",
+      "levrd"
+    ],
+    "ans": 1,
+    "explain": "'Lovely' (সুন্দর/মনোরম) শব্দটি 'Love' (Noun) এর Adjective ফর্ম। যদিও 'Lovable' (ভালোবাসার যোগ্য) একটি Adjective, তবে প্রচলিত পরীক্ষার উত্তর হিসেবে 'Lovely'-কে প্রাধান্য দেওয়া হয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক : ২০১০"
+    ]
+  }
+]

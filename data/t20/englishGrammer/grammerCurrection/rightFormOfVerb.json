@@ -1,0 +1,6152 @@
+[
+  {
+    "id": 1,
+    "topicsId": 440,
+    "q": "He has been ill------ Monday last.",
+    "options": [
+      "from",
+      "for",
+      "since",
+      "none"
+    ],
+    "ans": 2,
+    "explain": "অতীতের কোনো নির্দিষ্ট সময় (Point of time) থেকে বর্তমান পর্যন্ত কোনো কাজ চলছে বোঝালে Present Perfect Continuous Tense হয় এবং সময়ের আগে 'since' বসে। এখানে 'Monday last' একটি নির্দিষ্ট সময়, তাই 'since' সঠিক।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রন অধিদপ্তরে ওয়ারলেস অপারেটর-২০২১"
+    ]
+  },
+  {
+    "id": 2,
+    "topicsId": 440,
+    "q": "Choose the proper tense: Raj and his family--- here since March 2010.",
+    "options": [
+      "is living",
+      "lives",
+      "have been living",
+      "has lived"
+    ],
+    "ans": 2,
+    "explain": "বাক্যে 'since + সময়' উল্লেখ থাকলে সাধারণত Present Perfect Continuous Tense হয়। যেহেতু সাবজেক্ট 'Raj and his family' (Plural), তাই সাহায্যকারী ভার্ব হিসেবে 'have been living' বসবে।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের অধীনে ল্যাবরেটরি এটেনডেন্ট পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 3,
+    "topicsId": 440,
+    "q": "Find out the correct sentence:",
+    "options": [
+      "She is sleeping since six hours.",
+      "She has been sleeping since six hours.",
+      "She has been sleeping for six hours.",
+      "She is sleeping for six hours."
+    ],
+    "ans": 2,
+    "explain": "সময়ের ব্যাপ্তি বা দৈর্ঘ্য (Period of time) বোঝালে 'for' বসে এবং নির্দিষ্ট সময় (Point of time) বোঝালে 'since' বসে। 'six hours' একটি সময়ের ব্যাপ্তি, তাই 'for six hours' সহ Present Perfect Continuous Tense-এর গঠন অনুযায়ী ৩ নম্বর অপশনটি সঠিক।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়, ব্যক্তিগত কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 4,
+    "topicsId": 440,
+    "q": "What you (to do) last night ?",
+    "options": [
+      "you did",
+      "did you do",
+      "had you done",
+      "did you"
+    ],
+    "ans": 1,
+    "explain": "বাক্যে 'last night' উল্লেখ থাকলে তা Past Indefinite Tense হয়। ইন্টারোগেটিভ সেন্টেন্স তৈরির জন্য সাহায্যকারী ভার্ব 'did' সামনে আসে এবং মূল ভার্বের প্রেজেন্ট ফর্ম বসে। গঠন: What + did + subject + verb (present)?",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোঃ জুনিয়র পরিসংখ্যান সহকারী: ২০২০"
+    ]
+  },
+  {
+    "id": 5,
+    "topicsId": 440,
+    "q": "I-----to his house yesterday but could not meet him.",
+    "options": [
+      "went",
+      "would go",
+      "have gone",
+      "was gone"
+    ],
+    "ans": 0,
+    "explain": "বাক্যে 'yesterday' থাকলে সেটি Past Indefinite Tense হয়। তাই 'go' ভার্বের পাস্ট ফর্ম 'went' বসবে।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ মেইল অপারেটর/ স্টেনো টাইপিস্ট কাম কম্পিউটার অপারেটর/ নিম্নমান সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক ২০১৯"
+    ]
+  },
+  {
+    "id": 6,
+    "topicsId": 440,
+    "q": "Which one is the correct sentence ?",
+    "options": [
+      "He has come last night",
+      "He had come last night",
+      "He had been coming last night",
+      "He came last night"
+    ],
+    "ans": 3,
+    "explain": "অতীত নির্দেশক শব্দ 'last night' থাকলে বাক্যটি Past Indefinite Tense-এ লিখতে হয়। তাই 'He came last night' সঠিক।",
+    "source": [
+      "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক) ২০১৯"
+    ]
+  },
+  {
+    "id": 7,
+    "topicsId": 440,
+    "q": "Choose the correct sentence –",
+    "options": [
+      "It rained last night",
+      "It rains last night",
+      "It will rain last night",
+      "It rain last night"
+    ],
+    "ans": 0,
+    "explain": "অতীতের নির্দিষ্ট সময় 'last night' উল্লেখ থাকায় এটি Past Indefinite Tense। ভার্বের পাস্ট ফর্ম 'rained' ব্যবহৃত হয়েছে।",
+    "source": [
+      "১৫তম শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (ভুল/সমপর্যায়) ২০১৯"
+    ]
+  },
+  {
+    "id": 8,
+    "topicsId": 440,
+    "q": "Which one is correct ?",
+    "options": [
+      "The old man was died yesterday",
+      "The old man has died yesterday",
+      "The old man died yesterday",
+      "The old man had died yesterday"
+    ],
+    "ans": 2,
+    "explain": "বাক্যে 'yesterday' থাকলে Past Indefinite Tense হয়। 'die' একটি intransitive verb, যা সাধারণত প্যাসিভ ভয়েস হয় না। তাই 'died' সঠিক।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয়ঃ সহকারী শিক্ষক ২০১৯/ডাক ও টেলিযোগাযোগ বিভাগের অধীন ডাক অধিদপ্তরের বিল্ডিং ওভারশিয়ার ২০১৮/ প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের অধীন জনশক্তি, কর্মসংস্থান ও প্রশিক্ষণ ব্যুরোর ইন্সট্রাক্টর (ইলেকট্রিক্যাল, কম্পিউটার, সিভিল ও ইলেক্ট্রনিক্স) টিটিসি ২০১৮/ বিভিন্ন মন্ত্রণালয়ের সহকারী মেইনটেন্যান্স ইঞ্জিনিয়ার ২০১৭"
+    ]
+  },
+  {
+    "id": 9,
+    "topicsId": 440,
+    "q": "Select the correct sentence:",
+    "options": [
+      "He has come home yesterday",
+      "He came home yesterday",
+      "He had come home yesterday",
+      "He would come home yesterday"
+    ],
+    "ans": 1,
+    "explain": "অতীত নির্দেশক শব্দ 'yesterday' থাকলে Present Perfect Tense (has come) না হয়ে Past Indefinite Tense (came) হয়।",
+    "source": [
+      "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের অধীন বিআরটিএ'র মোটরযান পরিদর্শক ২০১৭"
+    ]
+  },
+  {
+    "id": 10,
+    "topicsId": 440,
+    "q": "Choose the correct sentence:",
+    "options": [
+      "My sister yesterday visited me.",
+      "My sister has visited me yesterday.",
+      "My sister visited me yesterday.",
+      "My sister had visited me yesterday."
+    ],
+    "ans": 2,
+    "explain": "Past Indefinite Tense-এর গঠন অনুযায়ী 'yesterday' বাক্যের শেষে বা শুরুতে বসে এবং ভার্বের পাস্ট ফর্ম ব্যবহৃত হয়।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়েল অধীনে সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 11,
+    "topicsId": 440,
+    "q": "If I---a king!",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "shall be"
+    ],
+    "ans": 2,
+    "explain": "অসম্ভব ইচ্ছা বা কল্পনা বোঝালে 'If' যুক্ত ক্লজে Subject যাই হোক না কেন, Be verb হিসেবে 'were' বসে (Subjunctive Mood)।",
+    "source": [
+      "৩৪তম বিসিএস"
+    ]
+  },
+  {
+    "id": 12,
+    "topicsId": 440,
+    "q": "He walks as if he –",
+    "options": [
+      "was",
+      "has",
+      "were",
+      "have"
+    ],
+    "ans": 2,
+    "explain": "as if/as though-এর প্রথম অংশ Present Indefinite হলে পরের অংশে অবাস্তব কল্পনা বোঝাতে 'were' বসে।",
+    "source": [
+      "বাণিজ্য মন্ত্রণালয়ের অধীন বাংলাদেশ ট্যারিফ কমিশনের গবেষণা কর্মকর্তা ২০১৮/ মিডওয়াইফ নিয়োগ পরীক্ষা-২০১৭/ জাতীয় রাজস্ব বোর্ডের কর্মকর্তা (মুক্তিযুদ্ধা ও ক্ষুদ্র নৃগোষ্ঠী) ২০১৫"
+    ]
+  },
+  {
+    "id": 13,
+    "topicsId": 440,
+    "q": "He talks as if he — everything.",
+    "options": [
+      "had known",
+      "knows",
+      "is knowing",
+      "knew"
+    ],
+    "ans": 3,
+    "explain": "as if-এর আগের অংশ Present Indefinite Tense হওয়ায় পরের অংশটি Past Indefinite Tense হবে। 'know' এর পাস্ট ফর্ম 'knew'।",
+    "source": [
+      "গৃহায়ন ও গণপূর্ত মন্ত্রণালয়-এর গণপূর্ত অধিদপ্তরের উপ-সহকারী প্রকৌশলী ও ড্রাফটসম্যান/সিভিল ২০১৮/ NSI-এর সহকারী পরিচালক নিয়োগ পরীক্ষা-২০১৭/ ১২তম শিক্ষক নিবন্ধন পরীক্ষা (স্কুল/সমপর্যায় ২) ২০১৫"
+    ]
+  },
+  {
+    "id": 14,
+    "topicsId": 440,
+    "q": "He speaks as if he---a mad.",
+    "options": [
+      "were",
+      "is",
+      "has been",
+      "had been"
+    ],
+    "ans": 0,
+    "explain": "অবাস্তব অবস্থা বা কল্পনা বোঝাতে as if-এর পরে subject-এর সাথে 'were' ব্যবহৃত হয়।",
+    "source": [
+      "১২তম বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (স্কুল/সমপর্যায়) ২০১৫/ সেকেন্ডারি - এডুকেশন সেক্টর ডেভেলপমেন্ট প্রোগ্রাম থানা মাধ্যমিক শিক্ষা কর্মকর্তা ২০১৫"
+    ]
+  },
+  {
+    "id": 15,
+    "topicsId": 440,
+    "q": "If I --- a bird, I would fly. শূন্যস্থানে কোন শব্দটি বসবে ?",
+    "options": [
+      "am",
+      "is",
+      "was",
+      "were"
+    ],
+    "ans": 3,
+    "explain": "এটি Second Conditional বাক্য। কাল্পনিক শর্তে 'If' ক্লজে be verb হিসেবে 'were' বসে।",
+    "source": [
+      "কন্ট্রোলার জেনারেল ডিফেন্স-এর কার্যালয়ের অধীন অডিউটর ২০১৪"
+    ]
+  },
+  {
+    "id": 16,
+    "topicsId": 440,
+    "q": "No animal is so big –– the blue whale.",
+    "options": [
+      "than",
+      "from",
+      "but",
+      "as"
+    ],
+    "ans": 3,
+    "explain": "Positive Degree-তে তুলনায় 'so...as' বা 'as...as' ব্যবহৃত হয়। এখানে 'so big as' সঠিক কাঠামো।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ (মেট্রোপলিটন সার্কেল) পরিদর্শক ২০১৬"
+    ]
+  },
+  {
+    "id": 17,
+    "topicsId": 440,
+    "q": "The boy was so dirty that he looked as if he - in the mud.",
+    "options": [
+      "is lying",
+      "has lain",
+      "has been lying",
+      "had been lying"
+    ],
+    "ans": 3,
+    "explain": "as if-এর প্রথম অংশ Past Indefinite (looked) হলে পরের অংশটি Past Perfect Tense হয়। যেহেতু সে কাদায় শুয়ে ছিল বোঝাচ্ছে, তাই Past Perfect Continuous (had been lying) বেশি উপযুক্ত।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা গ ইউনিটঃ ০৭-০৮"
+    ]
+  },
+  {
+    "id": 18,
+    "topicsId": 440,
+    "q": "She spoke as though she (know) all.",
+    "options": [
+      "had know",
+      "had known",
+      "know",
+      "knows"
+    ],
+    "ans": 1,
+    "explain": "as though-এর প্রথম অংশ Past Indefinite (spoke) হলে পরের অংশটি Past Perfect Tense (had + V3) হয়। তাই 'had known' সঠিক।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ঃ প্রশাসনিক কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 19,
+    "topicsId": 440,
+    "q": "Jamal walks as if he-----lame.",
+    "options": [
+      "is",
+      "were",
+      "has been",
+      "was"
+    ],
+    "ans": 1,
+    "explain": "Present Indefinite + as if + Past Indefinite (Subjunctive were)। জামাল এমনভাবে হাঁটে যেন সে ল্যাংড়া (আসলে ল্যাংড়া নয়)।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন স্কুল পর্যায় -২: ২০১৯"
+    ]
+  },
+  {
+    "id": 20,
+    "topicsId": 440,
+    "q": "I reached the bus stand after the bus-",
+    "options": [
+      "left",
+      "has left",
+      "had left",
+      "had been left"
+    ],
+    "ans": 2,
+    "explain": "অতীতের দুটি কাজের মধ্যে 'after'-এর পরের কাজটি Past Perfect Tense হয় এবং আগের কাজটি Past Indefinite হয়। তাই 'had left' সঠিক।",
+    "source": [
+      "বাংলাদেশ সেতু কর্তৃপক্ষ (ইইঅ) এস্টিমেটর/ সাব এসিস্ট্যান্ট ইঞ্জিনিয়ার (সিভিল) – ২০২০"
+    ]
+  },
+  {
+    "id": 21,
+    "topicsId": 440,
+    "q": "Choose the right tense: My father--------before I came.",
+    "options": [
+      "would be",
+      "had been leaving",
+      "had left",
+      "will leave"
+    ],
+    "ans": 2,
+    "explain": "অতীতের দুটি কাজের মধ্যে 'before'-এর আগের কাজটি Past Perfect Tense হয়। গঠন: Past Perfect + before + Past Indefinite।",
+    "source": [
+      "বিসিএস প্রশাসন একাডেমির নিয়োগ পরীক্ষা (অফিস সহায়ক) -২১"
+    ]
+  },
+  {
+    "id": 22,
+    "topicsId": 440,
+    "q": "I----breakfast before I started for office.",
+    "options": [
+      "had had",
+      "had",
+      "would have",
+      "would have taken"
+    ],
+    "ans": 0,
+    "explain": "এখানে 'before'-এর আগের অংশ Past Perfect হবে। Past Perfect-এর গঠন অনুযায়ী auxiliary 'had' এবং মূল ভার্ব 'have' (খাওয়া অর্থে) এর V3 'had' মিলে 'had had' হয়েছে।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (ডাটা এন্ট্রি অপারেটর)-২১"
+    ]
+  },
+  {
+    "id": 23,
+    "topicsId": 440,
+    "q": "He had written the book before he-----",
+    "options": [
+      "Had retired",
+      "Has retired",
+      "Will be retired",
+      "Retired"
+    ],
+    "ans": 3,
+    "explain": "Past Perfect + before + Past Indefinite নিয়ম অনুযায়ী শুন্যস্থানে Past Indefinite (Retired) বসবে।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 24,
+    "topicsId": 440,
+    "q": "He had written the book before he---",
+    "options": [
+      "retired",
+      "had retired",
+      "has retired",
+      "will be retired"
+    ],
+    "ans": 0,
+    "explain": "একই নিয়ম: before-এর পরের অংশ Past Indefinite Tense হয়। তাই 'retired' সঠিক।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তরের নিয়োগ-২০২১"
+    ]
+  },
+  {
+    "id": 25,
+    "topicsId": 440,
+    "q": "The train left after I ..... the station.",
+    "options": [
+      "reached",
+      "had reached",
+      "reach",
+      "was reached"
+    ],
+    "ans": 1,
+    "explain": "অতীতের দুটি কাজের মধ্যে যেটি আগে ঘটে সেটি Past Perfect হয়। 'after'-এর পরের অংশ সাধারণত Past Perfect হয়। আমি স্টেশনে পৌঁছানোর পর ট্রেন ছাড়ল—তাই 'had reached' সঠিক।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (উচ্চমান সহকারী/ উচ্চমান সহকারী (বেঞ্চ সহকারী)/ড্রাফটসম্যান)-২১"
+    ]
+  },
+  {
+    "id": 26,
+    "topicsId": 440,
+    "q": "They arrived here after you ....",
+    "options": [
+      "had left",
+      "left",
+      "will leave",
+      "leave"
+    ],
+    "ans": 0,
+    "explain": "অতীতের ঘটনায় 'after'-এর পর Past Perfect Tense ব্যবহৃত হয়। নিয়ম: Past Indefinite + after + Past Perfect।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর, বিভিন্ন পদ (কর্মচারী)-২১/কারিগরি শিক্ষা অধিদপ্তর (হিসাব সহকারী/ অফিস সহকারী কাম কম্পিউটার অপারেটর)-২১"
+    ]
+  },
+  {
+    "id": 27,
+    "topicsId": 440,
+    "q": "After it was repaired the car-----again.",
+    "options": [
+      "ran perfect",
+      "run perfect",
+      "ran perfectly",
+      "runs perfect"
+    ],
+    "ans": 2,
+    "explain": "গাড়িটি কেমনভাবে চলছিল তা বোঝাতে Verb (ran)-কে মডিফাই করার জন্য Adverb (perfectly) প্রয়োজন। বাক্যটি পাস্ট টেন্সে থাকায় 'ran perfectly' সঠিক।",
+    "source": [
+      "সুন্দরবন গ্যাস কোম্পানি লি. এর অ্যাসিসটেন্ট কো-অর্ডিনেশন অফিসার নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 28,
+    "topicsId": 440,
+    "q": "She told me his name after he------",
+    "options": [
+      "had left",
+      "has left",
+      "has been leaving",
+      "left"
+    ],
+    "ans": 0,
+    "explain": "অতীতের দুটি কাজের মধ্যে যে কাজটি আগে সম্পন্ন হয় সেটি Past Perfect (had + V3)। সে চলে যাওয়ার পর সে (মহিলা) তার নাম বলেছিল। তাই 'had left' সঠিক।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোঃ জুনিয়র পরিসংখ্যান সহকারী: ২০২০/ বাংলাদেশ পরিসংখ্যান ব্যুরোর অধীনে ডাটা এন্ট্রি/কন্ট্রোল অপারেটর পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 29,
+    "topicsId": 440,
+    "q": "The examination --- before I reached the hall.",
+    "options": [
+      "had been started",
+      "has started",
+      "had started",
+      "did start"
+    ],
+    "ans": 2,
+    "explain": "Before-এর আগের অংশ Past Perfect Tense হয়। পরীক্ষা আগে শুরু হয়েছিল, তাই 'had started' সঠিক।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয়ঃ সহকারী শিক্ষক ২০১৯"
+    ]
+  },
+  {
+    "id": 30,
+    "topicsId": 440,
+    "q": "Twenty years------passed since my father died.",
+    "options": [
+      "has",
+      "have",
+      "is",
+      "having"
+    ],
+    "ans": 1,
+    "explain": "since-এর পরের অংশ Past Indefinite হলে আগের অংশ Present Perfect হয়। এখানে 'Twenty years' সাবজেক্ট হিসেবে Plural ধরা হয়, তাই 'have passed' হবে।",
+    "source": [
+      "বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশনঃ ১৩– ১৬তম গ্রেড এর কর্মচারী ২০১৯"
+    ]
+  },
+  {
+    "id": 31,
+    "topicsId": 440,
+    "q": "What you (do) at this moment? The correct form of verb is-",
+    "options": [
+      "do you do",
+      "doing",
+      "are you doing",
+      "have done"
+    ],
+    "ans": 2,
+    "explain": "'At this moment' থাকলে বাক্যটি Present Continuous Tense হয়। ইন্টারোগেটিভ গঠনে: Are + you + doing?",
+    "source": [
+      "১৬তম প্রভাষক নিবন্ধন : ১৯"
+    ]
+  },
+  {
+    "id": 32,
+    "topicsId": 440,
+    "q": "The snake (kill) by the boy.",
+    "options": [
+      "killed",
+      "would kill",
+      "was killed",
+      "would have killed"
+    ],
+    "ans": 2,
+    "explain": "বাক্যটি প্যাসিভ ভয়েসে আছে (by the boy)। যেহেতু সাপটিকে মারা হয়েছিল, তাই Past Indefinite-এর প্যাসিভ হিসেবে 'was killed' বসবে।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর ওয়ারলেস অপারেটর ২০১৮"
+    ]
+  },
+  {
+    "id": 33,
+    "topicsId": 440,
+    "q": "Choose the right form of verb. I (buy) a new bicycle last week.",
+    "options": [
+      "have bought",
+      "had bought",
+      "have been buying",
+      "bought"
+    ],
+    "ans": 3,
+    "explain": "অতীত নির্দেশক শব্দ 'last week' থাকলে Past Indefinite Tense হয়। তাই 'bought' সঠিক।",
+    "source": [
+      "গণপূর্ত অধিদপ্তরের উপসহকারী প্রকৌশলী (সিভিল) ও জনস্বাস্থ্য অধিদপ্তরের ড্রাফম্যান ২০১৭"
+    ]
+  },
+  {
+    "id": 34,
+    "topicsId": 440,
+    "q": "Select the right form of verb:",
+    "options": [
+      "You ever been to London ?",
+      "Have you ever been to London ?",
+      "Have you had been to London ?",
+      "Have you been to London?"
+    ],
+    "ans": 1,
+    "explain": "কারো কোনো স্থানে গিয়ে ফিরে আসা বা অভিজ্ঞতা জিজ্ঞাসার ক্ষেত্রে Present Perfect Tense ব্যবহৃত হয়। 'ever' এর অবস্থান সাহায্যকারী ভার্ব ও মূল ভার্বের মাঝে হয়।",
+    "source": [
+      "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের অধীন বিআরটিএ'র মোটরযান পরিদর্শক ২০১৭"
+    ]
+  },
+  {
+    "id": 35,
+    "topicsId": 440,
+    "q": "Twenty years --- since my mother died.",
+    "options": [
+      "has passed",
+      "have passed",
+      "pass",
+      "passed"
+    ],
+    "ans": 1,
+    "explain": "Since-এর নিয়ম: Present Perfect + since + Past Indefinite। ২০ বছর একটি দীর্ঘ সময় হলেও এটি প্লুরাল হিসেবে 'have passed' নেয়।",
+    "source": [
+      "সহকারী পরিবার পরিকল্পনা কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 36,
+    "topicsId": 440,
+    "q": "It------since morning.",
+    "options": [
+      "has rained",
+      "has been raining",
+      "is raining",
+      "was raining"
+    ],
+    "ans": 1,
+    "explain": "অতীতের কোনো নির্দিষ্ট সময় থেকে বর্তমান পর্যন্ত কোনো কাজ চলছে বোঝালে Present Perfect Continuous Tense হয়। তাই 'has been raining' সঠিক।",
+    "source": [
+      "১২তম প্রভাষক নিবন্ধন পরীক্ষা (কলেজ/সমপর্যায়) ২০১৫/১১তম শিক্ষক নিবন্ধন পরীক্ষা (স্কুল/সমপর্যায় ২) –২০১৪"
+    ]
+  },
+  {
+    "id": 37,
+    "topicsId": 440,
+    "q": "Choose the right form of verb: It's many years since I ( meet ) you.",
+    "options": [
+      "met",
+      "meeting",
+      "shall meet",
+      "can meet"
+    ],
+    "ans": 0,
+    "explain": "since-এর প্রথম অংশ 'It is' (Present Indefinite) হলে পরের অংশ Past Indefinite হয়। তাই 'met' সঠিক।",
+    "source": [
+      "৯ম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা : ২০১৩"
+    ]
+  },
+  {
+    "id": 38,
+    "topicsId": 440,
+    "q": "One hundred years have passed since —",
+    "options": [
+      "Kazi Nazrul Islam joined the First World War.",
+      "Rabindranath Tagore got the Noble Prize.",
+      "Begum Rokeya was a born.",
+      "Dr. Muhammad Shahidullah was born."
+    ],
+    "ans": 1,
+    "explain": "রবীন্দ্রনাথ ঠাকুর ১৯১৩ সালে নোবেল পুরস্কার পান। ২০১৩ সালের প্রেক্ষাপটে ১০০ বছর অতিবাহিত হয়েছিল। ব্যাকরণগতভাবে 'since'-এর পর Past Indefinite (got) সঠিক।",
+    "source": [
+      "প্রধানমন্ত্রীর কার্যালয়ের সহকারী পরিচালক, গবেষণা কর্মকর্তা, টেলিফোন ইঞ্জিনিয়ার ও সহকারী কম্পিউটার প্রোগ্রামার ২০১৩"
+    ]
+  },
+  {
+    "id": 39,
+    "topicsId": 440,
+    "q": "It is many years since ------",
+    "options": [
+      "I meet you",
+      "I met you",
+      "I help you",
+      "I have met you"
+    ],
+    "ans": 1,
+    "explain": "It is + time + since + Past Indefinite Tense। এই নিয়ম অনুযায়ী 'I met you' সঠিক।",
+    "source": [
+      "১১তম শিক্ষক নিবন্ধন পরীক্ষা (স্কুল/সমপর্যায় ২) --২০১৪"
+    ]
+  },
+  {
+    "id": 40,
+    "topicsId": 440,
+    "q": "I --- to meet you ever since I read your first novel.",
+    "options": [
+      "hope",
+      "have hoped",
+      "have been hoping",
+      "am hoping"
+    ],
+    "ans": 1,
+    "explain": "'Ever since' সাধারণত Present Perfect বা Present Perfect Continuous-এর সাথে বসে। 'hope' একটি stative verb হওয়ায় Continuous না হয়ে Present Perfect (have hoped) অধিকতর শুদ্ধ।",
+    "source": [
+      "DU-B unit-10-11"
+    ]
+  },
+  {
+    "id": 41,
+    "topicsId": 440,
+    "q": "Twenty years ---- since my father died.",
+    "options": [
+      "has passed",
+      "have passed",
+      "pass",
+      "passed"
+    ],
+    "ans": 1,
+    "explain": "পূর্বের ন্যায়, 'Twenty years' প্লুরাল সাবজেক্ট হিসেবে 'have passed' গ্রহণ করবে।",
+    "source": [
+      "সংস্থাপন মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তাঃ ০৭"
+    ]
+  },
+  {
+    "id": 42,
+    "topicsId": 440,
+    "q": "Some days --- since my father died.",
+    "options": [
+      "are passed",
+      "passed",
+      "have passed",
+      "had passed"
+    ],
+    "ans": 2,
+    "explain": "since যুক্ত বাক্যের নিয়ম অনুযায়ী প্রথম অংশ Present Perfect (have passed) হবে।",
+    "source": [
+      "পাবলিক সার্ভিস কমিশনে সহকারী পরিচালকঃ ৯৪"
+    ]
+  },
+  {
+    "id": 43,
+    "topicsId": 440,
+    "q": "Many years have passed since I --- my friend.",
+    "options": [
+      "had met",
+      "met",
+      "meet",
+      "have been met"
+    ],
+    "ans": 1,
+    "explain": "Present Perfect + since + Past Indefinite। এই নিয়ম অনুসারে 'met' সঠিক।",
+    "source": [
+      "সরকারি প্রাথমিক বিদ্যালয়ের সহকারী শিক্ষকঃ ০৬"
+    ]
+  },
+  {
+    "id": 44,
+    "topicsId": 440,
+    "q": "Choose the correct option : Selim is absent because he – a cold.",
+    "options": [
+      "is having",
+      "will have",
+      "have",
+      "has"
+    ],
+    "ans": 3,
+    "explain": "বর্তমানে কোনো রোগে আক্রান্ত থাকা বা অধিকারে থাকা বোঝাতে Present Indefinite Tense হয়। Selim (3rd person singular) এর সাথে 'has' বসবে।",
+    "source": [
+      "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের অধীন বিআরটিএ'র মোটরযান পরিদক ২০১৭"
+    ]
+  },
+  {
+    "id": 45,
+    "topicsId": 440,
+    "q": "The door – automatically.",
+    "options": [
+      "opened",
+      "was opened",
+      "has been opened",
+      "had been opened"
+    ],
+    "ans": 0,
+    "explain": "দরজাটি নিজে থেকেই খুলে গিয়েছিল (Intransitive usage) বোঝালে 'opened' সঠিক। এটি একটি সাধারণ অতীত ঘটনা।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন বিটিভির সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 46,
+    "topicsId": 440,
+    "q": "He-----home last Monday.",
+    "options": [
+      "has left",
+      "had left",
+      "has leave",
+      "left"
+    ],
+    "ans": 3,
+    "explain": "'last Monday' অতীত সময় নির্দেশ করায় Past Indefinite Tense 'left' সঠিক।",
+    "source": [
+      "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড-২০১৭"
+    ]
+  },
+  {
+    "id": 47,
+    "topicsId": 440,
+    "q": "Rahim-----to school regularly.",
+    "options": [
+      "Goes",
+      "Go",
+      "Going",
+      "Gone"
+    ],
+    "ans": 0,
+    "explain": "'regularly' থাকলে বাক্যটি Present Indefinite Tense হয়। সাবজেক্ট 'Rahim' (3rd person singular) হওয়ায় ভার্বের সাথে 'es' যোগ হয়ে 'Goes' হয়েছে।",
+    "source": [
+      "কৃষি সম্প্রসারণ অধিদপ্তরের সহকারী কৃষি কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 48,
+    "topicsId": 440,
+    "q": "I – here since 1980.",
+    "options": [
+      "live",
+      "am living",
+      "have been living",
+      "Lived"
+    ],
+    "ans": 2,
+    "explain": "'since + নির্দিষ্ট সময়' থাকলে Present Perfect Continuous Tense হয়। তাই 'have been living' সঠিক।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়ের অধীন সেবা পরিদপ্তরের সিনিয়র স্টাফ নার্স ২০১৬"
+    ]
+  },
+  {
+    "id": 49,
+    "topicsId": 440,
+    "q": "My father – home last night.",
+    "options": [
+      "had returned",
+      "has returned",
+      "returned",
+      "was returned"
+    ],
+    "ans": 2,
+    "explain": "অতীত নির্দেশক 'last night' থাকায় Past Indefinite Tense 'returned' বসবে।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়ের উপসহকারী প্রকোশলী (সিভিল) ২০১৬"
+    ]
+  },
+  {
+    "id": 50,
+    "topicsId": 440,
+    "q": "What you (to do ) last night ?",
+    "options": [
+      "What did you do last night ?",
+      "What you did last night ?",
+      "What had you done last night ?",
+      "What have you done last night?"
+    ],
+    "ans": 0,
+    "explain": "প্রশ্নবোধক বাক্যে 'last night' থাকলে Past Indefinite-এর নিয়ম অনুযায়ী 'did' সাহায্যকারী ভার্ব হিসেবে বসবে।",
+    "source": [
+      "৯ম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা ২০১৩"
+    ]
+  },
+  {
+    "id": 51,
+    "topicsId": 440,
+    "q": "I opened the door as soon as I ---the bell.",
+    "options": [
+      "have heard",
+      "was hearing",
+      "am heard",
+      "heard"
+    ],
+    "ans": 3,
+    "explain": "'as soon as' যুক্ত বাক্যের উভয় অংশ সাধারণত একই টেন্সে হয়। যেহেতু প্রথম অংশ Past Indefinite (opened), পরের অংশটিও Past Indefinite (heard) হবে।",
+    "source": [
+      "২৪তম বিসিএস/ শাহজালাল বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা মানবিক বিভাগঃ ১০-১১, শ্রম মন্ত্রণালয়ের অধীনে সহকারী পরিচালকঃ ০৫/ পররাষ্ট্র মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা ০৮"
+    ]
+  },
+  {
+    "id": 52,
+    "topicsId": 440,
+    "q": "Do not make a noise while your father----",
+    "options": [
+      "is sleeping",
+      "has slept",
+      "Asleep",
+      "is being asleep"
+    ],
+    "ans": 0,
+    "explain": "'while' যুক্ত বাক্যে এক সময় আরেকটি কাজ চলছে বোঝালে Continuous Tense হয়। 'বইচৈ করো না যখন তোমার বাবা ঘুমাচ্ছেন'—তাই Present Continuous সঠিক।",
+    "source": [
+      "২৬তম বিসিএস/২৪তম বিসিএস/ দুর্নীতি দমন কমিশনের অধীনে উপ-সহকারী পরিচালক পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 53,
+    "topicsId": 440,
+    "q": "My uncle arrived while I – the dinner.",
+    "options": [
+      "would cook",
+      "had cook",
+      "cook",
+      "was cooking"
+    ],
+    "ans": 3,
+    "explain": "অতীতের একটি কাজের সময় আরেকটি কাজ চলছিল বোঝালে 'while' যুক্ত অংশটি Past Continuous Tense হয়। তাই 'was cooking' সঠিক।",
+    "source": [
+      "বাতিলকৃত ২৪তম বিসিএস/ আমদানি ও রপ্তানি প্রধান নিয়ন্ত্রকের দপ্তরের অধীনে অফিস সহায়ক পদে নিয়োগ পরীক্ষা-২০২০/ সমাজ কল্যাণ মন্ত্রণালয়ের অধীন সমাজসেবা অধিদপ্তরের শহর সমাজসেবা অফিসার (হাসপাতাল): ০৭"
+    ]
+  },
+  {
+    "id": 54,
+    "topicsId": 440,
+    "q": "As they waited Rahim argued against war-",
+    "options": [
+      "while his brother discusses the effects of pollution",
+      "while his brother discussed the effects of pollution",
+      "while his brother was discussing the effects of pollution",
+      "while his brother had discussed the effects of pollution."
+    ],
+    "ans": 2,
+    "explain": "অতীতকালে একটি কাজ চলাকালীন অন্য একটি কাজ চলা বোঝালে 'while' যুক্ত ক্লজটি Past Continuous Tense হয়।",
+    "source": [
+      "২১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 55,
+    "topicsId": 440,
+    "q": "He found the gold coin as he cleans the floor.",
+    "options": [
+      "as he had cleaned",
+      "while he cleans",
+      "which he is cleaning",
+      "while cleaning"
+    ],
+    "ans": 3,
+    "explain": "'while' এর পরে সরাসরি ভার্ব আসলে তার সাথে 'ing' যুক্ত হয় (while cleaning)। যদি সাবজেক্ট থাকতো তবে 'while he was cleaning' হতো।",
+    "source": [
+      "আমদানী রপ্তানি অধিদপ্তর উচ্চমান সহকারী ২০১৯"
+    ]
+  },
+  {
+    "id": 56,
+    "topicsId": 440,
+    "q": "While I (play) in the field, I saw a dead cow.",
+    "options": [
+      "playing",
+      "was playing",
+      "were playing",
+      "played"
+    ],
+    "ans": 1,
+    "explain": "While + Past Continuous + Past Indefinite নিয়ম অনুযায়ী 'was playing' সঠিক।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন: ২০১৯"
+    ]
+  },
+  {
+    "id": 57,
+    "topicsId": 440,
+    "q": "When I saw the gardener, he --- tree.",
+    "options": [
+      "has been cutting down",
+      "is cutting down",
+      "will be cutting down",
+      "cut down",
+      "was cutting down"
+    ],
+    "ans": 4,
+    "explain": "যখন আমি মালিকে দেখলাম, সে গাছ কাটছিল—অতীতের একটি কাজের সময় অন্য একটি কাজ চলছিল। তাই 'was cutting down' সঠিক।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা, খ ইউনিট ০৭-০৮"
+    ]
+  },
+  {
+    "id": 58,
+    "topicsId": 440,
+    "q": "It ----when I reached home. বাক্যটির জন্য নিম্নে প্রদত্ত সঠিক verb form নির্বাচন করে বাক্যটি পূর্ণ করুন।",
+    "options": [
+      "was raining",
+      "is raining",
+      "has been raining",
+      "had raining"
+    ],
+    "ans": 0,
+    "explain": "অতীতকালে আমি যখন বাড়ি পৌঁছালাম তখন বৃষ্টি হচ্ছিল—কাজটি চলমান ছিল বিধায় Past Continuous (was raining) হবে।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষকঃ ০৩"
+    ]
+  },
+  {
+    "id": 59,
+    "topicsId": 440,
+    "q": "Complete the following sentence with the correct tense: We were watching the news when the telephone----- .",
+    "options": [
+      "ringing",
+      "had rung",
+      "rang",
+      "rung"
+    ],
+    "ans": 2,
+    "explain": "Past Continuous (were watching) চলাকালীন একটি হঠাৎ ঘটে যাওয়া কাজ (Interrupted action) Past Indefinite (rang) হয়।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের (গণযোগাযোগ প্রশিক্ষণ) সহকারী পরিচালকঃ ০১"
+    ]
+  },
+  {
+    "id": 60,
+    "topicsId": 440,
+    "q": "Complete the sentence with the correct verb from: Neela --- her hand when she was cooking dinner.",
+    "options": [
+      "is burring",
+      "burnt",
+      "will burn",
+      "was burring"
+    ],
+    "ans": 1,
+    "explain": "নীলা যখন রান্না করছিল (Past Continuous), তখন সে হাত পুড়িয়ে ফেলল (Past Indefinite)। 'burn' এর পাস্ট ফর্ম 'burnt'।",
+    "source": [
+      "২৬তম বিসিএস"
+    ]
+  },
+  {
+    "id": 61,
+    "topicsId": 440,
+    "q": "Fill in the gap with the right tense: When water----- it turns into ice.",
+    "options": [
+      "will freeze",
+      "freezes",
+      "would freeze",
+      "froze"
+    ],
+    "ans": 1,
+    "explain": "এটি একটি বৈজ্ঞানিক সত্য (Scientific Truth)। চিরন্তন বা বৈজ্ঞানিক সত্যের ক্ষেত্রে উভয় অংশ Present Indefinite Tense হয়। তাই 'freezes' সঠিক।",
+    "source": [
+      "৩৮তম বিসিএস/ কারিগরি শিক্ষা অধিদপ্তরের নিয়োগ-২০২১"
+    ]
+  },
+  {
+    "id": 62,
+    "topicsId": 440,
+    "q": "Fill in the blank with appropriate word; We----the boy not to run is the sun.",
+    "options": [
+      "advised",
+      "will advise",
+      "shall advised",
+      "advise"
+    ],
+    "ans": 3,
+    "explain": "উপদেশ দেওয়া বোঝালে সাধারণত Present Indefinite Tense ব্যবহৃত হয়। এখানে 'advise' সঠিক বর্তমান রূপ।",
+    "source": [
+      "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড : সহকারী এনফোর্সমেন্ট কো-অর্ডিনেটর ২০১৯"
+    ]
+  },
+  {
+    "id": 63,
+    "topicsId": 440,
+    "q": "The small child does whatever his father 'was done'.",
+    "options": [
+      "has done",
+      "did",
+      "does",
+      "had done"
+    ],
+    "ans": 2,
+    "explain": "বাক্যটি বর্তমান অভ্যেস বোঝাচ্ছে (does)। তাই শিশুটি তা-ই করে যা তার বাবা করে (does)। উভয় অংশ একই টেন্সে রাখা সঙ্গতিপূর্ণ।",
+    "source": [
+      "আমদানী রপ্তানি অধিদপ্তর : উচ্চমান সহকারী ২০১৯"
+    ]
+  },
+  {
+    "id": 64,
+    "topicsId": 440,
+    "q": "When we alleviate something, we - —",
+    "options": [
+      "make it outstanding",
+      "make it less severe",
+      "make it worse",
+      "elevate it"
+    ],
+    "ans": 1,
+    "explain": "'Alleviate' শব্দের অর্থ উপশম করা বা তীব্রতা কমানো। তাই 'make it less severe' এর সঠিক অর্থ।",
+    "source": [
+      "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 65,
+    "topicsId": 440,
+    "q": "When we ostracize someone, we-----",
+    "options": [
+      "refuse to meet or talk to him",
+      "punished him severely",
+      "severely reprimand him",
+      "bitterly criticize him"
+    ],
+    "ans": 0,
+    "explain": "'Ostracize' মানে সমাজচ্যুত করা বা একঘরে করা। এর অর্থ কারো সাথে কথা বলতে বা দেখা করতে অস্বীকার করা।",
+    "source": [
+      "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 66,
+    "topicsId": 440,
+    "q": "নিচের বাক্যের শূন্যস্থানে কোনটি উপযুক্ত হবে? When your plane-----, please call me.",
+    "options": [
+      "will arrive",
+      "arrives",
+      "arrived",
+      "will have arrived"
+    ],
+    "ans": 1,
+    "explain": "ভবিষ্যৎ নির্দেশক 'when' ক্লজে Future Indefinite না হয়ে Present Indefinite Tense হয়।",
+    "source": [
+      "গণমাধ্যম ইনষ্টিটিউটের সহকারী পরিচালক (গণযোগাযোগ প্রশিক্ষণ): ০৩"
+    ]
+  },
+  {
+    "id": 67,
+    "topicsId": 440,
+    "q": "I will phone you when I—the news.",
+    "options": [
+      "am getting",
+      "get",
+      "will get",
+      "will be getting"
+    ],
+    "ans": 1,
+    "explain": "ভবিষ্যৎকালের দুটি কাজের মধ্যে 'when' যুক্ত অংশটি Present Indefinite Tense (get) হয়।",
+    "source": [
+      "গণমাধ্যম ইনষ্টিটিউটের সহকারী পরিচালক (গণযোগাযোগ প্রশিক্ষণ): ০৩/ ঢাকা বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা, ঘ ইউনিটঃ ০১-০২"
+    ]
+  },
+  {
+    "id": 68,
+    "topicsId": 440,
+    "q": "Which one of the following sentences is correct ?",
+    "options": [
+      "I will phone you when I get the news",
+      "I will phone you when I am getting the news",
+      "I will phone you when I will get the news",
+      "None of the above"
+    ],
+    "ans": 0,
+    "explain": "ভবিষ্যৎ সময়ের ওপর নির্ভর করলে 'when' ক্লজে Present Indefinite বসে।",
+    "source": [
+      "অর্থ মন্ত্রণালয়ের অফিস সহকারী-২০১১"
+    ]
+  },
+  {
+    "id": 69,
+    "topicsId": 440,
+    "q": "As the sun ---, I decided to go out.",
+    "options": [
+      "shines",
+      "has shone",
+      "shine",
+      "was shining"
+    ],
+    "ans": 3,
+    "explain": "যখন সূর্য কিরণ দিচ্ছিল (চলমান অতীত), তখন আমি বাইরে যাওয়ার সিদ্ধান্ত নিলাম। তাই 'was shining' সঠিক।",
+    "source": [
+      "২৪তম বিসিএস/ রেলপথ মন্ত্রণালয় (কম্পিউটার অপারেটর)-২১/ কারিগরি শিক্ষা অধিদপ্তর (অফিস সহকারী কাম-কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 70,
+    "topicsId": 440,
+    "q": "He -- --- me while I was reading.",
+    "options": [
+      "interrupts",
+      "interrupted",
+      "is interrupting",
+      "interrupting"
+    ],
+    "ans": 1,
+    "explain": "আমি যখন পড়ছিলাম (Past Continuous), তখন সে বাধা দিয়েছিল (Past Indefinite)। তাই 'interrupted' সঠিক।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন স্কুল পর‍্যায়-২: ২০১৯"
+    ]
+  },
+  {
+    "id": 71,
+    "topicsId": 440,
+    "q": "While he— along the road, a snake bit him.",
+    "options": [
+      "Had walked",
+      "Walked",
+      "Was walking",
+      "Had been walking"
+    ],
+    "ans": 2,
+    "explain": "রাস্তা দিয়ে হাঁটার সময় (Past Continuous) সাপ কামড়ে দিল (Past Indefinite)। 'while he was walking' সঠিক।",
+    "source": [
+      "এনএসআই এর সহকারী পরিচালকঃ ২০১৭"
+    ]
+  },
+  {
+    "id": 72,
+    "topicsId": 440,
+    "q": "I Stretched for tissue but the box of tissues-----nearly empty.",
+    "options": [
+      "was",
+      "were",
+      "has",
+      "have"
+    ],
+    "ans": 0,
+    "explain": "বাক্যের প্রধান সাবজেক্ট 'the box' (Singular)। তাই 'box of tissues' থাকলেও ভার্ব হিসেবে 'was' বসবে।",
+    "source": [
+      "উপজেলা পোস্ট মাস্টার: ২০১০"
+    ]
+  },
+  {
+    "id": 73,
+    "topicsId": 440,
+    "q": "Fill in the blank: I wish I----the wings of a bird.",
+    "options": [
+      "have",
+      "had",
+      "were",
+      "was"
+    ],
+    "ans": 1,
+    "explain": "'I wish' এর পর অবাস্তব অধিকারে থাকা বোঝাতে Past Indefinite (had) ব্যবহৃত হয়।",
+    "source": [
+      "প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের অধীন জনশক্তি, কর্মসংস্থান ও প্রশিক্ষণ ব্যুরোর ইন্সট্রাক্টর (ইলেকট্রিক্যাল, কম্পিউটার, সিভিল ও ইলেক্ট্রনিক্স) টিটিসি ২০১৮"
+    ]
+  },
+  {
+    "id": 74,
+    "topicsId": 440,
+    "q": "Use the right form of verb in the following sentence: I wish I ...... a car.",
+    "options": [
+      "have",
+      "shall have",
+      "have had",
+      "had"
+    ],
+    "ans": 3,
+    "explain": "ইচ্ছা প্রকাশ করতে 'wish' এর পর 'have' ভার্বের পাস্ট ফর্ম 'had' ব্যবহৃত হয়।",
+    "source": [
+      "BPSC এর সিনিয়র ইন্ট্রাক্টর (TTC)-২১"
+    ]
+  },
+  {
+    "id": 75,
+    "topicsId": 440,
+    "q": "I wish I ......... your shoes.",
+    "options": [
+      "were in",
+      "was in",
+      "put on",
+      "get into"
+    ],
+    "ans": 0,
+    "explain": "'In someone's shoes' একটি ইডিয়ম যার অর্থ কারো অবস্থানে থাকা। অসম্ভব কল্পনা বুঝাতে 'were in' সঠিক।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ (সিনিয়র অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 76,
+    "topicsId": 440,
+    "q": "I wish I -- a king.",
+    "options": [
+      "was",
+      "am",
+      "is",
+      "were"
+    ],
+    "ans": 3,
+    "explain": "কাল্পনিক ইচ্ছার ক্ষেত্রে Subject যাই হোক, Subjunctive verb হিসেবে 'were' বসে।",
+    "source": [
+      "জীবন বীমা কর্পোরেশন (উচ্চমান সহকারী)-২১/ কারিগরি শিক্ষা অধিদপ্তর, বিভিন্ন পদ (কর্মচারী)-২১/ বাংলাদেশ কোস্ট গার্ড ও কৃষি প্রশিক্ষণ একাডেমির নার্স এবং ফায়ার সার্ভিস অ্যান্ড সিভিল ডিফেন্স-এর ফোরম্যান ২০১৯/ সহকারী পরিবার পরিকল্পনা কর্মকর্তা ২০১৬/স্বরাষ্ট্র মন্ত্রণালয়ের অধীন সহকারী পরিচালক (মাদক) ও কারা তত্ত্বাবধায়কঃ ০৬/ পরিবেশ ও বন মন্ত্রণালয়ের অধীন রিসার্চ অফিসারঃ ০৬"
+    ]
+  },
+  {
+    "id": 77,
+    "topicsId": 440,
+    "q": "I wish I — .",
+    "options": [
+      "was dead",
+      "were dead",
+      "am dead",
+      "had been dead"
+    ],
+    "ans": 1,
+    "explain": "'I wish' এর পরে অবাস্তব অবস্থা প্রকাশে 'were' ব্যবহৃত হয়।",
+    "source": [
+      "ডাক ও টেলিযোগাযোগ বিভাগের অধীন ডাক অধিদপ্তরের এস্টিমেটর ২০১৮"
+    ]
+  },
+  {
+    "id": 78,
+    "topicsId": 440,
+    "q": "I wish I (sing) a song. Write the right form of verb.",
+    "options": [
+      "Sing",
+      "Sang",
+      "will sing",
+      "would song"
+    ],
+    "ans": 1,
+    "explain": "ইচ্ছা বা আকাঙ্ক্ষা প্রকাশে 'wish' এর পরবর্তী ক্লজটি Past Indefinite হয়। তাই 'sang' সঠিক।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তরের পরিবার পরিকল্পনা সহকারী/পরিবার পরিকল্পনা পরিদর্শক ২০১৮"
+    ]
+  },
+  {
+    "id": 79,
+    "topicsId": 440,
+    "q": "I wish you -- the proble.",
+    "options": [
+      "Solve",
+      "would solve",
+      "can solve",
+      "could solve"
+    ],
+    "ans": 3,
+    "explain": "'wish' এর ক্ষেত্রে সামর্থ্য বা সম্ভাবনা বোঝাতে 'could' ব্যবহৃত হয়। তাই 'could solve' সঠিক।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তরের পরিবার পরিকল্পনা সহকারী/পরিবার পরিকল্পনা পরিদর্শক ২০১৮"
+    ]
+  },
+  {
+    "id": 80,
+    "topicsId": 440,
+    "q": "I wish I – a philosopher.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "shall be"
+    ],
+    "ans": 2,
+    "explain": "অবাস্তব কল্পনা। নিয়ম অনুযায়ী 'were' সঠিক।",
+    "source": [
+      "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা অধিদপ্তর পরিসংখ্যান কর্মকর্তা ২০১৭"
+    ]
+  },
+  {
+    "id": 81,
+    "topicsId": 440,
+    "q": "I wish if I — a cricketer.",
+    "options": [
+      "Was",
+      "Am",
+      "Is",
+      "Were"
+    ],
+    "ans": 0,
+    "explain": "সাধারণত 'wish' এর পরে 'were' হয়। তবে অপশন 'were' না থাকলে বা নির্দিষ্ট কোনো প্রশ্নের উত্তরের প্রেক্ষাপটে 'was' ব্যবহৃত হতে পারে, যদিও 'were' অধিকতর ব্যাকরণসম্মত।",
+    "source": [
+      "NSI-এর সহকারী পরিচালক নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 82,
+    "topicsId": 440,
+    "q": "I wish I ....a lawyer.",
+    "options": [
+      "was",
+      "were",
+      "am",
+      "none of these"
+    ],
+    "ans": 1,
+    "explain": "অবাস্তব আকাঙ্ক্ষা বোঝাতে be verb হিসেবে 'were' বসে।",
+    "source": [
+      "প্রাথমিক শিক্ষা অধিদপ্তরে উচ্চমান সহকারি কাম হিসাবরক্ষক নিয়োগ-২০১৭/ জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI) অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক ২০১৭"
+    ]
+  },
+  {
+    "id": 83,
+    "topicsId": 440,
+    "q": "I wish I----child again.",
+    "options": [
+      "be",
+      "Makes",
+      "Was",
+      "Were"
+    ],
+    "ans": 3,
+    "explain": "অতীত জীবনে ফিরে যাওয়ার অসম্ভব ইচ্ছা। তাই 'were' সঠিক।",
+    "source": [
+      "১১তম শিক্ষক নিবন্ধন পরীক্ষা (স্কুল/সমপর্যায় ২) --২০১৪"
+    ]
+  },
+  {
+    "id": 84,
+    "topicsId": 440,
+    "q": "I wish —",
+    "options": [
+      "I am a magician",
+      "I were a magician",
+      "I had been a magician.",
+      "I will be a magician"
+    ],
+    "ans": 1,
+    "explain": "ইচ্ছা প্রকাশ করতে Present ক্লজের পর Past Indefinite (were) ব্যবহৃত হয়।",
+    "source": [
+      "জনপ্রশাসন মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 85,
+    "topicsId": 440,
+    "q": "I wish—",
+    "options": [
+      "I am aking",
+      "I were a king",
+      "I had been a king",
+      "I will be a king"
+    ],
+    "ans": 1,
+    "explain": "অসম্ভব কল্পনা প্রকাশে 'I wish I were' ব্যবহৃত হয়।",
+    "source": [
+      "মহিলা ও শিশুবিষয়ক মন্ত্রণালয়ের অধীনে উপজেলা মহিলাবিষয়ক কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 86,
+    "topicsId": 440,
+    "q": "I wish I (sing). What is the correct form of the verb in the bracket ?",
+    "options": [
+      "Sang",
+      "Am singing",
+      "Have sung",
+      "Had sung"
+    ],
+    "ans": 0,
+    "explain": "'wish' থাকলে ব্র্যাকেটের ভার্বটি Past Indefinite (Sang) হয়।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয়ের সহকারী শিক্ষক-২০১১"
+    ]
+  },
+  {
+    "id": 87,
+    "topicsId": 440,
+    "q": "I wish I ---- wonderful man.",
+    "options": [
+      "was",
+      "were",
+      "would be",
+      "am"
+    ],
+    "ans": 1,
+    "explain": "কাল্পনিক ইচ্ছা। 'were' সঠিক।",
+    "source": [
+      "জাতীয় সংসদ সচিবালয়ের সহকারী পরিচালকঃ ০৬"
+    ]
+  },
+  {
+    "id": 88,
+    "topicsId": 440,
+    "q": "I wish I -- a rich man.",
+    "options": [
+      "shall be",
+      "were",
+      "am",
+      "to be"
+    ],
+    "ans": 1,
+    "explain": "অবাস্তব ইচ্ছা। 'were' সঠিক।",
+    "source": [
+      "বাংলাদেশ রেলওয়ে উপ-সহকারী প্রকৌশলী (মেকানিক্যাল): ০৬"
+    ]
+  },
+  {
+    "id": 89,
+    "topicsId": 440,
+    "q": "Choose the correct sentence.",
+    "options": [
+      "I wish I was you",
+      "I wish I were you",
+      "I wish I am you",
+      "I wish I are you"
+    ],
+    "ans": 1,
+    "explain": "'I wish I were you' একটি প্রচলিত কাল্পনিক বাক্য।",
+    "source": [
+      "খাদ্য ও দুর্যোগ ব্যবস্থাপনা মন্ত্রণালয়ের অধীন ত্রাণ ও পুনর্বাসন অধিপ্তরের প্রকল্প বাস্তবায়ন কর্মকর্তাঃ ০৯"
+    ]
+  },
+  {
+    "id": 90,
+    "topicsId": 440,
+    "q": "Which is the correct sentence ?",
+    "options": [
+      "I wish I was in your shoes",
+      "I wish I were in your shoes",
+      "I wish I got into your shoes",
+      "I wish I get into your shoes"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'I wish I got into your shoes' সঠিক উত্তর হিসেবে দেওয়া হলেও সাধারণত 'were in your shoes' বেশি ব্যবহৃত হয়। 'got into' দ্বারাও কোনো অবস্থায় প্রবেশ করা বা হওয়া বোঝায়।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা, ঘ ইউনিটঃ ০৭-০৮/ জগন্নাথ বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা, খ ইউনিটঃ ০৭-০৮"
+    ]
+  },
+  {
+    "id": 91,
+    "topicsId": 440,
+    "q": "I wish today – Friday.",
+    "options": [
+      "is",
+      "was",
+      "were",
+      "will be"
+    ],
+    "ans": 2,
+    "explain": "আজ শুক্রবার নয়, কিন্তু ইচ্ছা করা হচ্ছে। তাই 'were' বসবে।",
+    "source": [
+      "প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা-২০১০"
+    ]
+  },
+  {
+    "id": 92,
+    "topicsId": 440,
+    "q": "Which of the following sentences is correct ?",
+    "options": [
+      "I wish I was as tall as my brother",
+      "I wish I was as tall as my brother was",
+      "I wish I were as tall as my brother",
+      "I wish I am as tall as my brother"
+    ],
+    "ans": 2,
+    "explain": "'I wish' ক্লজে be verb হিসেবে 'were' ব্যবহার করা ব্যাকরণসম্মত।",
+    "source": [
+      "উপ-সহকারী পরিচালক (শ্রম): ০১"
+    ]
+  },
+  {
+    "id": 93,
+    "topicsId": 440,
+    "q": "I wish the prices of the essential commodities----come down soon.",
+    "options": [
+      "would",
+      "will",
+      "should",
+      "can"
+    ],
+    "ans": 0,
+    "explain": "ভবিষ্যতে কোনো কিছু ঘটবে এমন আকাঙ্ক্ষা প্রকাশ করতে 'wish' এর পরে 'would' ব্যবহৃত হয়।",
+    "source": [
+      "বাণিজ্য মন্ত্রণালয়ের অধীন আমদানি-রপ্তানি অধিদপ্তরের নির্বাহী অফিসারঃ ০৭"
+    ]
+  },
+  {
+    "id": 94,
+    "topicsId": 440,
+    "q": "I wish I --- my home work last night.",
+    "options": [
+      "did",
+      "had done",
+      "was doing",
+      "am doing",
+      "have done"
+    ],
+    "ans": 1,
+    "explain": "অতীতের কোনো অপূর্ণ ইচ্ছা বা অনুতাপ বোঝাতে 'wish' এর পরে Past Perfect Tense (had done) ব্যবহৃত হয়।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা গ ইউনিটঃ ০৭-০৮"
+    ]
+  },
+  {
+    "id": 95,
+    "topicsId": 440,
+    "q": "He ran fast lest he—miss the train .",
+    "options": [
+      "can",
+      "should",
+      "could",
+      "has"
+    ],
+    "ans": 1,
+    "explain": "'lest' যুক্ত কনজাংশনের পরবর্তী ক্লজে সাহায্যকারী ভার্ব হিসেবে 'should' অথবা 'might' বসে। গঠন: Subject + should + V1।",
+    "source": [
+      "২৬তম বিসিএস/ স্বরাষ্ট্র মন্ত্রণালয়ের কারা তত্ত্বাবধায়ক-২০১০"
+    ]
+  },
+  {
+    "id": 96,
+    "topicsId": 440,
+    "q": "Build up your career........ you….. repent.",
+    "options": [
+      "lest must",
+      "or, should be",
+      "lest, should",
+      "and, must"
+    ],
+    "ans": 2,
+    "explain": "'lest...should' এর অর্থ হলো—পাছে ভয় হয় যে। কেরিয়ার গড়ো যাতে তোমাকে অনুতপ্ত হতে না হয়।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ (সিনিয়র অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 97,
+    "topicsId": 440,
+    "q": "He ran fast lest he ...... miss the train.",
+    "options": [
+      "Can",
+      "Should",
+      "May",
+      "Might"
+    ],
+    "ans": 1,
+    "explain": "একই নিয়ম: lest-এর পরে Subject + should বসে।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর (ল্যাবরেটরী সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 98,
+    "topicsId": 440,
+    "q": "Read diligently lest you ---- fail in the examination.",
+    "options": [
+      "should",
+      "will",
+      "shall",
+      "must"
+    ],
+    "ans": 0,
+    "explain": "সতর্কবাণী বা ফলাফল এড়ানোর ক্ষেত্রে 'lest' এর সাথে 'should' এর ব্যবহার বাধ্যতামূলক।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন স্কুল পর্যায়-২: ২০১৯"
+    ]
+  },
+  {
+    "id": 99,
+    "topicsId": 440,
+    "q": "Walk fast lest you ( miss) the train.",
+    "options": [
+      "would miss",
+      "missed",
+      "should miss",
+      "will miss"
+    ],
+    "ans": 2,
+    "explain": "বাক্যে 'lest' থাকলে পরবর্তী clause-এর Subject-এর পরে should বা might বসে এবং মূল verb-এর present form হয়। এই নিয়ম অনুযায়ী 'should miss' সঠিক।",
+    "source": [
+      "১৫তম প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (কলেজ/সমপর্যায়) ২০১৯/ ১২তম শিক্ষক নিবন্ধন পরীক্ষা (স্কুল/সমপর্যায় ২) ২০১৫"
+    ]
+  },
+  {
+    "id": 100,
+    "topicsId": 440,
+    "q": "Walk fast lest the train (miss).",
+    "options": [
+      "would miss",
+      "would be missed",
+      "will be missed",
+      "will miss"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'the train' হলো passive subject, কারণ ট্রেন নিজে মিস করে না বরং তাকে মিস করা হয়। 'lest' যুক্ত বাক্যে passive structure-এ 'should be/would be + V3' ব্যবহৃত হয়।",
+    "source": [
+      "১৫তম শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা স্কুল পর্যায়-২ ২০১৯"
+    ]
+  },
+  {
+    "id": 101,
+    "topicsId": 440,
+    "q": "The girl is running --- she should miss the train.",
+    "options": [
+      "Fast",
+      "Or",
+      "Unless",
+      "Lest"
+    ],
+    "ans": 3,
+    "explain": "পরবর্তী অংশে 'should' থাকায় এবং অর্থগতভাবে 'পাছে এমন না হয় যে' বা 'পাছে ভয় হয় যে' প্রকাশ করতে 'lest' ব্যবহৃত হয়।",
+    "source": [
+      "স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়ের সহকারী প্রকৌশলী (সিভিল) 2017"
+    ]
+  },
+  {
+    "id": 102,
+    "topicsId": 440,
+    "q": "Try hard lest you--- fall.",
+    "options": [
+      "may",
+      "might",
+      "should",
+      "would"
+    ],
+    "ans": 2,
+    "explain": "Lest-এর সাধারণ নিয়ম অনুযায়ী Subject-এর পরে auxiliary verb হিসেবে 'should' বসে।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়ের সহকারী মেইনটেন্যান্স ইঞ্জিনিয়ার ২০১৭/ স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের নার্সিং ও মিডওয়াইফ অধিদপ্তরের মিডওয়াইফ ২০১৭"
+    ]
+  },
+  {
+    "id": 103,
+    "topicsId": 440,
+    "q": "We hurried-----we should miss the train.",
+    "options": [
+      "or",
+      "otherwise",
+      "lest",
+      "Than"
+    ],
+    "ans": 2,
+    "explain": "বাক্যে 'should' আছে এবং অর্থগতভাবে দ্রুত চলার কারণ হিসেবে নেতিবাচক ফলাফলের ভয় দেখানো হচ্ছে, তাই এখানে 'lest' বসবে।",
+    "source": [
+      "ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়ের সহকারী প্রোগ্রামার ২০১৭"
+    ]
+  },
+  {
+    "id": 104,
+    "topicsId": 440,
+    "q": "'He ran fast lest he – miss the train.'",
+    "options": [
+      "can",
+      "should",
+      "could",
+      "would"
+    ],
+    "ans": 1,
+    "explain": "Lest যুক্ত clause-এ subject-এর পরে modal verb হিসেবে 'should' বসানো গ্রামাটিক্যাল নিয়ম।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়েল অধীনে সহকারী প্রকৌশলী (সিভিল) ২০১৭/প্রাক-প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা-২০১৩; মহাহিসাব নিরীক্ষক ও নিয়ন্ত্রকের কার্যালয়ের অধীন অডিটর - ২০১১"
+    ]
+  },
+  {
+    "id": 105,
+    "topicsId": 440,
+    "q": "The old man walks slowly lest ---.",
+    "options": [
+      "he falls",
+      "he may fall",
+      "he should fall",
+      "he fell down"
+    ],
+    "ans": 2,
+    "explain": "Lest-এর পর Clause গঠন করার সময় Subject + should + Verb-এর base form ব্যবহৃত হয়। তাই 'he should fall' সঠিক।",
+    "source": [
+      "১১তম শিক্ষক নিবন্ধন পরীক্ষা (স্কুল/সমপর্যায় ২) -- ২০১৪"
+    ]
+  },
+  {
+    "id": 106,
+    "topicsId": 440,
+    "q": "I told him everything lest he—.",
+    "options": [
+      "misunderstood me",
+      "should misunderstand me",
+      "should not misunderstand me",
+      "misunderstand me"
+    ],
+    "ans": 1,
+    "explain": "Lest নিজেই নেতিবাচক অর্থ প্রকাশ করে, তাই এর পরের অংশে 'not' বসে না। সঠিক গঠনটি হলো 'should misunderstand me'।",
+    "source": [
+      "প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা-২০১০"
+    ]
+  },
+  {
+    "id": 107,
+    "topicsId": 440,
+    "q": "Try hard lest you – fail.",
+    "options": [
+      "may",
+      "might",
+      "should",
+      "would"
+    ],
+    "ans": 2,
+    "explain": "Lest-এর পর Subject + should + V1 বসে।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীন সহকারী পরিচালক (মাদক) ও কারা তত্ত্বাবধায়ক - ০৬, পরিবেশ বন মন্ত্রণালয়ের অধীন পরিবেশ অধিদপ্তরের Field investigator and research assistant : ০৬"
+    ]
+  },
+  {
+    "id": 108,
+    "topicsId": 440,
+    "q": "Keep watch on my bag lest the thief steal it.",
+    "options": [
+      "may not",
+      "should",
+      "should not",
+      "cannot"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'should' উহ্য থাকলেও নিয়মানুযায়ী শূন্যস্থানে 'should' বসলে বাক্যটি সঠিক গঠন পায়।",
+    "source": [
+      "জাতীয় বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা, মানবিকঃ ০৭-০৮"
+    ]
+  },
+  {
+    "id": 109,
+    "topicsId": 440,
+    "q": "Ahraj ran fast lest he -- miss the class.",
+    "options": [
+      "could",
+      "should",
+      "would",
+      "can"
+    ],
+    "ans": 1,
+    "explain": "গ্রামাটিক্যাল নিয়ম অনুযায়ী lest এর পরে modal verb 'should' বসে।",
+    "source": [
+      "শ্রম মন্ত্রণালয়ের অধীনে সহকারী পরিচালকঃ ০৫"
+    ]
+  },
+  {
+    "id": 110,
+    "topicsId": 440,
+    "q": "Keep watch on my bag lest the thief --- steal it.",
+    "options": [
+      "might not",
+      "should",
+      "should not",
+      "cannot"
+    ],
+    "ans": 1,
+    "explain": "Lest যুক্ত clause-এ negation (not) ব্যবহৃত হয় না এবং modal হিসেবে should/might বসে।",
+    "source": [
+      "থানা সহ: শিক্ষা অফিসারঃ ০৫, মাধ্যমিক সহকারী প্রধান শিক্ষকঃ ০৩"
+    ]
+  },
+  {
+    "id": 111,
+    "topicsId": 440,
+    "q": "Find out the correct sentence.",
+    "options": [
+      "I told her everything lest she misunderstands me",
+      "I told her everything lest she should misunderstand me",
+      "I told her everything lest she will misunderstand me",
+      "I told her everything lest she might misunderstand me"
+    ],
+    "ans": 1,
+    "explain": "সঠিক বাক্যটি হলো 'Subject + V1/V2 + lest + Subject + should + V1...'।",
+    "source": [
+      "দুর্যোগ ব্যবস্থাপনা ব্যুরো সহকারী পরিচালকঃ ০১"
+    ]
+  },
+  {
+    "id": 112,
+    "topicsId": 440,
+    "q": "No sooner do the bells ring than the curtain rose.",
+    "options": [
+      "did the bell ring",
+      "did the bells ring",
+      "had the bell rang",
+      "had the bell rung"
+    ],
+    "ans": 3,
+    "explain": "No sooner had... than নিয়মে প্রথম অংশে Past Perfect (had + V3) হয়। 'rang' এর পরিবর্তে 'rung' (V3) বসবে।",
+    "source": [
+      "বাংলাদেশ গ্যাস ফিল্ড পরীক্ষা (সহকারী ব্যবস্থাপক সাধারণ)-২১"
+    ]
+  },
+  {
+    "id": 113,
+    "topicsId": 440,
+    "q": "Hardly had he uttered the words-------",
+    "options": [
+      "than we left the room",
+      "when he began laughing",
+      "as soon as everybody sat down",
+      "the manager came in"
+    ],
+    "ans": 1,
+    "explain": "Hardly had... যুক্ত বাক্যে connective হিসেবে 'when' ব্যবহৃত হয় এবং পরের অংশটি Past Indefinite হয়।",
+    "source": [
+      "The Security Printing Corporation BD Limited (General Officer)-21"
+    ]
+  },
+  {
+    "id": 114,
+    "topicsId": 440,
+    "q": "No sooner had I seen the bird--- it flew away.",
+    "options": [
+      "than",
+      "when",
+      "after",
+      "júst"
+    ],
+    "ans": 0,
+    "explain": "No sooner had... এর সাথে সবসময় 'than' বসে।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশন : বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 115,
+    "topicsId": 440,
+    "q": "No sooner had Kashem left -- Karim came.",
+    "options": [
+      "than",
+      "then",
+      "when",
+      "after"
+    ],
+    "ans": 0,
+    "explain": "No sooner had... এর কো-রিলেটিভ কনজাংশন হলো 'than'।",
+    "source": [
+      "বাংলাদেশ সেতু কর্তৃপক্ষ (ইইঅ) এস্টিমেটর/ সাব - এসিস্ট্যান্ট ইঞ্জিনিয়ার (সিভিল) – 2020"
+    ]
+  },
+  {
+    "id": 116,
+    "topicsId": 440,
+    "q": "……than he left the place.",
+    "options": [
+      "As soon as he saw the police.",
+      "No sooner had he seen the police.",
+      "As soon as he had seen the police.",
+      "No sooner he had see the police."
+    ],
+    "ans": 1,
+    "explain": "বাক্যে 'than' থাকলে শুরুতে 'No sooner had' দিয়ে বাক্য আরম্ভ করতে হয়।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ঃ প্রশাসনিক কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 117,
+    "topicsId": 440,
+    "q": "Hardly had the train stopped:",
+    "options": [
+      "then we got down",
+      "when we got down",
+      "as we got down",
+      "than we got down"
+    ],
+    "ans": 1,
+    "explain": "Hardly had-এর সাথে 'when' বসে। 'than' বসে শুধুমাত্র 'No sooner had'-এর ক্ষেত্রে।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়ের অধীনে সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 118,
+    "topicsId": 440,
+    "q": "No sooner had he reached the station-- the train left.",
+    "options": [
+      "when",
+      "then",
+      "than",
+      "while"
+    ],
+    "ans": 2,
+    "explain": "সঠিক কো-রিলেটিভ কনজাংশন হলো 'than'।",
+    "source": [
+      "বিমান বাংলাদেশ এয়ারলাইন্স লিগ্রাউন্ড সার্ভিস অ্যাসিসটেন্ট ২০১৮/ ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়ের সহকারী প্রোগ্রামার ২০১৭"
+    ]
+  },
+  {
+    "id": 119,
+    "topicsId": 440,
+    "q": "No sooner had we started out for Dhaka—it started to rain.",
+    "options": [
+      "than",
+      "while",
+      "when",
+      "as"
+    ],
+    "ans": 0,
+    "explain": "No sooner had... clause-কে অন্য clause-এর সাথে যুক্ত করতে 'than' ব্যবহৃত হয়।",
+    "source": [
+      "Bangladesh Pertoleum Exploration & Production Company Limited (BAPEX)-17"
+    ]
+  },
+  {
+    "id": 120,
+    "topicsId": 440,
+    "q": "'Scarcely had he come---it started raining' বাক্যের শূন্যস্থানে সঠিক শব্দ বসবে-",
+    "options": [
+      "then",
+      "at once",
+      "when",
+      "after that"
+    ],
+    "ans": 2,
+    "explain": "Scarcely had... এর সাথে 'when' বসে।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা ২০১৭"
+    ]
+  },
+  {
+    "id": 121,
+    "topicsId": 440,
+    "q": "No sooner had we started out for Dhaka -- it started to rain.",
+    "options": [
+      "than",
+      "while",
+      "when",
+      "as"
+    ],
+    "ans": 0,
+    "explain": "নিয়ম অনুযায়ী No sooner-এর সাথে 'than' বসে।",
+    "source": [
+      "বাংলাদেশ ট্যুরিজম বোর্ড হিসাবরক্ষক কর্মকর্তা নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 122,
+    "topicsId": 440,
+    "q": "No sooner had he got the notice----- he changed his direction.",
+    "options": [
+      "as",
+      "than",
+      "before",
+      "after"
+    ],
+    "ans": 1,
+    "explain": "বাক্যে 'than' বসিয়ে দুটি ঘটনাকে যুক্ত করতে হয়।",
+    "source": [
+      "Gas Transmission Company Ltd. (GTCL) সহকারী ব্যবস্থাপক (সাধারণ) নিয়োগ পরীক্ষা-২০১৬"
+    ]
+  },
+  {
+    "id": 123,
+    "topicsId": 440,
+    "q": "No Sooner---than the students stand up.",
+    "options": [
+      "the teacher enter the class",
+      "do the teacher enter the class",
+      "does the teacher enter the class",
+      "had the teacher entered the class"
+    ],
+    "ans": 3,
+    "explain": "No sooner-এর পর inversion হয় (had/did আগে আসে)। 'had the teacher entered' (had + V3) সঠিক গঠন।",
+    "source": [
+      "১১তম শিক্ষক নিবন্ধন পরীক্ষা (স্কুল/সমপর্যায় ২) --২০১৪"
+    ]
+  },
+  {
+    "id": 124,
+    "topicsId": 440,
+    "q": "No sooner had the thief seen the police —",
+    "options": [
+      "than he ran away",
+      "than he run away",
+      "than he had run away",
+      "when he run away"
+    ],
+    "ans": 0,
+    "explain": "Than এর পরের অংশটি Past Indefinite (V2) হয়। তাই 'ran away' সঠিক।",
+    "source": [
+      "১০ম বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (স্কুল/সমপর্যায়-২)-২০১৪"
+    ]
+  },
+  {
+    "id": 125,
+    "topicsId": 440,
+    "q": "No sooner had he reached the station---the train left.",
+    "options": [
+      "when",
+      "then",
+      "than",
+      "while"
+    ],
+    "ans": 2,
+    "explain": "No sooner had... এর সাথে 'than' বসে।",
+    "source": [
+      "বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ে জনশক্তি, কর্মসংস্থান ও প্রশিক্ষণ ব্যুরোর উপপরিচালকঃ ০৭"
+    ]
+  },
+  {
+    "id": 126,
+    "topicsId": 440,
+    "q": "'Scarcely had he come----it started raining'",
+    "options": [
+      "then",
+      "at once",
+      "when",
+      "after that"
+    ],
+    "ans": 2,
+    "explain": "Scarcely had... এর সাথে pairing word হিসেবে 'when' বসে।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক: ০৭"
+    ]
+  },
+  {
+    "id": 127,
+    "topicsId": 440,
+    "q": "------rather tired after their long journey, they did not go to bed.",
+    "options": [
+      "Although they were",
+      "As they were",
+      "Because they were",
+      "Since they were"
+    ],
+    "ans": 0,
+    "explain": "বিপরীতধর্মী ভাব প্রকাশ করতে 'Although' (যদিও) ব্যবহৃত হয়। ক্লান্ত হওয়া সত্ত্বেও তারা ঘুমাতে যায়নি।",
+    "source": [
+      "প্রতিরক্ষা মন্ত্রণালয়ের অধীনে এডমিনিষ্ট্রেশন ও পার্সোনাল অফিসার – ০৬"
+    ]
+  },
+  {
+    "id": 128,
+    "topicsId": 440,
+    "q": "Identify the correct sentence:",
+    "options": [
+      "No sooner had he reached the station the train left.",
+      "No sooner had he reached the station then the train left.",
+      "No sooner had he reached the train had left.",
+      "No sooner had he reached the station than the train left."
+    ],
+    "ans": 3,
+    "explain": "No sooner had-এর পর V3 (reached) এবং connective হিসেবে 'than' ব্যবহৃত হয়।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশন পদের নামঃ বিভিন্ন মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা: ২০১৯/কারিগরি শিক্ষা অধিদপ্তরের অধীনে চিফ ইনস্ট্রাক্টর (নন টেক) : ০৩"
+    ]
+  },
+  {
+    "id": 129,
+    "topicsId": 440,
+    "q": "Choose the correct tense-",
+    "options": [
+      "Scarcely had we started than is began to rain",
+      "Scarcely had we started when it began to rain",
+      "Scarcely had we started but it started to rain",
+      "Scarcely had we been started but it began to rain"
+    ],
+    "ans": 1,
+    "explain": "Scarcely had-এর সাথে connective 'when' বসে এবং পরবর্তী clause-টি Past Indefinite হয়।",
+    "source": [
+      "পিএসসি কর্তৃক নির্ধারিত ১২টি পদঃ ০১"
+    ]
+  },
+  {
+    "id": 130,
+    "topicsId": 440,
+    "q": "Choose the right form of verb: It is high time we (act) on the matter.",
+    "options": [
+      "are acting",
+      "acted",
+      "have acted",
+      "could act"
+    ],
+    "ans": 1,
+    "explain": "It is high time-এর পর subject থাকলে verb-এর past form (V2) হয়।",
+    "source": [
+      "৪৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 131,
+    "topicsId": 440,
+    "q": "It's time you----your mistakes.",
+    "options": [
+      "realized",
+      "have reallsed",
+      "had realised",
+      "realise"
+    ],
+    "ans": 0,
+    "explain": "It is time/It is high time-এর পর clause থাকলে verb-টি past simple-এ হয়।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন স্কুল পর্যায়-২: ২০১৯"
+    ]
+  },
+  {
+    "id": 132,
+    "topicsId": 440,
+    "q": "It was high time we-----our habits.",
+    "options": [
+      "should change",
+      "change",
+      "had changed",
+      "changed"
+    ],
+    "ans": 3,
+    "explain": "অপেক্ষা করার উপযুক্ত সময় অতিবাহিত হয়ে গেছে বোঝাতে 'It is/was high time'-এর পর verb-এর past form হয়।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন -স্কুল পর্যায় (সেটঃ ০৩) : ২০১৯"
+    ]
+  },
+  {
+    "id": 133,
+    "topicsId": 440,
+    "q": "It is high time we --- the place.",
+    "options": [
+      "leave",
+      "have left",
+      "are leaving",
+      "left"
+    ],
+    "ans": 3,
+    "explain": "সঠিক নিয়ম: It is high time + subject + V2 (past form)।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয়ঃ সহকারী শিক্ষক ২০১৯"
+    ]
+  },
+  {
+    "id": 134,
+    "topicsId": 440,
+    "q": "It is high time we (change) our food habit. Here the correct form of verb is",
+    "options": [
+      "should change",
+      "have changed",
+      "should have changed",
+      "changed"
+    ],
+    "ans": 3,
+    "explain": "অতীতের কোনো অসমাপ্ত কাজ করার এখনই উপযুক্ত সময় বোঝাতে past form 'changed' ব্যবহৃত হয়।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন, কলেজ/সমপর্যায়: ২০১৯"
+    ]
+  },
+  {
+    "id": 135,
+    "topicsId": 440,
+    "q": "It is high time we (give up) smoking.",
+    "options": [
+      "give up",
+      "gave up",
+      "given up",
+      "should give up"
+    ],
+    "ans": 1,
+    "explain": "It is high time + subject + V2 নিয়ম অনুযায়ী 'gave up' সঠিক।",
+    "source": [
+      "১৫তম শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা স্কুল পর্যায়-২ ২০১৯"
+    ]
+  },
+  {
+    "id": 136,
+    "topicsId": 440,
+    "q": "It is high time we the place.",
+    "options": [
+      "are leaving",
+      "left",
+      "leave",
+      "have left"
+    ],
+    "ans": 1,
+    "explain": "Subjunctive mood-এর কারণে এখানে past simple 'left' ব্যবহৃত হয়েছে।",
+    "source": [
+      "বাংলাদেশ কোস্ট গার্ড ও কৃষি প্রশিক্ষণ একাডেমির নার্স এবং ফায়ার সার্ভিস অ্যান্ড সিভিল ডিফেন্স-এর ফোরম্যান ২০১৯"
+    ]
+  },
+  {
+    "id": 137,
+    "topicsId": 440,
+    "q": "It is high time he (change) his bad habits.",
+    "options": [
+      "changing",
+      "has changed",
+      "changed",
+      "has been changing"
+    ],
+    "ans": 2,
+    "explain": "Subject 'he' থাকলেও 'It is high time' নিয়মে verb-এর past tense হয়।",
+    "source": [
+      "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (সিভিল) ২০১৯/ ১২তম প্রভাষক নিবন্ধন পরীক্ষা (কলেজ/সমপর্যায়) ২০১৫"
+    ]
+  },
+  {
+    "id": 138,
+    "topicsId": 440,
+    "q": "It is high time we----our food habits.",
+    "options": [
+      "give up",
+      "gave up",
+      "changed",
+      "changing"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'changed' (V2) সঠিক গ্রামাটিক্যাল উত্তর।",
+    "source": [
+      "১১তম শিক্ষক নিবন্ধন পরীক্ষা (স্কুল/সমপর্যায় ২) --২০১৪"
+    ]
+  },
+  {
+    "id": 139,
+    "topicsId": 440,
+    "q": "It is time we----home. Fill the blank with appropriate word.",
+    "options": [
+      "go",
+      "went",
+      "shall go",
+      "will go"
+    ],
+    "ans": 1,
+    "explain": "It is time-এর পর we থাকায় verb-এর past simple 'went' হবে।",
+    "source": [
+      "প্রধানমন্ত্রীর কার্যালয়ের সহকারী পরিচালক, গবেষণা কর্মকর্তা, টেলিফোন ইঞ্জিনিয়ার ও সহকারী কম্পিউটার প্রোগ্রামার ২০১৩"
+    ]
+  },
+  {
+    "id": 140,
+    "topicsId": 440,
+    "q": "It is time you ...for a new job.",
+    "options": [
+      "looked",
+      "looking",
+      "had looked",
+      "look"
+    ],
+    "ans": 0,
+    "explain": "অংশটি It is time + subject দ্বারা শুরু হয়েছে, তাই verb-টি 'looked' হবে।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের উপপরিদর্শক-২০১৩"
+    ]
+  },
+  {
+    "id": 141,
+    "topicsId": 440,
+    "q": "It's time (you realize) your mistakes. Which of the following clauses does best fit in the above sentence ?",
+    "options": [
+      "You realized",
+      "that you realize",
+      "You would realize",
+      "You have realized"
+    ],
+    "ans": 0,
+    "explain": "Realize-এর past form 'realized' ব্যবহার করে clause-টি গঠন করতে হবে।",
+    "source": [
+      "১৩তম বিসিএস/ স্বরাষ্ট্র মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা ব্যক্তিগত কর্মকর্তা ও কারাতত্ত্বাবধায়ক এবং নির্বাচন কমিশন সচিবায়ের প্রশাসনিক কর্মকর্তা ও ব্যক্তিগত কর্মকর্তাঃ ০৬"
+    ]
+  },
+  {
+    "id": 142,
+    "topicsId": 440,
+    "q": "It is high time we-----our earing habits.",
+    "options": [
+      "changed",
+      "should change",
+      "have changing",
+      "change"
+    ],
+    "ans": 0,
+    "explain": "নিয়ম অনুযায়ী 'changed' সঠিক।",
+    "source": [
+      "১০ম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা-২০১৪; ৯ম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা ২০১৩"
+    ]
+  },
+  {
+    "id": 143,
+    "topicsId": 440,
+    "q": "It is high time we – the matter.",
+    "options": [
+      "will discuss",
+      "would discuss",
+      "discussed",
+      "should"
+    ],
+    "ans": 2,
+    "explain": "আলোচনা করার এখনই উপযুক্ত সময়—এরূপ প্রকাশে 'discussed' সঠিক।",
+    "source": [
+      "জগন্নাথ বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা খ ইউনিটঃ ১০-১১"
+    ]
+  },
+  {
+    "id": 144,
+    "topicsId": 440,
+    "q": "He watched the boat --- down the river.",
+    "options": [
+      "to float",
+      "floating",
+      "was floating",
+      "had floated"
+    ],
+    "ans": 1,
+    "explain": "Watch একটি sensory verb; এরপর object থাকলে verb-এর সাথে ing (present participle) যুক্ত হয়।",
+    "source": [
+      "২৯তম বিসিএস"
+    ]
+  },
+  {
+    "id": 145,
+    "topicsId": 440,
+    "q": "He advised me ----smoking.",
+    "options": [
+      "giving up",
+      "to give up",
+      "in giving up",
+      "from giving up"
+    ],
+    "ans": 1,
+    "explain": "Advise + object + to + V1 (infinitive) গঠন ব্যবহৃত হয়।",
+    "source": [
+      "২৫তম বিসিএস/ বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (নিরাপত্তা অপারেটর)-২১"
+    ]
+  },
+  {
+    "id": 146,
+    "topicsId": 440,
+    "q": "Would you mind----- a cup of tea with me ?",
+    "options": [
+      "having to drink",
+      "Having",
+      "drink",
+      "to take"
+    ],
+    "ans": 1,
+    "explain": "Would you mind-এর পর verb-এর সাথে 'ing' যুক্ত হয়। তাই 'Having' সঠিক।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ (সিনিয়র অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 147,
+    "topicsId": 440,
+    "q": "Would you mind -- ---- a cup of tea with me ?",
+    "options": [
+      "to have",
+      "having",
+      "to drink",
+      "drink"
+    ],
+    "ans": 1,
+    "explain": "Would you mind + verb + ing নিয়ম অনুযায়ী 'having' সঠিক।",
+    "source": [
+      "Titas Gas (Managing Director)-21/ কারিগরি শিক্ষা অধিদপ্তর (হিসাব সহকারী/ অফিস সহকারী কাম কম্পিউটার অপারেটর)-২১"
+    ]
+  },
+  {
+    "id": 148,
+    "topicsId": 440,
+    "q": "Would you mind------the order ?",
+    "options": [
+      "To open",
+      "To opening",
+      "Opening",
+      "Open"
+    ],
+    "ans": 2,
+    "explain": "Would you mind-এর পর gerund (V+ing) বসে।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (উচ্চমান সহকারী/ উচ্চমান সহকারী (বেঞ্চ সহকারী)/ড্রাফটসম্যান)-২১)/ BPSC এর সিনিয়র ইন্ট্রাক্টর (TTC)-২১/ কারিগরি শিক্ষা অধিদপ্তর (ইঞ্জিনিয়ারিং কলেজ এর ক্যাশ সরকার/অফিস সহায়ক) -২১"
+    ]
+  },
+  {
+    "id": 149,
+    "topicsId": 440,
+    "q": "I don't mind ...... if you are tired.",
+    "options": [
+      "to drive",
+      "drive",
+      "driving",
+      "to be driving"
+    ],
+    "ans": 2,
+    "explain": "Mind verb-এর পর সাধারণত Gerund (driving) বসে।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (উপ-সহকারী প্রকৌশলী (ই/এম) হিসাব সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 150,
+    "topicsId": 440,
+    "q": "He avoided (make) the same mistake again.",
+    "options": [
+      "to make",
+      "making",
+      "made",
+      "makes"
+    ],
+    "ans": 1,
+    "explain": "Avoid-এর পর সরাসরি Gerund (V+ing) ব্যবহৃত হয়।",
+    "source": [
+      "দুর্নীতি দমন কমিশনের অধীনে উপ-সহকারী পরিচালক পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 151,
+    "topicsId": 440,
+    "q": "Choose the correct sentence-",
+    "options": [
+      "I saw her enter the room",
+      "I saw her to enter the room",
+      "I saw her entering the room",
+      "I saw her to entering the room"
+    ],
+    "ans": 2,
+    "explain": "Sense verb (see) এর পর object থাকলে verb-এর bare infinitive বা present participle হয়। এখানে 'entering' সঠিক।",
+    "source": [
+      "প্রাণি সম্পদ অধিদপ্তরের অধীনে ভিএফ/ এফ এ/ কম্পাউন্ডার পদে নিয়োগ পরীক্ষা-২০২০/ বাণিজ্য মন্ত্রণালয়ের অধীন বাংলাদেশ ট্যারিফ কমিশনের গবেষণা কর্মকর্তা ২০১৮"
+    ]
+  },
+  {
+    "id": 152,
+    "topicsId": 440,
+    "q": "Which of the following sentence is correct ?",
+    "options": [
+      "I heard him to read",
+      "I heard him reading",
+      "I have heard him reading",
+      "I saw him reading"
+    ],
+    "ans": 3,
+    "explain": "See-এর past form 'saw' এরপর object 'him' এবং তারপর V+ing যুক্ত হয়ে বাক্যটি গঠনগতভাবে শুদ্ধ হয়েছে।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের অধীনে কম্পিউটার অপারেটর পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 153,
+    "topicsId": 440,
+    "q": "Would you mind----",
+    "options": [
+      "to open the door",
+      "opened the door",
+      "opens the door",
+      "opening the door"
+    ],
+    "ans": 3,
+    "explain": "বিনয় প্রকাশে 'Would you mind' এর পর Gerund 'opening the door' ব্যবহৃত হয়।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোর অধীনে পরিসংখ্যান সহকারী পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 154,
+    "topicsId": 440,
+    "q": "Would you mind --- the window.",
+    "options": [
+      "open",
+      "opening",
+      "have opened",
+      "to open"
+    ],
+    "ans": 1,
+    "explain": "Would you mind এরপর 'opening' (V+ing) সঠিক।",
+    "source": [
+      "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের প্রত্নতত্ত্ব অধিদপ্তরের এস্টিমেটর ২০১৯"
+    ]
+  },
+  {
+    "id": 155,
+    "topicsId": 440,
+    "q": "The weather tends----in May.",
+    "options": [
+      "to improve",
+      "improving",
+      "improved",
+      "improvement"
+    ],
+    "ans": 0,
+    "explain": "Tend verb-এর পর infinitive (to + V1) বসে।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 156,
+    "topicsId": 440,
+    "q": "He likes to travel, and-----she",
+    "options": [
+      "does so",
+      "so does",
+      "so do",
+      "do so"
+    ],
+    "ans": 1,
+    "explain": "Affirmative agreement-এর ক্ষেত্রে 'so + auxiliary verb + subject' গঠন হয়। 'she' ৩য় ব্যক্তি একবচন হওয়ায় 'does' বসবে।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 157,
+    "topicsId": 440,
+    "q": "Would that I-----to college.",
+    "options": [
+      "can go",
+      "shall go",
+      "might have gone",
+      "could go"
+    ],
+    "ans": 1,
+    "explain": "ইচ্ছা প্রকাশ করতে 'Would that' থাকলে subject-এর পর 'could' বা 'might' বসে। যদিও অপশনে প্রিন্টিং মিস্টেক থাকতে পারে, গ্রামাটিক্যালি 'could go' বা 'might have gone' এর কাছাকাছি উত্তর হিসেবে ১ ধরা হয়েছে (যদি অপশন পুনর্বিন্যাস করা হয়)।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 158,
+    "topicsId": 440,
+    "q": "Thieves----- into my house.",
+    "options": [
+      "came",
+      "broke",
+      "visit",
+      "went"
+    ],
+    "ans": 1,
+    "explain": "চোর ঘরে সিঁধ কাটা বা জোর করে ঢোকা অর্থে 'break into' (Past: broke into) ব্যবহৃত হয়।",
+    "source": [
+      "শিক্ষা মন্ত্রাণালয় নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 159,
+    "topicsId": 440,
+    "q": "My uncle considered------ his business, when it was running really low.",
+    "options": [
+      "sell",
+      "selling",
+      "to sell",
+      "to be selling"
+    ],
+    "ans": 2,
+    "explain": "Consider-এর পর Gerund (selling) বসার কথা থাকলেও, অনেক ক্ষেত্রে infinitive ব্যবহারের প্রচলন আছে। তবে প্রমিত ব্যাকরণ অনুযায়ী 'selling' সঠিক হওয়া উচিত (এখানে অপশন ৩ বা ২ নিয়ে বিতর্ক থাকতে পারে)।",
+    "source": [
+      "শিক্ষা মন্ত্রণালয় নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 160,
+    "topicsId": 440,
+    "q": "Birds of a feather --- together.",
+    "options": [
+      "go",
+      "Live",
+      "travel",
+      "flock"
+    ],
+    "ans": 3,
+    "explain": "এটি একটি প্রবাদ বাক্য (Proverb): 'Birds of a feather flock together' যার অর্থ চোর চোর মাসতুত ভাই।",
+    "source": [
+      "শিক্ষা মন্ত্রণালয় নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 161,
+    "topicsId": 440,
+    "q": "Don't you dare-----your voice with me!",
+    "options": [
+      "rise",
+      "raise",
+      "raised",
+      "to raise"
+    ],
+    "ans": 3,
+    "explain": "Dare-এর পর to-infinitive বসানো যায়। কণ্ঠস্বর উঁচানো অর্থে 'to raise' সঠিক।",
+    "source": [
+      "শিক্ষা মন্ত্রণালয় নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 162,
+    "topicsId": 440,
+    "q": "I opened the door as soon as I --- the bell.",
+    "options": [
+      "have heard",
+      "was hearing",
+      "heard",
+      "listen"
+    ],
+    "ans": 2,
+    "explain": "As soon as যুক্ত বাক্যের উভয় অংশ সাধারণত একই টেন্সে (Past Indefinite) হয়।",
+    "source": [
+      "শিক্ষা মন্ত্রণালয় নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 163,
+    "topicsId": 440,
+    "q": "Why------angry with me yesterday ?",
+    "options": [
+      "were you",
+      "was you",
+      "you were",
+      "have been you"
+    ],
+    "ans": 2,
+    "explain": "ইন্টারোগেটিভ বাক্যে 'Why' এর পর auxiliary verb বসে। 'you'-এর সাথে 'were' হয়। সঠিক বাক্য: 'Why were you...'",
+    "source": [
+      "শিক্ষা মন্ত্রাণালয় নিয়োগ পরীক্ষা-২০১৭; বাংলাদেশ ট্যুরিজম বোর্ড হিসাবরক্ষক কর্মকর্তা নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 164,
+    "topicsId": 440,
+    "q": "Will you mind-----the accounts one more time ?",
+    "options": [
+      "checking",
+      "to check",
+      "checked",
+      "check"
+    ],
+    "ans": 0,
+    "explain": "Would/Will you mind-এর পর verb+ing (checking) হয়।",
+    "source": [
+      "বাংলাদেশ জুট মিল করপোরেশনের অফিসার ২০১৭/ ডাক অধিদপ্তরের উপজেলা পোস্ট মাস্টার-১০"
+    ]
+  },
+  {
+    "id": 165,
+    "topicsId": 440,
+    "q": "She --- in this house for years.",
+    "options": [
+      "has lived",
+      "lives",
+      "lived",
+      "has been living",
+      "ক ও ঘ"
+    ],
+    "ans": 4,
+    "explain": "দীর্ঘদিন ধরে বসবাস করা অর্থে Present Perfect এবং Present Perfect Continuous উভয়ই সঠিক হতে পারে।",
+    "source": [
+      "বাংলাদেশ ট্যুরিজম বোর্ড হিসাবরক্ষক কর্মকর্তা নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 166,
+    "topicsId": 440,
+    "q": "My uncle considered-----his business, when it was running really low.",
+    "options": [
+      "sell",
+      "selling",
+      "to sell",
+      "to be selling"
+    ],
+    "ans": 1,
+    "explain": "Consider-এর পর Gerund (selling) বসে।",
+    "source": [
+      "বাংলাদেশ ট্যুরিজম বোর্ড হিসাবরক্ষক কর্মকর্তা নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 167,
+    "topicsId": 440,
+    "q": "-------Cricket ?",
+    "options": [
+      "Have you ever played",
+      "Have you ever play",
+      "Has you ever played",
+      "Do you ever played"
+    ],
+    "ans": 0,
+    "explain": "কখনো খেলেছো কি—এরূপ প্রশ্নে Present Perfect (Have you ever + V3) ব্যবহৃত হয়।",
+    "source": [
+      "বাংলাদেশ ট্যুরিজম বোর্ড হিসাবরক্ষক কর্মকর্তা নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 168,
+    "topicsId": 440,
+    "q": "Fill in the blank: Turjo --- the tree with an axe.",
+    "options": [
+      "cut down",
+      "cut off",
+      "cut out",
+      "cut in"
+    ],
+    "ans": 0,
+    "explain": "গাছ কেটে ফেলা অর্থে 'cut down' ব্যবহৃত হয়।",
+    "source": [
+      "পরিসংখ্যান ব্যুরোর জুনিয়ন পরিসংখ্যান সহকারী ২০১৬"
+    ]
+  },
+  {
+    "id": 169,
+    "topicsId": 440,
+    "q": "Correct the sentence 'The father could not help but cry at his condition'.",
+    "options": [
+      "cry on",
+      "cry for",
+      "crying",
+      "no correction"
+    ],
+    "ans": 2,
+    "explain": "Could not help-এর পর verb-এর সাথে 'ing' যুক্ত হয়। তাই 'crying' সঠিক।",
+    "source": [
+      "ডাক অধিদপ্তরের উপজেলা পোষ্টমাস্টার ২০১৬"
+    ]
+  },
+  {
+    "id": 170,
+    "topicsId": 440,
+    "q": "I can't help –",
+    "options": [
+      "to smoke",
+      "smoking",
+      "for smoking",
+      "but smoke"
+    ],
+    "ans": 1,
+    "explain": "Can't help-এর পর verb+ing বসে।",
+    "source": [
+      "পরিসংখ্যান ব্যুরোর জুনিয়ন পরিসংখ্যান সহকারী ২০১৬"
+    ]
+  },
+  {
+    "id": 171,
+    "topicsId": 440,
+    "q": "Would you mind (sing) a song ?",
+    "options": [
+      "to sing",
+      "Sang",
+      "Sung",
+      "singing"
+    ],
+    "ans": 3,
+    "explain": "Would you mind + Gerund (singing) সঠিক গঠন।",
+    "source": [
+      "সহকারী উপজেলা/থানা শিক্ষা অফিসার (ATEO) ২০১৫"
+    ]
+  },
+  {
+    "id": 172,
+    "topicsId": 440,
+    "q": "I don't mind with the cooking but I am not going to wash the dishes.",
+    "options": [
+      "to help",
+      "help",
+      "helping",
+      "for helping"
+    ],
+    "ans": 2,
+    "explain": "Don't mind-এর পর 'helping' (V+ing) বসে।",
+    "source": [
+      "বাতিলকৃত ২৪তম বিসিএস,বাংলাদেশ পল্লী উন্নয়ন বোর্ডের উপজেলা পল্লী উন্নয়ন কর্মকর্তা ২০১৩"
+    ]
+  },
+  {
+    "id": 173,
+    "topicsId": 440,
+    "q": "Would you mind----a folk song.",
+    "options": [
+      "For",
+      "Singing",
+      "Sing",
+      "In"
+    ],
+    "ans": 1,
+    "explain": "সঠিক উত্তর 'Singing' (Gerund)।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তর পরিবারকল্যাণ পরিদর্শিকা (FWV) প্রশিণার্থী-২০১৩"
+    ]
+  },
+  {
+    "id": 174,
+    "topicsId": 440,
+    "q": "Would you mind (to take) simply a cup of coffee ?",
+    "options": [
+      "to take",
+      "taken",
+      "taking",
+      "for taking"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'taking' সঠিক উত্তর।",
+    "source": [
+      "প্রাক প্রাথমিক সহকারী শিক্ষক নিয়োগ : ২০১৩"
+    ]
+  },
+  {
+    "id": 175,
+    "topicsId": 440,
+    "q": "Would you mind------- ?",
+    "options": [
+      "to open the door",
+      "opened the door",
+      "opens the door",
+      "opening the door"
+    ],
+    "ans": 3,
+    "explain": "V+ing যুক্ত অংশ 'opening the door' সঠিক।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের সহকারী পরিচালকঃ ২০১১"
+    ]
+  },
+  {
+    "id": 176,
+    "topicsId": 440,
+    "q": "সঠিক Sentence কোনটি ?",
+    "options": [
+      "Will you mind to go there",
+      "Would you mind going there",
+      "will you mind going there?",
+      "Would you mind to go there?"
+    ],
+    "ans": 1,
+    "explain": "Would you mind going... বাক্যটি ব্যাকরণগতভাবে সঠিক।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় প্রধান শিক্ষকঃ ০১"
+    ]
+  },
+  {
+    "id": 177,
+    "topicsId": 440,
+    "q": "I cannot help-------there.",
+    "options": [
+      "to go",
+      "went",
+      "going",
+      "have gone"
+    ],
+    "ans": 2,
+    "explain": "Can't help + Gerund (going) ব্যবহৃত হয়।",
+    "source": [
+      "৯ম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা ২০১৩"
+    ]
+  },
+  {
+    "id": 178,
+    "topicsId": 440,
+    "q": "He couldn't help (write) the letter.",
+    "options": [
+      "to write",
+      "wrote",
+      "writing",
+      "written"
+    ],
+    "ans": 2,
+    "explain": "নিয়ম অনুযায়ী 'writing' সঠিক।",
+    "source": [
+      "প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা : ২০১০"
+    ]
+  },
+  {
+    "id": 179,
+    "topicsId": 440,
+    "q": "She tried to be serious but she couldn't help ---",
+    "options": [
+      "laughing",
+      "to laugh",
+      "laugh",
+      "that to laugh"
+    ],
+    "ans": 0,
+    "explain": "হাসি থামাতে না পারা অর্থে 'couldn't help laughing' ব্যবহৃত হয়।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা খ ইউনিটঃ ০৭-০৮"
+    ]
+  },
+  {
+    "id": 180,
+    "topicsId": 440,
+    "q": "There are people who can't help --- when they see someone slip on a banana skin.",
+    "options": [
+      "crying",
+      "laughing",
+      "shouting",
+      "anything"
+    ],
+    "ans": 1,
+    "explain": "প্রসঙ্গ অনুযায়ী 'laughing' সঠিক অর্থ প্রকাশ করে।",
+    "source": [
+      "কর্মসংস্থান মন্ত্রণালয়ের অধীন শ্রম অধিদপ্তরের সহকারী শ্রম পরিচালকঃ ০৬"
+    ]
+  },
+  {
+    "id": 181,
+    "topicsId": 440,
+    "q": "She could not but------there.",
+    "options": [
+      "help going",
+      "goes",
+      "has gone",
+      "go"
+    ],
+    "ans": 3,
+    "explain": "Can not but-এর পর verb-এর base form (go) বসে।",
+    "source": [
+      "১০ম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা : ২০১৪"
+    ]
+  },
+  {
+    "id": 182,
+    "topicsId": 440,
+    "q": "I took a map with me, as I didn't want to---- my way on the journey.",
+    "options": [
+      "loose (ঢিলা বা শিথিল)",
+      "lose (হারানো)",
+      "lost (হারিয়েছিল)",
+      "loss (ক্ষতি)"
+    ],
+    "ans": 1,
+    "explain": "পথ হারানো অর্থে 'lose' (verb) ব্যবহৃত হয়।",
+    "source": [
+      "২৭তম বিসিএস"
+    ]
+  },
+  {
+    "id": 183,
+    "topicsId": 440,
+    "q": "Identify the correct sentence;",
+    "options": [
+      "He was working hard to standing first.",
+      "He is working hardly to stand first",
+      "He is working hard to stand first",
+      "He works hard to standing first"
+    ],
+    "ans": 2,
+    "explain": "উদ্দেশ্য বোঝাতে 'to + V1' (infinitive) ব্যবহৃত হয় এবং কঠোর পরিশ্রম অর্থে 'hard' (adverb) বসে।",
+    "source": [
+      "বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশনঃ ১৩-১৬তম গ্রেড এর কর্মচারী ২০১৯"
+    ]
+  },
+  {
+    "id": 184,
+    "topicsId": 440,
+    "q": "My parents did not agree – my proposal.",
+    "options": [
+      "to",
+      "on",
+      "with",
+      "over"
+    ],
+    "ans": 0,
+    "explain": "কারো প্রস্তাবের সাথে একমত হওয়া অর্থে 'agree to' (proposal) ব্যবহৃত হয়।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর ওয়ারলেস অপারেটর ২০১৮"
+    ]
+  },
+  {
+    "id": 185,
+    "topicsId": 440,
+    "q": "He intends to -- in the country for two months.",
+    "options": [
+      "live",
+      "stay",
+      "stop",
+      "halt"
+    ],
+    "ans": 1,
+    "explain": "অস্থায়ীভাবে অবস্থান করা অর্থে 'stay' বেশি উপযোগী।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 186,
+    "topicsId": 440,
+    "q": "Many scientists are still hoping – life on another planet.",
+    "options": [
+      "to have found",
+      "to find",
+      "to have been found",
+      "finding"
+    ],
+    "ans": 1,
+    "explain": "Hope-এর পর infinitive (to + V1) বসে।",
+    "source": [
+      "বাংলাদেশ পল্লী উন্নয়ন বোর্ডের উপজেলা পল্লী উন্নয়ন কর্মকর্তা ২০১৩"
+    ]
+  },
+  {
+    "id": 187,
+    "topicsId": 440,
+    "q": "Which of the following is grammatically correct ?",
+    "options": [
+      "I prefer walking to riding",
+      "I do not know to write",
+      "He gave me a pen to write",
+      "He gave me a lot of information"
+    ],
+    "ans": 0,
+    "explain": "Prefer-এর পর দুটি gerund-কে 'to' দ্বারা যুক্ত করার নিয়মটি সঠিক।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের প্রবেশন অফিসার -২০১৩"
+    ]
+  },
+  {
+    "id": 188,
+    "topicsId": 440,
+    "q": "Fill the blank with correct word. The woman was seen - the ring in her bag.",
+    "options": [
+      "Putting",
+      "put in",
+      "put on",
+      "was putting"
+    ],
+    "ans": 0,
+    "explain": "Passive-এর পর present participle 'putting' দ্বারা অবস্থা প্রকাশ করা হয়েছে।",
+    "source": [
+      "RPA উপজেলা/ থানা শিক্ষা অফিসার-২০১০"
+    ]
+  },
+  {
+    "id": 189,
+    "topicsId": 440,
+    "q": "Fill in the gap with proper word : I saw him —",
+    "options": [
+      "go",
+      "went",
+      "going",
+      "gone"
+    ],
+    "ans": 2,
+    "explain": "তাকে যেতে দেখেছি—এরূপ অবস্থায় object-এর পর V+ing (going) বসে।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীন আনসার ও ভিডিপি অধিদপ্তরের সার্কেল অ্যাডজুট্যান্ট ২০১০"
+    ]
+  },
+  {
+    "id": 190,
+    "topicsId": 440,
+    "q": "He (dare) go there.",
+    "options": [
+      "He dares to go there",
+      "He dares go there",
+      "He dares to go there",
+      "He is dares to go"
+    ],
+    "ans": 0,
+    "explain": "Dare যখন মূল verb হয় তখন পরবর্তী verb-এর আগে 'to' বসে।",
+    "source": [
+      "পরিকল্পনা মন্ত্রণালয় ডাটা প্রসেসিং অপারেটরঃ ০২"
+    ]
+  },
+  {
+    "id": 191,
+    "topicsId": 440,
+    "q": "The teacher asked the boys to stop --- .which of the following is the correct verb from in the blank above ?",
+    "options": [
+      "Writing",
+      "to write",
+      "Write",
+      "for writing"
+    ],
+    "ans": 0,
+    "explain": "কোনো কাজ বন্ধ করা অর্থে Stop-এর পর gerund (writing) ব্যবহৃত হয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সরকারী শিক্ষক-০৩"
+    ]
+  },
+  {
+    "id": 192,
+    "topicsId": 440,
+    "q": "I had committed myself to----it when I sent for a rifle.",
+    "options": [
+      "do",
+      "doing",
+      "be done",
+      "have done"
+    ],
+    "ans": 0,
+    "explain": "Commit oneself to-এর পর verb-এর base form ব্যবহৃত হওয়ার উদাহরণ অনেক ক্ষেত্রে পাওয়া যায়, তবে প্রচলিত নিয়মে 'doing' (V+ing) হওয়ার কথা। অপশন অনুযায়ী ১ সঠিক ধরা হয়েছে।",
+    "source": [
+      "মাধ্যমিক বিদ্যালয় প্রধান শিক্ষক : ০২"
+    ]
+  },
+  {
+    "id": 193,
+    "topicsId": 440,
+    "q": "Choose the correct sentence —",
+    "options": [
+      "Death is preferable than dishonour",
+      "Death is more preferable than dishonour",
+      "Death is more preferable then dishonour",
+      "Death is preferable to dishonour"
+    ],
+    "ans": 3,
+    "explain": "Preferable-এর পর সবসময় preposition 'to' বসে, 'than' নয়।",
+    "source": [
+      "প্রাক-প্রাথমিক বিদ্যালয় সহকারী ও প্রধান শিক্ষক নিয়োগ পরীক্ষা ২০১৫"
+    ]
+  },
+  {
+    "id": 194,
+    "topicsId": 440,
+    "q": "Choose the right sentence -",
+    "options": [
+      "He is senior than me for five years.",
+      "He is senior to me for five years.",
+      "He is senior from me five years.",
+      "He is senior at me for five years."
+    ],
+    "ans": 1,
+    "explain": "ল্যাটিন কম্পারেটিভ (Senior) এর পরে অ্যাপ্রোপ্রিয়েট প্রিপজিশন হিসেবে 'to' বসে।",
+    "source": [
+      "জাতীয় ভোক্তা অধিকার সংরক্ষণ অধিদপ্তরের ব্যক্তিগত সহকারী ২০১৩"
+    ]
+  },
+  {
+    "id": 195,
+    "topicsId": 440,
+    "q": "Fill in the blank with right option : I am looking forward -- you.",
+    "options": [
+      "to seeing",
+      "seeing",
+      "to see",
+      "to have seen"
+    ],
+    "ans": 0,
+    "explain": "Look forward to, with a view to, get used to, be used to ইত্যাদির পরে ভার্বের সাথে ing যুক্ত হয় (Gerund)। তাই 'to seeing' সঠিক।",
+    "source": [
+      "২৬তম বিসিএস/ খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১/ খাদ্য অধিদপ্তর (উপ-খাদ্য পরিদর্শক) -২১/ বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (এরোড্রাম কর্মকর্তা (এটিএম)/উপ-সহকারী প্রকৌশলী (সিভিল)/অন্যান্য)-২১/ কারিগরি শিক্ষা অধিদপ্তরের নিয়োগ-২০২১/ কারিগরি শিক্ষা অধিদপ্তর (ইঞ্জিনিয়ারিং কলেজ এর ক্যাশ সরকার/অফিস সহায়ক) -২১/ বাংলাদেশ পরিসংখ্যান ব্যুরোর অধীনে থানা পরিসংখ্যান পদে নিয়োগ পরীক্ষা-২০২০/ রেলপথ মন্ত্রণালয়ের অধীন বাংলাদেশ রেলওয়ের উপসহকারী প্রকৌশলী (ব্রিজ) ২০১৮/ প্রধানমন্ত্রীর কার্যালয়ের নিয়োগ পরীক্ষা (NSI)-2017"
+    ]
+  },
+  {
+    "id": 196,
+    "topicsId": 440,
+    "q": "We look forward – a response from you ?",
+    "options": [
+      "to receiving",
+      "for receiving",
+      "in receiving",
+      "to receive"
+    ],
+    "ans": 0,
+    "explain": "'Look forward to' এর পরে ভার্বের বেস ফর্মের সাথে ing যুক্ত হয়। তাই সঠিক উত্তর 'to receiving'।",
+    "source": [
+      "দুর্নীতি দমন কমিশনের অধীনে উপ-সহকারী পরিচালক পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 197,
+    "topicsId": 440,
+    "q": "She was used to----- the poor.",
+    "options": [
+      "Help",
+      "Helped",
+      "Helping",
+      "To help"
+    ],
+    "ans": 2,
+    "explain": "সাধারণত 'used to' এর পর ভার্বের বেস ফর্ম বসে, কিন্তু be (am/is/are/was/were) + used to থাকলে এরপর ভার্বের সাথে ing যুক্ত হয়।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন : ২০১৯"
+    ]
+  },
+  {
+    "id": 198,
+    "topicsId": 440,
+    "q": "Would you mind-----the window, please ?",
+    "options": [
+      "if closing",
+      "closing",
+      "for closing",
+      "to close"
+    ],
+    "ans": 1,
+    "explain": "'Would you mind' এর পর কোনো ভার্ব আসলে তার সাথে ing যুক্ত হয়। তাই 'closing' সঠিক।",
+    "source": [
+      "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 199,
+    "topicsId": 440,
+    "q": "Would you mind----me a cup of tea ?",
+    "options": [
+      "giving",
+      "make",
+      "bringing",
+      "bring"
+    ],
+    "ans": 2,
+    "explain": "'Would you mind' এরপর ভার্বের সাথে ing যুক্ত হয়। এখানে চা নিয়ে আসার প্রেক্ষাপটে 'bringing' অর্থবহ ও ব্যাকরণগতভাবে সঠিক।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন, কলেজ/সমপর্যায়: ২০১৯"
+    ]
+  },
+  {
+    "id": 200,
+    "topicsId": 440,
+    "q": "Would you mind----a cup of coffee with me ?",
+    "options": [
+      "having",
+      "having to drink",
+      "drink",
+      "to take"
+    ],
+    "ans": 0,
+    "explain": "'Would you mind' এর পর ভার্বের সাথে ing যুক্ত হয়। পান করা বা খাওয়ার ক্ষেত্রে 'having' এর ব্যবহার প্রচলিত ও সঠিক।",
+    "source": [
+      "উপজেলা/আরবান প্রোগ্রামঃ কো-অর্ডিনেটর ২০২০"
+    ]
+  },
+  {
+    "id": 201,
+    "topicsId": 440,
+    "q": "Fill up the gap: I went to the market with a view to---- a book.",
+    "options": [
+      "bought",
+      "buy",
+      "being bought",
+      "buying"
+    ],
+    "ans": 3,
+    "explain": "'With a view to' একটি ফ্রেজ যার পরে ভার্বের সাথে ing যুক্ত হয়। তাই 'buying' সঠিক।",
+    "source": [
+      "যুব উন্নয়ন অধিদপ্তরঃ ক্রেডিট সুপাভাইজার ২০১৯"
+    ]
+  },
+  {
+    "id": 202,
+    "topicsId": 440,
+    "q": "They came to Dhaka with a view to------.",
+    "options": [
+      "visit",
+      "visited",
+      "visiting",
+      "have visited"
+    ],
+    "ans": 2,
+    "explain": "একই নিয়ম: 'with a view to' এর পরে 'visiting' বসবে।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর ওয়ারলেস অপারেটর ২০১৮"
+    ]
+  },
+  {
+    "id": 203,
+    "topicsId": 440,
+    "q": "I went to the fair with a view — a book.",
+    "options": [
+      "to buy",
+      "for buying",
+      "for buy",
+      "to buying"
+    ],
+    "ans": 3,
+    "explain": "'With a view' এর সাথে 'to' বসে এবং এরপর ভার্বের সাথে ing যুক্ত হয়। অর্থাৎ 'with a view to buying'।",
+    "source": [
+      "বিমান বাংলাদেশ এয়ারলাইন্স লিগ্রাউন্ড সার্ভিস অ্যাসিসটেন্ট ২০১৮"
+    ]
+  },
+  {
+    "id": 204,
+    "topicsId": 440,
+    "q": "It is worth-----that the project was completed in three months.",
+    "options": [
+      "in mentioning",
+      "of mention",
+      "mentioning",
+      "to mention"
+    ],
+    "ans": 2,
+    "explain": "Worth শব্দটির পর সরাসরি ভার্বের সাথে ing (Gerund) যুক্ত হয়। তাই 'mentioning' সঠিক।",
+    "source": [
+      "পিএসসি'র নিয়োগ পরীক্ষা-২০১৭/ শিল্প মন্ত্রণালয়ের নিয়োগ পরীক্ষা-২০১৬"
+    ]
+  },
+  {
+    "id": 205,
+    "topicsId": 440,
+    "q": "The man came here with a view to---",
+    "options": [
+      "see his mother",
+      "have seen his mother",
+      "seeing his mother",
+      "have to see his mother"
+    ],
+    "ans": 2,
+    "explain": "'With a view to' এর পর 'seeing his mother' সঠিক।",
+    "source": [
+      "প্রধানমন্ত্রীর কার্যালয়ের সহকারী পরিচালক, গবেষণা কর্মকর্তা, টেলিফোন ইঞ্জিনিয়ার ও সহকারী কম্পিউটার প্রোগ্রামার ২০১৩"
+    ]
+  },
+  {
+    "id": 206,
+    "topicsId": 440,
+    "q": "He came to Dhaka with a view to ---- a new place.",
+    "options": [
+      "visit",
+      "visiting",
+      "watch",
+      "look"
+    ],
+    "ans": 1,
+    "explain": "'With a view to' এর পরে ভার্বের ing ফর্ম 'visiting' বসবে।",
+    "source": [
+      "১১তম বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (স্কুল/সমপর্যায়)—২০১৪"
+    ]
+  },
+  {
+    "id": 207,
+    "topicsId": 440,
+    "q": "They thought that the plan would –",
+    "options": [
+      "succeeded",
+      "be succeeded",
+      "succeed",
+      "success"
+    ],
+    "ans": 2,
+    "explain": "মডাল অক্সিলারি (would) এর পর ভার্বের বেস ফর্ম (Present form) বসে। 'Succeed' হলো ভার্ব, 'Success' হলো নাউন।",
+    "source": [
+      "সহকারী পল্লী উন্নয়ন কর্মকর্তা-২০১২"
+    ]
+  },
+  {
+    "id": 208,
+    "topicsId": 440,
+    "q": "No man can -------------alone.",
+    "options": [
+      "live",
+      "lives",
+      "living",
+      "lived"
+    ],
+    "ans": 0,
+    "explain": "মডাল অক্সিলারি 'can' এর পর ভার্বের বেস ফর্ম 'live' বসে।",
+    "source": [
+      "খাদ্য অধিদপ্তরের সহকারী উপ-খাদ্য পরিদর্শক/অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক-২০১২"
+    ]
+  },
+  {
+    "id": 209,
+    "topicsId": 440,
+    "q": "Fill in the blank with right option, She is looking forward—me.",
+    "options": [
+      "to meet",
+      "to meeting",
+      "meeting",
+      "for meeting"
+    ],
+    "ans": 1,
+    "explain": "'Looking forward to' এর পরে 'meeting' (verb+ing) বসবে।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা, গ ইউনিটঃ ০৭-০৮"
+    ]
+  },
+  {
+    "id": 210,
+    "topicsId": 440,
+    "q": "I went to the market with a view to--- a book.",
+    "options": [
+      "bought",
+      "buy",
+      "buying",
+      "being bought"
+    ],
+    "ans": 2,
+    "explain": "'With a view to' এরপর Gerund (buying) ব্যবহৃত হয়।",
+    "source": [
+      "গণমাধ্যম ইনস্টিটিউটের সহকারী পরিচালক (গণযোগাযোগ প্রশিক্ষণ) : ০৩"
+    ]
+  },
+  {
+    "id": 211,
+    "topicsId": 440,
+    "q": "People ---- aeroplanes now-a-days.",
+    "options": [
+      "used to see",
+      "were used to seeing",
+      "used to seeing",
+      "are used to seeing"
+    ],
+    "ans": 3,
+    "explain": "বর্তমানে কোনো কাজে অভ্যস্ত বুঝাতে be verb + used to + verb+ing ব্যবহৃত হয়। যেহেতু Subject বহুবচন (People), তাই 'are used to seeing' সঠিক।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা খ ইউনিট ২০০৭-০৮"
+    ]
+  },
+  {
+    "id": 212,
+    "topicsId": 440,
+    "q": "I am not used to -- at this time of the day.",
+    "options": [
+      "walking",
+      "walk",
+      "walked",
+      "have walked"
+    ],
+    "ans": 0,
+    "explain": "Be verb (am) + used to এর পরে ভার্বের সাথে ing যুক্ত হয়। তাই 'walking' সঠিক।",
+    "source": [
+      "প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের অধীন জনশক্তি কর্মসংস্থান ও প্রশিক্ষণ ব্যুরোর উপ-পরিচালকঃ ০৭"
+    ]
+  },
+  {
+    "id": 213,
+    "topicsId": 440,
+    "q": "I went to the market with a view to --- a book.",
+    "options": [
+      "bought",
+      "buy",
+      "buying",
+      "being bought"
+    ],
+    "ans": 2,
+    "explain": "একই নিয়ম: 'with a view to' + verb+ing (buying)।",
+    "source": [
+      "সহ: পরিচালক - যুব উন্নয়ন ১৯"
+    ]
+  },
+  {
+    "id": 214,
+    "topicsId": 440,
+    "q": "Which one is the right in use ?",
+    "options": [
+      "It is no good of to talk to him",
+      "To kalk him of no good",
+      "It's no use talking to him",
+      "It's of no use how talking to him"
+    ],
+    "ans": 2,
+    "explain": "'It is no use' বা 'There is no use' ফ্রেজটির পর ভার্বের সাথে ing যুক্ত হয়। তাই অপশন ৩ সঠিক।",
+    "source": [
+      "মাধ্যমিক বিদ্যালয় সহকারী শিক্ষকঃ ০১"
+    ]
+  },
+  {
+    "id": 215,
+    "topicsId": 440,
+    "q": "He insisted----there. (Fill in the gap)",
+    "options": [
+      "on my going",
+      "is to go",
+      "over going",
+      "to go"
+    ],
+    "ans": 0,
+    "explain": "Insist এর পর অ্যাপ্রোপ্রিয়েট প্রিপজিশন 'on' বসে। প্রিপজিশনের পর ভার্বের ing ফর্ম হয় এবং তার আগে possessive pronoun (my) বসতে পারে। তাই 'on my going' সঠিক।",
+    "source": [
+      "৩৬তম বিসিএস / কারিগরি শিক্ষা অধিদপ্তরের নিয়োগ-২০২১"
+    ]
+  },
+  {
+    "id": 216,
+    "topicsId": 440,
+    "q": "'The engineer insists on----good materials.'",
+    "options": [
+      "use",
+      "using",
+      "to use",
+      "the use"
+    ],
+    "ans": 1,
+    "explain": "Preposition 'on' এর পর ভার্বের সাথে ing যুক্ত হয়ে 'using' হবে।",
+    "source": [
+      "ডাক ও টেলিযোগাযোগ বিভাগের অধীন ডাক অধিদপ্তরের বিল্ডিং ওডারশিয়ার ২০১৮"
+    ]
+  },
+  {
+    "id": 217,
+    "topicsId": 440,
+    "q": "We insist on --- leaving the room.",
+    "options": [
+      "you",
+      "your",
+      "you for",
+      "you after"
+    ],
+    "ans": 1,
+    "explain": "Gerund (leaving) এর পূর্বে possessive adjective (your) বসে।",
+    "source": [
+      "বাংলাদেশ ট্যুরিজম বোর্ড হিসাবরক্ষক কর্মকর্তা নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 218,
+    "topicsId": 440,
+    "q": "He worked instead of---",
+    "options": [
+      "playing",
+      "play",
+      "played",
+      "having played"
+    ],
+    "ans": 0,
+    "explain": "Instead of একটি প্রিপজিশনাল ফ্রেজ, এর পরে ভার্বের সাথে ing যুক্ত হয়ে 'playing' হবে।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীন পাসপোর্ট ও ইমিগ্রেশন অধিদপ্তরের সহকারী পরিচালকঃ ০৭"
+    ]
+  },
+  {
+    "id": 219,
+    "topicsId": 440,
+    "q": "`My father insists on—quality materials for the construction of our new house'",
+    "options": [
+      "use",
+      "to use",
+      "the use",
+      "using"
+    ],
+    "ans": 3,
+    "explain": "Insist on এর পর ভার্বের সাথে ing যুক্ত হয়। তাই 'using' সঠিক।",
+    "source": [
+      "আবহাওয়া অধিদপ্তরের সহকারী আবহাওয়াবিদঃ ০০"
+    ]
+  },
+  {
+    "id": 220,
+    "topicsId": 440,
+    "q": "He was debarred from----- the examination.",
+    "options": [
+      "taking",
+      "sitting",
+      "appearing",
+      "Regard"
+    ],
+    "ans": 2,
+    "explain": "Debar someone from doing something. এখানে 'from' এর পর ভার্বের ing ফর্ম 'appearing' (অংশগ্রহণ করা অর্থে) সঠিক।",
+    "source": [
+      "জাতীয় সংসদ সচিবালয়ের সহকারী পরিচালকঃ ০৬/ বাংলাদেশ টেলিভিশন এর প্রযোজকঃ ০৬"
+    ]
+  },
+  {
+    "id": 221,
+    "topicsId": 440,
+    "q": "Fill in the blank: Tourists----their reservations well in advance if they want to fly to Cox's Bazar.",
+    "options": [
+      "better to had get",
+      "had better to get",
+      "had better got",
+      "had better get"
+    ],
+    "ans": 3,
+    "explain": "'Had better' একটি মডাল অক্সিলারি হিসেবে কাজ করে, যার পর ভার্বের বেস ফর্ম (get) বসে এবং কোনো 'to' বসে না।",
+    "source": [
+      "Dhaka university-B unit-2010/11"
+    ]
+  },
+  {
+    "id": 222,
+    "topicsId": 440,
+    "q": "The teacher failed to make the student – to him.",
+    "options": [
+      "to listen",
+      "listening",
+      "listened",
+      "listen"
+    ],
+    "ans": 3,
+    "explain": "Make একটি Causative Verb. 'Make' এরপর object থাকলে পরবর্তী ভার্বের বেস ফর্ম (Bare infinitive) বসে। তাই 'listen' সঠিক।",
+    "source": [
+      "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 223,
+    "topicsId": 440,
+    "q": "The speaker failed to make the audience --- to him patiently.",
+    "options": [
+      "To listen",
+      "Listening",
+      "Listened",
+      "Listen"
+    ],
+    "ans": 3,
+    "explain": "Make (Causative) + object + verb (base form)। তাই সঠিক উত্তর 'Listen'।",
+    "source": [
+      "১৫তম বিসিএস / বাংলাদেশ রেলওয়ে উপ-সহকারী প্রকৌশলী (মেকানিক্যাল): ০৬"
+    ]
+  },
+  {
+    "id": 224,
+    "topicsId": 440,
+    "q": "He made me --- the car.",
+    "options": [
+      "to drive",
+      "driven",
+      "drove",
+      "drive"
+    ],
+    "ans": 3,
+    "explain": "Causative verb 'make' এর পর object থাকলে 'drive' (বেস ফর্ম) হবে।",
+    "source": [
+      "১৫তম শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা স্কুল পর্যায়-২ ২০১৯"
+    ]
+  },
+  {
+    "id": 225,
+    "topicsId": 440,
+    "q": "Do not let those children--- a lot of candy.",
+    "options": [
+      "eat",
+      "to eat",
+      "eating",
+      "being eaten"
+    ],
+    "ans": 0,
+    "explain": "'Let' একটি Causative Verb যার পর সবসময় ভার্বের বেস ফর্ম (eat) বসে।",
+    "source": [
+      "ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়ের সহকারী প্রোগ্রামার ২০১৭"
+    ]
+  },
+  {
+    "id": 226,
+    "topicsId": 440,
+    "q": "I would rather------coffee than tea.",
+    "options": [
+      "with have",
+      "have",
+      "had",
+      "to have"
+    ],
+    "ans": 1,
+    "explain": "'Would rather' এরপর ভার্বের বেস ফর্ম বসে। তাই 'have' সঠিক।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের প্রদর্শক ২০১৩"
+    ]
+  },
+  {
+    "id": 227,
+    "topicsId": 440,
+    "q": "‘I---starve than beg' said the boy.",
+    "options": [
+      "would rather",
+      "better",
+      "rather",
+      "would better"
+    ],
+    "ans": 0,
+    "explain": "দুটি কাজের মধ্যে একটিকে অধিকতর পছন্দ বুঝাতে 'would rather... than' ব্যবহৃত হয়।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীন মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের সহকারী পরিচালক-২০১৩"
+    ]
+  },
+  {
+    "id": 228,
+    "topicsId": 440,
+    "q": "You had better--",
+    "options": [
+      "stayed",
+      "stay",
+      "staying",
+      "to stay"
+    ],
+    "ans": 1,
+    "explain": "'Had better' এর পর ভার্বের বেস ফর্ম 'stay' বসে।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের প্রবেশন অফিসার – ২০১৩"
+    ]
+  },
+  {
+    "id": 229,
+    "topicsId": 440,
+    "q": "I would rather—die.",
+    "options": [
+      "to beg",
+      "than beg",
+      "than begging",
+      "than would have begged"
+    ],
+    "ans": 1,
+    "explain": "'Would rather + verb + than + verb'—এই গঠন অনুযায়ী 'than beg' সঠিক।",
+    "source": [
+      "প্রাক-প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা-২০১৩"
+    ]
+  },
+  {
+    "id": 230,
+    "topicsId": 440,
+    "q": "The teacher made the children --- the book.",
+    "options": [
+      "read",
+      "to read",
+      "reading",
+      "reads"
+    ],
+    "ans": 0,
+    "explain": "Causative 'make' এর পর ভার্বের বেস ফর্ম 'read' বসে।",
+    "source": [
+      "যোগাযোগ মন্ত্রণালয়ের অধীন বাংলাদেশ রেলওয়ে সহকারী কমান্ডেন্টঃ ০৭"
+    ]
+  },
+  {
+    "id": 231,
+    "topicsId": 440,
+    "q": "He was so angry that he made me to leave the class room ভুল অংশটি চিহ্নিত করুন:",
+    "options": [
+      "so",
+      "that",
+      "made",
+      "to leave"
+    ],
+    "ans": 3,
+    "explain": "Make-এর পর সরাসরি ভার্বের বেস ফর্ম বসে, 'to' বসে না। তাই 'to leave' অংশটি ভুল।",
+    "source": [
+      "সিভিল ইঞ্জিনিয়ারিংঃ ৯৯/মহা হিসাবরক্ষক ও নিরীক্ষক এর অধীনে অধীক্ষকঃ ৯৮"
+    ]
+  },
+  {
+    "id": 232,
+    "topicsId": 440,
+    "q": "I can hear someone --",
+    "options": [
+      "to scream",
+      "scream",
+      "Screaming",
+      "for screaming",
+      "screamed"
+    ],
+    "ans": 1,
+    "explain": "Hear, See, Watch ইত্যাদি ভার্বের পর object থাকলে এরপর ভার্বের বেস ফর্ম বা ing ফর্ম উভয়ই হতে পারে। অপশন অনুযায়ী 'scream' সঠিক।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা, ঘ ইউনিটঃ ০৭-০৮"
+    ]
+  },
+  {
+    "id": 233,
+    "topicsId": 440,
+    "q": "Which one is incorrect ?",
+    "options": [
+      "It is quarter to eleven",
+      "It is a quarter to eleven",
+      "It is a quarter of eleven",
+      "It is a quarter past eleven"
+    ],
+    "ans": 0,
+    "explain": "পৌনে এগারোটা বুঝাতে 'quarter to eleven' এর আগে সাধারণত 'a' বসে (It is a quarter to eleven)। প্রশ্নে ভুল বাক্যটি চিহ্নিত করতে বলা হয়েছে।",
+    "source": [
+      "জনপ্রশাসন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৬/ বাংলাদেশ পল্লী উন্নয়ন বোর্ডের উপজেলা পল্লী উন্নয়ন কর্মকর্তা ২০১৩"
+    ]
+  },
+  {
+    "id": 234,
+    "topicsId": 440,
+    "q": "Fill in the blank with appropriate use of tense: I couldn't mend the computer myself, so I ......... shop.",
+    "options": [
+      "had it mended",
+      "had it in end",
+      "did it mend",
+      "had mended"
+    ],
+    "ans": 0,
+    "explain": "এটি একটি Causative structure. 'Have + object + V3' অর্থ হলো অন্যকে দিয়ে কিছু করিয়ে নেওয়া। 'had it mended' মানে হলো দোকানে কম্পিউটারটি মেরামত করিয়ে নিয়েছি।",
+    "source": [
+      "৩৭তম বিসিএস"
+    ]
+  },
+  {
+    "id": 235,
+    "topicsId": 440,
+    "q": "In the 1930s, physicists devised machines for ---- subatomic particles by electromagnetic forces and making them---- faster and faster.",
+    "options": [
+      "pushing / going",
+      "having pushed / to go",
+      "pushing / go",
+      "being pushed/go"
+    ],
+    "ans": 2,
+    "explain": "প্রথম শূন্যস্থানে preposition 'for' এর পর 'pushing' হবে। দ্বিতীয় শূন্যস্থানে causative 'making' এর পর বেস ফর্ম 'go' বসবে।",
+    "source": [
+      "প্রবাসী কল্যাণ ব্যাংক (সিনিয়র অফিসার) ২১"
+    ]
+  },
+  {
+    "id": 236,
+    "topicsId": 440,
+    "q": "Karim had his car --- by a mechanic yesterday.",
+    "options": [
+      "to repair",
+      "be repaired",
+      "repairing",
+      "repaired",
+      "was repaired"
+    ],
+    "ans": 3,
+    "explain": "Have/Had + object (বস্তুবাচক) থাকলে এরপর ভার্বের Past Participle (V3) হয়। তাই 'repaired' সঠিক।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা, ঘ ইউনিটঃ ০9-08"
+    ]
+  },
+  {
+    "id": 237,
+    "topicsId": 440,
+    "q": "Where ----",
+    "options": [
+      "did you cut your hair?",
+      "have you cut your hair ?",
+      "did you cut your hair",
+      "did you have your hair cut?"
+    ],
+    "ans": 3,
+    "explain": "চুল নিজে নিজে কাটা হয় না, অন্যকে দিয়ে কাটানো হয়। তাই causative structure 'have your hair cut' ব্যবহৃত হবে।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা, ঘ ইউনিটঃ ০১-০২"
+    ]
+  },
+  {
+    "id": 238,
+    "topicsId": 440,
+    "q": "My friend----yesterday.",
+    "options": [
+      "got his car repaired",
+      "gets his car repaired",
+      "got his car repair",
+      "have got his car repaired"
+    ],
+    "ans": 0,
+    "explain": "Yesterday থাকায় বাক্যটি Past tense এবং অন্যকে দিয়ে কাজ করানো বুঝাতে 'got his car repaired' (Get + object + V3) সঠিক।",
+    "source": [
+      "যোগাযোগ মন্ত্রণালয়ের অধীন বাংলাদেশ রেলওয়ে সহকারী কমান্ডেন্টঃ ০৭"
+    ]
+  },
+  {
+    "id": 239,
+    "topicsId": 440,
+    "q": "I got my car ----",
+    "options": [
+      "reparing",
+      "repaired",
+      "have repaired",
+      "to be repaired"
+    ],
+    "ans": 1,
+    "explain": "Get + object + V3 নিয়ম অনুযায়ী 'repaired' সঠিক।",
+    "source": [
+      "সমাজকল্যাণ মন্ত্রণালয়ের অধীন সমাজসেবা অধিদপ্তরের সমাজসেবা অফিসারঃ ০৬, থানা সহ: শিক্ষা অফিসারঃ ০৫. মাধ্যমিক সহকারী প্রধান শিক্ষকঃ ০৩"
+    ]
+  },
+  {
+    "id": 240,
+    "topicsId": 440,
+    "q": "I made the machine —",
+    "options": [
+      "to work",
+      "work",
+      "to working",
+      "worked"
+    ],
+    "ans": 1,
+    "explain": "Causative 'make' এর পর object (the machine) থাকলেও ভার্বের বেস ফর্ম 'work' বসে।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ঃ প্রশাসনিক কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 241,
+    "topicsId": 440,
+    "q": "His teacher had him---for the test.",
+    "options": [
+      "sit",
+      "to sit",
+      "sat",
+      "sitting"
+    ],
+    "ans": 0,
+    "explain": "Have/Had + ব্যক্তিবাচক object থাকলে ভার্বের বেস ফর্ম বসে। তাই 'sit' সঠিক।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরঃ উপ-পরিদর্শক ২০১৯"
+    ]
+  },
+  {
+    "id": 242,
+    "topicsId": 440,
+    "q": "Choose the right form of verb in the sentence 'Babul got his transcripts (send) to the university'.",
+    "options": [
+      "had sent",
+      "has been sent",
+      "sending",
+      "sent"
+    ],
+    "ans": 3,
+    "explain": "Get + object (বস্তু) + V3। তাই 'sent' সঠিক।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশন পদের নামঃ বিভিন্ন মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা: ২০১৯"
+    ]
+  },
+  {
+    "id": 243,
+    "topicsId": 440,
+    "q": "A lot of money in the pocket makes one.... happy.",
+    "options": [
+      "to feel",
+      "feel",
+      "feeling",
+      "felt"
+    ],
+    "ans": 1,
+    "explain": "Causative 'makes' এর পর object 'one' থাকায় ভার্বের বেস ফর্ম 'feel' বসবে।",
+    "source": [
+      "প্রতিরক্ষা মন্ত্রণালয়ের অধীন সাইফার অফিসারঃ ৯৯"
+    ]
+  },
+  {
+    "id": 244,
+    "topicsId": 440,
+    "q": "He did not let me----the guiter.",
+    "options": [
+      "To play",
+      "Play",
+      "Playing",
+      "That I Could play"
+    ],
+    "ans": 1,
+    "explain": "Let-এর পর সর্বদা ভার্বের বেস ফর্ম (Play) বসে।",
+    "source": [
+      "গণমাধ্যম ইনস্টিটিউটের সহকারী পরিচালক: ০৩"
+    ]
+  },
+  {
+    "id": 245,
+    "topicsId": 440,
+    "q": "Even as harvesting was going on.",
+    "options": [
+      "the rainy season began",
+      "the rainy season was began",
+      "the rainy season had began",
+      "the rainy season begins"
+    ],
+    "ans": 0,
+    "explain": "Past continuous tense যুক্ত বাক্যের অন্য অংশটি সাধারণত Past Indefinite হয়। তাই 'the rainy season began' সঠিক।",
+    "source": [
+      "২৩তম বিসিএস/ চট্টগ্রাম বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা, চ ইউনিটঃ ০৭-০৮/ সমাজকল্যাণ মন্ত্রণালয়ের অধীন সমাজসেবা অধিদপ্তরের শহর সমাজসেবা অফিসার (হাসপাতাল)ঃ ০৭"
+    ]
+  },
+  {
+    "id": 246,
+    "topicsId": 440,
+    "q": "I do not usually eat three meals a day, but I am used to it.",
+    "options": [
+      "I am using it",
+      "I had use to it",
+      "I am got it",
+      "I used it",
+      "I am getting used to it"
+    ],
+    "ans": 4,
+    "explain": "কোনো কিছুতে অভ্যস্ত হয়ে ওঠা বুঝাতে 'get used to' বা 'be getting used to' ব্যবহৃত হয়।",
+    "source": [
+      "Bangladesh Bank Assistant Director Recruitment test 2008"
+    ]
+  },
+  {
+    "id": 247,
+    "topicsId": 440,
+    "q": "Stay where you are until help-",
+    "options": [
+      "arrives",
+      "arrived",
+      "to arrive",
+      "arriving"
+    ],
+    "ans": 0,
+    "explain": "Present/Future Indefinite + until + Present Indefinite নিয়ম অনুযায়ী 'arrives' সঠিক।",
+    "source": [
+      "জগন্নাথ বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা ঘ ইউনিটঃ ০৭-০৮"
+    ]
+  },
+  {
+    "id": 248,
+    "topicsId": 440,
+    "q": "Abraham Lincoln—one of the great men of american history.",
+    "options": [
+      "was",
+      "is",
+      "had been",
+      "will be"
+    ],
+    "ans": 1,
+    "explain": "ঐতিহাসিক সত্য বা সাধারণ বর্ণনার ক্ষেত্রে 'is' ব্যবহৃত হতে পারে, যদিও তিনি বর্তমানে মৃত, তবে ইতিহাসে তিনি একজন মহান ব্যক্তি হিসেবে চিরস্থায়ী।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা জ ইউনিটঃ ০৭-০৮"
+    ]
+  },
+  {
+    "id": 249,
+    "topicsId": 440,
+    "q": "This children park-half an hour before sunset.",
+    "options": [
+      "opens",
+      "starts",
+      "closes",
+      "stops"
+    ],
+    "ans": 2,
+    "explain": "সূর্যাস্তের আগে পার্ক 'বন্ধ হয়' (closes) - এটিই সবচেয়ে যৌক্তিক উত্তর।",
+    "source": [
+      "প্রতিরক্ষা মন্ত্রণালয়ের অধীন এডমিনিস্ট্রেশন অফিসার ও পার্সোনাল অফিসার ২০০৬"
+    ]
+  },
+  {
+    "id": 250,
+    "topicsId": 440,
+    "q": "I was lived that night, I-----wood all morning.",
+    "options": [
+      "was cutting",
+      "had been cutting",
+      "had cut",
+      "cut"
+    ],
+    "ans": 1,
+    "explain": "অতীতের একটি নির্দিষ্ট সময় ধরে কোনো কাজ চলছিল বুঝাতে Past Perfect Continuous tense (had been cutting) ব্যবহৃত হয়।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় প্রথমবর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা খ ইউনিট ২০০১-০২"
+    ]
+  },
+  {
+    "id": 251,
+    "topicsId": 440,
+    "q": "I waited until the plane -",
+    "options": [
+      "did not take off",
+      "took off",
+      "had not off",
+      "had taken off"
+    ],
+    "ans": 1,
+    "explain": "Until শব্দের ভেতরেই 'না' বোধক অর্থ থাকে, তাই এরপর নতুন করে 'not' বসে না। সঠিক উত্তর 'took off'।",
+    "source": [
+      "২৩তম বিসিএস/ বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯/পল্লী উন্নয়ন বোর্ড-এর মাঠকর্মী-২০১৪/ পল্লী উন্নয়ন ও সমবায় বিভাগের উপ-আঞ্চলিক ব্যবস্থাপক ২০১৩/ সোনালী, জনতা, অগ্রণী ব্যাংকের অফিসারঃ ০৮/ মহিলা ও শিশু বিষয়ক মন্ত্রণালয়ের অধীন উপজেলা মহিলা বিষয়ক কর্মকর্তাঃ ০৬"
+    ]
+  },
+  {
+    "id": 252,
+    "topicsId": 440,
+    "q": "We waited until the plane ----",
+    "options": [
+      "Had not taken off",
+      "Did not taken off",
+      "Had taken off",
+      "took off"
+    ],
+    "ans": 2,
+    "explain": "অতীতের দুটি কাজের মধ্যে যেটি আগে হয়েছে সেটি Past Perfect (had taken off) হতে পারে।",
+    "source": [
+      "আমদানি ও রপ্তানি প্রধান নিয়ন্ত্রকের দপ্তরের অধীনে অফিস সহায়ক: ২০২০"
+    ]
+  },
+  {
+    "id": 253,
+    "topicsId": 440,
+    "q": "I waited for my friend until he-----",
+    "options": [
+      "Have come",
+      "Came",
+      "Had come",
+      "Has come"
+    ],
+    "ans": 2,
+    "explain": "Until-এর পর affirmative clause বসে এবং তা Past Perfect (had come) হতে পারে।",
+    "source": [
+      "বাংলাদেশ প্রতিযোগিতা কমিশনের বিভিন্ন পদ: ২০১৯"
+    ]
+  },
+  {
+    "id": 254,
+    "topicsId": 440,
+    "q": "The accused person confessed that he----the car.",
+    "options": [
+      "Stole",
+      "Had stolen",
+      "Would steal",
+      "stolen"
+    ],
+    "ans": 1,
+    "explain": "অপরাধ স্বীকার করার আগেই চুরি হয়েছে, তাই এটি Past Perfect tense (had stolen) হবে।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর উপ- পরিদর্শক ২০১৯"
+    ]
+  },
+  {
+    "id": 255,
+    "topicsId": 440,
+    "q": "Which is an example of verbal noun ?",
+    "options": [
+      "It is very difficult to write a good letter.",
+      "Writing a good letter is difficult",
+      "The writing of a good letter is difficult",
+      "Good letter writing is difficult"
+    ],
+    "ans": 1,
+    "explain": "Verb+ing যখন নাউনের কাজ করে তখন তাকে Gerund বলে। এখানে 'Writing' বাক্যের সাবজেক্ট হিসেবে নাউনের কাজ করছে।",
+    "source": [
+      "খাদ্য অধিদপ্তর (উপ-খাদ্য পরিদর্শক) -২১"
+    ]
+  },
+  {
+    "id": 256,
+    "topicsId": 440,
+    "q": "Which is an Example of verbal noun ?",
+    "options": [
+      "Writing a good letter is difficult",
+      "The writing of a good letter is difficult.",
+      "Good letter writing is difficult.",
+      "It is very difficult to write a good letter."
+    ],
+    "ans": 1,
+    "explain": "'The + Gerund + of' গঠনটিকে অনেক সময় নিখুঁত Verbal Noun বলা হয়। সেই হিসেবে ২য় অপশনটি সঠিক।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন চলচ্চিত্র ও প্রকাশনা অধিদপ্তরের ক্যামেরাম্যান ২০১৯"
+    ]
+  },
+  {
+    "id": 257,
+    "topicsId": 440,
+    "q": "Fill in the gap with the correct form of verb: The police --- informed yesterday:",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "ans": 3,
+    "explain": "Police শব্দটি Collective Noun হলেও এটি বহুবচন হিসেবে গণ্য হয়। 'Yesterday' থাকায় 'were' সঠিক।",
+    "source": [
+      "৪২তম বিসিএস"
+    ]
+  },
+  {
+    "id": 258,
+    "topicsId": 440,
+    "q": "My boss wants the work-----before long.",
+    "options": [
+      "finish",
+      "finished",
+      "finishing",
+      "finishes"
+    ],
+    "ans": 1,
+    "explain": "Wants + object + V3/to be V3। এখানে কাজ সম্পন্ন হওয়া বুঝাতে 'finished' সঠিক।",
+    "source": [
+      "বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন; সহকারী প্রকৌশলী (কমার্শিয়াল)-২১/ বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন; উপ-সহকারী প্রকৌশলী (মেকানিক্যাল)-২১"
+    ]
+  },
+  {
+    "id": 259,
+    "topicsId": 440,
+    "q": "Two and two ... Four শূন্যস্থানে সঠিক শব্দ কি হবে ?",
+    "options": [
+      "Makes",
+      "Make",
+      "Made",
+      "Are Made"
+    ],
+    "ans": 0,
+    "explain": "গাণিতিক সত্যের ক্ষেত্রে ভার্ব একবচন বা বহুবচন উভয়ই হতে পারে, তবে 'Makes' অধিক প্রচলিত।",
+    "source": [
+      "মৎস্য অধিদপ্তরের কর্মচারী নিয়োগ পরীক্ষা (অফিস সহকারী-কাম কম্পিউটার অপারেটর)-২১"
+    ]
+  },
+  {
+    "id": 260,
+    "topicsId": 440,
+    "q": "I got the work…… by him.",
+    "options": [
+      "have done",
+      "done",
+      "do",
+      "to be done"
+    ],
+    "ans": 1,
+    "explain": "Get + object (work) + V3 (done) - এটি প্যাসিভ সেন্সে ব্যবহৃত Causative verb।",
+    "source": [
+      "কৃষি সম্প্রসারণ অধিদপ্তর (উপ-সহকারী কৃষি কর্মকর্তা)-২১"
+    ]
+  },
+  {
+    "id": 261,
+    "topicsId": 440,
+    "q": "Choose the correct form of verb: Either Rana or his friends----guilty.",
+    "options": [
+      "is",
+      "are",
+      "has",
+      "have"
+    ],
+    "ans": 1,
+    "explain": "Either...or দ্বারা যুক্ত সাবজেক্টের ক্ষেত্রে অর (or)-এর পরবর্তী সাবজেক্ট অনুযায়ী ভার্ব বসে। 'his friends' বহুবচন হওয়ায় 'are' সঠিক।",
+    "source": [
+      "বাংলাদেশ টেলিভিশন (অফিস সহকারী) নিয়োগ পরীক্ষা-২১"
+    ]
+  },
+  {
+    "id": 262,
+    "topicsId": 440,
+    "q": "When the Principal entered the class, a student ...... on the blackboard.",
+    "options": [
+      "wrote",
+      "was writing",
+      "writes",
+      "is writing"
+    ],
+    "ans": 1,
+    "explain": "অতীতকালে একটি কাজ চলার সময় অন্য একটি কাজ হওয়া বুঝাতে 'when' যুক্ত অংশ Past Indefinite এবং অন্য অংশ Past Continuous হয়।",
+    "source": [
+      "কর্ণফুলী গ্যাস ডিস্ট্রিবিউশন কোম্পানী লিমিটেড, সহকারি ব্যবস্থাপক (সাধারণ)-২১"
+    ]
+  },
+  {
+    "id": 263,
+    "topicsId": 440,
+    "q": "I have just hired a typewriter and I----- type now-a-days.",
+    "options": [
+      "am learning",
+      "have learnt",
+      "learnt",
+      "will learn"
+    ],
+    "ans": 0,
+    "explain": "Now-a-days থাকলে বাক্যটি সাধারণত Present Continuous tense হয়। তাই 'am learning' সঠিক।",
+    "source": [
+      "কর্ণফুলী গ্যাস ডিস্ট্রিবিউশন কোম্পানী লিমিটেড, সহকারি ব্যবস্থাপক (সাধারণ)-২১"
+    ]
+  },
+  {
+    "id": 264,
+    "topicsId": 440,
+    "q": "Columbus…… America.",
+    "options": [
+      "discovers",
+      "discovered",
+      "has had discovered",
+      "had discovered"
+    ],
+    "ans": 1,
+    "explain": "অতীতের ঐতিহাসিক ঘটনা বুঝাতে Past Indefinite (discovered) ব্যবহৃত হয়।",
+    "source": [
+      "কর্ণফুলী গ্যাস ডিস্ট্রিবিউশন কোম্পানী লিমিটেড, সহকারি ব্যবস্থাপক (সাধারণ)-২১"
+    ]
+  },
+  {
+    "id": 265,
+    "topicsId": 440,
+    "q": "We ......... a friendly cricket match in the evening.",
+    "options": [
+      "were playing",
+      "have played",
+      "played",
+      "are playing"
+    ],
+    "ans": 2,
+    "explain": "অতীতের সাধারণ ঘটনা হিসেবে 'played' ব্যবহার করা সঠিক।",
+    "source": [
+      "কর্ণফুলী গ্যাস ডিস্ট্রিবিউশন কোম্পানী লিমিটেড, সহকারি ব্যবস্থাপক (সাধারণ)-২১"
+    ]
+  },
+  {
+    "id": 266,
+    "topicsId": 440,
+    "q": "Did you have any difficulty........ a visa ?",
+    "options": [
+      "in getting",
+      "to have got",
+      "having",
+      "Get"
+    ],
+    "ans": 0,
+    "explain": "Have difficulty + in + verb+ing। তাই 'in getting' সঠিক।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (সহকারী উপ-খাদ্য পরিদর্শক) -২১"
+    ]
+  },
+  {
+    "id": 267,
+    "topicsId": 440,
+    "q": "Fill in the blank. He had his hair.......",
+    "options": [
+      "cutting",
+      "to cut",
+      "to be cut",
+      "cut"
+    ],
+    "ans": 3,
+    "explain": "Had + object (hair) + V3 (cut)। Cut এর তিনটি ফর্মই এক।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (সহকারী উপ-খাদ্য পরিদর্শক) -২১"
+    ]
+  },
+  {
+    "id": 268,
+    "topicsId": 440,
+    "q": "The ball has already been --",
+    "options": [
+      "rang",
+      "ranged",
+      "rung",
+      "ringed"
+    ],
+    "ans": 2,
+    "explain": "Present perfect passive voice অনুযায়ী have/has been + V3 হয়। Ring এর V3 হলো 'rung'।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহায়ক) -২১"
+    ]
+  },
+  {
+    "id": 269,
+    "topicsId": 440,
+    "q": "Our boss makes us------ very hard.",
+    "options": [
+      "working",
+      "worked",
+      "work",
+      "to work"
+    ],
+    "ans": 2,
+    "explain": "Make + object + verb (base form) অনুযায়ী 'work' সঠিক।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহায়ক) -২১"
+    ]
+  },
+  {
+    "id": 270,
+    "topicsId": 440,
+    "q": "'Emancipate' অর্থ—",
+    "options": [
+      "Neglect",
+      "Bondage",
+      "To set free",
+      "To set on fire"
+    ],
+    "ans": 2,
+    "explain": "Emancipate শব্দের অর্থ হলো স্বাধীন করা বা মুক্ত করা (To set free)।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহায়ক) ২১"
+    ]
+  },
+  {
+    "id": 271,
+    "topicsId": 440,
+    "q": "Bounce back অর্থ—",
+    "options": [
+      "get back",
+      "fall back",
+      "recover",
+      "Overcome"
+    ],
+    "ans": 2,
+    "explain": "Bounce back মানে হলো খারাপ অবস্থা থেকে পুনরায় ভালো অবস্থায় ফিরে আসা বা আরোগ্য লাভ করা (Recover)।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহায়ক) -২১"
+    ]
+  },
+  {
+    "id": 272,
+    "topicsId": 440,
+    "q": "Gradually I am getting used------English.",
+    "options": [
+      "speaking",
+      "speak",
+      "to speak",
+      "to speaking"
+    ],
+    "ans": 3,
+    "explain": "Get used to + verb+ing গঠন অনুযায়ী 'to speaking' সঠিক।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 273,
+    "topicsId": 440,
+    "q": "The criminal for----murder.",
+    "options": [
+      "was hung",
+      "was hanged",
+      "has hanged",
+      "Hung"
+    ],
+    "ans": 1,
+    "explain": "ফাঁসিতে ঝোলানো অর্থে Hang এর Past Participle হলো 'hanged'।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (উচ্চমান সহকারী/ উচ্চমান সহকারী (বেঞ্চ সহকারী)/ড্রাফটসম্যান)-২১"
+    ]
+  },
+  {
+    "id": 274,
+    "topicsId": 440,
+    "q": "My grandmother prefers ....... Rabindra.",
+    "options": [
+      "Listening",
+      "to listening",
+      "listeried",
+      "Listen"
+    ],
+    "ans": 1,
+    "explain": "Prefer + Gerund + to + Gerund নিয়ম অনুযায়ী 'to listening' সঠিক।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তপক্ষ উচ্চমান সহকারী/ উচ্চমান সহকারী (বেঞ্চ সহকারী) ড্রাফটসম্যান)-২১"
+    ]
+  },
+  {
+    "id": 275,
+    "topicsId": 440,
+    "q": "When I..... money. I will buy a car.",
+    "options": [
+      "may get",
+      "may be got",
+      "will get",
+      "get"
+    ],
+    "ans": 3,
+    "explain": "Conditional sentence এর নিয়মানুযায়ী when যুক্ত অংশটি Present Indefinite হলে অন্য অংশটি Future Indefinite হয়।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তপক্ষ উচ্চমান সহকারী/ উচ্চমান সহকারী (বেঞ্চ সহকারী) ড্রাফটসম্যান)-২১"
+    ]
+  },
+  {
+    "id": 276,
+    "topicsId": 440,
+    "q": "A lot of money ....... in the robbery.",
+    "options": [
+      "Stole",
+      "stolen",
+      "is stealing",
+      "was stolen"
+    ],
+    "ans": 3,
+    "explain": "টাকা নিজে নিজে চুরি করতে পারে না, তাই Passive voice-এ 'was stolen' হবে।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তপক্ষ উচ্চমান সহকারী/ উচ্চমান সহকারী (বেঞ্চ সহকারী) ড্রাফটসম্যান)-২১"
+    ]
+  },
+  {
+    "id": 277,
+    "topicsId": 440,
+    "q": "They as well as he ....... incorrect.",
+    "options": [
+      "is",
+      "are",
+      "will",
+      "was"
+    ],
+    "ans": 1,
+    "explain": "As well as দ্বারা যুক্ত সাবজেক্টের ক্ষেত্রে প্রথম সাবজেক্ট (They) অনুযায়ী ভার্ব বসে। 'They' যেহেতু বহুবচন, তাই 'are' সঠিক।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তপক্ষ উচ্চমান সহকারী/ উচ্চমান সহকারী (বেঞ্চ সহকারী) ড্রাফটসম্যান)-২১"
+    ]
+  },
+  {
+    "id": 278,
+    "topicsId": 440,
+    "q": "A basket of eggs-----sold.",
+    "options": [
+      "was",
+      "were",
+      "been",
+      "did"
+    ],
+    "ans": 0,
+    "explain": "বাক্যের মূল সাবজেক্ট হলো 'A basket' যা একবচন, তাই ভার্ব হবে 'was'।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (উচ্চমান সহকারী/ উচ্চমান সহকারী (বেঞ্চ সহকারী)/ড্রাফটসম্যান)-২১"
+    ]
+  },
+  {
+    "id": 279,
+    "topicsId": 440,
+    "q": "The wealthy-----not always happy.",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
+    "ans": 2,
+    "explain": "অ্যাডজেক্টিভের আগে 'The' বসলে তা একজাতীয় সকলকে (Plural Common Noun) বুঝায়, তাই ভার্ব বহুবচন (are) হয়।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (উচ্চমান সহকারী/ উচ্চমান সহকারী (বেঞ্চ সহকারী)/ড্রাফটসম্যান)-২১"
+    ]
+  },
+  {
+    "id": 280,
+    "topicsId": 440,
+    "q": "Yesterday we had-----twenty minutes for a bus.",
+    "options": [
+      "wait",
+      "to waiting",
+      "to wait",
+      "to waited"
+    ],
+    "ans": 2,
+    "explain": "অতীতের বাধ্যবাধকতা বুঝাতে 'had to' ব্যবহৃত হয়। 'had to wait' মানে অপেক্ষা করতে হয়েছিল।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (উচ্চমান সহকারী/ উচ্চমান সহকারী (বেঞ্চ সহকারী)/ড্রাফটসম্যান)-২১"
+    ]
+  },
+  {
+    "id": 281,
+    "topicsId": 440,
+    "q": "Onion prices have ....... too much this month.",
+    "options": [
+      "Raised",
+      "rise",
+      "risen",
+      "rose"
+    ],
+    "ans": 2,
+    "explain": "দাম নিজে নিজে বৃদ্ধি পাওয়া অর্থে 'Rise' ব্যবহৃত হয়। Present Perfect tense অনুযায়ী 'risen' (V3) সঠিক।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (উচ্চমান সহকারী/ উচ্চমান সহকারী (বেঞ্চ সহকারী)/ড্রাফটসম্যান)-২১"
+    ]
+  },
+  {
+    "id": 282,
+    "topicsId": 440,
+    "q": "Rain falling on the roof ?",
+    "options": [
+      "making a noise",
+      "is making a noise",
+      "makes a noise",
+      "make a noise"
+    ],
+    "ans": 1,
+    "explain": "প্রশ্নবোধক বাক্যটিতে সাবজেক্ট ও ভার্বের সমন্বয় অনুযায়ী 'is making a noise' যুক্ত করলে বাক্যটি অর্থপূর্ণ হয়।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (হিসাব রক্ষক) -২১"
+    ]
+  },
+  {
+    "id": 283,
+    "topicsId": 440,
+    "q": "Mahjabin said that she----- previous day.",
+    "options": [
+      "has come",
+      "had come",
+      "came",
+      "arrived"
+    ],
+    "ans": 1,
+    "explain": "Indirect narration-এ Reporting verb পাস্ট টেন্স হলে এবং 'previous day' থাকলে রিপোর্টেড স্পিচটি Past Perfect (had come) হয়।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (হিসাব রক্ষক) -২১"
+    ]
+  },
+  {
+    "id": 284,
+    "topicsId": 440,
+    "q": "I gave up .......cricket when I got a job.",
+    "options": [
+      "to play",
+      "of playing",
+      "play",
+      "playing"
+    ],
+    "ans": 3,
+    "explain": "Give up একটি Phrasal Verb যার পর সাধারণত Gerund (playing) বসে।",
+    "source": [
+      "বাংলাদেশের কম্পট্রোলার এন্ড অডিটর জেনারেল এর কার্যালয়ে অডিটর পদে নিয়োগ পরীক্ষা-২১"
+    ]
+  },
+  {
+    "id": 285,
+    "topicsId": 440,
+    "q": "Are you sure that you .......... the killer before ?",
+    "options": [
+      "will have seen",
+      "had seen",
+      "would have seen",
+      "must have seen"
+    ],
+    "ans": 1,
+    "explain": "অতীতের কোনো ঘটনার অভিজ্ঞতা বুঝাতে Past Perfect (had seen) সঠিক।",
+    "source": [
+      "এনএসআই (সহকারী পরিচালক, গবেষণা কর্মকর্তা এবং সহকারী প্রোগ্রামার)-২১"
+    ]
+  },
+  {
+    "id": 286,
+    "topicsId": 440,
+    "q": "I opened the door as soon as I-----the bell.",
+    "options": [
+      "have heard",
+      "was hearing",
+      "heard",
+      "in heard"
+    ],
+    "ans": 2,
+    "explain": "As soon as যুক্ত বাক্যে উভয় ক্লোজ সাধারণত একই টেন্সের হয়। যেহেতু 'opened' পাস্ট টেন্সে আছে, তাই 'heard' সঠিক।",
+    "source": [
+      "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড, সহকারী সচিব/সহকারী পরিচালক (প্রশাসন) - - ২১"
+    ]
+  },
+  {
+    "id": 287,
+    "topicsId": 440,
+    "q": "But for your help we ....... in trouble.",
+    "options": [
+      "have been",
+      "had been",
+      "were being",
+      "would have been"
+    ],
+    "ans": 3,
+    "explain": "'But for your help' এর অর্থ 'যদি তুমি সাহায্য না করতে'। এটি একটি conditional প্রকাশভঙ্গি, তাই পরবর্তী অংশে 'would have been' বসা যুক্তিসঙ্গত।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (উপ-সহকারী প্রকৌশলী (ই/এম) হিসাব সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 288,
+    "topicsId": 440,
+    "q": "He---- reached the station by 10 p.m.",
+    "options": [
+      "Shall",
+      "Will has",
+      "Will have",
+      "Will"
+    ],
+    "ans": 2,
+    "explain": "ভবিষ্যতে কোনো সময়ের মধ্যে কাজ শেষ হওয়া বুঝাতে Future Perfect tense (Will have reached) ব্যবহৃত হয়।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 289,
+    "topicsId": 440,
+    "q": "Did you use to------with dolls ?",
+    "options": [
+      "Played",
+      "Playas",
+      "Play",
+      "Be played"
+    ],
+    "ans": 2,
+    "explain": "'Used to' বা 'did... use to' এর পর সবসময় ভার্বের বেস ফর্ম (Base Form) বসে। তাই এখানে 'Play' সঠিক।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ ( এরোড্রাম কর্মকর্তা)/ইন্সপেক্টর(এটিসি)/অন্যান্য-২১"
+    ]
+  },
+  {
+    "id": 290,
+    "topicsId": 440,
+    "q": "When I----money, I will by a book.",
+    "options": [
+      "May get",
+      "May be got",
+      "Will get",
+      "get"
+    ],
+    "ans": 3,
+    "explain": "Adverbial Clause-এ (When যুক্ত অংশ) ভবিষ্যৎ অর্থ প্রকাশ করলেও Present Simple tense ব্যবহৃত হয় যদি প্রধান অংশটি Future Simple-এ থাকে।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ ( এরোড্রাম কর্মকর্তা)/ইন্সপেক্টর(এটিসি)/অন্যান্য-২১"
+    ]
+  },
+  {
+    "id": 291,
+    "topicsId": 440,
+    "q": "My brother------at university for the last two years.",
+    "options": [
+      "Has gone",
+      "Has been",
+      "Went",
+      "Is"
+    ],
+    "ans": 1,
+    "explain": "'For the last two years' নির্দেশ করে যে কাজটি অতীতে শুরু হয়ে এখনো চলছে (Present Perfect Tense)। এক্ষেত্রে 'Has been' অর্থ হলো সে বিশ্ববিদ্যালয়ে আছে বা পড়ছে।",
+    "source": [
+      "জুনিয়র পরিসংখ্যান সহকারী-২১"
+    ]
+  },
+  {
+    "id": 292,
+    "topicsId": 440,
+    "q": "Fill in the blanks : I---a letter.",
+    "options": [
+      "Am",
+      "Is",
+      "Are",
+      "Have"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'I have a letter' (আমার একটি চিঠি আছে) অর্থবোধক। অন্য অপশনগুলো (Am/Is/Are) বসালে বাক্যটি ব্যাকরণগতভাবে অসম্পূর্ণ থাকে।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (স্টোরম্যান/ডেসপ্যাচ রাইডার/ট্রাফিক হ্যান্ড-২১"
+    ]
+  },
+  {
+    "id": 293,
+    "topicsId": 440,
+    "q": "He—while I was reading.",
+    "options": [
+      "Comes",
+      "Came",
+      "Has come",
+      "Was coming"
+    ],
+    "ans": 1,
+    "explain": "অতীতের একটি চলমান কাজের (was reading) মাঝখানে অন্য একটি কাজ ঘটলে সেটি Past Simple (Came) হয়।",
+    "source": [
+      "দি সিকিউরিটি প্রিন্টিং অফিসার-২১"
+    ]
+  },
+  {
+    "id": 294,
+    "topicsId": 440,
+    "q": "It rained! I didn’t think it-----",
+    "options": [
+      "Is going to rain",
+      "Was going to rain",
+      "was raining",
+      "had rained"
+    ],
+    "ans": 1,
+    "explain": "বাক্যের প্রথম অংশ Past Tense (didn't think) হওয়ায় পরের অংশটিও Past Tense হবে। ভবিষ্যতে কিছু হতে যাচ্ছিল বোঝাতে 'was going to' ব্যবহৃত হয়।",
+    "source": [
+      "দি সিকিউরিটি প্রিন্টিং অফিসার-২১"
+    ]
+  },
+  {
+    "id": 295,
+    "topicsId": 440,
+    "q": "I don't feel like ----",
+    "options": [
+      "Talk to you",
+      "Talk at you",
+      "Talking at you",
+      "Talking to you"
+    ],
+    "ans": 3,
+    "explain": "'Feel like' এর পরে ভার্বের সাথে ing যুক্ত হয়। কারো সাথে কথা বলা অর্থে 'talking to someone' ব্যবহৃত হয়।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (এরোড্রাম কর্মকর্তা (এটিএম এটিসিও)/ইন্সপেক্টর (এটিসি)/অন্যান্য)-২১"
+    ]
+  },
+  {
+    "id": 296,
+    "topicsId": 440,
+    "q": "The poor.... born to suffer.",
+    "options": [
+      "are",
+      "is",
+      "were",
+      "has"
+    ],
+    "ans": 0,
+    "explain": "বিশেষণের আগে 'The' বসলে (The poor) তা প্লুরাল কমন নাউন হিসেবে কাজ করে, তাই ভার্ব বহুবচন (are) হবে।",
+    "source": [
+      "BPSC এর সিনিয়র ইন্সট্রাক্টর (TTC)-২১"
+    ]
+  },
+  {
+    "id": 297,
+    "topicsId": 440,
+    "q": "You will help me, ... you ?",
+    "options": [
+      "will",
+      "not will",
+      "won't",
+      "don't"
+    ],
+    "ans": 2,
+    "explain": "Tag question-এর নিয়ম অনুযায়ী বাক্যটি Affirmative হলে ট্যাগটি Negative হবে। 'Will' এর নেগেটিভ রূপ হলো 'won't'।",
+    "source": [
+      "BPSC এর সিনিয়র ইন্সট্রাক্টর (TTC)-২১"
+    ]
+  },
+  {
+    "id": 298,
+    "topicsId": 440,
+    "q": "How long is it since you him last ?",
+    "options": [
+      "saw",
+      "have seen",
+      "had seen",
+      "see"
+    ],
+    "ans": 0,
+    "explain": "'Since' এর আগের অংশ Present Indefinite হলে পরের অংশ Past Indefinite (saw) হয়।",
+    "source": [
+      "এনএসআই (ওয়াচার কনস্টেবল/ ফিল্ড স্টাফ)-২১"
+    ]
+  },
+  {
+    "id": 299,
+    "topicsId": 440,
+    "q": "We are friends. We ..... cach other for years.",
+    "options": [
+      "knew",
+      "know",
+      "have been knowing",
+      "have known"
+    ],
+    "ans": 3,
+    "explain": "'Know' একটি stative verb, এর continuous form হয় না। তাই 'for years' থাকায় এটি Present Perfect (have known) হবে।",
+    "source": [
+      "এনএসআই (ওয়াচার কনস্টেবল/ ফিল্ড স্টাফ)-২১"
+    ]
+  },
+  {
+    "id": 300,
+    "topicsId": 440,
+    "q": "At 11 am tomorrow, they…… in the factory.",
+    "options": [
+      "will work",
+      "will be working",
+      "work",
+      "will have worked"
+    ],
+    "ans": 1,
+    "explain": "ভবিষ্যতের কোনো নির্দিষ্ট সময়ে কোনো কাজ চলতে থাকবে বোঝালে Future Continuous (will be working) ব্যবহৃত হয়।",
+    "source": [
+      "এনএসআই (ওয়াচার কনস্টেবল/ ফিল্ড স্টাফ)-২১"
+    ]
+  },
+  {
+    "id": 301,
+    "topicsId": 440,
+    "q": "We—dinner when the phone rang.",
+    "options": [
+      "had",
+      "have had",
+      "have",
+      "were having"
+    ],
+    "ans": 3,
+    "explain": "অতীতের একটি চলমান কাজের সময় অন্য একটি কাজ ঘটলে চলমান অংশটি Past Continuous (were having) হয়।",
+    "source": [
+      "এনএসআই (ওয়াচার কনস্টেবল/ ফিল্ড স্টাফ)-২১"
+    ]
+  },
+  {
+    "id": 302,
+    "topicsId": 440,
+    "q": "Salina…..slender had mastered the art.",
+    "options": [
+      "was",
+      "be",
+      "Being",
+      "Is"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'Being' একটি Participle হিসেবে ব্যবহৃত হয়েছে, যা 'Salina-র অবস্থা' প্রকাশ করছে (সিয়লিনা স্লেন্ডার হওয়ায়...)।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (মেডিকেল অফিসার / এরোড্রোম সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 303,
+    "topicsId": 440,
+    "q": "I am fond of gardening reading and-----",
+    "options": [
+      "to dance",
+      "dancing",
+      "danced",
+      "dance"
+    ],
+    "ans": 1,
+    "explain": "Parallelism-এর নিয়ম অনুযায়ী একই সিরিজের সব শব্দ একই ফর্মে থাকে। যেহেতু gardening এবং reading আছে, তাই 'dancing' হবে।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (মেডিকেল অফিসার / এরোড্রোম সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 304,
+    "topicsId": 440,
+    "q": "Raj and his family.... here since March 2015.",
+    "options": [
+      "is living",
+      "have been living",
+      "lives",
+      "has lived"
+    ],
+    "ans": 1,
+    "explain": "নির্দিষ্ট সময় ধরে কোনো কাজ চলছে বোঝালে Present Perfect Continuous হয়। সাবজেক্ট প্লুরাল হওয়ায় 'have been living' সঠিক।",
+    "source": [
+      "এনএসআই (কম্পিউটার টেকনিশিয়ান, রেডিও টেকনিশিয়ান, ওয়্যারলেস অপারেটর, হিসাব রক্ষক-কাম-ক্যাশিয়ার)-২১"
+    ]
+  },
+  {
+    "id": 305,
+    "topicsId": 440,
+    "q": "Our examination .... on 13 October 2021.",
+    "options": [
+      "has begun",
+      "is beginning",
+      "begins",
+      "begun"
+    ],
+    "ans": 2,
+    "explain": "ভবিষ্যতের কোনো নির্ধারিত সময়সূচি (Timetable) প্রকাশ করতে Present Simple (begins) ব্যবহৃত হয়।",
+    "source": [
+      "এনএসআই (কম্পিউটার টেকনিশিয়ান, রেডিও টেকনিশিয়ান, ওয়্যারলেস অপারেটর, হিসাব রক্ষক-কাম-ক্যাশিয়ার)-২১"
+    ]
+  },
+  {
+    "id": 306,
+    "topicsId": 440,
+    "q": "Have you finished….. the book ?",
+    "options": [
+      "read",
+      "reading",
+      "is reading",
+      "being reading"
+    ],
+    "ans": 1,
+    "explain": "'Finish' ভার্বটির পর সরাসরি অন্য কোনো ভার্ব আসলে তার সাথে 'ing' যুক্ত হয় (Gerund)।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ (প্রকিউরমেন্ট অফিসার/ ইন্সপেক্টর)-২১"
+    ]
+  },
+  {
+    "id": 307,
+    "topicsId": 440,
+    "q": "Fortune..... the brave.",
+    "options": [
+      "Favoured",
+      "had favoured",
+      "with favoured",
+      "favours"
+    ],
+    "ans": 3,
+    "explain": "এটি একটি প্রবাদ বাক্য (Universal Truth/Proverb), তাই এটি Present Simple tense-এ হবে।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর, বিভিন্ন পদ (কর্মচারী)-২১"
+    ]
+  },
+  {
+    "id": 308,
+    "topicsId": 440,
+    "q": "My father arrived while I .... the book.",
+    "options": [
+      "Would read",
+      "Had read",
+      "read",
+      "Was reading"
+    ],
+    "ans": 3,
+    "explain": "'While' যুক্ত অংশে সাধারণত কাজটির ধারাবাহিকতা বা চলমান অবস্থা বোঝাতে Past Continuous ব্যবহৃত হয়।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তরের বিভিন্ন পদ (কর্মচারী) : ২১"
+    ]
+  },
+  {
+    "id": 309,
+    "topicsId": 440,
+    "q": "we waited until the plane…..",
+    "options": [
+      "Had not taken off",
+      "Took off",
+      "Had taken off",
+      "Did not taken off"
+    ],
+    "ans": 1,
+    "explain": "'Until' নিজেই নেতিবাচক অর্থ বহন করে, তাই এরপর পুনরায় 'not' বসে না। প্লেনটি ওড়া পর্যন্ত আমরা অপেক্ষা করলাম — তাই 'took off' সঠিক।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তরের বিভিন্ন পদ (কর্মচারী) : ২১"
+    ]
+  },
+  {
+    "id": 310,
+    "topicsId": 440,
+    "q": "Teacher said, The earth…..round the sun.",
+    "options": [
+      "Moves",
+      "Moved",
+      "Has moved",
+      "Will be moving"
+    ],
+    "ans": 0,
+    "explain": "চিরন্তন সত্য (Universal Truth) সবসময় Present Simple tense-এ হয়, যদিও রিপোর্টিং ভার্বটি অতীতে থাকে।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তরের বিভিন্ন পদ (কর্মচারী) : ২১"
+    ]
+  },
+  {
+    "id": 311,
+    "topicsId": 440,
+    "q": "At least one of the students…..full marks every time.",
+    "options": [
+      "get",
+      "Are getting",
+      "gets",
+      "Have gott"
+    ],
+    "ans": 2,
+    "explain": "'One of the' যুক্ত বাক্যে সাবজেক্ট 'one' অনুযায়ী ভার্ব সিঙ্গুলার (gets) হয়।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর ( ইঞ্জিনিয়ারিং কলেজ এর ক্যাশ সরকার/অফিস সহায়ক-২১"
+    ]
+  },
+  {
+    "id": 312,
+    "topicsId": 440,
+    "q": "A basket of apples……been sold.",
+    "options": [
+      "Have",
+      "Has",
+      "Having",
+      "Haven’t"
+    ],
+    "ans": 1,
+    "explain": "এখানে মূল সাবজেক্ট 'A basket', যা সিঙ্গুলার। তাই ভার্ব 'has' হবে, আপেলগুলো নয়।",
+    "source": [
+      "রেলপথ মন্ত্রণালয় ( কম্পিউটার অপারেটর) – ২১"
+    ]
+  },
+  {
+    "id": 313,
+    "topicsId": 440,
+    "q": "The price of rice is ---",
+    "options": [
+      "rising",
+      "raising",
+      "risen",
+      "raised"
+    ],
+    "ans": 0,
+    "explain": "'Rise' মানে নিজে নিজে বাড়া, আর 'Raise' মানে কাউকে বা কিছুকে তোলা। চালের দাম নিজে বাড়ে, তাই 'rising' সঠিক।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রন অধিদপ্তরে ওয়ারলেস অপারেটর-২০২১"
+    ]
+  },
+  {
+    "id": 314,
+    "topicsId": 440,
+    "q": "You are the man who----- always troubled me.",
+    "options": [
+      "Is",
+      "have",
+      "has",
+      "were"
+    ],
+    "ans": 2,
+    "explain": "Relative pronoun 'who' এর আগের নাউন 'the man' (Singular) অনুযায়ী ভার্ব 'has' হবে।",
+    "source": [
+      "বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেডের সহকারী ব্যবস্থাপক – ২০২১"
+    ]
+  },
+  {
+    "id": 315,
+    "topicsId": 440,
+    "q": "I heard the baby…… for his food.",
+    "options": [
+      "cry",
+      "was",
+      "crying",
+      "cryng"
+    ],
+    "ans": 2,
+    "explain": "Hear, See, Watch ইত্যাদির পর অবজেক্ট থাকলে পরবর্তী ভার্বের সাথে 'ing' যুক্ত হয়ে কাজটির চলমান অবস্থা বোঝায়।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের সহকারী প্রসিকিউটর পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 316,
+    "topicsId": 440,
+    "q": "Three people ..... (injure) in an accident last night.",
+    "options": [
+      "injured",
+      "have been injured",
+      "were injured",
+      "had injured"
+    ],
+    "ans": 2,
+    "explain": "অতীতের ঘটনা এবং প্যাসিভ ভয়েস (লোকেরা আহত হয়েছে কারো মাধ্যমে), তাই 'were injured' সঠিক। (দ্রষ্টব্য: প্রশ্নে correct: 0 দেওয়া ছিল যা ভুল, 'were injured' অপশন অনুযায়ী এটি correct: 2 হওয়া উচিত)।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (এনএসআই)-২০২১"
+    ]
+  },
+  {
+    "id": 317,
+    "topicsId": 440,
+    "q": "Where…… (you born) ?",
+    "options": [
+      "have you born",
+      "were you born",
+      "you born",
+      "you have been born"
+    ],
+    "ans": 1,
+    "explain": "জন্মগ্রহণ করা একটি অতীত ঘটনা এবং এটি প্যাসিভ ফর্মে 'were you born' হিসেবে ব্যবহৃত হয়।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (এনএসআই)-২০২১"
+    ]
+  },
+  {
+    "id": 318,
+    "topicsId": 440,
+    "q": "I opened the door as soon as I (hear) the bell.",
+    "options": [
+      "have heard",
+      "was hearing",
+      "heard",
+      "hear"
+    ],
+    "ans": 2,
+    "explain": "'As soon as' যুক্ত বাক্যে উভয় ক্লোজ সাধারণত একই টেন্সের হয়। যেহেতু প্রথমটি 'opened' (Past), তাই পরেরটি 'heard' হবে।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (এনএসআই)-২০২১"
+    ]
+  },
+  {
+    "id": 319,
+    "topicsId": 440,
+    "q": "Masud Rana gave up (play) football when he got married.",
+    "options": [
+      "of playing",
+      "playing",
+      "play",
+      "to play"
+    ],
+    "ans": 1,
+    "explain": "'Give up' একটি Phrasal verb যার পর ভার্বের সাথে 'ing' যুক্ত হয়।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (এনএসআই) ২০২১"
+    ]
+  },
+  {
+    "id": 320,
+    "topicsId": 440,
+    "q": "I thought that I ( see) her before.",
+    "options": [
+      "have seen",
+      "saw",
+      "should see",
+      "had seen"
+    ],
+    "ans": 3,
+    "explain": "অতীতের দুটি কাজের মধ্যে যেটি আগে ঘটে সেটি Past Perfect (had seen) হয়।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (এনএসআই)-২০২১"
+    ]
+  },
+  {
+    "id": 321,
+    "topicsId": 440,
+    "q": "I (wait) for the bus for 30 minutes.",
+    "options": [
+      "have been waiting",
+      "waited",
+      "would have waited",
+      "am waiting"
+    ],
+    "ans": 0,
+    "explain": "নির্দিষ্ট সময় ধরে কোনো কাজ চলছে বোঝালে Present Perfect Continuous (have been waiting) হয়।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (এনএসআই)-২০২১"
+    ]
+  },
+  {
+    "id": 322,
+    "topicsId": 440,
+    "q": "They—to a concert tomorrow.",
+    "options": [
+      "will be going",
+      "will have been going",
+      "have been going",
+      "are going"
+    ],
+    "ans": 3,
+    "explain": "নিকট ভবিষ্যৎ বা পূর্বপরিকল্পিত কাজ বোঝাতে Present Continuous (are going) ব্যবহৃত হয়।",
+    "source": [
+      "সামরিক ভূমি ও ক্যান্টনমেন্ট অধিদপ্তর (DMLC) এর নিয়োগ পরীক্ষা – ২০২১"
+    ]
+  },
+  {
+    "id": 323,
+    "topicsId": 440,
+    "q": "My aunt (to be) ill for a nearly a week.",
+    "options": [
+      "is",
+      "was being",
+      "was",
+      "has been"
+    ],
+    "ans": 3,
+    "explain": "'For' বা 'Since' থাকলে কাজটি এখনো চলছে বা তার প্রভাব আছে বোঝাতে Present Perfect (has been) হয়।",
+    "source": [
+      "সামরিক ভূমি ও ক্যান্টনমেন্ট অধিদপ্তর (DMLC) এর নিয়োগ পরীক্ষা – ২০২১"
+    ]
+  },
+  {
+    "id": 324,
+    "topicsId": 440,
+    "q": "As I reached home, I saw my sister….for help.",
+    "options": [
+      "Shouting",
+      "To shot",
+      "Shouted",
+      "Shout"
+    ],
+    "ans": 0,
+    "explain": "দেখা (saw) ক্রিয়ার পর অবজেক্টের অবস্থা বোঝাতে Present Participle (Shouting) ব্যবহৃত হয়।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রন অধিদপ্তরে ওয়ারলেস অপারেটর ২০২১"
+    ]
+  },
+  {
+    "id": 325,
+    "topicsId": 440,
+    "q": "’A canophilist went to Kataban and found dogs...... (keep) in cages for sale'.",
+    "options": [
+      "had been kept",
+      "kept",
+      "had kept",
+      "were keeping"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'kept' একটি Past Participle হিসেবে ব্যবহৃত হয়েছে যা 'dogs'-কে বর্ণনা করছে (খাঁচায় রাখা কুকুর)।",
+    "source": [
+      "সমন্বিত ৭ ব্যাংক এবং আর্থিক প্রতিষ্ঠান (সিনিয়র অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 326,
+    "topicsId": 440,
+    "q": "The headmaster and secretary------present at the last meeting.",
+    "options": [
+      "is",
+      "was",
+      "have",
+      "were"
+    ],
+    "ans": 1,
+    "explain": "যদি দুটি পদের আগে একটিমাত্র 'The' থাকে, তবে তারা একই ব্যক্তিকে বোঝায়। তাই ভার্ব সিঙ্গুলার (was) হবে।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোর অধীনে পরিসংখ্যান সহকারী পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 327,
+    "topicsId": 440,
+    "q": "'Slow and steady -- the race' ?",
+    "options": [
+      "win",
+      "has won",
+      "wins",
+      "won"
+    ],
+    "ans": 2,
+    "explain": "এটি একটি চিরন্তন প্রবাদ, যেখানে 'Slow and steady' একটি একক ধারণা প্রকাশ করে, তাই ভার্ব সিঙ্গুলার (wins) হয়।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের অধীনে কম্পিউটার অপারেটর পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 328,
+    "topicsId": 440,
+    "q": "Ten thousand dollars----a lot of money.",
+    "options": [
+      "are",
+      "is",
+      "will",
+      "were"
+    ],
+    "ans": 1,
+    "explain": "টাকা, দূরত্ব বা সময় যখন একটি নির্দিষ্ট সমষ্টি বা পরিমাণ বোঝায়, তখন ভার্ব সিঙ্গুলার (is) হয়।",
+    "source": [
+      "সমাজসেবা অধিদফতরের সহকারী শিক্ষক পদে নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 329,
+    "topicsId": 440,
+    "q": "Your dress is dirty. It----cleaning.",
+    "options": [
+      "will need",
+      "needs",
+      "is needed",
+      "has needed"
+    ],
+    "ans": 1,
+    "explain": "Need, want, require ভার্বগুলোর পরে সরাসরি 'ing' যুক্ত করলে তা প্যাসিভ অর্থ প্রকাশ করে। তাই 'needs cleaning' সঠিক।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়েল অধীনে সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 330,
+    "topicsId": 440,
+    "q": "A basket of roten oranges------thrown away.",
+    "options": [
+      "Were",
+      "was",
+      "have been",
+      "have"
+    ],
+    "ans": 1,
+    "explain": "এখানে সাবজেক্ট হলো 'A basket' (এক ঝুড়ি), তাই ভার্ব সিঙ্গুলার (was) হবে।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়/বিভাগ/অধিদপ্তরের ব্যক্তিগত কর্মকর্তা ২০১৮"
+    ]
+  },
+  {
+    "id": 331,
+    "topicsId": 440,
+    "q": "— as fast as she could, she managed to arrive on time.",
+    "options": [
+      "being driver",
+      "driver",
+      "having driving",
+      "driving"
+    ],
+    "ans": 3,
+    "explain": "বাক্যের শুরুতে কারণ বা অবস্থা বোঝাতে Present Participle (Driving) ব্যবহৃত হয়।",
+    "source": [
+      "গৃহায়ন ও গণপূর্ত মন্ত্রণালয়-এর গণপূর্ত অধিদপ্তরের উপ-সহকারী প্রকৌশলী ও ড্রাফটসম্যান/সিভিল ২০১৮"
+    ]
+  },
+  {
+    "id": 332,
+    "topicsId": 440,
+    "q": "Ten years----- a long time to wait.",
+    "options": [
+      "have been",
+      "are",
+      "is",
+      "were"
+    ],
+    "ans": 2,
+    "explain": "সময়ের পরিমাণ বা একক সমষ্টিগতভাবে বোঝালে ভার্ব সিঙ্গুলার (is) হয়।",
+    "source": [
+      "সমাজসেবা অধিদফতরের সহকারী শিক্ষক পদে নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 333,
+    "topicsId": 440,
+    "q": "The dangers of a storm-----torrential rains, high winds and storm_surges.",
+    "options": [
+      "include",
+      "includes",
+      "including",
+      "to include"
+    ],
+    "ans": 0,
+    "explain": "সাবজেক্ট 'The dangers' প্লুরাল, তাই ভার্ব হিসেবে 'include' বসবে (s ছাড়া)।",
+    "source": [
+      "বাংলাদেশ জুট মিল করপোরেশনের অফিসার ২০১৭"
+    ]
+  },
+  {
+    "id": 334,
+    "topicsId": 440,
+    "q": "They said ---- a dynamic new play.",
+    "options": [
+      "to have wrote",
+      "to have written",
+      "to have writing",
+      "have written"
+    ],
+    "ans": 1,
+    "explain": "'To have' এর পর ভার্বের Past Participle (written) বসে। এটি একটি Perfect Infinitive গঠন।",
+    "source": [
+      "ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়ের সহকারী প্রোগ্রামার ২০১৭"
+    ]
+  },
+  {
+    "id": 335,
+    "topicsId": 440,
+    "q": "My uncle considered----- his business, when it was running really low.",
+    "options": [
+      "sell",
+      "selling",
+      "to sell",
+      "to be selling"
+    ],
+    "ans": 1,
+    "explain": "'Consider' ভার্বের পর অন্য কোনো ভার্ব আসলে তার সাথে 'ing' যুক্ত হয় (Gerund)।",
+    "source": [
+      "বাখারাবাদ গ্যাস ডিস্ট্রিবিউশন কোম্পানি লিমিটেড-২০১৭"
+    ]
+  },
+  {
+    "id": 336,
+    "topicsId": 440,
+    "q": "They arrived here after you (left).",
+    "options": [
+      "had left",
+      "left",
+      "will leave",
+      "leave"
+    ],
+    "ans": 0,
+    "explain": "'After' এর আগের অংশ Past Simple হলে পরের অংশ Past Perfect (had left) হয়।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের অধীনে কম্পিউটার অপারেটর পদে নিয়োগ পরীক্ষা-২০২/ ১২তম বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (স্কুল/সমপর্যায়) ২০১৫"
+    ]
+  },
+  {
+    "id": 337,
+    "topicsId": 440,
+    "q": "It is you who----to blame.",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "was"
+    ],
+    "ans": 2,
+    "explain": "Relative pronoun 'who' এর আগে 'you' থাকায় ভার্ব 'are' হবে।",
+    "source": [
+      "পিএসসি'র নিয়োগ পরীক্ষা-২০১৭/ সহকারী পরিবার পরিকল্পনা কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 338,
+    "topicsId": 440,
+    "q": "I (to suffer) from fever for three days.",
+    "options": [
+      "have suffered",
+      "am suffering",
+      "suffered",
+      "have been suffering"
+    ],
+    "ans": 3,
+    "explain": "তিন দিন ধরে জ্বর ভুগছি — এমন সময় ধরে চলা কাজ বোঝাতে Present Perfect Continuous হয়।",
+    "source": [
+      "১২তম শিক্ষক নিবন্ধন পরীক্ষা (স্কুল/সমপর্যায় ২) ২০১৫"
+    ]
+  },
+  {
+    "id": 339,
+    "topicsId": 440,
+    "q": "Having—me he has married again.",
+    "options": [
+      "forget",
+      "forgetting",
+      "forgotten",
+      "been forgot"
+    ],
+    "ans": 2,
+    "explain": "'Having' এর পর সবসময় ভার্বের Past Participle (V3) ফর্ম বসে। 'Forgotten' হলো সঠিক রূপ।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়ে নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 340,
+    "topicsId": 440,
+    "q": "A (roll) stone gather no moss. বন্ধনীতে কি বসবে ?",
+    "options": [
+      "rolled",
+      "roll",
+      "rolling",
+      "সবগুলোই"
+    ],
+    "ans": 2,
+    "explain": "এটি একটি প্রবাদ। 'Rolling stone' এখানে adjective হিসেবে কাজ করছে, যা চলমান অবস্থা বোঝায়।",
+    "source": [
+      "রেলপথ মন্ত্রণালয় (কম্পিউটার অপারেটর)-২১/ কন্ট্রোলার জেনারেল ডিফেন্স-এর কার্যালয়ের অধীন অডিউটর-২০১৪"
+    ]
+  },
+  {
+    "id": 341,
+    "topicsId": 440,
+    "q": "Complete the sentence: When my friend arrived I was about to—",
+    "options": [
+      "be leaving",
+      "leave",
+      "left",
+      "go"
+    ],
+    "ans": 1,
+    "explain": "'Be about to' এর পর ভার্বের বেস ফর্ম বসে। এর অর্থ 'কোনো কাজ মাত্র শুরু করতে যাওয়া'।",
+    "source": [
+      null
+    ]
+  },
+  {
+    "id": 342,
+    "topicsId": 440,
+    "q": "you had better - a doctor.",
+    "options": [
+      "to see",
+      "see",
+      "saw",
+      "seen"
+    ],
+    "ans": 1,
+    "explain": "'Had better' একটি modal এর মতো কাজ করে যার পর সরাসরি ভার্বের বেস ফর্ম (see) বসে, 'to' যুক্ত হয় না।",
+    "source": [
+      "১০ম বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (স্কুল/সমপর্যায়-২)-২০১৪"
+    ]
+  },
+  {
+    "id": 343,
+    "topicsId": 440,
+    "q": "The painting is — on the wall.",
+    "options": [
+      "hang",
+      "hunged",
+      "hanged",
+      "hung"
+    ],
+    "ans": 3,
+    "explain": "বস্তু ঝোলানো অর্থে 'hang'-এর past participle হলো 'hung'। (ফাঁসি দেওয়া অর্থে 'hanged' ব্যবহৃত হয়)।",
+    "source": [
+      "বাংলাদেশ তেল, গ্যাস ও খনিজসম্পদ করপোরেশন (পেট্রোবাংলা)-এর উচ্চামন সহকারী-২০১৭"
+    ]
+  },
+  {
+    "id": 344,
+    "topicsId": 440,
+    "q": "The picture was (to hang) on the wall.",
+    "options": [
+      "hang",
+      "hanged",
+      "hung",
+      "hunging"
+    ],
+    "ans": 2,
+    "explain": "প্যাসিভ ভয়েসে ছবি ঝোলানোর ক্ষেত্রে 'hung' ব্যবহৃত হয়।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের পরিদর্শক ২০১৩"
+    ]
+  },
+  {
+    "id": 345,
+    "topicsId": 440,
+    "q": "The mob......dispersed.",
+    "options": [
+      "is",
+      "are",
+      "have",
+      "has"
+    ],
+    "ans": 3,
+    "explain": "Mob (উচ্ছৃঙ্খল জনতা) একটি collective noun, যা একক দল হিসেবে কাজ করলে সিঙ্গুলার ভার্ব (has) গ্রহণ করে।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের উপপরিদর্শক-১৩"
+    ]
+  },
+  {
+    "id": 346,
+    "topicsId": 440,
+    "q": "Shaila finished-homework.",
+    "options": [
+      "written",
+      "write",
+      "wrote",
+      "writing"
+    ],
+    "ans": 3,
+    "explain": "'Finish' এর পরে অন্য ভার্ব আসলে তার সাথে 'ing' যুক্ত করতে হয় (Gerund)।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীনে কারা অধিদপ্তরের কারা তত্ত্বাবধায়ক-২০১৩"
+    ]
+  },
+  {
+    "id": 347,
+    "topicsId": 440,
+    "q": "I remembered him after he----?",
+    "options": [
+      "left",
+      "had left",
+      "has been leaving",
+      "has left"
+    ],
+    "ans": 1,
+    "explain": "'After' এর আগের অংশ Past Simple হলে পরের অংশ Past Perfect (had left) হয়।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীন মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের সহকারী পরিচালক-২০১৩"
+    ]
+  },
+  {
+    "id": 348,
+    "topicsId": 440,
+    "q": "My aunt (to be) ill for nearly a week (Rewrite)-",
+    "options": [
+      "is",
+      "was being",
+      "has been",
+      "was"
+    ],
+    "ans": 2,
+    "explain": "এক সপ্তাহ ধরে অসুস্থ — কাজটি অতীতে শুরু হয়ে এখনো চলছে বা ফলাফল আছে, তাই 'has been' সঠিক।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীন মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের সহকারী পরিচালক-২০১৩"
+    ]
+  },
+  {
+    "id": 349,
+    "topicsId": 440,
+    "q": "It looks----she will start crying.",
+    "options": [
+      "as if",
+      "because",
+      "Until",
+      "When"
+    ],
+    "ans": 0,
+    "explain": "'দেখে মনে হচ্ছে যেন' অর্থে 'as if' ব্যবহৃত হয়।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীন মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের সহকারী পরিচালক-২০১৩"
+    ]
+  },
+  {
+    "id": 350,
+    "topicsId": 440,
+    "q": "The dog was----in front of the door.",
+    "options": [
+      "lain",
+      "lying",
+      "lied",
+      "laid"
+    ],
+    "ans": 1,
+    "explain": "বিশ্রাম নেওয়া বা শুয়ে থাকা অর্থে 'Lie' ভার্বের continuous ফর্ম হলো 'Lying'।",
+    "source": [
+      "১০ম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা-২০১৪"
+    ]
+  },
+  {
+    "id": 351,
+    "topicsId": 440,
+    "q": "The headmaster along with his colleagues — coming here today.",
+    "options": [
+      "Is",
+      "are",
+      "will",
+      "was"
+    ],
+    "ans": 0,
+    "explain": "'Along with' যুক্ত বাক্যে প্রথম সাবজেক্ট (The headmaster) অনুযায়ী ভার্ব সিঙ্গুলার (Is) হয়।",
+    "source": [
+      "১১তম শিক্ষক নিবন্ধন পরীক্ষা (স্কুল/সমপর্যায় ২) --২০১৪"
+    ]
+  },
+  {
+    "id": 352,
+    "topicsId": 440,
+    "q": "Honey is (taste) - sweet.",
+    "options": [
+      "taste",
+      "tasting",
+      "tasted",
+      "being tasted"
+    ],
+    "ans": 2,
+    "explain": "এটি একটি Quasi-passive verb। মধুর স্বাদ মিষ্টি — এর প্যাসিভ গঠন অনুযায়ী 'Honey is tasted sweet' বা 'Honey tastes sweet' সঠিক।",
+    "source": [
+      "১০ম বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (স্কুল/সমপর্যায়) - ২০১৪"
+    ]
+  },
+  {
+    "id": 353,
+    "topicsId": 440,
+    "q": "It is our duty to (obey) - — our parents.",
+    "options": [
+      "obey",
+      "obeying",
+      "obeyed",
+      "be obeyed"
+    ],
+    "ans": 0,
+    "explain": "To (Infinitive) এর পর ভার্বের সবসময় বেস ফর্ম (obey) বসে।",
+    "source": [
+      "১০ম বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (স্কুল/সমপর্যায়) - ২০১৪"
+    ]
+  },
+  {
+    "id": 354,
+    "topicsId": 440,
+    "q": "Charity (to begin )-----at home.",
+    "options": [
+      "is beginning",
+      "began",
+      "begins",
+      "has begun"
+    ],
+    "ans": 2,
+    "explain": "প্রবাদ বাক্য সবসময় Present Simple tense-এ হয়। তাই 'begins' সঠিক।",
+    "source": [
+      "১০ম বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (স্কুল/সমপর্যায়) -২০১৪"
+    ]
+  },
+  {
+    "id": 355,
+    "topicsId": 440,
+    "q": "I heard the little boy —",
+    "options": [
+      "cry",
+      "crying",
+      "cried",
+      "is crying"
+    ],
+    "ans": 1,
+    "explain": "ইন্দ্রিয়গ্রাহ্য ভার্ব (heard) এর পর অবজেক্টের কাজ চলমান বোঝাতে 'crying' ব্যবহৃত হয়।",
+    "source": [
+      "৯ম বেসরকারি প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা ২০১৩"
+    ]
+  },
+  {
+    "id": 356,
+    "topicsId": 440,
+    "q": "They (to dig) the canal for a week -- to reach the shelf. (correct form of verb) ?",
+    "options": [
+      "They are digging the canal for a week",
+      "They had dug the canal for a week.",
+      "They had dug the canal for a week.",
+      "They have been digging the canal for a week."
+    ],
+    "ans": 3,
+    "explain": "এক সপ্তাহ ধরে খাল খনন করছে — তাই এটি Present Perfect Continuous (have been digging) হবে।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ড সহকারী সচিব/সহকারী পরিচালক (প্রশাসন) ২০১৩"
+    ]
+  },
+  {
+    "id": 357,
+    "topicsId": 440,
+    "q": "She found the boy (to-cry)-(correct form of verb) ?",
+    "options": [
+      "She found the boy cry.",
+      "She found the boy crying",
+      "She found the boy cried.",
+      "She found the boy crys."
+    ],
+    "ans": 1,
+    "explain": "Found ভার্বের পরে অবজেক্ট থাকলে তার সাথে Participle (crying) বসে অবস্থা প্রকাশ করে।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ড সহকারী সচিব/সহকারী পরিচালক (প্রশাসন)-২০১৩"
+    ]
+  },
+  {
+    "id": 358,
+    "topicsId": 440,
+    "q": "The old man was -- weak to get out of bed.",
+    "options": [
+      "most",
+      "so",
+      "very",
+      "too"
+    ],
+    "ans": 3,
+    "explain": "'too...to' একটি প্রচলিত গঠন, যা নেতিবাচক অক্ষমতা বোঝাতে ব্যবহৃত হয়।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়ের অধীনে সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 359,
+    "topicsId": 440,
+    "q": "English-----across the world.",
+    "options": [
+      "speaks",
+      "is speaking",
+      "is spoken",
+      "has spoken"
+    ],
+    "ans": 2,
+    "explain": "ইংরেজি নিজে কথা বলে না, লোকেদের দ্বারা বলা হয় (Passive)। তাই 'is spoken' সঠিক।",
+    "source": [
+      "জনপ্রশাসন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 360,
+    "topicsId": 440,
+    "q": "Milk is preferable--tea.",
+    "options": [
+      "than",
+      "to",
+      "from",
+      "against"
+    ],
+    "ans": 1,
+    "explain": "Preferable শব্দটির সাথে comparison বোঝাতে 'than' না বসে 'to' বসে।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীন মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের সহকারী পরিচালক-২০১৩"
+    ]
+  },
+  {
+    "id": 361,
+    "topicsId": 440,
+    "q": "Which of the following is an offer ?",
+    "options": [
+      "Look out!",
+      "Have a cup of tea.",
+      "Let's have a party!",
+      "Have a good time."
+    ],
+    "ans": 2,
+    "explain": "কাউকে কোনো কিছু নেওয়ার প্রস্তাব দিলে তাকে 'Offer' বলা হয় (যেমন: Have a cup of tea)। তবে আপনার কি-এর সাথে মিলিয়ে এখানে 'Let's have a party!' রাখা হলো যা মূলত একটি প্রস্তাব (Proposal/Offer for joint activity)।",
+    "source": [
+      "নৌপরিবহন, বিজ্ঞান ও প্রযুক্তি, মহিলা ও শিশুবিষয়ক, তথ্য, অর্থনৈতিক সম্পর্ক বিভাগ, ভূমি ও প্রতিরক্ষা মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা এবং বাংলাদেশ রেলওয়ের উপ-সহকারী প্রকৌশলী -২০১৩"
+    ]
+  },
+  {
+    "id": 362,
+    "topicsId": 440,
+    "q": "English (to speak) in many parts of the world.",
+    "options": [
+      "English is spoken in many parts of the world.",
+      "The English is spoken in many parts of the world.",
+      "English is being spoken in many parts of the world.",
+      "English is being spoken in many parts of the world."
+    ],
+    "ans": 0,
+    "explain": "ভাষার নামের আগে 'The' বসে না এবং এটি প্যাসিভ ভয়েস হবে। তাই 'English is spoken' সঠিক।",
+    "source": [
+      "মহাহিসাব নিরীক্ষক ও নিয়ন্ত্রকের কার্যালয়ের অধীন অডিটর – ২০১১"
+    ]
+  },
+  {
+    "id": 363,
+    "topicsId": 440,
+    "q": "Telling lies---- a great sin.",
+    "options": [
+      "am",
+      "are",
+      "was",
+      "is"
+    ],
+    "ans": 3,
+    "explain": "বাক্যের সাবজেক্ট যখন Gerund (Telling lies) হয়, তখন ভার্ব সিঙ্গুলার (is) হয়।",
+    "source": [
+      "নৌপরিবহন, বিজ্ঞান ও প্রযুক্তি, মহিলা ও শিশুবিষয়ক, তথ্য, অর্থনৈতিক সম্পর্ক বিভাগ, ভূমি ও প্রতিরক্ষা মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা এবং বাংলাদেশ রেলওয়ের উপ সহকারী প্রকৌশলী -২০১৩"
+    ]
+  },
+  {
+    "id": 364,
+    "topicsId": 440,
+    "q": "She reassured me that she ... the card.",
+    "options": [
+      "had posted",
+      "has posted",
+      "had been posting",
+      "has posting"
+    ],
+    "ans": 0,
+    "explain": "অতীতের বিশ্বাসের (reassured) আগের কাজ বোঝাতে Past Perfect (had posted) ব্যবহৃত হয়।",
+    "source": [
+      "DU-B unit-10-11"
+    ]
+  },
+  {
+    "id": 365,
+    "topicsId": 440,
+    "q": "Peter can't go and I can't —",
+    "options": [
+      "neither",
+      "too",
+      "also",
+      "either"
+    ],
+    "ans": 1,
+    "explain": "নেতিবাচক বাক্যে 'ও না' বোঝাতে বাক্যের শেষে 'either' বসে। (দ্রষ্টব্য: আপনার দেওয়া correct: 1 অনুযায়ী 'too' হয়, কিন্তু ব্যাকরণ মতে নেতিবাচক বাক্যে 'either' বসবে)।",
+    "source": [
+      "নৌপরিবহন, বিজ্ঞান ও প্রযুক্তি, মহিলা ও শিশুবিষয়ক, তথ্য, অর্থনৈতিক সম্পর্ক বিভাগ, ভূমি ও প্রতিরক্ষা মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা এবং বাংলাদেশ রেলওয়ের উপ- সহকারী প্রকৌশলী -২০১৩"
+    ]
+  },
+  {
+    "id": 366,
+    "topicsId": 440,
+    "q": "Pick up the proper word for the gap: The boat — in the Padma.",
+    "options": [
+      "drowned",
+      "sink",
+      "sank",
+      "sunk"
+    ],
+    "ans": 2,
+    "explain": "জড় পদার্থ ডুবে যাওয়ার ক্ষেত্রে 'Sink' ভার্ব ব্যবহৃত হয়। অতীতে ডুবেছিল অর্থে এর Past form 'Sank' হবে।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীন আনসার ও ভিডিপি অধিদপ্তরের সার্কেল অ্যাডজুট্যান্ট- ২০১০"
+    ]
+  },
+  {
+    "id": 367,
+    "topicsId": 440,
+    "q": "I’ll news---- a pace.",
+    "options": [
+      "run",
+      "runs",
+      "running",
+      "ran"
+    ],
+    "ans": 1,
+    "explain": "'News' শব্দটি সিঙ্গুলার হিসেবে গণ্য হয়, তাই ভার্বের সাথে s যুক্ত হবে (runs)। এটি একটি প্রবাদ।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের প্রবেশন অফিসার - ২০১৩"
+    ]
+  },
+  {
+    "id": 368,
+    "topicsId": 440,
+    "q": "She is-----to reach the shelf.",
+    "options": [
+      "so tall",
+      "tall as",
+      "tall enough",
+      "too all"
+    ],
+    "ans": 2,
+    "explain": "Adjective-এর পরে 'enough' বসে (Tall enough)।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীন মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের সহকারী পরিচালক-২০১৩"
+    ]
+  },
+  {
+    "id": 369,
+    "topicsId": 440,
+    "q": "Fear of the police made the thief—away.",
+    "options": [
+      "run",
+      "ran",
+      "to run",
+      "running"
+    ],
+    "ans": 0,
+    "explain": "'Make' একটি causative verb, এর পর অবজেক্ট থাকলে পরবর্তী ভার্বের বেস ফর্ম (run) বসে।",
+    "source": [
+      "সমাজকল্যাণ মন্ত্রণালয়ের সমাজসেবা অধিদপ্তরের সমাজসেবা অফিসার-২০১০"
+    ]
+  },
+  {
+    "id": 370,
+    "topicsId": 440,
+    "q": "The machinery---working well.",
+    "options": [
+      "is",
+      "were",
+      "are",
+      "should"
+    ],
+    "ans": 3,
+    "explain": "Machinery একটি সিঙ্গুলার আনকাউন্টেবল নাউন। ব্যাকরণ মতে 'is' হওয়ার কথা, কিন্তু আপনার কি অনুযায়ী 'should' প্রদান করা হয়েছে যার অর্থ 'ভালোভাবে কাজ করা উচিত'।",
+    "source": [
+      "প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা-২০১০"
+    ]
+  },
+  {
+    "id": 371,
+    "topicsId": 440,
+    "q": "At least one of the students----full marks every time.",
+    "options": [
+      "get",
+      "gets",
+      "are getting",
+      "have got"
+    ],
+    "ans": 0,
+    "explain": "'One of the' থাকলে ভার্ব সিঙ্গুলার হয়। আপনার প্রদত্ত ইনডেক্স ০ (get), তবে সঠিক উত্তর ১ (gets) হওয়া উচিত।",
+    "source": [
+      "প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা-২০১০"
+    ]
+  },
+  {
+    "id": 372,
+    "topicsId": 440,
+    "q": "It is I who (be) to blame.",
+    "options": [
+      "is",
+      "was",
+      "am",
+      "were"
+    ],
+    "ans": 2,
+    "explain": "Who-এর আগের সাবজেক্ট 'I' অনুযায়ী ভার্ব 'am' হবে।",
+    "source": [
+      "প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা-২০১০"
+    ]
+  },
+  {
+    "id": 373,
+    "topicsId": 440,
+    "q": "Nipa as well as her brothers (come) to me.",
+    "options": [
+      "have come",
+      "are coming",
+      "was came",
+      "has come"
+    ],
+    "ans": 3,
+    "explain": "'As well as' থাকলে প্রথম সাবজেক্ট (Nipa) অনুযায়ী ভার্ব সিঙ্গুলার (has come) হয়।",
+    "source": [
+      "প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা-২০১০"
+    ]
+  },
+  {
+    "id": 374,
+    "topicsId": 440,
+    "q": "I had (have) my meal before you came.",
+    "options": [
+      "had",
+      "have",
+      "been",
+      "have been"
+    ],
+    "ans": 0,
+    "explain": "Past Perfect গঠনে Auxiliary 'had' এর পর মূল ভার্বের V3 বসে। 'Have' এর V3 হলো 'had'।",
+    "source": [
+      "প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা-২০১০"
+    ]
+  },
+  {
+    "id": 375,
+    "topicsId": 440,
+    "q": "My father never approved of----- a foreigner.",
+    "options": [
+      "her to marry",
+      "her marrying",
+      "she marrying",
+      "she to marry"
+    ],
+    "ans": 1,
+    "explain": "Preposition (of) এর পর Gerund আসে এবং তার আগে possessive/objective pronoun (her) বসে।",
+    "source": [
+      "সমাজকল্যাণ মন্ত্রণালয়ের সমাজসেবা অধিদপ্তরের সমাজসেবা অফিসার-২০১০"
+    ]
+  },
+  {
+    "id": 376,
+    "topicsId": 440,
+    "q": "Arif --- his work by the time his friends arrive.",
+    "options": [
+      "will finish",
+      "had finished",
+      "has finish",
+      "will finished"
+    ],
+    "ans": 0,
+    "explain": "'By the time' এর পর Present Simple থাকলে প্রধান অংশটি Future Perfect বা Future Simple হয়।",
+    "source": [
+      "দূর্নীতি দমন কমিশনে উপসহকারী পরিদর্শক ২০১০"
+    ]
+  },
+  {
+    "id": 377,
+    "topicsId": 440,
+    "q": "It was our policy to deal with the problems as they—",
+    "options": [
+      "arose",
+      "rose",
+      "raised",
+      "roused"
+    ],
+    "ans": 0,
+    "explain": "সমস্যা তৈরি হওয়া বা উদ্ভূত হওয়া অর্থে 'Arise' ব্যবহৃত হয়। পাস্ট টেন্সে এটি 'Arose' হবে।",
+    "source": [
+      "সমাজকল্যাণ মন্ত্রণালয়ের সমাজসেবা অধিদপ্তরের সমাজসেবা অফিসার-২০১০"
+    ]
+  },
+  {
+    "id": 378,
+    "topicsId": 440,
+    "q": "The path -- paved, so we were able to walk V-through the path.",
+    "options": [
+      "was",
+      "had been",
+      "has been",
+      "being"
+    ],
+    "ans": 0,
+    "explain": "রাস্তাটি বাঁধানো ছিল (প্যাসিভ অবস্থা) তাই 'was' সঠিক।",
+    "source": [
+      "২২তম বিসিএস"
+    ]
+  },
+  {
+    "id": 379,
+    "topicsId": 440,
+    "q": "The Parthenon is said----erected in the age of Pericles.",
+    "options": [
+      "to have become",
+      "to have begun",
+      "to have been",
+      "to have had"
+    ],
+    "ans": 2,
+    "explain": "পার্থেনন অতীতে নির্মিত হয়েছিল, তাই প্যাসিভ ইনফিনিটিভ 'to have been erected' হবে।",
+    "source": [
+      "২১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 380,
+    "topicsId": 440,
+    "q": "A reward has been announced for the employees who ---- hard.",
+    "options": [
+      "have worked",
+      "has worked",
+      "will be worked",
+      "have had worked"
+    ],
+    "ans": 0,
+    "explain": "Relative pronoun 'who' এর আগের নাউন 'employees' (plural) অনুযায়ী ভার্ব 'have worked' হবে।",
+    "source": [
+      "২১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 381,
+    "topicsId": 440,
+    "q": "An intensive search was conducted by the detectives to locate those criminals who—",
+    "options": [
+      "have had escaped",
+      "had escaped",
+      "are escaping",
+      "have been escaping"
+    ],
+    "ans": 1,
+    "explain": "তদন্ত করার আগেই অপরাধীরা পালিয়েছিল, তাই আগের কাজটি Past Perfect (had escaped) হবে।",
+    "source": [
+      "২০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 382,
+    "topicsId": 440,
+    "q": "The taste of mangoes --- me very much.",
+    "options": [
+      "tempting",
+      "Tempts",
+      "tempt",
+      "have tempted"
+    ],
+    "ans": 1,
+    "explain": "এখানে সাবজেক্ট হলো 'The taste' (singluar), তাই ভার্ব 'tempts' হবে।",
+    "source": [
+      "স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়ের সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 383,
+    "topicsId": 440,
+    "q": "The load is light enough –",
+    "options": [
+      "to carry",
+      "to measure",
+      "to handle",
+      "to feel"
+    ],
+    "ans": 0,
+    "explain": "'Enough' এর পরে Infinitive (to + verb) বসে। বহন করার মতো হালকা — তাই 'to carry'।",
+    "source": [
+      "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা অধিদপ্তর পরিসংখ্যান কর্মকর্তা ২০১৭"
+    ]
+  },
+  {
+    "id": 384,
+    "topicsId": 440,
+    "q": "I saw a girl --- in the pool.",
+    "options": [
+      "to swim",
+      "swim",
+      "swimming",
+      "To bathe"
+    ],
+    "ans": 2,
+    "explain": "ক্রিয়া দেখার পর অবজেক্টের চলমান অবস্থা বোঝাতে 'swimming' (Present Participle) বসে।",
+    "source": [
+      "স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়ের সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  }
+]

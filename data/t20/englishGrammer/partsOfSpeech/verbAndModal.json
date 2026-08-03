@@ -1,0 +1,2211 @@
+[
+  {
+    "id": 1,
+    "topicsId": 410,
+    "q": "The boy from the village said, “I — starve than beg.”",
+    "options": [
+      "better",
+      "rather",
+      "would rather",
+      "would better"
+    ],
+    "ans": 2,
+    "explain": "দুটি কাজের মধ্যে একটিকে অধিকতর পছন্দনীয় বোঝাতে 'would rather...than' ব্যবহৃত হয়। এখানে ভিক্ষা করার চেয়ে না খেয়ে থাকাকে প্রাধান্য দেওয়া হয়েছে।",
+    "source": [
+      "১৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 2,
+    "topicsId": 410,
+    "q": "He ran fast lest he-----miss the train.",
+    "options": [
+      "can",
+      "should",
+      "could",
+      "has"
+    ],
+    "ans": 1,
+    "explain": "বাক্যে 'lest' থাকলে পরবর্তী clause-এর subject-এর পর 'should' বা 'might' বসে। এটি নেতিবাচক অর্থ প্রকাশ করে যাতে কোনো অঘটন না ঘটে।",
+    "source": [
+      "২৬তম বিসিএস"
+    ]
+  },
+  {
+    "id": 3,
+    "topicsId": 410,
+    "q": "If I had known you were coming---",
+    "options": [
+      "would go to the station.",
+      "I had gone to the station.",
+      "I would have gone to the station.",
+      "I would be going to the station."
+    ],
+    "ans": 2,
+    "explain": "এটি Third Conditional-এর উদাহরণ। 'If' যুক্ত অংশে Past Perfect (had known) থাকলে পরের অংশে 'would have + V3' (would have gone) বসে।",
+    "source": [
+      "২৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 4,
+    "topicsId": 410,
+    "q": "No man can –– alone.",
+    "options": [
+      "lives",
+      "live",
+      "living",
+      "lived"
+    ],
+    "ans": 1,
+    "explain": "Modal Auxiliary (can, could, may, might, shall, should, will, would, must) এর পর সবসময় ভার্বের বেস ফর্ম (V1) বসে।",
+    "source": [
+      "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের কমিউনিটি হেলথ কেয়ার প্রোভাইডার ২০১৮/ টিটিসি ২০১৮"
+    ]
+  },
+  {
+    "id": 5,
+    "topicsId": 410,
+    "q": "We always be open to new ideas",
+    "options": [
+      "Are",
+      "Could",
+      "Should",
+      "wouldn't"
+    ],
+    "ans": 2,
+    "explain": "উচিত অর্থে এবং নৈতিক বাধ্যবাধকতা বোঝাতে 'Should' ব্যবহৃত হয়। বাক্যের অর্থ: আমাদের সবসময় নতুন আইডিয়ার প্রতি আগ্রহী হওয়া উচিত।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়/বিভাগ/অধিদপ্তরের ব্যক্তিগত কর্মকর্তা (সাধারণ) ২০১৮"
+    ]
+  },
+  {
+    "id": 6,
+    "topicsId": 410,
+    "q": "Good friends - listen to each other.",
+    "options": [
+      "Never",
+      "Ever",
+      "Might",
+      "Must"
+    ],
+    "ans": 3,
+    "explain": "দৃঢ় বাধ্যবাধকতা বা অবশ্যই কোনো কাজ করতে হবে এমন বোঝাতে 'Must' ব্যবহৃত হয়। ভালো বন্ধুদের অবশ্যই একে অপরের কথা শোনা উচিত।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়/বিভাগ/অধিদপ্তরের ব্যক্তিগত কর্মকর্তা (সাধারণ) ২০১৮"
+    ]
+  },
+  {
+    "id": 7,
+    "topicsId": 410,
+    "q": "Select the appropriate modal Is it important that James-------read the letter before I send it ?",
+    "options": [
+      "Can",
+      "May",
+      "Should",
+      "Will"
+    ],
+    "ans": 2,
+    "explain": "গুরুত্ব বা প্রয়োজনীয়তা (important) বোঝাতে Subjunctive mood-এর ক্ষেত্রে অথবা সাধারণ পরামর্শে 'Should' ব্যবহৃত হয়।",
+    "source": [
+      "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের অধীন বিআরটিএ'র মোটরযান পরিদক ২০১৭"
+    ]
+  },
+  {
+    "id": 8,
+    "topicsId": 410,
+    "q": "We--- better start soon, or we’ll miss the opening ceremony.",
+    "options": [
+      "may",
+      "had",
+      "would",
+      "should"
+    ],
+    "ans": 1,
+    "explain": "'Had better' একটি ইডিয়ম যার অর্থ 'বরং ভালো'। এটি বর্তমান বা ভবিষ্যতে কোনো কিছু করা ভালো এমন উপদেশ দিতে ব্যবহৃত হয়।",
+    "source": [
+      "বিদ্যুৎ,জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়ের সিকিউরিটি অফিসার : ২০১৯"
+    ]
+  },
+  {
+    "id": 9,
+    "topicsId": 410,
+    "q": "Fill in the blank: “You might about------ Milton”.",
+    "options": [
+      "Hear",
+      "Be heard",
+      "Heard",
+      "Have heard"
+    ],
+    "ans": 3,
+    "explain": "অতীতের কোনো সম্ভাবনা বোঝাতে (হয়তো শুনে থাকবে) 'might have + V3' ব্যবহৃত হয়। তাই 'might have heard' সঠিক।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয় সুপারিনটেনডেন্ট ২০১৯"
+    ]
+  },
+  {
+    "id": 10,
+    "topicsId": 410,
+    "q": "Travellers -- their reservations well in advanced if they want to fly during the Eid holidays.",
+    "options": [
+      "had better to get",
+      "had to get better",
+      "had better get",
+      "had better got"
+    ],
+    "ans": 2,
+    "explain": "'Had better'-এর পর সরাসরি ভার্বের বেস ফর্ম বসে, কোনো 'to' বসে না। তাই 'had better get' সঠিক।",
+    "source": [
+      "১৮তম বিসিএস/সহকারী ড্রিলিং প্রকৌশলী (ভূতাত্ত্বিক জরিপ অধিদপ্তর) পদে নিয়োগ পরীক্ষা-৯৮"
+    ]
+  },
+  {
+    "id": 11,
+    "topicsId": 410,
+    "q": "She still remembers the day when she first----to Rahman park.",
+    "options": [
+      "went",
+      "was going",
+      "gone",
+      "going"
+    ],
+    "ans": 0,
+    "explain": "প্রথমবার পার্কে যাওয়ার ঘটনাটি একটি নির্দিষ্ট অতীত সময়কে নির্দেশ করছে, তাই Past Indefinite tense (went) হবে।",
+    "source": [
+      "কর্ণফুলী গ্যাস: ২১"
+    ]
+  },
+  {
+    "id": 12,
+    "topicsId": 410,
+    "q": "He---to see us if he had been able to.",
+    "options": [
+      "would come",
+      "would have come",
+      "may have come",
+      "may come"
+    ],
+    "ans": 1,
+    "explain": "এটি Third Conditional। 'If' ক্লজে Past Perfect (had been) থাকলে মেইন ক্লজে 'would have + V3' হয়।",
+    "source": [
+      "১০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 13,
+    "topicsId": 410,
+    "q": "He----- arrested if he had tried to leave the country.",
+    "options": [
+      "Would",
+      "could be",
+      "would have been",
+      "must be"
+    ],
+    "ans": 2,
+    "explain": "বাক্যটি Third Conditional এবং Passive voice-এ আছে। 'If' অংশে Past Perfect থাকায় পরবর্তী অংশে 'would have been + V3' বসেছে।",
+    "source": [
+      "10TH BCS"
+    ]
+  },
+  {
+    "id": 14,
+    "topicsId": 410,
+    "q": "If we had a boat, we---the river.",
+    "options": [
+      "would cross",
+      "will cross",
+      "will be crossing",
+      "would make crossed"
+    ],
+    "ans": 0,
+    "explain": "এটি Second Conditional। 'If' এর সাথে Past Indefinite (had) থাকলে পরের অংশে 'would + V1' (would cross) বসে।",
+    "source": [
+      "প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা, ঢাকা ও বরিশাল বিভাগ-১৮"
+    ]
+  },
+  {
+    "id": 15,
+    "topicsId": 410,
+    "q": "I wish the prices of the essentials commodities-----come down soon.",
+    "options": [
+      "would",
+      "will",
+      "should",
+      "can"
+    ],
+    "ans": 0,
+    "explain": "ভবিষ্যতে কোনো কিছু পরিবর্তন হওয়ার ইচ্ছা (Wish) প্রকাশ করতে 'would' ব্যবহৃত হয়।",
+    "source": [
+      "আমদানি রপ্তানি অধিদপ্তরের নির্বাহী অফিসার পরীক্ষা-০৭"
+    ]
+  },
+  {
+    "id": 16,
+    "topicsId": 410,
+    "q": "Which of the following are semi modals ?",
+    "options": [
+      "Can, could",
+      "need, dare",
+      "will, would",
+      "must, should"
+    ],
+    "ans": 1,
+    "explain": "Need এবং Dare-কে semi-modals বলা হয় কারণ এরা কখনও মূল ভার্ব হিসেবে, আবার কখনও মোডাল অক্সিলারি হিসেবে কাজ করে।",
+    "source": [
+      "উপ-সহকারী প্রকৌশলী (সিভিল) ২০১৫"
+    ]
+  },
+  {
+    "id": 17,
+    "topicsId": 410,
+    "q": "You----help me if you don't have time. I can do the job myself.",
+    "options": [
+      "aren't able to",
+      "don't have to",
+      "don't",
+      "aren't going to"
+    ],
+    "ans": 1,
+    "explain": "কোনো কাজ করার প্রয়োজন নেই বা বাধ্যবাধকতা নেই বোঝাতে 'don't have to' ব্যবহৃত হয়।",
+    "source": [
+      "গণমাধ্যম ইনষ্টিটিউট নিয়োগ পরীক্ষা-০৩"
+    ]
+  },
+  {
+    "id": 18,
+    "topicsId": 410,
+    "q": "If I were a king, I not know what sorrows are.",
+    "options": [
+      "did",
+      "should",
+      "would",
+      "will"
+    ],
+    "ans": 2,
+    "explain": "অবাস্তব কল্পনা বা Second Conditional-এর ক্ষেত্রে 'If clause'-এ were থাকলে পরের অংশে 'would + V1' হয়।",
+    "source": [
+      "সংস্থাপন মন্ত্রণালয় পদে পরীক্ষা- ০৭"
+    ]
+  },
+  {
+    "id": 19,
+    "topicsId": 410,
+    "q": "If Napoleon had not invaded Russia, he-----the rest of Europe.",
+    "options": [
+      "had conquered",
+      "would conquer",
+      "would have conquered",
+      "conquered"
+    ],
+    "ans": 2,
+    "explain": "Third Conditional-এর নিয়ম অনুযায়ী 'If' অংশে Past Perfect থাকলে অপর অংশে 'would have + V3' (would have conquered) বসে।",
+    "source": [
+      "সহকারী কমান্ডেন্ট (বাংলাদেশ রেলওয়ে) পদে পরীক্ষা- ০৭"
+    ]
+  },
+  {
+    "id": 20,
+    "topicsId": 410,
+    "q": "I am looking for someone who----play the piano.",
+    "options": [
+      "Able",
+      "is able",
+      "can be able to",
+      "can"
+    ],
+    "ans": 3,
+    "explain": "সামর্থ্য বা দক্ষতা বোঝাতে 'can' ব্যবহৃত হয়। 'can' এবং 'able to' একসাথে ব্যবহৃত হয় না।",
+    "source": [
+      "উপজেলা মহিলা ও শিশু বিষয়ক কর্মকর্তা পরীক্ষা-০৭"
+    ]
+  },
+  {
+    "id": 21,
+    "topicsId": 410,
+    "q": "The best translation of ‘যেতে পারি, কিন্তু কেন যাবো ?'",
+    "options": [
+      "I can go, but why Ishall go?",
+      "I can go, but why I will go?",
+      "I can go, but why should I go?",
+      "I can go, but why do I?"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'কেন যাবো' দ্বারা কোনো কারণ বা যৌক্তিকতা জানতে চাওয়া হয়েছে, যার জন্য 'should' উপযুক্ত।",
+    "source": [
+      "Isiami Bank Bangladesh Lid. Assist. Officers-2010"
+    ]
+  },
+  {
+    "id": 22,
+    "topicsId": 410,
+    "q": "Walk fast----you should miss the train.",
+    "options": [
+      "if",
+      "lest",
+      "because",
+      "nor"
+    ],
+    "ans": 1,
+    "explain": "বাক্যে 'should' থাকায় এবং নেতিবাচক সাবধানতা থাকায় connector হিসেবে 'lest' বসবে।",
+    "source": [
+      "Rural Bank Senior Officers Recruitment Test-2010"
+    ]
+  },
+  {
+    "id": 23,
+    "topicsId": 410,
+    "q": "I have shut the door lest a thief-----enter into my room.",
+    "options": [
+      "may",
+      "could",
+      "would",
+      "should"
+    ],
+    "ans": 3,
+    "explain": "'Lest' যুক্ত ক্লজে অবশ্যই 'should' অথবা 'might' ব্যবহৃত হয়।",
+    "source": [
+      "সহকারী পরিচালক (সঞ্চয় পরিদপ্তর) পরীক্ষা-০৭"
+    ]
+  },
+  {
+    "id": 24,
+    "topicsId": 410,
+    "q": "The poor man said, “I--- starve than beg.”",
+    "options": [
+      "rather",
+      "better",
+      "would rather",
+      "would better"
+    ],
+    "ans": 2,
+    "explain": "দুটি জিনিসের মধ্যে একটিকে প্রাধান্য দিতে 'would rather' ব্যবহৃত হয়।",
+    "source": [
+      "Krishi Bank [ Data Entry Control Operator]: 2010"
+    ]
+  },
+  {
+    "id": 25,
+    "topicsId": 410,
+    "q": "If you are forbidden to do something, it means you need not to do it. The underlined-",
+    "options": [
+      "it means you are not do it",
+      "it means you must not do it",
+      "it means you could do it",
+      "it means you have not go to"
+    ],
+    "ans": 1,
+    "explain": "নিষেধ করা (forbidden) মানে হলো কাজটি অবশ্যই করা যাবে না। তাই এর সমার্থক মোডাল হলো 'must not'।",
+    "source": [
+      "BRC Senior Officer Recruitment Test -'08"
+    ]
+  },
+  {
+    "id": 26,
+    "topicsId": 410,
+    "q": "You had better to hurry if you don't want to miss the bus. The wroungly underlined phrase is replaced by",
+    "options": [
+      "had better to hurry",
+      "were in a hurry",
+      "had to hurry",
+      "had better hurry"
+    ],
+    "ans": 3,
+    "explain": "'Had better' একটি modal-এর মতো কাজ করে এবং এরপর bare infinitive (to ছাড়া verb) বসে। তাই 'had better hurry' সঠিক।",
+    "source": [
+      "উপজেলা পল্লী উন্নয়ন কর্মকর্তা (বিআরডিবি) নিয়োগ পরীক্ষা-২০০৯"
+    ]
+  }
+,
+  {
+    "id": 27,
+    "topicsId": 410,
+    "q": "'He contemplated marrying his cousin.' Here 'marrying' is a/an-",
+    "options": [
+      "present participle",
+      "gerund",
+      "verb",
+      "infinitive"
+    ],
+    "ans": 1,
+    "explain": "Contemplate ভার্বটির পরে সরাসরি কোনো ভার্ব আসলে তার সাথে -ing যুক্ত হয়ে Gerund হিসেবে বসে। এখানে marrying শব্দটি একইসাথে verb এবং noun-এর কাজ করছে।",
+    "source": [
+      "43rd BCS"
+    ]
+  },
+  {
+    "id": 28,
+    "topicsId": 410,
+    "q": "The word “Flying” in the sentence “Look at the Flying bird” is",
+    "options": [
+      "gerund",
+      "participle",
+      "verbal noun",
+      "gerundial infinitive"
+    ],
+    "ans": 1,
+    "explain": "এখানে Flying শব্দটি bird (noun)-এর অবস্থা প্রকাশ করছে। যখন কোনো verb+ing একইসাথে verb এবং adjective-এর কাজ করে, তখন তাকে Participle (Present Participle) বলে।",
+    "source": [
+      "42nd BCS"
+    ]
+  },
+  {
+    "id": 29,
+    "topicsId": 410,
+    "q": "’The old man was tired of walking' Here 'walking' is a/an –",
+    "options": [
+      "Present participle",
+      "Adjective",
+      "Common noun",
+      "Gerund"
+    ],
+    "ans": 3,
+    "explain": "Preposition (এখানে 'of') এর পরে কোনো ভার্ব আসলে তার সাথে -ing যুক্ত হয়ে Gerund হয়ে যায়। এটি এখানে Prepositional object হিসেবে কাজ করছে।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 30,
+    "topicsId": 410,
+    "q": "'I will not let you go' in this sentence 'go' is a/an –",
+    "options": [
+      "Infinitive",
+      "Gerund",
+      "Participle",
+      "Verbal noun"
+    ],
+    "ans": 0,
+    "explain": "Let, make, bid, help ইত্যাদি ভার্বের পর Bare Infinitive (to ছাড়া verb-এর base form) বসে। তাই এখানে 'go' একটি Infinitive।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 31,
+    "topicsId": 410,
+    "q": "Huffing and puffing, we arrived at the classroom door with only seven seconds to spare.' In this sentence the verb 'arrived' is",
+    "options": [
+      "intransitive",
+      "transitive",
+      "causative",
+      "defective"
+    ],
+    "ans": 0,
+    "explain": "Arrived ভার্বটির কোনো সরাসরি অবজেক্ট (Object) নেই। যে ভার্বের অবজেক্ট থাকে না, তাকে Intransitive verb বা অকর্মক ক্রিয়া বলে।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 32,
+    "topicsId": 410,
+    "q": "'A lost opportunity never returns.' Here 'lost' is a –",
+    "options": [
+      "gerund",
+      "verbal noun",
+      "gerundial infinitive",
+      "participle"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'lost' শব্দটি opportunity (noun)-এর আগে বসে তাকে মডিফাই করছে। এটি Verb-এর Past Participle form যা এখানে Adjective হিসেবে কাজ করছে।",
+    "source": [
+      "৪০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 33,
+    "topicsId": 410,
+    "q": "‘ Reading is an excellent habits. Here, the underlined was is a—",
+    "options": [
+      "Verbal noun",
+      "Participle",
+      "verb",
+      "Gerund"
+    ],
+    "ans": 3,
+    "explain": "বাক্যের শুরুতে Subject হিসেবে Verb+ing বসলে এবং তা noun-এর মতো কাজ করলে তাকে Gerund বলে।",
+    "source": [
+      "৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 34,
+    "topicsId": 410,
+    "q": "‘A retired officer lives next door Here, the underlined word in used as a/an :",
+    "options": [
+      "Gerund",
+      "adverb",
+      "preposition",
+      "participle"
+    ],
+    "ans": 3,
+    "explain": "Retired শব্দটি officer (noun)-এর গুণাগুণ বা অবস্থা প্রকাশ করছে। এটি Verb-এর Past Participle যা Adjective-এর কাজ করছে।",
+    "source": [
+      "৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 35,
+    "topicsId": 410,
+    "q": "Education is enlightening. Here 'enlightening' is:",
+    "options": [
+      "A gerund",
+      "A participle",
+      "An infinitive",
+      "A finite verb"
+    ],
+    "ans": 1,
+    "explain": "বাক্যে enlightening শব্দটি 'শিক্ষার' একটি বৈশিষ্ট্য বা অবস্থা বর্ণনা করছে। verb+ing যখন Adjective-এর কাজ করে তখন তা Participle।",
+    "source": [
+      "৩৭তম বিসিএস/ কারিগরি শিক্ষা অধিদপ্তর (হিসাব সহকারী/ অফিস সহকারী কাম কম্পিউটার অপারেটর)-২১/ পরিবেশ অধিদপ্তরের অধীনে কম্পিউটার অপারেটর পদে নিয়োগ পরীক্ষা-২০২০/ বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের সহকারী জেনারেল ম্যানেজার (প্রাশাসন/এইচআর) ২০১৭/ বেগম রোকেয়া বিশ্ববিদ্যালয় (C-ইউনিট): ১৬-১৭"
+    ]
+  },
+  {
+    "id": 36,
+    "topicsId": 410,
+    "q": "Which of the example of verbal noun ?",
+    "options": [
+      "Writing a good letter is difficult.",
+      "The writing of a good letter is difficult.",
+      "Good Letter writing is difficult",
+      "It is very difficult to write a good letter."
+    ],
+    "ans": 1,
+    "explain": "যখন 'The + verb+ing + of' এই প্যাটার্নে কোনো শব্দগুচ্ছ গঠিত হয়, তখন তাকে Verbal Noun বলা হয়।",
+    "source": [
+      "কন্ট্রোলার জেনারেল ডিফেন্স ফাইন্যান্স এর কার্যালয় (অফিস সহায়ক) : ২১"
+    ]
+  },
+  {
+    "id": 37,
+    "topicsId": 410,
+    "q": "Which one is irregular verb ?",
+    "options": [
+      "bear",
+      "abuse",
+      "assure",
+      "All of the above"
+    ],
+    "ans": 0,
+    "explain": "Irregular verb-এর past এবং past participle রূপ -ed যোগ করে হয় না (যেমন: bear-bore-borne)। অন্য অপশনগুলো Regular verb (-ed যোগে গঠিত)।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরো নিয়োগ পরীক্ষা (পরিসংখ্যান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 38,
+    "topicsId": 410,
+    "q": "Based on object verb are of......",
+    "options": [
+      "2 types",
+      "3 types",
+      "4 types",
+      "5 types"
+    ],
+    "ans": 0,
+    "explain": "অবজেক্ট বা কর্মের ওপর ভিত্তি করে ভার্ব প্রধানত ২ প্রকার: Transitive (সকর্মক) এবং Intransitive (অকর্মক)।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরো নিয়োগ পরীক্ষা (জুনিয়র পরিসংখ্যান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 39,
+    "topicsId": 410,
+    "q": "Which verb is irregular ?",
+    "options": [
+      "Break",
+      "Like",
+      "Cook",
+      "All of the above"
+    ],
+    "ans": 0,
+    "explain": "Break-এর রূপগুলো হলো break-broke-broken, যা irregular। Like এবং Cook-এর শেষে -ed যোগ করে past form করা হয়, তাই এগুলো regular।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরো নিয়োগ পরীক্ষা (জুনিয়র পরিসংখ্যান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 40,
+    "topicsId": 410,
+    "q": "Which of the following word is not a verb ?",
+    "options": [
+      "Shorted",
+      "Stolen",
+      "Sharpen",
+      "Brighten"
+    ],
+    "ans": 0,
+    "explain": "Sharpen, Brighten এবং Stolen (past participle) ভার্ব হিসেবে ব্যবহৃত হলেও Shorted শব্দটি সাধারণত এখানে অপ্রাসঙ্গিক বা ভুল অর্থে ব্যবহৃত। তবে শুদ্ধ ভার্ব হলো Shorten।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (উচ্চমান সহকারী/ উচ্চমান সহকারী (বেঞ্চ সহকারী)/ড্রাফটসম্যান)-২১"
+    ]
+  },
+  {
+    "id": 41,
+    "topicsId": 410,
+    "q": "Which is the correct use of gerund ?",
+    "options": [
+      "I saw the girl dancing",
+      "I am dancing on the floor.",
+      "Dancing is a good exercise.",
+      "The girl came here dancing."
+    ],
+    "ans": 2,
+    "explain": "এখানে 'Dancing is a good exercise' বাক্যে dancing শব্দটি subject হিসেবে বসেছে এবং noun-এর কাজ করছে, তাই এটি Gerund।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর (অফিস সহকারী কাম-কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 42,
+    "topicsId": 410,
+    "q": "Which of the following is a verb ?",
+    "options": [
+      "mansion",
+      "bastion",
+      "man",
+      "Attention"
+    ],
+    "ans": 2,
+    "explain": "Man শব্দটি সাধারণত Noun হলেও এটি Verb হিসেবেও ব্যবহৃত হতে পারে (যেমন: To man a station—অর্থাৎ কর্মী নিয়োগ করা বা পরিচালনা করা)।",
+    "source": [
+      "এনএসআই (ওয়াচার কনস্টেবল/ ফিল্ড স্টাফ)-২১"
+    ]
+  },
+  {
+    "id": 43,
+    "topicsId": 410,
+    "q": "Which one of the following words can be used as a verb ?",
+    "options": [
+      "green",
+      "orange",
+      "red",
+      "Blue"
+    ],
+    "ans": 0,
+    "explain": "Green শব্দটি বিশেষ ক্ষেত্রে Verb হিসেবে ব্যবহৃত হয় (যেমন: To green a landscape—সবুজায়ন করা)।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (মেডিকেল অফিসার / এরোড্রোম সহকারী)-২১/ বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 44,
+    "topicsId": 410,
+    "q": "“ Reading is an excellent habit”. Here, the underlined word is a- -",
+    "options": [
+      "verb",
+      "present participle",
+      "verbal noun",
+      "gerund"
+    ],
+    "ans": 3,
+    "explain": "বাক্যে Subject হিসেবে বসে Noun-এর কাজ করায় 'Reading' এখানে একটি Gerund।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তরের নিয়োগ-২০২১"
+    ]
+  },
+  {
+    "id": 45,
+    "topicsId": 410,
+    "q": "A rolling stone gathers no moss. Here 'rolling' is-",
+    "options": [
+      "Gerund",
+      "Verbal noun",
+      "Participle",
+      "Adjective"
+    ],
+    "ans": 2,
+    "explain": "Rolling শব্দটি stone (noun)-কে মডিফাই করছে, তাই এটি একটি Participle (Present Participle)।",
+    "source": [
+      "খাদ্য অধিদপ্তর (উচ্চমান সহকারী)-২১/ শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক : ২১ / জীবন বীমা কর্পোরেশন (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক : ২১"
+    ]
+  },
+  {
+    "id": 46,
+    "topicsId": 410,
+    "q": "A word indicating 'Action' is called-",
+    "options": [
+      "Noun",
+      "Article",
+      "Verb",
+      "Vowel"
+    ],
+    "ans": 2,
+    "explain": "যে শব্দ দ্বারা কোনো কাজ করা (Action) বোঝায়, তাকে Verb বা ক্রিয়া বলে।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের অধীনে ল্যাবরেটরি এটেনডেন্ট পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 47,
+    "topicsId": 410,
+    "q": "The boy reads a book, what kind of verb 'reads' in the sentence is ?",
+    "options": [
+      "Principal Verb",
+      "Intransitive Verb",
+      "Transitive Verb",
+      "Auxiliary Verb"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'reads' ভার্বটির একটি অবজেক্ট (a book) আছে। তাই এটি Transitive Verb।",
+    "source": [
+      "প্রাণি সম্পদ অধিদপ্তরের অধীনে ডিএফ/ এফ এ/ কম্পাউন্ডার পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 48,
+    "topicsId": 410,
+    "q": "Look at the flying bird. The word 'flying in sentence is a ....",
+    "options": [
+      "gerund",
+      "verbal noun",
+      "gerundial infinitive",
+      "participle"
+    ],
+    "ans": 3,
+    "explain": "Flying শব্দটি bird-এর অবস্থা বোঝাচ্ছে এবং adjective-এর কাজ করছে, তাই এটি Participle।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (নিরাপত্তা অপারেটর)-২১"
+    ]
+  },
+  {
+    "id": 49,
+    "topicsId": 410,
+    "q": "A swimming snake bit him in the leg. Here 'swimming is a –",
+    "options": [
+      "Participle",
+      "Verbal noun",
+      "Gerund",
+      "Infinite"
+    ],
+    "ans": 0,
+    "explain": "Swimming শব্দটি snake (noun)-কে মডিফাই করছে। যখন verb+ing বিশেষণ বা adjective-এর কাজ করে, তখন তা Participle।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর বাংলাদেশ, ঢাকা (অফিস সহায়ক) নিয়োগ পরীক্ষা-২০২১"
+    ]
+  },
+  {
+    "id": 50,
+    "topicsId": 410,
+    "q": "A gerund' does the work of –",
+    "options": [
+      "A verb and an adjective",
+      "A verb and conjunction",
+      "A verb and a noun",
+      "A verb and an adverb"
+    ],
+    "ans": 2,
+    "explain": "Gerund একইসাথে Verb এবং Noun-এর কাজ সম্পন্ন করে।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর, প্রদর্শক (সকল বিষয়)-২১"
+    ]
+  },
+  {
+    "id": 51,
+    "topicsId": 410,
+    "q": "Which one is Gerund ?",
+    "options": [
+      "Accommodate",
+      "Examine",
+      "Succeed",
+      "Speaking"
+    ],
+    "ans": 3,
+    "explain": "Verb-এর সাথে -ing যুক্ত হয়ে যখন তা Noun-এর কাজ করে, তখন তাকে Gerund বলে। এখানে 'Speaking' সেই নিয়মে পড়ে।",
+    "source": [
+      "মৎস্য অধিদপ্তরের কর্মচারী নিয়োগ (অফিস সহায়ক) -২১"
+    ]
+  },
+  {
+    "id": 52,
+    "topicsId": 410,
+    "q": "'Do you enjoy teaching ? the underlined word is a—",
+    "options": [
+      "noun",
+      "participle",
+      "gerund",
+      "pronoun"
+    ],
+    "ans": 2,
+    "explain": "Enjoy একটি Transitive verb এবং এর অবজেক্ট হিসেবে 'teaching' (verb+ing) বসেছে, যা একটি Gerund।",
+    "source": [
+      "দুর্নীতি দমন কমিশনের অধীনে উপ-সহকারী পরিচালক পদে নিয়োগ পরীক্ষা-২০২০/ গণপূর্ত অধিদপ্তরের উপসহকারী প্রকৌশলী (সিভিল) ও জনস্বাস্থ্য অধিদপ্তরের ড্রাফম্যান ২০১৭"
+    ]
+  },
+  {
+    "id": 53,
+    "topicsId": 410,
+    "q": "The baby Sleep. The underlined word is a ----_verb.",
+    "options": [
+      "neuter",
+      "Intransitive",
+      "passive",
+      "regular"
+    ],
+    "ans": 1,
+    "explain": "Sleep ভার্বটির কোনো অবজেক্ট প্রয়োজন হয় না বাক্য শেষ করতে। তাই এটি একটি Intransitive Verb।",
+    "source": [
+      "সহকারী/অফিস সহকারী কাম কম্পিউটার অপারেটর ২০১৯/বাংলাদেশ বেতার সাঁটলিপিকার কাম কম্পিউটার অপারেটর/হিসাব ২০১৯"
+    ]
+  },
+  {
+    "id": 54,
+    "topicsId": 410,
+    "q": "'Mother laughs' বাক্যে 'laughs' কিসের উদাহরণ ?",
+    "options": [
+      "Intransitive verb",
+      "Transitive verb",
+      "Causative verb",
+      "Auxiliary"
+    ],
+    "ans": 0,
+    "explain": "Laugh (হাসা) ভার্বটির কোনো অবজেক্ট নেই এবং অবজেক্ট ছাড়াই অর্থ প্রকাশ করতে পারে, তাই এটি Intransitive verb।",
+    "source": [
+      "যুব উন্নয়ন অধিদপ্তরঃ ক্রেডিট সুপাভাইজার ২০১৯"
+    ]
+  },
+  {
+    "id": 55,
+    "topicsId": 410,
+    "q": "“Swimming is a good exercise”. Here 'swimming' is a/an",
+    "options": [
+      "verb",
+      "noun",
+      "gerund",
+      "adverb"
+    ],
+    "ans": 2,
+    "explain": "সাঁতার কাটা বা 'Swimming' এখানে বাক্যের সাবজেক্ট হিসেবে কাজ করছে। Verb+ing যখন Noun-এর কাজ করে তখন তাকে Gerund বলে।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয়ঃ সহকারী শিক্ষক ২০১৯"
+    ]
+  },
+  {
+    "id": 56,
+    "topicsId": 410,
+    "q": "'Muslims fast during Ramadan'. Here the word 'fast is",
+    "options": [
+      "An adjective",
+      "An adverb",
+      "A verb",
+      "A noun"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'fast' মানে রোজা রাখা। যেহেতু এটি কাজ করা বোঝাচ্ছে এবং Subject-এর পরে বসেছে, এটি একটি Verb।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয় সুপারিনটেনডেন্ট ২০১৯"
+    ]
+  },
+  {
+    "id": 57,
+    "topicsId": 410,
+    "q": "The word 'Plunge' is a/an -",
+    "options": [
+      "Pronoun",
+      "Adjective",
+      "Verb",
+      "Adverb"
+    ],
+    "ans": 2,
+    "explain": "Plunge শব্দটির অর্থ হলো ঝাপ দেওয়া বা নিমজ্জিত করা, যা একটি কাজ বা Action প্রকাশ করে। তাই এটি Verb।",
+    "source": [
+      "পেট্রোবাংলা হিসাব সহকারী ২০১৯"
+    ]
+  },
+  {
+    "id": 58,
+    "topicsId": 410,
+    "q": "In addition to enhance their reputations through strategic use of philanthropy, companies are sponsoring social initiative to open new market.",
+    "options": [
+      "of enhancing their reputation",
+      "to having enhance their reputation",
+      "to have their reputation enhancing",
+      "to enhancing their reputation"
+    ],
+    "ans": 2,
+    "explain": "নোট: এখানে অপশন এবং কারেক্ট ইনডেক্সে কিছুটা অসঙ্গতি থাকতে পারে, তবে 'In addition to' ফ্রেজটির পর verb-এর সাথে -ing যুক্ত হয়। সঠিক রূপ হবে 'to enhancing...'",
+    "source": [
+      "আমদানী রপ্তানি অধিদপ্তর : উচ্চমান সহকারী ২০১৯"
+    ]
+  },
+  {
+    "id": 59,
+    "topicsId": 410,
+    "q": "ছেলেটি কাঁদতে কাঁদতে আমার কাছে এল।",
+    "options": [
+      "The boy came to me crying.",
+      "The boy came near me crying.",
+      "The boy came to me in crying.",
+      "The boy came to me by crying."
+    ],
+    "ans": 2,
+    "explain": "নোট: সঠিক উত্তরটি হবে 'The boy came to me crying' (Present Participle)। ইনডেক্স ২ অনুযায়ী 'in crying' ভুল হতে পারে, সাধারণ নিয়মে অপশন ০ সঠিক হওয়ার কথা।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন, কলেজ/সমপর‍্যায়: ২০১৯"
+    ]
+  },
+  {
+    "id": 60,
+    "topicsId": 410,
+    "q": "The underlined word in the sentence 'It has stopped 'raining' is",
+    "options": [
+      "gerund",
+      "participle",
+      "present continuous",
+      "infinitive"
+    ],
+    "ans": 0,
+    "explain": "Stop ভার্বটির অবজেক্ট হিসেবে raining (verb+ing) বসেছে। ভার্বের অবজেক্ট হিসেবে বসলে তা Gerund হয়।",
+    "source": [
+      "আনসার ভিডিপি অধিদপ্তরের সার্কেল অ্যাডজুটেন্ট ২০১৫"
+    ]
+  },
+  {
+    "id": 61,
+    "topicsId": 410,
+    "q": "'Reading is a good habit - Here 'reading' is a –",
+    "options": [
+      "verb",
+      "present participle",
+      "verbal noun",
+      "Gerund"
+    ],
+    "ans": 3,
+    "explain": "Subject হিসেবে ব্যবহৃত হয়ে Noun-এর কাজ করায় এটি একটি Gerund।",
+    "source": [
+      "স্থানীয় সরকার, পল্লী উন্নয়ন ও সমবায় মন্ত্রণালয়ের সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 62,
+    "topicsId": 410,
+    "q": "He took shelter under a tree. Here the verb 'took' is -",
+    "options": [
+      "transitive",
+      "intransitive",
+      "Both 'ক' and 'খ'",
+      "Neither 'ক' nor 'খ'"
+    ],
+    "ans": 0,
+    "explain": "Took (take-এর past) ভার্বটির এখানে অবজেক্ট হলো 'shelter'। অবজেক্ট থাকায় এটি একটি Transitive Verb।",
+    "source": [
+      "উপজেলা পল্লী উন্নয়ন কর্মকর্তা-2012"
+    ]
+  },
+  {
+    "id": 63,
+    "topicsId": 410,
+    "q": "The door opened automatically. The verb in this sentence is –",
+    "options": [
+      "transitive verb",
+      "intransitive verb",
+      "neither transitive nor intransitive",
+      "linking"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'opened' ভার্বটি কোনো কর্ম গ্রহণ করেনি, বরং নিজেই স্বয়ংক্রিয়ভাবে ঘটা বোঝাচ্ছে। তাই এটি Intransitive।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের সহকারী পরিচালক : ১১"
+    ]
+  },
+  {
+    "id": 64,
+    "topicsId": 410,
+    "q": "How gerund is formed ?",
+    "options": [
+      "verb + ing",
+      "Preposition+ing",
+      "noun + ing",
+      "adjective + ing"
+    ],
+    "ans": 0,
+    "explain": "ভার্বের Base form-এর সাথে -ing যুক্ত হয়ে যখন Noun-এর কাজ করে, তখন Gerund গঠিত হয়।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তরের পরিবার কল্যাণ পরিদর্শক (FWV) প্রশিক্ষণার্থী ২০১৫/পরিবার কল্যাণ পরিদর্শিকা প্রশিক্ষণার্থী নিয়োগ পরীক্ষা – ২০১০"
+    ]
+  },
+  {
+    "id": 65,
+    "topicsId": 410,
+    "q": "Walking in the morning is good for health. This is--",
+    "options": [
+      "Gerund",
+      "Infinitive",
+      "Participle",
+      "Verbal noun"
+    ],
+    "ans": 0,
+    "explain": "এখানে 'Walking' বাক্যের Subject এবং Noun-এর কাজ করছে, তাই এটি Gerund।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তর নিয়োগ পরীক্ষা-২০১৪"
+    ]
+  },
+  {
+    "id": 66,
+    "topicsId": 410,
+    "q": "Riding a horse he went to a distant place. Here riding is-",
+    "options": [
+      "a gerund",
+      "verbal noun",
+      "gerandial infinitive",
+      "Present participle"
+    ],
+    "ans": 3,
+    "explain": "এখানে Riding শব্দটি He-র অবস্থা প্রকাশ করছে এবং বাক্যে অতিরিক্ত তথ্য দিচ্ছে। Adjective-এর মতো কাজ করায় এটি Present Participle।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীনে কারা অধিদপ্তরের কারা তত্ত্বাবধায়ক-২০১৩"
+    ]
+  },
+  {
+    "id": 67,
+    "topicsId": 410,
+    "q": "He went mad. This verb is :",
+    "options": [
+      "transitive",
+      "Intransitive",
+      "linking",
+      "stative"
+    ],
+    "ans": 2,
+    "explain": "Went (go) এখানে Subject এবং Adjective-এর মধ্যে সংযোগ স্থাপন করছে। এমন ভার্বকে Linking Verb বলে।",
+    "source": [
+      "রাবি ইউনিট এ কলা অনুষদ (সকাল, গ্রুপ-১) ২০১১-২০"
+    ]
+  },
+  {
+    "id": 68,
+    "topicsId": 410,
+    "q": "Mother made the child-------",
+    "options": [
+      "eating",
+      "eaten",
+      "eat",
+      "ate"
+    ],
+    "ans": 2,
+    "explain": "Causative verb 'make' এর পরে Object থাকলে এরপর ভার্বের base form বসে।",
+    "source": [
+      "জাককানইবি C ইউনিট ২০১১-২০"
+    ]
+  },
+  {
+    "id": 69,
+    "topicsId": 410,
+    "q": "He became a politician. Here 'became is a/an :",
+    "options": [
+      "linking verb",
+      "transitive verb",
+      "intransitive verb",
+      "action verb"
+    ],
+    "ans": 0,
+    "explain": "Become একটি অন্যতম প্রধান Linking verb কারণ এটি Subject এবং তার পরিপূরক বা Complement-এর মধ্যে সংযোগ তৈরি করে।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (A ইউনিট জোড়):১৬-১৭"
+    ]
+  },
+  {
+    "id": 70,
+    "topicsId": 410,
+    "q": "Which sentence of the following is correct ?",
+    "options": [
+      "I feel hungry",
+      "I feel hunger",
+      "I feel hungrily",
+      "I feel hungered"
+    ],
+    "ans": 0,
+    "explain": "Feel একটি Linking verb, যার পরে Adjective (hungry) বসে, Adverb নয়।",
+    "source": [
+      "বহিরাগমন ও পাসপোর্ট অধিদপ্তরের সহকারী পরিচালক-২০১৪/ প্রাথমিক বিদ্যালয় সহকারী শিক্ষক- ২০১০"
+    ]
+  },
+  {
+    "id": 71,
+    "topicsId": 410,
+    "q": "What kind of verb is the word 'went' in the following sentence ? “The dog went mad.”",
+    "options": [
+      "transitive verb",
+      "causative verb",
+      "copulative verb"
+    ],
+    "ans": 2,
+    "explain": "Copulative verb হলো আসলে Linking verb-এর অন্য নাম। এটি Subject এবং Complement-এর সংযোগ ঘটায়।",
+    "source": [
+      "স্বাস্থ্য অধিদপ্তরে স্বাস্থ্য সহকারী-২০১০"
+    ]
+  },
+  {
+    "id": 72,
+    "topicsId": 410,
+    "q": "He ran a race. Here ‘ran' is a – verb.",
+    "options": [
+      "Causative",
+      "Copulative",
+      "Cognate",
+      "Factive"
+    ],
+    "ans": 2,
+    "explain": "যখন কোনো Intransitive verb তার সমার্থক কোনো Noun-কে Object হিসেবে গ্রহণ করে, তখন তাকে Cognate Verb বলে (যেমন: ran a race)।",
+    "source": [
+      "শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা – ২০১০"
+    ]
+  },
+  {
+    "id": 73,
+    "topicsId": 410,
+    "q": "Fire Burns. Here “burns” is a/an-verb.",
+    "options": [
+      "Causative",
+      "Copulative",
+      "Transitive",
+      "Intransitive"
+    ],
+    "ans": 3,
+    "explain": "Burns ভার্বটি কোনো অবজেক্ট ছাড়াই বাক্যের সম্পূর্ণ অর্থ প্রকাশ করছে, তাই এটি Intransitive।",
+    "source": [
+      "বিশেষ শিক্ষক নিবন্ধন পরীক্ষা (এবতেদায়ী প্রধান, জুনিয়র শিক্ষক ও ক্বারী ), ২০১০, থানা শিক্ষা অফিসার ০৫"
+    ]
+  },
+  {
+    "id": 74,
+    "topicsId": 410,
+    "q": "Which one is verb ?",
+    "options": [
+      "Openly",
+      "Reopen",
+      "Openness",
+      "Closely"
+    ],
+    "ans": 1,
+    "explain": "Reopen অর্থ পুনরায় খোলা। এটি একটি কাজ বা Action নির্দেশ করে, তাই এটি Verb।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ (প্রকিউরমেন্ট অফিসার/ইন্সপেক্টর: ২১"
+    ]
+  },
+  {
+    "id": 75,
+    "topicsId": 410,
+    "q": "Which of the following is a strong verb ?",
+    "options": [
+      "Run",
+      "walk",
+      "Make",
+      "Jog"
+    ],
+    "ans": 0,
+    "explain": "Strong Verb বা Irregular Verb-এর vowel পরিবর্তনের মাধ্যমে past form হয় (যেমন: Run-Ran-Run)।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ (প্রকিউরমেন্ট অফিসার/ ইন্সপেক্টর)-২১/ বাংলাদেশ প্রতিযোগিতা কমিশনের বিভিন্ন পদ : ২০১৯"
+    ]
+  },
+  {
+    "id": 76,
+    "topicsId": 410,
+    "q": "The boy reads a book. What kind of verb 'read' in the sentence is ?",
+    "options": [
+      "Principle Verb",
+      "Auxiliary verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "ans": 2,
+    "explain": "ভার্বটির অবজেক্ট (a book) থাকায় এটি Transitive verb।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর (হিসাব সহকারী/ অফিস সহকারী কাম কম্পিউটার অপারেটর)-২১/ বাণিজ্য মন্ত্রণালয়ের অধীন বাংলাদেশ ট্যারিফ কমিশনের গবেষণা কর্মকর্তা ২০১৮"
+    ]
+  },
+  {
+    "id": 77,
+    "topicsId": 410,
+    "q": "What is the verb form of the word Beauty' ?",
+    "options": [
+      "Beautiful",
+      "Beautifully",
+      "Beautifying",
+      "Beautify"
+    ],
+    "ans": 3,
+    "explain": "Beauty (Noun) এর ভার্ব রূপ হলো Beautify, যার অর্থ সৌন্দর্যমণ্ডিত করা।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর (হিসাব সহকারী/ অফিস সহকারী কাম কম্পিউটার অপারেটর)-২১"
+    ]
+  },
+  {
+    "id": 78,
+    "topicsId": 410,
+    "q": "A verb that acts as noun is called:",
+    "options": [
+      "participle",
+      "Gerund",
+      "adverb",
+      "noun"
+    ],
+    "ans": 1,
+    "explain": "যে ভার্ব Noun-এর কাজ করে, তাকে Gerund বলে।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের হাউজ পেরেন্ট কাম টিচার ২০১৮"
+    ]
+  },
+  {
+    "id": 79,
+    "topicsId": 410,
+    "q": "He became a politician. - Here the word 'politician' is used as –",
+    "options": [
+      "object",
+      "subject",
+      "adverb",
+      "complement"
+    ],
+    "ans": 3,
+    "explain": "Linking verb-এর পরের অংশ যা Subject সম্পর্কে তথ্য দেয়, তাকে Complement বলা হয়।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়ের অধীনে সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 80,
+    "topicsId": 410,
+    "q": "Every one should----the truth.",
+    "options": [
+      "to speak",
+      "speak",
+      "spoken",
+      "Speaking"
+    ],
+    "ans": 1,
+    "explain": "Should একটি Modal auxiliary verb, যার পরে সবসময় মূল ভার্বের base form বসে।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়ের নার্সিং সেবা অধিদপ্তরের মিডওয়াইফ ২০১৭"
+    ]
+  },
+  {
+    "id": 81,
+    "topicsId": 410,
+    "q": "The bird sings sweetly. Here the underlined word is-",
+    "options": [
+      "a verb",
+      "an adverb",
+      "an adjective",
+      "a conjunction"
+    ],
+    "ans": 1,
+    "explain": "Sweetly শব্দটি 'sings' (verb)-কে মডিফাই করছে। ভার্বকে যে শব্দ মডিফাই করে তাকে Adverb বলে।",
+    "source": [
+      "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের নার্সিং ও মিডওয়াইফ অধিদপ্তরের মিডওয়াইফ ২০১৭"
+    ]
+  },
+  {
+    "id": 82,
+    "topicsId": 410,
+    "q": "নিচের কোন শব্দটি verb ?",
+    "options": [
+      "Cloth",
+      "Blood",
+      "Food",
+      "Feed"
+    ],
+    "ans": 3,
+    "explain": "Feed মানে খাওয়ানো। এটি একটি কাজ প্রকাশ করে, তাই এটি Verb। অন্যগুলো Noun।",
+    "source": [
+      "সমাজসেবা অধিদফতরের সহকারী শিক্ষক পদে নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 83,
+    "topicsId": 410,
+    "q": "'Popular' এর verb হবে-",
+    "options": [
+      "Popular",
+      "Popularly",
+      "Popularize",
+      "Popularity"
+    ],
+    "ans": 2,
+    "explain": "Popular (Adjective) এর ভার্ব রূপ হলো Popularize, যার অর্থ জনপ্রিয় করা।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 84,
+    "topicsId": 410,
+    "q": "Verb of the word 'Sale' is",
+    "options": [
+      "Sold",
+      "Sell",
+      "Salling",
+      "Sale"
+    ],
+    "ans": 1,
+    "explain": "Sale (Noun) এর ভার্ব রূপ হলো Sell (বিক্রি করা)।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 85,
+    "topicsId": 410,
+    "q": "কোনটি 'peace' শব্দটির verb ?",
+    "options": [
+      "Impeace",
+      "Peace loving",
+      "Pacify",
+      "Peaceful"
+    ],
+    "ans": 2,
+    "explain": "Peace (শান্তি) এর ভার্ব রূপ হলো Pacify, যার অর্থ শান্ত করা।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 86,
+    "topicsId": 410,
+    "q": "What is the verb of the word 'play' ?",
+    "options": [
+      "playing",
+      "playable",
+      "play",
+      "playing"
+    ],
+    "ans": 2,
+    "explain": "Play শব্দটি নিজেই Noun এবং Verb উভয় হিসেবেই ব্যবহৃত হতে পারে।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 87,
+    "topicsId": 410,
+    "q": "Which is the verb of the word 'Act' ?",
+    "options": [
+      "Enact",
+      "Acted",
+      "Action",
+      "Actives"
+    ],
+    "ans": 0,
+    "explain": "Act-এর ভার্ব রূপ Enact (আইন পাস করা বা আইন করা)।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 88,
+    "topicsId": 410,
+    "q": "What is the verb of the work 'Dark'-",
+    "options": [
+      "Darkest",
+      "Darken",
+      "Darkly",
+      "Darky"
+    ],
+    "ans": 1,
+    "explain": "Dark (অন্ধকার) এর ভার্ব রূপ Darken, যার অর্থ অন্ধকার করা।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 89,
+    "topicsId": 410,
+    "q": "Identify the sentence where the verb is used intransitively.",
+    "options": [
+      "He spoke the truth.",
+      "I feel a severe pain in my head.",
+      "Ring the bell.",
+      "The ship sank rapidly."
+    ],
+    "ans": 3,
+    "explain": "'The ship sank rapidly' বাক্যে sank ভার্বটির কোনো অবজেক্ট নেই, তাই এটি Intransitive।",
+    "source": [
+      "খুলনা বিশ্ববিদ্যালয় (SET B, Law School):16-17"
+    ]
+  },
+  {
+    "id": 90,
+    "topicsId": 410,
+    "q": "Which one of the followings is a regular verb ?",
+    "options": [
+      "Began",
+      "Knew",
+      "Taken",
+      "Wanted"
+    ],
+    "ans": 3,
+    "explain": "Wanted ভার্বটি Regular কারণ এর past form '-ed' যোগ করে গঠিত হয়েছে (Want -> Wanted)।",
+    "source": [
+      "খুলনা বিশ্ববিদ্যালয় (SET B, Science School):16-17"
+    ]
+  },
+  {
+    "id": 91,
+    "topicsId": 410,
+    "q": "Fed is the past form of the verb.",
+    "options": [
+      "Food",
+      "Find",
+      "Fight",
+      "Feed"
+    ],
+    "ans": 3,
+    "explain": "Feed-এর Past এবং Past Participle রূপ হলো Fed।",
+    "source": [
+      "মহিলা ও শিশুবিষয়ক মন্ত্রণালয়ের অধীনে উপজেলা মহিলাবিষয়ক কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 92,
+    "topicsId": 410,
+    "q": "I water the garden. The underlined word is——",
+    "options": [
+      "Noun",
+      "Verb",
+      "Pronoun",
+      "Adverb"
+    ],
+    "ans": 1,
+    "explain": "এখানে water শব্দটি Subject (I) এর পরে বসে 'পানি দেওয়া' বা কাজ করা বোঝাচ্ছে, তাই এটি Verb।",
+    "source": [
+      "জনপ্রশাসন মন্ত্রণালয়ের অধীনে পিএসসি'র সহকারী পরিচালক ২০১৬"
+    ]
+  },
+  {
+    "id": 93,
+    "topicsId": 410,
+    "q": "What is the verb of 'Peace' ?",
+    "options": [
+      "Impeace",
+      "Peace-loving",
+      "Pacify",
+      "Peaceful"
+    ],
+    "ans": 2,
+    "explain": "Peace-এর ভার্ব রূপ Pacify (শান্ত করা)।",
+    "source": [
+      "জনপ্রশাসন মন্ত্রণালয়ের অধীনে পিএসসি'র সহকারী পরিচালক ২০১৬"
+    ]
+  },
+  {
+    "id": 94,
+    "topicsId": 410,
+    "q": "One of the boys---present.",
+    "options": [
+      "was",
+      "were",
+      "have been",
+      "Are"
+    ],
+    "ans": 0,
+    "explain": "'One of' এর পরে plural noun থাকলেও verb সবসময় singular হয়। তাই এখানে 'was' সঠিক।",
+    "source": [
+      "সহকারী পরিবার পরিকল্পনা কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 95,
+    "topicsId": 410,
+    "q": "What is the verb of the word “antagonism” ?",
+    "options": [
+      "Antagonistic",
+      "Antagonistically",
+      "Antagonise",
+      "Antagonisely"
+    ],
+    "ans": 2,
+    "explain": "Antagonism (শত্রুতা) এর ভার্ব রূপ Antagonise (বিরুদ্ধাচরণ করা)।",
+    "source": [
+      "সহকারী পরিবার পরিকল্পনা কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 96,
+    "topicsId": 410,
+    "q": "কোনটি Verb ?",
+    "options": [
+      "Cloth",
+      "Blood",
+      "Food",
+      "Feed"
+    ],
+    "ans": 3,
+    "explain": "Feed অর্থ খাওয়ানো, যা একটি Verb। অন্যগুলো Noun (কাপড়, রক্ত, খাবার)।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ 2016"
+    ]
+  },
+  {
+    "id": 97,
+    "topicsId": 410,
+    "q": "Which of the following words can be used as a verb ?",
+    "options": [
+      "Mister",
+      "Master",
+      "Mistress",
+      "Mastery"
+    ],
+    "ans": 1,
+    "explain": "Master শব্দটি Noun এবং Verb (আয়ত্ত করা) উভয় রূপেই ব্যবহৃত হয়।",
+    "source": [
+      "35th BCS/বন অধিদপ্তরের বন প্রহরী/জুনিয়ার ওয়াইল্ডর লাইভ স্কাউট ২০১৫"
+    ]
+  },
+  {
+    "id": 98,
+    "topicsId": 410,
+    "q": "Which word is a verb ?",
+    "options": [
+      "Idiocy",
+      "Idiotic",
+      "Glorify",
+      "Horrible"
+    ],
+    "ans": 2,
+    "explain": "Glorify অর্থ মহিমান্বিত করা, এটি একটি Verb।",
+    "source": [
+      "সেকেন্ডারি এডুকেশন সেক্টর ডেভেলপমেন্ট প্রোগ্রাম থানা মাধ্যমিক শিক্ষা কর্মকর্তা ২০১৫"
+    ]
+  },
+  {
+    "id": 99,
+    "topicsId": 410,
+    "q": "'Act' শব্দটির verb হচ্ছে—",
+    "options": [
+      "Enact",
+      "Action",
+      "Acted",
+      "Actress"
+    ],
+    "ans": 0,
+    "explain": "Act নিজেই একটি ভার্ব হলেও এর সাথে 'en' যোগ করে Enact ভার্বটি গঠিত হয়।",
+    "source": [
+      "প্রাথমিক শিক্ষা অধিদপ্তরের হিসাব সহকারী-২০১১"
+    ]
+  },
+  {
+    "id": 100,
+    "topicsId": 410,
+    "q": "The Word 'empower' is –",
+    "options": [
+      "an adjective",
+      "a verb",
+      "an adverb",
+      "a noun"
+    ],
+    "ans": 1,
+    "explain": "Empower অর্থ ক্ষমতা দেওয়া, যা একটি Verb।",
+    "source": [
+      "সহকারী উপজেলা/ থানা শিক্ষা অফিসার-২০১০"
+    ]
+  },
+  {
+    "id": 101,
+    "topicsId": 410,
+    "q": "Which of the following words is a verb ?",
+    "options": [
+      "intention",
+      "intellect",
+      "interim",
+      "interest"
+    ],
+    "ans": 3,
+    "explain": "Interest (সুদ/আগ্রহ) শব্দটি Noun এবং Verb (আগ্রহী করে তোলা) উভয় হিসেবে ব্যবহৃত হয়।",
+    "source": [
+      "উপজেলা নির্বাচন অফিসার-০৪"
+    ]
+  },
+  {
+    "id": 102,
+    "topicsId": 410,
+    "q": "I water the plants. The word 'water' is used as---------",
+    "options": [
+      "Noun",
+      "Pronoun",
+      "Verb",
+      "Adverb"
+    ],
+    "ans": 2,
+    "explain": "এই বাক্যে water শব্দটি পানি দেওয়ার কাজ সম্পন্ন করা বোঝাচ্ছে, তাই এটি Verb।",
+    "source": [
+      "খাদ্য অধিদপ্তরের অধীনে খাদ্য পরিদর্শক' পদে নিয়োগ পরীক্ষা : ২০০০"
+    ]
+  },
+  {
+    "id": 103,
+    "topicsId": 410,
+    "q": "ইংরেজি ভাষায় auxiliary verb কয়টি আছে ?",
+    "options": [
+      "Three",
+      "Tweleve",
+      "Thirteen",
+      "Sixteen"
+    ],
+    "ans": 0,
+    "explain": "নোট: ইংরেজি ভাষায় Primary auxiliary ৩টি (Be, Do, Have)। তবে Modal সহ ধরলে সংখ্যাটি অনেক বেশি হয়। অপশন অনুযায়ী ৩টি ধরা হয়েছে।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের সহকারী পরিচালক নিয়োগ পরীক্ষা, ৯৯"
+    ]
+  },
+  {
+    "id": 104,
+    "topicsId": 410,
+    "q": "He writes a letter. In this sentence, 'write' is a –",
+    "options": [
+      "Principal verb",
+      "Auxiliary verb",
+      "Transitive verb",
+      "Intransitive verb"
+    ],
+    "ans": 2,
+    "explain": "ভার্বটির অবজেক্ট 'a letter' থাকায় এটি Transitive verb বা সকর্মক ক্রিয়া।",
+    "source": [
+      "সমবায় অধিদপ্তরের প্রশাসনিক কর্মকর্তা নিয়োগ পরীক্ষাঃ ৯৭"
+    ]
+  }
+,
+  {
+    "id": 105,
+    "topicsId": 410,
+    "q": "The mother sat vigilantly beside the sick baby. Here 'vigilantly' is –",
+    "options": [
+      "a noun",
+      "an adverb",
+      "an adjective",
+      "none of the three"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'vigilantly' শব্দটি 'sat' (verb)-কে মডিফাই করছে। আমরা জানি, যে শব্দ verb-এর কাজের ধরণ ব্যাখ্যা করে তাকে adverb বলে।",
+    "source": [
+      "৩৭তম বিসিএস/ ইসলামী বিশ্ববিদ্যালয় (F ইউনিট): ১৬-১৭"
+    ]
+  },
+  {
+    "id": 106,
+    "topicsId": 410,
+    "q": "নিচের কোনটি Adverb ?",
+    "options": [
+      "ugly",
+      "holy",
+      "friendly",
+      "wisely"
+    ],
+    "ans": 3,
+    "explain": "সাধারণত adjective-এর সাথে 'ly' যুক্ত হয়ে adverb গঠিত হয়। wise (adj) + ly = wisely। বাকি শব্দগুলো (ugly, holy, friendly) মূলত adjective।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহায়ক) -২১"
+    ]
+  },
+  {
+    "id": 107,
+    "topicsId": 410,
+    "q": "Select the correct form of adverb: “The student has carefully submitted her examination paper”",
+    "options": [
+      "Paper",
+      "examination",
+      "carefully",
+      "student"
+    ],
+    "ans": 2,
+    "explain": "এই বাক্যে 'carefully' শব্দটি 'submitted' (verb)-কে মডিফাই করছে, তাই এটি একটি adverb।",
+    "source": [
+      "এনএসআই জুনিয়র ফিল্ড অফিসার-২১"
+    ]
+  },
+  {
+    "id": 108,
+    "topicsId": 410,
+    "q": "An adverb does not modify-",
+    "options": [
+      "Nouns",
+      "Adjectives",
+      "Pronouns",
+      "Verbs"
+    ],
+    "ans": 0,
+    "explain": "Adverb সাধারণত verb, adjective এবং অন্য একটি adverb-কে মডিফাই করে; কিন্তু noun বা pronoun-কে মডিফাই করে না (তা করে adjective)।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ (প্রকিউরমেন্ট অফিসার/ ইন্সপেক্টর)-২১"
+    ]
+  },
+  {
+    "id": 109,
+    "topicsId": 410,
+    "q": "Count the number of adverbs: I was just wondering if you could cook it perfectly and make the dish quite delicious as always.",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "5"
+    ],
+    "ans": 1,
+    "explain": "এই বাক্যে ৪টি adverb আছে: ১. just (wondering-কে মডিফাই করছে), ২. perfectly (cook-কে মডিফাই করছে), ৩. quite (delicious-কে মডিফাই করছে), ৪. always (সময় নির্দেশ করছে)।",
+    "source": [
+      "প্রবাসী কল্যাণ ব্যাংক (সাধারণ অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 110,
+    "topicsId": 410,
+    "q": "Which of the following is adverb ?",
+    "options": [
+      "Quickly",
+      "Sly",
+      "Quicker",
+      "Quickest"
+    ],
+    "ans": 0,
+    "explain": "Quick (adjective) এর সাথে 'ly' যুক্ত হয়ে 'Quickly' শব্দটি adverb হিসেবে গঠিত হয়েছে।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের অধীনে ল্যাবরেটরি এটেনডেন্ট পদে নিয়োগ পরীক্ষা ২০২০"
+    ]
+  },
+  {
+    "id": 111,
+    "topicsId": 410,
+    "q": "'Rahim always runs quite fast. Here 'always ' is –",
+    "options": [
+      "Pronoun",
+      "Noun",
+      "Adverb",
+      "Adjective"
+    ],
+    "ans": 2,
+    "explain": "'Always' শব্দটি একটি Adverb of Frequency, যা কাজ কতবার বা কখন ঘটে তা প্রকাশ করে।",
+    "source": [
+      "দুর্নীতি দমন কমিশনের অধীনে উপ-সহকারী পরিচালক পদে নিয়োগ পরীক্ষা ২০২০/ জাতীয় নিরাপত্তা গোয়েন্দা (ঘরও) ও জুনিয়র ফিল্ড অফিসার ২০১৯/ঢাকা ইলেকট্রিক সাপ্লাই কোম্পানি (DESCO)-এর অ্যাসিসটেন্ট কমপ্লেইন্ট সুপারভাইজার ২০১৯"
+    ]
+  },
+  {
+    "id": 112,
+    "topicsId": 410,
+    "q": "Fill up the gap with suitable “adverb”: He works-----quickly.",
+    "options": [
+      "at",
+      "upon",
+      "very",
+      "out"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'quickly' একটি adverb, আর এই adverb-কে মডিফাই করার জন্য 'very' (একটি adverb) ব্যবহার করা হয়েছে।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশনঃ বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 113,
+    "topicsId": 410,
+    "q": "She looks very beautiful. Here 'very' is",
+    "options": [
+      "adjective",
+      "pronoun",
+      "verb",
+      "adverb"
+    ],
+    "ans": 3,
+    "explain": "'Beautiful' একটি adjective, আর একে মডিফাই করার কারণে 'very' এখানে একটি adverb (Adverb of degree)।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশন পদের নামঃ বিভিন্ন মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা : ২০১৯"
+    ]
+  },
+  {
+    "id": 114,
+    "topicsId": 410,
+    "q": "Which one is the adverb ?",
+    "options": [
+      "Slow",
+      "Slowly",
+      "Weak",
+      "Weakness"
+    ],
+    "ans": 1,
+    "explain": "Slow (adj) এর adverb হলো Slowly। অন্যদিকে Weak (adj) এবং Weakness (noun)।",
+    "source": [
+      "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক) : ২০১৯"
+    ]
+  },
+  {
+    "id": 115,
+    "topicsId": 410,
+    "q": "A Adverbs qualify",
+    "options": [
+      "verbs, adverbs and adjectives",
+      "noun and pronoun",
+      "prepositions",
+      "verbs only"
+    ],
+    "ans": 0,
+    "explain": "ব্যাকরণ অনুযায়ী adverb মূলত verb, adjective এবং অন্য একটি adverb-এর অর্থকে বিশেষিত বা qualify করে।",
+    "source": [
+      "মাওলানা ভাসানী বিজ্ঞান ও প্রযুক্তি (D ইউনিট): ১৬-১৭"
+    ]
+  },
+  {
+    "id": 116,
+    "topicsId": 410,
+    "q": "Please look above. Here 'above' is-",
+    "options": [
+      "adjective",
+      "adverb",
+      "noun",
+      "conjunction"
+    ],
+    "ans": 1,
+    "explain": "যখন 'above' শব্দটি কোনো noun-এর আগে না বসে একা বসে এবং কোথায় দেখার কাজ (look) ঘটছে তা নির্দেশ করে, তখন তা adverb হয়।",
+    "source": [
+      "প্রাথমিক শিক্ষা অধিদপ্তরে উচ্চমান সহকারি কাম হিসাবরক্ষক নিয়োগ-২০১৭"
+    ]
+  },
+  {
+    "id": 117,
+    "topicsId": 410,
+    "q": "Man can not live alone. The word ‘alone' used here as---",
+    "options": [
+      "Adverb",
+      "Pronoun",
+      "Adjective",
+      "Preposition"
+    ],
+    "ans": 0,
+    "explain": "এখানে 'alone' শব্দটি 'live' (verb)-কে মডিফাই করছে যে মানুষ কীভাবে বাস করতে পারে না। তাই এটি adverb।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (উ ইউনিট বাণিজ্য):১৬-১৭/ ইসলামী বিশ্ববিদ্যালয় (ঐ ইউনিট) : ১৬-১৭"
+    ]
+  },
+  {
+    "id": 118,
+    "topicsId": 410,
+    "q": "'Thank you very much.' In this sentence 'very' is—",
+    "options": [
+      "Adjective",
+      "Noun",
+      "Adverb",
+      "Pronoun"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'much' একটি adverb, আর তাকে মডিফাই করার জন্য ব্যবহৃত 'very' শব্দটিও একটি adverb।",
+    "source": [
+      "ইসলামী বিশ্ববিদ্যালয় (F ইউনিট): ১৬-১৭/ প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ে সহকারী পরিচালক-০৬"
+    ]
+  },
+  {
+    "id": 119,
+    "topicsId": 410,
+    "q": "Which of these is an adverb ? It is",
+    "options": [
+      "quickly",
+      "sly",
+      "quicker",
+      "quickest"
+    ],
+    "ans": 0,
+    "explain": "'Quickly' হলো adverb। 'Sly' একটি adjective, আর quicker/quickest হলো adjective-এর comparative ও superlative রূপ।",
+    "source": [
+      "বাংলাদেশ বেতার সাঁটলিপিকার কাম কম্পিউটার অপারেটর/হিসাব সহকারী/অফিস সহকারী কাম কম্পিউটার অপারেটর ২০১৯"
+    ]
+  },
+  {
+    "id": 120,
+    "topicsId": 410,
+    "q": "A/an----- is used to qualify or limit the meaning of something.",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "ans": 3,
+    "explain": "Adverb-এর কাজই হলো verb, adjective বা অন্য adverb-এর অর্থকে qualify করা বা সীমাবদ্ধ (limit) করা।",
+    "source": [
+      "বাংলাদেশ বেতার সাঁটলিপিকার কাম কম্পিউটার অপারেটর/হিসাব সহকারী/অফিস সহকারী কাম কম্পিউটার অপারেটর ২০১৯"
+    ]
+  },
+  {
+    "id": 121,
+    "topicsId": 410,
+    "q": "I know better. The underlined word is",
+    "options": [
+      "an adjective",
+      "an adverb",
+      "a preposition",
+      "a noun"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'better' শব্দটি 'know' (verb)-কে মডিফাই করছে। যেহেতু এটি verb-এর গুণাগুণ বোঝাচ্ছে, তাই এটি adverb।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয়ঃ সহকারী শিক্ষক : ২০১১"
+    ]
+  },
+  {
+    "id": 122,
+    "topicsId": 410,
+    "q": "My sister's wedding is drawing near. The underlined word is a/an",
+    "options": [
+      "preposition",
+      "adjective",
+      "verb",
+      "adverb"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'near' শব্দটি 'drawing' (verb)-কে মডিফাই করে সময় বা নৈকট্য বোঝাচ্ছে, তাই এটি adverb।",
+    "source": [
+      "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 123,
+    "topicsId": 410,
+    "q": "Which is not true about the function of an adverb ?",
+    "options": [
+      "qualifying a verb",
+      "qualifying an adverb",
+      "qualifying a sentence",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "Adverb একই সাথে verb, adjective, অন্য একটি adverb এমনকি পুরো বাক্যকেও (Sentence adverb) মডিফাই করতে পারে। তাই উপরের সবগুলোই সত্য।",
+    "source": [
+      "নৌপরিবহন, বিজ্ঞান ও প্রযুক্তি, মহিলা ও শিশুবিষয়ক, তথ্য, অর্থনৈতিক সম্পর্ক বিভাগ, ভূমি ও প্রতিরক্ষা মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা এবং বাংলাদেশ রেলওয়ের উপ-সহকারী প্রকৌশলী -২০১৩"
+    ]
+  },
+  {
+    "id": 124,
+    "topicsId": 410,
+    "q": "In the sentence 'Cycling is certainly healthier than driving', the word 'certainly' in a/an",
+    "options": [
+      "adjective",
+      "adverb",
+      "interjection",
+      "preposition"
+    ],
+    "ans": 1,
+    "explain": "'Certainly' একটি Adverb of certainty, যা বাক্যের বক্তব্যকে জোরালোভাবে নিশ্চিত করতে ব্যবহৃত হয়।",
+    "source": [
+      "সাধারণ বীমা কর্পোরেশন (SBM) জুনিয়র অফিসার-২০১৬"
+    ]
+  },
+  {
+    "id": 125,
+    "topicsId": 410,
+    "q": "We must buy the tickets next week. Here next week is—",
+    "options": [
+      "object",
+      "Noun",
+      "adverbial",
+      "complement"
+    ],
+    "ans": 2,
+    "explain": "'Next week' সময় নির্দেশ করছে। বাক্যে যখন কোনো শব্দগুচ্ছ সময়, স্থান বা ধরণ নির্দেশ করে, তাকে adverbial বা adverbial phrase বলা হয়।",
+    "source": [
+      "আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়ের সাব-রেজিস্ট্রর ২০১৬"
+    ]
+  },
+  {
+    "id": 126,
+    "topicsId": 410,
+    "q": "Which one is adverb ?",
+    "options": [
+      "Motherly",
+      "Delightfully",
+      "Supernatural",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "Delightful (adj) + ly = Delightfully। এটি একটি adverb। উল্লেখ্য, 'Motherly' একটি adjective (noun + ly)।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তর অফিস সহকারী কাম কম্পিউটার অপারেটর-২০১১"
+    ]
+  },
+  {
+    "id": 127,
+    "topicsId": 410,
+    "q": "Which of the following of the following is an adverb ?",
+    "options": [
+      "Somebody",
+      "Something",
+      "Someone",
+      "Sometime"
+    ],
+    "ans": 3,
+    "explain": "'Sometime' শব্দটি সময় নির্দেশ করে বিধায় এটি একটি adverb। অন্য শব্দগুলো (Somebody, Something, Someone) হলো pronoun।",
+    "source": [
+      "জনপ্রশাসন মন্ত্রণালয়ের অধীনে পিএসসি'র সহকারী পরিচালক ২০১৬"
+    ]
+  },
+  {
+    "id": 128,
+    "topicsId": 410,
+    "q": "Give the part of speech of the underlined word: I saw him once before.",
+    "options": [
+      "Noun",
+      "Pronoun",
+      "Verb",
+      "Adverb"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'before' শব্দটি কোনো noun-এর আগে বসেনি, বরং দেখা হওয়ার সময় নির্দেশ করছে। তাই এটি একটি Adverb of time।",
+    "source": [
+      "বাংলাদেশ টেলিভিশন-এর প্রযোজক-০৬"
+    ]
+  },
+  {
+    "id": 129,
+    "topicsId": 410,
+    "q": "“Quickly” is an example of —",
+    "options": [
+      "Adverb",
+      "pronoun",
+      "verb",
+      "Adjective"
+    ],
+    "ans": 0,
+    "explain": "'Quickly' শব্দটি কাজের ধরণ বোঝাতে ব্যবহৃত হয়, তাই এটি একটি Adverb of manner।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়ের অধীন সেবা পরিদপ্তরের সিনিয়র স্টাফ নার্স ২০১৬"
+    ]
+  },
+  {
+    "id": 130,
+    "topicsId": 410,
+    "q": "Perfectly —",
+    "options": [
+      "adverb",
+      "verb",
+      "pronoun",
+      "adjective"
+    ],
+    "ans": 0,
+    "explain": "Perfect (adj) এর সাথে 'ly' যুক্ত হওয়ায় এটি একটি adverb।",
+    "source": [
+      "প্রধানমন্ত্রীর কার্যালয়ে পার্সোনাল অফিসারঃ ০৪"
+    ]
+  },
+  {
+    "id": 131,
+    "topicsId": 410,
+    "q": "He stood first. Here 'first' is -",
+    "options": [
+      "adverb of time",
+      "adverb of place",
+      "adverb of cause",
+      "adverb of order"
+    ],
+    "ans": 3,
+    "explain": "'First' শব্দটি এখানে ক্রম বা পর্যায় বোঝাচ্ছে, তাই এটি Adverb of order।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়ের উপসহকারী প্রকোশলী (সিভিল) ২০১৬"
+    ]
+  },
+  {
+    "id": 132,
+    "topicsId": 410,
+    "q": "He has already finished his homework. In this sentence already is-",
+    "options": [
+      "Noun",
+      "Pronoun",
+      "Adverb",
+      "Adjective"
+    ],
+    "ans": 2,
+    "explain": "'Already' শব্দটি কাজের সময় বা অবস্থা নির্দেশ করছে, যা একটি adverb।",
+    "source": [
+      "স্থানীয় সরকার মন্ত্রণালয়ের অধীনে এলজিইডিতে সহকারী প্রকৌশলী নিয়োগ পরীক্ষা-০৫"
+    ]
+  },
+  {
+    "id": 133,
+    "topicsId": 410,
+    "q": "He was wise enough to accept the offer. Here 'enough' is",
+    "options": [
+      "Adjective",
+      "Preposition",
+      "Adverb",
+      "Conjunction"
+    ],
+    "ans": 2,
+    "explain": "যখন 'enough' শব্দটি কোনো adjective (এখানে 'wise')-কে মডিফাই করার জন্য তার পরে বসে, তখন সেটি adverb হিসেবে কাজ করে।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের আনসার ভিডিপি অধিদপ্তরের সার্কেল অ্যাডজুটেন্ট ২০১৫"
+    ]
+  },
+  {
+    "id": 134,
+    "topicsId": 410,
+    "q": "Adverb of the word: Object—",
+    "options": [
+      "Objection",
+      "Objective",
+      "Objectable",
+      "Objectively"
+    ],
+    "ans": 3,
+    "explain": "Objective (adj) এর সাথে 'ly' যুক্ত হয়ে Objectively গঠিত হয়েছে, যা adverb।",
+    "source": [
+      "দুর্নীতি দমন ব্যুরোর সহকারী পরিদর্শক পদে বাছাই পরীক্ষা-০৪"
+    ]
+  },
+  {
+    "id": 135,
+    "topicsId": 410,
+    "q": "The day of my sister's marriage is drawing near. The underlined word is a/an –",
+    "options": [
+      "adjective",
+      "verb",
+      "preposition",
+      "adverb"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'near' শব্দটি 'drawing' (verb)-কে মডিফাই করছে এবং সময়ের নৈকট্য বোঝাচ্ছে। তাই এটি adverb।",
+    "source": [
+      "25th BCS, সরকারি মাধ্যমিক বিদ্যালয়ের সহকারী শিক্ষক-২০১১"
+    ]
+  },
+  {
+    "id": 136,
+    "topicsId": 410,
+    "q": "'Sometimes reports are misleading'-In this sentence 'Sometimes' is–",
+    "options": [
+      "Noun",
+      "Pronoun",
+      "Adverb",
+      "Adjective"
+    ],
+    "ans": 2,
+    "explain": "'Sometimes' শব্দটির অর্থ হলো মাঝে মাঝে, যা সময় বা কাজের মাত্রা নির্দেশ করে। এটি একটি Adverb of frequency।",
+    "source": [
+      "জেলা নির্বাচন অফিসার নিয়োগ পরীক্ষা-২০০৪"
+    ]
+  },
+  {
+    "id": 137,
+    "topicsId": 410,
+    "q": "---------have you been living in this city? Which of the adverbials is fit to fill up the blank ?",
+    "options": [
+      "How often",
+      "When",
+      "How long",
+      "How many times"
+    ],
+    "ans": 2,
+    "explain": "সময়ের ব্যাপ্তি বা সময়কাল জানতে 'How long' ব্যবহার করা হয়।",
+    "source": [
+      "প্রধানমন্ত্রীর কার্যালয়ের সহকারী পরিচালক, গবেষণা কর্মকর্তা, টেলিফোন ইঞ্জিনিয়ার ও সহকারী কম্পিউটার প্রোগ্রামার ২০১৩"
+    ]
+  },
+  {
+    "id": 138,
+    "topicsId": 410,
+    "q": "Which one is the adverb of the word ‘favour’ ?",
+    "options": [
+      "Favourable",
+      "Favourite",
+      "Favourably",
+      "Favourability"
+    ],
+    "ans": 2,
+    "explain": "Favour (noun/verb) এর adjective হলো Favourable, আর তার সাথে 'ly' যোগ করলে হয় Favourably (adverb)।",
+    "source": [
+      "সমবায় অধিদপ্তরের প্রশাসনিক কর্মকর্তা নিয়োগ পরীক্ষাঃ ১৭"
+    ]
+  }
+]

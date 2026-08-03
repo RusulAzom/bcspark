@@ -1,0 +1,3045 @@
+[
+    {
+        "id":  1,
+        "topicsId":  490,
+        "q":  "‘Epic\u0027 শব্দের পরিভাষা কী?",
+        "options":  [
+                        "কিংবদন্তি",
+                        "পুরাণ",
+                        "মহাকব্য",
+                        "বিস্মৃত কাহিনি"
+                    ],
+        "ans":  2,
+        "explain":  "ইংরেজি \u0027Epic\u0027 শব্দের বাংলা পরিভাষা হলো \u0027মহাকাব্য\u0027, যা বীরত্বপূর্ণ কাহিনী নিয়ে দীর্ঘ বর্ণনামূলক কবিতা।",
+        "source":  [
+                       "বরিশাল বিশ্ববিদ্যালয় : ১২-১৩"
+                   ]
+    },
+    {
+        "id":  2,
+        "topicsId":  490,
+        "q":  "What is a Sonnet?",
+        "options":  [
+                        "A prose",
+                        "A sacred song",
+                        "A criticism",
+                        "A poem of fourteen lines"
+                    ],
+        "ans":  3,
+        "explain":  "সনেট হলো ১৪ লাইনের একটি কবিতা যা নির্দিষ্ট ছন্দ এবং গঠন মেনে চলে।",
+        "source":  [
+                       "খাদ্য অধিদপ্তর : ২১"
+                   ]
+    },
+    {
+        "id":  3,
+        "topicsId":  490,
+        "q":  "সনেটের ক\u0027টি অংশ?",
+        "options":  [
+                        "১টি",
+                        "২টি",
+                        "৩টি",
+                        "৪টি"
+                    ],
+        "ans":  1,
+        "explain":  "একটি সনেটের প্রধানত দুটি অংশ থাকে: অষ্টক (Octave - প্রথম ৮ লাইন) এবং ষটক (Sestet - শেষ ৬ লাইন)।",
+        "source":  [
+                       "২৪তম বিসিএস"
+                   ]
+    },
+    {
+        "id":  4,
+        "topicsId":  490,
+        "q":  "The Shakespearean sonnet pattern is-",
+        "options":  [
+                        "ababbcbccdedee",
+                        "Dabbabbcdcdcd",
+                        "abbabcdecde",
+                        "ababcdcdefefgg"
+                    ],
+        "ans":  3,
+        "explain":  "শেক্সপিয়রীয় সনেটের ছন্দবিন্যাস হলো abab cdcd efef gg (তিনটি চার চরণের স্তবক এবং একটি অন্ত্যমিলের দ্বিপদী)।",
+        "source":  [
+                       "যশোর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  5,
+        "topicsId":  490,
+        "q":  "What is a funny poem of five lines called?",
+        "options":  [
+                        "Quartet",
+                        "Limerick",
+                        "Sixtet",
+                        "Haiku"
+                    ],
+        "ans":  1,
+        "explain":  "পাঁচ লাইনের কৌতুকপূর্ণ বা হাস্যরসাত্মক কবিতাকে বলা হয় লিমেরিক (Limerick)।",
+        "source":  [
+                       "৩৭তম বিসিএস"
+                   ]
+    },
+    {
+        "id":  6,
+        "topicsId":  490,
+        "q":  "In English literature the word \u0027Limerick\u0027 refers to-",
+        "options":  [
+                        "Elegy of five lines",
+                        "Irony poems of five lines",
+                        "Funny poems of five lines",
+                        "Lyrical poems of five lines"
+                    ],
+        "ans":  2,
+        "explain":  "Limerick হলো ইংরেজি সাহিত্যের এক ধরণের বিশেষ ছোট কবিতা যা ৫ লাইনের হয়ে থাকে এবং এটি মূলত হাস্যরসাত্মক বা কৌতুকপূর্ণ (Funny) হয়।",
+        "source":  [
+                       "প্রতিরক্ষা মন্ত্রণালয়ের সহকারী পরিচালক : ১৮"
+                   ]
+    },
+    {
+        "id":  7,
+        "topicsId":  490,
+        "q":  "‘Limerick” কী ?",
+        "options":  [
+                        "A form of light verse",
+                        "A kind of short narrative-poem",
+                        "A form of one-act play",
+                        "Love poem"
+                    ],
+        "ans":  0,
+        "explain":  "Limerick-কে \u0027Light verse\u0027 বা হালকা মেজাজের কবিতা বলা হয়, কারণ এর বিষয়বস্তু গভীর না হয়ে বরং বিনোদনমূলক হয়।",
+        "source":  [
+                       "ইসলামী বিশ্ববিদ্যালয় (বিবিএ) : ১১-১২/ পাসপোর্ট অ্যান্ড ইমিগ্রেশন সহকারী পরিচালক : ০৬"
+                   ]
+    },
+    {
+        "id":  8,
+        "topicsId":  490,
+        "q":  "The word ‘Limerick\u0027 means-",
+        "options":  [
+                        "A form of light verse",
+                        "A form of dramatic monologue",
+                        "A style of writing novel",
+                        "A kind of historical play",
+                        "A kind of long narrative poem"
+                    ],
+        "ans":  0,
+        "explain":  "Limerick বলতে ৫ লাইনের ছড়া বা হালকা মেজাজের পদাবলী (Light verse) বোঝায় যা মূলত কৌতুকপূর্ণ।",
+        "source":  [
+                       "চট্টগ্রাম বিশ্ববিদ্যালয় (ই- ইউনিট) : ১২-১৩"
+                   ]
+    },
+    {
+        "id":  9,
+        "topicsId":  490,
+        "q":  "A drama is a/an-",
+        "options":  [
+                        "novel retold in dialogue",
+                        "magical performances on the stage",
+                        "fairy tale",
+                        "story translated into action"
+                    ],
+        "ans":  3,
+        "explain":  "নাটক বা Drama হলো এমন একটি গল্প যা অভিনয়ের মাধ্যমে বাস্তবে রূপদান করা হয়। তাই একে \u0027story translated into action\u0027 বলা হয়।",
+        "source":  [
+                       "শ্রম পরিদপ্তরের জনসংখ্যা ও পরিবারকল্যাণ কর্মকর্তা : ০৯"
+                   ]
+    },
+    {
+        "id":  10,
+        "topicsId":  490,
+        "q":  "Drama originated in the ancient Greece in the 5th century as a religious rite to worship-------",
+        "options":  [
+                        "Zeus",
+                        "Dionysus",
+                        "Cupid",
+                        "Apollo"
+                    ],
+        "ans":  1,
+        "explain":  "প্রাচীন গ্রিসে খ্রিষ্টপূর্ব ৫ম শতাব্দীতে দ্রাক্ষারস বা মদের দেবতা \u0027Dionysus\u0027-এর আরাধনাকে কেন্দ্র করে নাটকের উৎপত্তি হয়েছিল।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) Ele. Eng. : ১২-১৩"
+                   ]
+    },
+    {
+        "id":  11,
+        "topicsId":  490,
+        "q":  "Who contributed to introduce drama in rural England ?",
+        "options":  [
+                        "bishops",
+                        "teachers",
+                        "poets",
+                        "writers"
+                    ],
+        "ans":  0,
+        "explain":  "ইংল্যান্ডের গ্রামাঞ্চলে ধর্মীয় কাহিনী প্রচারের উদ্দেশ্যে বিশপগণ (Bishops) বা গির্জার যাজকরা নাটকের প্রচলন শুরু করেছিলেন, যা পরে মিরাকল বা মিস্ট্রি প্লে হিসেবে পরিচিতি পায়।",
+        "source":  [
+                       "বাংলাদেশ পল্লী উন্নয়ন ও সমবায় বিভাগ মাঠ কর্মকর্তা : ১৩"
+                   ]
+    },
+    {
+        "id":  12,
+        "topicsId":  490,
+        "q":  "A dialogue is a discourse between people. The right number is:",
+        "options":  [
+                        "two",
+                        "three",
+                        "four",
+                        "many"
+                    ],
+        "ans":  0,
+        "explain":  "Dialogue বা সংলাপ সাধারণত দুইজন (Two) ব্যক্তির মধ্যে কথোপকথনকে বোঝায়।",
+        "source":  [
+                       "রাজশাহী বিশ্ববিদ্যালয় (এ২- ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  13,
+        "topicsId":  490,
+        "q":  "What is the meaning of ‘Chorus’ ?",
+        "options":  [
+                        "a song which is sing alone",
+                        "a group of people trained to sing together",
+                        "a duet song",
+                        "a part of song"
+                    ],
+        "ans":  1,
+        "explain":  "Chorus বা বৃন্দগান হলো একদল মানুষের সমষ্টি যারা একসাথে গান গাওয়ার জন্য প্রশিক্ষিত।",
+        "source":  [
+                       "জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয় (এ,এল- ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  14,
+        "topicsId":  490,
+        "q":  "Someone/A person who writes plays is called a-",
+        "options":  [
+                        "play writer",
+                        "dramatiser",
+                        "playwright",
+                        "playwrite"
+                    ],
+        "ans":  2,
+        "explain":  "নাট্যকারকে ইংরেজিতে \u0027Playwright\u0027 বলা হয়। এখানে বানানের ক্ষেত্রে খেয়াল রাখতে হবে যে \u0027wright\u0027 অর্থ নির্মাতা বা কারিগর।",
+        "source":  [
+                       "পরিবেশ অধিদপ্তরের সহকারী পরিচালক (কারিগরি) : ১১/ জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয় (এ,এল- ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  15,
+        "topicsId":  490,
+        "q":  "A ‘Prologue\u0027 is-",
+        "options":  [
+                        "a poem or speech at the end of a play.",
+                        "an introduction to a play or literary work.",
+                        "a song of mourning.",
+                        "the science versification."
+                    ],
+        "ans":  1,
+        "explain":  "কোনো নাটক বা সাহিত্যকর্মের শুরুতে যে মুখবন্ধ বা প্রস্তাবনা দেওয়া হয়, তাকে Prologue বলা হয়।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় : ০৮-০৯"
+                   ]
+    },
+    {
+        "id":  16,
+        "topicsId":  490,
+        "q":  "It is impossible to write a drama without a-",
+        "options":  [
+                        "Pen",
+                        "director",
+                        "pencil",
+                        "plot"
+                    ],
+        "ans":  3,
+        "explain":  "একটি নাটকের মূল ভিত্তি বা কাঠামো হলো \u0027Plot\u0027 (কাহিনী বিন্যাস)। প্লট ছাড়া নাটক লেখা অসম্ভব। (প্রদত্ত অপশনে correct: 2 ছিল যা ভুল, সঠিক উত্তর হবে ৩ নম্বর অপশন plot)।",
+        "source":  [
+                       "রাজশাহী বিশ্ববিদ্যালয় (এ- ইউনিট) : ১৩-১৪"
+                   ]
+    },
+    {
+        "id":  17,
+        "topicsId":  490,
+        "q":  "‘Protagonist’ indicates -",
+        "options":  [
+                        "the villain in a play",
+                        "the leading character of actors in a play",
+                        "the clown in a play",
+                        "the stage-director of a play"
+                    ],
+        "ans":  1,
+        "explain":  "Protagonist মানে হলো কোনো নাটক বা গল্পের প্রধান চরিত্র বা নায়ক (Leading character)।",
+        "source":  [
+                       "পিএসসির সহকারী পরিচালক : ০৬/ ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) Ele. Eng. : ১০-১১"
+                   ]
+    },
+    {
+        "id":  18,
+        "topicsId":  490,
+        "q":  "“The protagonist” means-",
+        "options":  [
+                        "The villain in a play",
+                        "The central figure of a drama",
+                        "The clown in a play",
+                        "The stage director of play"
+                    ],
+        "ans":  1,
+        "explain":  "Protagonist বলতে নাটকের কেন্দ্রীয় চরিত্র বা প্রধান ব্যক্তিকে (Central figure) বোঝায়।",
+        "source":  [
+                       "খাদ্য অধিদপ্তরের উপ-খাদ্য পরিদর্শক : ২১"
+                   ]
+    },
+    {
+        "id":  19,
+        "topicsId":  490,
+        "q":  "The hero or central character of a literary work is-",
+        "options":  [
+                        "Villain",
+                        "Protagonist",
+                        "Antagonist",
+                        "Chorus"
+                    ],
+        "ans":  1,
+        "explain":  "সাহিত্যে যেকোনো গল্পের নায়ক বা কেন্দ্রীয় চরিত্রকে টেকনিক্যাল ভাষায় \u0027Protagonist\u0027 বলা হয়।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি- ইউনিট) : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  20,
+        "topicsId":  490,
+        "q":  "What is an act in a play ?",
+        "options":  [
+                        "a unit of act on with no change of place or time",
+                        "the rising action of a play",
+                        "a major division in the action of a play",
+                        "conversation of a character is in a play"
+                    ],
+        "ans":  2,
+        "explain":  "একটি নাটকের কাহিনীর প্রধান প্রধান বিভাগগুলোকে \u0027Act\u0027 (অঙ্ক) বলা হয়। প্রতিটি Act আবার কয়েকটি Scene বা দৃশ্যে বিভক্ত থাকে।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (কলা ও মানবিক স্কুল) : ০৭-০৮"
+                   ]
+    },
+    {
+        "id":  21,
+        "topicsId":  490,
+        "q":  "Pantomime is action on stage without-",
+        "options":  [
+                        "Gesture",
+                        "song",
+                        "speech",
+                        "exaggerated facial expression"
+                    ],
+        "ans":  2,
+        "explain":  "Pantomime বা মূকাভিনয় হলো এমন অভিনয় যেখানে কোনো কথা বা সংলাপ (Speech) ছাড়াই শুধুমাত্র অঙ্গভঙ্গির মাধ্যমে মনের ভাব প্রকাশ করা হয়।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (কলা ও মানবিক স্কুল) : ০৬-০৭"
+                   ]
+    },
+    {
+        "id":  22,
+        "topicsId":  490,
+        "q":  "\u0027A short speech by a player at the end of a play\u0027 is called-",
+        "options":  [
+                        "a memorandum",
+                        "an epilogue",
+                        "a prologue",
+                        "a soliloquy"
+                    ],
+        "ans":  1,
+        "explain":  "নাটকের একদম শেষে দর্শকদের উদ্দেশ্যে যে সংক্ষিপ্ত বক্তব্য দেওয়া হয়, তাকে \u0027Epilogue\u0027 বা উপসংহার বলা হয়।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় কলা ও মানবিক স্কুল : : ১১-১২"
+                   ]
+    },
+    {
+        "id":  23,
+        "topicsId":  490,
+        "q":  "A closing speech in a play, often delivered after the completion of the action is called-",
+        "options":  [
+                        "a monologue",
+                        "an epilogue",
+                        "a prologue",
+                        "a dialogue"
+                    ],
+        "ans":  1,
+        "explain":  "নাটকের মূল ঘটনা শেষ হওয়ার পর সমাপ্তি ভাষণকে \u0027Epilogue\u0027 বলা হয়।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (ই- ইউনিট) : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  24,
+        "topicsId":  490,
+        "q":  "Soliloquy means-",
+        "options":  [
+                        "to memorise",
+                        "talking to oneself",
+                        "action of speech",
+                        "rehearsal of a play"
+                    ],
+        "ans":  1,
+        "explain":  "Soliloquy মানে হলো নিজের সাথে নিজে কথা বলা (Talking to oneself)। নাটকে যখন কোনো চরিত্র একাকী স্টেজে দাঁড়িয়ে তার মনের কথা উচ্চস্বরে বলে, তখন তাকে স্বগতোক্তি বা Soliloquy বলে।",
+        "source":  [
+                       "প্রাথমিক ও গণশিক্ষা বিভাগে সহকারী পরিচালক : ০১"
+                   ]
+    },
+    {
+        "id":  25,
+        "topicsId":  490,
+        "q":  "What is the meaning of \u0027Soliloquy\u0027 ?",
+        "options":  [
+                        "action of body",
+                        "action of speech",
+                        "to memorirea part",
+                        "long self speech by an actor"
+                    ],
+        "ans":  3,
+        "explain":  "মঞ্চে অভিনেতার দেওয়া দীর্ঘ স্বগতোক্তি যা অন্য কেউ শুনতে পায় না, তাকেই Soliloquy বলা হয়।",
+        "source":  [
+                       "নির্বাচন কমিশন সচিবালয়ে সহকারী পরিচালক : ৯৫"
+                   ]
+    },
+    {
+        "id":  26,
+        "topicsId":  490,
+        "q":  "The appropriate meaning of the word \u0027monologue\u0027 is-",
+        "options":  [
+                        "a long speech in a play spoken by one actor especially when alone",
+                        "conversation in a play",
+                        "a speech in a play in which a character, who is alone on the stage,speaks his thoughts aloud",
+                        "a dialogue between the two actors or actresses in a drama"
+                    ],
+        "ans":  0,
+        "explain":  "Monologue হলো একজন অভিনেতার দীর্ঘ বক্তব্য। সলিলেকুই-এর সাথে এর পার্থক্য হলো, মনোলোগ অন্য চরিত্ররাও শুনতে পারে।",
+        "source":  [
+                       "বাংলাদেশ টেলিভিশন-এর প্রযোজক : ০৬"
+                   ]
+    },
+    {
+        "id":  27,
+        "topicsId":  490,
+        "q":  "When a character speaks his thoughts aloud it is called-",
+        "options":  [
+                        "aside",
+                        "negative capability",
+                        "monody",
+                        "soliloquy"
+                    ],
+        "ans":  3,
+        "explain":  "যখন কোনো চরিত্র তার চিন্তাগুলোকে মনে মনে না রেখে দর্শকদের উদ্দেশ্যে জোরে বলে, তখন তাকে Soliloquy বলে।",
+        "source":  [
+                       "কারা অধিদপ্তরের কারা তত্ত্বাবধায়ক : ০৫"
+                   ]
+    },
+    {
+        "id":  28,
+        "topicsId":  490,
+        "q":  "Which word does not relate to literature ?",
+        "options":  [
+                        "epilogue",
+                        "monologue",
+                        "prologue",
+                        "demagogue"
+                    ],
+        "ans":  3,
+        "explain":  "Epilogue, Monologue, Prologue সাহিত্য বা নাটকের সাথে সম্পর্কিত। কিন্তু Demagogue অর্থ হলো জননেতা যিনি আবেগময় বক্তৃতার মাধ্যমে সাধারণ মানুষকে প্রভাবিত করেন, যা রাজনীতির সাথে সম্পর্কিত।",
+        "source":  [
+                       "জাতীয় রাজস্ব বোর্ডের ইন্সপেক্টর : ১০"
+                   ]
+    },
+    {
+        "id":  29,
+        "topicsId":  490,
+        "q":  "\u0027Melodrama\u0027 is a kind of play of—",
+        "options":  [
+                        "historical themes",
+                        "violent and sensational themes",
+                        "philosophical themes",
+                        "pathetic themes"
+                    ],
+        "ans":  1,
+        "explain":  "Melodrama হলো এক ধরণের নাটক যেখানে অত্যন্ত চাঞ্চল্যকর, আবেগঘন এবং উত্তেজনাকর (Violent and sensational) বিষয়বস্তু তুলে ধরা হয়।",
+        "source":  [
+                       "ইসলামী বিশ্ববিদ্যালয় (সি-ইউনিট) : ১১-১২"
+                   ]
+    },
+    {
+        "id":  30,
+        "topicsId":  490,
+        "q":  "Comedy means-",
+        "options":  [
+                        "a light play with a happy ending.",
+                        "a amusing play with a serious ending.",
+                        "a serious play with a humorous ending.",
+                        "a play that shows terrible things in a way that is intended to be funny"
+                    ],
+        "ans":  0,
+        "explain":  "Comedy হলো এমন একটি হালকা মেজাজের নাটক যার শেষটা আনন্দদায়ক বা মিলনান্তক (Happy ending) হয়।",
+        "source":  [
+                       "ইসলামী বিশ্ববিদ্যালয় : ০৬-০৭"
+                   ]
+    },
+    {
+        "id":  31,
+        "topicsId":  490,
+        "q":  "Comedy does not have -",
+        "options":  [
+                        "a happy ending",
+                        "a plot",
+                        "catharsis",
+                        "comic element"
+                    ],
+        "ans":  2,
+        "explain":  "Catharsis (আবেগীয় পরিশুদ্ধি) ট্র্যাজেডির একটি বৈশিষ্ট্য, এটি কমেডিতে থাকে না। কমেডিতে হ্যাপি এন্ডিং এবং হাসির উপাদান থাকে।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (কলা ও মানবিক স্কুল) : ০৭-০৮"
+                   ]
+    },
+    {
+        "id":  32,
+        "topicsId":  490,
+        "q":  "Which of the following school of literary writings is connected with a medical theory ?",
+        "options":  [
+                        "Comedy of Manners",
+                        "Theater of the absurd",
+                        "Heroic Tragedy",
+                        "Comedy of Humours"
+                    ],
+        "ans":  3,
+        "explain":  "Comedy of Humours প্রাচীন চিকিৎসা শাস্ত্রের চারটি তরল উপাদানের (Humours) তত্ত্বের ওপর ভিত্তি করে তৈরি করা হয়েছিল, যা বেন জনসন জনপ্রিয় করেন।",
+        "source":  [
+                       "১৫তম বিসিএস"
+                   ]
+    },
+    {
+        "id":  33,
+        "topicsId":  490,
+        "q":  "Tragedy means-",
+        "options":  [
+                        "a serious play with a happy ending.",
+                        "a serious play with a sad ending.",
+                        "a humorous play with a sad ending.",
+                        "a funny play with a touchy ending."
+                    ],
+        "ans":  1,
+        "explain":  "Tragedy বা বিয়োগান্তক নাটক হলো একটি গম্ভীর বিষয়বস্তুর নাটক যার সমাপ্তি হয় দুঃখজনক বা শোচনীয় (Sad ending) ঘটনার মাধ্যমে।",
+        "source":  [
+                       "ইসলামী বিশ্ববিদ্যালয় : ০৬-০৭"
+                   ]
+    },
+    {
+        "id":  34,
+        "topicsId":  490,
+        "q":  "A serious play with a sad ending is called a -",
+        "options":  [
+                        "tragedy",
+                        "comedy",
+                        "farce",
+                        "wonderful"
+                    ],
+        "ans":  0,
+        "explain":  "যে নাটকের কাহিনী অত্যন্ত গম্ভীর এবং শেষ পর্যন্ত নায়কের মৃত্যু বা পতন ঘটে, তাকে Tragedy বলে।",
+        "source":  [
+                       "খাদ্য অধিদপ্তরের উপ-খাদ্য পরিদর্শক : ২১/ জীবন বীমা কর্পোরেশনের অফিস সহকারী কাম-কম্পিউটার মুদ্রাক্ষরিক : ২১"
+                   ]
+    },
+    {
+        "id":  35,
+        "topicsId":  490,
+        "q":  "A tragedy does not have -",
+        "options":  [
+                        "a tragic hero",
+                        "a plot",
+                        "an act",
+                        "an octave sestet division"
+                    ],
+        "ans":  3,
+        "explain":  "Octave-Sestet বিভাগটি সনেটের (Sonnet) বৈশিষ্ট্য, নাটকের নয়। ট্র্যাজেডিতে নায়ক, প্লট এবং অ্যাক্ট অবশ্যই থাকে।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (কলা ও মানবিক স্কুল) : ০৫-০৬"
+                   ]
+    },
+    {
+        "id":  36,
+        "topicsId":  490,
+        "q":  "What is catastrophe ?",
+        "options":  [
+                        "The comical end of dramatic events",
+                        "The tragic end of dramatic events",
+                        "The comic tragic end of the play",
+                        "None of the above"
+                    ],
+        "ans":  1,
+        "explain":  "Catastrophe বলতে ট্র্যাজেডির চূড়ান্ত পরিণতি বা বেদনাদায়ক সমাপ্তিকে বোঝায়।",
+        "source":  [
+                       "দুর্নীতি দমন ব্যুরোর সহকারী উপ-পরিদর্শক : ০৪"
+                   ]
+    },
+    {
+        "id":  37,
+        "topicsId":  490,
+        "q":  "‘Fiction’ এর পরিভাষা কোনটি ?",
+        "options":  [
+                        "কথাসাহিত্য",
+                        "কাব্যসাহিত্য",
+                        "নাট্যসাহিত্য",
+                        "ছোটগল্প"
+                    ],
+        "ans":  0,
+        "explain":  "Fiction-এর বাংলা পরিভাষা হলো \u0027কথাসাহিত্য\u0027, যা মূলত কল্পনার ওপর ভিত্তি করে রচিত গদ্য সাহিত্য।",
+        "source":  [
+                       "জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয় (ক- ইউনিট) : ১৯-২০"
+                   ]
+    },
+    {
+        "id":  38,
+        "topicsId":  490,
+        "q":  "A fiction means -",
+        "options":  [
+                        "confusion",
+                        "fock action",
+                        "a literary advice",
+                        "a branch of literature that describes imaginary events"
+                    ],
+        "ans":  3,
+        "explain":  "Fiction হলো সাহিত্যের একটি শাখা যা কাল্পনিক ঘটনা ও চরিত্রের বর্ণনা দেয়। (সঠিক উত্তর হবে ৩ নম্বর অপশন, যা অপশনে ২ হিসেবে চিহ্নিত ছিল)।",
+        "source":  [
+                       "ইসলামী বিশ্ববিদ্যালয় (বি- ইউনিট) : ০৫-০৬"
+                   ]
+    },
+    {
+        "id":  39,
+        "topicsId":  490,
+        "q":  "The term ‘Fiction\u0027 is related to-",
+        "options":  [
+                        "Fact",
+                        "Friction",
+                        "Faction",
+                        "Imagination"
+                    ],
+        "ans":  3,
+        "explain":  "Fiction বা কথাসাহিত্য সরাসরি কল্পনা বা \u0027Imagination\u0027-এর সাথে যুক্ত।",
+        "source":  [
+                       "বিভিন্ন মন্ত্রণালয়/ বিভাগ/ অধিদপ্তরের ব্যক্তিগত কর্মকর্তা (সাধারণ) : ১৮"
+                   ]
+    },
+    {
+        "id":  40,
+        "topicsId":  490,
+        "q":  "কাকে Short story এর জনক বলা হয় ?",
+        "options":  [
+                        "এড.এলান পো",
+                        "টি. এলিয়ট",
+                        "সমারসেট মম",
+                        "দেয়া নেই"
+                    ],
+        "ans":  0,
+        "explain":  "আধুনিক ছোটগল্প বা Short story-এর জনক বলা হয় আমেরিকান লেখক এডগার অ্যালান পো (Edgar Allan Poe)-কে।",
+        "source":  [
+                       "অডিটর (কন্ট্রোলার জেনারেল ডিফেন্স ফাইনান্স কার্যালয়) : ১৪"
+                   ]
+    },
+    {
+        "id":  41,
+        "topicsId":  490,
+        "q":  "‘Novel’ means something new and is derived from-",
+        "options":  [
+                        "French",
+                        "Arabic",
+                        "Latin",
+                        "Greek"
+                    ],
+        "ans":  2,
+        "explain":  "Novel শব্দটি লাতিন শব্দ \u0027Novellus\u0027 থেকে এসেছে, যার অর্থ হলো নতুন কিছু।",
+        "source":  [
+                       "জেলা প্রাথমিক শিক্ষা অফিসার : ০৫"
+                   ]
+    },
+    {
+        "id":  42,
+        "topicsId":  490,
+        "q":  "A novel is not written in-",
+        "options":  [
+                        "prose",
+                        "letter form",
+                        "rhyme",
+                        "third person narrative"
+                    ],
+        "ans":  2,
+        "explain":  "উপন্যাস বা Novel সাধারণত গদ্যে লেখা হয়। এটি অন্ত্যমিল বা ছন্দ (Rhyme) দিয়ে লেখা হয় না, কারণ ছন্দ কবিতার বৈশিষ্ট্য।",
+        "source":  [
+                       "কুমিল্লা বিশ্ববিদ্যালয় (বি- ইউনিট) : ১৩-১৪"
+                   ]
+    },
+    {
+        "id":  43,
+        "topicsId":  490,
+        "q":  "When a poem has a speaker, what does a novel have ?",
+        "options":  [
+                        "narrator",
+                        "character",
+                        "author",
+                        "speaker"
+                    ],
+        "ans":  0,
+        "explain":  "কবিতায় যিনি মনের ভাব প্রকাশ করেন তাকে \u0027Speaker\u0027 বলা হয়, আর উপন্যাসে যিনি গল্প বর্ণনা করেন তাকে \u0027Narrator\u0027 (বর্ণনাকারী) বলা হয়।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (কলা ও মানবিক স্কুল) : ১১-১২"
+                   ]
+    },
+    {
+        "id":  44,
+        "topicsId":  490,
+        "q":  "The narrator of a novel in third person is called narrator.",
+        "options":  [
+                        "a dedicated",
+                        "an evanescent",
+                        "a ubiquitous",
+                        "an omniscient"
+                    ],
+        "ans":  3,
+        "explain":  "যখন কোনো উপন্যাসের বর্ণনাকারী সব চরিত্রের মনের খবর জানেন এবং সব জায়গায় বিচরণ করতে পারেন, তখন তাকে \u0027Omniscient narrator\u0027 (সর্বজ্ঞ বর্ণনাকারী) বলা হয়।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  45,
+        "topicsId":  490,
+        "q":  "A novel in the form of a letter is called-",
+        "options":  [
+                        "picaresque novel",
+                        "novelette",
+                        "non-fictional novel",
+                        "epistolary novel"
+                    ],
+        "ans":  3,
+        "explain":  "চিঠির আকারে লেখা উপন্যাসকে \u0027Epistolary novel\u0027 (পত্রোপন্যাস) বলা হয়।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  46,
+        "topicsId":  490,
+        "q":  "Historical novels have -",
+        "options":  [
+                        "historical characters only",
+                        "fictional characters only",
+                        "real and imaginary characters",
+                        "famous historical characters only"
+                    ],
+        "ans":  2,
+        "explain":  "ঐতিহাসিক উপন্যাসে ইতিহাসের বাস্তব চরিত্রের (Real) পাশাপাশি লেখকের নিজস্ব কল্পনার চরিত্রও (Imaginary) থাকে।",
+        "source":  [
+                       "জাতীয় বিশ্ববিদ্যালয় : ০৫-০৬"
+                   ]
+    },
+    {
+        "id":  47,
+        "topicsId":  490,
+        "q":  "A story with animals as a main character, and a moral is called-",
+        "options":  [
+                        "Legend",
+                        "Fiction",
+                        "Fable",
+                        "Parody"
+                    ],
+        "ans":  2,
+        "explain":  "Fable হলো এমন ধরণের নীতিগল্প যেখানে পশু-পাখিরা মূল চরিত্র হিসেবে কথা বলে এবং গল্পের শেষে একটি নৈতিক শিক্ষা থাকে।",
+        "source":  [
+                       "চট্টগ্রাম বিশ্ববিদ্যালয় (বি- ইউনিট) : ০৮-০৯"
+                   ]
+    },
+    {
+        "id":  48,
+        "topicsId":  490,
+        "q":  "A historical novel-",
+        "options":  [
+                        "clearly specifies the setting",
+                        "does not give a proper setting",
+                        "may or may not deal with a historical setting",
+                        "narrates history"
+                    ],
+        "ans":  2,
+        "explain":  "ঐতিহাসিক উপন্যাস ঐতিহাসিক কোনো পটভূমি নিয়ে হতেও পারে আবার লেখকের কল্পিত প্রেক্ষাপটেও হতে পারে।",
+        "source":  [
+                       "জাতীয় বিশ্ববিদ্যালয় : ০৫-০৬"
+                   ]
+    },
+    {
+        "id":  49,
+        "topicsId":  490,
+        "q":  "Which of these not written in verse ?",
+        "options":  [
+                        "Elegy",
+                        "Kirtan",
+                        "Sonnet",
+                        "Fable"
+                    ],
+        "ans":  3,
+        "explain":  "Fable সাধারণত গদ্যে লেখা হয়। অন্যদিকে Elegy (শোকগাথা), Sonnet এবং কীর্তন ছন্দোবদ্ধ পদ্যে (Verse) রচিত হয়।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি২- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  50,
+        "topicsId":  490,
+        "q":  "A fantasy is--",
+        "options":  [
+                        "An imaginary story",
+                        "A funny film",
+                        "A history record",
+                        "A real-life event"
+                    ],
+        "ans":  0,
+        "explain":  "Fantasy হলো সম্পূর্ণ অলৌকিক বা কাল্পনিক কোনো গল্প (Imaginary story) যা বাস্তব জগতের সাথে সম্পর্কিত নয়।",
+        "source":  [
+                       "১৬তম বিশেষ বিসিএস/ চট্টগ্রাম বিশ্ববিদ্যালয় (এফ- ইউনিট) : ১১-১২"
+                   ]
+    },
+    {
+        "id":  51,
+        "topicsId":  490,
+        "q":  "A fantasy is .",
+        "options":  [
+                        "a funny film",
+                        "a history record",
+                        "a real life event",
+                        "an imaginary story"
+                    ],
+        "ans":  3,
+        "explain":  "Fantasy মানে কল্পনাপ্রসূত কাহিনী বা রূপকথা জাতীয় রচনা।",
+        "source":  [
+                       "প্রাথমিক ও গণশিক্ষ মন্ত্রণালয়ের পিটিআই (ইন্‌ট্রাক্টার) : ১৯"
+                   ]
+    },
+    {
+        "id":  52,
+        "topicsId":  490,
+        "q":  "What is the meaning of the word ‘Dirge’ ?",
+        "options":  [
+                        "a kind of sonnet sequence",
+                        "a song expressing patriotic sentiment",
+                        "a long verse telling about an adventure",
+                        "a song expressing grief, lamentation and mourning"
+                    ],
+        "ans":  3,
+        "explain":  "Dirge হলো এক ধরণের শোকসংগীত যা বিলাপ বা শোক প্রকাশের জন্য গাওয়া হয়।",
+        "source":  [
+                       "সহকারী থানা শিক্ষা অফিসার : ৯৫"
+                   ]
+    },
+    {
+        "id":  53,
+        "topicsId":  490,
+        "q":  "A \u0027dirge\u0027 is a song to be sung at--------",
+        "options":  [
+                        "wedding",
+                        "reunions",
+                        "funerals",
+                        "temples"
+                    ],
+        "ans":  2,
+        "explain":  "Dirge বা শোকসংগীত সাধারণত অন্ত্যেষ্টিক্রিয়া বা শবযাত্রার (Funerals) সময় গাওয়া হয়।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  54,
+        "topicsId":  490,
+        "q":  "A formal composition or speech expressing \u0027high praise\u0027 of somebody-",
+        "options":  [
+                        "autobiography",
+                        "erudite",
+                        "admiration",
+                        "eulogy"
+                    ],
+        "ans":  3,
+        "explain":  "কারো গুণগান গেয়ে বা অতি উচ্চ প্রশংসা করে দেওয়া বক্তব্যকে \u0027Eulogy\u0027 (প্রশংসাবচন) বলা হয়।",
+        "source":  [
+                       "৩১তম বিসিএস/ বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড (সহকারী জেনারেল ম্যানেজার) : ১৮"
+                   ]
+    },
+    {
+        "id":  55,
+        "topicsId":  490,
+        "q":  "‘A speech or writing in praise of person\u0027 is known as-",
+        "options":  [
+                        "autobiography",
+                        "erudite",
+                        "admiration",
+                        "eulogy"
+                    ],
+        "ans":  3,
+        "explain":  "ব্যক্তির প্রশংসা করে রচিত সাহিত্য বা ভাষণকে Eulogy বলে।",
+        "source":  [
+                       "Joint Recruitment for 2 Banks Senior Officer (IT): 20"
+                   ]
+    },
+    {
+        "id":  56,
+        "topicsId":  490,
+        "q":  "A book written about one\u0027s own life is",
+        "options":  [
+                        "A biography",
+                        "An autobiography",
+                        "A diary",
+                        "A history"
+                    ],
+        "ans":  1,
+        "explain":  "নিজের জীবনের কাহিনী নিজে লিখলে তাকে \u0027Autobiography\u0027 (আত্মজীবনী) বলা হয়।",
+        "source":  [
+                       "কারিগরি শিক্ষা অধিদপ্তরের অফিস সহায়ক/ গার্ডেনার : ২১/ রাজশাহী বিশ্ববিদ্যালয় (এফ- ইউনিট) অবিজ্ঞান গ্রুপ : ১৩-১৪"
+                   ]
+    },
+    {
+        "id":  57,
+        "topicsId":  490,
+        "q":  "A person who writes about his own life, writes / A person who writes about his own life is-",
+        "options":  [
+                        "A biography",
+                        "A diary",
+                        "A chronicle",
+                        "An autobiography"
+                    ],
+        "ans":  3,
+        "explain":  "যে ব্যক্তি নিজের জীবনী নিজে লিখছেন, সেই রচনাটি হলো Autobiography।",
+        "source":  [
+                       "২৮তম বিসিএস/ ২৭তম বিসিএস/ ১৬তম বিসিএস/ পল্লী উন্নয়ন বোর্ডের হিসাব সহকারী : ১৪/ জগন্নাথ বিশ্ববিদ্যালয় (বি- ইউনিট) : ১৪-১৫ / কারিগরি শিক্ষা অধিদপ্তরের বিভিন্ন পদ : ২১/ বাণিজ্য মন্ত্রণালয়ের অধীনে বাংলাদেশ ট্যারিফ কমিশনের গবেষণা কর্মকর্তা : ১৮/ মেডিকেল ও ডেন্টাল কলেজ ভর্তি পরীক্ষা : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  58,
+        "topicsId":  490,
+        "q":  "\u0027Biography\u0027 शब्दটির অর্থ কী ?",
+        "options":  [
+                        "গ্রন্থ নির্দেশিকা",
+                        "কড়চা",
+                        "বিবরণ",
+                        "আলোচনা"
+                    ],
+        "ans":  1,
+        "explain":  "Biography বলতে কারোর জীবনের কাহিনী বা বিবরণ বোঝায়, যার একটি বাংলা প্রতিশব্দ হলো \u0027কড়চা\u0027 (যদিও এটি জীবনের ধারাবাহিক বিবরণের ক্ষেত্রে ব্যবহৃত হয়)।",
+        "source":  [
+                       "কারিগরি শিক্ষা অধিদপ্তরের বিভিন্ন পদ : ২১"
+                   ]
+    },
+    {
+        "id":  59,
+        "topicsId":  490,
+        "q":  "Which composition emphasizes on author\u0027s witness and experiences rather than his/her own personality or life ?",
+        "options":  [
+                        "Poem",
+                        "Paragraph",
+                        "Letter",
+                        "Memoir"
+                    ],
+        "ans":  3,
+        "explain":  "Memoir বা স্মৃতিকথা হলো এমন এক ধরণের আত্মজীবনীমূলক রচনা যেখানে লেখক তার নিজের জীবনের চেয়ে বেশি গুরুত্ব দেন তার দেখা বিশেষ কোনো ঘটনা বা অভিজ্ঞতার ওপর।",
+        "source":  [
+                       "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (এ- ইউনিট) : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  60,
+        "topicsId":  490,
+        "q":  "Rhetoric is-",
+        "options":  [
+                        "the ability to lie without revealing it with body language",
+                        "a technique used to speak faster",
+                        "the skill of using language persuasively",
+                        "the ability to interpret complex logical problems"
+                    ],
+        "ans":  2,
+        "explain":  "Rhetoric বা অলংকার শাস্ত্র হলো ভাষাকে এমনভাবে ব্যবহার করার কৌশল যা অন্যদের মন জয় করতে বা প্ররোচিত করতে সক্ষম।",
+        "source":  [
+                       "ইসলামী বিশ্ববিদ্যালয় (সি- ইউনিট) : ১১-১২"
+                   ]
+    },
+    {
+        "id":  61,
+        "topicsId":  490,
+        "q":  "‘Allegory’ শব্দের অর্থ কোনটি ?",
+        "options":  [
+                        "রূপক",
+                        "প্রতীক",
+                        "চিহ্ন",
+                        "সংকেত"
+                    ],
+        "ans":  0,
+        "explain":  "Allegory-এর বাংলা অর্থ হলো \u0027রূপক\u0027, যেখানে মূল কাহিনীর আড়ালে অন্য একটি গভীর অর্থ লুকিয়ে থাকে।",
+        "source":  [
+                       "রাজশাহী বিশ্ববিদ্যালয় (খ- ইউনিট) : ১১-১২"
+                   ]
+    },
+    {
+        "id":  62,
+        "topicsId":  490,
+        "q":  "A work which has a meaning behind the surface meaning is-",
+        "options":  [
+                        "an epic",
+                        "an allegory",
+                        "a metaphor",
+                        "personification"
+                    ],
+        "ans":  1,
+        "explain":  "যে সাহিত্যকর্মের বাহ্যিক অর্থের আড়ালে অন্য একটি সুগভীর নৈতিক বা রাজনৈতিক অর্থ থাকে, তাকে Allegory বলে।",
+        "source":  [
+                       "বহিরাগমন ও পাসপোর্ট অধিদপ্তরের সহকারী পরিচালক : ১১"
+                   ]
+    },
+    {
+        "id":  63,
+        "topicsId":  490,
+        "q":  "Allegorical means.",
+        "options":  [
+                        "poetry",
+                        "written in verse",
+                        "with timely significant",
+                        "having a symbolic meaning"
+                    ],
+        "ans":  3,
+        "explain":  "Allegorical মানে হলো রূপক বা প্রতীকি (Symbolic meaning)।",
+        "source":  [
+                       "গণযোগাযোগ অধিদপ্তরের সহকারী তথ্য অফিসার : ১৩"
+                   ]
+    },
+    {
+        "id":  64,
+        "topicsId":  490,
+        "q":  "Metaphor is a comparison between-",
+        "options":  [
+                        "two things of Nature",
+                        "two similar things",
+                        "two dissimilar objects",
+                        "two criteria"
+                    ],
+        "ans":  2,
+        "explain":  "Metaphor বা রূপক অলংকার হলো সম্পূর্ণ ভিন্নধর্মী দুটি বস্তুর (Dissimilar objects) মধ্যে তুলনা করা।",
+        "source":  [
+                       "গণযোগাযোগ অধিদপ্তরে সহকারী তথ্য অফিসার : ০৫"
+                   ]
+    },
+    {
+        "id":  65,
+        "topicsId":  490,
+        "q":  "Metaphor involves-",
+        "options":  [
+                        "Implicit comparison",
+                        "Illicit comparison",
+                        "Explicit comparison",
+                        "Elaborate comparison"
+                    ],
+        "ans":  0,
+        "explain":  "Metaphor-এ তুলনাটি সরাসরি করা হয় না বরং উজ্জ্ব বা অন্তর্নিহিত থাকে, তাই একে \u0027Implicit comparison\u0027 বলে।",
+        "source":  [
+                       "বাংলাদেশ পরিসংখ্যান ব্যুরো (BBS) এর অফিস সহায়ক : ২১/ রাজশাহী বিশ্ববিদ্যালয় (এ-ইউনিট) জোড় : ১৬-১৭"
+                   ]
+    },
+    {
+        "id":  66,
+        "topicsId":  490,
+        "q":  "\u0027Mana\u0027s lovely voice was music to our ears\u0027 is an example of-",
+        "options":  [
+                        "metaphor",
+                        "metonymy",
+                        "simple",
+                        "symbol"
+                    ],
+        "ans":  0,
+        "explain":  "এখানে কণ্ঠস্বরকে সরাসরি \u0027Music\u0027 বা সংগীতের সাথে তুলনা করা হয়েছে (like বা as ব্যবহার না করে), তাই এটি Metaphor।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ-ইউনিট) : ১৮-১৯"
+                   ]
+    },
+    {
+        "id":  67,
+        "topicsId":  490,
+        "q":  "\u0027Biman Bangladesh your home in the air\u0027 is an example of-",
+        "options":  [
+                        "metaphor",
+                        "simile",
+                        "hyperbole",
+                        "personification"
+                    ],
+        "ans":  0,
+        "explain":  "এখানে বিমানকে আকাশপথে আপনার \u0027ঘর\u0027 (Home) হিসেবে সরাসরি তুলনা করা হয়েছে, যা একটি Metaphor।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ-ইউনিট) Ele. Eng. : ১৮-১৯/ ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ১৩-১৪"
+                   ]
+    },
+    {
+        "id":  68,
+        "topicsId":  490,
+        "q":  "In the sentence, “The man is mad dog.” \u0027mad dog\u0027 is an example of a/an-",
+        "options":  [
+                        "simile",
+                        "metaphor",
+                        "assonance",
+                        "alliteration"
+                    ],
+        "ans":  1,
+        "explain":  "মানুষকে সরাসরি \u0027পাগলা কুকুর\u0027 বলা হয়েছে, তাই এটি একটি Metaphor।",
+        "source":  [
+                       "ঢাকা বিশ্বাবদ্যালয় (খ- ইউনিট) Ele. Eng. : ০৯-১০"
+                   ]
+    },
+    {
+        "id":  69,
+        "topicsId":  490,
+        "q":  "What is the example of a metaphor ?",
+        "options":  [
+                        "The lawn is a beautiful green blanket we spread out every summer.",
+                        "You could have knocked me over with a feather.",
+                        "The star danced playfully in the moonlit sky.",
+                        "The weather is as cool as a summer day in the Midwest."
+                    ],
+        "ans":  0,
+        "explain":  "এখানে ঘাসকে \u0027Blanket\u0027 বা কম্বলের সাথে সরাসরি তুলনা করা হয়েছে, যা একটি Metaphor।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ১৬-১৭"
+                   ]
+    },
+    {
+        "id":  70,
+        "topicsId":  490,
+        "q":  "\u0027Rose\u0027 is often used as---------for beauty or the beautiful.",
+        "options":  [
+                        "a metaphor",
+                        "parallel",
+                        "collocation",
+                        "euphemism"
+                    ],
+        "ans":  0,
+        "explain":  "গোলাপ ফুলকে প্রায়ই সৌন্দর্যের রূপক বা Metaphor হিসেবে ব্যবহার করা হয়।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট ) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  71,
+        "topicsId":  490,
+        "q":  "Which one is a Metaphor ?",
+        "options":  [
+                        "He is as good as his brother.",
+                        "He is the star of the family.",
+                        "She sang like a cuckoo.",
+                        "The boy takes after his father."
+                    ],
+        "ans":  1,
+        "explain":  "সে তার পরিবারের \u0027তারা\u0027 (Star) - এখানে \u0027like\u0027 ব্যবহার না করে সরাসরি তুলনা করা হয়েছে, তাই এটি Metaphor।",
+        "source":  [
+                       "শ্রম পরিদপ্তরের জনসংখ্যা ও পরিবারকল্যাণ কর্মকর্তা : ০৯"
+                   ]
+    },
+    {
+        "id":  72,
+        "topicsId":  490,
+        "q":  "\u0027Time is money\u0027 is an example of-",
+        "options":  [
+                        "Simile",
+                        "Metaphor",
+                        "Personification",
+                        "Allusion"
+                    ],
+        "ans":  1,
+        "explain":  "সময়কে সরাসরি টাকার সাথে তুলনা করা হয়েছে, এটি একটি বহুল প্রচলিত Metaphor।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি২ ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  73,
+        "topicsId":  490,
+        "q":  "\u0027He is the black sheep of the family.\u0027 What ornamentation of language has been used here ?",
+        "options":  [
+                        "personification",
+                        "simile",
+                        "metaphor",
+                        "exaggeration"
+                    ],
+        "ans":  2,
+        "explain":  "\u0027Black sheep\u0027 (কুলাঙ্গার) এখানে রূপক অর্থে ব্যবহৃত হয়েছে, যা একটি Metaphor।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (ই- ইউনিট) : ১৬-১৭"
+                   ]
+    },
+    {
+        "id":  74,
+        "topicsId":  490,
+        "q":  "The camel is the ship of the desert. Which of the following figures of speech is used in this sentence ?",
+        "options":  [
+                        "Simile",
+                        "Metaphor",
+                        "Personification",
+                        "Epigram"
+                    ],
+        "ans":  1,
+        "explain":  "উটকে \u0027মরুভূমির জাহাজ\u0027 বলা হয়েছে, এটি একটি Metaphor।",
+        "source":  [
+                       "সরকারি মাধ্যমিক বিদ্যালয় প্রধান শিক্ষক : ৯৭"
+                   ]
+    },
+    {
+        "id":  75,
+        "topicsId":  490,
+        "q":  "\u0027My heart leaped into my mouth.\u0027 What type of comparison is used in the sentence ?",
+        "options":  [
+                        "Personification",
+                        "Metaphor",
+                        "Onomatopoeia",
+                        "Simile"
+                    ],
+        "ans":  1,
+        "explain":  "অত্যধিক ভীতি বা উত্তেজনা প্রকাশের জন্য হৃদপিণ্ড মুখে আসা—এই তুলনাটি Metaphor-এর উদাহরণ।",
+        "source":  [
+                       "সহকারী থানা শিক্ষা অফিসার : ৯৯"
+                   ]
+    },
+    {
+        "id":  76,
+        "topicsId":  490,
+        "q":  "A simile involves an:",
+        "options":  [
+                        "implicit comparison",
+                        "illicit comparison",
+                        "explicit comparison",
+                        "elaborate comparison"
+                    ],
+        "ans":  2,
+        "explain":  "Simile-এ দুটি বস্তুর তুলনা সরাসরি বা স্পষ্টভাবে (Explicit comparison) \u0027like\u0027 বা \u0027as\u0027 শব্দ ব্যবহার করে করা হয়।",
+        "source":  [
+                       "রাজশাহী বিশ্ববিদ্যালয় (এ১- ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  77,
+        "topicsId":  490,
+        "q":  "The comparison of unlike things using the words like or as is known as-",
+        "options":  [
+                        "metaphor",
+                        "simile",
+                        "alliteration",
+                        "personification"
+                    ],
+        "ans":  1,
+        "explain":  "যখন \u0027like\u0027 বা \u0027as\u0027 ব্যবহার করে দুটি ভিন্নধর্মী জিনিসের মধ্যে তুলনা করা হয়, তখন তাকে Simile বলে।",
+        "source":  [
+                       "৩৭তম বিসিএস"
+                   ]
+    },
+    {
+        "id":  78,
+        "topicsId":  490,
+        "q":  "\u0027I wondered lonely as a cloud\u0027 is an example of-",
+        "options":  [
+                        "a symbol",
+                        "a simile",
+                        "a metaphor",
+                        "an alliteration"
+                    ],
+        "ans":  1,
+        "explain":  "এখানে \u0027as a cloud\u0027 থাকায় এটি একটি Simile-এর উদাহরণ।",
+        "source":  [
+                       "বিভিন্ন মন্ত্রণালয়/ বিভাগ/ অধিদপ্তরের ব্যক্তিগত কর্মকর্তা (সাধারণ) : ১৮"
+                   ]
+    },
+    {
+        "id":  79,
+        "topicsId":  490,
+        "q":  "\u0027My love is like a red, red rose\u0027 is an example of—",
+        "options":  [
+                        "metaphor simile",
+                        "simile",
+                        "metonymy",
+                        "synecdoche"
+                    ],
+        "ans":  1,
+        "explain":  "এখানে \u0027like\u0027 ব্যবহার করে ভালোবাসার সাথে গোলাপের তুলনা করা হয়েছে, তাই এটি Simile।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ-ইউনিট) : ১২-১৩"
+                   ]
+    },
+    {
+        "id":  80,
+        "topicsId":  490,
+        "q":  "Which figure of speech do you find in the following expression? “I wandered lonely as a cloud”",
+        "options":  [
+                        "simile",
+                        "metaphor",
+                        "personification",
+                        "alliteration"
+                    ],
+        "ans":  0,
+        "explain":  "শেক্সপিয়রের বিখ্যাত লাইনে \u0027as\u0027 শব্দটি তুলনার কাজে ব্যবহৃত হয়েছে, যা একটি Simile।",
+        "source":  [
+                       "বহিরাগমন ও পাসপোর্ট অধিদপ্তরের সহকারী পরিচালক : ১৪"
+                   ]
+    },
+    {
+        "id":  81,
+        "topicsId":  490,
+        "q":  "“We have short time to stay, as you” (from the poem \u0027To Daffodils\u0027) is an example of –",
+        "options":  [
+                        "symbol",
+                        "metaphor",
+                        "simile",
+                        "metonymy"
+                    ],
+        "ans":  2,
+        "explain":  "\u0027as you\u0027 অংশটি মানুষের আয়ুর সাথে ড্যাফোডিলের তুলনা বুঝিয়েছে, তাই এটি Simile।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি- ইউনিট) : ১১-১২"
+                   ]
+    },
+    {
+        "id":  82,
+        "topicsId":  490,
+        "q":  "“Continuous as the stars- They stretched” (from \u0027I wandered lonely as a cloud) is an example of -",
+        "options":  [
+                        "Metaphor",
+                        "metonymy",
+                        "simile",
+                        "personification"
+                    ],
+        "ans":  2,
+        "explain":  "নক্ষত্রের মতো বিরামহীন—এখানে \u0027as\u0027 ব্যবহার করে তুলনা করা হয়েছে, তাই এটি Simile।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি- ইউনিট) : ১১-১২"
+                   ]
+    },
+    {
+        "id":  83,
+        "topicsId":  490,
+        "q":  "“We-dry Away/Like to the summer\u0027s rain” (from the poem \u0027To Daffodils\u0027) is an example of -",
+        "options":  [
+                        "metaphor",
+                        "symbol",
+                        "personification",
+                        "simile"
+                    ],
+        "ans":  3,
+        "explain":  "\u0027Like\u0027 ব্যবহারের মাধ্যমে গ্রীষ্মের বৃষ্টির সাথে তুলনা করা হয়েছে, তাই এটি Simile।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি- ইউনিট) : ১১-১২"
+                   ]
+    },
+    {
+        "id":  84,
+        "topicsId":  490,
+        "q":  "He was moving as fast as a train. Here \u0027as fast as\u0027 is-",
+        "options":  [
+                        "Metaphor",
+                        "Simile",
+                        "Exaggeration",
+                        "Personification"
+                    ],
+        "ans":  1,
+        "explain":  "ট্রেনের মতো দ্রুত—এখানে \u0027as...as\u0027 দিয়ে তুলনা করায় এটি Simile।",
+        "source":  [
+                       "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (এ- ইউনিট) : ১২-১৩"
+                   ]
+    },
+    {
+        "id":  85,
+        "topicsId":  490,
+        "q":  "Complete the unfinished simile by choosing the right word: \u0027as cunning as a ”",
+        "options":  [
+                        "lamb",
+                        "fox",
+                        "lark",
+                        "horse"
+                    ],
+        "ans":  1,
+        "explain":  "একটি পরিচিত ইংরেজি প্রবাদ হলো \u0027As cunning as a fox\u0027 (শেয়ালের মতো চালাক)।",
+        "source":  [
+                       "আইন বিচার ও সংসদ মন্ত্রণালয়ের সাব রেজিস্ট্রার : ১২"
+                   ]
+    },
+    {
+        "id":  86,
+        "topicsId":  490,
+        "q":  "\u0027Jaws of death\u0027 is an example-",
+        "options":  [
+                        "Metaphor",
+                        "Simile",
+                        "Personification",
+                        "Symbol"
+                    ],
+        "ans":  0,
+        "explain":  "মৃত্যুকে একটি হিংস্র প্রাণীর \u0027চোয়াল\u0027 বা Jaws-এর সাথে সরাসরি তুলনা করা হয়েছে, তাই এটি Metaphor।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ-ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  87,
+        "topicsId":  490,
+        "q":  "\u0027Youth like summer morn\u0027 can be an example of -",
+        "options":  [
+                        "Metaphor",
+                        "Personification",
+                        "Simile",
+                        "rhyme"
+                    ],
+        "ans":  2,
+        "explain":  "\u0027like\u0027 ব্যবহার করে যৌবনকে গ্রীষ্মের সকালের সাথে তুলনা করা হয়েছে, যা একটি Simile।",
+        "source":  [
+                       "পররাষ্ট্র মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা: ২২"
+                   ]
+    },
+    {
+        "id":  88,
+        "topicsId":  490,
+        "q":  "The repetition of beginning consonant sound is known as-",
+        "options":  [
+                        "personification",
+                        "onomatopoeia",
+                        "alliteration",
+                        "rhyme"
+                    ],
+        "ans":  2,
+        "explain":  "পাশাপাশি অবস্থিত একাধিক শব্দের শুরুতে একই ব্যঞ্জনবর্ণের (Consonant) পুনরাবৃত্তিকে \u0027Alliteration\u0027 (অনুপ্রাস) বলা হয়।",
+        "source":  [
+                       "৩৭তম বিসিএস"
+                   ]
+    },
+    {
+        "id":  89,
+        "topicsId":  490,
+        "q":  "Which literary device can be found in the sentence “She sells sea shells on the sea shore” ?",
+        "options":  [
+                        "rhyme",
+                        "hyperbole",
+                        "alliteration",
+                        "simile"
+                    ],
+        "ans":  2,
+        "explain":  "এখানে \u0027S\u0027 বর্ণের বারবার ব্যবহারের মাধ্যমে অনুপ্রাস তৈরি হয়েছে, তাই এটি Alliteration।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (বি- ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  90,
+        "topicsId":  490,
+        "q":  "Commencement of the words with the same letter.",
+        "options":  [
+                        "Rhyme",
+                        "Alliteration",
+                        "Pun",
+                        "Oxymoron"
+                    ],
+        "ans":  1,
+        "explain":  "একই বর্ণ দিয়ে শব্দ শুরু করার কৌশলকে Alliteration বলে।",
+        "source":  [
+                       "United Commercial Bank: 10"
+                   ]
+    },
+    {
+        "id":  91,
+        "topicsId":  490,
+        "q":  "What figure of speech do you find in \u0027budding beauty\u0027 ?",
+        "options":  [
+                        "Assonance",
+                        "Simile",
+                        "Alliteration",
+                        "Metaphor"
+                    ],
+        "ans":  2,
+        "explain":  "এখানে \u0027b\u0027 বর্ণের পুনরাবৃত্তি হয়েছে, যা Alliteration-এর উদাহরণ।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  92,
+        "topicsId":  490,
+        "q":  "\u0027mist and mellow fruitfulness\u0027 Which of the following figures of speech is used in this sentence ?",
+        "options":  [
+                        "personification",
+                        "metaphor",
+                        "alliteration",
+                        "onomatopoeia"
+                    ],
+        "ans":  2,
+        "explain":  "কিটস-এর এই কবিতায় \u0027m\u0027 বর্ণের পুনরাবৃত্তি থাকার কারণে এটি Alliteration।",
+        "source":  [
+                       "সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক : ০৬"
+                   ]
+    },
+    {
+        "id":  93,
+        "topicsId":  490,
+        "q":  "What figure of speech has been used in \u0027Jingle-jangle, melodious murmur’.",
+        "options":  [
+                        "personification",
+                        "metaphor",
+                        "onomatopoeia",
+                        "alliteration"
+                    ],
+        "ans":  3,
+        "explain":  "এখানে \u0027m\u0027 এবং \u0027j\u0027 ধ্বনির পুনরাবৃত্তি অলংকারের কাজ করেছে, তাই এটি Alliteration।",
+        "source":  [
+                       "সহকারী থানা শিক্ষা অফিসার : ৯৯"
+                   ]
+    },
+    {
+        "id":  94,
+        "topicsId":  490,
+        "q":  "Which one of the following is correct ?",
+        "options":  [
+                        "I saw a saw to see a tree with an axe.",
+                        "I saw an axe man to saw a tree with an axe.",
+                        "I saw a saw to saw a tree with an axe.",
+                        "I saw a saw seeing a tree with an axe."
+                    ],
+        "ans":  1,
+        "explain":  "বাক্যটির অর্থ অনুযায়ী: আমি একজন কাঠুরিয়াকে দেখলাম কুঠার দিয়ে গাছ কাটতে। (প্রদত্ত সঠিক উত্তরে ৩ ছিল যা ভুল হতে পারে, ১ বা ২ ব্যাকরণগতভাবে সঠিক ভাব প্রকাশ করে)।",
+        "source":  [
+                       "জগন্নাথ বিশ্ববিদ্যালয় (সি- ইউনিট) : ১০-১১"
+                   ]
+    },
+    {
+        "id":  95,
+        "topicsId":  490,
+        "q":  "Which is the correct meaning of the word ‘allusion’ ?",
+        "options":  [
+                        "false impression",
+                        "intrigue",
+                        "prophecy",
+                        "indirect reference"
+                    ],
+        "ans":  3,
+        "explain":  "Allusion মানে হলো কোনো সুপরিচিত সাহিত্য, ব্যক্তি বা ঘটনার দিকে পরোক্ষ ইঙ্গিত বা ইশারা (Indirect reference)।",
+        "source":  [
+                       "সহকারী থানা/উপজেলা শিক্ষা অফিসার : ১০"
+                   ]
+    },
+    {
+        "id":  96,
+        "topicsId":  490,
+        "q":  "-------------is a reference to another literary work that the reader should understand in order to make connections.",
+        "options":  [
+                        "Satire",
+                        "Allusion",
+                        "Genre",
+                        "Climax"
+                    ],
+        "ans":  1,
+        "explain":  "অন্য কোনো সাহিত্যকর্মের কথা উল্লেখ করাকে Allusion বলা হয়।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি২- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  97,
+        "topicsId":  490,
+        "q":  "\u0027The Bench found him guilty.\u0027 Here \u0027bench\u0027 is-",
+        "options":  [
+                        "Synecdoche",
+                        "Metonymy",
+                        "Simile",
+                        "Metaphor"
+                    ],
+        "ans":  1,
+        "explain":  "এখানে \u0027Bench\u0027 বলতে বিচারকদের দলকে বোঝানো হচ্ছে। কোনো জিনিসের পরিবর্তে তার সাথে নিবিড় সম্পর্কযুক্ত অন্য শব্দ ব্যবহার করলে তাকে Metonymy বলে।",
+        "source":  [
+                       "বঙ্গবন্ধু শেখ মুজিবুর রহমান বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (ডি- ইউনিট) : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  98,
+        "topicsId":  490,
+        "q":  "Climax is related to-",
+        "options":  [
+                        "Prose",
+                        "Drama",
+                        "Poetry",
+                        "Novel"
+                    ],
+        "ans":  1,
+        "explain":  "Climax মূলত নাটকের (Drama) সাথে সম্পর্কিত, যেখানে উত্তেজনার পারদ সর্বোচ্চ পর্যায়ে পৌঁছায়।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় : ০৭-০৮"
+                   ]
+    },
+    {
+        "id":  99,
+        "topicsId":  490,
+        "q":  "Choose the appropriate one of the four figures of speech used in and mentioned the respective sentences: Man proposes, God disposes.",
+        "options":  [
+                        "Oxymoron",
+                        "Pun",
+                        "Antithesis",
+                        "Irony"
+                    ],
+        "ans":  2,
+        "explain":  "Antithesis হলো যখন একটি বাক্যে দুটি সম্পূর্ণ বিপরীত ধারণা বা শব্দ ব্যবহার করা হয় (এখানে Proposes ও Disposes বিপরীত)।",
+        "source":  [
+                       "সহকারী থানা/উপজেলা শিক্ষা অফিসার : ৯৯"
+                   ]
+    },
+    {
+        "id":  100,
+        "topicsId":  490,
+        "q":  "নাটকের পরিভাষায় ‘Climax\u0027 অর্থ কী ?",
+        "options":  [
+                        "দ্বন্দ্ব",
+                        "মহামুহূর্ত",
+                        "নাটকীয়তা",
+                        "গ্রন্থীমোচন"
+                    ],
+        "ans":  1,
+        "explain":  "Climax অর্থ হলো নাটকের \u0027মহামুহূর্ত\u0027 বা উত্তেজনার চূড়ান্ত শিখর।",
+        "source":  [
+                       "রাজশাহী বিশ্ববিদ্যালয় (নাট্যকলা ও সঙ্গীত) : ০৯-১০"
+                   ]
+    },
+    {
+        "id":  101,
+        "topicsId":  490,
+        "q":  "A climax is-",
+        "options":  [
+                        "a climbing apparatus",
+                        "point of greatest intensity",
+                        "a crisis in a drama",
+                        "the latest scene in a drama"
+                    ],
+        "ans":  1,
+        "explain":  "কোনো কাহিনীর সবচেয়ে তীব্র বা গুরুত্বপূর্ণ মুহূর্তকে Climax বা \u0027Point of greatest intensity\u0027 বলে।",
+        "source":  [
+                       "কুমিল্লা বিশ্ববিদ্যালয় (ডি- ইউনিট) : ১২-১৩"
+                   ]
+    },
+    {
+        "id":  102,
+        "topicsId":  490,
+        "q":  "The \u0027climax\u0027 of a plot is what happens-",
+        "options":  [
+                        "in the beginning",
+                        "at the end",
+                        "at the height",
+                        "in the confrontation"
+                    ],
+        "ans":  2,
+        "explain":  "প্লটের একদম শীর্ষে বা উত্তেজনার চরম মুহূর্তে যা ঘটে তাই Climax।",
+        "source":  [
+                       "৩৬তম বিসিএস/ ৩৫ বিসিএস/ ইসলামী বিশ্ববিদ্যালয় (ডি- ইউনিট) বি.এসসি. : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  103,
+        "topicsId":  490,
+        "q":  "Epigram is a short poem that does not exceed more than",
+        "options":  [
+                        "six lines",
+                        "eight lines",
+                        "twelve lines",
+                        "fourteen lines"
+                    ],
+        "ans":  0,
+        "explain":  "Epigram হলো একটি খুব সংক্ষিপ্ত এবং বুদ্ধিদীপ্ত কবিতা যা সাধারণত ৬ লাইনের (Six lines) বেশি হয় না।",
+        "source":  [
+                       "Janata Bank Ltd. Officer (Cash): 20"
+                   ]
+    },
+    {
+        "id":  104,
+        "topicsId":  490,
+        "q":  "‘Paradox means-",
+        "options":  [
+                        "A statement containing two opposing but true ideas",
+                        "A funny situation involving a dilemma",
+                        "A false statement to deceive people",
+                        "A disease"
+                    ],
+        "ans":  0,
+        "explain":  "Paradox হলো এমন একটি বক্তব্য যা আপাতদৃষ্টিতে স্ববিরোধী মনে হলেও এর ভেতরে একটি গভীর সত্য লুকিয়ে থাকে।",
+        "source":  [
+                       "রাজশাহী বিশ্ববিদ্যালয় (এ- ইউনিট) জোড় : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  105,
+        "topicsId":  490,
+        "q":  "Paradox is a statement that is-",
+        "options":  [
+                        "True if and only if it is false but false if and only if it is true",
+                        "Difficult to understand",
+                        "Self-contradictory",
+                        "False"
+                    ],
+        "ans":  2,
+        "explain":  "Paradox মানে হলো স্ববিরোধী (Self-contradictory) কোনো উক্তি।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (এফ- ইউনিট) : ১৬-১৭"
+                   ]
+    },
+    {
+        "id":  106,
+        "topicsId":  490,
+        "q":  "The word ‘Paradoxical\u0027 refers to-",
+        "options":  [
+                        "Similar",
+                        "Consistent",
+                        "Contradictory",
+                        "Opposite"
+                    ],
+        "ans":  2,
+        "explain":  "Paradoxical শব্দের অর্থ হলো আপাতবিরোধী বা স্ববিরোধী। যেহেতু Contradictory শব্দের অর্থও পরস্পরবিরোধী বা খণ্ডনকারী, তাই এটিই সঠিক উত্তর।",
+        "source":  [
+                       "জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয় (ডি- ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  107,
+        "topicsId":  490,
+        "q":  "‘Paradox’ is-",
+        "options":  [
+                        "A statement which is false",
+                        "A statement which is apparently self-contradictory",
+                        "A statement which is apparently false",
+                        "A statement which is apparently true"
+                    ],
+        "ans":  1,
+        "explain":  "Paradox হলো এমন একটি বক্তব্য যা আপাতদৃষ্টিতে স্ববিরোধী মনে হলেও গভীরভাবে বিশ্লেষণ করলে তাতে সত্যতা খুঁজে পাওয়া যায়। (দ্রষ্টব্য: প্রদত্ত অপশনে \u0027correct: 0\u0027 ভুল ছিল, এটি ১ হবে)।",
+        "source":  [
+                       "ইসলামী বিশ্ববিদ্যালয় (সি- ইউনিট) : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  108,
+        "topicsId":  490,
+        "q":  "A ‘Paradox’ is-",
+        "options":  [
+                        "an impossibility",
+                        "something miraculous",
+                        "a perfect model or copy",
+                        "an improbable combination of opposing qualities"
+                    ],
+        "ans":  3,
+        "explain":  "Paradox বলতে বিপরীতমুখী গুণের একটি অবিশ্বাস্য সমন্বয়কে বোঝায় যা আপাতদৃষ্টিতে অসম্ভব মনে হলেও সত্য হতে পারে।",
+        "source":  [
+                       "চট্টগ্রাম বিশ্ববিদ্যালয় (ই- ইউনিট) : ০৩-০৪"
+                   ]
+    },
+    {
+        "id":  109,
+        "topicsId":  490,
+        "q":  "Apparently contradictory words appearing in conjunction is called-",
+        "options":  [
+                        "hyperbole",
+                        "paradox",
+                        "oxymoron",
+                        "antithesis"
+                    ],
+        "ans":  2,
+        "explain":  "যখন দুটি সম্পূর্ণ বিপরীত অর্থবোধক শব্দ পাশাপাশি বসে একটি নতুন অর্থ প্রকাশ করে, তখন তাকে Oxymoron বলে। (দ্রষ্টব্য: প্রদত্ত তথ্যে \u0027correct: 1\u0027 ভুল ছিল, উত্তর Oxymoron বা ২ হবে)।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ১৬-১৭"
+                   ]
+    },
+    {
+        "id":  110,
+        "topicsId":  490,
+        "q":  "“There is no one so poor as a wealthy miser.\u0027 This is an example of-",
+        "options":  [
+                        "paradox",
+                        "synecdoche",
+                        "consonance",
+                        "caesura"
+                    ],
+        "ans":  0,
+        "explain":  "এই বাক্যে \u0027wealthy\u0027 এবং \u0027poor\u0027 শব্দ দুটি আপাতবিরোধী। একজন ধনী ব্যক্তি কীভাবে গরিব হতে পারে তা একটি আপাতবিরোধী সত্য বা Paradox-এর উদাহরণ।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (মানবিক স্কুল) : ১১-১২"
+                   ]
+    },
+    {
+        "id":  111,
+        "topicsId":  490,
+        "q":  "The sentence \u0027Death, thou shalt die\u0027 is an example of-",
+        "options":  [
+                        "simile",
+                        "metaphor",
+                        "irony",
+                        "paradox"
+                    ],
+        "ans":  3,
+        "explain":  "জন ডানের এই বিখ্যাত পঙক্তিটি একটি Paradox-এর উদাহরণ, কারণ মৃত্যু নিজেই মারা যাবে—এটি একটি আপাতবিরোধী কিন্তু আধ্যাত্মিক সত্য প্রকাশ করে।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় : ০৭-০৮"
+                   ]
+    },
+    {
+        "id":  112,
+        "topicsId":  490,
+        "q":  "Milton\u0027s phrase “darkness visible” to describe hell is an example of-",
+        "options":  [
+                        "oxymoron",
+                        "onomatopoeia",
+                        "paronomasia",
+                        "paradox"
+                    ],
+        "ans":  0,
+        "explain":  "Milton-এর \u0027darkness visible\u0027 শব্দবন্ধে অন্ধকার এবং দৃশ্যমানতা—এই দুটি বিপরীত শব্দ পাশাপাশি বসেছে, যা Oxymoron-এর একটি ধ্রুপদী উদাহরণ।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (বি- ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  113,
+        "topicsId":  490,
+        "q":  "Apostrophe is an exclamatory addressing of an imaginary person or abstract idea. Which of the following is not an example of apostrophe ?",
+        "options":  [
+                        "Death! be not proud,",
+                        "ROLL on, thou deep and dark blue Ocean, roll!",
+                        "Where, O Death! the sting?",
+                        "Is Science a Daughter of Art?"
+                    ],
+        "ans":  3,
+        "explain":  "Apostrophe হলো কোনো মৃত ব্যক্তি, অনুপস্থিত কেউ বা কোনো বিমূর্ত ধারণাকে সরাসরি সম্বোধন করা। চতুর্থ অপশনটি একটি সাধারণ প্রশ্ন, এখানে কাউকে সম্বোধন করা হয়নি।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি- ইউনিট) : ০৯-১০"
+                   ]
+    },
+    {
+        "id":  114,
+        "topicsId":  490,
+        "q":  "\u0027Milton! Thou should be living at this hour\u0027 is an example of-",
+        "options":  [
+                        "Apostrophe",
+                        "Euphemism",
+                        "Hyperbole",
+                        "Personification"
+                    ],
+        "ans":  0,
+        "explain":  "এখানে কবি মিল্টন (যিনি মৃত) তাকে সরাসরি সম্বোধন করা হয়েছে, তাই এটি Apostrophe-এর উদাহরণ।",
+        "source":  [
+                       "বঙ্গবন্ধু শেখ মুজিবুর রহমান বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (ই- ইউনিট) : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  115,
+        "topicsId":  490,
+        "q":  "\u0027A way of speaking or writing that makes something sound better, more exciting, dangerous etc. than it is really is-\u0027 This can be the best definition of the term -",
+        "options":  [
+                        "Personification",
+                        "Simile",
+                        "Synecdoche",
+                        "Hyperbole"
+                    ],
+        "ans":  3,
+        "explain":  "Hyperbole হলো কোনো বিষয়কে অনেক বাড়িয়ে বা অতিশয়োক্তি করে বলা, যা সংজ্ঞার সাথে হুবহু মিলে যায়।",
+        "source":  [
+                       "বেগম রোকেয়া বিশ্ববিদ্যালয় (এ- ইউনিট) : ১৩-১৪"
+                   ]
+    },
+    {
+        "id":  116,
+        "topicsId":  490,
+        "q":  "The figure of speech in which the author makes an obvious exaggeration for emphasis or create some specific effect is-",
+        "options":  [
+                        "metaphor",
+                        "personification",
+                        "metonymy",
+                        "hyperbole"
+                    ],
+        "ans":  3,
+        "explain":  "সহজ কথায়, কোনো কিছুকে গুরুত্ব দেওয়ার জন্য যে অতিরিক্ত বাড়িয়ে বলা বা অতিশয়োক্তি করা হয়, তাকে সাহিত্যে Hyperbole বলা হয়।",
+        "source":  [
+                       "ইসলামী বিশ্ববিদ্যালয় (বি- ইউনিট) : ১৬-১৭"
+                   ]
+    },
+    {
+        "id":  117,
+        "topicsId":  490,
+        "q":  "‘Ten thousand saw I at a glance\u0027 is a figure of speech known as-",
+        "options":  [
+                        "hyperbole",
+                        "litotes",
+                        "irony",
+                        "satire"
+                    ],
+        "ans":  0,
+        "explain":  "ওয়ার্ডসওয়ার্থের এই পঙক্তিতে এক পলকে দশ হাজার ফুল দেখার কথা বলা হয়েছে, যা একটি অসম্ভব অতিশয়োক্তি বা Hyperbole।",
+        "source":  [
+                       "চট্টগ্রাম বিশ্ববিদ্যালয় (বি১- ইউনিট) : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  118,
+        "topicsId":  490,
+        "q":  "Choose the appropriate one of the four figures of speech: Here\u0027s the smell of blood still: all the perfumes of Arabia will not sweeten this little hand.",
+        "options":  [
+                        "Euphemism",
+                        "Epigram",
+                        "Metonymy",
+                        "Hyperbole"
+                    ],
+        "ans":  3,
+        "explain":  "ম্যাকবেথ নাটকের এই উক্তিতে লেডি ম্যাকবেথ তার হাতের রক্তের গন্ধ দূর করার অসম্ভব অতিশয়োক্তি করেছেন, তাই এটি Hyperbole।",
+        "source":  [
+                       "সহকারী থানা/উপজেলা শিক্ষা অফিসার : ৯৯"
+                   ]
+    },
+    {
+        "id":  119,
+        "topicsId":  490,
+        "q":  "A hyperbole is a/an:",
+        "options":  [
+                        "authentic statement of something",
+                        "overstatement of something",
+                        "understatement of something",
+                        "hesitant statement of something"
+                    ],
+        "ans":  1,
+        "explain":  "Hyperbole মানেই হলো overstatement বা কোনো ঘটনা বা বিষয়কে অতিরিক্ত বাড়িয়ে বর্ণনা করা।",
+        "source":  [
+                       "রাজশাহী বিশ্ববিদ্যালয় (এ১- ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  120,
+        "topicsId":  490,
+        "q":  "The underlined part in \u0027She felt it was taking a hundred years to complete the exam.\u0027 is an example of-",
+        "options":  [
+                        "a simile",
+                        "a symbol",
+                        "a hyperbole",
+                        "an understatement"
+                    ],
+        "ans":  2,
+        "explain":  "পরীক্ষা দিতে একশ বছর লাগা বাস্তবসম্মত নয়, এটি দীর্ঘ সময়কে অতিশয়োক্তির মাধ্যমে প্রকাশ করছে বিধায় এটি Hyperbole।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ-ইউনিট) : ১২-১৩"
+                   ]
+    },
+    {
+        "id":  121,
+        "topicsId":  490,
+        "q":  "The technique of treating non-living things as humans is called-",
+        "options":  [
+                        "Living",
+                        "Description",
+                        "Feeding",
+                        "Personification"
+                    ],
+        "ans":  3,
+        "explain":  "জড় পদার্থ বা নির্জীব বস্তুকে মানুষের মতো প্রাণবন্ত বা মানুষের গুণসম্পন্ন হিসেবে তুলে ধরাকে Personification বলে।",
+        "source":  [
+                       "নোয়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (এ- ইউনিট) : ১৪-১৫/ বেগম রোকেয়া বিশ্ববিদ্যালয় (বিজ্ঞান) : ০৯-১০"
+                   ]
+    },
+    {
+        "id":  122,
+        "topicsId":  490,
+        "q":  "Applying human qualities to non-human things is known as-",
+        "options":  [
+                        "Simile",
+                        "imagery",
+                        "personification",
+                        "metaphor"
+                    ],
+        "ans":  2,
+        "explain":  "মানুষ নয় এমন প্রাণি বা বস্তুতে মানুষের বৈশিষ্ট্য আরোপ করার সাহিত্যিক অলংকারকে Personification বলা হয়।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (বি- ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  123,
+        "topicsId":  490,
+        "q":  "Personification is a figure of speech in which human features are attributed to inanimate objects or abstract ideas. Which of these is an example of personification ?",
+        "options":  [
+                        "My song has put off her adornments",
+                        "My poet\u0027s vanity dies",
+                        "a flute of reed",
+                        "Both A \u0026 B"
+                    ],
+        "ans":  3,
+        "explain":  "এখানে \u0027Song\u0027 (গান) এবং \u0027Vanity\u0027 (অহংকার) উভয়ের ওপরই মানুষের বৈশিষ্ট্য আরোপ করা হয়েছে, তাই A ও B দুটিই সঠিক।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি২- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  124,
+        "topicsId":  490,
+        "q":  "In the sentence, “Death lays his icy hands on kings”, \u0027Death\u0027 is an example of .",
+        "options":  [
+                        "symbolism",
+                        "metaphor",
+                        "hyperbole",
+                        "personification"
+                    ],
+        "ans":  3,
+        "explain":  "এখানে \u0027মৃত্যু\u0027 (Death) কে একজন ব্যক্তির মতো কল্পনা করা হয়েছে যার হাত আছে, তাই এটি Personification।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ০৬-০৭"
+                   ]
+    },
+    {
+        "id":  125,
+        "topicsId":  490,
+        "q":  "“Frailty, thy name is woman” Here \u0027Frailty\u0027 is-",
+        "options":  [
+                        "a symbol",
+                        "a metaphor",
+                        "a conceit",
+                        "a personification"
+                    ],
+        "ans":  3,
+        "explain":  "এখানে \u0027Frailty\u0027 বা ভঙ্গুরতা নামক বিমূর্ত গুণকে একজন নারীর মতো সরাসরি সম্বোধন ও বৈশিষ্ট্য প্রদান করা হয়েছে, যা Personification।",
+        "source":  [
+                       "বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা: ২২"
+                   ]
+    },
+    {
+        "id":  126,
+        "topicsId":  490,
+        "q":  "“The waves beside them danced” (from \u0027I Wandered Lonely as a Cloud\u0027) is an example of-",
+        "options":  [
+                        "simile",
+                        "metaphor",
+                        "metonymy",
+                        "personification"
+                    ],
+        "ans":  3,
+        "explain":  "তরঙ্গ বা ঢেউ মানুষের মতো নাচতে পারে না; এখানে ঢেউয়ের ওপর মানুষের গুণ (নাচা) আরোপ করা হয়েছে, তাই এটি Personification।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় : ১১-১২"
+                   ]
+    },
+    {
+        "id":  127,
+        "topicsId":  490,
+        "q":  "\u0027Time waits for none\u0027 is an example of-",
+        "options":  [
+                        "Simile",
+                        "Metaphor",
+                        "Personification",
+                        "Allusion"
+                    ],
+        "ans":  2,
+        "explain":  "সময় কারও জন্য অপেক্ষা করে না—এখানে সময়কে একজন সচেতন ব্যক্তির মতো কাজ করার গুণ দেওয়া হয়েছে, তাই এটি Personification।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি২-ইউনিট) : ১১-১২"
+                   ]
+    },
+    {
+        "id":  128,
+        "topicsId":  490,
+        "q":  "“The foggy day mocks at my plan to wash clothes.\u0027 The literary technique used in the sentence is a/an",
+        "options":  [
+                        "Personification",
+                        "Analogy",
+                        "Metaphor",
+                        "None of the above"
+                    ],
+        "ans":  0,
+        "explain":  "একটি কুয়াশাচ্ছন্ন দিন মানুষের মতো উপহাস (mock) করতে পারে না; এখানে জড় প্রকৃতির ওপর মানুষের বৈশিষ্ট্য আরোপ করা হয়েছে।",
+        "source":  [
+                       "বঙ্গবন্ধু শেখ মুজিবুর রহমান বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (ডি- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  129,
+        "topicsId":  490,
+        "q":  "Substitution of an unpleasant or vulgar expression is called-",
+        "options":  [
+                        "Allusion",
+                        "Alliteration",
+                        "Euphemism",
+                        "Eponym"
+                    ],
+        "ans":  2,
+        "explain":  "অপ্রিয় বা কঠোর কোনো কথাকে শ্রুতিমধুর বা নম্রভাবে প্রকাশ করার পদ্ধতিকে Euphemism বলা হয়।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  130,
+        "topicsId":  490,
+        "q":  "The literary term \u0027euphemism\u0027 means-",
+        "options":  [
+                        "vague idea",
+                        "inoffensive expression",
+                        "a sonnet",
+                        "wise saying"
+                    ],
+        "ans":  1,
+        "explain":  "Euphemism-এর মূল উদ্দেশ্য হলো আপত্তিকর (offensive) কথাকে নিরপরাধ বা নম্র (inoffensive) ভাষায় উপস্থাপন করা।",
+        "source":  [
+                       "৩৮তম বিসিএস/ ১৩তম বিসিএস"
+                   ]
+    },
+    {
+        "id":  131,
+        "topicsId":  490,
+        "q":  "The word \u0027Euphemism\u0027 means-",
+        "options":  [
+                        "stating one thing like another.",
+                        "description of disagreeable thing by an agreeable name.",
+                        "contrast of words is made in the same sentence.",
+                        "a statement is made emphatic by overstatement."
+                    ],
+        "ans":  1,
+        "explain":  "অপ্রীতিকর কোনো বিষয়কে সুন্দর বা গ্রহণযোগ্য নামে বর্ণনা করাই হলো Euphemism।",
+        "source":  [
+                       "২০তম বিসিএস"
+                   ]
+    },
+    {
+        "id":  132,
+        "topicsId":  490,
+        "q":  "Choose the word which best expresses the meaning of IRONIC.",
+        "options":  [
+                        "Inflexible",
+                        "Serious",
+                        "Polluted with iron",
+                        "Disguisedly sarcastic"
+                    ],
+        "ans":  3,
+        "explain":  "Ironic বলতে এমন কিছু বোঝায় যেখানে কোনো কিছুর আড়ালে বিদ্রূপ বা শ্লেষ প্রকাশ পায় (Disguisedly sarcastic)।",
+        "source":  [
+                       "রাজশাহী বিশ্ববিদ্যালয় (এইচ- ইউনিট) বিজোড় : ১৩-১৪"
+                   ]
+    },
+    {
+        "id":  133,
+        "topicsId":  490,
+        "q":  "King Lear banished his youngest daughter Cordelia from his Kingdom; but at the end, she became his only shelter. This is an example of-",
+        "options":  [
+                        "irony",
+                        "sarcasm",
+                        "hyperbole",
+                        "metaphor"
+                    ],
+        "ans":  0,
+        "explain":  "রাজা লিয়ার তার যে মেয়েকে তাড়িয়ে দিয়েছিলেন, শেষ পর্যন্ত সেই মেয়েই তার আশ্রয় হলো—এটি পরিস্থিতির একটি চরম পরিহাস বা Irony।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (কলা ও মানবিক স্কুল) : ১০-১১"
+                   ]
+    },
+    {
+        "id":  134,
+        "topicsId":  490,
+        "q":  "The word \u0027merit\u0027 in the sentence “The boy showed his merit by making twenty mistakes in ten minutes” is an example of –",
+        "options":  [
+                        "irony",
+                        "metaphor",
+                        "personification",
+                        "pun"
+                    ],
+        "ans":  0,
+        "explain":  "এখানে ২০টি ভুল করাকে \u0027merit\u0027 বা মেধা বলা হয়েছে, যা আসলে ব্যঙ্গাত্মক বা উল্টো অর্থ প্রকাশ করছে। এটি Irony-এর উদাহরণ।",
+        "source":  [
+                       "চট্টগ্রাম বিশ্ববিদ্যালয় (বি১- ইউনিট) : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  135,
+        "topicsId":  490,
+        "q":  "In the poem \u0027Ozymandias\u0027, the phrase \u0027king of kings\u0027 is an example of -",
+        "options":  [
+                        "Exaggeration",
+                        "Irony",
+                        "Sarcasm",
+                        "Humour"
+                    ],
+        "ans":  1,
+        "explain":  "ওজাইমান্ডিয়াস নিজেকে \u0027রাজাদের রাজা\u0027 বললেও বর্তমানে তার সব স্মৃতি ধুলায় মিশে গেছে; ক্ষমতার এই নশ্বরতাই এখানে Irony হিসেবে ফুটে উঠেছে।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  136,
+        "topicsId":  490,
+        "q":  "If a part of a speech or writing breaks the theme, it is called-",
+        "options":  [
+                        "pomposity",
+                        "digression",
+                        "exaggeration",
+                        "anti-climax"
+                    ],
+        "ans":  1,
+        "explain":  "মূল বিষয়বস্তু থেকে বিচ্যুত হয়ে অন্য কোনো বিষয়ে চলে যাওয়াকে সাহিত্যে Digression বা অবান্তর প্রসঙ্গ বলা হয়।",
+        "source":  [
+                       "৩৩তম বিসিএস/ যশোর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (এফ- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  137,
+        "topicsId":  490,
+        "q":  "is a type of literary device where an author ridicules specific people, groups, or some aspects of society.",
+        "options":  [
+                        "Parody",
+                        "Setting",
+                        "Satire",
+                        "Elegy"
+                    ],
+        "ans":  2,
+        "explain":  "সমাজের ত্রুটি বা কোনো বিশেষ গোষ্ঠীর দোষ ব্যঙ্গ-বিদ্রূপের মাধ্যমে তুলে ধরাকে Satire বলা হয়।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি২- ইউনিট) : ১৫ -১৬"
+                   ]
+    },
+    {
+        "id":  138,
+        "topicsId":  490,
+        "q":  "A satire is-",
+        "options":  [
+                        "a composition in verse or prose aiming at eliminating evil customs from the society",
+                        "an implicit comparison between two different things",
+                        "a statement of a situation or an action which usually means the opposite of its surface meaning",
+                        "a witty composition which is apparently self-contradictory"
+                    ],
+        "ans":  0,
+        "explain":  "Satire-এর লক্ষ্য হলো সমাজের কুনীতি বা অশুভ প্রথাগুলোকে বিদ্রূপের মাধ্যমে সংশোধন বা নির্মূল করা।",
+        "source":  [
+                       "চট্টগ্রাম বিশ্ববিদ্যালয় (বি১- ইউনিট) : ১৬ -১৭"
+                   ]
+    },
+    {
+        "id":  139,
+        "topicsId":  490,
+        "q":  "A funny imitation of a poem-",
+        "options":  [
+                        "Counterfeit",
+                        "Sonnet",
+                        "Caricature",
+                        "Parody"
+                    ],
+        "ans":  3,
+        "explain":  "কোনো মূল রচনার হাস্যকর বা ব্যঙ্গাত্মক অনুকরণকে Parody বলা হয়।",
+        "source":  [
+                       "Social Islami Bank Ltd.: 10"
+                   ]
+    },
+    {
+        "id":  140,
+        "topicsId":  490,
+        "q":  "Use of more words than are needed to express the meaning.",
+        "options":  [
+                        "Circumlocution",
+                        "Verbatim",
+                        "Pleonasm",
+                        "Ventriloquism"
+                    ],
+        "ans":  2,
+        "explain":  "অপ্রয়োজনীয় অতিরিক্ত শব্দের ব্যবহারের মাধ্যমে কোনো অর্থ প্রকাশ করাকে Pleonasm বলা হয়।",
+        "source":  [
+                       "IFIC Bank: 10"
+                   ]
+    },
+    {
+        "id":  141,
+        "topicsId":  490,
+        "q":  "‘Poetic Licence\u0027 means-",
+        "options":  [
+                        "freedom to write poetry.",
+                        "freedom to read poetry",
+                        "freedom to change the normal rules of language in a special piece of writing",
+                        "doing what one likes"
+                    ],
+        "ans":  2,
+        "explain":  "কবিতা বা রচনার বিশেষ প্রয়োজনে ভাষার সাধারণ ব্যাকরণ বা নিয়ম পরিবর্তন করার স্বাধীনতাকে Poetic Licence বলে।",
+        "source":  [
+                       "রাজশাহী বিশ্ববিদ্যালয় (এ- ইউনিট) বিজোড় : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  142,
+        "topicsId":  490,
+        "q":  "Lines of a song or poem repeated at end of every verse is called a-",
+        "options":  [
+                        "simile",
+                        "metaphor",
+                        "quatrain",
+                        "refrain"
+                    ],
+        "ans":  3,
+        "explain":  "প্রতিটি স্তবকের শেষে বারবার ফিরে আসা নির্দিষ্ট পঙক্তি বা পঙক্তিগুচ্ছকে Refrain বা ধ্রুবপদ বলা হয়।",
+        "source":  [
+                       "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় : ০৩-০৪"
+                   ]
+    },
+    {
+        "id":  143,
+        "topicsId":  490,
+        "q":  "“The hungry judge soon the sentence sign, And wretches hang that jurymen may dine” this is an example of-",
+        "options":  [
+                        "a satire",
+                        "an irony",
+                        "a metaphor",
+                        "a metonymy"
+                    ],
+        "ans":  0,
+        "explain":  "বিচারব্যবস্থার ত্রুটি ও মানুষের অমানবিকতাকে ব্যঙ্গ করার মাধ্যমে এখানে একটি Satire বা সামাজিক বিদ্রূপ ফুটে উঠেছে।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় : ১১-১২"
+                   ]
+    },
+    {
+        "id":  144,
+        "topicsId":  490,
+        "q":  "Which one is not a literary ornament ?",
+        "options":  [
+                        "Simile",
+                        "Similar",
+                        "Similitude",
+                        "Sarcasm"
+                    ],
+        "ans":  1,
+        "explain":  "Simile, Similitude এবং Sarcasm সাহিত্যের অলংকার হলেও \u0027Similar\u0027 একটি সাধারণ বিশেষণ, যা অলংকার নয়।",
+        "source":  [
+                       "জাতীয় রাজস্ব বোর্ডের ইন্সপেক্টর : ১০"
+                   ]
+    },
+    {
+        "id":  145,
+        "topicsId":  490,
+        "q":  "Prosody signifies the systematic study of-",
+        "options":  [
+                        "Drama",
+                        "short story",
+                        "Novel",
+                        "Versification"
+                    ],
+        "ans":  3,
+        "explain":  "Prosody হলো ছন্দপ্রকরণ বা পদ্য রচনার নিয়মাবলী (Versification) সংক্রান্ত সুশৃঙ্খল পাঠ।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (কলা ও মানবিক স্কুল) : ০৪-০৫"
+                   ]
+    },
+    {
+        "id":  146,
+        "topicsId":  490,
+        "q":  "The study of meter, rhythm, and intonation of a poem is called as :",
+        "options":  [
+                        "Prosody",
+                        "Allegory",
+                        "Scansion",
+                        "Assonance"
+                    ],
+        "ans":  0,
+        "explain":  "কবিতার মাত্রা, ছন্দ এবং স্বরভঙ্গি নিয়ে আলোচনা বা গবেষণাকে Prosody বলা হয়।",
+        "source":  [
+                       "মাইক্রোক্রেডিট রেগুলেটরি অথারিটি সহকারী পরিচালক : ২১"
+                   ]
+    },
+    {
+        "id":  147,
+        "topicsId":  490,
+        "q":  "‘Blank verse\u0027 অর্থ কী ?",
+        "options":  [
+                        "অক্ষরবৃত্ত",
+                        "অমিত্রাক্ষর",
+                        "পয়ার",
+                        "মাত্রাবৃত্ত"
+                    ],
+        "ans":  1,
+        "explain":  "Blank verse বলতে অমিত্রাক্ষর ছন্দকে বোঝায়, যেখানে পঙক্তির শেষে কোনো মিল থাকে না।",
+        "source":  [
+                       "সমাজসেবা অফিসার : ১০"
+                   ]
+    },
+    {
+        "id":  148,
+        "topicsId":  490,
+        "q":  "‘Blank verse\u0027 is a kind of verse-",
+        "options":  [
+                        "having no rhyming end",
+                        "having blanks in the verse",
+                        "having no verse from",
+                        "having no rhythmic flow"
+                    ],
+        "ans":  0,
+        "explain":  "Blank verse বা অমিত্রাক্ষর ছন্দের প্রধান বৈশিষ্ট্য হলো এর পঙক্তিগুলোর শেষে কোনো অন্ত্যমিল (rhyme) থাকে না।",
+        "source":  [
+                       "কারা অধিদপ্তরের কারা তত্ত্বাবধায়ক : ১০/ তথ্য মন্ত্রণালয়ের অধীনে তথ্য অফিসার : ০৫/ ইসলামী বিশ্ববিদ্যালয় (বি- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  149,
+        "topicsId":  490,
+        "q":  "A group of lines placed together to create poem is called a-",
+        "options":  [
+                        "Form",
+                        "Poem",
+                        "Stanza",
+                        "Paragraph"
+                    ],
+        "ans":  2,
+        "explain":  "কবিতার কয়েকটি পঙক্তির সমন্বয়ে গঠিত একটি ইউনিটকে Stanza বা স্তবক বলা হয়।",
+        "source":  [
+                       "খাদ্য অধিদপ্তর সহকারী উপ-খাদ্য পরিদর্শক : ২১"
+                   ]
+    },
+    {
+        "id":  150,
+        "topicsId":  490,
+        "q":  "Choose the one which does not fit in-",
+        "options":  [
+                        "sonnet",
+                        "ode",
+                        "stanza",
+                        "elegy"
+                    ],
+        "ans":  2,
+        "explain":  "Sonnet, Ode এবং Elegy হলো কবিতার ধরন, কিন্তু Stanza হলো কবিতার একটি অংশ বা স্তবক। তাই এটি আলাদা।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ১০-১১"
+                   ]
+    },
+    {
+        "id":  151,
+        "topicsId":  490,
+        "q":  "What is trimeter ?",
+        "options":  [
+                        "a line of a poem consisting of three feet.",
+                        "a line of a poem consisting of three syllable",
+                        "a line of a poem consisting of three rhyme",
+                        "all are correct."
+                    ],
+        "ans":  0,
+        "explain":  "Trimeter বলতে কবিতার এমন একটি পঙক্তিকে বোঝায় যা তিনটি \u0027Feet\u0027 বা মাত্রা-একক নিয়ে গঠিত। (দ্রষ্টব্য: তথ্যে correct: 2 ছিল, যা ভুল। সঠিক উত্তর ০ হবে)।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (কলা ও মানবিক স্কুল) : ০৯- ১০"
+                   ]
+    },
+    {
+        "id":  152,
+        "topicsId":  490,
+        "q":  "Couplet can occur in-",
+        "options":  [
+                        "short story",
+                        "essay",
+                        "poetry",
+                        "novel"
+                    ],
+        "ans":  2,
+        "explain":  "পরপর দুটি অন্ত্যমিলযুক্ত পঙক্তিকে Couplet বা দ্বিপদী বলে, যা সাধারণত কবিতায় (poetry) ব্যবহৃত হয়।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (কলা ও মানবিক স্কুল) : ০৬-০৭"
+                   ]
+    },
+    {
+        "id":  153,
+        "topicsId":  490,
+        "q":  "Assonance refers to the repetition of same vowel in two or more words placed closely. Which of the following is not an example of assonance ?",
+        "options":  [
+                        "Curse, bless me now",
+                        "Men sell the wedding bells",
+                        "Go and now the lawn",
+                        "We light fire on the mountain"
+                    ],
+        "ans":  0,
+        "explain":  "Assonance হলো স্বরধ্বনির পুনরাবৃত্তি। প্রথম অপশনে স্বরধ্বনির তেমন মিল নেই, যা বাকি অপশনগুলোতে স্পষ্টভাবে বিদ্যমান।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি২- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  154,
+        "topicsId":  490,
+        "q":  "Assonance refers to the repetition of similar vowel sounds. Which of the following is an example of assonance ?",
+        "options":  [
+                        "the flash of a hand",
+                        "burning broom",
+                        "cawing crow",
+                        "buzzing bell"
+                    ],
+        "ans":  0,
+        "explain":  "এখানে \u0027flash\u0027 এবং \u0027hand\u0027 শব্দ দুটিতে \u0027a\u0027 স্বরধ্বনির মিল রয়েছে, যা Assonance-এর উদাহরণ।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি - ইউনিট) : ০৯-১০"
+                   ]
+    },
+    {
+        "id":  155,
+        "topicsId":  490,
+        "q":  "‘An Austrian army awfully arrayed\u0027 is an example of-",
+        "options":  [
+                        "alliteration",
+                        "assonance",
+                        "reiteration",
+                        "consonance"
+                    ],
+        "ans":  0,
+        "explain":  "এখানে পর পর কয়েকটি শব্দের শুরুতে \u0027A\u0027 ব্যঞ্জনধ্বনি (এখানে স্বরবর্ণ হলেও ধ্বনিগত মিল) বা বর্ণ রয়েছে, তাই এটি Alliteration। (দ্রষ্টব্য: তথ্যে correct: 1 ছিল, যা অলঙ্কার অনুযায়ী Alliteration হওয়া যুক্তিযুক্ত)।",
+        "source":  [
+                       "খুলনা বিশ্ববিদ্যালয় (বি- ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  156,
+        "topicsId":  490,
+        "q":  "Consonance refers to the repetition of similar consonant sounds. Which of the following is not an example of consonance ?",
+        "options":  [
+                        "Curse, bless me now",
+                        "Dark deep dread",
+                        "Bleak chill stream",
+                        "Fierce tears flow"
+                    ],
+        "ans":  2,
+        "explain":  "Consonance হলো শব্দের শেষে বা মাঝখানে ব্যঞ্জনধ্বনির মিল। তৃতীয় অপশনে এই মিলটি অনুপস্থিত। (দ্রষ্টব্য: প্রদত্ত correct index ২ সঠিক)।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি২- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  157,
+        "topicsId":  490,
+        "q":  "Identify the tone: \u0027Ugh! Do I have to sit through another boring lecture ?”",
+        "options":  [
+                        "Calm",
+                        "Annoyed",
+                        "Scary",
+                        "Excited"
+                    ],
+        "ans":  1,
+        "explain":  "বাক্যটিতে \u0027Ugh\u0027 এবং \u0027boring\u0027 শব্দগুলো বিরক্তি বা Annoyed মনোভাব প্রকাশ করছে।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সিং- ইউনিট) কলা ও মানবিকী অনুষদ : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  158,
+        "topicsId":  490,
+        "q":  "বাংলায় ‘ছড়া” শব্দের ইংরেজি কি ?",
+        "options":  [
+                        "Poem",
+                        "Poetry",
+                        "Lyric",
+                        "Rhyme"
+                    ],
+        "ans":  3,
+        "explain":  "বাংলা সাহিত্যে \u0027ছড়া\u0027 বলতে যা বোঝায়, ইংরেজিতে তাকে \u0027Rhyme\u0027 বলা হয়।",
+        "source":  [
+                       "জীবন বীমা কর্পোরেশনের অফিস সহায়ক : ২১/শ্রম অধিদপ্তরে জনশক্তি, কর্মসংস্থান ও প্রশিক্ষণ ব্যুরো উপ-সহকারী পরিচালক : ০"
+                   ]
+    },
+    {
+        "id":  159,
+        "topicsId":  490,
+        "q":  "Find the ‘odd one out’.",
+        "options":  [
+                        "above",
+                        "love",
+                        "dove",
+                        "prove"
+                    ],
+        "ans":  3,
+        "explain":  "above, love, এবং dove-এর উচ্চারণ প্রায় একই রকম, কিন্তু prove-এর উচ্চারণ ভিন্ন। তাই এটি \u0027odd word\u0027।",
+        "source":  [
+                       "ইসলামী বিশ্ববিদ্যালয় (বি- ইউনিট) : ১১-১২"
+                   ]
+    },
+    {
+        "id":  160,
+        "topicsId":  490,
+        "q":  "Which word rhymes with ‘brow’",
+        "options":  [
+                        "crow",
+                        "through",
+                        "crew",
+                        "now"
+                    ],
+        "ans":  3,
+        "explain":  "উচ্চারণগত দিক থেকে \u0027brow\u0027 (ব্রাউ) শব্দের সাথে \u0027now\u0027 (নাউ) শব্দের মিল বা অন্ত্যমিল রয়েছে।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (ডি- ইউনিট) : ০৮-০৯"
+                   ]
+    },
+    {
+        "id":  161,
+        "topicsId":  490,
+        "q":  "‘Comb’ rhymes with-",
+        "options":  [
+                        "dome",
+                        "bomb",
+                        "tomb",
+                        "boom"
+                    ],
+        "ans":  0,
+        "explain":  "Comb (কোম) শব্দের উচ্চারণের সাথে dome (ডোম) শব্দের ধ্বনিগত মিল রয়েছে।",
+        "source":  [
+                       "বরিশাল বিশ্ববিদ্যালয় (বি- ইউনিট) : ১৩-১৪"
+                   ]
+    },
+    {
+        "id":  162,
+        "topicsId":  490,
+        "q":  "Find the odd one.",
+        "options":  [
+                        "Host",
+                        "Ghost",
+                        "Coast",
+                        "Cost"
+                    ],
+        "ans":  3,
+        "explain":  "Host, Ghost এবং Coast-এর উচ্চারণে \u0027ও\u0027 কারের প্রাধান্য থাকলেও Cost (কস্ট)-এর উচ্চারণ ভিন্ন।",
+        "source":  [
+                       "Rajshahi Krishi Unnayan Bank (Supervisor): 15"
+                   ]
+    },
+    {
+        "id":  163,
+        "topicsId":  490,
+        "q":  "Which of the following has the similar sound of the word “won” ?",
+        "options":  [
+                        "Own",
+                        "One",
+                        "on",
+                        "up"
+                    ],
+        "ans":  1,
+        "explain":  "Won (জয়ী হওয়া) এবং One (এক)—এই শব্দ দুটির উচ্চারণ অভিন্ন (wʌn)।",
+        "source":  [
+                       "জাতীয় নিরাপত্তা গোয়েন্দা অধিদপ্তর (NSI)-এর সহকারী পরিচালক : ২১"
+                   ]
+    },
+    {
+        "id":  164,
+        "topicsId":  490,
+        "q":  "Which of the following words rhymes with the word iron\u0027 ?",
+        "options":  [
+                        "lion",
+                        "siren",
+                        "Byron",
+                        "nylon"
+                    ],
+        "ans":  0,
+        "explain":  "উচ্চারণগতভাবে Iron (আয়রন) শব্দের সাথে Lion (লায়ন) শব্দের অন্ত্যমিল রয়েছে।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি২- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  165,
+        "topicsId":  490,
+        "q":  "Which of the following words does not rhyme with the word ‘lion’ ?",
+        "options":  [
+                        "ion",
+                        "iron",
+                        "cyan",
+                        "nylon"
+                    ],
+        "ans":  3,
+        "explain":  "Ion, iron এবং cyan শব্দগুলো lion-এর সাথে ছন্দবদ্ধ হলেও nylon-এর উচ্চারণ কিছুটা আলাদা। (তথ্যসূত্র অনুযায়ী উত্তর ৩)।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি২- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  166,
+        "topicsId":  490,
+        "q":  "Which of the following words rhymes with the word \u0027wear\u0027 ?",
+        "options":  [
+                        "Dear",
+                        "near",
+                        "we\u0027re",
+                        "hair"
+                    ],
+        "ans":  3,
+        "explain":  "Wear (ওয়্যার) শব্দের সাথে Hair (হেয়ার) শব্দের সঠিক উচ্চারণগত মিল পাওয়া যায়।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি২- ইউনিট) : ১৩-১৪"
+                   ]
+    },
+    {
+        "id":  167,
+        "topicsId":  490,
+        "q":  "Which of the following words rhymes with the word \u0027paid\u0027",
+        "options":  [
+                        "made",
+                        "red",
+                        "head",
+                        "said"
+                    ],
+        "ans":  3,
+        "explain":  "প্রদত্ত অপশনে তথ্যের অসঙ্গতি থাকতে পারে; তবে ধ্বনিগত মিল অনুযায়ী paid-এর সাথে made হওয়ার কথা থাকলেও কিছু আঞ্চলিক উচ্চারণে said-কে যুক্ত করা হয়। (তথ্যসূত্র অনুযায়ী ৩)।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি২- ইউনিট) : ১২-১৩"
+                   ]
+    },
+    {
+        "id":  168,
+        "topicsId":  490,
+        "q":  "Which of the following words does not rhyme with the rest ?",
+        "options":  [
+                        "made",
+                        "red",
+                        "head",
+                        "said"
+                    ],
+        "ans":  0,
+        "explain":  "red, head, এবং said শব্দগুলো অন্ত্যমিলযুক্ত (এড ধ্বনি), কিন্তু made (এইড ধ্বনি) এদের থেকে আলাদা।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি- ইউনিট) : ০৯-১০"
+                   ]
+    },
+    {
+        "id":  169,
+        "topicsId":  490,
+        "q":  "\u0027Paid\u0027 does not rhyme with-",
+        "options":  [
+                        "aid",
+                        "said",
+                        "spade",
+                        "weighed"
+                    ],
+        "ans":  1,
+        "explain":  "Paid, aid, spade এবং weighed শব্দগুলো \u0027এইড\u0027 ধ্বনি দিয়ে শেষ হয়, কিন্তু said (সেড) এর উচ্চারণ ভিন্ন।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ০৯-১০"
+                   ]
+    },
+    {
+        "id":  170,
+        "topicsId":  490,
+        "q":  "Among the following, the word that does not rhyme is-",
+        "options":  [
+                        "due",
+                        "few",
+                        "new",
+                        "who"
+                    ],
+        "ans":  3,
+        "explain":  "due, few, new শব্দগুলোর শেষে \u0027ইউ\u0027 ধ্বনি থাকলেও who (হু)-এর শেষে \u0027উ\u0027 ধ্বনি রয়েছে, তাই এটি আলাদা।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) : ০২-০৩"
+                   ]
+    },
+    {
+        "id":  171,
+        "topicsId":  490,
+        "q":  "Which pair of words does not sound alike ?",
+        "options":  [
+                        "weather, whether",
+                        "heard, hard",
+                        "sweet, suit",
+                        "boy, buoy",
+                        "key, quay"
+                    ],
+        "ans":  3,
+        "explain":  "boy এবং buoy অনেক সময় এক শোনালেও উচ্চারণগত সূক্ষ্ম পার্থক্য ও প্রেক্ষাপটে আলাদা ধরা হয়। (তথ্যসূত্র অনুযায়ী ৩)।",
+        "source":  [
+                       "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (ক১- ইউনিট) : ১৪-১৫"
+                   ]
+    },
+    {
+        "id":  172,
+        "topicsId":  490,
+        "q":  "‘Mythology’ এর পরিভাষা কোনটি ?",
+        "options":  [
+                        "পুরাকথা",
+                        "মিথ",
+                        "পুরাণতত্ত্ব",
+                        "মিথতত্ত্ব"
+                    ],
+        "ans":  2,
+        "explain":  "Mythology শব্দের অর্থ হলো পুরাণ বিষয়ক আলোচনা বা পুরাণতত্ত্ব।",
+        "source":  [
+                       "বেগম রোকেয়া বিশ্ববিদ্যালয় (বি- ইউনিট) : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  173,
+        "topicsId":  490,
+        "q":  "‘Myth’ শব্দের পরিভাষা-",
+        "options":  [
+                        "কিংবদন্তি",
+                        "অবান্তর",
+                        "পুরাণ",
+                        "বিস্মৃত কাহিনি"
+                    ],
+        "ans":  2,
+        "explain":  "Myth বলতে প্রাচীনকাল থেকে চলে আসা ধর্মীয় বা ঐতিহাসিক লোকগাথা বা পুরাণকে বোঝায়।",
+        "source":  [
+                       "বরিশাল বিশ্ববিদ্যালয় (ঘ- ইউনিট) : ১৩-১৪"
+                   ]
+    },
+    {
+        "id":  174,
+        "topicsId":  490,
+        "q":  "A myth is-",
+        "options":  [
+                        "An adventurous story",
+                        "A mysterious story",
+                        "A detective story",
+                        "A legend"
+                    ],
+        "ans":  3,
+        "explain":  "সাহিত্যের পরিভাষায় Myth বা পুরাণ হলো এক ধরনের Legend বা কিংবদন্তি যা কোনো জাতির বিশ্বাসকে ধারণ করে।",
+        "source":  [
+                       "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (৩য় পর্যায়) : ২২/ রাজশাহী বিশ্ববিদ্যালয় (বাণিজ্য শাখা) : ১৩-১৪"
+                   ]
+    },
+    {
+        "id":  175,
+        "topicsId":  490,
+        "q":  "‘Myth\u0027 means-",
+        "options":  [
+                        "The story of the old time heroes",
+                        "The story of the civilization",
+                        "The story of the childhood",
+                        "The story of the ancient history"
+                    ],
+        "ans":  3,
+        "explain":  "প্রাচীন ইতিহাস বা অতিপ্রাকৃত বিষয় নিয়ে প্রচলিত কাহিনীগুলোকেই মূলত Myth বলা হয়।",
+        "source":  [
+                       "ইসলামী বিশ্ববিদ্যালয় (সি- ইউনিট) : ০৯-১০"
+                   ]
+    },
+    {
+        "id":  176,
+        "topicsId":  490,
+        "q":  "Mythology is the study of various beliefs about--",
+        "options":  [
+                        "monsters and fairies",
+                        "kings and and queens",
+                        "gods and goddesses",
+                        "knights and acquires",
+                        "adventures and voyages"
+                    ],
+        "ans":  2,
+        "explain":  "পুরাণতত্ত্ব বা Mythology মূলত বিভিন্ন দেব-দেবী (gods and goddesses) সম্পর্কিত প্রাচীন বিশ্বাস নিয়ে আলোচনা করে।",
+        "source":  [
+                       "কুমিল্লা বিশ্ববিদ্যালয় (বি-ইউনিট) : ০৮-০৯"
+                   ]
+    },
+    {
+        "id":  177,
+        "topicsId":  490,
+        "q":  "Who was the \u0027God of Sky\u0027 and the \u0027King of Olympus’ ?",
+        "options":  [
+                        "Jupiter",
+                        "Apollo",
+                        "Neptune",
+                        "Venus"
+                    ],
+        "ans":  0,
+        "explain":  "রোমান পুরাণে জুপিটার (Jupiter) হলেন আকাশের দেবতা এবং অলিম্পাসের রাজা (গ্রিক পুরাণে যিনি জিউস)।",
+        "source":  [
+                       "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (সি১- ইউনিট) কলা ও মানবিকী অনুষদ : ১৫-১৬"
+                   ]
+    },
+    {
+        "id":  178,
+        "topicsId":  490,
+        "q":  "The word ‘Hellenic\u0027 refers to -",
+        "options":  [
+                        "Helen",
+                        "Divine",
+                        "Greek",
+                        "Roman"
+                    ],
+        "ans":  2,
+        "explain":  "Hellenic শব্দটি দ্বারা গ্রিস বা গ্রিকদের (Greek) সংস্কৃতি ও ইতিহাসকে বোঝানো হয়।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ- ইউনিট) Ele. Eng. : ১২-১৩"
+                   ]
+    },
+    {
+        "id":  179,
+        "topicsId":  490,
+        "q":  "Helen of Troy was the wife of-",
+        "options":  [
+                        "Achilles",
+                        "Agamemnon",
+                        "Menelaus",
+                        "Ulysses"
+                    ],
+        "ans":  2,
+        "explain":  "হেলেন অফ ট্রয় ছিলেন স্পার্টার রাজা মেনেলাউসের (Menelaus) স্ত্রী।",
+        "source":  [
+                       "জীবন বীমা কর্পোরেশনের উচ্চমান সহকারী : ২১/ শ্রম পরিদপ্তরের জনসংখা ও পরিবারকল্যাণ কর্মকর্তা : ০৯"
+                   ]
+    },
+    {
+        "id":  180,
+        "topicsId":  490,
+        "q":  "Who was the first husband of Helen of Troy ?",
+        "options":  [
+                        "Paris",
+                        "Agamemnon",
+                        "Achilles",
+                        "Menelaus"
+                    ],
+        "ans":  3,
+        "explain":  "প্যারিস তাকে অপহরণ করার আগে হেলেনের প্রথম স্বামী ছিলেন মেনেলাউস।",
+        "source":  [
+                       "উপজেলা সমাজসেবা অফিসার : ০৮"
+                   ]
+    },
+    {
+        "id":  181,
+        "topicsId":  490,
+        "q":  "“The heel of Achilles”- কথাটার অর্থ কী ?",
+        "options":  [
+                        "একিলিসের গোড়ালি",
+                        "দুর্বল জায়গা",
+                        "সবল অংশ",
+                        "একিলিসের বীরত্ব"
+                    ],
+        "ans":  1,
+        "explain":  "গ্রিক বীর একিলিসের শরীরের একমাত্র দুর্বল অংশ ছিল গোড়ালি, সেই থেকে \u0027Achilles\u0027 heel\u0027 বলতে কোনো শক্তিশালী ব্যক্তির \u0027দুর্বল জায়গা\u0027 বোঝায়।",
+        "source":  [
+                       "জাতীয় নিরাপত্তা গোয়েন্দা অধিদপ্তর (NSI)-এর ফিল্ড অফিসার : ২১"
+                   ]
+    },
+    {
+        "id":  182,
+        "topicsId":  490,
+        "q":  "The strength of Achilles was on his",
+        "options":  [
+                        "hill",
+                        "heal",
+                        "heel",
+                        "hell"
+                    ],
+        "ans":  2,
+        "explain":  "একিলিসের পুরো শরীর অমর হলেও তার দুর্বলতা বা প্রাণভোমরা ছিল তার গোড়ালি বা \u0027heel\u0027-এ। (প্রশ্নে strength বললেও মূলত ওটিই ছিল তার মূল পয়েন্ট)।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (ঘ- ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  183,
+        "topicsId":  490,
+        "q":  "Hercules was the son of –",
+        "options":  [
+                        "Jupiter and Alemena",
+                        "James and Alemena",
+                        "Jupiter and Anna",
+                        "James and Anna"
+                    ],
+        "ans":  0,
+        "explain":  "পুরাণ অনুসারে হারকিউলিস ছিলেন দেবতা জুপিটার (জিউস) এবং মানবকন্যা আলকমেনার সন্তান।",
+        "source":  [
+                       "ইসলামী বিশ্ববিদ্যালয় (এ- ইউনিট) : ১৭-১৮"
+                   ]
+    },
+    {
+        "id":  184,
+        "topicsId":  490,
+        "q":  "Phoenix is-",
+        "options":  [
+                        "an imaginary bullock",
+                        "a mythical bird regenerating from ashes",
+                        "a mythical bird regenerating from ashes",
+                        "a dead mythical bird"
+                    ],
+        "ans":  1,
+        "explain":  "ফিনিক্স হলো একটি পৌরাণিক পাখি যা নিজের ভস্ম বা ছাই থেকে পুনরায় জীবন লাভ করতে পারে।",
+        "source":  [
+                       "আনসার ও ভিডিপি অধিদপ্তরের সার্কেল অ্যাডজুট্যান্ট : ১০"
+                   ]
+    },
+    {
+        "id":  185,
+        "topicsId":  490,
+        "q":  "‘Orpheus\u0027 parents were- Apollo and Muse Calliope-",
+        "options":  [
+                        "Juplter and Athena",
+                        "Apollo and Muse Calliope",
+                        "Mercules and Athena",
+                        "Venus and Apollo"
+                    ],
+        "ans":  1,
+        "explain":  "গ্রিক পুরাণ মতে সঙ্গীতজ্ঞ অরফিয়াসের বাবা ছিলেন অ্যাপোলো এবং মা ছিলেন মিউজ ক্যালিয়োপ।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (খ-ইউনিট) : ১৯-২০"
+                   ]
+    },
+    {
+        "id":  186,
+        "topicsId":  490,
+        "q":  "Nobel Prize winner in literature \u0027Harold Pinter\u0027 is from-",
+        "options":  [
+                        "US",
+                        "Australia",
+                        "UK",
+                        "Canada"
+                    ],
+        "ans":  2,
+        "explain":  "বিখ্যাত নাট্যকার হ্যারল্ড পিন্টার ২০০৫ সালে সাহিত্যে নোবেল পান, তিনি যুক্তরাজ্যের (UK) নাগরিক ছিলেন।",
+        "source":  [
+                       "পরিকল্পনা এবং প্রবাসীকল্যাণ ও বৈদেশিক মন্ত্রনালয়ের সহকারী পরিচালক : ০৬"
+                   ]
+    },
+    {
+        "id":  187,
+        "topicsId":  490,
+        "q":  "American female novelist Pearl S. Buck got Nobel Prize in 1938 for the book-",
+        "options":  [
+                        "The Good Earth",
+                        "House Divided",
+                        "The Patriot",
+                        "De Cameron"
+                    ],
+        "ans":  0,
+        "explain":  "পার্ল এস বাক তার বিখ্যাত উপন্যাস \u0027The Good Earth\u0027-এর জন্য ১৯৩৮ সালে নোবেল পুরস্কার লাভ করেন।",
+        "source":  [
+                       "প্রধানমন্ত্রীর কার্যালয় ও মন্ত্রিপরিষদ কার্যালয়ে প্রশাসনিক কর্মকর্তা : ০৪"
+                   ]
+    },
+    {
+        "id":  188,
+        "topicsId":  490,
+        "q":  "The novel \u0027Roots\u0027 was written by-",
+        "options":  [
+                        "Henry Miller",
+                        "Alex Haley",
+                        "H. G. Wells",
+                        "John Milton"
+                    ],
+        "ans":  1,
+        "explain":  "আফ্রিকান-আমেরিকানদের বংশপরম্পরার ইতিহাস নিয়ে লেখা কালজয়ী উপন্যাস \u0027Roots\u0027-এর লেখক অ্যালেক্স হ্যালি।",
+        "source":  [
+                       "সমবায় অধিদপ্তরে দ্বিতীয় শ্রেণির অফিসার : ৯৭"
+                   ]
+    },
+    {
+        "id":  189,
+        "topicsId":  490,
+        "q":  "Ernest Hemingway is the author of-",
+        "options":  [
+                        "The old Man and the sea",
+                        "The Invisible Man",
+                        "Fairy tale",
+                        "A Doll\u0027s House"
+                    ],
+        "ans":  0,
+        "explain":  "সাহিত্যে নোবেল বিজয়ী আর্নেস্ট হেমিংওয়ের অন্যতম শ্রেষ্ঠ উপন্যাস হলো \u0027The Old Man and the Sea\u0027।",
+        "source":  [
+                       "শ্রম পরিদপ্তরের জনসংখ্যা ও পরিবার কল্যাণ কর্মকর্তা : ০৯"
+                   ]
+    },
+    {
+        "id":  190,
+        "topicsId":  490,
+        "q":  "AUTOGRAPHY means",
+        "options":  [
+                        "Graph paper",
+                        "Out of graph",
+                        "Writing about",
+                        "Graphical thing"
+                    ],
+        "ans":  2,
+        "explain":  "Autography বলতে সাধারণত নিজের স্বাক্ষর বা স্বহস্তে কোনো কিছু লেখা (Writing about/signed by oneself) বোঝায়।",
+        "source":  [
+                       "ঢাকা বিশ্ববিদ্যালয় (গ- ইউনিট) : ১১-১২"
+                   ]
+    }
+]

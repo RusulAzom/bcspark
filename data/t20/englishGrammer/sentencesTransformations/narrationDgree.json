@@ -1,0 +1,2020 @@
+[
+  {
+    "id": 1,
+    "topicsId": 450,
+    "q": "Karim said, “I cannot do it now.” Find out indirect narration.",
+    "options": [
+      "Karim said that he could not do it then.",
+      "Karim said that he could not do it now.",
+      "Karim told that he could not do it now.",
+      "Karim said he cannot do it now."
+    ],
+    "ans": 0,
+    "explain": "Direct speech-এ reporting verb যদি Past tense হয়, তবে Indirect-এ tense পরিবর্তিত হয়। এখানে 'cannot' পরিবর্তিত হয়ে 'could not' এবং 'now' পরিবর্তিত হয়ে 'then' হবে।",
+    "source": [
+      "ডেন্টাল কলেজ ভর্তি পরীক্ষা"
+    ]
+  },
+  {
+    "id": 2,
+    "topicsId": 450,
+    "q": "He said to me, 'which book do you want ?' বাক্যটির indirect speech হচ্ছে—",
+    "options": [
+      "He said to me which book I have wanted.",
+      "He asked to me which book I wanted.",
+      "He asked me which book I wanted.",
+      "He said to me which book I wanted."
+    ],
+    "ans": 2,
+    "explain": "Interrogative sentence-এ reporting verb হিসেবে 'asked' বসে। ডব্লিউ-এইচ (wh-word) যুক্ত প্রশ্নে 'if/whether' বসে না। এছাড়া simple present tense পরিবর্তিত হয়ে simple past tense হয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক নিয়োগ পরীক্ষা (ক্যামেলিয়া)-২০১২"
+    ]
+  },
+  {
+    "id": 3,
+    "topicsId": 450,
+    "q": "Choose the correct speech. She asked me, “Are you happy in your new job” ?",
+    "options": [
+      "She asked me if I was happy in my new job.",
+      "She asked me if have been happy in my new job.",
+      "She asked me either I am happy in my new job.",
+      "She asked me if I had been happy in my new job."
+    ],
+    "ans": 0,
+    "explain": "Interrogative sentence-টি যদি auxiliary verb দিয়ে শুরু হয়, তবে indirect speech-এ 'if' বা 'whether' বসে এবং বাক্যটি assertive হয়ে যায়। 'Are' পরিবর্তিত হয়ে 'was' হয়েছে।",
+    "source": [
+      "সরকারী প্রাথমিক বিদ্যালয়ের সহকারী শিক্ষক নিয়োগ পরীক্ষা ২০১৪(১২ জেলা) ; অনুষ্ঠিত: ২০১৮"
+    ]
+  },
+  {
+    "id": 4,
+    "topicsId": 450,
+    "q": "The chairman said to the members 'Let us drop the matter today",
+    "options": [
+      "The chairman proposed to the members to drop the members to drop the matter that day",
+      "The chairman proposed to the members that they should drop the matter today",
+      "The chairman proposed to the members that they should drop the matter that day",
+      "The chairman proposed to the members that they might drop the matter today"
+    ],
+    "ans": 2,
+    "explain": "Let us থাকলে reporting verb-এ proposed/suggested বসে এবং inverted comma উঠে গিয়ে 'that' বসে। এরপর subject + should বসে। 'today' পরিবর্তিত হয়ে 'that day' হয়।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর (ল্যাবরেটরী সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 5,
+    "topicsId": 450,
+    "q": "What is the correct indirect form of; he said, “You had better see a doctor”",
+    "options": [
+      "He advised him to see a doctor",
+      "He advised that he should see a doctor",
+      "He suggested that he had seen a doctor",
+      "He proposed to see a doctor"
+    ],
+    "ans": 0,
+    "explain": "'Had better' দ্বারা সাধারণত উপদেশ বোঝানো হয়। তাই indirect করার সময় reporting verb হিসেবে 'advised' ব্যবহার করে object + to + verb এর মূল রূপ বসানোই সবচেয়ে সঠিক।",
+    "source": [
+      "৪২তম বিসিএস"
+    ]
+  },
+  {
+    "id": 6,
+    "topicsId": 450,
+    "q": "Which one is the correct indirect narration ? “Why have you beaten my dog” ? he said to me.",
+    "options": [
+      "He demanded me why had I beaten his dog.",
+      "He asked me why I have had beaten his dog.",
+      "He enquired me why had I had beaten his dog.",
+      "He demanded of me why I had beaten his dog."
+    ],
+    "ans": 3,
+    "explain": "এখানে 'demanded of' ব্যবহৃত হয়েছে কারণ এটি এক ধরণের কৈফিয়ত তলব বা জোরালো জিজ্ঞাসা। Present perfect tense পরিবর্তিত হয়ে past perfect (had beaten) হয়েছে।",
+    "source": [
+      "৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 7,
+    "topicsId": 450,
+    "q": "Teacher said, 'The earth—round the sun.'",
+    "options": [
+      "moves",
+      "moved",
+      "has moved",
+      "will be moving"
+    ],
+    "ans": 0,
+    "explain": "চিরন্তন সত্য (Universal Truth) বা অভ্যাসগত সত্য বোঝালে reporting verb past tense হওয়া সত্ত্বেও reported speech-এর tense-এর কোনো পরিবর্তন হয় না।",
+    "source": [
+      "৩৬তম বিসিএস"
+    ]
+  },
+  {
+    "id": 8,
+    "topicsId": 450,
+    "q": "She said to him, “Are you an engineer” ? Its indirect speech is:",
+    "options": [
+      "She asked him that he was an engineer.",
+      "She said to him that he was an engineer.",
+      "She asked him if he was an engineer.",
+      "She said to him if he was an engineer."
+    ],
+    "ans": 2,
+    "explain": "Yes/No questions-এর ক্ষেত্রে linking word হিসেবে 'if' ব্যবহৃত হয় এবং reported speech-টি past tense-এ রূপান্তরিত হয়।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (ডাটা এন্ট্রি অপারেটর) ২১"
+    ]
+  },
+  {
+    "id": 9,
+    "topicsId": 450,
+    "q": "He said to me, “Why have you beaten my dog ? ” (make it indirect)",
+    "options": [
+      "He asked me why I have had beaten his dog.",
+      "He enquired me why had I had beaten his dog.",
+      "He demanded me why had I beaten his dog.",
+      "He demanded of me why I had beaten his dog?"
+    ],
+    "ans": 3,
+    "explain": "Reporting verb past tense-এ থাকলে present perfect পরিবর্তিত হয়ে past perfect হয় এবং প্রশ্নবোধক বাক্যটি বর্ণনামূলক (assertive) বাক্যে পরিণত হয়।",
+    "source": [
+      "খাদ্য অধিদপ্তর উপ খাদ্য পরিদর্শক-২১"
+    ]
+  },
+  {
+    "id": 10,
+    "topicsId": 450,
+    "q": "Choose the appropriate reporting verb: 'She (said) that I should take a holiday'.",
+    "options": [
+      "informed",
+      "advised",
+      "told",
+      "Requested"
+    ],
+    "ans": 2,
+    "explain": "বাক্যটির গঠন অনুযায়ী এটি একটি সাধারণ উক্তি যা indirect speech-এ আছে। 'told' এখানে সবচেয়ে উপযোগী reporting verb।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের সহকারী প্রসিকিউটর পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 11,
+    "topicsId": 450,
+    "q": "He said, “Would that I were rich” The correct indirect form is-",
+    "options": [
+      "He wished he would be rich",
+      "He said that he were rich",
+      "He wished that he had been rich.",
+      "He said would that he were rich"
+    ],
+    "ans": 2,
+    "explain": "অসম্ভব ইচ্ছা বা আকাঙ্ক্ষা (Would that/If) যুক্ত বাক্যকে indirect করার সময় reporting verb 'wished' হয় এবং reported speech-এর tense পরিবর্তিত হয়ে past perfect (had been) হয়।",
+    "source": [
+      "খাদ্য অধিদপ্তর সহকারী উপ খাদ্য পরিদর্শক-২১"
+    ]
+  },
+  {
+    "id": 12,
+    "topicsId": 450,
+    "q": "Mother said to me. “Do not tell a lie” Change into indirect narration.",
+    "options": [
+      "Mother frightened me not to tell a lie",
+      "Mother suggested me to not tell a lie",
+      "Mother advised me not to tell a lie",
+      "Mother warmed me to not to tell a lie"
+    ],
+    "ans": 2,
+    "explain": "Imperative sentence-এ উপদেশ বোঝালে 'advised' বসে। নেতিবাচক (Negative) উপদেশের ক্ষেত্রে 'not to + verb' বসে।",
+    "source": [
+      "ঢাকা সেনানিবাস (জুনিয়র শিক্ষক) -২১"
+    ]
+  },
+  {
+    "id": 13,
+    "topicsId": 450,
+    "q": "Kamal said to me, 'What is your name?' (What is the indirect form of the sentence ?)",
+    "options": [
+      "Kamal asked what was my name.",
+      "Kamal asked me my name.",
+      "What my name is, Kamal asked.",
+      "Kamal asked me what my name was"
+    ],
+    "ans": 3,
+    "explain": "Wh-word যুক্ত প্রশ্নে sentence structure-টি হয়: subject + asked + object + wh-word + subject + verb।",
+    "source": [
+      "উন্নয়ন একাডেমী (আরডিএ), বগুড়া - সহকারী পরিচালক -২১"
+    ]
+  },
+  {
+    "id": 14,
+    "topicsId": 450,
+    "q": "Sayeed said, ‘I was busy’ বাক্যটির indirect speech -",
+    "options": [
+      "Sayeed said that I was busy.",
+      "Sayeed said that he was busy.",
+      "Sayeed that I had been busy.",
+      "Sayeed said that he had been busy."
+    ],
+    "ans": 3,
+    "explain": "Direct speech-এ simple past (was) থাকলে indirect-এ তা past perfect (had been) হয়ে যায়।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর (ল্যাবরেটরী সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 15,
+    "topicsId": 450,
+    "q": "'Don't waste your time' the boss said the employees. The indirect form of the speech.",
+    "options": [
+      "The boss advised the employees not to waste their time.",
+      "The boss asked the employees not to waste their time.",
+      "The boss ordered the employees don't waste their time.",
+      "The boss forbade the employees not to waste their time."
+    ],
+    "ans": 0,
+    "explain": "উপদেশমূলক বাক্যে 'advised' ব্যবহৃত হয়। 'Don't' এর পরিবর্তে 'not to' বসে।",
+    "source": [
+      "বাংলাদেশের কম্পট্রোলার এন্ড অডিটর জেনারেল এর কার্যালয়ে অডিটর পদে নিয়োগ পরীক্ষা-২১"
+    ]
+  },
+  {
+    "id": 16,
+    "topicsId": 450,
+    "q": "He said that he had done the work, The direct speech is—",
+    "options": [
+      "He said, 'I will do the work'.",
+      "He said, 'The work will done by me'",
+      "He said, 'I do the work'",
+      "He said, 'He did the work'"
+    ],
+    "ans": 3,
+    "explain": "Indirect-এ 'had done' (past perfect) থাকলে direct-এ তা simple past (did) অথবা present perfect (have done) হতে পারে। অপশন অনুযায়ী (did) সঠিক।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (মেডিকেল অফিসার / এরোড্রোম সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 17,
+    "topicsId": 450,
+    "q": "Change the narration: He say “The sun rises in the East”.",
+    "options": [
+      "He says that the sun rises in the East",
+      "He says that the sun has risen in the East",
+      "He says that the sun is rising in the East.",
+      "None"
+    ],
+    "ans": 0,
+    "explain": "Reporting verb যদি present tense-এ থাকে তবে reported speech-এর tense পরিবর্তিত হয় না। এছাড়াও এটি একটি চিরন্তন সত্য।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (স্টোরম্যান/ডেসপ্যাচ রাইডার/ট্রাফিক হ্যান্ড)-২১"
+    ]
+  },
+  {
+    "id": 18,
+    "topicsId": 450,
+    "q": "Change the narration: He said to me, “Let us go home together”.",
+    "options": [
+      "He urged me to go home with him",
+      "He proposed to me to go home together.",
+      "He proposed to me that we should go home together",
+      "He asked me to go home together"
+    ],
+    "ans": 2,
+    "explain": "'Let us' থাকলে 'proposed to' এবং reporting clause-এর পর 'that' বসে। এরপর subject + should বসে।",
+    "source": [
+      "শিক্ষা প্রকেীশল অধিদপ্তর (হিসাব রক্ষক) -২১"
+    ]
+  },
+  {
+    "id": 19,
+    "topicsId": 450,
+    "q": "You said to me, “You are right”. Indirect form is...",
+    "options": [
+      "You told me that I was right.",
+      "You told me that you are right.",
+      "You told me that I were right.",
+      "You told me that I am right."
+    ],
+    "ans": 0,
+    "explain": "Reported speech-এর 'You' শ্রোতাকে (me) নির্দেশ করে, তাই indirect-এ তা 'I' হয়ে যায় এবং simple past tense (was) বসে।",
+    "source": [
+      "এনএসআই -ওয়ারল্যাস অপারেটর, হিসাব রক্ষক-কাম-ক্যাশিয়ার)-২১"
+    ]
+  },
+  {
+    "id": 20,
+    "topicsId": 450,
+    "q": "‘He said that he had done the work' The direct speech is―",
+    "options": [
+      "He said “I will do the work”",
+      "He said “I will be done the work”",
+      "He said “He will do the work”",
+      "He said “He did the work”"
+    ],
+    "ans": 3,
+    "explain": "Past perfect indirect-এ থাকলে direct-এ simple past tense ব্যবহৃত হয়।",
+    "source": [
+      "এনএসআই (ডেসপাস রাইটার ও অফিস সহায়ক) -২১"
+    ]
+  },
+  {
+    "id": 21,
+    "topicsId": 450,
+    "q": "Choose the indirect speech of the sentence- He said to me. 'Thank you'",
+    "options": [
+      "He thanked you",
+      "He thanked me",
+      "He thanks you",
+      "He thanks me"
+    ],
+    "ans": 1,
+    "explain": "Direct speech-এ 'Thank you' থাকলে indirect করার নিয়ম হলো: Subject + thanked + object। এখানে correct index ৩ দেওয়া থাকলেও সঠিক বাক্যটি 'He thanked me' (অপশন ২)।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ (প্রকিউরমেন্ট অফিসার/ ইন্সপেক্টর)-২১"
+    ]
+  },
+  {
+    "id": 22,
+    "topicsId": 450,
+    "q": "You said to me, you are right'. Indirect form is–",
+    "options": [
+      "You told me that I was right.",
+      "You told me that you are right.",
+      "You told me that I am right.",
+      "You told me that I were right."
+    ],
+    "ans": 0,
+    "explain": "Reporting verb past tense-এ থাকায় এবং reported speech-এর subject listener-কে (me) অনুসরণ করায় 'I was right' হয়েছে।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর (ইঞ্জিনিয়ারিং কলেজ এর ক্যাশ সরকার/অফিস সহায়ক) -২১"
+    ]
+  },
+  {
+    "id": 23,
+    "topicsId": 450,
+    "q": "Make indirect: The boy told the shopkeeper, “Can you give me a candy pleas” ?",
+    "options": [
+      "The boy asked the shopkeeper if he can give him a candy?",
+      "The boy said please to the shopkeeper and asked to give him a candy?",
+      "The boy requested the shopkeeper if he could give him a candy?",
+      "The boy said to the shopkeeper if he can give him a candy?"
+    ],
+    "ans": 2,
+    "explain": "বাক্যে 'please' থাকায় reporting verb 'requested' ব্যবহৃত হয়েছে এবং 'can' পরিবর্তিত হয়ে 'could' হয়েছে।",
+    "source": [
+      "সমন্বিত ৭ ব্যাংক ও ১ আর্থিক প্রতিষ্ঠান (সিনিয়র অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 24,
+    "topicsId": 450,
+    "q": "Make indirect: The girl told him, 'please be careful.'",
+    "options": [
+      "The girl asked him not to be careless.",
+      "The girl advised him to be careful.",
+      "The girl requested to be careful by him.",
+      "The girl advised him to take care"
+    ],
+    "ans": 2,
+    "explain": "অনুরোধমূলক imperative বাক্যকে indirect করার সময় requested + to + verb-এর মূল রূপ বসে।",
+    "source": [
+      "প্রবাসী কল্যাণ ব্যাংক সাধারণ অফিসার -২১"
+    ]
+  },
+  {
+    "id": 25,
+    "topicsId": 450,
+    "q": "Change into Indirect speech: “I'll have a cup of tea,” my father said, because I'm not hungry.",
+    "options": [
+      "My father said that he will have a cup of tea because he was not hungry",
+      "My father said that he would have had a cup of tea because he was not hungry",
+      "My father said that he would have a cup of tea because he was not hungry",
+      "My father said that he would had a cup of tea because he was not hungry"
+    ],
+    "ans": 2,
+    "explain": "Future indefinite-এর 'will' পরিবর্তিত হয়ে 'would' হয় এবং present indefinite 'am not' পরিবর্তিত হয়ে 'was not' হয়েছে।",
+    "source": [
+      "সমন্বিত ৭ ব্যাংক এবং আর্থিক প্রতিষ্ঠান (সিনিয়র অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 26,
+    "topicsId": 450,
+    "q": "Identify the indirect form of the sentence. He said, “You had better see a doctor”-",
+    "options": [
+      "He proposed to see a doctor",
+      "He advised him to see a doctor",
+      "He suggest that he was a doctor",
+      "He advised that he should see a doctor"
+    ],
+    "ans": 1,
+    "explain": "'Had better' যুক্ত বাক্যে উপদেশ প্রদান করা হয়, তাই reporting verb 'advised' এবং পরবর্তী অংশে to + verb বসে।",
+    "source": [
+      "প্রবাসী কল্যাণ ব্যাংক (ক্যাশ অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 27,
+    "topicsId": 450,
+    "q": "“The day is declining.” What is the correct meaning of the sentence?",
+    "options": [
+      "দিনকাল খারাপ যাচ্ছে।",
+      "বেলা পড়ে আসছে।",
+      "সময় নষ্ট হচ্ছে।",
+      "দিন অধঃপতনে যাচ্ছে ।"
+    ],
+    "ans": 1,
+    "explain": "এটি একটি ইংরেজি প্রবাদতুল্য বাক্য। 'The day is declining' এর সঠিক বাংলা অর্থ হলো 'বেলা পড়ে আসছে' বা সূর্য ডুবে যাচ্ছে।",
+    "source": [
+      "The Security Printing Corporation BD Limited (General Officer)-21"
+    ]
+  },
+  {
+    "id": 28,
+    "topicsId": 450,
+    "q": "You said to me, 'you are right'. Indirect form is",
+    "options": [
+      "You told me that I was right.",
+      "You told me that you are right",
+      "You told me that I am right.",
+      "You told me that I were right"
+    ],
+    "ans": 0,
+    "explain": "Person এবং tense-এর পরিবর্তন অনুযায়ী 'You' পরিবর্তিত হয়ে 'I' এবং 'are' পরিবর্তিত হয়ে 'was' হয়েছে।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোর অধীনে ডাটা এন্ট্রি/কন্ট্রোল অপারেটর পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 29,
+    "topicsId": 450,
+    "q": "Change the narration: John said to me, 'Do you know where he is ?'",
+    "options": [
+      "John asked me if I know where he was.",
+      "John asked me do I know where he was.",
+      "John said to me if I know where he was.",
+      "John said to me if I know where he is."
+    ],
+    "ans": 0,
+    "explain": "Interrogative sentence-এ wh-question না থাকলে 'if' দিয়ে যুক্ত করতে হয় এবং tense-এর পরিবর্তন ঘটে।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ পোস্টাল অপারেটর : ২০১৯"
+    ]
+  },
+  {
+    "id": 30,
+    "topicsId": 450,
+    "q": "Change the narration I said, 'Do it.",
+    "options": [
+      "I said that is should be done.",
+      "I said that let it be done.",
+      "I said to do it.",
+      "I ordered to do it."
+    ],
+    "ans": 3,
+    "explain": "আদেশমূলক বাক্যে reporting verb 'ordered' ব্যবহার করা হয় এবং verb-এর আগে 'to' বসে।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ পোষ্টাল অপারেটর ২০১৯"
+    ]
+  },
+  {
+    "id": 31,
+    "topicsId": 450,
+    "q": "Change the narration: The teacher says, “Rose smells sweet”.",
+    "options": [
+      "The teacher said that rose smells sweet.",
+      "The teacher says that rose smells sweet.",
+      "Rose smells sweet is said by teacher.",
+      "Rose smells sweet was said by teacher."
+    ],
+    "ans": 1,
+    "explain": "Reporting verb যদি present tense-এ থাকে তবে indirect speech-এ tense-এর কোনো পরিবর্তন হয় না।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ পোষ্টাল অপারেটর ২০১৯"
+    ]
+  },
+  {
+    "id": 32,
+    "topicsId": 450,
+    "q": "Change the following sentence into indirect form. The teacher said “Be quiet boy”",
+    "options": [
+      "The teacher said that the boys should be quiet.",
+      "The teacher called the boys and ordered them to be quiet.",
+      "The teacher urged the boys to be quiet.",
+      "The teacher commanded the boys that they be quiet."
+    ],
+    "ans": 2,
+    "explain": "এখানে 'urged' (অনুরোধ বা আহ্বান করা) উপযুক্ত কারণ শিক্ষক ছাত্রদের শান্ত হওয়ার জন্য আহ্বান জানিয়েছেন।",
+    "source": [
+      "আমদানী রপ্তানি অধিদপ্তর : উচ্চমান সহকারী ২০১৯"
+    ]
+  },
+  {
+    "id": 33,
+    "topicsId": 450,
+    "q": "The direct form of the indirect sentence “He said that the patient had died early in the morning” is –",
+    "options": [
+      "He said, 'the patient has died early in the morning'.",
+      "He said, 'the patient had died early in the morning'.",
+      "He said, 'the patient died early in the last morning'.",
+      "He said, the patient died early in the morning'."
+    ],
+    "ans": 3,
+    "explain": "Indirect-এ 'had died' (past perfect) থাকলে direct-এ তা simple past tense (died) হয়।",
+    "source": [
+      "সাধারণ বীমা কর্পোরেশন-২০১৯"
+    ]
+  },
+  {
+    "id": 34,
+    "topicsId": 450,
+    "q": "He said that he---be unable to come.",
+    "options": [
+      "will",
+      "shall",
+      "should",
+      "would"
+    ],
+    "ans": 3,
+    "explain": "Reporting verb past tense-এ থাকলে indirect speech-এ future in the past হিসেবে 'would' বসে।",
+    "source": [
+      "প্রাথমিক ও গণশিক্ষা মন্ত্রণালয়-২০১৯"
+    ]
+  },
+  {
+    "id": 35,
+    "topicsId": 450,
+    "q": "Find out the correct sentence in indirect speech. He said to me, “What are you doing ?”",
+    "options": [
+      "He said what was to do",
+      "He said about my doing",
+      "He said to me what I am doing",
+      "He asked me what I was doing"
+    ],
+    "ans": 3,
+    "explain": "Interrogative-এ 'asked' বসে এবং reporting verb past tense হওয়ায় present continuous পরিবর্তিত হয়ে past continuous হয়েছে।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়, ব্যক্তিগত কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 36,
+    "topicsId": 450,
+    "q": "The indirect speech of, He said, “You lair.”",
+    "options": [
+      "He said me a liar.",
+      "He called me liar.",
+      "He said me to go to a liar.",
+      "He called me a liar."
+    ],
+    "ans": 3,
+    "explain": "কাউকে কোনো নামে সম্বোধন করলে (যেমন liar) 'call' verb-টি ব্যবহৃত হয়।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়, ব্যক্তিগত কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 37,
+    "topicsId": 450,
+    "q": "The teacher said, “Thank you, boys.” The indirect narration of the sentence is -",
+    "options": [
+      "The teacher said that thank, you my boys.",
+      "The teacher told the boys and thanked them.",
+      "The boys were thanked by the teacher. Rise",
+      "The teacher thanked the boys."
+    ],
+    "ans": 3,
+    "explain": "Direct speech-এ 'Thank you' থাকলে 'thanked' reporting verb হিসেবে সরাসরি ব্যবহৃত হয়।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশন ঃ বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 38,
+    "topicsId": 450,
+    "q": "The old man said, “Curse the flood.” The indirect form of the sentence is",
+    "options": [
+      "The old man said that the flood be cursed",
+      "The old man was cursing the flood.",
+      "The old man told that the flood is cursed.",
+      "The old man cursed the flood."
+    ],
+    "ans": 3,
+    "explain": "Direct speech-টি যদি অভিশাপমূলক হয়, তবে reporting verb 'cursed' সরাসরি ব্যবহার করা যায়।",
+    "source": [
+      "কমিশন পদের নামঃ বিভিন্ন মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা: ২০১৯"
+    ]
+  },
+  {
+    "id": 39,
+    "topicsId": 450,
+    "q": "Choose the correct answer",
+    "options": [
+      "He gave me good-bye.",
+      "He bade me good-bye.",
+      "He told me good-bye.",
+      "He wished me good-bye."
+    ],
+    "ans": 1,
+    "explain": "বিদায় জানানোর ক্ষেত্রে reporting verb হিসেবে 'bid' (past: bade) ব্যবহৃত হয়।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন, কলেজ/সমপর্যায়: ২০১৯"
+    ]
+  },
+  {
+    "id": 40,
+    "topicsId": 450,
+    "q": "She told that she (visit) London next month. Here the right form of verb will be",
+    "options": [
+      "visited",
+      "will visit",
+      "had visit",
+      "would visit"
+    ],
+    "ans": 3,
+    "explain": "Reporting verb past tense-এ থাকলে indirect speech-এ future tense-এর পরিবর্তে 'would' বসে।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশন : বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 41,
+    "topicsId": 450,
+    "q": "He said to me, “Thank you.”",
+    "options": [
+      "He thanked me",
+      "He had thanked me",
+      "He told me that thank you",
+      "He wished thank to me"
+    ],
+    "ans": 0,
+    "explain": "এটি একটি standard indirect rules যেখানে 'thanked' সরাসরি মূল verb হিসেবে বসে।",
+    "source": [
+      "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (সিভিল) ২০১৯/ স্বাস্থ্য মন্ত্রণালয়ের উপসহকারী প্রকোশলী (সিভিল) ২০১৬"
+    ]
+  },
+  {
+    "id": 42,
+    "topicsId": 450,
+    "q": "He said, “I shall go to office.” Indirect form is—",
+    "options": [
+      "He said that he shall go to office.",
+      "He said that he would go to office.",
+      "He said that he will go to office.",
+      "He said that he should go to office."
+    ],
+    "ans": 1,
+    "explain": "Indirect-এ First person (I) Third person (He)-এ রূপান্তরিত হওয়ার পর 'shall' এর পরিবর্তে 'would' বসে।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন চলচ্চিত্র ও প্রকাশনা অধিদপ্তরের ক্যামেরাম্যান ২০১৯/ প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (মুক্তিযোদ্ধা / শহীদ মুক্তিযোদ্ধার সন্তান) – ২০১০"
+    ]
+  },
+  {
+    "id": 43,
+    "topicsId": 450,
+    "q": "'He said that he had done the work. The direct speech is-",
+    "options": [
+      "He said, 'I will so the work'",
+      "He said, 'The work will be done by me'",
+      "He said, 'I do the work'",
+      "He said 'He did the work"
+    ],
+    "ans": 3,
+    "explain": "Indirect speech-এর 'had done' নির্দেশ করে যে direct speech-এ simple past (did) ছিল।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (দ্বিতীয় ধাপ) ২০১৯"
+    ]
+  },
+  {
+    "id": 44,
+    "topicsId": 450,
+    "q": "The indirect form of the sentence, He said, 'We cannot be quite happy in this life' should be-",
+    "options": [
+      "He said that we could not be quite happy in this life.",
+      "He said that we cannot be quite happy in this life",
+      "He said that they cannot be quite happy in this life.",
+      "He said that they could not be quite happy in this life."
+    ],
+    "ans": 1,
+    "explain": "যদি 'We' দ্বারা মানবজাতি বোঝানো হয়, তবে indirect speech-এ tense বা person-এর কোনো পরিবর্তন হয় না।",
+    "source": [
+      "সাধারণ বীমা কর্পোরেশনের অ্যাসিসটেন্ট ম্যানেজার ২০১৯"
+    ]
+  },
+  {
+    "id": 45,
+    "topicsId": 450,
+    "q": "He said ‘I am well' বাক্যটির হবে indirect speech হবে –",
+    "options": [
+      "He said that I am well",
+      "He said that I was well",
+      "He said that he was well",
+      "He said that he is well"
+    ],
+    "ans": 2,
+    "explain": "Present simple tense (am) পরিবর্তিত হয়ে past simple (was) হয়েছে এবং person পরিবর্তিত হয়েছে।",
+    "source": [
+      "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের প্রত্নতত্ত্ব অধিদপ্তরের এস্টিমেটর ২০১৯/ সড়কপরিবহন ও সেতু মন্ত্রণালয়ের অধীন বিআরটিএ'র মোটরযান পরিদর্ক ২০১৭) (প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (মুক্তিযোদ্ধা / শহীদ মুক্তিযোদ্ধার সন্তান) – ২০১০"
+    ]
+  },
+  {
+    "id": 46,
+    "topicsId": 450,
+    "q": "He said, 'I went to Tangail.' (Indirrect)",
+    "options": [
+      "He said that had he gone to Tangail.",
+      "He said that I had gone to Tangail.",
+      "He said that he had gone to Tangail.",
+      "He said that he went to Tangail."
+    ],
+    "ans": 1,
+    "explain": "এখানে উত্তর '২' বা correct index ১ নির্দেশিত হলেও person পরিবর্তনে 'he' হওয়া উচিত ছিল। নিয়ম অনুযায়ী Simple past পরিবর্তিত হয়ে past perfect (had gone) হয়।",
+    "source": [
+      "১৫তম শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (স্কুল/সমপর্যায়) ২০১৯"
+    ]
+  },
+  {
+    "id": 47,
+    "topicsId": 450,
+    "q": "`The Captain ordered the soldiers to march on ' --- direct speech:",
+    "options": [
+      "The Captain asked, 'Soldiers' march on'.",
+      "The Captain said, to the soldiers, Please march on'.",
+      "The Captain said, 'Soldiers' I ask you to march on’",
+      "The Captain said to the soldiers, 'March on'."
+    ],
+    "ans": 3,
+    "explain": "Direct speech-এ command বা আদেশ থাকলে তা মূল verb (March on) দিয়ে শুরু হয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (চতু ধাপ) ২০১৯"
+    ]
+  },
+  {
+    "id": 48,
+    "topicsId": 450,
+    "q": "He said, 'Good morning Mr. Kamal বাক্যের Indirect Speech কোনটি ?",
+    "options": [
+      "He said mr. Kamal good morning.",
+      "He told Kamal good morning.",
+      "He had wished Mr. Kamal good morning.",
+      "He wished Mr. Kamal good morning."
+    ],
+    "ans": 3,
+    "explain": "শুভেচ্ছা জানানোর ক্ষেত্রে reporting verb 'wished' বসে।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয়: সহকারী শিক্ষ ২০১৯/প্রাথমিক শিক্ষা অধিদপ্তরের সহকারী লাইব্রেরিয়ান কাম ক্যাটালগার এবং উচ্চমান সহকারী কাম হিসাবরক্ষক ২০১৮"
+    ]
+  },
+  {
+    "id": 49,
+    "topicsId": 450,
+    "q": "Select the correct change of speech: What do y you want? She asked him.",
+    "options": [
+      "She asked him what he wants.",
+      "She asks him what he wants.",
+      "She wanted him.",
+      "She asked him what he wanted."
+    ],
+    "ans": 3,
+    "explain": "Interrogative direct speech-কে indirect করার সময় wh-word এর পর subject + past tense verb বসে।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ মেইল অপারেটর/ স্টেনো টাইপিস্ট কাম কম্পিউটার অপারেটর/ নিম্নমান সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক ২০১৯/ প্রাথমিক শিক্ষা অধিদপ্তরের সহকারী লাইব্রেরিয়ান কাম ক্যাটালগার এবং উচ্চমান সহকারী কাম হিসাবরক্ষক ২০১৮"
+    ]
+  },
+  {
+    "id": 50,
+    "topicsId": 450,
+    "q": "The indirect speech of the sentence: Sally said to me, 'Please get me a drink' is:",
+    "options": [
+      "Sally told me to get a drink for her.",
+      "Sally told me to get a drink.",
+      "Sally asked me to get her a drink.",
+      "Sally inquired me to have a drink for her."
+    ],
+    "ans": 2,
+    "explain": "অনুরোধের ক্ষেত্রে 'requested' বা 'asked' ব্যবহৃত হতে পারে। এরপর to + verb এবং person-এর পরিবর্তন ঘটে।",
+    "source": [
+      "স্থানীয় সরকার বিভাগের অধীন জনস্বাস্থ্য প্রকৌশল অধিদপ্তরের এস্টিমেটর ২০১৮"
+    ]
+  },
+  {
+    "id": 51,
+    "topicsId": 450,
+    "q": "Nafis said to Romel, 'Go away' indirect speech - .",
+    "options": [
+      "Nafis asked Romel to go away.",
+      "Nafis requested Romel to go away.",
+      "Nafis requested Romel to go.",
+      "Nafis said Romel to go away."
+    ],
+    "ans": 0,
+    "explain": "Imperative sentence-এ আদেশ বোঝালে 'ordered' বা 'asked' ব্যবহার করা যায়।",
+    "source": [
+      "পল্লী উন্নয়ন ও সমবায় বিভাগের একটি বাড়ি একটি খামার প্রকল্পের ফিল্ড সুপারভাইজার ২০১৮"
+    ]
+  },
+  {
+    "id": 52,
+    "topicsId": 450,
+    "q": "Choose the correct indirect form of the following sentence: He said to me, 'I don't believe you'.",
+    "options": [
+      "He said that he didn't believe you",
+      "He said he hadn't believe me.",
+      "He told me that he didn't believe me.",
+      "He told me he wouldn't believe me."
+    ],
+    "ans": 2,
+    "explain": "Present indefinite sentence-টি past indefinite-এ পরিবর্তিত হয়েছে এবং person-এর পরিবর্তন সঠিক হয়েছে।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়/বিভাগ/অধিদপ্তরের ব্যক্তিগত কর্মকর্তা (সাধারণ) ২০১৮/ বাংলাদেশ অর্থনৈতিক অঞ্চল কর্তৃপক্ষ (ইউতঅ)-এর সহকারী ব্যবস্থাপক ২০১৮"
+    ]
+  },
+  {
+    "id": 53,
+    "topicsId": 450,
+    "q": "Change the speech ‘He said good morning Mr. Kamal'",
+    "options": [
+      "He told Mr. Kamal good morning",
+      "He said Mr. Kamal good morning",
+      "He wished Mr. Kamal good morning",
+      "He was wished Mr. Kamal good moring"
+    ],
+    "ans": 2,
+    "explain": "Greeting বা অভিবাদনের ক্ষেত্রে reporting verb হিসেবে 'wished' ব্যবহৃত হয়।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয়ঃ সহকারী শিক্ষক ২০১৯/পল্লী উন্নয়ন ও সমবায় বিভাগের একটি বাড়ি একটি খামার প্রকল্পের জেলা সমন্বয়কারী ২০১৭"
+    ]
+  },
+  {
+    "id": 54,
+    "topicsId": 450,
+    "q": "She said, 'Let me come in' which of the following is correct indirect form of speech ?",
+    "options": [
+      "She said that she may come in",
+      "She said she might come in",
+      "She requested that she may be allowed to come in",
+      "She requested that she might come in"
+    ],
+    "ans": 3,
+    "explain": "'Let me' থাকলে indirect-এ 'might' বা 'might be allowed to' ব্যবহৃত হয়।",
+    "source": [
+      "উন্নয়ন ও সমবায় বিভাগের একটি বাড়ি একটি খামার প্রকল্পের জেলা সমন্বয়কারী ২০১৭"
+    ]
+  },
+  {
+    "id": 55,
+    "topicsId": 450,
+    "q": "Choose the right indirect Speech: 'What are you doing? asked the teacher.",
+    "options": [
+      "The teacher asked what he was doing",
+      "The teacher asked what was he doing",
+      "The teacher asked what is he doing",
+      "The teacher asked what are you doing."
+    ],
+    "ans": 0,
+    "explain": "Indirect Interrogative sentence-এ wh-word-এর পর অবশ্যই আগে subject এবং পরে verb বসবে।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়ের অধীনে সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 56,
+    "topicsId": 450,
+    "q": "I said to him, “Is he a Doctor?” Turn the sentence into indirect speech.",
+    "options": [
+      "I said to him that he was a doctor",
+      "I asked him whether he is a doctor",
+      "I said to him whether he a doctor",
+      "I asked him whether he was a doctor"
+    ],
+    "ans": 3,
+    "explain": "Auxiliary verb দিয়ে প্রশ্ন শুরু হলে link word হিসেবে 'whether' বা 'if' ব্যবহৃত হয় এবং tense পরিবর্তিত হয়।",
+    "source": [
+      "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের নার্সিং ও মিডওয়াইফ অধিদপ্তরের মিডওয়াইফ ২০১৭"
+    ]
+  },
+  {
+    "id": 57,
+    "topicsId": 450,
+    "q": "Put the correct verb in the gap: He said that he---not come to the meeting room.",
+    "options": [
+      "will",
+      "Shall",
+      "would",
+      "should"
+    ],
+    "ans": 2,
+    "explain": "বাক্যটি indirect speech-এ আছে এবং reporting verb (said) অতীতে থাকায় reported part-এ future in past (would) বসবে।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয়ের নার্সিং সেবা অধিদপ্তরের মিডওয়াইফ ২০১৭"
+    ]
+  },
+  {
+    "id": 58,
+    "topicsId": 450,
+    "q": "He said, “Good morning. Mr. Kamal.” বাক্যটির Indirect Speech হবে -",
+    "options": [
+      "He had wished Mr. Kamal good morning.",
+      "He wished Mr. Kamal good morning.",
+      "He said Mr. Kamal good morning.",
+      "He told Mr. Kamal good morning."
+    ],
+    "ans": 1,
+    "explain": "Wished এর পর সরাসরি যাকে উইশ করা হয়েছে তাকে বসিয়ে অভিবাদন সূচক শব্দটি বসাতে হয়।",
+    "source": [
+      "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড-২০১৭"
+    ]
+  },
+  {
+    "id": 59,
+    "topicsId": 450,
+    "q": "The indirect form of the sentence “Farida said to her mother, 'I shall go to bed now', is-",
+    "options": [
+      "Farida told her mother that she should go to bed",
+      "Farida told her mother that she will go to bed",
+      "Farida told her mother that she would go to bed then.",
+      "Farida told her mother that she will go to bed now."
+    ],
+    "ans": 2,
+    "explain": "Indirect speech-এ 'shall' পরিবর্তিত হয়ে 'would' এবং 'now' পরিবর্তিত হয়ে 'then' হয়েছে।",
+    "source": [
+      "সাধারণ বীমা কর্পোরেশন (SBM) জুনিয়র অফিসার-২০১৬"
+    ]
+  },
+  {
+    "id": 60,
+    "topicsId": 450,
+    "q": "He said, 'Farewell, my friends'",
+    "options": [
+      "He said to his friends farewell",
+      "He told to his friends farewell",
+      "He told addressing his friends",
+      "He bade farewell to his friends"
+    ],
+    "ans": 3,
+    "explain": "বিদায় জানানোর ক্ষেত্রে reporting verb হিসেবে 'bade' (bid এর past form) ব্যবহৃত হয়।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ-২০১৭"
+    ]
+  },
+  {
+    "id": 61,
+    "topicsId": 450,
+    "q": "The boy said, “I shall go to school tomorrow.” - Change this into indirect speech.",
+    "options": [
+      "The boy said that he shall go to school the next day.",
+      "The boy said that he should go to school the next day.",
+      "The boy said that he will go to school tomorrow.",
+      "The boy said that he would go to school the next day."
+    ],
+    "ans": 3,
+    "explain": "Indirect-এ 'shall' পরিবর্তিত হয়ে 'would' এবং 'tomorrow' পরিবর্তিত হয়ে 'the next day' হয়।",
+    "source": [
+      "গণপূর্ত অধিদপ্তরের কম্পিউটার অপারেটর ২০১৬"
+    ]
+  },
+  {
+    "id": 62,
+    "topicsId": 450,
+    "q": "The boy from the village said, 'I --- starve than beg'",
+    "options": [
+      "better",
+      "rather",
+      "would rather",
+      "would better"
+    ],
+    "ans": 2,
+    "explain": "পছন্দ বা দুটি কাজের মধ্যে একটিকে বেছে নেওয়া বোঝালে 'would rather' ব্যবহৃত হয়।",
+    "source": [
+      "বাংলাদেশ রেলওয়ে উপসহকারী (সিভিল) ২০১৬"
+    ]
+  },
+  {
+    "id": 63,
+    "topicsId": 450,
+    "q": "He promised that he — come next Monday.",
+    "options": [
+      "will",
+      "Should",
+      "can",
+      "Would"
+    ],
+    "ans": 3,
+    "explain": "Reporting verb past tense-এ থাকলে এবং ভবিষ্যতে কিছু ঘটার কথা বললে indirect-এ 'would' বসে।",
+    "source": [
+      "পরিসংখ্যান ব্যুরোর জুনিয়ন পরিসংখ্যান সহকারী ২০১৬"
+    ]
+  },
+  {
+    "id": 64,
+    "topicsId": 450,
+    "q": "I asked him------.",
+    "options": [
+      "What-is his name",
+      "What was his name",
+      "What his name is",
+      "What his name was"
+    ],
+    "ans": 3,
+    "explain": "Indirect question-এর গঠন অনুযায়ী wh-word এর পর subject + verb (was) হবে।",
+    "source": [
+      "ডাক অধিদপ্তরের উপজেলা পোষ্টমাস্টার ২০১৬"
+    ]
+  },
+  {
+    "id": 65,
+    "topicsId": 450,
+    "q": "Change the narration: He remarked, “two and two makes four.”",
+    "options": [
+      "He remarked that two and two would make four.",
+      "He remarked that two and two made four.",
+      "He remarked that two and two makes four.",
+      "He adviced that two and two makes four."
+    ],
+    "ans": 2,
+    "explain": "গাণিতিক সত্য বা চিরন্তন সত্যের ক্ষেত্রে tense-এর কোনো পরিবর্তন হয় না।",
+    "source": [
+      "ডাক অধিদপ্তরের উপজেলা পোষ্টমাস্টার ২০১৬"
+    ]
+  },
+  {
+    "id": 66,
+    "topicsId": 450,
+    "q": "Which is the reported speech of the sentence “He said, the earth moves round the sun” ?",
+    "options": [
+      "He said that the earth was moving round the sun.",
+      "He said that the earth is moving round the sun.",
+      "He said that the earth moved round the sun.",
+      "He said that the earth moves round the sun."
+    ],
+    "ans": 3,
+    "explain": "পৃথিবী সূর্যের চারদিকে ঘোরে এটি একটি চিরন্তন সত্য, তাই এর tense অপরিবর্তিত থাকবে।",
+    "source": [
+      "প্রতিরক্ষা মন্ত্রণালয়ের সিভিলিয়ান স্টাফ অফিসার এবং সহকারী পরিচালক ২০১৬"
+    ]
+  }
+,
+  {
+    "id": 67,
+    "topicsId": 450,
+    "q": "The word 'difficult' in its superlative form ------?",
+    "options": [
+      "difficultest",
+      "very difficultest",
+      "very difficult",
+      "most difficult"
+    ],
+    "ans": 3,
+    "explain": "যেসব Adjective-এর সিলেবল (syllable) দুই বা ততোধিক, সেগুলোর Superlative করার সময় শব্দের আগে 'most' যুক্ত করতে হয়। তাই 'difficult'-এর সুপারলেটিভ ফর্ম 'most difficult'।",
+    "source": [
+      "সমবায় অধিদপ্তর (মাঠ সহকারি) পরীক্ষা ২০১৮"
+    ]
+  },
+  {
+    "id": 68,
+    "topicsId": 450,
+    "q": "He is ---- in the class.",
+    "options": [
+      "tall",
+      "taller",
+      "tallest",
+      "the tallest"
+    ],
+    "ans": 3,
+    "explain": "সুপারলেটিভ ডিগ্রির ক্ষেত্রে সাধারণত Adjective-এর সুপারলেটিভ ফর্মের (tallest) আগে 'the' বসে। তাই সঠিক উত্তর 'the tallest'।",
+    "source": [
+      "সমবায় অধিদপ্তর (মাঠ সহকারি) পরীক্ষা ২০১৮"
+    ]
+  },
+  {
+    "id": 69,
+    "topicsId": 450,
+    "q": "Choose the correct sentence.",
+    "options": [
+      "My pen is costly than yours",
+      "My pen is costly to yours",
+      "My pen is costly from yours",
+      "My pen is costly with yours"
+    ],
+    "ans": 0,
+    "explain": "দুটি বস্তুর মধ্যে তুলনা করতে কম্পারেটিভ ডিগ্রি ব্যবহৃত হয়। যদিও সাধারণত 'costlier than' হওয়ার কথা, কিন্তু অপশনগুলোর মধ্যে 'than' যুক্ত বাক্যটিই তুলনামূলক সঠিক কাঠামো নির্দেশ করে।",
+    "source": [
+      "সমবায় অধিদপ্তর (মাঠ সহকারি) পরীক্ষা ২০১৮"
+    ]
+  },
+  {
+    "id": 70,
+    "topicsId": 450,
+    "q": "Choose the correct sentence:",
+    "options": [
+      "Among my friends he is eldest",
+      "He is comparatively better today",
+      "He is better than all the boys",
+      "He is the best boy in the class"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'He is the best boy in the class' বাক্যটি শুদ্ধ সুপারলেটিভ স্ট্রাকচার (the + superlative degree + noun)। অন্য বিকল্পগুলোতে আর্টিকেল বা পজিশনগত ভুল রয়েছে।",
+    "source": [
+      "সমবায় অধিদপ্তর (মাঠ সহকারি) পরীক্ষা ২০১৮"
+    ]
+  },
+  {
+    "id": 71,
+    "topicsId": 450,
+    "q": "Which one is the Comparative form of worst ?",
+    "options": [
+      "Weaker",
+      "Worse",
+      "Worser",
+      "Bad"
+    ],
+    "ans": 1,
+    "explain": "Bad (Positive) -> Worse (Comparative) -> Worst (Superlative)। সুতরাং 'worst'-এর কম্পারেটিভ ফর্ম হলো 'Worse' ।",
+    "source": [
+      "সমবায় অধিদপ্তর (মাঠ সহকারি) পরীক্ষা ২০১৮"
+    ]
+  },
+  {
+    "id": 72,
+    "topicsId": 450,
+    "q": "Which of the following sentence is correct ?",
+    "options": [
+      "He is one of the most rudest men I 've ever met.",
+      "He is rudest men I 've ever met.",
+      "He is one of the rudest men I 've ever met.",
+      "Of all men I 've ever met , he is the rudest"
+    ],
+    "ans": 2,
+    "explain": "'one of the' এর পর Adjective-এর সুপারলেটিভ ডিগ্রি বসে এবং এরপরের Noun-টি Plural (men) হয়। 'rude'-এর সুপারলেটিভ ফর্ম 'rudest', তাই 'most rudest' বলা ভুল (Double Superlative)।",
+    "source": [
+      "সমবায় অধিদপ্তর (মাঠ সহকারি) পরীক্ষা ২০১৮"
+    ]
+  },
+  {
+    "id": 73,
+    "topicsId": 450,
+    "q": "Which is the corriect comparative form of Adjective ?",
+    "options": [
+      "This book is not finer than yours",
+      "Your book is finer than this",
+      "Your book is as finer as this",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "কম্পারেটিভ ডিগ্রিতে Adjective-এর পর 'than' বসে। 'fine'-এর কম্পারেটিভ রূপ 'finer'। 'Your book is finer than this' বাক্যটি ব্যাকরণগতভাবে সঠিক।",
+    "source": [
+      "সমবায় অধিদপ্তর (মাঠ সহকারি) পরীক্ষা ২০১৮"
+    ]
+  },
+  {
+    "id": 74,
+    "topicsId": 450,
+    "q": "Mango is one of the sweetest fruits of the world.",
+    "options": [
+      "Mango is more sweer than any other fruits in the world",
+      "Mango is sweeter than all other fruits in the world",
+      "Mango is sweerter than most other fruits in the world",
+      "Mango is sweeter than any other fruits in the world"
+    ],
+    "ans": 3,
+    "explain": "Superlative থেকে Comparative করার সময় 'one of the' থাকলে 'than most other' বা 'than any other' ব্যবহৃত হয়। এখানে অপশন ৪-এ 'sweeter than any other' কাঠামোটি সঠিক।",
+    "source": [
+      "সমবায় অধিদপ্তর (মাঠ সহকারি) পরীক্ষা ২০১৮"
+    ]
+  },
+  {
+    "id": 75,
+    "topicsId": 450,
+    "q": "Prices for bicycles can run----TK. 2,000.00.",
+    "options": [
+      "as high as",
+      "so high as",
+      "as high to",
+      "as high for"
+    ],
+    "ans": 0,
+    "explain": "পজিটিভ ডিগ্রিতে তুলনা বোঝাতে 'as + adjective + as' ব্যবহৃত হয়। 'as high as' এখানে দামের সমতা বা সীমা নির্দেশ করছে।",
+    "source": [
+      "১৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 76,
+    "topicsId": 450,
+    "q": "The greater the demand........, the price.",
+    "options": [
+      "high",
+      "higher",
+      "the higher",
+      "the highest"
+    ],
+    "ans": 2,
+    "explain": "এটি 'Parallelism'-এর নিয়ম। যদি বাক্যের এক অংশ 'The + comparative' দিয়ে শুরু হয়, তবে অন্য অংশটিও 'The + comparative' দিয়ে শুরু হবে। তাই 'the higher' সঠিক।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহায়ক) -২১/ মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর (ল্যাবরেটরী সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 77,
+    "topicsId": 450,
+    "q": "The...... she tried, the..... she performed.",
+    "options": [
+      "harder, worse",
+      "hard, hardest",
+      "hardest, hard",
+      "hardly, harder"
+    ],
+    "ans": 0,
+    "explain": "যতই... ততই... বোঝাতে উভয় অংশেই 'The + comparative' বসে। 'harder' এবং 'worse' উভয়ই কম্পারেটিভ ফর্ম।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ (নিরাপত্তা অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 78,
+    "topicsId": 450,
+    "q": "Select the correct comparative form of the sentence: A string of pearls was not so bright as her teeth!",
+    "options": [
+      "Her teeth was more brighter than a string of pearls",
+      "Her teeth were brighter than a string of pearls",
+      "A string of pearls was brighter than her teeth",
+      "A string of pearls were very bright than her teeth."
+    ],
+    "ans": 1,
+    "explain": "পজিটিভ থেকে কম্পারেটিভ করার সময় শেষের সাবজেক্ট (her teeth) আগে আসবে। 'teeth' প্লুরাল হওয়ায় 'were' বসবে এবং 'so bright as' পরিবর্তিত হয়ে 'brighter than' হবে।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 79,
+    "topicsId": 450,
+    "q": "Dhaka is becoming one of the---- cities in Asia.",
+    "options": [
+      "more busy",
+      "busy",
+      "busiest",
+      "most busiest"
+    ],
+    "ans": 2,
+    "explain": "'one of the' এর পর সুপারলেটিভ ডিগ্রি বসে। 'busy'-এর সুপারলেটিভ ফর্ম 'busiest'। 'most busiest' ভুল কারণ 'busiest' নিজেই সুপারলেটিভ।",
+    "source": [
+      "২৮তম বিসিএস / আমদানি ও রপ্তানি প্রধান নিয়ন্ত্রকের দপ্তরের অধীনে অফিস সহায়ক পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 80,
+    "topicsId": 450,
+    "q": "She is beautiful but she is---- her mother.",
+    "options": [
+      "most beautiful",
+      "less beautiful",
+      "as beautiful",
+      "not so beautiful as"
+    ],
+    "ans": 3,
+    "explain": "বাক্যে 'but' থাকায় একটি বৈপরীত্য প্রকাশ পাচ্ছে। 'সে সুন্দরী কিন্তু তার মায়ের মতো অতটা সুন্দরী নয়' বোঝাতে 'not so beautiful as' সঠিক।",
+    "source": [
+      "২৪তম বিসিএস বাতিলকৃত"
+    ]
+  },
+  {
+    "id": 81,
+    "topicsId": 450,
+    "q": "Which one is the correct sentence ?",
+    "options": [
+      "Dhaka is the biggest city in the Bangladesh",
+      "The Dhaka is the biggest city in the Bangladesh",
+      "Dhaka is the biggest city in Bangladesh",
+      "Dhaka is biggest city in Bangladesh"
+    ],
+    "ans": 2,
+    "explain": "শহরের নামের আগে 'The' বসে না এবং দেশের নামের (Bangladesh) আগেও সাধারণ ক্ষেত্রে 'the' বসে না। সুপারলেটিভের আগে 'the' বসিয়ে সঠিক বাক্যটি হলো 'Dhaka is the biggest city in Bangladesh'।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 82,
+    "topicsId": 450,
+    "q": "Coose the correct sentence .",
+    "options": [
+      "The house of our village is better than yours",
+      "The house of our village is good than yours",
+      "The house of our village are good than those of yours",
+      "The house of our village are better than those of yours"
+    ],
+    "ans": 3,
+    "explain": "তুলনা করার সময় সাবজেক্ট প্লুরাল (houses/house) হলে এবং তুলনাটি সুনির্দিষ্ট হলে 'those of' ব্যবহার করতে হয়। এখানে 'better than those of yours' গ্রামাটিক্যালি সঠিক।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 83,
+    "topicsId": 450,
+    "q": "I prepare my lesson ----- than you. Fill up the blank by -----",
+    "options": [
+      "carefully",
+      "most carefully",
+      "so carefully",
+      "more carefully"
+    ],
+    "ans": 3,
+    "explain": "'than' শব্দটি কম্পারেটিভ ডিগ্রিকে নির্দেশ করে। 'carefully' একটি অ্যাডভার্ব যার কম্পারেটিভ রূপ হলো 'more carefully' ।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 84,
+    "topicsId": 450,
+    "q": "Choose the correct sentence ?",
+    "options": [
+      "This is the wisest plan of the two",
+      "This is the wiser plan of the two",
+      "This is the wiser plan between the two",
+      "This is the wisest plan among the two"
+    ],
+    "ans": 1,
+    "explain": "যদি দুটির মধ্যে তুলনা করা হয় এবং 'of the two' উল্লেখ থাকে, তবে কম্পারেটিভ ডিগ্রির আগে 'the' বসে। তাই 'the wiser plan of the two' সঠিক।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 85,
+    "topicsId": 450,
+    "q": "Less students were present in the class than we had expected .(Identify the worng word)",
+    "options": [
+      "less",
+      "were",
+      "in",
+      "than"
+    ],
+    "ans": 0,
+    "explain": "'students' একটি Countable Noun। কাউন্টেবল নাউনের ক্ষেত্রে 'less' (uncountable-এর জন্য) না বসে 'fewer' বসা উচিত ছিল। তাই 'less' শব্দটি ভুল।",
+    "source": [
+      "জনস্বাস্থ্য প্রকৌশল অধিদপ্তর (ক্লার্ক-কাম-টাইপিস্ট)-২১"
+    ]
+  },
+  {
+    "id": 86,
+    "topicsId": 450,
+    "q": "Which one is superlative form of 'Little' ?",
+    "options": [
+      "More little",
+      "Lest",
+      "Less",
+      "Least"
+    ],
+    "ans": 3,
+    "explain": "Little (Positive) -> Less/Lesser (Comparative) -> Least (Superlative)। সুতরাং সঠিক উত্তর 'Least'।",
+    "source": [
+      "জনস্বাস্থ্য প্রকৌশল অধিদপ্তর (ক্লার্ক-কাম-টাইপিস্ট)-২১"
+    ]
+  },
+  {
+    "id": 87,
+    "topicsId": 450,
+    "q": "I thought that-----was the last one.",
+    "options": [
+      "the most prettiest of all",
+      "prettiest one of all",
+      "the prettiest one form all",
+      "the prettiest one of all"
+    ],
+    "ans": 3,
+    "explain": "সুপারলেটিভ ডিগ্রির নিয়ম হলো: 'the + adjective-এর superlative form + of all'। 'pretty'-এর সুপারলেটিভ 'prettiest'।",
+    "source": [
+      "২৪তম বিসিএস বাতিলকৃত"
+    ]
+  },
+  {
+    "id": 88,
+    "topicsId": 450,
+    "q": "Which is the superlative degree of “dirty” ?",
+    "options": [
+      "Dirtyest",
+      "Dirtly",
+      "Dirtier",
+      "Dirtiest"
+    ],
+    "ans": 3,
+    "explain": "যেসব শব্দের শেষে 'y' থাকে, সেগুলোকে সুপারলেটিভ করার সময় 'y' উঠে গিয়ে 'iest' যুক্ত হয়। যেমন: dirty -> dirtiest।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 89,
+    "topicsId": 450,
+    "q": "Which one is not example of comparative degree ?",
+    "options": [
+      "Upper",
+      "Less",
+      "Worst",
+      "Highest",
+      "গ, ঘ"
+    ],
+    "ans": 4,
+    "explain": "এখানে 'Worst' এবং 'Highest' উভয়ই সুপারলেটিভ ডিগ্রি। প্রশ্নে কম্পারেটিভ নয় কোনটি তা জানতে চাওয়া হয়েছে, তাই গ (Worst) ও ঘ (Highest) উভয়ই সঠিক উত্তর।",
+    "source": [
+      "জনস্বাস্থ্য প্রকৌশল অধিদপ্তর (ক্লার্ক-কাম-টাইপিস্ট)-২১"
+    ]
+  },
+  {
+    "id": 90,
+    "topicsId": 450,
+    "q": "Which sentence is correct ?",
+    "options": [
+      "He is as good as mine",
+      "He is as good as myself",
+      "He is as good as me",
+      "He is as good as I"
+    ],
+    "ans": 3,
+    "explain": "তুলনা করার সময় 'as...as' এর পর সাধারণত Pronoun-এর Nominative form (I, He, She) বসে। যদিও কথ্য ইংরেজিতে 'me' চলে, কিন্তু ব্যাকরণগতভাবে 'I' শুদ্ধ।",
+    "source": [
+      "সিনিয়র স্টাফ নার্স নিয়োগ পরীক্ষা 2021"
+    ]
+  },
+  {
+    "id": 91,
+    "topicsId": 450,
+    "q": "He is the ---- teacher in the school.",
+    "options": [
+      "good",
+      "bad",
+      "worse",
+      "best"
+    ],
+    "ans": 3,
+    "explain": "স্কুলের সকল শিক্ষকের মধ্যে তুলনা করা হচ্ছে এবং শূন্যস্থানের আগে 'the' আছে, তাই এখানে সুপারলেটিভ ডিগ্রি 'best' বসবে।",
+    "source": [
+      "সিনিয়র স্টাফ নার্স নিয়োগ পরীক্ষা 2021"
+    ]
+  },
+  {
+    "id": 92,
+    "topicsId": 450,
+    "q": "Which is the corriect sentence ?",
+    "options": [
+      "He is a most perfect judge.",
+      "He is a very perfect judge.",
+      "He is the most perfect judge.",
+      "He is a perfect judge."
+    ],
+    "ans": 3,
+    "explain": "কিছু Adjective যেমন: Perfect, Unique, Round, Supreme ইত্যাদির কোনো তারতম্য বা ডিগ্রি হয় না (Absolute Adjective)। তাই এদের আগে 'most' বা 'very' বসে না।",
+    "source": [
+      "সিনিয়র স্টাফ নার্স নিয়োগ পরীক্ষা 2021"
+    ]
+  },
+  {
+    "id": 93,
+    "topicsId": 450,
+    "q": "What is the superlative degree of word out ?",
+    "options": [
+      "outer",
+      "outmost",
+      "outset",
+      "utmost"
+    ],
+    "ans": 1,
+    "explain": "'Out'-এর সুপারলেটিভ ফর্ম হিসেবে 'outmost' অথবা 'outermost' ব্যবহৃত হয়। 'utmost' ও সুপারলেটিভ হিসেবে ব্যবহৃত হয় তবে তা গুরুত্ব বোঝাতে বেশি ব্যবহৃত হয়।",
+    "source": [
+      "জনস্বাস্থ্য প্রকৌশল অধিদপ্তর (ক্লার্ক-কাম-টাইপিস্ট)-২১"
+    ]
+  },
+  {
+    "id": 94,
+    "topicsId": 450,
+    "q": "Which one is not an example of Comperative Degree ?",
+    "options": [
+      "Much",
+      "Less",
+      "More",
+      "Worse"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'Less', 'More', এবং 'Worse' সবই কম্পারেটিভ ডিগ্রি। 'Much' হলো পজিটিভ ডিগ্রি। (দ্রষ্টব্য: অপশন বা উত্তরে টেকনিক্যাল ভুল থাকতে পারে, তবে 'Much' নিশ্চিতভাবে কম্পারেটিভ নয়)।",
+    "source": [
+      "সিনিয়র স্টাফ নার্স নিয়োগ পরীক্ষা 2021"
+    ]
+  },
+  {
+    "id": 95,
+    "topicsId": 450,
+    "q": "What is the superlative degree of ‘Bad’",
+    "options": [
+      "Worst",
+      "least",
+      "worse",
+      "best"
+    ],
+    "ans": 0,
+    "explain": "Bad (পজিটিভ) -> Worse (কম্পারেটিভ) -> Worst (সুপারলেটিভ)।",
+    "source": [
+      "সিনিয়র স্টাফ নার্স নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 96,
+    "topicsId": 450,
+    "q": "Choose sentence is correct ?",
+    "options": [
+      "One's fingerprints are different from those of any other person",
+      "One's fingerprints are different from any other person",
+      "One's fingerprints differ from another person",
+      "One's fingerprints are different any other person"
+    ],
+    "ans": 0,
+    "explain": "আঙুলের ছাপের সাথে অন্য ব্যক্তির তুলনা হতে পারে না, তুলনা হতে হবে অন্য ব্যক্তির আঙুলের ছাপের সাথে। তাই 'those of' ব্যবহার করে তুলনাটি সঠিক করা হয়েছে।",
+    "source": [
+      "জীবন বীমা কর্পোরেশন (উচ্চমান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 97,
+    "topicsId": 450,
+    "q": "Nature is the ----- physician.",
+    "options": [
+      "good",
+      "better",
+      "best",
+      "excellent"
+    ],
+    "ans": 2,
+    "explain": "এখানে প্রকৃতির গুণকে সবার উপরে স্থান দেওয়া হচ্ছে এবং আগে 'the' আছে, তাই সুপারলেটিভ ডিগ্রি 'best' বসবে।",
+    "source": [
+      "জীবন বীমা কর্পোরেশন (উচ্চমান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 98,
+    "topicsId": 450,
+    "q": "The word 'worse' is the comparative form of the adjective :",
+    "options": [
+      "good",
+      "bad",
+      "far",
+      "little"
+    ],
+    "ans": 1,
+    "explain": "'Bad' বা 'Evil' বা 'Ill'-এর কম্পারেটিভ ফর্ম হলো 'worse' ।",
+    "source": [
+      "জীবন বীমা কর্পোরেশন (উচ্চমান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 99,
+    "topicsId": 450,
+    "q": "The more you practise speaking ------?",
+    "options": [
+      "you will do it better",
+      "the better you will do it",
+      "do it better",
+      "better you will do it"
+    ],
+    "ans": 1,
+    "explain": "সমান্তরাল পরিবর্তনের নিয়মে 'The more..., the better...' কাঠামোটি সঠিক।",
+    "source": [
+      "তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তরে সহকারী প্রোগ্রামার – ২০২০"
+    ]
+  },
+  {
+    "id": 100,
+    "topicsId": 450,
+    "q": "কোনটি 'Superlative degree'-এর অন্তর্ভুক্ত ?",
+    "options": [
+      "better",
+      "further",
+      "less",
+      "worst"
+    ],
+    "ans": 3,
+    "explain": "অপশনগুলোর মধ্যে 'worst' হলো 'bad'-এর সুপারলেটিভ ফর্ম। বাকিগুলো পজিটিভ বা কম্পারেটিভ।",
+    "source": [
+      "তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তরে সহকারী প্রোগ্রামার – ২০২০"
+    ]
+  },
+  {
+    "id": 101,
+    "topicsId": 450,
+    "q": "Complete the sentence with appropriate word .Helal's luck couldn't have been --- than Ahnaf.",
+    "options": [
+      "worst",
+      "worser",
+      "worse",
+      "worsted"
+    ],
+    "ans": 2,
+    "explain": "'than' আছে মানে এটি কম্পারেটিভ ডিগ্রি হবে। 'Bad'-এর কম্পারেটিভ ফর্ম 'worse'।",
+    "source": [
+      "তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তরে সহকারী প্রোগ্রামার – ২০২০"
+    ]
+  },
+  {
+    "id": 102,
+    "topicsId": 450,
+    "q": "Where is the…… post office ?",
+    "options": [
+      "most near",
+      "nearest",
+      "nearer",
+      "more near"
+    ],
+    "ans": 1,
+    "explain": "নিকটতম কোনো স্থান খুঁজতে সুপারলেটিভ ডিগ্রি 'nearest' ব্যবহৃত হয়।",
+    "source": [
+      "জীবন বীমা কর্পোরেশন (উচ্চমান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 103,
+    "topicsId": 450,
+    "q": "The comparative degree of the word 'bad' is-",
+    "options": [
+      "badder",
+      "baddest",
+      "worse",
+      "worsers"
+    ],
+    "ans": 2,
+    "explain": "'Bad' শব্দের কম্পারেটিভ রূপ 'worse' এবং সুপারলেটিভ রূপ 'worst' ।",
+    "source": [
+      "তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তরে সহকারী প্রোগ্রামার – ২০২০"
+    ]
+  },
+  {
+    "id": 104,
+    "topicsId": 450,
+    "q": "What is the comparative form of 'Alam is the best in the class ?",
+    "options": [
+      "Alam is better than any other boy in the class",
+      "Alam is better than most other boys in the class",
+      "Alam is better than all other boys in the class",
+      "Other boy in the class are better than Alam"
+    ],
+    "ans": 0,
+    "explain": "সুপারলেটিভ ডিগ্রিতে 'the + adjective' থাকলে কম্পারেটিভ করার সময় 'than any other' ব্যবহার করতে হয় এবং এরপর Noun-টি Singular হয়।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর (ইঞ্জিনিয়ারিং কলেজ এর ক্যাশ সরকার/অফিস সহায়) -২১/ বাংলাদেশ পরিসংখ্যান ব্যুরোর অধীনে থানা পরিসংখ্যান পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 105,
+    "topicsId": 450,
+    "q": "Which one is an example of Superlative Drgree ?",
+    "options": [
+      "Little",
+      "Least",
+      "Less",
+      "Near"
+    ],
+    "ans": 1,
+    "explain": "'Little'-এর সুপারলেটিভ রূপ হলো 'Least'।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন চলচ্চিত্র ও প্রকাশনা অধিদপ্তরের ক্যামেরাম্যান ২০১৯/ ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়ের সহকারী প্রোগ্রামার ২০১৭"
+    ]
+  },
+  {
+    "id": 106,
+    "topicsId": 450,
+    "q": "What is the superlative degree of the word 'shy' ?",
+    "options": [
+      "Shy",
+      "Shyer",
+      "Shyesle",
+      "Shiest"
+    ],
+    "ans": 3,
+    "explain": "'Shy' শব্দটির সুপারলেটিভ করার সময় 'y' পরিবর্তিত হয়ে 'i' হয় এবং 'est' যুক্ত হয়ে 'shiest' হয়।",
+    "source": [
+      "বাংলাদেশ বেতারের সহ-সম্পাদক ২০১৯"
+    ]
+  },
+  {
+    "id": 107,
+    "topicsId": 450,
+    "q": "--- if not prettier than any other girl at the party.",
+    "options": [
+      "She was a girl as pretty",
+      "She was more pretty than",
+      "She was as pretty",
+      "She was as pretty as"
+    ],
+    "ans": 3,
+    "explain": "পজিটিভ ডিগ্রির কাঠামো 'as + adjective + as'। তাই এখানে 'She was as pretty as' সঠিক।",
+    "source": [
+      "বাংলাদেশ বেতারের সহ-সম্পাদক ২০১৯"
+    ]
+  },
+  {
+    "id": 108,
+    "topicsId": 450,
+    "q": "Which sentence identify superlative degree ?",
+    "options": [
+      "Rose is the finest of all flowers",
+      "The rose is the finest of all flowers",
+      "The rose is finest of all flowers",
+      "The rose is the finest of all flower"
+    ],
+    "ans": 1,
+    "explain": "সঠিক সুপারলেটিভ কাঠামো: 'The + noun + is the + superlative adjective + of all + plural noun' ।",
+    "source": [
+      "বাংলাদেশ বেতারের সহ-সম্পাদক ২০১৯"
+    ]
+  },
+  {
+    "id": 109,
+    "topicsId": 450,
+    "q": "My friend said that no car could go -----?",
+    "options": [
+      "so fast like his car",
+      "as fast as his car",
+      "as fast like his car",
+      "so fast like the carof him"
+    ],
+    "ans": 2,
+    "explain": "পজিটিভ ডিগ্রিতে তুলনা করার জন্য 'as fast as' ব্যবহার করা হয়। এখানে বন্ধুর গাড়ির সাথে অন্য সব গাড়ির গতি তুলনা করা হচ্ছে।",
+    "source": [
+      "বাংলাদেশ বেতারের সহ-সম্পাদক ২০১৯"
+    ]
+  },
+  {
+    "id": 110,
+    "topicsId": 450,
+    "q": "Choose the right sentence:",
+    "options": [
+      "He is senior than me for five years",
+      "He is senior to me for five years",
+      "He is senior from me five years",
+      "He is senior at me for five years"
+    ],
+    "ans": 1,
+    "explain": "কিছু ল্যাটিন অ্যাডজেক্টিভ যেমন: senior, junior, superior, inferior-এর পরে 'than' না বসে 'to' বসে।",
+    "source": [
+      "বাংলাদেশ বেতারের সহ-সম্পাদক ২০১৯"
+    ]
+  },
+  {
+    "id": 111,
+    "topicsId": 450,
+    "q": "Choose the sentence that is the closest restaement of the given sentence : This mask , which dates from the fifth century , is older than any other artifact in the exhibition.",
+    "options": [
+      "The other artifacts in the exhibition are older than the fifth century mask",
+      "The fifth century mask is older than one of the other artifacts in the exhibition",
+      "The fifth century mask is not as old as the other artifacts in the exhibition",
+      "The other artifacts in the exhibition are riot as old as the fifth century mask"
+    ],
+    "ans": 3,
+    "explain": "মূল বাক্যে মাস্কটিকে সবার থেকে পুরনো (older than any other) বলা হয়েছে। এর অর্থ হলো প্রদর্শনীতে থাকা অন্য কোনো কিছু মাস্কটির মতো এত পুরনো নয় (not as old as)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (প্রথম ধাপ) ২০১৯"
+    ]
+  },
+  {
+    "id": 112,
+    "topicsId": 450,
+    "q": "Of the four books, the red one is the—",
+    "options": [
+      "more cheaper",
+      "cheapest",
+      "cheap",
+      "cheaper"
+    ],
+    "ans": 1,
+    "explain": "দুইয়ের অধিক বস্তুর মধ্যে তুলনা করা হলে সুপারলেটিভ ডিগ্রি বসে। যেহেতু চারটি বইয়ের কথা বলা হয়েছে, তাই 'cheapest' সঠিক।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (প্রথম ধাপ) ২০১৯"
+    ]
+  },
+  {
+    "id": 113,
+    "topicsId": 450,
+    "q": "The superlative form of the word 'late' is—",
+    "options": [
+      "Latter",
+      "Last",
+      "latest",
+      "Least"
+    ],
+    "ans": 2,
+    "explain": "'Late'-এর দুটি সুপারলেটিভ ফর্ম আছে: 'latest' (সময় বোঝাতে) এবং 'last' (অবস্থান বোঝাতে)। অপশন অনুযায়ী 'latest' এখানে সঠিক।",
+    "source": [
+      "বাংলাদেশ প্রতিযোগিতা কমিশনের বিভিন্ন পদ ২০১৯/ সহকারী উপজেলা/থানা শিক্ষা অফিসার (ATEO) ২০১৫"
+    ]
+  },
+  {
+    "id": 114,
+    "topicsId": 450,
+    "q": "The roads of Rajshahi are wider –",
+    "options": [
+      "than those of Dhaka",
+      "than Dhaka",
+      "than that of Dhaka",
+      "than Dhaka's roads"
+    ],
+    "ans": 0,
+    "explain": "রাজশাহীর রাস্তার সাথে ঢাকার তুলনা হয় না, তুলনা হবে ঢাকার রাস্তার সাথে। 'roads' প্লুরাল হওয়ায় 'those of Dhaka' ব্যবহৃত হয়েছে।",
+    "source": [
+      "১৫তম শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (স্কুল/সমপর্যায়) ২০১৯"
+    ]
+  },
+  {
+    "id": 115,
+    "topicsId": 450,
+    "q": "Choose the corriect sentence:",
+    "options": [
+      "What do you prefer most?",
+      "What do you prefer ?",
+      "What do you prefer more?",
+      "What do you prefer best?"
+    ],
+    "ans": 1,
+    "explain": "'Prefer' শব্দটির মধ্যেই 'অধিকতর পছন্দ করা' অর্থ নিহিত থাকে, তাই এর সাথে অতিরিক্ত 'most' বা 'more' ব্যবহারের প্রয়োজন হয় না।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 116,
+    "topicsId": 450,
+    "q": "Corruption is one of the worst evils. (Positive)",
+    "options": [
+      "Very few evils is as bad as corruption.",
+      "No other evils are as bad as corruption.",
+      "No other evil is as bad as corruption.",
+      "Very few evils are as bad as corruption"
+    ],
+    "ans": 3,
+    "explain": "সুপারলেটিভ ডিগ্রিতে 'one of the' থাকলে পজিটিভ করার সময় 'Very few' দিয়ে শুরু করতে হয় এবং এর পর Plural Noun ও Plural Verb বসে।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন স্কুল পর‍্যায়-২: ২০১৯"
+    ]
+  },
+  {
+    "id": 117,
+    "topicsId": 450,
+    "q": "Which one is an example of a positive degree ?",
+    "options": [
+      "more",
+      "much",
+      "less",
+      "last"
+    ],
+    "ans": 1,
+    "explain": "'Much' এবং 'Many' হলো পজিটিভ ডিগ্রি। এদের কম্পারেটিভ 'more' এবং সুপারলেটিভ 'most' ।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশনঃ বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 118,
+    "topicsId": 450,
+    "q": "Adjective এর Degree of compasrison.",
+    "options": [
+      "২টি",
+      "৩টি",
+      "৪টি",
+      "৫টি"
+    ],
+    "ans": 1,
+    "explain": "Adjective-এর ডিগ্রিকে ৩ ভাগে ভাগ করা যায়: Positive, Comparative এবং Superlative।",
+    "source": [
+      "সমবায় অধিদপ্তর (মাঠ সহকারি) পরীক্ষা ২০১৮"
+    ]
+  },
+  {
+    "id": 119,
+    "topicsId": 450,
+    "q": "Which one of the following is an example of superlative degree ?",
+    "options": [
+      "much",
+      "least",
+      "less",
+      "worse"
+    ],
+    "ans": 1,
+    "explain": "'Little'-এর সুপারলেটিভ রূপ হলো 'least'। বাকিগুলো পজিটিভ (much) বা কম্পারেটিভ (less, worse)।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয় সুপারিনটেনডেন্ট ২০১৯"
+    ]
+  },
+  {
+    "id": 120,
+    "topicsId": 450,
+    "q": "Modern farms are much larger than--- of former times.",
+    "options": [
+      "that",
+      "those",
+      "this",
+      "that those of"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'farms' (Plural) এর সাথে তুলনা করা হচ্ছে, তাই 'those of' ব্যবহৃত হবে। 'that those of' অপশনটি কোনো বিশেষ মুদ্রণজনিত ত্রুটি হতে পারে, তবে মূলত 'those of' সঠিক।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ মেইল অপারেটর/ স্টেনো টাইপিস্ট কাম কম্পিউটার অপারেটর/ নিম্নমান সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক ২০১৯"
+    ]
+  },
+  {
+    "id": 121,
+    "topicsId": 450,
+    "q": "The performance of our players was rather worst than I had expected.",
+    "options": [
+      "bad as had I expected",
+      "worse than I had expected",
+      "worse than expectation",
+      "worse than was expected"
+    ],
+    "ans": 1,
+    "explain": "তুলনা করতে 'than' ব্যবহৃত হলে তার আগে Adjective-এর কম্পারেটিভ রূপ বসে। 'worst'-এর বদলে 'worse' বসবে।",
+    "source": [
+      "আমদানী রপ্তানি অধিদপ্তর : উচ্চমান সহকারী ২০১৯"
+    ]
+  },
+  {
+    "id": 122,
+    "topicsId": 450,
+    "q": "Easier said----- done.",
+    "options": [
+      "and",
+      "be",
+      "than",
+      "then"
+    ],
+    "ans": 2,
+    "explain": "এটি একটি প্রবাদ বাক্য: 'Easier said than done' (বলা সহজ কিন্তু করা কঠিন)। এখানে কম্পারেটিভ ডিগ্রি হিসেবে 'than' বসেছে।",
+    "source": [
+      "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 123,
+    "topicsId": 450,
+    "q": "The superlative degree of the word 'bad' is---",
+    "options": [
+      "baddest",
+      "worst",
+      "most bad",
+      "the most bad"
+    ],
+    "ans": 1,
+    "explain": "'Bad' একটি Irregular Adjective, যার সুপারলেটিভ রূপ হলো 'Worst' ।",
+    "source": [
+      "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 124,
+    "topicsId": 450,
+    "q": "Identify the correct sentence –",
+    "options": [
+      "He is better and superior than me.",
+      "He is better than and superior to me.",
+      "He is better than and superior to me.",
+      "He is suprior than and better to me."
+    ],
+    "ans": 1,
+    "explain": "ভিন্ন ভিন্ন Adjective যদি ভিন্ন ভিন্ন Preposition গ্রহণ করে, তবে তাদের প্রত্যেককেই বসাতে হয়। 'better'-এর পর 'than' এবং 'superior'-এর পর 'to' বসে।",
+    "source": [
+      "১৫তম প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (কলেজ/সমপর্যায়) ২০১৯"
+    ]
+  },
+  {
+    "id": 125,
+    "topicsId": 450,
+    "q": "Iron is the most useful metal'. The positive form of the sentence is–",
+    "options": [
+      "Very few metals are as useful as iron",
+      "Iron is as useful as many other metals",
+      "No metal is as useful as iron",
+      "Iron is more useful than many other metals"
+    ],
+    "ans": 2,
+    "explain": "সুপারলেটিভ ডিগ্রিতে 'the + adjective' থাকলে পজিটিভ করার সময় 'No other' দিয়ে শুরু করতে হয়।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন বিটিভির সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 126,
+    "topicsId": 450,
+    "q": "Children are wiser than their elders. He wiser is-- ?",
+    "options": [
+      "in positive degree",
+      "in superlative degree",
+      "in comparative degree",
+      "not in any degree"
+    ],
+    "ans": 2,
+    "explain": "Adjective-এর শেষে 'er' যুক্ত হওয়া এবং পরে 'than' থাকা কম্পারেটিভ ডিগ্রির বৈশিষ্ট্য। 'wiser' হলো 'wise'-এর কম্পারেটিভ রূপ।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়ে নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  }
+]

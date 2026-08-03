@@ -1,0 +1,1604 @@
+[
+  {
+    "id": 1,
+    "topicsId": 430,
+    "q": "'Strike while the iron is hot' is an example of-",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverbial clause",
+      "Subordinate clause"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'while the iron is hot' অংশটি 'strike' (verb)-কে মডিফাই করছে এবং সময় নির্দেশ করছে। তাই এটি একটি Adverbial clause of time।",
+    "source": [
+      "৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 2,
+    "topicsId": 430,
+    "q": "This is the book I lost. Here 'I lost' is -",
+    "options": [
+      "A noun clause.",
+      "An adverbial clause.",
+      "An adjective clause",
+      "None of the three"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'I lost' অংশটি তার আগের noun 'book'-কে মডিফাই করছে (মূলত এখানে একটি 'which/that' উহ্য আছে)। Noun-কে মডিফাই করার কারণে এটি একটি Adjective clause।",
+    "source": [
+      "৩৭তম বিসিএস"
+    ]
+  },
+  {
+    "id": 3,
+    "topicsId": 430,
+    "q": "Can you tell me where .......? Which of the following is the best clause in the above sentence ?",
+    "options": [
+      "Does Mr. Ali live",
+      "Mr. Ali does live",
+      "Mr. Ali lives",
+      "Lives Mr. Ali"
+    ],
+    "ans": 2,
+    "explain": "এটি একটি Embedded question। যখন কোনো প্রশ্নবোধক বাক্যের মাঝখানে অন্য একটি clause যুক্ত হয়, তখন ওই অংশটি আর প্রশ্নবোধক থাকে না, সেটি assertive (Subject + Verb) হয়ে যায়। তাই 'Mr. Ali lives' সঠিক।",
+    "source": [
+      "১৪তম বিসিএস"
+    ]
+  },
+  {
+    "id": 4,
+    "topicsId": 430,
+    "q": "He asked me why I was late. Here the underlined clause is –",
+    "options": [
+      "principle clause",
+      "noun clause",
+      "adjective clause",
+      "adverbial clause"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'why I was late' অংশটি 'asked' verb-এর object হিসেবে কাজ করছে। যেহেতু এটি object (যা সাধারণত noun হয়) হিসেবে বসেছে, তাই এটি একটি Noun clause।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১ / পরিবেশ অধিদপ্তরের সহকারী পরিচালকঃ ২০১১"
+    ]
+  },
+  {
+    "id": 5,
+    "topicsId": 430,
+    "q": "She does not know what I want. What type of clause is the underlined part ?)",
+    "options": [
+      "Subordinate clause",
+      "Adverbial clause",
+      "Adjective clause",
+      "Noun clause"
+    ],
+    "ans": 3,
+    "explain": "'know' verb-এর object হিসেবে 'what I want' বসেছে। verb-এর object হিসেবে বসার কারণে এটি একটি Noun clause।",
+    "source": [
+      "পল্লী উন্নয়ন একাডেমী (আরডিএ), বগুড়া - সহকারী পরিচালক -২১"
+    ]
+  },
+  {
+    "id": 6,
+    "topicsId": 430,
+    "q": "Look before you leap --- Here look is",
+    "options": [
+      "a subordinate clause",
+      "not a clause",
+      "the principal clause.",
+      "a verb clause"
+    ],
+    "ans": 2,
+    "explain": "একটি পূর্ণাঙ্গ বাক্যে যে অংশটি স্বাধীনভাবে অর্থ প্রকাশ করতে পারে তাকে Principal clause বলে। এখানে 'Look' নিজেই একটি স্বাধীন আদেশসূচক বাক্য, তাই এটি Principal clause।",
+    "source": [
+      "খাদ্য অধিদপ্তর (উচ্চমান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 7,
+    "topicsId": 430,
+    "q": "He whom you call uncle has died. The under lined part is a/an—",
+    "options": [
+      "Adjective clause",
+      "Noun clause",
+      "adverbial clause",
+      "co-ordinate clause"
+    ],
+    "ans": 0,
+    "explain": "এখানে 'whom you call uncle' অংশটি তার আগে থাকা noun 'He'-এর পরিচয় দিচ্ছে বা তাকে মডিফাই করছে। তাই এটি Adjective clause।",
+    "source": [
+      "পল্লী উন্নয়ন একাডেমী (আরডিএ), বগুড়া - সহকারী পরিচালক – ২১"
+    ]
+  },
+  {
+    "id": 8,
+    "topicsId": 430,
+    "q": "In time of financial crisis, such lavish expenditure should be----",
+    "options": [
+      "curtailed",
+      "justified",
+      "encouraged",
+      "corrected"
+    ],
+    "ans": 0,
+    "explain": "আর্থিক সংকটের সময় বিলাসিতা বা অতিরিক্ত ব্যয় 'ছাঁটাই' বা 'কমানো' (curtail) উচিত। বাক্যের অর্থ অনুযায়ী 'curtailed' সঠিক।",
+    "source": [
+      "পেট্রোবাংলা হিসাব সহকারী ২০১৯"
+    ]
+  },
+  {
+    "id": 9,
+    "topicsId": 430,
+    "q": "The nine months long liberation war was the most testing phase in Bangladesh's history.",
+    "options": [
+      "The nine months long liberation war.",
+      "The long nine months liberation war",
+      "The liberation war of nine months long",
+      "The nine month's long liberation war.",
+      "The nine-month-long liberation war."
+    ],
+    "ans": 4,
+    "explain": "যখন একাধিক শব্দ মিলে একটি adjective হিসেবে কাজ করে (Compound Adjective), তখন সেগুলোর মাঝে hyphen বসে এবং noun টি singular হয় (nine-month-long)।",
+    "source": [
+      "কন্ট্রোলার জেনারেল ডিফেন্স ফাইন্যান্স জুনিয়র অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 10,
+    "topicsId": 430,
+    "q": "Types of adverb clause.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "ans": 2,
+    "explain": "ইংরেজি ব্যাকরণ অনুযায়ী Adverbial clause সাধারণত ৯ প্রকারের হয় (Time, Place, Manner, Cause, Purpose, Result, Condition, Concession, Comparison)।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরো নিয়োগ পরীক্ষা (পরিসংখ্যান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 11,
+    "topicsId": 430,
+    "q": "'The Table has four chairs' This is the example of --- Clause ?",
+    "options": [
+      "Dependent",
+      "Independent",
+      "Subordinate",
+      "Complex"
+    ],
+    "ans": 1,
+    "explain": "এই বাক্যটি কোনো সাহায্য ছাড়াই পূর্ণ অর্থ প্রকাশ করছে। যে clause স্বাধীনভাবে অর্থ প্রকাশ করতে পারে তাকে Independent clause বা Principal clause বলে।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর বাংলাদেশ, ঢাকা (অফিস সহায়ক) নিয়োগ পরীক্ষা-২০ ২০২১"
+    ]
+  },
+  {
+    "id": 12,
+    "topicsId": 430,
+    "q": "As the sun........ I decided to go out.",
+    "options": [
+      "shines",
+      "has shone",
+      "Shine",
+      "was shining"
+    ],
+    "ans": 3,
+    "explain": "বাক্যের পরবর্তী অংশ 'decided' (Past tense) থাকায় প্রথম অংশটিও Past continuous হওয়া যুক্তিযুক্ত। অর্থাৎ, 'সূর্য কিরণ দিচ্ছিল তাই আমি বাইরে যাওয়ার সিদ্ধান্ত নিলাম'।",
+    "source": [
+      "প্রাথমিক ও গণশিক্ষা মন্ত্রণালয়-২০১১"
+    ]
+  },
+  {
+    "id": 13,
+    "topicsId": 430,
+    "q": "-------the country is undeveloped, it is beautiful.",
+    "options": [
+      "Although",
+      "But",
+      "It",
+      "Where"
+    ],
+    "ans": 0,
+    "explain": "দুটি বিপরীতমুখী অবস্থাকে (অনুন্নত কিন্তু সুন্দর) যুক্ত করতে 'Although' (যদিও) ব্যবহৃত হয়।",
+    "source": [
+      "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (সিভিল) ২০১৯"
+    ]
+  },
+  {
+    "id": 14,
+    "topicsId": 430,
+    "q": "The plane has not yet arrived, and I wonder when —",
+    "options": [
+      "it comes",
+      "it has come",
+      "it will come",
+      "it come"
+    ],
+    "ans": 2,
+    "explain": "প্লেনটি এখনো পৌঁছায়নি, তাই এটি ভবিষ্যতে কখন আসবে তা নিয়ে আমি ভাবছি। ভবিষ্যৎ সম্ভাবনা বুঝাতে 'it will come' সঠিক।",
+    "source": [
+      "প্রাথমিক ও গণশিক্ষা মন্ত্রণালয়-২০১১"
+    ]
+  },
+  {
+    "id": 15,
+    "topicsId": 430,
+    "q": "Behave as a gentleman behaves. The underlined part is",
+    "options": [
+      "adverb clause",
+      "an adjective clause",
+      "a noun clause",
+      "a principal clause"
+    ],
+    "ans": 0,
+    "explain": "এখানে 'as a gentleman behaves' অংশটি 'Behave' (verb)-কে মডিফাই করছে এবং আচরণের ধরণ (Manner) বোঝাচ্ছে। তাই এটি Adverbial clause।",
+    "source": [
+      "১১তম বিজেএস (সহকারী জজ) প্রাথমিক পরীক্ষা ২০১৭"
+    ]
+  },
+  {
+    "id": 16,
+    "topicsId": 430,
+    "q": "I came home after the rain-----",
+    "options": [
+      "stopped",
+      "stop",
+      "was stop",
+      "had stopped"
+    ],
+    "ans": 3,
+    "explain": "অতীতের দুটি কাজের মধ্যে 'after' থাকলে তার আগের অংশ Simple Past এবং পরের অংশ Past Perfect হয়। তাই 'had stopped' সঠিক।",
+    "source": [
+      "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের কমিউনিটি হেলথ কেয়ার প্রোভাইডার ২০১৮"
+    ]
+  },
+  {
+    "id": 17,
+    "topicsId": 430,
+    "q": "When water it transforms into ice :",
+    "options": [
+      "would freeze",
+      "will freeze",
+      "freezes",
+      "Frozen"
+    ],
+    "ans": 2,
+    "explain": "এটি একটি চিরন্তন সত্য বা বৈজ্ঞানিক সত্য (Zero Conditional)। এক্ষেত্রে উভয় অংশই Present Indefinite হয়। তাই 'freezes' সঠিক।",
+    "source": [
+      "স্থানীয় সরকার বিভাগের অধীন জনস্বাস্থ্য প্রকৌশল অধিদপ্তরের এস্টিমেটর ২০১৮"
+    ]
+  },
+  {
+    "id": 18,
+    "topicsId": 430,
+    "q": "'I know what his name is' is a----sentence.",
+    "options": [
+      "compound sentence",
+      "complex",
+      "simple",
+      "exclamatory"
+    ],
+    "ans": 1,
+    "explain": "এই বাক্যে একটি Principal clause (I know) এবং একটি Subordinate clause (what his name is) আছে। একটি Principal ও এক বা একাধিক Subordinate clause থাকলে তাকে Complex sentence বলে।",
+    "source": [
+      "ডাক ও টেলিযোগাযোগ বিভাগের অধীন ডাক অধিদপ্তরের বিল্ডিং ওভারশিয়ার ২০১৮"
+    ]
+  },
+  {
+    "id": 19,
+    "topicsId": 430,
+    "q": "If he came, I (go). Write the right form verb.",
+    "options": [
+      "go",
+      "would go",
+      "went",
+      "gone"
+    ],
+    "ans": 1,
+    "explain": "এটি Second Conditional। নিয়ম হলো: If + Past Indefinite, then Subject + would/could/might + Verb (base form)। তাই 'would go' সঠিক।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তরের পরিবার পরিকল্পনা সহকারী/পরিবার পরিকল্পনা পরিদর্শক ২০১৮"
+    ]
+  },
+  {
+    "id": 20,
+    "topicsId": 430,
+    "q": "Choose the right sentence.",
+    "options": [
+      "The light went out while we eat our supper.",
+      "The light went out while we were having our supper.",
+      "The light went out while we were having our supper.",
+      "The light went out while we are at supper."
+    ],
+    "ans": 1,
+    "explain": "'While' যুক্ত বাক্যে একটি কাজ চলাকালীন অন্য একটি কাজ হওয়া বুঝালে 'while' এর পরের অংশ Past Continuous হয়। তাই 'while we were having' সঠিক।",
+    "source": [
+      "প্রতিরক্ষা মন্ত্রণালয়ের মিলিটারি ইঞ্জিনিয়ার সার্ভিসেসের স্টোরম্যান ২০১৮"
+    ]
+  },
+  {
+    "id": 21,
+    "topicsId": 430,
+    "q": "'If you read, you will learn.'— This sentence is a------- sentence.",
+    "options": [
+      "simple",
+      "compound",
+      "complex",
+      "negative"
+    ],
+    "ans": 2,
+    "explain": "'If' যুক্ত বাক্যগুলো সাধারণত Complex sentence হয়, কারণ এতে একটি নির্ভরশীল (subordinate) ও একটি প্রধান (principal) clause থাকে।",
+    "source": [
+      "প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের অধীন জনশক্তি, কর্মসংস্থান ও প্রশিক্ষণ ব্যুরোর ইন্সট্রাক্টর (ইলেকট্রিক্যাল, কম্পিউটার, সিভিল ও ইলেক্ট্রনিক্স) টিটিসি ২০১৮"
+    ]
+  },
+  {
+    "id": 22,
+    "topicsId": 430,
+    "q": "Complete the sentence: If the sun didn't shine, fruits –",
+    "options": [
+      "wouldn't ripen",
+      "did not ripen",
+      "will not ripen",
+      "has not ripen"
+    ],
+    "ans": 0,
+    "explain": "এটি Second Conditional (If + Past simple)। ফলাফল অংশে 'would + verb-এর base form' বসে। তাই 'wouldn't ripen' সঠিক।",
+    "source": [
+      "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের অধীন বিআরটিএ'র মোটরযান পরিদক ২০১৭"
+    ]
+  },
+  {
+    "id": 23,
+    "topicsId": 430,
+    "q": "I know the he will come. The underlined part is—",
+    "options": [
+      "an adverbial clause",
+      "an adjective clause",
+      "a noun clause",
+      "a principle clause"
+    ],
+    "ans": 3,
+    "explain": "বাক্যের যে অংশটি অন্য অংশের সাহায্য ছাড়াই পূর্ণ অর্থ দিতে পারে তাকে Principal clause বলে। এখানে 'I know' স্বাধীন অংশ।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন বিটিভির সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 24,
+    "topicsId": 430,
+    "q": "After he (finish) secondary school, he started to study graphic design.",
+    "options": [
+      "had finished",
+      "finished",
+      "would finish",
+      "would have finish"
+    ],
+    "ans": 0,
+    "explain": "অতীতের দুটি কাজের মধ্যে যেটি আগে ঘটেছিল সেটি Past Perfect (had + V3) হয়। যেহেতু আগে পড়াশোনা শেষ করেছে, তাই 'had finished' হবে।",
+    "source": [
+      "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা অধিদপ্তর পরিসংখ্যান কর্মকর্তা ২০১৭"
+    ]
+  },
+  {
+    "id": 25,
+    "topicsId": 430,
+    "q": "He advised us --- we could encourage the children.",
+    "options": [
+      "so that",
+      "so",
+      "that",
+      "as"
+    ],
+    "ans": 0,
+    "explain": "উদ্দেশ্য (Purpose) বুঝাতে 'so that' ব্যবহৃত হয়। এখানে শিশুদের উৎসাহিত করার উদ্দেশ্যে উপদেশ দেওয়া হয়েছে।",
+    "source": [
+      "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা অধিদপ্তর পরিসংখ্যান কর্মকর্তা ২০১৭"
+    ]
+  },
+  {
+    "id": 26,
+    "topicsId": 430,
+    "q": "-------a deer leapt out in front of me.",
+    "options": [
+      "While driving down the road",
+      "While I was driving down the road",
+      "I was driving down the road",
+      "Driving down the road"
+    ],
+    "ans": 1,
+    "explain": "এখানে দুটি ভিন্ন Subject (আমি এবং হরিণ)। তাই 'While I was driving' অংশটি পূর্ণাঙ্গভাবে বসাতে হবে যেন Dangling Participle এর ভুল না হয়।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের আনসার ভিডিপি অধিদপ্তরের সার্কেল অ্যাডজুটেন্ট ২০১৫"
+    ]
+  },
+  {
+    "id": 27,
+    "topicsId": 430,
+    "q": "1971 was the year------.",
+    "options": [
+      "when Bangladesh is born",
+      "when Bangladesh came to being.",
+      "when Bangladesh came into being",
+      "when Bangladesh comes to being"
+    ],
+    "ans": 2,
+    "explain": "'Come into being' একটি ফ্রেজ যার অর্থ জন্ম নেওয়া বা অস্তিত্ব লাভ করা। অতীত কাল হওয়ায় 'came into being' সঠিক।",
+    "source": [
+      "১১তম শিক্ষক নিবন্ধন পরীক্ষা (স্কুল/সমপর্যায় ২) --২০১৪"
+    ]
+  },
+  {
+    "id": 28,
+    "topicsId": 430,
+    "q": "Complete the sentence with a suitable clause: He always does work------",
+    "options": [
+      "he cannot see",
+      "he likes",
+      "is quite certain",
+      "see the point"
+    ],
+    "ans": 1,
+    "explain": "ব্যাকরণ ও অর্থ অনুযায়ী 'he likes' এখানে একটি Adjective clause হিসেবে 'work'-কে মডিফাই করছে, যা বাক্যটিকে পূর্ণতা দেয়।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন গণযোগাযোগ অধিদপ্তরের সহকারী তথ্য অফিসার-২০১৩"
+    ]
+  },
+  {
+    "id": 29,
+    "topicsId": 430,
+    "q": "To complete the sentence 'Had I been there, - we have to use -",
+    "options": [
+      "I would support him",
+      "I would have supported him",
+      "I could support him",
+      "I shall have supported him"
+    ],
+    "ans": 1,
+    "explain": "এটি Third Conditional। 'Had + Subject + V3' দিয়ে বাক্য শুরু হলে ফলাফল অংশে 'would have + V3' বসে।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (সিভিল) ২০১৭"
+    ]
+  },
+  {
+    "id": 30,
+    "topicsId": 430,
+    "q": "Complete the sentence with an appropriate clause: If you had lost your job-----,",
+    "options": [
+      "what will you be doing",
+      "what would you have done",
+      "what would you do",
+      "what will you do"
+    ],
+    "ans": 1,
+    "explain": "এটিও Third Conditional। 'If + Past Perfect' থাকলে পরবর্তী অংশে 'would have + V3' বসে। তাই 'what would you have done' সঠিক।",
+    "source": [
+      "ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়ের সহকারী প্রোগ্রামার ২০১৭"
+    ]
+  },
+  {
+    "id": 31,
+    "topicsId": 430,
+    "q": "Complete the sentence with the approprate clause: It was long since ---",
+    "options": [
+      "I was you",
+      "I see you",
+      "I had seen you",
+      "I have seen you"
+    ],
+    "ans": 2,
+    "explain": "'Since' এর প্রথম অংশ Simple Past হলে পরের অংশ Past Perfect হয়। তাই 'I had seen you' সঠিক।",
+    "source": [
+      "ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়ের সহকারী প্রোগ্রামার 2017"
+    ]
+  },
+  {
+    "id": 32,
+    "topicsId": 430,
+    "q": "This the place where I was born. The underline clause is",
+    "options": [
+      "Main",
+      "Noun",
+      "Adverbial",
+      "Adjective"
+    ],
+    "ans": 3,
+    "explain": "এখানে 'where I was born' অংশটি তার আগের noun 'place'-কে মডিফাই করছে। Noun-কে মডিফাই করার কারণে এটি Adjective clause।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরঃ হিসাবরক্ষক ২০১৯"
+    ]
+  }
+,
+  {
+    "id": 33,
+    "topicsId": 430,
+    "q": "The man who came yesterday is my brother. The clause 'who came yesterday' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverbial clause",
+      "Main clause"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'who came yesterday' clause টি তার পূর্ববর্তী Noun 'The man' কে modify করছে। Noun কে modify করলে তা Adjective clause হয়।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 34,
+    "topicsId": 430,
+    "q": "What he said is true. The underlined clause is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverbial clause",
+      "Co-ordinate clause"
+    ],
+    "ans": 0,
+    "explain": "'What he said' এখানে subject হিসেবে কাজ করছে। Noun এর মতো কাজ করলে তা Noun clause হয়।",
+    "source": [
+      "৩৯তম বিসিএস"
+    ]
+  },
+  {
+    "id": 35,
+    "topicsId": 430,
+    "q": "If you read, you will learn. This is a -",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence",
+      "Negative sentence"
+    ],
+    "ans": 1,
+    "explain": "If যুক্ত বাক্য Complex sentence। 'If you read' হলো Dependent clause এবং 'you will learn' হলো Independent clause।",
+    "source": [
+      "প্রাথমিক শিক্ষক নিয়োগ ২০১৯"
+    ]
+  },
+  {
+    "id": 36,
+    "topicsId": 430,
+    "q": "I know that he is honest. Here 'that he is honest' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Main clause"
+    ],
+    "ans": 0,
+    "explain": "'know' verb টির object হিসেবে 'that he is honest' বসেছে। Verb এর object হিসেবে Noun clause বসে।",
+    "source": [
+      "NSI AD 2019"
+    ]
+  },
+  {
+    "id": 37,
+    "topicsId": 430,
+    "q": "Complete: Had I been rich, -----",
+    "options": [
+      "I would help you",
+      "I would have helped you",
+      "I will help you",
+      "I help you"
+    ],
+    "ans": 1,
+    "explain": "এটি Third Conditional এর Inversion। Had + Subject + V3 থাকলে পরের অংশে would have + V3 বসে।",
+    "source": [
+      "ব্যাংক নিয়োগ ২০১৮"
+    ]
+  },
+  {
+    "id": 38,
+    "topicsId": 430,
+    "q": "He came when I was sleeping. 'when I was sleeping' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverbial clause of time",
+      "Adverbial clause of place"
+    ],
+    "ans": 2,
+    "explain": "'when I was sleeping' দ্বারা সময় বোঝাচ্ছে এবং verb 'came' কে modify করছে। তাই এটি Adverbial clause of time।",
+    "source": [
+      "৪০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 39,
+    "topicsId": 430,
+    "q": "No sooner had he gone -----",
+    "options": [
+      "than I came",
+      "when I came",
+      "then I came",
+      "but I came"
+    ],
+    "ans": 0,
+    "explain": "No sooner ----- than একটি জোড়া। No sooner এর পরে than বসে। Structure: No sooner had + S + V3 + than + S + V2।",
+    "source": [
+      "৩৭তম বিসিএস"
+    ]
+  },
+  {
+    "id": 40,
+    "topicsId": 430,
+    "q": "Scarcely had he arrived ----- it started raining.",
+    "options": [
+      "than",
+      "when",
+      "then",
+      "that"
+    ],
+    "ans": 1,
+    "explain": "Scarcely ----- when, Hardly ----- when বসে। No sooner এর ক্ষেত্রে than বসে।",
+    "source": [
+      "জনতা ব্যাংক অফিসার ২০১৭"
+    ]
+  },
+  {
+    "id": 41,
+    "topicsId": 430,
+    "q": "Unless you work hard, you will fail. The clause 'Unless you work hard' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverbial clause of condition",
+      "Main clause"
+    ],
+    "ans": 2,
+    "explain": "Unless দ্বারা শর্ত বোঝাচ্ছে। তাই এটি Adverbial clause of condition।",
+    "source": [
+      "শিক্ষক নিবন্ধন ২০১৮"
+    ]
+  },
+  {
+    "id": 42,
+    "topicsId": 430,
+    "q": "I will go where he lives. 'where he lives' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverbial clause of place",
+      "Noun in apposition"
+    ],
+    "ans": 2,
+    "explain": "where দ্বারা স্থান বোঝাচ্ছে এবং go verb কে modify করছে। তাই এটি Adverb clause of place।",
+    "source": [
+      "৪২তম বিসিএস"
+    ]
+  },
+  {
+    "id": 43,
+    "topicsId": 430,
+    "q": "The fact that he is poor is known to all. 'that he is poor' is -",
+    "options": [
+      "Noun clause in apposition",
+      "Adjective clause",
+      "Adverb clause",
+      "Relative clause"
+    ],
+    "ans": 0,
+    "explain": "Noun 'The fact' এর অতিরিক্ত পরিচয় হিসেবে 'that he is poor' বসেছে। Noun এর apposition হিসেবে Noun clause বসে।",
+    "source": [
+      "বিসিএস ২০১৯"
+    ]
+  },
+  {
+    "id": 44,
+    "topicsId": 430,
+    "q": "If I were you, I ----- the job.",
+    "options": [
+      "would take",
+      "will take",
+      "would have taken",
+      "took"
+    ],
+    "ans": 0,
+    "explain": "Second Conditional: If + past tense, would + V1। 'If I were you' একটি idiomatic phrase।",
+    "source": [
+      "Agrani Bank Senior Officer 2017"
+    ]
+  },
+  {
+    "id": 45,
+    "topicsId": 430,
+    "q": "He talks as if he ----- mad.",
+    "options": [
+      "is",
+      "was",
+      "were",
+      "has been"
+    ],
+    "ans": 2,
+    "explain": "as if / as though এর আগে Present tense থাকলে পরে Past tense, কিন্তু were ব্যবহার করাই বেশি formal।",
+    "source": [
+      "৪৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 46,
+    "topicsId": 430,
+    "q": "He talked as though he ----- everything.",
+    "options": [
+      "knows",
+      "knew",
+      "had known",
+      "had knew"
+    ],
+    "ans": 2,
+    "explain": "as though এর আগে Past tense থাকলে পরে Past Perfect (had + V3) হয়।",
+    "source": [
+      "সোনালী ব্যাংক অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 47,
+    "topicsId": 430,
+    "q": "Though he is poor, he is honest. It is a -",
+    "options": [
+      "Simple sentence",
+      "Compound sentence",
+      "Complex sentence",
+      "Compound-complex"
+    ],
+    "ans": 2,
+    "explain": "Though যুক্ত বাক্য Complex sentence। Though he is poor - Dependent clause।",
+    "source": [
+      "প্রাথমিক শিক্ষক ২০১৮"
+    ]
+  },
+  {
+    "id": 48,
+    "topicsId": 430,
+    "q": "The book which you gave me is lost. 'which you gave me' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Co-ordinate clause"
+    ],
+    "ans": 1,
+    "explain": "which দ্বারা 'book' noun কে modify করা হয়েছে। তাই এটি Adjective clause বা Relative clause।",
+    "source": [
+      "৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 49,
+    "topicsId": 430,
+    "q": "I do not know when he will come. 'when he will come' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Principal clause"
+    ],
+    "ans": 0,
+    "explain": "'know' verb এর object হিসেবে কাজ করছে, তাই এটি Noun clause।",
+    "source": [
+      "নিবন্ধন পরীক্ষা ২০১৯"
+    ]
+  },
+  {
+    "id": 50,
+    "topicsId": 430,
+    "q": "Wait here until I return. 'until I return' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of time",
+      "Adverb clause of condition"
+    ],
+    "ans": 2,
+    "explain": "until দ্বারা সময় নির্দেশ করছে, তাই Adverb clause of time।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 51,
+    "topicsId": 430,
+    "q": "It is high time we -----",
+    "options": [
+      "go",
+      "went",
+      "have gone",
+      "had gone"
+    ],
+    "ans": 1,
+    "explain": "It is high time / It is time এর পর Past Indefinite হয়। অর্থ দেয় - এখনই সময়।",
+    "source": [
+      "রূপালী ব্যাংক অফিসার ২০১৮"
+    ]
+  },
+  {
+    "id": 52,
+    "topicsId": 430,
+    "q": "It is high time we ----- our habits.",
+    "options": [
+      "change",
+      "changed",
+      "had changed",
+      "should change"
+    ],
+    "ans": 1,
+    "explain": "It is high time এর পর V2 হয়।",
+    "source": [
+      "বিসিএস প্রিলি ২০২০"
+    ]
+  },
+  {
+    "id": 53,
+    "topicsId": 430,
+    "q": "Lest he ----- miss the train.",
+    "options": [
+      "should",
+      "should not",
+      "might",
+      "would"
+    ],
+    "ans": 0,
+    "explain": "Lest এর অর্থ যাতে ...... না। Lest এর পর should বসে এবং negative হয় না। Structure: Lest + sub + should + V1।",
+    "source": [
+      "জনতা ব্যাংক ২০১৭"
+    ]
+  },
+  {
+    "id": 54,
+    "topicsId": 430,
+    "q": "He ran fast lest he ----- miss the class.",
+    "options": [
+      "should",
+      "would",
+      "could",
+      "might"
+    ],
+    "ans": 0,
+    "explain": "Lest এর পর সবসময় should বসে।",
+    "source": [
+      "অগ্রণী ব্যাংক ২০১৮"
+    ]
+  },
+  {
+    "id": 55,
+    "topicsId": 430,
+    "q": "I wish I ----- a king.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "had been"
+    ],
+    "ans": 2,
+    "explain": "I wish / I fancy / As if এর পর were বসে কল্পনা বোঝালে।",
+    "source": [
+      "৪২তম বিসিএস"
+    ]
+  },
+  {
+    "id": 56,
+    "topicsId": 430,
+    "q": "The news that he has died is false. 'that he has died' is -",
+    "options": [
+      "Noun clause as apposition",
+      "Adjective clause",
+      "Adverb clause",
+      "Co-ordinate clause"
+    ],
+    "ans": 0,
+    "explain": "The news noun টির apposition হিসেবে that clause টি বসেছে।",
+    "source": [
+      "NSI 2019"
+    ]
+  },
+  {
+    "id": 57,
+    "topicsId": 430,
+    "q": "He asked me whether I had done it. 'whether I had done it' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Main clause"
+    ],
+    "ans": 0,
+    "explain": "asked verb এর object হিসেবে বসেছে, তাই Noun clause।",
+    "source": [
+      "প্রাইমারি শিক্ষক ২০১৭"
+    ]
+  },
+  {
+    "id": 58,
+    "topicsId": 430,
+    "q": "The man is so weak that he cannot walk. 'that he cannot walk' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of result",
+      "Adverb clause of cause"
+    ],
+    "ans": 2,
+    "explain": "So ----- that যুক্ত বাক্যে that এর পরের clause টি Adverb clause of result।",
+    "source": [
+      "৪০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 59,
+    "topicsId": 430,
+    "q": "He is too weak to walk. This is a -",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence",
+      "Negative sentence"
+    ],
+    "ans": 0,
+    "explain": "Too ---- to যুক্ত বাক্য Simple sentence। Complex করলে হবে so weak that he cannot walk।",
+    "source": [
+      "শিক্ষক নিবন্ধন ২০১৮"
+    ]
+  },
+  {
+    "id": 60,
+    "topicsId": 430,
+    "q": "I know the man who is honest. The clause 'who is honest' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Principal clause"
+    ],
+    "ans": 1,
+    "explain": "Noun 'the man' কে modify করছে, তাই Adjective clause।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 61,
+    "topicsId": 430,
+    "q": "He came here so that he might learn English. 'so that he might learn English' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of purpose",
+      "Adverb clause of result"
+    ],
+    "ans": 2,
+    "explain": "So that দ্বারা উদ্দেশ্য বোঝায়, তাই Adverb clause of purpose।",
+    "source": [
+      "বিসিএস ২০১৯"
+    ]
+  },
+  {
+    "id": 62,
+    "topicsId": 430,
+    "q": "If you had helped me, I ----- grateful.",
+    "options": [
+      "would be",
+      "would have been",
+      "will be",
+      "would have be"
+    ],
+    "ans": 1,
+    "explain": "Third Conditional: If + had + V3, would have + V3।",
+    "source": [
+      "ব্যাংক এশিয়া ২০১৮"
+    ]
+  },
+  {
+    "id": 63,
+    "topicsId": 430,
+    "q": "We eat so that we may live. 'so that we may live' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of purpose",
+      "Adverb clause of cause"
+    ],
+    "ans": 2,
+    "explain": "খাওয়ার উদ্দেশ্য বাঁচা, তাই purpose বোঝাচ্ছে।",
+    "source": [
+      "শিক্ষক নিয়োগ ২০১৯"
+    ]
+  },
+  {
+    "id": 64,
+    "topicsId": 430,
+    "q": "Such was his strength that he could lift it. The clause 'that he could lift it' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of result",
+      "Adverb clause of cause"
+    ],
+    "ans": 2,
+    "explain": "Such ----- that এর পর result বোঝায়।",
+    "source": [
+      "৪৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 65,
+    "topicsId": 430,
+    "q": "He is honest although he is poor. 'although he is poor' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of concession",
+      "Adverb clause of condition"
+    ],
+    "ans": 2,
+    "explain": "Although / though দ্বারা concession বা বৈপরীত্য বোঝায়।",
+    "source": [
+      "৪২তম বিসিএস"
+    ]
+  },
+  {
+    "id": 66,
+    "topicsId": 430,
+    "q": "Because he was ill, he could not come. 'Because he was ill' is -",
+    "options": [
+      "Adverb clause of reason",
+      "Noun clause",
+      "Adjective clause",
+      "Main clause"
+    ],
+    "ans": 0,
+    "explain": "Because দ্বারা কারণ বোঝায়, তাই Adverb clause of reason / cause।",
+    "source": [
+      "প্রাইমারি শিক্ষক ২০১৮"
+    ]
+  },
+  {
+    "id": 67,
+    "topicsId": 430,
+    "q": "I shall go provided that he comes. 'provided that he comes' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of condition",
+      "Adverb clause of time"
+    ],
+    "ans": 2,
+    "explain": "Provided that / providing that শর্ত বোঝায়, তাই condition।",
+    "source": [
+      "NSI AD 2017"
+    ]
+  },
+  {
+    "id": 68,
+    "topicsId": 430,
+    "q": "Do you know how to do it? 'how to do it' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Noun phrase"
+    ],
+    "ans": 0,
+    "explain": "know verb এর object হিসেবে 'how to do it' Noun clause হিসেবে কাজ করছে, যদিও এটি infinitive phrase।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 69,
+    "topicsId": 430,
+    "q": "Tell me what you want. 'what you want' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Main clause"
+    ],
+    "ans": 0,
+    "explain": "Tell verb এর object হিসেবে বসেছে, তাই Noun clause।",
+    "source": [
+      "শিক্ষক নিবন্ধন ২০১৯"
+    ]
+  },
+  {
+    "id": 70,
+    "topicsId": 430,
+    "q": "The place where he was born is unknown. 'where he was born' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Co-ordinate clause"
+    ],
+    "ans": 1,
+    "explain": "The place noun কে modify করছে, তাই Adjective clause।",
+    "source": [
+      "৪০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 71,
+    "topicsId": 430,
+    "q": "I will do it as I like. 'as I like' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of manner",
+      "Adverb clause of time"
+    ],
+    "ans": 2,
+    "explain": "As দ্বারা ধরন বা manner বোঝাচ্ছে, তাই Adverb clause of manner।",
+    "source": [
+      "বিসিএস ২০১৮"
+    ]
+  },
+  {
+    "id": 72,
+    "topicsId": 430,
+    "q": "He is taller than I am. 'than I am' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of comparison",
+      "Adverb clause of degree"
+    ],
+    "ans": 2,
+    "explain": "Than দ্বারা তুলনা বোঝাচ্ছে, তাই Adverb clause of comparison।",
+    "source": [
+      "ব্যাংক নিয়োগ ২০১৯"
+    ]
+  },
+  {
+    "id": 73,
+    "topicsId": 430,
+    "q": "He succeeded although his effort was small. It is a -",
+    "options": [
+      "Simple",
+      "Complex",
+      "Compound",
+      "Compound-complex"
+    ],
+    "ans": 1,
+    "explain": "Although যুক্ত বাক্য Complex।",
+    "source": [
+      "প্রাইমারি শিক্ষক ২০১৯"
+    ]
+  },
+  {
+    "id": 74,
+    "topicsId": 430,
+    "q": "If it rains, we shall not go. 'If it rains' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of condition",
+      "Main clause"
+    ],
+    "ans": 2,
+    "explain": "If দ্বারা শর্ত বোঝাচ্ছে।",
+    "source": [
+      "৪৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 75,
+    "topicsId": 430,
+    "q": "He asked me if I was happy. 'if I was happy' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Main clause"
+    ],
+    "ans": 0,
+    "explain": "asked এর object, তাই Noun clause। Indirect question।",
+    "source": [
+      "৪২তম বিসিএস"
+    ]
+  },
+  {
+    "id": 76,
+    "topicsId": 430,
+    "q": "The reason why he failed is unknown. 'why he failed' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Noun clause as apposition"
+    ],
+    "ans": 1,
+    "explain": "The reason noun কে modify করছে, তাই Adjective clause।",
+    "source": [
+      "NSI 2019"
+    ]
+  },
+  {
+    "id": 77,
+    "topicsId": 430,
+    "q": "He came after I had left. 'after I had left' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of time",
+      "Adverb clause of place"
+    ],
+    "ans": 2,
+    "explain": "After দ্বারা সময় বোঝাচ্ছে।",
+    "source": [
+      "শিক্ষক নিয়োগ ২০১৮"
+    ]
+  },
+  {
+    "id": 78,
+    "topicsId": 430,
+    "q": "No matter what he says, I will not believe him. 'what he says' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Main clause"
+    ],
+    "ans": 0,
+    "explain": "No matter what এর মধ্যে what he says Noun clause হিসেবে কাজ করছে।",
+    "source": [
+      "ব্যাংক ২০১৮"
+    ]
+  },
+  {
+    "id": 79,
+    "topicsId": 430,
+    "q": "Where there is smoke, there is fire. 'Where there is smoke' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of place",
+      "Adverb clause of condition"
+    ],
+    "ans": 2,
+    "explain": "Where দ্বারা স্থান বোঝাচ্ছে।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 80,
+    "topicsId": 430,
+    "q": "I know that he will come. Here 'that' is -",
+    "options": [
+      "Relative pronoun",
+      "Conjunction",
+      "Demonstrative pronoun",
+      "Adverb"
+    ],
+    "ans": 1,
+    "explain": "এখানে that Noun clause এর conjunction হিসেবে ব্যবহৃত হয়েছে।",
+    "source": [
+      "৪০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 81,
+    "topicsId": 430,
+    "q": "The boy who is playing is my brother. 'who is playing' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Principal clause"
+    ],
+    "ans": 1,
+    "explain": "boy কে modify করছে, তাই Adjective clause।",
+    "source": [
+      "৩৯তম বিসিএস"
+    ]
+  },
+  {
+    "id": 82,
+    "topicsId": 430,
+    "q": "I like the pen which you gave me. 'which you gave me' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Main clause"
+    ],
+    "ans": 1,
+    "explain": "pen noun কে modify করছে।",
+    "source": [
+      "প্রাইমারি শিক্ষক ২০১৯"
+    ]
+  },
+  {
+    "id": 83,
+    "topicsId": 430,
+    "q": "He will come when he is ready. 'when he is ready' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of time",
+      "Adverb clause of condition"
+    ],
+    "ans": 2,
+    "explain": "when দ্বারা সময় বোঝাচ্ছে।",
+    "source": [
+      "শিক্ষক নিবন্ধন ২০১৭"
+    ]
+  },
+  {
+    "id": 84,
+    "topicsId": 430,
+    "q": "As he was ill, he could not come. 'As he was ill' is -",
+    "options": [
+      "Adverb clause of time",
+      "Adverb clause of reason",
+      "Noun clause",
+      "Adjective clause"
+    ],
+    "ans": 1,
+    "explain": "As দ্বারা কারণ বোঝাচ্ছে এখানে।",
+    "source": [
+      "৪২তম বিসিএস"
+    ]
+  },
+  {
+    "id": 85,
+    "topicsId": 430,
+    "q": "I have a friend who lives in London. 'who lives in London' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Co-ordinate clause"
+    ],
+    "ans": 1,
+    "explain": "friend noun কে modify করছে।",
+    "source": [
+      "বিসিএস ২০১৮"
+    ]
+  },
+  {
+    "id": 86,
+    "topicsId": 430,
+    "q": "Whether he will come is uncertain. 'Whether he will come' is -",
+    "options": [
+      "Noun clause as subject",
+      "Noun clause as object",
+      "Adjective clause",
+      "Adverb clause"
+    ],
+    "ans": 0,
+    "explain": "বাক্যের Subject হিসেবে বসেছে, তাই Noun clause as subject।",
+    "source": [
+      "৪৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 87,
+    "topicsId": 430,
+    "q": "He is poor but honest. This is -",
+    "options": [
+      "Simple sentence",
+      "Complex sentence",
+      "Compound sentence",
+      "Complex-compound"
+    ],
+    "ans": 0,
+    "explain": "But দ্বারা যুক্ত হলেও একটি Finite verb থাকায় Simple sentence। Compound হলে দুটি Independent clause থাকত।",
+    "source": [
+      "শিক্ষক নিয়োগ ২০১৯"
+    ]
+  },
+  {
+    "id": 88,
+    "topicsId": 430,
+    "q": "He is poor but he is honest. This is -",
+    "options": [
+      "Simple",
+      "Complex",
+      "Compound",
+      "Negative"
+    ],
+    "ans": 2,
+    "explain": "দুটি Independent clause but দ্বারা যুক্ত, তাই Compound sentence।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 89,
+    "topicsId": 430,
+    "q": "The man whom you saw is my father. 'whom you saw' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Principal clause"
+    ],
+    "ans": 1,
+    "explain": "man কে modify করছে।",
+    "source": [
+      "৪০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 90,
+    "topicsId": 430,
+    "q": "I shall wait till he comes. 'till he comes' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of time",
+      "Adverb clause of condition"
+    ],
+    "ans": 2,
+    "explain": "Till দ্বারা সময় বোঝাচ্ছে।",
+    "source": [
+      "বিসিএস ২০২০"
+    ]
+  },
+  {
+    "id": 91,
+    "topicsId": 430,
+    "q": "He is so honest that all respect him. 'that all respect him' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of result",
+      "Adverb clause of purpose"
+    ],
+    "ans": 2,
+    "explain": "So ----- that result নির্দেশ করে।",
+    "source": [
+      "ব্যাংক নিয়োগ ২০১৯"
+    ]
+  },
+  {
+    "id": 92,
+    "topicsId": 430,
+    "q": "I know where he lives. 'where he lives' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Main clause"
+    ],
+    "ans": 0,
+    "explain": "know এর object, তাই Noun clause।",
+    "source": [
+      "৪২তম বিসিএস"
+    ]
+  },
+  {
+    "id": 93,
+    "topicsId": 430,
+    "q": "This is the house that Jack built. 'that Jack built' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Principal clause"
+    ],
+    "ans": 1,
+    "explain": "house noun কে modify করছে।",
+    "source": [
+      "৩৯তম বিসিএস"
+    ]
+  },
+  {
+    "id": 94,
+    "topicsId": 430,
+    "q": "If you had come earlier, you ----- the bus.",
+    "options": [
+      "would catch",
+      "would have caught",
+      "will catch",
+      "caught"
+    ],
+    "ans": 1,
+    "explain": "Third Conditional: If + Past Perfect, would have + V3।",
+    "source": [
+      "রূপালী ব্যাংক ২০১৮"
+    ]
+  },
+  {
+    "id": 95,
+    "topicsId": 430,
+    "q": "He asked me what I was doing. 'what I was doing' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Main clause"
+    ],
+    "ans": 0,
+    "explain": "asked এর object হিসেবে Noun clause।",
+    "source": [
+      "শিক্ষক নিবন্ধন ২০১৯"
+    ]
+  },
+  {
+    "id": 96,
+    "topicsId": 430,
+    "q": "While he was walking, he saw a snake. 'While he was walking' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause of time",
+      "Adverb clause of condition"
+    ],
+    "ans": 2,
+    "explain": "While দ্বারা সময় বোঝাচ্ছে।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 97,
+    "topicsId": 430,
+    "q": "I do not know the reason why he did it. 'why he did it' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Co-ordinate clause"
+    ],
+    "ans": 1,
+    "explain": "reason noun কে modify করছে, তাই Adjective clause।",
+    "source": [
+      "NSI 2019"
+    ]
+  },
+  {
+    "id": 98,
+    "topicsId": 430,
+    "q": "It was five years since I ----- him.",
+    "options": [
+      "see",
+      "have seen",
+      "had seen",
+      "saw"
+    ],
+    "ans": 2,
+    "explain": "It was long since / It was five years since এর পর Past Perfect হয়।",
+    "source": [
+      "ব্যাংক নিয়োগ ২০১৭"
+    ]
+  },
+  {
+    "id": 99,
+    "topicsId": 430,
+    "q": "The time when he will come is not known. 'when he will come' is -",
+    "options": [
+      "Noun clause",
+      "Adjective clause",
+      "Adverb clause",
+      "Principal clause"
+    ],
+    "ans": 1,
+    "explain": "time noun কে modify করছে, তাই Adjective clause।",
+    "source": [
+      "৪০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 100,
+    "topicsId": 430,
+    "q": "He ran away lest he ----- caught.",
+    "options": [
+      "should be",
+      "would be",
+      "could be",
+      "might be"
+    ],
+    "ans": 0,
+    "explain": "Lest এর পর should + be + V3 হতে পারে Passive হলে। Lest ----- should সবসময়।",
+    "source": [
+      "সোনালী ব্যাংক অফিসার ২০১৯"
+    ]
+  }
+]
