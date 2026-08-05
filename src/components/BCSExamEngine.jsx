@@ -42,7 +42,7 @@ export default function BCSExamEngine({
   const [showPreExamPopup, setShowPreExamPopup] = useState(true);
   const [started, setStarted] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const questionsPerPage = 10;
+  const questionsPerPage = 20;
 
   const resultRef = useRef(null);
   const reviewRef = useRef(null);

@@ -3,8 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import BCSExamEngine from '@/components/BCSExamEngine';
-import { getQuestionBankConfig } from '@/data/questionBankConfig';
-import { getTimeLimit, getRandomItems } from '@/lib/examHelpers';
+import { getTimeLimit } from '@/lib/examHelpers';
 
 export default function BCSExamPage() {
   const params = useParams();
@@ -27,16 +26,13 @@ export default function BCSExamPage() {
         }
 
         const info = data.examInfo || {};
-        const config = getQuestionBankConfig(info.examType || type);
         const calculatedTimeLimit = getTimeLimit(
           info.totalQuestions || 100,
           info.timeLimitMinutes
         );
-        const questionLimit = config.questionLimit || 20;
-        const shuffled = getRandomItems(data.questions || [], questionLimit);
 
         setExamInfo(info);
-        setQuestions(shuffled);
+        setQuestions(data.questions || []);
         setTimeLimit(calculatedTimeLimit);
         setLoading(false);
       })
