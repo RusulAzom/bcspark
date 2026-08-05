@@ -89,8 +89,20 @@ export default function HeroSection() {
           </div>
 
           {/* Right Column: Hero Carousel */}
-          <div className="order-1 lg:order-2 lg:col-span-2">
+          <div className="order-1 lg:order-2 lg:col-span-2 flex flex-col gap-4">
             <HeroCarousel />
+            <Link
+              href="/question-bank"
+              className="block rounded-3xl border border-gray-100 bg-gradient-to-r from-blue-600 to-indigo-600 p-6 text-white shadow-sm hover:shadow-md transition-all"
+            >
+              <div className="flex items-center justify-between">
+                <div>
+                  <h3 className="text-xl font-extrabold mb-1">BCS Question Bank</h3>
+                  <p className="text-sm opacity-90">Previous Year Questions | MCQ Practice | All Government Jobs</p>
+                </div>
+                <ArrowRight className="h-6 w-6 shrink-0" />
+              </div>
+            </Link>
           </div>
 
         </div>
