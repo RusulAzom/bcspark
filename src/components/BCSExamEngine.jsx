@@ -314,9 +314,9 @@ export default function BCSExamEngine({
                   <li className="flex items-start gap-2">
                     <span>🎯</span>
                     <span>
-                      পাস মার্ক:{' '}
+                      কাট মার্ক:{' '}
                       <strong>
-                        {passMark} ({((config.passMarkPct || 0.7) * 100).toFixed(0)}%)
+                        {passMark}
                       </strong>
                     </span>
                   </li>
@@ -643,8 +643,8 @@ export default function BCSExamEngine({
                     <strong>{skippedCount}</strong>
                   </p>
                 <p>
-                  <span className="text-gray-500">Pass Mark:</span>{' '}
-                    <strong>{passMark} (70%)</strong>
+                  <span className="text-gray-500">Cut Mark:</span>{' '}
+                    <strong>{passMark}</strong>
                   </p>
                 <p>
                   <span className="text-gray-500">Time Expended:</span>{' '}
@@ -654,7 +654,7 @@ export default function BCSExamEngine({
 
               {leaderboard && (
                 <div className="my-2 border-t pt-2 space-y-1 bg-blue-50 p-3 rounded-lg">
-                  <p className="font-bold text-blue-800">📊 Leaderboard Demo</p>
+                  <p className="font-bold text-blue-800">📊 Leaderboard</p>
                   <p>
                     <span className="text-gray-500">Your Rank:</span>{' '}
                     <strong>
