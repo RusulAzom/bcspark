@@ -10,8 +10,8 @@ export default function QuestionBankList() {
   const [loading, setLoading] = useState(true);
   const [selectedType, setSelectedType] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
-  const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 10;
+  const [visibleCount, setVisibleCount] = useState(9);
+  const loadMoreCount = 9;
 
   const EXAM_TYPE_MAP = {
     'All': 'All',
@@ -52,12 +52,11 @@ export default function QuestionBankList() {
     return matchesType && matchesSearch;
   });
 
-  const totalPages = Math.ceil(filteredExams.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const paginatedExams = filteredExams.slice(startIndex, startIndex + itemsPerPage);
+  const visibleExams = filteredExams.slice(0, visibleCount);
+  const hasMore = visibleCount < filteredExams.length;
 
   useEffect(() => {
-    setCurrentPage(1);
+    setVisibleCount(9);
   }, [selectedType, searchQuery]);
 
   if (loading) {
@@ -74,7 +73,7 @@ export default function QuestionBankList() {
       <div className="min-h-screen bg-gray-50 py-10">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold mb-2">BCS Question Bank | বিসিএস প্রশ্ন ব্যাংক</h1>
+            <h1 className="text-3xl font-bold mb-2 text-[#1a365d]">BCS Question Bank | বিসিএস প্রশ্ন ব্যাংক</h1>
             <p className="text-gray-600">Select an exam to start practicing</p>
           </div>
 
@@ -95,8 +94,8 @@ export default function QuestionBankList() {
                   onClick={() => setSelectedType(type)}
                   className={`px-4 py-2 rounded-lg font-semibold transition ${
                     selectedType === type
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-white border-2 border-gray-300 hover:border-blue-400'
+                      ? 'bg-[#1a365d] text-white'
+                      : 'bg-white border-2 border-gray-300 hover:border-[#1a365d] hover:text-[#1a365d]'
                   }`}
                 >
                   {type}
@@ -109,13 +108,13 @@ export default function QuestionBankList() {
             <div className="text-center text-gray-500 py-10">No exams found.</div>
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {paginatedExams.map((exam) => (
+              {visibleExams.map((exam) => (
                 <div
                   key={exam.slug}
                   className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition"
                 >
                   <div className="flex items-start justify-between mb-3">
-                    <span className="text-xs font-semibold bg-blue-100 text-blue-800 px-2 py-1 rounded">
+                    <span className="text-xs font-semibold bg-[#1a365d]/10 text-[#1a365d] px-2 py-1 rounded">
                       {getDisplayType(exam.examType)}
                     </span>
                     <span className="text-xs text-gray-500">{exam.examCategory}</span>
@@ -128,7 +127,10 @@ export default function QuestionBankList() {
                   </div>
                   <Link
                     href={`/question-bank/${exam.slug}`}
-                    className="block w-full bg-blue-600 text-white text-center py-3 rounded-lg font-bold hover:bg-blue-700"
+                    className="block w-full bg-[#f97316] text-white text-center py-3 rounded-lg font-bold hover:bg-[#ea580c] transition"
+                    style={{
+                      boxShadow: '0 4px 14px rgba(249, 115, 22, 0.3)'
+                    }}
                   >
                     Start Exam
                   </Link>
@@ -137,24 +139,16 @@ export default function QuestionBankList() {
             </div>
           )}
 
-          {totalPages > 1 && (
-            <div className="flex justify-center items-center gap-2 mt-8">
+          {hasMore && (
+            <div className="flex justify-center mt-8">
               <button
-                onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-                disabled={currentPage === 1}
-                className="px-4 py-2 rounded-lg font-semibold border-2 border-gray-300 hover:border-blue-400 disabled:opacity-50 disabled:cursor-not-allowed"
+                onClick={() => setVisibleCount((c) => c + loadMoreCount)}
+                className="px-6 py-3 rounded-lg font-semibold bg-[#1a365d] text-white hover:bg-[#15294d] transition"
+                style={{
+                  boxShadow: '0 4px 14px rgba(26, 54, 93, 0.3)'
+                }}
               >
-                Previous
-              </button>
-              <span className="text-sm text-gray-600">
-                Page {currentPage} of {totalPages}
-              </span>
-              <button
-                onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
-                disabled={currentPage === totalPages}
-                className="px-4 py-2 rounded-lg font-semibold border-2 border-gray-300 hover:border-blue-400 disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                Next
+                আরও দেখুন
               </button>
             </div>
           )}
