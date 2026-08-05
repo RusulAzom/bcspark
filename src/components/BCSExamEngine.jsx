@@ -436,6 +436,50 @@ export default function BCSExamEngine({
           {examInfo.examName || 'Question Bank Exam'}
         </h1>
 
+        {!submitted && Object.keys(subjectStats).length > 0 && (
+          <div className="mb-6 bg-white rounded-xl shadow border">
+            <button
+              type="button"
+              onClick={() => setSubjectAccordionOpen(!subjectAccordionOpen)}
+              className="w-full flex items-center justify-between px-6 py-4 text-left"
+            >
+              <h3 className="text-lg font-bold">বিষয়ভিত্তিক প্রশ্ন</h3>
+              <span className="text-xl">{subjectAccordionOpen ? '−' : '+'}</span>
+            </button>
+            {subjectAccordionOpen && (
+              <div className="px-6 pb-4 border-t">
+                <div className="flex flex-wrap items-center gap-3 pt-4">
+                  <button
+                    onClick={toggleAllSubjects}
+                    className={`px-3 py-1.5 rounded-full text-sm font-semibold border-2 transition ${
+                      allSubjectsSelected
+                        ? 'bg-blue-600 text-white border-blue-600'
+                        : 'bg-white text-gray-700 border-gray-300 hover:border-blue-400'
+                    }`}
+                  >
+                    সব নির্বাচন করুন
+                  </button>
+                  {Object.entries(subjectStats)
+                    .sort(([a], [b]) => a.localeCompare(b))
+                    .map(([subject, data]) => (
+                      <button
+                        key={subject}
+                        onClick={() => toggleSubject(subject)}
+                        className={`px-3 py-1.5 rounded-full text-sm font-semibold border-2 transition ${
+                          selectedSubjects[subject] !== false
+                            ? 'bg-blue-100 text-blue-800 border-blue-600'
+                            : 'bg-gray-100 text-gray-500 border-gray-300'
+                        }`}
+                      >
+                        {data.label} ({data.count})
+                      </button>
+                    ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+
         {!submitted && (
           <>
             <div className="grid md:grid-cols-2 gap-6">
@@ -485,52 +529,8 @@ export default function BCSExamEngine({
                 </div>
               );
             })}
-           </div>
-
-          {Object.keys(subjectStats).length > 0 && (
-            <div className="mt-6 bg-white rounded-xl shadow border">
-              <button
-                type="button"
-                onClick={() => setSubjectAccordionOpen(!subjectAccordionOpen)}
-                className="w-full flex items-center justify-between px-6 py-4 text-left"
-              >
-                <h3 className="text-lg font-bold">বিষয়ভিত্তিক প্রশ্ন</h3>
-                <span className="text-xl">{subjectAccordionOpen ? '−' : '+'}</span>
-              </button>
-              {subjectAccordionOpen && (
-                <div className="px-6 pb-4 border-t">
-                  <div className="flex flex-wrap items-center gap-3 pt-4">
-                    <button
-                      onClick={toggleAllSubjects}
-                      className={`px-3 py-1.5 rounded-full text-sm font-semibold border-2 transition ${
-                        allSubjectsSelected
-                          ? 'bg-blue-600 text-white border-blue-600'
-                          : 'bg-white text-gray-700 border-gray-300 hover:border-blue-400'
-                      }`}
-                    >
-                      সব নির্বাচন করুন
-                    </button>
-                    {Object.entries(subjectStats)
-                      .sort(([a], [b]) => a.localeCompare(b))
-                      .map(([subject, data]) => (
-                        <button
-                          key={subject}
-                          onClick={() => toggleSubject(subject)}
-                          className={`px-3 py-1.5 rounded-full text-sm font-semibold border-2 transition ${
-                            selectedSubjects[subject] !== false
-                              ? 'bg-blue-100 text-blue-800 border-blue-600'
-                              : 'bg-gray-100 text-gray-500 border-gray-300'
-                          }`}
-                        >
-                          {data.label} ({data.count})
-                        </button>
-                      ))}
-                  </div>
-                </div>
-              )}
             </div>
-          )}
-        </>
+          </>
         )}
 
         {!submitted ? (
