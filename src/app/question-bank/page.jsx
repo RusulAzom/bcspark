@@ -21,6 +21,9 @@ export default function QuestionBankList() {
     'ব্যাংক': 'ব্যাংক',
     '১২ থেকে ২০ গ্রেড': '১২-২০-গ্রেড',
     'বিশ্ববিদ্যালয়': 'বিশ্ববিদ্যালয়',
+    'মেডিকেল': 'মেডিকেল',
+    'HSC': 'HSC',
+    'SSC': 'SSC',
   };
 
   const EXAM_TYPES = Object.keys(EXAM_TYPE_MAP);
@@ -73,18 +76,23 @@ export default function QuestionBankList() {
       <div className="min-h-screen bg-gray-50 py-10">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold mb-2 text-[#1a365d]">BCS Question Bank | বিসিএস প্রশ্ন ব্যাংক</h1>
-            <p className="text-gray-600">Select an exam to start practicing</p>
+            <h1 className="text-3xl font-bold mb-2 text-[#1a365d]">BCS Question Bank | বিসিএস সহ অন্যান্য পরীক্ষার প্রশ্নব্যাংক</h1>
+            <p className="text-gray-600">এখানে নিয়মিত BCS সহ অন্যান্য পরীক্ষার নতুন পুরাতন প্রশ্ন আপডেট করা হয়।</p>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-4 mb-8">
-            <div className="flex-1">
+          <div className="mb-8 space-y-4">
+            <div className="relative">
+              <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                <svg className="w-5 h-5 text-[#1a365d]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
               <input
                 type="text"
-                placeholder="Search exams..."
+                placeholder="পরীক্ষার নাম লিখুন ..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full border-2 rounded-lg px-4 py-3"
+                className="w-full border-2 rounded-lg pl-12 pr-4 py-3"
               />
             </div>
             <div className="flex gap-2 flex-wrap">
