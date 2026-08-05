@@ -132,10 +132,13 @@ export default function BCSExamEngine({
   };
 
   const toggleSubject = (subject) => {
-    setSelectedSubjects((prev) => ({
-      ...prev,
-      [subject]: !prev[subject],
-    }));
+    setSelectedSubjects((prev) => {
+      const isCurrentlySelected = prev[subject];
+      if (isCurrentlySelected) {
+        return {};
+      }
+      return { [subject]: true };
+    });
   };
 
   const filteredQuestions = useMemo(() => {
@@ -443,7 +446,7 @@ export default function BCSExamEngine({
               onClick={() => setSubjectAccordionOpen(!subjectAccordionOpen)}
               className="w-full flex items-center justify-between px-6 py-4 text-left"
             >
-              <h3 className="text-lg font-bold">বিষয়ভিত্তিক প্রশ্ন</h3>
+              <h3 className="text-lg font-bold">বিষয়ভিত্তিক প্রশ্ন দেখুন!</h3> 
               <span className="text-xl">{subjectAccordionOpen ? '−' : '+'}</span>
             </button>
             {subjectAccordionOpen && (
@@ -459,21 +462,21 @@ export default function BCSExamEngine({
                   >
                     সব নির্বাচন করুন
                   </button>
-                  {Object.entries(subjectStats)
-                    .sort(([a], [b]) => a.localeCompare(b))
-                    .map(([subject, data]) => (
-                      <button
-                        key={subject}
-                        onClick={() => toggleSubject(subject)}
-                        className={`px-3 py-1.5 rounded-full text-sm font-semibold border-2 transition ${
-                          selectedSubjects[subject] !== false
-                            ? 'bg-blue-100 text-blue-800 border-blue-600'
-                            : 'bg-gray-100 text-gray-500 border-gray-300'
-                        }`}
-                      >
-                        {data.label} ({data.count})
-                      </button>
-                    ))}
+                    {Object.entries(subjectStats)
+                      .sort(([a], [b]) => a.localeCompare(b))
+                      .map(([subject, data]) => (
+                        <button
+                          key={subject}
+                          onClick={() => toggleSubject(subject)}
+                          className={`px-3 py-1.5 rounded-full text-sm font-semibold border-2 transition ${
+                            selectedSubjects[subject]
+                              ? 'bg-green-100 text-green-800 border-green-600'
+                              : 'bg-gray-100 text-gray-500 border-gray-300'
+                          }`}
+                        >
+                          {data.label} ({data.count})
+                        </button>
+                      ))}
                 </div>
               </div>
             )}
