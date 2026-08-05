@@ -629,43 +629,43 @@ Your new quiz will automatically work with the **QuickPracticeEngine**.
 751 = Computer Program
 752 = ডেটাবেইস সিস্টেম (Database System)
 
-=========== তথ্য প্রযুক্তি 761 to 799 ========= 5 marks 
+=========== তথ্য প্রযুক্তি 761 to 799 ===All Done====== 5 marks 
 
-760 = সেলুলার ডাটা নেটওয়ার্ক (Cellular Data Network)
-761 = টুজি (2G)
-762 = থ্রিজি (3G)
-763 = ফোরজি (4G)
-764 = ওয়াইম্যাক্স (Wimax) ইত্যাদি
+======= কম্পিউটার Theory 711 to 759 ======== 5 marks
+701 = কম্পিউটার রক্ষণাবেক্ষণ, Virus, Cyber Security, firewall, software, Operating System ect.
+ 
+704 = কম্পিউটারের ইতিহাস, প্রকারভেদ, প্রজন্ম  
 
-770 = কম্পিউটার নেটওয়ার্ক (Computer Network)
-771 = ল্যান (LAN)
-772 = ম্যান (MAN)
-773 = ওয়াই-ফাই (WiFi)
-774 = ওয়াইম্যাক্স (Wimax) ইত্যাদি
-775 = দৈনন্দিন জীবনে তথ্যপ্রযুক্তি (Information Technologies in Practical Fields)
-776 = স্মার্টফোন (SmartPhone)
-777 = ওয়ার্ল্ড ওয়াইড ওয়েব (World Wide Web – WWW)
-778 = ইন্টারনেট (Internet)
+705 = কম্পিউটার নেটওয়ার্ক & Data communications 
 
-780 = নিত্য প্রয়োজনীয় কম্পিউটিং প্রযুক্তি Daily-Use Computing Technology
-781 = ই-মেইল (E-mail)
-782 = ফ্যাক্স (Fax) ইত্যাদি
-783 = ই-কমার্স (E-Commerce)
-784 = ক্লায়ন্ট-সার্ভার ম্যানেজমেন্ট (Client-Server Management)
-785 = মোবাইল প্রযুক্তির বৈশিষ্ট্যসমূহ (Mobile Features)
+706 = Machine Code (ASCII, BCD, Unicode ..oth)
+710 = কম্পিউটার পেরিফেরালস (Computer Peripherals, কি-বোর্ড, মাউস, OCR )
+711 = কি-বোর্ড (Keyboard)
+712 = মাউস (Mouse)
+713 = ওসিআর (OCR) ইত্যাদি
 
-790 = তথ্যপ্রযুক্তির বড় প্রতিষ্ঠান ও তাদের সেবা/তথ্যসমূহ (Tech-Giants Services & News)
-791 = গুগল (Google)
-792 = মাইক্রোসফট (Microsoft)
-793 = আইবিএম (IBM) ইত্যাদি
-794 = ক্লাউড কম্পিউটিং (Cloud Computing)
+720 = কম্পিউটারের অঙ্গসংগঠন (CPU, Hard Disk, ALU, RAM, ROM)
+721 = সিপিইউ (CPU)
+722 = হার্ড ডিস্ক (Hard Disk)
+723 = এএলইউ (ALU)
+724 = কম্পিউটারের Performance
 
-795 = সোশ্যাল নেটওয়ার্কিং (Social Networking)
-796 = ফেসবুক (Facebook)
-797 = টুইটার (Twitter)
-798 = ইন্সটাগ্রাম (Instagram) ইত্যাদি
-799 = রোবটিক্স (Robotics)
-701 = সাইবার অপরাধ (Cyber Crime)
+730 = দৈনন্দিন জীবনে কম্পিউটার (কৃষি, যোগাযোগ, শিক্ষা, স্বাস্থ্য, খেলাধুলা ইত্যাদি)
+731 = কৃষি
+732 = যোগাযোগ
+733 = শিক্ষা
+734 = স্বাস্থ্য
+735 = খেলাধুলা ইত্যাদি
+
+740 = Computer Number System (বাইনারি, অক্টাল, হেক্সা ডেসিমল ও রুপান্তর)
+741 = কম্পিউটারের নম্বর ব্যবস্থা
+742 = অপারেটিং সিস্টেমস (Operating Systems)
+743 = এমবেডেড কম্পিউটার (Embedded Computer)
+744 = ভাইরাস (VIRUS)
+745 = ফায়ারওয়াল (Firewall) ইত্যাদি
+
+750=  ডেটাবেইস সিস্টেম (Database Management System)
+
 
 ## 800 = গাণিতিক যুক্তি  20 marks 
 800 = গাণিতিক যুক্তি

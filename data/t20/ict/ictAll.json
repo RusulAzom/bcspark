@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "q": "ডেটাবেস ম্যানেজমেন্ট সিস্টেমের প্রধান কাজ কোনটি?",
+    "options": ["ডেটা তৈরি করা", "ডেটা সংরক্ষণ, পরিচালনা ও পুনরুদ্ধার করা", "শুধু ডেটা মুছে ফেলা", "হার্ডওয়্যার নিয়ন্ত্রণ করা"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "DBMS এর প্রধান কাজ হলো ডেটাবেস তৈরি, সংরক্ষণ, হালনাগাদ, মুছে ফেলা এবং নিরাপত্তা নিশ্চিত করা।"
+  },
+  {
+    "id": 2,
+    "q": "DBMS এর পূর্ণরূপ কী?",
+    "options": ["Data Base Management System", "Database Management System", "Data Backup Management System", "Digital Base Management System"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "DBMS = Database Management System, যা ডেটাবেস পরিচালনার সফটওয়্যার।"
+  },
+  {
+    "id": 3,
+    "q": "রিলেশনাল ডেটাবেস মডেলের প্রবর্তক কে?",
+    "options": ["Charles Babbage", "E.F. Codd", "Bill Gates", "Dennis Ritchie"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "IBM এর বিজ্ঞানী Edgar Frank Codd 1970 সালে রিলেশনাল ডেটাবেস মডেলের ধারণা দেন।"
+  },
+  {
+    "id": 4,
+    "q": "RDBMS এ ডেটা কোন আকারে সংরক্ষিত হয়?",
+    "options": ["ফাইল", "টেবিল", "ট্রি", "গ্রাফ"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "RDBMS এ ডেটা রো এবং কলাম বিশিষ্ট টেবিল বা রিলেশন আকারে সংরক্ষণ করা হয়।"
+  },
+  {
+    "id": 5,
+    "q": "Primary Key এর বৈশিষ্ট্য কী?",
+    "options": ["Null হতে পারে", "Duplicate মান থাকতে পারে", "Unique এবং Not Null হতে হবে", "শুধু Text হতে হবে"],
+    "ans": 2,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "Primary Key একটি টেবিলের প্রতিটি রেকর্ডকে ইউনিকভাবে শনাক্ত করে, তাই এটি Unique ও Not Null হয়।"
+  },
+  {
+    "id": 6,
+    "q": "Foreign Key কী নির্দেশ করে?",
+    "options": ["একই টেবিলের দুটি কলামের সম্পর্ক", "দুটি টেবিলের মধ্যে সম্পর্ক", "ডেটাবেসের নাম", "ইউজারের পাসওয়ার্ড"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "Foreign Key এক টেবিলের Primary Key কে অন্য টেবিলে রেফার করে দুটি টেবিলের মধ্যে সম্পর্ক তৈরি করে।"
+  },
+  {
+    "id": 7,
+    "q": "SQL এর পূর্ণরূপ কী?",
+    "options": ["Structured Query Language", "Simple Query Language", "System Query Logic", "Standard Question Language"],
+    "ans": 0,
+    "source": "BCS 38th",
+    "topicsId": 752,
+    "explain": "SQL = Structured Query Language, যা ডেটাবেসে কুয়েরি করার স্ট্যান্ডার্ড ল্যাঙ্গুয়েজ।"
+  },
+  {
+    "id": 8,
+    "q": "DDL এর উদাহরণ কোনটি?",
+    "options": ["SELECT", "INSERT", "CREATE", "UPDATE"],
+    "ans": 2,
+    "source": "Bank IT 2021",
+    "topicsId": 752,
+    "explain": "DDL = Data Definition Language। CREATE, ALTER, DROP এগুলো DDL কমান্ড।"
+  },
+  {
+    "id": 9,
+    "q": "DML এর কাজ কী?",
+    "options": ["টেবিল তৈরি করা", "ডেটা ম্যানিপুলেট করা", "ইউজার তৈরি করা", "ইনডেক্স মুছে ফেলা"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "DML = Data Manipulation Language। INSERT, UPDATE, DELETE, SELECT এর মাধ্যমে ডেটা ম্যানিপুলেট করে।"
+  },
+  {
+    "id": 10,
+    "q": "কোনটি DCL কমান্ড?",
+    "options": ["GRANT", "SELECT", "CREATE", "DELETE"],
+    "ans": 0,
+    "source": "NTRCA 17th",
+    "topicsId": 752,
+    "explain": "DCL = Data Control Language। GRANT ও REVOKE দিয়ে ইউজারের পারমিশন নিয়ন্ত্রণ করা হয়।"
+  },
+  {
+    "id": 11,
+    "q": "ডেটাবেসে 'Tuple' বলতে কী বোঝায়?",
+    "options": ["কলাম", "রো বা রেকর্ড", "টেবিল", "ডেটাবেস"],
+    "ans": 1,
+    "source": "BCS 37th",
+    "topicsId": 752,
+    "explain": "রিলেশনাল মডেলে একটি রো বা রেকর্ডকে Tuple বলে।"
+  },
+  {
+    "id": 12,
+    "q": "Attribute বলতে কী বোঝায়?",
+    "options": ["রো", "কলাম বা ফিল্ড", "টেবিল", "কী"],
+    "ans": 1,
+    "source": "BCS 39th",
+    "topicsId": 752,
+    "explain": "টেবিলের একটি কলাম বা ফিল্ডকে Attribute বলে।"
+  },
+  {
+    "id": 13,
+    "q": "Normalization এর প্রধান উদ্দেশ্য কী?",
+    "options": ["ডেটা বাড়ানো", "ডেটা রিডানডেন্সি কমানো", "স্পিড কমানো", "সিকিউরিটি নষ্ট করা"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "Normalization এর মাধ্যমে ডেটার পুনরাবৃত্তি ও অসামঞ্জস্যতা দূর করে ডেটাবেসকে দক্ষ করা হয়।"
+  },
+  {
+    "id": 14,
+    "q": "1NF এর শর্ত কী?",
+    "options": ["Multivalued attribute থাকবে", "প্রতিটি কলামে Atomic value থাকবে", "Transitive dependency থাকবে", "Partial dependency থাকবে"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "First Normal Form এ প্রতিটি সেল-এ একটি মাত্র Atomic বা একক মান থাকতে হবে।"
+  },
+  {
+    "id": 15,
+    "q": "ACID এর 'A' দ্বারা কী বোঝায়?",
+    "options": ["Accuracy", "Atomicity", "Availability", "Association"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "ACID = Atomicity, Consistency, Isolation, Durability। Atomicity মানে ট্রানজেকশন সম্পূর্ণ হবে অথবা হবেই না।"
+  },
+  {
+    "id": 16,
+    "q": "ডেটাবেস Index এর কাজ কী?",
+    "options": ["ডেটা ডিলিট করা", "ডেটা খোঁজার গতি বাড়ানো", "ব্যাকআপ নেওয়া", "ডেটা এনক্রিপ্ট করা"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "Index ব্যবহার করে বড় টেবিল থেকে দ্রুত ডেটা রিট্রিভ করা যায়, বইয়ের সূচিপত্রের মতো।"
+  },
+  {
+    "id": 17,
+    "q": "কোনটি NoSQL ডেটাবেস?",
+    "options": ["MySQL", "Oracle", "MongoDB", "MS SQL Server"],
+    "ans": 2,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "MongoDB একটি Document-based NoSQL ডেটাবেস। MySQL, Oracle RDBMS।"
+  },
+  {
+    "id": 18,
+    "q": "ডেটা ওয়্যারহাউস কী?",
+    "options": ["লাইভ ট্রানজেকশন সিস্টেম", "ঐতিহাসিক ডেটার বিশাল সংগ্রহ", "শুধু ছবি রাখার স্থান", "নেটওয়ার্ক ডিভাইস"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "Data Warehouse হলো বিভিন্ন সোর্স থেকে সংগৃহীত ঐতিহাসিক ডেটার কেন্দ্রীয় ভান্ডার যা বিশ্লেষণের জন্য ব্যবহৃত হয়।"
+  },
+  {
+    "id": 19,
+    "q": "ER Diagram এ Rectangle দ্বারা কী বোঝায়?",
+    "options": ["Attribute", "Entity", "Relationship", "Key"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "ER Diagram এ Rectangle = Entity, Oval = Attribute, Diamond = Relationship।"
+  },
+  {
+    "id": 20,
+    "q": "Cardinality কী নির্দেশ করে?",
+    "options": ["টেবিলের সংখ্যা", "একটি Entity এর সাথে অন্য Entity এর সম্পর্কের সংখ্যা", "কলামের ডেটা টাইপ", "ডেটাবেসের সাইজ"],
+    "ans": 1,
+    "source": "NTRCA 16th",
+    "topicsId": 752,
+    "explain": "Cardinality দিয়ে One-to-One, One-to-Many, Many-to-Many সম্পর্ক বোঝানো হয়।"
+  },
+  {
+    "id": 21,
+    "q": "View কী?",
+    "options": ["ফিজিক্যাল টেবিল", "Virtual টেবিল", "ইনডেক্স", "ট্রিগার"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "View হলো এক বা একাধিক টেবিলের উপর ভিত্তি করে তৈরি Virtual টেবিল, এর নিজস্ব ডেটা থাকে না।"
+  },
+  {
+    "id": 22,
+    "q": "Trigger কখন Execute হয়?",
+    "options": ["ম্যানুয়ালি চালালে", "নির্দিষ্ট Event ঘটলে স্বয়ংক্রিয়ভাবে", "সার্ভার রিস্টার্ট দিলে", "ব্যাকআপ নিলে"],
+    "ans": 1,
+    "source": "Bank IT 2021",
+    "topicsId": 752,
+    "explain": "Trigger হলো স্টোরড প্রোগ্রাম যা INSERT, UPDATE, DELETE এর মতো Event এ স্বয়ংক্রিয়ভাবে চলে।"
+  },
+  {
+    "id": 23,
+    "q": "Stored Procedure এর সুবিধা কী?",
+    "options": ["স্লো পারফরম্যান্স", "কোড রিইউজ ও নেটওয়ার্ক ট্রাফিক কমায়", "সিকিউরিটি কমায়", "ডেটা ডিলিট করে"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "Stored Procedure সার্ভারে কম্পাইল হয়ে থাকে, ফলে বারবার ব্যবহার ও দ্রুত এক্সিকিউশন সম্ভব।"
+  },
+  {
+    "id": 24,
+    "q": "ডেটাবেস Transaction কী?",
+    "options": ["একটি টেবিল", "কাজের একটি লজিক্যাল ইউনিট", "একজন ইউজার", "একটি কলাম"],
+    "ans": 1,
+    "source": "BCS 38th",
+    "topicsId": 752,
+    "explain": "Transaction হলো এক বা একাধিক অপারেশনের সমষ্টি যা একটি একক ইউনিট হিসেবে কাজ করে।"
+  },
+  {
+    "id": 25,
+    "q": "COMMIT কমান্ডের কাজ কী?",
+    "options": ["Transaction বাতিল করা", "Transaction স্থায়ীভাবে সেভ করা", "টেবিল ডিলিট করা", "ইনডেক্স তৈরি করা"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "COMMIT দিয়ে Transaction এর পরিবর্তনগুলো ডেটাবেসে স্থায়ীভাবে সংরক্ষণ করা হয়।"
+  },
+  {
+    "id": 26,
+    "q": "ROLLBACK কী করে?",
+    "options": ["ডেটা সেভ করে", "Transaction এর পরিবর্তন বাতিল করে", "নতুন ইউজার তৈরি করে", "ব্যাকআপ নেয়"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "কোনো Error হলে ROLLBACK দিয়ে Transaction শুরুর আগের অবস্থায় ফিরিয়ে নেওয়া হয়।"
+  },
+  {
+    "id": 27,
+    "q": "Data Redundancy কী?",
+    "options": ["ডেটার নিরাপত্তা", "একই ডেটার অপ্রয়োজনীয় পুনরাবৃত্তি", "ডেটা এনক্রিপশন", "ডেটা কম্প্রেশন"],
+    "ans": 1,
+    "source": "NTRCA 18th",
+    "topicsId": 752,
+    "explain": "একই ডেটা বিভিন্ন জায়গায় বারবার থাকাকে Data Redundancy বলে, যা Normalization দিয়ে কমানো হয়।"
+  },
+  {
+    "id": 28,
+    "q": "কোন Key একাধিক কলামের সমন্বয়ে গঠিত হতে পারে?",
+    "options": ["Primary Key", "Foreign Key", "Composite Key", "Candidate Key"],
+    "ans": 2,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "দুই বা ততোধিক Attribute মিলে একটি রেকর্ডকে ইউনিক করলে তাকে Composite Key বলে।"
+  },
+  {
+    "id": 29,
+    "q": "Candidate Key কী?",
+    "options": ["যে কোনো কলাম", "Primary Key হওয়ার যোগ্য Attribute সমূহ", "শুধু Foreign Key", "শুধু Numeric Key"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "যেসব Attribute দিয়ে ইউনিকভাবে রেকর্ড শনাক্ত করা যায় তাদের Candidate Key বলে, এর মধ্য থেকে একটি Primary Key হয়।"
+  },
+  {
+    "id": 30,
+    "q": "ডেটা মডেল কয় প্রকার?",
+    "options": ["2", "3", "4", "5"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "প্রধান ডেটা মডেল ৩টি: Hierarchical, Network, Relational। এছাড়া Object-Oriented ও আছে।"
+  },
+  {
+    "id": 31,
+    "q": "Hierarchical ডেটা মডেলে ডেটা কিভাবে সাজানো থাকে?",
+    "options": ["টেবিল আকারে", "Tree আকারে", "গ্রাফ আকারে", "লিস্ট আকারে"],
+    "ans": 1,
+    "source": "BCS 37th",
+    "topicsId": 752,
+    "explain": "Hierarchical মডেলে Parent-Child সম্পর্ক Tree Structure এ সাজানো থাকে।"
+  },
+  {
+    "id": 32,
+    "q": "JOIN ক্লজের কাজ কী?",
+    "options": ["টেবিল ভাগ করা", "দুই বা ততোধিক টেবিলের ডেটা একত্র করা", "ডেটা ডিলিট করা", "কলাম তৈরি করা"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "SQL JOIN দিয়ে সম্পর্কযুক্ত কলামের ভিত্তিতে একাধিক টেবিল থেকে ডেটা রিট্রিভ করা হয়।"
+  },
+  {
+    "id": 33,
+    "q": "INNER JOIN কী রিটার্ন করে?",
+    "options": ["সব রেকর্ড", "শুধু ম্যাচিং রেকর্ড", "শুধু বাম টেবিলের রেকর্ড", "শুধু ডান টেবিলের রেকর্ড"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "INNER JOIN শুধু সেই রেকর্ডগুলো দেয় যেগুলো দুই টেবিলেই ম্যাচ করে।"
+  },
+  {
+    "id": 34,
+    "q": "LEFT JOIN এ কী ঘটে?",
+    "options": ["শুধু ডান টেবিলের সব রেকর্ড", "বাম টেবিলের সব রেকর্ড + ম্যাচিং রেকর্ড", "শুধু ম্যাচিং রেকর্ড", "কোনো রেকর্ড না"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "LEFT JOIN বাম টেবিলের সব রেকর্ড এবং ডান টেবিলের ম্যাচিং রেকর্ড রিটার্ন করে।"
+  },
+  {
+    "id": 35,
+    "q": "DBMS এর কোন লেভেল ডেটা কিভাবে সংরক্ষিত আছে তা বর্ণনা করে?",
+    "options": ["External Level", "Conceptual Level", "Internal Level", "View Level"],
+    "ans": 2,
+    "source": "BCS 39th",
+    "topicsId": 752,
+    "explain": "Three Schema Architecture: Internal Level = Physical storage, Conceptual = Logical structure, External = User view।"
+  },
+  {
+    "id": 36,
+    "q": "Data Dictionary কোথায় থাকে?",
+    "options": ["RAM এ", "Metadata হিসেবে সিস্টেম ক্যাটালগে", "ইউজার টেবিলে", "ব্যাকআপ ফাইলে"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "Data Dictionary বা System Catalog এ ডেটাবেসের স্ট্রাকচার সম্পর্কিত Metadata থাকে।"
+  },
+  {
+    "id": 37,
+    "q": "Big Data এর 3V কী কী?",
+    "options": ["Value, View, Virus", "Volume, Velocity, Variety", "Video, Voice, VPN", "Varchar, Value, View"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "Big Data এর বৈশিষ্ট্য: Volume - বিশাল পরিমাণ, Velocity - দ্রুত গতি, Variety - বিভিন্ন ধরনের ডেটা।"
+  },
+  {
+    "id": 38,
+    "q": "ডেটা মাইনিং কী?",
+    "options": ["ডেটা ডিলিট করা", "বড় ডেটাসেট থেকে প্যাটার্ন খোঁজা", "ডেটা টাইপ করা", "ডেটা প্রিন্ট করা"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "Data Mining হলো বিশাল ডেটা থেকে লুকায়িত প্যাটার্ন, সম্পর্ক ও জ্ঞান আবিষ্কারের প্রক্রিয়া।"
+  },
+  {
+    "id": 39,
+    "q": "OLAP এর পূর্ণরূপ কী?",
+    "options": ["Online Application Processing", "Online Analytical Processing", "Offline Application Program", "Online Access Protocol"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "OLAP = Online Analytical Processing, যা Data Warehouse এ জটিল বিশ্লেষণের জন্য ব্যবহৃত হয়।"
+  },
+  {
+    "id": 40,
+    "q": "OLTP কীসের জন্য ব্যবহৃত হয়?",
+    "options": ["ডেটা বিশ্লেষণ", "দৈনন্দিন ট্রানজেকশন প্রসেসিং", "ব্যাকআপ", "রিপোর্ট জেনারেট"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "OLTP = Online Transaction Processing, যেমন ATM, ব্যাংকিং, ই-কমার্স এর রিয়েল-টাইম লেনদেন।"
+  },
+  {
+    "id": 41,
+    "q": "GROUP BY ক্লজের কাজ কী?",
+    "options": ["রো ডিলিট করা", "একই মানের রো গ্রুপ করা", "টেবিল জয়েন করা", "ইনডেক্স তৈরি"],
+    "ans": 1,
+    "source": "NTRCA 17th",
+    "topicsId": 752,
+    "explain": "GROUP BY দিয়ে একই ভ্যালুর রেকর্ডগুলোকে গ্রুপ করে Aggregate ফাংশন যেমন COUNT, SUM ব্যবহার করা হয়।"
+  },
+  {
+    "id": 42,
+    "q": "HAVING ক্লজ কোথায় ব্যবহৃত হয়?",
+    "options": ["WHERE এর আগে", "GROUP BY এর পরে শর্ত দিতে", "ORDER BY এর আগে", "INSERT এর সাথে"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "WHERE সাধারণ রো ফিল্টার করে, HAVING গ্রুপ করা ডেটার উপর শর্ত আরোপ করে।"
+  },
+  {
+    "id": 43,
+    "q": "ডেটাবেস Backup কেন নেওয়া হয়?",
+    "options": ["স্পিড বাড়াতে", "ডেটা হারানো থেকে রক্ষা করতে", "স্টোরেজ কমাতে", "ইউজার বাড়াতে"],
+    "ans": 1,
+    "source": "BCS 38th",
+    "topicsId": 752,
+    "explain": "হার্ডওয়্যার ফেইল, ভাইরাস বা ভুল ডিলিট থেকে ডেটা পুনরুদ্ধারের জন্য Backup নেওয়া হয়।"
+  },
+  {
+    "id": 44,
+    "q": "Deadlock কী?",
+    "options": ["ডেটা দ্রুত আসা", "দুই বা ততোধিক Transaction একে অপরের জন্য অপেক্ষা করে আটকে যাওয়া", "নতুন টেবিল তৈরি", "ইনডেক্স কাজ না করা"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "Deadlock এ দুটি Transaction এমন রিসোর্সের জন্য অপেক্ষা করে যা অন্যটি লক করে রেখেছে।"
+  },
+  {
+    "id": 45,
+    "q": "SQL Injection কী?",
+    "options": ["ডেটাবেসের গতি বাড়ানো", "একটি সিকিউরিটি অ্যাটাক", "নতুন ডেটা টাইপ", "ব্যাকআপ মেথড"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "SQL Injection হলো ম্যালিসিয়াস SQL কোড ইনপুটের মাধ্যমে ডেটাবেসে অননুমোদিত অ্যাক্সেস নেওয়া।"
+  },
+  {
+    "id": 46,
+    "q": "কোনটি জনপ্রিয় ওপেন সোর্স RDBMS?",
+    "options": ["Oracle", "MS SQL Server", "MySQL", "DB2"],
+    "ans": 2,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "MySQL ও PostgreSQL জনপ্রিয় ওপেন সোর্স RDBMS। Oracle ও MS SQL Server কমার্শিয়াল।"
+  },
+  {
+    "id": 47,
+    "q": "Schema কী?",
+    "options": ["ডেটাবেসের লজিক্যাল স্ট্রাকচার", "একটি রো", "একজন ইউজার", "একটি পাসওয়ার্ড"],
+    "ans": 0,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "Schema হলো ডেটাবেসের সম্পূর্ণ লজিক্যাল ডিজাইন বা ব্লুপ্রিন্ট।"
+  },
+  {
+    "id": 48,
+    "q": "Instance এবং Schema এর পার্থক্য কী?",
+    "options": ["একই জিনিস", "Schema = ডিজাইন, Instance = নির্দিষ্ট সময়ের ডেটা", "Instance = ডিজাইন", "কোনো পার্থক্য নেই"],
+    "ans": 1,
+    "source": "NTRCA 16th",
+    "topicsId": 752,
+    "explain": "Schema হলো ডেটাবেসের স্ট্রাকচার, আর Instance হলো কোনো নির্দিষ্ট মুহূর্তে ডেটাবেসে থাকা ডেটা।"
+  },
+  {
+    "id": 49,
+    "q": "DISTINCT কীওয়ার্ডের কাজ কী?",
+    "options": ["সব ডেটা দেখানো", "Duplicate রো বাদ দিয়ে ইউনিক ভ্যালু দেখানো", "ডেটা সর্ট করা", "ডেটা গণনা করা"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "SELECT DISTINCT দিয়ে কুয়েরি রেজাল্ট থেকে ডুপ্লিকেট রো বাদ দেওয়া হয়।"
+  },
+  {
+    "id": 50,
+    "q": "Aggregate Function কোনটি নয়?",
+    "options": ["SUM", "AVG", "COUNT", "CREATE"],
+    "ans": 3,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "SUM, AVG, COUNT, MAX, MIN হলো Aggregate Function। CREATE হলো DDL কমান্ড।"
+  },
+  {
+    "id": 51,
+    "q": "2NF এর শর্ত কী?",
+    "options": ["Multivalued attribute থাকতে পারবে", "1NF এ থাকতে হবে এবং Partial Dependency থাকবে না", "Transitive Dependency থাকবে", "সব কলাম Numeric হবে"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "Second Normal Form এ থাকতে হলে টেবিলটি 1NF এ থাকবে এবং কোনো Non-key Attribute, Composite Primary Key এর অংশের উপর নির্ভরশীল হবে না।"
+  },
+  {
+    "id": 52,
+    "q": "3NF এর মূল শর্ত কোনটি?",
+    "options": ["2NF এ থাকবে এবং Transitive Dependency থাকবে না", "শুধু 1NF এ থাকলেই হবে", "Duplicate রো থাকতে হবে", "সব কলাম Text হবে"],
+    "ans": 0,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "Third Normal Form এ টেবিলটি 2NF এ থাকবে এবং কোনো Non-key Attribute অন্য Non-key Attribute এর উপর নির্ভরশীল হবে না।"
+  },
+  {
+    "id": 53,
+    "q": "BCNF এর পূর্ণরূপ কী?",
+    "options": ["Basic Common Normal Form", "Boyce-Codd Normal Form", "Binary Code Normal Form", "Base Control Normal Form"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "BCNF হলো 3NF এর চেয়ে শক্তিশালী একটি Normal Form, যা Raymond Boyce ও E.F. Codd প্রবর্তন করেন।"
+  },
+  {
+    "id": 54,
+    "q": "Denormalization কেন করা হয়?",
+    "options": ["স্টোরেজ বাঁচাতে", "কুয়েরি পারফরম্যান্স বাড়াতে", "সিকিউরিটি কমাতে", "ডেটা ডিলিট করতে"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "Denormalization এ ইচ্ছাকৃতভাবে Redundancy যোগ করা হয় যাতে JOIN কম লাগে এবং Read পারফরম্যান্স বাড়ে।"
+  },
+  {
+    "id": 55,
+    "q": "SQL এ ডেটা সর্ট করার জন্য কোন ক্লজ ব্যবহার করা হয়?",
+    "options": ["GROUP BY", "ORDER BY", "HAVING", "WHERE"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "ORDER BY ক্লজ ASC বা DESC দিয়ে রেজাল্ট সেটকে সর্ট করে।"
+  },
+  {
+    "id": 56,
+    "q": "LIKE অপারেটরের সাথে কোন Wildcard ব্যবহৃত হয়?",
+    "options": ["# এবং ?", "% এবং _", "* এবং ?", "$ এবং @"],
+    "ans": 1,
+    "source": "Bank IT 2021",
+    "topicsId": 752,
+    "explain": "SQL এ % দিয়ে একাধিক ক্যারেক্টার এবং _ দিয়ে একটি ক্যারেক্টার বোঝানো হয়।"
+  },
+  {
+    "id": 57,
+    "q": "BETWEEN অপারেটর কী করে?",
+    "options": ["দুটি টেবিল জয়েন করে", "একটি রেঞ্জের মধ্যে ভ্যালু সিলেক্ট করে", "ডেটা ডিলিট করে", "নতুন কলাম যোগ করে"],
+    "ans": 1,
+    "source": "NTRCA 18th",
+    "topicsId": 752,
+    "explain": "WHERE age BETWEEN 20 AND 30 - এভাবে একটি রেঞ্জের মধ্যে ডেটা খোঁজা যায়।"
+  },
+  {
+    "id": 58,
+    "q": "IN অপারেটরের কাজ কী?",
+    "options": ["একাধিক সম্ভাব্য মানের মধ্যে মিল খোঁজা", "নতুন রো ইনসার্ট করা", "ইনডেক্স তৈরি করা", "টেবিল তৈরি করা"],
+    "ans": 0,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "WHERE city IN ('Dhaka', 'Chittagong', 'Khulna') - এভাবে একাধিক মান চেক করা যায়।"
+  },
+  {
+    "id": 59,
+    "q": "ALTER কমান্ড কোন ধরনের স্টেটমেন্ট?",
+    "options": ["DML", "DDL", "DCL", "TCL"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "ALTER দিয়ে টেবিলের স্ট্রাকচার পরিবর্তন করা হয়, তাই এটি DDL।"
+  },
+  {
+    "id": 60,
+    "q": "DROP TABLE কমান্ড কী করে?",
+    "options": ["টেবিলের সব রো ডিলিট করে", "টেবিলের স্ট্রাকচারসহ সম্পূর্ণ মুছে ফেলে", "টেবিল লক করে", "টেবিলের নাম পরিবর্তন করে"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "DROP TABLE দিলে টেবিলের ডেটা ও স্ট্রাকচার দুটোই পার্মানেন্টলি ডিলিট হয়। TRUNCATE শুধু ডেটা মুছে।"
+  },
+  {
+    "id": 61,
+    "q": "TRUNCATE এবং DELETE এর পার্থক্য কী?",
+    "options": ["কোনো পার্থক্য নেই", "TRUNCATE DDL, DELETE DML এবং ROLLBACK করা যায়", "DELETE দ্রুত", "TRUNCATE WHERE ব্যবহার করে"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "TRUNCATE DDL কমান্ড, সব রো একবারে মুছে ফেলে এবং ROLLBACK করা যায় না। DELETE DML, WHERE দেওয়া যায় এবং ROLLBACK সম্ভব।"
+  },
+  {
+    "id": 62,
+    "q": "UNION অপারেটর কী করে?",
+    "options": ["দুটি কুয়েরির ফলাফল জোড়া লাগায় ও Duplicate বাদ দেয়", "টেবিল জয়েন করে", "ডেটা গুন করে", "কলাম যোগ করে"],
+    "ans": 0,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "UNION দুটি SELECT এর রেজাল্ট একত্র করে এবং ডুপ্লিকেট রো বাদ দেয়। UNION ALL ডুপ্লিকেট রাখে।"
+  },
+  {
+    "id": 63,
+    "q": "Subquery কী?",
+    "options": ["মেইন টেবিল", "অন্য কুয়েরির ভিতরে থাকা কুয়েরি", "ইনডেক্স", "ভিউ"],
+    "ans": 1,
+    "source": "BCS 39th",
+    "topicsId": 752,
+    "explain": "একটি SQL স্টেটমেন্টের ভিতরে থাকা আরেকটি SELECT স্টেটমেন্টকে Subquery বা Nested Query বলে।"
+  },
+  {
+    "id": 64,
+    "q": "কোনটি TCL কমান্ড?",
+    "options": ["SELECT", "COMMIT", "CREATE", "GRANT"],
+    "ans": 1,
+    "source": "NTRCA 17th",
+    "topicsId": 752,
+    "explain": "TCL = Transaction Control Language। COMMIT, ROLLBACK, SAVEPOINT এর উদাহরণ।"
+  },
+  {
+    "id": 65,
+    "q": "SAVEPOINT এর কাজ কী?",
+    "options": ["ডেটাবেস সেভ করা", "Transaction এর মধ্যে রোলব্যাক পয়েন্ট তৈরি করা", "নতুন টেবিল বানানো", "ইউজার তৈরি করা"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "SAVEPOINT দিয়ে বড় Transaction এর মাঝে পয়েন্ট সেট করা যায়, যাতে পুরো Transaction রোলব্যাক না করে নির্দিষ্ট অংশে ফেরা যায়।"
+  },
+  {
+    "id": 66,
+    "q": "Concurrency Control কেন দরকার?",
+    "options": ["একজন ইউজার ব্যবহারের জন্য", "একাধিক ইউজার একসাথে ডেটা অ্যাক্সেস করলে ডেটার সঠিকতা বজায় রাখতে", "ডেটা ডিলিট করতে", "ব্যাকআপ নিতে"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "একাধিক Transaction একসাথে চললে ডেটা Inconsistency হতে পারে, তা রোধ করতে Concurrency Control ব্যবহার হয়।"
+  },
+  {
+    "id": 67,
+    "q": "Locking Mechanism কী?",
+    "options": ["ডেটাবেস বন্ধ করা", "Transaction চলাকালে ডেটাকে অন্যদের থেকে লক করে রাখা", "পাসওয়ার্ড দেওয়া", "টেবিল হাইড করা"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "Shared Lock ও Exclusive Lock দিয়ে ডেটার উপর একাধিক Transaction এর কনফ্লিক্ট ঠেকানো হয়।"
+  },
+  {
+    "id": 68,
+    "q": "ডেটাবেস Recovery এর প্রধান কৌশল কোনটি?",
+    "options": ["Indexing", "Log-based Recovery", "Normalization", "Joining"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "সিস্টেম ক্র্যাশ হলে Transaction Log ব্যবহার করে Undo ও Redo করে ডেটাবেসকে Consistent অবস্থায় আনা হয়।"
+  },
+  {
+    "id": 69,
+    "q": "Checkpoint কী?",
+    "options": ["নতুন ইউজার", "যে পয়েন্টে সব Buffer ডেটা ডিস্কে লেখা হয়", "একটি টেবিল", "একটি কুয়েরি"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "Checkpoint এর সময় DBMS মেমোরির সব পরিবর্তন ডিস্কে ফ্লাশ করে এবং লগে রেকর্ড রাখে, এতে Recovery দ্রুত হয়।"
+  },
+  {
+    "id": 70,
+    "q": "Distributed Database কী?",
+    "options": ["একটি সার্ভারে থাকা ডেটাবেস", "একাধিক ফিজিক্যাল লোকেশনে ছড়ানো কিন্তু লজিক্যালি একটিই ডেটাবেস", "শুধু ক্লাউড ডেটাবেস", "ব্যাকআপ ডেটাবেস"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "Distributed Database এ ডেটা বিভিন্ন সাইটে থাকে কিন্তু ইউজারের কাছে একটি ডেটাবেস মনে হয়।"
+  },
+  {
+    "id": 71,
+    "q": "Data Fragmentation কোন ধরনের ডেটাবেসে হয়?",
+    "options": ["Centralized", "Distributed", "Flat File", "Spreadsheet"],
+    "ans": 1,
+    "source": "Bank IT 2021",
+    "topicsId": 752,
+    "explain": "Distributed DB তে একটি টেবিলকে ভেঙে Horizontal বা Vertical Fragment করে বিভিন্ন সাইটে রাখা হয়।"
+  },
+  {
+    "id": 72,
+    "q": "Data Replication এর সুবিধা কী?",
+    "options": ["ডেটা কমে যায়", "Availability ও Reliability বাড়ে", "স্পিড কমে", "সিকিউরিটি কমে"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "Replication এ একই ডেটার কপি একাধিক সাইটে রাখা হয়, ফলে একটি সাইট ডাউন হলেও ডেটা পাওয়া যায়।"
+  },
+  {
+    "id": 73,
+    "q": "CAP Theorem কী নিয়ে?",
+    "options": ["SQL সিনট্যাক্স", "Distributed System এ Consistency, Availability, Partition Tolerance", "Normalization", "Indexing"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "CAP Theorem অনুযায়ী একটি Distributed System একসাথে তিনটির মধ্যে সর্বোচ্চ দুটি গুণ নিশ্চিত করতে পারে।"
+  },
+  {
+    "id": 74,
+    "q": "MongoDB কোন ধরনের ডেটা মডেল ব্যবহার করে?",
+    "options": ["Table", "Document", "Key-Value", "Graph"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "MongoDB Document-Oriented NoSQL ডেটাবেস, JSON-like BSON ফরম্যাটে ডেটা রাখে।"
+  },
+  {
+    "id": 75,
+    "q": "Redis কী ধরনের ডেটাবেস?",
+    "options": ["RDBMS", "Key-Value Store", "Graph DB", "Document DB"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "Redis একটি In-Memory Key-Value NoSQL ডেটাবেস, যা Caching এর জন্য খুব জনপ্রিয়।"
+  },
+  {
+    "id": 76,
+    "q": "Graph Database কিসের জন্য ভালো?",
+    "options": ["সাধারণ টেবিল ডেটা", "সম্পর্কযুক্ত ডেটা যেমন সোশ্যাল নেটওয়ার্ক", "ইমেজ স্টোর", "লগ ফাইল"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "Neo4j এর মতো Graph DB Node ও Edge দিয়ে জটিল সম্পর্ক মডেল করতে পারে।"
+  },
+  {
+    "id": 77,
+    "q": "ডেটাবেস সিকিউরিটির একটি পদ্ধতি কী?",
+    "options": ["Normalization", "Encryption", "Indexing", "Sorting"],
+    "ans": 1,
+    "source": "NTRCA 16th",
+    "topicsId": 752,
+    "explain": "Encryption, Authentication, Authorization, Auditing এর মাধ্যমে ডেটাবেস সিকিউর করা হয়।"
+  },
+  {
+    "id": 78,
+    "q": "Role-Based Access Control কী?",
+    "options": ["সবাইকে সব পারমিশন দেওয়া", "ইউজারের Role অনুযায়ী পারমিশন দেওয়া", "ডেটা এনক্রিপ্ট করা", "টেবিল ডিলিট করা"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "RBAC এ Admin, User, Guest ইত্যাদি Role তৈরি করে তাদের নির্দিষ্ট পারমিশন দেওয়া হয়।"
+  },
+  {
+    "id": 79,
+    "q": "Data Warehouse এর চারটি বৈশিষ্ট্য কী?",
+    "options": ["Volatile, Current, Detailed, Unorganized", "Subject-oriented, Integrated, Time-variant, Non-volatile", "Small, Fast, Simple, Cheap", "Online, Real-time, Small, Unstructured"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "Inmon এর মতে Data Warehouse Subject-oriented, Integrated, Time-variant এবং Non-volatile হয়।"
+  },
+  {
+    "id": 80,
+    "q": "ETL এর পূর্ণরূপ কী?",
+    "options": ["Extract, Test, Load", "Extract, Transform, Load", "Enter, Transfer, Leave", "Edit, Table, List"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "ETL প্রসেসে বিভিন্ন সোর্স থেকে ডেটা Extract করে, Transform করে Data Warehouse এ Load করা হয়।"
+  },
+  {
+    "id": 81,
+    "q": "Star Schema কী?",
+    "options": ["OLTP মডেল", "Data Warehouse এর ডাইমেনশনাল মডেল", "নেটওয়ার্ক টপোলজি", "ER Diagram"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "Star Schema তে একটি Fact টেবিল কেন্দ্রে থাকে এবং চারপাশে Dimension টেবিল থাকে।"
+  },
+  {
+    "id": 82,
+    "q": "Snowflake Schema ও Star Schema এর পার্থক্য কী?",
+    "options": ["কোনো পার্থক্য নেই", "Snowflake এ Dimension টেবিল Normalize করা থাকে", "Star দ্রুত", "Snowflake এ Fact টেবিল নেই"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "Snowflake Schema তে Dimension টেবিলগুলো আরও Normalize করে সাব-ডাইমেনশনে ভাঙা হয়।"
+  },
+  {
+    "id": 83,
+    "q": "NULL মান বলতে কী বোঝায়?",
+    "options": ["Zero", "Empty String", "অনুপস্থিত বা অজানা মান", "Space"],
+    "ans": 2,
+    "source": "NTRCA 18th",
+    "topicsId": 752,
+    "explain": "NULL মানে 'মান নেই' বা 'অজানা'। এটি 0 বা ফাঁকা স্ট্রিং থেকে আলাদা।"
+  },
+  {
+    "id": 84,
+    "q": "IS NULL অপারেটর কোথায় ব্যবহার হয়?",
+    "options": ["JOIN এ", "NULL ভ্যালু চেক করতে", "টেবিল তৈরি করতে", "ইনডেক্স বানাতে"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "NULL চেক করতে = ব্যবহার করা যায় না, IS NULL বা IS NOT NULL ব্যবহার করতে হয়।"
+  },
+  {
+    "id": 85,
+    "q": "VARCHAR এবং CHAR এর পার্থক্য কী?",
+    "options": ["কোনো পার্থক্য নেই", "CHAR Fixed Length, VARCHAR Variable Length", "VARCHAR শুধু Number রাখে", "CHAR দ্রুত"],
+    "ans": 1,
+    "source": "Bank IT 2021",
+    "topicsId": 752,
+    "explain": "CHAR(10) সবসময় 10 বাইট নিবে, VARCHAR(10) যতটুকু দরকার ততটুকু নিবে।"
+  },
+  {
+    "id": 86,
+    "q": "কোন ডেটা টাইপ দিয়ে বড় টেক্সট রাখা হয়?",
+    "options": ["INT", "VARCHAR", "TEXT বা CLOB", "DATE"],
+    "ans": 2,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "TEXT, CLOB, LONGTEXT ইত্যাদি দিয়ে বড় আকারের Character ডেটা রাখা হয়।"
+  },
+  {
+    "id": 87,
+    "q": "BLOB ডেটা টাইপ কী সংরক্ষণ করে?",
+    "options": ["শুধু Text", "Binary Large Object যেমন ইমেজ, অডিও", "শুধু Date", "শুধু Number"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "BLOB = Binary Large Object, যা ইমেজ, ভিডিও, PDF ইত্যাদি বাইনারি ডেটা রাখতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 88,
+    "q": "Auto Increment কী?",
+    "options": ["ম্যানুয়ালি মান দেওয়া", "নতুন রো ইনসার্ট হলে স্বয়ংক্রিয়ভাবে সংখ্যা বাড়া", "ডেটা ডিলিট করা", "কলাম যোগ করা"],
+    "ans": 1,
+    "source": "NTRCA 17th",
+    "topicsId": 752,
+    "explain": "Primary Key কলামে Auto Increment দিলে প্রতিবার INSERT এ ইউনিক সংখ্যা অটো জেনারেট হয়।"
+  },
+  {
+    "id": 89,
+    "q": "Constraints এর উদাহরণ কোনটি?",
+    "options": ["SELECT", "NOT NULL", "JOIN", "VIEW"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "NOT NULL, UNIQUE, PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT হলো Constraint।"
+  },
+  {
+    "id": 90,
+    "q": "CHECK Constraint কী করে?",
+    "options": ["ডেটা চেক করে না", "কলামে একটি শর্ত পূরণ হচ্ছে কিনা তা নিশ্চিত করে", "টেবিল চেক করে", "ইনডেক্স চেক করে"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "CHECK (age >= 18) দিলে age কলামে 18 এর কম মান ইনসার্ট হবে না।"
+  },
+  {
+    "id": 91,
+    "q": "DEFAULT Constraint এর কাজ কী?",
+    "options": ["ডেটা ডিলিট করা", "কোনো মান না দিলে ডিফল্ট মান বসানো", "ইউনিক করা", "রিলেশন তৈরি"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "কলামে DEFAULT 'Dhaka' দিলে INSERT এর সময় মান না দিলে 'Dhaka' বসবে।"
+  },
+  {
+    "id": 92,
+    "q": "CASE স্টেটমেন্ট SQL এ কী করে?",
+    "options": ["লুপ চালায়", "If-Else এর মতো শর্তসাপেক্ষ লজিক প্রয়োগ করে", "টেবিল তৈরি করে", "ইউজার বানায়"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "CASE WHEN condition THEN result ELSE result END দিয়ে কুয়েরিতে কন্ডিশনাল লজিক দেওয়া যায়।"
+  },
+  {
+    "id": 93,
+    "q": "ডেটাবেস Sharding কী?",
+    "options": ["ব্যাকআপ নেওয়া", "বড় ডেটাবেসকে ছোট অংশে ভাগ করে একাধিক সার্ভারে রাখা", "ডেটা এনক্রিপ্ট করা", "ইনডেক্স মুছে ফেলা"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "Horizontal Partitioning বা Sharding করে বিশাল ডেটাবেসের স্কেল ও পারফরম্যান্স বাড়ানো হয়।"
+  },
+  {
+    "id": 94,
+    "q": "NewSQL ডেটাবেসের বৈশিষ্ট্য কী?",
+    "options": ["শুধু NoSQL", "RDBMS এর ACID + NoSQL এর Scalability", "শুধু Graph", "শুধু Key-Value"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "NewSQL যেমন CockroachDB, VoltDB - SQL ইন্টারফেসসহ ACID ও Horizontal Scaling দেয়।"
+  },
+  {
+    "id": 95,
+    "q": "Data Lake কী?",
+    "options": ["Structured ডেটার ওয়্যারহাউস", "Raw, Structured ও Unstructured সব ধরনের ডেটার বিশাল স্টোরেজ", "শুধু ব্যাকআপ", "শুধু ইমেজ"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "Data Lake এ ডেটা তার নেটিভ ফরম্যাটে জমা থাকে, পরে প্রয়োজনমতো প্রসেস করা হয়।"
+  },
+  {
+    "id": 96,
+    "q": "ডেটাবেস Auditing কেন করা হয়?",
+    "options": ["স্পিড বাড়াতে", "কে কখন কী ডেটা অ্যাক্সেস বা পরিবর্তন করেছে তা ট্র্যাক করতে", "স্টোরেজ কমাতে", "ইনডেক্স বানাতে"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "Auditing দিয়ে সিকিউরিটি ও কমপ্লায়েন্সের জন্য ডেটাবেস অ্যাক্টিভিটি লগ করা হয়।"
+  },
+  {
+    "id": 97,
+    "q": "Materialized View ও সাধারণ View এর পার্থক্য কী?",
+    "options": ["কোনো পার্থক্য নেই", "Materialized View ফিজিক্যালি ডেটা স্টোর করে", "View দ্রুত", "Materialized View আপডেট হয় না"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "সাধারণ View ভার্চুয়াল, প্রতি কুয়েরিতে রান হয়। Materialized View ডেটা ক্যাশ করে রাখে, তাই দ্রুত।"
+  },
+  {
+    "id": 98,
+    "q": "কোনটি Cloud Database Service?",
+    "options": ["Oracle 11g", "Amazon RDS", "MS Access", "FoxPro"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "Amazon RDS, Google Cloud SQL, Azure SQL Database হলো Managed Cloud Database সার্ভিস।"
+  },
+  {
+    "id": 99,
+    "q": "DBMS এর প্রধান তিনটি লেভেল আর্কিটেকচার কে দেয়?",
+    "options": ["IBM", "ANSI/SPARC", "Microsoft", "Oracle"],
+    "ans": 1,
+    "source": "NTRCA 16th",
+    "topicsId": 752,
+    "explain": "ANSI/SPARC Three-Level Architecture: External, Conceptual, Internal Level।"
+  },
+  {
+    "id": 100,
+    "q": "ডেটাবেসের ক্ষেত্রে 'Schema Evolution' কী বোঝায়?",
+    "options": ["ডেটা ডিলিট", "সময়ের সাথে সাথে ডেটাবেস স্ট্রাকচার পরিবর্তন করা", "ব্যাকআপ", "ইউজার তৈরি"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "ব্যবসার চাহিদা পরিবর্তনের সাথে সাথে টেবিল, কলাম যোগ/পরিবর্তন করাকে Schema Evolution বলে।"
+  },
+  {
+    "id": 101,
+    "q": "BCNF এ একটি টেবিল থাকতে হলে কোন শর্ত পূরণ করতে হবে?",
+    "options": ["3NF এ থাকবে এবং প্রতিটি Determinant অবশ্যই Candidate Key হবে", "শুধু 1NF এ থাকলেই হবে", "Duplicate রো থাকতে হবে", "সব কলাম NULL হতে পারবে"],
+    "ans": 0,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "BCNF = Boyce-Codd Normal Form। 3NF এর চেয়ে কঠোর, যেখানে প্রতিটি Functional Dependency X → Y এ X অবশ্যই Super Key হতে হবে।"
+  },
+  {
+    "id": 102,
+    "q": "4NF কোন ধরনের Dependency দূর করে?",
+    "options": ["Partial Dependency", "Transitive Dependency", "Multivalued Dependency", "Trivial Dependency"],
+    "ans": 2,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "Fourth Normal Form, BCNF এ থাকার পর Multivalued Dependency দূর করে।"
+  },
+  {
+    "id": 103,
+    "q": "5NF কে আর কী নামে ডাকা হয়?",
+    "options": ["Project-Join Normal Form", "Domain Key Normal Form", "Essential Normal Form", "Optimal Normal Form"],
+    "ans": 0,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "5NF বা Project-Join Normal Form Join Dependency দূর করে Lossless Decomposition নিশ্চিত করে।"
+  },
+  {
+    "id": 104,
+    "q": "Functional Dependency X → Y এ X কে কী বলে?",
+    "options": ["Dependent", "Determinant", "Attribute", "Tuple"],
+    "ans": 1,
+    "source": "NTRCA 18th",
+    "topicsId": 752,
+    "explain": "X → Y এ X এর মান জানলে Y এর মান ইউনিকভাবে নির্ণয় করা যায়, তাই X কে Determinant বলে।"
+  },
+  {
+    "id": 105,
+    "q": "Trivial Functional Dependency কোনটি?",
+    "options": ["A → B যেখানে B, A এর সাবসেট", "A → B যেখানে A ও B ভিন্ন", "A → A", "A ও C দুটোই"],
+    "ans": 3,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "যদি Y, X এর সাবসেট হয় তবে X → Y Trivial। যেমন: {A,B} → {A} এবং A → A দুটোই Trivial।"
+  },
+  {
+    "id": 106,
+    "q": "Armstrong's Axioms কী কাজে লাগে?",
+    "options": ["ইনডেক্স তৈরি", "Functional Dependency থেকে নতুন FD বের করতে", "ব্যাকআপ নিতে", "টেবিল জয়েন করতে"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "Armstrong's Axioms: Reflexivity, Augmentation, Transitivity - এগুলো দিয়ে FD এর Closure বের করা হয়।"
+  },
+  {
+    "id": 107,
+    "q": "Lossless Join Decomposition এর শর্ত কী?",
+    "options": ["R1 ∩ R2 → R1 অথবা R1 ∩ R2 → R2, FD সেটে থাকতে হবে", "R1 ∪ R2 = R", "R1 ∩ R2 = ∅", "কোনো শর্ত নেই"],
+    "ans": 0,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "Decomposition Lossless হতে হলে Common Attribute গুলো যেকোনো একটি অংশের জন্য Key হতে হবে।"
+  },
+  {
+    "id": 108,
+    "q": "Dependency Preserving Decomposition কী নিশ্চিত করে?",
+    "options": ["সব FD হারিয়ে যায়", "মূল টেবিলের সব FD, ভাঙা টেবিলগুলোতে চেক করা যায়", "ডেটা ডিলিট হয়", "ইনডেক্স নষ্ট হয়"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "Decomposition এর পরও যদি সব Functional Dependency বজায় থাকে তবে তাকে Dependency Preserving বলে।"
+  },
+  {
+    "id": 109,
+    "q": "SQL এ CROSS JOIN কী রিটার্ন করে?",
+    "options": ["শুধু ম্যাচিং রো", "দুই টেবিলের Cartesian Product", "শুধু বাম টেবিল", "কিছুই না"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "CROSS JOIN এ প্রথম টেবিলের প্রতিটি রো দ্বিতীয় টেবিলের প্রতিটি রোর সাথে যুক্ত হয়। m×n রো তৈরি হয়।"
+  },
+  {
+    "id": 110,
+    "q": "SELF JOIN কখন ব্যবহার করা হয়?",
+    "options": ["দুটি ভিন্ন টেবিল জয়েন করতে", "একই টেবিলকে নিজের সাথে জয়েন করতে", "টেবিল ডিলিট করতে", "ভিউ তৈরি করতে"],
+    "ans": 1,
+    "source": "NTRCA 17th",
+    "topicsId": 752,
+    "explain": "Hierarchical ডেটা যেমন Employee-Manager সম্পর্ক একই টেবিলে থাকলে SELF JOIN লাগে।"
+  },
+  {
+    "id": 111,
+    "q": "NATURAL JOIN কীসের ভিত্তিতে জয়েন করে?",
+    "options": ["ম্যানুয়ালি দেওয়া কলাম", "দুই টেবিলের কমন নামের কলামের সমান মানের ভিত্তিতে", "Primary Key", "সব কলাম"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "NATURAL JOIN স্বয়ংক্রিয়ভাবে একই নামের কলামগুলোকে ম্যাচ করে, ON ক্লজ লাগে না।"
+  },
+  {
+    "id": 112,
+    "q": "EXISTS অপারেটর কী রিটার্ন করে?",
+    "options": ["ডেটা", "True যদি Subquery কমপক্ষে একটি রো রিটার্ন করে", "False সবসময়", "টেবিলের নাম"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "EXISTS সাবকুয়েরিতে কোনো রো থাকলেই True রিটার্ন করে, পারফরম্যান্সের জন্য IN এর চেয়ে ভালো।"
+  },
+  {
+    "id": 113,
+    "q": "Correlated Subquery কী?",
+    "options": ["স্বাধীন সাবকুয়েরি", "Outer Query এর কলাম রেফার করে এমন সাবকুয়েরি", "JOIN ছাড়া কুয়েরি", "শুধু INSERT এর জন্য"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "Correlated Subquery প্রতি Outer রো এর জন্য একবার করে এক্সিকিউট হয় কারণ এটি Outer টেবিলের মান ব্যবহার করে।"
+  },
+  {
+    "id": 114,
+    "q": "SQL এ কোনটি Aggregate Function নয়?",
+    "options": ["MAX", "MIN", "AVG", "LEN"],
+    "ans": 3,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "LEN বা LENGTH হলো Scalar Function। Aggregate: COUNT, SUM, AVG, MAX, MIN।"
+  },
+  {
+    "id": 115,
+    "q": "RANK() এবং DENSE_RANK() এর পার্থক্য কী?",
+    "options": ["কোনো পার্থক্য নেই", "DENSE_RANK এ টাই হলে গ্যাপ থাকে না", "RANK দ্রুত", "DENSE_RANK শুধু Number এ কাজ করে"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "RANK: 1,2,2,4; DENSE_RANK: 1,2,2,3 - টাই এর পর DENSE_RANK এ গ্যাপ হয় না।"
+  },
+  {
+    "id": 116,
+    "q": "CTE এর পূর্ণরূপ কী?",
+    "options": ["Common Table Expression", "Create Table Entity", "Control Transaction Event", "Custom Type Extension"],
+    "ans": 0,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "WITH ক্লজ দিয়ে CTE তৈরি করা হয়, যা একটি টেম্পোরারি রেজাল্ট সেট এবং কুয়েরিকে পাঠযোগ্য করে।"
+  },
+  {
+    "id": 117,
+    "q": "Recursive CTE কিসের জন্য ব্যবহৃত হয়?",
+    "options": ["সাধারণ জয়েন", "Hierarchical বা Tree ডেটা কুয়েরি করতে", "ডেটা ডিলিট", "ইনডেক্স বানাতে"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "Recursive CTE দিয়ে Organization Chart, Bill of Materials এর মতো Parent-Child ডেটা Traverse করা যায়।"
+  },
+  {
+    "id": 118,
+    "q": "ডেটাবেস Index এর প্রকারভেদ কোনটি?",
+    "options": ["Only Clustered", "Clustered ও Non-Clustered", "Only Hash", "Only B-Tree"],
+    "ans": 1,
+    "source": "NTRCA 16th",
+    "topicsId": 752,
+    "explain": "Clustered Index টেবিলের ফিজিক্যাল অর্ডার ঠিক করে, টেবিল প্রতি একটি। Non-Clustered আলাদা স্ট্রাকচার, একাধিক হতে পারে।"
+  },
+  {
+    "id": 119,
+    "q": "B-Tree Index কেন জনপ্রিয়?",
+    "options": ["শুধু Equality সার্চে ভালো", "Range Query ও Equality দুটোতেই দক্ষ", "মেমোরি বেশি লাগে", "আপডেট করা যায় না"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "B-Tree বা Balanced Tree Index সর্টেড থাকায় BETWEEN, >, < এর মতো Range Query তে খুব দ্রুত।"
+  },
+  {
+    "id": 120,
+    "q": "Hash Index কিসের জন্য সেরা?",
+    "options": ["Range Query", "Equality Comparison = ", "LIKE '%abc%'", "ORDER BY"],
+    "ans": 1,
+    "source": "Bank IT 2021",
+    "topicsId": 752,
+    "explain": "Hash Index শুধু = অপারেটরে O(1) টাইমে কাজ করে, Range Query সাপোর্ট করে না।"
+  },
+  {
+    "id": 121,
+    "q": "Bitmap Index কোথায় কার্যকর?",
+    "options": ["High Cardinality কলামে", "Low Cardinality কলাম যেমন Gender, Status", "Primary Key তে", "সব জায়গায়"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "যেসব কলামে অল্প কিছু Distinct মান থাকে সেখানে Bitmap Index কম স্পেসে দ্রুত কাজ করে। Data Warehouse এ ব্যবহৃত হয়।"
+  },
+  {
+    "id": 122,
+    "q": "Query Optimizer এর কাজ কী?",
+    "options": ["কুয়েরি লেখা", "একাধিক Execution Plan থেকে সবচেয়ে কম খরচের প্ল্যান বাছাই করা", "ডেটা ব্যাকআপ", "ইউজার তৈরি"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "Query Optimizer Cost-Based, Rule-Based পদ্ধতিতে Index, Join Order ঠিক করে সেরা Execution Plan বানায়।"
+  },
+  {
+    "id": 123,
+    "q": "EXPLAIN কমান্ড কী দেখায়?",
+    "options": ["ডেটা", "কুয়েরির Execution Plan", "টেবিল লিস্ট", "ইউজার লিস্ট"],
+    "ans": 1,
+    "source": "NTRCA 18th",
+    "topicsId": 752,
+    "explain": "EXPLAIN বা EXPLAIN PLAN দিয়ে কুয়েরি কিভাবে চলবে, কোন Index ব্যবহার হবে তা দেখা যায়।"
+  },
+  {
+    "id": 124,
+    "q": "ACID এর 'C' দ্বারা কী বোঝায়?",
+    "options": ["Commit", "Consistency", "Concurrency", "Cache"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "Consistency মানে Transaction শুরু ও শেষে ডেটাবেস সব Integrity Constraint মেনে Valid State এ থাকবে।"
+  },
+  {
+    "id": 125,
+    "q": "ACID এর 'I' দ্বারা কী বোঝায়?",
+    "options": ["Index", "Isolation", "Insert", "Integer"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "Isolation মানে Concurrent Transaction গুলো একে অপরের Intermidiate State দেখবে না।"
+  },
+  {
+    "id": 126,
+    "q": "Dirty Read কী?",
+    "options": ["Commit করা ডেটা পড়া", "অন্য Transaction এর Uncommitted ডেটা পড়া", "ইনডেক্স ছাড়া পড়া", "ডিলিট করা ডেটা পড়া"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "Isolation Level কম হলে একটি Transaction অন্য Transaction এর Rollback হতে পারে এমন ডেটা পড়ে ফেলতে পারে, এটাই Dirty Read।"
+  },
+  {
+    "id": 127,
+    "q": "Phantom Read কী?",
+    "options": ["একই রো দুবার ভিন্ন মান পড়া", "একই কুয়েরি দুবার চালালে নতুন রো দেখা যাওয়া", "ডেটা হারিয়ে যাওয়া", "স্লো রিড"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "একটি Transaction Range Query চালানোর সময় অন্য Transaction নতুন রো Insert করলে পরের বার সেই রো দেখা যায়, এটা Phantom Read।"
+  },
+  {
+    "id": 128,
+    "q": "Serializable Isolation Level কী নিশ্চিত করে?",
+    "options": ["সর্বোচ্চ Concurrency", "সব ধরনের Read Phenomena ঠেকিয়ে সর্বোচ্চ Consistency", "Dirty Read Allow করে", "কোনো Lock লাগে না"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "Serializable হলো সর্বোচ্চ Isolation Level, এতে Dirty, Non-repeatable, Phantom Read কিছুই হয় না, কিন্তু Concurrency কমে।"
+  },
+  {
+    "id": 129,
+    "q": "Two-Phase Locking Protocol এর দুটি Phase কী কী?",
+    "options": ["Read ও Write", "Growing ও Shrinking", "Lock ও Unlock", "Begin ও Commit"],
+    "ans": 1,
+    "source": "Bank IT 2021",
+    "topicsId": 752,
+    "explain": "2PL এ Growing Phase এ শুধু Lock নেওয়া যায়, Shrinking Phase এ শুধু Lock ছাড়া যায়। এতে Serializability নিশ্চিত হয়।"
+  },
+  {
+    "id": 130,
+    "q": "Timestamp Ordering Protocol কীসের ভিত্তিতে কাজ করে?",
+    "options": ["Lock", "Transaction এর Timestamp", "ইউজার ID", "টেবিল সাইজ"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "প্রতিটি Transaction কে Timestamp দেওয়া হয়, Older Transaction Younger Transaction এর লেখা ডেটা পড়তে পারবে না।"
+  },
+  {
+    "id": 131,
+    "q": "Write-Ahead Logging কী?",
+    "options": ["ডেটা লেখার পর লগ লেখা", "ডেটা ডিস্কে লেখার আগে লগ ফাইলে পরিবর্তন লেখা", "লগ ডিলিট করা", "ব্যাকআপ"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "WAL এ Transaction এর পরিবর্তন আগে Log এ Force Write করা হয়, পরে ডেটা ফাইলে লেখা হয়। এতে Crash Recovery সম্ভব হয়।"
+  },
+  {
+    "id": 132,
+    "q": "Shadow Paging Recovery টেকনিক কী করে?",
+    "options": ["লগ ব্যবহার করে", "ডেটার দুটি কপি রাখে: Current ও Shadow", "ইনডেক্স ব্যবহার করে", "কিছুই করে না"],
+    "ans": 1,
+    "source": "NTRCA 17th",
+    "topicsId": 752,
+    "explain": "Shadow Paging এ Transaction চলাকালে Shadow Page অপরিবর্তিত থাকে, Commit হলে Shadow কে Current দিয়ে Replace করা হয়।"
+  },
+  {
+    "id": 133,
+    "q": "BASE প্রপার্টি কোথায় ব্যবহৃত হয়?",
+    "options": ["RDBMS", "NoSQL ডেটাবেস", "Flat File", "Spreadsheet"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "BASE = Basically Available, Soft state, Eventually Consistent। NoSQL এ ACID এর বদলে BASE মেনে Scalability বাড়ানো হয়।"
+  },
+  {
+    "id": 134,
+    "q": "Eventual Consistency মানে কী?",
+    "options": ["সবসময় Consistent", "আপডেটের পর কিছু সময় লাগলেও সব নোড Consistent হবে", "কখনো Consistent হবে না", "শুধু Read Consistent"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "Distributed NoSQL এ আপডেট সাথে সাথে সব নোডে যায় না, তবে কিছু সময় পর সব কপি একই হয়ে যায়।"
+  },
+  {
+    "id": 135,
+    "q": "Cassandra কোন ধরনের NoSQL?",
+    "options": ["Document", "Wide-Column Store", "Key-Value", "Graph"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "Apache Cassandra Wide-Column Store, High Availability ও Linear Scalability এর জন্য বিখ্যাত।"
+  },
+  {
+    "id": 136,
+    "q": "HBase কোন ডেটাবেসের উপর ভিত্তি করে তৈরি?",
+    "options": ["MongoDB", "Google BigTable", "Redis", "Neo4j"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "Apache HBase হলো Google এর BigTable পেপারের Open Source Implementation, Hadoop এর উপর চলে।"
+  },
+  {
+    "id": 137,
+    "q": "ডেটাবেস Partitioning এর প্রধান প্রকার কোনটি?",
+    "options": ["Only Vertical", "Horizontal ও Vertical", "Only Circular", "Only Hash"],
+    "ans": 1,
+    "source": "NTRCA 16th",
+    "topicsId": 752,
+    "explain": "Horizontal Partitioning = রো দিয়ে ভাগ, Sharding। Vertical Partitioning = কলাম দিয়ে ভাগ।"
+  },
+  {
+    "id": 138,
+    "q": "কোন SQL কমান্ড দিয়ে ইউজার তৈরি করা হয়?",
+    "options": ["CREATE USER", "ADD USER", "NEW USER", "INSERT USER"],
+    "ans": 0,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "CREATE USER username IDENTIFIED BY 'password'; - DCL এর অংশ।"
+  },
+  {
+    "id": 139,
+    "q": "REVOKE কমান্ডের কাজ কী?",
+    "options": ["পারমিশন দেওয়া", "দেওয়া পারমিশন ফিরিয়ে নেওয়া", "টেবিল তৈরি", "ডেটা ইনসার্ট"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "GRANT দিয়ে পারমিশন দেওয়া হয়, REVOKE দিয়ে তা তুলে নেওয়া হয়।"
+  },
+  {
+    "id": 140,
+    "q": "ডেটাবেস Trigger কয় ধরনের?",
+    "options": ["1", "2: BEFORE ও AFTER", "3", "4"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "BEFORE Trigger Event এর আগে এবং AFTER Trigger Event এর পরে Execute হয়। Row Level ও Statement Level ও আছে।"
+  },
+  {
+    "id": 141,
+    "q": "Assertion কী?",
+    "options": ["একটি টেবিল", "ডেটাবেস লেভেলের Constraint যা সবসময় সত্য হতে হবে", "একটি ইনডেক্স", "একটি ভিউ"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "CREATE ASSERTION দিয়ে এমন শর্ত দেওয়া যায় যা একাধিক টেবিলের ডেটার উপর নির্ভর করে।"
+  },
+  {
+    "id": 142,
+    "q": "OLAP অপারেশন 'Slice' কী করে?",
+    "options": ["ডেটা ডিলিট করে", "একটি Dimension এর নির্দিষ্ট মানের জন্য Cube কাটে", "নতুন Dimension যোগ করে", "ডেটা সর্ট করে"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "Slice: Time=2023 এর জন্য কিউব কাটা। Dice: একাধিক Dimension এ রেঞ্জ দিয়ে সাব-কিউব নেওয়া।"
+  },
+  {
+    "id": 143,
+    "q": "Roll-up OLAP অপারেশন কী করে?",
+    "options": ["বিস্তারিত ডেটা দেখায়", "ডেটাকে Higher Level এ Summarize করে", "ডেটা ডিলিট করে", "নতুন কিউব বানায়"],
+    "ans": 1,
+    "source": "NTRCA 18th",
+    "topicsId": 752,
+    "explain": "Roll-up বা Drill-up: City থেকে Country লেভেলে Summarize করা। Drill-down এর উল্টো।"
+  },
+  {
+    "id": 144,
+    "q": "Data Mart কী?",
+    "options": ["পুরো Enterprise এর Data Warehouse", "নির্দিষ্ট ডিপার্টমেন্টের জন্য ছোট Data Warehouse", "ব্যাকআপ সার্ভার", "টেম্প টেবিল"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "Data Mart হলো Subject-oriented, যেমন Sales Data Mart, Finance Data Mart। Data Warehouse এর Subset।"
+  },
+  {
+    "id": 145,
+    "q": "Slowly Changing Dimension টাইপ-1 কী করে?",
+    "options": ["ইতিহাস রাখে", "পুরাতন মান Overwrite করে", "নতুন রো যোগ করে", "কিছুই করে না"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "Type 1 SCD তে পুরাতন মান সরাসরি নতুন মান দিয়ে Replace করা হয়, ইতিহাস থাকে না।"
+  },
+  {
+    "id": 146,
+    "q": "CDC এর পূর্ণরূপ কী?",
+    "options": ["Change Data Capture", "Create Data Copy", "Control Data Center", "Common Data Code"],
+    "ans": 0,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "Change Data Capture সোর্স ডেটাবেসের Insert, Update, Delete পরিবর্তনগুলো শনাক্ত করে ETL এ পাঠায়।"
+  },
+  {
+    "id": 147,
+    "q": "Database Firewall কী আটকায়?",
+    "options": ["সাধারণ কুয়েরি", "SQL Injection ও অস্বাভাবিক কুয়েরি", "ব্যাকআপ", "ইনডেক্স"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "Database Firewall অ্যাপ্লিকেশন ও DB এর মাঝে বসে Malicious SQL প্যাটার্ন ব্লক করে।"
+  },
+  {
+    "id": 148,
+    "q": "Transparent Data Encryption কী এনক্রিপ্ট করে?",
+    "options": ["শুধু নেটওয়ার্ক ট্রাফিক", "ডেটা ফাইল ও ব্যাকআপ, অ্যাপ্লিকেশন অপরিবর্তিত রেখে", "শুধু পাসওয়ার্ড", "শুধু RAM"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "TDE ডেটাবেস ফাইল লেভেলে এনক্রিপশন করে, অ্যাপ্লিকেশন কোড পরিবর্তন করতে হয় না।"
+  },
+  {
+    "id": 149,
+    "q": "In-Memory Database এর সুবিধা কী?",
+    "options": ["ডিস্কের চেয়ে স্লো", "ডিস্ক I/O নেই বলে খুব দ্রুত", "স্পেস বেশি লাগে", "ব্যাকআপ লাগে না"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "SAP HANA, Redis এর মতো In-Memory DB পুরো ডেটা RAM এ রাখে, ফলে Latency মাইক্রোসেকেন্ডে নেমে আসে।"
+  },
+  {
+    "id": 150,
+    "q": "Polyglot Persistence কী?",
+    "options": ["একটি ডেটাবেস ব্যবহার", "বিভিন্ন কাজের জন্য বিভিন্ন ধরনের ডেটাবেস ব্যবহার", "শুধু SQL ব্যবহার", "শুধু NoSQL ব্যবহার"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "Polyglot Persistence আর্কিটেকচারে Transaction এর জন্য RDBMS, Cache এর জন্য Redis, Search এর জন্য Elasticsearch একসাথে ব্যবহার হয়।"
+  },
+  {
+    "id": 151,
+    "q": "Domain-Key Normal Form (DKNF) এর মূল কথা কী?",
+    "options": ["সব Constraint হতে হবে Domain ও Key এর উপর", "শুধু 1NF মানলেই হবে", "Duplicate রাখা যাবে", "শুধু Primary Key থাকবে"],
+    "ans": 0,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "DKNF হলো Normalization এর সর্বোচ্চ স্তর। এখানে ডেটাবেসের সব Constraint, Domain Constraint ও Key Constraint দিয়ে প্রকাশযোগ্য হতে হবে।"
+  },
+  {
+    "id": 152,
+    "q": "Object-Relational Database (ORDBMS) এর বৈশিষ্ট্য কী?",
+    "options": ["শুধু টেবিল সাপোর্ট করে", "RDBMS + Object-Oriented ফিচার যেমন Inheritance, User Defined Type", "শুধু Document রাখে", "SQL সাপোর্ট করে না"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "PostgreSQL, Oracle ORDBMS। এতে Complex Data Type, Table Inheritance, Object ID ব্যবহার করা যায়।"
+  },
+  {
+    "id": 153,
+    "q": "SQL এ COALESCE ফাংশনের কাজ কী?",
+    "options": ["সব মান যোগ করা", "লিস্টের প্রথম Non-NULL মান রিটার্ন করা", "ডেটা ডিলিট করা", "টেবিল জয়েন করা"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "COALESCE(NULL, NULL, 'A', 'B') = 'A' রিটার্ন করবে। NULL হ্যান্ডেল করতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 154,
+    "q": "NVL ফাংশন কোন ডেটাবেসে ব্যবহৃত হয়?",
+    "options": ["MySQL", "Oracle", "SQL Server", "PostgreSQL"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "Oracle এ NVL(expr1, expr2) - expr1 NULL হলে expr2 রিটার্ন করে। SQL Server এ ISNULL, MySQL এ IFNULL।"
+  },
+  {
+    "id": 155,
+    "q": "Window Function কী?",
+    "options": ["গ্রুপ করে রো কমায়", "প্রতি রো এর জন্য রো না কমিয়ে Aggregate বা Ranking হিসাব করে", "টেবিল ডিলিট করে", "নতুন ডেটাবেস বানায়"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "OVER() ক্লজ দিয়ে ROW_NUMBER(), RANK(), SUM() OVER(PARTITION BY...) এর মতো Window Function চলে।"
+  },
+  {
+    "id": 156,
+    "q": "PARTITION BY ক্লজ কোথায় ব্যবহৃত হয়?",
+    "options": ["WHERE এ", "Window Function এ ডেটাকে গ্রুপ করতে", "GROUP BY এর বদলে", "ORDER BY এর বদলে"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "SUM(salary) OVER(PARTITION BY dept) - প্রতি Department এর জন্য আলাদা SUM করবে কিন্তু রো কমাবে না।"
+  },
+  {
+    "id": 157,
+    "q": "PIVOT অপারেশন কী করে?",
+    "options": ["রো কে কলামে রূপান্তর করে", "কলামকে রো তে রূপান্তর করে", "ডেটা ডিলিট করে", "ইনডেক্স বানায়"],
+    "ans": 0,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "PIVOT দিয়ে Row Value গুলোকে Column Header বানানো হয়। UNPIVOT এর উল্টো।"
+  },
+  {
+    "id": 158,
+    "q": "MERGE স্টেটমেন্টের অন্য নাম কী?",
+    "options": ["INSERT", "UPSERT", "DELETE", "SELECT"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "MERGE বা UPSERT - রেকর্ড থাকলে UPDATE, না থাকলে INSERT করে।"
+  },
+  {
+    "id": 159,
+    "q": "SQL Injection প্রতিরোধের সেরা উপায় কী?",
+    "options": ["String Concatenation", "Prepared Statement / Parameterized Query", "ইনডেক্স না দেওয়া", "GRANT ALL"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "Prepared Statement এ User Input ডেটা হিসেবে যায়, SQL কোড হিসেবে Execute হয় না, তাই Injection হয় না।"
+  },
+  {
+    "id": 160,
+    "q": "Data Masking কী?",
+    "options": ["ডেটা ডিলিট করা", "Sensitive ডেটাকে আংশিক বা সম্পূর্ণ লুকানো", "ব্যাকআপ নেওয়া", "ইনডেক্স করা"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "Dynamic Data Masking এ Credit Card 4532-xxxx-xxxx-1234 এভাবে দেখানো হয়। Test Environment এর জন্য Static Masking।"
+  },
+  {
+    "id": 161,
+    "q": "Temporal Database কী সংরক্ষণ করে?",
+    "options": ["শুধু বর্তমান ডেটা", "ডেটার সময়ভিত্তিক ইতিহাস", "শুধু মেটাডেটা", "শুধু ইনডেক্স"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "Temporal DB তে Valid Time ও Transaction Time ট্র্যাক করা হয়, যেমন কোন ডেটা কখন কার্যকর ছিল।"
+  },
+  {
+    "id": 162,
+    "q": "Spatial Database কিসের জন্য ব্যবহৃত হয়?",
+    "options": ["শুধু Text", "Geographic ডেটা যেমন Point, Line, Polygon", "শুধু Number", "শুধু Date"],
+    "ans": 1,
+    "source": "Bank IT 2021",
+    "topicsId": 752,
+    "explain": "PostGIS, Oracle Spatial এর মতো এক্সটেনশন দিয়ে Latitude, Longitude, Map ডেটা কুয়েরি করা যায়।"
+  },
+  {
+    "id": 163,
+    "q": "Full-Text Search Index কী করে?",
+    "options": ["শুধু = দিয়ে সার্চ", "বড় Text ফিল্ডে শব্দ বা Phrase দ্রুত সার্চ করে", "Number সর্ট করে", "ডেটা এনক্রিপ্ট করে"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "LIKE '%word%' স্লো। Full-Text Index Tokenize করে Inverted Index বানায়, Google এর মতো সার্চ দেয়।"
+  },
+  {
+    "id": 164,
+    "q": "JSONB ডেটা টাইপ কোন ডেটাবেসে জনপ্রিয়?",
+    "options": ["MySQL", "PostgreSQL", "Oracle", "SQL Server"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "PostgreSQL এ JSONB Binary Format এ JSON রাখে, Index ও Query সাপোর্ট করে। MySQL এ JSON আছে কিন্তু JSONB নেই।"
+  },
+  {
+    "id": 165,
+    "q": "MVCC এর পূর্ণরূপ কী?",
+    "options": ["Multi Version Concurrency Control", "Most Valuable Column Constraint", "Multiple View Cache Control", "Main Value Check Constraint"],
+    "ans": 0,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "MVCC তে প্রতিটি রো এর একাধিক Version থাকে। Reader Writer কে ব্লক করে না। PostgreSQL, Oracle এ ব্যবহৃত হয়।"
+  },
+  {
+    "id": 166,
+    "q": "Optimistic Locking কী ধরে নেয়?",
+    "options": ["Conflict সবসময় হবে", "Conflict খুব কম হবে, তাই লক ছাড়াই কাজ করে", "সব ডেটা লক করতে হবে", "Read করা যাবে না"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "Optimistic Locking এ Version Number বা Timestamp চেক করে Update এর সময় Conflict ধরতে পারে। Pessimistic Lock আগে থেকেই লক করে।"
+  },
+  {
+    "id": 167,
+    "q": "Deadlock Detection কীভাবে করা হয়?",
+    "options": ["Timeout দিয়ে", "Wait-For Graph দিয়ে Cycle ডিটেক্ট করে", "ইনডেক্স দিয়ে", "ব্যাকআপ দিয়ে"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "Wait-For Graph এ Transaction গুলো Node, Lock এর জন্য অপেক্ষা Edge। Cycle থাকলে Deadlock।"
+  },
+  {
+    "id": 168,
+    "q": "Deadlock Prevention এর একটি উপায় কী?",
+    "options": ["সব লক একসাথে নেওয়া", "Lock এর Order নির্দিষ্ট করা", "Timeout না দেওয়া", "Isolation বন্ধ করা"],
+    "ans": 1,
+    "source": "NTRCA 18th",
+    "topicsId": 752,
+    "explain": "সব Transaction একই Order এ রিসোর্স লক করলে Circular Wait হয় না, Deadlock Prevent হয়।"
+  },
+  {
+    "id": 169,
+    "q": "RAID Level 1 কী করে?",
+    "options": ["Striping", "Mirroring", "Parity", "কিছুই না"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "RAID 1 এ ডেটার হুবহু কপি আরেকটি ডিস্কে রাখা হয়। Read ফাস্ট, Fault Tolerant, কিন্তু স্টোরেজ 50% নষ্ট।"
+  },
+  {
+    "id": 170,
+    "q": "RAID 5 এর জন্য ন্যূনতম কয়টি ডিস্ক লাগে?",
+    "options": ["1", "2", "3", "5"],
+    "ans": 2,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "RAID 5 এ Striping + Distributed Parity। ন্যূনতম 3 টি ডিস্ক লাগে, একটি ডিস্ক নষ্ট হলেও ডেটা পাওয়া যায়।"
+  },
+  {
+    "id": 171,
+    "q": "Hot Backup কী?",
+    "options": ["সার্ভার বন্ধ করে ব্যাকআপ", "ডেটাবেস চালু থাকা অবস্থায় ব্যাকআপ", "শুধু লগ ব্যাকআপ", "ব্যাকআপ নেওয়া যায় না"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "Hot/Online Backup এ ইউজার কাজ করতে পারে। Cold/Offline Backup এ ডেটাবেস শাটডাউন করতে হয়।"
+  },
+  {
+    "id": 172,
+    "q": "Point-in-Time Recovery কী দরকার?",
+    "options": ["শুধু Full Backup", "Full Backup + Transaction Log Backup", "শুধু ইনডেক্স", "শুধু স্কিমা"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "PITR এর জন্য সর্বশেষ Full Backup Restore করে তারপর নির্দিষ্ট সময় পর্যন্ত Log Apply করতে হয়।"
+  },
+  {
+    "id": 173,
+    "q": "RPO এর পূর্ণরূপ কী?",
+    "options": ["Recovery Point Objective", "Read Performance Optimization", "Remote Procedure Object", "Row Process Order"],
+    "ans": 0,
+    "source": "Bank IT 2021",
+    "topicsId": 752,
+    "explain": "RPO = সর্বোচ্চ কতটুকু ডেটা হারানো সহ্য করা যাবে। RTO = সিস্টেম কত সময়ে Restore করতে হবে।"
+  },
+  {
+    "id": 174,
+    "q": "Database Clustering এর উদ্দেশ্য কী?",
+    "options": ["স্পিড কমানো", "High Availability ও Load Balancing", "স্টোরেজ কমানো", "সিকিউরিটি কমানো"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "Active-Passive বা Active-Active Cluster এ একটি নোড ফেইল করলে অন্য নোড সার্ভিস দেয়।"
+  },
+  {
+    "id": 175,
+    "q": "Read Replica কী?",
+    "options": ["Write করার কপি", "Primary DB এর Read-Only কপি", "ব্যাকআপ", "টেম্প টেবিল"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "Read Replica তে শুধু SELECT চলে, Write Primary তে যায়। Read Load ভাগ করে পারফরম্যান্স বাড়ায়।"
+  },
+  {
+    "id": 176,
+    "q": "Federated Database System কী?",
+    "options": ["একটি মাত্র ডেটাবেস", "একাধিক স্বাধীন ডেটাবেসকে একটি ভার্চুয়াল DB হিসেবে দেখানো", "শুধু ক্লাউড DB", "শুধু ব্যাকআপ"],
+    "ans": 1,
+    "source": "NTRCA 17th",
+    "topicsId": 752,
+    "explain": "Federation এ প্রতিটি DB Autonomous, কিন্তু একটি Middleware দিয়ে Integrated Query করা যায়।"
+  },
+  {
+    "id": 177,
+    "q": "Data Vault Modeling কিসের জন্য ব্যবহৃত হয়?",
+    "options": ["OLTP", "Enterprise Data Warehouse, ইতিহাস ও Auditing সহ", "শুধু রিপোর্ট", "শুধু Cache"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "Data Vault এ Hub, Link, Satellite টেবিল থাকে। Agile, Auditable, Scalable DWH বানাতে ব্যবহৃত হয়।"
+  },
+  {
+    "id": 178,
+    "q": "Anchor Modeling এর সুবিধা কী?",
+    "options": ["পরিবর্তন কঠিন", "6NF এ থাকে, Schema পরিবর্তন খুব সহজ", "স্লো কুয়েরি", "Normalization লাগে না"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "Anchor Modeling এ সব Attribute আলাদা টেবিলে থাকে, তাই নতুন Attribute যোগ করলে Existing টেবিল পরিবর্তন করতে হয় না।"
+  },
+  {
+    "id": 179,
+    "q": "Columnar Database কিসের জন্য ভালো?",
+    "options": ["OLTP", "OLAP, Analytical Query", "ছোট ট্রানজেকশন", "Key-Value Lookup"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "Columnar DB যেমন ClickHouse, Redshift কলাম ধরে ডেটা রাখে। SUM, AVG এর মতো Aggregate খুব দ্রুত হয়।"
+  },
+  {
+    "id": 180,
+    "q": "Time-Series Database এর উদাহরণ কোনটি?",
+    "options": ["MySQL", "InfluxDB", "MongoDB", "Redis"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "InfluxDB, TimescaleDB, Prometheus - Timestamp ভিত্তিক IoT, Metrics ডেটার জন্য অপটিমাইজড।"
+  },
+  {
+    "id": 181,
+    "q": "Vector Database কিসের জন্য ব্যবহৃত হয়?",
+    "options": ["সাধারণ SQL", "AI Embedding সার্চ, Similarity Search", "ব্যাংকিং", "Accounting"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "Pinecone, Milvus, pgvector - Text, Image কে Vector এ Convert করে Semantic Search করে। LLM এ ব্যবহৃত হয়।"
+  },
+  {
+    "id": 182,
+    "q": "Database Link কী?",
+    "options": ["টেবিল জয়েন", "এক ডেটাবেস থেকে অন্য ডেটাবেসের অবজেক্ট অ্যাক্সেস করার পথ", "ইনডেক্স", "ব্যাকআপ লিংক"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "Oracle DB Link দিয়ে Remote DB এর টেবিলে SELECT @dblink এর মাধ্যমে কুয়েরি করা যায়।"
+  },
+  {
+    "id": 183,
+    "q": "External Table কী?",
+    "options": ["ডেটাবেসের ভিতরের টেবিল", "OS ফাইলের ডেটাকে টেবিলের মতো Query করা", "টেম্প টেবিল", "ভিউ"],
+    "ans": 1,
+    "source": "NTRCA 16th",
+    "topicsId": 752,
+    "explain": "Oracle, Redshift এ External Table দিয়ে S3 বা CSV ফাইলকে SELECT করা যায়, ডেটা DB তে লোড হয় না।"
+  },
+  {
+    "id": 184,
+    "q": "SQL এ COMMENT ON কী করে?",
+    "options": ["কোড কমেন্ট", "টেবিল বা কলামের উপর Metadata কমেন্ট যোগ করে", "ডেটা ডিলিট", "ইউজার বানায়"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "COMMENT ON COLUMN emp.salary IS 'Monthly salary in BDT'; - Data Dictionary তে ডকুমেন্টেশন রাখে।"
+  },
+  {
+    "id": 185,
+    "q": "Identity Column কী?",
+    "options": ["ম্যানুয়াল কলাম", "Auto Increment এর মতো System Generated মান", "Foreign Key", "Text কলাম"],
+    "ans": 1,
+    "source": "Bank IT 2021",
+    "topicsId": 752,
+    "explain": "SQL Standard এর IDENTITY বা GENERATED ALWAYS AS IDENTITY - Sequence এর বিকল্প।"
+  },
+  {
+    "id": 186,
+    "q": "Sequence Object কী করে?",
+    "options": ["টেবিল জয়েন", "ইউনিক নম্বর জেনারেট করে", "ডেটা সর্ট করে", "ব্যাকআপ নেয়"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "CREATE SEQUENCE seq1; SELECT nextval('seq1'); - Auto Increment ছাড়াও যেকোনো জায়গায় ইউনিক নাম্বার দরকার হলে।"
+  },
+  {
+    "id": 187,
+    "q": "SYNONYM কী?",
+    "options": ["টেবিলের কপি", "ডেটাবেস অবজেক্টের বিকল্প নাম", "ইনডেক্স", "ভিউ"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "CREATE SYNONYM emp FOR hr.employees; - লম্বা Schema.Object নামের বদলে ছোট নাম ব্যবহার করা যায়।"
+  },
+  {
+    "id": 188,
+    "q": "Global Temporary Table এর ডেটা কতক্ষণ থাকে?",
+    "options": ["পার্মানেন্ট", "Session বা Transaction শেষ হওয়া পর্যন্ত", "সবসময়", "1 দিন"],
+    "ans": 1,
+    "source": "NTRCA 18th",
+    "topicsId": 752,
+    "explain": "GTT এর স্ট্রাকচার পার্মানেন্ট, কিন্তু ডেটা Session ভিত্তিক। ON COMMIT DELETE ROWS বা PRESERVE ROWS।"
+  },
+  {
+    "id": 189,
+    "q": "Database Tuning এর একটি ধাপ কী?",
+    "options": ["ইনডেক্স সব মুছে ফেলা", "Slow Query Identify করে Index বা Query Rewrite করা", "Normalization বন্ধ করা", "ব্যাকআপ না নেওয়া"],
+    "ans": 1,
+    "source": "Bank IT 2022",
+    "topicsId": 752,
+    "explain": "Tuning: Query Plan দেখা, Missing Index যোগ, Statistics Update, Parameter Tuning, Partitioning করা।"
+  },
+  {
+    "id": 190,
+    "q": "Statistics কেন Update করতে হয়?",
+    "options": ["ডেটা ডিলিট করতে", "Query Optimizer যেন সঠিক Plan বানাতে পারে", "স্পেস বাঁচাতে", "ইউজার বাড়াতে"],
+    "ans": 1,
+    "source": "BCS 41st",
+    "topicsId": 752,
+    "explain": "Table Statistics পুরাতন হলে Optimizer ভুল Estimate করে খারাপ Plan বানায়, তাই UPDATE STATISTICS চালাতে হয়।"
+  },
+  {
+    "id": 191,
+    "q": "Hint ক্লজ SQL এ কী করে?",
+    "options": ["কমেন্ট লেখা", "Optimizer কে নির্দিষ্ট Index বা Join Method ব্যবহার করতে বাধ্য করা", "ডেটা হাইড করা", "এরর দেখানো"],
+    "ans": 1,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "SELECT /*+ INDEX(emp idx_emp) */ * FROM emp; - Optimizer কে Hint দেওয়া হয়, তবে অতিরিক্ত ব্যবহার ক্ষতিকর।"
+  },
+  {
+    "id": 192,
+    "q": "Data Lineage কী?",
+    "options": ["ডেটা ডিলিট করা", "ডেটা কোথা থেকে এলো, কীভাবে Transform হলো তার ইতিহাস", "ডেটা কপি করা", "ডেটা সর্ট করা"],
+    "ans": 1,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "Data Governance ও Auditing এর জন্য Data Lineage ট্র্যাক করা হয় ETL টুল দিয়ে।"
+  },
+  {
+    "id": 193,
+    "q": "Master Data Management (MDM) কী করে?",
+    "options": ["Transaction ডেটা রাখে", "Customer, Product এর মতো Core Entity এর Single Source of Truth বানায়", "লগ রাখে", "ব্যাকআপ নেয়"],
+    "ans": 1,
+    "source": "BCS 42nd",
+    "topicsId": 752,
+    "explain": "MDM দিয়ে বিভিন্ন সিস্টেমে ছড়ানো Customer ডেটাকে Golden Record এ একীভূত করা হয়।"
+  },
+  {
+    "id": 194,
+    "q": "Data Quality এর একটি Dimension কী?",
+    "options": ["Volume", "Accuracy", "Velocity", "Variety"],
+    "ans": 1,
+    "source": "NTRCA 17th",
+    "topicsId": 752,
+    "explain": "Data Quality Dimension: Accuracy, Completeness, Consistency, Timeliness, Validity, Uniqueness।"
+  },
+  {
+    "id": 195,
+    "q": "SQL এ FETCH FIRST n ROWS ONLY কী করে?",
+    "options": ["সব রো আনে", "প্রথম n টি রো Limit করে", "রো ডিলিট করে", "রো গুনে"],
+    "ans": 1,
+    "source": "BCS 45th",
+    "topicsId": 752,
+    "explain": "ANSI SQL Standard। MySQL এ LIMIT, SQL Server এ TOP, Oracle 12c+ এ FETCH FIRST।"
+  },
+  {
+    "id": 196,
+    "q": "INTERSECT অপারেটর কী রিটার্ন করে?",
+    "options": ["দুই কুয়েরির যোগফল", "দুই কুয়েরির কমন রো গুলো", "প্রথম কুয়েরির সব", "কিছুই না"],
+    "ans": 1,
+    "source": "BCS 40th",
+    "topicsId": 752,
+    "explain": "INTERSECT হলো Set Operation, দুটি SELECT এর Common রো গুলো দেয়। EXCEPT/MINUS হলো বিয়োগ।"
+  },
+  {
+    "id": 197,
+    "q": "Database Cursor কী?",
+    "options": ["মাউস পয়েন্টার", "Result Set এর রো গুলো একটা একটা করে প্রসেস করার পয়েন্টার", "টেবিল", "ইনডেক্স"],
+    "ans": 1,
+    "source": "Bank IT 2021",
+    "topicsId": 752,
+    "explain": "DECLARE CURSOR দিয়ে Row-by-Row Processing করা হয়, তবে Set-Based অপারেশন থেকে স্লো।"
+  },
+  {
+    "id": 198,
+    "q": "SQL Injection এর টাইপ কোনটি?",
+    "options": ["Only Error-Based", "Union-Based, Boolean-Based, Time-Based, Error-Based", "শুধু SELECT", "শুধু INSERT"],
+    "ans": 1,
+    "source": "BCS 43rd",
+    "topicsId": 752,
+    "explain": "Union-Based: ' UNION SELECT... , Boolean-Based: ' AND 1=1-- , Time-Based: SLEEP(), Error-Based: ইচ্ছাকৃত Error।"
+  },
+  {
+    "id": 199,
+    "q": "Database Sharding এর একটি অসুবিধা কী?",
+    "options": ["Cross-Shard Join ও Transaction জটিল", "স্পিড কমে", "স্টোরেজ বাড়ে", "ব্যাকআপ সহজ"],
+    "ans": 0,
+    "source": "BCS 44th",
+    "topicsId": 752,
+    "explain": "Sharding এ JOIN বা ACID Transaction একাধিক Shard জুড়ে করতে গেলে Complexity ও Latency বাড়ে।"
+  },
+  {
+    "id": 200,
+    "q": "HTAP ডেটাবেস কী?",
+    "options": ["শুধু OLTP", "শুধু OLAP", "Hybrid Transactional/Analytical Processing - একই DB তে OLTP+OLAP", "শুধু ব্যাকআপ"],
+    "ans": 2,
+    "source": "Bank IT 2023",
+    "topicsId": 752,
+    "explain": "HTAP যেমন TiDB, SingleStore - একই সিস্টেমে Real-time Transaction ও Analytics চলে, ETL লাগে না।"
+  }
+]

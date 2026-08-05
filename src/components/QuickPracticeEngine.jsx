@@ -3,13 +3,19 @@ import { useState, useEffect, useRef } from 'react';
 import html2canvas from 'html2canvas';
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import { useRouter } from 'next/navigation';
 
 export default function QuickPracticeEngine({
     questions,
     config = {}
 }) {
+    const router = useRouter();
     const {
         title = "Quick Practice",
+        category = "Quiz",
+        subject = "",
+        step = "01",
+        passMark = 50,
         questionLimit = 20,
         timeLimit = 120,
         timerDisplay = "seconds",
@@ -18,8 +24,32 @@ export default function QuickPracticeEngine({
     const [userName, setUserName] = useState("BCSpark");
     const [answers, setAnswers] = useState({});
     const [submitted, setSubmitted] = useState(false);
+    const [showResultPopup, setShowResultPopup] = useState(false);
     const [time, setTime] = useState(timeLimit);
     const resultRef = useRef(null);
+    const reviewRef = useRef(null);
+
+    // Helper: if source has multiple separated by /, show only the first one + superscript count
+    const getDisplaySource = (source) => {
+        if (!source) return { display: '', hiddenCount: 0 };
+        try {
+            // source is an array like ["২৩তম বিসিএস/অডিটর পদে নিয়োগ..."]
+            let str = '';
+            if (Array.isArray(source)) {
+                str = source[0] || '';
+            } else if (typeof source === 'string') {
+                str = source;
+            } else {
+                str = String(source);
+            }
+            const parts = str.split('/').map(s => s.trim()).filter(s => s);
+            const display = parts[0] || str;
+            const hiddenCount = parts.length - 1;
+            return { display, hiddenCount };
+        } catch {
+            return { display: String(source), hiddenCount: 0 };
+        }
+    };
 
     // =======quiz time keeper ========
     const [timeTaken, setTimeTaken] = useState(0);
@@ -51,6 +81,7 @@ export default function QuickPracticeEngine({
         if (time <= 0) {
             setSubmitted(true);
             setSubmittedByTime(true);
+            setShowResultPopup(true);
             return;
         }
 
@@ -64,6 +95,17 @@ export default function QuickPracticeEngine({
             setTimeTaken(timeLimit - time);
         }
     }, [submitted, time, timeLimit]);
+
+    // ===== Format submit date & time (e.g. 06-07-2026 | 2:54 AM) =====
+    const formatDateTime = (d = new Date()) => {
+        const pad = (n) => String(n).padStart(2, "0");
+        const date = `${pad(d.getDate())}-${pad(d.getMonth() + 1)}-${d.getFullYear()}`;
+        let hours = d.getHours();
+        const ampm = hours >= 12 ? "PM" : "AM";
+        hours = hours % 12 || 12;
+        const time = `${hours}:${pad(d.getMinutes())} ${ampm}`;
+        return `${date} | ${time}`;
+    };
 
     const handleSelect = (qIndex, optionIndex) => {
         if (submitted) return;
@@ -88,6 +130,12 @@ export default function QuickPracticeEngine({
             onclone: (clonedDoc) => {
                 clonedDoc.body.style.background = '#ffffff';
                 clonedDoc.body.style.width = '1080px';
+
+                const resultSheet = clonedDoc.getElementById('resultSheet');
+                if (resultSheet) {
+                    resultSheet.style.width = '1080px';
+                    resultSheet.style.maxWidth = 'none';
+                }
 
                 const allElements = clonedDoc.querySelectorAll('*');
                 allElements.forEach(el => {
@@ -115,13 +163,25 @@ export default function QuickPracticeEngine({
     //  score and result review
     const finalScore = correctCount - (wrongCount * 0.5);
 
+    const scorePercentage = questions.length > 0 ? (finalScore / questions.length) * 100 : 0;
+    const passed = scorePercentage >= passMark;
+    const correctPct = questions.length > 0 ? Math.round((correctCount / questions.length) * 100) : 0;
+    const wrongPct = questions.length > 0 ? Math.round((wrongCount / questions.length) * 100) : 0;
+
+    const scrollToReview = () => {
+        setShowResultPopup(false);
+        setTimeout(() => {
+            reviewRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 50);
+    };
+
     const getResultMessage = (name, score, totalQuestions) => {
         const percentage = (score / totalQuestions) * 100;
 
         if (percentage >= 95)
             return [
                 `🔥 ${name}! আগুন লাগায় দিলা!`,
-                "অসাধারণ! প্রায় ফুল মার্কস!",
+                "অসাধারণ! তোমাকে দিয়ে হবে, থেমে থাকা যাবে না!",
                 "এভাবেই চালিয়ে যাও! 🚀"
             ];
 
@@ -129,27 +189,27 @@ export default function QuickPracticeEngine({
             return [
                 `💪 ${name}! দারুণ করেছো!`,
                 "আর একটু চর্চা করলে টপার!",
-                "চালিয়ে যাও 📚"
+                "চালিয়ে যাও 📚 এগিয়ে যাও স্বপনের পথে"
             ];
 
         if (percentage >= 60)
             return [
-                `😎 ${name}! ভালোই হচ্ছে!`,
+                `😎 ${name}! বিশেষ বিবেচনায় পাশ!`,
                 "আরেকটু মনোযোগ দিলে আরও ভালো হবে।",
-                "হাল ছেড়ো না 💯"
+                "হাল ছেড়ো না, মেধা আছে কিন্তু পড়ে না 💯"
             ];
 
         if (percentage >= 35)
             return [
-                `🙂 ${name}! উন্নতির সুযোগ আছে।`,
-                "নিয়মিত প্র্যাকটিস করো।",
-                "তুমি পারবে! 💪"
+                `🙂 ${name} ফেল্টুস!`,
+                "ভালো করে পড়, নিয়মিত প্র্যাকটিস করো।",
+                "লেগে থাকলে তুমি নিশ্চয়ই পারবে! 💪"
             ];
 
         return [
-            `🪦 সর্বনাশ, ${name}!`,
+            `⚠️ সর্বনাশ, ${name} ফেল্টুস!`,
             "লেখাপড়া বাদ দিয়া বিয়ের প্ল্যান নাকি?",
-            "মজা করলাম! উঠো দাঁড়াও! নিচের রিসোর্স দেখো 💪"
+            "এভাবে চললে কপালে দুঃখ আছে ...... ভালো করে পড় 💪"
         ];
     };
 
@@ -177,8 +237,8 @@ export default function QuickPracticeEngine({
     // warning color 
     const timerColor = time <= 10 ? 'bg-red-200 text-red-900 animate-pulse' : 'bg-red-100 text-red-900';
 
-    // submit handeler 
-    const handleSubmit = () => {
+    // =============Score Calculation============
+    const calculateResults = () => {
         let correct = 0;
         let wrong = 0;
 
@@ -194,8 +254,20 @@ export default function QuickPracticeEngine({
 
         setCorrectCount(correct);
         setWrongCount(wrong);
+    };
 
+    // Auto-calculate score whenever the quiz is submitted (manual OR by timer)
+    useEffect(() => {
+        if (submitted) {
+            calculateResults();
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [submitted]);
+
+    // submit handeler 
+    const handleSubmit = () => {
         setSubmitted(true);
+        setShowResultPopup(true);
     };
 
     return (
@@ -215,19 +287,23 @@ export default function QuickPracticeEngine({
 
                     <h1 className="text-2xl font-bold mb-6 text-center">{title}</h1>
 
+                    {/* Top quiz grid is hidden once submitted to avoid redundant duplicate of the review sheet below */}
+                    {!submitted && (
                     <div className="grid md:grid-cols-2 gap-6">
                         {questions.map((q, i) => {
                             const correctOptionIndex = q.ans;
                             const selectedOptionIndex = answers[i];
 
                             return (
-                                <div key={q.id} className="bg-white p-4 rounded-xl shadow border">
-                                    <div className="flex justify-between items-start mb-3">
-                                        <p className="font-semibold text-lg">প্রশ্ন {i + 1}</p>
-                                        <span className="text-xs bg-gray-200 px-2 py-1 rounded-full">{q.source}</span>
-                                    </div>
+                                <div key={`${getDisplaySource(q.source).display}-${q.id}-${i}`} className="bg-white p-4 rounded-xl shadow border">
+                                    <p className="font-semibold text-2xl mb-2">Q{i + 1}: {q.q}</p>
 
-                                    <p className="mb-4 text-base">{q.q}</p>
+                                    <p className="mb-4 text-base italic opacity-30">
+                                        {getDisplaySource(q.source).display}
+                                        {getDisplaySource(q.source).hiddenCount > 0 && (
+                                            <sup className="ml-0.5 text-[7px]">{getDisplaySource(q.source).hiddenCount}+</sup>
+                                        )}
+                                    </p>
 
                                     <div className="grid grid-cols-2 gap-2">
                                         {q.options.map((opt, idx) => {
@@ -255,6 +331,7 @@ export default function QuickPracticeEngine({
                             );
                         })}
                     </div>
+                    )}
 
                     {/* Answer Submint Button */}
                     {!submitted ? (
@@ -266,7 +343,7 @@ export default function QuickPracticeEngine({
                         </button>
                         // ============Result Page============
                     ) : (
-                        <div ref={resultRef} className="w-[1080px] mt-8 bg-white p-1 rounded-xl shadow relative overflow-hidden">
+                        <div ref={resultRef} id="resultSheet" className="w-full max-w-[1080px] mx-auto mt-8 bg-white p-1 rounded-xl shadow relative overflow-hidden">
 
                             <img
                                 src="/logo/logo.png"
@@ -279,7 +356,7 @@ export default function QuickPracticeEngine({
                                     background: 'linear-gradient(135deg, #E95420 0%, #F9A825 60%, #e956208e 50%)'
                                 }}>
 
-                                <div className="grid grid-cols-2 gap-4 items-center">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
                                     <div className="text-left space-y-3">
                                         <div className="space-y-2">
                                             {getResultMessage(userName, finalScore, questions.length).map((line, index) => (
@@ -312,22 +389,54 @@ export default function QuickPracticeEngine({
                                             className="w-30 h-30 mx-auto md:ml-auto md:mr-0 bg-none p-0 rounded-xl shadow-lg"
                                         />
                                         <p className="text-sm opacity-80 mb-4">Powered by BCSpark</p>
+                                        <p className="text-[10px] opacity-60 border-t border-white/20 pt-2 mt-2">
+                                            Subjects: {category} / {subject}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             {/* ===================Answer Sheets====================== */}
-                            <div className="grid grid-cols-2 gap-3 mb-6 relative z-10">
+                            <div ref={reviewRef} className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6 relative z-10">
                                 {questions.map((q, i) => (
-                                    <div key={q.id} className="border rounded-lg p-2 bg-gray-30">
-                                        <p className="font-semibold text-xs mb-1">প্রশ্ন {i + 1}: {q.q}
-                                            {/* to show question source */}
-                                            <span className="text-[9px] text-gray-500 mt-0.5"> {q.source} </span>
+                                    <div key={`${getDisplaySource(q.source).display}-${q.id}-${i}`} className="border rounded-lg p-2 bg-gray-30">
+                                        <p className="font-semibold text-xs mb-1">প্রশ্ন {i + 1}: {q.q}</p>
+                                        {/* to show question source */}
+                                        <p className="text-[9px] italic opacity-20 mb-1">
+                                            {getDisplaySource(q.source).display}
+                                            {getDisplaySource(q.source).hiddenCount > 0 && (
+                                                <sup className="ml-0.5 text-[8px]">{getDisplaySource(q.source).hiddenCount}+</sup>
+                                            )}
                                         </p>
-                                        <p className="text-[11px]">উত্তর: {q.options[answers[i]] || 'দাও নাই'}
+                                        {/* <p className="text-[11px]">উত্তর: {q.options[answers[i]] || 'দাও নাই'}
                                             <span className={`ml-1 font-bold ${answers[i] === q.ans ? 'text-green-600' : 'text-red-600'}`}>
                                                 {answers[i] === q.ans ? '✓' : `✗ ${q.options[q.ans]}`}
                                             </span>
-                                        </p>
+                                        </p> */}
+                                        {/* উত্তর দেখা skipped, correct, worong ans */}
+                                        {answers[i] === undefined ? (
+                                            <>
+                                                <p className="text-[11px] text-red-600 font-semibold">
+                                                    ✗ Your Ans: Skipped 
+                                                </p>
+                                                <p className="text-[11px] text-green-600 font-semibold">
+                                                    ✓ Correct Ans: {q.options[q.ans]}
+                                                </p>
+                                            </>
+                                        ) : answers[i] === q.ans ? (
+                                            <p className="text-[11px] text-green-600 font-semibold">
+                                                ✓ Your Ans: {q.options[q.ans]}
+                                            </p>
+                                        ) : (
+                                            <>
+                                                <p className="text-[11px] text-red-600 font-semibold">
+                                                    ✗ Your Ans: {q.options[answers[i]]}
+                                                </p>
+                                                <p className="text-[11px] text-green-600 font-semibold">
+                                                    ✓ Correct Ans: {q.options[q.ans]}
+                                                </p>
+                                            </>
+                                        )}
+                                        {/* Hitnts or explain of answer */}
                                         <p className="text-[9px] text-gray-500 mt-0.5">explain: {q.explain}</p>
                                     </div>
                                 ))}
@@ -342,7 +451,10 @@ export default function QuickPracticeEngine({
                                 </button>
 
                                 <button
-                                    onClick={() => window.location.reload()}
+                                    onClick={() => {
+                                        sessionStorage.setItem("quickPracticeRetry", "true");
+                                        router.push('/t20');
+                                    }}
                                     className="flex-1 bg-green-600 text-white py-3 rounded-lg font-semibold hover:bg-green-700"
                                 >
                                     🔄 আবার Practice দাও
@@ -356,6 +468,87 @@ export default function QuickPracticeEngine({
                         </div>
                     )}
                 </>
+
+                {/* ============ Result Preview Popup ============ */}
+                {submitted && showResultPopup && (
+                    <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/70 p-4 overflow-y-auto">
+                        <div className="w-full max-w-md my-8 bg-white rounded-2xl shadow-2xl overflow-hidden">
+
+                            {/* Header (Result State) */}
+                            <div
+                                className="px-6 py-5 text-white text-center"
+                                style={{
+                                    background: passed
+                                        ? 'linear-gradient(135deg, #16a34a 0%, #22c55e 100%)'
+                                        : 'linear-gradient(135deg, #dc2626 0%, #ef4444 100%)'
+                                }}
+                            >
+                                <h3 className="text-xl font-extrabold leading-snug">
+                                    {passed
+                                        ? "🎉 অভিনন্দন! আপনি পাস করেছেন"
+                                        : "⚡ অল্পের জন্য মিস! আবার চেষ্টা করুন"}
+                                </h3>
+                            </div>
+
+                            {/* Core Quiz Results (Metadata) */}
+                            <div className="px-6 py-4 text-sm text-gray-800 space-y-1">
+                                <p><span className="text-gray-500">Category:</span> <strong>{category}</strong></p>
+                                <p><span className="text-gray-500">Subject:</span> <strong>{subject || title}</strong></p>
+                                <p><span className="text-gray-500">Date &amp; Time:</span> <strong>{formatDateTime()}</strong></p>
+                                <p><span className="text-gray-500">Step:</span> <strong>{step}</strong></p>
+
+                                <div className="my-2 border-t pt-2 space-y-1">
+                                    <p>
+                                        <span className="text-gray-500">Your Score:</span>{' '}
+                                        <strong>{finalScore.toFixed(2)} / {questions.length}</strong>
+                                    </p>
+                                    <p>
+                                        <span className="text-gray-500">Correct Answers:</span>{' '}
+                                        <strong className="text-green-600">{correctCount} ({correctPct}%)</strong>
+                                    </p>
+                                    <p>
+                                        <span className="text-gray-500">Wrong Answers:</span>{' '}
+                                        <strong className="text-red-600">{wrongCount} ({wrongPct}%)</strong>
+                                    </p>
+                                    <p>
+                                        <span className="text-gray-500">Time Expended:</span>{' '}
+                                        <strong>{formatTimer(timeTaken)}</strong>
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* Promotional Message (Call-out Box) */}
+                            <div className="mx-6 mb-4 rounded-xl p-3 bg-orange-50 border border-orange-200 text-xs text-gray-700 leading-relaxed">
+                                <p className="font-semibold text-orange-700 mb-1">আপনি কি জানেন...?</p>
+                                <p>
+                                    BCSpark-এর স্পেশাল কনটেস্টে অংশ নিলে গুরুত্বপূর্ণ MCQ পড়াশোনার পাশাপাশি প্রতিদিন থাকছে একাধিক পুরস্কার জেতার সম্ভাবনা! কনটেস্টে অংশ গ্রহণের জন্য{' '}
+                                    <a
+                                        href="https://bcspark.bd/contest"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-blue-600 underline font-semibold"
+                                    >
+                                        Registration করুন
+                                    </a>।
+                                </p>
+                            </div>
+
+                            {/* Action Button */}
+                            <div className="px-6 pb-6">
+                                <button
+                                    onClick={scrollToReview}
+                                    className="w-full py-3 rounded-lg font-bold text-white transition hover:opacity-90"
+                                    style={{
+                                        background: 'linear-gradient(135deg, #E95420 0%, #F9A825 100%)'
+                                    }}
+                                >
+                                    Answer Review &amp; Download🔍
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                )}
 
             </div>
             <Footer />

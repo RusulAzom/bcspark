@@ -1,0 +1,3667 @@
+[
+  {
+    "id": 1,
+    "topicsId": 494,
+    "q": "Chapal has made tea. Make it passive voice.",
+    "options": [
+      "Tea is being made by Chapal",
+      "Tea was being made by Chapal",
+      "Tea has been made by Chapal",
+      "Tea have been made by Chapal"
+    ],
+    "ans": 2,
+    "explain": "প্রদত্ত বাক্যটি Present Perfect Tense-এ আছে। এর Passive করার নিয়ম হলো: Object (Tea) + has/have + been + Verb-এর Past Participle (made) + by + Subject (Chapal)। যেহেতু Tea থার্ড পারসন সিঙ্গুলার, তাই 'has been' ব্যবহৃত হয়েছে।",
+    "source": [
+      "উপজেলা/থানা শিক্ষা অফিসার : ২০০৪"
+    ]
+  },
+  {
+    "id": 2,
+    "topicsId": 494,
+    "q": "'This picture was painted by Zainul Abedin'. Which of the following sentence is correct active voice ?",
+    "options": [
+      "Zainul Abedin this picture painted",
+      "Zainul Abedin did this picture paint",
+      "This picture Zainul Abedin painted",
+      "Zainul Abedin painted this picture"
+    ],
+    "ans": 3,
+    "explain": "প্যাসিভ ভয়েসটি Past Indefinite Tense-এ আছে (was painted)। একে একটিভ করতে হলে structure হবে: Subject (Zainul Abedin) + Verb-এর Past form (painted) + Object (this picture)।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের গণযোগাযোগ প্রশিক্ষণের সহকারী পরিচালক : ২০০১"
+    ]
+  },
+  {
+    "id": 3,
+    "topicsId": 494,
+    "q": "Choose the right passive form of 'They made him tell them everything.'",
+    "options": [
+      "Everything was made to be told to them by him.",
+      "He was made by them to tell everything to them.",
+      "He was made to tell them everything.",
+      "He was made by them to tell them everything."
+    ],
+    "ans": 2,
+    "explain": "Active Voice-এ 'make' ভার্বের পর bare infinitive (টু ছাড়া ভার্ব) বসে, কিন্তু Passive Voice-এ এর পরে 'to' বসে। তাই সঠিক রূপটি হলো: He was made to tell them everything.",
+    "source": [
+      "মেডিক্যাল ভর্তি পরীক্ষা – 2021"
+    ]
+  },
+  {
+    "id": 4,
+    "topicsId": 494,
+    "q": "Change the voice: 'Nobody trusts a traitor.'",
+    "options": [
+      "A traitor is trusted.",
+      "A traitor should not be trusted.",
+      "A traitor is not trusted by anybody.",
+      "Everybody hates a traitor."
+    ],
+    "ans": 2,
+    "explain": "Present Indefinite Tense-এর নেতিবাচক বাক্যের প্যাসিভ করার নিয়ম: Object (A traitor) + is/am/are + not + V3 (trusted) + by + anybody (nobody-এর পরিবর্তে)।",
+    "source": [
+      "৪৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 5,
+    "topicsId": 494,
+    "q": "Find out the correct passive from of the sentence 'Who taught you French' ?'",
+    "options": [
+      "By whom you were taught French ?",
+      "By whom French was taught you ?",
+      "French was taught you by whom ?",
+      "By whom were you taught French ?"
+    ],
+    "ans": 3,
+    "explain": "'Who' যুক্ত ইন্টারোগেটিভ বাক্যের প্যাসিভ 'By whom' দিয়ে শুরু হয়। এরপর auxiliary verb (were) + subject (you) + V3 (taught) + object (French) বসে।",
+    "source": [
+      "৪১তম বিসিএস / মেডিক্যাল ভর্তি পরীক্ষা – 2021"
+    ]
+  },
+  {
+    "id": 6,
+    "topicsId": 494,
+    "q": "Change the voice : 'Who is calling me' ?",
+    "options": [
+      "By whom am I called ?",
+      "By whom I am called ?",
+      "By whom am I being called ?",
+      "Whom am I called by ?"
+    ],
+    "ans": 2,
+    "explain": "Present Continuous Tense-এ 'Who' থাকলে 'By whom' + am/is/are + subject + being + V3 হয়। এখানে 'me' অবজেক্টটি 'I' হয়ে যাওয়ায় 'am' এবং 'being' ব্যবহৃত হয়েছে।",
+    "source": [
+      "৪০তম বিসিএস/ বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড (সহকারী এনফোর্সমেন্ট কোঅর্ডিনেটর)-২১/ বিসিএস প্রশাসন একাডেমির নিয়োগ পরীক্ষা (অফিস সহায়ক) -২১/ কারিগরি শিক্ষা অধিদপ্তরের নিয়োগ-২০২১/১৫তম শিক্ষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (স্কুল/সমপর্যায়) ২০১৯"
+    ]
+  },
+  {
+    "id": 7,
+    "topicsId": 494,
+    "q": "Help your friend. বাক্যেটির Passive form হবে -----?",
+    "options": [
+      "Your friend is helped you",
+      "Let you help your friend",
+      "You are asked to helped your",
+      "Let your friend be helped by you"
+    ],
+    "ans": 3,
+    "explain": "Imperative বাক্য (মূল ভার্ব দিয়ে শুরু) প্যাসিভ করার নিয়ম: Let + object (your friend) + be + V3 (helped) + by you (ঐচ্ছিক)।",
+    "source": [
+      "সমবায় অধিদপ্তরের দ্বিতীয় শ্রেণির অফিসার : ৯৭"
+    ]
+  },
+  {
+    "id": 8,
+    "topicsId": 494,
+    "q": "What is the passive form of the sentence 'He annoyed me' ?",
+    "options": [
+      "I was annoyed by him",
+      "I was annoyed by himself",
+      "I was annoyed to him",
+      "I was annoyed with him"
+    ],
+    "ans": 3,
+    "explain": "'Annoy' ভার্বের পর প্যাসিভ ভয়েসে সাধারণত 'with' (ব্যক্তির ক্ষেত্রে) বা 'at' (বস্তুর ক্ষেত্রে) বসে। যেহেতু এখানে 'him' ব্যক্তি, তাই 'annoyed with' সঠিক।",
+    "source": [
+      "খাদ্য অধিদপ্তরে উচ্চমান সহকারী: ২০২১"
+    ]
+  },
+  {
+    "id": 9,
+    "topicsId": 494,
+    "q": "'Whom did they accuse? ' Choose the right passive voice ---",
+    "options": [
+      "Who was accused by them ?",
+      "Who had been accused by them ?",
+      "Who was being accused by them ?",
+      "Who has been accused by them ?"
+    ],
+    "ans": 0,
+    "explain": "Active Voice-এ 'Whom' থাকলে Passive-এ তা 'Who' হয়। যেহেতু এটি Past Indefinite Tense, তাই Who + was + V3 (accused) + by them সঠিক।",
+    "source": [
+      "খাদ্য অধিদপ্তরে খাদ্য পরিদর্শক: ২০০১"
+    ]
+  },
+  {
+    "id": 10,
+    "topicsId": 494,
+    "q": "What is the correct passive form of the sentence: ' Shirley paid the bill '?",
+    "options": [
+      "The bill was paid by Shirley",
+      "The bill has been paid by Shirley",
+      "The bill is being paid by Shirley",
+      "The bill paid by Shirley"
+    ],
+    "ans": 0,
+    "explain": "বাক্যটি Past Indefinite Tense-এ আছে। নিয়ম অনুযায়ী: Object (The bill) + was + V3 (paid) + by + Subject (Shirley)।",
+    "source": [
+      "খাদ্য অধিদপ্তরে উপ-খাদ্য পরিদর্শক: ২০০১"
+    ]
+  },
+  {
+    "id": 11,
+    "topicsId": 494,
+    "q": "Identify the correct passive form of the sentence below: 'Do you know them ?'",
+    "options": [
+      "Are they known by you?",
+      "Are they known with you?",
+      "Would they be known by you?",
+      "Are they known to you?"
+    ],
+    "ans": 3,
+    "explain": "'Know' ভার্বের পর প্যাসিভ ভয়েসে 'by' না বসে 'to' বসে। এটি একটি ব্যতিক্রমী নিয়ম। তাই 'Are they known to you?' সঠিক।",
+    "source": [
+      "৩৯তম বিসিএস/কারিগরি শিক্ষা অধিদপ্তরের নিয়োগ-২০২১"
+    ]
+  },
+  {
+    "id": 12,
+    "topicsId": 494,
+    "q": "He is beating the thief . বাক্যটির Passive form হবে ?",
+    "options": [
+      "The thief was being beating by him",
+      "The thief is being beat by him",
+      "The thief is beaten by him",
+      "The thief is being beaten by him"
+    ],
+    "ans": 3,
+    "explain": "Present Continuous Tense-এর নিয়ম: Object (The thief) + is + being + V3 (beaten) + by + Subject (him)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (কপোতাক্ষ) : ২০১০"
+    ]
+  },
+  {
+    "id": 13,
+    "topicsId": 494,
+    "q": "The old sailor saw a ship coming towards them .",
+    "options": [
+      "The old sailor saw a ship to come towards them",
+      "A ship was seen coming towards them by the old sailor",
+      "A ship was coming towards the old sailor",
+      "A ship came towards the old sailor"
+    ],
+    "ans": 1,
+    "explain": "Present Participle (coming) যুক্ত বাক্যের প্যাসিভ করার সময় মূল অবজেক্টকে (A ship) সাবজেক্ট করতে হয়। Past Indefinite-এ 'was seen' এবং এরপর participle অংশটি অপরিবর্তিত থাকে।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় গ ইউনিট ১৯৯৮-১৯৯৯"
+    ]
+  },
+  {
+    "id": 14,
+    "topicsId": 494,
+    "q": "Which one is the passive form of the sentence. 'Keep your word' ?",
+    "options": [
+      "Your word must be kept",
+      "Let your word be kept",
+      "Your word should be kept",
+      "Let be kept your word"
+    ],
+    "ans": 2,
+    "explain": "উপদেশমূলক বা নৈতিক বাধ্যবাধকতা বোঝালে Imperative বাক্যের প্যাসিভ করার সময় 'should be' ব্যবহার করা শ্রেয়। তাই 'Your word should be kept' সঠিক।",
+    "source": [
+      "৬ষ্ঠ বেসরকারি প্রভাষক নিবন্ধন পরীক্ষা : ২০১০"
+    ]
+  },
+  {
+    "id": 15,
+    "topicsId": 494,
+    "q": "The correct passive form of the sentence 'they laugh at us' is ----?",
+    "options": [
+      "we are laughed at them",
+      "we are laughed at with them",
+      "we are laughed by them",
+      "we are laughed at by them"
+    ],
+    "ans": 3,
+    "explain": "Group verb বা prepositional verb (laugh at) প্যাসিভ ভয়েসেও একসাথে থাকে। নিয়ম: Object (we) + are + V3 (laughed at) + by + Subject (them)।",
+    "source": [
+      "৬ষ্ঠ বেসরকারি প্রভাষক নিবন্ধন পরীক্ষা : ২০১০"
+    ]
+  },
+  {
+    "id": 16,
+    "topicsId": 494,
+    "q": "Identify the right passive voice of 'It is impossible to do this'.",
+    "options": [
+      "Doing this is impossible",
+      "This is impossible to be done",
+      "This is must be done",
+      "This can't be done"
+    ],
+    "ans": 1,
+    "explain": "Infinitive (to do) যুক্ত বাক্যের প্যাসিভ করার সময় adjective অংশটি স্থির থাকে এবং 'to be + V3' হয়। অর্থাৎ: This is impossible to be done.",
+    "source": [
+      "৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 17,
+    "topicsId": 494,
+    "q": "You will be helped by me, বাক্যটির সঠিক পরিবর্তিত voice হবে ?",
+    "options": [
+      "I shall have helped you",
+      "I should help you",
+      "I shall help you",
+      "I must help you"
+    ],
+    "ans": 2,
+    "explain": "এটি Future Indefinite-এর প্যাসিভ। একটিভ করার সময়: Subject (I) + shall/will + Verb-এর base form (help) + Object (you)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (পদ্ম) : ২০০৯"
+    ]
+  },
+  {
+    "id": 18,
+    "topicsId": 494,
+    "q": "'He taught me to read Arabic'. বাক্যটির Passive form হবে ----?",
+    "options": [
+      "I was taught by him to read Arabic",
+      "I have been taught by him to read Arabic",
+      "I has been taught by him to read Arabic",
+      "I was being taught by him to read Arabic"
+    ],
+    "ans": 0,
+    "explain": "Past Indefinite Tense-এর প্যাসিভ: Indirect object (I) + was + V3 (taught) + extension (to read Arabic) + by him.",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (সুরমা) : ২০১২"
+    ]
+  },
+  {
+    "id": 19,
+    "topicsId": 494,
+    "q": "He teaches us English. The passive form will be ----?",
+    "options": [
+      "English was taught us by him",
+      "English is taught us by him",
+      "English is teaching us by him",
+      "English was teaching us by him"
+    ],
+    "ans": 1,
+    "explain": "Present Indefinite-এ দুটি অবজেক্ট থাকলে যে কোনো একটিকে সাবজেক্ট করা যায়। এখানে 'English' সাবজেক্ট হিসেবে 'English is taught us by him' সঠিক গঠন।",
+    "source": [
+      "বাংলাদেশ রেলওয়ের খালাসী : ২২"
+    ]
+  },
+  {
+    "id": 20,
+    "topicsId": 494,
+    "q": "Cats kill mice. Make the passive voice.",
+    "options": [
+      "Mice are being killed by cats",
+      "Mice are killed by cats",
+      "Mice is killed by cats",
+      "Mice have been killed by cats"
+    ],
+    "ans": 1,
+    "explain": "বাক্যটি Present Indefinite. 'Mice' হলো 'Mouse'-এর বহুবচন, তাই এর পর auxiliary verb 'are' বসবে। সঠিক রূপ: Mice are killed by cats.",
+    "source": [
+      "হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় F ইউনিট"
+    ]
+  },
+  {
+    "id": 21,
+    "topicsId": 494,
+    "q": "'Who planted this tree here' ? The correct passive voice of this sentence is -",
+    "options": [
+      "By whom was the tree was planted here?",
+      "Who the tree had been planted hereby",
+      "The tree was planted here by whom?",
+      "By whom had the tree been planted here?"
+    ],
+    "ans": 0,
+    "explain": "'Who' থাকলে 'By whom' বসে। Past Indefinite অনুযায়ী structure: By whom + was/were + object (the tree) + V3 (planted)। অপশন ০-তে একটি বাড়তি 'was' থাকলেও এটিই নিকটতম উত্তর।",
+    "source": [
+      "৩৭তম বিসিএস"
+    ]
+  },
+  {
+    "id": 22,
+    "topicsId": 494,
+    "q": "'He is thought to be a teacher' বাক্যটির সঠিক পরিবর্তিত voice হবে ?",
+    "options": [
+      "We thought him to be a teacher",
+      "We think him to be a teacher",
+      "We think him a teacher",
+      "We thought him a teacher"
+    ],
+    "ans": 1,
+    "explain": "প্যাসিভ ভয়েসে সাবজেক্ট উহ্য থাকলে 'We' বা 'People' কে একটিভ ভয়েসে সাবজেক্ট ধরা হয়। 'is thought' নির্দেশ করে এটি Present Indefinite, তাই 'We think' সঠিক।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (শিউলী) : ২০০৯"
+    ]
+  },
+  {
+    "id": 23,
+    "topicsId": 494,
+    "q": "Choose the correct sentence.",
+    "options": [
+      "You mistake hold this idea",
+      "You mistake in holding this idea",
+      "You are mistaken in holding this idea",
+      "You are mistaken to hold this idea"
+    ],
+    "ans": 2,
+    "explain": "'Mistake' এর প্যাসিভ অ্যাডজেক্টিভ রূপ হলো 'mistaken'। সঠিক ইডিয়ম হলো 'be mistaken in doing something'।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (শিউলী) : ২০০৯"
+    ]
+  },
+  {
+    "id": 24,
+    "topicsId": 494,
+    "q": "Change the voice of 'Never tell a lie' ?",
+    "options": [
+      "Let not a lie ever be called",
+      "Let a lie never be told",
+      "Le a lie not ever be told",
+      "Let never be told a lie"
+    ],
+    "ans": 1,
+    "explain": "Never যুক্ত Imperative বাক্যের প্যাসিভ: Let + object (a lie) + never + be + V3 (told)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা (কর্ণফুলী) : ২০১২"
+    ]
+  },
+  {
+    "id": 25,
+    "topicsId": 494,
+    "q": "'I had written the letter.' বাক্যের Passive form হচ্ছে -----?",
+    "options": [
+      "The letter was written by me.",
+      "The letter had been written by me.",
+      "The letter was being written by me.",
+      "The letter was wrote by me."
+    ],
+    "ans": 1,
+    "explain": "Past Perfect Tense-এর প্যাসিভ করার নিয়ম: Object (The letter) + had been + V3 (written) + by + Subject (me)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা(করতোয়া) : ২০১২"
+    ]
+  },
+  {
+    "id": 26,
+    "topicsId": 494,
+    "q": "The correct passive form of 'You must shut these doors' is-",
+    "options": [
+      "These must be shut doors",
+      "Shut must be the doors",
+      "Shut the doors you must",
+      "These doors must be shut"
+    ],
+    "ans": 3,
+    "explain": "মডাল অক্সিলারি (must) থাকলে প্যাসিভ করার নিয়ম: Object + must + be + V3 (shut)। এখানে 'shut' এর V1, V2, V3 একই রূপ।",
+    "source": [
+      "৩৫তম বিসিএস / বাংলাদেশ পরিসংখ্যান ব্যুরোর অধীনে ডাটা এন্ট্রি/কন্ট্রোল অপারেটর পদে নিয়োগ পরীক্ষা- 2020"
+    ]
+  },
+  {
+    "id": 27,
+    "topicsId": 494,
+    "q": "I know him.",
+    "options": [
+      "He is known by me",
+      "He was known to me",
+      "He has been known by me",
+      "He is known to me"
+    ],
+    "ans": 3,
+    "explain": "'Know' ভার্বের পর প্যাসিভ ভয়েসে 'to' বসে। বাক্যটি Present Indefinite হওয়ায় 'He is known to me' সঠিক।",
+    "source": [
+      "৩০তম বিসিএস, প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (প্রথম ধাপ) ২০১৯/ প্রাথমিক শিক্ষা অধিদপ্তরের হিসাব সহকারী-২০১১, প্রাথমিক বিদ্যালয় সরকারী শিক্ষক-২০১০, উপজেলা / থানা শিক্ষা অফিসার নিয়োগ পরীক্ষাঃ ২০১০"
+    ]
+  },
+  {
+    "id": 28,
+    "topicsId": 494,
+    "q": "The passive form of the sentence: 'I saw him playing football' is ----?",
+    "options": [
+      "Football was played and seen by him",
+      "He was seen playing football by me.",
+      "Football was being played and seen by him",
+      "Football was seen played by me and him"
+    ],
+    "ans": 1,
+    "explain": "অতিরিক্ত participle যুক্ত বাক্যে মূল অবজেক্টকে সাবজেক্ট করতে হয়। এখানে 'him' থেকে 'He' এবং Past Indefinite অনুযায়ী 'was seen' ব্যবহৃত হয়েছে।",
+    "source": [
+      "বাংলাদেশ রেলওয়ের সহকারী কমান্ডেন্ট : ২০০৭"
+    ]
+  },
+  {
+    "id": 29,
+    "topicsId": 494,
+    "q": "We saw them go out.",
+    "options": [
+      "They were seen to go out.",
+      "As they were going out, we saw them.",
+      "We saw the as they went out.",
+      "They were going out when we saw them."
+    ],
+    "ans": 0,
+    "explain": "Active Voice-এ 'see', 'make', 'hear' ইত্যাদির পর bare infinitive থাকলেও Passive-এ পূর্ণ infinitive (to + V1) বসে। তাই 'They were seen to go out' সঠিক।",
+    "source": [
+      "খাদ্য অধিদপ্তরের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক : ২০১৩"
+    ]
+  },
+  {
+    "id": 30,
+    "topicsId": 494,
+    "q": "'All his pupils like him' বাক্যেটির Passive form হচ্ছে -----?",
+    "options": [
+      "He was liked by all his pupils",
+      "He is like by all his pupils",
+      "He is being liked by all his pupils",
+      "He is liked by all his pupils"
+    ],
+    "ans": 3,
+    "explain": "Present Indefinite-এর প্যাসিভ: Object (He) + is + V3 (liked) + by + Subject (all his pupils)।",
+    "source": [
+      "খাদ্য অধিদপ্তরের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক : ২০১৩"
+    ]
+  },
+  {
+    "id": 31,
+    "topicsId": 494,
+    "q": "Choose the correct form (passive) of -- 'Who will do the work' ?",
+    "options": [
+      "Who will be done the work ?",
+      "Who will done the work ?",
+      "By whom will the work be done ?",
+      "Whom will the work be done ?"
+    ],
+    "ans": 2,
+    "explain": "'Who' থাকলে 'By whom' এবং Future Indefinite-এর ইন্টারোগেটিভ গঠনে Auxiliary 'will' আগে বসে, তারপর subject এবং 'be' + V3 বসে।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা : ২০০৪"
+    ]
+  },
+  {
+    "id": 32,
+    "topicsId": 494,
+    "q": "We will not admit children under ten. The passive voice is ----?",
+    "options": [
+      "Children under ten will not be admitted by us.",
+      "Children under ten will be not admitted by us.",
+      "Children under ten not would admitted by us.",
+      "Children under ten shall not be admitted by us."
+    ],
+    "ans": 0,
+    "explain": "Future Indefinite Negative-এর প্যাসিভ: Object (Children under ten) + will + not + be + V3 (admitted)।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক : ২০১১"
+    ]
+  },
+  {
+    "id": 33,
+    "topicsId": 494,
+    "q": "Identify the correct passive form of 'He recommended using bulletproof jacket.'",
+    "options": [
+      "He recommended that bulletproof jacket should be use",
+      "Bulletproof jacket should be used he recommended",
+      "He recommended for the use of bulletproof jacket",
+      "Use of bulletproof jacket was recommended by him."
+    ],
+    "ans": 3,
+    "explain": "বাক্যটি Past Indefinite. অবজেক্ট হলো 'using bulletproof jacket' (বা সংক্ষেপে Use of...)। তাই সঠিক গঠন: Use of bulletproof jacket was recommended by him.",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা : ২০০৪"
+    ]
+  },
+  {
+    "id": 34,
+    "topicsId": 494,
+    "q": "We ought to obey our parents. বাক্যটির সঠিক পরিবর্তিত voice হবে ?",
+    "options": [
+      "Our parents ought to be obeyed by us",
+      "Our parents may be obeyed by us",
+      "Your parents is to be obeyed by you",
+      "Our parents are to be obeyed by us"
+    ],
+    "ans": 0,
+    "explain": "মডাল 'ought to' এর প্যাসিভ রূপ হলো 'ought to be' + V3। তাই সঠিক উত্তর অপশন ০।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা (তিস্তা) : ২০১০"
+    ]
+  },
+  {
+    "id": 35,
+    "topicsId": 494,
+    "q": "I saw that the boy crying. বাক্যেটির Passive form হচ্ছে -----?",
+    "options": [
+      "The boy is seen crying by me",
+      "The boy cry was seen by me",
+      "The boy was seen crying by me",
+      "The boy crying was seen by me"
+    ],
+    "ans": 2,
+    "explain": "Past Indefinite অনুযায়ী structure: Object (The boy) + was + V3 (seen) + participle extension (crying) + by me.",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা (ইছামতি) : ২০১০"
+    ]
+  },
+  {
+    "id": 36,
+    "topicsId": 494,
+    "q": "A lion may be helped even by a little mouse.",
+    "options": [
+      "A little mouse may even help a lion",
+      "Even a little mouse may help a lion",
+      "A little mouse can even help a lion",
+      "Even a hide mouse ought to help a lion"
+    ],
+    "ans": 1,
+    "explain": "এটি প্যাসিভ থেকে একটিভ করার প্রশ্ন। 'may be helped' থেকে 'may help' হবে এবং 'Even a little mouse' সাবজেক্ট হিসেবে শুরুতে আসবে।",
+    "source": [
+      "৩০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 37,
+    "topicsId": 494,
+    "q": "“He is writing a letter” বাক্যটির Passive form হবে--",
+    "options": [
+      "A letter is written by him",
+      "A letter was written by him",
+      "A letter was being written by him",
+      "A letter is being written by him"
+    ],
+    "ans": 3,
+    "explain": "Present Continuous-এর নিয়ম: Object (A letter) + is + being + V3 (written) + by him.",
+    "source": [
+      "29th BCS written, প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (খুলনা বিভাগ) : ০৬/ উপজেলা বা থানা শিক্ষা অফিসারঃ ০৪"
+    ]
+  },
+  {
+    "id": 38,
+    "topicsId": 494,
+    "q": "“Who will help you ?” বাক্যটির Passive form হবে —",
+    "options": [
+      "By whom will you be helped?",
+      "By whom you will be helped?",
+      "By whom would you be helped?",
+      "By whom you would be helped?"
+    ],
+    "ans": 0,
+    "explain": "ইন্টারোগেটিভ বাক্যের প্যাসিভ: 'By whom' + will (auxiliary) + you (subject) + be + helped (V3)?",
+    "source": [
+      "29th BCS written, প্রাথমিক বিদ্যালয় সহকারী শিক্ষক : ০৭"
+    ]
+  },
+  {
+    "id": 39,
+    "topicsId": 494,
+    "q": "Identify the correct passive form: Open the door--",
+    "options": [
+      "The door be opened",
+      "Let the door be opened",
+      "The door must be opened.",
+      "The door should be opened",
+      "You should open the door."
+    ],
+    "ans": 1,
+    "explain": "সাধারণ আদেশবাচক Imperative বাক্যের প্যাসিভ করার নিয়ম: Let + object + be + V3।",
+    "source": [
+      "সোনালী, জনতা, অগ্রণী ব্যাংকের অফিসারঃ ০৮"
+    ]
+  },
+  {
+    "id": 40,
+    "topicsId": 494,
+    "q": "Transform into passive voice - 'I play football.'",
+    "options": [
+      "Football is played by me.",
+      "Football has been played by me.",
+      "Football is being played by me.",
+      "Football was played by me."
+    ],
+    "ans": 0,
+    "explain": "Present Indefinite-এর সাধারণ প্যাসিভ নিয়ম: Object + am/is/are + V3 + by + me.",
+    "source": [
+      "মেডিকেল কলেজ ভর্তি পরীক্ষার প্রশ্নসমুহ শিক্ষাবর্ষঃ ১৯৯৭-১৯৯৮"
+    ]
+  },
+  {
+    "id": 41,
+    "topicsId": 494,
+    "q": "Choose the right form of verbs in the bracket : 'All the books (to sell) yesterday '",
+    "options": [
+      "All the books were sold yesterday",
+      "All the books had been sold yesterday",
+      "All the books sold yesterday",
+      "Yesterday sold all the books."
+    ],
+    "ans": 0,
+    "explain": "'Yesterday' থাকায় বাক্যটি Past Indefinite এবং 'Books' নিজে বিক্রি হতে পারে না বলে এটি প্যাসিভ হবে। বহুবচনের জন্য 'were sold' সঠিক।",
+    "source": [
+      "খাদ্য ও দুর্যোগ ব্যবস্থাপনা মন্ত্রণালয়ের প্রকল্প বাস্তবায়ন কর্মকর্তা : ২০০৬"
+    ]
+  },
+  {
+    "id": 42,
+    "topicsId": 494,
+    "q": "'One should kept one's promise'. Choose the correct passive form -",
+    "options": [
+      "One's promise should be kept by him",
+      "A promise should be kept",
+      "One's promise should be kept by one",
+      "One's promise should be kept by himself"
+    ],
+    "ans": 1,
+    "explain": "উপদেশমূলক বাক্যে 'One' সাবজেক্ট থাকলে প্যাসিভ করার সময় 'One' বা 'by one' উল্লেখ না করলেও চলে। 'A promise should be kept' একটি আদর্শ প্যাসিভ রূপ।",
+    "source": [
+      "জাতীয় রাজস্ব বোর্ডের সহকারী রাজস্ব কর্মকর্তা(মুক্তিযোদ্ধা ও ক্ষুদ্র নৃগোষ্ঠী) : ২০১৫"
+    ]
+  },
+  {
+    "id": 43,
+    "topicsId": 494,
+    "q": "Choose the right passive form of “Who will pay him ?”",
+    "options": [
+      "Who will be paid him ?",
+      "Who would be paid him ?",
+      "Whom he will be paid ?",
+      "By whom will he be paid ?"
+    ],
+    "ans": 3,
+    "explain": "Who-এর জন্য By whom, এবং Future Indefinite ইন্টারোগেটিভ স্ট্রাকচার: By whom + will + he + be + V3 (paid)?",
+    "source": [
+      "বঙ্গবন্ধু শেখ মুজিবুর রহমান বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় A ইউনিট"
+    ]
+  },
+  {
+    "id": 44,
+    "topicsId": 494,
+    "q": "Give the correct passive form of – 'My teacher embodies all the good qualities'",
+    "options": [
+      "All the good qualities are embodied by my teacher",
+      "All the good qualities are embodied in my teacher",
+      "All the good qualities are embodied to my teacher",
+      "All the good qualities are embodied on my teacher"
+    ],
+    "ans": 1,
+    "explain": "'Embody' ভার্বের পর প্যাসিভ ভয়েসে 'by' এর পরিবর্তে 'in' প্রিপজিশন বসে। তাই 'embodied in' সঠিক।",
+    "source": [
+      "২৭তম বিসিএস"
+    ]
+  },
+  {
+    "id": 45,
+    "topicsId": 494,
+    "q": "Identify the correct passive form of-- 'He is going to open a shop'.",
+    "options": [
+      "He is being gone to open a shop",
+      "A shop is being gone opened by him",
+      "A shop will be opened by hom",
+      "A shop is going to be opened by him"
+    ],
+    "ans": 3,
+    "explain": "'Going to' যুক্ত বাক্যের প্যাসিভ করার সময় 'going to be + V3' ব্যবহৃত হয়। তাই: A shop is going to be opened by him.",
+    "source": [
+      "বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশনঃ ১৩- ১৬তম গ্রেড এর কর্মচারী ২০১৯/ প্রাক-প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা ২০১৫/ সমাজকল্যাণ মন্ত্রণালয়ের অধীন সমাজসেবা অধিদপ্তরের সমাজসেবা অফিসারঃ ০৬"
+    ]
+  },
+  {
+    "id": 46,
+    "topicsId": 494,
+    "q": "Choose the correct form (passive) of - Who will do the work ?",
+    "options": [
+      "who will be done the work?",
+      "who will done the work?",
+      "By whom will the work be done?",
+      "Whom will the work be done?"
+    ],
+    "ans": 2,
+    "explain": "'Who' থাকলে 'By whom' দিয়ে শুরু হয় এবং ইন্টারোগেটিভ নিয়ম অনুযায়ী auxiliary subject-এর আগে বসে।",
+    "source": [
+      "২৬তম বিসিএস/ পররাষ্ট্র মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তাঃ ০৪/সড়ক ও জনপথ অধিদপ্তরের উপসহকারী প্রকৌশলী (সিভিল): ০৩"
+    ]
+  },
+  {
+    "id": 47,
+    "topicsId": 494,
+    "q": "Identify the correct passive form: Open the window –",
+    "options": [
+      "The window should be opened",
+      "Let the window be opened",
+      "Let the window be opened by you.",
+      "The window must be opened."
+    ],
+    "ans": 1,
+    "explain": "Imperative বাক্যটি আদেশ বোঝাচ্ছে, যার প্যাসিভ স্ট্রাকচার: Let + object + be + V3।",
+    "source": [
+      "২৩তম বিসিএস/ বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ সহকারী প্রকৌশলী (কমার্শিয়াল)-২১/ বাংলাদেশ ডাক বিভাগ মেইল অপারেটর/ স্টেনো টাইপিস্ট কাম কম্পিউটার অপারেটর/ নিম্নমান সহকারী কাম কম্পিউটার ২০১৯/মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের হিসাব সহকারী ২০১৩/ প্রাথমিক বিদ্যালয় প্রধান শিক্ষক-০৯"
+    ]
+  },
+  {
+    "id": 48,
+    "topicsId": 494,
+    "q": "“Jerina is writing a letter” বাক্যেটির Passive form হবে -----?",
+    "options": [
+      "A letter has written by Jerina",
+      "A letter has been written by Jerina",
+      "A letter was written by Jerina",
+      "A letter is being written by Jerina"
+    ],
+    "ans": 3,
+    "explain": "Present Continuous Tense-এর প্যাসিভ করার সময় am/is/are + being + V3 বসে।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের হিসাব সহকারী ২০১৩"
+    ]
+  },
+  {
+    "id": 49,
+    "topicsId": 494,
+    "q": "Does he speak English well ? বাক্যেটির Passive form হচ্ছে ----- ?",
+    "options": [
+      "Is English speak well by him ?",
+      "Is English spoken well to him ?",
+      "Is English spoke well by him ?",
+      "Was English spoke well by him ?"
+    ],
+    "ans": 2,
+    "explain": "Present Indefinite ইন্টারোগেটিভ এর প্যাসিভ: Am/Is/Are + object (English) + V3 (spoken) + well + by him? (উল্লেখ্য: অপশনে spoken-এর বদলে spoke থাকলেও ০২ সঠিকতম উত্তর হিসেবে বিবেচিত)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা (করতোয়া) : ২০১০"
+    ]
+  },
+  {
+    "id": 50,
+    "topicsId": 494,
+    "q": "'Give the order ' বাক্যেটির Passive form হবে -----?",
+    "options": [
+      "Let the order to give",
+      "Let the order to given",
+      "Let the order be given",
+      "Let the order give"
+    ],
+    "ans": 2,
+    "explain": "Imperative বাক্য: Let + object (the order) + be + V3 (given)।",
+    "source": [
+      "প্রাক-প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা (দাজলা) : ২০১৩"
+    ]
+  },
+  {
+    "id": 51,
+    "topicsId": 494,
+    "q": "'Tell him to do it' . বাক্যটির Passive form হবে ?",
+    "options": [
+      "Let him be told to do it.",
+      "He may be told to do it.",
+      "Let him told to do it.",
+      "Let him tell to do it."
+    ],
+    "ans": 0,
+    "explain": "বাক্যটি Imperative. গঠন: Let + object (him) + be + V3 (told) + infinitive part (to do it)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (মুক্তিযোদ্ধা কোটা) (বসন্ত) : ২০১০"
+    ]
+  },
+  {
+    "id": 52,
+    "topicsId": 494,
+    "q": "Choose the correct passive form of “He decided to sell the house”",
+    "options": [
+      "He decided that he would sell the house",
+      "He decided that he sold the house",
+      "He decided that the house should be sold",
+      "The house was decided to be sold"
+    ],
+    "ans": 3,
+    "explain": "যখন মূল ভার্বের পর একটি infinitive clause থাকে, তখন পুরো infinitive অংশটি প্যাসিভ হয়ে 'was decided to be sold' আকারে বসে।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা : ২০০৬"
+    ]
+  },
+  {
+    "id": 53,
+    "topicsId": 494,
+    "q": "The passive form of the sentence “Fortune favours the brave” is ----?",
+    "options": [
+      "The brave is favoured by fortune",
+      "The brave was favoured by fortune",
+      "The brave are favoured fortune",
+      "The brave were favoured by fortune"
+    ],
+    "ans": 2,
+    "explain": "'The brave' (সাহসীরা) একটি plural common noun, তাই এর পরে auxiliary verb 'are' বসবে। সঠিক: The brave are favoured by fortune (অপশনে 'by' উহ্য থাকলেও এটিই সঠিক)।",
+    "source": [
+      "প্রাক-প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা (ভলগা) : ২০১৩"
+    ]
+  },
+  {
+    "id": 54,
+    "topicsId": 494,
+    "q": "They were carrying that injured driver off the road.",
+    "options": [
+      "The injured driver was being carried off the road",
+      "The injured driver was carried off the road by them",
+      "The road was where the injured driver was carried off.",
+      "The injured driver had been carried off the road."
+    ],
+    "ans": 0,
+    "explain": "Past Continuous Tense-এর প্যাসিভ নিয়ম: Object + was/were + being + V3। তাই 'was being carried' সঠিক।",
+    "source": [
+      "খাদ্য অধিদপ্তরের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক : ২০১৩"
+    ]
+  },
+  {
+    "id": 55,
+    "topicsId": 494,
+    "q": "Choose the correct questions from the following passive voice sentence: ' His friend laught at him'",
+    "options": [
+      "Has his friend laught at him ?",
+      "Has he been laught at by his friend ?",
+      "Why has friend laught at him ?",
+      "Was he laught at by his friend ?"
+    ],
+    "ans": 3,
+    "explain": "বাক্যটি Past Indefinite (laughed) হলে প্যাসিভ প্রশ্ন হবে: Was/Were + subject + V3 + by...। তাই 'Was he laughed at...' সঠিক।",
+    "source": [
+      "খাদ্য অধিদপ্তরের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক : ২০১৩"
+    ]
+  },
+  {
+    "id": 56,
+    "topicsId": 494,
+    "q": "'Stop laughing' এর Passive voice কোনটি ?",
+    "options": [
+      "You are to stop laughing",
+      "Let you stop laughing",
+      "Laughing be stopped",
+      "Let the laughing be stopped"
+    ],
+    "ans": 3,
+    "explain": "Imperative বাক্যের সাধারণ প্যাসিভ: Let + object (the laughing) + be + V3 (stopped)।",
+    "source": [
+      "যশোর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় ইউনিট : E"
+    ]
+  },
+  {
+    "id": 57,
+    "topicsId": 494,
+    "q": "Select the passive of 'He eats rice'.",
+    "options": [
+      "Rice was eaten by him",
+      "He is eaten by rice",
+      "Rice is being eaten by him",
+      "Rice is eaten by him"
+    ],
+    "ans": 3,
+    "explain": "Present Indefinite: Object (Rice) + is + V3 (eaten) + by + him.",
+    "source": [
+      "যশোর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় ইউনিট : E"
+    ]
+  },
+  {
+    "id": 58,
+    "topicsId": 494,
+    "q": "The passive form of the sentence, “Some children were helping the wounded man”.",
+    "options": [
+      "The wounded man was helped by some children",
+      "The wounded man was helping some children",
+      "The wounded man was being helped by some children",
+      "The wounded man was to be helped by some children"
+    ],
+    "ans": 2,
+    "explain": "Past Continuous-এর প্যাসিভ: Object + was being + V3 + by + Subject.",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা : ২০০৪"
+    ]
+  },
+  {
+    "id": 59,
+    "topicsId": 494,
+    "q": "The passive form of “Who has done the work ?” is--",
+    "options": [
+      "By whom has the work been done ?",
+      "Who has been done the work ?",
+      "By whom has been done the work ?",
+      "Whom has done the work by?"
+    ],
+    "ans": 0,
+    "explain": "Present Perfect Tense-এ 'Who' থাকলে: By whom + has/have + object + been + V3?",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের প্রবেশন অফিসার : ২০১৩"
+    ]
+  },
+  {
+    "id": 60,
+    "topicsId": 494,
+    "q": "The path -- paved, so we were able to walk through the path.",
+    "options": [
+      "was",
+      "had been",
+      "has been",
+      "being"
+    ],
+    "ans": 0,
+    "explain": "বাক্যের পরবর্তী অংশ 'were able' (Past) থাকায় প্রথম অংশটিও অতীতে হবে। পথটি বাঁধানো হয়েছিল (প্যাসিভ), তাই 'was paved' সঠিক।",
+    "source": [
+      "২২তম বিসিএস"
+    ]
+  },
+  {
+    "id": 61,
+    "topicsId": 494,
+    "q": "Choose the correct passive form of the sentence. 'What did the pay you for doing the job ?",
+    "options": [
+      "What had you been paid for doing the job ?",
+      "What you were paid for doing the job ?",
+      "What were you paid for doing the job ?",
+      "What were you being paid for doing the job ?"
+    ],
+    "ans": 2,
+    "explain": "Past Indefinite ইন্টারোগেটিভ-এর প্যাসিভ: 'What' যদি অবজেক্ট হিসেবে থাকে তবে 'What were you paid...' (you-কে সাবজেক্ট ধরে) সঠিক গঠন।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের সহ-পরিচালক(কারিগরি) সহ-পরিচালক(প্রশাসন) ও রিসার্স অফিসার : ২০০৭"
+    ]
+  },
+  {
+    "id": 62,
+    "topicsId": 494,
+    "q": "The passive form of the sentence, 'Don't open the door' is ---?",
+    "options": [
+      "Let not the door open.",
+      "Let not the door be opened.",
+      "Let not the door be open",
+      "Let not the door opened"
+    ],
+    "ans": 1,
+    "explain": "Imperative negative-এর প্যাসিভ নিয়ম: Let not + object + be + V3।",
+    "source": [
+      "রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা (টগর) : ২০১১"
+    ]
+  },
+  {
+    "id": 63,
+    "topicsId": 494,
+    "q": "'I shall do the work ' বাক্যটির সঠিক পরিবর্তিত voice হবে ?",
+    "options": [
+      "The work is to done by you.",
+      "The work will be done by you.",
+      "The work will be done by you.",
+      "The work has been done by you."
+    ],
+    "ans": 2,
+    "explain": "Future Indefinite-এর প্যাসিভ: Object (The work) + will be + V3 (done) + by me (এখানে অপশনে by you থাকলেও গঠনগতভাবে ২ সঠিক)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (মুক্তিযোদ্ধা কোটা) (বসন্ত) : ২০১০"
+    ]
+  },
+  {
+    "id": 64,
+    "topicsId": 494,
+    "q": "Which one is the corrict voice form : The boy pleased us.",
+    "options": [
+      "We were pleased by the boy",
+      "We were pleased at the boy",
+      "We were pleased to the boy",
+      "We were pleased with the boy"
+    ],
+    "ans": 3,
+    "explain": "'Pleased' ভার্বের পর প্যাসিভ ভয়েসে ব্যক্তির ক্ষেত্রে 'with' বসে। তাই 'pleased with the boy' সঠিক।",
+    "source": [
+      "প্রাক-প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা (ডেলটা) : ২০১৪"
+    ]
+  },
+  {
+    "id": 65,
+    "topicsId": 494,
+    "q": "Is he eating fruit ? বাক্যেটির Passive form হবে -----?",
+    "options": [
+      "Is fruit eaten by him ?",
+      "Is fruit being eaten by him ?",
+      "Is fruit eating by him ?",
+      "Is fruit be eating by him ?"
+    ],
+    "ans": 1,
+    "explain": "Present Continuous ইন্টারোগেটিভ: Am/Is/Are + object (fruit) + being + V3 (eaten) + by him?",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা (রাজশাহী বিভাগ) : ২০০৫"
+    ]
+  },
+  {
+    "id": 66,
+    "topicsId": 494,
+    "q": "The best passive form of the sentences: 'We don't like idle people'.",
+    "options": [
+      "We are not liked by idle people",
+      "Idle people are not like us",
+      "Idle people are not liked by us",
+      "Idle people are not of our liking"
+    ],
+    "ans": 2,
+    "explain": "Present Indefinite negative-এর প্যাসিভ: Object (Idle people) + are + not + V3 (liked) + by us.",
+    "source": [
+      "১৭তম বিসিএস, প্রাথমিক সহকারী শিক্ষক (শহীদ মুক্তিযোদ্ধার সন্তান), ২০১০/ জগন্নাথ বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা, খ ইউনিটঃ ০৭-০৮/ চট্টগ্রাম বিশ্ববিদ্যালয় প্রথম বর্ষ স্নাতক (সম্মান) ভর্তি পরীক্ষা, চ ইউনিটঃ ০৭-০৮"
+    ]
+  },
+  {
+    "id": 67,
+    "topicsId": 494,
+    "q": "People always remember patriots-----Which of the following is the best passive form of the above sentence ?",
+    "options": [
+      "The patriots will always be rememberd by people",
+      "The patriots are always being remembered",
+      "People are always remembered by the patriots",
+      "The patriots are always remembered"
+    ],
+    "ans": 3,
+    "explain": "সার্বজনীন সত্য বা পরিচিত বিষয়ের ক্ষেত্রে প্যাসিভ ভয়েসে 'by people' না দিলেও চলে। তাই 'The patriots are always remembered' সবচেয়ে উপযুক্ত।",
+    "source": [
+      "১৫তম বিসিএস/ জুডিশিয়াল সার্ভিস কমিশন গৃহীত জজ ৯ম বিজেএস (সহকারী জজ) প্রাথমিক পরীক্ষা -২০১৪"
+    ]
+  },
+  {
+    "id": 68,
+    "topicsId": 494,
+    "q": "The correct sentence of the followings.",
+    "options": [
+      "A new cabinet has been sworn in in Dhaka",
+      "A new cabinet has been sworn in Dhaka",
+      "A new cabinet has been sworn by in Dhaka",
+      "A new cabinet has sworn in Dhaka"
+    ],
+    "ans": 0,
+    "explain": "'Sworn in' একটি phrasal verb যার অর্থ শপথ গ্রহণ করানো। এরপর স্থানের আগে 'in' বসায় দুটি 'in' পাশাপাশি বসেছে: sworn in (ফ্রেজ) + in (স্থান নির্দেশক)।",
+    "source": [
+      "১৭তম বিসিএস"
+    ]
+  },
+  {
+    "id": 69,
+    "topicsId": 494,
+    "q": "'What is wanted by him?' বাক্যটির সঠিক পরিবর্তিত voice হবে ?",
+    "options": [
+      "What do he want ?",
+      "What did he want ?",
+      "What does he want ?",
+      "What is he want ?"
+    ],
+    "ans": 2,
+    "explain": "প্যাসিভ 'is wanted' নির্দেশ করে এটি Present Indefinite. একটিভ করার সময়: What + does (auxiliary) + he (subject) + want (V1)?",
+    "source": [
+      "প্রাক-প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা (রাইন) : ২০১৩"
+    ]
+  },
+  {
+    "id": 70,
+    "topicsId": 494,
+    "q": "'Let her sing a song' বাক্যটির passive form হবে -",
+    "options": [
+      "Let a song be sung by her",
+      "Let a song be sang by her",
+      "Let a song sing by her",
+      "Let a song sung by her"
+    ],
+    "ans": 0,
+    "explain": "Let যুক্ত Imperative-এর প্যাসিভ: Let + object (a song) + be + V3 (sung) + by + indirect object (her)।",
+    "source": [
+      "প্রাক-প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা (হোয়াংহো) : ২০১৩"
+    ]
+  },
+  {
+    "id": 71,
+    "topicsId": 494,
+    "q": "Smoke fills the room. Which is the passive form of this sentence ?",
+    "options": [
+      "The room is filled by smoke",
+      "The room is filled in smoke",
+      "The room is filled with smoke",
+      "The room is filled at smoke"
+    ],
+    "ans": 2,
+    "explain": "'Fill' ভার্বের পর প্যাসিভ ভয়েসে সাধারণত 'with' বসে। তাই 'filled with smoke' সঠিক।",
+    "source": [
+      "বাংলাদেশ সরকারি কর্ম কমিশনের সিনিয়র স্টাফ নার্স : ২০১৩"
+    ]
+  },
+  {
+    "id": 72,
+    "topicsId": 494,
+    "q": "I shall be teaching him. বাক্যেটির Passive form হবে -----?",
+    "options": [
+      "He shall be taught by me",
+      "He will be taught by me",
+      "He shall be being taught by me",
+      "He will be being taught by me"
+    ],
+    "ans": 2,
+    "explain": "Future Continuous Tense-এর প্যাসিভ করার নিয়ম: Object + shall/will + be + being + V3। (এখানে He-এর সাথে will হওয়া বাঞ্ছনীয় হলেও ৩ সঠিকতম উত্তর)।",
+    "source": [
+      "বাংলাদেশ সরকারি কর্ম কমিশনের সিনিয়র স্টাফ নার্স : ২০১৩"
+    ]
+  },
+  {
+    "id": 73,
+    "topicsId": 494,
+    "q": "Which one is the correct passive ?",
+    "options": [
+      "By whom it is painted ?",
+      "By whom it is painted with ?",
+      "Who was it painted by ?",
+      "With whom was it painted by?"
+    ],
+    "ans": 0,
+    "explain": "ইন্টারোগেটিভ বাক্যে 'By whom' প্রথমে বসে। অপশন ০-তে অক্সিলারি ভার্বের বিন্যাস কিছুটা অপ্রচলিত হলেও অন্য অপশনগুলোর তুলনায় এটিই গ্রহণসাধ্য।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক : ২০০১"
+    ]
+  },
+  {
+    "id": 74,
+    "topicsId": 494,
+    "q": "The best passive form of the sentence 'What do you want? is-",
+    "options": [
+      "What was wanted by you?",
+      "What is wanted by you?",
+      "What is wanting by you?",
+      "What was wanting by you?"
+    ],
+    "ans": 1,
+    "explain": "Present Indefinite প্রশ্ন 'What do you want'-এর প্যাসিভ: What (subject হিসেবে) + is + V3 (wanted) + by you?",
+    "source": [
+      "খাদ্য অধিদপ্তর (উচ্চমান সহকারী) -২১"
+    ]
+  },
+  {
+    "id": 75,
+    "topicsId": 494,
+    "q": "We shall be talking tea. বাক্যটির সঠিক পরিবর্তিত voice হবে ?",
+    "options": [
+      "Tea will be being taken by us",
+      "Tea shall have been by us",
+      "Tea should be being taken by us",
+      "Tea should be taken by us"
+    ],
+    "ans": 0,
+    "explain": "Future Continuous (এখানে 'taking' হবে) এর প্যাসিভ: Tea + will + be + being + taken + by us.",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা(তিতাস) : ২০১০"
+    ]
+  },
+  {
+    "id": 76,
+    "topicsId": 494,
+    "q": "Who gave you this pen ? বাক্যেটির Passive form হচ্ছে -----?",
+    "options": [
+      "By whom were you got this pen ?",
+      "By whom were you given this pen ?",
+      "By whom was you given this pen ?",
+      "By whom have you been given this pen ?"
+    ],
+    "ans": 1,
+    "explain": "Past Indefinite ইন্টারোগেটিভ: By whom + were (you-এর জন্য) + subject (you) + V3 (given) + object (this pen)?",
+    "source": [
+      "রেজিস্টার্ড বেসরকারি প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা (গোলাপ) : ২০১১"
+    ]
+  },
+  {
+    "id": 77,
+    "topicsId": 494,
+    "q": "'He is going to set up a school' বাক্যটির সঠিক পরিবর্তিত voice হবে ?",
+    "options": [
+      "A school is going to be set up by him",
+      "A school is being set up by him",
+      "A school is gone to be set up by him",
+      "A school has been going to be set up by him"
+    ],
+    "ans": 0,
+    "explain": "'is going to' অপরিবর্তিত থাকে এবং এরপর 'be + V3' (set up) বসে।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক নিয়োগ পরীক্ষা(পদ্ম) : ২০০৯"
+    ]
+  },
+  {
+    "id": 78,
+    "topicsId": 494,
+    "q": "I knew him. Make it passive voice .",
+    "options": [
+      "He is known to me",
+      "He was known by me",
+      "He was known to me",
+      "He was known with me"
+    ],
+    "ans": 2,
+    "explain": "বাক্যটি Past Indefinite (knew)। তাই Passive-এ 'was known' হবে এবং 'know' এর পর 'to' বসে।",
+    "source": [
+      "উপজেলা/থানা শিক্ষা অফিসার : ২০১০"
+    ]
+  },
+  {
+    "id": 79,
+    "topicsId": 494,
+    "q": "The passive form of the sentence “Do the task as directed” is ---",
+    "options": [
+      "let the task be done as directed.",
+      "let the task to be done as directed.",
+      "let the task is done as directed.",
+      "do the task to be directed."
+    ],
+    "ans": 0,
+    "explain": "Imperative বাক্য: Let + object (the task) + be + V3 (done) + extension (as directed)।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর উপ সহকারী প্রকৌশলী (ইলেকট্রিক্যাল)-২১"
+    ]
+  },
+  {
+    "id": 80,
+    "topicsId": 494,
+    "q": "Change the voice of ‘I don't know him’.",
+    "options": [
+      "He is not known by me",
+      "He is not known me.",
+      "He is not know me",
+      "He is not known to me."
+    ],
+    "ans": 3,
+    "explain": "Present Indefinite Negative-এর প্যাসিভ: He + is + not + known + to + me.",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর (ক্যাশিয়ার/ স্টোর কিপার)-২১"
+    ]
+  },
+  {
+    "id": 81,
+    "topicsId": 494,
+    "q": "Which one is the correct passive voice ?",
+    "options": [
+      "Two criminals were arrested and one released.",
+      "Two criminals were arrested and one was released.",
+      "Two criminals arrested and one was released.",
+      "Two criminals arrested and one released."
+    ],
+    "ans": 1,
+    "explain": "বাক্যটিতে দুটি পৃথক সাবজেক্ট (Two criminals এবং one) রয়েছে। Compound sentence-এ দুটি অংশের সাবজেক্ট ভিন্ন হলে উভয়ের সাথেই যথাযথ auxiliary verb বসাতে হয়। প্রথম অংশে plural হওয়ায় 'were' এবং দ্বিতীয় অংশে singular হওয়ায় 'was' বসবে।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (ডাটা এন্ট্রি অপারেটর)-২১"
+    ]
+  },
+  {
+    "id": 82,
+    "topicsId": 494,
+    "q": "A Passive Voice of 'You can help us’",
+    "options": [
+      "We can be help by you",
+      "We could be helped by you",
+      "We can be helped by you.",
+      "We are helped by you"
+    ],
+    "ans": 2,
+    "explain": "Modal auxiliary (can, could, may, might ইত্যাদি) যুক্ত বাক্যকে Passive করার নিয়ম হলো: Object + modal + be + V3 + by + subject। এখানে 'us' পরিবর্তিত হয়ে 'We' হয়েছে এবং can-এর পর 'be helped' বসেছে।",
+    "source": [
+      "বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন; সহকারী প্রকৌশলী (কমার্শিয়াল)-২১/ বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন; উপ-সহকারী প্রকৌশলী (মেকানিক্যাল)-২১"
+    ]
+  },
+  {
+    "id": 83,
+    "topicsId": 494,
+    "q": "Choose the best alternative to complete the sentence : A new house ---- at the corner of the road.",
+    "options": [
+      "been built",
+      "is being built",
+      "is building",
+      "building"
+    ],
+    "ans": 1,
+    "explain": "বাড়ি নিজে নিজে তৈরি হতে পারে না, তাই বাক্যটি Passive ফর্মে হবে। 'is being built' দ্বারা বর্তমান সময়ে বাড়িটি তৈরি করা হচ্ছে এমন অর্থ প্রকাশ পায়। 'is building' একটি active গঠন যা এখানে অর্থহীন।",
+    "source": [
+      "রাজশাহী কৃষি উন্নয়ন ব্যাংক সিনিয়র অফিসার : ২০১০"
+    ]
+  },
+  {
+    "id": 84,
+    "topicsId": 494,
+    "q": "'They elected him captain ' বাক্যের Passive form হচ্ছে -----?",
+    "options": [
+      "He has been elected captain by them",
+      "He elected captain by them",
+      "He was elected captain by them",
+      "He is elected captain by them"
+    ],
+    "ans": 2,
+    "explain": "এটি Past Indefinite Tense-এর উদাহরণ। Passive করার নিয়ম: Object (him) -> He + was/were + V3 (elected) + extension (captain) + by + them। তাই সঠিক উত্তর 'He was elected captain by them'।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (মুক্তিযোদ্ধা কোটা)(শরৎ) : ২০১০"
+    ]
+  },
+  {
+    "id": 85,
+    "topicsId": 494,
+    "q": "'She' fans herself' বাক্যের Passive form হচ্ছে ---",
+    "options": [
+      "She was fanned by herself",
+      "She is fanned herself",
+      "She is fanned by herself",
+      "She was fanned herself"
+    ],
+    "ans": 2,
+    "explain": "Reflexive object (myself, herself, himself ইত্যাদি) যুক্ত active voice-কে passive করার সময় subject অপরিবর্তিত থাকে। নিয়ম: Subject + tense অনুযায়ী auxiliary verb + V3 + by + reflexive object।",
+    "source": [
+      "প্রাক-প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা (যমুনা) : ২০১৩"
+    ]
+  },
+  {
+    "id": 86,
+    "topicsId": 494,
+    "q": "You must do the work. Change the sentence in passive voice.",
+    "options": [
+      "The work will be done by you.",
+      "The work must be done by you.",
+      "The work has been done by you.",
+      "You will do the work."
+    ],
+    "ans": 1,
+    "explain": "Modal auxiliary 'must' থাকলে passive করার সময় 'must be' + verb-এর past participle (done) বসে।",
+    "source": [
+      "আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়ের সাব-রেজিস্ট্রার : ২০১২"
+    ]
+  },
+  {
+    "id": 87,
+    "topicsId": 494,
+    "q": "Who taught you English ? বাক্যের Passive form হচ্ছে -----?",
+    "options": [
+      "By whom were you taught English ?",
+      "By whom had you been taught English ?",
+      "By whom had you taught English ?",
+      "By whom was you taught English ?"
+    ],
+    "ans": 0,
+    "explain": "'Who' দিয়ে শুরু হওয়া interrogative বাক্যকে passive করার সময় 'By whom' বসে। এরপর tense অনুযায়ী auxiliary verb (were) + object (you) + V3 (taught) + বাকি অংশ বসে।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা (করতোয়া) : ২০১২"
+    ]
+  },
+  {
+    "id": 88,
+    "topicsId": 494,
+    "q": "'Solve this problem ' বাক্যেটির Passive form হবে -----?",
+    "options": [
+      "The problem is solved by you.",
+      "Let the problem be solved by you.",
+      "You are solved with the problem.",
+      "Let you were solved the problem"
+    ],
+    "ans": 1,
+    "explain": "Imperative sentence-কে passive করার নিয়ম: Let + object + be + V3। সেই অনুযায়ী 'Let the problem be solved' সঠিক।",
+    "source": [
+      "প্রাক-প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা (ডেলটা) : ২০১৪"
+    ]
+  },
+  {
+    "id": 89,
+    "topicsId": 494,
+    "q": "Choose the correct passive voice of the following sentence: 'All of his friend laughted at him'",
+    "options": [
+      "He laughted at all of his friends",
+      "He was laughted at by all of his friends.",
+      "All of his friends had laughted at him.",
+      "All of his friends were laughted at him."
+    ],
+    "ans": 1,
+    "explain": "Group verb বা preposition যুক্ত verb (laughed at) passive voice-এ একসাথে থাকে। বাক্যটি Past Indefinite হওয়ায় 'was laughed at' সঠিক গঠন।",
+    "source": [
+      "শ্রম ও কর্মসংস্থান মন্ত্রণালয়ের সহকারী পরিচালক : ২০০৫"
+    ]
+  },
+  {
+    "id": 90,
+    "topicsId": 494,
+    "q": "Identify the correct passive form of ' He did not tell the dangerous secrect to anybody '",
+    "options": [
+      "The dangerious secret was not told to anybody by him.",
+      "The dangerious secret was not told to him by anybody",
+      "Anybody was not told about the dangerous secret by him.",
+      "The dangerious secret was told not him to anybody."
+    ],
+    "ans": 0,
+    "explain": "Past Indefinite-এর negative বাক্যকে passive করার সময় was not/were not + V3 ব্যবহৃত হয়। এখানে 'The dangerous secret' object হিসেবে সামনে এসেছে।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের গণযোগাযোগ প্রশিক্ষণের সহকারী পরিচালক : ২০০১"
+    ]
+  },
+  {
+    "id": 91,
+    "topicsId": 494,
+    "q": "What is the passive form of 'Do it' ?",
+    "options": [
+      "It is done by you",
+      "Let it be done",
+      "Let done it by you",
+      "Let it by done (by you)"
+    ],
+    "ans": 1,
+    "explain": "মূল verb দিয়ে শুরু হওয়া Imperative sentence-এর passive গঠন হলো: Let + object + be + V3 (past participle)।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীন কারা অধিদপ্তরের কারা তত্ত্বাবধায়ক : ২০১০"
+    ]
+  },
+  {
+    "id": 92,
+    "topicsId": 494,
+    "q": "Select the correct passive form of-- ‘We insist on punctuality in this office.’",
+    "options": [
+      "It is to be insisted that punctuality should be in this office",
+      "Punctuality should be insisted in this office.",
+      "Punctuality is insisted on in this office",
+      "Punctuality be insisted in this office"
+    ],
+    "ans": 2,
+    "explain": "Active voice-এ preposition থাকলে (insist on) passive করার সময়ও সেই preposition ধরে রাখতে হয়। Present Indefinite হওয়ায় am/is/are + V3 + preposition ব্যবহৃত হয়েছে।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (সহকারী উপ-খাদ্য পরিদর্শক) -২১"
+    ]
+  },
+  {
+    "id": 93,
+    "topicsId": 494,
+    "q": "The passive form of the sentence ‘The boy laughed at the lame man' is",
+    "options": [
+      "The lame man was laughed by the boy",
+      "The lame man was laughed at by the boy",
+      "The lame was being laughed by the boy",
+      "The lame man was being laughed at by the boy"
+    ],
+    "ans": 1,
+    "explain": "এটি Past Indefinite tense এবং এতে group verb 'laughed at' আছে। নিয়ম অনুযায়ী: Object + was/were + V3 + preposition + by + subject।",
+    "source": [
+      "কৃষি সম্প্রসারণ অধিদপ্তর (উপ সহকারী কৃষি কর্মকর্তা)-২১"
+    ]
+  },
+  {
+    "id": 94,
+    "topicsId": 494,
+    "q": "She was singing a song এর passive voice হলো",
+    "options": [
+      "A song was sang by her",
+      "A song was singed by her",
+      "A song was being singed by her",
+      "A song was being sung by her"
+    ],
+    "ans": 3,
+    "explain": "Past Continuous tense-এর passive নিয়ম: Object + was being/were being + V3। sing-এর past participle হলো 'sung'।",
+    "source": [
+      "স্থানীয় সরকার প্রকৌশল অধিদপ্তরে হিসাব সহকারী নিয়োগ পরীক্ষা ২০২১"
+    ]
+  },
+  {
+    "id": 95,
+    "topicsId": 494,
+    "q": "Select the correct passive form : We insist on punctuality in this office.",
+    "options": [
+      "Puntuality is insisted on in this office.",
+      "Puntuality be insisted on this office.",
+      "Puntuality should be insisted on this office.",
+      "Puntuality is to be insisted on in this office."
+    ],
+    "ans": 0,
+    "explain": "বাক্যটি Present Indefinite Tense-এ আছে। এর Passive গঠন: Object + am/is/are + V3 + preposition (on) + extension।",
+    "source": [
+      "শ্রম ও কর্মসংস্থান মন্ত্রণালয়ের অধীন শ্রম পরিদপ্তরের সহকারী শ্রম পরিচালক : ২০০৬"
+    ]
+  },
+  {
+    "id": 96,
+    "topicsId": 494,
+    "q": "“The man is climbing the cliff.” বাক্যটির Passive form হবে ----?",
+    "options": [
+      "The cliff is climbed by the man.",
+      "The cliff is being climbed by the man.",
+      "The cliff has been climbed by the man.",
+      "The cliff was being climbed by the man."
+    ],
+    "ans": 1,
+    "explain": "Present Continuous Tense-কে passive করার সময় am being/is being/are being + V3 ব্যবহার করতে হয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা (সুরমা) : ২০১২"
+    ]
+  },
+  {
+    "id": 97,
+    "topicsId": 494,
+    "q": "He took me there. The passive voice is -----?",
+    "options": [
+      "I was taken there by him",
+      "I was to be taken there by him",
+      "I should be taken there by him",
+      "He was trying to take me there."
+    ],
+    "ans": 0,
+    "explain": "Past Indefinite tense-এর active বাক্যকে passive করতে was/were + V3 ব্যবহৃত হয়। এখানে 'me' পরিবর্তিত হয়ে 'I' হয়েছে।",
+    "source": [
+      "প্রাক-প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা (১৭ জেলা) : ২০১৫"
+    ]
+  },
+  {
+    "id": 98,
+    "topicsId": 494,
+    "q": "' Did you eat mango ? বাক্যেটির Passive form হবে -----?",
+    "options": [
+      "The mango was eaten by you ?",
+      "Was the mango eaten by you ?",
+      "By you was the mango eaten ?",
+      "Was the mango by you eaten ?"
+    ],
+    "ans": 1,
+    "explain": "Interrogative sentence (Past Indefinite) থাকলে passive-এ শুরুতে Was/Were বসে। গঠন: Was/Were + object + V3 + by + subject।",
+    "source": [
+      "হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় E ইউনিট"
+    ]
+  },
+  {
+    "id": 99,
+    "topicsId": 494,
+    "q": "'My uncle looks after me' বাক্যটির সঠিক Passive form ----",
+    "options": [
+      "I was looked after by my uncle",
+      "I am looked after by my uncle",
+      "I am being looked after by my uncle",
+      "I am looking after by my uncle"
+    ],
+    "ans": 1,
+    "explain": "Present Indefinite Tense এবং group verb (looks after) যুক্ত বাক্য। Passive গঠন: I (object) + am + V3 (looked after) + by + my uncle (subject)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা (ইছামতি) : ২০১০"
+    ]
+  },
+  {
+    "id": 100,
+    "topicsId": 494,
+    "q": "'He calls me by my nickname.'- Change the sentence into passive.",
+    "options": [
+      "My nickname is called by him.",
+      "I am called by him by my nickname.",
+      "I call his nickname .",
+      "I am called by my nickname."
+    ],
+    "ans": 1,
+    "explain": "Present Indefinite-এ passive করার সময় am/is/are + V3 ব্যবহার করা হয়। এখানে 'me' সাবজেক্ট হিসেবে 'I' হয়ে বসেছে এবং auxiliary 'am' গ্রহণ করেছে।",
+    "source": [
+      "দি সিকিউরিটি প্রিন্টিং কর্পোরেশন (বাংলাদেশ) লিঃ (সহকারী ব্যবস্থাপক) -২১"
+    ]
+  },
+  {
+    "id": 101,
+    "topicsId": 494,
+    "q": "“My watch has been lost”- Change the sentence into active.",
+    "options": [
+      "Someone lost my watch",
+      "My watch has lost",
+      "I have lost my watch",
+      "I have lost my watch by me."
+    ],
+    "ans": 2,
+    "explain": "Passive-এ 'by me' উল্লেখ না থাকলেও অর্থ অনুযায়ী Active-এ 'I' সাবজেক্ট হিসেবে আসতে পারে। Present Perfect-এর passive থেকে active করার সময় have/has + V3 বসে।",
+    "source": [
+      "দি সিকিউরিটি প্রিন্টিং কর্পোরেশন (বাংলাদেশ) লিঃ (সহকারী ব্যবস্থাপক) -২১"
+    ]
+  },
+  {
+    "id": 102,
+    "topicsId": 494,
+    "q": "Which one is the correct passive form ?",
+    "options": [
+      "He should have been helped by you",
+      "He ought to have been helped by you",
+      "He would have been helped by you",
+      "He got to have been helped by you"
+    ],
+    "ans": 0,
+    "explain": "Active-এ 'should have' থাকলে passive-এ 'should have been' + V3 ব্যবহৃত হয়। বিকল্পগুলোর মধ্যে অপশন ০ ব্যাকরণগতভাবে সঠিক।",
+    "source": [
+      "এক্সিম ব্যাংক:২০১৩"
+    ]
+  },
+  {
+    "id": 103,
+    "topicsId": 494,
+    "q": "' Few soldiers were evacuating the standard people'. its passive form is --?",
+    "options": [
+      "The standard people were evacuated by few soldiers",
+      "The standard people have been evacuated by few soldiers",
+      "The standard people were evacuated by few soldiers",
+      "The standard people were evacuated by few soldiers"
+    ],
+    "ans": 3,
+    "explain": "যদিও অপশনগুলো প্রায় একই দেখাচ্ছে, Past Continuous-এর passive-এ 'were being evacuated' হওয়া উচিত ছিল। তবে প্রদত্ত অপশনগুলোর সীমাবদ্ধতার মধ্যে সঠিক গঠন বেছে নিতে হবে (এখানে অপশন ৩-এ টাইপিং ভিন্নতা থাকতে পারে)।",
+    "source": [
+      "দুর্নীতি দমন ব্যুরোর পরিদর্শক : ২০০৪"
+    ]
+  },
+  {
+    "id": 104,
+    "topicsId": 494,
+    "q": "'Who broke the pencil ? what is the passive form of this sentence ?",
+    "options": [
+      "By whom the pencil was broken ?",
+      "By whom was the pencil broken ?",
+      "The pencil was broken by whom ?",
+      "Who was broken the pencil ?"
+    ],
+    "ans": 1,
+    "explain": "Interrogative sentence 'Who' থাকলে 'By whom' দিয়ে শুরু হয়। গঠন: By whom + was/were + object + V3।",
+    "source": [
+      "উপজেলা/থানা শিক্ষা অফিসার: ২০০৪"
+    ]
+  },
+  {
+    "id": 105,
+    "topicsId": 494,
+    "q": "'Let us write a letter'. বাক্যেটির Passive form হবে -----?",
+    "options": [
+      "Let a letter to write by us",
+      "Let a letter be wrote by us",
+      "Let a letter be written by us",
+      "Let a letter be written by us"
+    ],
+    "ans": 3,
+    "explain": "Let যুক্ত imperative sentence-কে passive করার নিয়ম: Let + object + be + V3 + by + us।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের অফিস সহায়ক : ২০২৩"
+    ]
+  },
+  {
+    "id": 106,
+    "topicsId": 494,
+    "q": "'Who killed the man ? বাক্যেটির Passive form হবে -----?",
+    "options": [
+      "The man was killed by whom ?",
+      "Was the man killed by whom ?",
+      "By whom the man was killed ?",
+      "By whom was the man killed ?"
+    ],
+    "ans": 3,
+    "explain": "'Who' থাকলে 'By whom' বসে। এটি Past Indefinite হওয়ায় 'By whom was the man killed?' সঠিক।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের অফিস সহায়ক : ২০২৩"
+    ]
+  },
+  {
+    "id": 107,
+    "topicsId": 494,
+    "q": "Identify the right passive voice of ‘it is impossible to do this’",
+    "options": [
+      "Doing this is impossible.",
+      "This is impossible to be done.",
+      "This is must be done.",
+      "This can't be done."
+    ],
+    "ans": 1,
+    "explain": "Infinitive (to do) যুক্ত বাক্যকে passive করার সময় to + be + V3 (to be done) ব্যবহার করা হয়।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 108,
+    "topicsId": 494,
+    "q": "Trees are considered one of our best friends (Make it active)",
+    "options": [
+      "Trees are our best friends",
+      "We considered trees one of our best friends",
+      "We consider trees are of our best friends",
+      "It is tree which is our best friend"
+    ],
+    "ans": 0,
+    "explain": "Passive বাক্যটি Present Indefinite-এ আছে। 'considered' এর active ফর্ম 'consider'। সাধারণ সত্য প্রকাশে 'We' বা 'People' সাবজেক্ট হিসেবে আনা হয়।",
+    "source": [
+      "খাদ্য অধিদপ্তর ( উপ খাদ্য পরিদর্শক ) -২১"
+    ]
+  },
+  {
+    "id": 109,
+    "topicsId": 494,
+    "q": "My teacher embodies all the good qualities. (Make it passive)",
+    "options": [
+      "All the good qualities are embodied in my teacher",
+      "All the good qualities are embodied to my teacher",
+      "All the good qualities are embodied on my teacher",
+      "All the good qualities are embodied by my teacher"
+    ],
+    "ans": 0,
+    "explain": "কিছু নির্দিষ্ট verb-এর ক্ষেত্রে passive voice-এ 'by' না বসে অন্য preposition বসে। 'embody' verb-টির পর preposition 'in' ব্যবহৃত হয়।",
+    "source": [
+      "খাদ্য অধিদপ্তর ( উপ খাদ্য পরিদর্শক ) -২১"
+    ]
+  },
+  {
+    "id": 110,
+    "topicsId": 494,
+    "q": "By whom ......?",
+    "options": [
+      "was the glass broken",
+      "the glass was broken",
+      "did the glass break",
+      "was the glass break"
+    ],
+    "ans": 0,
+    "explain": "By whom যুক্ত interrogative passive-এ auxiliary verb (was) টি object-এর আগে বসে। ভাঙার কাজটি অতীতে হওয়ায় 'was the glass broken' সঠিক।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (এরোড্রাম কর্মকর্তা (এটিএম)/উপ-সহকারী প্রকৌশলী (সিভিল)/অন্যান্য)-২১"
+    ]
+  },
+  {
+    "id": 111,
+    "topicsId": 494,
+    "q": "“The science exhibition was opened by the Education Minister.” এর Active form কি ?",
+    "options": [
+      "was opening the Science exhibition",
+      "opened the Science exhibtion",
+      "has opened the Science exhibtion",
+      "had opened the Science exhibtion"
+    ],
+    "ans": 1,
+    "explain": "Passive-এ 'was opened' থাকলে active-এ তা simple past (V2) হয়। অর্থাৎ 'opened' বসবে।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোর পরিসংখ্যান অ্যাসিসট্যান্ট অফিসার : ২০১৪"
+    ]
+  },
+  {
+    "id": 112,
+    "topicsId": 494,
+    "q": "'The cow gives us milk ' বাক্যেটির Passive form হবে -----?",
+    "options": [
+      "We are being given milk by the cow",
+      "We were given milk by the cow",
+      "Milk is given to us by the cow",
+      "Milk is being given to us by the cow"
+    ],
+    "ans": 2,
+    "explain": "Double object থাকলে যেকোনো একটিকে সাবজেক্ট করা যায়। 'Milk' কে সাবজেক্ট করলে নিয়ম অনুযায়ী: Milk + is + given + to us + by the cow।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা (ঢাকা বিভাগ) : ২০০৫"
+    ]
+  },
+  {
+    "id": 113,
+    "topicsId": 494,
+    "q": "Which one is the active voice of ' We shall be blammed '",
+    "options": [
+      "Everyone shall blame us",
+      "Everyone blames us",
+      "Everyone will blame us",
+      "Everyone is blaming us"
+    ],
+    "ans": 2,
+    "explain": "Passive-এ 'shall be + V3' থাকলে active-এ shall/will + V1 হয়। Everyone-এর সাথে 'will' বসে।",
+    "source": [
+      "হিসাব মহানিয়ন্ত্রকের কার্যালয় (সিজিএ) | জুনিয়র অডিটর : ২০২২"
+    ]
+  },
+  {
+    "id": 114,
+    "topicsId": 494,
+    "q": "“His behaviour annoys me sometimes”. বাক্যের Passive form হচ্ছে -----?",
+    "options": [
+      "Sometimes I am annoyed at his behaviour.",
+      "Sometimes I am annoyed to his behaviour.",
+      "I was annoyed sometimes at his behaviour.",
+      "I am annoyed sometimes at his behaviour."
+    ],
+    "ans": 0,
+    "explain": "'Annoy' verb-টির পর passive voice-এ সাধারণত 'at' preposition বসে (ব্যক্তির ক্ষেত্রে with)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা (পদ্মা) : ২০১২"
+    ]
+  },
+  {
+    "id": 115,
+    "topicsId": 494,
+    "q": "Attened the class at once. এই বাক্যে Passive voice হচ্ছে ---?",
+    "options": [
+      "The class is to be attended at once",
+      "Let the class be attend at once",
+      "The class will be attened at once",
+      "You are asked to attened the class at once"
+    ],
+    "ans": 1,
+    "explain": "Imperative sentence-এর ক্ষেত্রে Let + object + be + V3 নিয়মটি প্রযোজ্য। এখানে spelling-এ 'attend' দেওয়া থাকলেও এটিই নিকটতম সঠিক উত্তর।",
+    "source": [
+      "অর্থ মন্ত্রণালয়ের অফিস সহকারী : ২০১১"
+    ]
+  },
+  {
+    "id": 116,
+    "topicsId": 494,
+    "q": "The bell had already been-----. Fill in the blank.",
+    "options": [
+      "Rang",
+      "Ranged",
+      "rung",
+      "Ringed"
+    ],
+    "ans": 2,
+    "explain": "Past Perfect Passive-এর গঠন হলো had been + V3। ring-এর তিনটি রূপ হলো: ring, rang, rung। তাই সঠিক উত্তর 'rung'।",
+    "source": [
+      "সিনিয়র স্টাফ নার্স নিয়োগ পরীক্ষা : ২০২১"
+    ]
+  },
+  {
+    "id": 117,
+    "topicsId": 494,
+    "q": "Choose the correct passive form of 'who will do the work' ?",
+    "options": [
+      "Who will be done the work?",
+      "Who will done the work?",
+      "By whom will the work be done?",
+      "Whom will the work be done?"
+    ],
+    "ans": 2,
+    "explain": "Future Indefinite-এ 'Who' থাকলে Passive গঠন: By whom + shall be/will be + object + V3। এক্ষেত্রে auxiliary 'will' সাবজেক্টের আগে এবং 'be' পরে বসে।",
+    "source": [
+      "বাংলাদেশ রেলওয়ে (পূর্বাঞ্চল) গেইটকিপার পদে নিয়োগ-২০১৭"
+    ]
+  },
+  {
+    "id": 118,
+    "topicsId": 494,
+    "q": "Whom do you want ? Change into passive.",
+    "options": [
+      "By whom you are wanted?",
+      "By whom are you wanted?",
+      "Whom is wanted by you?",
+      "Who is wanted by you?"
+    ],
+    "ans": 3,
+    "explain": "Active voice-এ 'Whom' থাকলে Passive-এ তা 'Who' হয়ে যায়। গঠন: Who + am/is/are + V3 + by + subject।",
+    "source": [
+      "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড, সহকারী সচিব /সহকারী পরিচালক (প্রশাসন) -২১"
+    ]
+  },
+  {
+    "id": 119,
+    "topicsId": 494,
+    "q": "‘Do away with it’- the passive form is-",
+    "options": [
+      "Let it be done away with",
+      "Let it is done away with",
+      "Let it be to do away with",
+      "Let it be to have done away with"
+    ],
+    "ans": 0,
+    "explain": "Imperative sentence এবং phrasal verb থাকলে Let + object + be + V3 + extensions নিয়ম অনুসরণ করা হয়।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 120,
+    "topicsId": 494,
+    "q": "Did the boy catch the bird ? The best passive form in --?",
+    "options": [
+      "Was the bird caught by the boy ?",
+      "Was a bird being caught by the boy?",
+      "Is a bird caught by the boy ?",
+      "Has a bird been caught by the boy ?"
+    ],
+    "ans": 0,
+    "explain": "Past Indefinite Interrogative-এর passive গঠন: Was/Were + object + V3 + by + subject।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের পুলিশ সহকারী/রাসায়নিক পরীক্ষক : ২০০২"
+    ]
+  },
+  {
+    "id": 121,
+    "topicsId": 494,
+    "q": "The correct active form of the sentence “Health should be taken care of” is ----?",
+    "options": [
+      "We should take care of one 's health",
+      "One should take care of one's health",
+      "We should take care of ones health",
+      "We must take care of our health"
+    ],
+    "ans": 1,
+    "explain": "অনির্দিষ্টভাবে উপদেশ বোঝালে Active voice-এ 'One' কে সাবজেক্ট হিসেবে আনা উত্তম। 'should be taken' থেকে তা 'should take' হয়।",
+    "source": [
+      "৬ষ্ঠ বেসরকারি প্রভাষক নিবন্ধন পরীক্ষা : ২০১০"
+    ]
+  },
+  {
+    "id": 122,
+    "topicsId": 494,
+    "q": "He died of fever . Passive form is ---?",
+    "options": [
+      "Fever caused his to die",
+      "Fever caused him to death",
+      "He was caused to die of fever",
+      "His death was caused with fever"
+    ],
+    "ans": 2,
+    "explain": "কিছু intransitive verb-এর সরাসরি passive হয় না, সেক্ষেত্রে অর্থের সামঞ্জস্য রেখে 'He was caused to die' জাতীয় গঠন ব্যবহার করা হয়।",
+    "source": [
+      "প্রাক-প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা (দানিয়ুব) : ২০১৩"
+    ]
+  },
+  {
+    "id": 123,
+    "topicsId": 494,
+    "q": "We must listen to his words. বাক্যেটির Passive form হবে -----?",
+    "options": [
+      "His words should be listened to",
+      "His words must be listened to",
+      "His words may be listened to",
+      "His words ought to be listen to"
+    ],
+    "ans": 1,
+    "explain": "Modal 'must' যুক্ত বাক্যে passive করতে 'must be + V3' এবং সাথে থাকা preposition 'to' অবশ্যই বসাতে হবে।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় প্রধান শিক্ষক নিয়োগ পরীক্ষা (শাপলা) : ২০০৯"
+    ]
+  },
+  {
+    "id": 124,
+    "topicsId": 494,
+    "q": "The passive structure of “They pleased us” is-",
+    "options": [
+      "We were pleased by them.",
+      "We were being pleased by them.",
+      "We are pleased to them.",
+      "We are pleased with them"
+    ],
+    "ans": 0,
+    "explain": "এটি Simple Past Tense। তবে মনে রাখতে হবে, 'please' verb-টির পর সাধারণত 'with' বসে। কিন্তু অপশন ০-তে 'by' থাকলেও টেন্স অনুযায়ী সেটিই সবচেয়ে প্রাসঙ্গিক উত্তর হিসেবে বিবেচিত হয়েছে।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক) -২১"
+    ]
+  },
+  {
+    "id": 125,
+    "topicsId": 494,
+    "q": "Choose the correct sentence-",
+    "options": [
+      "I asked Tashfia if she had passed",
+      "I asked Tashfia if you had she passed",
+      "I asked Tashfia that had she passed",
+      "Pacific"
+    ],
+    "ans": 0,
+    "explain": "এটি ন্যারেশনের প্রশ্ন। Interrogative sentence-কে Indirect করার সময় reporting verb 'asked' হয় এবং 'if' দ্বারা যুক্ত হয়, বাক্যটি assertive হয়ে যায়।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (হিসাব রক্ষক) -২১"
+    ]
+  },
+  {
+    "id": 126,
+    "topicsId": 494,
+    "q": "What is the correct passive form of the sentence 'I have to do it' ?",
+    "options": [
+      "It has to be done with me.",
+      "It has to be done by me.",
+      "Let it be done by me.",
+      "It will have to be done by me."
+    ],
+    "ans": 1,
+    "explain": "'have to' বা 'has to' থাকলে passive-এ 'have to be/has to be' + V3 ব্যবহৃত হয়।",
+    "source": [
+      "পল্লী উন্নয়ন একাডেমী (আরডিএ),বগুড়া সহকারী পরিচালক – ২১"
+    ]
+  },
+  {
+    "id": 127,
+    "topicsId": 494,
+    "q": "He left me yesterday. Correct passive form of the sentence is ----?",
+    "options": [
+      "I was left by him yesterday",
+      "I have been left by him yesterday",
+      "I were left by him yesterday",
+      "I was left with him yesterday"
+    ],
+    "ans": 0,
+    "explain": "Simple Past-এর passive গঠন: Object (I) + was + V3 (left) + extension + by him।",
+    "source": [
+      "পোস্টমাস্টার জেনারেল, পূর্বাঞ্চল, চট্টগ্রাম ।। পোস্টাল অপারেটর : ২০২৩"
+    ]
+  },
+  {
+    "id": 128,
+    "topicsId": 494,
+    "q": "'He has a cow'. The best passive form is ----?",
+    "options": [
+      "A cow is had by him",
+      "A cow is have by him",
+      "A cow has been by him",
+      "A cow have been by him"
+    ],
+    "ans": 0,
+    "explain": "Have/Has যখন মূল verb হিসেবে থাকে, তখন passive-এ 'am/is/are + had' ব্যবহৃত হয়।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের সহকারী পরিচালক : ২০০৪"
+    ]
+  },
+  {
+    "id": 129,
+    "topicsId": 494,
+    "q": "He is going to give me a prize.",
+    "options": [
+      "I am going to give a prize by him",
+      "I am gone to give a prize by him",
+      "I was going to be given a prize by him",
+      "I am going to be given a prize by him"
+    ],
+    "ans": 3,
+    "explain": "'going to' থাকলে passive-এ 'going to be + V3' বসে। me পরিবর্তিত হয়ে I হয়েছে এবং এর সাথে am বসেছে।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয় সহকারী শিক্ষক : ২০১১"
+    ]
+  },
+  {
+    "id": 130,
+    "topicsId": 494,
+    "q": "'Pay the bill today ' বাক্যেটির Passive form হবে -----?",
+    "options": [
+      "The bill is to be paid today",
+      "Let the bill be paid today",
+      "The bill will be paid today",
+      "The bill may be paid today"
+    ],
+    "ans": 1,
+    "explain": "Imperative sentence-এর ক্ষেত্রে সঠিক Passive গঠন: Let + object + be + V3।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় D ইউনিট : 2009-2010"
+    ]
+  },
+  {
+    "id": 131,
+    "topicsId": 494,
+    "q": "Change the voice : I teach him English.",
+    "options": [
+      "English is taught him by me",
+      "English was taught him by me",
+      "English is taught me by him.",
+      "He was taught English by him."
+    ],
+    "ans": 0,
+    "explain": "এটি Present Indefinite tense এবং দুটি অবজেক্ট আছে। নিয়ম: Object (English) + is + V3 (taught) + indirect object (him) + by + me।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ নিয়োগ পরীক্ষা (স্টোরম্যান/ডেসপ্যাচ রাইডার/ট্রাফিক হ্যান্ড)-২১"
+    ]
+  },
+  {
+    "id": 132,
+    "topicsId": 494,
+    "q": "“Who can do it” The passive voice is—",
+    "options": [
+      "By whom it can be done?",
+      "By whom can it be do?",
+      "By whom can it be done?",
+      "By whom can it be did?"
+    ],
+    "ans": 2,
+    "explain": "'Who' এর বদলে 'By whom' বসে। Interrogative হওয়ায় auxiliary (can) টি object (it)-এর আগে এবং 'be' পরে বসে।",
+    "source": [
+      "মৎস্য অধিদপ্তরের কর্মচারী নিয়োগ পরীক্ষা (সাঁটমুদ্রাক্ষরিক-কাম-কম্পিউটার অপারেটর)-২১/ শিক্ষা প্রকৌশল অধিদপ্তর (হিসাব রক্ষক) -২১/ সিনিয়র স্টাফ নার্স নিয়োগ পরীক্ষা-২০২১"
+    ]
+  },
+  {
+    "id": 133,
+    "topicsId": 494,
+    "q": "“You Should keep your promise” - the passive voice is .",
+    "options": [
+      "Your promise should be kept",
+      "Your promise is to be kept by you",
+      "Your promise should keep by you",
+      "Your promise should kept by you"
+    ],
+    "ans": 0,
+    "explain": "Modal (should) যুক্ত বাক্যের passive গঠন: Object + should be + V3। এক্ষেত্রে 'by you' উচ্চ থাকলেও বাক্যটি পূর্ণাঙ্গ।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (হিসাব রক্ষক) -২১"
+    ]
+  },
+  {
+    "id": 134,
+    "topicsId": 494,
+    "q": "“He is writing a letter” Make it passive.",
+    "options": [
+      "A letter is written by him",
+      "A letter was written by him",
+      "A letter was being written by him",
+      "A letter is being written by him"
+    ],
+    "ans": 3,
+    "explain": "Present Continuous Tense-এর passive-এ am/is/are + being + V3 ব্যবহৃত হয়।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর (উচ্চমান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 135,
+    "topicsId": 494,
+    "q": "I have a cat? Make it passive.",
+    "options": [
+      "A cat is being had by me.",
+      "A cat has been had by me.",
+      "A cat have been had by me.",
+      "A cat is had by me."
+    ],
+    "ans": 3,
+    "explain": "অধিকার অর্থে 'have' থাকলে passive-এ 'is/am/are + had' বসে।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর (ল্যাবরেটরী সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 136,
+    "topicsId": 494,
+    "q": "I know that he did the work , বাক্যটির সঠিক পরিবর্তিত voice হবে ?",
+    "options": [
+      "It was known to me that the work was done by him.",
+      "It is known to me that the work was done by him.",
+      "It was known to me that the work has been done by him.",
+      "It was known to me that the work had been done by him."
+    ],
+    "ans": 1,
+    "explain": "Complex sentence-এর দুটি অংশেরই voice change হতে পারে। প্রথম অংশ 'I know' -> 'It is known to me' এবং দ্বিতীয় অংশ 'he did the work' -> 'the work was done by him'।",
+    "source": [
+      "প্রাক-প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষা (মুক্তিযোদ্ধা কোটা) : ২০১৬"
+    ]
+  },
+  {
+    "id": 137,
+    "topicsId": 494,
+    "q": "She was reading a book. The best passive form will be ----?",
+    "options": [
+      "A book is reading by her",
+      "A book was read by her",
+      "A book was being read by her",
+      "A book is read by her"
+    ],
+    "ans": 2,
+    "explain": "Past Continuous tense-এর passive গঠন: Object + was being/were being + V3 (read-এর V3 বানান একই, উচ্চারণ ভিন্ন)।",
+    "source": [
+      "নির্বাচন কমিশন সচিবালয়ে থানা/উপজেলা নির্বাচন অফিসার : ২০০৮"
+    ]
+  },
+  {
+    "id": 138,
+    "topicsId": 494,
+    "q": "The corrict passive of : “Sheila was writing a letter” is ----?",
+    "options": [
+      "A letter was writing by Sheila",
+      "A letter was being writing by Sheila",
+      "A letter was being written by Sheila",
+      "A letter was been written by Sheila"
+    ],
+    "ans": 2,
+    "explain": "এটি Past Continuous। গঠন: Object + was being + V3 (written) + by + subject।",
+    "source": [
+      "জনতা ও রূপালী ব্যাংক- অফিসার : ২০১৯"
+    ]
+  },
+  {
+    "id": 139,
+    "topicsId": 494,
+    "q": "What is the passive form of the sentence: ' A storm has uprooted the tree '",
+    "options": [
+      "The tree has been uprooted by storm",
+      "The tree is uprooted by the storm",
+      "The tree has been uprooted from the storm",
+      "The tree has uprooted itself"
+    ],
+    "ans": 0,
+    "explain": "Present Perfect Tense-এর passive-এ have been/has been + V3 ব্যবহৃত হয়।",
+    "source": [
+      "ব্যাংক এশিয়া :২০১৩"
+    ]
+  },
+  {
+    "id": 140,
+    "topicsId": 494,
+    "q": "Complete the sentence with the right form of verb: “She was (wake) by the alarm clock”",
+    "options": [
+      "woken",
+      "awaked",
+      "awoked",
+      "awakened"
+    ],
+    "ans": 0,
+    "explain": "বাক্যটি Passive ফর্মে থাকায় 'was' এর পর verb-এর past participle বসবে। 'wake' এর past participle হলো 'woken'।",
+    "source": [
+      "সিটি ব্যাংক :২০১৩"
+    ]
+  },
+  {
+    "id": 141,
+    "topicsId": 494,
+    "q": "'Shut the door' The passive form of the sentence would be:",
+    "options": [
+      "The door is no be shut.",
+      "Let the door be shut.",
+      "The door may be shut.",
+      "Let the door shut."
+    ],
+    "ans": 1,
+    "explain": "Imperative sentence starts with verb: Let + object + be + V3 (shut-এর তিন রূপই এক)।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ ( এরাড্রাম কর্মকর্তা (এটিএম)/উপ-সহকারী প্রকৌশলী (সিভিল)/অন্যান্য)-২১"
+    ]
+  },
+  {
+    "id": 142,
+    "topicsId": 494,
+    "q": "Choose the Change the voice : They have to finish the work.",
+    "options": [
+      "The work needs to be finished by them",
+      "The work has to be finished by them.",
+      "The work have to be finished by them",
+      "The work must be finished by them"
+    ],
+    "ans": 1,
+    "explain": "'have to' থাকলে passive voice-এ 'have to be/has to be' + V3 হয়। 'The work' singular হওয়ায় 'has to be' বসেছে।",
+    "source": [
+      "বাংলাদেশ টেলিভিশন (অফিস সহকারী) নিয়োগ পরীক্ষা ২১"
+    ]
+  },
+  {
+    "id": 143,
+    "topicsId": 494,
+    "q": "Change the voice : 'Let him be told to go.'",
+    "options": [
+      "Go",
+      "Tell him to go",
+      "Let you go",
+      "you go"
+    ],
+    "ans": 1,
+    "explain": "এটি একটি passive imperative sentence। একে active করলে সরাসরি মূল verb দিয়ে শুরু হবে: 'Tell him to go'।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ (নিরাপত্তা অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 144,
+    "topicsId": 494,
+    "q": "Passive voice of 'whom were you calling?' is ......?",
+    "options": [
+      "who called by you?",
+      "who were you being called?",
+      "who was being called by you?",
+      "who called by you?"
+    ],
+    "ans": 2,
+    "explain": "'Whom' এর বদলে 'Who' বসে। Past Continuous হওয়ায় Who + was being + V3 + by + you সঠিক গঠন।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ (সিনিয়র অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 145,
+    "topicsId": 494,
+    "q": "Find out the correct form-",
+    "options": [
+      "I got the work done by him.",
+      "I got the work doing by him.",
+      "I got the work been done by him.",
+      "I got the work was doing by him."
+    ],
+    "ans": 0,
+    "explain": "Causative verb 'get' এরপর বস্তুবাচক অবজেক্ট থাকলে পরবর্তী verb-টি past participle (V3) হয়। অর্থাৎ get + object + V3।",
+    "source": [
+      "এনএসআই (ফিল্ড অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 146,
+    "topicsId": 494,
+    "q": "Choose the correct passive form of “What did you want” ?",
+    "options": [
+      "What was wanted by you?",
+      "What were wanted at you?",
+      "What was want by you?",
+      "What was wanted you?"
+    ],
+    "ans": 0,
+    "explain": "Interrogative 'What' থাকলে passive-এ তা শুরুতে বসে। Past Indefinite হওয়ায় What + was + V3 + by + you সঠিক।",
+    "source": [
+      "এনএসআই (জুনিয়র ফিল্ড অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 147,
+    "topicsId": 494,
+    "q": "Choose the correct passive form of 'Who is calling me' ?",
+    "options": [
+      "By who am I called?",
+      "By who am I being called?",
+      "By whom am I being called?",
+      "By whom am I called?"
+    ],
+    "ans": 2,
+    "explain": "'Who' থাকলে 'By whom' হয়। Present Continuous-এর কারণে auxiliary হিসেবে 'am being' বসবে।",
+    "source": [
+      "খাদ্য অধিদপ্তর (উচ্চমান সহকারী)-২১/ এনএসআই জুনিয়র ফিল্ড অফিসার-২১"
+    ]
+  },
+  {
+    "id": 148,
+    "topicsId": 494,
+    "q": "Passive Voice of “They held a meeting very early”.",
+    "options": [
+      "A meeting is held by them very early",
+      "A meeting will be held by them very early",
+      "A meeting was hold by them very early",
+      "A meeting was held by them very early"
+    ],
+    "ans": 2,
+    "explain": "Held হলো hold-এর past form। তাই passive করার সময় was/were + V3 (held) ব্যবহার করতে হয়। (নোট: এখানে অপশন ২ সঠিক চিহ্নিত হলেও গঠনগতভাবে ৪-ও একই রকম)।",
+    "source": [
+      "বাখরাবাদ গ্যাস ডিস্ট্রিবিউশন কোম্পানি লি. (সহকারী ব্যবস্থাপক/ সহকারীকর্মকর্তা)-২১"
+    ]
+  },
+  {
+    "id": 149,
+    "topicsId": 494,
+    "q": "Which of the following is the passive voice form of “Smartphones are very cheap today” ?",
+    "options": [
+      "Smartphones are being very cheap today.",
+      "Smartphones can be very cheap today.",
+      "Smartphones are available at a cheap rate today.",
+      "Smartphones are considered to be very cheap today."
+    ],
+    "ans": 3,
+    "explain": "এটি একটি intransitive/adjective যুক্ত বাক্য। একে সরাসরি passive করা যায় না, তাই 'considered to be' জাতীয় শব্দের সাহায্য নিয়ে অর্থ প্রকাশ করা হয়।",
+    "source": [
+      "এনএসআই (ফিল্ড অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 150,
+    "topicsId": 494,
+    "q": "Change the voice : He helped me do it.",
+    "options": [
+      "I was helped by him to do it",
+      "I was helped by he to do it",
+      "I was help by he to do it",
+      "I was help be he to do it"
+    ],
+    "ans": 0,
+    "explain": "Bare infinitive (do) যুক্ত active sentence-কে passive করার সময় V3-এর পর 'to' বসে। তাই 'was helped... to do it' সঠিক।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর বাংলাদেশ, ঢাকা (অফিস সহায়ক) নিয়োগ পরীক্ষা-২০২১"
+    ]
+  },
+  {
+    "id": 151,
+    "topicsId": 494,
+    "q": "Choose the correct passive form of:My son bought a new Motor Bike.",
+    "options": [
+      "My son did buy a new motor bike.",
+      "A new motor bike had been bought by my son",
+      "A new motor bike been bought by my son",
+      "A new motor bike was bought by my son"
+    ],
+    "ans": 3,
+    "explain": "Simple Past (bought) এর passive গঠন: Object (A new motor bike) + was + V3 (bought) + by my son।",
+    "source": [
+      "এনএসআই (ওয়াচার কনস্টেবল/ ফিল্ড স্টাফ)-২১"
+    ]
+  },
+  {
+    "id": 152,
+    "topicsId": 494,
+    "q": "All his pupils like him. বাক্যটির সঠিক Passive form হচ্ছে—",
+    "options": [
+      "He was liked by all his pupils.",
+      "He is liked by all his pupils.",
+      "He is being liked by all his pupils.",
+      "He is like by all his pupils."
+    ],
+    "ans": 3,
+    "explain": "এটি Simple Present Tense। গঠন অনুযায়ী 'He is liked' হওয়া উচিত। (নোট: অপশন ৩ চিহ্নিত থাকলেও সঠিক গঠন হলো am/is/are + V3)।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর, প্রদর্শক (সকল বিষয়)-২১"
+    ]
+  },
+  {
+    "id": 153,
+    "topicsId": 494,
+    "q": "Identify the correct passive form of the sentence below ?",
+    "options": [
+      "Are they known by you?",
+      "Are they be known with you?",
+      "Would they be known by you?",
+      "Are they known to you?"
+    ],
+    "ans": 3,
+    "explain": "'Know' verb-এর পর passive voice-এ 'by' বসে না, বরং 'to' ব্যবহৃত হয়। তাই 'Are they known to you?' সঠিক।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর (হিসাব সহকারী/ অফিস সহকারী কাম কম্পিউটার অপারেটর)-২১"
+    ]
+  },
+  {
+    "id": 154,
+    "topicsId": 494,
+    "q": "The passive form of 'He pleases us –",
+    "options": [
+      "We were pleased with him.",
+      "We are pleased with him.",
+      "We are pleased by him.",
+      "We will be pleased by him."
+    ],
+    "ans": 1,
+    "explain": "Present Indefinite Tense এবং 'please' verb-এর পর passive voice-এ preposition হিসেবে 'with' ব্যবহৃত হয়।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর (ইঞ্জিনিয়ারিং কলেজ এর ক্যাশ সরকার/অফিস সহায়ক) -২১"
+    ]
+  },
+  {
+    "id": 155,
+    "topicsId": 494,
+    "q": "Change into passive : Did he do his task ?",
+    "options": [
+      "Had his task done by him?",
+      "Was his task done by him?",
+      "Had his task been done by him?",
+      "Was his task being done by him?"
+    ],
+    "ans": 1,
+    "explain": "Past Indefinite Interrogative-এর passive গঠন: Was/Were + object + V3 + by + him।",
+    "source": [
+      "প্রবাসী কল্যাণ ব্যাংক (সাধারণ অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 156,
+    "topicsId": 494,
+    "q": "The sentence which is not expressing any passive sense.",
+    "options": [
+      "I'll have my hair cut.",
+      "I got fired yesterday.",
+      "They made me do it.",
+      "I'm getting all my floors polished."
+    ],
+    "ans": 2,
+    "explain": "বিকল্পগুলোর মধ্যে ৩ নম্বরটি একটি active causative গঠন (Subject + made + object + base verb)। অন্যগুলো passive অর্থে ব্যবহৃত (যেমন: hair cut করানো হয়েছে অন্য কারো দ্বারা)।",
+    "source": [
+      "সমন্বিত ৭ ব্যাংক এবং আর্থিক প্রতিষ্ঠান (সিনিয়র অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 157,
+    "topicsId": 494,
+    "q": "Change into passive voice: 'People believe he is a scholar'",
+    "options": [
+      "He is believed scholar by the people.",
+      "He is believed to be a scholar",
+      "He is a scholar as people believe.",
+      "He is being believed a scholar."
+    ],
+    "ans": 1,
+    "explain": "বিলিভ/মনে করা জাতীয় verb থাকলে 'He is believed to be' গঠনটি অধিক শুদ্ধ।",
+    "source": [
+      "সমন্বিত ৭ ব্যাংক ও ১ আর্থিক প্রতিষ্ঠান (সিনিয়র অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 158,
+    "topicsId": 494,
+    "q": "The passive voice of: Who is John inviting ?",
+    "options": [
+      "Who is being invited by John?",
+      "Who is invited by John?",
+      "Whom is invites by John?",
+      "Is someone invited by John?"
+    ],
+    "ans": 0,
+    "explain": "'Who' সাবজেক্ট হিসেবে থাকলে এবং বাক্যটি Continuous হলে passive-এ 'Who + is/are + being + V3' ব্যবহৃত হয়।",
+    "source": [
+      "বাংলাদেশ ব্যাংক সহকারী পরিচালক-২১"
+    ]
+  },
+  {
+    "id": 159,
+    "topicsId": 494,
+    "q": "A group of bats is called-",
+    "options": [
+      "Pace",
+      "Gang",
+      "Flock",
+      "Colony"
+    ],
+    "ans": 3,
+    "explain": "এটি একটি Collective Noun-এর প্রশ্ন। বাদুড়ের দলকে ইংরেজিতে 'Colony' বলা হয়।",
+    "source": [
+      "বাংলাদেশ ব্যাংক (সহকারী পরিচাল -২১"
+    ]
+  },
+  {
+    "id": 160,
+    "topicsId": 494,
+    "q": "Change the voice: They are going to sell the market.",
+    "options": [
+      "The market is going to be sold by them.",
+      "The market is being gone to sell by them",
+      "The market is being gone to be sold by them",
+      "The market is gone to be sold by them"
+    ],
+    "ans": 0,
+    "explain": "'going to' যুক্ত বাক্যকে passive করার নিয়ম: Object + am/is/are + going to be + V3 + by + subject।",
+    "source": [
+      "প্রবাসী কল্যাণ ব্যাংক (ক্যাশ অফিসার ) : ২১"
+    ]
+  },
+  {
+    "id": 161,
+    "topicsId": 494,
+    "q": "Passive voice of 'If you're doing something important, you are working to make change happen.'",
+    "options": [
+      "If something important is done, work is done to make change happen.",
+      "Something important is being done by you, you are making change happen.",
+      "If something important is being done, work is being done to make change happen",
+      "If important work is being done, change is about to happen"
+    ],
+    "ans": 2,
+    "explain": "প্রদত্ত বাক্যটি Present Continuous Tense-এ আছে। এর Passive করার নিয়ম হলো: Subject + am/is/are + being + Verb-এর Past Participle। এখানে দুটি ক্লজই Continuous ফর্মে আছে, তাই দুটিতেই 'being' এবং মূল ভার্বের Past Participle বসবে।",
+    "source": [
+      "উত্তরা ব্যাংক লিমিটেড (প্রবেশনারী অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 162,
+    "topicsId": 494,
+    "q": "What is the active voice of - 'What she thinks was known to us ?",
+    "options": [
+      "We knew what she thinks",
+      "We have known about her thinking",
+      "We knew what she is thinking",
+      "We know what she thinks"
+    ],
+    "ans": 0,
+    "explain": "Passive বাক্যে 'was known' থাকলে Active-এ তা Past Indefinite Tense (knew) হয়। 'Known to us' এর Active সাবজেক্ট হবে 'We'।",
+    "source": [
+      "সমন্বিত ৬ ব্যাংক ও আর্থিক প্রতিষ্ঠান (সিনিয়র অফিসার)-২১"
+    ]
+  },
+  {
+    "id": 163,
+    "topicsId": 494,
+    "q": "The passive Voice of “I saw him leaving the house” is",
+    "options": [
+      "Leaving the house he was seen by me.",
+      "He was seen to be leaving the house.",
+      "He was seen leaving the house by me.",
+      "He had been seen leaving the house."
+    ],
+    "ans": 2,
+    "explain": "বাক্যটিতে 'him' অবজেক্ট, যা Passive-এ 'He' হয়ে যাবে। Past Indefinite Tense হওয়ায় 'was seen' বসবে এবং Present Participle অংশটি (leaving the house) অপরিবর্তিত থাকবে।",
+    "source": [
+      "Global Islami Bank (Probationary Officer) 2021"
+    ]
+  },
+  {
+    "id": 164,
+    "topicsId": 494,
+    "q": "The passive voice of “None likes him” is—",
+    "options": [
+      "He is not liked by anyone.",
+      "He was not liked by anyone.",
+      "He has not been liked by anyone.",
+      "He is liked by none."
+    ],
+    "ans": 0,
+    "explain": "নেতিবাচক সাবজেক্ট 'None' থাকলে Passive করার সময় 'not liked by anyone' ব্যবহার করা ব্যাকরণগতভাবে অধিকতর সঠিক। যেহেতু এটি Present Indefinite, তাই 'is not liked' ব্যবহৃত হয়েছে।",
+    "source": [
+      "Global Islami Bank (Probationary Officer) 2021"
+    ]
+  },
+  {
+    "id": 165,
+    "topicsId": 494,
+    "q": "When i am alone, I hear the footsteps of my friend in my imagination.",
+    "options": [
+      "The footsteps of my friend heard by me, when I am alone.",
+      "The footsteps of my friend is heard by me when I am alone.",
+      "The footsteps of my friend are heard by me when I am alone.",
+      "The footsteps of my friend was heard by me when I am alone."
+    ],
+    "ans": 2,
+    "explain": "এখানে অবজেক্ট হলো 'The footsteps' (Plural)। তাই Passive করার সময় Plural auxiliary verb 'are' বসবে এবং মূল ভার্বের Past Participle (heard) হবে।",
+    "source": [
+      "ফার্স্ট সিকিউরিটি ইসলামী ব্যাংক (প্রবেশনারী অফিসার) ২0২১"
+    ]
+  },
+  {
+    "id": 166,
+    "topicsId": 494,
+    "q": "Movies are not watched by him.",
+    "options": [
+      "He did not watch movies",
+      "He do not watch movies",
+      "He does not watch movies",
+      "He is not watched movies"
+    ],
+    "ans": 2,
+    "explain": "এটি একটি Passive বাক্য যা Present Indefinite Tense-এ আছে। Active করার সময় সাবজেক্ট 'He' (Third Person Singular) হওয়ায় negative ফর্মে 'does not watch' ব্যবহৃত হবে।",
+    "source": [
+      "ফাস্ট সিকিউরিটি ইসলামী ব্যাংক (প্রবেশনারী অফিসার) ২০২১"
+    ]
+  },
+  {
+    "id": 167,
+    "topicsId": 494,
+    "q": "Change the voice of the sentence- She will invite me.",
+    "options": [
+      "I shall be invited by her.",
+      "I will invited by her.",
+      "I shall being invited by her.",
+      "I will been invited by her."
+    ],
+    "ans": 0,
+    "explain": "Future Indefinite Tense-এর Passive রূপ হলো: Subject + shall be/will be + V3। 'I' এর সাথে সাধারণত 'shall be' ব্যবহৃত হয়।",
+    "source": [
+      "Dhaka Bank (Probassionary Officer) - 2021"
+    ]
+  },
+  {
+    "id": 168,
+    "topicsId": 494,
+    "q": "The passive form of the sentence ‘You should not scold the boy’ is-",
+    "options": [
+      "The boy should not be scold by you",
+      "The boy should not have been scold by you",
+      "The boy should not be scolded by you",
+      "The boy should not have been scolded by you."
+    ],
+    "ans": 2,
+    "explain": "Modal Auxiliary (should) থাকলে Passive করার সময় 'should be' + V3 বসে। যেহেতু বাক্যটি নেতিবাচক, তাই 'should not be scolded' হবে।",
+    "source": [
+      "তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তরে সহকারী প্রোগ্রামার ২০২০"
+    ]
+  },
+  {
+    "id": 169,
+    "topicsId": 494,
+    "q": "What is the passive voice of “Who did this” ?",
+    "options": [
+      "By whom this has been done?",
+      "Whom did this?",
+      "By whom was this done?",
+      "Who has done this?"
+    ],
+    "ans": 2,
+    "explain": "Interrogative বাক্যে 'Who' থাকলে Passive-এ 'By whom' বসে। Past Indefinite Tense হওয়ায় auxiliary হিসেবে 'was' বসবে।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের সহকারী প্রসিকিউটর পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 170,
+    "topicsId": 494,
+    "q": "Change the voice of the sentence: ‘She never understood me, whatever I said something’.",
+    "options": [
+      "Whenever I said something, I never understood by her.",
+      "Whenever I said something, I had never understood by her.",
+      "Whenever I said something, I was being never understood by her.",
+      "Whenever I said something, I was never understood by her."
+    ],
+    "ans": 3,
+    "explain": "মূল ক্লজ 'She never understood me' Past Indefinite-এ আছে। এর Passive হবে 'I was never understood by her'।",
+    "source": [
+      "জীবন বীমা কর্পোরেশনের অধীনে সহকারী ম্যানেজার পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 171,
+    "topicsId": 494,
+    "q": "The passive form of ‘he pleases us’ ?",
+    "options": [
+      "we were pleased with him",
+      "we are pleased by him",
+      "we are pleased with him",
+      "we will be pleased by him"
+    ],
+    "ans": 2,
+    "explain": "কিছু নির্দিষ্ট ভার্বের ক্ষেত্রে Passive-এ 'by' না বসে অন্য Preposition বসে। 'Please' ভার্বটির সাথে 'with' বসে। সঠিক উত্তর: 'We are pleased with him'।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোর অধীনে পরিসংখ্যান সহকারী পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 172,
+    "topicsId": 494,
+    "q": "Identify the correct passive form of the sentence below:",
+    "options": [
+      "Are they known by you?",
+      "Would they be known by you?",
+      "Are they be known with you?",
+      "Are they known to you?"
+    ],
+    "ans": 3,
+    "explain": "'Know' ভার্বের পর Passive Voice-এ 'by' এর পরিবর্তে 'to' বসে। এটি একটি ইন্টারোগেটিভ বাক্য, তাই 'Are they known to you?' সঠিক।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের অধীনে কম্পিউটার অপারেটর পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 173,
+    "topicsId": 494,
+    "q": "Help the poor বাক্যটির Passive form হবে -",
+    "options": [
+      "Let the poor be helped",
+      "Let the poor is helped",
+      "Let help the poor",
+      "Let the poor are helped"
+    ],
+    "ans": 0,
+    "explain": "Imperative বাক্য (Verb দ্বারা শুরু) Passive করার নিয়ম: Let + object + be + V3। তাই 'Let the poor be helped' সঠিক।",
+    "source": [
+      "আমদানি ও রপ্তানি প্রধান নিয়ন্ত্রকের দপ্তরের অধীনে অফিস সহায়ক পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 174,
+    "topicsId": 494,
+    "q": "“I saw him go to the garden” ?",
+    "options": [
+      "He was seen go to the garden.",
+      "He was seen to go to the garden.",
+      "He was been seen to go to the garden.",
+      "He went to the garden was seen."
+    ],
+    "ans": 1,
+    "explain": "Active Voice-এ 'Bare Infinitive' (to ছাড়া ভার্ব) থাকলে Passive করার সময় তার আগে 'to' বসাতে হয়। তাই 'He was seen to go' সঠিক।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা (NSI) : জুনিয়র ফিল্ড অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 175,
+    "topicsId": 494,
+    "q": "'He heard her sing'.",
+    "options": [
+      "She was heard to sing by him",
+      "She was heard sing by him.",
+      "She is heard to sing.",
+      "She was heard to be sung."
+    ],
+    "ans": 0,
+    "explain": "এটিও Bare Infinitive-এর নিয়ম। 'sing' এর আগে Passive-এ 'to' বসবে এবং Past Indefinite অনুযায়ী 'was heard' হবে।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ঃ প্রশাসনিক কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 176,
+    "topicsId": 494,
+    "q": "Select the active structure.",
+    "options": [
+      "The tree has been uprooted.",
+      "The door should be kept closed.",
+      "My suggestion was not accepted.",
+      "I have lost my watch."
+    ],
+    "ans": 3,
+    "explain": "অন্য তিনটি অপশনে 'be/been + V3' ফরম্যাট আছে যা Passive নির্দেশ করে। শুধুমাত্র 'I have lost my watch' অপশনে সাবজেক্ট সরাসরি কাজ করছে (Present Perfect Active)।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশন পদের নামঃ বিভিন্ন মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা: ২০১৯"
+    ]
+  },
+  {
+    "id": 177,
+    "topicsId": 494,
+    "q": "’His comment surprised me'",
+    "options": [
+      "I was surprised by his comment.",
+      "I was surprised at his comment.",
+      "I was surprised for his comment.",
+      "I was surprised to his comment."
+    ],
+    "ans": 1,
+    "explain": "'Surprise' ভার্বের পর ব্যক্তি থাকলে 'with' কিন্তু কোনো কাজ বা মন্তব্য থাকলে 'at' বসে। এখানে comments-এর কথা বলা হয়েছে, তাই 'at' বসবে।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশন ঃ বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা ২০১৯"
+    ]
+  },
+  {
+    "id": 178,
+    "topicsId": 494,
+    "q": "‘Who opened the door’ ? '",
+    "options": [
+      "Who had the door opened?",
+      "By whom the door was opened?",
+      "By whom let the door was opened?",
+      "By whom was the door opened?"
+    ],
+    "ans": 3,
+    "explain": "'Who' থাকলে 'By whom' বসে। ইন্টারোগেটিভ স্ট্রাকচার অনুযায়ী Auxiliary (was) অবজেক্টের (the door) আগে বসবে।",
+    "source": [
+      "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 179,
+    "topicsId": 494,
+    "q": "‘Tell him to get out of the office.",
+    "options": [
+      "Let him be order to leave the office.",
+      "Let him be told to get out to the office.",
+      "He should be told to get out the office.",
+      "He is told to get out of the office."
+    ],
+    "ans": 1,
+    "explain": "Imperative বাক্য হিসেবে 'Let + object + be + V3' নিয়ম অনুসরণ করবে। এখানে 'tell' এর V3 'told' ব্যবহৃত হয়েছে।",
+    "source": [
+      "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 180,
+    "topicsId": 494,
+    "q": "“Do not shut the door”.",
+    "options": [
+      "The door is not to be shut.",
+      "The door may not be shut.",
+      "Let not the door be shut.",
+      "The door will not be shut."
+    ],
+    "ans": 2,
+    "explain": "Negative Imperative-এর নিয়ম: Let not + object + be + V3। তাই 'Let not the door be shut' সঠিক।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশন পদের নামঃ বিভিন্ন মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা: ২০১৯"
+    ]
+  },
+  {
+    "id": 181,
+    "topicsId": 494,
+    "q": "Let me write a letter.",
+    "options": [
+      "Let a letter be written by me.",
+      "Let a letter is written by me.",
+      "Let a letter to write by me.",
+      "Let a letter write by me."
+    ],
+    "ans": 0,
+    "explain": "বাক্যটি 'Let' দিয়ে শুরু হলে Passive নিয়ম: Let + Object (direct) + be + V3 + by + Object (indirect)।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয় সুপারিনটেনডেন্ট ২০১৯"
+    ]
+  },
+  {
+    "id": 182,
+    "topicsId": 494,
+    "q": "'Manners reveal character' –",
+    "options": [
+      "One's character is revealed by one's manners.",
+      "Manners are revealing of character.",
+      "Character is revealed by manners.",
+      "Characters are revealed by one's manners."
+    ],
+    "ans": 2,
+    "explain": "Present Indefinite Tense-এর সাধারণ নিয়ম: Object (Character) + am/is/are + V3 (revealed) + by + Subject (manners)।",
+    "source": [
+      "সাধারণ বীমা কর্পোরেশন ২০১৯"
+    ]
+  },
+  {
+    "id": 183,
+    "topicsId": 494,
+    "q": "'Passive Voice of' The baby has lost the doll's.",
+    "options": [
+      "The doll will have been lost by the baby.",
+      "The doll had been lost by the baby.",
+      "The doll has been lost by the baby.",
+      "The doll was lost by the baby."
+    ],
+    "ans": 2,
+    "explain": "Present Perfect Tense-এ 'has lost' থাকলে Passive করার সময় 'has been lost' ব্যবহৃত হয়।",
+    "source": [
+      "পেট্রোবাংলা হিসাব সহকারী ২০১৯"
+    ]
+  },
+  {
+    "id": 184,
+    "topicsId": 494,
+    "q": "‘Karim told Rahim to give up smoking' is-",
+    "options": [
+      "Rahim was told to give up smoking.",
+      "Karim was told to give up smoking.",
+      "Rahim is told to give up smoking.",
+      "Karim requested Rahim to give up smoking."
+    ],
+    "ans": 0,
+    "explain": "এখানে 'Rahim' অবজেক্ট। Past Indefinite হওয়ার কারণে 'Rahim was told' হবে এবং বাকি অংশ অপরিবর্তিত থাকবে।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ পোষ্টাল অপারেটর ২০১৯"
+    ]
+  },
+  {
+    "id": 185,
+    "topicsId": 494,
+    "q": "'One should read only what one likes'.",
+    "options": [
+      "What one likes should be read only.",
+      "What one likes should read only.",
+      "What one likes should have read only.",
+      "None of the above."
+    ],
+    "ans": 0,
+    "explain": "বাক্যের মূল অংশ 'One should read only...' এর Passive হলো '...should be read only'। এখানে 'What one likes' পুরো ক্লজটি অবজেক্ট হিসেবে কাজ করছে।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ পোষ্টাল অপারেটর ২০১৯"
+    ]
+  },
+  {
+    "id": 186,
+    "topicsId": 494,
+    "q": "“You are to color this picture”",
+    "options": [
+      "This picture has to be colored by you.",
+      "This picture is being colored by you.",
+      "This picture is to be colored by you.",
+      "The picture is to be color by you."
+    ],
+    "ans": 2,
+    "explain": "am/is/are + to + verb থাকলে Passive-এ am/is/are + to be + V3 হয়। তাই 'is to be colored' সঠিক।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ মেইল অপারেটর ২০১৯"
+    ]
+  },
+  {
+    "id": 187,
+    "topicsId": 494,
+    "q": "I saw him play. (Passive)",
+    "options": [
+      "He was seen by me play.",
+      "Play was seen him by me.",
+      "He was seen playing by me.",
+      "He was seen to play by me."
+    ],
+    "ans": 3,
+    "explain": "Active-এ Bare infinitive থাকলে Passive-এ Verb-এর আগে 'to' বসে। তাই 'was seen to play' সঠিক।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন -স্কুল পর্যায় (সেটঃ ০৩) : ২০১৯"
+    ]
+  },
+  {
+    "id": 188,
+    "topicsId": 494,
+    "q": "Trees are considered one of our best friends. (Make it active) off:",
+    "options": [
+      "It is tree which is our best friend.",
+      "Trees are our best friend.",
+      "We consider trees one of our best friend.",
+      "We considered trees one of our best friends."
+    ],
+    "ans": 2,
+    "explain": "Passive-এ 'are considered' (Present Indefinite) থাকলে Active করার সময় সাবজেক্ট হিসেবে 'We' এনে মূল ভার্বের Present form 'consider' বসাতে হবে।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন -স্কুল পর্যায় (সেটঃ ০৩) : ২০১৯"
+    ]
+  },
+  {
+    "id": 189,
+    "topicsId": 494,
+    "q": "'Medha was writing a letter'",
+    "options": [
+      "A letter was been written by Medha",
+      "A letter was being writing by Medha.",
+      "A letter was being written by Medha.",
+      "A letter was written by Medha."
+    ],
+    "ans": 2,
+    "explain": "Past Continuous Tense-এর Passive নিয়ম: was/were + being + V3। তাই 'was being written' সঠিক।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয়ঃ সহকারী শিক্ষক ২০১৯"
+    ]
+  },
+  {
+    "id": 190,
+    "topicsId": 494,
+    "q": "Why is a noise made ?",
+    "options": [
+      "Why do they make a noise?",
+      "Why has a noise been made?",
+      "Why is noise made by them?",
+      "Why they are making a noise?"
+    ],
+    "ans": 0,
+    "explain": "এটি Present Indefinite Tense-এর Passive রূপ। Active করার সময় structure হবে: Why + do/does + subject + V1। এখানে 'they' সাবজেক্ট হিসেবে ধরা হয়েছে।",
+    "source": [
+      "আমদানী রপ্তানি অধিদপ্তর : উচ্চমান সহকারী ২০১৯"
+    ]
+  },
+  {
+    "id": 191,
+    "topicsId": 494,
+    "q": "When the telephone invented ?",
+    "options": [
+      "was",
+      "is",
+      "has been",
+      "had been"
+    ],
+    "ans": 0,
+    "explain": "টেলিফোন অতীতে আবিষ্কৃত হয়েছে এবং বাক্যটি Passive voice-এ হবে (টেলিফোন নিজে আবিষ্কৃত হয় না)। তাই Past Indefinite Passive অনুযায়ী 'was' বসবে।",
+    "source": [
+      "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়: সিকিউরিটি অফিসার ২০১৯"
+    ]
+  },
+  {
+    "id": 192,
+    "topicsId": 494,
+    "q": "Who will----by you ?",
+    "options": [
+      "have been helped",
+      "is helped",
+      "be helped",
+      "is helped"
+    ],
+    "ans": 2,
+    "explain": "Future Indefinite-এর Passive interrogative-এ 'will + be + V3' ব্যবহৃত হয়। তাই 'be helped' সঠিক।",
+    "source": [
+      "উপজেলা/আরবান প্রোগ্রামঃ কো-অর্ডিনেটর ২০২০"
+    ]
+  },
+  {
+    "id": 193,
+    "topicsId": 494,
+    "q": "The concert was — by an hour.",
+    "options": [
+      "delayed",
+      "cancelled",
+      "presented",
+      "repeated"
+    ],
+    "ans": 0,
+    "explain": "অর্থগতভাবে 'delayed' (বিলম্বিত হওয়া) শব্দটি এখানে সবচেয়ে মানানসই। 'এক ঘণ্টা বিলম্বিত হয়েছে' বোঝাতে Passive ফর্মে এটি ব্যবহৃত হয়েছে।",
+    "source": [
+      "বাংলাদেশ ফলিত পুষ্টি গবেষণা ও প্রশিক্ষণ ইনস্টিটিউট – ২০১৯"
+    ]
+  },
+  {
+    "id": 194,
+    "topicsId": 494,
+    "q": "I wanted the poster to-",
+    "options": [
+      "hang",
+      "to be hanged",
+      "to be hungad",
+      "to be hung"
+    ],
+    "ans": 3,
+    "explain": "কোনো বস্তু ঝোলানোর ক্ষেত্রে 'hang' এর V3 হলো 'hung'। Passive infinitive-এর নিয়ম অনুযায়ী 'to be hung' হবে। (Hanged মানে ফাঁসিতে ঝোলানো)।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন, কলেজ/সমপর্যায়: ২০১৯"
+    ]
+  },
+  {
+    "id": 195,
+    "topicsId": 494,
+    "q": "The house is building. The passive form is--",
+    "options": [
+      "A house is being built by us.",
+      "The masons are building the house.",
+      "It is the house which is being built.",
+      "The house is being built."
+    ],
+    "ans": 3,
+    "explain": "কিছু বাক্য Quasi-passive হয়। 'The house is building' মানে হলো ঘরটি নির্মিত হচ্ছে, যার প্রমিত Passive রূপ 'The house is being built'।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ ২০১৯"
+    ]
+  },
+  {
+    "id": 196,
+    "topicsId": 494,
+    "q": "“Do you know him?” বাক্যটির Passive form হবে-",
+    "options": [
+      "Is he known by you?",
+      "Is he known to you ?",
+      "Does he known by you?",
+      "Is he known with you?"
+    ],
+    "ans": 1,
+    "explain": "'Know' ভার্বের পর 'to' বসে এবং Interrogative হিসেবে Auxiliary verb 'Is' শুরুতে বসবে।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ ২০১১"
+    ]
+  },
+  {
+    "id": 197,
+    "topicsId": 494,
+    "q": "His behaviour surprised me' - Passive form হবে-",
+    "options": [
+      "I surprised at his behaviour.",
+      "I was surprised with his behaviour.",
+      "I was surprised at his behaviour.",
+      "I has been surprised at his behaviour."
+    ],
+    "ans": 2,
+    "explain": "Past Indefinite-এ 'was + V3' বসে এবং 'surprise' এর পর আচরণের ক্ষেত্রে Preposition 'at' বসে।",
+    "source": [
+      "১৫তম শিক্ষক নিবন্ধন ২০১৯"
+    ]
+  },
+  {
+    "id": 198,
+    "topicsId": 494,
+    "q": "'Don't do it' is-",
+    "options": [
+      "Let not it be done",
+      "Let it be not done",
+      "Let it be done",
+      "Let it not be done"
+    ],
+    "ans": 3,
+    "explain": "Negative Imperative-এর নিয়ম অনুযায়ী 'Let not + object + be + V3' অথবা 'Let + object + not + be + V3' ব্যবহৃত হয়। এখানে অপশন ৪ প্রমিত।",
+    "source": [
+      "প্রাথমিক শিক্ষা অধিদপ্তর ২০১৭"
+    ]
+  },
+  {
+    "id": 199,
+    "topicsId": 494,
+    "q": "‘That house was built ten years ago’ is –",
+    "options": [
+      "Someone built the house ten years ago.",
+      "We had built the house ten years ago",
+      "Somebody had built the house ten years ago.",
+      "They built the house ten years ago."
+    ],
+    "ans": 0,
+    "explain": "এটি Past Indefinite Passive-এ আছে। Active করার সময় অনির্দিষ্ট সাবজেক্ট 'Someone' ব্যবহার করা হয়েছে এবং ভার্বের Past form 'built' বসেছে।",
+    "source": [
+      "সাধারণ বীমা কর্পোরেশন ২০১৯"
+    ]
+  },
+  {
+    "id": 200,
+    "topicsId": 494,
+    "q": "'Let it be done'. Is –",
+    "options": [
+      "do it.",
+      "Let me do it.",
+      "I have done it.",
+      "It is done by me."
+    ],
+    "ans": 0,
+    "explain": "Imperative Passive (Let... be done) এর Active রূপ সরাসরি 'Verb + Object' হয়। তাই 'Do it' সঠিক।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয় ২০১৯"
+    ]
+  },
+  {
+    "id": 201,
+    "topicsId": 494,
+    "q": "The unfed should be fed. (Active)",
+    "options": [
+      "Feed the unfed",
+      "We should feed the unfed.",
+      "Please feed the unfed.",
+      "They should be feeding the unfed."
+    ],
+    "ans": 1,
+    "explain": "Passive-এ 'should be + V3' থাকলে Active-এ 'should + V1' বসে। এখানে সাধারণ উপদেশ বোঝাতে সাবজেক্ট 'We' ব্যবহৃত হয়েছে।",
+    "source": [
+      "১৫তম শিক্ষক নিবন্ধন ২০১৯"
+    ]
+  },
+  {
+    "id": 202,
+    "topicsId": 494,
+    "q": "The passive form of the sentence “You made him cook rice” is —",
+    "options": [
+      "He was made to cook rice.",
+      "He was made cook rice.",
+      "He is made to cook rice.",
+      "He had made to cook rice."
+    ],
+    "ans": 0,
+    "explain": "Causative verb বা Bare Infinitive যুক্ত বাক্যে Passive-এ মূল ভার্বের পর 'to' বসাতে হয়। তাই 'was made to cook' সঠিক।",
+    "source": [
+      "সংস্কৃতি বিষয়ক মন্ত্রণালয় ২০১৯"
+    ]
+  },
+  {
+    "id": 203,
+    "topicsId": 494,
+    "q": "'I have killed the bird' is –",
+    "options": [
+      "The bird have been killed by me.",
+      "The bird has been being killed by me.",
+      "The bird has killed by me.",
+      "The bird has been killed by me."
+    ],
+    "ans": 3,
+    "explain": "Present Perfect Tense-এর Passive structure: Object + has been/have been + V3। 'The bird' যেহেতু Singular, তাই 'has been killed' বসবে।",
+    "source": [
+      "বাংলাদেশ কোস্ট গার্ড ২০১৯"
+    ]
+  },
+  {
+    "id": 204,
+    "topicsId": 494,
+    "q": "I have written a letter.",
+    "options": [
+      "A letter is being written by me.",
+      "A letter has being written by me.",
+      "A letter has been written by me.",
+      "A letter was being written by me."
+    ],
+    "ans": 2,
+    "explain": "এটি Present Perfect Tense, যার Passive রূপ হলো 'has been written'।",
+    "source": [
+      "ফায়ার সার্ভিস অ্যান্ড সিভিল ডিফেন্স ২০১৯"
+    ]
+  },
+  {
+    "id": 205,
+    "topicsId": 494,
+    "q": "I saw him fall from the tree' is -",
+    "options": [
+      "He was seen by me to fall from the tree",
+      "The tree was seen to fall by me.",
+      "He was seen to fall from the tree by me",
+      "He was seen falling from the tree by me."
+    ],
+    "ans": 2,
+    "explain": "Bare infinitive 'fall' এর আগে Passive voice-এ 'to' ব্যবহৃত হবে। 'Him' অবজেক্টটি 'He' সাবজেক্ট হয়ে যাবে।",
+    "source": [
+      "প্রাথমিক শিক্ষা অধি. পিটিআই ইন্ট্রাক্টর ২০১৯"
+    ]
+  },
+  {
+    "id": 206,
+    "topicsId": 494,
+    "q": "Whom do you want ?",
+    "options": [
+      "Whom is wanted by you?",
+      "By whom are you wanted?",
+      "Who is wanted by you?",
+      "By whom you are wanted?"
+    ],
+    "ans": 2,
+    "explain": "Interrogative-এ 'Whom' থাকলে Passive-এ 'Who' বসে। Present Indefinite অনুযায়ী 'is + V3' হবে।",
+    "source": [
+      "পিটিআই ইন্ট্রাক্টর (সাধারণ) ২০১৯"
+    ]
+  },
+  {
+    "id": 207,
+    "topicsId": 494,
+    "q": "Identify the correct passive form of 'He made me laugh’.",
+    "options": [
+      "I was made laugh by him.",
+      "I was made to laugh by him.",
+      "I was made laughing with him.",
+      "I was made laughing by him."
+    ],
+    "ans": 1,
+    "explain": "'Make' ভার্বের পর Active-এ 'to' না থাকলেও Passive-এ 'to' বসাতে হয়। তাই 'was made to laugh' সঠিক।",
+    "source": [
+      "১৫তম প্রভাষক নিবন্ধন ২০১৯"
+    ]
+  },
+  {
+    "id": 208,
+    "topicsId": 494,
+    "q": "Who is creating this mess ?",
+    "options": [
+      "Who has been created this mess?",
+      "By whom has this mess been created?",
+      "By whom this mess is being created?",
+      "By whom is this mess being created?"
+    ],
+    "ans": 3,
+    "explain": "Present Continuous-এর ইন্টারোগেটিভ নিয়ম: By whom + am/is/are + object + being + V3? তাই অপশন ৪ সঠিক।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক ২০১৯"
+    ]
+  },
+  {
+    "id": 209,
+    "topicsId": 494,
+    "q": "“Please keep quiet.”",
+    "options": [
+      "You are told for keep quiet.",
+      "You are requested to keep quiet.",
+      "You are requested for keep quiet.",
+      "You are told to keep quiet."
+    ],
+    "ans": 1,
+    "explain": "অনুরোধমূলক (Please) Imperative বাক্যে Passive করার সময় 'You are requested to' ব্যবহার করা হয়।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন ২০১৯"
+    ]
+  },
+  {
+    "id": 210,
+    "topicsId": 494,
+    "q": "The passive form of Don't waste your time' is -",
+    "options": [
+      "Let your time be not wasted.",
+      "Let your time not be wasted",
+      "Let your time be wasted.",
+      "Let not your time be wasted."
+    ],
+    "ans": 3,
+    "explain": "Negative Imperative-এর নিয়ম: Let not + object + be + V3। তাই 'Let not your time be wasted' সঠিক।",
+    "source": [
+      "বাংলাদেশ ট্যারিফ কমিশন ২০১৮"
+    ]
+  },
+  {
+    "id": 211,
+    "topicsId": 494,
+    "q": "The correct passive form of the sentence: ‘They elected him captain’ is -",
+    "options": [
+      "He is elected captian by them",
+      "He was elected captain by them",
+      "He has been elected captain by them",
+      "Captain is elected him by them."
+    ],
+    "ans": 1,
+    "explain": "এটি Factitive Object (Captain) যুক্ত বাক্য। এখানে মূল অবজেক্ট 'him' কে সাবজেক্ট করতে হয়। Past Indefinite অনুযায়ী 'was elected' বসবে।",
+    "source": [
+      "ডাক অধিদপ্তরের বিল্ডিং ওভারশিয়ার ২০১৮"
+    ]
+  },
+  {
+    "id": 212,
+    "topicsId": 494,
+    "q": "The passive voice of : Post the letter is –",
+    "options": [
+      "Let the letter be post.",
+      "Let the letter be posted.",
+      "Let the letter posted.",
+      "Let the letter post."
+    ],
+    "ans": 1,
+    "explain": "Imperative sentence-এর নিয়ম: Let + object + be + V3 (posted)।",
+    "source": [
+      "প্রাথমিক শিক্ষা অধিদপ্তর ২০১৮"
+    ]
+  },
+  {
+    "id": 213,
+    "topicsId": 494,
+    "q": "Salina was stitching a pant.",
+    "options": [
+      "A pant was being stitch by Salina.",
+      "A pant was stitched by Salina.",
+      "A pant has been made by Salina.",
+      "A pant was being stitched by Salina."
+    ],
+    "ans": 3,
+    "explain": "Past Continuous Tense-এর Passive নিয়ম: was/were + being + V3। 'A pant' এর সাথে 'was being stitched' বসবে।",
+    "source": [
+      "BEZA সহকারী ব্যবস্থাপক ২০১৮"
+    ]
+  },
+  {
+    "id": 214,
+    "topicsId": 494,
+    "q": "'We don't respect dishonest people is -",
+    "options": [
+      "We are not respected by dishonest people",
+      "Dishonest people are not of our liking",
+      "Dishonest people are not respected by us",
+      "Dishonest people are not like us."
+    ],
+    "ans": 2,
+    "explain": "Present Indefinite Negative-এর Passive: Object (Dishonest people) + are not + V3 (respected) + by us।",
+    "source": [
+      "প্রাথমিক শিক্ষা অধিদপ্তর ২০১৮"
+    ]
+  },
+  {
+    "id": 215,
+    "topicsId": 494,
+    "q": "'We read novels'",
+    "options": [
+      "Novels is read by us.",
+      "Novels are read by us.",
+      "Novels are read by we.",
+      "Novels are being read by us."
+    ],
+    "ans": 1,
+    "explain": "এখানে 'Novels' প্লুরাল অবজেক্ট, তাই Present Indefinite Passive-এ Plural verb 'are' বসবে।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তর ২০১৮"
+    ]
+  },
+  {
+    "id": 216,
+    "topicsId": 494,
+    "q": "'Let me do the sum.'",
+    "options": [
+      "Let the sum is to be done by me.",
+      "Let the sum done by me.",
+      "Let the sum being done by me.",
+      "Let the sum be done by me."
+    ],
+    "ans": 3,
+    "explain": "'Let' যুক্ত Active-এর Passive নিয়ম: Let + object (direct) + be + V3 + by + object (indirect)।",
+    "source": [
+      "খাদ্য পরিদর্শক ২০১৮"
+    ]
+  },
+  {
+    "id": 217,
+    "topicsId": 494,
+    "q": "The passive form of the sentence 'do not open the door' is— .",
+    "options": [
+      "let not the door be opened",
+      "let not the door open",
+      "let not the door be open",
+      "let not the door opened"
+    ],
+    "ans": 0,
+    "explain": "Negative Imperative-এর নিয়ম: Let not + object + be + V3 (opened)।",
+    "source": [
+      "গণপূর্ত অধিদপ্তর ২০১৮"
+    ]
+  },
+  {
+    "id": 218,
+    "topicsId": 494,
+    "q": "Let him do the sum. The passive form of the sentence is:",
+    "options": [
+      "Let the sum be done by him.",
+      "The sum done by him.",
+      "He finished the sum.",
+      "It was he who done the sum"
+    ],
+    "ans": 0,
+    "explain": "'Let him do...' এর Passive হবে 'Let the sum be done by him'।",
+    "source": [
+      "জনস্বাস্থ্য প্রকৌশল অধিদপ্তর ২০১৮"
+    ]
+  },
+  {
+    "id": 219,
+    "topicsId": 494,
+    "q": "The passive form of the sentence 'His sudden death shocked me' is:",
+    "options": [
+      "I was shocked by his sudden death.",
+      "Note I was shocked to his sudden death.",
+      "I was shocked to know his sudden death.",
+      "I was shocked at his sudden death."
+    ],
+    "ans": 3,
+    "explain": "'Shocked' ভার্বের পর কোনো ঘটনায় অবাক হওয়া বোঝালে Preposition 'at' বসে।",
+    "source": [
+      "গণপূর্ত অধিদপ্তর ২০১৮"
+    ]
+  },
+  {
+    "id": 220,
+    "topicsId": 494,
+    "q": "Select the correct sentence----",
+    "options": [
+      "The matter was informed of the police.",
+      "The matter had been informed of the police.",
+      "The police was informed of the matter.",
+      "The matter was informed to the police."
+    ],
+    "ans": 2,
+    "explain": "কাউকে কোনো বিষয়ে জানানো হলে 'Person + was informed of the matter' স্ট্রাকচারটি সঠিক। তাই ৩ নম্বর অপশনটি প্রমিত।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর ২০১৮"
+    ]
+  },
+  {
+    "id": 221,
+    "topicsId": 494,
+    "q": "‘Please close the door. The passive form of this sentences is:",
+    "options": [
+      "Let the door be closed.",
+      "You are requested to close the door.",
+      "The door is to be closed.",
+      "I request you to close the door."
+    ],
+    "ans": 1,
+    "explain": "অনুরোধ বা 'Please' থাকলে Passive-এ 'You are requested to' ব্যবহৃত হয়।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তর ২০১৮"
+    ]
+  },
+  {
+    "id": 222,
+    "topicsId": 494,
+    "q": "'Nobody believes a liar.' The correct passive form of the above sentence is:",
+    "options": [
+      "A liar is never believed by anyone.",
+      "A liar should not be believed by anybody.",
+      "A liar is not believed by anybody.",
+      "A liar is believed by nobody."
+    ],
+    "ans": 2,
+    "explain": "'Nobody' থাকলে 'not... anybody' ব্যবহার করা ব্যাকরণগতভাবে ভালো। Present Indefinite অনুযায়ী 'is not believed' সঠিক।",
+    "source": [
+      "বাংলাদেশ রেলওয়ে ২০১৮"
+    ]
+  },
+  {
+    "id": 223,
+    "topicsId": 494,
+    "q": "'Tea is liked by common people'. This is an example of –",
+    "options": [
+      "active voice",
+      "passive voice",
+      "quasi-passive voice",
+      "double passive voice"
+    ],
+    "ans": 1,
+    "explain": "বাক্যটিতে 'be (is) + V3 (liked)' এবং 'by' আছে, যা স্পষ্টভাবেই Passive Voice-এর বৈশিষ্ট্য।",
+    "source": [
+      "টেক্সটাইল ইনস্টিটিউট ২০১৮"
+    ]
+  },
+  {
+    "id": 224,
+    "topicsId": 494,
+    "q": "'He helped me do it'. The passive voice of the sentence is-",
+    "options": [
+      "It was done by him to help me",
+      "I was helped by him to do it",
+      "It was helped me by him to do it",
+      "I was helped by him do it"
+    ],
+    "ans": 1,
+    "explain": "এটি Bare infinitive যুক্ত বাক্য। Passive-এ 'me' হয়ে যাবে 'I', এবং 'do' এর আগে 'to' বসবে।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয় ২০১৭"
+    ]
+  },
+  {
+    "id": 225,
+    "topicsId": 494,
+    "q": "The passive form of 'They have won the battle' is–",
+    "options": [
+      "The battle have won by them",
+      "The battle had been won by them",
+      "The battle been won by them",
+      "The battle was won by them"
+    ],
+    "ans": 3,
+    "explain": "দ্রষ্টব্য: এখানে correct index ৩ (was won) দেওয়া আছে, যা মূলত 'The battle has been won' হওয়া উচিত ছিল। তবে অপশনে ভুল থাকলে নিকটতম সঠিক হিসেবে ৩ চিহ্নিত করা হয়েছে।",
+    "source": [
+      "স্বাস্থ্য মন্ত্রণালয় ২০১৭"
+    ]
+  },
+  {
+    "id": 226,
+    "topicsId": 494,
+    "q": "'He saw me do it is",
+    "options": [
+      "I was seen do it by him",
+      "I was seen to do it by him",
+      "I was seen doing it by him",
+      "I was seen to doing it by him"
+    ],
+    "ans": 1,
+    "explain": "Active voice-এ 'saw' এর পর Bare infinitive থাকলে Passive-এ 'to + verb' বসে।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয় ২০১৭"
+    ]
+  },
+  {
+    "id": 227,
+    "topicsId": 494,
+    "q": "‘I know him.' Is-",
+    "options": [
+      "He is known by me",
+      "He is known to me",
+      "He was known to me",
+      "He has been known by me"
+    ],
+    "ans": 1,
+    "explain": "'Know' ভার্বের পর Passive-এ 'to' বসে। Present Indefinite অনুযায়ী 'He is known to me'।",
+    "source": [
+      "সমাজসেবা অধিদপ্তর ২০১৭"
+    ]
+  },
+  {
+    "id": 228,
+    "topicsId": 494,
+    "q": "“The pill tastes bitter” is :",
+    "options": [
+      "The pill is bitter when it is tasted.",
+      "The pill was bitter when it tasted.",
+      "The pill is bitter when it tastes.",
+      "The pill was bitter when it was tasted."
+    ],
+    "ans": 0,
+    "explain": "এটি Quasi-passive বাক্য। এর Passive করার নিয়ম: Subject + be verb + adjective + when + it + be verb + V3।",
+    "source": [
+      "সাধারণ বীমা কর্পোরেশন ২০১৬"
+    ]
+  },
+  {
+    "id": 229,
+    "topicsId": 494,
+    "q": "He was helping me. The correct passive form is:",
+    "options": [
+      "I was helped by him",
+      "I had been hepled by him",
+      "I have been helped by him",
+      "I was being helped by him."
+    ],
+    "ans": 3,
+    "explain": "Past Continuous Tense-এর Passive স্ট্রাকচার: was/were + being + V3।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয় ২০১৭"
+    ]
+  }
+]

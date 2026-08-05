@@ -1,0 +1,1872 @@
+{
+  "v0001": {
+    "word": "Verdant",
+    "bn_meaning": "সবুজ, শ্যামল",
+    "pos": "adjective"
+  },
+  "v0002": {
+    "word": "Indolent",
+    "bn_meaning": "অলস, কর্মবিমুখ",
+    "pos": "adjective"
+  },
+  "v0003": {
+    "word": "Hedonistic",
+    "bn_meaning": "সুখভোগী",
+    "pos": "adjective"
+  },
+  "v0004": {
+    "word": "Foresight",
+    "bn_meaning": "ভবিষ্যৎদর্শিতা",
+    "pos": "noun"
+  },
+  "v0005": {
+    "word": "Industrious",
+    "bn_meaning": "পরিশ্রমী",
+    "pos": "adjective"
+  },
+  "v0006": {
+    "word": "Indefatigably",
+    "bn_meaning": "অক্লান্তভাবে",
+    "pos": "adverb"
+  },
+  "v0007": {
+    "word": "Hoard",
+    "bn_meaning": "সঞ্চয় করা",
+    "pos": "verb"
+  },
+  "v0008": {
+    "word": "Persevered",
+    "bn_meaning": "অধ্যবসায় চালিয়ে যাওয়া",
+    "pos": "verb"
+  },
+  "v0009": {
+    "word": "Scorching",
+    "bn_meaning": "প্রখর, ঝলসানো",
+    "pos": "adjective"
+  },
+  "v0010": {
+    "word": "Arduous",
+    "bn_meaning": "কষ্টসাধ্য",
+    "pos": "adjective"
+  },
+  "v0011": {
+    "word": "Leisure",
+    "bn_meaning": "অবসর",
+    "pos": "noun"
+  },
+  "v0012": {
+    "word": "Succinctly",
+    "bn_meaning": "সংক্ষেপে",
+    "pos": "adverb"
+  },
+  "v0013": {
+    "word": "Imminent",
+    "bn_meaning": "আসন্ন",
+    "pos": "adjective"
+  },
+  "v0014": {
+    "word": "Frivolous",
+    "bn_meaning": "তুচ্ছ, অসার",
+    "pos": "adjective"
+  },
+  "v0015": {
+    "word": "Sustenance",
+    "bn_meaning": "জীবিকা, খাদ্য",
+    "pos": "noun"
+  },
+  "v0016": {
+    "word": "Admonition",
+    "bn_meaning": "সতর্কবাণী",
+    "pos": "noun"
+  },
+  "v0017": {
+    "word": "Disdain",
+    "bn_meaning": "ঘৃণা/অবজ্ঞা",
+    "pos": "noun"
+  },
+  "v0018": {
+    "word": "Pessimistic",
+    "bn_meaning": "নৈরাশ্যবাদী",
+    "pos": "adjective"
+  },
+  "v0019": {
+    "word": "Paranoid",
+    "bn_meaning": "অতিরিক্ত সন্দেহপ্রবণ",
+    "pos": "adjective"
+  },
+  "v0020": {
+    "word": "Frigid",
+    "bn_meaning": "হিমশীতল",
+    "pos": "adjective"
+  },
+  "v0021": {
+    "word": "Famine",
+    "bn_meaning": "দুর্ভিক্ষ",
+    "pos": "noun"
+  },
+  "v0022": {
+    "word": "Famished",
+    "bn_meaning": "ক্ষুধার্ত",
+    "pos": "adjective"
+  },
+  "v0023": {
+    "word": "Trembling",
+    "bn_meaning": "কাঁপতে থাকা",
+    "pos": "adjective"
+  },
+  "v0024": {
+    "word": "Pleaded",
+    "bn_meaning": "অনুনয় করা",
+    "pos": "verb"
+  },
+  "v0025": {
+    "word": "Sternly",
+    "bn_meaning": "কঠোরভাবে",
+    "pos": "adverb"
+  },
+  "v0026": {
+    "word": "Provident",
+    "bn_meaning": "দূরদর্শী",
+    "pos": "adjective"
+  },
+  "v0027": {
+    "word": "Destiny",
+    "bn_meaning": "ভাগ্য",
+    "pos": "noun"
+  },
+  "v0028": {
+    "word": "Destitution",
+    "bn_meaning": "দারিদ্র্য",
+    "pos": "noun"
+  },
+  "v0029": {
+    "word": "Procrastinate",
+    "bn_meaning": "কাজ ফেলে রাখা",
+    "pos": "verb"
+  },
+  "v0030": {
+    "word": "Consequence",
+    "bn_meaning": "ফলাফল",
+    "pos": "noun"
+  },
+  "v0031": {
+    "word": "Artifice",
+    "bn_meaning": "কৃত্রিম কৌশল",
+    "pos": "noun"
+  },
+  "v0032": {
+    "word": "Cunning",
+    "bn_meaning": "চতুর",
+    "pos": "adjective"
+  },
+  "v0033": {
+    "word": "Hook",
+    "bn_meaning": "ফাঁদ",
+    "pos": "noun"
+  },
+  "v0034": {
+    "word": "Embarrassed",
+    "bn_meaning": "লজ্জিত",
+    "pos": "adjective"
+  },
+  "v0035": {
+    "word": "Disgraceful",
+    "bn_meaning": "বাজে/অসুন্দর",
+    "pos": "adjective"
+  },
+  "v0036": {
+    "word": "Mock",
+    "bn_meaning": "বিদ্রুপ করা",
+    "pos": "verb"
+  },
+  "v0037": {
+    "word": "Devious",
+    "bn_meaning": "কুটিল",
+    "pos": "adjective"
+  },
+  "v0038": {
+    "word": "Pompous",
+    "bn_meaning": "দাম্ভিক",
+    "pos": "adjective"
+  },
+  "v0039": {
+    "word": "Assertive",
+    "bn_meaning": "দৃঢ়প্রত্যয়ী",
+    "pos": "adjective"
+  },
+  "v0040": {
+    "word": "Cumbersome",
+    "bn_meaning": "ঝামেলাযুক্ত",
+    "pos": "adjective"
+  },
+  "v0041": {
+    "word": "Agile",
+    "bn_meaning": "ক্ষিপ্র",
+    "pos": "adjective"
+  },
+  "v0042": {
+    "word": "Swift",
+    "bn_meaning": "দ্রুত",
+    "pos": "adjective"
+  },
+  "v0043": {
+    "word": "Naive",
+    "bn_meaning": "সরল/অনভিজ্ঞ",
+    "pos": "adjective"
+  },
+  "v0044": {
+    "word": "Hyperbolic",
+    "bn_meaning": "অতিরঞ্জিত",
+    "pos": "adjective"
+  },
+  "v0045": {
+    "word": "Convinced",
+    "bn_meaning": "বিশ্বাস করানো হয়েছে এমন",
+    "pos": "adjective"
+  },
+  "v0046": {
+    "word": "Fashionable",
+    "bn_meaning": "চলতি ধার",
+    "pos": "adjective"
+  },
+  "v0047": {
+    "word": "Astute",
+    "bn_meaning": "বিচক্ষণ",
+    "pos": "adjective"
+  },
+  "v0048": {
+    "word": "Skeptical",
+    "bn_meaning": "সংশয়ী",
+    "pos": "adjective"
+  },
+  "v0049": {
+    "word": "Candidly",
+    "bn_meaning": "অকপটে",
+    "pos": "adverb"
+  },
+  "v0050": {
+    "word": "Inconvenient",
+    "bn_meaning": "অসুবিধাজনক",
+    "pos": "adjective"
+  },
+  "v0051": {
+    "word": "Trapped",
+    "bn_meaning": "আটকানো",
+    "pos": "adjective"
+  },
+  "v0052": {
+    "word": "Speechless",
+    "bn_meaning": "নির্বাক",
+    "pos": "adjective"
+  },
+  "v0053": {
+    "word": "Flush",
+    "bn_meaning": "রক্তিম হওয়া",
+    "pos": "adjective"
+  },
+  "v0054": {
+    "word": "Deceit",
+    "bn_meaning": "প্রতারণা",
+    "pos": "noun"
+  },
+  "v0055": {
+    "word": "Jeer",
+    "bn_meaning": "ব্যঙ্গ করা",
+    "pos": "verb"
+  },
+  "v0056": {
+    "word": "Humiliated",
+    "bn_meaning": "অপমানিত",
+    "pos": "adjective"
+  },
+  "v0057": {
+    "word": "Hastily",
+    "bn_meaning": "দ্রুততার সাথে",
+    "pos": "adverb"
+  },
+  "v0058": {
+    "word": "Loss",
+    "bn_meaning": "ক্ষতি",
+    "pos": "noun"
+  },
+  "v0059": {
+    "word": "Remedy",
+    "bn_meaning": "প্রতিকার",
+    "pos": "noun"
+  },
+  "v0060": {
+    "word": "Trust",
+    "bn_meaning": "বিশ্বাস",
+    "pos": "noun"
+  },
+  "v0061": {
+    "word": "Voracious",
+    "bn_meaning": "ক্ষুধার্ত, লোভী",
+    "pos": "adjective"
+  },
+  "v0062": {
+    "word": "Gargantuan",
+    "bn_meaning": "খুব বড়, বিশাল",
+    "pos": "adjective"
+  },
+  "v0063": {
+    "word": "Abundance",
+    "bn_meaning": "আধিক্য, প্রাচুর্য",
+    "pos": "noun"
+  },
+  "v0064": {
+    "word": "Persistent",
+    "bn_meaning": "নাছোড়বান্দা, অবিচল",
+    "pos": "adjective"
+  },
+  "v0065": {
+    "word": "Elusive",
+    "bn_meaning": "অধরা, দুর্লভ",
+    "pos": "adjective"
+  },
+  "v0066": {
+    "word": "Feeble",
+    "bn_meaning": "দুর্বল",
+    "pos": "adjective"
+  },
+  "v0067": {
+    "word": "Futile",
+    "bn_meaning": "বৃথা, নিষ্ফল",
+    "pos": "adjective"
+  },
+  "v0068": {
+    "word": "Arrogant",
+    "bn_meaning": "অহংকারী",
+    "pos": "adjective"
+  },
+  "v0069": {
+    "word": "Candid",
+    "bn_meaning": "অকপট, স্পষ্টবাদী",
+    "pos": "adjective"
+  },
+  "v0070": {
+    "word": "Conceal",
+    "bn_meaning": "গোপন করা",
+    "pos": "verb"
+  },
+  "v0071": {
+    "word": "Despair",
+    "bn_meaning": "হতাশা",
+    "pos": "noun"
+  },
+  "v0072": {
+    "word": "Magnanimous",
+    "bn_meaning": "মহানুভব, ক্ষমাশীল",
+    "pos": "adjective"
+  },
+  "v0073": {
+    "word": "Plausible",
+    "bn_meaning": "বিশ্বাসযোগ্য",
+    "pos": "adjective"
+  },
+  "v0074": {
+    "word": "Belittle",
+    "bn_meaning": "ছোট করা, তুচ্ছ করা",
+    "pos": "verb"
+  },
+  "v0075": {
+    "word": "Boast",
+    "bn_meaning": "অহংকার করা",
+    "pos": "verb"
+  },
+  "v0076": {
+    "word": "Vigorous",
+    "bn_meaning": "সক্রিয়, শক্তিশালী",
+    "pos": "adjective"
+  },
+  "v0077": {
+    "word": "Humble",
+    "bn_meaning": "বিনয়ী, নম্র",
+    "pos": "adjective"
+  },
+  "v0078": {
+    "word": "Derisive",
+    "bn_meaning": "বিদ্রূপাত্মক, উপহাসমূলক",
+    "pos": "adjective"
+  },
+  "v0079": {
+    "word": "Sluggish",
+    "bn_meaning": "অলস, ধীর",
+    "pos": "adjective"
+  },
+  "v0080": {
+    "word": "Weary",
+    "bn_meaning": "ক্লান্ত",
+    "pos": "adjective"
+  },
+  "v0081": {
+    "word": "Hasty",
+    "bn_meaning": "তাড়াহুড়ো করে",
+    "pos": "adjective"
+  },
+  "v0082": {
+    "word": "Complacent",
+    "bn_meaning": "আত্মতুষ্ট",
+    "pos": "adjective"
+  },
+  "v0083": {
+    "word": "Diligent",
+    "bn_meaning": "পরিশ্রমী",
+    "pos": "adjective"
+  },
+  "v0084": {
+    "word": "Steadfast",
+    "bn_meaning": "স্থির, অটল",
+    "pos": "adjective"
+  },
+  "v0085": {
+    "word": "Patience",
+    "bn_meaning": "ধৈর্য",
+    "pos": "noun"
+  },
+  "v0086": {
+    "word": "Endurance",
+    "bn_meaning": "সহনশীলতা",
+    "pos": "noun"
+  },
+  "v0087": {
+    "word": "Triumph",
+    "bn_meaning": "বিজয়, সাফল্য",
+    "pos": "noun"
+  },
+  "v0088": {
+    "word": "Crestfallen",
+    "bn_meaning": "হতাশ, বিষণ্ণ",
+    "pos": "adjective"
+  },
+  "v0089": {
+    "word": "Overconfident",
+    "bn_meaning": "অতি-আত্মবিশ্বাসী",
+    "pos": "adjective"
+  },
+  "v0090": {
+    "word": "Victory",
+    "bn_meaning": "বিজয়",
+    "pos": "noun"
+  },
+  "v0091": {
+    "word": "Amiable",
+    "bn_meaning": "বন্ধুত্বপূর্ণ, সদাশয়",
+    "pos": "adjective"
+  },
+  "v0092": {
+    "word": "Delicious",
+    "bn_meaning": "সুস্বাদু",
+    "pos": "adjective"
+  },
+  "v0093": {
+    "word": "Fair",
+    "bn_meaning": "ন্যায্য",
+    "pos": "adjective"
+  },
+  "v0094": {
+    "word": "Equal",
+    "bn_meaning": "সমান",
+    "pos": "adjective"
+  },
+  "v0095": {
+    "word": "Suspect",
+    "bn_meaning": "সন্দেহ করা",
+    "pos": "verb"
+  },
+  "v0096": {
+    "word": "Impartial",
+    "bn_meaning": "নিরপেক্ষ",
+    "pos": "adjective"
+  },
+  "v0097": {
+    "word": "Equitable",
+    "bn_meaning": "ন্যায়সঙ্গত",
+    "pos": "adjective"
+  },
+  "v0098": {
+    "word": "Alleged",
+    "bn_meaning": "অভিযোগ করা",
+    "pos": "adjective"
+  },
+  "v0099": {
+    "word": "Alternate",
+    "bn_meaning": "একান্তর, পর্যায়ক্রমিক",
+    "pos": "verb"
+  },
+  "v0100": {
+    "word": "Anxious",
+    "bn_meaning": "উদ্বিগ্ন",
+    "pos": "adjective"
+  },
+  "v0101": {
+    "word": "Pretend",
+    "bn_meaning": "ভান করা",
+    "pos": "verb"
+  },
+  "v0102": {
+    "word": "Sincere",
+    "bn_meaning": "আন্তরিক",
+    "pos": "adjective"
+  },
+  "v0103": {
+    "word": "Intention",
+    "bn_meaning": "উদ্দেশ্য",
+    "pos": "noun"
+  },
+  "v0104": {
+    "word": "Disappointed",
+    "bn_meaning": "হতাশ",
+    "pos": "adjective"
+  },
+  "v0105": {
+    "word": "Gullible",
+    "bn_meaning": "সহজে বিশ্বাস করে এমন",
+    "pos": "adjective"
+  },
+  "v0106": {
+    "word": "Dispute",
+    "bn_meaning": "বিবাদ",
+    "pos": "verb"
+  },
+  "v0107": {
+    "word": "Honest",
+    "bn_meaning": "সৎ",
+    "pos": "adjective"
+  },
+  "v0108": {
+    "word": "Integrity",
+    "bn_meaning": "সততা, নৈতিকতা",
+    "pos": "noun"
+  },
+  "v0109": {
+    "word": "Reward",
+    "bn_meaning": "পুরস্কার",
+    "pos": "noun"
+  },
+  "v0110": {
+    "word": "Melancholy",
+    "bn_meaning": "দুঃখ, বিষণ্নতা",
+    "pos": "noun"
+  },
+  "v0111": {
+    "word": "Benevolent",
+    "bn_meaning": "দয়ালু, কল্যাণকামী",
+    "pos": "adjective"
+  },
+  "v0112": {
+    "word": "Golden",
+    "bn_meaning": "সোনালী",
+    "pos": "adjective"
+  },
+  "v0113": {
+    "word": "Gratified",
+    "bn_meaning": "সন্তুষ্ট",
+    "pos": "adjective"
+  },
+  "v0114": {
+    "word": "Deny",
+    "bn_meaning": "অস্বীকার করা",
+    "pos": "verb"
+  },
+  "v0115": {
+    "word": "Genuine",
+    "bn_meaning": "প্রকৃত, খাঁটি",
+    "pos": "adjective"
+  },
+  "v0116": {
+    "word": "Grateful",
+    "bn_meaning": "কৃতজ্ঞ",
+    "pos": "adjective"
+  },
+  "v0117": {
+    "word": "Honesty",
+    "bn_meaning": "সততা",
+    "pos": "noun"
+  },
+  "v0118": {
+    "word": "Impressed",
+    "bn_meaning": "মুগ্ধ",
+    "pos": "adjective"
+  },
+  "v0119": {
+    "word": "Bestow",
+    "bn_meaning": "প্রদান করা",
+    "pos": "verb"
+  },
+  "v0120": {
+    "word": "Greedy",
+    "bn_meaning": "লোভী",
+    "pos": "adjective"
+  },
+  "v0121": {
+    "word": "Envious",
+    "bn_meaning": "ঈর্ষান্বিত",
+    "pos": "adjective"
+  },
+  "v0122": {
+    "word": "Covetous",
+    "bn_meaning": "লোভী, পরের জিনিসের প্রতি লোভী",
+    "pos": "adjective"
+  },
+  "v0123": {
+    "word": "Infuriated",
+    "bn_meaning": "প্রচণ্ড ক্রুদ্ধ",
+    "pos": "adjective"
+  },
+  "v0124": {
+    "word": "Thirsty",
+    "bn_meaning": "তৃষ্ণার্ত",
+    "pos": "adjective"
+  },
+  "v0125": {
+    "word": "Tall",
+    "bn_meaning": "লম্বা, উঁচু",
+    "pos": "adjective"
+  },
+  "v0126": {
+    "word": "Excited",
+    "bn_meaning": "উত্তেজিত",
+    "pos": "adjective"
+  },
+  "v0127": {
+    "word": "Narrow",
+    "bn_meaning": "সরু, সংকীর্ণ",
+    "pos": "adjective"
+  },
+  "v0128": {
+    "word": "Observe",
+    "bn_meaning": "পর্যবেক্ষণ করা",
+    "pos": "verb"
+  },
+  "v0129": {
+    "word": "Ingenious",
+    "bn_meaning": "উদ্ভাবনী, মেধাবী",
+    "pos": "adjective"
+  },
+  "v0130": {
+    "word": "Small",
+    "bn_meaning": "ছোট",
+    "pos": "adjective"
+  },
+  "v0131": {
+    "word": "Gradual",
+    "bn_meaning": "ধীরে ধীরে",
+    "pos": "adjective"
+  },
+  "v0132": {
+    "word": "Quench",
+    "bn_meaning": "নিবারণ করা (তৃষ্ণা)",
+    "pos": "verb"
+  },
+  "v0133": {
+    "word": "Tiny",
+    "bn_meaning": "ক্ষুদ্র",
+    "pos": "adjective"
+  },
+  "v0134": {
+    "word": "Mighty",
+    "bn_meaning": "পরাক্রমশালী",
+    "pos": "adjective"
+  },
+  "v0135": {
+    "word": "Colossal",
+    "bn_meaning": "প্রকাণ্ড",
+    "pos": "adjective"
+  },
+  "v0136": {
+    "word": "Petrified",
+    "bn_meaning": "আতঙ্কিত",
+    "pos": "adjective"
+  },
+  "v0137": {
+    "word": "Exonerate",
+    "bn_meaning": "দোষমুক্ত",
+    "pos": "verb"
+  },
+  "v0138": {
+    "word": "Insignificant",
+    "bn_meaning": "তুচ্ছ",
+    "pos": "adjective"
+  },
+  "v0139": {
+    "word": "Desperate",
+    "bn_meaning": "হতাশ",
+    "pos": "adjective"
+  },
+  "v0140": {
+    "word": "Ensnare",
+    "bn_meaning": "ফাঁদে আটকানো",
+    "pos": "verb"
+  },
+  "v0141": {
+    "word": "Struggle",
+    "bn_meaning": "সংগ্রাম",
+    "pos": "verb"
+  },
+  "v0142": {
+    "word": "Reverberated",
+    "bn_meaning": "প্রতিধ্বনিত",
+    "pos": "verb"
+  },
+  "v0143": {
+    "word": "Sharp",
+    "bn_meaning": "তীক্ষ্ণ",
+    "pos": "adjective"
+  },
+  "v0144": {
+    "word": "Emancipated",
+    "bn_meaning": "মুক্ত",
+    "pos": "adjective"
+  },
+  "v0145": {
+    "word": "Size",
+    "bn_meaning": "আকার",
+    "pos": "noun"
+  },
+  "v0146": {
+    "word": "Courage",
+    "bn_meaning": "সাহস",
+    "pos": "noun"
+  },
+  "v0147": {
+    "word": "Kindness",
+    "bn_meaning": "দয়া",
+    "pos": "noun"
+  },
+  "v0148": {
+    "word": "Mischievous",
+    "bn_meaning": "দুষ্টু",
+    "pos": "adjective"
+  },
+  "v0149": {
+    "word": "Bored",
+    "bn_meaning": "বিরক্ত",
+    "pos": "adjective"
+  },
+  "v0150": {
+    "word": "Ferocious",
+    "bn_meaning": "হিংস্র",
+    "pos": "adjective"
+  },
+  "v0151": {
+    "word": "Virtue",
+    "bn_meaning": "গুণ",
+    "pos": "noun"
+  },
+  "v0152": {
+    "word": "Content",
+    "bn_meaning": "সন্তুষ্ট",
+    "pos": "adjective"
+  },
+  "v0153": {
+    "word": "Impossible",
+    "bn_meaning": "অসম্ভব",
+    "pos": "adjective"
+  },
+  "v0154": {
+    "word": "Dangerous",
+    "bn_meaning": "বিপজ্জনক",
+    "pos": "adjective"
+  },
+  "v0155": {
+    "word": "Taut",
+    "bn_meaning": "টানটান",
+    "pos": "adjective"
+  },
+  "v0156": {
+    "word": "Plead",
+    "bn_meaning": "অনুরোধ",
+    "pos": "verb"
+  },
+  "v0157": {
+    "word": "Burst",
+    "bn_meaning": "ফেটে যাওয়া",
+    "pos": "verb"
+  },
+  "v0158": {
+    "word": "Obstinate",
+    "bn_meaning": "একগুঁয়ে",
+    "pos": "adjective"
+  },
+  "v0159": {
+    "word": "Sudden",
+    "bn_meaning": "হঠাৎ",
+    "pos": "adjective"
+  },
+  "v0160": {
+    "word": "Shocked",
+    "bn_meaning": "হতবাক",
+    "pos": "adjective"
+  },
+  "v0161": {
+    "word": "Grieved",
+    "bn_meaning": "শোকাহত",
+    "pos": "adjective"
+  },
+  "v0162": {
+    "word": "Vanity",
+    "bn_meaning": "অহংকার",
+    "pos": "noun"
+  },
+  "v0163": {
+    "word": "Foolish",
+    "bn_meaning": "বোকা",
+    "pos": "adjective"
+  },
+  "v0164": {
+    "word": "Scarce",
+    "bn_meaning": "দুর্লভ",
+    "pos": "adjective"
+  },
+  "v0165": {
+    "word": "Ephemeral",
+    "bn_meaning": "ক্ষণস্থায়ী",
+    "pos": "adjective"
+  },
+  "v0166": {
+    "word": "Dismissive",
+    "bn_meaning": "উপেক্ষাপূর্ণ",
+    "pos": "adjective"
+  },
+  "v0167": {
+    "word": "Barren",
+    "bn_meaning": "অনুর্বর",
+    "pos": "adjective"
+  },
+  "v0168": {
+    "word": "Destitute",
+    "bn_meaning": "নিঃস্ব",
+    "pos": "adjective"
+  },
+  "v0169": {
+    "word": "Extraordinary",
+    "bn_meaning": "অসাধারণ",
+    "pos": "adjective"
+  },
+  "v0170": {
+    "word": "Prosperous",
+    "bn_meaning": "সমৃদ্ধ",
+    "pos": "adjective"
+  },
+  "v0171": {
+    "word": "Impatient",
+    "bn_meaning": "অধৈর্য",
+    "pos": "adjective"
+  },
+  "v0172": {
+    "word": "Insufficient",
+    "bn_meaning": "অপর্যাপ্ত",
+    "pos": "adjective"
+  },
+  "v0173": {
+    "word": "Blessing",
+    "bn_meaning": "আশীর্বাদ",
+    "pos": "noun"
+  },
+  "v0174": {
+    "word": "Adamant",
+    "bn_meaning": "অনড়",
+    "pos": "adjective"
+  },
+  "v0175": {
+    "word": "Devastated",
+    "bn_meaning": "বিধ্বস্ত",
+    "pos": "adjective"
+  },
+  "v0176": {
+    "word": "Avarice",
+    "bn_meaning": "লোভ",
+    "pos": "noun"
+  },
+  "v0177": {
+    "word": "Imprudent",
+    "bn_meaning": "অবিবেচক",
+    "pos": "adjective"
+  },
+  "v0178": {
+    "word": "Gratitude",
+    "bn_meaning": "কৃতজ্ঞতা",
+    "pos": "noun"
+  },
+  "v0179": {
+    "word": "Greed",
+    "bn_meaning": "লোভ",
+    "pos": "noun"
+  },
+  "v0180": {
+    "word": "Tempting",
+    "bn_meaning": "লোভনীয়",
+    "pos": "adjective"
+  },
+  "v0181": {
+    "word": "Flatter",
+    "bn_meaning": "চাটুকারিতা",
+    "pos": "verb"
+  },
+  "v0182": {
+    "word": "Gorgeous",
+    "bn_meaning": "চমৎকার",
+    "pos": "adjective"
+  },
+  "v0183": {
+    "word": "Melodious",
+    "bn_meaning": "সুরেলা",
+    "pos": "adjective"
+  },
+  "v0184": {
+    "word": "Vain",
+    "bn_meaning": "অহংকারী",
+    "pos": "adjective"
+  },
+  "v0185": {
+    "word": "Flattery",
+    "bn_meaning": "চাটুকারিতা",
+    "pos": "noun"
+  },
+  "v0186": {
+    "word": "Urgent",
+    "bn_meaning": "জরুরি",
+    "pos": "adjective"
+  },
+  "v0187": {
+    "word": "Sagacious",
+    "bn_meaning": "জ্ঞানী",
+    "pos": "adjective"
+  },
+  "v0188": {
+    "word": "Audible",
+    "bn_meaning": "শোনা যায় এমন",
+    "pos": "adjective"
+  },
+  "v0189": {
+    "word": "Cautious",
+    "bn_meaning": "সতর্ক",
+    "pos": "adjective"
+  },
+  "v0190": {
+    "word": "Enthusiastic",
+    "bn_meaning": "উৎসাহী",
+    "pos": "adjective"
+  },
+  "v0191": {
+    "word": "Timid",
+    "bn_meaning": "ভীরু",
+    "pos": "adjective"
+  },
+  "v0192": {
+    "word": "Bold",
+    "bn_meaning": "সাহসী",
+    "pos": "adjective"
+  },
+  "v0193": {
+    "word": "Reticent",
+    "bn_meaning": "স্বল্পভাষী",
+    "pos": "adjective"
+  },
+  "v0194": {
+    "word": "Hesitant",
+    "bn_meaning": "দ্বিধাগ্রস্ত",
+    "pos": "adjective"
+  },
+  "v0195": {
+    "word": "Excellent",
+    "bn_meaning": "চমৎকার",
+    "pos": "adjective"
+  },
+  "v0196": {
+    "word": "Luxurious",
+    "bn_meaning": "বিলাসবহুল",
+    "pos": "adjective"
+  },
+  "v0197": {
+    "word": "Simple",
+    "bn_meaning": "সরল",
+    "pos": "adjective"
+  },
+  "v0198": {
+    "word": "Plain",
+    "bn_meaning": "সাধারণ",
+    "pos": "adjective"
+  },
+  "v0199": {
+    "word": "Lavish",
+    "bn_meaning": "আড়ম্বরপূর্ণ",
+    "pos": "adjective"
+  },
+  "v0200": {
+    "word": "Curious",
+    "bn_meaning": "কৌতূহলী",
+    "pos": "adjective"
+  },
+  "v0201": {
+    "word": "Opulent",
+    "bn_meaning": "সমৃদ্ধ",
+    "pos": "adjective"
+  },
+  "v0202": {
+    "word": "Panic",
+    "bn_meaning": "আতঙ্ক",
+    "pos": "noun"
+  },
+  "v0203": {
+    "word": "Terrified",
+    "bn_meaning": "ভীত",
+    "pos": "adjective"
+  },
+  "v0204": {
+    "word": "Serene",
+    "bn_meaning": "শান্ত",
+    "pos": "adjective"
+  },
+  "v0205": {
+    "word": "Danger",
+    "bn_meaning": "বিপদ",
+    "pos": "noun"
+  },
+  "v0206": {
+    "word": "Tranquil",
+    "bn_meaning": "প্রশান্ত",
+    "pos": "adjective"
+  },
+  "v0207": {
+    "word": "Vigilant",
+    "bn_meaning": "সতর্ক",
+    "pos": "adjective"
+  },
+  "v0208": {
+    "word": "Disguise",
+    "bn_meaning": "ছদ্মবেশ",
+    "pos": "verb"
+  },
+  "v0209": {
+    "word": "Detect",
+    "bn_meaning": "শনাক্ত",
+    "pos": "verb"
+  },
+  "v0210": {
+    "word": "Patient",
+    "bn_meaning": "ধৈর্যশীল",
+    "pos": "adjective"
+  },
+  "v0211": {
+    "word": "Suspicious",
+    "bn_meaning": "সন্দেহজনক",
+    "pos": "adjective"
+  },
+  "v0212": {
+    "word": "Ironic",
+    "bn_meaning": "বিদ্রূপাত্মক",
+    "pos": "adjective"
+  },
+  "v0213": {
+    "word": "Powerful",
+    "bn_meaning": "শক্তিশালী",
+    "pos": "adjective"
+  },
+  "v0214": {
+    "word": "Gust",
+    "bn_meaning": "দমকা বাতাস",
+    "pos": "noun"
+  },
+  "v0215": {
+    "word": "Tight",
+    "bn_meaning": "শক্ত",
+    "pos": "adjective"
+  },
+  "v0216": {
+    "word": "Gentle",
+    "bn_meaning": "মৃদু",
+    "pos": "adjective"
+  },
+  "v0217": {
+    "word": "Warm",
+    "bn_meaning": "উষ্ণ",
+    "pos": "adjective"
+  },
+  "v0218": {
+    "word": "Force",
+    "bn_meaning": "শক্তি",
+    "pos": "verb"
+  },
+  "v0219": {
+    "word": "Reflection",
+    "bn_meaning": "প্রতিবিম্ব",
+    "pos": "noun"
+  },
+  "v0220": {
+    "word": "Aggressive",
+    "bn_meaning": "আক্রমণাত্মক",
+    "pos": "adjective"
+  },
+  "v0221": {
+    "word": "Regretful",
+    "bn_meaning": "অনুশোচনায়",
+    "pos": "adjective"
+  },
+  "v0222": {
+    "word": "Daydream",
+    "bn_meaning": "স্বপ্ন দেখা",
+    "pos": "noun"
+  },
+  "v0223": {
+    "word": "Optimistic",
+    "bn_meaning": "আশাবাদী",
+    "pos": "adjective"
+  },
+  "v0224": {
+    "word": "Absorbed",
+    "bn_meaning": "মগ্ন",
+    "pos": "adjective"
+  },
+  "v0225": {
+    "word": "Illusion",
+    "bn_meaning": "বিভ্রম",
+    "pos": "noun"
+  },
+  "v0226": {
+    "word": "Ambition",
+    "bn_meaning": "উচ্চাকাঙ্ক্ষা",
+    "pos": "noun"
+  },
+  "v0227": {
+    "word": "Neglect",
+    "bn_meaning": "অবহেলা",
+    "pos": "verb"
+  },
+  "v0228": {
+    "word": "Tragic",
+    "bn_meaning": "দুঃখজনক",
+    "pos": "adjective"
+  },
+  "v0229": {
+    "word": "Innocent",
+    "bn_meaning": "নির্দোষ",
+    "pos": "adjective"
+  },
+  "v0230": {
+    "word": "Accuse",
+    "bn_meaning": "অভিযোগ",
+    "pos": "verb"
+  },
+  "v0231": {
+    "word": "Pretext",
+    "bn_meaning": "অজুহাত",
+    "pos": "noun"
+  },
+  "v0232": {
+    "word": "Sufficient",
+    "bn_meaning": "যথেষ্ট",
+    "pos": "adjective"
+  },
+  "v0233": {
+    "word": "Lazy",
+    "bn_meaning": "অলস",
+    "pos": "adjective"
+  },
+  "v0234": {
+    "word": "Hungry",
+    "bn_meaning": "ক্ষুধার্ত",
+    "pos": "adjective"
+  },
+  "v0235": {
+    "word": "Selfish",
+    "bn_meaning": "স্বার্থপর",
+    "pos": "adjective"
+  },
+  "v0236": {
+    "word": "Absurd",
+    "bn_meaning": "অযৌক্তিক",
+    "pos": "adjective"
+  },
+  "v0237": {
+    "word": "Benefit",
+    "bn_meaning": "উপকার",
+    "pos": "noun"
+  },
+  "v0238": {
+    "word": "Detriment",
+    "bn_meaning": "ক্ষতি",
+    "pos": "noun"
+  },
+  "v0239": {
+    "word": "Strong",
+    "bn_meaning": "শক্তিশালী",
+    "pos": "adjective"
+  },
+  "v0240": {
+    "word": "Flexible",
+    "bn_meaning": "নমনীয়",
+    "pos": "adjective"
+  },
+  "v0241": {
+    "word": "Rigid",
+    "bn_meaning": "অনমনীয়",
+    "pos": "adjective"
+  },
+  "v0242": {
+    "word": "Stubborn",
+    "bn_meaning": "একগুঁয়ে",
+    "pos": "adjective"
+  },
+  "v0243": {
+    "word": "Intense",
+    "bn_meaning": "তীব্র",
+    "pos": "adjective"
+  },
+  "v0244": {
+    "word": "Bend",
+    "bn_meaning": "বেঁকে যাওয়া",
+    "pos": "verb"
+  },
+  "v0245": {
+    "word": "Intact",
+    "bn_meaning": "অক্ষত",
+    "pos": "adjective"
+  },
+  "v0246": {
+    "word": "Pride",
+    "bn_meaning": "অহংকার",
+    "pos": "noun"
+  },
+  "v0247": {
+    "word": "Humility",
+    "bn_meaning": "বিনয়",
+    "pos": "noun"
+  },
+  "v0248": {
+    "word": "Shallow",
+    "bn_meaning": "অগভীর",
+    "pos": "adjective"
+  },
+  "v0249": {
+    "word": "Long",
+    "bn_meaning": "লম্বা",
+    "pos": "adjective"
+  },
+  "v0250": {
+    "word": "Reciprocate",
+    "bn_meaning": "প্রতিদান",
+    "pos": "verb"
+  },
+  "v0251": {
+    "word": "Slender",
+    "bn_meaning": "সরু",
+    "pos": "adjective"
+  },
+  "v0252": {
+    "word": "Wide",
+    "bn_meaning": "চওড়া",
+    "pos": "adjective"
+  },
+  "v0253": {
+    "word": "Compassionate",
+    "bn_meaning": "সহানুভূতিশীল",
+    "pos": "adjective"
+  },
+  "v0254": {
+    "word": "Miss",
+    "bn_meaning": "লক্ষ্যভ্রষ্ট",
+    "pos": "verb"
+  },
+  "v0255": {
+    "word": "Alarmed",
+    "bn_meaning": "সতর্ক",
+    "pos": "adjective"
+  },
+  "v0256": {
+    "word": "Amazed",
+    "bn_meaning": "বিস্মিত",
+    "pos": "adjective"
+  },
+  "v0257": {
+    "word": "Majestic",
+    "bn_meaning": "মহিমান্বিত",
+    "pos": "adjective"
+  },
+  "v0258": {
+    "word": "Grotesque",
+    "bn_meaning": "কদাকার",
+    "pos": "adjective"
+  },
+  "v0259": {
+    "word": "Deformed",
+    "bn_meaning": "বিকৃত",
+    "pos": "adjective"
+  },
+  "v0260": {
+    "word": "Handicapped",
+    "bn_meaning": "প্রতিবন্ধী",
+    "pos": "adjective"
+  },
+  "v0261": {
+    "word": "Natural",
+    "bn_meaning": "প্রাকৃতিক",
+    "pos": "adjective"
+  },
+  "v0262": {
+    "word": "Petition",
+    "bn_meaning": "আবেদন",
+    "pos": "noun"
+  },
+  "v0263": {
+    "word": "Amused",
+    "bn_meaning": "আনন্দিত",
+    "pos": "adjective"
+  },
+  "v0264": {
+    "word": "Huge",
+    "bn_meaning": "বিশাল",
+    "pos": "adjective"
+  },
+  "v0265": {
+    "word": "Inert",
+    "bn_meaning": "নিষ্ক্রিয়",
+    "pos": "adjective"
+  },
+  "v0266": {
+    "word": "Useless",
+    "bn_meaning": "অকেজো",
+    "pos": "adjective"
+  },
+  "v0267": {
+    "word": "Irritated",
+    "bn_meaning": "বিরক্ত",
+    "pos": "adjective"
+  },
+  "v0268": {
+    "word": "Bad",
+    "bn_meaning": "খারাপ",
+    "pos": "adjective"
+  },
+  "v0269": {
+    "word": "Worse",
+    "bn_meaning": "আরও খারাপ",
+    "pos": "adjective"
+  },
+  "v0270": {
+    "word": "Idle",
+    "bn_meaning": "নিষ্ক্রিয়",
+    "pos": "adjective"
+  },
+  "v0271": {
+    "word": "Squander",
+    "bn_meaning": "অপচয় করা",
+    "pos": "verb"
+  },
+  "v0272": {
+    "word": "Gravely",
+    "bn_meaning": "গুরুতরভাবে",
+    "pos": "adverb"
+  },
+  "v0273": {
+    "word": "Immense",
+    "bn_meaning": "বিশাল",
+    "pos": "adjective"
+  },
+  "v0274": {
+    "word": "Eager",
+    "bn_meaning": "আগ্রহী",
+    "pos": "adjective"
+  },
+  "v0275": {
+    "word": "Meticulous",
+    "bn_meaning": "সতর্ক, যত্নবান",
+    "pos": "adjective"
+  },
+  "v0276": {
+    "word": "Assiduous",
+    "bn_meaning": "অধ্যবসায়ী",
+    "pos": "adjective"
+  },
+  "v0277": {
+    "word": "Astonished",
+    "bn_meaning": "বিস্মিত",
+    "pos": "adjective"
+  },
+  "v0278": {
+    "word": "Abundant",
+    "bn_meaning": "প্রচুর",
+    "pos": "adjective"
+  },
+  "v0279": {
+    "word": "Comprehend",
+    "bn_meaning": "বুঝতে পারা",
+    "pos": "verb"
+  },
+  "v0280": {
+    "word": "Invaluable",
+    "bn_meaning": "অমূল্য",
+    "pos": "adjective"
+  },
+  "v0281": {
+    "word": "Solemn",
+    "bn_meaning": "গম্ভীর",
+    "pos": "adjective"
+  },
+  "v0282": {
+    "word": "Clumsy",
+    "bn_meaning": "অপ্রকৃতিস্থ, বেখাপ্পা",
+    "pos": "adjective"
+  },
+  "v0283": {
+    "word": "Ignored",
+    "bn_meaning": "উপেক্ষা করা",
+    "pos": "adjective"
+  },
+  "v0284": {
+    "word": "Resourceful",
+    "bn_meaning": "উপায়-উদ্ভাবক",
+    "pos": "adjective"
+  },
+  "v0285": {
+    "word": "Motionless",
+    "bn_meaning": "নিশ্চল",
+    "pos": "adjective"
+  },
+  "v0286": {
+    "word": "Nonchalant",
+    "bn_meaning": "উদাসীন",
+    "pos": "adjective"
+  },
+  "v0287": {
+    "word": "Indignant",
+    "bn_meaning": "ক্ষুব্ধ",
+    "pos": "adjective"
+  },
+  "v0288": {
+    "word": "Venture",
+    "bn_meaning": "উদ্যোগ, ঝুঁকি নেওয়া",
+    "pos": "verb"
+  },
+  "v0289": {
+    "word": "Adversity",
+    "bn_meaning": "প্রতিকূলতা",
+    "pos": "noun"
+  },
+  "v0290": {
+    "word": "Ultimate",
+    "bn_meaning": "চূড়ান্ত",
+    "pos": "adjective"
+  },
+  "v0291": {
+    "word": "Heavy",
+    "bn_meaning": "ভারী",
+    "pos": "adjective"
+  },
+  "v0292": {
+    "word": "Reluctant",
+    "bn_meaning": "অনিচ্ছুক",
+    "pos": "adjective"
+  },
+  "v0293": {
+    "word": "Resentful",
+    "bn_meaning": "ক্ষুব্ধ",
+    "pos": "adjective"
+  },
+  "v0294": {
+    "word": "Intolerable",
+    "bn_meaning": "অসহনীয়",
+    "pos": "adjective"
+  },
+  "v0295": {
+    "word": "Deliberate",
+    "bn_meaning": "ইচ্ছাকৃত",
+    "pos": "adjective"
+  },
+  "v0296": {
+    "word": "Diminish",
+    "bn_meaning": "হ্রাস পাওয়া",
+    "pos": "verb"
+  },
+  "v0297": {
+    "word": "Elated",
+    "bn_meaning": "উল্লসিত",
+    "pos": "adjective"
+  },
+  "v0298": {
+    "word": "Triumphant",
+    "bn_meaning": "বিজয়ী",
+    "pos": "adjective"
+  },
+  "v0299": {
+    "word": "Shrewd",
+    "bn_meaning": "ধূর্ত, চতুর",
+    "pos": "adjective"
+  },
+  "v0300": {
+    "word": "Swell",
+    "bn_meaning": "ফুলে ওঠা",
+    "pos": "verb"
+  },
+  "v0301": {
+    "word": "Massive",
+    "bn_meaning": "বিশাল",
+    "pos": "adjective"
+  },
+  "v0302": {
+    "word": "Backfire",
+    "bn_meaning": "উল্টে যাওয়া",
+    "pos": "verb"
+  },
+  "v0303": {
+    "word": "Just",
+    "bn_meaning": "ন্যায়পরায়ণ",
+    "pos": "adjective"
+  },
+  "v0304": {
+    "word": "Disparage",
+    "bn_meaning": "নিন্দা করা",
+    "pos": "verb"
+  },
+  "v0305": {
+    "word": "Conspire",
+    "bn_meaning": "ষড়যন্ত্র করা",
+    "pos": "verb"
+  },
+  "v0306": {
+    "word": "Valiant",
+    "bn_meaning": "সাহসী",
+    "pos": "adjective"
+  },
+  "v0307": {
+    "word": "Determined",
+    "bn_meaning": "দৃঢ়প্রতিজ্ঞ",
+    "pos": "adjective"
+  },
+  "v0308": {
+    "word": "Accumulate",
+    "bn_meaning": "জমা করা",
+    "pos": "verb"
+  },
+  "v0309": {
+    "word": "Audacious",
+    "bn_meaning": "সাহসী",
+    "pos": "adjective"
+  },
+  "v0310": {
+    "word": "Betrayal",
+    "bn_meaning": "বিশ্বাসঘাতকতা",
+    "pos": "noun"
+  },
+  "v0311": {
+    "word": "Truth",
+    "bn_meaning": "সত্য",
+    "pos": "noun"
+  },
+  "v0312": {
+    "word": "Reconcile",
+    "bn_meaning": "মিলিত হওয়া",
+    "pos": "verb"
+  },
+  "v0313": {
+    "word": "Selfless",
+    "bn_meaning": "নিঃস্বার্থ",
+    "pos": "adjective"
+  },
+  "v0314": {
+    "word": "Sacrifice",
+    "bn_meaning": "ত্যাগ",
+    "pos": "noun"
+  },
+  "v0315": {
+    "word": "Premature",
+    "bn_meaning": "অকাল",
+    "pos": "adjective"
+  },
+  "v0316": {
+    "word": "Responsible",
+    "bn_meaning": "দায়িত্বশীল",
+    "pos": "adjective"
+  },
+  "v0317": {
+    "word": "Protective",
+    "bn_meaning": "রক্ষাকারী",
+    "pos": "adjective"
+  },
+  "v0318": {
+    "word": "Mystical",
+    "bn_meaning": "রহস্যময়",
+    "pos": "adjective"
+  },
+  "v0319": {
+    "word": "Magical",
+    "bn_meaning": "জাদুকরী",
+    "pos": "adjective"
+  },
+  "v0320": {
+    "word": "Cruel",
+    "bn_meaning": "নিষ্ঠুর",
+    "pos": "adjective"
+  },
+  "v0321": {
+    "word": "Lustful",
+    "bn_meaning": "কামুক",
+    "pos": "adjective"
+  },
+  "v0322": {
+    "word": "Powerless",
+    "bn_meaning": "শক্তিহীন",
+    "pos": "adjective"
+  },
+  "v0323": {
+    "word": "Assemble",
+    "bn_meaning": "একত্রিত",
+    "pos": "verb"
+  },
+  "v0324": {
+    "word": "Reunite",
+    "bn_meaning": "পুনর্মিলিত",
+    "pos": "verb"
+  },
+  "v0325": {
+    "word": "Dense",
+    "bn_meaning": "ঘন",
+    "pos": "adjective"
+  },
+  "v0326": {
+    "word": "Terror",
+    "bn_meaning": "আতঙ্ক",
+    "pos": "noun"
+  },
+  "v0327": {
+    "word": "Pious",
+    "bn_meaning": "ধার্মিক",
+    "pos": "adjective"
+  },
+  "v0328": {
+    "word": "Intrepid",
+    "bn_meaning": "নির্ভীক",
+    "pos": "adjective"
+  },
+  "v0329": {
+    "word": "Undaunted",
+    "bn_meaning": "অদম্য",
+    "pos": "adjective"
+  },
+  "v0330": {
+    "word": "Composed",
+    "bn_meaning": "স্থির",
+    "pos": "adjective"
+  },
+  "v0331": {
+    "word": "Righteous",
+    "bn_meaning": "ধার্মিক, ন্যায়পরায়ণ",
+    "pos": "adjective"
+  },
+  "v0332": {
+    "word": "Oppress",
+    "bn_meaning": "অত্যাচার করা",
+    "pos": "verb"
+  },
+  "v0333": {
+    "word": "Astounded",
+    "bn_meaning": "বিস্মিত",
+    "pos": "adjective"
+  },
+  "v0334": {
+    "word": "Sincerity",
+    "bn_meaning": "আন্তরিকতা",
+    "pos": "noun"
+  },
+  "v0335": {
+    "word": "Humbled",
+    "bn_meaning": "নম্র",
+    "pos": "adjective"
+  },
+  "v0336": {
+    "word": "Tame",
+    "bn_meaning": "পোষ মানানো",
+    "pos": "adjective"
+  },
+  "v0337": {
+    "word": "Protect",
+    "bn_meaning": "রক্ষা করা",
+    "pos": "verb"
+  },
+  "v0338": {
+    "word": "Legend",
+    "bn_meaning": "কিংবদন্তি",
+    "pos": "noun"
+  },
+  "v0339": {
+    "word": "Disciple",
+    "bn_meaning": "শিষ্য",
+    "pos": "noun"
+  },
+  "v0340": {
+    "word": "Amicable",
+    "bn_meaning": "বন্ধুত্বপূর্ণ",
+    "pos": "adjective"
+  },
+  "v0341": {
+    "word": "Guardian",
+    "bn_meaning": "রক্ষক",
+    "pos": "noun"
+  },
+  "v0342": {
+    "word": "Fearsome",
+    "bn_meaning": "ভয়ংকর",
+    "pos": "adjective"
+  },
+  "v0343": {
+    "word": "Perilous",
+    "bn_meaning": "বিপজ্জনক",
+    "pos": "adjective"
+  },
+  "v0344": {
+    "word": "Almighty",
+    "bn_meaning": "সর্বশক্তিমান",
+    "pos": "adjective"
+  },
+  "v0345": {
+    "word": "Divine",
+    "bn_meaning": "ঐশ্বরিক",
+    "pos": "adjective"
+  },
+  "v0346": {
+    "word": "Mission",
+    "bn_meaning": "লক্ষ্য",
+    "pos": "noun"
+  },
+  "v0347": {
+    "word": "Harmony",
+    "bn_meaning": "সম্প্রীতি",
+    "pos": "noun"
+  },
+  "v0348": {
+    "word": "Courageous",
+    "bn_meaning": "সাহসী",
+    "pos": "adjective"
+  },
+  "v0349": {
+    "word": "Fierce",
+    "bn_meaning": "ভীষণ",
+    "pos": "adjective"
+  },
+  "v0350": {
+    "word": "Epic",
+    "bn_meaning": "মহাকাব্যিক",
+    "pos": "adjective"
+  },
+  "v0351": {
+    "word": "Tremble",
+    "bn_meaning": "কম্পিত",
+    "pos": "verb"
+  },
+  "v0352": {
+    "word": "Vanquish",
+    "bn_meaning": "পরাজিত",
+    "pos": "verb"
+  },
+  "v0353": {
+    "word": "Liberate",
+    "bn_meaning": "মুক্ত",
+    "pos": "verb"
+  },
+  "v0354": {
+    "word": "Exile",
+    "bn_meaning": "নির্বাসন",
+    "pos": "noun"
+  },
+  "v0355": {
+    "word": "Sacred",
+    "bn_meaning": "পবিত্র",
+    "pos": "adjective"
+  },
+  "v0356": {
+    "word": "Shrine",
+    "bn_meaning": "মাজার, পবিত্র স্থান",
+    "pos": "noun"
+  },
+  "v0357": {
+    "word": "Devotion",
+    "bn_meaning": "ভক্তি",
+    "pos": "noun"
+  },
+  "v0358": {
+    "word": "Obstinacy",
+    "bn_meaning": "একগুঁয়েমি",
+    "pos": "noun"
+  },
+  "v0359": {
+    "word": "Eternal",
+    "bn_meaning": "চিরন্তন",
+    "pos": "adjective"
+  },
+  "v0360": {
+    "word": "Worship",
+    "bn_meaning": "পূজা",
+    "pos": "noun"
+  },
+  "v0361": {
+    "word": "Vindictive",
+    "bn_meaning": "প্রতিহিংসাপরায়ণ",
+    "pos": "adjective"
+  },
+  "v0362": {
+    "word": "Subdue",
+    "bn_meaning": "বশীভূত",
+    "pos": "verb"
+  },
+  "v0363": {
+    "word": "Oath",
+    "bn_meaning": "শপথ",
+    "pos": "noun"
+  },
+  "v0364": {
+    "word": "Grief",
+    "bn_meaning": "stricken - শোকাহত",
+    "pos": "noun"
+  },
+  "v0365": {
+    "word": "Defiant",
+    "bn_meaning": "চ্যালেঞ্জিং",
+    "pos": "adjective"
+  },
+  "v0366": {
+    "word": "Devoted",
+    "bn_meaning": "অনুগত",
+    "pos": "adjective"
+  },
+  "v0367": {
+    "word": "Resilient",
+    "bn_meaning": "সহনশীল",
+    "pos": "adjective"
+  },
+  "v0368": {
+    "word": "Eloquent",
+    "bn_meaning": "বাগ্মী",
+    "pos": "adjective"
+  },
+  "v0369": {
+    "word": "Propitiate",
+    "bn_meaning": "তুষ্ট করা",
+    "pos": "verb"
+  },
+  "v0370": {
+    "word": "Omnipotence",
+    "bn_meaning": "সর্বশক্তিমান",
+    "pos": "noun"
+  },
+  "v0371": {
+    "word": "Commence",
+    "bn_meaning": "শুরু",
+    "pos": "verb"
+  },
+  "v0372": {
+    "word": "Reconciliation",
+    "bn_meaning": "পুনর্মিলন",
+    "pos": "noun"
+  },
+  "v0373": {
+    "word": "Fidelity",
+    "bn_meaning": "বিশ্বস্ততা",
+    "pos": "noun"
+  },
+  "v0374": {
+    "word": "Immortal",
+    "bn_meaning": "অমর",
+    "pos": "adjective"
+  }
+}

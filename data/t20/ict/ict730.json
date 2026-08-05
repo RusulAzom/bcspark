@@ -1,0 +1,3974 @@
+[
+  {
+    "id": 1,
+    "topicsId": 730,
+    "q": "'Information Technology' এর বাংলা পরিভাষা কোনটি ?",
+    "options": [
+      "খবর-কারিগরি",
+      "তথ্য-প্রযুক্তি",
+      "সংবাদ-প্রযুক্তি",
+      "সংবাদ-মাধ্যম"
+    ],
+    "ans": 1,
+    "explain": "'Information Technology' এর সরাসরি বাংলা অনুবাদ হলো 'তথ্য-প্রযুক্তি'। এটি তথ্য সংগ্রহ, সংরক্ষণ, প্রক্রিয়াকরণ এবং বিতরণের জন্য ব্যবহৃত প্রযুক্তিকে বোঝায়।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় (ছ ইউনিট): ১৪-১৫"
+    ]
+  },
+  {
+    "id": 2,
+    "topicsId": 730,
+    "q": "কোনটির কারণে পৃথিবী আজ বিশ্বগ্রামে পরিণত হয়েছে ?",
+    "options": [
+      "ফেসবুক",
+      "ভি ও আই পি",
+      "জি পি এস",
+      "তথ্য প্রযুক্তি"
+    ],
+    "ans": 3,
+    "explain": "তথ্য প্রযুক্তির (Information Technology) অভূতপূর্ব উন্নয়নের ফলে ভৌগোলিক দূরত্ব এখন আর কোনো বাধা নয়। পুরো পৃথিবী একটি একক ভার্চুয়াল কমিউনিটি বা 'বিশ্বগ্রাম'-এ পরিণত হয়েছে।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (খ ইউনিট): ১৮-১৯"
+    ]
+  },
+  {
+    "id": 3,
+    "topicsId": 730,
+    "q": "Which of the following is not a term of information technology ?",
+    "options": [
+      "Cyberspace",
+      "Modem",
+      "Light storage",
+      "Upload"
+    ],
+    "ans": 2,
+    "explain": "Cyberspace, Modem এবং Upload শব্দগুলো সরাসরি তথ্য প্রযুক্তির সাথে যুক্ত। কিন্তু 'Light storage' নামে তথ্য প্রযুক্তিতে প্রচলিত কোনো টেকনিক্যাল টার্ম নেই।",
+    "source": [
+      "Sonali Bank Ltd. Officer Cash (Freedom Fighter): 19"
+    ]
+  },
+  {
+    "id": 4,
+    "topicsId": 730,
+    "q": "কোনটি তথ্য প্রযুক্তির উপাদান নয় ?",
+    "options": [
+      "Computer",
+      "Internet",
+      "Radio/TV",
+      "Light"
+    ],
+    "ans": 3,
+    "explain": "কম্পিউটার, ইন্টারনেট এবং রেডিও/টিভি সবই তথ্য আদান-প্রদান বা প্রক্রিয়াকরণে ভূমিকা রাখে। কিন্তু 'Light' বা আলো একটি ভৌত শক্তি, যা নিজে কোনো তথ্য প্রযুক্তি নয় (যদিও অপটিক্যাল ফাইবারে আলো ব্যবহৃত হয়)।",
+    "source": [
+      "জাককানইবি (খ ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 5,
+    "topicsId": 730,
+    "q": "'বিশ্বগ্রাম' (Global Village) ধারণার প্রবক্তা কে ?",
+    "options": [
+      "রবার্ট ম্যাকনামারা",
+      "ফুয়াদ মাসুম",
+      "মার্শাল ম্যাকলুহান",
+      "ইভান্স পল"
+    ],
+    "ans": 2,
+    "explain": "কানাডীয় দার্শনিক মার্শাল ম্যাকলুহান (Marshall McLuhan) ১৯৬০-এর দশকে তার বইয়ের মাধ্যমে সর্বপ্রথম 'Global Village' বা 'বিশ্বগ্রাম' ধারণার প্রবর্তন করেন।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় (ডি- ইউনিট): ১৯-২০"
+    ]
+  },
+  {
+    "id": 6,
+    "topicsId": 730,
+    "q": "বিশ্বগ্রাম ধারণার সাথে কোন বিষয়টি বিশেষভাবে সম্পৃক্ত ?",
+    "options": [
+      "ইন্টারনেট সুবিধার ব্যাপক প্রসার",
+      "গ্রামের সাথে শহরের সহজ যোগাযোগ",
+      "বিশ্বব্যাপী গ্রামকে নগরে পরিবর্তন",
+      "শিক্ষার অবাধ সুযোগ সুবিধার বিস্তার"
+    ],
+    "ans": 0,
+    "explain": "বিশ্বগ্রাম ধারণার মূলে রয়েছে বিশ্বব্যাপী যোগাযোগ ব্যবস্থা। এই যোগাযোগ মূলত ইন্টারনেটের মাধ্যমেই সম্ভব হয়েছে, যা পুরো বিশ্বকে এক সুতোয় বেঁধেছে।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 7,
+    "topicsId": 730,
+    "q": "কোন উপাদানটি Global village এর ক্ষেত্রে সবচেয়ে গুরুত্বপূর্ণ ?",
+    "options": [
+      "ইন্টারনেট",
+      "সংবাদপত্র",
+      "টেলিভিশন",
+      "মোবাইল"
+    ],
+    "ans": 0,
+    "explain": "ইন্টারনেট হলো বিশ্বগ্রামের মূল ভিত্তি। ইন্টারনেটের মাধ্যমেই তথ্য আদান-প্রদান, ই-কমার্স এবং সামাজিক যোগাযোগ সম্ভব হয়, যা বিশ্বগ্রাম তৈরিতে প্রধান ভূমিকা রাখে।",
+    "source": [
+      "যশোর বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 8,
+    "topicsId": 730,
+    "q": "বিশ্বগ্রামের মেরুদণ্ড কোনটি ?",
+    "options": [
+      "হার্ডওয়‍্যার",
+      "সফটওয়‍্যার",
+      "কানেকটিভিটি",
+      "ডেটা"
+    ],
+    "ans": 2,
+    "explain": "কানেকটিভিটি (Connectivity) বা যোগাযোগ ব্যবস্থাকে বিশ্বগ্রামের মেরুদণ্ড বলা হয়। কারণ নেটওয়ার্ক বা সংযোগ ছাড়া বিশ্বগ্রামের কোনো অস্তিত্ব থাকে না।",
+    "source": [
+      "চট্টগ্রাম বোর্ড (উচ্চ মাধ্যমিক): ১৬/ রাজশাহী বিশ্ববিদ্যালয় (ইউনিট-বি; গ্রুপ-১): ২০-২১"
+    ]
+  },
+  {
+    "id": 9,
+    "topicsId": 730,
+    "q": "Internet means-",
+    "options": [
+      "Internet working among different world wide network (ইন্টারনেট বিভিন্ন বিশ্বব্যাপী বিস্তৃত নেটওয়ার্কের মধ্যে কাজ করে)",
+      "Establishing data communication between two LANs (দুটি LAN এর মধ্যে তথ্য যোগাযোগ স্থাপন)",
+      "Transferring only data between two computers (শুধুমাত্র দুটি কম্পিউটারের মধ্যে ডেটা আদানপ্রদান করা)",
+      "None of the above (কোনোটিই নয়)"
+    ],
+    "ans": 0,
+    "explain": "Internet শব্দটি 'Interconnected Network' থেকে এসেছে। এটি বিশ্বজুড়ে ছড়িয়ে থাকা অসংখ্য ছোট-বড় নেটওয়ার্কের একটি সমন্বিত রূপ বা নেটওয়ার্কের নেটওয়ার্ক।",
+    "source": [
+      "Bangladesh Commerce Bank Officer (Grade-III): 00"
+    ]
+  },
+  {
+    "id": 10,
+    "topicsId": 730,
+    "q": "কম্পিউটার থেকে কম্পিউটারে তথ্য আদান-প্রদানের প্রযুক্তিকে বলা হয়-",
+    "options": [
+      "ইন্টারকম",
+      "ইন্টারনেট",
+      "ই-মেইল",
+      "ইন্টারসিড"
+    ],
+    "ans": 1,
+    "explain": "এক কম্পিউটার থেকে অন্য কম্পিউটারে ডেটা আদান-প্রদানের জন্য বিশ্বব্যাপী যে নেটওয়ার্ক ব্যবহৃত হয় তাকে ইন্টারনেট বলা হয়।",
+    "source": [
+      "৩১তম বিসিএস/ ২৪তম বিসিএস (বাতিল)/ কর্মসংস্থান ব্যাংক (ডাটা এন্ট্রি অপারেটর): ২২/ সমাজসেবা অধিদপ্তরের ফিল্ড সুপারভাইজার: ১৭"
+    ]
+  },
+  {
+    "id": 11,
+    "topicsId": 730,
+    "q": "কোনটি প্রথম নেটওয়ার্ক ?",
+    "options": [
+      "CNNET",
+      "NSFNET",
+      "ASPANET",
+      "ARPANET"
+    ],
+    "ans": 3,
+    "explain": "ARPANET (Advanced Research Projects Agency Network) হলো বিশ্বের প্রথম প্যাকেট-সুইচিং নেটওয়ার্ক, যা বর্তমান আধুনিক ইন্টারনেটের ভিত্তি স্থাপন করেছিল।",
+    "source": [
+      "তথ্য ও যোগাযোগ প্রযুক্তি অধিদপ্তরের সহকারী প্রোগ্রামার: ২০"
+    ]
+  },
+  {
+    "id": 12,
+    "topicsId": 730,
+    "q": "Which one of the following is the predecessor of modern internet ? / নিচের কোনটি বর্তমান ইন্টারনেটের পূর্বসূরী ছিল ?",
+    "options": [
+      "BRACNET",
+      "DNET",
+      "ARPANET",
+      "NSFNET"
+    ],
+    "ans": 2,
+    "explain": "১৯৬৯ সালে মার্কিন প্রতিরক্ষা বিভাগের অধীনে তৈরি ARPANET-ই হলো আধুনিক ইন্টারনেটের উত্তরসূরী বা পূর্বসূরী (Predecessor)।",
+    "source": [
+      "Sonali Bank Ltd. Senior Officer: 10"
+    ]
+  },
+  {
+    "id": 13,
+    "topicsId": 730,
+    "q": "কোনটির আবিষ্কারের ফলে নেটওয়ার্কের মাধ্যমে কম্পিউটারসমূহের মধ্যে আন্তঃসংযোগ বিকশিত হতে শুরু করেছে ?",
+    "options": [
+      "Arpanet",
+      "Omninet",
+      "Ithernet",
+      "Intranet"
+    ],
+    "ans": 0,
+    "explain": "ARPANET-এর মাধ্যমেই সর্বপ্রথম নেটওয়ার্ক প্রযুক্তির বিকাশ শুরু হয় এবং কম্পিউটারগুলোর মধ্যে যোগাযোগ সম্ভব হয়।",
+    "source": [
+      "সকল বোর্ড (মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 14,
+    "topicsId": 730,
+    "q": "ARPANET stands for -",
+    "options": [
+      "Advanced Research Project Automatic Network",
+      "Advanced Research Programmed Auto Network",
+      "The Advanced Research Projects Agency Network",
+      "Advanced Research Project Authorized Network"
+    ],
+    "ans": 2,
+    "explain": "ARPANET এর পূর্ণরূপ হলো 'Advanced Research Projects Agency Network'।",
+    "source": [
+      "Bangladesh Bank Data Entry Operator (IT): 20"
+    ]
+  },
+  {
+    "id": 15,
+    "topicsId": 730,
+    "q": "সর্বপ্রথম পরীক্ষামূলকভাবে ইন্টারনেট চালু হয় যে বিশ্ববিদ্যালয়ে-",
+    "options": [
+      "অক্সফোর্ড",
+      "ক্যামব্রিজ",
+      "হার্ভার্ড",
+      "ইউসিএলএ"
+    ],
+    "ans": 3,
+    "explain": "১৯৬৯ সালের ২৯ অক্টোবর ইউনিভার্সিটি অফ ক্যালিফোর্নিয়া, লস অ্যাঞ্জেলেস (UCLA)-এ সর্বপ্রথম ইন্টারনেটের (ARPANET) পরীক্ষামূলক সংযোগ স্থাপিত হয়।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (এ ইউনিট): ১৯-২০"
+    ]
+  },
+  {
+    "id": 16,
+    "topicsId": 730,
+    "q": "ইন্টারনেট চালুর বছর-",
+    "options": [
+      "১৯৫৯",
+      "১৯৬৫",
+      "১৯৬৯",
+      "১৯৮১"
+    ],
+    "ans": 2,
+    "explain": "১৯৬৯ সালে মার্কিন যুক্তরাষ্ট্রের প্রতিরক্ষা বিভাগের গবেষণার ফলস্বরূপ প্রথম পরীক্ষামূলক নেটওয়ার্ক 'ARPANET' চালু হয়।",
+    "source": [
+      "৩৩তম বিসিএস/ বাংলাদেশ পরিসংখ্যান ব্যুরোর ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 17,
+    "topicsId": 730,
+    "q": "ইন্টারনেটের জনক কে ?",
+    "options": [
+      "Charles Babbage",
+      "Vinton Gray Cerf",
+      "Vinton Gray",
+      "Bill Gates"
+    ],
+    "ans": 1,
+    "explain": "ভিন্টন গ্রে সার্ফ (Vinton Gray Cerf) এবং বব কানকে যৌথভাবে ইন্টারনেটের জনক বলা হয়। তারা ইন্টারনেটের প্রধান প্রটোকল TCP/IP তৈরি করেছিলেন।",
+    "source": [
+      "পল্লী উন্নয়ন বোর্ডের উপজেলা পল্লী উন্নয়ন কর্মকর্তা: ১৫"
+    ]
+  },
+  {
+    "id": 18,
+    "topicsId": 730,
+    "q": "ইন্টারনেট ব্যবহারে শীর্ষ দেশ কোনটি ?",
+    "options": [
+      "জাপান",
+      "চীন",
+      "যুক্তরাষ্ট্র",
+      "ভারত"
+    ],
+    "ans": 1,
+    "explain": "জনসংখ্যার আধিক্য এবং প্রযুক্তির প্রসারের কারণে বর্তমানে বিশ্বে চীন ইন্টারনেট ব্যবহারকারীর সংখ্যার দিক থেকে প্রথম স্থানে রয়েছে।",
+    "source": [
+      "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের ওয়ারলেস অপারেটর: ২১/ বাংলাদেশ পরিসংখ্যান ব্যুরোর ডাটা এন্ট্রি অপারেটর: ২১/ বেবিচক এর মেডিকেল অফিসার: ২১"
+    ]
+  },
+  {
+    "id": 19,
+    "topicsId": 730,
+    "q": "তথ্য প্রযুক্তির জন্য অপরিহার্য-",
+    "options": [
+      "উন্নত ইলেকট্রনিক যোগাযোগ ব্যবস্থা",
+      "উন্নত মুদ্রণ যন্ত্র",
+      "অনুবাদক প্রোগ্রাম",
+      "কোনোটিই নয়"
+    ],
+    "ans": 0,
+    "explain": "তথ্য দ্রুত আদান-প্রদান করার জন্য একটি নির্ভরযোগ্য এবং উন্নত ইলেকট্রনিক যোগাযোগ ব্যবস্থা (যেমন ইন্টারনেট, স্যাটেলাইট) সবচেয়ে বেশি জরুরি।",
+    "source": [
+      "গণমাধ্যম ইনস্টিটিউট সহকারী পরিচালক (টেলিভিশন ও বেতার প্রকৌশলী): ০১"
+    ]
+  },
+  {
+    "id": 20,
+    "topicsId": 730,
+    "q": "কোন বিষয়টির সাথে কম্পিউটার সম্পৃক্ত ?",
+    "options": [
+      "ফ্যাক্স",
+      "ই-মেইল",
+      "টেলিগ্রাফ",
+      "টেলিভিশন"
+    ],
+    "ans": 1,
+    "explain": "ই-মেইল (Electronic Mail) পাঠানোর জন্য কম্পিউটার এবং ইন্টারনেট সংযোগ অপরিহার্য।",
+    "source": [
+      "থানা শিক্ষা অফিসার: ০৯/ মাধ্যমিক বিদ্যালয় প্রধান শিক্ষক: ০০"
+    ]
+  },
+  {
+    "id": 21,
+    "topicsId": 730,
+    "q": "ই-মেইল অর্থ কি ?",
+    "options": [
+      "Emergency mail",
+      "Electronic mail",
+      "Express mail",
+      "Electronical mail"
+    ],
+    "ans": 1,
+    "explain": "E-mail এর পূর্ণরূপ হলো 'Electronic Mail'। এটি ইন্টারনেটের মাধ্যমে বার্তা পাঠানোর একটি ডিজিটাল পদ্ধতি।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তরের অফিস সহায়ক: ২১ / NSI - এর কম্পিউটার মুদ্রাক্ষরিক : ১৭"
+    ]
+  },
+  {
+    "id": 22,
+    "topicsId": 730,
+    "q": "The character 'E' in the word 'E-mail' stands for/ E-mail শব্দের E নির্দেশ করে-",
+    "options": [
+      "Express",
+      "Electronic",
+      "Effective",
+      "Efficient",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "ই-মেইল (E-mail) শব্দের 'E' অক্ষরটি 'Electronic' শব্দটিকে নির্দেশ করে।",
+    "source": [
+      "Education Engineer Department Office Assistant: 21/ Agrani Bank Ltd. Officer : 08"
+    ]
+  },
+  {
+    "id": 23,
+    "topicsId": 730,
+    "q": "E-mail কবে আবিষ্কৃত হয় ?",
+    "options": [
+      "১৯৪৯",
+      "১৯৫৯",
+      "১৯৭১",
+      "১৯৮৯"
+    ],
+    "ans": 2,
+    "explain": "১৯৭১ সালে রে টমলিনসন (Ray Tomlinson) সর্বপ্রথম ই-মেইল ব্যবহারের পদ্ধতি আবিষ্কার করেন এবং @ চিহ্নের প্রচলন করেন।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 24,
+    "topicsId": 730,
+    "q": "কোন চিহ্নটি ই-মেইল ঠিকানায় অবশ্যই থাকবে ?",
+    "options": [
+      "$",
+      "#",
+      "&",
+      "@"
+    ],
+    "ans": 3,
+    "explain": "প্রতিটি ই-মেইল ঠিকানায় ইউজার নেম এবং ডোমেইন নেমকে আলাদা করার জন্য মাঝখানে অবশ্যই '@' (at sign) থাকতে হয়।",
+    "source": [
+      "৩৮তম বিসিএস/ ৪৩তম বিসিএস/ বিমান বাংলাদেশ এয়ার লাইনসের কার্গো সহকারী: ২১"
+    ]
+  },
+  {
+    "id": 25,
+    "topicsId": 730,
+    "q": "gmail.com কী নির্দেশ করে ?",
+    "options": [
+      "সার্চ ইঞ্জিন",
+      "ই-মেইল এড্রেস",
+      "মেইল সার্ভার",
+      "প্রটোকল"
+    ],
+    "ans": 2,
+    "explain": "gmail.com মূলত একটি মেইল সার্ভার (Mail Server) নির্দেশ করে।এটি গুগলের একটি অত্যন্ত জনপ্রিয় ই-মেইল সার্ভিস, যা ই-মেইল আদান-প্রদান এবং সংরক্ষণের মূল সার্ভার বা প্ল্যাটফর্ম হিসেবে কাজ করে। (তবে সম্পূর্ণ ঠিকানাটি যেমন: example@gmail.com একটি পূর্ণাঙ্গ ই-মেইল এড্রেস)।",
+    "source": [
+      "GST গুচ্ছভুক্ত বিশ্ববিদ্যালয় (মানবিক): ২০-২১"
+    ]
+  },
+  {
+    "id": 26,
+    "topicsId": 730,
+    "q": "Which one is a valid email address ? / নিচের কোনটি একটি বিধিবিহিত ই-মেইল ঠিকানা ?",
+    "options": [
+      "http://vianet.com/index.html",
+      "F:\\Emailstandard",
+      "Jahid@billme.com",
+      "Chaminade.org/teachers/mailaddresses",
+      "www.mail.yahoo.com"
+    ],
+    "ans": 2,
+    "explain": "একটি সঠিক ই-মেইল ঠিকানায় একটি ইউজার নেম, একটি @ চিহ্ন এবং একটি ডোমেইন নেম থাকতে হয়। এখানে 'Jahid@billme.com' সেই ফরম্যাট মেনে চলেছে।",
+    "source": [
+      "Bangladesh Bank Assistant Director : 10"
+    ]
+  },
+  {
+    "id": 27,
+    "topicsId": 730,
+    "q": "In an email address 'aaa@bbb.ccc', the portion 'bbb' indicates-",
+    "options": [
+      "Domain name",
+      "TCP/IP Layer name",
+      "Domain type",
+      "Protocol name"
+    ],
+    "ans": 0,
+    "explain": "ই-মেইল ঠিকানায় @ চিহ্নের পরের অংশটি হলো ডোমেইন নেম (Domain name)। এখানে 'bbb' হলো সেই সার্ভিস প্রোভাইডারের ডোমেইন নাম।",
+    "source": [
+      "Bangladesh Bank Krishi Bank Ltd. Senior Officer: 17/Sonali Bank Ltd. Senior Officer: 13"
+    ]
+  },
+  {
+    "id": 28,
+    "topicsId": 730,
+    "q": "ই-মেইল ঠিকানায় (@) এর পরের অংশটিকে কি বলে ?",
+    "options": [
+      "ডোমেইন নেম",
+      "ইউজার নেম",
+      "ডোমেইন",
+      "ডোমেইন নেম এলার্ট"
+    ],
+    "ans": 0,
+    "explain": "ই-মেইল ঠিকানার দুটি অংশ থাকে: @ চিহ্নের আগের অংশটি হলো ইউজার নেম এবং পরের অংশটি হলো ডোমেইন নেম।",
+    "source": [
+      "REB-এর অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক: ১৬"
+    ]
+  },
+  {
+    "id": 29,
+    "topicsId": 730,
+    "q": "বর্তমানে সবচেয়ে জনপ্রিয় ই-মেইল সার্ভিস কোনটি ?",
+    "options": [
+      "Yahoo mail",
+      "Gmail",
+      "Hotmail",
+      "কোনোটিই নয়"
+    ],
+    "ans": 1,
+    "explain": "গুগলের উদ্ভাবিত 'Gmail' বর্তমানে পৃথিবীর সবচেয়ে বেশি ব্যবহৃত এবং জনপ্রিয় ফ্রি ই-মেইল সার্ভিস।",
+    "source": [
+      "REB-এর সহকারী এনফোর্সমেন্ট কো-অর্ডিনেটর : ১৭"
+    ]
+  },
+  {
+    "id": 30,
+    "topicsId": 730,
+    "q": "Who is the founder of Gmail ?",
+    "options": [
+      "Paul Buchheit",
+      "Elon Musk",
+      "Jerry Yang",
+      "Sergey Brin"
+    ],
+    "ans": 0,
+    "explain": "গুগলের কর্মী পল বুচেইট (Paul Buchheit) ২০০৪ সালে জিমেইল তৈরি করেন।",
+    "source": [
+      "SIBL Principal Officer: 21"
+    ]
+  },
+  {
+    "id": 31,
+    "topicsId": 730,
+    "q": "হট-মেইল কী ?",
+    "options": [
+      "তাজা খবর",
+      "তড়িৎ তথ্য প্রদান",
+      "ওয়েব ভিত্তিক ই-মেইল সেবা",
+      "ই-মেইল ঠিকানা"
+    ],
+    "ans": 2,
+    "explain": "হট-মেইল (Hotmail) হলো বিশ্বের প্রথম ওয়েব ভিত্তিক ফ্রি ই-মেইল সার্ভিস যা ১৯৯৬ সালে যাত্রা শুরু করে (বর্তমানে এটি মাইক্রোসফট আউটলুক নামে পরিচিত)।",
+    "source": [
+      "কর্মসংস্থান ব্যাংক ডাটা এন্ট্রি অপারেটর : ১৮"
+    ]
+  },
+  {
+    "id": 32,
+    "topicsId": 730,
+    "q": "Who co-founded Hotmail in 1996 and then sold the company to Microsoft ?",
+    "options": [
+      "Shawn Fanning",
+      "Ray Tomlinson",
+      "Sabeer Bhatia",
+      "Ada Byron Lovelace",
+      "None of them"
+    ],
+    "ans": 2,
+    "explain": "সাবির ভাটিয়া (Sabeer Bhatia) এবং জ্যাক স্মিথ ১৯৯৬ সালে হটমেইল প্রতিষ্ঠা করেন এবং পরে মাইক্রোসফটের কাছে বিক্রি করে দেন।",
+    "source": [
+      "Bangladesh Bank. Assistant Director : 12"
+    ]
+  },
+  {
+    "id": 33,
+    "topicsId": 730,
+    "q": "Which of the following is not a free email service provider ?/ নিচের কোনটি একটি ফ্রি ই-মেইল সেবাপ্রদানকারী নয় ?",
+    "options": [
+      "Yahoo",
+      "Hotmail",
+      "AVG",
+      "Gmail",
+      "MSN"
+    ],
+    "ans": 2,
+    "explain": "Yahoo, Hotmail, Gmail এবং MSN সবই ই-মেইল সার্ভিস। কিন্তু AVG হলো একটি বিখ্যাত অ্যান্টিভাইরাস সফটওয়্যার নির্মাতা প্রতিষ্ঠান।",
+    "source": [
+      "Bangladesh Bank Assistant Director: 10"
+    ]
+  },
+  {
+    "id": 34,
+    "topicsId": 730,
+    "q": "Which one is not an e-mail software ? / কোনটি একটি ই-মেইল সফটওয়্যার নয় ?",
+    "options": [
+      "Eudora",
+      "Outlook",
+      "Calypso",
+      "Netscape"
+    ],
+    "ans": 2,
+    "explain": "প্রদত্ত বিকল্পগুলোর মধ্যে Netscape (নেটস্কেপ) একটি ই-মেইল সফটওয়্যার নয়, এটি মূলত একটি জনপ্রিয় ওয়েব ব্রাউজার (Netscape Navigator)। অন্যদিকে Eudora (ইউডোরা) একটি ক্লাসিক ই-মেইল ক্লায়েন্ট; Outlook (আউটলুক) মাইক্রোসফটের একটি সুপরিচিত ই-মেইল ক্লায়েন্ট এবং ব্যক্তিগত তথ্য ব্যবস্থাপক এবং Calypso (ক্যালিপসো) একটি ই-মেইল ক্লায়েন্ট সফটওয়্যার।",
+    "source": [
+      "Dutch Bangla Bank Ltd. Assistant Officer: 09"
+    ]
+  },
+  {
+    "id": 35,
+    "topicsId": 730,
+    "q": "Microsoft Outlook' is a software designed to function as-",
+    "options": [
+      "An Internet Explorer",
+      "A tool to receive and send E-mails",
+      "A publishing software",
+      "None of above"
+    ],
+    "ans": 1,
+    "explain": "Microsoft Outlook মূলত একটি Personal Information Manager যা ই-মেইল আদান-প্রদান এবং ক্যালেন্ডার ব্যবস্থাপনার জন্য ব্যবহৃত হয়।",
+    "source": [
+      "Bank Alfalah Ltd. MTOs: 05"
+    ]
+  },
+  {
+    "id": 36,
+    "topicsId": 730,
+    "q": "For which purpose is MS Outlook used ?",
+    "options": [
+      "Internet browsing",
+      "Using Email",
+      "Creating documents",
+      "Using database",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "এমএস আউটলুক (MS Outlook) প্রধানত প্রাতিষ্ঠানিক ই-মেইল (Using Email) ব্যবস্থাপনার জন্য ব্যবহৃত হয়।",
+    "source": [
+      "UCBI. Management Trainee : 17/ Exim Bank Ltd.Officer: 14"
+    ]
+  },
+  {
+    "id": 37,
+    "topicsId": 730,
+    "q": "কোনো ই-মেইল পাঠাতে হলে নিচের কোনটি অবশ্যই লিখতে হয় ?",
+    "options": [
+      "প্রাপকের ই-মেইল ঠিকানা",
+      "ই-মেইল বিষয়",
+      "তারিখ",
+      "সময়",
+      "সবগুলোই লিখতে হয়"
+    ],
+    "ans": 0,
+    "explain": "ই-মেইল পাঠানোর জন্য প্রাপকের সঠিক ই-মেইল ঠিকানা (Recipient's address) সবচেয়ে গুরুত্বপূর্ণ। বিষয় (Subject) না লিখলেও মেইল পাঠানো সম্ভব, কিন্তু ঠিকানা ছাড়া সম্ভব নয়।",
+    "source": [
+      "সোনালী ব্যাংক লিমিটেড জুনিয়র অফিসার: ১০"
+    ]
+  },
+  {
+    "id": 38,
+    "topicsId": 730,
+    "q": "কোন ই-মেইলে Cc-এর অর্থ কী ?",
+    "options": [
+      "Close circuit",
+      "Carbon copy",
+      "Close contact",
+      "Contact Centre"
+    ],
+    "ans": 1,
+    "explain": "Cc এর পূর্ণরূপ হলো 'Carbon Copy'। এটি একই মেইল প্রধান প্রাপকের পাশাপাশি অন্য কাউকে অনুলিপি হিসেবে পাঠানোর জন্য ব্যবহৃত হয়।",
+    "source": [
+      "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষের সহকারী নিরাপত্তা কর্মকর্তা: ২১"
+    ]
+  },
+  {
+    "id": 39,
+    "topicsId": 730,
+    "q": "ই- মেইল ঠিকানার Bcc ক্ষেত্রে এর পূর্ণরূপ কোনটি ?",
+    "options": [
+      "Blank Carbon Copy",
+      "Block Carbon Copy",
+      "Blind carbon copy",
+      "Bold Carbon Copy"
+    ],
+    "ans": 2,
+    "explain": "Bcc এর পূর্ণরূপ হলো 'Blind Carbon Copy'। এর মাধ্যমে মেইল পাঠালে প্রাপকরা একে অপরের ঠিকানা দেখতে পারেন না।",
+    "source": [
+      "BBAL'র সহকারী ব্যবস্থাপক: ২১/ রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 40,
+    "topicsId": 730,
+    "q": "A separate file sent as a part of an e-mail message is called a/an- / e-mail এর সাথে সংযুক্ত ফাইলকে বলা হয়-",
+    "options": [
+      "Extra",
+      "Annex",
+      "attachment",
+      "Enclosure"
+    ],
+    "ans": 2,
+    "explain": "ই-মেইলের মাধ্যমে কোনো আলাদা ফাইল (যেমন ছবি বা ডকুমেন্ট) পাঠালে তাকে 'Attachment' বলা হয়।",
+    "source": [
+      "Uttara Bank Ltd. Probationary Officer: 09 / বিমান বাংলাদেশ এয়ার লাইনসের কার্গো সহকারী : ২১"
+    ]
+  },
+  {
+    "id": 41,
+    "topicsId": 730,
+    "q": "ই-মেইলের সাথে attachment হিসেবে নিচের কোন ধরনের ফাইল বা ডকুমেন্ট পাঠানো যায় ?",
+    "options": [
+      "Picture",
+      "Power Point File",
+      "Word Document",
+      "All of the above"
+    ],
+    "ans": 3,
+    "explain": "ই-মেইলের সাথে সব ধরনের ডিজিটাল ফাইল যেমন ছবি, প্রেজেন্টেশন এবং ওয়ার্ড ডকুমেন্ট অ্যাটাচমেন্ট হিসেবে পাঠানো সম্ভব।",
+    "source": [
+      "Krishi Bank Data Entry Control Operator: 10"
+    ]
+  },
+  {
+    "id": 42,
+    "topicsId": 730,
+    "q": "এক মেশিন থেকে অন্য মেশিনে ই-মেইল মেসেজ স্থানান্তর করতে কোন TCP/IP প্রটোকল ব্যবহার হয় ?",
+    "options": [
+      "FTP",
+      "RPC",
+      "SNMP",
+      "SMTP"
+    ],
+    "ans": 3,
+    "explain": "ই-মেইল পাঠানোর বা স্থানান্তরের জন্য 'Simple Mail Transfer Protocol' (SMTP) নামক প্রটোকল ব্যবহার করা হয়।",
+    "source": [
+      "৪৪তম বিসিএস"
+    ]
+  },
+  {
+    "id": 43,
+    "topicsId": 730,
+    "q": "Which network protocol is used to send e-mail ?",
+    "options": [
+      "SMTP",
+      "FTP",
+      "POP3",
+      "None of these"
+    ],
+    "ans": 0,
+    "explain": "ই-মেইল পাঠানোর জন্য SMTP প্রটোকল ব্যবহৃত হয়, অন্যদিকে ই-মেইল গ্রহণের জন্য POP3 বা IMAP ব্যবহৃত হয়।",
+    "source": [
+      "ICT Department Assistant Programmer: 2016 / Govt Banks & 2 Financial Institutions Semor Officer: 19"
+    ]
+  },
+  {
+    "id": 44,
+    "topicsId": 730,
+    "q": "ই-মেইল আদান প্রদানে ব্যবহৃত SMTP-এর পূর্ণরূপ কি ?",
+    "options": [
+      "Simple Message Transmission Protocol",
+      "Strategic Mail Transfer Protocol",
+      "Strategic Mail Transmission Protocol",
+      "Simple Mail Transfer Protocol"
+    ],
+    "ans": 3,
+    "explain": "SMTP এর পূর্ণরূপ হলো 'Simple Mail Transfer Protocol'।",
+    "source": [
+      "৩৭তম বিসিএস/ রেলপথ মন্ত্রণালয়ের কম্পি: অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 45,
+    "topicsId": 730,
+    "q": "Which port is used by Simple Mail Transfer Protocol ?",
+    "options": [
+      "21",
+      "25",
+      "34",
+      "55"
+    ],
+    "ans": 1,
+    "explain": "SMTP সার্ভারের ডিফল্ট পোর্ট নম্বর হলো ২৫ (25)। অন্যদিকে পোর্ট ২১ ব্যবহৃত হয় FTP এর জন্য।",
+    "source": [
+      "Combined 5 Banks Officer (Cash): 21"
+    ]
+  },
+  {
+    "id": 46,
+    "topicsId": 730,
+    "q": "নিচের কোন প্রটোকল ব্যবহার করে ই-মেইল ক্লায়েন্টরা ব্যবহারকারীর কম্পিউটারে ই-মেইল ডাউনলোড করে ?",
+    "options": [
+      "TCP",
+      "FTP",
+      "POP3",
+      "SMTP"
+    ],
+    "ans": 2,
+    "explain": "POP3 (Post Office Protocol version 3) প্রটোকল ব্যবহার করে ই-মেইল সার্ভার থেকে মেসেজ ডাউনলোড করা যায়।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের উপজেলা পোস্টমাস্টার: ১৬"
+    ]
+  },
+  {
+    "id": 47,
+    "topicsId": 730,
+    "q": "ই-মেইল গ্রহণ করার অধিক ব্যবহৃত প্রোটকল কোনটি ?",
+    "options": [
+      "POP3",
+      "POP9",
+      "HTML",
+      "SMTP"
+    ],
+    "ans": 0,
+    "explain": "ই-মেইল রিসিভ করার সবচেয়ে সাধারণ প্রটোকল হলো POP3 (Post Office Protocol)।",
+    "source": [
+      "৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 48,
+    "topicsId": 730,
+    "q": "Which of the following cannot be done using e-mail ? / ই-মেইল ব্যবহার করে নিচের কোন কাজটি করা যায় না ?",
+    "options": [
+      "Send an attachment (একটি অ্যাটাচমেন্ট পাঠানো)",
+      "Copy files from a remote computer (দূরবর্তী কোন কম্পিউটার হতে কোন ফাইল কপি করা)",
+      "Forward an e-mail (একটি ই-মেইল পাঠানো)",
+      "Reply to e-mail (একটি ই-মেইলের উত্তর দেওয়া)",
+      "None of these (কোনোটিই নয়)"
+    ],
+    "ans": 1,
+    "explain": "ই-মেইল মূলত বার্তা ও ফাইল পাঠানোর মাধ্যম। দূরবর্তী কোনো কম্পিউটার থেকে সরাসরি ফাইল কপি করার জন্য সাধারণত FTP (File Transfer Protocol) ব্যবহৃত হয়, ই-মেইল নয়।",
+    "source": [
+      "Sonali Bank Ltd.Senior Officer: 10"
+    ]
+  },
+  {
+    "id": 49,
+    "topicsId": 730,
+    "q": "বর্তমানে যে প্রোটোকলের মাধ্যমে ইন্টারনেট ব্যবহার করে টেলিফোন করা যায় তার নাম-",
+    "options": [
+      "ভয়েস ওভার আইপি",
+      "ইন্টারনেট টেলিফোন",
+      "মডেম",
+      "পোস্ট অফিস প্রটোকল"
+    ],
+    "ans": 0,
+    "explain": "VoIP বা ভয়েস ওভার আইপি (Voice over Internet Protocol) প্রযুক্তির মাধ্যমে ইন্টারনেটের ওপর দিয়ে ভয়েস বা অডিও কল পাঠানো যায়।",
+    "source": [
+      "বাংলাদেশ জরিপ অধিদপ্তরের সহকারী সুপারিনটেনডেন্ট অব সার্ভে: ০৫"
+    ]
+  },
+  {
+    "id": 50,
+    "topicsId": 730,
+    "q": "VoIP বলতে বোঝায়-",
+    "options": [
+      "Voice over Internet Protocol",
+      "Voice over Internet Publication",
+      "Voice over International Pressure",
+      "Voice over Internal Press",
+      "Voice over International Press"
+    ],
+    "ans": 0,
+    "explain": "VoIP এর পূর্ণরূপ হলো 'Voice over Internet Protocol'। এটি আইপি নেটওয়ার্কের মাধ্যমে কথা বলার একটি আধুনিক পদ্ধতি।",
+    "source": [
+      "জনস্বাস্থ্য প্রকৌশল অধিদপ্তরের এস্টিমেটর: ১৮ / বাংলাদেশ ব্যাংকের সহকারী পরিচালক: ১৩"
+    ]
+  },
+  {
+    "id": 51,
+    "topicsId": 730,
+    "q": "H.323 Protocol সাধারণত কি কাজে ব্যবহৃত হয় ?",
+    "options": [
+      "File transfer",
+      "VoIP",
+      "Data Security",
+      "File download"
+    ],
+    "ans": 1,
+    "explain": "H.323 একটি আন্তর্জাতিক স্ট্যান্ডার্ড যা অডিও-ভিজ্যুয়াল কমিউনিকেশন সেশনের জন্য ব্যবহৃত হয়। এটি প্রধানত IP নেটওয়ার্কের মাধ্যমে ভিডিও কনফারেন্সিং এবং VoIP (Voice over IP) কল পরিচালনার কাজে ব্যবহৃত হয়।",
+    "source": [
+      "৪০ তম বিসিএস"
+    ]
+  },
+  {
+    "id": 52,
+    "topicsId": 730,
+    "q": "Which of the following application software can be used for real life conversation or teleconferencing over internet ?",
+    "options": [
+      "SPSS",
+      "Skype",
+      "Adobe Acrobat",
+      "Both a and b",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "Skype একটি জনপ্রিয় অ্যাপ্লিকেশন সফটওয়্যার যা ইন্টারনেটের মাধ্যমে ভিডিও কল, ভয়েস চ্যাট এবং টেলিকনফারেন্সিং করার সুবিধা প্রদান করে। SPSS পরিসংখ্যান বিশ্লেষণের জন্য এবং Adobe Acrobat পিডিএফ ফাইল পড়ার জন্য ব্যবহৃত হয়।",
+    "source": [
+      "EXIM Bank Ltd. Officer (Cash): 13"
+    ]
+  },
+  {
+    "id": 53,
+    "topicsId": 730,
+    "q": "'E-Commerce' শব্দটিতে 'E' দ্বারা কী বোঝায়?",
+    "options": [
+      "Express",
+      "Emergency",
+      "Electronic",
+      "Essential"
+    ],
+    "ans": 2,
+    "explain": "E-Commerce এর পূর্ণরূপ হলো Electronic Commerce। এখানে 'E' অক্ষরটি 'Electronic' শব্দটিকে নির্দেশ করে।",
+    "source": [
+      "জগন্নাথ বিশ্ববিদ্যালয় (সি-ইউনিট) : ১২-১৩"
+    ]
+  },
+  {
+    "id": 54,
+    "topicsId": 730,
+    "q": "'E-Commerce' stands for-",
+    "options": [
+      "Election Commerce",
+      "Enhanced Commerce",
+      "Electronic Commerce",
+      "Economic Commerce"
+    ],
+    "ans": 2,
+    "explain": "E-Commerce এর অর্থ হলো ইলেকট্রনিক কমার্স বা বৈদ্যুতিন বাণিজ্য, যা ইন্টারনেট বা অন্য কোনো কম্পিউটার নেটওয়ার্কের মাধ্যমে পণ্য বা সেবা কেনাবেচাকে বোঝায়।",
+    "source": [
+      "Dutch Bangla Bank Limited Assistant Officer : 09"
+    ]
+  },
+  {
+    "id": 55,
+    "topicsId": 730,
+    "q": "ই-কমার্স কী ?",
+    "options": [
+      "নতুন বাজারজাতকরণ পদ্ধতি",
+      "প্রেষণা দানের নতুন পদ্ধতি",
+      "পরিবহন ব্যবস্থা",
+      "বাণিজ্যিক ব্যাংকিং"
+    ],
+    "ans": 0,
+    "explain": "ই-কমার্স হলো তথ্য প্রযুক্তির সাহায্যে পণ্য বা সেবা ক্রয়-বিক্রয়ের একটি আধুনিক এবং নতুন বাজারজাতকরণ পদ্ধতি।",
+    "source": [
+      "Bangladesh Commerce Bank Officer (Grade III): 00"
+    ]
+  },
+  {
+    "id": 56,
+    "topicsId": 730,
+    "q": "ই-কমার্স (E-commerce) কী ?",
+    "options": [
+      "ই-মেইলের মাধ্যমে ব্যবসা",
+      "টেলিফোনের মাধ্যমে ব্যবসা",
+      "টেলেক্সের মাধ্যমে ব্যবসা",
+      "বিদেশে বসে ব্যবসা"
+    ],
+    "ans": 0,
+    "explain": "ইন্টারনেট এবং বিভিন্ন ইলেকট্রনিক মাধ্যম (যেমন ই-মেইল, ওয়েবসাইট) ব্যবহার করে ব্যবসা পরিচালনা করাকেই ই-কমার্স বলা হয়। যদিও বর্তমানে এটি ওয়েব প্ল্যাটফর্ম ভিত্তিক বেশি, তবে প্রাথমিক সংজ্ঞায় ইলেকট্রনিক মাধ্যমের ব্যবহারই মুখ্য।",
+    "source": [
+      "জাতীয় সংসদ সচিবালয়ের সহকারী পরিচালক: ০৬"
+    ]
+  },
+  {
+    "id": 57,
+    "topicsId": 730,
+    "q": "ইন্টারনেটের মাধ্যমে ঘরে বসে ব্যবসা করাকে কি বলা হয় ?",
+    "options": [
+      "ই-মেইল",
+      "ই-কমার্স",
+      "ই-ট্রেড",
+      "ই-গভর্নেন্স"
+    ],
+    "ans": 1,
+    "explain": "ঘরে বসে বা যে কোনো স্থান থেকে ইন্টারনেটের মাধ্যমে পণ্য বা সেবা ক্রয়-বিক্রয় বা বাণিজ্য পরিচালনা করার পদ্ধতিই হলো ই-কমার্স।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের সহকারী শিক্ষক: ১৭"
+    ]
+  },
+  {
+    "id": 58,
+    "topicsId": 730,
+    "q": "ই-কমার্স এর অন্তর্ভুক্ত নয়-",
+    "options": [
+      "বিপণন",
+      "সরবরাহ",
+      "লেনদেন",
+      "প্রচার"
+    ],
+    "ans": 3,
+    "explain": "ই-কমার্সের মূল কার্যাবলীর মধ্যে বিপণন (Marketing), সরবরাহ (Delivery) এবং আর্থিক লেনদেন (Transaction) সরাসরি জড়িত। 'প্রচার' বা বিজ্ঞাপন ই-কমার্সের একটি অংশ হলেও এটি বাণিজ্যের মৌলিক প্রক্রিয়ার বাইরে একটি সহায়ক ভূমিকা পালন করে। (উল্লেখ্য: অনেক ক্ষেত্রে প্রচারকেও অংশ ধরা হয়।)",
+    "source": [
+      "যশোর বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 59,
+    "topicsId": 730,
+    "q": "ই-কমার্সের সুবিধা কোনটি ?",
+    "options": [
+      "বিজ্ঞাপন ও বিপণন",
+      "আইন প্রণয়ন ও প্রয়োগ",
+      "লেনদেনের নিরাপত্তা",
+      "পণ্যের গুণগত মান যাচাই"
+    ],
+    "ans": 0,
+    "explain": "ই-কমার্সের মাধ্যমে খুব সহজে এবং কম খরচে বিশ্বব্যাপী পণ্যের বিজ্ঞাপন ও বিপণন করা সম্ভব হয়।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 60,
+    "topicsId": 730,
+    "q": "ই-কমার্সকে কত ভাগে ভাগ করা যায় ?",
+    "options": [
+      "২",
+      "৩",
+      "৪",
+      "৫"
+    ],
+    "ans": 2,
+    "explain": "ই-কমার্সকে প্রধানত ৪টি ভাগে ভাগ করা যায়: B2B (Business-to-Business), B2C (Business-to-Consumer), C2B (Consumer-to-Business) এবং C2C (Consumer-to-Consumer)।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 61,
+    "topicsId": 730,
+    "q": "What e-commerce business model does iTunes follow ?",
+    "options": [
+      "Service Provider",
+      "e-tailer",
+      "market Creator",
+      "Content Provider"
+    ],
+    "ans": 3,
+    "explain": "Apple-এর iTunes একটি 'Content Provider' মডেল অনুসরণ করে। এটি ডিজিটাল মিডিয়া যেমন গান, মুভি এবং অ্যাপস গ্রাহকদের কাছে সরবরাহ করে।",
+    "source": [
+      "Combined 5 Banks Officer (Cash): 22"
+    ]
+  },
+  {
+    "id": 62,
+    "topicsId": 730,
+    "q": "Which of the following is a C2C e-commerce platform ?",
+    "options": [
+      "Daraz.com",
+      "Bikroy.com",
+      "Aarong.com",
+      "Alibaba.com"
+    ],
+    "ans": 1,
+    "explain": "C2C মানে Consumer-to-Consumer। Bikroy.com একটি এমন প্ল্যাটফর্ম যেখানে একজন সাধারণ গ্রাহক অন্য একজন সাধারণ গ্রাহকের কাছে সরাসরি পণ্য (পুরানো বা নতুন) বিক্রি করতে পারেন।",
+    "source": [
+      "Combined 8 Banks Officer (General): 22"
+    ]
+  },
+  {
+    "id": 63,
+    "topicsId": 730,
+    "q": "ই-কমার্স সাইট amazon.com কত সালে প্রতিষ্ঠিত হয় ?",
+    "options": [
+      "১৯৯০ সালে",
+      "১৯৮৮ সালে",
+      "১৯৯৪ সালে",
+      "১৯৯৮ সালে"
+    ],
+    "ans": 2,
+    "explain": "বিশ্ববিখ্যাত ই-কমার্স প্রতিষ্ঠান Amazon.com ১৯৯৪ সালের ৫ জুলাই জেফ বেজোস (Jeff Bezos) কর্তৃক প্রতিষ্ঠিত হয়।",
+    "source": [
+      "৩৭ তম বিসিএস"
+    ]
+  },
+  {
+    "id": 64,
+    "topicsId": 730,
+    "q": "নিচের কোনটি e-commerce site ?",
+    "options": [
+      "Alibaba",
+      "Alexa",
+      "Wikipedia",
+      "Wordpress"
+    ],
+    "ans": 0,
+    "explain": "Alibaba হলো বিশ্বের অন্যতম বৃহত্তম ই-কমার্স প্ল্যাটফর্ম। অন্যদিকে Alexa একটি র‍্যাঙ্কিং টুল, Wikipedia একটি অনলাইন বিশ্বকোষ এবং Wordpress একটি ওয়েবসাইট তৈরির সিএমএস (CMS)।",
+    "source": [
+      "জাককানইবি (ঘ-ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 65,
+    "topicsId": 730,
+    "q": "দেশের প্রথম অনলাইন সুপার মার্কেটের নাম -",
+    "options": [
+      "chorka.com",
+      "super.com",
+      "jobmarket.com",
+      "jobline.com"
+    ],
+    "ans": 0,
+    "explain": "বাংলাদেশের প্রেক্ষাপটে 'chorka.com' কে শুরুর দিকের বা প্রথম দিকের অনলাইন সুপার শপ হিসেবে গণ্য করা হয়।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (ঘ-ইউনিট): ০৮-০৯"
+    ]
+  },
+  {
+    "id": 66,
+    "topicsId": 730,
+    "q": "Bikroy. com কি ধরনের প্রতিষ্ঠান ?",
+    "options": [
+      "কম্পিউটার ক্রয়-বিক্রয় স্থান",
+      "ইন্টারনেট ভিত্তিক ব্যাংক",
+      "খোলা বাজার",
+      "ইন্টারনেট ভিত্তিক দোকান"
+    ],
+    "ans": 3,
+    "explain": "Bikroy.com হলো একটি ইন্টারনেট ভিত্তিক অনলাইন মার্কেটপ্লেস বা দোকান যেখানে বিভিন্ন পণ্য কেনা এবং বেচা যায়।",
+    "source": [
+      "RAKUK Cashier: 17"
+    ]
+  },
+  {
+    "id": 67,
+    "topicsId": 730,
+    "q": "নিচের কোন সাইটটি কেনা-বেচার জন্য নয় ?",
+    "options": [
+      "ekhanei.com",
+      "Olx.com",
+      "google.com",
+      "amazon.com"
+    ],
+    "ans": 2,
+    "explain": "Google.com হলো একটি সার্চ ইঞ্জিন (Search Engine), এটি কোনো ই-কমার্স বা কেনাকাটার ওয়েবসাইট নয়।",
+    "source": [
+      "৩৮তম বিসিএস / ৩৫তম বিসিএস"
+    ]
+  },
+  {
+    "id": 68,
+    "topicsId": 730,
+    "q": "Which of the following is not an online shopping site ?",
+    "options": [
+      "Ekhanei.com",
+      "Alibaba.com",
+      "Amazon.com",
+      "Paypal.com"
+    ],
+    "ans": 3,
+    "explain": "Paypal.com একটি অনলাইন পেমেন্ট বা লেনদেন করার মাধ্যম (Payment Gateway), এটি কোনো কেনাকাটার বা শপিং সাইট নয়।",
+    "source": [
+      "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (গ ইউডানট): ১৫-১৬"
+    ]
+  },
+  {
+    "id": 69,
+    "topicsId": 730,
+    "q": "চীনের ই-কমার্স প্রতিষ্ঠান আলিবাবা ডটকম এর প্রতিষ্ঠাতা-",
+    "options": [
+      "জাকারবার্গ",
+      "ইশিকাওয়া",
+      "জ্যাক মা",
+      "লি কুয়েন"
+    ],
+    "ans": 2,
+    "explain": "আলিবাবা গ্রুপের প্রতিষ্ঠাতা হলেন চীনের বিখ্যাত উদ্যোক্তা জ্যাক মা (Jack Ma)।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের ফিল্ড সুপারভাইজার : ১৮"
+    ]
+  },
+  {
+    "id": 70,
+    "topicsId": 730,
+    "q": "পৃথিবীর পুঁজিবাজারের ইতিহাসে এ যাবৎকালের সর্ববৃহৎ আই পি ও কোন কোম্পানির ?",
+    "options": [
+      "জ্যাক-মা",
+      "আলিবাবা",
+      "গুগল",
+      "ব্ল‍্যাক-বেরী"
+    ],
+    "ans": 1,
+    "explain": "২০১৪ সালে চীনের ই-কমার্স জায়ান্ট 'আলিবাবা' (Alibaba) নিউ ইয়র্ক স্টক এক্সচেঞ্জে পৃথিবীর ইতিহাসের বৃহত্তম IPO (Initial Public Offering) সম্পন্ন করেছিল।",
+    "source": [
+      "অগ্রণী ব্যাংক লি. সিনিয়র অফিসার: ১৫"
+    ]
+  },
+  {
+    "id": 71,
+    "topicsId": 730,
+    "q": "Which of the following companies has recently launched e-commerce platform for handloom weavers ?",
+    "options": [
+      "Apple",
+      "Google",
+      "Microsoft",
+      "Facebook"
+    ],
+    "ans": 2,
+    "explain": "Microsoft তাদের 're-weave' প্রকল্পের অধীনে তাঁতীদের জন্য একটি ই-কমার্স প্ল্যাটফর্ম চালু করেছিল যাতে তারা সরাসরি পণ্য বিক্রি করতে পারে।",
+    "source": [
+      "4 Govt Banks Officer: 19"
+    ]
+  },
+  {
+    "id": 72,
+    "topicsId": 730,
+    "q": "অনলাইনে মূল্য পরিশোধ করাকে বলা হয়-",
+    "options": [
+      "অনলাইন পেমেন্ট সিস্টেম",
+      "ইলেকট্রনিক পেমেন্ট সিস্টেম",
+      "বিকাশ",
+      "ইন্টারনেট পেমেন্ট সিস্টেম"
+    ],
+    "ans": 1,
+    "explain": "ইন্টারনেট ব্যবহার করে ডিজিটাল উপায়ে মূল্য পরিশোধের সার্বিক ব্যবস্থাকে ইলেকট্রনিক পেমেন্ট সিস্টেম (Electronic Payment System) বলা হয়।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (বি ইউনিট)- ১৯-২০"
+    ]
+  },
+  {
+    "id": 73,
+    "topicsId": 730,
+    "q": "ই-ব্যাংকিং দৈনিক কত ঘণ্টা গ্রাহকসেবা প্রদান করে ?",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    "ans": 3,
+    "explain": "ই-ব্যাংকিং বা অনলাইন ব্যাংকিং ইন্টারনেটের মাধ্যমে পরিচালিত হওয়ায় এটি দিন-রাত ২৪ ঘণ্টা সপ্তাহের ৭ দিনই সচল থাকে।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (বি ইউনিট) : ১৯-২০"
+    ]
+  },
+  {
+    "id": 74,
+    "topicsId": 730,
+    "q": "Banking 24/7 means-",
+    "options": [
+      "24 banking service available in 7 branches",
+      "Virtual banking available 24 hrs and 7 days",
+      "Virtual Banking at 24 degree east and 7 degree north satellite",
+      "7 Banks using 24 ATM machines"
+    ],
+    "ans": 1,
+    "explain": "24/7 এর অর্থ হলো ২৪ ঘণ্টা এবং সপ্তাহের ৭ দিন। এটি নির্দেশ করে যে ব্যাংকিং সেবা বা ভার্চুয়াল ব্যাংকিং কোনো বিরতি ছাড়াই সর্বদা গ্রাহকের জন্য উন্মুক্ত।",
+    "source": [
+      "Dhaka Bank Ltd. MTC: 18"
+    ]
+  },
+  {
+    "id": 75,
+    "topicsId": 730,
+    "q": "ATM বোঝায়-",
+    "options": [
+      "Automated transit Machine",
+      "Automated Teller Machine",
+      "Aysnchronous Teller Machine",
+      "Accurate Transmission Mechanism"
+    ],
+    "ans": 1,
+    "explain": "ATM এর পূর্ণরূপ হলো Automated Teller Machine। এটি একটি ইলেকট্রনিক ডিভাইস যার মাধ্যমে ব্যাংকের কর্মীর সাহায্য ছাড়াই টাকা তোলা বা জমা দেওয়া যায়।",
+    "source": [
+      "ইসলামী ব্যাংক বাংলাদেশ লিমিটেড ফিল্ড অফিসার : ২২"
+    ]
+  },
+  {
+    "id": 76,
+    "topicsId": 730,
+    "q": "'অটোমেটেড টেলার মেশিন'-",
+    "options": [
+      "ব্যাংকিং কার্যক্রমের জন্য ব্যবহৃত হয়",
+      "টিকেট কেনার জন্য ব্যবহৃত হয়",
+      "স্বল্প খরচে ছবি তোলার জন্য ব্যবহৃত হয়",
+      "ভবিষ্যৎ বাণীর জন্য ব্যবহৃত হয়"
+    ],
+    "ans": 0,
+    "explain": "ATM বা অটোমেটেড টেলার মেশিন মূলত ব্যাংকিং লেনদেন এবং নগদ অর্থ উত্তোলনের কাজে ব্যবহৃত হয়।",
+    "source": [
+      "৬ষ্ঠ বিজেএস (সহকারী জজ) প্রাথমিক পরীক্ষা : ১১"
+    ]
+  },
+  {
+    "id": 77,
+    "topicsId": 730,
+    "q": "কোন কার্ডের বিপরীতে ব্যাংক থেকে ঋণ পাওয়া যায় ?",
+    "options": [
+      "Credit Card",
+      "Debit Card",
+      "ATM Card",
+      "Smart Card"
+    ],
+    "ans": 0,
+    "explain": "ক্রেডিট কার্ড (Credit Card) হলো এমন একটি কার্ড যার মাধ্যমে গ্রাহক তার অ্যাকাউন্টে টাকা না থাকলেও ব্যাংক থেকে নির্দিষ্ট সীমা পর্যন্ত ঋণ নিয়ে খরচ করতে পারেন।",
+    "source": [
+      "সোনালী ব্যাংক লি. (অফিসার (ক্যাশ) : ১৪"
+    ]
+  },
+  {
+    "id": 78,
+    "topicsId": 730,
+    "q": "Which company below is not credit card company ?/ নিচের কোনটি ক্রেডিট কার্ড কোম্পানি নয় ?",
+    "options": [
+      "Visa",
+      "Master card",
+      "Diners club",
+      "American express",
+      "All of them"
+    ],
+    "ans": 4,
+    "explain": "প্রশ্নটিতে দেওয়া বিকল্পগুলোর মধ্যে সবগুলোই (Visa, Master card, Diners club, American express) বড় ক্রেডিট কার্ড কোম্পানি বা নেটওয়ার্ক হিসেবে পরিচিত।",
+    "source": [
+      "Islami Bank Bangladesh Ltd. Probationary Officer: 08"
+    ]
+  },
+  {
+    "id": 79,
+    "topicsId": 730,
+    "q": "ডেবিট কার্ড প্রদান করে-",
+    "options": [
+      "স্টক এক্সচেঞ্জ",
+      "এ্যাম্বাসি",
+      "এনবিআর",
+      "ব্যাংক"
+    ],
+    "ans": 3,
+    "explain": "ডেবিট কার্ড ব্যাংক বা আর্থিক প্রতিষ্ঠান তাদের আমানতকারী গ্রাহকদের প্রদান করে থাকে।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (অ-বাণিজ্য গ্রুপ, ফাইন্যান্স এন্ড ব্যাংকিং বিভাগ): ০৮-০৯"
+    ]
+  },
+  {
+    "id": 80,
+    "topicsId": 730,
+    "q": "বাংলাদেশে প্রথম মোবাইল ব্যাংকিং শুরু করে-",
+    "options": [
+      "ব্র্যাক ব্যাংক",
+      "ডাচ-বাংলা ব্যাংক",
+      "এবি ব্যাংক",
+      "সোনালী ব্যাংক"
+    ],
+    "ans": 1,
+    "explain": "বাংলাদেশে ডাচ-বাংলা ব্যাংক লিমিটেড (DBBL) ২০১১ সালে প্রথম মোবাইল ব্যাংকিং সেবা (রকেট) চালু করে।",
+    "source": [
+      "৩৭তম বিসিএস"
+    ]
+  },
+  {
+    "id": 81,
+    "topicsId": 730,
+    "q": "'bKash' is an example of -",
+    "options": [
+      "Application software",
+      "Third generation language",
+      "Mobile banking",
+      "First generation language",
+      "Operating system"
+    ],
+    "ans": 2,
+    "explain": "বিকাশ (bKash) হলো বাংলাদেশের একটি শীর্ষস্থানীয় মোবাইল ব্যাংকিং (MFS) সেবার উদাহরণ।",
+    "source": [
+      "Bangladesh Bank Assistant Director : 13"
+    ]
+  },
+  {
+    "id": 82,
+    "topicsId": 730,
+    "q": "কোন ব্যাংক বাংলাদেশে প্রথম টেলি ব্যাংকিং ব্যবস্থা চালু করে ?",
+    "options": [
+      "National Bank",
+      "Grindlays Bank",
+      "Standard Chartered Bank",
+      "American Express Bank",
+      "IFIC Bank"
+    ],
+    "ans": 2,
+    "explain": "বাংলাদেশে সর্বপ্রথম স্ট্যান্ডার্ড চার্টার্ড ব্যাংক (Standard Chartered Bank) টেলি ব্যাংকিং সেবা চালু করে।",
+    "source": [
+      "জগন্নাথ বিশ্ববিদ্যালয় (গ ইউনিট): ১৫-১৬"
+    ]
+  },
+  {
+    "id": 83,
+    "topicsId": 730,
+    "q": "What does Fin Tech stand for ?",
+    "options": [
+      "Finance and Technology",
+      "Financial Technique",
+      "Finance and Technique",
+      "Financial Technology"
+    ],
+    "ans": 3,
+    "explain": "FinTech হলো Financial Technology-এর সংক্ষিপ্ত রূপ। এটি আর্থিক সেবার ক্ষেত্রে প্রযুক্তির ব্যবহারকে বোঝায়।",
+    "source": [
+      "Combined 8 Banks Officer (General): 22"
+    ]
+  },
+  {
+    "id": 84,
+    "topicsId": 730,
+    "q": "আউটসোর্সিং কী ?",
+    "options": [
+      "নির্দিষ্ট শ্রমঘণ্টায় কাজ করা",
+      "ইন্টারনেটভিত্তিক কাজ",
+      "বিশেষ ব্রাউজিং সুবিধা",
+      "বিশ্বব্যাপী নেটওয়ার্ক ব্যবস্থা"
+    ],
+    "ans": 1,
+    "explain": "আউটসোর্সিং হলো ইন্টারনেটের মাধ্যমে নিজের প্রতিষ্ঠানের কাজ বাইরের কোনো দক্ষ ব্যক্তি বা প্রতিষ্ঠানকে দিয়ে করিয়ে নেওয়া।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 85,
+    "topicsId": 730,
+    "q": "ইন্টারনেটের মাধ্যমে কর্মসংস্থানের সুযোগকে কি বলে ?",
+    "options": [
+      "ই- মার্কেটিং",
+      "ই-কমার্স",
+      "ই-বিজনেস",
+      "আউটসোর্সিং"
+    ],
+    "ans": 3,
+    "explain": "ইন্টারনেট ব্যবহার করে বিশ্বের যে কোনো প্রান্তের কাজ ঘরে বসে সম্পন্ন করে অর্থ উপার্জন করার সুযোগকে আউটসোর্সিং বা ফ্রিল্যান্সিং বলা হয়।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগের পোস্টাল অপারেটর: ১৬"
+    ]
+  },
+  {
+    "id": 86,
+    "topicsId": 730,
+    "q": "কোনটি আউটসোর্সিং-এর মার্কেট প্লেস ?",
+    "options": [
+      "টুইটার",
+      "মাইস্পেস",
+      "আপওয়ার্ক",
+      "ডিগ"
+    ],
+    "ans": 2,
+    "explain": "Upwork (আপওয়ার্ক) হলো বিশ্বের অন্যতম প্রধান একটি আউটসোর্সিং মার্কেটপ্লেস যেখানে ফ্রিল্যান্সাররা কাজ খুঁজে পান।",
+    "source": [
+      "কুমিল্লা বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 87,
+    "topicsId": 730,
+    "q": "ফ্রি-ল্যান্সার হিসাবে কাজ করতে কী প্রয়োজন ?",
+    "options": [
+      "চাকরি",
+      "ধৈর্য",
+      "আত্মসম্মান",
+      "অবস্থান"
+    ],
+    "ans": 1,
+    "explain": "ফ্রিল্যান্সিং একটি স্বাধীন পেশা হলেও এতে দক্ষতা অর্জনের পাশাপাশি প্রচুর ধৈর্য (Patience) প্রয়োজন কারণ কাজ পাওয়া এবং ক্লায়েন্ট ম্যানেজ করা সময়সাপেক্ষ ব্যাপার।",
+    "source": [
+      "যশোর বোর্ড (মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 88,
+    "topicsId": 730,
+    "q": "ই-গভর্নেন্স এর উদ্দেশ্য-",
+    "options": [
+      "সুশাসন নিশ্চিত করা",
+      "জবাবদিহিতা নিশ্চিত করা",
+      "প্রশাসনকে গতিশীল করা",
+      "সব কয়টি"
+    ],
+    "ans": 3,
+    "explain": "ই-গভর্নেন্সের মূল লক্ষ্য হলো প্রযুক্তির ব্যবহারের মাধ্যমে সুশাসন, সরকারি কাজের স্বচ্ছতা ও জবাবদিহিতা নিশ্চিত করা এবং প্রশাসনিক কাজকে দ্রুত ও গতিশীল করা।",
+    "source": [
+      "সিজিএ এর অডিটর: ২২"
+    ]
+  },
+  {
+    "id": 89,
+    "topicsId": 730,
+    "q": "বর্তমানে দেশের সকল জমির রেকর্ডের অনুলিপি সংগ্রহ করা যায় কোন সেবার মাধ্যমে ?",
+    "options": [
+      "ই-পুর্জি",
+      "ই-পর্চা",
+      "ই-ল্যান্ড",
+      "ই-রেকর্ড"
+    ],
+    "ans": 1,
+    "explain": "ই-পর্চা (e-Porcha) সেবার মাধ্যমে বাংলাদেশের যে কোনো জমির খতিয়ান বা রেকর্ডের অনুলিপি অনলাইন থেকে সংগ্রহ করা যায়।",
+    "source": [
+      "ঢাকা,রাজশাহী, কুমিল্লা, চট্টগ্রাম, সিলেট, বরিশাল, দিনাজপুর বোর্ড (মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 90,
+    "topicsId": 730,
+    "q": "ই পর্চা সম্পর্কে কোনটি সঠিক ?",
+    "options": [
+      "অনলাইনভিত্তিক ভূমি সংক্রান্ত সেবা",
+      "ডিজিটাল প্লাটফর্ম ব্যবহৃত হয়",
+      "জমির খতিয়ান সংগ্রহ করা যায়",
+      "সবগুলো সঠিক"
+    ],
+    "ans": 3,
+    "explain": "ই-পর্চা হলো একটি অনলাইন ভিত্তিক ভূমি সেবা প্ল্যাটফর্ম যেখানে ডিজিটাল প্রযুক্তির মাধ্যমে জমির খতিয়ান বা পর্চা সংগ্রহ করা সম্ভব।",
+    "source": [
+      "পদ্মা সেতু রেল সংযোগ প্রকল্পের রিসেটেলমেন্ট সহকারী: ২১"
+    ]
+  },
+  {
+    "id": 91,
+    "topicsId": 730,
+    "q": "স্বল্প খরচে এবং দ্রুত টাকা পাঠানোর পদ্ধতি কোনটি ?",
+    "options": [
+      "ইভিএম",
+      "ইএমআর",
+      "ইএমটিএস",
+      "এমটিসি"
+    ],
+    "ans": 2,
+    "explain": "EMTS (Electronic Money Transfer Service) হলো বাংলাদেশ ডাক বিভাগের একটি সেবা যার মাধ্যমে অতি দ্রুত এবং স্বল্প খরচে দেশের এক প্রান্ত থেকে অন্য প্রান্তে টাকা পাঠানো যায়।",
+    "source": [
+      "যশোর বোর্ড (মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 92,
+    "topicsId": 730,
+    "q": "বাংলাদেশে ডাক বিভাগের EMTS এর মাধ্যমে 1 মিনিটে কত টাকা পর্যন্ত পাঠানো যায় ?",
+    "options": [
+      "৪০,০০০",
+      "৫০,০০০",
+      "৬০,০০০",
+      "৭০,০০০"
+    ],
+    "ans": 1,
+    "explain": "ডাক বিভাগের ইলেকট্রনিক মানি ট্রান্সফার সিস্টেম (EMTS) এর মাধ্যমে মাত্র ১ মিনিটে সর্বোচ্চ ৫০,০০০ টাকা পর্যন্ত পাঠানো সম্ভব।",
+    "source": [
+      "সম্মিলিত বোর্ড (মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 93,
+    "topicsId": 730,
+    "q": "ই-পুর্জি কোন সংক্রান্ত সেবা ?",
+    "options": [
+      "ইক্ষু সরবরাহ",
+      "অর্থ লেনদেন",
+      "জমিজমা রেকর্ড",
+      "কেনাকাটা"
+    ],
+    "ans": 0,
+    "explain": "ই-পুর্জি (e-Purjee) হলো চিনিকলসমূহের ইক্ষু বা আখ সরবরাহের অনুমতিপত্র ডিজিটাল উপায়ে কৃষকদের কাছে পৌঁছে দেওয়ার একটি সেবা।",
+    "source": [
+      "রাকাব সুপারভাইজার: ৯২"
+    ]
+  },
+  {
+    "id": 94,
+    "topicsId": 730,
+    "q": "জাতীয় 'ই-তথ্যকোষ' উদ্বোধন করা হয় কবে ?",
+    "options": [
+      "১৬ ডিসেম্বর, ২০১১",
+      "১০ জানুয়ারি, ২০১০",
+      "২৭ ফেব্রুয়ারি, ২০১১",
+      "২১ ফেব্রুয়ারি, ২০১১"
+    ],
+    "ans": 2,
+    "explain": "২০১১ সালের ২৭ ফেব্রুয়ারি বাংলাদেশের জনগণের জন্য অনলাইন তথ্য ভান্ডার 'জাতীয় ই-তথ্যকোষ' আনুষ্ঠানিকভাবে উদ্বোধন করা হয়।",
+    "source": [
+      "প্রাক-প্রাথমিক সহকারী শিক্ষক: ১৫"
+    ]
+  },
+  {
+    "id": 95,
+    "topicsId": 730,
+    "q": "জাতীয় তথ্য বাতায়ন ওয়েব পোর্টাল কবে উদ্বোধন করা হয় ?",
+    "options": [
+      "২৬ মার্চ, ২০১৪",
+      "২৩ জুন, ২০১৪",
+      "১৬ ডিসেম্বর, ২০১৫",
+      "২৩ জুন, ২০১৫"
+    ],
+    "ans": 1,
+    "explain": "২০১৪ সালের ২৩ জুন বাংলাদেশ সরকারের ২৫,০০০ এরও বেশি সরকারি দপ্তরের তথ্য সম্বলিত 'জাতীয় তথ্য বাতায়ন' পোর্টালটি উদ্বোধন করা হয়।",
+    "source": [
+      "গণপূর্ত অধিদপ্তরের উপ-সহকারী প্রকৌশলী : ১৮"
+    ]
+  },
+  {
+    "id": 96,
+    "topicsId": 730,
+    "q": "অনলাইনের মাধ্যমে দরপত্র আহ্বান করাকে কী বলে ?",
+    "options": [
+      "ই-কমার্স",
+      "ই-মেইল",
+      "ই-টেন্ডার",
+      "ই-পোস্ট"
+    ],
+    "ans": 2,
+    "explain": "ইন্টারনেটের মাধ্যমে অনলাইনে সরকারি বা বেসরকারি দরপত্র আহ্বান এবং জমা দেওয়ার পদ্ধতিকে ই-টেন্ডার বা e-Tendering বলা হয়।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 97,
+    "topicsId": 730,
+    "q": "e-GP এর পূর্ণরূপ কী ?",
+    "options": [
+      "Electric Governmental Procedure",
+      "Electronic Governmental Procedure",
+      "Electronic Government Procurement",
+      "Electronic Grameen Phone"
+    ],
+    "ans": 2,
+    "explain": "e-GP এর পূর্ণরূপ হলো Electronic Government Procurement। এটি সরকারি ক্রয় প্রক্রিয়াকে স্বচ্ছ ও দ্রুত করার একটি ডিজিটাল পদ্ধতি।",
+    "source": [
+      "জগন্নাথ বিশ্ববিদ্যালয় (ঘ ইউনিট): ০৫-০৬"
+    ]
+  },
+  {
+    "id": 98,
+    "topicsId": 730,
+    "q": "ইন্টারনেটের মাধ্যমে উন্নত চিকিৎসা পদ্ধতিকে বলা হয়-",
+    "options": [
+      "টেলিমেডিসিন",
+      "ইলেকট্রোমেডিসিন",
+      "জায়মাপ্লাজম",
+      "ই-ট্রিটমেন্ট"
+    ],
+    "ans": 0,
+    "explain": "তথ্য ও যোগাযোগ প্রযুক্তির সাহায্যে ভৌগোলিক দূরত্বে অবস্থানরত রোগীকে উন্নত চিকিৎসা সেবা প্রদান করার পদ্ধতিকে টেলিমেডিসিন (Telemedicine) বলা হয়।",
+    "source": [
+      "প্রাক-প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (ডেলটা): ১৪"
+    ]
+  },
+  {
+    "id": 99,
+    "topicsId": 730,
+    "q": "ভিডিও কনফারেন্সিং পদ্ধতিতে ডাক্তারের কাছ থেকে রোগীর চিকিৎসাকে কী বলে ?",
+    "options": [
+      "ই-মেডিসিন",
+      "টেলিমেডিসিন",
+      "ই-টেলিফোন",
+      "মেডিকেল সার্ভিস"
+    ],
+    "ans": 1,
+    "explain": "টেলিমেডিসিন সেবার একটি প্রধান মাধ্যম হলো ভিডিও কনফারেন্সিং, যার মাধ্যমে ডাক্তার ও রোগী সরাসরি কথা বলে ব্যবস্থাপত্র প্রদান করতে পারেন।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক: ১৬"
+    ]
+  },
+  {
+    "id": 100,
+    "topicsId": 730,
+    "q": "একজন লোক কিভাবে বিশেষজ্ঞ চিকিৎসকের পরামর্শ পেতে পারেন ?",
+    "options": [
+      "ই-পর্চা সেবার",
+      "ইএমটিএস",
+      "টেলিমেডিসিনের",
+      "ই-পুর্জি"
+    ],
+    "ans": 2,
+    "explain": "টেলিমেডিসিন সেবার মাধ্যমে দেশের যে কোনো প্রান্তের সাধারণ মানুষ খুব সহজেই বিশেষজ্ঞ ডাক্তারের পরামর্শ গ্রহণ করতে পারেন।",
+    "source": [
+      "যশোর বোর্ড (মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 101,
+    "topicsId": 730,
+    "q": "ডিজিটাল কনটেন্টকে প্রধানত কয়টি ভাগে ভাগ করা যায় ?",
+    "options": [
+      "২",
+      "৩",
+      "৪",
+      "৫"
+    ],
+    "ans": 2,
+    "explain": "ডিজিটাল কনটেন্টকে প্রধানত ৪টি ভাগে ভাগ করা যায়। এগুলো হলো: ১. টেক্সট বা লিখিত কনটেন্ট, ২. ছবি, ৩. শব্দ বা অডিও এবং ৪. ভিডিও ও অ্যানিমেশন।",
+    "source": [
+      "সম্মিলিত বোর্ড (মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 102,
+    "topicsId": 730,
+    "q": "ডিজিটাল কনটেন্ট-এ কোন ধরনের উপকরণ বেশি থাকে ?",
+    "options": [
+      "ছবি",
+      "টেক্সট",
+      "ভিডিও",
+      "অ্যানিমেটেড ছবি"
+    ],
+    "ans": 1,
+    "explain": "ডিজিটাল মাধ্যমে এখনও লিখিত তথ্যের পরিমাণই সবচেয়ে বেশি। তাই ডিজিটাল কনটেন্টে টেক্সট বা লিখিত উপকরণের আধিক্য দেখা যায়।",
+    "source": [
+      "সম্মিলিত বোর্ড (মাধ্যমিক): ১৮"
+    ]
+  },
+  {
+    "id": 103,
+    "topicsId": 730,
+    "q": "ডিজিটাল কনটেন্ট গ্রাফিক্স এর কাজ কোনটি ?",
+    "options": [
+      "কার্টুন",
+      "অ্যানিমেশন",
+      "ই-মেইল",
+      "ছবি"
+    ],
+    "ans": 3,
+    "explain": "সব ধরনের ছবিই ডিজিটাল কনটেন্টের এই শ্রেণির অন্তর্ভুক্ত। এর মধ্যে হাতে আঁকা ছবি, অঙ্কনকরণ বা গ্রাফিক্সের কাজ সবই 'ছবি' ক্যাটাগরিতে পড়ে।",
+    "source": [
+      "যশোর বোর্ড (মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 104,
+    "topicsId": 730,
+    "q": "ইন্টারনেটের প্রচারিত ব্রডকাস্ট কোনটির অন্তর্ভুক্ত ?",
+    "options": [
+      "লিখিত কনটেন্ট",
+      "ছবি",
+      "শব্দ ও অডিও",
+      "এনিমেশন"
+    ],
+    "ans": 2,
+    "explain": "যেহেতু ব্রডকাস্ট মূলত শব্দনির্ভর মাধ্যম (যেমন অনলাইন রেডিও), তাই এটি ডিজিটাল কনটেন্টের 'শব্দ ও অডিও' বিভাগের অন্তর্ভুক্ত।",
+    "source": [
+      "ঢাকা, রাজশাহী, কুমিল্লা, চট্টগ্রাম, সিলেট, বোর্ড (মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 105,
+    "topicsId": 730,
+    "q": "ইন্টারনেটে কোনো ঘটনার ভিডিও সরাসরি সম্প্রচার করাকে কী বলে ?",
+    "options": [
+      "লাইফ ভিডিও",
+      "লাইভ ব্রডকাস্ট",
+      "ভিডিও স্ট্রিমিং",
+      "লাইভ টেলিকাস্ট"
+    ],
+    "ans": 1,
+    "explain": "ইন্টারনেটে কোনো ঘটনার ভিডিও সরাসরি সম্প্রচার করাকে টেকনিক্যাল টার্মে 'Live Streaming' বা 'Live Broadcast' বলা হয়। শুধু 'ভিডিও স্ট্রিমিং' বলতে যেকোনো আগে থেকে আপলোড করা ভিডিও বা সিনেমা দেখাকেও বোঝাতে পারে (যেমন Netflix বা YouTube)। বিগত সালের বোর্ড পরীক্ষার অফিশিয়াল উত্তর অনুযায়ী এর সঠিক উত্তর লাইভ ব্রডকাস্ট ।",
+    "source": [
+      "সম্মিলিত বোর্ড (মাধ্যমিক): ১৮, ১৭"
+    ]
+  },
+  {
+    "id": 106,
+    "topicsId": 730,
+    "q": "কোনটির মাধ্যমে শিক্ষার্থীদের সামনে নতুন পৃথিবীর দ্বার উন্মোচিত?",
+    "options": [
+      "ইন্টারনেট",
+      "জি-ইমেল",
+      "ইয়াহু",
+      "গুগল ক্রোম"
+    ],
+    "ans": 0,
+    "explain": "ইন্টারনেটের মাধ্যমে শিক্ষার্থীরা বিশ্বের যেকোনো প্রান্তের তথ্য ও শিক্ষা উপকরণের নাগাল পায়, যা তাদের সামনে জ্ঞানের এক বিশাল জগত উন্মোচন করে।",
+    "source": [
+      "যশোর বোর্ড (মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 107,
+    "topicsId": 730,
+    "q": "সুমন টেলিভিশনে কৃষি সংক্রান্ত বিভিন্ন ধরনের অনুষ্ঠান দেখে, এ ক্ষেত্রে সুমন কীভাবে শিক্ষা অর্জন করছে ?",
+    "options": [
+      "ভার্চুয়াল ক্লাব",
+      "ই-লার্নিং",
+      "ই-ক্লাস",
+      "ই-টকিং"
+    ],
+    "ans": 1,
+    "explain": "ই-লার্নিং বা ইলেকট্রনিক লার্নিং বলতে সিডি-রম, ইন্টারনেট, টেলিভিশন চ্যানেল বা ব্যক্তিগত নেটওয়ার্ক ব্যবহার করে শিক্ষা দান বা গ্রহণ করাকে বোঝায়।",
+    "source": [
+      "সম্মিলিত বোর্ড (মাধ্যমিক): ১৮"
+    ]
+  },
+  {
+    "id": 108,
+    "topicsId": 730,
+    "q": "কিন্ডল (Kindle) কী ?",
+    "options": [
+      "প্রতিষ্ঠানের নাম",
+      "কার্টুনের নাম",
+      "ই-বুক রিডারের নাম",
+      "সার্চ ইঞ্জিনের নাম"
+    ],
+    "ans": 2,
+    "explain": "Kindle হলো জনপ্রিয় অনলাইন শপ Amazon-এর তৈরি একটি ই-বুক রিডার ডিভাইস, যার মাধ্যমে ডিজিটাল বই পড়া যায়।",
+    "source": [
+      "সম্মিলিত বোর্ড: ২০/ যশোর বোর্ড (মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 109,
+    "topicsId": 730,
+    "q": "বাংলাদেশের প্রথম ই-বুক কোনটি ?",
+    "options": [
+      "বায়ান্নো ই-বুক",
+      "একাত্তর ই-বুক",
+      "একুশ ই-বুক",
+      "পঁচাত্তর ই-বুক"
+    ],
+    "ans": 2,
+    "explain": "বাংলাদেশের প্রথম ই-বুক হলো একুশ ই-বুক। এটি দেশের প্রথম ইলেকট্রনিক বই বা ই-বুক হিসেবে পরিচিত। একুশ ই-বুকটির মোড়ক উন্মোচন করা হয়েছিল ৩০ জানুয়ারি, ২০১৬ তারিখে। তবে বাংলাদেশের প্রথম সরকারি ই-বুক পোর্টাল www.ebook.gov.bd এর শুভ উদ্বোধন করা হয় ২ জানুয়ারি, ২০১১ তারিখে মাননীয় প্রধানমন্ত্রী শেখ হাসিনা কর্তৃক।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (গ ইউনিট): ১৬-১৭"
+    ]
+  },
+  {
+    "id": 110,
+    "topicsId": 730,
+    "q": "ব্লগ এর বাংলা প্রতিশব্দ কী ?",
+    "options": [
+      "ব্যক্তিকেন্দ্রিক পত্রিকা",
+      "ব্যক্তিকেন্দ্রিক লাইব্রেরি",
+      "সাপ্তাহিক পত্রিকা",
+      "পারিবারিক লাইব্রেরি"
+    ],
+    "ans": 0,
+    "explain": "ব্লগ (Blog) হলো এক ধরণের অনলাইন ডায়েরি বা ব্যক্তিগত পত্রিকা যেখানে একজন ব্যক্তি নিয়মিত তার মতামত বা তথ্য শেয়ার করেন।",
+    "source": [
+      "জাককানইবি (খ ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 111,
+    "topicsId": 730,
+    "q": "Wikipedia is a -",
+    "options": [
+      "OS",
+      "Online encyclopedia",
+      "Search Engine",
+      "Spell checker"
+    ],
+    "ans": 1,
+    "explain": "Wikipedia হলো একটি সম্মিলিতভাবে সম্পাদিত ও বহুভাষিক উন্মুক্ত অনলাইন বিশ্বকোষ (Online Encyclopedia)।",
+    "source": [
+      "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (চ ইউনিট): ১০-১১"
+    ]
+  },
+  {
+    "id": 112,
+    "topicsId": 730,
+    "q": "'উইকিপিডিয়া' কী ?",
+    "options": [
+      "উন্মুক্ত সফটওয়‍্যার",
+      "ডাটাবেইজ",
+      "মুক্ত বিশ্বকোষ",
+      "স্মার্ট ফোন"
+    ],
+    "ans": 2,
+    "explain": "উইকিপিডিয়া হলো একটি বিনামূল্যে ব্যবহারযোগ্য অনলাইন মুক্ত বিশ্বকোষ, যা যে কেউ সম্পাদনা করতে পারে।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহবারী শিক্ষক (২য় পর্যায়): ২২"
+    ]
+  },
+  {
+    "id": 113,
+    "topicsId": 730,
+    "q": "Which is not an online education platform ?",
+    "options": [
+      "Coursera",
+      "Skillshare",
+      "Module",
+      "Udemy"
+    ],
+    "ans": 2,
+    "explain": "Coursera, Skillshare এবং Udemy জনপ্রিয় অনলাইন লার্নিং প্ল্যাটফর্ম। কিন্তু 'Module' কোনো নির্দিষ্ট অনলাইন শিক্ষা প্ল্যাটফর্ম নয় (সম্ভবত এটি Moodle হওয়ার কথা ছিল, কিন্তু বানান অনুযায়ী এটি ভুল)।",
+    "source": [
+      "Probashi Kallyan Bank Officer (General): 21"
+    ]
+  },
+  {
+    "id": 114,
+    "topicsId": 730,
+    "q": "অনলাইন মিটিংয়ের প্ল্যাটফর্ম জুম অ্যাপটির প্রতিষ্ঠাতা কে ? / Who developed Zoom app ?",
+    "options": [
+      "Larry Page",
+      "Zuckerberg",
+      "Andrew Yang",
+      "Eric Yuan"
+    ],
+    "ans": 3,
+    "explain": "Zoom ভিডিও কমিউনিকেশনস-এর প্রতিষ্ঠাতা হলেন চীনা-আমেরিকান বিলিয়নেয়ার এরিক ইউয়ান (Eric Yuan)।",
+    "source": [
+      "পায়রা বন্দর কর্তৃপক্ষের বিভিন্ন পদ: ২০ / Combined 5 Banks Officer (Cash): 21"
+    ]
+  },
+  {
+    "id": 115,
+    "topicsId": 730,
+    "q": "কোনটি অনলাইন শিক্ষণ প্লাটফর্ম নয় ?",
+    "options": [
+      "গুগল ক্লাসরুম",
+      "জুম",
+      "গুগল পিক্সেল",
+      "গুগল মিট"
+    ],
+    "ans": 2,
+    "explain": "গুগল ক্লাসরুম, জুম এবং গুগল মিট শিক্ষা বা মিটিংয়ের জন্য ব্যবহৃত হয়। তবে 'গুগল পিক্সেল' হলো গুগল-এর তৈরি একটি স্মার্টফোন ব্র্যান্ডের নাম।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় (ইউনিট-ঘ): ২০-২১"
+    ]
+  },
+  {
+    "id": 116,
+    "topicsId": 730,
+    "q": "কোনটি অনলাইন ভিডিও মিটিং প্ল্যাটফর্ম নয় ?",
+    "options": [
+      "হোয়াটসঅ্যাপ",
+      "ওয়েবেক্স",
+      "জুম",
+      "গুগল মিট"
+    ],
+    "ans": 0,
+    "explain": "সঠিক উত্তর হলো হোয়াটসঅ্যাপ। ওয়েবেক্স, জুম এবং গুগল মিট মূলত পেশাদার বা প্রাতিষ্ঠানিক মিটিং, ওয়েবিনার এবং ভিডিও কনফারেন্সিংয়ের জন্য তৈরি প্ল্যাটফর্ম, যেখানে একসাথে অনেক মানুষ যুক্ত হতে পারেন, স্ক্রিন শেয়ারিং, হোয়াইটবোর্ড এবং রেকর্ডিংয়ের মতো উন্নত সুবিধা থাকে। হোয়াটসঅ্যাপ (WhatsApp) প্রধানত একটি ইনস্ট্যান্ট মেসেজিং বা ব্যক্তিগত যোগাযোগের অ্যাপ। যদিও এতে ভিডিও কল করা যায়, কিন্তু এটি জুম বা গুগল মিটের মতো প্রথাগত “অনলাইন ভিডিও মিটিং প্ল্যাটফর্ম” হিসেবে গণ্য হয় না।",
+    "source": [
+      "GST গুচ্ছভুক্ত বিশ্ববিদ্যালয়: ২০-২১"
+    ]
+  },
+  {
+    "id": 117,
+    "topicsId": 730,
+    "q": "'মাইকেল এস হাট' কিসের জনক ?",
+    "options": [
+      "ইনপুট",
+      "আউটপুট",
+      "নেটওয়ার্ক",
+      "ই-বুক"
+    ],
+    "ans": 3,
+    "explain": "মাইকেল এস হাট (Michael S. Hart) ইলেকট্রনিক বুক বা ই-বুক এর উদ্ভাবক এবং প্রজেক্ট গুটেনবার্গের প্রতিষ্ঠাতা হিসেবে পরিচিত।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 118,
+    "topicsId": 730,
+    "q": "MOOC stands for-",
+    "options": [
+      "Moving Operation Outline Center",
+      "Master Operation Outline Center",
+      "Massive Online Open courses",
+      "Massive Open Online courses"
+    ],
+    "ans": 3,
+    "explain": "MOOC এর পূর্ণরূপ হলো Massive Open Online Courses, যা ইন্টারনেটের মাধ্যমে সবার জন্য উন্মুক্ত বৃহৎ পরিসরের কোর্স।",
+    "source": [
+      "Sylhet gas field Ltd. Assistant Manager (General): 21"
+    ]
+  },
+  {
+    "id": 119,
+    "topicsId": 730,
+    "q": "Social Networking Site- এ যোগাযোগে কোন media ব্যবহৃত হয় ?",
+    "options": [
+      "Image/video",
+      "Audio",
+      "Text",
+      "উপরের সবগুলো"
+    ],
+    "ans": 3,
+    "explain": "সামাজিক যোগাযোগ মাধ্যমে ছবি, ভিডিও, অডিও এবং টেক্সট—সব ধরণের মিডিয়াই যোগাযোগের জন্য ব্যবহৃত হয়।",
+    "source": [
+      "৪০ তম বিসিএস"
+    ]
+  },
+  {
+    "id": 120,
+    "topicsId": 730,
+    "q": "Which is the most popular social networking site ?/ নিচের কোনটি সবচেয়ে জনপ্রিয় সামাজিক যোগাযোগের মাধ্যম ?",
+    "options": [
+      "Monster.com",
+      "Facebook.com",
+      "Mediafire.com",
+      "Google.com"
+    ],
+    "ans": 1,
+    "explain": "বিশ্বের সবচাইতে জনপ্রিয় এবং বহুল ব্যবহৃত সামাজিক যোগাযোগ মাধ্যম হলো Facebook।",
+    "source": [
+      "Trust Bank Ltd. Trainee Assistant Officer : 12"
+    ]
+  },
+  {
+    "id": 121,
+    "topicsId": 730,
+    "q": "কোনটাকে সামাজিক অন্তর্জাল (Social Network) বলে ?",
+    "options": [
+      "Yahoo",
+      "Firefox",
+      "Google",
+      "Facebook"
+    ],
+    "ans": 3,
+    "explain": "Facebook হলো একটি সামাজিক অন্তর্জাল বা সোশ্যাল নেটওয়ার্কিং প্ল্যাটফর্ম। ইয়াহু বা গুগল মূলত সার্চ ইঞ্জিন এবং ফায়ারফক্স একটি ব্রাউজার।",
+    "source": [
+      "মহা হিসাব নিরীক্ষক ও নিয়ন্ত্রয়কের কার্যালয়ের অধীন অডিটর: ১৫"
+    ]
+  },
+  {
+    "id": 122,
+    "topicsId": 730,
+    "q": "সামাজিক যোগাযোগ মাধ্যম কোনটি ?",
+    "options": [
+      "ফেসবুক",
+      "ইউটিউব",
+      "মেসেঞ্জার",
+      "সব কয়টি"
+    ],
+    "ans": 0,
+    "explain": "বিকল্পগুলোর মধ্যে ফেসবুক প্রধান সামাজিক যোগাযোগ মাধ্যম। যদিও ইউটিউব বা মেসেঞ্জারকেও সামাজিক মাধ্যম বলা হয়, কিন্তু 'কোর' সোশ্যাল নেটওয়ার্ক হিসেবে ফেসবুকই অগ্রগণ্য।",
+    "source": [
+      "বিআরটিএ'র মোটরযান পরিদর্শক: ১৭"
+    ]
+  },
+  {
+    "id": 123,
+    "topicsId": 730,
+    "q": "The founder of social media 'Facebook' is- / Facebook এর Inventor কে ?",
+    "options": [
+      "বিল গেটস",
+      "টিম বার্নাস লি",
+      "অ্যান্ডি গ্রোভ",
+      "মার্ক জাকারবার্গ"
+    ],
+    "ans": 3,
+    "explain": "মার্ক জাকারবার্গ (Mark Zuckerberg) ২০০৪ সালে তার বন্ধুদের সাথে নিয়ে ফেসবুক প্রতিষ্ঠা করেন।",
+    "source": [
+      "PKSF Assistant Manager: 14 / জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI)-এর কম্পিউটার টেকনিশিয়ান : ২১"
+    ]
+  },
+  {
+    "id": 124,
+    "topicsId": 730,
+    "q": "Who is not founder of facebook ?",
+    "options": [
+      "Eduardo saverin",
+      "Zoe Barton",
+      "Mark Zuckerberg",
+      "Dustin Moskovitz"
+    ],
+    "ans": 1,
+    "explain": "ফেসবুকের প্রতিষ্ঠাতাদের মধ্যে মার্ক জাকারবার্গ, এডুয়ার্ডো সাভারিন এবং ডাস্টিন মস্কোভিৎজ ছিলেন। জো বার্টন (Zoe Barton) নামক কেউ এর প্রতিষ্ঠাতা ছিলেন না।",
+    "source": [
+      "জাহাঙ্গীনগর বিশ্ববিদ্যালয় (জ-ইউনিট): ১১-১২"
+    ]
+  },
+  {
+    "id": 125,
+    "topicsId": 730,
+    "q": "The new Facebook's company name ’Meta' is a-",
+    "options": [
+      "Greek word",
+      "Persian word",
+      "Word",
+      "Danish word"
+    ],
+    "ans": 0,
+    "explain": "ফেসবুকের নতুন নাম 'মেটা' (Meta) একটি গ্রিক শব্দ থেকে এসেছে, যার অর্থ হলো 'beyond' বা 'পরে'।",
+    "source": [
+      "Combined 9 Banks Officer (General): 22"
+    ]
+  },
+  {
+    "id": 126,
+    "topicsId": 730,
+    "q": "ফেসবুক প্রতিষ্ঠা করা হয় কত সালে ?",
+    "options": [
+      "২০০০",
+      "২০০৩",
+      "২০০৪",
+      "২০০৫"
+    ],
+    "ans": 2,
+    "explain": "২০০৪ সালের ৪ ফেব্রুয়ারি মার্ক জাকারবার্গ ও তার সহযোগীরা মিলে হার্ভার্ড বিশ্ববিদ্যালয়ে ফেসবুকের যাত্রা শুরু করেন।",
+    "source": [
+      "১৩তম শিক্ষক নিবন্ধন ও প্রত্যয়ন (প্রভাষক) : ১৬"
+    ]
+  },
+  {
+    "id": 127,
+    "topicsId": 730,
+    "q": "'ইমোজি' কোন ভাষার শব্দ ?",
+    "options": [
+      "ইংরেজি",
+      "কোরিয়ান",
+      "জাপানিজ",
+      "চীনা"
+    ],
+    "ans": 2,
+    "explain": "ইমোজি (Emoji) শব্দটি জাপানি ভাষা থেকে এসেছে। জাপানি ভাষায় 'e' মানে ছবি এবং 'moji' মানে চরিত্র বা বর্ণ।",
+    "source": [
+      "যশোর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (ডি- ইউনিট): ১৯-২০"
+    ]
+  },
+  {
+    "id": 128,
+    "topicsId": 730,
+    "q": "টুইটার হচ্ছে-",
+    "options": [
+      "ফেইসবুক ওয়েবসাইট",
+      "সোশ্যাল নেটওয়ার্কিং সাইট",
+      "সোশ্যাল কানেকশন ওয়েবসাইট",
+      "সোশ্যাল নেটওয়ার্কিং সার্চ ইঞ্জিন"
+    ],
+    "ans": 1,
+    "explain": "টুইটার একটি জনপ্রিয় মাইক্রোব্লগিং ও সোশ্যাল নেটওয়ার্কিং প্ল্যাটফর্ম।",
+    "source": [
+      "কারিগরি শিক্ষা অধিদপ্তরের অফিস সহায়ক: ২১/ বাংলাদেশ ডাক বিভাগের পোস্টাল অপারেটর : ১৬"
+    ]
+  },
+  {
+    "id": 129,
+    "topicsId": 730,
+    "q": "সোশ্যাল নেটওয়ার্কিং টুইটার কত সালে তৈরি হয় ?",
+    "options": [
+      "২০০৪",
+      "২০০৬",
+      "২০০৩",
+      "২০০৮"
+    ],
+    "ans": 1,
+    "explain": "টুইটার ২০০৬ সালের মার্চ মাসে জ্যাক ডর্সি, নোয়া গ্লাস, বিজ স্টোন এবং ইভান উইলিয়ামস তৈরি করেছিলেন।",
+    "source": [
+      "৩৫তম বিসিএস / সিজিএ এর জুনিয়র অডিটর : ২২/ বাংলাদেশ পরিসংখ্যান ব্যুরোর ডাটা এন্ট্রি অপারেটর : ২০"
+    ]
+  },
+  {
+    "id": 130,
+    "topicsId": 730,
+    "q": "সামাজিক যোগাযোগ মাধ্যম টুইটারের প্রতিষ্ঠাতা কে ?",
+    "options": [
+      "রেইড হফম্যান",
+      "জেফরি প্রিস্টান বিজোস",
+      "জ্যাক ডর্সি",
+      "জ্যাক মা"
+    ],
+    "ans": 2,
+    "explain": "জ্যাক ডর্সি (Jack Dorsey) টুইটারের সহ-প্রতিষ্ঠাতা এবং সাবেক প্রধান নির্বাহী কর্মকর্তা।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (এ ইউনিট) : ১৯-২০"
+    ]
+  },
+  {
+    "id": 131,
+    "topicsId": 730,
+    "q": "Twitter এর সর্বোচ্চ কত অক্ষরের বার্তা প্রকাশ করা যায় ?",
+    "options": [
+      "১২০",
+      "২৮০",
+      "২২০",
+      "২৪০"
+    ],
+    "ans": 1,
+    "explain": "টুইটারে আগে বার্তা প্রকাশের সীমা ১৪০ অক্ষর ছিল, যা পরবর্তীতে বৃদ্ধি করে ২৮০ অক্ষর করা হয়েছে। তবে প্রশ্ন অনুযায়ী ২৮০ অক্ষর সঠিক হলেও, বর্তমানে টুইটার (যা এখন 'X' নামে পরিচিত) প্রিমিয়াম ব্যবহারকারীদের জন্য এই অক্ষরের সীমা ২৫,০০০ পর্যন্ত বৃদ্ধি করেছে। ফ্রি ব্যবহারকারীদের জন্য এটি এখনও ২৮০ অক্ষর।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 132,
+    "topicsId": 730,
+    "q": "Which of the following is the social networking site developed by Google ? / গুগল উদ্ভাবিত সামাজিক নেটওয়ার্কিং সাইট-",
+    "options": [
+      "Facebook",
+      "Twitter",
+      "Google Book",
+      "Google Plus",
+      "None of these"
+    ],
+    "ans": 3,
+    "explain": "গুগল উদ্ভাবিত সামাজিক যোগাযোগের সাইট ছিল 'Google Plus', যা বর্তমানে বন্ধ করে দেওয়া হয়েছে।",
+    "source": [
+      "Dutch Bangla Bank Ltd. Probationary Officer: 11"
+    ]
+  },
+  {
+    "id": 133,
+    "topicsId": 730,
+    "q": "'ওয়েইবো' কোন দেশের স্থানীয় সামাজিক যোগাযোগ মাধ্যম ?",
+    "options": [
+      "জাপান",
+      "তাইওয়ান",
+      "চীন",
+      "থাইল্যান্ড"
+    ],
+    "ans": 2,
+    "explain": "ওয়েইবো (Weibo) বা সিনা ওয়েইবো চীনের একটি জনপ্রিয় স্থানীয় মাইক্রোব্লগিং ও সামাজিক যোগাযোগ মাধ্যম।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (ইউনিট-বি): ২০-২১)"
+    ]
+  },
+  {
+    "id": 134,
+    "topicsId": 730,
+    "q": "Which of the following is the odd one ? / নিচের কোনটি সামঞ্জস্যপূর্ণ নয় ?",
+    "options": [
+      "ফেসবুক",
+      "টুইটার",
+      "লিংকড ইন",
+      "উইকিপিডিয়া"
+    ],
+    "ans": 3,
+    "explain": "ফেসবুক, টুইটার এবং লিংকড ইন হলো সামাজিক যোগাযোগ মাধ্যম, কিন্তু উইকিপিডিয়া হলো একটি মুক্ত বিশ্বকোষ বা তথ্যভাণ্ডার।",
+    "source": [
+      "৩৮তম বিসিএস/ মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের ওয়ারলেস অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 135,
+    "topicsId": 730,
+    "q": "LinkedIn এর ক্ষেত্রে কোনটি সঠিক ?",
+    "options": [
+      "এটি একটি বিজনেস অরিয়েন্টেড সোশ্যাল নেটওয়ার্কিং সার্ভিস",
+      "এটি ২০০২ সালে প্রতিষ্ঠিত",
+      "২০০৬ সালে এটির সদস্যসংখ্যা ২০ মিলিয়নের অধিক হয়",
+      "উপরের সবগুলোই"
+    ],
+    "ans": 3,
+    "explain": "লিংকডইন একটি পেশাজীবীদের জন্য ব্যবসা-সংক্রান্ত সোশ্যাল নেটওয়ার্ক। এটি ২০০২ সালে প্রতিষ্ঠিত হয় এবং দ্রুত এর জনপ্রিয়তা বাড়ে। প্রদত্ত সবগুলো তথ্যই সঠিক।",
+    "source": [
+      "৩৬ তম বিসিএস"
+    ]
+  },
+  {
+    "id": 136,
+    "topicsId": 730,
+    "q": "is a dedicated site for professionals.",
+    "options": [
+      "Wikipedia",
+      "Facebook",
+      "Instagram",
+      "Linkedin"
+    ],
+    "ans": 3,
+    "explain": "Linkedin হলো পেশাজীবীদের জন্য নিবেদিত একটি সামাজিক ও পেশাদার যোগাযোগ মাধ্যম।",
+    "source": [
+      "Rupali Bank Ltd.-Officer. 19"
+    ]
+  },
+  {
+    "id": 137,
+    "topicsId": 730,
+    "q": "Which of the following is a social media company ?",
+    "options": [
+      "LinkedIn",
+      "Apple",
+      "Amazon",
+      "Google"
+    ],
+    "ans": 0,
+    "explain": "বিকল্পগুলোর মধ্যে একমাত্র LinkedIn হলো একটি সোশ্যাল মিডিয়া কোম্পানি। অ্যাপল ও আমাজন হার্ডওয়্যার/ই-কমার্স কোম্পানি এবং গুগল মূলত একটি ইন্টারনেট সার্ভিস বা প্রযুক্তি কোম্পানি।",
+    "source": [
+      "Combined 8 Banks Officer (General): 22"
+    ]
+  },
+  {
+    "id": 138,
+    "topicsId": 730,
+    "q": "স্টিভ চেন এবং চাড হারলির সাথে যৌথভাবে কোন বাংলাদেশী ইউটিউব (Youtube) প্রতিষ্ঠা করেন ?",
+    "options": [
+      "জাবেদ করিম",
+      "ফজলুল করিম",
+      "জাওয়াদুল করিম",
+      "মঞ্জুরুল করিম"
+    ],
+    "ans": 0,
+    "explain": "২০০৫ সালে স্টিভ চেন এবং চাড হারলির সাথে বাংলাদেশী বংশোদ্ভূত জাবেদ করিম ইউটিউব প্রতিষ্ঠা করেন।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 139,
+    "topicsId": 730,
+    "q": "নিচের কোনটি অন্য তিনটি থেকে আলাদা ?",
+    "options": [
+      "ফেসবুক",
+      "ইউটিউব",
+      "টুইটার",
+      "ইন্সটাগ্রাম"
+    ],
+    "ans": 1,
+    "explain": "ফেসবুক, টুইটার এবং ইন্সটাগ্রাম মূলত সামাজিক নেটওয়ার্কিং প্ল্যাটফর্ম যেখানে স্ট্যাটাস বা ছবি প্রাধান্য পায়। কিন্তু ইউটিউব মূলত একটি ভিডিও শেয়ারিং প্ল্যাটফর্ম, যা অন্যগুলো থেকে কিছুটা আলাদা ধর্মী।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (তৃতীয় পর্যায়): ১৯"
+    ]
+  },
+  {
+    "id": 140,
+    "topicsId": 730,
+    "q": "বাংলাদেশে স্থাপিত প্রথম কম্পিউটার-",
+    "options": [
+      "আইবিএম-৩৬০ সিরিজ",
+      "আইবিএম- ১৬২০ সিরিজ",
+      "আইবিএম-১৬০০ সিরিজ",
+      "আইবিএম- ৪৩০০ সিরিজ"
+    ],
+    "ans": 1,
+    "explain": "বাংলাদেশে প্রথম কম্পিউটার স্থাপিত হয় ১৯৬৪ সালে পরমাণু শক্তি কেন্দ্রে। এটি ছিল আইবিএম ১৬২০ (IBM 1620) সিরিজের একটি মেইনফ্রেম কম্পিউটার।",
+    "source": [
+      "গণমাধ্যম ইনস্টিটিউট সহকারী পরিচালক (টেলিভিশন ও বেতার প্রকৌশলী প্রশিক্ষণ): ০১"
+    ]
+  },
+  {
+    "id": 141,
+    "topicsId": 730,
+    "q": "বাংলাদেশের প্রথম কম্পিউটার বর্তমানে কোথায় সংরক্ষিত আছে ?",
+    "options": [
+      "ঢাকা বিশ্ববিদ্যালয়ে",
+      "বাংলাদেশ কম্পিউটার কাউন্সিলে",
+      "জাতীয় জাদুঘরে",
+      "জাতীয় বিজ্ঞান ও প্রযুক্তি জাদুঘরে"
+    ],
+    "ans": 3,
+    "explain": "১৯৬৪ সালে পরমাণু শক্তি কেন্দ্রে স্থাপিত আইবিএম ১৬২০ কম্পিউটারটি বর্তমানে ঢাকার আগারগাঁওয়ে অবস্থিত জাতীয় বিজ্ঞান ও প্রযুক্তি জাদুঘরে সংরক্ষিত আছে।",
+    "source": [
+      "এলজিইডিতে সহকারী প্রকৌশলী (সিভিল): ১৭"
+    ]
+  },
+  {
+    "id": 142,
+    "topicsId": 730,
+    "q": "বাংলাদেশের কোন ব্যাংক সর্বপ্রথম কম্পিউটার স্থাপন করে ?",
+    "options": [
+      "সোনালী ব্যাংক",
+      "রূপালী ব্যাংক",
+      "ইউনাইটেড ব্যাংক",
+      "জনতা ব্যাংক"
+    ],
+    "ans": 2,
+    "explain": "বাংলাদেশে ব্যাংকগুলোর মধ্যে সর্বপ্রথম কম্পিউটার স্থাপন করে ইউনাইটেড ব্যাংক লিমিটেড (যা বর্তমানের জনতা ব্যাংক)।",
+    "source": [
+      "এলজিইডিতে সহকারী প্রকৌশলী (সিভিল): ১৭"
+    ]
+  },
+  {
+    "id": 143,
+    "topicsId": 730,
+    "q": "বাংলাদেশের প্রথম ডিজিটাল কম্পিউটার পত্রিকার নাম কি ?",
+    "options": [
+      "কম্পিউটার জগৎ",
+      "আইটিকম",
+      "কম্পিউটার বিচিত্রা",
+      "কম্পিউটার নিউজ"
+    ],
+    "ans": 0,
+    "explain": "১৯৯১ সালে অধ্যাপক আব্দুল কাদেরের সম্পাদনায় 'কম্পিউটার জগৎ' বাংলাদেশের প্রথম কম্পিউটার পত্রিকা হিসেবে প্রকাশিত হয়।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (চট্টগ্রাম বিভাগ): ০৩"
+    ]
+  },
+  {
+    "id": 144,
+    "topicsId": 730,
+    "q": "বাংলাদেশের সফটওয়্যার প্রস্তুতকারীদের সমিতির নাম-",
+    "options": [
+      "সফটএস",
+      "বেসিস",
+      "বাটেক্সপো",
+      "বিএসসিআইস"
+    ],
+    "ans": 1,
+    "explain": "BASIS (বেসিস) এর পূর্ণরূপ হলো Bangladesh Association of Software and Information Services। এটি বাংলাদেশের সফটওয়্যার ও তথ্য প্রযুক্তি খাতের পেশাদার সংগঠন।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় (খ ইউনিট): ০৮-০৯"
+    ]
+  },
+  {
+    "id": 145,
+    "topicsId": 730,
+    "q": "দৃষ্টিহীনদের জন্য আবিষ্কৃত বাংলায় প্রথম সফটওয়্যারের নাম কি ?",
+    "options": [
+      "আই লিপ",
+      "আই সাইট",
+      "আই ডট",
+      "আই লাইট"
+    ],
+    "ans": 1,
+    "explain": "দৃষ্টিহীনদের জন্য আবিষ্কৃত বাংলার প্রথম সফটওয়্যারের নাম হলো 'আই সাইট' (i-Sight)। এটি ব্যবহার করে দৃষ্টিহীনরা কম্পিউটারে বাংলা টাইপ ও পড়তে পারেন।",
+    "source": [
+      "BRDB Officer: 12"
+    ]
+  },
+  {
+    "id": 146,
+    "topicsId": 730,
+    "q": "বাংলাদেশের কোন শহরটিকে প্রথম 'সাইবার সিটি' বলা হয় ?",
+    "options": [
+      "সিলেট",
+      "ঢাকা",
+      "চট্টগ্রাম",
+      "রাজশাহী"
+    ],
+    "ans": 0,
+    "explain": "সিলেট শহরকে বাংলাদেশের প্রথম 'সাইবার সিটি' হিসেবে ঘোষণা করা হয়েছে এবং সেখানে বঙ্গবন্ধু শেখ মুজিবুর রহমান হাই-টেক পার্ক অবস্থিত।",
+    "source": [
+      "বাংলাদেশ ব্যাংক ডাটা এন্ট্রি অপারেটর (আইটি): ২০"
+    ]
+  },
+  {
+    "id": 147,
+    "topicsId": 730,
+    "q": "বাংলাদেশের প্রথম ডিজিটাল জেলা কোনটি ?",
+    "options": [
+      "ঢাকা",
+      "কুমিল্লা",
+      "যশোর",
+      "মাগুরা"
+    ],
+    "ans": 2,
+    "explain": "২০১০ সালে যশোর জেলাকে বাংলাদেশের প্রথম ডিজিটাল জেলা হিসেবে ঘোষণা করা হয়।",
+    "source": [
+      "দুদকের উপ-সহকারী পরিচালক: ২০/ রাবি (ইউনিট বি; গ্রুপ-১): ২০-২১"
+    ]
+  },
+  {
+    "id": 148,
+    "topicsId": 730,
+    "q": "সরকারি কোন ওয়েবসাইটের মাধ্যমে গুরুত্বপূর্ণ ফরম ডাউনলোড করে নেওয়া যায় ?",
+    "options": [
+      "www.form.gov.bd",
+      "www.forms.gov.bd",
+      "www.formgov.bd",
+      "www.govform.bd.gov"
+    ],
+    "ans": 1,
+    "explain": "বাংলাদেশ সরকারের সকল প্রয়োজনীয় আবেদন ফরম একই জায়গায় পাওয়ার জন্য 'www.forms.gov.bd' পোর্টালটি ব্যবহার করা হয়।",
+    "source": [
+      "পল্লী বিদ্যুতায়ন বোর্ডের অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক: ১৬"
+    ]
+  },
+  {
+    "id": 149,
+    "topicsId": 730,
+    "q": "As an alternative to Facebook, Bangladesh is going to launch its own social media platform named-",
+    "options": [
+      "Jogajog",
+      "Alapon",
+      "Pipilika",
+      "BD Community"
+    ],
+    "ans": 0,
+    "explain": "ফেসবুকের বিকল্প হিসেবে বাংলাদেশ সরকার 'যোগাযোগ' (Jogajog) নামক নিজস্ব সামাজিক যোগাযোগ মাধ্যম চালুর উদ্যোগ নিয়েছিল।",
+    "source": [
+      "Karnafuli Gas Distribution Co. Ltd. Assistant Manager (General): 21"
+    ]
+  },
+  {
+    "id": 150,
+    "topicsId": 730,
+    "q": "মানুষের চিন্তাভাবনাকে যন্ত্রের মাধ্যমে প্রকাশ করার প্রযুক্তি কোনটি ?",
+    "options": [
+      "বায়োমেট্রিক্স",
+      "বায়োইনফরমেটিক্স",
+      "কৃত্রিম বুদ্ধিমত্তা",
+      "ভার্চুয়াল রিয়েলিটি"
+    ],
+    "ans": 2,
+    "explain": "কৃত্রিম বুদ্ধিমত্তা (Artificial Intelligence) হলো এমন একটি প্রযুক্তি যার মাধ্যমে মানুষের চিন্তা-ভাবনা বা বুদ্ধিবৃত্তিক সক্ষমতাকে কম্পিউটার বা যন্ত্রের মাধ্যমে সিমুলেট করা হয়।",
+    "source": [
+      "সিলেট বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 151,
+    "topicsId": 730,
+    "q": "কম্পিউটারের সাথে সঙ্গতিপূর্ণ ক্যারিয়ারের নাম কী ?",
+    "options": [
+      "ফ্যাশন ডিজাইনার",
+      "ইন্টেরিয়র ডিজাইনার",
+      "ইংরেজি শিক্ষক",
+      "আর্টিফিশিয়াল ইন্টেলিজেন্স"
+    ],
+    "ans": 3,
+    "explain": "আর্টিফিশিয়াল ইন্টেলিজেন্স (AI) আধুনিক কম্পিউটার বিজ্ঞানের একটি অবিচ্ছেদ্য অংশ এবং এটি একটি অত্যন্ত সম্ভাবনাময় ক্যারিয়ার।",
+    "source": [
+      "ঢাকা, রাজশাহী, কুমিল্লা বোর্ড (মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 152,
+    "topicsId": 730,
+    "q": "------is considered to be the Father of Artificial Intelligence.",
+    "options": [
+      "George Boole",
+      "John McCarthy",
+      "Alan Turing",
+      "Allen Newell"
+    ],
+    "ans": 1,
+    "explain": "জন ম্যাকার্থিকে (John McCarthy) কৃত্রিম বুদ্ধিমত্তার জনক বলা হয়। Alan Turing আধুনিক কম্পিউটিংয়ের জনক হিসেবে পরিচিত হলেও AI-এর জনক হিসেবে McCarthy-ই স্বীকৃত।",
+    "source": [
+      "Rupali Bank Ltd. Officer: 19"
+    ]
+  },
+  {
+    "id": 153,
+    "topicsId": 730,
+    "q": "Who is the pioneer of Artificial Intelligence (AI) ?",
+    "options": [
+      "S.P. Huntington",
+      "John McCarthy",
+      "Stephen Hawking",
+      "Steve Jobs"
+    ],
+    "ans": 1,
+    "explain": "জন ম্যাকার্থি ১৯৫৬ সালে ডার্টমাউথ কনফারেন্সে প্রথম 'Artificial Intelligence' শব্দটি ব্যবহার করেন এবং এই ক্ষেত্রের পথপ্রদর্শক হিসেবে পরিচিত।",
+    "source": [
+      "The Security Printing Corporation (Bangladesh) Ltd. Assistant Manager: 21"
+    ]
+  },
+  {
+    "id": 154,
+    "topicsId": 730,
+    "q": "Google's language 'Translator' is an example of the application of-",
+    "options": [
+      "Internet",
+      "computer simulations",
+      "debugging",
+      "Machine Learning"
+    ],
+    "ans": 3,
+    "explain": "গুগল ট্রান্সলেটর মেশিন লার্নিং (Machine Learning) এবং ন্যাচারাল ল্যাঙ্গুয়েজ প্রসেসিং প্রযুক্তি ব্যবহার করে এক ভাষা থেকে অন্য ভাষায় অনুবাদ সম্পন্ন করে।",
+    "source": [
+      "BEZA Assistant Manager: 20"
+    ]
+  },
+  {
+    "id": 155,
+    "topicsId": 730,
+    "q": "----------was a chess-playing computer developed by IBM.",
+    "options": [
+      "Bright Red",
+      "Deep Blue",
+      "Light Green",
+      "Dark Pink"
+    ],
+    "ans": 1,
+    "explain": "IBM কর্তৃক তৈরি 'Deep Blue' ছিল একটি অত্যন্ত শক্তিশালী দাবা খেলার কম্পিউটার, যা ১৯৯৭ সালে বিশ্ব চ্যাম্পিয়ন গ্যারি কাসপারভকে পরাজিত করেছিল।",
+    "source": [
+      "Bangladesh Bank Data Entry/Control Operator (IT): 20"
+    ]
+  },
+  {
+    "id": 156,
+    "topicsId": 730,
+    "q": "কৃত্রিম বুদ্ধিমত্তা প্রধানত কোথায় ব্যবহৃত হয় ?",
+    "options": [
+      "বায়োমেট্রিক্স",
+      "বায়োইনফরমেটিক্স",
+      "রোবটিক্স",
+      "ন্যানোটেকনোলজি"
+    ],
+    "ans": 2,
+    "explain": "রোবটিক্সে কৃত্রিম বুদ্ধিমত্তা সবচেয়ে বেশি ব্যবহৃত হয় যাতে রোবট পরিবেশ অনুযায়ী স্বাধীনভাবে সিদ্ধান্ত গ্রহণ এবং কাজ সম্পাদন করতে পারে।",
+    "source": [
+      "রাবি (ইউনিট-বি): ২০-২১/ বরিশাল বোর্ড (উচ্চ মাধ্যমিক) : ১৬"
+    ]
+  },
+  {
+    "id": 157,
+    "topicsId": 730,
+    "q": "NLP is a type of Language Processing, where 'N' stands for-",
+    "options": [
+      "Natural",
+      "Neutral",
+      "Normal",
+      "Nano"
+    ],
+    "ans": 0,
+    "explain": "NLP-এর পূর্ণরূপ হলো Natural Language Processing, যা কম্পিউটারের মাধ্যমে মানুষের স্বাভাবিক ভাষা বোঝার একটি প্রক্রিয়া।",
+    "source": [
+      "কর্মসংস্থান ব্যাংক ডাটা এন্ট্রি অপারেটর: ২২/ BHBFC Senior Officer: 17"
+    ]
+  },
+  {
+    "id": 158,
+    "topicsId": 730,
+    "q": "এলন মাস্ক কিসের জন্য বিখ্যাত ?",
+    "options": [
+      "ইলেকট্রিক গাড়ি",
+      "সুপার কম্পিউটার",
+      "মোবাইল ফোন",
+      "রোবটিক্স"
+    ],
+    "ans": 0,
+    "explain": "এলন মাস্ক টেসলা ইনকর্পোরেটেডের মাধ্যমে উন্নতমানের ইলেকট্রিক গাড়ি এবং মহাকাশ গবেষণার জন্য বিশ্বজুড়ে বিখ্যাত।",
+    "source": [
+      "কৃষি সম্প্রসারণ অধিদপ্তরের অফিস সহকারী: ১৮"
+    ]
+  },
+  {
+    "id": 159,
+    "topicsId": 730,
+    "q": "Who is the founder of electric cars manufacturing company 'Tesla' ?",
+    "options": [
+      "Bill Gates",
+      "Larry Page",
+      "Elon Musk",
+      "Jeff Bezos"
+    ],
+    "ans": 2,
+    "explain": "টেসলা একটি ইলেকট্রিক গাড়ি উৎপাদনকারী প্রতিষ্ঠান যার সহ-প্রতিষ্ঠাতা এবং প্রধান ব্যক্তিত্ব হলেন এলন মাস্ক।",
+    "source": [
+      "BEPZA Assistant Manager: 21"
+    ]
+  },
+  {
+    "id": 160,
+    "topicsId": 730,
+    "q": "Who is the CEO of Tesla & Space X ?",
+    "options": [
+      "Elon Musk",
+      "Jeff Bezos",
+      "Bill Gates",
+      "Jack ma",
+      "None"
+    ],
+    "ans": 0,
+    "explain": "এলন মাস্ক বর্তমানে বিশ্বের অন্যতম জনপ্রিয় ইলেকট্রিক গাড়ি কোম্পানি টেসলা এবং বেসরকারি মহাকাশ গবেষণা সংস্থা স্পেস এক্স-এর সিইও হিসেবে কর্মরত।",
+    "source": [
+      "PGCL Assistant Manager: 21"
+    ]
+  },
+  {
+    "id": 161,
+    "topicsId": 730,
+    "q": "কৃত্রিম বুদ্ধিমত্তায় ব্যবহৃত হয় কোনটি ?",
+    "options": [
+      "PYTHON",
+      "HTML",
+      "COBOL",
+      "PROLOG"
+    ],
+    "ans": 3,
+    "explain": "PROLOG (Programming in Logic) হলো কৃত্রিম বুদ্ধিমত্তা এবং ন্যাচারাল ল্যাঙ্গুয়েজ প্রসেসিংয়ে ব্যবহৃত একটি অত্যন্ত গুরুত্বপূর্ণ প্রোগ্রামিং ভাষা।",
+    "source": [
+      "দিনাজপুর বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 162,
+    "topicsId": 730,
+    "q": "যে প্রোগ্রামিং ল্যাঙ্গুয়েজ সাধারণত কৃত্রিম বুদ্ধিমত্তা প্রয়োগের ক্ষেত্রে ব্যবহৃত হয় না (The programming language, not used for artificial intelligence is)-",
+    "options": [
+      "সি++ (C++)",
+      "ম্যাটল্যাব (MATLAB)",
+      "ফক্সপ্রো (FoxPro)",
+      "প্রোলগ (PROLOG)"
+    ],
+    "ans": 2,
+    "explain": "ফক্সপ্রো (FoxPro) মূলত একটি ডেটাবেজ ম্যানেজমেন্ট সফটওয়্যার, এটি কৃত্রিম বুদ্ধিমত্তার গবেষণায় বা প্রয়োগে ব্যবহৃত হয় না।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় (খ ইউনিট): ২০-২১"
+    ]
+  },
+  {
+    "id": 163,
+    "topicsId": 730,
+    "q": "রোবটিক্স কী ?",
+    "options": [
+      "রোবট বিজ্ঞান",
+      "রোবটের ক্রিয়ানীতি",
+      "শিল্পে ব্যবহৃত রোবট",
+      "রোবট তৈরিতে ব্যবহৃত ভাষা"
+    ],
+    "ans": 0,
+    "explain": "রোবটিক্স (Robotics) হলো প্রযুক্তির সেই শাখা যা রোবটের ডিজাইন, গঠন, অপারেশন এবং প্রয়োগ নিয়ে গবেষণা করে।",
+    "source": [
+      "কুমিল্লা (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 164,
+    "topicsId": 730,
+    "q": "মানুষের দুঃসাধ্য কাজের প্রযুক্তি কোনটি ?",
+    "options": [
+      "রোবটিক্স",
+      "ভার্চুয়াল রিয়েলিটি",
+      "ন্যানোটেকনোলজি",
+      "কৃত্রিম বুদ্ধিমত্তা"
+    ],
+    "ans": 0,
+    "explain": "মানুষের জন্য ঝুঁকিপূর্ণ বা দুঃসাধ্য কাজ (যেমন: গভীর সমুদ্রে কাজ, আগ্নেয়গিরির তথ্য সংগ্রহ) রোবটিক্স প্রযুক্তির মাধ্যমে সহজে সম্পন্ন করা যায়।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 165,
+    "topicsId": 730,
+    "q": "রোবটিক্সের মূল কাজ হচ্ছে-",
+    "options": [
+      "চাহিদা অনুযায়ী সফটওয়্যার তৈরি করা",
+      "চাহিদা অনুযায়ী রোবট তৈরি করা",
+      "a ও b উভয়ই",
+      "কোনোটিই নয়"
+    ],
+    "ans": 1,
+    "explain": "রোবটিক্সের প্রধান লক্ষ্য এবং মূল কাজ হলো নির্দিষ্ট প্রয়োজন বা চাহিদা অনুযায়ী রোবট ডিজাইন ও নির্মাণ করা।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (H-ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 166,
+    "topicsId": 730,
+    "q": "সর্বপ্রথম Robotics শব্দটি ব্যবহার করেন কে ?",
+    "options": [
+      "আইজ্যাক নিউটন",
+      "আইজ্যাক আসিমভ",
+      "গ্যালিলিও",
+      "অ্যারিস্টোটল"
+    ],
+    "ans": 1,
+    "explain": "বৈজ্ঞানিক কল্পকাহিনী লেখক আইজ্যাক আসিমভ (Isaac Asimov) ১৯৪১ সালে তাঁর 'Liar!' গল্পে সর্বপ্রথম 'Robotics' শব্দটি ব্যবহার করেন।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষের উচ্চমান সহকারী: ২১"
+    ]
+  },
+  {
+    "id": 167,
+    "topicsId": 730,
+    "q": "কোন পদ্ধতিতে Actuator ব্যবহৃত হয় ?",
+    "options": [
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "ন্যানোটেকনোলজি",
+      "রোবটিক্স",
+      "বায়োইনফরমেটিক্স"
+    ],
+    "ans": 2,
+    "explain": "অ্যাকচুয়েটর (Actuator) হলো রোবটিক্সের একটি মেকানিক্যাল অংশ বা পেশি, যা রোবটকে নড়াচড়া করতে বা নির্দিষ্ট কাজ করতে শক্তি যোগায়।",
+    "source": [
+      "চট্টগ্রাম বোর্ড (উচ্চ মাধ্যমিক): ১৭/ মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 168,
+    "topicsId": 730,
+    "q": "কাজের প্রয়োজনে রোবটকে কত ডিগ্রি কোণ পর্যন্ত ঘুরানো যায় ?",
+    "options": [
+      "৯০০",
+      "১৮০০",
+      "২৭০০",
+      "৩৬০০"
+    ],
+    "ans": 3,
+    "explain": "একটি আধুনিক রোবটের জয়েন্ট বা হাত প্রয়োজনে পূর্ণ বৃত্তাকারে বা ৩৬০০ কোণ পর্যন্ত ঘোরানো সম্ভব।",
+    "source": [
+      "রাজশাহী বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 169,
+    "topicsId": 730,
+    "q": "কোনটি রোবটের ব্যবহার ?",
+    "options": [
+      "জটিল সার্জারি চিকিৎসায়",
+      "ব্যক্তির স্বাক্ষর শনাক্তকরণে",
+      "নতুন জাতের বীজ উৎপাদনে",
+      "টেনিস বলের আকৃতি তৈরিতে"
+    ],
+    "ans": 0,
+    "explain": "আধুনিক চিকিৎসাবিজ্ঞানে অত্যন্ত সূক্ষ্ম এবং জটিল সার্জারি করার জন্য রোবটিক হ্যান্ড বা সিস্টেম ব্যবহার করা হয়।",
+    "source": [
+      "রাজশাহী বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 170,
+    "topicsId": 730,
+    "q": "'পাথ ফাইন্ডার' (Pathfinder) কী ?",
+    "options": [
+      "চাঁদে অবতরণকারী একটি যানের নাম",
+      "শুক্র গ্রহে অবতরণকারী যানটির নাম",
+      "রাতের অন্ধকারে পথ দেখা যায় এরূপ একটি আলোর মেশিন",
+      "মঙ্গল গ্রহে অবতরণকারী যানটির নাম"
+    ],
+    "ans": 3,
+    "explain": "পাথফাইন্ডার ছিল নাসার একটি রোবটিক মহাকাশযান যা মঙ্গলের মাটিতে অবতরণ করে সেখানকার পরিবেশ নিয়ে গবেষণা করেছিল।",
+    "source": [
+      "স্বাস্থ্য প্রকৌশল অধিদপ্তরের সহকারী প্রকৌশলী (সিভিল): ১৭"
+    ]
+  },
+  {
+    "id": 171,
+    "topicsId": 730,
+    "q": "পাথফাইন্ডার- এর মঙ্গলে অবতরণ সাল-",
+    "options": [
+      "১৯৯০",
+      "১৯৯৫",
+      "১৯৯৭",
+      "২০০০"
+    ],
+    "ans": 2,
+    "explain": "নাসার 'মার্স পাথফাইন্ডার' মহাকাশযানটি ১৯৯৭ সালের ৪ঠা জুলাই মঙ্গলের পৃষ্ঠে সফলভাবে অবতরণ করে।",
+    "source": [
+      "৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 172,
+    "topicsId": 730,
+    "q": "মঙ্গল গ্রহে অবতরণকারী নাসা'র রোভার স্কাউট যান দু'টি-",
+    "options": [
+      "স্পিরিট ও অপরচুনিটি",
+      "এপোলো ও ঈগল",
+      "ইউরোপ ও নাসা",
+      "রোভার ও স্কাউট"
+    ],
+    "ans": 0,
+    "explain": "স্পিরিট (Spirit) এবং অপরচুনিটি (Opportunity) হলো মঙ্গলে পাঠানো নাসার অত্যন্ত সফল দুটি রোবটিক যান।",
+    "source": [
+      "চট্টগ্রাম বিশ্ববিদ্যালয় (ডি ইউনিট): ০৩-০৪"
+    ]
+  },
+  {
+    "id": 173,
+    "topicsId": 730,
+    "q": "রোবট সোফিয়ার নির্মাতা প্রতিষ্ঠানের নাম কী ?",
+    "options": [
+      "আইবিএম রোবটিক্স ইউনিট",
+      "স্যাম রোবটিক্স",
+      "হাঙ্ক রোবটিক্স",
+      "হ্যানসন রোবটিক্স"
+    ],
+    "ans": 3,
+    "explain": "সোফিয়া একটি অত্যন্ত উন্নত হিউম্যানয়েড রোবট যা হংকং ভিত্তিক প্রতিষ্ঠান 'হ্যানসন রোবটিক্স' তৈরি করেছে।",
+    "source": [
+      "প্রতিরক্ষা মন্ত্রণালয়ের সহকারী পরিচালক: ১৮"
+    ]
+  },
+  {
+    "id": 174,
+    "topicsId": 730,
+    "q": "কোনটি মানুষকে অদ্বিতীয়ভাবে শনাক্ত করার প্রযুক্তি ?",
+    "options": [
+      "বায়োইনফরমেটিক্স",
+      "বায়োমেট্রিক্স",
+      "ন্যানোটেকনোলজি",
+      "রোবোটিক্স"
+    ],
+    "ans": 1,
+    "explain": "বায়োমেট্রিক্স প্রযুক্তির মাধ্যমে মানুষের শারীরিক বা আচরণগত বৈশিষ্ট্যের (যেমন: আঙুলের ছাপ, চোখের মণি) ভিত্তিতে তাকে অনন্যভাবে শনাক্ত করা যায়।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় (চ ইউনিট): ১৯-২০"
+    ]
+  },
+  {
+    "id": 175,
+    "topicsId": 730,
+    "q": "কোন পদ্ধতিতে আঙুলের ছাপ ব্যবহার করে অপরাধী নির্ণয় করা যায় ?",
+    "options": [
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "বায়োমেট্রিক্স",
+      "ন্যানোটেকনোলজি",
+      "আর্টিফিসিয়াল ইন্টেলিজেন্স"
+    ],
+    "ans": 1,
+    "explain": "বায়োমেট্রিক্স প্রযুক্তির সাহায্যে অপরাধীর আঙুলের ছাপ স্ক্যান করে ডেটাবেজের সাথে মিলিয়ে অপরাধী শনাক্ত করা হয়।",
+    "source": [
+      "GST গুচ্ছভুক্ত বিশ্ববিদ্যালয় (মানবিক): ২০-২১"
+    ]
+  },
+  {
+    "id": 176,
+    "topicsId": 730,
+    "q": "মোবাইল সিম ক্রয়ে কোন প্রযুক্তি গ্রাহককে সহায়তা করে ?",
+    "options": [
+      "বায়োমেট্রিক্স",
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "ন্যানোটেকনোলজি",
+      "ক্রায়োসার্জারি"
+    ],
+    "ans": 0,
+    "explain": "বাংলাদেশে সিমকার্ড নিবন্ধনের জন্য বায়োমেট্রিক্স (আঙুলের ছাপ) বাধ্যতামূলক করা হয়েছে, যা গ্রাহকের পরিচয় নিশ্চিত করে।",
+    "source": [
+      "যশোর বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 177,
+    "topicsId": 730,
+    "q": "বায়োমেট্রিক পদ্ধতিতে সিমকার্ড নিবন্ধন শুরু করা 1ম ও 2য় দেশ কী কী ?",
+    "options": [
+      "বাংলাদেশ ও ভারত",
+      "ভারত ও পাকিস্তান",
+      "বাংলাদেশ ও পাকিস্তান",
+      "পাকিস্তান ও বাংলাদেশ"
+    ],
+    "ans": 3,
+    "explain": "সারা বিশ্বে পাকিস্তান প্রথম এবং বাংলাদেশ দ্বিতীয় দেশ হিসেবে সিমকার্ডের জন্য বায়োমেট্রিক নিবন্ধন পদ্ধতি চালু করে।",
+    "source": [
+      "বেরোবি (সি ইউনিট) : ১৫-১৬"
+    ]
+  },
+  {
+    "id": 178,
+    "topicsId": 730,
+    "q": "নিচের কোন প্রযুক্তি Face Recognition System- এর সহায়ক ভূমিকা পালন করে ?",
+    "options": [
+      "Virtual Reality",
+      "Applied Artificial Intelligence (AI)",
+      "Applied Internet of Things (IoT)",
+      "উপরের কোনটিই নয়"
+    ],
+    "ans": 1,
+    "explain": "ফেস রিকগনিশন সিস্টেমে মানুষের চেহারার গঠন ও প্যাটার্ন বোঝার জন্য কৃত্রিম বুদ্ধিমত্তা বা AI-এর প্রয়োগ অপরিহার্য।",
+    "source": [
+      "৪৩তম বিসিএস"
+    ]
+  },
+  {
+    "id": 179,
+    "topicsId": 730,
+    "q": "Concurrent Two-Factor Identity Verification' is a biometric identification system that would require-",
+    "options": [
+      "Finger print and national identity",
+      "Facial identity and finger print",
+      "Eye contact and blood sample",
+      "Facial identity and facial motion"
+    ],
+    "ans": 3,
+    "explain": "টু-ফ্যাক্টর ভেরিফিকেশনে সিকিউরিটি বাড়াতে একই সাথে ফেসিয়াল আইডেন্টিটি এবং ফেসিয়াল মোশন (মুখের নড়াচড়া) ট্র্যাক করা হয়।",
+    "source": [
+      "The Security Printing Corporation (Bangladesh) Ltd. Assistant Manager: 21"
+    ]
+  },
+  {
+    "id": 180,
+    "topicsId": 730,
+    "q": "জীব সংক্রান্ত তথ্য ব্যবস্থাপনার কাজে কম্পিউটার প্রযুক্তির প্রয়োগ হল-",
+    "options": [
+      "বায়োইনফরমেটিক্স",
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "ক্রায়োসার্জারি",
+      "বায়োমেট্রিক্স"
+    ],
+    "ans": 0,
+    "explain": "বায়োইনফরমেটিক্স হলো জীববিজ্ঞান, পরিসংখ্যান এবং কম্পিউটার বিজ্ঞানের সমন্বয়ে জৈবিক ডেটা (যেমন: DNA সিকোয়েন্স) বিশ্লেষণের প্রযুক্তি।",
+    "source": [
+      "চট্টগ্রাম বোর্ড (উচ্চ মাধ্যমিক) : ১৯"
+    ]
+  },
+  {
+    "id": 181,
+    "topicsId": 730,
+    "q": "আণবিক জৈব বিজ্ঞান ও কম্পিউটার বিজ্ঞানের সমন্বিত রূপ হল-",
+    "options": [
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "বায়োইনফরমেটিক্স",
+      "ক্রায়োসার্জারি",
+      "ন্যানোটেকনোলজি"
+    ],
+    "ans": 1,
+    "explain": "মলিকুলার বায়োলজি বা আণবিক জৈব বিজ্ঞানের বিশাল তথ্যভাণ্ডার কম্পিউটার প্রযুক্তি দিয়ে পরিচালনা ও বিশ্লেষণ করাই হলো বায়োইনফরমেটিক্স।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (H-ইউনিট): ১৭-১৮"
+    ]
+  },
+  {
+    "id": 182,
+    "topicsId": 730,
+    "q": "কোনটি বায়োইনফরমেটিক্সের বৈশিষ্ট্য ?",
+    "options": [
+      "স্বল্প ডেটা সংরক্ষণ",
+      "জৈবিক ডেটার সমাহার",
+      "ন্যানোটেকনোলজির ব্যবহার",
+      "প্রযুক্তিনির্ভর নিরাপত্তা"
+    ],
+    "ans": 1,
+    "explain": "বায়োইনফরমেটিক্সের প্রধান বৈশিষ্ট্য হলো বিশাল পরিমাণ জৈবিক বা বায়োলজিক্যাল ডেটা সংগ্রহ, সংরক্ষণ ও বিশ্লেষণ করা।",
+    "source": [
+      "রাজশাহী বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 183,
+    "topicsId": 730,
+    "q": "কোনটি বায়োইনফরমেটিক্স পদ্ধতিতে সফটওয়্যার টুলস হিসাবে ব্যবহৃত হয় ?",
+    "options": [
+      "SQL",
+      "LISP",
+      "CLISP",
+      "PROLOG"
+    ],
+    "ans": 0,
+    "explain": "বিশাল জৈবিক ডেটাবেজ পরিচালনা করার জন্য SQL (Structured Query Language) একটি গুরুত্বপূর্ণ টুল হিসেবে ব্যবহৃত হয়।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 184,
+    "topicsId": 730,
+    "q": "জিন ফাইন্ডিং গবেষণায় কী ব্যবহৃত হয় ?",
+    "options": [
+      "বায়োমেট্রিক্স",
+      "বায়োইনফরমেটিক্স",
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "ন্যানো টেকনোলজি"
+    ],
+    "ans": 1,
+    "explain": "জিনের অবস্থান এবং বৈশিষ্ট্য খুঁজে বের করার (Gene Finding) গবেষণায় বায়োইনফরমেটিক্স প্রযুক্তি ব্যবহার করা হয়।",
+    "source": [
+      "কুমিল্লা বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 185,
+    "topicsId": 730,
+    "q": "DNA ম্যাপিং এর জন্য কোন প্রযুক্তি ব্যবহৃত হয় ?",
+    "options": [
+      "বায়োমেট্রিক্স",
+      "বায়োইনফরমেটিক্স",
+      "রোবোটিক্স",
+      "জেনেটিক্স"
+    ],
+    "ans": 1,
+    "explain": "DNA-এর বিশাল সিকোয়েন্স সাজানো বা ম্যাপিং করার জন্য কম্পিউটারাইজড গাণিতিক মডেল বা বায়োইনফরমেটিক্স প্রয়োজন।",
+    "source": [
+      "পরিবার পরিকল্পনা অধিদপ্তরের পরিবার কল্যাণ পরিদর্শিকা: ১৮"
+    ]
+  },
+  {
+    "id": 186,
+    "topicsId": 730,
+    "q": "'জেনেটিক ম্যাপ' কী কাজে ব্যবহৃত হতে পারে ?",
+    "options": [
+      "চিকিৎসাশাস্ত্রে",
+      "উন্নতজাতের শস্যবীজ উদ্ভাবনে",
+      "মহাকাশ অভিযানে",
+      "সমুদ্রযাত্রার জন্য"
+    ],
+    "ans": 0,
+    "explain": "বংশগতিজনিত রোগ নির্ণয় এবং ডিএনএ-এর গঠন বিশ্লেষণে চিকিৎসাশাস্ত্রে জেনেটিক ম্যাপ গুরুত্বপূর্ণ ভূমিকা পালন করে।",
+    "source": [
+      "রাজশাহী বিশ্ববিদ্যালয় (আইন বিভাগ): ০৫-০৬"
+    ]
+  },
+  {
+    "id": 187,
+    "topicsId": 730,
+    "q": "বিভিন্ন জটিল রোগের কারণ আবিষ্কারে কোন প্রযুক্তি কাজ করছে ?",
+    "options": [
+      "বায়োইনফরমেটিক্স",
+      "ন্যানোটেকনোলজি",
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "ক্রায়োসার্জারি"
+    ],
+    "ans": 0,
+    "explain": "জিনের গঠন বিশ্লেষণ করে রোগের মূল কারণ খুঁজে পেতে বায়োইনফরমেটিক্স সবচেয়ে কার্যকর ভূমিকা রাখছে।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 188,
+    "topicsId": 730,
+    "q": "ন্যানো বুঝায় কোনটি ?",
+    "options": [
+      "১০-৬",
+      "১০-৯",
+      "১০-১২",
+      "১০-১৫"
+    ],
+    "ans": 1,
+    "explain": "গাণিতিক পরিভাষায় ন্যানো বলতে ১০-এর ঋণাত্মক ৯ ঘাত বা এক মিটারের এক বিলিয়ন ভাগের এক ভাগ ১০-৯ কে বোঝায়।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 189,
+    "topicsId": 730,
+    "q": "এক ন্যানোমিটার সমান কত মিটার ?",
+    "options": [
+      "10-6 মিটার",
+      "10-9 মিটার",
+      "10-8 মিটার",
+      "10-7 মিটার"
+    ],
+    "ans": 1,
+    "explain": "১ ন্যানোমিটার হলো 10-9 মিটারের সমান অত্যন্ত ক্ষুদ্র দৈর্ঘ্যের একক।",
+    "source": [
+      "কুমিল্লা বোর্ড (উচ্চ মাধ্যমিক): ১৬/ বরিশাল বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 190,
+    "topicsId": 730,
+    "q": "ন্যানো অবজেক্ট তৈরি করা হয় কোথা থেকে ?",
+    "options": [
+      "মলিকুলার কম্পোনেন্ট থেকে",
+      "লার্জার এন্টিটি হতে",
+      "সাইনিং-এর মাধ্যমে",
+      "প্রোগ্রামিং দ্বারা"
+    ],
+    "ans": 1,
+    "explain": "টপ-ডাউন পদ্ধতিতে একটি বৃহৎ কাঠামোকে (Larger Entity) কেটে বা ভেঙে ক্ষুদ্র ন্যানো অবজেক্টে রূপান্তর করা হয়।",
+    "source": [
+      "দিনাজপুর বোর্ড (উচ্চ মাধ্যমিক) : ১৯"
+    ]
+  },
+  {
+    "id": 191,
+    "topicsId": 730,
+    "q": "আণবিক পর্যায়ে ধাতব পদার্থকে পরিবর্তন ও নিয়ন্ত্রণের প্রযুক্তি কোনটি ?",
+    "options": [
+      "রোবটিক্স",
+      "ন্যানোটেকনোলজি",
+      "বায়োমেট্রিক্স",
+      "জেনেটিক ইঞ্জিনিয়ারিং"
+    ],
+    "ans": 1,
+    "explain": "ন্যানোটেকনোলজি হলো পরমাণু বা অণু পর্যায়ে (১ থেকে ১০০ ন্যানোমিটার স্কেলে) পদার্থকে পরিচালনা ও পরিবর্তন করার প্রযুক্তি।",
+    "source": [
+      "উচ্চ মাধ্যমিক পরীক্ষা: ১৮"
+    ]
+  },
+  {
+    "id": 192,
+    "topicsId": 730,
+    "q": "টপ ডাউন পদ্ধতিতে কোনো জিনিসকে নির্দিষ্ট আকার দেওয়া হয়। এর সাথে সংশ্লিষ্ট প্রযুক্তি কোনটি ?",
+    "options": [
+      "বায়োমেট্রিক্স",
+      "বায়োইনফরমেটিক্স",
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "ন্যানোটেকনোলজি"
+    ],
+    "ans": 3,
+    "explain": "ন্যানোটেকনোলজিতে দুটি পদ্ধতি ব্যবহৃত হয়—টপ-ডাউন (বড় থেকে ছোট করা) এবং বটম-আপ (অণু থেকে বড় করা)।",
+    "source": [
+      "চট্টগ্রাম বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 193,
+    "topicsId": 730,
+    "q": "স্মার্টফোন তৈরিতে ব্যবহৃত ক্ষুদ্র যন্ত্রাংশ ত্রুটিহীনভাবে স্থাপন সম্ভব হচ্ছে কিসের কল্যাণে ?",
+    "options": [
+      "ভার্চুয়াল রিয়েলিটি",
+      "ন্যানোটেকনোলজি",
+      "রোবট",
+      "জেনেটিক ইঞ্জিনিয়ারিং"
+    ],
+    "ans": 1,
+    "explain": "ন্যানোটেকনোলজির কারণে স্মার্টফোনের প্রসেসর ও চিপসেটগুলো অত্যন্ত ক্ষুদ্র কিন্তু শক্তিশালী হিসেবে তৈরি করা সম্ভব হচ্ছে।",
+    "source": [
+      "সিজিডিএফ এর জুনিয়র অডিটর (এলডিএ-কাম-টাইপিস্ট): ২২ / মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৮"
+    ]
+  },
+  {
+    "id": 194,
+    "topicsId": 730,
+    "q": "Apple M-1 মোবাইলটি তৈরিতে কোন প্রযুক্তি ব্যবহার করা হচ্ছে ?",
+    "options": [
+      "বায়োইনফরমেটিক্স",
+      "ন্যানোটেকনোলজি",
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "বায়োটেকনোলজি"
+    ],
+    "ans": 1,
+    "explain": "যেকোনো আধুনিক হাই-এন্ড মোবাইল প্রসেসর (যেমন অ্যাপলের চিপসেট) ন্যানোমিটার স্কেলে ন্যানোটেকনোলজি ব্যবহার করে তৈরি করা হয়।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 195,
+    "topicsId": 730,
+    "q": "খাদ্যজাত দ্রব্যের মান সঠিক রাখার জন্য প্যাকেটের ভেতর প্রলেপ করার প্রযুক্তি কী ?",
+    "options": [
+      "রোবোটিক্স",
+      "বায়োমেট্রিক্স",
+      "বায়োইনফরমেটিক্স",
+      "ন্যানোটেকনোলজি"
+    ],
+    "ans": 3,
+    "explain": "খাদ্য সংরক্ষণে ন্যানো-প্যাকেজিং প্রযুক্তি ব্যবহার করা হয়, যেখানে সিলভার ন্যানো-পার্টিকেলস ব্যাকটেরিয়ার আক্রমণ রোধ করে।",
+    "source": [
+      "সিলেট বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 196,
+    "topicsId": 730,
+    "q": "Genetic Engineering হলো-",
+    "options": [
+      "জিন প্রকৌশল",
+      "পুরকৌশল",
+      "নগর প্রকৌশল",
+      "তড়িৎ প্রকৌশল"
+    ],
+    "ans": 0,
+    "explain": "জেনেটিক ইঞ্জিনিয়ারিং বলতে মূলত ডিএনএ বা জিনের পরিবর্তন করে কোনো জীবের নতুন বৈশিষ্ট্য সৃষ্টির প্রযুক্তি বা জিন প্রকৌশলকে বোঝায়।",
+    "source": [
+      "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের প্রদর্শক : ১৩"
+    ]
+  },
+  {
+    "id": 197,
+    "topicsId": 730,
+    "q": "জেনেটিক ইঞ্জিনিয়ারিং এর জনক কে ?",
+    "options": [
+      "Jack Williamson",
+      "E. Coli",
+      "Paul Berg",
+      "Stanley Cohen"
+    ],
+    "ans": 2,
+    "explain": "পল বার্গ (Paul Berg) কে জেনেটিক ইঞ্জিনিয়ারিংয়ের জনক বলা হয় কারণ তিনি প্রথম রিকম্বিন্যান্ট ডিএনএ অণু তৈরি করেছিলেন।",
+    "source": [
+      "বরিশাল বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 198,
+    "topicsId": 730,
+    "q": "নতুন ধরনের ক্রোমোজোম তৈরির কৌশলকে কী বলে ?",
+    "options": [
+      "জেনেটিক ইঞ্জিনিয়ারিং",
+      "বায়োইনফরমেটিক্স",
+      "ন্যানোটেকনোলজি",
+      "বায়োমেট্রিক্স"
+    ],
+    "ans": 0,
+    "explain": "জেনেটিক ইঞ্জিনিয়ারিং প্রযুক্তির মাধ্যমে ডিএনএ-তে পরিবর্তন এনে নতুন ধরনের ক্রোমোজোম বিন্যাস বা রিকম্বিন্যান্ট ডিএনএ তৈরি করা হয়।",
+    "source": [
+      "সকল বোর্ড (উচ্চ মাধ্যমিক): ১৮"
+    ]
+  },
+  {
+    "id": 199,
+    "topicsId": 730,
+    "q": "কোন এনজাইমের সাহায্যে প্লাজমিড ডি.এন.এ কে ছেদন করা হয় ?",
+    "options": [
+      "Amylase enzyme",
+      "Protease enzyme",
+      "Restriction enzyme",
+      "Cellulose enzyme"
+    ],
+    "ans": 2,
+    "explain": "রেস্ট্রিকশন এনজাইমকে (Restriction Enzyme) আণবিক কাঁচি বলা হয়, যা ডিএনএ-এর নির্দিষ্ট অংশ কাটতে ব্যবহৃত হয়।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীনে সহকারী পরিচালক: ০৪"
+    ]
+  },
+  {
+    "id": 200,
+    "topicsId": 730,
+    "q": "The process of fragmentation of DNA in Genetic Engineering is known as-",
+    "options": [
+      "Electro-synthesis",
+      "Electrophoresis",
+      "Electro-analysis",
+      "Electrolysis"
+    ],
+    "ans": 1,
+    "explain": "ইলেক্ট্রোফোরেসিস (Electrophoresis) হলো একটি ল্যাবরেটরি পদ্ধতি যার মাধ্যমে ডিএনএ খণ্ডগুলোকে তাদের আকার ও আধান অনুযায়ী আলাদা করা হয়।",
+    "source": [
+      "Bangladesh Krishi Bank Officer: 11"
+    ]
+  },
+  {
+    "id": 201,
+    "topicsId": 730,
+    "q": "বায়োটেকনোলজির মাধ্যমে কোন হরমোন তৈরি করা হয় ?",
+    "options": [
+      "থাইরক্সিন",
+      "গ্লুকাগন",
+      "গ্রোথ হরমোন",
+      "প্যারাথাইরয়েড হরমোন"
+    ],
+    "ans": 2,
+    "explain": "বায়োটেকনোলজি বা জেনেটিক ইঞ্জিনিয়ারিংয়ের মাধ্যমে মানবদেহের গ্রোথ হরমোন এবং ইনসুলিন বাণিজ্যিকভাবে তৈরি করা হয়।",
+    "source": [
+      "শ্রম পরিদপ্তরের সহকারী শ্রম পরিচালক: ০৬"
+    ]
+  },
+  {
+    "id": 202,
+    "topicsId": 730,
+    "q": "উচ্চ ফলনশীল শস্য উৎপাদনে কোন প্রযুক্তি ব্যবহৃত হয় ?",
+    "options": [
+      "বায়োমেট্রিক্স",
+      "ভার্চুয়াল রিয়েলিটি",
+      "ন্যানোটেকনোলজি",
+      "জেনেটিক ইঞ্জিনিয়ারিং"
+    ],
+    "ans": 3,
+    "explain": "শস্যের জিনগত পরিবর্তন ঘটিয়ে পোকামাকড়ের আক্রমণ রোধ এবং অধিক ফলন নিশ্চিত করতে জেনেটিক ইঞ্জিনিয়ারিং ব্যবহার করা হয়।",
+    "source": [
+      "চট্টগ্রাম বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 203,
+    "topicsId": 730,
+    "q": "জেনেটিক ইঞ্জিনিয়ারিং ব্যবহারের ক্ষেত্র কোনটি ?",
+    "options": [
+      "চিকিৎসা",
+      "নিরাপত্তা",
+      "খেলাধুলা",
+      "সফটওয়্যার"
+    ],
+    "ans": 0,
+    "explain": "বংশগতিজনিত রোগ নির্মূল, টিকা ও ওষুধ তৈরির জন্য চিকিৎসা ক্ষেত্রে জেনেটিক ইঞ্জিনিয়ারিংয়ের ব্যাপক প্রয়োগ রয়েছে।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 204,
+    "topicsId": 730,
+    "q": "কোনটি ক্রায়োসার্জারির সাথে সম্পর্কিত ?",
+    "options": [
+      "ফাজি লজিক",
+      "বিশেষ ধরনের গ্লাভস",
+      "নাইট্রোজেন",
+      "নেভিগেশন"
+    ],
+    "ans": 2,
+    "explain": "ক্রায়োসার্জারিতে অস্বাভাবিক টিস্যু ধ্বংস করতে অতি শীতল তরল নাইট্রোজেন বা আর্গন গ্যাস ব্যবহৃত হয়।",
+    "source": [
+      "ঢাকা বোর্ড (উচ্চ মাধ্যমিক) : ১৬"
+    ]
+  },
+  {
+    "id": 205,
+    "topicsId": 730,
+    "q": "ক্রায়োসার্জারিতে ব্যবহৃত প্রধান উপাদান-",
+    "options": [
+      "অক্সিজেন",
+      "নাইট্রোজেন",
+      "হাইড্রোজেন",
+      "মিথেন"
+    ],
+    "ans": 1,
+    "explain": "তরল নাইট্রোজেন হলো ক্রায়োসার্জারির প্রধান উপাদান যা হিমাঙ্কের অনেক নিচে তাপমাত্রা সৃষ্টি করতে সক্ষম।",
+    "source": [
+      "যশোর বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 206,
+    "topicsId": 730,
+    "q": "ক্রায়োসার্জারি চিকিৎসা পদ্ধতিতে ব্যবহৃত হয়-",
+    "options": [
+      "আর্গন",
+      "কার্বন মনোঅক্সাইড",
+      "কঠিন নাইট্রোজেন",
+      "ডাই মিথানল ইথেন"
+    ],
+    "ans": 0,
+    "explain": "তরল নাইট্রোজেন ছাড়াও আর্গন গ্যাস ক্রায়োসার্জারিতে তাপমাত্রা কমানোর জন্য ব্যবহৃত হয়।",
+    "source": [
+      "কুমিল্লা বোর্ড (উচ্চ মাধ্যমিক): ১৯"
+    ]
+  },
+  {
+    "id": 207,
+    "topicsId": 730,
+    "q": "ক্রায়োসার্জারি ব্যবহৃত হয়-",
+    "options": [
+      "প্লাস্টিক সার্জারিতে",
+      "হার্টের বাইপাসে",
+      "চোখের লেন্স প্রতিস্থাপনে",
+      "লিভার ক্যান্সারে"
+    ],
+    "ans": 3,
+    "explain": "শরীরের অভ্যন্তরীণ টিউমার বা ক্যানসার আক্রান্ত টিস্যু (যেমন লিভার ক্যানসার) ধ্বংসে ক্রায়োসার্জারি অত্যন্ত কার্যকর।",
+    "source": [
+      "যশোর বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 208,
+    "topicsId": 730,
+    "q": "তথ্য ও যোগাযোগ প্রযুক্তি-",
+    "options": [
+      "অপচয় কমায়",
+      "শারীরিক শ্রম বাড়ায়",
+      "ব্যয় বৃদ্ধি পায়",
+      "মানুষের মেধা ব্যবহার কমায়"
+    ],
+    "ans": 0,
+    "explain": "আইসিটি ব্যবহারের ফলে সময়ের সাশ্রয় হয়, কার্যদক্ষতা বৃদ্ধি পায় এবং সম্পদের অপচয় উল্লেখযোগ্যভাবে হ্রাস পায়।",
+    "source": [
+      "মাদ্রাসা বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 209,
+    "topicsId": 730,
+    "q": "CAD stands for--",
+    "options": [
+      "Come And Dance",
+      "Computer Aided Design",
+      "Call And Dine",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "CAD-এর পূর্ণরূপ হলো Computer Aided Design, যা প্রকৌশল এবং স্থাপত্যের নকশা তৈরিতে ব্যবহৃত হয়।",
+    "source": [
+      "Dhaka Bank Ltd. MTO: 03"
+    ]
+  },
+  {
+    "id": 210,
+    "topicsId": 730,
+    "q": "নিচের কোনটি চতুর্থ শিল্প বিপ্লবের উদাহরণ নয় ?",
+    "options": [
+      "জিন প্রকৌশল",
+      "ভিডিও-কনফারেন্স",
+      "কৃত্রিম বুদ্ধিমত্তা",
+      "সবগুলোই উদাহরণ",
+      "কোনটিই নয়"
+    ],
+    "ans": 3,
+    "explain": "জিন প্রকৌশল, কৃত্তিম বুদ্ধিমত্তা এবং ভিডিও-কনফারেন্সিং—এই সবই আধুনিক প্রযুক্তি যা চতুর্থ শিল্প বিপ্লবের অংশ। তাই সবগুলোই উদাহরণ সঠিক উত্তর।",
+    "source": [
+      "বাংলাদেশ গ্যাস ফিল্ডে সাব-এসিস্ট্যান্ট ইঞ্জিনিয়ার (সিভিল): ২১"
+    ]
+  },
+  {
+    "id": 211,
+    "topicsId": 730,
+    "q": "...........is used to control all the parts of a manufacturing processes.",
+    "options": [
+      "ATM",
+      "CAM",
+      "CAD",
+      "MICR"
+    ],
+    "ans": 1,
+    "explain": "CAM (Computer Aided Manufacturing) হলো এমন এক প্রযুক্তি যা উৎপাদন প্রক্রিয়ার যন্ত্রপাতি নিয়ন্ত্রণ ও পরিচালনা করতে ব্যবহৃত হয়।",
+    "source": [
+      "BEPZA-এর সহকারী ব্যবস্থাপক: 21"
+    ]
+  },
+  {
+    "id": 212,
+    "topicsId": 730,
+    "q": "RFID বলতে বুঝায়-",
+    "options": [
+      "Random Frequency Information",
+      "Random Frequency Identification",
+      "Radio Frequency Information",
+      "Radio Frequency Identification"
+    ],
+    "ans": 3,
+    "explain": "RFID হলো Radio Frequency Identification, যা রেডিও তরঙ্গের মাধ্যমে কোনো বস্তুকে স্বয়ংক্রিয়ভাবে শনাক্ত করতে ব্যবহৃত হয়।",
+    "source": [
+      "৪৩তম বিসিএস/৪১তম বিসিএস"
+    ]
+  },
+  {
+    "id": 213,
+    "topicsId": 730,
+    "q": "Which of the following terms can be related with fourth industrial revolution ?",
+    "options": [
+      "Artificial intelligence",
+      "Internet of things",
+      "Robotics",
+      "ক, খ and গ",
+      "None"
+    ],
+    "ans": 3,
+    "explain": "চতুর্থ শিল্প বিপ্লব মূলত AI, IoT এবং রোবটিক্স—এই সবগুলোর সমন্বিত অগ্রগতির ফসল।",
+    "source": [
+      "PGCL Assistant Manager: 21"
+    ]
+  },
+  {
+    "id": 214,
+    "topicsId": 730,
+    "q": "The fourth industrial Revolution is driven by emergence of technological break-through in number of fields except",
+    "options": [
+      "Nanotechnology",
+      "Artificial Intelligence",
+      "3D Printing",
+      "Personal Computer"
+    ],
+    "ans": 3,
+    "explain": "পার্সোনাল কম্পিউটার (PC) ছিল তৃতীয় শিল্প বিপ্লবের অংশ। চতুর্থ শিল্প বিপ্লবের চালিকাশক্তি হলো ন্যানোটেকনোলজি, এআই এবং থ্রিডি প্রিন্টিং।",
+    "source": [
+      "Sonali Bank Ltd.(Officer): 18"
+    ]
+  },
+  {
+    "id": 215,
+    "topicsId": 730,
+    "q": "In computer terminology, IoT stands for-",
+    "options": [
+      "Internet of Technologies",
+      "Internet of Things",
+      "Internet of Transmission",
+      "Internet of business"
+    ],
+    "ans": 1,
+    "explain": "IoT-এর পূর্ণরূপ হলো Internet of Things, যেখানে বিভিন্ন ভৌত যন্ত্র ইন্টারনেট ব্যবহারের মাধ্যমে একে অপরের সাথে ডেটা আদান-প্রদান করতে পারে।",
+    "source": [
+      "Titas Gas Transmission & distribution Co. Ltd. Assistant Manager: 21"
+    ]
+  },
+  {
+    "id": 216,
+    "topicsId": 730,
+    "q": "নিম্নের কোনটি 4র্থ শিল্প বিপ্লবের অংশ-",
+    "options": [
+      "IoT Sensor এর ব্যবহার",
+      "শিল্পোৎপাদনে স্টীম ইঞ্জিনের ব্যবহার",
+      "ইন্টারনেট প্রযুক্তির ব্যবহার",
+      "ইলেকট্রিসিটি চালিত মেট্রোরেল ব্যবস্থা চালুকরণ"
+    ],
+    "ans": 0,
+    "explain": "IoT সেন্সরের ব্যবহার চতুর্থ শিল্প বিপ্লবের একটি অন্যতম প্রধান বৈশিষ্ট্য। স্টিম ইঞ্জিন ১ম এবং ইলেকট্রিসিটি ২য় শিল্প বিপ্লবের উদাহরণ।",
+    "source": [
+      "পল্লী উন্নয়ন একাডেমী এর সহকারী পরিচালক: ২১"
+    ]
+  },
+  {
+    "id": 217,
+    "topicsId": 730,
+    "q": "সাধারণভাবে ভার্চুয়াল রিয়েলিটির পরিবেশ হলো-",
+    "options": [
+      "একমাত্রিক",
+      "দ্বি-মাত্রিক",
+      "ত্রি-মাত্রিক",
+      "চতুর্মাত্রিক"
+    ],
+    "ans": 2,
+    "explain": "ভার্চুয়াল রিয়েলিটি একটি কম্পিউটার নিয়ন্ত্রিত ত্রি-মাত্রিক (3D) পরিবেশ যেখানে ব্যবহারকারী নিজেকে বাস্তবের মতো অনুভব করেন।",
+    "source": [
+      "কুমিল্লা বোর্ড (উচ্চ মাধ্যমিক): ১৬"
+    ]
+  },
+  {
+    "id": 218,
+    "topicsId": 730,
+    "q": "কম্পিউটার সিমুলেশন প্রয়োগের ক্ষেত্র কোনটি ?",
+    "options": [
+      "ক্রায়োসার্জারি",
+      "ভার্চুয়াল রিয়েলিটি",
+      "ইন্টারনেট",
+      "ভিডিও কনফারেন্সিং"
+    ],
+    "ans": 1,
+    "explain": "ভার্চুয়াল রিয়েলিটির মূল ভিত্তি হলো কম্পিউটার সিমুলেশন, যার মাধ্যমে কৃত্রিম জগৎ তৈরি করা হয়।",
+    "source": [
+      "চট্টগ্রাম বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 219,
+    "topicsId": 730,
+    "q": "কোনটি ভার্চুয়াল রিয়েলিটিতে ব্যবহৃত হয় ?",
+    "options": [
+      "ত্রিমাত্রিক সিমুলেশন",
+      "দ্বিমাত্রিক সিমুলেশন",
+      "হ্যান্ড জিওমেট্রি",
+      "বায়োলজিক্যাল ডেটা"
+    ],
+    "ans": 0,
+    "explain": "ব্যবহারকারীকে বাস্তব আবহ দিতে ভার্চুয়াল রিয়েলিটিতে অত্যন্ত উন্নতমানের ত্রিমাত্রিক সিমুলেশন ব্যবহার করা হয়।",
+    "source": [
+      "জাককানইবি (খ ইউনিট): ১৭-১৮ / দিনাজপুর বোর্ড (উচ্চ মাধ্যমিক): ১৭"
+    ]
+  },
+  {
+    "id": 220,
+    "topicsId": 730,
+    "q": "ভার্চুয়াল রিয়েলিটির বৈশিষ্ট্য কোনটি ?",
+    "options": [
+      "তথ্য আদান-প্রদান",
+      "বাস্তব জগতে বিচরণ",
+      "দ্বিমাত্রিক জগতে প্রবেশ",
+      "কাল্পনিক জগতে বিচরণ"
+    ],
+    "ans": 3,
+    "explain": "ভার্চুয়াল রিয়েলিটির মাধ্যমে ব্যবহারকারী সম্পূর্ণ কাল্পনিক কিন্তু বাস্তবসম্মত একটি ডিজিটাল জগতে প্রবেশ ও বিচরণ করতে পারেন।",
+    "source": [
+      "মাদ্রাসা বোর্ড: ১৬"
+    ]
+  },
+  {
+    "id": 221,
+    "topicsId": 730,
+    "q": "IBM কী ?",
+    "options": [
+      "Internal Band Machine",
+      "International Business Machines",
+      "Intercontinental Ballistic Missile",
+      "Internal Business Machine"
+    ],
+    "ans": 1,
+    "explain": "IBM-এর পূর্ণরূপ হলো International Business Machines। এটি আমেরিকার একটি বহুজাতিক প্রযুক্তি ও পরামর্শক প্রতিষ্ঠান, যা কম্পিউটার হার্ডওয়্যার, সফটওয়্যার এবং আইটি পরিষেবা প্রদানের জন্য বিশ্বজুড়ে পরিচিত।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 222,
+    "topicsId": 730,
+    "q": "CTR এর নাম পরিবর্তন করে IBM রাখা হয় কত সালে ?",
+    "options": [
+      "১৯২৩",
+      "১৯২৪",
+      "১৯২২",
+      "১৯২৫"
+    ],
+    "ans": 1,
+    "explain": "IBM মূলত ১৯১১ সালে Computing-Tabulating-Recording Company (CTR) নামে প্রতিষ্ঠিত হয়েছিল। পরবর্তীতে ১৯২৪ সালের ১৪ ফেব্রুয়ারি এর নাম পরিবর্তন করে International Business Machines (IBM) রাখা হয়।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 223,
+    "topicsId": 730,
+    "q": "বিশ্বের কোন প্রতিষ্ঠানকে 'বিগ ব্লু' বলা হয় ?",
+    "options": [
+      "HP",
+      "DELL",
+      "Microsoft",
+      "IBM"
+    ],
+    "ans": 3,
+    "explain": "IBM-কে অনানুষ্ঠানিকভাবে 'Big Blue' বলা হয়। এর কারণ হিসেবে মনে করা হয় কোম্পানিটির লোগোর নীল রং এবং আশির দশকে তাদের কর্মীদের নীল রঙের স্যুট পরিধানের সংস্কৃতি।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের কম্পিউটার অপারেটর: ২১"
+    ]
+  },
+  {
+    "id": 224,
+    "topicsId": 730,
+    "q": "What is the form of AT in the IBM PC-AT ?",
+    "options": [
+      "Applied Technology",
+      "Advance Technology",
+      "Additional Technology",
+      "None of these"
+    ],
+    "ans": 1,
+    "explain": "IBM PC-AT-এ 'AT' শব্দটির পূর্ণরূপ হলো Advanced Technology। এটি ছিল ১৯৮৪ সালে অবমুক্ত করা IBM-এর দ্বিতীয় প্রজন্মের পার্সোনাল কম্পিউটার যা ৬ মেগাহার্টজ গতির ইন্টেল ৮০২৮৬ প্রসেসর ব্যবহার করত।",
+    "source": [
+      "Janata Bank Assistant Executive Officer: 15"
+    ]
+  },
+  {
+    "id": 225,
+    "topicsId": 730,
+    "q": "কম্পিউটার সফটওয়্যার জগতে নামকরা প্রতিষ্ঠান কোনটি ?",
+    "options": [
+      "অলিভেটি",
+      "আইবিএম",
+      "অ্যাপল ম্যাকিনটশ",
+      "মাইক্রোসফট"
+    ],
+    "ans": 3,
+    "explain": "বিশ্বের বৃহত্তম এবং সবচেয়ে নামকরা সফটওয়্যার নির্মাতা প্রতিষ্ঠান হলো মাইক্রোসফট। উইন্ডোজ অপারেটিং সিস্টেম এবং অফিস প্যাকেজের মাধ্যমে তারা এই একক আধিপত্য অর্জন করেছে।",
+    "source": [
+      "১৯তম বিসিএস"
+    ]
+  },
+  {
+    "id": 226,
+    "topicsId": 730,
+    "q": "মাইক্রোসফট প্রতিষ্ঠিত হয় কবে ?",
+    "options": [
+      "৫ এপ্রিল, ১৯৭৫",
+      "৪ এপ্রিল, ১৯৭৫",
+      "৪ এপ্রিল, ১৯৭৬",
+      "৫ এপ্রিল, ১৯৭৬"
+    ],
+    "ans": 1,
+    "explain": "১৯৭৫ সালের ৪ এপ্রিল বিল গেটস এবং পল অ্যালেন মিলে মাইক্রোসফট প্রতিষ্ঠা করেন। প্রথমদিকে তাদের প্রধান লক্ষ্য ছিল অল্টেয়ার ৮৮০০ কম্পিউটারের জন্য বেসিক ইন্টারপ্রিটার তৈরি করা।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তরের কম্পিউটার অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 227,
+    "topicsId": 730,
+    "q": "Who is the legend of computer world ? / বর্তমানে কম্পিউটার জগতের কিংবদন্তি কে ?",
+    "options": [
+      "Bill Cosby",
+      "Bill Clinton",
+      "Microsoft",
+      "Bill Gates",
+      "IBM"
+    ],
+    "ans": 3,
+    "explain": "উইলিয়াম হেনরি গেটস বা বিল গেটসকে বর্তমান কম্পিউটার জগতের কিংবদন্তি বলা হয়। তিনি পার্সোনাল কম্পিউটার বিপ্লবের অন্যতম পথিকৃৎ এবং মাইক্রোসফটের প্রতিষ্ঠাতা।",
+    "source": [
+      "সোনালী ব্যাংক লি. অফিসার (ক্যাশ) : ১৪"
+    ]
+  },
+  {
+    "id": 228,
+    "topicsId": 730,
+    "q": "মাইক্রোসফটের প্রতিষ্ঠাকালীন স্বত্বাধিকারী কে ?",
+    "options": [
+      "মার্ক জুকারবার্গ",
+      "বিল গেটস",
+      "মেলিন্দা গেটস",
+      "স্টিভ জবস"
+    ],
+    "ans": 1,
+    "explain": "মাইক্রোসফটের প্রধান এবং প্রতিষ্ঠাকালীন স্বত্বাধিকারী ছিলেন বিল গেটস। তার সাথে সহ-প্রতিষ্ঠাতা হিসেবে ছিলেন তার শৈশব বন্ধু পল অ্যালেন।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরো ডেটা এন্ট্রি অপারেটর :২১"
+    ]
+  },
+  {
+    "id": 229,
+    "topicsId": 730,
+    "q": "বিল গেটস-এর সাথে মাইক্রোসফটের সহ-প্রতিষ্ঠাতা কে ছিলেন ?",
+    "options": [
+      "পল এ্যালেন",
+      "স্টিভ জবস",
+      "পল ব্রেনার্ড",
+      "জন ব্যাকাস"
+    ],
+    "ans": 0,
+    "explain": "১৯৭৫ সালে বিল গেটস এবং পল অ্যালেন (Paul Allen) যৌথভাবে মাইক্রোসফট কর্পোরেশন গঠন করেন। হার্ভার্ড ড্রপআউট বিল গেটস এবং পল অ্যালেনের এই জুটি সফটওয়্যার শিল্পে নতুন দিগন্ত উন্মোচন করে।",
+    "source": [
+      "ঢাকা বিশ্ববিদ্যালয় (য ইউনিট) : ১৩-১৪"
+    ]
+  },
+  {
+    "id": 230,
+    "topicsId": 730,
+    "q": "মাইক্রোসফট-এর বর্তমান CEO ?",
+    "options": [
+      "টিম কুক",
+      "সত্যা নাদেলা",
+      "বিল গেটস",
+      "স্টিভ জবস"
+    ],
+    "ans": 1,
+    "explain": "মাইক্রোসফটের বর্তমান চেয়ারম্যান এবং সিইও (CEO) হলেন ভারতীয় বংশোদ্ভূত সত্যা নাদেলা। তিনি ২০১৪ সালে স্টিভ বলমারের স্থলাভিষিক্ত হন।",
+    "source": [
+      "জাহাঙ্গীরনগর বিশ্ববিদ্যালয় (বি ইউনিট) : ১৩-১৪"
+    ]
+  },
+  {
+    "id": 231,
+    "topicsId": 730,
+    "q": "বিল গেটসের প্রথম কম্পিউটার প্রোগ্রাম হলো-",
+    "options": [
+      "BASIC",
+      "Tic-tac-toe",
+      "MS DOS",
+      "Windows 95"
+    ],
+    "ans": 1,
+    "explain": "বিল গেটস মাত্র ১৩ বছর বয়সে তার প্রথম কম্পিউটার প্রোগ্রাম লিখেন। এটি ছিল একটি ইমপ্লিমেন্টেশন অব 'Tic-tac-toe' গেম, যেখানে মানুষ কম্পিউটারের বিরুদ্ধে গেমটি খেলতে পারত।",
+    "source": [
+      "৮ম বিজেএস (সহকারী জজ) প্রাথমিক পরীক্ষা : ১৩"
+    ]
+  },
+  {
+    "id": 232,
+    "topicsId": 730,
+    "q": "Which one of the following is the first program of Microsoft ? / কোনটি মাইক্রোসফটের প্রথম প্রোগ্রাম ?",
+    "options": [
+      "Windows XP",
+      "Windows 98",
+      "MS DOS",
+      "Windows 7",
+      "Windows 97"
+    ],
+    "ans": 2,
+    "explain": "মাইক্রোসফটের প্রথম সফল বাণিজ্যিক প্রোগ্রাম বা অপারেটিং সিস্টেম ছিল MS DOS (Microsoft Disk Operating System)। যদিও তাদের যাত্রা শুরু হয়েছিল BASIC ল্যাঙ্গুয়েজ দিয়ে, তবে পূর্ণাঙ্গ প্রোগ্রাম/OS হিসেবে MS DOS-কে এখানে প্রধান ধরা হয়।",
+    "source": [
+      "ICB Officer: 11 / ৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 233,
+    "topicsId": 730,
+    "q": "Widows System এর সহিত কার নাম জড়িত ?",
+    "options": [
+      "Steve Wonder",
+      "Steve Job",
+      "Bill Gate",
+      "Darwin"
+    ],
+    "ans": 2,
+    "explain": "Windows অপারেটিং সিস্টেমটি মাইক্রোসফট কোম্পানির তৈরি, যার প্রতিষ্ঠাতা এবং প্রধান স্থপতি ছিলেন বিল গেটস। তাই উইন্ডোজ সিস্টেমের প্রসারে তার নাম ওতপ্রোতভাবে জড়িত।",
+    "source": [
+      "NSI-এর কম্পিউটার টেকনিশিয়ান :২১"
+    ]
+  },
+  {
+    "id": 234,
+    "topicsId": 730,
+    "q": "স্প্রেডশীট, MS-ওয়ার্ড ও পাওয়ার পয়েন্ট কোন সফটওয়্যার কোম্পানির পণ্য ?",
+    "options": [
+      "Microsoft",
+      "IBM",
+      "Apple",
+      "Dell"
+    ],
+    "ans": 0,
+    "explain": "MS Word, Excel (Spreadsheet) এবং PowerPoint—এই সফটওয়্যারগুলো মাইক্রোসফটের জনপ্রিয় অফিস স্যুট 'Microsoft Office'-এর অন্তর্ভুক্ত পণ্য।",
+    "source": [
+      "বিসিক-এর প্রমোশন অফিসার : ২১"
+    ]
+  },
+  {
+    "id": 235,
+    "topicsId": 730,
+    "q": "'ইকোলজি হাউজ' কি ?",
+    "options": [
+      "বিল গেটসের বাড়ির নাম",
+      "পরিবেশবাদী সংস্থা",
+      "একটি গ্রিন হাউসের নাম",
+      "পরিবেশ মুক্ত রাখার কর্মসূচী"
+    ],
+    "ans": 0,
+    "explain": "বিল গেটসের অত্যাধুনিক এবং পরিবেশবান্ধব বাড়িটিকে অনেকে 'ইকোলজি হাউজ' বলে অভিহিত করেন। এর মূল নাম 'Xanadu 2.0', যা ওয়াশিংটনের মদিনাতে অবস্থিত।",
+    "source": [
+      "পল্লী উন্নয়ন ও সমবায় বিভাগের একটি বাড়ি একটি খামার প্রকল্পের জেলা সমন্বয়কারী: ১৭"
+    ]
+  },
+  {
+    "id": 236,
+    "topicsId": 730,
+    "q": "গুগল এর প্রকৃত নাম কোনটি ?",
+    "options": [
+      "ব্যাকরাব",
+      "নুগলার",
+      "জুগলার",
+      "ডুডল"
+    ],
+    "ans": 0,
+    "explain": "গুগল সার্চ ইঞ্জিনের শুরুর নাম ছিল 'BackRub' (ব্যাকরাব)। ল্যারি পেজ এবং সার্জেই ব্রিন ১৯৯৬ সালে এই নামে তাদের রিসার্চ প্রজেক্ট শুরু করেছিলেন। পরে এর নাম পরিবর্তন করে গুগল রাখা হয়।",
+    "source": [
+      "জগন্নাথ বিশ্ববিদ্যালয় (সি ইউনিট): ১৩-১৪"
+    ]
+  },
+  {
+    "id": 237,
+    "topicsId": 730,
+    "q": "সার্চ ইঞ্জিন 'গুগল' এর যাত্রা কোন বিশ্ববিদ্যালয় থেকে ?",
+    "options": [
+      "স্ট্যানফোর্ড বিশ্ববিদ্যালয়",
+      "হার্ভার্ড বিশ্ববিদ্যালয়",
+      "অক্সফোর্ড বিশ্ববিদ্যালয়",
+      "এমআইটি"
+    ],
+    "ans": 0,
+    "explain": "গুগলের প্রতিষ্ঠাতা ল্যারি পেজ এবং সার্জেই ব্রিন ক্যালিফোর্নিয়ার স্ট্যানফোর্ড বিশ্ববিদ্যালয়ে (Stanford University) পিএইচডি গবেষণারত অবস্থায় এই সার্চ ইঞ্জিনটি তৈরি করেছিলেন।",
+    "source": [
+      "কুমিল্লা বিশ্ববিদ্যালয় (ইউনিট-সি) : ১৯-২০"
+    ]
+  },
+  {
+    "id": 238,
+    "topicsId": 730,
+    "q": "Google- এর বর্তমান প্রধান নির্বাহী (CEO)-",
+    "options": [
+      "Larry Page",
+      "Sundar Pichai",
+      "Sergey Brin",
+      "Onil Bagchi"
+    ],
+    "ans": 1,
+    "explain": "গুগলের বর্তমান সিইও (CEO) হলেন ভারতীয় বংশোদ্ভূত সুন্দর পিচাই। তিনি ২০১৫ সাল থেকে গুগল এবং পরবর্তীতে এর মূল কোম্পানি অ্যালফাবেট (Alphabet Inc.)-এর প্রধান হিসেবে দায়িত্ব পালন করছেন।",
+    "source": [
+      "উত্তরা ব্যাংক লি. প্রবেশনারী অফিসার: ২১ / রাজশাহী বিশ্ববিদ্যালয় (ডি ইউনিট) ১৭-১৮"
+    ]
+  },
+  {
+    "id": 239,
+    "topicsId": 730,
+    "q": "Who developed Yahoo ?",
+    "options": [
+      "David Filo & Jerry Yang",
+      "Dennis Ritchie & Ken Thompson",
+      "Vint Cerf & Robert Khan",
+      "Steve Case & Jeff Bezos",
+      "None of them"
+    ],
+    "ans": 0,
+    "explain": "স্ট্যানফোর্ড বিশ্ববিদ্যালয়ের দুই ছাত্র জেরি ইয়াং (Jerry Yang) এবং ডেভিড ফিলো (David Filo) ১৯৯৪ সালের জানুয়ারিতে ইয়াহু (Yahoo) প্রতিষ্ঠা করেন।",
+    "source": [
+      "Pubali Bank Ltd. Senior Officer: 17"
+    ]
+  },
+  {
+    "id": 240,
+    "topicsId": 730,
+    "q": "Yahoo কবে প্রতিষ্ঠিত হয় ?",
+    "options": [
+      "১৯৯০",
+      "১৯৯২",
+      "১৯৯৫",
+      "১৯৯৪"
+    ],
+    "ans": 3,
+    "explain": "ইয়াহু ১৯৯৪ সালে প্রতিষ্ঠিত হয় এবং ১৯৯৫ সালের ২রা মার্চ এটি একটি ইনকর্পোরেটেড কোম্পানি হিসেবে আত্মপ্রকাশ করে। একসময় এটি বিশ্বের সবচেয়ে জনপ্রিয় ওয়েব পোর্টাল ছিল।",
+    "source": [
+      "রেলপথ মন্ত্রণালয়ের কম্পিউটার অপারেটর : ২১"
+    ]
+  },
+  {
+    "id": 241,
+    "topicsId": 730,
+    "q": "Where is the headquarters of Intel located ?",
+    "options": [
+      "Tucson, Arizona",
+      "Richmond Virginia",
+      "Santa Clara California",
+      "Redmond Washington",
+      "None of these"
+    ],
+    "ans": 2,
+    "explain": "বিশ্ববিখ্যাত মাইক্রোপ্রসেসর প্রস্তুতকারী প্রতিষ্ঠান ইন্টেল (Intel)-এর সদর দপ্তর ক্যালিফোর্নিয়ার সান্তা ক্লারা (Santa Clara)-তে অবস্থিত, যা সিলিকন ভ্যালির একটি অংশ।",
+    "source": [
+      "Bangladesh Bank Asst. Director: 09"
+    ]
+  },
+  {
+    "id": 242,
+    "topicsId": 730,
+    "q": "Apple প্রযুক্তির সাথে নিম্নের কোন ব্যক্তি ওতপ্রোতভাবে জড়িত ছিলেন ?",
+    "options": [
+      "এ্যাডওয়ার্ড স্নোডেন",
+      "ফিলিপ কটলার",
+      "স্টিভ জবস",
+      "মাইকেল শুমেকার"
+    ],
+    "ans": 2,
+    "explain": "স্টিভ জবস (Steve Jobs) হলেন অ্যাপল ইনকর্পোরেটেডের সহ-প্রতিষ্ঠাতা। তাকে আধুনিক ব্যক্তিগত কম্পিউটিং, স্মার্টফোন (আইফোন) এবং ডিজিটাল বিনোদন জগতের স্বপ্নদ্রষ্টা বলা হয়।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের ফিল্ড সুপারভাইজার ১৭/ সোনালী ব্যাংক লি. সিনিয়র অফিসার: ১৪"
+    ]
+  },
+  {
+    "id": 243,
+    "topicsId": 730,
+    "q": "The Head quarter of Apple, known as Apple Park, is located in-",
+    "options": [
+      "New York",
+      "Washington",
+      "California",
+      "Toronto"
+    ],
+    "ans": 2,
+    "explain": "অ্যাপল পার্ক (Apple Park) হলো অ্যাপল ইনকর্পোরেটেডের বর্তমান সদর দপ্তর, যা ক্যালিফোর্নিয়ার কিউপার্টিনো (Cupertino)-তে অবস্থিত। এর গোলাকার নকশার জন্য একে 'Spaceship' বলা হয়।",
+    "source": [
+      "Dhaka Bank Ltd. TO: 21/BEZA Assistant Manager 20"
+    ]
+  },
+  {
+    "id": 244,
+    "topicsId": 730,
+    "q": "Oracle Corporation এর প্রতিষ্ঠাতা কে ?",
+    "options": [
+      "Bill Gates",
+      "Andrew S Grove",
+      "Tim Cook",
+      "Lawrence J. Ellison"
+    ],
+    "ans": 3,
+    "explain": "বিশ্বের বিখ্যাত ডেটাবেজ সফটওয়্যার নির্মাতা প্রতিষ্ঠান ওরাকল (Oracle) এর প্রতিষ্ঠাতা হলেন লরেন্স জে এলিসন (Larry Ellison)।",
+    "source": [
+      "৩৫তম বিসিএস"
+    ]
+  },
+  {
+    "id": 245,
+    "topicsId": 730,
+    "q": "The two major types of computer chips are-",
+    "options": [
+      "External memory chip",
+      "Primary memory chip",
+      "Microprocessor chip",
+      "Both B and C"
+    ],
+    "ans": 3,
+    "explain": "কম্পিউটারের প্রধান চিপগুলোকে মূলত দুই ভাগে ভাগ করা হয়। একটি হলো মেমরি চিপ (যেমন: RAM/Primary memory) এবং অন্যটি হলো মাইক্রোপ্রসেসর চিপ (CPU), যা কম্পিউটারের মস্তিষ্ক হিসেবে কাজ করে।",
+    "source": [
+      "Bangladesh Bank AD: 16"
+    ]
+  },
+  {
+    "id": 246,
+    "topicsId": 730,
+    "q": "Where is Silicon valley situated ? / সিলিকন ভ্যালি কোথায় অবস্থিত ?",
+    "options": [
+      "California, USA",
+      "Florida, USA",
+      "Tokyo, Japan",
+      "Osaka, Japan"
+    ],
+    "ans": 0,
+    "explain": "সিলিকন ভ্যালি মার্কিন যুক্তরাষ্ট্রের ক্যালিফোর্নিয়ার সান ফ্রান্সিসকো বে এরিয়াতে অবস্থিত। এটি বিশ্বের প্রধান উচ্চ প্রযুক্তি (High-tech) এবং উদ্ভাবনের কেন্দ্র হিসেবে পরিচিত।",
+    "source": [
+      "Karmasangsthan Bank Data Entry Operator: 22 / IFIC Bank Ltd. Transaction Service Officer : 19"
+    ]
+  },
+  {
+    "id": 247,
+    "topicsId": 730,
+    "q": "বিশ্বের সবচেয়ে বেশি 'সেমি কন্ডাক্টর' তৈরি হয় কোন দেশে ?",
+    "options": [
+      "চীন",
+      "দক্ষিণ কোরিয়া",
+      "তাইওয়ান",
+      "জাপান"
+    ],
+    "ans": 2,
+    "explain": "বর্তমানে বিশ্বের মোট সেমিকন্ডাক্টরের ৬০% এর বেশি এবং উন্নত চিপের প্রায় ৯০% তাইওয়ানে (TSMC কোম্পানি) উৎপাদিত হয়। তাই সঠিক উত্তর হবে তাইওয়ান ।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোর ডাটা এন্ট্রি অপারেটর: ২১"
+    ]
+  }
+]

@@ -1,0 +1,1611 @@
+{
+  "examInfo": {
+    "examName": "48th BCS",
+    "examType": "Special (Health) Medical Part",
+    "examDate": "2025-07-18",
+    "totalMarks": "100",
+    "totalQuestions": 100
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topicsId": 52,
+      "q": "Uterine contractions in labour-",
+      "options": [
+        "are consciously controllable",
+        "are efficient at 5 mmHg",
+        "start at fundus of uterus",
+        "are painful due to ischemia"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 2,
+      "topicsId": 52,
+      "q": "Component of Active management of third stage of labour (AMTSL) is-",
+      "options": [
+        "Aortic compression",
+        "Inj. Oxytocin 10 units",
+        "Perineal message",
+        "Examination of cervix"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 3,
+      "topicsId": 52,
+      "q": "The largerst tributaries that drain into inferior Vena Cava is-",
+      "options": [
+        "Left renal Vein",
+        "Lumber Veins",
+        "Hepatic Veins",
+        "Right Renal Vein"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 4,
+      "topicsId": 52,
+      "q": "Genital fistula can be prevented by-",
+      "options": [
+        "Improving essential obstetric care",
+        "Early operations of fibroid uterus",
+        "Treating PID cases",
+        "Correcting maternal anaemia"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 5,
+      "topicsId": 52,
+      "q": "Ideal graft for coronary artery bypass graft is-",
+      "options": [
+        "Great saphenous vein",
+        "Ulner artery",
+        "Radial artery",
+        "Left internal mammary artery"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 6,
+      "topicsId": 52,
+      "q": "Diabetes in pregnancy should be treated by-",
+      "options": [
+        "Glipizide",
+        "Metformin",
+        "Insulin",
+        "Rosiglitazone"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 7,
+      "topicsId": 52,
+      "q": "Most common cause of Epistaxis is-",
+      "options": [
+        "Idiopathic",
+        "Hypertension",
+        "Thrombocytopenia",
+        "Coagulation disorder"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 8,
+      "topicsId": 52,
+      "q": "Feature of atropinization is-",
+      "options": [
+        "Mild dialatd pupil",
+        "Tachycardia",
+        "Crepitaiton in Lungs",
+        "Bronchorrehoea"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 9,
+      "topicsId": 52,
+      "q": "Bony metastasis may occur in-",
+      "options": [
+        "Carcinoma gall bladder",
+        "Malignant melanoma",
+        "Squamous Cell Carcinoma of skin",
+        "Follicular Carcinoma of thyroid"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 10,
+      "topicsId": 52,
+      "q": "Part of Parasympathetic nervous system is-",
+      "options": [
+        "Celiac ganglion",
+        "Cervical ganglion",
+        "Ciliary ganglion",
+        "Sacral ganglion"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 11,
+      "topicsId": 52,
+      "q": "Primary blood buffer system is-",
+      "options": [
+        "Ammonia buffer",
+        "Bicarbonate buffer",
+        "Phosphate buffer",
+        "Protein buffer"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 12,
+      "topicsId": 52,
+      "q": "Normal anion gap metabolic acidosis is found in-",
+      "options": [
+        "Chronic renal failure",
+        "Diabetic keto acidosis",
+        "Methanol poisoning",
+        "Renal tubular acidosis"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 13,
+      "topicsId": 52,
+      "q": "Nerve responsible for sensation of smell is",
+      "options": [
+        "Olfactory",
+        "Trigeminal",
+        "Facial",
+        "Oculomotor"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 14,
+      "topicsId": 52,
+      "q": "Plasma albumin helps in-",
+      "options": [
+        "Colloidal osmotic pressure maintenance",
+        "Blood clotting",
+        "Iron transport",
+        "Copper transport"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 15,
+      "topicsId": 52,
+      "q": "Amniotic fluid embolism causes-",
+      "options": [
+        "Hypertension",
+        "Bronchodilatation",
+        "Cyanosis",
+        "Sever anaemia"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 16,
+      "topicsId": 52,
+      "q": "The most common type of anaemia in pregnancy is-",
+      "options": [
+        "Thalassemia",
+        "Hereditary Spherocytosis",
+        "Iron deficiency anemia",
+        "Folic acid deficiency anaemia"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 17,
+      "topicsId": 52,
+      "q": "The structural and functional unit of Lung is-",
+      "options": [
+        "Alveoli",
+        "Bronchiole",
+        "Bronchus",
+        "Trachea"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 18,
+      "topicsId": 52,
+      "q": "Which of the following is a compressible swelling?",
+      "options": [
+        "Neuro fibroma",
+        "Chondroma",
+        "Lymphoma",
+        "Haemangioma"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 19,
+      "topicsId": 52,
+      "q": "Acid-Peptic disease include-",
+      "options": [
+        "Inflammatory bowel disease",
+        "Irritable bowel syndrome",
+        "Non-ulcer dyspepsia",
+        "Pyloric stenosis"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 20,
+      "topicsId": 52,
+      "q": "First step in blood coagulation is-",
+      "options": [
+        "Activation of clotting factors",
+        "Clot retraction",
+        "Fibria mesh formation",
+        "Platelet aggregation"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 21,
+      "topicsId": 52,
+      "q": "Bone metabolism is the primary concern of",
+      "options": [
+        "Glucagon",
+        "Growth hormone",
+        "Parathyroid hormone",
+        "Thyroid stimulating hormone"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 22,
+      "topicsId": 52,
+      "q": "Antigen test for COVID-19 is featured by",
+      "options": [
+        "High accuracy",
+        "High sensitivity",
+        "High specificity",
+        "Low cost"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 23,
+      "topicsId": 52,
+      "q": "Indication of hospitalization of a burn patient is",
+      "options": [
+        "5% burn in the trunk of an adult patient",
+        "10% burn in the trunk of a child",
+        "Inhalation burn",
+        "10% Circumferential burn in the lower limb"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 24,
+      "topicsId": 52,
+      "q": "A 45-year-old man has been suffering from cirrhosis of liver due to Hepatitis B Virus; the sign of decompression of cirrhosis is",
+      "options": [
+        "Loss of hair",
+        "Splenomegaly",
+        "Ascites",
+        "Testicular atrophy"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 25,
+      "topicsId": 52,
+      "q": "Protein is digested by",
+      "options": [
+        "Amylase",
+        "Bile Salt",
+        "Lipase",
+        "Trypsin"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 26,
+      "topicsId": 52,
+      "q": "Megaloblastic anemia with peripheral neuropathy occur due to deficiency of",
+      "options": [
+        "Folic acid",
+        "Iron",
+        "Pyridoxine",
+        "Vit B12"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 27,
+      "topicsId": 52,
+      "q": "Scabies is characterized by",
+      "options": [
+        "Comedon",
+        "Burrow",
+        "Silvery Scale",
+        "Wickman Striae"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 28,
+      "topicsId": 52,
+      "q": "The largest gland of human body is",
+      "options": [
+        "Adrenal",
+        "Liver",
+        "Pancreas",
+        "Thyroid"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 29,
+      "topicsId": 52,
+      "q": "Ethambutol is rarely prescribed in children because it causes",
+      "options": [
+        "Peripheral neuropathy",
+        "Hepatitis",
+        "Rash",
+        "Retrobulbar neuritis"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 30,
+      "topicsId": 52,
+      "q": "The base of heart is formed mainly by",
+      "options": [
+        "Left atrium",
+        "Left Ventricle",
+        "Right atrium",
+        "Right Ventricle"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 31,
+      "topicsId": 52,
+      "q": "Multidrug resistant tuberculosis is treated by",
+      "options": [
+        "Amikacin",
+        "Streptomycin",
+        "Tazobactum",
+        "Ethambutol"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 32,
+      "topicsId": 52,
+      "q": "Ligature mark in typical hanging is",
+      "options": [
+        "Completely encircling neck",
+        "Contineous",
+        "Obligue",
+        "Transverse"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 33,
+      "topicsId": 52,
+      "q": "Causes of painless Jaundice in surgical ward is",
+      "options": [
+        "Cholelithiasis",
+        "Cholangitis",
+        "Mucocele of gall bladder",
+        "Peri-ampullary carcinoma"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 34,
+      "topicsId": 52,
+      "q": "The following layer of digestive tract contains nerves & vessels",
+      "options": [
+        "Mucosa",
+        "Muscular Layer",
+        "Serous Layer",
+        "Submucosa"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 35,
+      "topicsId": 52,
+      "q": "The antigen presenting cell on skin is",
+      "options": [
+        "Basal cells",
+        "Keralinocytes",
+        "Langerhan cells",
+        "Melanocytes"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 36,
+      "topicsId": 52,
+      "q": "Utero-vaginal prolapse",
+      "options": [
+        "is a very painful condition",
+        "is worse in erect posture",
+        ") is common in nulliparous women",
+        "may resolve"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 37,
+      "topicsId": 52,
+      "q": "Viral disease that may cause thrombocytopenia is",
+      "options": [
+        "SARS-Cov-2",
+        "Influenza",
+        "Dengue",
+        "Hepatitis B"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 38,
+      "topicsId": 52,
+      "q": "Which of the following antidepressants does not have any weight gain property?",
+      "options": [
+        "Escitalopram",
+        "Fluoxetine",
+        "Paroxetine",
+        "Sertraline"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 39,
+      "topicsId": 52,
+      "q": "Most activity growing area of a long bone is",
+      "options": [
+        "Diaphysis",
+        "Epiphysis",
+        "Epiphysial Cartilage",
+        "Metaphysis"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 40,
+      "topicsId": 52,
+      "q": "Autoimmune disease includes",
+      "options": [
+        "Bronchial asthma",
+        "Hypertension",
+        "Heart failure",
+        "Rheumatic fever"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 41,
+      "topicsId": 52,
+      "q": "Dose schedule of a drug with half life 03 hours will be",
+      "options": [
+        "3 hourly",
+        "6 hourly",
+        "12 hourly",
+        "Once daily"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 42,
+      "topicsId": 52,
+      "q": "Clinical feature of minor surgical site infection is",
+      "options": [
+        "Mild sero-sanguineous discharge",
+        "Copious purulent discharge",
+        "Fever",
+        "Formation of huge granulation tissue"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 43,
+      "topicsId": 52,
+      "q": "Clinical feature of raised intracranial pressure is",
+      "options": [
+        "Raised respiratory rate",
+        "Bradycardia",
+        "Fever",
+        "Hypotension"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 44,
+      "topicsId": 52,
+      "q": "Cause of maternal death in Eclumpsia is",
+      "options": [
+        "Retained Placenta",
+        "Ruptured Uterus",
+        "Cerebral hemorrhage",
+        "Septicemia"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 45,
+      "topicsId": 52,
+      "q": "Mycobacterium tuberculosis is stained by",
+      "options": [
+        "Giemsa stain",
+        "Gram stain",
+        "Silver stain",
+        "Ziehl-Neelson stain"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 46,
+      "topicsId": 52,
+      "q": "Cephalosporin appropriate for renal impairment is",
+      "options": [
+        "Cefazolin",
+        "Cefotetan",
+        "Ceftriaxone",
+        "Cefroxime"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 47,
+      "topicsId": 52,
+      "q": "Excess \nC\nO\n2\n, retention in blood leads to",
+      "options": [
+        "Metabolic acidosis",
+        "Metabolic alkalosis",
+        "Respiratory acidosis",
+        "Respiratory alkalosis"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 48,
+      "topicsId": 52,
+      "q": "In Ectopic pregnancy",
+      "options": [
+        "Bleeding precedes pain",
+        "Isthmus of fallopian tube in the commonest site of ectopic implantation",
+        "incidence is more common among women taking oral contraceptives for long time",
+        "Abdominal pain preceded by amenorrhoea"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 49,
+      "topicsId": 52,
+      "q": "Co-administration of Phenobarbital & warfarin shows",
+      "options": [
+        "Antiplatelet effect",
+        "Fibrinolytic effect",
+        "Increased bleeding tendency",
+        "Thromboembolic episode"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 50,
+      "topicsId": 52,
+      "q": "A 40-year-old man presented at Medicine OPD with recurrent haemoptysis for last 05 years; general examination revealed clubbing. Which one of the following is the most likely diagnosis",
+      "options": [
+        "Bronchiectasis",
+        "Interstitial Lung disease",
+        "Mitral Stenosis",
+        "Lung Cancer"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 51,
+      "topicsId": 52,
+      "q": "Which one is derived from mesoderm?",
+      "options": [
+        "Muscle",
+        "Skin",
+        "Nail",
+        "Mucous membrane"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 52,
+      "topicsId": 52,
+      "q": "Secondary hypertension is caused by",
+      "options": [
+        "Conn's Syndrome",
+        "Bum",
+        "Renal ischemia",
+        "Septic Shock"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 53,
+      "topicsId": 52,
+      "q": "Choice of intravenous fluid in burn patient is",
+      "options": [
+        "Hartman's solution",
+        "5% Dextrose in Aqua",
+        "5% Dextrose in normal saline",
+        "Hypertonic Normal saline"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 54,
+      "topicsId": 52,
+      "q": "Which one of the following is reproductive organ?",
+      "options": [
+        "Uterus",
+        "Urinary bladder",
+        "Urethra",
+        "Bone"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 55,
+      "topicsId": 52,
+      "q": "In ECG, which feature is indicative for thrombolytic therapy?",
+      "options": [
+        "New onset LBBB",
+        "ST depression",
+        "Appearance of Q wave",
+        "T inversion"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 56,
+      "topicsId": 52,
+      "q": "Criteria of an ideal suture material is",
+      "options": [
+        "Shrimable",
+        "Non Predictable tissue behavior",
+        "Non Electrolyte",
+        "Carcinogenic"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 57,
+      "topicsId": 52,
+      "q": "Congenital malformation can be attributed to maternal infection with",
+      "options": [
+        "poliomyelitis",
+        "Measles",
+        "Chicken Pox",
+        "Toxoplasmosis"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 58,
+      "topicsId": 52,
+      "q": "Which of the following is not a feature of acute type II respiratory failure",
+      "options": [
+        "P\n2\nO\n,\n1.0\n kpa",
+        "P,Co,> 6 kpa",
+        "HCO, is increased",
+        "H is increased"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 59,
+      "topicsId": 52,
+      "q": "Detection of hidden disease among apparently healthy population is done by",
+      "options": [
+        "Screening",
+        "latervention",
+        "Contact tracing",
+        "Follow-up"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 60,
+      "topicsId": 52,
+      "q": "Majority of body fluid remains in",
+      "options": [
+        "Blood",
+        "Intra cellular fluid",
+        "Interstitial fluid",
+        "Lymph"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 61,
+      "topicsId": 52,
+      "q": "Consent become invalid if taken from",
+      "options": [
+        "Insane person",
+        "Elderly person",
+        "Illiterate person",
+        "Sick person"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 62,
+      "topicsId": 52,
+      "q": "Feature of a malignant ulcer is",
+      "options": [
+        "Undermined edge",
+        "Punched out edge",
+        "Everted edge",
+        "sloping edge"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 63,
+      "topicsId": 52,
+      "q": "Universally accepted indicator of health status of a population is",
+      "options": [
+        "Child death rate",
+        "Case fatality rate",
+        "Infant mortality rat",
+        "Under-5 mortality rate"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 64,
+      "topicsId": 52,
+      "q": "Cause of acute starvation is",
+      "options": [
+        "Self refusal",
+        "Dysphasia",
+        "Anorexia",
+        "Entrapment in mine"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 65,
+      "topicsId": 52,
+      "q": "Which of the following is not a typical presentation of pain in acute pancreatitis?",
+      "options": [
+        "Severe constant upper abdominal pain",
+        "Radiation pain to back",
+        "Absent muscle guarding",
+        "Presence of rebound tendemess"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 66,
+      "topicsId": 52,
+      "q": "The most reliable clinical feature of strangulaed inguinal hernis is",
+      "options": [
+        "Pain",
+        "Fever",
+        "Tense and tender lump in the inguinal region",
+        "Vomiting"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 67,
+      "topicsId": 52,
+      "q": "Solid tumor of ovary is",
+      "options": [
+        "Chocolate cyst of ovary",
+        "Theca Lutein cyst",
+        "Fibroma",
+        "Parovarian cyst"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 68,
+      "topicsId": 52,
+      "q": "Component of secondary survey in a traumatic patient is",
+      "options": [
+        "Airway and cervical spine control",
+        "Head to toe examination",
+        "Breathing and ventilation",
+        "Circulation and control of haemorrhage"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 69,
+      "topicsId": 52,
+      "q": "Common feature to all Spondylo arthritis is",
+      "options": [
+        "Symmetrical poly arthritis",
+        "Conjunctivitis",
+        "Positive HLA B₂,",
+        "Oral Ulceration"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 70,
+      "topicsId": 52,
+      "q": "Fibrinolysis is done by",
+      "options": [
+        "Plasminogen",
+        "Prothrombin",
+        "Fibrinogen",
+        "Haptoglobin"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 71,
+      "topicsId": 52,
+      "q": "Which of the following is true for wound healing by secondary intention",
+      "options": [
+        "Takes place is clean wound",
+        "Fine scar formation",
+        "Applicable for infected wound",
+        "Less evidence of inflammation."
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 72,
+      "topicsId": 52,
+      "q": "Example of probability sampling is",
+      "options": [
+        "Stratified random sampling",
+        "Quota sampling",
+        "Purposive sampling",
+        "Accidental sampling"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 73,
+      "topicsId": 52,
+      "q": "Late sign of death is",
+      "options": [
+        "adipocere formation",
+        "cooling of body",
+        "dilatation of pupil",
+        "rigor mortis"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 74,
+      "topicsId": 52,
+      "q": "Absolute indication of splenectomy is",
+      "options": [
+        "Lymphoma",
+        "Thelassemi",
+        "Leukemia",
+        "Grade V spleen injury"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 75,
+      "topicsId": 52,
+      "q": "Causative Organism responsible for Cervical cancer",
+      "options": [
+        "HSV",
+        "HPV",
+        "Chlamydia",
+        "Herpes zoster"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 76,
+      "topicsId": 52,
+      "q": "A 35-year-old man came to you with following reports HbsAg (-VE), Anti HBe IgG (+VE), Anti HBc IgM(-VE), Anti HBs (+VE) which senario will match with the above mentioned reports",
+      "options": [
+        "Acute hepatitis (early)",
+        "Convalescence",
+        "Post infection",
+        "Immunization without infection"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 77,
+      "topicsId": 52,
+      "q": "In normal pregnancy",
+      "options": [
+        "Factor X increases",
+        "Anti thrombin III concentration increases",
+        "Venous pressure falls",
+        "Iron hinding capacity falls"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 78,
+      "topicsId": 52,
+      "q": "The EPI vaccine given at birth is",
+      "options": [
+        "BCG",
+        "Diphtheria",
+        "Measles",
+        "Tetanus"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 79,
+      "topicsId": 52,
+      "q": "Complication of Caesarean section is",
+      "options": [
+        "Postpartum Hemorrhage",
+        "Vaginal stenosis",
+        "Low platelet count",
+        "Injury to liver"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 80,
+      "topicsId": 52,
+      "q": "Cause of severe dysmenorrhea in an adolescent girl is",
+      "options": [
+        "Endometriosis",
+        "Polycystic ovary disease",
+        "Adenomyosis",
+        "Trichomomiasis"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 81,
+      "topicsId": 52,
+      "q": "Which of the following is a compelling indication of calcium channel blocker in the management of Hypertension?",
+      "options": [
+        "Heart failure",
+        "Secondary stroke prevention",
+        "Older patient",
+        "Left ventricular dysfunction"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 82,
+      "topicsId": 52,
+      "q": "CA-125 is the tumor marker for-",
+      "options": [
+        "Breast Cancer",
+        "Colon cancer",
+        "Ovarian cancer",
+        "Pancreatic cancer"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 83,
+      "topicsId": 52,
+      "q": "Adverse drug reaction includes-",
+      "options": [
+        "synergism",
+        "Antagonism",
+        "Idiosyncracy",
+        "Enzyme induction"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 84,
+      "topicsId": 52,
+      "q": "Irreversible sing of Vitamin-A deficiency is-",
+      "options": [
+        "Bitot’s spot",
+        "Xerosis Conjunctive",
+        "Keratomalacia",
+        "Night Blindness"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 85,
+      "topicsId": 52,
+      "q": "Fever is mediated by-",
+      "options": [
+        "Bradykinin",
+        "Complements",
+        "Hageman factor",
+        "Interleukin-1"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 86,
+      "topicsId": 52,
+      "q": "Which of the following is a common complication of \nS\nG\nL\nT\n2\n inhibitors?",
+      "options": [
+        "Genital infection",
+        "Lactic acidosis",
+        "Fluid retention",
+        "Peripheral neuropathy"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 87,
+      "topicsId": 52,
+      "q": "In Bangladesh minimum recommended number of antenatal care (ANC) visit is-",
+      "options": [
+        "four",
+        "six",
+        "eight",
+        "twelve"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 88,
+      "topicsId": 52,
+      "q": "Respiratory Center is Located in-",
+      "options": [
+        "Medulla",
+        "Spinal Cord",
+        "Brain Cortex",
+        "Cerebellum"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 89,
+      "topicsId": 52,
+      "q": "Forensic radiology deals with determination of-",
+      "options": [
+        "Poison",
+        "Foreign body",
+        "Age",
+        "Pregnancy"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 90,
+      "topicsId": 52,
+      "q": "Leukocyte induced acute tissue injury is-",
+      "options": [
+        "Arthritis",
+        "Asthma",
+        "Atherosclerosis",
+        "Pulmonary fibrosis"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 91,
+      "topicsId": 52,
+      "q": "Oligo hydromnios is sever in-",
+      "options": [
+        "Gestational Diabetes",
+        "Anencephaly",
+        "Nulliparous women",
+        "Renal agenesis of fetus"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 92,
+      "topicsId": 52,
+      "q": "Which of the following drug can be used in a pregnant lady with Rheumatoid Arthritis?",
+      "options": [
+        "Methotrexate",
+        "Salfasalazine",
+        "Leflunamide",
+        "Mycophenolate Mofetil"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 93,
+      "topicsId": 52,
+      "q": "Programmed cell death is regulated by-",
+      "options": [
+        "Endoplasmic reticulum",
+        "Golgi apparatus",
+        "Lysosome",
+        "Mitochondria"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 94,
+      "topicsId": 52,
+      "q": "Symptoms of mild shock is-",
+      "options": [
+        "Rise of respiratory rate",
+        "Fall of blood pressure",
+        "Reduced Urinary output",
+        "Coma"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 95,
+      "topicsId": 52,
+      "q": "Lining of urinary tract is-",
+      "options": [
+        "Ciliated Columnar epithelium",
+        "Endothelium",
+        "Mesothelium",
+        "Transitional epithelium"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 96,
+      "topicsId": 52,
+      "q": "Which of the following signs is characteristic for stevens-Jhonson syndrome?",
+      "options": [
+        "Koebner phenomenon",
+        "Auspitz sing",
+        "Dimple sing",
+        "Nikolsky sing"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 97,
+      "topicsId": 52,
+      "q": "Indication of Circumcision-",
+      "options": [
+        "Epispadias",
+        "Hypospadias",
+        "Undescended Testes",
+        "Phimosis"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 98,
+      "topicsId": 52,
+      "q": "A 35-year-old woman presented with palpitation, excessive sweating and heat intolerence for 02 weeks; her serum  &  levels were high and TSH level was undetectable; radio iodine uptake of thyroid gland was low. The most likely diagnosis is-",
+      "options": [
+        "Graves disease",
+        "Toxic adenoma",
+        "Toxic multi-noduler goitre",
+        "Sub acute thyroiditis"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 99,
+      "topicsId": 52,
+      "q": "Cause of intrauterine death (IUD) is-",
+      "options": [
+        "Diabetes Mellutus",
+        "Respiratory distress syndrome",
+        "Breech presentation",
+        "Bicornuate Uterus"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    },
+    {
+      "id": 100,
+      "topicsId": 52,
+      "q": "Carpal tunnel consists of-",
+      "options": [
+        "Median nerve",
+        "Musculocutaneous nerve",
+        "Radial nerve",
+        "Ulnar nerve"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "48th BCS"
+      ]
+    }
+  ]
+}

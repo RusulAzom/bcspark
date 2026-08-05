@@ -1,0 +1,1732 @@
+[
+  {
+    "id": 1,
+    "topicsId": 410,
+    "q": "Identify the determiner in the sentence 'Bring me that book'",
+    "options": [
+      "Bring",
+      "me",
+      "that",
+      "book"
+    ],
+    "ans": 2,
+    "explain": "Determiner হলো এমন শব্দ যা Noun-এর পূর্বে বসে তার নির্দিষ্টতা, অনির্দিষ্টতা বা সংখ্যা নির্দেশ করে। এখানে 'that' শব্দটি 'book' (Noun)-এর আগে বসে সেটিকে নির্দিষ্ট করছে, তাই এটি একটি Demonstrative Determiner।",
+    "source": [
+      "৪২তম বিসিএস"
+    ]
+  },
+  {
+    "id": 2,
+    "topicsId": 410,
+    "q": "There are four sentences below. In one of them only, the determiner has been used correctly. Indentify the same-",
+    "options": [
+      "He does not have many money",
+      "I would take a little salt on my vegetables",
+      "I do not want these water",
+      "There are less students in this class than in the other class."
+    ],
+    "ans": 1,
+    "explain": "Uncountable noun-এর সাথে পরিমাণ বোঝাতে 'little/a little' ব্যবহৃত হয়। 'Salt' একটি uncountable noun, তাই 'a little salt' সঠিক। অন্যদিকে 'money' এবং 'water' uncountable হওয়ায় এদের সাথে 'many' বা 'these' হয় না, এবং 'students' countable হওয়ায় 'less' এর পরিবর্তে 'fewer' হওয়া উচিত ছিল।",
+    "source": [
+      "থানা সহকারী শিক্ষা অফিসার নিয়োগ পরীক্ষা-৯৯"
+    ]
+  },
+  {
+    "id": 3,
+    "topicsId": 410,
+    "q": "There's ---- dust on these books. Fetch me sentence:",
+    "options": [
+      "a lot of",
+      "plenty of",
+      "a good deal of",
+      "lots of"
+    ],
+    "ans": 2,
+    "explain": "'Dust' একটি uncountable noun। প্রচুর পরিমাণ বোঝাতে uncountable noun-এর সাথে 'a good deal of' বা 'a great deal of' ব্যবহৃত হয়। যদিও 'a lot of' বা 'plenty of' উভয় ক্ষেত্রে বসে, তবে প্রথাগত ব্যাকরণ বা প্রতিযোগিতামূলক পরীক্ষায় formal contexts-এ uncountable-এর জন্য 'a good deal of' কে অগ্রাধিকার দেওয়া হয়।",
+    "source": [
+      "সাব-রেজিষ্ট্রার পদে নিয়োগ পরীক্ষা-০৩"
+    ]
+  },
+  {
+    "id": 4,
+    "topicsId": 410,
+    "q": "Identify the determiner in the following sentence: “I have no news for you”",
+    "options": [
+      "have",
+      "news",
+      "no",
+      "for"
+    ],
+    "ans": 2,
+    "explain": "এই বাক্যে 'news' একটি uncountable noun। এর পূর্বে 'no' শব্দটি বসে সংবাদের অনুপস্থিতি বা পরিমাণ নির্দেশ করছে, তাই 'no' এখানে একটি Determiner (Quantifier)।",
+    "source": [
+      "৪০তম বিসিএস"
+    ]
+  },
+  {
+    "id": 5,
+    "topicsId": 410,
+    "q": "Which word is the determiner in the sentence “Will it take much time ?”",
+    "options": [
+      "Will",
+      "much",
+      "take",
+      "Time"
+    ],
+    "ans": 1,
+    "explain": "'Time' একটি uncountable noun। এর পূর্বে বসে 'much' শব্দটি পরিমাণ নির্দেশ করছে, তাই 'much' এখানে Determiner।",
+    "source": [
+      "৩৫তম বিসিএস"
+    ]
+  },
+  {
+    "id": 6,
+    "topicsId": 410,
+    "q": "She wanted to serve some coffee to her guests; however---",
+    "options": [
+      "she hadn't many sugar",
+      "there was not a great amount of sugar",
+      "she did not have much sugar",
+      "she was lacking in amount of the sugar"
+    ],
+    "ans": 2,
+    "explain": "'Sugar' একটি uncountable noun। Negative বাক্যে uncountable noun-এর পরিমাণ বোঝাতে 'much' ব্যবহৃত হয়। তাই 'much sugar' সম্বলিত ৩য় অপশনটি সঠিক।",
+    "source": [
+      "মেকানিক্যাল এন্ড পাওয়ার ইঞ্জিনিয়ারিং [ গণপূর্ত) পদে নিয়োগ পরীক্ষা-৯৯"
+    ]
+  },
+  {
+    "id": 7,
+    "topicsId": 410,
+    "q": "Choose the correct sentence-",
+    "options": [
+      "I have a little friends in Bangladesh",
+      "I have little friends in Bangladesh",
+      "I have few friends in Bangladesh",
+      "I have a few friends in Bangladesh"
+    ],
+    "ans": 3,
+    "explain": "'Friends' একটি countable noun, তাই এর সাথে 'few/a few' বসবে। 'A few' বলতে 'অল্প সংখ্যক কিন্তু আছে' (positive meaning) বোঝায়। সাধারণত বন্ধু থাকার কথা ইতিবাচকভাবে বলা হয়, তাই 'a few friends' সঠিক।",
+    "source": [
+      "প্রশাসনিক কর্মকর্তা [ প্রধানমন্ত্রীর কার্য্যালয় ও মন্ত্রিপরিষদ কার্য্যালয়) পদে নিয়োগ পরীক্ষা-০৪"
+    ]
+  },
+  {
+    "id": 8,
+    "topicsId": 410,
+    "q": "Choose the correct sentence:",
+    "options": [
+      "I have many works to perform.",
+      "I have many work to perform.",
+      "I have much works to perform.",
+      "I have much work to perform."
+    ],
+    "ans": 3,
+    "explain": "ইংরেজি গ্রামারে 'Work' (কাজ) একটি uncountable noun, তাই এর কোনো plural form (works) হয় না। Uncountable noun-এর পূর্বে 'much' বসে, তাই 'much work' সঠিক।",
+    "source": [
+      "১৫তম প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (কলেজ/সমপর্যায়) ২০১৯"
+    ]
+  },
+  {
+    "id": 9,
+    "topicsId": 410,
+    "q": "I have------interest in the matter.",
+    "options": [
+      "not",
+      "any",
+      "none",
+      "No"
+    ],
+    "ans": 3,
+    "explain": "'Interest' একটি noun। Noun-এর আগে সরাসরি নেতিবাচক পরিমাণ বোঝাতে Determiner হিসেবে 'no' ব্যবহৃত হয়। 'None' সাধারণত pronoun হিসেবে বসে, noun-এর আগে নয়।",
+    "source": [
+      "প্রশাসনিক কর্মকর্তা কর্মকর্তা (সংস্থাপন মন্ত্রণালয়) পদে নিয়োগ পরীক্ষা-০৭"
+    ]
+  },
+  {
+    "id": 10,
+    "topicsId": 410,
+    "q": "There are ---dangerous drivers.",
+    "options": [
+      "very lot of",
+      "very many of",
+      "very much of",
+      "a lot of"
+    ],
+    "ans": 3,
+    "explain": "'Drivers' একটি plural countable noun। 'A lot of' শব্দটি countable এবং uncountable উভয় ক্ষেত্রে ব্যবহার করা যায়। অন্য অপশনগুলো গঠনগতভাবে ভুল (যেমন- very lot of হয় না)।",
+    "source": [
+      "২৪তম বিসিএস পরীক্ষা/প্রশাসনিক কর্মকর্তা (সংস্থাপন মন্ত্রণালয়) পদে নিয়োগ পরীক্ষা, ০৭"
+    ]
+  },
+  {
+    "id": 11,
+    "topicsId": 410,
+    "q": "--------people can travel abroad.",
+    "options": [
+      "Very less",
+      "Little",
+      "Few",
+      "Least"
+    ],
+    "ans": 2,
+    "explain": "'People' একটি countable plural noun। Countable noun-এর সাথে সংখ্যায় নগণ্য বা 'নেই বললেই চলে' বোঝাতে 'Few' ব্যবহৃত হয়। 'Little' বা 'Less' শুধু uncountable noun-এর ক্ষেত্রে ব্যবহৃত হয়।",
+    "source": [
+      "গণপূর্ত অধিদপ্তরের হিসাব সহকারী ২০১৬"
+    ]
+  },
+  {
+    "id": 12,
+    "topicsId": 410,
+    "q": "It is --- acceptable to begin a sentence with and or but.",
+    "options": [
+      "always",
+      "sometimes",
+      "rarely",
+      "no hard and fast rule"
+    ],
+    "ans": 1,
+    "explain": "আধুনিক ইংরেজি গ্রামারে 'And' বা 'But' দিয়ে বাক্য শুরু করা 'Sometimes acceptable' অর্থাৎ মাঝে মাঝে গ্রহণযোগ্য হিসেবে ধরা হয়, বিশেষ করে গুরুত্ব প্রদানের জন্য। প্রথাগত নিয়মে এটি নিষিদ্ধ থাকলেও বর্তমানে এটি নমনীয়।",
+    "source": [
+      "গণপূর্ত অধিদপ্তরের হিসাব সহকারী ২০১৬"
+    ]
+  },
+  {
+    "id": 13,
+    "topicsId": 410,
+    "q": "`He went a hunting' Here 'a' used as a/an_____.",
+    "options": [
+      "determiner",
+      "preposition",
+      "indefinite article",
+      "modifier"
+    ],
+    "ans": 0,
+    "explain": "এই বাক্যে 'a' একটি Disguised Preposition (যা on বা at এর কাজ করছে) হলেও আধুনিক গ্রামারে Article-সমূহকে Determiner-এর অন্তর্ভুক্ত করা হয়। যেহেতু 'a' একটি indefinite article, এটি এখানে determiner হিসেবে কাজ করছে।",
+    "source": [
+      "স্বাস্থ্য প্রকৌশল অধিদপ্তরের নকশাকার (ড্রাফটসম্যান) : ২২"
+    ]
+  },
+  {
+    "id": 14,
+    "topicsId": 410,
+    "q": "‘Such people are not found now' the determiner in this sentence is-",
+    "options": [
+      "such",
+      "people",
+      "are",
+      "not"
+    ],
+    "ans": 0,
+    "explain": "'Such' শব্দটি এখানে 'people' (noun)-এর ধরন বা বৈশিষ্ট্য নির্দেশ করছে এবং noun-এর আগে বসেছে, তাই 'such' একটি Determiner।",
+    "source": [
+      "বিমান বাংলাদেশ এয়ারলাইন্স | ম্যাটেরিয়াল ম্যানেজমেন্ট অ্যাসিস্ট্যান্ট : ২২"
+    ]
+  }
+,
+  {
+    "id": 15,
+    "topicsId": 410,
+    "q": "Which one is abstract noun ?",
+    "options": [
+      "Manhood",
+      "Fleet",
+      "Friend",
+      "Anwar"
+    ],
+    "ans": 0,
+    "explain": "Abstract Noun বলতে গুণ, অবস্থা বা কাজের নাম বোঝায় যা ছোঁয়া বা দেখা যায় না। এখানে 'Manhood' (মনুষ্যত্ব) একটি অবস্থাকে নির্দেশ করছে। 'Fleet' হলো Collective Noun, 'Friend' হলো Common Noun এবং 'Anwar' হলো Proper Noun।",
+    "source": [
+      "দুর্নীতি দমন কমিশনঃ ডাটা এন্ট্রি/ কন্ট্রোল অপারেটর ২০১৯"
+    ]
+  },
+  {
+    "id": 16,
+    "topicsId": 410,
+    "q": "Mutton' is a/an ?",
+    "options": [
+      "Common Noun",
+      "Abstract Noun",
+      "Material Noun",
+      "Proper Noun"
+    ],
+    "ans": 2,
+    "explain": "পশুর মাংস (Mutton) একটি পদার্থের নাম যা ওজন করা যায় কিন্তু গণনা করা যায় না, তাই এটি Material Noun।",
+    "source": [
+      "৩৮তম বিসিএস"
+    ]
+  },
+  {
+    "id": 17,
+    "topicsId": 410,
+    "q": "Frailty the name is women. Here “Frailty” is :",
+    "options": [
+      "A noun",
+      "An adjective",
+      "An adverb",
+      "A verb"
+    ],
+    "ans": 0,
+    "explain": "Frailty (ভঙ্গুরতা বা দুর্বলতা) শব্দটি বাক্যের Subject হিসেবে বসেছে। কোনো কিছুর নাম বোঝালে তা Noun হয়। এটি মূলত একটি Abstract Noun।",
+    "source": [
+      "৩৭তম বিসিএস"
+    ]
+  },
+  {
+    "id": 18,
+    "topicsId": 410,
+    "q": "I am in the process of collecting material for my story. The underlined word is a/an-",
+    "options": [
+      "Verb",
+      "Adjective",
+      "Adverb",
+      "Noun"
+    ],
+    "ans": 3,
+    "explain": "'Material' শব্দটি এখানে 'উপাদান' অর্থে ব্যবহৃত হয়েছে এবং এটি একটি Noun। সাধারণত 'the process of' এর পরে এবং প্রিপজিশন 'for' এর আগে এটি Noun হিসেবে কাজ করছে।",
+    "source": [
+      "35th BCS"
+    ]
+  },
+  {
+    "id": 19,
+    "topicsId": 410,
+    "q": "Which one is an abstract noun ?",
+    "options": [
+      "Freedom",
+      "Air",
+      "Water",
+      "Grass"
+    ],
+    "ans": 0,
+    "explain": "'Freedom' (স্বাধীনতা) একটি অনুভূতি বা ধারণার নাম যা দেখা বা স্পর্শ করা যায় না, তাই এটি Abstract Noun। Air, Water, Grass এগুলো Material বা Common Noun এর পর্যায়ে পড়ে।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর, উপ সহকারী প্রকৌশলী (ইলেকট্রিক্যাল) : ২১/ গণপূর্ত অধিদপ্তরের উপসহকারী প্রকৌশলী (সিভিল) ও জনস্বাস্থ্য অধিদপ্তরের ড্রাফম্যান : ২০১৭"
+    ]
+  },
+  {
+    "id": 20,
+    "topicsId": 410,
+    "q": "Which of the following words is a noun ?",
+    "options": [
+      "Ricochet",
+      "Ordian",
+      "Imprimatur",
+      "Pontificate"
+    ],
+    "ans": 2,
+    "explain": "'Imprimatur' অর্থ সরকারি অনুমোদন বা মুদ্রণের অনুমতি, যা একটি Noun। বাকি শব্দগুলো মূলত Verb বা অন্য Parts of Speech হিসেবে ব্যবহৃত হয়।",
+    "source": [
+      "খাদ্য অধিদপ্তর (উচ্চমান সহকারী)-২১"
+    ]
+  },
+  {
+    "id": 21,
+    "topicsId": 410,
+    "q": "What type of noun is 'Kindness' ?",
+    "options": [
+      "Proper",
+      "Common",
+      "Abstract",
+      "Material"
+    ],
+    "ans": 2,
+    "explain": "'Kindness' (দয়া) একটি গুণের নাম। গুণ বা গুণের নাম বোঝালে তা Abstract Noun হয়।",
+    "source": [
+      "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড (সহকারী এনফোর্সমেন্ট কোঅর্ডিনেটর)-২১/ বাংলাদেশ পরিসংখ্যান ব্যুরোর অধীনে থানা পরিসংখ্যান পদে নিয়োগ পরীক্ষা-২০২০/ ডাক, টেলিযোগাযোগ ও তথ্যপ্রযুক্তি মন্ত্রণালয়ের সহকারী প্রোগ্রামার ২০১৭/ জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI) অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক ২০১৭/NSI-এর সহকারী পরিচালক নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 22,
+    "topicsId": 410,
+    "q": "Water has no colour. এখানে Water' কোন ধরণের Noun ?",
+    "options": [
+      "Abstract",
+      "Material",
+      "proper",
+      "Common"
+    ],
+    "ans": 1,
+    "explain": "'Water' (পানি) একটি অবিভাজ্য পদার্থের নাম যা ওজন করা যায়, তাই এটি Material Noun।",
+    "source": [
+      "শিক্ষা প্রকৌশল অধিদপ্তর (অফিস সহায়ক) -২১"
+    ]
+  },
+  {
+    "id": 23,
+    "topicsId": 410,
+    "q": "কোনটি Abstract noun ?",
+    "options": [
+      "man",
+      "Height",
+      "fury",
+      "Long",
+      "খ ও গ"
+    ],
+    "ans": 4,
+    "explain": "'Height' (উচ্চতা) এবং 'Fury' (তীব্র ক্রোধ) উভয়ই গুণ বা অবস্থার নাম, তাই এগুলো Abstract Noun। 'খ ও গ' সঠিক উত্তর।",
+    "source": [
+      "আমদানি ও রপ্তানি প্রধান নিয়ন্ত্রকের দপ্তরের অধীনে অফিস সহায়ক পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 24,
+    "topicsId": 410,
+    "q": "The poor are not always unhappy. 'The ’poor ’ is Noun.",
+    "options": [
+      "Plural Common",
+      "Plural Proper",
+      "Collective",
+      "Material"
+    ],
+    "ans": 0,
+    "explain": "Adjective-এর আগে 'The' বসলে তা একটি সমগ্র শ্রেণিকে বোঝায় এবং তা Plural Common Noun হিসেবে গণ্য হয়।",
+    "source": [
+      "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড, সহকারী সচিব /সহকারী পরিচালক (প্রশাসন) -২১"
+    ]
+  },
+  {
+    "id": 25,
+    "topicsId": 410,
+    "q": "Fill in the blank with the right option: River is a/an ... noun.",
+    "options": [
+      "proper",
+      "abstract",
+      "collective",
+      "Common"
+    ],
+    "ans": 3,
+    "explain": "'River' (নদী) বলতে কোনো নির্দিষ্ট নদীকে না বুঝিয়ে সকল নদীকে সাধারণভাবে বোঝাচ্ছে, তাই এটি Common Noun।",
+    "source": [
+      "BPSC এর সিনিয়র ইন্ট্রাক্টর (TT) : ২১"
+    ]
+  },
+  {
+    "id": 26,
+    "topicsId": 410,
+    "q": "What kind of noun is 'Knowledge' ?",
+    "options": [
+      "Proper",
+      "Material",
+      "Abstract",
+      "Common"
+    ],
+    "ans": 2,
+    "explain": "'Knowledge' (জ্ঞান) ইন্দ্রিয় দ্বারা অনুভব করা যায় না বা ধরা যায় না, এটি একটি ধারণার নাম, তাই এটি Abstract Noun।",
+    "source": [
+      "দুর্নীতি দমন কমিশনের অধীনে উপ-সহকারী পরিচালক পদে নিয়োগ পরীক্ষা-২০২০"
+    ]
+  },
+  {
+    "id": 27,
+    "topicsId": 410,
+    "q": "Which of the following is a noun ?",
+    "options": [
+      "Add",
+      "abhor",
+      "Mention",
+      "Attend"
+    ],
+    "ans": 2,
+    "explain": "Add, abhor, Attend হলো Verb। 'Mention' শব্দটি Noun এবং Verb উভয় হিসেবে ব্যবহৃত হতে পারে (এখানে Noun হিসেবে গণ্য)।",
+    "source": [
+      "এনএসআই (ওয়াচার কনস্টেবল/ ফিল্ড স্টাফ)-২১"
+    ]
+  },
+  {
+    "id": 28,
+    "topicsId": 410,
+    "q": "Which one is common noun ?",
+    "options": [
+      "Infant",
+      "Salt",
+      "Studentship",
+      "Army"
+    ],
+    "ans": 0,
+    "explain": "'Infant' (শিশু) বলতে সাধারণ একটি শ্রেণিকে বোঝায়, তাই এটি Common Noun। Salt হলো Material, Studentship হলো Abstract এবং Army হলো Collective Noun।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোর অধীনে পরিসংখ্যান সহকারী : ২০২০"
+    ]
+  },
+  {
+    "id": 29,
+    "topicsId": 410,
+    "q": "Which one is a material noun ?",
+    "options": [
+      "Group",
+      "Meat",
+      "Seriousness",
+      "Party"
+    ],
+    "ans": 1,
+    "explain": "'Meat' (মাংস) একটি পদার্থের নাম যা গণনা করা যায় না কিন্তু ওজন করা যায়, তাই এটি Material Noun।",
+    "source": [
+      "বেসামরিক বিমান চলাচল কর্তৃপক্ষ (প্রকিউরমেন্ট অফিসার/ ইন্সপেক্টর)-২১"
+    ]
+  },
+  {
+    "id": 30,
+    "topicsId": 410,
+    "q": "Choose the countable noun.",
+    "options": [
+      "Dream",
+      "Thought",
+      "Salt",
+      "Table"
+    ],
+    "ans": 3,
+    "explain": "যে Noun গণনা করা যায় তাকে Countable Noun বলে। এখানে 'Table' গণনা করা যায়, তাই এটি Countable।",
+    "source": [
+      "ঢাকা দক্ষিণ সিটি কর্পোরেশনের অধীনে হিসাব সহকারী : ২০২০"
+    ]
+  },
+  {
+    "id": 31,
+    "topicsId": 410,
+    "q": "What type of noun the word 'Rice' is ?",
+    "options": [
+      "Proper noun",
+      "Common noun",
+      "Abstract noun",
+      "Material noun"
+    ],
+    "ans": 3,
+    "explain": "'Rice' (চাল) একটি বস্তু বা পদার্থের নাম যা ওজন করা হয়, তাই এটি Material Noun। (দ্রষ্টব্য: অপশন অনুযায়ী ৩ নম্বরটি সঠিক হওয়া উচিত ছিল, এখানে correct: 1 দেওয়া আছে যা প্রশ্নকর্তার ভুল হতে পারে, তবে ব্যাকরণগতভাবে এটি Material Noun)।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন চলচ্চিত্র ও প্রকাশনা অধিদপ্তরের ক্যামেরাম্যান : ২০১১"
+    ]
+  },
+  {
+    "id": 32,
+    "topicsId": 410,
+    "q": "Identity is the correct noun ?",
+    "options": [
+      "Acute",
+      "Flute",
+      "Cute",
+      "Mute"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'Flute' (বাঁশি) একটি বস্তুর নাম, যা Noun। Acute, Cute হলো Adjective। (প্রশ্নে correct: 0 ছিল, যা Acute-এর জন্য ভুল, Flute-ই এখানে একমাত্র স্পষ্ট Noun)।",
+    "source": [
+      "খাদ্য অধিদপ্তর নিয়োগ পরীক্ষা (সহকারী উপ-খাদ্য পরিদর্শক -২১"
+    ]
+  },
+  {
+    "id": 33,
+    "topicsId": 410,
+    "q": "Which one is a/an abstract noun ?",
+    "options": [
+      "Class",
+      "Rice",
+      "Intelligence",
+      "Team"
+    ],
+    "ans": 2,
+    "explain": "'Intelligence' (বুদ্ধিমত্তা) দেখা বা ছোঁয়া যায় না, এটি মানুষের একটি অভ্যন্তরীণ গুণ, তাই এটি Abstract Noun।",
+    "source": [
+      "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক) : ২০১৯"
+    ]
+  },
+  {
+    "id": 34,
+    "topicsId": 410,
+    "q": "'Water' is a noun.",
+    "options": [
+      "Proper",
+      "Common",
+      "Material",
+      "Abstract"
+    ],
+    "ans": 2,
+    "explain": "'Water' একটি উপাদানের নাম যা ওজনযোগ্য কিন্তু গণনযোগ্য নয়, তাই এটি Material Noun।",
+    "source": [
+      "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের প্রত্নতত্ত্ব অধিদপ্তরের এস্টিমেটর : ২০১৯"
+    ]
+  },
+  {
+    "id": 35,
+    "topicsId": 410,
+    "q": "What part of speech is 'scarcity' ?",
+    "options": [
+      "Noun",
+      "adjective",
+      "Verb",
+      "Adverb"
+    ],
+    "ans": 0,
+    "explain": "'Scarcity' (স্বল্পতা/অভাব) শব্দটি একটি অবস্থার নাম বোঝাচ্ছে, তাই এটি Noun (Abstract)।",
+    "source": [
+      "বিদ্যুৎ, জ্বালানি ও খনিজ সম্পদ মন্ত্রণালয়ের সিকিউরিটি অফিসার : ২০১৯"
+    ]
+  },
+  {
+    "id": 36,
+    "topicsId": 410,
+    "q": "Goodwill কোন Parts of speech ?",
+    "options": [
+      "Pronoun",
+      "Noun",
+      "Verb",
+      "Adverb"
+    ],
+    "ans": 1,
+    "explain": "'Goodwill' (সুনাম) একটি গুণের নাম, তাই এটি Noun।",
+    "source": [
+      "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ডের সহকারী এনফোর্সমেন্ট কো-অর্ডিনেটর : ২০১৯"
+    ]
+  },
+  {
+    "id": 37,
+    "topicsId": 410,
+    "q": "What kind of noun is 'river' ?",
+    "options": [
+      "Material",
+      "Collective",
+      "Proper",
+      "Common"
+    ],
+    "ans": 3,
+    "explain": "'River' দ্বারা কোনো নির্দিষ্ট নাম না বুঝিয়ে সাধারণ একটি জাতি বা শ্রেণিকে বোঝানো হচ্ছে, তাই এটি Common Noun।",
+    "source": [
+      "বাংলাদেশ কোস্ট গার্ড ও কৃষি প্রশিক্ষণ একাডেমির নার্স এবং ফায়ার সার্ভিস অ্যান্ড সিভিল ডিফেন্স-এর ফোরম্যান : ২০১৯"
+    ]
+  },
+  {
+    "id": 38,
+    "topicsId": 410,
+    "q": "The word 'army' is a –",
+    "options": [
+      "proper noun",
+      "common noun",
+      "collective noun",
+      "material noun"
+    ],
+    "ans": 2,
+    "explain": "'Army' দ্বারা একদল সৈন্যের সমষ্টিকে বোঝায়, তাই এটি Collective Noun।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন চলচ্চিত্র ও প্রকাশনা অধিদপ্তরের ক্যামেরাম্যান : ২০১৯"
+    ]
+  },
+  {
+    "id": 39,
+    "topicsId": 410,
+    "q": "What kind of noun is 'Boy' ?",
+    "options": [
+      "Material",
+      "Proper",
+      "Common",
+      "Collective"
+    ],
+    "ans": 2,
+    "explain": "'Boy' (বালক) দ্বারা সমগ্র বালক জাতিকে সাধারণভাবে বোঝায়, তাই এটি Common Noun।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা (NSI) : জুনিয়র ফিল্ড অফিসার ২০১৯/ঢাকা ইলেকট্রিক সাপ্লাই কোম্পানি (DESCO)-এর অ্যাসিসটেন্ট কমপ্লেইন্ট সুপারভাইজার :২০১৯"
+    ]
+  },
+  {
+    "id": 40,
+    "topicsId": 410,
+    "q": "What kind of noun is 'Girl' ?",
+    "options": [
+      "Collective",
+      "Material",
+      "Proper",
+      "Common"
+    ],
+    "ans": 3,
+    "explain": "'Girl' (বালিকা) দ্বারা সাধারণ এক শ্রেণি বা জাতিকে বোঝায়, তাই এটি Common Noun।",
+    "source": [
+      "বাংলাদেশ পরিসংখ্যান ব্যুরোঃ জুনিয়র পরিসংখ্যান সহকারী: ২০২০/প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (চতুর্থ ধাপ) ২০১৯"
+    ]
+  },
+  {
+    "id": 41,
+    "topicsId": 410,
+    "q": "Which one of the following is an example of proper noun ?",
+    "options": [
+      "The Police",
+      "Car",
+      "Bangladesh",
+      "Family"
+    ],
+    "ans": 2,
+    "explain": "'Bangladesh' একটি নির্দিষ্ট দেশের নাম, তাই এটি Proper Noun।",
+    "source": [
+      "উপজেলা/আরবান প্রোগ্রামঃ কো-অর্ডিনেটর : ২০২০"
+    ]
+  },
+  {
+    "id": 42,
+    "topicsId": 410,
+    "q": "What kind noun is 'Dhaka' ?",
+    "options": [
+      "Proper",
+      "Common",
+      "Collective",
+      "Material"
+    ],
+    "ans": 0,
+    "explain": "'Dhaka' একটি নির্দিষ্ট শহরের নাম, তাই এটি Proper Noun।",
+    "source": [
+      "পেট্রোবাংলা হিসাব সহকারী : ২০১৯"
+    ]
+  },
+  {
+    "id": 43,
+    "topicsId": 410,
+    "q": "They tell us a tale about a tail. The word ‘tale’ is",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "ans": 0,
+    "explain": "এখানে 'tale' (গল্প) শব্দটি একটি বস্তুর নাম হিসেবে ব্যবহৃত হয়েছে (a আর্টিকেলের পরে), তাই এটি Noun।",
+    "source": [
+      "১৬তম শিক্ষক নিবন্ধন -স্কুল পর্যায় (সেটঃ ০৩) : ২০১৯"
+    ]
+  },
+  {
+    "id": 44,
+    "topicsId": 410,
+    "q": "“Bangladesh has a good----in cricket.” Choose the right expression for the gap.",
+    "options": [
+      "prospective",
+      "prospect",
+      "prospectus",
+      "prosperous"
+    ],
+    "ans": 1,
+    "explain": "'Prospect' অর্থ উজ্জ্বল সম্ভাবনা, যা এখানে Noun হিসেবে শূন্যস্থানে বসবে। 'Good' Adjective-এর পর Noun বসে।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়, ব্যক্তিগত কর্মকর্তা : ২০১৯"
+    ]
+  },
+  {
+    "id": 45,
+    "topicsId": 410,
+    "q": "The soldiers were rewarded for their bravery. Which class of noun 'bravery' belong to ?",
+    "options": [
+      "Collective",
+      "Material",
+      "Common",
+      "Abstract"
+    ],
+    "ans": 3,
+    "explain": "'Bravery' (বীরত্ব) একটি গুণের নাম যা ধরা বা ছোঁয়া যায় না, তাই এটি Abstract Noun।",
+    "source": [
+      "বাংলাদেশ পাবলিক সার্ভিস কমিশন ঃ বিভিন্ন মন্ত্রণালয়ের ব্যক্তিগত কর্মকর্তা :২০১৯"
+    ]
+  },
+  {
+    "id": 46,
+    "topicsId": 410,
+    "q": "'Noun' কয় প্রকার ?",
+    "options": [
+      "৫ প্রকার",
+      "৬ প্রকার",
+      "৪ প্রকার",
+      "৩ প্রকার"
+    ],
+    "ans": 0,
+    "explain": "প্রথাগত ব্যাকরণ অনুযায়ী Noun ৫ প্রকার: Proper, Common, Collective, Material এবং Abstract।",
+    "source": [
+      "সমবায় অধিদপ্তর (মাঠ সহকারি) পরীক্ষা :২০১৮/প্রাথমিক শিক্ষা অধিদপ্তরের হিসাব সহকারী-২০১১"
+    ]
+  },
+  {
+    "id": 47,
+    "topicsId": 410,
+    "q": "We need to buy some new -",
+    "options": [
+      "Furnishers",
+      "furniture",
+      "furnisher",
+      "furnitures"
+    ],
+    "ans": 1,
+    "explain": "'Furniture' একটি Uncountable Noun, যার সাথে 's' বা 'es' যুক্ত করে প্লুরাল করা যায় না। তাই 'furniture' সঠিক।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (চতুর্থ ধাপ) : ২০১৯"
+    ]
+  },
+  {
+    "id": 48,
+    "topicsId": 410,
+    "q": "কোনটি Collective Noun ?",
+    "options": [
+      "Library",
+      "Month",
+      "Boy",
+      "Books"
+    ],
+    "ans": 0,
+    "explain": "'Library' (গ্রন্থাগার) বইয়ের একটি সংগ্রহ বা সমষ্টিকে বোঝায়, তাই এটি Collective Noun।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (চতুর্থ ধাপ) : ২০১৯"
+    ]
+  },
+  {
+    "id": 49,
+    "topicsId": 410,
+    "q": "Five countries, including Bangladesh, is home to half of the world's poor.",
+    "options": [
+      "is home",
+      "are homes",
+      "is homes",
+      "are home"
+    ],
+    "ans": 3,
+    "explain": "বাক্যের Subject হলো 'Five countries' যা Plural, তাই এর সাথে Verb 'are' বসবে। 'are home' সঠিক অভিব্যক্তি।",
+    "source": [
+      "কন্ট্রোলার জেনারেল ডিফেন্স ফাইন্যান্স (CGDF)-এর কার্যালয়ের অধীন অডিটর : ২০১৯"
+    ]
+  },
+  {
+    "id": 50,
+    "topicsId": 410,
+    "q": "Which one is the noun ?",
+    "options": [
+      "Poverty",
+      "Simple",
+      "Important",
+      "Rich"
+    ],
+    "ans": 0,
+    "explain": "'Poverty' (দারিদ্র্য) একটি অবস্থার নাম, তাই এটি Noun। বাকিগুলো Adjective।",
+    "source": [
+      "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (যান্ত্রিক) : ২০১৯"
+    ]
+  },
+  {
+    "id": 51,
+    "topicsId": 410,
+    "q": "Which one is the noun form ?",
+    "options": [
+      "horrible",
+      "Horror",
+      "horrify",
+      "horribly"
+    ],
+    "ans": 1,
+    "explain": "'Horror' (ভীতি/আতঙ্ক) একটি Noun। Horrible (Adj), Horrify (Verb) এবং Horribly (Adv)।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন চলচ্চিত্র ও প্রকাশনা অধিদপ্তরের ক্যামেরাম্যান : ২০১৯"
+    ]
+  },
+  {
+    "id": 52,
+    "topicsId": 410,
+    "q": "What kind of noun is 'Cattle' ?",
+    "options": [
+      "Proper",
+      "Collective",
+      "Common",
+      "Material"
+    ],
+    "ans": 1,
+    "explain": "'Cattle' (গবাদি পশু) শব্দটি দ্বারা পশুদের একটি সমষ্টিকে বোঝায় যা সবসময় Plural হিসেবে ব্যবহৃত হয়। এটি একটি Collective Noun।",
+    "source": [
+      "বিমান বাংলাদেশ এয়ারলাইন্স লিমিটেডের সহকারী ব্যবস্থাপক ২০২১/ পল্লী উন্নয়ন ও সমবায় বিভাগের একটি বাড়ি একটি খামার প্রকল্পের ফিল্ড সুপারভাইজার ২০১৮/ মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর ওয়ারলেস অপারেটর ২০১৮/ প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের অধীন জনশক্তি, কর্মসংস্থান ও প্রশিক্ষণ ব্যুরোর ইন্সট্রাক্টর (ইলেকট্রিক্যাল, কম্পিউটার, সিভিল ও ইলেক্ট্রনিক্স) টিটিসি ২০১৮/ বিভিন্ন মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (সিভিল) ২০১৭/ যশোর বিজ্ঞান ও প্রযুক্তি (F-ইউনিট): ১৬-১৭/ বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড-২০১৭; স্বাস্থ্য মন্ত্রণালয়ের সহকারী প্রকৌশলী : ২০১৬"
+    ]
+  },
+  {
+    "id": 53,
+    "topicsId": 410,
+    "q": "Flock is a",
+    "options": [
+      "Proper noun",
+      "Common noun",
+      "Collective noun",
+      "Abstract noun"
+    ],
+    "ans": 2,
+    "explain": "'Flock' অর্থ ভেড়া বা পাখির পাল (সমষ্টি), তাই এটি Collective Noun।",
+    "source": [
+      "বিভিন্ন মন্ত্রণালয়/বিভাগ/অধিদপ্তরের ব্যক্তিগত কর্মকর্তা (সাধারণ) : ২০১৮"
+    ]
+  },
+  {
+    "id": 54,
+    "topicsId": 410,
+    "q": "The countable form of laughter' is-",
+    "options": [
+      "all of the above",
+      "Laugh",
+      "a laugh",
+      "The laugh"
+    ],
+    "ans": 1,
+    "explain": "'Laughter' (হাসি) একটি Abstract Noun। এর Countable রূপ হলো 'Laugh' (যেমন: He gave a short laugh)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক (দ্বিতীয় ধাপ) : ২০১৯"
+    ]
+  },
+  {
+    "id": 55,
+    "topicsId": 410,
+    "q": "Which one is a correct sentence ?",
+    "options": [
+      "Every students are present today.",
+      "Ten kilometres are too far to walk.",
+      "Two-third of the students got degrees.",
+      "All the information is current"
+    ],
+    "ans": 3,
+    "explain": "'Information' একটি Uncountable Noun, তাই এর সাথে সিঙ্গুলার Verb (is) বসে। অপশন ৪ সঠিক।",
+    "source": [
+      "১৫তম প্রভাষক নিবন্ধন ও প্রত্যয়ন পরীক্ষা (কলেজ/সমপর্যায়) : ২০১৯"
+    ]
+  },
+  {
+    "id": 56,
+    "topicsId": 410,
+    "q": "Find out the correct sentence.",
+    "options": [
+      "I sold all of my furniture.",
+      "I sold all of my furnitures.",
+      "I like vegetable.",
+      "They have gone for walk."
+    ],
+    "ans": 0,
+    "explain": "'Furniture' সবসময় Uncountable হিসেবে ব্যবহৃত হয়, এর সাথে 's' হয় না। তাই অপশন ১ সঠিক।",
+    "source": [
+      "সংস্কৃতি বিষয়ক মন্ত্রণালয়ের প্রত্নতত্ত্ব অধিদপ্তরের এস্টিমেটর : ২০১৯"
+    ]
+  },
+  {
+    "id": 57,
+    "topicsId": 410,
+    "q": "What kind of noun is 'Discipline' ?",
+    "options": [
+      "proper noun",
+      "common noun",
+      "abstract noun",
+      "collective noun"
+    ],
+    "ans": 2,
+    "explain": "'Discipline' (শৃঙ্খলা) একটি গুণের নাম, তাই এটি Abstract Noun।",
+    "source": [
+      "প্রাথমিক শিক্ষা অধিদপ্তরের সহকারী লাইব্রেরিয়ান কাম ক্যাটালগার এবং উচ্চমান সহকারী কাম হিসাবরক্ষক ২০১৮/ পল্লী উন্নয়ন ও সমবায় বিভাগের একটি বাড়ি একটি খামার প্রকল্পের জেলা সমন্বয়কারী ২০১৭"
+    ]
+  },
+  {
+    "id": 58,
+    "topicsId": 410,
+    "q": "Find out the collective noun from the following.",
+    "options": [
+      "Water",
+      "Cow",
+      "Kindness",
+      "Army"
+    ],
+    "ans": 3,
+    "explain": "'Army' (সৈন্যদল) একটি সমষ্টিকে বোঝায়, তাই এটি Collective Noun।",
+    "source": [
+      "বাণিজ্য মন্ত্রণালয়ের অধীন বাংলাদেশ ট্যারিফ কমিশনের গবেষণা কর্মকর্তা : ২০১৮"
+    ]
+  },
+  {
+    "id": 59,
+    "topicsId": 410,
+    "q": "Honesty is the best policy এখানে 'honesty' হচ্ছে ?",
+    "options": [
+      "Proper Noun",
+      "Common Noun",
+      "Collective Noun",
+      "Abstract Noun"
+    ],
+    "ans": 3,
+    "explain": "'Honesty' (সততা) একটি মানবিক গুণের নাম, তাই এটি Abstract Noun।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয় সুপারিনটেনডেন্ট ২০১৯/পল্লী উন্নয়ন ও সমবায় বিভাগের একটি বাড়ি একটি খামার প্রকল্পের ফিল্ড সুপারভাইজার ২০১৮"
+    ]
+  },
+  {
+    "id": 60,
+    "topicsId": 410,
+    "q": "What kind of noun is committee ?",
+    "options": [
+      "Abstract",
+      "proper",
+      "collective",
+      "common"
+    ],
+    "ans": 2,
+    "explain": "'Committee' (কমিটি) একদল ব্যক্তির সমষ্টিকে বোঝায়, তাই এটি Collective Noun।",
+    "source": [
+      "গৃহায়ন ও গণপূর্ত মন্ত্রণালয়-এর গণপূর্ত অধিদপ্তরের উপ-সহকারী প্রকৌশলী ও অধিদপ্তরের উপসহকারী প্রকৌশলী (সিভিল) - ২০১১) ড্রাফটসম্যান/সিভিল :২০১৮"
+    ]
+  },
+  {
+    "id": 61,
+    "topicsId": 410,
+    "q": "What part of speech is 'Beauty' ?",
+    "options": [
+      "Adjective",
+      "Noun",
+      "Pronoun",
+      "Verb"
+    ],
+    "ans": 1,
+    "explain": "'Beauty' (সৌন্দর্য) একটি গুণের নাম, তাই এটি Noun। এর Adjective হলো Beautiful।",
+    "source": [
+      "সমাজসেবা অধিদফতরের সহকারী শিক্ষক : ২০১৭"
+    ]
+  },
+  {
+    "id": 62,
+    "topicsId": 410,
+    "q": "‘Adversity' is",
+    "options": [
+      "a pronoun",
+      "a verb",
+      "a noun",
+      "an adjective"
+    ],
+    "ans": 2,
+    "explain": "'Adversity' (বিপদ বা প্রতিকূলতা) একটি অবস্থার নাম বোঝাচ্ছে, তাই এটি Noun।",
+    "source": [
+      "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা অধিদপ্তর পরিসংখ্যান কর্মকর্তা : ২০১৭"
+    ]
+  },
+  {
+    "id": 63,
+    "topicsId": 410,
+    "q": "Choose the countable noun form below:",
+    "options": [
+      "Love",
+      "Music",
+      "Sand",
+      "Massage"
+    ],
+    "ans": -1,
+    "explain": "Love, Music, Sand হলো Uncountable। এখানে সঠিক অপশন ৪ (Massage) গণনা করা যায় এমন অর্থে ব্যবহৃত হতে পারে (A massage)।",
+    "source": [
+      "প্রধানমন্ত্রীর কার্যালয়ের নিয়োগ পরীক্ষা (NSI)-2017"
+    ]
+  },
+  {
+    "id": 64,
+    "topicsId": 410,
+    "q": "What is the noun form of the word “accept” ?",
+    "options": [
+      "acceptence",
+      "accepting",
+      "acceptance",
+      "acceptable"
+    ],
+    "ans": 2,
+    "explain": "'Accept' (গ্রহণ করা) Verb-টির Noun রূপ হলো 'Acceptance' (গ্রহণযোগ্যতা)।",
+    "source": [
+      "গৃহায়ন ও গণপূর্ত মন্ত্রণালয়-এর গণপূর্ত অধিদপ্তরের উপ- সহকারী প্রকৌশলী ও ড্রাফটসম্যান/সিভিল ২০১৮/ স্বাস্থ্য মন্ত্রণালয়ের সহকারী প্রকৌশলী :১৬"
+    ]
+  },
+  {
+    "id": 65,
+    "topicsId": 410,
+    "q": "Choose the countable noun from below:",
+    "options": [
+      "Dream",
+      "Salt",
+      "Thought",
+      "Table"
+    ],
+    "ans": 3,
+    "explain": "যে Noun গণনা করা যায় তাকে Countable Noun বলে। এখানে Table (টেবিল) গণনা করা যায়। অন্যদিকে Salt (লবণ) পরিমাপ করা হয় এবং Dream ও Thought হলো Abstract ধারণা যা সাধারণত Uncountable হিসেবে গণ্য হয়।",
+    "source": [
+      "প্রধানমন্ত্রীর কার্যালয়ের নিয়োগ পরীক্ষা (NSI)-2017"
+    ]
+  },
+  {
+    "id": 66,
+    "topicsId": 410,
+    "q": "Which one is a compound noun ?",
+    "options": [
+      "Headmaster",
+      "Information",
+      "Friday",
+      "Examination"
+    ],
+    "ans": 0,
+    "explain": "দুই বা ততোধিক শব্দ মিলে যখন একটি Noun গঠিত হয়, তাকে Compound Noun বলে। এখানে Head + Master মিলে 'Headmaster' গঠিত হয়েছে।",
+    "source": [
+      "পল্লী উন্নয়ন ও সমবায় বিভাগের একটি বাড়ি একটি খামার প্রকল্পের জেলা সমন্বয়কারী : ২০১৭"
+    ]
+  },
+  {
+    "id": 67,
+    "topicsId": 410,
+    "q": "Find out the noun from the following:",
+    "options": [
+      "wonderful",
+      "Wonderfully",
+      "Wondering",
+      "Wonder"
+    ],
+    "ans": 3,
+    "explain": "Wonder শব্দটি Noun (বিস্ময়) এবং Verb (বিস্মিত হওয়া) উভয় হিসেবেই কাজ করে। Wonderful হলো Adjective, Wonderfully হলো Adverb।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ের সাইফার অফিসার-২০১৭"
+    ]
+  },
+  {
+    "id": 68,
+    "topicsId": 410,
+    "q": "They praised the honesty of the girl. Here the underlined word is a/an-.",
+    "options": [
+      "material noun",
+      "abstract noun",
+      "common noun",
+      "proper noun"
+    ],
+    "ans": 1,
+    "explain": "Honesty (সততা) একটি গুণের নাম যা ছোঁয়া বা দেখা যায় না, কেবল অনুভব করা যায়। তাই এটি Abstract Noun।",
+    "source": [
+      "সড়ক পরিবহন ও সেতু মন্ত্রণালয়ের অধীন বিআরটিএ'র মোটরযান পরিদর্শক : ২০১৭"
+    ]
+  },
+  {
+    "id": 69,
+    "topicsId": 410,
+    "q": "What kind of noun is ‘man' ?",
+    "options": [
+      "Proper",
+      "Common",
+      "Collective",
+      "Material"
+    ],
+    "ans": 1,
+    "explain": "Man শব্দটি দ্বারা কোনো নির্দিষ্ট মানুষকে না বুঝিয়ে সাধারণ সমগ্র মানব জাতিকে বোঝানো হয়েছে, তাই এটি Common Noun।",
+    "source": [
+      "পররাষ্ট্র মন্ত্রণালয়ের সাইফার অফিসার-২০১৭"
+    ]
+  },
+  {
+    "id": 70,
+    "topicsId": 410,
+    "q": "The word “Gold' is a ---- noun.",
+    "options": [
+      "common",
+      "material",
+      "collective",
+      "proper"
+    ],
+    "ans": 1,
+    "explain": "Gold (স্বর্ণ) একটি পদার্থের নাম যা গণনা করা হয় না বরং ওজন করা হয়। তাই এটি Material Noun।",
+    "source": [
+      "প্রাথমিক শিক্ষা অধিদপ্তরে উচ্চমান সহকারি কাম হিসাবরক্ষক -২০১৭"
+    ]
+  },
+  {
+    "id": 71,
+    "topicsId": 410,
+    "q": "Come on, it's time to go home. Here ‘home' is a/an ——",
+    "options": [
+      "noun",
+      "adjective",
+      "adverb",
+      "pronoun"
+    ],
+    "ans": 0,
+    "explain": "সাধারণত 'home' শব্দটি Adverb হিসেবে বেশি ব্যবহৃত হলেও, এটি একটি স্থানের নাম হিসেবে Noun হিসেবেও ব্যবহৃত হয়। এই বাক্যে 'home' গন্তব্যস্থল বা স্থানের নাম বোঝাচ্ছে বিধায় এটি Noun।",
+    "source": [
+      "জনপ্রশাসন মন্ত্রণালয়ের প্রশাসনিক কর্মকর্তা : ২০১৬"
+    ]
+  },
+  {
+    "id": 72,
+    "topicsId": 410,
+    "q": "Choose the noun of 'repeat' ?",
+    "options": [
+      "repeatedly",
+      "repetition",
+      "repetitious",
+      "repetitive"
+    ],
+    "ans": 1,
+    "explain": "Repeat (পুনরাবৃত্তি করা) একটি Verb। এর Noun রূপ হলো Repetition (পুনরাবৃত্তি)। Repeatedly হলো Adverb এবং Repetitive হলো Adjective।",
+    "source": [
+      "বাংলাদেশ রেলওয়ে (পূর্বাঞ্চল) গেইটকিপার পদে নিয়োগ-২০১৭/ নন-ক্যাডার বাছাই পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 73,
+    "topicsId": 410,
+    "q": "Remove শব্দটির Noun-",
+    "options": [
+      "Removing",
+      "Remove",
+      "Removal",
+      "Re-movement"
+    ],
+    "ans": 2,
+    "explain": "Remove (অপসারণ করা) একটি Verb। এর Noun রূপ হলো Removal (অপসারণ)।",
+    "source": [
+      "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড-২০১৭"
+    ]
+  },
+  {
+    "id": 74,
+    "topicsId": 410,
+    "q": "কোন শব্দটি Noun ?",
+    "options": [
+      "Sing",
+      "Song",
+      "Feed",
+      "Tell"
+    ],
+    "ans": 1,
+    "explain": "Song (গান) একটি Noun। অন্যদিকে Sing, Feed এবং Tell হলো Verb।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 75,
+    "topicsId": 410,
+    "q": "Choose the countable noun",
+    "options": [
+      "newspaper",
+      "water",
+      "fine",
+      "magic"
+    ],
+    "ans": 0,
+    "explain": "Newspaper (সংবাদপত্র) গণনা করা যায়, তাই এটি Countable Noun। Water হলো Material (Uncountable) এবং Magic হলো Abstract Noun।",
+    "source": [
+      "জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা (NSI) অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক ২০১৭/প্রাথমিক শিক্ষা অধিদপ্তরে উচ্চমান সহকারি কাম হিসাবরক্ষক নিয়োগ-২০১৭"
+    ]
+  },
+  {
+    "id": 76,
+    "topicsId": 410,
+    "q": "The noun of 'able' is –",
+    "options": [
+      "ably",
+      "able",
+      "enable",
+      "ability"
+    ],
+    "ans": 3,
+    "explain": "Able হলো একটি Adjective। এর Noun রূপ হলো Ability (সক্ষমতা) এবং Verb রূপ হলো Enable।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা-২০১৭"
+    ]
+  },
+  {
+    "id": 77,
+    "topicsId": 410,
+    "q": "'Poor' শব্দটির Noun ?",
+    "options": [
+      "Poority",
+      "Poorify",
+      "Poverty",
+      "Poorness"
+    ],
+    "ans": 2,
+    "explain": "Poor হলো Adjective। এর Noun রূপ হলো Poverty (দারিদ্র্য)।",
+    "source": [
+      "বিসিএসআইআর নিয়োগ পরীক্ষা ২০১৭"
+    ]
+  },
+  {
+    "id": 78,
+    "topicsId": 410,
+    "q": "I had a talk with him. Here 'talk' is a —",
+    "options": [
+      "verb",
+      "noun",
+      "pronoun",
+      "adverb"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'talk' শব্দটির আগে 'a' (article) বসেছে। Article-এর পর সাধারণত Noun বসে, তাই এখানে 'talk' একটি Noun।",
+    "source": [
+      "বাংলাদেশ ডাক বিভাগ পোষ্টাল অপারেটর ২০১৯/ডাক অধিদপ্তরের উপজেলা পোষ্টমাস্টার ২০১৬"
+    ]
+  },
+  {
+    "id": 79,
+    "topicsId": 410,
+    "q": "What kind of noun is the word 'Girl' ?",
+    "options": [
+      "proper",
+      "common",
+      "collective",
+      "material"
+    ],
+    "ans": 1,
+    "explain": "Girl (বালিকা) দ্বারা কোনো নির্দিষ্ট বালিকার নাম না বুঝিয়ে সাধারণ এক শ্রেণির সবাইকে বোঝায়, তাই এটি Common Noun।",
+    "source": [
+      "সরকারি মাধ্যমিক বিদ্যালয়ঃ সহকারী শিক্ষক ২০১৯/মহিলা ও শিশুবিষয়ক মন্ত্রণালয়ের অধীনে উপজেলা মহিলাবিষয়ক কর্মকর্তা ২০১৬"
+    ]
+  },
+  {
+    "id": 80,
+    "topicsId": 410,
+    "q": "The central part of a noun phrase is mainly a—",
+    "options": [
+      "Pronoun",
+      "Adjective",
+      "Noun",
+      "Adverb"
+    ],
+    "ans": 2,
+    "explain": "Noun Phrase-এর প্রধান বা কেন্দ্রীয় অংশ (Headword) হিসেবে একটি Noun থাকে।",
+    "source": [
+      "প্রতিরক্ষা মন্ত্রণালয়ের সিভিলিয়ান স্টাফ অফিসার এবং সহকারী পরিচালক : ২০১৬"
+    ]
+  },
+  {
+    "id": 81,
+    "topicsId": 410,
+    "q": "Select correct noun of the verb 'believe'",
+    "options": [
+      "Believer",
+      "Believable",
+      "Belief",
+      "Believingly"
+    ],
+    "ans": 2,
+    "explain": "Believe (বিশ্বাস করা) একটি Verb। এর Noun রূপ হলো Belief (বিশ্বাস)। Believer (বিশ্বাসকারী)-ও একটি Noun, তবে 'বিশ্বাস' অর্থের প্রধান Noun হলো Belief।",
+    "source": [
+      "প্রতিরক্ষা মন্ত্রণালয়ের উপ-সহকারী পরিচালক ২০১৬"
+    ]
+  },
+  {
+    "id": 82,
+    "topicsId": 410,
+    "q": "This is the go of the world. Here 'go' is a/an",
+    "options": [
+      "verb",
+      "noun",
+      "adverb",
+      "Adjective"
+    ],
+    "ans": 1,
+    "explain": "এই বাক্যে 'go' এর আগে 'the' বসেছে। 'The' এর পর সাধারণত Noun বসে। এখানে 'go of the world' মানে পৃথিবীর রীতি বা নিয়ম।",
+    "source": [
+      "সহকারী পরিবার পরিকল্পনা কর্মকর্তা ১৬"
+    ]
+  },
+  {
+    "id": 83,
+    "topicsId": 410,
+    "q": "কোনটি Material Noun ?",
+    "options": [
+      "Ring",
+      "River",
+      "Book",
+      "Paper"
+    ],
+    "ans": 3,
+    "explain": "Paper (কাগজ) একটি উপাদানের নাম যা ওজন করা হয় কিন্তু সংখ্যায় গণনা করা হয় না (যদি না sheets বলা হয়)। তাই এটি Material Noun। Ring, River, Book হলো Common Noun।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ : ২০১৬"
+    ]
+  },
+  {
+    "id": 84,
+    "topicsId": 410,
+    "q": "'Deny' শব্দটির Noun হবে ?",
+    "options": [
+      "denya",
+      "denial",
+      "Refuse",
+      "Deniable"
+    ],
+    "ans": 1,
+    "explain": "Deny (অস্বীকার করা) একটি Verb। এর Noun রূপ হলো Denial (অস্বীকৃতি)।",
+    "source": [
+      "সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ ২০১৬/ডাক বিভাগের পোস্টাল অপারেটর ২০১৬"
+    ]
+  },
+  {
+    "id": 85,
+    "topicsId": 410,
+    "q": "Which of the following is not a collective noun ?",
+    "options": [
+      "Navy",
+      "Public",
+      "Love",
+      "Orchestra"
+    ],
+    "ans": 2,
+    "explain": "Navy, Public এবং Orchestra দ্বারা সমষ্টি বোঝায়। কিন্তু Love (ভালোবাসা) একটি অনুভূতির নাম বিধায় এটি Abstract Noun।",
+    "source": [
+      "জাতীয় রাজস্ব বোর্ডের কর্মকর্তা (মুক্তিযুদ্ধা ও ক্ষুদ্র নৃগোষ্ঠী) : ২০১৫"
+    ]
+  },
+  {
+    "id": 86,
+    "topicsId": 410,
+    "q": "In the sentence 'A barking dog seldom bites' the word 'barking' does the function of",
+    "options": [
+      "Noun and verb",
+      "Noun and adjective",
+      "Verb and adjective",
+      "Verb and conjunction"
+    ],
+    "ans": 2,
+    "explain": "এখানে 'barking' শব্দটি Dog (Noun)-এর আগে বসে তার অবস্থা বোঝাচ্ছে (Adjective) এবং এটি Bark (Verb) থেকে উৎপন্ন হয়েছে। তাই এটি একই সাথে Verb এবং Adjective-এর কাজ করছে (Participle)।",
+    "source": [
+      "সহকারী উপজেলা/থানা শিক্ষা অফিসার (ATEO) : ২০১৫"
+    ]
+  },
+  {
+    "id": 87,
+    "topicsId": 410,
+    "q": "The word 'reproduction' is—",
+    "options": [
+      "an adjective",
+      "a verb",
+      "an adverb",
+      "a noun"
+    ],
+    "ans": 3,
+    "explain": "Reproduction (প্রজনন বা পুনরুৎপাদন) একটি প্রক্রিয়ার নাম, তাই এটি Noun। সাধারণত শব্দের শেষে '-tion' থাকলে তা Noun হয়।",
+    "source": [
+      "প্রাক-প্রাথমিক বিদ্যালয় সহকারী ও প্রধান শিক্ষক নিয়োগ পরীক্ষা ২০১৫"
+    ]
+  },
+  {
+    "id": 88,
+    "topicsId": 410,
+    "q": "Which word is not a noun ?",
+    "options": [
+      "Defame",
+      "Indemnity",
+      "Articulation",
+      "Simulation"
+    ],
+    "ans": 0,
+    "explain": "Defame (মানহানি করা) একটি Verb। অন্যদিকে Indemnity, Articulation, এবং Simulation হলো Noun।",
+    "source": [
+      "প্রাক-প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা ২০১৫"
+    ]
+  },
+  {
+    "id": 89,
+    "topicsId": 410,
+    "q": "She was a beauty in her youth. Here the underlined word is a/an",
+    "options": [
+      "adjective",
+      "noun",
+      "verb",
+      "adverb"
+    ],
+    "ans": 1,
+    "explain": "এখানে 'beauty' এর আগে 'a' (article) রয়েছে। কোনো Abstract Noun-এর আগে Article বসলে তা Common Noun বা সাধারণ Noun হিসেবে কাজ করে।",
+    "source": [
+      "শিক্ষা, সড়ক পরিবহন ও সেতু, গৃহায়ন ও গণপূর্ত মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (সিভিল) : ২০১৫"
+    ]
+  },
+  {
+    "id": 90,
+    "topicsId": 410,
+    "q": "Which one is noun ?",
+    "options": [
+      "sing",
+      "song",
+      "feed",
+      "tell"
+    ],
+    "ans": 1,
+    "explain": "Sing, Feed, Tell হলো Verb। Song (গান) হলো Noun।",
+    "source": [
+      "সেকেন্ডারি এডুকেশন সেক্টর ইনভেস্টমেন্ট প্রোগ্রাম ২০১৫"
+    ]
+  },
+  {
+    "id": 91,
+    "topicsId": 410,
+    "q": "Which one of the following is not a collective noun ?",
+    "options": [
+      "class",
+      "audience",
+      "peer",
+      "Public"
+    ],
+    "ans": 2,
+    "explain": "Class, Audience, Public সমষ্টিবাচক শব্দ (Collective)। কিন্তু Peer (সমমর্যাদার ব্যক্তি) একটি সাধারণ পদবী বা শ্রেণি বোঝাচ্ছে বিধায় এটি Common Noun।",
+    "source": [
+      "শিক্ষা, সড়ক পরিবহন ও সেতু, গৃহায়ন ও গণপূর্ত মন্ত্রণালয়ের উপ-সহকারী প্রকৌশলী (সিভিল) : ২০১৫"
+    ]
+  },
+  {
+    "id": 92,
+    "topicsId": 410,
+    "q": "The jury found the prisoner guilty-এখানে Jury কোন প্রকারের Noun ?",
+    "options": [
+      "Proper Noun",
+      "Collective Noun",
+      "Common Noun",
+      "None of the above"
+    ],
+    "ans": 1,
+    "explain": "Jury বলতে বিচারকদের একটি সমষ্টিকে বোঝায়, তাই এটি Collective Noun।",
+    "source": [
+      "মহাহিসাব নিরীক্ষক ও নিয়ন্ত্রকের কার্যালয়ের অধীন জুনিয়র অডিটর-২০১৪/১১"
+    ]
+  },
+  {
+    "id": 93,
+    "topicsId": 410,
+    "q": "কোনটি Collective Noun নয়-",
+    "options": [
+      "Cattle",
+      "Police",
+      "Audience",
+      "City"
+    ],
+    "ans": 3,
+    "explain": "City (শহর) একটি সাধারণ স্থানের নাম বোঝাচ্ছে, তাই এটি Common Noun। বাকি তিনটি সমষ্টিবাচক।",
+    "source": [
+      "প্রাথমিক শিক্ষা অধিদপ্তরের হিসাব সহকারী : ২০১৩"
+    ]
+  },
+  {
+    "id": 94,
+    "topicsId": 410,
+    "q": "নিম্নের কোনটি Abstract noun নয় ?",
+    "options": [
+      "air",
+      "Goodwill",
+      "flavor",
+      "water"
+    ],
+    "ans": 3,
+    "explain": "Water (পানি) একটি পদার্থ যা ওজন করা যায়, তাই এটি Material Noun। অন্যদিকে Goodwill, Air, Flavor বিমূর্ত ধারণা হিসেবে Abstract হতে পারে (যদিও Air নিয়ে বিতর্ক আছে, তবে অপশন অনুযায়ী Water অধিকতর স্পষ্ট Material Noun)।",
+    "source": [
+      "কন্ট্রোলার জেনারেল ডিফেন্স ফাইনান্স-এর কার্যালয়ের অধীন জুনিয়র অডিটর-২০১৪"
+    ]
+  },
+  {
+    "id": 95,
+    "topicsId": 410,
+    "q": "Which of the following is an uncountable noun ?",
+    "options": [
+      "Pen",
+      "Shirt",
+      "Food",
+      "Book"
+    ],
+    "ans": 2,
+    "explain": "Pen, Shirt, Book গণনা করা যায়। কিন্তু Food (খাবার) সাধারণত একটি সামগ্রিক ধারণা হিসেবে Uncountable হিসেবে গণ্য হয়।",
+    "source": [
+      "স্বরাষ্ট্র মন্ত্রণালয়ের অধীনে কারা অধিদপ্তরের কারা তত্ত্বাবধায়ক-২০১৩"
+    ]
+  },
+  {
+    "id": 96,
+    "topicsId": 410,
+    "q": "Which word is a ‘noun’-",
+    "options": [
+      "Assure",
+      "Assurance",
+      "Assured",
+      "Assuredly"
+    ],
+    "ans": 1,
+    "explain": "Assure (নিশ্চিত করা) হলো Verb। এর Noun রূপ হলো Assurance (নিশ্চয়তা)।",
+    "source": [
+      "তথ্য মন্ত্রণালয়ের অধীন গণযোগাযোগ অধিদপ্তরের সহকারী তথ্য অফিসার-২০১৩"
+    ]
+  },
+  {
+    "id": 97,
+    "topicsId": 410,
+    "q": "Which one is Common Noun ?",
+    "options": [
+      "Truth",
+      "Bank",
+      "Victory",
+      "Length"
+    ],
+    "ans": 1,
+    "explain": "Bank (ব্যাংক) একটি সাধারণ প্রতিষ্ঠানের নাম, তাই এটি Common Noun। Truth, Victory, Length হলো Abstract Noun।",
+    "source": [
+      "অর্থ মন্ত্রণালয়ের সোশ্যাল ডেভেলপমেন্ট ফাউন্ডেশন-এর ক্লাস্টার আইটি অ্যাসিসটেন্ট/ডাটা এন্ট্রি অপারেটর-২০১২"
+    ]
+  },
+  {
+    "id": 98,
+    "topicsId": 410,
+    "q": "কোনটি Material noun ?",
+    "options": [
+      "Wood",
+      "Mouth",
+      "Team",
+      "Knife"
+    ],
+    "ans": 0,
+    "explain": "Wood (কাঠ) একটি উপাদানের নাম, যা দিয়ে আসবাবপত্র তৈরি হয়। এটি Material Noun।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা (কোড: সুরমা)-২০১২"
+    ]
+  },
+  {
+    "id": 99,
+    "topicsId": 410,
+    "q": "কোনটি Common Noun ?",
+    "options": [
+      "Pupils",
+      "Shamim",
+      "Class",
+      "Team"
+    ],
+    "ans": 0,
+    "explain": "Pupils (ছাত্রছাত্রী) সাধারণ এক শ্রেণির মানুষকে বোঝায়, তাই এটি Common Noun। Shamim হলো Proper, Class ও Team হলো Collective Noun।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক নিয়োগ পরীক্ষা (কোড: করতোয়া)-২০১২"
+    ]
+  },
+  {
+    "id": 100,
+    "topicsId": 410,
+    "q": "What kind of noun is honesty' ?",
+    "options": [
+      "Proper",
+      "Common",
+      "Abstract",
+      "Material"
+    ],
+    "ans": 2,
+    "explain": "Honesty (সততা) একটি গুণের নাম, তাই এটি Abstract Noun।",
+    "source": [
+      "গণপূর্ত অধিদপ্তরের উপসহকারী প্রকৌশলী (সিভিল) : ২০১১"
+    ]
+  },
+  {
+    "id": 101,
+    "topicsId": 410,
+    "q": "What kind of noun is “fun” ?",
+    "options": [
+      "Countable",
+      "Uncountable",
+      "Common",
+      "Material"
+    ],
+    "ans": 1,
+    "explain": "Fun (মজা) একটি অনুভূতি বা বিমূর্ত ধারণা যা গণনা করা যায় না, তাই এটি Uncountable Noun।",
+    "source": [
+      "পরিবেশ অধিদপ্তরের সহকারী পরিচালকঃ ২০১১"
+    ]
+  },
+  {
+    "id": 102,
+    "topicsId": 410,
+    "q": "Which one is a noun ?",
+    "options": [
+      "Cute",
+      "Acute",
+      "Flute",
+      "Mute"
+    ],
+    "ans": 2,
+    "explain": "Flute (বাঁশি) একটি বাদ্যযন্ত্রের নাম, তাই এটি Noun। Cute ও Acute হলো Adjective।",
+    "source": [
+      "সড়ক ও জনপথ গণপূর্ত অধিদপ্তর উপ সহ-প্রকৌঃ (সিভিল)নিয়োগ পরিক্ষা-২০১০"
+    ]
+  },
+  {
+    "id": 103,
+    "topicsId": 410,
+    "q": "Without health there is no happiness এখানে happiness শব্দটি কোন প্রকারের Noun ?",
+    "options": [
+      "Proper",
+      "Common",
+      "Collective",
+      "Abstract"
+    ],
+    "ans": 3,
+    "explain": "Happiness (সুখ) একটি অনুভূতির নাম যা ধরা বা ছোঁয়া যায় না, তাই এটি Abstract Noun।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সরকারী শিক্ষক-২০১০"
+    ]
+  },
+  {
+    "id": 104,
+    "topicsId": 410,
+    "q": "Which one is a common noun ?",
+    "options": [
+      "Salt",
+      "Army",
+      "Studentship",
+      "Infant"
+    ],
+    "ans": 3,
+    "explain": "Infant (শিশু) দ্বারা সাধারণ এক শ্রেণির সবাইকে বোঝায়, তাই এটি Common Noun। Salt হলো Material, Army হলো Collective।",
+    "source": [
+      "পরিবার কল্যাণ পরিদর্শিকা প্রশিক্ষণার্থী নিয়োগ পরীক্ষা – ২০১০"
+    ]
+  },
+  {
+    "id": 105,
+    "topicsId": 410,
+    "q": "Beggar শব্দটির Abstract form হবে-",
+    "options": [
+      "Beggarhood",
+      "Beggary",
+      "Beggarship",
+      "Beggerness"
+    ],
+    "ans": 1,
+    "explain": "Beggar (ভিখারি) শব্দটি একটি Common Noun। এর Abstract রূপ হলো Beggary (ভিক্ষাবৃত্তি)।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সরকারী শিক্ষক-২০১০"
+    ]
+  },
+  {
+    "id": 106,
+    "topicsId": 410,
+    "q": "The Jufy found the prisoner guilty 'jury' কোন প্রকারের ?",
+    "options": [
+      "Proper",
+      "Common",
+      "Collective",
+      "Abstract"
+    ],
+    "ans": 2,
+    "explain": "Jury বিচারকদের সমষ্টিকে বোঝায়, তাই এটি Collective Noun।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সরকারী শিক্ষক-২০১০"
+    ]
+  },
+  {
+    "id": 107,
+    "topicsId": 410,
+    "q": "Broad শব্দটির Abstract form হবে-",
+    "options": [
+      "Breadth",
+      "Broadness",
+      "Broader",
+      "Bradship"
+    ],
+    "ans": 1,
+    "explain": "Broad (প্রশস্ত) একটি Adjective। এর Abstract Noun রূপ হলো Broadness (প্রসারতা)। উল্লেখ্য যে, Breadth (প্রস্থ)-ও একটি Abstract Noun, তবে অপশনে Broadness থাকলে সেটিও সঠিক।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সরকারী শিক্ষক-২০১০"
+    ]
+  },
+  {
+    "id": 108,
+    "topicsId": 410,
+    "q": "Dhaka is a big city এখানে City শব্দটি কোন প্রকারের Noun ?",
+    "options": [
+      "Proper",
+      "Common",
+      "Collective",
+      "Material"
+    ],
+    "ans": 1,
+    "explain": "City (শহর) দ্বারা কোনো নির্দিষ্ট শহরের নাম না বুঝিয়ে সাধারণ একটি শ্রেণিকে বোঝাচ্ছে, তাই এটি Common Noun।",
+    "source": [
+      "প্রাথমিক বিদ্যালয় সহকারী শিক্ষক-২০১০"
+    ]
+  }
+]
