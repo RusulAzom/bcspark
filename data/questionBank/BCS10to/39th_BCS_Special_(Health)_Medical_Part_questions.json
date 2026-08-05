@@ -1,0 +1,1611 @@
+{
+  "examInfo": {
+    "examName": "39th BCS",
+    "examType": "Special (Health) Medical Part",
+    "examDate": "2018-08-03",
+    "totalMarks": "100",
+    "totalQuestions": 100
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topicsId": 52,
+      "q": "The superficial Inguinal ring is an opening in the:",
+      "options": [
+        "Internal obllque aponcurosis",
+        "Conjoint tendon",
+        "External oblique aponeurosis",
+        "Fascia transversalis"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 2,
+      "topicsId": 52,
+      "q": "Which of the following type of necrosis is seen in ancute myocardial infarction?",
+      "options": [
+        "Cascous necrosis",
+        "Gangrenous necrosis",
+        "Coagulative necrosis",
+        "Fat necrosis"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 3,
+      "topicsId": 52,
+      "q": "Main seat of peripheral resistance is:",
+      "options": [
+        "Arteriole",
+        "Metaarteriole",
+        "Venule",
+        "Capillary"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 4,
+      "topicsId": 52,
+      "q": "Blood group antigens are:",
+      "options": [
+        "Present in the Hb molecules",
+        "Present in the dense granules of platelets",
+        "Present in the RBC membrance",
+        "Present in the plasma"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 5,
+      "topicsId": 52,
+      "q": "Signs of upper motor neuron lesion include all except:",
+      "options": [
+        "Weakness or paralysis of limb",
+        "Hypertonia of muscles",
+        "Loss of all reflexes",
+        "Planter response extensor"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 6,
+      "topicsId": 52,
+      "q": "Neonates may be infected with except:",
+      "options": [
+        "Brucellosis",
+        "Hepatitis B virus",
+        "Malaria",
+        "Shigellosis"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 7,
+      "topicsId": 52,
+      "q": "Insulin increases:",
+      "options": [
+        "Lipolysis",
+        "Ketogenesis",
+        "Glycogenesis",
+        "Gluconeogenesis"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 8,
+      "topicsId": 52,
+      "q": "Commonest cause of hepatic cirrhosis in Bangladesh is:",
+      "options": [
+        "HAV",
+        "HBV",
+        "HCV",
+        "HEV"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 9,
+      "topicsId": 52,
+      "q": "Dermis:",
+      "options": [
+        "Is a layer of epithelial tissue",
+        "Is formed by connective tissue",
+        "Contain melanocytes",
+        "Possess keratinocytes"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 10,
+      "topicsId": 52,
+      "q": "Clinical cyanosis is due to:",
+      "options": [
+        "Adult hemoglobin",
+        "Reduced hemoglobin",
+        "Fetal hemoglobin",
+        "Biliverdin"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 11,
+      "topicsId": 52,
+      "q": "Clinical toxicity occurs in all of the following micro nutrients except:",
+      "options": [
+        "Iron",
+        "lodine",
+        "Fluoride",
+        "Copper"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 12,
+      "topicsId": 52,
+      "q": "Prednisolone 5 mg is equivalent to:",
+      "options": [
+        "Hydrocortisone 40mg",
+        "Hydrocortisone 20mg",
+        "Dexamethasone 2mg",
+        "Dexamethasone 8mg"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 13,
+      "topicsId": 52,
+      "q": "\"Ghon Focus\" is situated in:",
+      "options": [
+        "Pleura",
+        "Pericardium",
+        "Peritoneum",
+        "Lung"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 14,
+      "topicsId": 52,
+      "q": "Which of the following crosses the ureter in the female as it approaches the ureterovesical junction?",
+      "options": [
+        "Ovarian artery",
+        "Uterine artery",
+        "Obturator nerve",
+        "Internal illiac artery"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 15,
+      "topicsId": 52,
+      "q": "Histamin causes:",
+      "options": [
+        "Hypertension",
+        "Vasoconstriction",
+        "Vasodilatation",
+        "Bradycardia"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 16,
+      "topicsId": 52,
+      "q": "Atherosclerosis:",
+      "options": [
+        "Begin after 40 years",
+        "Charactesized by focal deposition of coilgen, protein and fat",
+        "Is a progressive inflammatory disorder of the arterial wall",
+        "Involves only some blood vessels of body"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 17,
+      "topicsId": 52,
+      "q": "Erythroblastosis fetalis may develop when:",
+      "options": [
+        "Rh (+) mother carries Rh(-) fetus",
+        "Rh (-) mother carries Rh (+) fetus",
+        "Rh (+) mother carries Rh (+) fetus",
+        "Rh (-) mother carrier Rh (-) fetus"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 18,
+      "topicsId": 52,
+      "q": "Meiosis produces:",
+      "options": [
+        "4 Diploid cells",
+        "2 Diploid cells",
+        "4 haploid cells",
+        "2 Haploid cells"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 19,
+      "topicsId": 52,
+      "q": "Smooth muscle is found in:",
+      "options": [
+        "Soft palate",
+        "Diaphargm",
+        "Wall of blood vessel",
+        "Tongue"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 20,
+      "topicsId": 52,
+      "q": "Which of the following may cause hypercalcaemia?",
+      "options": [
+        "Multiple myeloma",
+        "Frusemide therapy",
+        "Hypoparathyroidism",
+        "Cushing’s syndrome"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 21,
+      "topicsId": 52,
+      "q": "In which region, deep fascia is absent?",
+      "options": [
+        "Sole",
+        "Face",
+        "Neek",
+        "Abdominal Wall"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 22,
+      "topicsId": 52,
+      "q": "Which one is false about lung?",
+      "options": [
+        "Conical in shape",
+        "The right lung is slightly larger than the left",
+        "The left lung has only an oblique fissure",
+        "The left lung is divided into 3 lobes"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 23,
+      "topicsId": 52,
+      "q": "Ovulation occurs:",
+      "options": [
+        "During female orgasm",
+        "14 days after the onset of menstruation",
+        "14 days before the onset of next menstruation",
+        "During the midpart of menstruation"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 24,
+      "topicsId": 52,
+      "q": "The function of mitochondria includes:",
+      "options": [
+        "Anaerobic glycolysis",
+        "Activation of intrinsic pathway of apoptois",
+        "Vesicle transport",
+        "Proton pump operation"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 25,
+      "topicsId": 52,
+      "q": "The function of mitochondria includes:",
+      "options": [
+        "Anaerobic glycolysis",
+        "Activation of intrinsic pathway of apoptois",
+        "Vesicle transport",
+        "Proton pump operation"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 26,
+      "topicsId": 52,
+      "q": "Rx-39 strip test is used to diagnose:",
+      "options": [
+        "Malaria",
+        "Kala-azar",
+        "Dengue fever",
+        "Tuberculosis"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 27,
+      "topicsId": 52,
+      "q": "Which one of the following clotting factor is called primary clotting factor?",
+      "options": [
+        "Fibrinogen",
+        "Stable factor",
+        "Labile factor",
+        "Antehemophilic factor"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 28,
+      "topicsId": 52,
+      "q": "Cardiogenic shock may be due to:",
+      "options": [
+        "Pump failure",
+        "Infection",
+        "Hypovolumia",
+        "Neurogenic"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 29,
+      "topicsId": 52,
+      "q": "Which one of the following is responsible for carpal tunnei syndrome?",
+      "options": [
+        "Axillary nerve compression",
+        "Ulnar nerve compression",
+        "Median nerve compression",
+        "Radial nerve compression"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 30,
+      "topicsId": 52,
+      "q": "Abnormal constituent of urine is:",
+      "options": [
+        "Creatinine",
+        "Urea",
+        "Disodium mono hydrogen phosphate",
+        "Albumin"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 31,
+      "topicsId": 52,
+      "q": "Site of absorption of vitamin B12 is:",
+      "options": [
+        "Stomach",
+        "Duodenum",
+        "Jejunum",
+        "Ileum"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 32,
+      "topicsId": 52,
+      "q": "Causes of renal failure in multiple myeloma includes all except:",
+      "options": [
+        "Membranous glomerulonephritis",
+        "Para protein deposition",
+        "Hypocalcaemia",
+        "Amyloild deposition"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 33,
+      "topicsId": 52,
+      "q": "Superior mesentric artery supplies blood to:",
+      "options": [
+        "ist part of duodenum",
+        "left 1/3rd of transverse colon",
+        "Gail bladder",
+        "The appendix"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 34,
+      "topicsId": 52,
+      "q": "The value of lung tidal volume is:",
+      "options": [
+        "1500 ml",
+        "2000 ml",
+        "500 ml",
+        "5000 ml"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 35,
+      "topicsId": 52,
+      "q": "Which of the following occurs during reverse transcriptase polymerase chain reaction?",
+      "options": [
+        "Proteins are converted to DNA",
+        "DNA is converted to RNA",
+        "Used to amplify DNA",
+        "RNA is converted to DNA"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 36,
+      "topicsId": 52,
+      "q": "Adult polycystic kidney disease is a condition of",
+      "options": [
+        "Chromosomal abnormality",
+        "X-linked recssive",
+        "Autosomal dominent trait",
+        "Autonormal recessive"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 37,
+      "topicsId": 52,
+      "q": "A 60 year old gentleman has been diagnosed as vitamin B12 deficiency due to pernicious anemia. Which of the following is unlikely to happen?",
+      "options": [
+        "Corticospinal tract involvement",
+        "Seizure",
+        "Posterior column involvement",
+        "Optic atrophy"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 38,
+      "topicsId": 52,
+      "q": "In progressive phase of shock:",
+      "options": [
+        "Survival is not possible",
+        "Complete renal shutdown",
+        "Metabolic alkalosis",
+        "There is wide spread tissue hypoxia"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 39,
+      "topicsId": 52,
+      "q": "Microcytic hypochromic anemia is found in:",
+      "options": [
+        "Liver disease",
+        "Infective endocarditis",
+        "Thalassaemia",
+        "Multiple myeloma"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 40,
+      "topicsId": 52,
+      "q": "Rh incompatibility is:",
+      "options": [
+        "Atopic",
+        "Anaphylactic",
+        "Cytotoxic",
+        "Delayed hypersensitivity"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 41,
+      "topicsId": 52,
+      "q": "Nephrotic syndrome includes?",
+      "options": [
+        "Hematuria",
+        "Hypertension",
+        "Oliguria",
+        "Overt proteinuria"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 42,
+      "topicsId": 52,
+      "q": "Extracellular matrix is more in:",
+      "options": [
+        "Nervous tissue",
+        "Epithelial tissue",
+        "Muscular tissue",
+        "Connective tissue"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 43,
+      "topicsId": 52,
+      "q": "Heparin is:",
+      "options": [
+        "A natural articoagulant",
+        "An enzyme",
+        "Secreted by goblet cell",
+        "Found in the bone marrow"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 44,
+      "topicsId": 52,
+      "q": "Which of the following condition is not precancerous?",
+      "options": [
+        "Solar keratosis of skin",
+        "Ulcerative colitis",
+        "Cervical dysplasia",
+        "Glycogen storage disease"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 45,
+      "topicsId": 52,
+      "q": "Mycobacterium leprae has special predilection for-",
+      "options": [
+        "Epithelium",
+        "Lymphatics",
+        "Dwan cells",
+        "Dorsal root ganglion"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 46,
+      "topicsId": 52,
+      "q": "Autonomic ganglion are:",
+      "options": [
+        "Adrenergic",
+        "Noradrenergic",
+        "Cholinergic",
+        "Dopaminergic"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 47,
+      "topicsId": 52,
+      "q": "Basal cell carcinoma includes:",
+      "options": [
+        "No metastasis",
+        "Typically at the non sun exposure",
+        "Mutation of RB gene occur",
+        "Early lesions of pale"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 48,
+      "topicsId": 52,
+      "q": "At which of the following phase of cardiac cycle does the atrioventricular valve open?",
+      "options": [
+        "During atrial filling",
+        "During isovolumetric contraction",
+        "During isovolumetric relaxation",
+        "During ventricular filling"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 49,
+      "topicsId": 52,
+      "q": "Causes of bilateral leg swelling does not always include:",
+      "options": [
+        "Hypoprotenaenia",
+        "Heat failure",
+        "kidney failure",
+        "Deep vein Thrombosis"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 50,
+      "topicsId": 52,
+      "q": "Which of the following types of shock is caused by failure of the heart to pump effectively?",
+      "options": [
+        "Septic shock",
+        "Cardiogenic shock",
+        "Hyporolemic shock",
+        "Anaphylactic shock"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 51,
+      "topicsId": 52,
+      "q": "Drug causing increased uric acid level is:",
+      "options": [
+        "Pyrazinamide",
+        "Steroid",
+        "Colchichine",
+        "Levofloxacin"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 52,
+      "topicsId": 52,
+      "q": "Immediate blood transfusion reaction includes:",
+      "options": [
+        "Air embolism",
+        "Hypercalcemia",
+        "Hypokalacmia",
+        "Circulating overload"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 53,
+      "topicsId": 52,
+      "q": "Which one of the following acts as anti oxidant?",
+      "options": [
+        "Ceroloplasmin",
+        "Jonizing radiation",
+        "Hydrozen per oxide",
+        "Hypochlorous acid"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 54,
+      "topicsId": 52,
+      "q": "The tissue macrophage is derived from:",
+      "options": [
+        "Lymphocyte",
+        "Monocyte",
+        "Eosinophil",
+        "Helper T cell"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 55,
+      "topicsId": 52,
+      "q": "Pre XDR tuberculosis means:",
+      "options": [
+        "TB resistant to isoniazid and rifampicin",
+        "TB resistant to isoniazid and ciprofloxacin",
+        "TB resistant to isoniazid, rifampicin and ciprofloxacin",
+        "TB resistant to isoniazid, rifampicin and pyrazinamide"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 56,
+      "topicsId": 52,
+      "q": "Serum sodium level is:",
+      "options": [
+        "130-140 mmol/L",
+        "125-140 mmol/L",
+        "135-145 mmol/L",
+        "145-155 mmol/L"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 57,
+      "topicsId": 52,
+      "q": "Which vitamin is not synthesised in body?",
+      "options": [
+        "Vit-D",
+        "Vit-K",
+        "Vit-A",
+        "Biotin"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 58,
+      "topicsId": 52,
+      "q": "Extra pyramidal lesion causes:",
+      "options": [
+        "Flacid paralysis",
+        "Hyper kinesia",
+        "Cog wheel rigidity",
+        "Hyper reflexion of lower limb"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 59,
+      "topicsId": 52,
+      "q": "Which component is not present in CSF?",
+      "options": [
+        "Glucose",
+        "Protein",
+        "Erythrocyte",
+        "Leucocyte"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 60,
+      "topicsId": 52,
+      "q": "Medial surface of brain is supplied by:",
+      "options": [
+        "Middle cerebral arlery",
+        "Anterior cerebral artery",
+        "Verlebral artery",
+        "Porterior inferior cerebellar artery"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 61,
+      "topicsId": 52,
+      "q": "Urinary bladder is lined by.",
+      "options": [
+        "Squamous epithelium",
+        "Transitional epithelium",
+        "Columner epithelium",
+        "Cuboidal epithelium"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 62,
+      "topicsId": 52,
+      "q": "Exotoxin mediated disease is:",
+      "options": [
+        "Necrotizing fascitis",
+        "Wegener’s gramulomatosis",
+        "Kuru",
+        "Nipah encephalitis"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 63,
+      "topicsId": 52,
+      "q": "Which of the following malagnancies is associated with radiation?",
+      "options": [
+        "Ovarian carcinoma",
+        "Maltoma",
+        "Burkitt’s lymphoma",
+        "Acute lyumphoblastic leukaemia"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 64,
+      "topicsId": 52,
+      "q": "Cardinal feature of atopic dermatitis is:",
+      "options": [
+        "Swelling",
+        "Scratching",
+        "Widespread oily skin",
+        "Increased IgM level"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 65,
+      "topicsId": 52,
+      "q": "Morphological appearance of necrosis is the result of:",
+      "options": [
+        "Denaturation of intracellular proteins",
+        "Saponification of cells",
+        "Mummification of cells",
+        "Intra celluler alkalosis"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 66,
+      "topicsId": 52,
+      "q": "Elastic cartilage is not found in:",
+      "options": [
+        "Auditory tube",
+        "Epiglottis",
+        "Auricle of ear",
+        "Epiphyseal plate of bone"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 67,
+      "topicsId": 52,
+      "q": "Simple squamous epithelium is found in:",
+      "options": [
+        "Lining of gall bladder",
+        "Lining of urinary bladder",
+        "Lining of fallopian tube",
+        "Endothelium"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 68,
+      "topicsId": 52,
+      "q": "BCG vaccine at birth causes:",
+      "options": [
+        "Prevention of primary tuberculosis",
+        "Prevention of secondary tuberculosis",
+        "Controlled primary infection",
+        "Prevention of MDR tuberculosis"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 69,
+      "topicsId": 52,
+      "q": "During accommodation reaction there is:",
+      "options": [
+        "Constriction of pupil by sympathetic nerve",
+        "Contraction of suspensory ligament",
+        "Increase in transeverse diameter of len",
+        "Contraction of ciliary musele"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 70,
+      "topicsId": 52,
+      "q": "The drug of choice for cerebral malaria is:",
+      "options": [
+        "Oral quinine",
+        "Injectable artesunat",
+        "Oral doxycycline",
+        "Combination of sulphametoxazole and pyremethamine"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 71,
+      "topicsId": 52,
+      "q": "Karyotype of Turner Syndrom is:",
+      "options": [
+        "45 XO",
+        "45 XY",
+        "46 XX",
+        "47 XXY"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 72,
+      "topicsId": 52,
+      "q": "Male external genital organ includes:",
+      "options": [
+        "Seminal vesicle",
+        "Epididymis",
+        "Penis",
+        "Prostate"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 73,
+      "topicsId": 52,
+      "q": "Extracellular structural protein is:",
+      "options": [
+        "Elastin",
+        "Keratin",
+        "Tubulin",
+        "Gastrin"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 74,
+      "topicsId": 52,
+      "q": "Features of fibroadenoma include:",
+      "options": [
+        "Usually multiple",
+        "Recetangular in shape",
+        "Common age after 30 years",
+        "Stroma is scanty"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 75,
+      "topicsId": 52,
+      "q": "DNA is found in:",
+      "options": [
+        "Golgi complex",
+        "Ribosome",
+        "Chromosome",
+        "Lysosome"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 76,
+      "topicsId": 52,
+      "q": "Confirmatory marker for Virimic stage of Hepatitis B virus (HBV) infection is:",
+      "options": [
+        "HBsAg",
+        "Anti-HBs",
+        "HBV DNA",
+        "Anti-HBcgG"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 77,
+      "topicsId": 52,
+      "q": "The rectum:",
+      "options": [
+        "Begins infront of the 1st sacral vertebra",
+        "Has a lining of stratified squamous epithelium",
+        "Is relaled anteriorly to the cervix",
+        "Has a venous drainage into the superior vena cava"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 78,
+      "topicsId": 52,
+      "q": "Milk ejection in female is caused by:",
+      "options": [
+        "Oestrogen",
+        "Progesterone",
+        "Prolactin",
+        "Oxytocin"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 79,
+      "topicsId": 52,
+      "q": "Mutable risk factor of hypertension is:",
+      "options": [
+        "Age",
+        "Smoking",
+        "Sex",
+        "Family history"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 80,
+      "topicsId": 52,
+      "q": "Which of the following is a tumoros marker?",
+      "options": [
+        "PSA",
+        "CA 19-9",
+        "CRP",
+        "Family history"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 81,
+      "topicsId": 52,
+      "q": "Christmas disease develops due to deficiency of clotting factor:",
+      "options": [
+        "V",
+        "VII",
+        "VIII",
+        "IX"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 82,
+      "topicsId": 52,
+      "q": "Acute heart failure may occur in:",
+      "options": [
+        "Rheumatoid arthritis",
+        "Rheumatic fever",
+        "Myxedema",
+        "Laparomatous condition"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 83,
+      "topicsId": 52,
+      "q": "Detrusor muscle is a muscle of:",
+      "options": [
+        "Scrotum",
+        "Spermatic cord",
+        "Urogenital diaphragm",
+        "Urinary bladder"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 84,
+      "topicsId": 52,
+      "q": "Amount of Hb contained in late normoblast is:",
+      "options": [
+        "20 Pg",
+        "25 Pg",
+        "30 Pg",
+        "35 Pg"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 85,
+      "topicsId": 52,
+      "q": "X-linked recessive disorder is:",
+      "options": [
+        "Alkaptonuria",
+        "Hemophilia",
+        "Polycystic kidney disease",
+        "Wilson's disease"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 86,
+      "topicsId": 52,
+      "q": "Parasitic infection associated with anemia is:",
+      "options": [
+        "Loa loa",
+        "W. bancrofti",
+        "Onchocerca volvulus",
+        "Necator americanus"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 87,
+      "topicsId": 52,
+      "q": "Which of the following structure passes through the aortic opening of the diaphragm?",
+      "options": [
+        "Azygos vein",
+        "Inferior venacava",
+        "Thoracic duct",
+        "Vagal trunk"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 88,
+      "topicsId": 52,
+      "q": "In infants, defecation often follows a meal. The cause of colonic contractions in the situation is:",
+      "options": [
+        "Histamine",
+        "Increased circulating level of CCK",
+        "The gastrocolic reflex",
+        "The enterogastric reflex"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 89,
+      "topicsId": 52,
+      "q": "The supporting cells of nervous system is called:",
+      "options": [
+        "Neuron",
+        "Neuroglia",
+        "Ganglia",
+        "Purkinjec cell"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 90,
+      "topicsId": 52,
+      "q": "Which disease is the mimicking anxiety disorder?",
+      "options": [
+        "Alcohol withdrawal",
+        "Hypothyroidism",
+        "Hypoglycaemia",
+        "Temporal lobe epilepsy"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 91,
+      "topicsId": 52,
+      "q": "Medial boundary of the femoral ring is formed by:",
+      "options": [
+        "Pectineus muscle",
+        "Inguinal ligament",
+        "Lecunar ligament",
+        "Femoral vein"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 92,
+      "topicsId": 52,
+      "q": "Following are the causes of vertigo except:",
+      "options": [
+        "Benign positional vertigo",
+        "Acoustic neuroma",
+        "Vestibular neuritis",
+        "Bell's palsy"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 93,
+      "topicsId": 52,
+      "q": "Non cardiac causes of atrial fibrillation is:",
+      "options": [
+        "Pneumonia",
+        "Chronic liver disease",
+        "Chronic kidney disease",
+        "Stroke"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 94,
+      "topicsId": 52,
+      "q": "Compared to hepatic bile, gall bladder bile contains a reduced concentration of which of the following?",
+      "options": [
+        "Water",
+        "Bile acids",
+        "Protein",
+        "Glucose"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 95,
+      "topicsId": 52,
+      "q": "All are functions of epithelial tissue except:",
+      "options": [
+        "Absorption",
+        "Secretion",
+        "Contractility",
+        "Globulin synthesis"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 96,
+      "topicsId": 52,
+      "q": "The major patho physiologic abnormality of Dengue Shock Syndrome is:",
+      "options": [
+        "High haematocrit",
+        "Leukopenia",
+        "Plasma leakage",
+        "Thrombocytopenia"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 97,
+      "topicsId": 52,
+      "q": "Drug used in \"Scabies\" is:",
+      "options": [
+        "Permethrin",
+        "Streptomycin",
+        "Sulfasalazine",
+        "Ivermectin"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 98,
+      "topicsId": 52,
+      "q": "During sleep, there is fall in the circulating level of hormone except:",
+      "options": [
+        "Adrenaline",
+        "Cortisol",
+        "Growth hormone",
+        "Insulin"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 99,
+      "topicsId": 52,
+      "q": "In adult, the daily loss of fluid in the feces, normally is:",
+      "options": [
+        "50 ml",
+        "100 ml",
+        "150 ml",
+        "200 ml"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    },
+    {
+      "id": 100,
+      "topicsId": 52,
+      "q": "Plasma clearance value of glucose is:",
+      "options": [
+        "0 ml/min",
+        "75 ml/min",
+        "125 ml/min",
+        "140 ml/min"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "39th BCS"
+      ]
+    }
+  ]
+}
