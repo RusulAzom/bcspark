@@ -15,6 +15,29 @@ import {
 import { getLeaderboard, getParticipantCount } from '@/lib/participantCount';
 import { getQuestionBankConfig } from '@/data/questionBankConfig';
 
+const SUBJECT_TRANSLATIONS = {
+  'INTERNATIONAL-AFFAIRS': 'আন্তর্জাতিক বিষয়াবলী',
+  'BANGLADESH-AFFAIRS': 'বাংলাদেশ বিষয়াবলী',
+  'BANGLA-LANGUAGE': 'বাংলা ভাষা',
+  'BANGLA-LITERATURE': 'বাংলা সাহিত্য',
+  'ENGLISH-LANGUAGE': 'ইংরেজি ভাষা',
+  'ENGLISH-LITERATURE': 'ইংরেজি সাহিত্য',
+  'MATHEMATICAL-REASONING': 'গাণিতিক যুক্তি',
+  'GEOGRAPHY-ENVIRONMENT-AND-DIGESTER-MANAGEMENT': 'ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা',
+  'GENERAL-SCIENCE': 'সাধারণ বিজ্ঞান',
+  'COMPUTER-AND-INFORMATION-TECHNOLOGY': 'কম্পিউটার ও তথ্যপ্রযুক্তি',
+  'ETHICS-VALUES-GOOD-GOVERNANCE': 'নৈতিকতা, মূল্যবোধ ও সুশাসন',
+  'MENTAL-ABILITY': 'মানসিক দক্ষতা',
+};
+
+const getSubjectLabel = (subject) => {
+  if (!subject) return 'অন্যান্য';
+  const normalized = subject.trim().toUpperCase();
+  if (SUBJECT_TRANSLATIONS[normalized]) return SUBJECT_TRANSLATIONS[normalized];
+  if (SUBJECT_TRANSLATIONS[subject]) return SUBJECT_TRANSLATIONS[subject];
+  return subject;
+};
+
 export default function BCSExamEngine({
   questions,
   examInfo = {},
@@ -41,6 +64,8 @@ export default function BCSExamEngine({
   const [skippedCount, setSkippedCount] = useState(0);
   const [showPreExamPopup, setShowPreExamPopup] = useState(true);
   const [started, setStarted] = useState(false);
+  const [subjectAccordionOpen, setSubjectAccordionOpen] = useState(false);
+  const [selectedSubjects, setSelectedSubjects] = useState({});
 
   const resultRef = useRef(null);
   const reviewRef = useRef(null);
@@ -75,6 +100,56 @@ export default function BCSExamEngine({
     const parts = String(examInfo.examDate).split('-');
     return parts[0] || '';
   }, [examInfo.examDate]);
+
+  const subjectStats = useMemo(() => {
+    const stats = {};
+    questions.forEach((q, idx) => {
+      const subject = q.subject || 'অন্যান্য';
+      if (!stats[subject]) {
+        stats[subject] = { label: getSubjectLabel(subject), count: 0, indices: [] };
+      }
+      stats[subject].count++;
+      stats[subject].indices.push(idx);
+    });
+    return stats;
+  }, [questions]);
+
+  const allSubjectsSelected = useMemo(() => {
+    const subjectKeys = Object.keys(subjectStats);
+    return subjectKeys.length === 0 || subjectKeys.every((key) => selectedSubjects[key]);
+  }, [subjectStats, selectedSubjects]);
+
+  const toggleAllSubjects = () => {
+    if (allSubjectsSelected) {
+      setSelectedSubjects({});
+    } else {
+      const allSelected = {};
+      Object.keys(subjectStats).forEach((key) => {
+        allSelected[key] = true;
+      });
+      setSelectedSubjects(allSelected);
+    }
+  };
+
+  const toggleSubject = (subject) => {
+    setSelectedSubjects((prev) => ({
+      ...prev,
+      [subject]: !prev[subject],
+    }));
+  };
+
+  const filteredQuestions = useMemo(() => {
+    if (allSubjectsSelected || Object.keys(selectedSubjects).length === 0) {
+      return questions;
+    }
+    const indices = new Set();
+    Object.entries(selectedSubjects).forEach(([subject, isSelected]) => {
+      if (isSelected && subjectStats[subject]) {
+        subjectStats[subject].indices.forEach((idx) => indices.add(idx));
+      }
+    });
+    return questions.filter((_, idx) => indices.has(idx));
+  }, [questions, selectedSubjects, subjectStats, allSubjectsSelected]);
 
   useEffect(() => {
     const savedSetup = sessionStorage.getItem('quickPracticeSetup');
@@ -362,18 +437,20 @@ export default function BCSExamEngine({
         </h1>
 
         {!submitted && (
-          <div className="grid md:grid-cols-2 gap-6">
-            {questions.map((q, i) => {
+          <>
+            <div className="grid md:grid-cols-2 gap-6">
+            {filteredQuestions.map((q) => {
+              const originalIndex = questions.indexOf(q);
               const correctOptionIndex = q.ans;
-              const selectedOptionIndex = answers[i];
+              const selectedOptionIndex = answers[originalIndex];
 
               return (
                 <div
-                  key={`${q.source?.[0] || 'src'}-${q.id}-${i}`}
+                  key={`${q.source?.[0] || 'src'}-${q.id}-${originalIndex}`}
                   className="bg-white p-4 rounded-xl shadow border"
                 >
                   <p className="font-semibold text-2xl mb-2">
-                    Q{i + 1}: {q.q}
+                    Q{originalIndex + 1}: {q.q}
                   </p>
                   <p className="mb-4 text-base italic opacity-30">{q.source?.[0] || ''}</p>
 
@@ -386,7 +463,7 @@ export default function BCSExamEngine({
                       return (
                         <button
                           key={optionIdx}
-                          onClick={() => handleSelect(i, optionIdx)}
+                          onClick={() => handleSelect(originalIndex, optionIdx)}
                           disabled={submitted}
                           className={`p-3 rounded-full border-2 text-center transition-all font-medium disabled:cursor-not-allowed ${
                             isCorrect
@@ -408,7 +485,52 @@ export default function BCSExamEngine({
                 </div>
               );
             })}
-          </div>
+           </div>
+
+          {Object.keys(subjectStats).length > 0 && (
+            <div className="mt-6 bg-white rounded-xl shadow border">
+              <button
+                type="button"
+                onClick={() => setSubjectAccordionOpen(!subjectAccordionOpen)}
+                className="w-full flex items-center justify-between px-6 py-4 text-left"
+              >
+                <h3 className="text-lg font-bold">বিষয়ভিত্তিক প্রশ্ন</h3>
+                <span className="text-xl">{subjectAccordionOpen ? '−' : '+'}</span>
+              </button>
+              {subjectAccordionOpen && (
+                <div className="px-6 pb-4 border-t">
+                  <div className="flex flex-wrap items-center gap-3 pt-4">
+                    <button
+                      onClick={toggleAllSubjects}
+                      className={`px-3 py-1.5 rounded-full text-sm font-semibold border-2 transition ${
+                        allSubjectsSelected
+                          ? 'bg-blue-600 text-white border-blue-600'
+                          : 'bg-white text-gray-700 border-gray-300 hover:border-blue-400'
+                      }`}
+                    >
+                      সব নির্বাচন করুন
+                    </button>
+                    {Object.entries(subjectStats)
+                      .sort(([a], [b]) => a.localeCompare(b))
+                      .map(([subject, data]) => (
+                        <button
+                          key={subject}
+                          onClick={() => toggleSubject(subject)}
+                          className={`px-3 py-1.5 rounded-full text-sm font-semibold border-2 transition ${
+                            selectedSubjects[subject] !== false
+                              ? 'bg-blue-100 text-blue-800 border-blue-600'
+                              : 'bg-gray-100 text-gray-500 border-gray-300'
+                          }`}
+                        >
+                          {data.label} ({data.count})
+                        </button>
+                      ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </>
         )}
 
         {!submitted ? (
