@@ -1,0 +1,1711 @@
+{
+  "examInfo": {
+    "examName": "42nd BCS প্রিলিমিনারি - 2202",
+    "examType": "Special (Health) Medical Part",
+    "examDate": "22021-02-06",
+    "totalMarks": "100",
+    "totalQuestions": 100
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "A major sign of cardiac tamponade is",
+      "options": [
+        "Bradycardia",
+        "Ventricular dilatation",
+        "3rd degree heart block",
+        "Pulsus paradoxus"
+      ],
+      "ans": 3,
+      "explain": "Signs of cardiac tamponade:\n● Raised JVP\n● Marked hypotension\n● Muffled heart sounds\n● Pulsus paradoxus",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 2,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Causes of short stature include following except",
+      "options": [
+        "Psychosocial deprivation",
+        "Hypothyroidism",
+        "Growth hormone deficiency",
+        "Klinefelter syndrome"
+      ],
+      "ans": 3,
+      "explain": "Tall stature is seen in klinefelter syndrome.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 3,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Bleeding time is Prolonged in",
+      "options": [
+        "ITP",
+        "Von Willibrand disease",
+        "Haemophilia-A",
+        "Haemophilia-B"
+      ],
+      "ans": 0,
+      "explain": "Bleeding time is prolonged in - ITP VWD.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 4,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "A stretch reflex is",
+      "options": [
+        "monosynaptic",
+        "polysynaptic",
+        "initiated by muscle spindle",
+        "transmitted by type II fibre"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 5,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Following cells are involved in Acute inflammation",
+      "options": [
+        "Beta cells",
+        "Lymphocytes",
+        "Epitheloid cells",
+        "Neutrophil"
+      ],
+      "ans": 3,
+      "explain": "Acute inflammatory cells- Neutrophil.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 6,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Clearance of drug depends on-",
+      "options": [
+        "plasma half life",
+        "bioavailability",
+        "diffusion co-efficient",
+        "rate of absorption"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 7,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Following muscles are involved in forceful respiration",
+      "options": [
+        "Rectus abdominis",
+        "Intercostal muscle",
+        "Scalene",
+        "Soleus"
+      ],
+      "ans": 0,
+      "explain": "Muscle of forceful respiration:\nExternal intercostal muscles involved in both quit and forceful inspiration. Internal intercostal muscle involved in forceful expiration. So, intercostal muscle is the most appropriate answer here.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 8,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Phagocytosis is promoted by",
+      "options": [
+        "Hyaluronidase",
+        "Neuramidase",
+        "Complement",
+        "The Hexose monophosphate shunt"
+      ],
+      "ans": 0,
+      "explain": "Complement (C3b) helps in opsonization. opsonizalion enhances phagocytosis. \nHMP shunt is required in O_2 dependent killing or degradation of the ingested materials (3rd steps of phagocytosis)",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 9,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Pyramidine bases are catabolised to",
+      "options": [
+        "Orotic acid",
+        "Uric acid",
+        "Valproic acid",
+        "Ammonia"
+      ],
+      "ans": 3,
+      "explain": "Pyrimidine bases are catabolised to ammonia purines bases are catabolised to uric Acid.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 10,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "In Graves disease, one would least likely expect",
+      "options": [
+        "Goitre",
+        "Increased BMR",
+        "Increased TSH secretion",
+        "Weight loss"
+      ],
+      "ans": 2,
+      "explain": "In graves disease, one would expect decreased TSH most likely.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 11,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Linear growth is determined by",
+      "options": [
+        "Calcium",
+        "Phosphate",
+        "Vitamin-D",
+        "IGF-1"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 12,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Contraindication of lumber puncture",
+      "options": [
+        "Coma",
+        "Decerebrate posturing",
+        "Head injury",
+        "mole on the affected site"
+      ],
+      "ans": 0,
+      "explain": "● Head injury is the most appropriate answer, as ICH is increased after head injury. Lumber puncture can causes conning. \n● Coma is also contraindicated for lumber puncture.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 13,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Formation of clot is affected by",
+      "options": [
+        "Zinc",
+        "Factor B",
+        "Factor IX",
+        "Kallikrein"
+      ],
+      "ans": 0,
+      "explain": "Clot formation is affected by-\n• Zinc \n• Factor IX",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 14,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Vit K",
+      "options": [
+        "Synthesis in liver",
+        "Synthesis in intestinal epithelium",
+        "Causes haemolytic desease",
+        "Antioxidant"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 15,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Extra articular manifestation of rheumatoid arthritis are",
+      "options": [
+        "AKI",
+        "Bronchiolitis obliterans",
+        "Hepatic failure",
+        "Leukoplakia"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 16,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Organism that can cross placenta",
+      "options": [
+        "Varicella zoster virus",
+        "Toxoplasma gondi",
+        "Hepatitis C virus",
+        "Streptococcus"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 17,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Causes of haematuria include",
+      "options": [
+        "Cardiac failure",
+        "Renal tuberculosis",
+        "Pregnancy",
+        "Nephrotic syndrome"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 18,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Complete destruction of zona glomerulosa result in unable to produce",
+      "options": [
+        "Adrenaline",
+        "Aldosterone",
+        "Cortisol",
+        "Dehydroepinephrine"
+      ],
+      "ans": 1,
+      "explain": "Zona glomerulosa secrets mineralocorticoid- (Aldosteron)",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 19,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Deep cervical fascia encloses",
+      "options": [
+        "Larynx",
+        "Thyroid gland",
+        "Pineal gland",
+        "Submandibular gland"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 20,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Renal cortisol of acid base balance is a function of",
+      "options": [
+        "Loop of Heale",
+        "Proximal tubule",
+        "Distal tubule",
+        "Glomerulus"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 21,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Sustained elevation of cardiac output occurs in",
+      "options": [
+        "Hypertension",
+        "Anaemia",
+        "Heart block",
+        "Cardiac tamponade"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 22,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Causes of hyperpyrexia",
+      "options": [
+        "Bronchial asthma",
+        "COPD",
+        "Malaria",
+        "Hyperparathyroidism"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 23,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Parasites usually cross lungs during their life cycle",
+      "options": [
+        "Enterobius vermicularis",
+        "Ancylostoma duodenale",
+        "Trichuris Trichiura",
+        "Ascaris lumbricoides"
+      ],
+      "ans": 0,
+      "explain": "Both Ankylostoma duodenale and Ascaris lumbricoides cross lungs during their life cycle.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 24,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Precancerous condition is",
+      "options": [
+        "Leukoplakia",
+        "Fibroadenosis of breast",
+        "Deudenal ulcer",
+        "Cervical erosion"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 25,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Umbilical cord contains",
+      "options": [
+        "one umbilical artery",
+        "One umbilical vein",
+        "Allantois",
+        "Foetal membrane"
+      ],
+      "ans": 0,
+      "explain": "• Tow umbilical arteries \n• One umbilical vein \n• Remnant of allantois \n• Whartons Jelly \nOne umbilical vein is the most appropriate ans.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 26,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Autosomal reccessive disorder",
+      "options": [
+        "Expressed in heterozygote",
+        "Parents may be normal carrier",
+        "Vertical transmission",
+        "Variable Expressivity"
+      ],
+      "ans": 1,
+      "explain": "Autosomal recessive disorder-\n• expressed in homozygous state \n• parents may be normal carrier \n• Horizontal transmission \n• Uniform type of expressibility.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 27,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "DNA viruses are",
+      "options": [
+        "Reovirus",
+        "Picornavirus",
+        "Orthomyxoviruses",
+        "Parvovirus"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 28,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "In Addison’s desease, there is",
+      "options": [
+        "High blood level of cortisol",
+        "Hypertension",
+        "Hypoglycaemia between meals",
+        "Hypopigmentation"
+      ],
+      "ans": 2,
+      "explain": "Features of Addison’s desease:\n● Fatigue \n● Weight loss\n● Hyperpigmentation\n● Hypotension\n● Hypoglycemia\n● Hyperpigmentation\n● Low blood level of cortisol.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 29,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "In blood \nC\nO\n2\n is transported from tissue to lungs mainly as",
+      "options": [
+        "bicarbonate",
+        "carboaminohaemoglobin",
+        "carbonic acid",
+        "dissolved form"
+      ],
+      "ans": 0,
+      "explain": "CO2\\mathrm{CO_2} is transported from tissue to lungs in the following forms-",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 30,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Testosterone is synthesised from",
+      "options": [
+        "Cholesterol",
+        "Glycine",
+        "Oestrogen",
+        "Tyrosine"
+      ],
+      "ans": 0,
+      "explain": "Testosterone is a steriod hormone. Main composition of steroid is cholesterol.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 31,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Which of the following organ is specially vulnerable during haemorrhagic shock",
+      "options": [
+        "Brain",
+        "Heart muscle",
+        "Kidney",
+        "Skeletal muscle"
+      ],
+      "ans": 2,
+      "explain": "Kidney is vulnerable during haemorrhagic shock.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 32,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Which of the followings are unencapsulated receptor",
+      "options": [
+        "Ruffini’s corpuscle",
+        "Merkel’s disc",
+        "Pacinian corpuscle",
+        "Meissner’s corpuscle"
+      ],
+      "ans": 1,
+      "explain": "Unencapsulated receptor- \n• Merkel’s disc \n• Free nerve ending \n• Hair follicle receptors.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 33,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "In basal condition, most of the energy used by cardiac muscle from metabolism of",
+      "options": [
+        "Fatty acid",
+        "Glucose",
+        "Lactate",
+        "Pyrovate"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 34,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "The major function of surfactant is to",
+      "options": [
+        "Alveolar surface tension",
+        "Pulmonary compliance",
+        "Work of breathing",
+        "The tendency of lungs collapsed"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 35,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Spores are killed by",
+      "options": [
+        "H\n2\nO\n2",
+        "Gention violet",
+        "Moist heat at 110°C for 30 minutes",
+        "Dry heat"
+      ],
+      "ans": 0,
+      "explain": "● Dry Heat (example Hot air oven) is the most common physical methods of sterilization.\n● A 7% stabilized hydrogen peroxide proved to be sporicidal (6 hours of exposure)",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 36,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "In haemolytic anemia",
+      "options": [
+        "Increase heptoglobin",
+        "Increase urinary urobillinogen",
+        "decrease reticulocytes",
+        "decrease LDH"
+      ],
+      "ans": 1,
+      "explain": "In haemolytic anemia, there is––\n● Increased urinary urobilinogen\n● decrease heptoglobin\n● Increase reticulocytes\n● Increase LDH.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 37,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Acute renal failure following mismatched blood transfusion is due to",
+      "options": [
+        "Stricture urethra",
+        "Septicemia",
+        "Renal vasoconstriction",
+        "Dehydration"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 38,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "The affinity of Hb for \nO\n2\n is increased by",
+      "options": [
+        "Metabolic acidosis",
+        "Exercise",
+        "Anaemia",
+        "CO Poisoning"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 39,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "In aerobic exercise there is decrease in",
+      "options": [
+        "Circulatory blood volume",
+        "Skin temperature",
+        "Cerebral blood flow",
+        "Mean blood pressure"
+      ],
+      "ans": 1,
+      "explain": "Changes after exercise: mean pressure increased \n•  increased blood  flow to exercising muscles, lungs, heart, brain.\n• decreased flow to the inactive organs- kidney, GIT, skin (by vasoconstriction) \n• As blood flow to skin is decreased in exercise, skin temperature is decrease.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 40,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Following predispose to the development of tuberculosis",
+      "options": [
+        "HLA-B27",
+        "Sarcoidosis",
+        "Malnutrition",
+        "Avitaminosis D"
+      ],
+      "ans": 0,
+      "explain": "Predispose to the development of tuberculosis-\n• low socioeconomic condition \n• malnutrition \n• silicosis \n• HIV infection \n• Avitaminosis D,A \n• DM \n•  alconolism \n•  malignancy",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 41,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Complication of typhoid fever is",
+      "options": [
+        "Thyroiditis",
+        "Pericarditis",
+        "Ileal perforation",
+        "Blindness"
+      ],
+      "ans": 2,
+      "explain": "Complication of Typhoid fever:\n● Parotitis\n● Ileal perforation and haemorrhage \n● Acute cholecystitis\n● Paralytic ileus\n● Orechitis\n● Cystitis\n● Arthritis",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 42,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Third aortic arch derivatives",
+      "options": [
+        "pulmonary trunk",
+        "subclavian artery",
+        "external carotid artery",
+        "Pulmonary artery"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 43,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "A regurgitant aortic valve in a nonfunctioning heart causes",
+      "options": [
+        "Decrease in diastolic pressure",
+        "Decrease in heart rate",
+        "Systolic murmur",
+        "Decrease in systolic blood pressure"
+      ],
+      "ans": 0,
+      "explain": "Manifestations of severe chronic AR are often the result of widened pulse pressure because (1) Elevated stroke volume exists during systole and (2) Decrease in diastolic pressure.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 44,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Insulin causes",
+      "options": [
+        "glycogenolysis",
+        "breakdown of protein",
+        "lypolysis",
+        "entry of \nK\n+\n into the cell"
+      ],
+      "ans": 3,
+      "explain": "Action of insulin:\n• Decrease glycogenolysis\n• Increase protein synthesis,\n• Increase lipogenesis \n• increase entry of K+ into the cell.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 45,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Vitamin K is necessary for synthesis of",
+      "options": [
+        "factor-I",
+        "factor-V",
+        "factor-II",
+        "glucocorticoid"
+      ],
+      "ans": 2,
+      "explain": "Vit-k is necessary for synthesis of factor II, VII, IX, X.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 46,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Causes of high ESR is",
+      "options": [
+        "Polycythemia",
+        "Sickle cell anaemia",
+        "Multiple myeloma",
+        "Spherocytosis"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 47,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Features of aortic stenosis includes",
+      "options": [
+        "irregular pulse",
+        "heaving apex beat",
+        "left parasternal heave",
+        "mid diastolic murmur"
+      ],
+      "ans": 1,
+      "explain": "signs of aortic stenosis is- \n• ejection systolic murmur .\n• slow-rising carotid pulse \n• narrow pulse pressure \n• heaving apex beat",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 48,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Polycythemia occurs in",
+      "options": [
+        "hypoxia",
+        "iron deficiency",
+        "vit-c deficiency",
+        "Malnutrition"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 49,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Medial trunk of brachial plexus gives rise to",
+      "options": [
+        "Radial nerve",
+        "Thoracocostal nerve",
+        "Axillary nerve",
+        "Medial cutaneous nerve of forearm"
+      ],
+      "ans": 0,
+      "explain": "Brachial plexus has three trunk-sup erior middle, inferior.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 50,
+      "topicsId": 52,
+      "subject": "Anatomy",
+      "q": "Jaundice within 24 hrs. of age",
+      "options": [
+        "ABO incompatibility",
+        "Septicemia",
+        "Hepatitis",
+        "Hereditary spherocytosis"
+      ],
+      "ans": 0,
+      "explain": "Cause of jaundice within 24 hrs of Age–\n• ABO incompability\n• Rh incompability\n•  Infections: TORCH\n• G-6-PD deficiency\n• Hereditary spherocytosis",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 51,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Which anti diabetic drug causes weight loss",
+      "options": [
+        "pioglitozone",
+        "liraglutide",
+        "vildagliptin",
+        "Repaglinide"
+      ],
+      "ans": 1,
+      "explain": "Antidiabetic drug causes weight loss- liraglutide",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 52,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Cerebellar lesion causes",
+      "options": [
+        "spasticity",
+        "rigidity",
+        "intension tremor",
+        "slow gait"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 53,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Bence-Jones proteins are",
+      "options": [
+        "heavy chain immunoglobulin",
+        "Found in the urine of multiple myeloma",
+        "Associated with mononuclear antibody",
+        "Precipitate by boiling"
+      ],
+      "ans": 1,
+      "explain": "Bence- Jones protein is an immunoglobulin light chain associated with monoclonal antibody, found in various conditions like- multiple myeloma, macroglobulinaemia, amyloidosis, lymphoma, leukaemia.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 54,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Axillary nerve supplies the",
+      "options": [
+        "pectoralis muscle (major)",
+        "pectoralis minor",
+        "teres major",
+        "teres minor"
+      ],
+      "ans": 0,
+      "explain": "Axillary nerve supplies three muscles in the arm- deltoid, triceps, teres minor.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 55,
+      "topicsId": 52,
+      "subject": "",
+      "q": "In secondary hypothyroidism",
+      "options": [
+        "↑TSH, ↑FT4",
+        "↑FT4 normal TSH",
+        "↓TSH ↓FT4",
+        "↓TSH ↑FT4"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 56,
+      "topicsId": 52,
+      "subject": "",
+      "q": "ECG changes in hyperkalaemia",
+      "options": [
+        "ST depression",
+        "short QRS complex",
+        "tall T wave",
+        "K\n+\n level 5.5-7.0 meq/L"
+      ],
+      "ans": 2,
+      "explain": "ECG changes in hyperkalaemia-\n● Peaked/Tall ‘T’ wave\n● Loss of P wave\n● Wide QRS complex\n● ST segment elevation",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 57,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Killed vaccine are except-",
+      "options": [
+        "Small pox",
+        "Covid-19",
+        "Polio",
+        "Rubella"
+      ],
+      "ans": 0,
+      "explain": "Live vaccine - \n• polio \n• Rubella",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 58,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Continuous capillaries are found in",
+      "options": [
+        "Cerebrum",
+        "Liver",
+        "Lungs",
+        "Pituitary gland"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 59,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Antibody present in highest percentage in newborn is",
+      "options": [
+        "Ig A",
+        "Ig E",
+        "Ig G",
+        "Ig M"
+      ],
+      "ans": 2,
+      "explain": "As IgG can cross placenta, IgG is found in highest percentage in newborn.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 60,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Which of the following hormones exhibits a diurnal rythm in its secretion",
+      "options": [
+        "ACTH",
+        "Adrenaline",
+        "Parathyroid hormone",
+        "Prolactin"
+      ],
+      "ans": 0,
+      "explain": "Plasma level of ACTH exhibits significant diurnal variation. The secretion of ACTH increases in frequency during slep and  hours after awakening.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 61,
+      "topicsId": 52,
+      "subject": "",
+      "q": "In an immune mediated response, which of the following leukocytes becomes an activated macrophage.",
+      "options": [
+        "lymphocyte",
+        "basophil",
+        "neurtrophil",
+        "monocyte"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 62,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Which of the following does not have a membrane",
+      "options": [
+        "Ribosome",
+        "Mitochondria",
+        "Nucleus",
+        "Chloroplast"
+      ],
+      "ans": 0,
+      "explain": "Non-membranous organelle: \n•  Ribosome \n• Cytoskeleton \n• Centrioles",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 63,
+      "topicsId": 52,
+      "subject": "",
+      "q": "The diaphragm is pierced by",
+      "options": [
+        "sympathetic trunk",
+        "lowest intercostal nerves",
+        "Left phrenic nerve",
+        "Pudendal nerve"
+      ],
+      "ans": 0,
+      "explain": "(i) Right phrenic nerve leaves the thorax by passing through venacava hiatus. \n(ii) Left phrenic nerve passes over the pericardium of the left ventricle and pierces the diaphragm separately. \n(iii) Sympathetic trunk enter the abdomen by     piercing the crura of diaphragm or by passing behind the medial arcuate ligaments.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 64,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Excitatory cells of nervous system includes",
+      "options": [
+        "anterior horn cells of spinal cord",
+        "ependymal cell",
+        "microglia",
+        "Purkinje cell"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 65,
+      "topicsId": 52,
+      "subject": "",
+      "q": "In which poisoning gastric lavage is contraindicated",
+      "options": [
+        "OPC",
+        "kerosene",
+        "paracetamol",
+        "methanol"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 66,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Following infections are common in immunodeficient patient except",
+      "options": [
+        "Pneumocystis carini",
+        "Diphtheria",
+        "Cytomegalovirus",
+        "Candida albicans"
+      ],
+      "ans": 1,
+      "explain": "Common infections in immune deficient patients-\na) Encapsulated bacteria: Halophiles influenza pneumococci, streptococci.\nb) Giardia, Cryptosporodium, Candida, Aspergillus, Nocardia.\nc) Mycobaterium, pneumocystis carinii,     pseudomonas, Neisseria.\nd) Epstein- Barr Virus, cytomegalo virus",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 67,
+      "topicsId": 52,
+      "subject": "",
+      "q": "ACE inhibitor are contraindicated in",
+      "options": [
+        "Asthma",
+        "Acute heart failure",
+        "Pregnancy",
+        "diabetic nephropathy"
+      ],
+      "ans": 2,
+      "explain": "ACE inhibitor are contraindicated in- \n•  pregnancy \n•  Bilateral renal artery sterosis",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 68,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Retroperitoneal structures include",
+      "options": [
+        "transverse colon",
+        "ascending colon",
+        "inferior vena cava",
+        "vermiform appendix"
+      ],
+      "ans": 0,
+      "explain": "Retroperitoneal structures: \nPrimary – inferior vena cava \nSecondary – Ascending colon. \nAnswer: (গ) inferior vena cava (most appropriate)",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 69,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Omega 3 essential fatty acid are",
+      "options": [
+        "Linoleic acid",
+        "Carbonic acid",
+        "Arachodonic acid",
+        "Oleic acid"
+      ],
+      "ans": 0,
+      "explain": "Three main omega-3 fatty Acid; \n• α-linolenic Acid\n• eicosapentaenoic Acid\n• docosahexaenoic Acid",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 70,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Continuous capillaries gaseous exchange occurs in",
+      "options": [
+        "Thyroid gland",
+        "Lungs",
+        "Spleen",
+        "Bone marrows"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 71,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Commonest tumors of the central nervous system arise from",
+      "options": [
+        "meninges",
+        "Neuroglia",
+        "Blood vessels",
+        "Nerve cells"
+      ],
+      "ans": 0,
+      "explain": "• Most common benign tumor arises from meninges     (meningioma)\n• Most common malignant tumor arises from neuroglia (Astrocytoma)",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 72,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Antigen presenting cell except",
+      "options": [
+        "Macrophage",
+        "Neutrophil",
+        "Langerhan's cell of skin",
+        "Dendritic cell"
+      ],
+      "ans": 1,
+      "explain": "Macrophage is an antigen presenting cell. \nLangerhan’s cells and Dendritic cells are tissue macrophage.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 73,
+      "topicsId": 52,
+      "subject": "",
+      "q": "DNA synthesis is inhibited by",
+      "options": [
+        "Prednisolone",
+        "Chloramphenicol",
+        "Azathioprine",
+        "Chlaroquine"
+      ],
+      "ans": 0,
+      "explain": "Azathioprin and chloroquine both inhibits DNA synthesis. But in question paper, spelling of chloroquine is not correct. So, Azathioprin is the most appropriate answer.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 74,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Common organism for neonatal sepsis",
+      "options": [
+        "Pneumococci",
+        "Pseudomonas",
+        "E Coli",
+        "H. influenza"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 75,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Rickets radiology",
+      "options": [
+        "cupping of epiphysis",
+        "ring shape epiphysis",
+        "widening of epiphysis",
+        "increased calcifications"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 76,
+      "topicsId": 52,
+      "subject": "",
+      "q": "X-linked disorder is",
+      "options": [
+        "polycystic ovarian syndrome",
+        "Down's syndrome",
+        "turners syndrome",
+        "Haemophilia"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 77,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Mood stabilizer is",
+      "options": [
+        "Topiramate",
+        "Lithium",
+        "Dexamethasone",
+        "Diazepam"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 78,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Normal saline is",
+      "options": [
+        "Capable to exert about 300 mosm/L osmotic pressure",
+        "Hypertonic to plasma",
+        "Synonymous with normal saline",
+        "9 gm meq/L solution"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 79,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Pancreatitis causes of elevation of plasma",
+      "options": [
+        "Lipase",
+        "Aldolase",
+        "Acid phosphatase",
+        "Lipoprotein lipase"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 80,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Complete lesion of oculomotor nerve causes",
+      "options": [
+        "ptosis",
+        "blindness",
+        "pupil constriction",
+        "inability to lateral movement"
+      ],
+      "ans": 0,
+      "explain": "Oculomotor nerve palsy causes-\n• Ptosis \n• Mydriasis \n• Inability to medial movement",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 81,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Avascular structures include",
+      "options": [
+        "Enamel of the teeth",
+        "Bone marrow",
+        "Periosteum",
+        "Retina"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 82,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Substance that can easily diffuse through",
+      "options": [
+        "Glucose",
+        "Protein",
+        "N\na\n+",
+        "Oxygen"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 83,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Blood brain barrier formed by",
+      "options": [
+        "Endothelial cell",
+        "Ependyma",
+        "Oligodentrocyte",
+        "Epithelial cells"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 84,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Features of CSF in pyogenic meningitis",
+      "options": [
+        "Chronic renal failure",
+        "Diabetes insipidus",
+        "Diabetes mellitus",
+        "Acute glomerulonephritis"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 85,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Major antibody content of the serum is",
+      "options": [
+        "α-I fraction",
+        "α-2 fraction",
+        "γ fraction",
+        "β fraction"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 86,
+      "topicsId": 52,
+      "subject": "",
+      "q": "The followings are mainly intracellular parasites",
+      "options": [
+        "Echinococcus granulosus",
+        "Leishmania donovani",
+        "Trypanosoma gambiense",
+        "Covid RNA virus"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 87,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Following menopause there is increased secretion of",
+      "options": [
+        "FSH",
+        "Oxytocin",
+        "Prolactin",
+        "Oestrogen"
+      ],
+      "ans": 0,
+      "explain": "Following menopause, there is increased secretion of FSH, LH and decreased secretion of oestrogen, progesteron.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 88,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Biochemical disturbance occurs in fulminating hepatic failure is",
+      "options": [
+        "Metabolic alkalosis",
+        "Hypoglycemia",
+        "High serum albumin",
+        "Prolongation of prothrombine time"
+      ],
+      "ans": 3,
+      "explain": "Increased PT is the most appropriate answer though hypoglycemia can occur in fulminant",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 89,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Which type of epithelium is found in thyroid follicles",
+      "options": [
+        "squamus",
+        "transitional",
+        "cuboidal",
+        "columner"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 90,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Which among the following is protozoal infection",
+      "options": [
+        "Giardiasis",
+        "Schistosomiasis",
+        "Filariasis",
+        "Hydatid disease"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 91,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Ionising radiation-following is true",
+      "options": [
+        "Does not affect age",
+        "Does not affect lungs",
+        "Does not affect skin",
+        "Affects the brain"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 92,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Coomb's test is used for detecting",
+      "options": [
+        "Rheumatoid factor",
+        "Antinuclear factor",
+        "Cold agglutinin",
+        "Anti insulin antibody"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 93,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Content of the broad ligament",
+      "options": [
+        "Testes",
+        "Ovary",
+        "Ureter",
+        "Ovarian artery"
+      ],
+      "ans": 3,
+      "explain": "Content of ovarian artery-\n• uterine tube \n• ovarian artery \n• uterine artery \n•ovarian ligaments \n• round ligaments of uterus \nsome sources consider the ovary to be an the broad ligaments, but not in it.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 94,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Myoepithelial cells found in",
+      "options": [
+        "Sweat gland",
+        "Parotid gland",
+        "Adrenal gland",
+        "Lacrimal gland"
+      ],
+      "ans": 0,
+      "explain": "Myoepithelial cells found cell- \n• Sweat gland \n• lacrimal gland \n• Salivary glands (parotid gland)",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 95,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Local blood vessels are dilated due to increased concentration of",
+      "options": [
+        "Endothelin",
+        "Sodium Ions",
+        "Calcium Ions",
+        "Potassium Ions"
+      ],
+      "ans": 3,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 96,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Hemorrhagic lesions may occur",
+      "options": [
+        "Vitamin B deficiencies",
+        "Vitamin C deficiencies",
+        "Retinol deficiency",
+        "Nephrotic syndrome"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 97,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Structure passes through greater sciatic foramen",
+      "options": [
+        "extensor of hip",
+        "gluteal nerve",
+        "flexor of the knee",
+        "adduction of hip"
+      ],
+      "ans": 1,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 98,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Major source of progesterone in early 8 weeks of pregnancy is",
+      "options": [
+        "Corpus luteum",
+        "Meternal liver",
+        "Placental cytotrophoblast",
+        "Placental syncytotrophoblast"
+      ],
+      "ans": 0,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 99,
+      "topicsId": 52,
+      "subject": "",
+      "q": "In emphysema, pulmonary function test shows",
+      "options": [
+        "Decreased residual volume",
+        "Increased \nF\nE\nV\n1\n/\nF\nV\nC",
+        "Increased total lung capacity",
+        "Increased vital capacity"
+      ],
+      "ans": 2,
+      "explain": "",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    },
+    {
+      "id": 100,
+      "topicsId": 52,
+      "subject": "",
+      "q": "Hot air oven is used for sterilization of",
+      "options": [
+        "Scalpel",
+        "Wire loop",
+        "Needle",
+        "Swab stick"
+      ],
+      "ans": 0,
+      "explain": "As scalpel is sharp weapon, it is sterilized by hot air woven.",
+      "source": [
+        "42nd BCS প্রিলিমিনারি - 2202"
+      ]
+    }
+  ]
+}

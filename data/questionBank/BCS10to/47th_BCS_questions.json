@@ -1,6 +1,6 @@
 {
   "examInfo": {
-    "examName": "47th BCS",
+    "examName": "47th BCS প্রিলিমিনারি - 2025",
     "examType": "General",
     "examDate": "2025-09-19",
     "totalMarks": "200",
@@ -10,6 +10,7 @@
     {
       "id": 1,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "‘লুই ভণই গুরু পুছিঅ জান।’- এখানে ‘ভণই’ শব্দের অর্থ কী?",
       "options": [
         "বলে",
@@ -20,12 +21,13 @@
       "ans": 0,
       "explain": "মধ্যযুগীয় বাংলা ভাষায় ‘ভ’ শব্দের অর্থ ‘কথা বলা’ বা ‘বলেছে’। এখানে ‘ভণই’ দিয়ে বোঝানো হয়েছে যে কেউ বলেছে/উচ্চারণ করেছে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 2,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "‘শ্রীকৃষ্ণকীর্তন’ কাব্যের অংশ নয় কোনটি?",
       "options": [
         "নৌকা খণ্ড",
@@ -36,12 +38,13 @@
       "ans": 3,
       "explain": "‘শ্রীকৃষ্ণকীর্তন’ কাব্যের একটি অংশ নয় (ঘ) প্রণয় খণ্ড। এই কাব্যের ১৩টি খণ্ডের মধ্যে নৌকা খণ্ড, হার খণ্ড, এবং রাধা বিরহ রয়েছে, কিন্তু ‘প্রণয় খণ্ড’ নামে কোনো খণ্ড নেই। ‘শ্রীকৃষ্ণকীর্তন’ কাব্যের ১৩টি খণ্ড হলো: জন্মখণ্ড, তাম্বুলখণ্ড, দানখণ্ড, নৌকাখণ্ড, ভারখণ্ড, ছত্রখণ্ড, বৃন্দাবনখণ্ড, কালীয়দমনখণ্ড, বস্ত্রহরণখণ্ড, হারখণ্ড, বাণখণ্ড, বংশীখণ্ড, রাধাবিরহ।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 3,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "বিবৃত স্বরধ্বনি বলতে বোঝায়-",
       "options": [
         "যে স্বরধ্বনি উচ্চারণে ঠোঁট বেশি খোলে",
@@ -52,12 +55,13 @@
       "ans": 0,
       "explain": "স্বরধ্বনি উচ্চারণের সময়ে ঠোঁট কতটুকু খোলা বা বন্ধ থাকে অর্থাৎ কী পরিমাণ উম্মুক্ত হয়, তার ভিত্তিতে স্বরধ্বনি চার ভাগে বিভক্ত। যথা: \nসংবৃত: [ই], [উ];\nঅর্ধ সংবৃত: [এ], [ও];\nঅর্ধ বিবৃত: [আ], [অ];\nবিবৃত: [আ]। \nসংবৃত স্বরধ্বনি উচ্চারণের সময় ঠোঁট কম খোলে; বিবৃত স্বরধ্বনি উচ্চারণের সময় ঠোঁট বেশি খোলে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 4,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "মনোয়েল দ্যা আসসুম্পসাঁও অভিধান প্রকাশের আগে কত বছর ধরে শব্দ সংগ্রহ করেন?",
       "options": [
         "২-৩ বছর",
@@ -68,12 +72,13 @@
       "ans": 2,
       "explain": "প্রথম বাংলা ব্যাকরণ প্রকাশিত হয় ১৭৪৩ সালে পর্তুগিজ ভাষায়। এর লেখক ছিলেন মানোয়েল দ্যা আসসুম্পসাঁও। তিনি অভিধান প্রকাশের আগে ৯-১০ বছর ধরে শব্দ সংগ্রহ করেন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 5,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "‘আলালের ঘরের দুলাল’ প্রথমে কোন পত্রিকায় ধারাবাহিকভাবে প্রকাশিত হয়?",
       "options": [
         "বিবিধার্থ সংগ্রহ",
@@ -84,12 +89,13 @@
       "ans": 2,
       "explain": "প্যারীচাঁদ মিত্র (টেকচাঁদ ঠাকুর) রচিত ‘আলালের ঘরের দুলাল’ (১৮৫৭) বাংলা সাহিত্যের প্রথম সামাজিক উপন্যাস। এটি প্রথমে ‘মাসিক পত্রিকা’ নামের সাময়িকীতে ধারাবাহিকভাবে প্রকাশিত হয়। পরে গ্রন্থাকারে বের হয়। উপন্যাসটিতে মধ্যবিত্ত বাঙালির সামাজিক ছবি, কুসংস্কার, আভিজাত্যের ভণ্ডামি ও সামাজিক পরিবর্তনের আকাঙ্ক্ষা ফুটে উঠেছে। সুতরাং সঠিক উত্তর: (গ) মাসিক পত্রিকা।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 6,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "‘সকলের তরে সকলে আমরা/প্রত্যেকে আমরা পরের তরে।’- কোন কবিতার অংশ?",
       "options": [
         "পরার্থে",
@@ -100,12 +106,13 @@
       "ans": 3,
       "explain": "আলোচ্য পঙক্তি প্রথিতযশা বাঙালি মহিলা কবি কামিনী রায়ের প্রথম কাব্য আলো ও ছায়া এর সুখ কবিতা থেকে নেয়া হয়েছে। এখানে কবি বুঝিয়েছেন, আসল সুখ স্বার্থপরতার মধ্যে নয়, বরং অন্যের জন্য বাঁচার মধ্যেই নিহিত। মানবজীবনের প্রকৃত উদ্দেশ্য হলো পরার্থপরতা।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 7,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "কাজী নজরুল ইসলামের কোন গ্রন্থটি বাজেয়াপ্ত হয়নি?",
       "options": [
         "অগ্নিবীণা",
@@ -116,12 +123,13 @@
       "ans": 0,
       "explain": "নজরুলের বাজেয়াপ্ত গ্রন্থের মধ্যে রয়েছে বিষের বাঁশি (১৯২৪), ভাঙার গান (১৯২৪), চন্দ্রবিন্দু (১৯২৮) প্রভৃতি। কিন্তু অগ্নিবীণা গ্রন্থটি বাজেয়াপ্ত হয়নি, যদিও এর কবিতাগুলোতে বিপ্লবী চেতনার ছাপ ছিল প্রবল।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 8,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "জসীম উদ্‌দীনের ‘কবর’ কবিতাটি কোন কাব্যের অন্তর্গত?",
       "options": [
         "বালুচর",
@@ -132,12 +140,13 @@
       "ans": 1,
       "explain": "জসীম উদ্‌দীনের বিখ্যাত ‘কবর’ কবিতাটি তাঁর প্রথম কাব্যগ্রন্হ ‘রাখালী’ (১৯২৭ খ্রি.)-এর অন্তর্গত।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 9,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "গৌড়ী প্রাকৃত বলতে বোঝায়-",
       "options": [
         "গৌড় অঞ্চলের মুখের ভাষা",
@@ -148,12 +157,13 @@
       "ans": 0,
       "explain": "ড. মুহাম্মদ শহীদুল্লাহর মতে গৌড়ীয় প্রাকৃত হতে বাংলা ভাষার উৎপত্তি। গৌড়ীয় প্রাকৃত বলতে গৌড় অঞ্চলের মানুষের মুখের ভাষাকে বোঝায়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 10,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "‘Glossary’ শব্দের বাংলা পরিভাষা-",
       "options": [
         "জ্ঞাপনপত্র",
@@ -164,12 +174,13 @@
       "ans": 2,
       "explain": "‘Glossary’ শব্দের বাংলা পরিভাষা শব্দার্থপঞ্জি।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 11,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "‘ঐক্যমত’ শব্দটি কোন বিবেচনায় অশুদ্ধ নয়?",
       "options": [
         "মতের ঐক্য - এভাবে সমাসসাধিত ধরলে",
@@ -180,12 +191,13 @@
       "ans": 0,
       "explain": "‘ঐক্যমত’ শব্দটি মতের ঐক্য -এভাবে সমাসসাধিত ধরলে শুদ্ধ হবে। এটি কর্মধারয় সমাস। একমত + য প্রত্যয়টি অশুদ্ধ। এর শুদ্ধ প্রত্যয় ঐক্য + মত। ঐক্যমত শব্দটিতে কোনো উপসর্গ নেই। ঐক্যমত শব্দটি পারিভাষিক শব্দ নয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 12,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "১৯৩৬ সালে কলিকাতা বিশ্ববিদ্যালয়ের বানান সংস্কারের মূল উদ্দেশ্য ছিল-",
       "options": [
         "বানানকে উচ্চারণের কাছাকাছি নেওয়া",
@@ -196,12 +208,13 @@
       "ans": 3,
       "explain": "১৯৩৬ সালে কলিকাতা বিশ্ববিদ্যালয় বাংলা বানান সংস্কারের উদ্যোগ নেয়। মূল লক্ষ্য ছিল বানানকে আরও একক, সুশৃঙ্খল ও সহজবোধ্য করা। তখন অনেক শব্দের একাধিক বানান প্রচলিত ছিল (যেমন: ঔষধ/ওষুধ, কাণ্ড/কান্ড ইত্যাদি)। তাই বানান সংস্কারের মূল উদ্দেশ্য ছিল বিকল্প বানান বর্জন করে একটিমাত্র স্বীকৃত রূপ নির্ধারণ।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 13,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "অভিধানে ং, ঃ, ঁ -এই বর্ণগুলোর অবস্থান কোথায়?",
       "options": [
         "স্বরবর্ণের আগে",
@@ -212,12 +225,13 @@
       "ans": 1,
       "explain": "ং, ঃ, ঁ এই তিনটি বর্ণ স্বাধীনভাবে স্বতন্ত্র বর্ণ হিসেবে ভাষায় ব্যবহৃত হয় না। এ বর্ণে দ্যোতিত ধ্বনি অন্য ধ্বনির সঙ্গে মিলিত হয়ে একত্রে উচ্চারিত হয়। এই বর্ণগুলোকে বলা হয় পরাশ্রয়ী বর্ণ। এই বর্ণগুলো স্বরবর্ণের শেষে বসে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 14,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "পূর্ববঙ্গীয় উচ্চারণে ‘স্মরণ’ শব্দের ক্ষেত্রে কোনটি ঘটে?",
       "options": [
         "স-এর উচ্চারণ শ হয়ে যায়",
@@ -228,12 +242,13 @@
       "ans": 0,
       "explain": "পূর্ববঙ্গীয় উচ্চারণে ‘স্মরণ’ শব্দটির উচ্চারণ হয় (শঁরোন্)। অর্থাৎ এখানে ‘স’ এর উচ্চারণ ‘শ’ হয়ে যায়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 15,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "‘গড্ডলিকা প্রবাহ’ বাগ্‌ধারার ‘গড্ডল’ শব্দের অর্থ কী?",
       "options": [
         "নদী",
@@ -244,12 +259,13 @@
       "ans": 2,
       "explain": "‘গড্ডলিকা প্রবাহ’ বাগ্‌ধারাটির অর্থ অন্ধ অনুকরণ। ‘গড্ডলিকা প্রবাহ’ বাগ্‌ধারার ‘গড্ডল’ শব্দের অর্থ ভেড়া।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 16,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "‘এমন পিরিতি কভু নাহি দেখি শুনি।/পরানে পরান বান্ধা আপনা আপনি।’ কার লেখা?",
       "options": [
         "বিদ্যাপতি",
@@ -260,12 +276,13 @@
       "ans": 1,
       "explain": "চণ্ডীদাস ছিলেন বৈষ্ণব পদাবলীর অন্যতম প্রধান কবি। তাঁর পদাবলীতে রাধা-কৃষ্ণ প্রেমকাহিনি মানবীয় প্রেমের আবেগে মিশে গিয়ে চিরন্তন রূপ পেয়েছে। উক্ত পংক্তিতেও প্রেমের গভীরতা ও স্বতঃস্ফূর্ত আত্মিক বন্ধনের প্রকাশ ঘটেছে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 17,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "ফোর্ট উইলিয়াম কলেজ পর্বে রচিত বাংলা বইগুলো-",
       "options": [
         "সংস্কৃত বইয়ের অনুবাদ",
@@ -276,12 +293,13 @@
       "ans": 3,
       "explain": "১৮০০ খ্রিষ্টাব্দে গভর্নর জেনারেল লর্ড ওয়েলেসলি কলকাতায় ফোর্ট উইলিয়াম কলেজ প্রতিষ্ঠা করেন। এর উদ্দেশ্য ছিল ব্রিটিশ কর্মকর্তাদের স্থানীয় ভাষা ও সংস্কৃতির সাথে পরিচিত করানো। কলেজে নিযুক্ত বাংলা পণ্ডিতেরা (রামরাম বসু, মুনশি কালীপ্রসন্ন সিংহ, লাল্লু লাল প্রমুখ) অনেক মৌলিক বাংলা গ্রন্হ রচনা করেন। এগুলো অনুবাদ নয়, বরং শিক্ষার্থীদের ভাষা শেখার সুবিধার্থে গদ্য আকারে মৌলিক কাহিনি ও গল্প লেখা হয়েছিল।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 18,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "সাহিত্যের রূপ ও রীতির বিচারে কোন গ্রন্থটি ব্যতিক্রম?",
       "options": [
         "বাংলা কাব্য",
@@ -292,12 +310,13 @@
       "ans": 0,
       "explain": "সাহিত্যের রূপ বলতে বুঝায় নাটক, উপন্যাস, কবিতা, গল্প ইত্যাদি। রীতি বলতে বুঝায় ছন্দ, অলংকার প্রভৃতি। বাংলা কাব্যগ্রন্হে সাহিত্যের রূপ ও রীতির ব্যাখ্যা আছে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 19,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "‘বিরাট গরু-ছাগলের হাট’ -ব্যানারে লেখা এই শিরোনামকে অপপ্রয়োগ বলা যায় না কেন?",
       "options": [
         "বিরাট শব্দটি হাটকে বিশেষিত করছে",
@@ -308,12 +327,13 @@
       "ans": 0,
       "explain": "বিশেষ্য পদের অব্স্থা বা পরিমাণ বোঝাতে বিশেষণ ব্যবহৃত হয়। বিরাট শব্দটি হাটের পূর্বে বসে হাটের অবস্থাকে নির্দেশ করছে বিধায় বিরাট গরু ছাগলের হাট, ব্যানারে লেখা শিরোনামটিকে অপপ্রয়োগ বলা যায় না।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 20,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "‘অজর’ শব্দের বিপরীত কোনটি?",
       "options": [
         "অমলিন",
@@ -324,12 +344,13 @@
       "ans": 1,
       "explain": "মূল শব্দ\n\t\t\tবিপরীত শব্দ\n\t\t\n\t\t\n\t\t\tঅজর\n\t\t\tবার্ধক্য\n\t\t\n\t\t\n\t\t\tঅমর\n\t\t\tনশ্বর\n\t\t\n\t\t\n\t\t\tঅমলিন\n\t\t\tকলুষিত/মলিন\n\t\t\n\t\t\n\t\t\tব্যাধিগ্রস্ত\n\t\t\tসুস্থ/স্বাভাবিক",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 21,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "‘ব্যাং’ শব্দটি ং দিয়ে লিখতে হবে, কারণ-",
       "options": [
         "ঙ -এর হসন্ত উচ্চারণ ং হয়",
@@ -340,12 +361,13 @@
       "ans": 0,
       "explain": "ঙ ং ঞ এ তিনটি বর্ণে দ্যোতিত ধ্বনি কখনো শব্দের প্রথমে আসে না, শব্দের মধ্যে কিংবা শেষে আসে। সুতরাং এসব ধ্বনির প্রতীক বর্ণও শব্দের আদিতে ব্যবহৃত হয় না, শব্দের মধ্যে বা অন্তে ব্যবহৃত হয়। যেমন: সঙ্ঘ বা সংঘ, ব্যাঙ বা ব্যাং, অঞ্জনা, ভূঞা, ক্ষণ ইত্যাদি।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 22,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "‘সে কৌতুক করার কৌতূহল সংবরণ করতে পারল না।’-এই বাক্য কী কারণে ত্রুটিপূর্ণ?",
       "options": [
         "বানান ভুল আছে",
@@ -356,12 +378,13 @@
       "ans": 2,
       "explain": "এখানে কৌতুহল না বলে আগ্রহ বা ইচ্ছা হলে বাক্যটি সঠিক হতো। এখানে কৌতুকের পর কৌতুহল বসলে অহেতুক জটিলতার সৃষ্টি হয় বলে বাক্যটি যোগ্যতা হারায়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 23,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "‘নিত্য তোমার যে ফুল ফোটে ফুলবনে’ এখানে ‘নিত্য’ শব্দের প্রতিশব্দ কোনটি?",
       "options": [
         "অতিশয়",
@@ -372,12 +395,13 @@
       "ans": 3,
       "explain": "‘নিত্য তোমার যে ফুল ফোটে ফুলবনে’ এটি একটি ঈশ্বরচেতন গান। এটি দ্বারা চিরন্তন এবং অহরহ দুটো অর্থই নির্দেশ করে। তবে নিত্য শব্দটি অহরহ অর্থেই বেশি ব্যবহৃত হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 24,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "বাক্যের মধ্যে শব্দ অবস্থান করে কীভাবে?",
       "options": [
         "কর্তা ও ক্রিয়ার পদবিন্যাস অনুযায়ী",
@@ -388,12 +412,13 @@
       "ans": 0,
       "explain": "বাক্যের মধ্যে কর্তা এবং ক্রিয়ার পদবিন্যাস অনুযায়ী শব্দ অবস্থান করে কারন কর্তা ও ক্রিয়ার অবস্থান অনুযায়ী শব্দ না হলে বাক্যটি যোগ্যতা ও আসক্তি হারায়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 25,
       "topicsId": 52,
+      "subject": "BANGLA-LANGUAGE",
       "q": "বাংলা একাডেমির ‘আধুনিক বাংলা অভিধানে’র সম্পাদক কে?",
       "options": [
         "আনিসুজ্জামান",
@@ -404,12 +429,13 @@
       "ans": 3,
       "explain": "বাংলা একাডেমির ‘আধুনিক বাংলা অভিধান’ এর সম্পাদক জামিল চৌধুরি।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 26,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "কোন মঙ্গলকাব্যে ঐতিহাসিক চরিত্র আছে?",
       "options": [
         "মনসামঙ্গল",
@@ -420,12 +446,13 @@
       "ans": 2,
       "explain": "অন্নদামঙ্গল কাব্যে দিল্লীর সম্রাট জাহাঙ্গীর এবং তার সুবাদার মানসিংহের সাথে যশোরের রাজা প্রতাপাদিত্যের যুদ্ধের কাহিনি বর্ণিত আছে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 27,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "কোন কাব্যে আলাওল ব্যক্তিগত জীবনের কথা লিখেছেন?",
       "options": [
         "পদ্মাবতী",
@@ -436,12 +463,13 @@
       "ans": 0,
       "explain": "",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 28,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "‘তুরস্ক-ভ্রমণ’ কার লেখা?",
       "options": [
         "ইসমাইল হোসেন সিরাজী",
@@ -452,12 +480,13 @@
       "ans": 0,
       "explain": "উনিশ শতকের মুসলিম পুর্নজাগরনের কবি ইসমাইল হোসেন সিরাজী। তিনি তুরস্কের সরকার কর্তৃক গাজী উপাধি লাভ করেন। তিনি বঙ্কিমচন্দ্রের দুর্গেশনন্দিনী উপন্যাসের প্রতিক্রিয়ায় রায়নন্দিনী (১৯১৮) রচনা করেন। তার বিখ্যাত ভ্রমণকাহিনি তুরস্ক ভ্রমণ (১৯১০)।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 29,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "সৈয়দ ওয়ালীউল্লাহর ‘চাঁদের অমাবস্যা’ উপন্যাসে কোন জীবনদর্শনের রূপায়ণ ঘটেছে?",
       "options": [
         "মার্কসবাদ",
@@ -468,12 +497,13 @@
       "ans": 2,
       "explain": "সৈয়দ ওয়ালীউল্লাহর ‘চাঁদের অমাবস্যা’ উপন্যাসে অস্তিত্ববাদ জীবনদর্শনের রূপায়ণ ঘটেছে। এই উপন্যাসের প্রধান চরিত্র যুবক শিক্ষক আরেফ আলী একটি খুনের ঘটনা দেখে ফেলেন। এই ঘটনার পর তার মনোজগতে এক তীব্র দ্বন্দ্ব শুরু হয়। তিনি কি সত্য প্রকাশ করবেন, নাকি নিজের জীবন রক্ষা করবেন? এই দ্বিধা তাকে এক গভীর অস্তিত্ব সংকটে ফেলে দেয়।\nঅস্তিত্ববাদ হলো এমন একটি দার্শনিক মতবাদ, যা মানুষের স্বাধীন ইচ্ছা, পছন্দ এবং ব্যক্তিগত দায়িত্ববোধের ওপর জোর দেয়। এটি বলে যে, মানুষ তার নিজের অস্তিত্বের অর্থ নিজেই তৈরি করে। আরেফ আলীর চরিত্রে এই দর্শন ফুটে উঠেছে। এই উপন্যাসে সমাজ বা ধর্মীয় মূল্যবোধের চেয়ে ব্যক্তির নিজস্ব বিবেক ও তার অস্তিত্বের সংকটকে বেশি প্রাধান্য দেওয়া হয়েছে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 30,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "‘প্রভাতফেরির মিছিল যাবে/ছড়াও ফুলের বন্যা,/বিষাদগীতি গাইছে পথে/তিতুমীরের কন্যা।’ কার লেখা?",
       "options": [
         "শামসুর রাহমান",
@@ -484,12 +514,13 @@
       "ans": 1,
       "explain": "প্রভাতফেরীর মিছিল যাবে / ছড়াও ফুলের বন্যা / বিষাদগীতি গাইছে পথে / তিতুমীরের কন্যা - এই পঙক্তিগুলো আল মাহমুদ -এর বিখ্যাত কাব্যগ্রন্হ ‘লোক লোকান্তর’ -এর অন্তর্ভুক্ত।\nকবিতাটির নাম হলো ‘একুশের কবিতা’। এটি একটি খুবই জনপ্রিয় ও বহুল পঠিত কবিতা, যেখানে ভাষা আন্দোলন ও বাঙালির স্বাধীনতা সংগ্রামের চেতনাকে তুলে ধরা হয়েছে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 31,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "‘হরফের ছড়া’ কার লেখা বর্ণশিক্ষার বই?",
       "options": [
         "ঈশ্বরচন্দ্র বিদ্যাসাগর",
@@ -500,12 +531,13 @@
       "ans": 2,
       "explain": "‘হরফের ছড়া’ বর্ণশিক্ষার বইটি লিখেছেন বাংলাদেশের প্রখ্যাত কবি ফররুখ আহমদ। বইটি ১৯৬৯ সালে তৎকালীন একটি জাতীয় প্রকাশনা থেকে প্রথম প্রকাশিত হয়েছিল। এটি শিশুদের বাংলা বর্ণমালা শেখার জন্য ছন্দে লেখা একটি জনপ্রিয় বই।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 32,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "‘রক্তকরবী’ নাটকের অন্তর্গত বিষয় কী?",
       "options": [
         "নতুনের জয়গান গাওয়া",
@@ -516,12 +548,13 @@
       "ans": 3,
       "explain": "রবীন্দ্রনাথ ঠাকুরের নাটক ‘রক্তকরবী’ একটি প্রতীকী নাটক, যেখানে পুঁজিবাদের ভয়াবহ রূপকে তুলে ধরা হয়েছে। এই নাটকে ‘যক্ষপুরী’ হলো পুঁজিবাদের প্রতীকী রূপ। এই নাটকে কবি পুঁজিবাদের কারণে মানবিক সম্পর্কের অবনতি, শোষণ ও যান্ত্রিক জীবনের অসারতাকে তুলে ধরেছেন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 33,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "মীর মশাররফ হোসেন সম্পর্কে কোন তথ্যটি যথার্থ নয়?",
       "options": [
         "তিন খণ্ডে ‘বিষাদ-সিন্ধু’ রচনা করেন",
@@ -532,12 +565,13 @@
       "ans": 3,
       "explain": "বিবি কুলসুম ছিলেন মীর মোশারফ হোসেন এর দ্বিতীয় স্ত্রী। তার প্রথম স্ত্রীর নাম অজিফন্নেসা।\nঅন্যান্য তথ্য: \n● তিনি বিষাদ সিন্ধু ৩ খণ্ডে (মহররম পর্ব, উদ্ধার পর্ব, এজিদ-বধ পর্ব) রচনা করেন। \n● তিনি আত্মজীবনীমূলক গ্রন্হ (আমার জীবনী) রচনা করেন। \n● মীর মোশাররফ হোসেন তাঁর বাবার জমিদারী দেখাশোনার কাজ করতেন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 34,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "জীবনানন্দ দাশের মৃত্যুর পর কোন কাব্যগ্রন্থটি প্রকাশিত হয়?",
       "options": [
         "ঝরাপালক",
@@ -548,12 +582,13 @@
       "ans": 1,
       "explain": "জীবনানন্দ দাশ ১৯৫৪ সালের ২২শে অক্টোবর মৃত্যুবরণ করেন। পরলোকগমনের পর তার দুটি কাব্যগ্রন্হ প্রকাশিত হয়। এগুলো হলো-\n● রূপসী বাংলা (১৯৫৭)। \n● বেলা অবেলা কালবেলা (১৯৬১)। [উৎস: বাংলা ভাষা ও সাহিত্য জিজ্ঞাসা]",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 35,
       "topicsId": 52,
+      "subject": "BANGLA-LITERATURE",
       "q": "‘তুমি অধম তাই বলিয়া আমি উত্তম না হইব কেন?’-কোন উপন্যাসে আছে?",
       "options": [
         "বঙ্কিমচন্দ্রের ‘কপালকুণ্ডলা’",
@@ -564,12 +599,13 @@
       "ans": 0,
       "explain": "‘তুমি অধম তাই বলিয়া আমি উত্তম হইব না কেন?’ -এই বিখ্যাত উক্তিটি বঙ্কিমচন্দ্র চট্টোপাধ্যায়ের লেখা। এটি তাঁর বিখ্যাত উপন্যাস ‘কৃষ্ণকান্তের উইল’ -এর একটি সংলাপ।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 36,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "A speech made without any previous thought, preparation or practice is called a/an ____.",
       "options": [
         "free speech",
@@ -580,12 +616,13 @@
       "ans": 1,
       "explain": "Extempore speech হলো এমন বক্তৃতা যা আগে কোনো প্রস্তুতি বা অনুশীলন ছাড়া দেওয়া হয়। বক্তাকে তার চিন্তা-ভাবনা, ভাষা ব্যবহার এবং আত্মবিশ্বাস ব্যবহার করে বক্তব্য তৈরি করতে হয়। এটি সাধারণত পরীক্ষায়, পাবলিক ডিবেট বা সামাজিক অনুষ্ঠানে ব্যবহৃত হয়। Maiden speech হলো সংসদীয় বা কোনো সভায় প্রথমবারের মতো দেওয়া বক্তৃতা। Free speech বলতে বোঝায় ব্যক্তির মুক্তভাবে মত প্রকাশ করার অধিকার। Rousing speech হলো উত্তেজনাপূর্ণ ও প্রেরণাদায়ক বক্তৃতা।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 37,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "Which one has the identical singular and plural form?",
       "options": [
         "Memorandum",
@@ -596,12 +633,13 @@
       "ans": 2,
       "explain": "‘Dice’ is commonly used as both a singular and plural noun. \n\n\n\n\t\n\t\t\n\t\t\tSingular\n\t\t\tPlural\n\t\t\n\t\t\n\t\t\t(1) Memorandum\n\t\t\tMemoranda/Memorandums \n\t\t\n\t\t\n\t\t\t(2) Stimulus\n\t\t\tStimuli \n\t\t\n\t\t\n\t\t\t(3) Oasis\n\t\t\tOases",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 38,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "Select the sentence in which ‘fast’ is an adverb:",
       "options": [
         "Don’t drive so fast!",
@@ -612,12 +650,13 @@
       "ans": 0,
       "explain": "Here, “Fast’ is an adverb. It modifies the verb “drive”, telling us how the action is being Performed. It describes the manner of driving.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 39,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "‘It was a cowardly attack on a defenceless man.’ Here ‘cowardly’ is/an _____.",
       "options": [
         "adverb",
@@ -628,12 +667,13 @@
       "ans": 1,
       "explain": "এখানে ‘cowardly’ শব্দটি ‘attack’ শব্দকে বর্ণনা করছে। যেহেতু এটি noun (attack) কে describe করছে, তাই এটি adjective.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 40,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "‘The river flows past the village.’ Here ‘past’ is a/an-",
       "options": [
         "noun",
@@ -644,12 +684,13 @@
       "ans": 3,
       "explain": "এখানে ‘past’ শব্দটি ‘the village’ এর সঙ্গে সম্পর্ক স্থাপন করছে। অর্থাৎ, নদী কোন জায়গার পাশে বা পার হয়ে যাচ্ছে তা দেখাচ্ছে। যখন কোন noun বা pronoun-এর সাথে অবস্থান বা দিক নির্দেশ করা হয়, তখন ‘past’ preposition হিসেবে ব্যবহৃত হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 41,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "‘Ihana sleeps only for four hours a night.’ In this sentence the verb ‘sleeps’ is____.",
       "options": [
         "causative",
@@ -660,12 +701,13 @@
       "ans": 1,
       "explain": "Intransitive Verb এমন verb যা কোনো object গ্রহণ করে না, শুধুমাত্র subject-এর কাজকে বোঝায়। এখানে ‘sleeps’ verb টি কোনো object গ্রহণ করছে না। অর্থাৎ, এটি কারো বা কিছুর উপর ক্রিয়া সম্পন্ন করছে না, শুধুমাত্র subject (Ihana)-এর কাজকে বোঝাচ্ছে। তাই এটি Intransitive Verb.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 42,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "‘He started teaching Hamlet.’ Here ‘teaching’ is a/an-",
       "options": [
         "participle",
@@ -676,12 +718,13 @@
       "ans": 3,
       "explain": "Verb এর object হিসেবে gerund বসে। এটি ‘started’ ক্রিয়ার direct object হিসেবে ব্যবহৃত হয়েছে। এখানে ‘teaching’ হলো সেই কাজ যা subject (He) শুরু করেছে। সুতরাং, বাক্যে ‘teaching’ একটি gerund.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 43,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "Fill in the blank with the appropriate preposition: ‘She was married ____ a rich man’.",
       "options": [
         "with",
@@ -692,12 +735,13 @@
       "ans": 1,
       "explain": "‘Married’ এর সাথে relationship বা spouse নির্দেশ করতে ‘to’ ব্যবহার হয়। যেমন: She is married to a doctor.\nHe got married to his childhood friend.\nMarry off → (পারিবারিকভাবে) বিয়ে দেয়া।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 44,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "Which gender is the word ‘sibling’?",
       "options": [
         "Masculine",
@@ -708,12 +752,13 @@
       "ans": 3,
       "explain": "যে সকল Noun দ্বারা নির্দিষ্ট কোনো ব্যক্তি, বস্তু, স্থানের নাম না বুঝিয়ে এক জাতীয় সকলকেই বোঝায় তাদেরকে Common Noun বলে। যেমন: Sibling অর্থ সহোদর। এই শব্দ ভাই বা বোন উভয়কেই বুঝাতে পারে। তাই ‘Sibling’ একটি Common gender.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 45,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "Find out the correctly spelt word:",
       "options": [
         "reminiscence",
@@ -724,12 +769,13 @@
       "ans": 0,
       "explain": "Correct Spelling is Reminiscence. এর অর্থ স্মৃতিচারণ।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 46,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "The idiom ‘smell a rat’ means to____.",
       "options": [
         "detect bad smell",
@@ -740,12 +786,13 @@
       "ans": 2,
       "explain": "Smell a rat = Suspect Something wrong or deception (কোনো বিষয়ে সন্দেহ করা বা প্রতারণার গন্ধ পাওয়া)।\nWhen the numbers changed at the last minute the investors smelled a rat.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 47,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "Select the synonym for ‘inclement’:",
       "options": [
         "affable",
@@ -756,12 +803,13 @@
       "ans": 2,
       "explain": "Inclement = rough (Unpleasantly cold or wet).\n● Synonym = raw, damp, rough, wild.\n● Antonym = Fine, mild.\nAffable = friendly, amiable.\nMild = gentle, lenient.\nGenial = friendly, cordial.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 48,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "Tell me frankly why you did this. The underlined part is a/an-",
       "options": [
         "adjective clause",
@@ -772,12 +820,13 @@
       "ans": 1,
       "explain": "যে Sub-ordinate clause কোনো noun এর কাজ করে তাকে noun clause বলে। Tell me frankly why you did this বাক্যে ‘Why you did this’ Clause টি ক্রিয়া ‘Tell’ এর direct object হিসেবে কাজ করে, তাই এটি একটি noun Clause.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 49,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "The prefix ‘non’ can be added to____.",
       "options": [
         "office",
@@ -788,12 +837,13 @@
       "ans": 2,
       "explain": "Partisan = Prejudiced in favour of a Particular Cause.\nNon-partisan = not biased, especially towards any particular political group.\nঅপরদিকে office, regular, obey শব্দগুলোর পূর্বে Prefix হিসেবে যথাক্রমে Post, ir, dis ব্যবহৃত হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 50,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "Identify the correct passive form: ‘I heard her sing.’",
       "options": [
         "She was heard sing by me.",
@@ -804,12 +854,13 @@
       "ans": 3,
       "explain": "সাধারণত Need, watch, dare, make, hear প্রভৃতি verb এর পর Active voice এ to উহ্য থাকে। তবে Passive করার সময়ে এই verb গুলোর পরে to বসে। তাই সঠিক Passive voice হবে। ‘She was heard to sing by me’.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 51,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "Which sentence is correct?",
       "options": [
         "One of my sisters are a nurse.",
@@ -820,12 +871,13 @@
       "ans": 2,
       "explain": "One of, Any of, Each of, Either of, Neither of যদি subject ব্যবহৃত হয় তবে Verb টি Singular হবে। অর্থাৎ One/Any/Each/Either/Neither + of + plural noun + singular verb + extension.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 52,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "Select the right determiner: ‘She works as ____ FBI analyst.’",
       "options": [
         "a",
@@ -836,12 +888,13 @@
       "ans": 1,
       "explain": "যে সকল Abbreviation (সংক্ষিপ্ত রূপ) এর উচ্চারণ vowel এর মতো হয় তাদের পূর্বে an বসে। A, E, F, H, I, L, M, N, O, R, S, X দ্বারা শুরু সকল Abbreviation এর পূর্বে an বসে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 53,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "‘We met Medha carrying a bouquet of red roses.’ Here ‘carrying’ is a/an ____.",
       "options": [
         "gerund",
@@ -852,12 +905,13 @@
       "ans": 3,
       "explain": "‘We met Medha carrying a bouquet of red roses’ বাক্যাটিতে Carrying’ শব্দটি Present participle হিসেবে ব্যবহৃত হয়েছে। ‘Carrying’ শব্দটি noun (medha) এর ঐ মুহুর্তের অবস্থা বর্ণনা করে অর্থাৎ Adjective এর কাজ করে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 54,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "‘Five years have passed since his father died’. Identify the correct simple form of the sentence from the following potions:",
       "options": [
         "His father has died five years ago.",
@@ -868,12 +922,13 @@
       "ans": 1,
       "explain": "বাক্যটিকে একটি simple sentence এ পরিণত করতে, প্রদত্ত বাক্যটির ‘Five years have passed since অংশটি বাদ দিয়ে শুধুমাত্র প্রধান ঘটনা এবং সময় উল্লেখ করতে হয়। এখানে প্রধান ঘটনা হলো ‘his father died’ এবং সময় হলো ‘five years ago’. সঠিক simple sentence হবে- His father died five years ago.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 55,
       "topicsId": 52,
+      "subject": "ENGLISH-LANGUAGE",
       "q": "Choose the antonym of ‘controversy:",
       "options": [
         "contention",
@@ -884,12 +939,13 @@
       "ans": 2,
       "explain": "Controversy = Prolonged Public disagreement on heated discussion\n● Synonym = Disagreement, Dispute, argument\n● Antonym = unanimity, agreement, accord\nContention = disagreement, variance\nBickering = argue, squabble\nDispute = debate, discussion.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 56,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "‘For God’s sake hold your tongue, and let me love.’ This line is taken from the poem___.",
       "options": [
         "To His Coy Mistress",
@@ -900,12 +956,13 @@
       "ans": 1,
       "explain": "“For God’s sake hold your tongue, and let me love.” লাইনটি  John Donne এর  কবিতা The Canonization (প্রথম লাইন) থেকে নেওয়া হয়েছে। The Sun Rising কবিতাটিও লিখেছেন John Donne। এটিও একটি প্রেম বিষয়ক কবিতা, যেখানে বক্তা সূর্যকে তার ও তার প্রেমিকার ঘুম ভাঙানোর জন্য বকা দিচ্ছেন। To His Coy Mistress, The Definition of Love কবিতাটি লিখেছেন Andrew Marvell. \nHere are some well-known quotations from John Donne-\n“For love, all love of other sights controls,\nAnd makes one little room an everywhere.” (The Good-Morrow)\n“Busy old fool, unruly Sun,\nWhy dost thou thus,\nThrough windows, and through curtains, call on us?” (The Sun Rising)\n“So let us melt, and make no noise, no tear-floods, nor sigh-tempests move.” (A Valediction: Forbidding Mourning)\n“I wonder, by my troth, what thou and I\nDid, till we loved? Were we not weaned till then?” (The Good-Morrow).",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 57,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "The one-act play ‘Riders to the Sea’ was written by _____.",
       "options": [
         "G. B. Shaw",
@@ -916,12 +973,13 @@
       "ans": 2,
       "explain": "Riders to the Sea হলো একটি বিখ্যাত one-act play, যা লিখেছেন J. M. Synge. নাটকের গল্পের পটভূমি আয়ারল্যান্ডের আরান দ্বীপ, যেখানে মানুষের জীবন সমুদ্রে অনেকটাই নির্ভরশীল।মূল চরিত্র Maurya, একজন বয়স্ক মহিলা, যিনি তার স্বামী ও অনেক সন্তানকে সমুদ্রের বিপদে হারিয়েছেন। নাটকটি দেখায় কীভাবে মানুষ প্রাকৃতিক শক্তির সঙ্গে লড়াই করে, কিন্তু অনেক সময় ভাগ্য ও পরিস্থিতি আমাদের নিয়ন্ত্রণের বাইরে থাকে। J. M. Synge মূলত নাট্যকার হিসেবে পরিচিত, তবে তিনি কিছু ছোট গল্প ও উপন্যাসাত্মক কাজও করেছেন। এখানে তাঁর কিছু গুরুত্বপূর্ণ নাটক- Riders to the Sea (1904), The Playboy of the Western World (1907), The Well of the Saints (1905), In the Shadow of the Glen (1903), The Aran Islands (1907).",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 58,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "‘Neither a borrower nor a lender be, For loan oft loses both itself and friend.’\nThis extract is taken from Shakespeare’s play ____.",
       "options": [
         "Macbeth",
@@ -932,12 +990,13 @@
       "ans": 3,
       "explain": "“Neither a borrower nor a lender be, For loan oft loses both itself and friend.” এই বিখ্যাত লাইনটি  নেওয়া হয়েছে Shakespeare-এর Hamlet নাটক থেকে। Shakespeare-এর Hamlet নাটকের  বিখ্যাত কিছু quotes-\n“To be, or not to be: that is the question.”\n“This above all: to thine own self be true.”\n“Something is rotten in the state of Denmark.”\n“Frailty, thy name is woman!”\n“The lady doth protest too much, methinks.”",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 59,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "Who composed the elegiac poem ‘Thyrsis’?",
       "options": [
         "Thomas Gray",
@@ -948,12 +1007,13 @@
       "ans": 1,
       "explain": "Thyrsis কবিতাটি Matthew Arnold তার ঘনিষ্ঠ বন্ধু এবং কবি Arthur Hugh Clough-এর মৃত্যুর পর ১৮৬১ সালে রচনা করেন। এটি একটি গ্রামীণ শোকগাথা (pastoral elegy) হিসেবে পরিচিত, যেখানে প্রকৃতির প্রেক্ষাপটে বন্ধুর বিয়োগব্যথা বর্ণনা করা হয়েছে। Thomas Gray ‘An Elegy Written in a Country Churchyard’ নামক বিখ্যাত শোকগাথাটি লিখেছিলেন। John Milton তার বন্ধু Edward King-এর স্মরণে ‘Lycidas’ নামক শোকগাথাটি রচনা করেন। P. B. Shelley তার বন্ধু John Keats-এর স্মরণে ‘Adonais’ নামক শোকগাথাটি লিখেছিলেন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 60,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "Who is the writer of the famous essay ‘Tradition and the Individual Talent’?",
       "options": [
         "George Orwell",
@@ -964,12 +1024,13 @@
       "ans": 2,
       "explain": "‘Tradition and the Individual Talent’ হলো বিংশ শতাব্দীর সাহিত্য সমালোচনার অন্যতম প্রভাবশালী একটি প্রবন্ধ। এটি ১৯১৯ সালে T. S. Eliot-রচনা করেন, যেখানে তিনি একজন কবির কাজ এবং সাহিত্যের ঐতিহ্য (tradition)-এর মধ্যে সম্পর্ক নিয়ে তার তত্ত্ব উপস্থাপন করেন। T. S. Eliot-এর কিছু বিখ্যাত কবিতা -The Love Song of J. Alfred Prufrock (1915), The Waste Land (1922), The Hollow Men (1925), Ash Wednesday (1930), Four Quartets (1943).",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 61,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "‘Our sweetest songs are those that tell of saddest thought.’- This oft-quoted line occurs in Shelley’s notable poem___.",
       "options": [
         "To a Skylark",
@@ -980,12 +1041,13 @@
       "ans": 0,
       "explain": "এই লাইনটি P. B. Shelley-এর “To a Skylark” কবিতা থেকে নেওয়া হয়েছে। এই কবিতায় Shelley বোঝাতে চেয়েছেন যে স্কাইলার্ক পাখির গান দুঃখমুক্ত এবং আনন্দময়, কিন্তু মানুষের গান তখনই সবচেয়ে সুন্দর ও মধুর হয় যখন তা দুঃখ, যন্ত্রণা এবং গভীর অনুভূতির ওপর ভিত্তি করে রচিত হয়। মানুষের সবচেয়ে মধুর সৃষ্টিগুলো দুঃখের অভিজ্ঞতা থেকে আসে। ‘To a Skylark’ ছাড়াও Shelley এর আরও কিছু বিখ্যাত ও উল্লেখযোগ্য কাজ হলো: Ozymandias, Ode to the West Wind, Adonais, Prometheus Unbound(play), The Masque of Anarchy etc.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 62,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "Who authored the futuristic novel ‘Brave New World’?",
       "options": [
         "E. M. Forster",
@@ -996,12 +1058,13 @@
       "ans": 2,
       "explain": "Brave New World নামক ভবিষ্যতভিত্তিক উপন্যাসের লেখক হলেন Aldous Leonard Huxley.গল্পে একটি ডিস্টোপিয়ান (dystopian) সমাজ দেখানো হয়েছে, যেখানে মানুষকে বৈজ্ঞানিক ও প্রযুক্তিগত নিয়ন্ত্রণের মাধ্যমে নিয়ন্ত্রিত করা হয়। Huxley মানুষের স্বাধীনতা, মানসিক স্বাচ্ছন্দ্য এবং সামাজিক নিয়ন্ত্রণের সীমা নিয়ে প্রশ্ন তুলেছেন। তার বিখ্যাত novels- Brave New World (1932), Crome Yellow (1921), Antic Hay (1923), Eyeless in Gaza (1936) etc.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 63,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "‘Good fences make good neighbors.’ The line was written by ___.",
       "options": [
         "Robert Graves",
@@ -1012,12 +1075,13 @@
       "ans": 1,
       "explain": "লাইনটি Robert Frost এর কবিতা “Mending Wall” থেকে নেওয়া হয়েছে । কবিতায় Frost দেখিয়েছেন যে মাঝে মাঝে সীমারেখা বা দূরত্ব রাখাই মানুষের মধ্যে ভালো সম্পর্ক বজায় রাখে। Robert Frost এর আরও কিছু quotes- “Two roads diverged in a wood, and I-\nI took the one less traveled by,\nAnd that has made all the difference.” (“The Road Not Taken”)\n“The woods are lovely, dark and deep,\nBut I have promises to keep,\nAnd miles to go before I sleep,\nAnd miles to go before I sleep.” (“Stopping by Woods on a Snowy Evening”)\n“Something there is that doesn’t love a wall.” (“Mending Wall”)\n“The best way out is always through.” (“A Servant to Servants”)",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 64,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "‘Cowards die many times before their deaths: The valiant never taste of death but once’.\nIn which play of Shakespeare do you find this quote?",
       "options": [
         "Julius Caesar",
@@ -1028,12 +1092,13 @@
       "ans": 0,
       "explain": "“Cowards die many times before their deaths; The valiant never taste of death but once.” লাইনটি Shakespeare-এর Julius Caesar নাটক থেকে নেওয়া। লাইনটি Julius Caesar নাটকের প্রখ্যাত চরিত্র Julius Caesar বলেছেন। এখানে তিনি বলতে চাচ্ছেন যে ভীতু মানুষ মৃত্যুর ভয়ে বারবার মানসিকভাবে “মরে” যায়, কিন্তু সাহসী মানুষ মৃত্যুর মুখোমুখি হলেও একবারই মারা যায়। Shakespeare-এর Julius Caesar নাটকের কিছু বিখ্যাত quotes-\n“Et tu, Brute?”\n“Friends, Romans, countrymen, lend me your ears.”\n“The fault, dear Brutus, is not in our stars, But in ourselves, that we are underlings.”",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 65,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "‘Knowledge comes, but wisdom lingers.’ This quote is extracted from Tennyson’s poem titled ____.",
       "options": [
         "Morte d’ Arthur",
@@ -1044,12 +1109,13 @@
       "ans": 3,
       "explain": "এই উক্তিটি টেনিসনের ‘Locksley Hall’ নামক একটি বিখ্যাত কবিতা থেকে নেওয়া হয়েছে, যা ১৮৪২ সালে প্রকাশিত হয়েছিল। More quotes of Tennyson’s poem-\n“Tis better to have loved and lost / Than never to have loved at all.” (In Memoriam)\n“Theirs not to reason why, / Theirs but to do and die.” (The Charge of the Light Brigade).",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 66,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "The tragedy ‘Samson Agonistes’ was penned by____.",
       "options": [
         "Christopher Marlowe",
@@ -1060,12 +1126,13 @@
       "ans": 2,
       "explain": "এটি Milton-এর শেষের দিকে লেখা একটি ট্র্যাজেডি, যা বাইবেলীয় চরিত্র Samson-এর জীবন ও দুঃখের ওপর ভিত্তি করে লেখা। নাটকটি দেখায় কিভাবে Samson নিজের শক্তি ও বিশ্বাসের মাধ্যমে কঠিন পরিস্থিতি মোকাবিলা করে। John Milton ইংরেজি সাহিত্যের সবচেয়ে গুরুত্বপূর্ণ কবি হিসেবে বিবেচিত, বিশেষ করে epic poetry-তে। John Milton-এর প্রধান সাহিত্যকর্ম- Paradise Lost (1667), Paradise Regained (1671), Samson Agonistes (1671), Areopagitica (1644) etc.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 67,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "Who is the playwright of the absurd drama “Waiting for Godot”?",
       "options": [
         "Jean Genet",
@@ -1076,12 +1143,13 @@
       "ans": 1,
       "explain": "‘Waiting for Godot’ একটি বিখ্যাত Absurd Drama. এই নাটকটি মানুষের অস্তিত্বের অর্থহীনতা ও সময়ের অপেক্ষার অনিশ্চয়তা নিয়ে লেখা। এর রচয়িতা হলেন Samuel Beckett একজন আয়রিশ নাট্যকার।\nThe main characters in the play ‘Waiting for Godot’ are: Vladimir (Didi), Estragon (Gogo), Pozzo, Lucky, A Boy etc. Major Plays of Beckett are- Endgame, Krapp’s Last Tape, Happy Days, Play etc.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 68,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "‘It’s strange - but true; for truth is always strange; Stranger than fiction.’\nThis quote is taken from a poem of___.",
       "options": [
         "Mark Twain",
@@ -1092,12 +1160,13 @@
       "ans": 2,
       "explain": "এই বিখ্যাত পংক্তিটি লর্ড বায়রনের ব্যঙ্গাত্মক মহাকাব্য ‘Don Juan’ থেকে নেওয়া হয়েছে। Byron এখানে মানুষের অভিজ্ঞতা ও বাস্তবতার সাথে কল্পনার তুলনা করেছেন। Lord Byron-এর গুরুত্বপূর্ণ quotes-\n“Love will find a way through paths where wolves fear to prey.” (Don Juan)\n“The great art of life is sensation, to feel that we exist, even in pain.” (Childe Harold’s Pilgrimage)\n“Those who will not reason, are bigots, those who cannot, are fools.” (Don Juan)",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 69,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "Who wrote the novella ‘Heart of Darkness’?",
       "options": [
         "Joseph Conrad",
@@ -1108,12 +1177,13 @@
       "ans": 0,
       "explain": "Joseph Conrad (১৮৫৭-১৯২৪) ছিলেন একজন পোলিশ-ব্রিটিশ ঔপন্যাসিক, যিনি মানব প্রকৃতি, নৈতিকতা এবং সাম্রাজ্যবাদের মতো বিষয় নিয়ে লেখার জন্য পরিচিত। ‘Heart of Darkness’ নভেলাটি ইউরোপীয় উপনিবেশবাদের অন্ধকার দিক এবং ঔপনিবেশিক ও উপনিবেশিত উভয় পক্ষের নৈতিক অবক্ষয়কে গভীরভাবে তুলে ধরেছে। ‘Heart of Darkness’ উপন্যাসের প্রধান চরিত্রগুলো Marlow(protagonist), Kurtz, The Manager, The Accountant, The Intended etc.\nJoseph Conrad-এর উল্লেখযোগ্য কিছু সাহিত্যকর্ম- Lord Jim (1900), Nostromo (1904), The Secret Agent (1907), Under Western Eyes (1911) etc.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 70,
       "topicsId": 52,
+      "subject": "ENGLISH-LITERATURE",
       "q": "Who was the writer of the autobiographical as well as political essay ‘Shooting and Elephant’?",
       "options": [
         "Francis Bacon",
@@ -1124,12 +1194,13 @@
       "ans": 1,
       "explain": "‘Shooting an Elephant’ হলো George Orwell-এর একটি আত্মজীবনীমূলক এবং রাজনৈতিক প্রবন্ধ। এটি মূলত তার বর্মা (বর্তমান মিয়ানমার) অবস্থার সময়কার অভিজ্ঞতার ওপর ভিত্তি করে লেখা। প্রবন্ধে Orwell একজন ব্রিটিশ পুলিশ কর্মকর্তা হিসেবে একটি হাতি হত্যা করার পরিস্থিতি নিয়ে লেখেন। তিনি দেখিয়েছেন কিভাবে উপনিবেশী ক্ষমতা, সামাজিক প্রত্যাশা ও জনগণের চাপে মানুষ নিজের নৈতিকতা ও বিবেকের বিপরীতে কাজ করতে বাধ্য হয়। হাতিটি হত্যা করা শুধু প্রাণীটির জন্য নয়, বরং সমাজে নিজের অবস্থান ও কর্তৃত্ব প্রদর্শনের প্রতীক হিসেবে হয়ে ওঠে। George Orwell-এর গুরুত্বপূর্ণ প্রবন্ধ ও উপন্যাসগুলো- Animal Farm (1945), 1984 (1949), Homage to Catalonia (1938), The Road to Wigan Pier (1937), Down and Out in Paris and London (1933) etc.\nবি. দ্র: প্রশ্নে ‘Shooting and Elephant’ লেখা আছে। এখানে and এর পরিবর্তে an হবে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 71,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "কোন মুসলিম চিন্তাবিদ প্রথম ‘দ্বি-জাতি তত্ত্ব’ সম্পর্কে স্পষ্ট ধারণা দেন?",
       "options": [
         "আল্লামা ইকবাল",
@@ -1140,12 +1211,13 @@
       "ans": 0,
       "explain": "১৯৩০ সালের ২৯ ডিসেম্বর, ইলাহাবাদে অল ইন্ডিয়া মুসলিম লীগের ২৫তম বার্ষিক অধিবেশনে আল্লামা ইকবাল তাঁর ঐতিহাসিক বক্তৃতায় প্রথম স্পষ্টভাবে ‘দ্বি-জাতি তত্ত্ব’ (Two-Nation Theory) প্রকাশ করেন। তিনি দৃঢ়ভাবে ঘোষণা করেন যে, ভারতীয় উপমহাদেশের হিন্দু ও মুসলমান সম্প্রদায় দুটি স্বতন্ত্র জাতি, যাদের ধর্ম, সংস্কৃতি, ঐতিহ্য এবং জীবনধারা মৌলিকভাবে ভিন্ন। এই তত্ত্বের মাধ্যমে তিনি উত্তর-পশ্চিম ভারতে মুসলমানদের জন্য একটি পৃথক রাষ্ট্র গঠনের ধারণা উত্থাপন করেন। যা পরবর্তীতে পাকিস্তান আন্দোলনের ভিত্তি হয়ে ওঠে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 72,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "কোন বছর পাকিস্তান সরকার বাংলাকে অন্যতম রাষ্ট্রভাষা হিসেবে স্বীকৃতি দেয়?",
       "options": [
         "১৯৫২",
@@ -1156,12 +1228,13 @@
       "ans": 2,
       "explain": "১৯৫৬ সালের ১৬ ফেব্রুয়ারি পাকিস্তান জাতীয় পরিষদ উর্দুর পাশাপাশি বাংলাকে রাষ্ট্রভাষা হিসেবে স্বীকৃতি দেয়। পরবর্তীতে, ১৯৫৬ সালের ২৩ মার্চ পাকিস্তানের প্রথম সংবিধান কার্যকর হওয়ার মাধ্যমে আনুষ্ঠানিকভাবে উর্দুর পাশাপাশি বাংলা অন্যতম রাষ্ট্রভাষা হিসেবে স্বীকৃতি পায়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 73,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "‘তমুদ্দিন-মজলিস’-এর নেতা জনাব আবুল কাশেম ঢাকা বিশ্ববিদ্যালয়ের কোন বিষয়ের শিক্ষক ছিলেন?",
       "options": [
         "রসায়ন বিজ্ঞান",
@@ -1172,12 +1245,13 @@
       "ans": 3,
       "explain": "অধ্যক্ষ আবুল কাশেম ১৯৪৬ সালে ঢাকা বিশ্ববিদ্যালয়ে পদার্থবিজ্ঞান বিভাগের প্রভাষক হিসেবে যোগ দেন। তার উদ্যোগে ১৯৪৭ সালের ১ সেপ্টেম্বর ঢাকায় প্রতিষ্ঠিত হয় তমুদ্দিন মজলিশ।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 74,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "স্বাধীন বাংলা বেতার কেন্দ্রের জনপ্রিয় অনুষ্ঠান ‘জল্লাদের দরবার’ এর রচয়িতা কে ছিলেন?",
       "options": [
         "কল্যাণ মিত্র",
@@ -1188,12 +1262,13 @@
       "ans": 0,
       "explain": "স্বাধীন বাংলা বেতার কেন্দ্রের অন্যতম দুটি জনপ্রিয় অনুষ্ঠানের মধ্যে একটি হলো- জল্লাদের দরবারে। অনুষ্ঠানটি পরিচালনা করতেন কল্যাণ মিত্র। এতে ইয়াহিয়া খানকে ‘কেল্লা ফতেখান’ হিসেবে ফুটিয়ে তোলা হয়। অন্য অনুষ্ঠানটি হলো চরমপত্র সেরে উপস্থাপনায় ছিলেন এম আর আখতার মুকুল।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 75,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "কোন তারিখে আসাদুজ্জামান আসাদ পুলিশের গুলিতে শহিদ হন?",
       "options": [
         "১৮ জানুয়ারি ১৯৬৯",
@@ -1204,12 +1279,13 @@
       "ans": 1,
       "explain": "১৯৬৮ সালের নভেম্বর ডিসেম্বরে ছাত্র জনতার অসন্তোষ ১৯৬৯ এ এসে গণ-অভ্যূত্থানে রূপ নেয়। ১৯৬৯ সালের ২০ জানুয়ারি ঢাকা মেডিকেল কলেজ হাসপাতালের সামনে একটি প্রতিবাদ মিছিলের সময় পুলিশের গুলিতে ঢাকা বিশ্ববিদ্যালয়ের ইতিহাস বিভাগের ছাত্র আসাদ শহীদ হয়। এই দিনটি (২০ জানুয়ারি) প্রতিবছর আসাদ দিবস হিসেবে পালিত হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 76,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "‘ঢাকা প্রকাশ’ সাপ্তাহিক পত্রিকাটির প্রথম সম্পাদক কে?",
       "options": [
         "কৃষ্ণচন্দ্র মজুমদার",
@@ -1220,12 +1296,13 @@
       "ans": 0,
       "explain": "ঢাকা থেকে প্রকাশিত প্রথম বাংলা সংবাদপত্র হলো ঢাকা প্রকাশ। পত্রিকাটি প্রথম সংখ্যা বের হয় ১৮৬১ সালের ৭ মার্চ। প্রথম সম্পাদক হলেন কবি কৃষ্ণচন্দ্র মজুমদার।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 77,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "সেরিকালচার বলতে বোঝায়-",
       "options": [
         "তুলা চাষ",
@@ -1236,12 +1313,13 @@
       "ans": 2,
       "explain": "সেরিকালচার (Sericulture) বলতে রেশম পোকা পালন এবং রেশম উৎপাদনের প্রক্রিয়াকে বোঝায়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 78,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "ছায়া প্রেমী (shadow loving) অর্থনৈতিক ফসল কোনটি?",
       "options": [
         "আখ",
@@ -1252,12 +1330,13 @@
       "ans": 3,
       "explain": "চা গাছ সরাসরি রোদ সহ্য করতে পারে না। এটি ছায়াযুক্ত বা আংশিক ছায়াযুক্ত পরিবেশে ভালো জন্মায়। তাই একে ছায়াপ্রেমী ফসল বলে। ধান, আখ এবং তামাক উষ্ণ ও আদ্র জলবায়ুর ফসল। এই ফসলসমূহ ফলাতে পর্যাপ্ত সূর্যালোক প্রয়োজন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 79,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "বিগত ৫০ বছরে বাংলাদেশে কোন ফসলের চাষ তুলনামূলকভাবে সবচেয়ে বেশি বৃদ্ধি পেয়েছে?",
       "options": [
         "ভূট্টা",
@@ -1268,12 +1347,13 @@
       "ans": 0,
       "explain": "স্বাধীনতার পর থেকে বাংলাদেশের ধানের উৎপাদন তিন গুণেরও বেশি, গম দ্বিগুণ, সবজি পাঁচ গুণ এবং ভুট্টার উৎপাদন বেড়েছে ১০ গুণ।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 80,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "২০২২ সালের জনশুমারি অনুযায়ী বাংলাদেশের জনসংখ্যা-",
       "options": [
         "প্রায় ঊনিশ কোটি",
@@ -1284,12 +1364,13 @@
       "ans": 3,
       "explain": "২০২৩ সালের নভেম্বরে প্রকাশিত ২০২২ সালের চূড়ান্ত জনশুমারি অনুযায়ী বাংলাদেশের মোট জনসংখ্যা ১৬ কোটি ৯৮ লাখ ২৮ হাজার ৯১১ জন (প্রায় ১৭ কোটি)। উল্লেখ্য, জনশুমারি-২০২২ এর প্রাথমিক ফলাফল অনুযায়ী জনসংখ্যা ১৬ কোটি ৫১ লাখ ৫৮ হাজার ৬১৬ জন (প্রায় সাড়ে ষোলো কোটি)।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 81,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "ক্ষুদ্রঋণ কার্যক্রম বাংলাদেশের গ্রামীণ অর্থনীতিতে প্রধানত-",
       "options": [
         "দারিদ্র হ্রাস করে",
@@ -1300,12 +1381,13 @@
       "ans": 0,
       "explain": "ক্ষুদ্রঋণ কার্যক্রম দেশের আর্থ-সামাজিক উন্নয়নে সহায়তা করে। ক্ষুদ্রঋণ কর্মসূচির অন্যতম প্রধান লক্ষ্য হলো ক্ষুদ্র উদ্যোক্তা সৃষ্টি করে দারিদ্র্য বিমোচনে ভূমিকা রাখা। দারিদ্র্য বিমোচন, নারীর ক্ষমতায়ন ও সামাজিক উন্নয়নে ক্ষুদ্রঋণের অবদান উল্লেখযোগ্য।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 82,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "বর্তমানে পৃথিবীর কোন দেশে বেশি প্রবাসী বাংলাদেশি কর্মরত রয়েছে?",
       "options": [
         "সৌদি আরব",
@@ -1316,12 +1398,13 @@
       "ans": 0,
       "explain": "২০২৩-২৪ অর্থবছরে সৌদি আরবে গিয়েছে ৫২৬০৩৮ কর্মী। যা অন্যান্য দেশের মধ্যে সর্বোচ্চ। অর্থনৈতিক সমীক্ষা ২০২৪ অনুযায়ী বিভিন্ন দেশে প্রবাসীদের সংখ্যা উল্লেখ করা হলো-\n\n\n\n\t\n\t\t\n\t\t\tঅবস্থান\n\t\t\tদেশ\n\t\t\tপ্রবাসী\n\t\t\n\t\t\n\t\t\t১ম\n\t\t\tসৌদি আরব\n\t\t\t৫২৬০৩৮ জন\n\t\t\n\t\t\n\t\t\t২য়\n\t\t\tমালয়েশিয়া\n\t\t\t২৪৮৭১৪ জন\n\t\t\n\t\t\n\t\t\t৩য়\n\t\t\tসংযুক্ত আরব আমিরাত\n\t\t\t৮৩৪৬৯ জন\n\t\t\n\t\n\n\nইতালিতে খুবই কম সংখ্যক প্রবাসী কর্মী যায়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 83,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "বাংলাদেশের মতো উন্নয়নশীল দেশগুলোর ক্ষেত্রে মূল্যস্ফীতি সহনশীল মাত্রা হলো-",
       "options": [
         "০৬-০৮ শতাংশ",
@@ -1332,12 +1415,13 @@
       "ans": 0,
       "explain": "উন্নয়নশীল দেশগুলো যেমন বাংলাদেশ অর্থনৈতিক প্রবৃদ্ধি বজায় রাখার জন্য একটি সীমিত পরিমাণের মূল্যস্ফীতি (Inflation) গ্রহণযোগ্য মনে করে। \nসাধারণভাবে, উন্নয়নশীল দেশের জন্য মূল্যস্ফীতির সহনশীল মাত্রা ধরা হয় ৬–৮%। \n৬–৮% এর বেশি হলে মুদ্রাস্ফীতি (Hyperinflation) হতে পারে, যা দারিদ্র্য ও মূল্য স্থিতিশীলতার জন্য ক্ষতিকর।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 84,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "বাংলাদেশ ব্যাংকের রিজার্ভ থেকে চুরি করা অর্থ পাচার করা হয়-",
       "options": [
         "যুক্তরাষ্ট্র ও ইন্দোনেশিয়ায়",
@@ -1348,12 +1432,13 @@
       "ans": 3,
       "explain": "২০১৬ সালের ফেব্রুয়ারিতে যুক্তরাষ্ট্রের ফেডারেল রিজার্ভ ব্যাংক অফ নিউইয়র্কে রিজার্ভে থাকা বাংলাদেশ ব্যাংকের রিজার্ভ থেকে ১০১ মিলিয়ন ডলার চুরি হয়। যার মধ্যে ২০ মিলিয়ন ডলার শ্রীলংকায় ও ৮০ মিলিয়ন ডলার ফিলিপাইনে স্থানান্তরের সন্ধান পাওয়া যায়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 85,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "অর্থ পাচারের কারণ নয় কোনটি?",
       "options": [
         "অবৈধভাবে উপার্জিত অর্থ গোপন করা",
@@ -1364,12 +1449,13 @@
       "ans": 1,
       "explain": "অর্থ পাচারের কারণসমূহের মধ্যে রয়েছে- দুর্নীতি, আইনের শাসনের দুরবস্থা, বিনিয়োগ পরিবেশ প্রতিকূলে থাকা, রাজনৈতিক অস্থিতিশীলতা, রাষ্ট্রীয় সংস্থাগুলোর দুর্বল নজরদারি ইত্যাদি। কর ফাঁকি দেওয়ার মাধ্যমে অর্থ পাচার হতে পারে কিন্তু কর ফাঁকি না দিয়ে তা সম্ভব নয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 86,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "বাংলাদেশ কোন দুটি দেশ হতে সিংহভাগ সয়াবিন তেল আমদানী করে?",
       "options": [
         "মালয়েশিয়া ও ইন্দোনেশিয়া",
@@ -1380,12 +1466,13 @@
       "ans": 3,
       "explain": "IndexBox, বাংলাদেশের সয়াবিন তেল বাজার প্রতিবেদন ২০২৫ অনুযায়ী, বাংলাদেশ সিংহভাগ সয়াবিন তেল আর্জেন্টিনা ও ব্রাজিল থেকে আমদানি করে, যারা বিশ্বের শীর্ষ সয়াবিন তেল উৎপাদক। ২০২৪ সালে ব্রাজিল থেকে বাংলাদেশের আমদানি পরিমাণ প্রায় ১,৪১,৪০০ টন (১.৪১ লাখ টন)। ২০২৩ সালে বাংলাদেশ মোট সয়াবিন তেল আমদানি করেছিল প্রায় ১২ লাখ টন (১.২ মিলিয়ন টন), যার মধ্যে আর্জেন্টিনা থেকে প্রায় ৩.০৮ লাখ টন আমদানি করা হয় এবং ব্রাজিল থেকে উল্লেখযোগ্য অংশ (মোট আমদানির প্রায় ৮৬% এই দুই দেশ থেকে)।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 87,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "বিশ্বব্যাংকের মতে বাংলাদেশের মূল্যস্ফীতি বাড়ার কারণ নয় কোনটি?",
       "options": [
         "বৈদেশিক মুদ্রা বৃদ্ধি পাওয়া",
@@ -1396,12 +1483,13 @@
       "ans": 0,
       "explain": "বিশ্বব্যাংকের মতে বাংলাদেশের মূল্যস্ফীতি বাড়ার কারণ নয় বৈদেশিক মুদ্রা বৃদ্ধি পাওয়া। অভ্যন্তরীণ জ্বালানির মূল্যবৃদ্ধি, দুর্বল মুদ্রানীতি, টাকার অবমূল্যায়ন ইত্যাদি কারণে বাংলাদেশের মূল্যস্ফীতি বৃদ্ধি পায়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 88,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "বাংলাদেশের বৃহত্তম সার কারখানার নাম-",
       "options": [
         "ইউরিয়া ফার্টিলাইজার ফ্যাক্টরি লিমিটেড",
@@ -1412,12 +1500,13 @@
       "ans": 2,
       "explain": "বাংলাদেশের বৃহত্তম সার কারখানার নাম পলাশ ইউরিয়া ফার্টিলাইজার কোম্পানি লিমিটেড। ঘোড়াশাল ইউরিয়া ফার্টিলাইজার ফ্যাক্টরি লিমিটেড ও পলাশ ইউরিয়া ফার্টিলাইজার ফ্যাক্টরি লিমিটেড একীভূত করে ২০২১ সালে গঠন করা হয় ঘোড়াশাল পলাশ ফার্টিলাইজার পাবলিক লিমিটেড কোম্পানি। এটি দক্ষিণ এশিয়ার বৃহত্তম সার কারখানা।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 89,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "কোন অনুচ্ছেদ মূলে বাংলাদেশের সংবিধানের মৌলিক বিধানাবলি পরিবর্তনযোগ্য নয়?",
       "options": [
         "অনুচ্ছেদ ৭",
@@ -1428,12 +1517,13 @@
       "ans": 3,
       "explain": "অনুচ্ছেদ ৭(খ) অনুসারে বাংলাদেশের সংবিধানের মৌলিক বিধানাবলি পরিবর্তনযোগ্য নয়। উল্লেখ্য, \nঅনুচ্ছেদ-৭: সংবিধানের প্রাধান্য\nঅনুচ্ছেদ-৭(ক): সংবিধান বাতিল, স্থগিতকরণ, ইত্যাদি অপরাধ।\nঅনুচ্ছেধ-৭(খ): সংবিধানের মৌলিক বিষয়াবলি সংশোধনের অযোগ্য।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 90,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "বাংলাদেশের সংবিধানের রক্ষাকর্তা-",
       "options": [
         "প্রেসিডেন্ট",
@@ -1444,12 +1534,13 @@
       "ans": 2,
       "explain": "বাংলাদেশ সংবিধানের রক্ষাকর্তা বাংলাদেশ সুপ্রীম কোর্ট। সুপ্রীম কোর্টকে সংবিধানের রক্ষক, অভিভাবক ও ব্যাখ্যাকারী হিসেবে অভিহিত করা হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 91,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "তত্ত্বাবধায়ক সরকার ব্যবস্থা পুনঃপ্রবর্তনের জন্য সংবিধানের যে সংশোধন বাতিল করতে হবে-",
       "options": [
         "পঞ্চদশ",
@@ -1460,12 +1551,13 @@
       "ans": 0,
       "explain": "তত্ত্বাবধায়ক সরকার ব্যবস্থা পুনঃপ্রবর্তনের জন্য সংবিধানের পঞ্চদশ সংশোধনী বাতিল করতে হবে। ৫ম, ৭ম এবং ১৫তম (আংশিক) সংশোধনীগুলো হাইকোর্ট কর্তৃক বাতিল করা হয়েছে। এ পর্যন্ত বাংলাদেশের সংবিধানে ১৭টি সংশোধনী আনা হয়েছে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 92,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "জুলাই শহিদ দিবস কোনটি?",
       "options": [
         "০১ জুলাই",
@@ -1476,12 +1568,13 @@
       "ans": 3,
       "explain": "জুলাই শহিদ দিবস ১৬ জুলাই। জুলাই গণ-অভ্যুত্থান দিবস ০৫ আগস্ট। ৫ আগস্টের প্রতীকী নাম ৩৬ জুলাই। উল্লেখ্য, জুলাই কন্যা দিবস ১৪ জুলাই।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 93,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "বর্তমানে অন্তবর্তী সরকারের প্রধান উপদেষ্টা কবে শপথ গ্রহণ করেন?",
       "options": [
         "২০২৪ সালের ০৫ আগস্ট",
@@ -1492,12 +1585,13 @@
       "ans": 1,
       "explain": "বর্তমানে অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা ড. মুহাম্মদ ইউনূস ২০২৪ সালের ০৮ আগস্ট শপথ গ্রহণ করেন। উপদেষ্টা পরিষদের বর্তমান মোট সদস্য সংখ্যা ২৩ জন যার মধ্যে নারী উপদেষ্টা ০৪ জন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 94,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "বাংলাদেশে মোট কতবার জরুরি অবস্থা জারী করা হয়েছে?",
       "options": [
         "৫ বার",
@@ -1508,12 +1602,13 @@
       "ans": 0,
       "explain": "বাংলাদেশের ইতিহাসে মোট ০৫ বার জরুরি অবস্থা জারি করা হয়। ১৯৭৪ সালের ২৮ ডিসেম্বর, ১৯৭৫ সালের ২৫ জুন, ১৯৮১ সালের ৩০ মে, ১৯৮৭ সালের ২৭ নভেম্বর এবং ২০০৭ সালের ১১ জানুয়ারি মোট ৫ বার বাংলাদেশে জরুরি অবস্থা (State of Emergency) জারি করা হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 95,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "ঢাকা বিশ্ববিদ্যালয় বিল কত সালে আইনে পরিণত হয়?",
       "options": [
         "০৭ মার্চ ১৯১৭",
@@ -1524,12 +1619,13 @@
       "ans": 1,
       "explain": "ঢাকা বিশ্ববিদ্যালয় বিল ১৮ মার্চ, ১৯২০ সালে আইনে পরিণত হয় এবং উক্ত আইনের অধীনে ১৯২১ সালের ১লা জুলাই একটি আবাসিক বিশ্ববিদ্যালয় হিসেবে কার্যক্রম শুরু হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 96,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "একুশে পদক ও স্বাধীনতা পদক দুটোই পেয়েছেন-",
       "options": [
         "ভাস্কর শামীম শিকদার",
@@ -1540,12 +1636,13 @@
       "ans": 3,
       "explain": "ভাস্কর নভেরা আহমেদ ১৯৯৭ খ্রিষ্টাব্দে একুশে পদক পান, তবে তিনি এটি গ্রহণ করেননি। ২০২৫ সালে শিল্পকলায় অবদানের স্বীকৃতিস্বরূপ বাংলাদেশের সর্বোচ্চ বেসামরিক সম্মাননা স্বাধীনতা পুরস্কারে (মরনোত্তর) ভূষিত হন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 97,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "বাংলাদেশের প্রশাসনিক কাঠামো-",
       "options": [
         "বিকেন্দ্রীভূত",
@@ -1556,12 +1653,13 @@
       "ans": 3,
       "explain": "বাংলাদেশের প্রশাসনিক কাঠামো মূলত কেন্দ্রীভূত। কারণ অধিকাংশ সিদ্ধান্ত ও ক্ষমতা কেন্দ্রীয়ভাবে সরকারের হাতে ন্যস্ত থাকে। যদিও স্থানীয় সরকার ব্যবস্থার মাধ্যমে বিকেন্দ্রীকরণের প্রচেষ্টা রয়েছে। তবে, ঢাকা-কেন্দ্রিক সিদ্ধান্ত গ্রহণ প্রক্রিয়া স্থানীয় পর্যায়ে সমস্যা সমাধানে বিলম্ব ঘটায়। ফলে প্রশাসনিক কার্যকারিতা কমে যায়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 98,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "টেস্ট ক্রিকেটে প্রথম বাংলাদেশি হিসেবে ডাবল সেঞ্চুরি করেন-",
       "options": [
         "সাকিব-আল-হাসান",
@@ -1572,12 +1670,13 @@
       "ans": 3,
       "explain": "প্রথম বাংলাদেশি হিসেবে টেস্ট ক্রিকেটে ডাবল সেঞ্চুরি করেন মুশফিকুর রহিম। ২০১৩ সালে শ্রীলঙ্কার বিপক্ষে গল টেস্টে তিনি প্রথম বাংলাদেশি হিসেবে ডাবল সেঞ্চুরির কীর্তি গড়েন। এছাড়াও তিনি ২০১৮ সালে শের-ই-বাংলা ক্রিকেট স্টেডিয়ামে জিম্বাবুয়ের বিপক্ষে ২১৯ রানের অপরাজিত ইনিংস খেলেন এবং একই মাঠে ২০২০ সালে জিম্বাবুয়ের বিপক্ষে ২০৩ রানের অপরাজিত ইনিংস খেলেন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 99,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "১৯৭৫ সালে একদলীয় শাসন ব্যবস্থায় কোন পত্রিকাটি নিষিদ্ধ ছিল?",
       "options": [
         "দৈনিক ইত্তেফাক",
@@ -1588,12 +1687,13 @@
       "ans": 2,
       "explain": "১৯৭৫ সালে দৈনিক গণকণ্ঠ পত্রিকাটি সরকার বিরোধী সাহসী অবস্থানের কারণে নিষিদ্ধ হয়েছিল। পত্রিকাটির প্রতিষ্ঠাতা সম্পাদক আল মাহমুদকে গ্রেফতার করা হয়। ঢাকা বিশ্ববিদ্যালয়ের অধ্যাপক আফতাব আহমদ এই পত্রিকাটির কার্যনির্বাহী সম্পাদক ছিলেন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 100,
       "topicsId": 52,
+      "subject": "BANGLADESH-AFFAIRS",
       "q": "ওয়াসফিয়া নাজরীন বিখ্যাত-",
       "options": [
         "অ্যাথলেট হিসেবে",
@@ -1604,12 +1704,13 @@
       "ans": 2,
       "explain": "ওয়াসফিয়া নাজরীন বাংলাদেশের সর্বকনিষ্ঠ এবং ২য় নারী হিসেবে ২০১২ সালের ২৬ মে সর্বোচ্চ শৃঙ্গ এভারেস্টের চূড়ায় আরোহণ করেন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 101,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "সম্প্রতি পেরুতে খুঁজে পাওয়া ৩৫০০ বছরের পুরোনো শহরের নাম কী?",
       "options": [
         "মাচুপিচু",
@@ -1620,12 +1721,13 @@
       "ans": 2,
       "explain": "পেনিকো নগরটি পেরুর রাজধানী লিমার উত্তরে হুয়াওরা প্রদেশে অবস্থিত। এটি ৩৫০০ বছরের বেশি আগে সমৃদ্ধ বাণিজ্যিক কেন্দ্র হিসেবে গড়ে ওঠা একটি প্রাচীন শহর। এটি একটি কৌশলগত নগরকেন্দ্র, যা সুপে উপত্যকার উপকূলীয় জনগোষ্ঠীকে আন্দিজ পর্বতমালা ও আমাজনের ভেতরের বসতির সঙ্গে যুক্ত করেছিল। নগরটি সমুদ্রপৃষ্ঠ থেকে ৬০০ মিটার উচ্চতায় তৈরি হয়েছিল।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 102,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "১৯৪৭ সালে প্যালেস্টাইনকে বিভাজনের পরিকল্পনা জাতিসংঘের কোন প্রস্তাবের মাধ্যমে গৃহীত হয়?",
       "options": [
         "১৮০ নং প্রস্তাব",
@@ -1636,12 +1738,13 @@
       "ans": 1,
       "explain": "১৯৪৭ সালের ২৯ নভেম্বর জাতিসংঘের ১৮১ নং প্রস্তাবের মাধ্যমে সিদ্ধান্ত হয়েছিল যে নির্ধারিত অঞ্চল নিয়ে ১৯৪৮ সালের ১ আগস্টের পর ফিলিস্তিন ভূখণ্ডে যুক্তরাজ্যের ম্যান্ডেট শেষ হলে এক সময়ের ওসমানীয় সাম্রাজ্যের ফিলিস্তিন অঞ্চল ভাগ হয়ে ইহুদি রাষ্ট্র প্রতিষ্ঠিত হবে। এই প্রস্তাব ছিল দ্বিতীয় বিশ্বযুদ্ধের পর নবগঠিত জাতিসংঘের প্রথম বড় এবং ঐতিহাসিক সিদ্ধান্ত। উত্থাপিত প্রস্তাবে উপস্থিত রাষ্ট্রগুলোর মধ্যে ৩৩টি পক্ষে, ১৩টি বিপক্ষে এবং ১০টি দেশ ভোট দানে বিরত ছিল।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 103,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "নিম্নের কোন দেশটি ‘গোলান হাইটস্‌’ বিরোধের একটি পক্ষ?",
       "options": [
         "লেবানন",
@@ -1652,12 +1755,13 @@
       "ans": 2,
       "explain": "গোলান মালভূমি সিরিয়ার দক্ষিণ-পশ্চিমে অবস্থিত প্রায় ১৮০০ বর্গ কিলোমিটার আয়তনের একটি পাথুরে মালভূমি। ১৯৬৭ সালে ছয় দিনের যুদ্ধে ইসরায়েল গোলান হাইটসে্‌র ১২০০ বর্গ কি.মি. এলাকা দখল করে নেয়। বর্তমানে গোলান হাইটস্‌ নিয়ে সিরিয়া ও ইসরায়েলের মধ্য দ্বন্দ্ব চলমান।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 104,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "নিচের কোন সভ্যতার সময়কালে ওজন পরিমাপ ও দৈর্ঘ্য মাপার পদ্ধতি আবিষ্কার হয়েছিল?",
       "options": [
         "সিন্ধু সভ্যতা",
@@ -1668,12 +1772,13 @@
       "ans": 0,
       "explain": "আজ থেকে ৩৫০০ বছর পূর্বে দ্রাবিড়গণ সিন্ধু সভ্যতা প্রতিষ্ঠা করেন। এই সভ্যতার সময়কালে ওজন পরিমাপ ও দৈর্ঘ্য মাপার পদ্ধতি আবিষ্কৃত হয়েছিল। সিন্ধু সভ্যতার অধিবাসীগণ ওজন পরিমাপের জন্য বাটখারা এবং দৈর্ঘ্য মাপার জন্য স্কেল ব্যবহার করতো।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 105,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "ন্যাটো (NATO) চার্টারের কোন ধারায় সম্মিলিত প্রতিরক্ষার কথা উল্লেখ আছে?",
       "options": [
         "আর্টিকেল-২",
@@ -1684,12 +1789,13 @@
       "ans": 2,
       "explain": "North Atlantic Treaty Organization (NATO) ১৯৪৯ সালের ৪ এপ্রিল প্রতিষ্ঠিত হয়। ন্যাটোর আর্টিকেল-৫ হলো ন্যাটো সনদের নিরাপত্তা বিষয়ক একটি ধারা। এ ধারা অনুযায়ী কোনো সদস্য রাষ্ট্রের উপর সশস্ত্র হামলা হলে তাকে জোটের সকল সদস্য রাষ্ট্রের ওপর হামলা হিসেবে গণ্য করা হবে এবং প্রত্যেক সদস্য রাষ্ট্র আক্রান্ত সদস্য রাষ্ট্রকে সামরিক বা অন্যান্য প্রয়োজনীয় সহায়তা প্রদান করবে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 106,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "রোম সংবিধি (Rome Statute) এর ফলে কোন সংস্থাটি প্রতিষ্ঠিত হয়?",
       "options": [
         "International Court of Justice (ICJ)",
@@ -1700,12 +1806,13 @@
       "ans": 1,
       "explain": "১৯৯৮ সালে রোম সংবিধির মাধ্যমে International Criminal Court (ICC) প্রতিষ্ঠিত হয়। ICC ২০০২ সালে একটি স্থায়ী আদালত হিসেবে কাজ শুরু করে। আন্তর্জাতিক অপরাধ আদালত জাতিসংঘের কোনো অঙ্গ প্রতিষ্ঠান নয়। এটি একটি স্বাধীন প্রতিষ্ঠান।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 107,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "কোন দেশগুলো মেডিসিন লাইন/সীমানা দ্বারা বিভক্ত?",
       "options": [
         "ব্রাজিল ও বলিভিয়া",
@@ -1716,12 +1823,13 @@
       "ans": 1,
       "explain": "49th Parallel সমান্তরাল বরাবর অবস্থিত। এটিকে মেডিসিন লাইন বলা হয়। যুক্তরাষ্ট্র ও কানাডা এ মেডিসিন লাইন/সীমানা দ্বারা বিভক্ত ।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 108,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "বাংলাদেশ কখন নারীর বিরুদ্ধে সকল প্রকার বৈষম্য (CEDAW) দূরীকরণ সনদে সম্মতি জানায়?",
       "options": [
         "১০ ডিসেম্বর ১৯৮৪",
@@ -1732,12 +1840,13 @@
       "ans": 1,
       "explain": "CEDAW (Convention on the Elimination of All Forms of Discrimination Against Women) ১৯৭৯ সালে গৃহীত হয় এবং ১৯৮১ সালে কার্যকর হয়। ৩০ অনুচ্ছেদ সম্বলিত এ সনদে বাংলাদেশ ১৯৮৪ সালের ৬ নভেম্বর গৃহীত হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 109,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "যুক্তরাষ্ট্রের পরিচালিত ‘অপারেশন মিডনাইট হ্যামার’ ইরানে কবে হামলা করে?",
       "options": [
         "২০ জুন ২০২৫",
@@ -1748,12 +1857,13 @@
       "ans": 2,
       "explain": "‘অপারেশন মিডনাইট হ্যামার’ নামে বিমান হামলা চালায় ২০২৫ সালের ২২ জুন ইরানের আল উদেইদ বিমান ঘাঁটিতে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 110,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "ইরানের ফার্দো (Fordow) পারমাণবিক সমৃদ্ধকরণ কেন্দ্রটি কোন প্রদেশে অবস্থিত?",
       "options": [
         "ইসফাহান",
@@ -1764,12 +1874,13 @@
       "ans": 0,
       "explain": "ইরানের ফার্দো (Fordow) পারমাণবিক সমৃদ্ধকরণ কেন্দ্রটি ‘কোম’ প্রদেশে অবস্থিত। এটি তেহেরানের উত্তরে ১৪০ কি.মি. দূরে অবস্থিত।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 111,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "আফগানিস্তানের তালেবান সরকারকে বৈধ কর্তৃপক্ষ হিসেবে স্বীকৃতি প্রদানকারী প্রথম রাষ্ট্র কোনটি?",
       "options": [
         "ইরাক",
@@ -1780,12 +1891,13 @@
       "ans": 2,
       "explain": "৪ জুলাই, ২০২৫ সালে আফগানিস্তানের তালেবান সরকারকে বৈধ কর্তৃপক্ষ হিসেবে স্বীকৃতি প্রদানকারী প্রথম রাষ্ট্র রাশিয়া।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 112,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "‘The One Big Beautifull Bill Act’ এ USA হতে remittance প্রেরণ করতে কী পরিমাণ কর ধার্য করা হয়েছে?",
       "options": [
         "৫%",
@@ -1796,12 +1908,13 @@
       "ans": 2,
       "explain": "‘The One Big Beautifull Bill Act’ ১ জুলাই ২০২৫ সালে পাস হয়। এতে USA হতে Remittance প্রেরণ করতে হলে ১% কর দিতে হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 113,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "কিয়োটো প্রটোকলের বিষয়বস্তু কী?",
       "options": [
         "ওজোনস্তরের ক্ষয় হ্রাস",
@@ -1812,12 +1925,13 @@
       "ans": 3,
       "explain": "১৯৯৭ সালে জাপানের কিয়োটোতে গ্রিন হাউস গ্যাস নির্গমন হ্রাস করার জন্য কিয়োটো প্রটোকল চুক্তি গৃহীত হয় এবং ২০০৫ সালে এটি কার্যকর হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 114,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "বিশ্ব পরিবেশ দিবস কোনটি?",
       "options": [
         "৫ জুন",
@@ -1828,12 +1942,13 @@
       "ans": 0,
       "explain": "৫ জুনকে ১৯৭২ সালে স্টকহোম সম্মেলনে বিশ্ব পরিবেশ দিবস হিসেবে ঘোষণা করা হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 115,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "Climate Vulnerable Form (CVF) কবে প্রতিষ্ঠিত হয়?",
       "options": [
         "২০০৮",
@@ -1844,12 +1959,13 @@
       "ans": 1,
       "explain": "Climate Vulnerable Form (CVF) ২০০৯ সালে প্রতিষ্ঠিত হয়। প্রতিষ্ঠাতা সদস্য ১১টি। বর্তমান সদস্য সংখ্যা ৫৫টি।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 116,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "ভারত ও পাকিস্তানের মধ্যে সিন্ধু নদের পানিবণ্টন চুক্তি কবে সম্পাদিত হয়?",
       "options": [
         "১৯৬০",
@@ -1860,12 +1976,13 @@
       "ans": 0,
       "explain": "বিশ্ব ব্যাংকের মধ্যস্থতায় ১৯৬০ সালের ১৯ সেপ্টেম্বর পাকিস্তানের করাচিতে ভারত ও পাকিস্তানের মধ্যে সিন্ধু নদের পানিবণ্টন চুক্তি সম্পাদিত হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 117,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "UNOPS এর পূর্ণরূপ কী?",
       "options": [
         "United Nations Organization for Peace and Security",
@@ -1876,12 +1993,13 @@
       "ans": 2,
       "explain": "United Nations Office for Project Service (UNOPS) ১৯৭৩ সালে এটি প্রতিষ্ঠিত হয়। ১৯৯৫ সালে স্বাধীন সংস্থা হিসেবে কাজ শুরু করে। এর সদর দপ্তর-কোপেন হেগেন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 118,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "বর্তমানে অর্থনীতির ব্যাপ্তি অনুসারে বিশ্বের বৃহত্তম অর্থনৈতিক জোট কোনটি?",
       "options": [
         "EU",
@@ -1892,12 +2010,13 @@
       "ans": 2,
       "explain": "Regional Comprehensive Economic Partnership (RCEP)-এর GDP ও অর্থনীতির ব্যাপ্তি EU এর তুলনায় বেশি। প্রশ্নে যেহেতু বর্তমানের অর্থনীতির ব্যাপ্তি অনুসারে জানতে চাওয়া হয়েছে সেহেতু RCEP হবে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 119,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "জাতিসংঘের বিশ্ব পর্যটন সংস্থা বা জাতিসংঘ পর্যটন (পূর্বতন UNWTO) এর সদর দপ্তর কোথায়?",
       "options": [
         "তুরিন, ইতালি",
@@ -1908,12 +2027,13 @@
       "ans": 1,
       "explain": "UNWTO-এর সদর দপ্তর মাদ্রিদ, স্পেনে। এটি ১ নভেম্বর ১৯৭৫ সালে প্রতিষ্ঠিত হয়। এর সদস্য রাষ্ট্র-৬০টি।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 120,
       "topicsId": 52,
+      "subject": "INTERNATIONAL-AFFAIRS",
       "q": "কোন দেশটি OPEC এর সদস্য নয়?",
       "options": [
         "ইন্দোনেশিয়া",
@@ -1924,12 +2044,13 @@
       "ans": 2,
       "explain": "OPEC (Organization of the Petroleum Exporting Countries) ১৯৬০ সালে প্রতিষ্ঠিত তেল সরবরাহকারী দেশসমূহের একটি সংগঠন। ইন্দোনেশিয়া, নাইজেরিয়া, গ্যাবন এর সদস্য। বাংলাদেশ OPEC এর সদস্য নয়। OPEC-এর বর্তমান সদস্য ১২টি দেশ। পূর্বে ছিল ১৩টি । অ্যাঙ্গোলা ২০২৪ সালে সংগঠনটি থেকে বের হয়ে যায়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 121,
       "topicsId": 52,
+      "subject": "GEOGRAPHY-ENVIRONMENT-AND-DIGESTER-MANAGEMENT",
       "q": "বাংলাদেশের দীর্ঘতম স্থলসীমান্ত ভারতের কোন রাজ্যের সাথে?",
       "options": [
         "মেঘালয়",
@@ -1940,12 +2061,13 @@
       "ans": 2,
       "explain": "বিজিবির তথ্য অনুযায়ী ভারতের ৫টি রাজ্যের সাথে বাংলাদেশের মোট ৪১৫৬ কি.মি. সীমান্ত বিদ্যমান। যার মধ্যে বাংলাদেশের সাথে পশ্চিমবঙ্গের ২২১৬.৭ কি.মি. সীমান্ত বিদ্যমান।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 122,
       "topicsId": 52,
+      "subject": "GEOGRAPHY-ENVIRONMENT-AND-DIGESTER-MANAGEMENT",
       "q": "প্রতি \n৩\n০\n৩\n০\n∘\n দ্রাঘিমার স্থানান্তরে সময়ের ব্যবধান কত মিনিট হয়?",
       "options": [
         "১৫ মিনিট",
@@ -1956,12 +2078,13 @@
       "ans": 3,
       "explain": "পৃথিবী ২৪ ঘণ্টায়  ৩৬০৩৬০∘\\mathrm{৩৬০^\\circ} ঘোরে, অর্থাৎ প্রতি ১ ঘণ্টা বা ৬০ মিনিটে পৃথিবী ১৫১৫∘\\mathrm{১৫^\\circ} দ্রাঘিমাংশ ঘোরে।\n∴ প্রতি  ১১∘\\mathrm{১^\\circ} দ্রাঘিমাংশের জন্য সময়ের পার্থক্য হয় ৬০১৫৪=(৬০÷১৫)=৪\\mathrm{=(৬০÷১৫)=৪} মিনিট \nসুতরাং,  ৩০৩০∘\\mathrm{৩০^\\circ}  দ্রাঘিমা স্থানান্তরে সময়ের ব্যবধান হবে ৩০৪১২০=(৩০×৪)=১২০\\mathrm{=(৩০×৪)=১২০} মিনিট।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 123,
       "topicsId": 52,
+      "subject": "GEOGRAPHY-ENVIRONMENT-AND-DIGESTER-MANAGEMENT",
       "q": "বাংলাদেশের ভৌগোলিক অবস্থান কোন দুটি গুরুত্বপূর্ণ সামুদ্রিক করিডরের মাঝখানে?",
       "options": [
         "মালাক্কা ও হরমুজ প্রাণালী",
@@ -1972,12 +2095,13 @@
       "ans": 0,
       "explain": "মালাক্কা ও হরমুজ এই প্রণালী দুটির মধ্যবর্তী অংশে অবস্থিত দেশগুলো হচ্ছে ইন্দোনেশিয়া, মালয়েশিয়া, সিঙ্গাপুর, থাইল্যান্ড, মিয়ানমার, ভারত, বাংলাদেশ, শ্রীলঙ্কা, পাকিস্তান, ওমান ও ইরান।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 124,
       "topicsId": 52,
+      "subject": "GEOGRAPHY-ENVIRONMENT-AND-DIGESTER-MANAGEMENT",
       "q": "হিমালয় পর্বতমালার উদ্ভব কোন দুটি টেকটোনিক প্লেটের সংঘর্ষে হয়েছে?",
       "options": [
         "ইউরেশিয়ান ও আফ্রিকান",
@@ -1988,12 +2112,13 @@
       "ans": 1,
       "explain": "ভূতাত্ত্বিক গবেষণা অনুসারে প্রায় ৫ কোটি বছর আগে ভারত মহাসাগরের তলদেশসহ ভারতীয় উপমহাদেশ ছিল ইন্দো-অস্ট্রেলিয়ান প্লেটের অংশ। পরবর্তীতে ইন্দো-অস্ট্রেলিয়ান প্লেট হতে ইন্ডিয়ান প্লেট ও অস্ট্রেলিয়ান প্লেটের সৃষ্টি হয় এবং ইন্ডিয়ান প্লেট ও ইউরেশিয়ান প্লেটের সংঘর্ষে হিমালয় পর্বতের সৃষ্টি হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 125,
       "topicsId": 52,
+      "subject": "GEOGRAPHY-ENVIRONMENT-AND-DIGESTER-MANAGEMENT",
       "q": "বায়ুমণ্ডলের কোন স্তরে ওজোন গ্যাসের স্তর অবস্থান করে?",
       "options": [
         "ট্রপোমণ্ডল",
@@ -2004,12 +2129,13 @@
       "ans": 2,
       "explain": "ট্রপোবিরতির উপরের দিকে প্রায় ৫০ কি.মি. পর্যন্ত স্ট্র্যাটোমণ্ডল অবস্থিত। ওজোন (O3)\\mathrm{(O_3)} গ্যাসের প্রায় ৯০% এই স্ট্র্যাটোমণ্ডলে অবস্থিত।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 126,
       "topicsId": 52,
+      "subject": "GEOGRAPHY-ENVIRONMENT-AND-DIGESTER-MANAGEMENT",
       "q": "ভূতাত্বিক গঠন অনুযায়ী বাংলাদেশের কোন অঞ্চলে সবচেয়ে পুরাতন শিলা গঠন পাওয়া যায়?",
       "options": [
         "সিলেট",
@@ -2020,12 +2146,13 @@
       "ans": 1,
       "explain": "বাংলাদেশের সবচেয়ে পুরাতন শিলা গঠন পাওয়া যায় দিনাজপুর, নওগাঁ ও রাজশাহী জেলায় যা প্রাক্-ক্যাম্ব্রিয়ান যুগের গ্রানাইট ও গনাইস জাতীয় শিলা দিয়ে গঠিত; যেগুলোর আনুমানিক বয়স প্রায় ১০০০ মিলিয়ন বছর। [বাংলাদেশের সবচেয়ে প্রাচীন ভূমিরূপ হচ্ছে টারশিয়ারি যুগের পাহাড়সমূহ যা পার্বত্য চট্টগ্রামে অবস্থিত এবং সেগুলোর আনুমানিক বয়স ৬৬ মিলিয়ন থেকে ২.৬ মিলিয়ন বছর পূর্বে]",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 127,
       "topicsId": 52,
+      "subject": "GEOGRAPHY-ENVIRONMENT-AND-DIGESTER-MANAGEMENT",
       "q": "কনরাড বিযুক্তি ভূ-অভ্যন্তরের কোন স্তরসমূহের মাঝে অবস্থান করে?",
       "options": [
         "সিয়াল ও সিমা",
@@ -2036,12 +2163,13 @@
       "ans": 0,
       "explain": "ভূপৃষ্ঠ থেকে কেন্দ্র পর্যন্ত যেখানে যেখানে ভূমিকম্প তরঙ্গের গতিবেগ পরিবর্তিত হয়, সে স্থানগুলোকে বিযুক্তি রেখা বলে। সিয়াল গঠিত হয় সিলিকা ও অ্যালুমিনিয়াম দ্বারা এবং সিমা গঠিত হয় সিলিকা ও ম্যাগনেশিয়াম দ্বারা। যে সীমান্তে সিয়াল ও সিমা এর ঘনত্বের পরিবর্তন ঘটে, সেটিই কনরাড বিযুক্তি রেখা।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 128,
       "topicsId": 52,
+      "subject": "GEOGRAPHY-ENVIRONMENT-AND-DIGESTER-MANAGEMENT",
       "q": "বাংলাদেশের উত্তর পশ্চিমাঞ্চলের প্রধান খনিজ সম্পদ কোনটি?",
       "options": [
         "চুনাপাথর",
@@ -2052,12 +2180,13 @@
       "ans": 2,
       "explain": "বাংলাদেশে এখন পর্যন্ত আবিষ্কৃত কয়লা ক্ষেত্র হচ্ছে ৫টি। এগুলো হলো জামালগঞ্জ, খালাসপীর, ফুলবাড়ী, দীঘিপাড়া ও বড়পুকুরিয়া। এই ক্ষেত্রগুলোতে প্রাপ্ত কয়লার মজুদ প্রায় ৭,৮২৩ মিলিয়ন টন। সবকটি কয়লা ক্ষেত্রই বাংলাদেশের উত্তর-পশ্চিমাঞ্চলের রংপুর, দিনাজপুর ও জয়পুরহাট জেলায় অবিস্থত।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 129,
       "topicsId": 52,
+      "subject": "GEOGRAPHY-ENVIRONMENT-AND-DIGESTER-MANAGEMENT",
       "q": "এল নিনো বাংলাদেশ ও দক্ষিণ পূর্ব এশিয়ার আঞ্চলিক আবহাওয়ায় কীভাবে প্রভাব ফেলে?",
       "options": [
         "শীতকালীন তাপমাত্রা বৃদ্ধি",
@@ -2068,12 +2197,13 @@
       "ans": 1,
       "explain": "শক্তিশালী এল নিনোর প্রভাবে বিশ্বের অনেক অঞ্চলের তাপমাত্রা ৪২৪২∘\\mathrm{৪২^\\circ} সেলসিয়াসের উপরে উঠে গেছে এবং বাংলাদেশে ইতিমধ্যে ৪০৪০∘\\mathrm{৪০^\\circ} সেলসিয়াস ছাড়িয়েছে, যা গ্রীষ্মকালীন তাপমাত্রা বৃদ্ধিকে নির্দেশ করে। এল নিনোর বছরগুলোতে গঙ্গা-মেঘনা-ব্রহ্মপুত্র অববাহিকায় অনিয়মিত বৃষ্টিপাত ঘটে, ফলে খরা দেখা দেয়। উদাহরণ ১৯৮২-৮৩ ও ১৯৯৭ সালের খরা। এল নিনোর বছরগুলোতে অনিয়মিত বৃষ্টিপাতের কারণে বাংলাদেশে মারাত্মক পানি সংকট দেখা দেয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 130,
       "topicsId": 52,
+      "subject": "GEOGRAPHY-ENVIRONMENT-AND-DIGESTER-MANAGEMENT",
       "q": "বাংলাদেশের ‘দুর্যোগ ব্যবস্থাপনা আইন’ কবে প্রণীত হয়?’",
       "options": [
         "২০০৫",
@@ -2084,12 +2214,13 @@
       "ans": 2,
       "explain": "বাংলাদেশের দূর্যোগ ব্যবস্থাপনা আইন প্রণীত হয় ২৪ সেপ্টেম্বর, ২০১২ সালে। [উৎস: bdlaws.minlaw.gov.bd]",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 131,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "তরঙ্গের বেলায় কোনটি সত্য?",
       "options": [
         "তড়িৎ চৌম্বকতরঙ্গ আলোর বেগে গমন করে",
@@ -2100,12 +2231,13 @@
       "ans": 0,
       "explain": "আলো একটি তড়িৎচৌম্বক তরঙ্গ এবং শূন্যস্থানে সব তড়িৎচৌম্বক তরঙ্গ আলোর বেগে চলে যা্র মান 3×108\\mathrm{3×10^8} মিটার/সেকেন্ড। শব্দ হলো যান্ত্রিক তরঙ্গ, যা জড় ও স্থিতিস্থাপক মাধ্যমে কণার কম্পনের দ্বারা ছড়িয়ে পড়ে। প্রতিফলন, প্রতিসরণ, ব্যতিচার প্রভৃতি তরঙ্গের একটি সাধারণ ধর্ম। প্রকৃতপক্ষে তরঙ্গবেগ, কম্পাঙ্ক ও তরঙ্গদৈর্ঘ্যের মধ্যে সম্পর্ক হল, তরঙ্গবেগ = কম্পাঙ্ক ×× তরঙ্গদৈর্ঘ্য, অর্থাৎ v=f×λ\\mathrm{v=f×λ}। \nসব মিলিয়ে একমাত্র সঠিক উত্তর হলো- (ক) তড়িৎচৌম্বক তরঙ্গ আলোর বেগে গমন করে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 132,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "হিগের কণার (Higgs Particle) প্রকৃতির সাথে কোন বাংলাদেশি বিজ্ঞানীর নাম জড়িয়ে আছে?",
       "options": [
         "স্যার জগদীশ চন্দ্র বসু",
@@ -2116,12 +2248,13 @@
       "ans": 1,
       "explain": "হিগস বোসন হলো একটি মৌলিক কণা, যা পদার্থবিজ্ঞানের স্ট্যান্ডার্ড মডেল অনুযায়ী, পদার্থের ভর সৃষ্টির জন্য দায়ী। হিগস বোসন কণার নামকরণ ও তার ধারণার সাথে জড়িত ছিলেন বাঙালি বিজ্ঞানী সত্যেন্দ্রনাথ বসু, যিনি ঢাকা বিশ্ববিদ্যালয়ের অধ্যাপক ছিলেন। যদিও হিগস বোসন কণা আবিষ্কারে তার প্রত্যক্ষ অবদান ছিল না, তাঁর 'বোসন পরিসংখ্যান' তত্ত্বের ওপর ভিত্তি করেই এই কণার নামকরণ করা হয়।  \nসত্যেন্দ্রনাথ বসুর অবদান:\n● বোস-আইনস্টাইন পরিসংখ্যান: \nবিজ্ঞানী আলবার্ট আইনস্টাইনের সাথে যৌথভাবে “বোস-আইনস্টাইন পরিসংখ্যান” তত্ত্ব উপস্থাপন করেন, যা পদার্থবিজ্ঞানের একটি গুরুত্বপূর্ণ ভিত্তি তৈরি করে। \n● বোসনের নামকরণ: \nএই পরিসংখ্যানের ওপর ভিত্তি করে বিভিন্ন মৌলিক কণার বৈশিষ্ট্য ব্যাখ্যা করার সময় অন্যান্য পদার্থবিজ্ঞানীরা তাঁদের কণার নাম ‘বোসন’ রাখেন, যার মাধ্যমে সত্যেন্দ্রনাথ বসুর অবদানকে সম্মান জানানো হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 133,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "কোন গ্যাস গ্রিন হাউস ইফেক্ট ঘটায়?",
       "options": [
         "হাইড্রোজেন",
@@ -2132,12 +2265,13 @@
       "ans": 3,
       "explain": "গ্রিনহাউস ইফেক্ট (বা গ্রিনহাউস প্রভাব) হলো একটি প্রাকৃতিক প্রক্রিয়া যেখানে বায়ুমণ্ডলের গ্রিনহাউস গ্যাস (যেমন: কার্বন ডাই অক্সাইড, মিথেন, জলীয় বাষ্প) পৃথিবী থেকে বিকিরিত তাপকে শোষণ করে এবং বায়ুমণ্ডলের নিচের স্তরে ফিরিয়ে দেয়, যার ফলে পৃথিবীর তাপমাত্রা বৃদ্ধি পায়। এই প্রক্রিয়াটি পৃথিবীর গড় তাপমাত্রা বজায় রাখতে এবং প্রাণের বিকাশে সহায়তা করে, তবে অতিরিক্ত গ্রিনহাউস গ্যাসের কারণে তাপমাত্রা বেড়ে গেলে তা বৈশ্বিক উষ্ণতা বৃদ্ধি ও জলবায়ু পরিবর্তনের কারণ হয়। সব গ্যাস এই প্রভাব সৃষ্টি করতে পারে না। হাইড্রোজেন, নাইট্রোজেন ও অক্সিজেন সাধারণত বায়ুর প্রধান উপাদান হলেও, এরা তাপীয় বিকিরণ শোষণ করতে না পারায় গ্রিনহাউস প্রভাব সৃষ্টি করে না। অন্যদিকে, মিথেন (CH4)\\mathrm{(CH_4)} একটি শক্তিশালী গ্রিনহাউস গ্যাস, যা সূর্যের আলো দ্বারা উত্তপ্ত তাপকে বায়ুমণ্ডলে ধরে রাখে এবং পৃথিবীর উষ্ণতা বৃদ্ধি করে। তাই গ্রিনহাউস প্রভাব ঘটানোর ক্ষমতাসম্পন্ন গ্যাস হলো মিথেন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 134,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "বিরল ভূতল খনিজ (Rare-Earth Minerals) সম্পর্কিত কোন তথ্যটি সঠিক?",
       "options": [
         "এর মধ্যে ১৫টি ধাতু রয়েছে",
@@ -2148,12 +2282,13 @@
       "ans": 2,
       "explain": "বিরল মৃত্তিকা বা রেয়ার আর্থ (Rare Earth) খনিজ হলো ১৭টি ধাতব মৌলের সমষ্টি। এই ১৭টি উপাদান হলো ল্যান্থানাইড সিরিজের ১৫টি মৌল (ল্যান্থানাম থেকে লুটেসিয়াম), স্ক্যান্ডিয়াম ও ইট্রিয়াম। এগুলো ইলেকট্রিক গাড়ি, মোবাইল ফোন, ক্ষেপণাস্ত্রব্যবস্থা এবং অন্যান্য উচ্চ প্রযুক্তির পণ্য তৈরিতে ব্যবহৃত হয়। এই বিরল-মৃত্তিকা উপাদানগুলো (বিশেষত নিওডিমিয়াম ও সামারিয়াম) অন্যান্য উপাদানের সাথে মিশিয়ে অত্যন্ত শক্তিশালী স্থায়ী চুম্বক তৈরি করা হয়, যা \"বিরল-মৃত্তিকা চুম্বক\" নামে পরিচিত। বিশ্বের মোট বিরল খনিজের ৬০ শতাংশ আকরিকের নিয়ন্ত্রণ চীনের হাতে। ওয়াশিংটনভিত্তিক সাময়িকী দ্য ডিপ্লোম্যাট বলছে, ৮৫ শতাংশ আকরিকের উৎপাদন চীনের নিয়ন্ত্রণে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 135,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "কোন ধাতু পানিতে ফেললে আগুন ধরে যায়?",
       "options": [
         "সোডিয়াম",
@@ -2164,12 +2299,13 @@
       "ans": 0,
       "explain": "যখন কিছু ধাতু পানি বা আর্দ্র পরিবেশের সঙ্গে সংস্পর্শে আসে, তখন তারা তীব্র প্রতিক্রিয়া দেখাতে পারে। এর মধ্যে সোডিয়াম একটি অত্যন্ত প্রতিক্রিয়াশীল ধাতু। পানি বা আর্দ্রতার সঙ্গে মিশে সোডিয়াম তাত্ক্ষণিকভাবে তাপ উৎপন্ন করে এবং কখনও কখনও আগুন ধরে যায়। অন্যদিকে, ম্যাগনেসিয়াম শক্তিশালী উত্তাপে জ্বলে, কিন্তু সাধারণ পানির সঙ্গে তা সহজে প্রতিক্রিয়া দেখায় না। রেডিয়াম এবং ইউরেনিয়াম তেজস্ক্রিয় কঠিন পদার্থ এবং পানি বা আর্দ্রতার সংস্পর্শে আগুন ধরে যাওয়ার মতো প্রতিক্রিয়া দেখায় না। সুতরাং, যে ধাতুটি পানিতে ফেললে আগুন ধরে যায়, তা হলো সোডিয়াম (Na)।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 136,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "EPI-এর পূর্ণরূপ কী?",
       "options": [
         "Extended Program on immunization",
@@ -2180,12 +2316,13 @@
       "ans": 1,
       "explain": "সম্প্রসারিত টিকাদান কর্মসূচি (ইংরেজি: Expanded Program on Immunization সংক্ষেপে EPI) হল বিশ্ব স্বাস্থ্য সংস্থা (WHO) কর্তৃক পরিচালিত টিকাদান কর্মসূচি যার লক্ষ্য সারা পৃথিবীর সকল শিশুকে এ কর্মসূচির অধীন নিয়ে আসা। WHO বিশ্বব্যাপী শিশুদের টিকা কর্মসূচির অংশ হিসেবে ১৯৭৪ সালের মে মাসে সম্প্রসারিত টিকাদান কর্মসূচি শুরু করে । এটি জাতিসংঘের সদস্যরাষ্ট্রগুলিতে শিশুদের সংক্রামক রোগগুলির বিরুদ্ধে টিকাদানের মাধ্যমে শিশু মৃত্যুহার কমানোর জন্য বিশ্ব স্বাস্থ্য সংস্থা পরিচালিত একটি চলমান কর্মসূচি। ৭ এপ্রিল ১৯৭৯ সালে বাংলাদেশে ১ বছরের কম বয়সী সকল শিশুদের বহুল পরিচালিত সংক্রামক রোগ যেমন- যক্ষ্মা, ডিপথেরিয়া, হুপিংকাশি, হাম, পোলিও-মাইটিস এবং মা ও নবজাতকের ধনুষ্টংকার বিষয়ে কাজ শুরুকরে। পরবর্তীকালে এর অধীনে ২০০৩ সাল থেকে হেপাটাইটিস রোগের টিকা, ২০০৯ সাল থেকে হিমোফাইলাস রোগের টিকা দেওয়া হচ্ছে। ২০১৫ সাল থেকে নিউমোনিয়ার (ফুসফুস প্রদাহ) টিকা দেওয়া হচ্ছে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 137,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "কোন স্পেস টেলিস্কোপ ২০২১ সালে হাবল টেলিস্কোপের স্থলাভিষিক্ত হয়?",
       "options": [
         "জেমস ওয়েব",
@@ -2196,12 +2333,13 @@
       "ans": 0,
       "explain": "২০২১ সালে মহাকাশ বিজ্ঞানের ইতিহাসে একটি গুরুত্বপূর্ণ ধাপ হিসেবে হাবল স্পেস টেলিস্কোপের স্থলাভিষিক্ত হিসেবে নতুন একটি স্পেস টেলিস্কোপ চালু করা হয়। এটি হলো জেমস ওয়েব স্পেস টেলিস্কোপ (James Webb Space Telescope), যা হাবলের তুলনায় বহুগুণ উন্নত প্রযুক্তি এবং প্রধানত ইনফ্রারেড বর্ণালীতে পর্যবেক্ষণ করার ক্ষমতা রাখে। জেমস ওয়েব টেলিস্কোপের উদ্দেশ্য হলো মহাবিশ্বের প্রাথমিক নক্ষত্র ও গ্যালাক্সি চিহ্নিত করা, সৌরজগতের বাইরের গ্রহসমূহ (exoplanet) বিশ্লেষণ করা এবং মহাবিশ্বের গঠন ও বিবর্তন সম্পর্কিত গুরুত্বপূর্ণ তথ্য সংগ্রহ করা। অন্যান্য টেলিস্কোপ যেমন পাথ ফাইন্ডার, স্পিটজার এবং জন কেপলারও বিভিন্ন ধরনের মহাকাশ গবেষণার জন্য ব্যবহৃত হলেও, এগুলো হাবলের সরাসরি স্থলাভিষিক্ত নয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 138,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "QR কোডে ব্যবহৃত হয়-",
       "options": [
         "তড়িৎ চৌম্বকত্ব",
@@ -2212,12 +2350,13 @@
       "ans": 3,
       "explain": "QR কোড হলো একটি দ্বিমাত্রিক বারকোড, যা তথ্য দ্রুত এবং নির্ভুলভাবে সংরক্ষণ ও পুনরুদ্ধারের জন্য ব্যবহৃত হয়। QR কোডের তথ্য পড়তে বিশেষ ধরনের অপটিক্যাল রিডিং প্রযুক্তি ব্যবহার করা হয়। অর্থাৎ, লাইট বা লেজারের মাধ্যমে কোডের প্যাটার্ন স্ক্যান করা হয় এবং সফটওয়্যার এই প্যাটার্ন থেকে তথ্য ডিকোড করে। QR কোডের কাজ তড়িৎ চৌম্বকত্ব, রেডিও ফ্রিকুয়েন্সি বা কোয়ান্টাম কম্পিউটিং-এর উপর নির্ভর করে না। তাই, QR কোডের জন্য প্রযোজ্য প্রযুক্তি হলো অপটিক্যাল রিডিং।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 139,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "ইথার সম্বন্ধে কোনটি মিথ্যা?",
       "options": [
         "এটি একটি রাসায়নিক তরল পদার্থ",
@@ -2228,12 +2367,13 @@
       "ans": 0,
       "explain": "আলোর তাড়িৎচৌম্বক তত্ত্ব আসার আগ পর্যন্ত মনে করা হতো কোনো তরঙ্গই মাধ্যম ছাড়া চলতে পারে না, তখন আলোক তরঙ্গ চলাচলের জন্য “ইথার” কে মাধ্যম হিসেবে বিবেচনা করা হতো।এই তত্ত্ব অনুযায়ী ইথার মাধ্যম ছিল স্থিতিস্থাপক, ওজনহীন, স্বচ্ছ এক আদর্শ মাধ্যম। পরবর্তীতে মাইকেলসন-মর্লি পরীক্ষার মাধ্যমে প্রমান করেন যে, বাস্তবে ইথার নামক কোন কিছুর অস্তিত্ব নেই এবং মাধ্যম ছাড়াও তাড়িৎচৌম্বক তরঙ্গ চলাচল করতে পারে।\nঅন্যদিকে, ইথার হলো এক শ্রেণির জৈব যৌগ যেখানে একটি অক্সিজেন পরমাণু দুটি অ্যালকাইল বা অ্যারাইল গ্রুপের সাথে যুক্ত থাকে, এবং এদের সাধারণ সংকেত R-O-R′। ইথার সাধারণত তরল পদার্থ হওয়ায় জৈব দ্রাবক হিসেবে ব্যবহৃত হয় এবং এটি চর্বি, তেল, মোম, এবং রেজিনের মতো উপাদান দ্রবীভূত করতে পারে। এছাড়াও সুগন্ধী, চেতনানাশক এবং ঔষধ হিসেবেও এর ব্যবহার রয়েছে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 140,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "আল্ট্রাসনোগ্রাফিতে ব্যবহৃত শব্দের কম্পাঙ্ক কত?",
       "options": [
         "০.০১-০১ মেগাহার্জ",
@@ -2244,12 +2384,13 @@
       "ans": 1,
       "explain": "শব্দতরঙ্গের মাধ্যমে শরীরের অভ্যন্তরের ছবি পর্দায় দৃশ্যমান করার পদ্ধতির নাম আল্ট্রাসনোগ্রাফি। পার্শ্বপ্রতিক্রিয়া না থাকায় চিকিৎসা বিজ্ঞানে আলট্রাসনোগ্রামের ব্যবহার দিন দিন বৃদ্ধি পেয়েছে। রোগ নির্ণয়ে গ্রহণযোগ্য ও জনপ্রিয় আলট্রাসনোগ্রাম পরীক্ষা।এই পদ্ধতিতে ব্যবহৃত শব্দ তরঙ্গের কম্পাঙ্ক সাধারণত ১–১০ মেগাহার্জ থাকে। উচ্চ কম্পাঙ্কের তরঙ্গগুলি শরীরের অভ্যন্তরীণ কাঠামো থেকে প্রতিফলিত হয়ে ডিভাইসের মাধ্যমে ধরা হয়, যা সুনির্দিষ্ট ও পরিষ্কার চিত্র প্রদানে সহায়তা করে। অতএব, আল্ট্রাসনোগ্রাফিতে ব্যবহৃত শব্দ তরঙ্গের কম্পাঙ্কের পরিসীমা ১–১০ মেগাহার্জ।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 141,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "কোনটি শরীরে নাইট্রোজেন সরবরাহ করে?",
       "options": [
         "খনিজ লবণ",
@@ -2260,12 +2401,13 @@
       "ans": 3,
       "explain": "মানবদেহে কোষ গঠন, টিস্যুর বিকাশ ও বিভিন্ন জৈবিক প্রক্রিয়ায় নাইট্রোজেন একটি অত্যন্ত গুরুত্বপূর্ণ মৌল। নাইট্রোজেন সরবরাহের প্রধান উৎস হলো আমিষ বা প্রোটিন, কারণ প্রোটিন অণু অ্যামিনো অ্যাসিড দিয়ে গঠিত যার প্রতিটিতেই নাইট্রোজেন পরমাণু থাকে। এই অ্যামিনো অ্যাসিডগুলি দেহে এনজাইম, হরমোন, হিমোগ্লোবিন এবং অন্যান্য গুরুত্বপূর্ণ জৈব অণু সংশ্লেষণে ব্যবহৃত হয়। অন্যদিকে, খনিজ লবণ, ভিটামিন বা স্নেহপদার্থ (চর্বি) সরাসরি নাইট্রোজেন সরবরাহ করে না। তাই দেহের বৃদ্ধি, কোষের পুনরুদ্ধার ও বিপাকীয় নিয়ন্ত্রণের জন্য আমিষ অপরিহার্য ভূমিকা পালন করে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 142,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "হাইড্রোজেন বোমায় ক্রিয়া করে-",
       "options": [
         "ফিশন বিক্রিয়া",
@@ -2276,12 +2418,13 @@
       "ans": 1,
       "explain": "হাইড্রোজেন বোমা একটি থার্মোনিউক্লিয়ার অস্ত্র, যা পারমাণবিক ফিউশন প্রক্রিয়ার মাধ্যমে শক্তি উৎপন্ন করে। এটি মূলত দুই ধাপে কাজ করে। প্রথমে একটি পারমাণবিক বোমার ফিশন বিস্ফোরণ ব্যবহার করা হয়, যা ফিউশন বিক্রিয়ার জন্য প্রয়োজনীয় প্রচণ্ড তাপ ও চাপ সৃষ্টি করে। এই তাপ ও চাপে হাইড্রোজেন আইসোটোপ, যেমন ডিউটেরিয়াম এবং ট্রিটিয়াম, একত্রিত হয়ে আরও ভারী পরমাণু তৈরি করে, যা বিপুল পরিমাণে শক্তি ও নিউট্রন নির্গত করে। \nপ্রথম ধাপ (ফিশন): প্রথমে, বোমার ভিতরে একটি ছোট পারমাণবিক বোমা (যা নিউক্লিয়ার ফিশন বা পারমাণবিক বিভাজন প্রক্রিয়ায় কাজ করে) বিস্ফোরিত হয়। এই বিস্ফোরণটি অত্যন্ত উচ্চ তাপমাত্রা (কয়েক মিলিয়ন ডিগ্রি সেলসিয়াস) এবং প্রচণ্ড চাপ তৈরি করে।\nদ্বিতীয় ধাপ (ফিউশন): প্রথম ধাপের বিস্ফোরণ থেকে সৃষ্ট এই চরম তাপমাত্রা ও চাপই নিউক্লিয়ার ফিউশন বা পারমাণবিক সংযোজন বিক্রিয়া শুরু করার জন্য প্রয়োজনীয় পরিবেশ তৈরি করে। এই পর্যায়ে, হাইড্রোজেনের আইসোটোপ (যেমন ডিউটেরিয়াম এবং ট্রিটিয়াম) একত্রিত হয়ে হিলিয়াম নিউক্লিয়াসে পরিণত হয় এবং ফিশন বিক্রিয়ার চেয়ে বহুগুণ বেশি শক্তি নির্গত করে।\nসুতরাং, ফিশন বিক্রিয়াটি মূলত ফিউশন বিক্রিয়াকে সক্রিয় করার জন্য একটি ট্রিগার বা সূচনাকারী হিসেবে কাজ করে। একারণে হাইড্রোজেন বোমায় উভয় বিক্রিয়াই ঘটে থাকে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 143,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "কোন গ্রহে 'Curiosity' মহাকাশযানটি প্রেরণ করা হয়?",
       "options": [
         "শনি",
@@ -2292,12 +2435,13 @@
       "ans": 1,
       "explain": "মঙ্গলগ্রহের কিউরিওসিটি রোভার (The Mars Curiosity Rover) হলো নাসা পরিচালিত একটি গাড়ির সমআকৃতির ভ্রাম্যমাণ রোবোটিক পরীক্ষাগার, যা ২০১২ সাল হতে মঙ্গলগ্রহের গেল ক্রেটার ও মাউন্ট শার্প অঞ্চলে অনুসন্ধান করে আসছে। এই রোভারের প্রাথমিক উদ্দেশ্য হলো প্রাচীন মাইক্রোবিয়াল জীবন ধারণের জন্য গ্রহটির পরিবেশগত অবস্থা অনুকূল ছিল কিনা তা নির্ধারণ করা। ইতিমধ্যেই এটি জীবনের জন্য প্রয়োজনীয় উপাদান এবং প্রাচীন হ্রদের উপস্থিতি সনাক্ত করেছে এবং বর্তমানে মঙ্গলের পরিবর্তনশীল জলবায়ু ও ভূতাত্ত্বিক অবস্থা বোঝার জন্য গবেষণা চালিয়ে যাচ্ছে।\nপ্রধান তথ্য:\n● মিশন: নাসার মঙ্গল গ্রহ বিজ্ঞান ল্যাবরেটরি মিশন\n● উৎক্ষেপণের তারিখ: ২৬ নভেম্বর, ২০১১\n● অবতরণ তারিখ: ৬ আগস্ট, ২০১২\n● অবস্থান: গেল ক্রেটার ও মাউন্ট শার্প অঞ্চল\n● আকার: প্রায় একটি ছোট SUV-এর সমান\n● শক্তি উৎস: রেডিওআইসোটোপ পাওয়ার জেনারেটর।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 144,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "ফিটকিরিতে কত অণু পানি থাকে?",
       "options": [
         "২৪",
@@ -2308,12 +2452,13 @@
       "ans": 0,
       "explain": "ফিটকিরি, যা পটাশ অ্যালাম নামেও পরিচিত, একটি প্রাকৃতিক খনিজ যা পানি বিশুদ্ধকরণ, ত্বকের বিভিন্ন সমস্যা (যেমন: ব্রণ, র‌্যাশ) দূরীকরণ, এবং আফটারশেভ হিসেবে ব্যবহার করা হয়। ফিটকিরির রাসায়নিক সংকেত হলো K2SO4.Al2(SO4)3.24H2O\\mathrm{K_2 SO_4.Al_2 (SO_4 )_3.24H_2 O} এবং রাসায়নিক নাম-পটাশিয়াম অ্যালুমিনিয়াম সালফেট। এটি অ্যান্টিসেপটিক ও অ্যান্টিব্যাকটেরিয়াল হিসেবে কাজ করে। এছাড়াও ফিটকিরি মুখের ঘা, বগলের দুর্গন্ধ দূর করতে, এবং শরীরের রক্ত সঞ্চালন বাড়াতেও ব্যবহৃত হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 145,
       "topicsId": 52,
+      "subject": "GENERAL-SCIENCE",
       "q": "“Necessary evil” কোনটি?",
       "options": [
         "প্রস্বেদন",
@@ -2324,12 +2469,13 @@
       "ans": 0,
       "explain": "উদ্ভিদ জীবনে প্রস্বেদন একটি অনিবার্য প্রক্রিয়া। যে প্রক্রিয়ার মাধ্যমে উদ্ভিদ তার দেহ থেকে অতিরিক্ত পানি বের করে দেয় তাকে প্রস্বেদন (Transpiration) বলে। প্রস্বেদন প্রক্রিয়া উদ্ভিদের জন্য অত্যন্ত গুরুত্বপূর্ণ এবং এর অনেক উপকারিতা রয়েছে। যেমন: এটি উদ্ভিদকে পানি ও খনিজ লবণ শোষণ ও পরিবহনে সাহায্য করে এবং উদ্ভিদের তাপমাত্রা নিয়ন্ত্রণ করে। তবে, এর কিছু ক্ষতিকর দিকও রয়েছে। প্রস্বেদনের ফলে উদ্ভিদ দেহ থেকে প্রচুর পানি বাষ্পাকারে বেরিয়ে যায়। যেমন: যদি প্রস্বেদনের মাধ্যমে পানি হারানোর হার মাটি থেকে পানি শোষণের হারের চেয়ে বেশি হয়, তাহলে উদ্ভিদে পানি ও খনিজ লবণের ঘাটতি দেখা দেয়। এই ঘাটতি গুরুতর হলে উদ্ভিদের মৃত্যুও হতে পারে। এই কারণে, প্রস্বেদন উদ্ভিদের বেঁচে থাকার জন্য অপরিহার্য হওয়া সত্ত্বেও, এর কিছু সম্ভাব্য ক্ষতিকর প্রভাবের জন্য একে “Necessary evil” বলা হয়ে থাকে। বিজ্ঞানী Curtis প্রস্বেদন কে necessary evil নামে অভিহিত করেছেন।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 146,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "একটি কম্পিউটারের প্রোসেসর ক্লক স্পিড ৪.০০ গিগা হার্জ হলে এর ক্লক মাইকেল টাইম কত?",
       "options": [
         "২.৫ ন্যানো সেকেন্ড (ns)",
@@ -2340,12 +2486,13 @@
       "ans": 0,
       "explain": "",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 147,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "Precision Agriculture এ সাধারণত নিচের কোন প্রযুক্তি ব্যবহৃত হয়?",
       "options": [
         "ইনফ্রা রেড ইমেজিং",
@@ -2356,12 +2503,13 @@
       "ans": 1,
       "explain": "Precision Agriculture মূলত ফসলের স্বাস্থ্য, মাটি, পানি ও অন্যান্য পরিবেশগত ফ্যাক্টর মনিটর করার জন্য উন্নত প্রযুক্তি ব্যবহার করে। এক্ষেত্রে IoT ও সেন্সর মাটি, তাপমাত্রা, আর্দ্রতা, পুষ্টি ও পানির সরবরাহ পর্যবেক্ষণ করতে ব্যবহৃত হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 148,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "অপারেটিং সিস্টেমে ভার্চুয়াল মেমোরি ব্যবহার করা হয়-",
       "options": [
         "অনেক বেশি ডেটা সংরক্ষণের জন্য",
@@ -2372,12 +2520,13 @@
       "ans": 2,
       "explain": "ভার্চুয়াল মেমোরি (Virtual Memory) হলো এমন একটি প্রযুক্তি যা সেকেন্ডারি স্টোরেজ ব্যবহার করে RAM বাড়িয়ে বিভিন্ন প্রোগ্রাম চালাতে সাহায্য করে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 149,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "কম্পিউটার সিস্টেমের বেঞ্চমার্কিং করা হয় কী পরিমাপের জন্য?",
       "options": [
         "সিস্টেমের দাম",
@@ -2388,12 +2537,13 @@
       "ans": 1,
       "explain": "কম্পিউটার সিস্টেমের বেঞ্চমার্কিং করা হয় মূলত সিস্টেমের কর্মদক্ষতা (Performance) পরিমাপের জন্য। বেঞ্চমার্কিং এর মাধ্যমে প্রসেসরের গতি, মেমোরি পারফরম্যান্স, ইনপুট আউটপুট কর্মদক্ষতা, গ্রাফিক্স পারফরম্যান্স ও সিস্টেমের সামগ্রিক দক্ষতা পরিমাপ করা হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 150,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "নিচের কোন ডিভাইসটি প্রধানত এম্বেডেড সিস্টেম ব্যবহৃত হয়?",
       "options": [
         "রাউটার",
@@ -2404,12 +2554,13 @@
       "ans": 3,
       "explain": "এমবেডেড সিস্টেমের প্রধান ডিভাইস হলো মাইক্রোকন্ট্রোলার। এটি নির্দিষ্ট একটি কাজ সম্পন্ন করে এবং আকারে ছোট। এমবেডেড সিস্টেমের উদাহরণ: মাইক্রোওয়েব ওভেন, ওয়াশিং মেশিন প্রভৃতি।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 151,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "ই-কমার্সে সুরক্ষিত অনলাইন লেনদেনে প্রধানত কোন প্রটোকল ব্যবহৃত হয়?",
       "options": [
         "DHCP",
@@ -2420,12 +2571,13 @@
       "ans": 2,
       "explain": "DHCP: এটি IP ঠিকানা বরাদ্দ করার প্রটোকল, তথ্যের সুরক্ষা বা লেনদেনের জন্য নয়।\nSMTP: ইমেইল পাঠানোর প্রটোকল।\nHTTPS: এটি ওয়েব ব্রাউজার ও সার্ভারের মধ্যে নিরাপদ যোগাযোগ নিশ্চিত করে। ডাটা এনক্রিপ্ট করা থাকে তাই তৃতীয় পক্ষ পড়তে পারেনা। ই-কমার্স লেনদেনে HTTPS ব্যবহৃত হয়।\nARP: IP ঠিকানাকে MAC ঠিকানায় রূপান্তর করার প্রটোকল।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 152,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "বিভিন্ন নেটওয়ার্কের মধ্যে যোগাযোগ স্থাপনের জন্য নিচের কোন ডিভাইসটি ব্যবহৃত হয়?",
       "options": [
         "রাউটার",
@@ -2436,12 +2588,13 @@
       "ans": 0,
       "explain": "রাউটার: বিভিন্ন নেটওয়ার্কের মধ্যে ডাটা প্যাকেট আকারে যোগাযোগ স্থাপনের জন্য ব্যবহার হয়। \nসুইচ: একই নেটওয়ার্কের আওতাধীন বিভিন্ন ডিভইসকে একত্রে কানেক্ট করে। সুইচ শুধু নির্দিষ্ট পোর্টেই ডাটা প্রেরণ করে।\nব্রিজ: একের অধিক নেটওয়ার্ককে একত্রে যুক্ত করে।\nহাব: একই নেটওয়ার্কের আওতাধীন বিভিন্ন ডিভাইসকে একত্রে কানেক্ট করে। হাব সকল পোর্টেই ডাটা প্রেরণ করে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 153,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "ক্লাউড কম্পিউটিং এর কোন মডেলটি অ্যাপ্লিকেশন তৈরি করার জন্য প্রোগ্রামারদেরকে প্লাটফর্ম সরবরাহ করে?",
       "options": [
         "laaS",
@@ -2452,12 +2605,13 @@
       "ans": 2,
       "explain": "ক্লাউড কম্পিউটিং এর সেবাসমূহ:\nInfrastructure as a Service (IaaS): ভার্চুয়াল মেশিন, ভার্চুয়াল স্টোরেজ, নেটওয়ার্ক ভাড়া দেয়। উদাহরণ: Amazon Elastic Compute Cloud (EC2) \nPlatform as a Service (PaaS): অ্যাপ্লিকেশন তৈরী করার জন্য সফটওয়্যার ডেভেলপার, ওয়েব ডেভেলপার ও প্রোগ্রামারদের প্লাটফর্ম সরবরাহ করে। উদাহরণ: গুগল অ্যাপ ইঞ্চিন। \nSoftware as a Service (SaaS): ইউজাররা সফটওয়্যার ক্রয় না করে মাসিক ভিত্তিতে সাবস্ক্রাইবের মাধ্যমে বিভিন্ন সফটওয়্যার সেবা গ্রহণ করতে পারে। উদাহরণ: Google Workspace.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 154,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "একটি কম্পিউটার সিস্টেমে \n১\n১\n০\n০\n১\n০\n১\n১\n২\n১\n১\n০\n০\n১\n০\n১\n১\n২\n  বাইনারি সংখ্যাটির মান ডেসিমেল এ কত হবে?",
       "options": [
         "৫\n২\n−\n৫\n২",
@@ -2468,12 +2622,13 @@
       "ans": 2,
       "explain": "বাইনারি সংখ্যা: 11001011\n1×27=1281×26=640×25=00×24=01×23=80×22=01×21=21×20=1\\mathrm{ \n 1 \\times 2^7=128 \\\\ \n1 \\times 2^6=64 \\\\ \n 0 \\times 2^5=0 \\\\ \n 0 \\times 2^4=0 \\\\ \n 1 \\times 2^3=8 \\\\ \n 0 \\times 2^2=0 \\\\ \n 1 \\times 2^1=2 \\\\ \n1 \\times 2^0=1}\nমানগুলো যোগ করে পাই, \n1+2+8+64+128=203∴(11001011)2=(203)10\\mathrm{1 + 2 + 8 + 64 + 128 = 203\\\\ \n∴(11001011)_2=(203)_{10} }",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 155,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "কোন CPU আর্কিটেকচার স্মার্টফোনে বেশি ব্যবহৃত হয়?",
       "options": [
         "X86",
@@ -2484,12 +2639,13 @@
       "ans": 3,
       "explain": "● RISC (Reduced Instruction Set Computing) ভিত্তিক CPU আর্কিটেকচার স্মার্টফোনে বেশি ব্যবহার হয়।\n● Qualcomm:  এটি কোনো আর্কিটেকচার নয়, এটি একটি কোম্পানি যারা Snapdragon Proccesor তৈরি করে।\n● X64/X86: Intel ও AMD এর CISC (Complex Instruction Set Computing) আর্কিটেকচার যা মূলত ল্যাপটপ ও ডেস্কটপে ব্যবহার হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 156,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "কম্পিউটার টার্ন অন এর সময় সঠিক অর্ডার নিচের কোনটি?",
       "options": [
         "POST → Kernel → Bootloadeer",
@@ -2500,12 +2656,13 @@
       "ans": 3,
       "explain": "● POST (Power On Self Test): কম্পিউটার চালু হওয়ার সাথে সাথে বিভিন্ন হার্ডওয়্যার (RAM, CPU, Keyboard ইত্যাদি) টেস্ট করে।\n● Bootloader: POST শেষ হলে Bootloader চালু হয়, যা অপারেটিং সিস্টেম লোড করার দায়িত্ব নেয়।\n● Kernel: Bootloader সঠিক Operating System খুঁজে বের করে Kernel মেমোরিতে লোড করে, যা পরে পুরো সিস্টেমকে চালু করে।\nসুতরাং সঠিক ক্রম: POST → Bootloader → Kernel.",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 157,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "কোন ধরনের Storage Device সবচেয়ে দ্রুত গতি সম্পন্ন?",
       "options": [
         "HDD",
@@ -2516,12 +2673,13 @@
       "ans": 2,
       "explain": "● Hard Disk Drive (HDD): মেকানিক্যাল ঘূর্ণায়মান ডিস্ক ব্যবহার হয়, গতি তুলনামূলক কম।\n● Solid State Drive (SSD): ফ্ল্যাশ মেমরি ব্যবহার করে, গতি অনেক বেশি।\n● Floppy Disk: পুরনো প্রযুক্তি, সবচেয়ে ধীর গতির।\n● Solid State Hybrid Drive (SSHD): গতি HDD এর থেকে বেশি কিন্তু SSD এর তুলনায় ধীর।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 158,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "ধরা যাক Algorithm A এর running time \nO\n(\n𝑛\n2\n)\n এবং Algorithm B এর running time O (n)। তাহলে নিচের কোনটি সবচেয়ে সঠিক?",
       "options": [
         "Algorithm A, Algorithm B এর চেয়ে ধীর গতির",
@@ -2532,12 +2690,13 @@
       "ans": 2,
       "explain": "বিভিন্ন রকম ইনপুটের ক্ষেত্রে Algorithm A -এর running time বর্গ আকারে বাড়বে কিন্তু Algorithm B -এর running time আনুপাতিক হারে বাড়বে।\nছোট ইনপুটের ক্ষেত্রে কখনো কখনো Algorithm A -এর running time, Algorithm B -এর running time অপেক্ষা দ্রুত হতে পারে। তবে n যদি যথেষ্ট বড় হয় (Asymptotically) তখন O(n2)\\mathrm{O(n^2) } সবসময় O(n) এর থেকে ধীর গতির হবে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 159,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "LLM চালানোর জন্য নিম্নোক্ত কম্পিউটারের কোন যন্ত্রাংশ সবচেয়ে বেশি গুরুত্বপূর্ণ?",
       "options": [
         "RAM",
@@ -2548,12 +2707,13 @@
       "ans": 2,
       "explain": "Large Language Model (LLM) চালানোর জন্য GPU এর মধ্যকার Graphics Card সবচেয়ে গুরুত্বপূর্ন যন্ত্রাংশ। কারণ LLM গুলোর ট্রেনিং করানোর সময় বড় পরিমাণ ম্যাট্রিক্স ও ভেক্টর গণনা করতে হয় এবং এক্ষেত্রে GPU এর প্রসেসিং ক্ষমতা CPU এর তুলনায় বেশি হয়ে থাকে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 160,
       "topicsId": 52,
+      "subject": "COMPUTER-AND-INFORMATION-TECHNOLOGY",
       "q": "Quantum Computing এর জনক কাকে মনে করা হয়?",
       "options": [
         "David Deutsch",
@@ -2564,12 +2724,13 @@
       "ans": 1,
       "explain": "1981 সালে Richard Feynman প্রথম বলেছিলেন যে, সাধারণ কম্পিউটার কোয়ান্টাম সিস্টেমের আচরণ সঠিকভাবে সিমুলেট (Simulate) করতে পারবে না। তিনি বলেছিলেন, কোয়ান্টাম কম্পিউটার ব্যবহার করে কোয়ান্টাম সিস্টেমের মডেলিং করা সম্ভব।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 161,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "0\n.\n6\n˙\n কে \n0\n.\n9\n˙\n  দ্বারা ভাগ করলে, নিচের কোনটি সঠিক?",
       "options": [
         "0\n.\n6\n˙",
@@ -2580,12 +2741,13 @@
       "ans": 0,
       "explain": "এখানে, 0.6˙=69\\mathrm{0.\\dot6=\\frac 69 } এবং 0.9˙=99=1\\mathrm{0.\\dot9=\\frac99=1 }\nতাহলে, 0.6˙÷0.9˙\\mathrm{0.\\dot6÷0.\\dot9}\n=0.6˙÷1=0.6˙\\mathrm{=0.\\dot6÷1 \\\\ \n=0.\\dot6 }",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 162,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "যদি কোনো বর্গক্ষেত্রের প্রত্যেক বাহুর পরিমাণ 10% বৃদ্ধি করা হয়, তবে তার ক্ষেত্রফল শতকরা কত বৃদ্ধি পাবে?",
       "options": [
         "20%",
@@ -2596,12 +2758,13 @@
       "ans": 2,
       "explain": "",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 163,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "100 টাকা 10% হারে 5 বছরের জন্য বিনিয়োগ করা হলে, সরল ও চক্রবৃদ্ধি মুনাফার পার্থক্য কত?",
       "options": [
         "10.05 টাকা",
@@ -2612,12 +2775,13 @@
       "ans": 1,
       "explain": "সরল মুনাফার ক্ষেত্র, \nআসল, P=100\\mathrm{P = 100} টাকা\nসময়, n=5\\mathrm{n = 5} বছর\nমুনাফার হার r=10%=10100=110\\mathrm{r = 10\\% = {10\\over 100}={1\\over 10}   } \nতাহলে, সরল মুনাফা, I=Pnr\\mathrm{I=Pnr}\n=100×5×110=50\\mathrm{=100×5×{1\\over 10} =50   }\nচক্রবৃদ্ধি মুনাফার ক্ষেত্রে, \nচক্রবৃদ্ধি মূলধন, C=P(1+r)n\\mathrm{C=P(1+r)^n}\n=100(1+110)5=100×(10+110)5=100×(1110)5=100×(1.1)5=100×1.61061=161.051\\mathrm{=100\\big(1+{1\\over 10}\\big)^5 \\\\ \n=100×\\big({10+1\\over 10}\\big)^5 \\\\ \n=100×({11\\over 10})^5 \\\\ \n=100×(1.1)^5  \n=100×1.61061 \\\\ \n=161.051 } \n∴ চক্রবৃদ্ধি মুনাফা =C−P\\mathrm{= C-P }\n=161.051−100=61.051\\mathrm{=161.051-100=61.051 }\nসুতরাং মুনাফার পার্থক্য =61.051−50=11.051\\mathrm{= 61.051 - 50 = 11.051 } টাকা।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 164,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "যদি \nx\n=\n5\n+\n3\n  হয়, তবে \nx\n3\n+\n8\nx\n3\n   এর মান কত?",
       "options": [
         "1\n8\n5",
@@ -2628,12 +2792,13 @@
       "ans": 2,
       "explain": "দেওয়া আছে, x=5+3\\mathrm{x=\\sqrt 5+\\sqrt {3} }\nতাহলে, 1x=1(5+3)\\mathrm{\\frac 1x={1\\over (\\sqrt 5+\\sqrt3)} }\n=(5−3)(5+3)(5−3)=5−3(5)2−(3)2=5−35−3\\mathrm{={(\\sqrt 5-\\sqrt 3)\\over(\\sqrt 5+\\sqrt 3)(\\sqrt 5-\\sqrt 3)  \\\\ \n={\\sqrt 5-\\sqrt3\\over (\\sqrt 5)^2-(\\sqrt 3)^2}  \\\\ \n={\\sqrt 5-\\sqrt 3\\over5-3 }} } \nঅর্থাৎ 1x=5−32\\mathrm{\\frac 1x={\\sqrt5-\\sqrt 3\\over 2} }\n∴2x=5−3\\mathrm{∴\\frac 2x=\\sqrt 5-\\sqrt 3 }\nসুতরাং, x+2x=5+3+5−3=25\\mathrm{x+\\frac2x=\\sqrt5+\\sqrt3+\\sqrt5-\\sqrt3=2\\sqrt5 }\nএখন, x3+8x3=x3+(2x)3\\mathrm{x^3+{8\\over x^3} =x^3+\\big(\\frac 2x\\big)^3 }=(x+2x)3−3.x.2x(x+2x)=(25)3−3.2.25=405−125=285\\mathrm{=\\big(x+\\frac 2x\\big)^3-3.x.\\frac 2x (x+\\frac 2x)\\\\ \n=(2\\sqrt 5)^3-3.2.2\\sqrt 5\\\\ \n=40\\sqrt5-12\\sqrt 5\\\\ \n=28\\sqrt 5}",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 165,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "|\nx\n−\n5\n|\n<\n2\n,\nx\n∈\nN\n অসমতাটির সমাধান সেট কোনটি?",
       "options": [
         "(3, 7)",
@@ -2644,12 +2809,13 @@
       "ans": 2,
       "explain": "দেওয়া আছে, |x−5|<2\\mathrm{|x-5|<2}\n⇒−2<x−5<2⇒−2+5<x−5+5<2+5⇒3<x<7\\mathrm{⇒-2<x-5<2 \\\\ ⇒-2+5<x-5+5<2+5 \\\\ ⇒3<x<7 }\nঅর্থাৎ x এর মান 3 থেকে বড় এবং 7 থেকে ছোট স্বাভাবিক সংখ্যা। (যেহেতু x∈N)\n∴ নির্ণেয় সমাধান সেট =4,5,6\\mathrm{= {4, 5, 6} }",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 166,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "যদি \n5\nx\n3\n−\n2\nx\n2\n+\nx\n+\nk\n=\n0\n  এর একটি উৎপাদক \n(\nx\n−\n3\n)\n হয়, তাহলে k এর মান কত?",
       "options": [
         "50",
@@ -2660,12 +2826,13 @@
       "ans": 2,
       "explain": "এখানে, বহুপদীটির একটি উৎপাদক (x–3)\\mathrm{(x – 3)}. অর্থাৎ বহুপদীটি x=3\\mathrm{x = 3} এর জন্য সিদ্ধ হবে।\nতাহলে, বহুপদী সমীকরণে x=3\\mathrm{x = 3} বসিয়ে পাই,\n5x3−2x2+x+k=0⇒5×(3)3−2×(3)2+3+k=0⇒5×27−2×9+3+k=0⇒135−18+3+k=0⇒120+k=0∴k=−120\\mathrm{5x^3-2x^2+x+k=0 \\\\ \n⇒5×(3)^3-2×(3)^2+3+k=0 \\\\ \n⇒5×27-2×9+3+k=0 \\\\ \n⇒135-18+3+k=0 \\\\ \n⇒120+k=0 \\\\ \n∴k=-120 }",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 167,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "নিচের সিরিজের ফাঁকা যায়গায় কোন সংখ্যা হবে?\n243, 81, ____, 9, 3, 1",
       "options": [
         "9",
@@ -2676,12 +2843,13 @@
       "ans": 1,
       "explain": "",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 168,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "যদি \nl\no\ng\nx\n⁡\n324\n=\n4\n হয়, তবে \nx\n এর মান কত?",
       "options": [
         "3\n2",
@@ -2692,12 +2860,13 @@
       "ans": 0,
       "explain": "এখানে, logx⁡324=4\\mathrm{log_x⁡324=4 }\n⇒x4=324      [loga⁡b=p\\mathrm{⇒x^4=324~~~~~~ [log_a⁡b=p} হলে,ap=b]\\mathrm{a^p=b]}\n⇒x4=(32)4=32.\\mathrm{\\Rightarrow x^4=(3\\sqrt 2)^4=3\\sqrt 2.}",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 169,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "একটি গুণোত্তর ধারার প্রথম ও দ্বিতীয় পদ যথাক্রমে 27 এবং 9, তাহলে ধারাটির দশম পদ কত?",
       "options": [
         "1\n3",
@@ -2708,12 +2877,13 @@
       "ans": 2,
       "explain": "",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 170,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "একটি বৃত্তস্থ বর্গের প্রত্যেক বাহুর দৈর্ঘ্য 2 সে.মি. হলে, ঐ বৃত্তের ক্ষেত্রফল কত?",
       "options": [
         "π",
@@ -2724,12 +2894,13 @@
       "ans": 1,
       "explain": "বৃত্তে অন্তর্লিখিত বর্গের কর্ণই বৃত্তটির ব্যাস।\nআমরা জানি, বর্গের কর্ণ =2a=2×2=22\\mathrm{= \\sqrt2 a=\\sqrt2×2=2\\sqrt2} সে.মি.\nসুতরাং বৃত্তটির ব্যাসার্ধ, r=222=2\\mathrm{r = {2\\sqrt 2 \\over 2}=\\sqrt 2} সে.মি.\nএখন, বৃত্তের ক্ষেত্রফল =πr2\\mathrm{= πr^2} বর্গ একক\n=π(2)2\\mathrm{=π(\\sqrt 2)^2} বর্গ সে.মি.\n=2π\\mathrm{=2π} বর্গ সে.মি.।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 171,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "4 জন তাঁতী 4 দিনে 4টি মাদুর তৈরি করতে পারে। একই হারে 8 জন তাঁতী 8 দিনে কতটি মাদুর তৈরি করতে পারবে?",
       "options": [
         "8টি",
@@ -2740,12 +2911,13 @@
       "ans": 2,
       "explain": "এখানে, 4 জন তাঁতী 4 দিনে তৈরি করে 4 টি মাদুর\n∴ 1 জন তাঁতী 4 দিনে তৈরি করে 44\\mathrm{\\frac 44} টি মাদুর\n∴ 1 জন তাঁতী 1 দিনে তৈরি করে =44×4\\mathrm{={4\\over4×4}} টি মাদুর\n∴ 8 জন তাঁতী 1 দিনে তৈরি করে =4×84×4\\mathrm{={4×8\\over4×4}} টি মাদুর\n∴ 8 জন তাঁতী 8 দিনে তৈরি করে =4×8×84×4=16\\mathrm{={4×8×8\\over 4×4}=16} টি মাদুর।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 172,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "(\n0\n,\n0\n)\n     এবং \n(\n3\n,\n3\n)\n     বিন্দুগামী সরলরেখার সমীকরণ কোনটি?",
       "options": [
         "y\n=\nx",
@@ -2756,12 +2928,13 @@
       "ans": 0,
       "explain": "আমরা জানি, \n(x1,y1)\\mathrm{(x_1,y_1 )} ও (x2,y2)\\mathrm{(x_2,y_2 )} বিন্দুগামী সরলরেখার সমীকরণ, y−y1y1−y2=x−x1x1−x2\\mathrm{{y-y_1\\over y_1-y_2}={x-x_1\\over x_1-x_2}}\nতাহলে, (0,0)\\mathrm{(0, 0)} ও (3,3)\\mathrm{(3,3)} বিন্দুগামী সরলরেখার সমীকরণ,  y−00−3=x−00−3\\mathrm{{y-0\\over 0-3}={x-0\\over0-3}}\n⇒y−3=x−3\\mathrm{⇒{y\\over -3}={x\\over -3} }\n∴y=x\\mathrm{∴y=x}     [−3\\mathrm{-3} দ্বারা উভয়পক্ষে গুণ করে]",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 173,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "যদি \nn\nC\n12\n=\nn\nC\n8\n হয়, তবে \n22\nC\nn\n  এর মান কত?",
       "options": [
         "230",
@@ -2772,12 +2945,13 @@
       "ans": 1,
       "explain": "আমরা জানি, nCx=nCy\\mathrm{{}^n C_x ={}^n C_y}  হলে, n=x+y\\mathrm{n = x + y}\nতাহলে, nC12=nC8\\mathrm{{}^n C_{12} ={}^n C_8}  হওয়ায়,\nn=12+8=20\\mathrm{n=12+8=20 }\nএখন, 22Cn=22C20\\mathrm{{}^{22} C_n ={}^{22} C_{20} }\n=22!20!(22−20)!=22×21×20!20!×2!=22×212×1=11×21=231.\\mathrm{={22!\\over 20!(22-20)!}={22×21×20!\\over 20!×2!}\\\\ \n={22×21\\over 2×1}=11×21=231.}",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 174,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "A\n=\n{\nx\n∈\nN\n:\n2\n<\nx\n≤\n6\n}\n এবং \nB\n=\n{\nx\n∈\nN\n:\nx\n জোর সংখ্যা এবং \nx\n≤\n8\n}\n হলে \nA\n∩\nB\n এর মান কত?",
       "options": [
         "{3, 2}",
@@ -2788,12 +2962,13 @@
       "ans": 1,
       "explain": "এখানে, A=x∈N:2<x≤6\\mathrm{A={x∈N:2<x≤6}}\n={3,4,5,6}\\mathrm{=\\{3,4,5,6\\} } \nএবং B={x∈N:x\\mathrm{B=\\{x∈N:x} জোড় সংখ্যা এবং x≤8}\\mathrm{x≤8\\}}\n={2,4,6,8}\\mathrm{=\\{2,4,6,8\\}  }\nতাহলে, A∩B={3,4,5,6}∩{2,4,6,8}={4,6}\\mathrm{A∩B=\\{3,4,5,6\\} ∩\\{2,4,6,8\\} =\\{4,6\\}  }",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 175,
       "topicsId": 52,
+      "subject": "MATHEMATICAL-REASONING",
       "q": "একটি ব্যাগে 2টি লাল, 3টি সবুজ এবং 2টি নীল বল আছে। যদি দৈবভাবে 2টি বল নেওয়া হয়, তাহলে বল দুটির কোনটিই নীল না হওয়ার সম্ভাবনা কত?",
       "options": [
         "1\n0\n21",
@@ -2804,12 +2979,13 @@
       "ans": 0,
       "explain": "দেওয়া আছে, \nলাল বল =2\\mathrm{= 2 } টি\nসবুজ বল =3\\mathrm{= 3} টি\nএবং নীল বল =2\\mathrm{= 2 } টি\nতাহলে, মোট বল =(2+3+2)=7\\mathrm{= (2 + 3 + 2) = 7 } টি\nএবং নীল বল নয় =(2+3)=5\\mathrm{= (2 + 3) = 5 } টি\nদৈব্যভাবে 2 টি বল নেওয়া হলে, বল দুইটি নীল না হওয়ার সম্ভাবনা =5C27C2=1021.\\mathrm{={{}^5 C_2\\over {} ^7 C_2}={10\\over 21}.}",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 176,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "Seed : Sapling : : Egg : ?",
       "options": [
         "Omlette",
@@ -2820,12 +2996,13 @@
       "ans": 3,
       "explain": "Spling মানে ছোট গাছ, বীজ থেকে অঙ্কুরিত নব্য উদ্ভিদ। তাহলে Seed (বীজ) থাকে আসে Sapling এবং Egg (ডিম) থেকে আসে Chick বা ছোট পাখির বাচ্চা।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 177,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "যদি MFNPO অর্থ ‘Lemon’ হয়, তবে NBOHP কী?",
       "options": [
         "Mango",
@@ -2836,12 +3013,13 @@
       "ans": 0,
       "explain": "",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 178,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "প্রদত্ত চিত্রে ত্রিভুজের সংখ্যা নির্ণয় করুন?",
       "options": [
         "১৫",
@@ -2852,12 +3030,13 @@
       "ans": 1,
       "explain": "১টি করে নিয়ে =1,2,3,4,5,6=6\\mathrm{= 1, 2, 3, 4, 5, 6 = 6}টি।\n২টি করে নিয়ে =(1+2),(6+5),(3+4)=3\\mathrm{= (1 + 2), (6 + 5), (3 + 4) = 3}টি।\n৩টি করে নিয়ে =(1+2+3),(2+3+4),(3+4+5),(4+5+6),(5+6+1),(6+1+2)=6\\mathrm{= (1 + 2 + 3), (2 + 3 + 4), (3 + 4 + 5), (4 + 5 + 6), (5 + 6 + 1), (6 + 1 + 2) = 6}টি।\nবড় ত্রিভুজ =1\\mathrm{= 1}টি।\nমোট =(6+3+6+1)=16\\mathrm{= (6 + 3 + 6 +1) =16}টি ত্রিভুজ।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 179,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "কোনটি প্রশ্নবোধক চিহ্নের স্থলাভিষিক্ত হবে?",
       "options": [
         "১৮",
@@ -2868,23 +3047,25 @@
       "ans": 2,
       "explain": "১৮১২২০৫০১০৫১৬১৪৩০৬০১০৬৪৫১৮২৭৯০১০৯১৮+১২+২০=৫০÷১০=৫১৬+১৪+৩০=৬০÷১০=৬৪৫+১৮+২৭=৯০÷১০=৯\\mathrm{১৮ + ১২ + ২০ = ৫০ ÷ ১০ = ৫\\\\ \n১৬ + ১৪ + ৩০ = ৬০ ÷ ১০ = ৬\\\\ \n৪৫ + ১৮ + ২৭ = ৯০ ÷ ১০ = ৯    }",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 180,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "পানিতে প্রদত্ত প্রতিচ্ছবিগুলোর সাথে কোনটি ইংরেজিতে একটি শব্দের সাথে সাদৃশ্যপূর্ণ?",
       "options": [],
       "ans": 0,
       "explain": "",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 181,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "একজন ব্যক্তি ৪ মাইল উত্তরে, ১২ মাইল পূর্বে এবং তারপরে ১২ মাইল উত্তরে ভ্রমণ করেন। তিনি শুরুর বিন্দু থেকে কত দূরে আছেন?",
       "options": [
         "২৮ মাইল",
@@ -2895,12 +3076,13 @@
       "ans": 3,
       "explain": "তাহলে, ১২২১৬২১৪৪২৫৬৪০০AD2=AE2+ED2=(১২)২+(১৬)২=১৪৪+২৫৬=৪০০\\mathrm{AD^2=AE^2+ED^2=(১২)^২+(১৬)^২ = ১৪৪ + ২৫৬ = ৪০০}\n৪০০২০∴AD=৪০০=২০\\mathrm{∴ AD =\\sqrt{৪০০}= ২০} মাইল।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 182,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "পাঁচজন ব্যক্তি গোল হয়ে বসে আছে এবং মাঝখানে তাকিয়ে তাস খেলছে। রাজিবের বামদিকে রয়েছে মুকুল, বিজয় রয়েছে অনিক ও নুরুলের মাঝখানে এবং অনিকের ডান দিকে। তাহলে নুরুলের ডান দিকে কে রয়েছে?",
       "options": [
         "অনিক",
@@ -2911,12 +3093,13 @@
       "ans": 2,
       "explain": "",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 183,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "A যদি B এর সাথে খাপখায় যেমনভাবে C, D এর সাথে, তাহলে নিচের জোড়াগুলোর মধ্যে কোন জোড়া যুক্তিযুক্তভাবে খাপ খায়?",
       "options": [
         "পাখিকে যেমন দৌড়াতে হয়, মাছকে তেমন সাঁতার কাটতে হয়",
@@ -2927,12 +3110,13 @@
       "ans": 2,
       "explain": "পর্যায়ক্রমে A এর পরে আসে B; তেমনি D আসে C এর পরে। সে হিসেবে, খাদ্য যেমন খাবারের জন্য, পানি তেমনি পান করার জন্য পর্যায়ক্রমে আসে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 184,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "হাত, চোখ ও মস্তিষ্কের কার্যাবলি এতটাই ____ যে শৈশব কালের প্রথম দিকে হাতের ব্যবহার সম্পূর্ণ ____ বিকাশকে ত্বরান্বিত করতে সাহায্য করে। উপরের ফাঁকা যায়গাগুলো নিম্নে উল্লিখিত জোড়াশব্দ দিয়ে পূরণ করুন।",
       "options": [
         "অপরিবর্তনীয়-বুদ্ধিসম্পর্কিত",
@@ -2943,12 +3127,13 @@
       "ans": 3,
       "explain": "হাত, চোখ ও মস্তিষ্কের কার্যাবলি যদি ঘনিষ্ঠভাবে যুক্ত থাকে তবে শিশুর প্রত্যক্ষণমূলক বিকাশ ত্বরান্বিত হয়। অপশনের বাকী শব্দগুলো শূন্যস্থানে যথার্থ নয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 185,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "নিম্নে উল্লিখিত শব্দগুলোর মধ্যে কোন বানানটি সঠিক খুঁজে বের করুন?",
       "options": [
         "Rendezvos",
@@ -2959,12 +3144,13 @@
       "ans": 1,
       "explain": "উল্লিখিত অপশনগুলোর মধ্যে সঠিক বানানটি হলো Rendezvous. যার অর্থ ‘মিলনমেলা’ বা ‘নির্দিষ্ট মিলনস্থান’।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 186,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "একটি গিয়ার ট্রেনে তিনটি গিয়ার আছে, গিয়ার ‘এ’ এর ১২টি দাঁত, গিয়ার ‘বি’ এর ৩৬টি দাঁত, এবং গিয়ার ‘সি’ এর ২৪টি দাঁত আছে। যদি গিয়ার ‘এ’ কে ঘড়ির কাঁটা যেদিকে ঘোরে সেদিকে ঘোরানো হয়, তাহলে গিয়ার ‘সি’ কোন দিকে ঘুরবে?",
       "options": [
         "ঘড়ির কাঁটার দিকে",
@@ -2975,12 +3161,13 @@
       "ans": 0,
       "explain": "A গিয়ারটি ঘড়ির কাঁটার দিকে ঘুরলে এর সাথে যুক্ত ‘B’ গিয়ারটি ঘুরবে ঘড়ির কাঁটার বিপরীত দিকে। ‘B’ গিয়ারের দিক ঘড়ির কাঁটার বিপরীত দিকে হওয়ায় এর সাথে যুক্ত ‘C’ গিয়ারটি ঘুরবে ঘড়ির কাঁটার দিকে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 187,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "যখন দুটি বস্তুর সংঘর্ষ হয় এবং তারা একসাথে লেগে থাকে, তখন তাকে কোন ধরনের সংঘর্ষ বলে?",
       "options": [
         "স্থিতিস্থাপক সংঘর্ষ",
@@ -2991,12 +3178,13 @@
       "ans": 2,
       "explain": "যে সংঘর্ষে দুটি বস্তুর গতিশক্তি সংরক্ষিত হয় না, বরং তা তাপ, শব্দ প্রভৃতিতে রূপান্তরিত হয় তাকে অস্থিতিস্থাপক সংঘর্ষ বsলে। এ ধরনের সংঘর্ষে ভরবেগ সংরক্ষিত থাকে এবং সংঘর্ষের পর বস্তুগুলো একটি বস্তুর ন্যায় আচরণ করে বা লেগে থাকে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 188,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "নিচের ছবিগুলোর পাশের প্রশ্নবোধক চিহ্নের স্থানে কোন বিকল্পটি বসবে?",
       "options": [
         "১",
@@ -3007,12 +3195,13 @@
       "ans": 2,
       "explain": "",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 189,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "পৃথিবীর কক্ষপথের বিভিন্ন বিন্দু থেকে দেখলে কোন ঘটনার কারণে একটি নক্ষত্রের অবস্থানের আপাত পরিবর্তন ঘটে?",
       "options": [
         "ডপলার ইফেক্ট",
@@ -3023,12 +3212,13 @@
       "ans": 3,
       "explain": "জ্যোতির্বিদ্যায় প্যারালেক্স হলো দুটি পৃথক বিন্দু থেকে একজন পর্যবেক্ষকের দ্বারা দেখা একটি মহাকাশীয় বস্তুর দিকের পার্থক্য । প্যারালেক্স পরিমাপ সরাসরি পৃথিবী (ভূকেন্দ্রিক প্যারালেক্স) এবং সূর্য (সূর্যকেন্দ্রিক প্যারালেক্স) থেকে বস্তুর দূরত্ব নির্ণয়ের জন্য ব্যবহৃত হয় । আবার, প্যারালেক্স ত্রুটি (Parallax Error) বলতে বুঝায় ভিন্ন অবস্থান থেকে পর্যবেক্ষণের জন্য বস্তুর অবস্থান বা পরিমাপে যে ত্রুটি পাওয়া যায়। কোণ বা দৈর্ঘ্য পরিমাপের ক্ষেত্রে সরাসরি না দেখে কোনো একপাশ থেকে দেখলে সঠিক মাপ দেখা যায় না। একই ঘটনা পরিলক্ষিত হয় পৃথিবীর কক্ষপথের বিভিন্ন বিন্দু থেকে একটি নক্ষত্রের অবস্থান নির্ণয়ে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 190,
       "topicsId": 52,
+      "subject": "MENTAL-ABILITY",
       "q": "প্রশ্নোবোধক চিহ্নিত ঘরে কোন সংখ্যাটি বসবে?",
       "options": [
         "৪",
@@ -3039,12 +3229,13 @@
       "ans": 0,
       "explain": "১৭৮২৫৫৫১৩৭২০৫৪৬১২১৮৬৩১০৬১৬৪৪১৭+৮=২৫=৫×৫১৩+৭=২০=৫×৪৬+১২=১৮=৬×৩১০+৬=১৬=৪×৪\\mathrm{১৭ + ৮ = ২৫ = ৫ × ৫\\\\ \n১৩ + ৭ = ২০ = ৫ × ৪\\\\ \n৬ + ১২ = ১৮ = ৬ × ৩\\\\ \n১০ + ৬ = ১৬ = ৪ × ৪}",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 191,
       "topicsId": 52,
+      "subject": "ETHICS-VALUES-GOOD-GOVERNANCE",
       "q": "নিচের কোনটি পেশাগত নৈতিকতার উপাদান?",
       "options": [
         "স্বজনপ্রীতি",
@@ -3055,12 +3246,13 @@
       "ans": 3,
       "explain": "পেশাগত নৈতিকতার মূল উপাদানগুলোর মধ্যে রয়েছে সততা ও বিশ্বস্ততা, যোগ্যতা ও দক্ষতা, জনগনের প্রতি দায়বদ্ধতা, নিরপেক্ষতা ও ন্যায়পরায়নতা, গোপনীয়তা রক্ষা এবং আচরণবিধি মেনে চলা।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 192,
       "topicsId": 52,
+      "subject": "ETHICS-VALUES-GOOD-GOVERNANCE",
       "q": "উদ্দেশ্য নৈতিকতার আলোচ্য বিষয় কোনটি?",
       "options": [
         "উদ্দেশ্য",
@@ -3071,12 +3263,13 @@
       "ans": 3,
       "explain": "উদ্দেশ্য নৈতিকতার আলোচ্য বিষয় হলোঃ ফলাফল বা পরিণতি, কর্মের উদ্দেশ্য, সিদ্ধান্ত গ্রহণের প্রক্রিয়া, উপযোগবাদ, সুখবাদ ইত্যাদি।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 193,
       "topicsId": 52,
+      "subject": "ETHICS-VALUES-GOOD-GOVERNANCE",
       "q": "জনস্বাস্থ্য ও নৈতিকতা নিশ্চিতকরণে রাষ্ট্র কার্যকর ব্যবস্থা গ্রহণ করবে-এ বিষয়ে সংবিধানের কোন অনুচ্ছেদে উল্লেখ রয়েছে?",
       "options": [
         "অনুচ্ছেদ-২১",
@@ -3087,12 +3280,13 @@
       "ans": 1,
       "explain": "জনস্বাস্থ্য ও নৈতিকতা নিশ্চিতকরণে রাষ্ট্র কার্যকর ব্যবস্থা গ্রহণ করবে এ বিষয়ে বাংলাদেশের সংবিধানের ১৮ অনুচ্ছেদে উল্লেখ রয়েছে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 194,
       "topicsId": 52,
+      "subject": "ETHICS-VALUES-GOOD-GOVERNANCE",
       "q": "‘সরকারি নিয়োগ-লাভে সুযোগের সমতা’- বিষয়টি সংবিধান মতে-",
       "options": [
         "নৈতিক বিষয়",
@@ -3103,12 +3297,13 @@
       "ans": 2,
       "explain": "সরকারি, নিয়োগ লাভে সুযোগের সমতা- বিষয়টি সংবিধান মতে মৌলিক অধিকার। এটি বাংলাদেশের সংবিধানের ২৯-অনুচ্ছেদে উল্লেখ রয়েছে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 195,
       "topicsId": 52,
+      "subject": "ETHICS-VALUES-GOOD-GOVERNANCE",
       "q": "মানুষের মধ্যে সামাজিক মূল্যবোধ গড়ে উঠে-",
       "options": [
         "আইনের বাধ্যবাধকতার মাধ্যমে",
@@ -3119,12 +3314,13 @@
       "ans": 1,
       "explain": "মানুষের মধ্যে সামাজিক মূল্যবোধ গড়ে উঠার মূল প্রক্রিয়াটি হলো সামাজিকীকরণ। সামাজিকীকরণের মাধ্যমেই ব্যক্তি সমাজের নিয়ম, মূল্যবোধ, রীতিনীতি ও সংস্কৃতির সাথে পরিচিত হয় এবং সেগুলো নিজের মধ্যে ধারণ করে। এটি একটি জীবনব্যাপী প্রক্রিয়া।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 196,
       "topicsId": 52,
+      "subject": "ETHICS-VALUES-GOOD-GOVERNANCE",
       "q": "বাংলাদেশ নামক প্রজাতন্ত্রের ভিত্তি-",
       "options": [
         "মৌলিক মানবাধিকার ও স্বাধীনতা নিশ্চিত করা",
@@ -3135,12 +3331,13 @@
       "ans": 3,
       "explain": "মৌলিক মানবাধিকার ও স্বাধীনতা নিশ্চিত করা, মানবসত্তার মর্যাদা ও মূল্যের প্রতি শ্রদ্ধাবোধ নিশ্চিত করা এবং প্রশাসনের সকল পর্যায়ে নির্বাচিত প্রতিনিধির মাধ্যমে জনগণের কার্যকর অংশগ্রহণ নিশ্চিত করা এগুলো বাংলাদেশ নামক প্রজাতন্ত্রের ভিত্তি।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 197,
       "topicsId": 52,
+      "subject": "ETHICS-VALUES-GOOD-GOVERNANCE",
       "q": "সুশাসন বিষয়ক ধারণাটি প্রথম কোন খ্রিষ্টাব্দে একটি আন্তর্জাতিক সংস্থা রিপোর্ট বিস্তারিতভাবে তুলে ধরে-",
       "options": [
         "১৯৯০ খ্রিষ্টাব্দে",
@@ -3151,12 +3348,13 @@
       "ans": 2,
       "explain": "বিশ্বব্যাংক ১৯৮৯ সালে উন্নয়নশীল দেশের অনুন্নয়ন চিহ্নিত করতে এক প্রতিবেদনে সর্বপ্রথম সুশাসনের ধারনা দেয়। বিশ্বব্যাংক ১৯৯২ সালে ‘গভর্নেন্স অ্যান্ড ডেভেলপমেন্ট’ শীর্ষক প্রতিবেদনে সুশাসন বিষয়ক ধারণাটি বিস্তারিতভাবে তুলে ধরে।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 198,
       "topicsId": 52,
+      "subject": "ETHICS-VALUES-GOOD-GOVERNANCE",
       "q": "সুশাসন বিষয়ক ধারণাটি কোন আন্তর্জাতিক সংস্থা প্রথম তাদের প্রতিবেদনে বিস্তারিতভাবে তুলে ধরে?",
       "options": [
         "ইউএনডিপি",
@@ -3167,12 +3365,13 @@
       "ans": 1,
       "explain": "গভর্নেন্সকে রাজনৈতিক ব্যবস্থায় ‘শাসনের ব্যবস্থা’ হিসেবে দেখা হয়ে থাকে। ‘গভর্নেন্স’ বা ‘শাসন ব্যবস্থা’ এর সাথে ‘সু’ প্রত্যয় যোগ করে ‘সুশাসন’ (Good Governance) শব্দটির প্রকাশ ঘটানো হয়েছে। ‘সুশাসন’ ধারণাটি বিশ্ব বাংকের উদ্ভাবিত একটি ধারণা। ১৯৮৯ খ্রিস্টাব্দে বিশ্ব ব্যাংকের সমীক্ষায় সর্বপ্রথম ‘সুশাসন’ প্রত্যয়টি ব্যবহার করা হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 199,
       "topicsId": 52,
+      "subject": "ETHICS-VALUES-GOOD-GOVERNANCE",
       "q": "জাতিসংঘের সাধারণ পরিষদে দুর্নীতির বিরুদ্ধে আন্তর্জাতিক কনভেনশনটি গৃহীত হয়?",
       "options": [
         "৩১ জানুয়ারি ২০০৩",
@@ -3183,12 +3382,13 @@
       "ans": 2,
       "explain": "জাতিসংঘের দুর্নীতি বিরোধী কনভেনশনের নাম হলো- United Nations Convention Against Corruption (UNCAC)। কনভেশনটি জাতিসংঘের সাধারণ পরিষদে ৩১ অক্টোবর, ২০০৩ সালে গৃহীত হয়।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     },
     {
       "id": 200,
       "topicsId": 52,
+      "subject": "ETHICS-VALUES-GOOD-GOVERNANCE",
       "q": "৭ আগস্ট ২০২৪ পর্যন্ত দুর্নীতির বিরুদ্ধে জাতিসংঘের আন্তর্জাতিক কনভেনশনে স্বাক্ষরকারী দেশের সংখ্যা-",
       "options": [
         "১৯২টি",
@@ -3199,7 +3399,7 @@
       "ans": 3,
       "explain": "৭ আগস্ট ২০২৪ পর্যন্ত দুর্নীতির বিরুদ্ধে জাতিসংঘের আন্তজার্তিক কনভেনশনে সমর্থনকারী দেশ ১৯১টি। এর মধ্যে অনুস্বাক্ষরকারী দেশের সংখ্যা ১৪০টি।",
       "source": [
-        "47th BCS"
+        "47th BCS প্রিলিমিনারি - 2025"
       ]
     }
   ]
