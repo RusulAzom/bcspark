@@ -19,7 +19,8 @@ export async function GET() {
       const typeDir = path.join(baseDir, type);
       const files = fs.readdirSync(typeDir)
         .filter((file) => file.endsWith('.json'))
-        .sort();
+        .sort()
+        .reverse();
 
       for (const file of files) {
         const filePath = path.join(typeDir, file);

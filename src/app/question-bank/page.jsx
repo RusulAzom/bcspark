@@ -10,6 +10,25 @@ export default function QuestionBankList() {
   const [loading, setLoading] = useState(true);
   const [selectedType, setSelectedType] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
+
+  const EXAM_TYPE_MAP = {
+    'All': 'All',
+    'BCS': 'BCS10to',
+    'NTRCA': 'NTRCA',
+    'সমাজসেবা': 'সমাজসেবা',
+    'ব্যাংক': 'ব্যাংক',
+    '১২ থেকে ২০ গ্রেড': '১২-২০-গ্রেড',
+    'বিশ্ববিদ্যালয়': 'বিশ্ববিদ্যালয়',
+  };
+
+  const EXAM_TYPES = Object.keys(EXAM_TYPE_MAP);
+
+  const getDisplayType = (type) => {
+    const entry = Object.entries(EXAM_TYPE_MAP).find(([, v]) => v === type);
+    return entry ? entry[0] : type;
+  };
 
   useEffect(() => {
     fetch('/api/question-bank/list')
@@ -23,16 +42,23 @@ export default function QuestionBankList() {
       .catch(() => setLoading(false));
   }, []);
 
-  const examTypes = ['All', ...new Set(exams.map((e) => e.examType))];
-
   const filteredExams = exams.filter((exam) => {
-    const matchesType = selectedType === 'All' || exam.examType === selectedType;
+    const actualType = EXAM_TYPE_MAP[selectedType] || selectedType;
+    const matchesType = selectedType === 'All' || exam.examType === actualType;
     const matchesSearch =
       !searchQuery ||
       exam.examName.toLowerCase().includes(searchQuery.toLowerCase()) ||
       exam.examCategory.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesType && matchesSearch;
   });
+
+  const totalPages = Math.ceil(filteredExams.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const paginatedExams = filteredExams.slice(startIndex, startIndex + itemsPerPage);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedType, searchQuery]);
 
   if (loading) {
     return (
@@ -63,7 +89,7 @@ export default function QuestionBankList() {
               />
             </div>
             <div className="flex gap-2 flex-wrap">
-              {examTypes.map((type) => (
+              {EXAM_TYPES.map((type) => (
                 <button
                   key={type}
                   onClick={() => setSelectedType(type)}
@@ -83,14 +109,14 @@ export default function QuestionBankList() {
             <div className="text-center text-gray-500 py-10">No exams found.</div>
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredExams.map((exam) => (
+              {paginatedExams.map((exam) => (
                 <div
                   key={exam.slug}
                   className="bg-white rounded-xl shadow p-6 hover:shadow-lg transition"
                 >
                   <div className="flex items-start justify-between mb-3">
                     <span className="text-xs font-semibold bg-blue-100 text-blue-800 px-2 py-1 rounded">
-                      {exam.examType}
+                      {getDisplayType(exam.examType)}
                     </span>
                     <span className="text-xs text-gray-500">{exam.examCategory}</span>
                   </div>
@@ -108,6 +134,28 @@ export default function QuestionBankList() {
                   </Link>
                 </div>
               ))}
+            </div>
+          )}
+
+          {totalPages > 1 && (
+            <div className="flex justify-center items-center gap-2 mt-8">
+              <button
+                onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+                disabled={currentPage === 1}
+                className="px-4 py-2 rounded-lg font-semibold border-2 border-gray-300 hover:border-blue-400 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Previous
+              </button>
+              <span className="text-sm text-gray-600">
+                Page {currentPage} of {totalPages}
+              </span>
+              <button
+                onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                disabled={currentPage === totalPages}
+                className="px-4 py-2 rounded-lg font-semibold border-2 border-gray-300 hover:border-blue-400 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Next
+              </button>
             </div>
           )}
         </div>
