@@ -41,8 +41,6 @@ export default function BCSExamEngine({
   const [skippedCount, setSkippedCount] = useState(0);
   const [showPreExamPopup, setShowPreExamPopup] = useState(true);
   const [started, setStarted] = useState(false);
-  const [currentPage, setCurrentPage] = useState(1);
-  const questionsPerPage = 20;
 
   const resultRef = useRef(null);
   const reviewRef = useRef(null);
@@ -61,12 +59,6 @@ export default function BCSExamEngine({
     totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
   const wrongPct =
     totalQuestions > 0 ? Math.round((wrongCount / totalQuestions) * 100) : 0;
-
-  const totalPages = Math.max(1, Math.ceil(totalQuestions / questionsPerPage));
-  const currentQuestions = useMemo(() => {
-    const start = (currentPage - 1) * questionsPerPage;
-    return questions.slice(start, start + questionsPerPage);
-  }, [questions, currentPage]);
 
   const leaderboard = useMemo(() => {
     if (!submitted) return null;
@@ -370,38 +362,36 @@ export default function BCSExamEngine({
         </h1>
 
         {!submitted && (
-          <>
-            <div className="grid md:grid-cols-2 gap-6">
-              {currentQuestions.map((q, idx) => {
-                const actualIndex = (currentPage - 1) * questionsPerPage + idx;
-                const correctOptionIndex = q.ans;
-                const selectedOptionIndex = answers[actualIndex];
+          <div className="grid md:grid-cols-2 gap-6">
+            {questions.map((q, i) => {
+              const correctOptionIndex = q.ans;
+              const selectedOptionIndex = answers[i];
 
-                return (
-                  <div
-                    key={`${q.source?.[0] || 'src'}-${q.id}-${actualIndex}`}
-                    className="bg-white p-4 rounded-xl shadow border"
-                  >
-                    <p className="font-semibold text-2xl mb-2">
-                      Q{actualIndex + 1}: {q.q}
-                    </p>
-                    <p className="mb-4 text-base italic opacity-30">{q.source?.[0] || ''}</p>
+              return (
+                <div
+                  key={`${q.source?.[0] || 'src'}-${q.id}-${i}`}
+                  className="bg-white p-4 rounded-xl shadow border"
+                >
+                  <p className="font-semibold text-2xl mb-2">
+                    Q{i + 1}: {q.q}
+                  </p>
+                  <p className="mb-4 text-base italic opacity-30">{q.source?.[0] || ''}</p>
 
-                    <div className="grid grid-cols-2 gap-2">
-                      {q.options.map((opt, optionIdx) => {
-                        const isSelected = selectedOptionIndex === optionIdx;
-                        const isCorrect = submitted && optionIdx === correctOptionIndex;
-                        const isWrong = submitted && isSelected && optionIdx !== correctOptionIndex;
+                  <div className="grid grid-cols-2 gap-2">
+                    {q.options.map((opt, optionIdx) => {
+                      const isSelected = selectedOptionIndex === optionIdx;
+                      const isCorrect = submitted && optionIdx === correctOptionIndex;
+                      const isWrong = submitted && isSelected && optionIdx !== correctOptionIndex;
 
-                        return (
-                          <button
-                            key={optionIdx}
-                            onClick={() => handleSelect(actualIndex, optionIdx)}
-                            disabled={submitted}
-                            className={`p-3 rounded-full border-2 text-center transition-all font-medium disabled:cursor-not-allowed ${
-                              isCorrect
-                                ? 'bg-green-200 border-green-600 text-green-900'
-                                : ''
+                      return (
+                        <button
+                          key={optionIdx}
+                          onClick={() => handleSelect(i, optionIdx)}
+                          disabled={submitted}
+                          className={`p-3 rounded-full border-2 text-center transition-all font-medium disabled:cursor-not-allowed ${
+                            isCorrect
+                              ? 'bg-green-200 border-green-600 text-green-900'
+                              : ''
                             } ${
                               isWrong ? 'bg-red-200 border-red-600 text-red-900' : ''
                             } ${
@@ -409,49 +399,16 @@ export default function BCSExamEngine({
                                 ? 'bg-blue-200 border-blue-600'
                                 : 'bg-white border-gray-300 hover:border-blue-400'
                             }`}
-                          >
-                            {opt}
-                          </button>
-                        );
-                      })}
-                    </div>
+                        >
+                          {opt}
+                        </button>
+                      );
+                    })}
                   </div>
-                );
-              })}
-            </div>
-
-            {totalPages > 1 && (
-              <div className="flex items-center justify-center gap-4 mt-6">
-                <button
-                  onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-                  disabled={currentPage === 1}
-                  className={`px-4 py-2 rounded-lg font-bold border-2 transition ${
-                    currentPage === 1
-                      ? 'bg-gray-100 text-gray-400 border-gray-200 cursor-not-allowed'
-                      : 'bg-white border-blue-600 text-blue-600 hover:bg-blue-50'
-                  }`}
-                >
-                  ← Previous
-                </button>
-
-                <span className="text-sm font-semibold text-gray-700">
-                  Page {currentPage} / {totalPages}
-                </span>
-
-                <button
-                  onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
-                  disabled={currentPage === totalPages}
-                  className={`px-4 py-2 rounded-lg font-bold border-2 transition ${
-                    currentPage === totalPages
-                      ? 'bg-gray-100 text-gray-400 border-gray-200 cursor-not-allowed'
-                      : 'bg-white border-blue-600 text-blue-600 hover:bg-blue-50'
-                  }`}
-                >
-                  Next →
-                </button>
-              </div>
-            )}
-          </>
+                </div>
+              );
+            })}
+          </div>
         )}
 
         {!submitted ? (
