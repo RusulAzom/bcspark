@@ -41,13 +41,16 @@ export default function BCSExamEngine({
   const [skippedCount, setSkippedCount] = useState(0);
   const [showPreExamPopup, setShowPreExamPopup] = useState(true);
   const [started, setStarted] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const questionsPerPage = 10;
 
   const resultRef = useRef(null);
   const reviewRef = useRef(null);
 
   const totalQuestions = questions.length;
+  const examTotalQuestions = examInfo.totalQuestions || totalQuestions;
   const finalScore = useMemo(
-    () => correctCount - wrongCount * (config.negativePerWrong || 0.25),
+    () => correctCount - wrongCount * (config.negativePerWrong || 0.5),
     [correctCount, wrongCount, config.negativePerWrong]
   );
 
@@ -59,6 +62,12 @@ export default function BCSExamEngine({
   const wrongPct =
     totalQuestions > 0 ? Math.round((wrongCount / totalQuestions) * 100) : 0;
 
+  const totalPages = Math.max(1, Math.ceil(totalQuestions / questionsPerPage));
+  const currentQuestions = useMemo(() => {
+    const start = (currentPage - 1) * questionsPerPage;
+    return questions.slice(start, start + questionsPerPage);
+  }, [questions, currentPage]);
+
   const leaderboard = useMemo(() => {
     if (!submitted) return null;
     return getLeaderboard(finalScore, totalQuestions, examInfo.examType || examType);
@@ -68,6 +77,12 @@ export default function BCSExamEngine({
     () => getParticipantCount(examInfo.examType || examType),
     [examInfo.examType, examType]
   );
+
+  const examYear = useMemo(() => {
+    if (!examInfo.examDate) return '';
+    const parts = String(examInfo.examDate).split('-');
+    return parts[0] || '';
+  }, [examInfo.examDate]);
 
   useEffect(() => {
     const savedSetup = sessionStorage.getItem('quickPracticeSetup');
@@ -247,10 +262,10 @@ export default function BCSExamEngine({
               }}
             >
               <h3 className="text-xl font-extrabold leading-snug">
-                {examInfo.examName || 'Exam'}
+                {examInfo.examName || 'Exam'} ({examInfo.examType || examType}{examYear ? `,${examYear}` : ''})
               </h3>
               <p className="text-sm opacity-90 mt-1">
-                {examInfo.examType || examType} • {examInfo.examCategory || 'General'}
+                {examInfo.examCategory || 'General'} • {examInfo.examDate ? new Date(examInfo.examDate).toLocaleDateString('en-GB') : ''}
               </p>
             </div>
 
@@ -271,7 +286,7 @@ export default function BCSExamEngine({
                 <ul className="space-y-2 text-sm text-gray-800">
                   <li className="flex items-start gap-2">
                     <span>📋</span>
-                    <span>পরীক্ষার নাম: <strong>{examInfo.examName || 'N/A'}</strong></span>
+                    <span>পরীক্ষার নাম: <strong>{examInfo.examName || 'N/A'} ({examInfo.examType || examType}{examYear ? `,${examYear}` : ''})</strong></span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span>📅</span>
@@ -280,7 +295,7 @@ export default function BCSExamEngine({
                   <li className="flex items-start gap-2">
                     <span>❓</span>
                     <span>
-                      মোট প্রশ্ন: <strong>{totalQuestions}টি</strong>
+                      মোট প্রশ্ন: <strong>{examTotalQuestions}টি</strong>
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
@@ -308,8 +323,8 @@ export default function BCSExamEngine({
                   <li className="flex items-start gap-2">
                     <span>⚠️</span>
                     <span>
-                      নেগেটিভ মার্কিং: প্রতিটি ২ ভুলের জন্য{' '}
-                      <strong>{(config.negativePerWrong || 0.25) * 2} নম্বর</strong> কাটা যাবে!
+                      নেগেটিভ মার্কিং: প্রতিটি ভুলের জন্য{' '}
+                      <strong>{config.negativePerWrong || 0.5} নম্বর</strong> কাটা যাবে!
                     </span>
                   </li>
                 </ul>
@@ -355,53 +370,88 @@ export default function BCSExamEngine({
         </h1>
 
         {!submitted && (
-          <div className="grid md:grid-cols-2 gap-6">
-            {questions.map((q, i) => {
-              const correctOptionIndex = q.ans;
-              const selectedOptionIndex = answers[i];
+          <>
+            <div className="grid md:grid-cols-2 gap-6">
+              {currentQuestions.map((q, idx) => {
+                const actualIndex = (currentPage - 1) * questionsPerPage + idx;
+                const correctOptionIndex = q.ans;
+                const selectedOptionIndex = answers[actualIndex];
 
-              return (
-                <div
-                  key={`${q.source?.[0] || 'src'}-${q.id}-${i}`}
-                  className="bg-white p-4 rounded-xl shadow border"
-                >
-                  <p className="font-semibold text-2xl mb-2">
-                    Q{i + 1}: {q.q}
-                  </p>
-                  <p className="mb-4 text-base italic opacity-30">{q.source?.[0] || ''}</p>
+                return (
+                  <div
+                    key={`${q.source?.[0] || 'src'}-${q.id}-${actualIndex}`}
+                    className="bg-white p-4 rounded-xl shadow border"
+                  >
+                    <p className="font-semibold text-2xl mb-2">
+                      Q{actualIndex + 1}: {q.q}
+                    </p>
+                    <p className="mb-4 text-base italic opacity-30">{q.source?.[0] || ''}</p>
 
-                  <div className="grid grid-cols-2 gap-2">
-                    {q.options.map((opt, idx) => {
-                      const isSelected = selectedOptionIndex === idx;
-                      const isCorrect = submitted && idx === correctOptionIndex;
-                      const isWrong = submitted && isSelected && idx !== correctOptionIndex;
+                    <div className="grid grid-cols-2 gap-2">
+                      {q.options.map((opt, optionIdx) => {
+                        const isSelected = selectedOptionIndex === optionIdx;
+                        const isCorrect = submitted && optionIdx === correctOptionIndex;
+                        const isWrong = submitted && isSelected && optionIdx !== correctOptionIndex;
 
-                      return (
-                        <button
-                          key={idx}
-                          onClick={() => handleSelect(i, idx)}
-                          disabled={submitted}
-                          className={`p-3 rounded-full border-2 text-center transition-all font-medium disabled:cursor-not-allowed ${
-                            isCorrect
-                              ? 'bg-green-200 border-green-600 text-green-900'
-                              : ''
-                          } ${
-                            isWrong ? 'bg-red-200 border-red-600 text-red-900' : ''
-                          } ${
-                            isSelected && !submitted
-                              ? 'bg-blue-200 border-blue-600'
-                              : 'bg-white border-gray-300 hover:border-blue-400'
-                          }`}
-                        >
-                          {opt}
-                        </button>
-                      );
-                    })}
+                        return (
+                          <button
+                            key={optionIdx}
+                            onClick={() => handleSelect(actualIndex, optionIdx)}
+                            disabled={submitted}
+                            className={`p-3 rounded-full border-2 text-center transition-all font-medium disabled:cursor-not-allowed ${
+                              isCorrect
+                                ? 'bg-green-200 border-green-600 text-green-900'
+                                : ''
+                            } ${
+                              isWrong ? 'bg-red-200 border-red-600 text-red-900' : ''
+                            } ${
+                              isSelected && !submitted
+                                ? 'bg-blue-200 border-blue-600'
+                                : 'bg-white border-gray-300 hover:border-blue-400'
+                            }`}
+                          >
+                            {opt}
+                          </button>
+                        );
+                      })}
+                    </div>
                   </div>
-                </div>
-              );
-            })}
-          </div>
+                );
+              })}
+            </div>
+
+            {totalPages > 1 && (
+              <div className="flex items-center justify-center gap-4 mt-6">
+                <button
+                  onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+                  disabled={currentPage === 1}
+                  className={`px-4 py-2 rounded-lg font-bold border-2 transition ${
+                    currentPage === 1
+                      ? 'bg-gray-100 text-gray-400 border-gray-200 cursor-not-allowed'
+                      : 'bg-white border-blue-600 text-blue-600 hover:bg-blue-50'
+                  }`}
+                >
+                  ← Previous
+                </button>
+
+                <span className="text-sm font-semibold text-gray-700">
+                  Page {currentPage} / {totalPages}
+                </span>
+
+                <button
+                  onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                  disabled={currentPage === totalPages}
+                  className={`px-4 py-2 rounded-lg font-bold border-2 transition ${
+                    currentPage === totalPages
+                      ? 'bg-gray-100 text-gray-400 border-gray-200 cursor-not-allowed'
+                      : 'bg-white border-blue-600 text-blue-600 hover:bg-blue-50'
+                  }`}
+                >
+                  Next →
+                </button>
+              </div>
+            )}
+          </>
         )}
 
         {!submitted ? (
