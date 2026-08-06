@@ -2,7 +2,7 @@
 import Link from "next/link";
 import {
   Zap, Target, Cpu, FileText, BarChart3, Newspaper,
-  BookOpen, Calculator, Globe, Trophy, Map, ArrowRight
+  BookOpen, Calculator, Globe, Trophy, Map, ArrowRight, Languages, History, FolderOpen
 } from "lucide-react";
 import React, { useState } from 'react';
 import HeroCarousel from "./HeroCarousel";
@@ -18,9 +18,14 @@ const topTools = [
   { id: 5, name: "BCS নিউজ", icon: <Newspaper className="h-4.5 w-4.5" />, href: "#" },
   { id: 6, name: "বাংলা সাহিত্য", icon: <BookOpen className="h-4.5 w-4.5" />, href: "#" },
   { id: 7, name: "গণিত প্র্যাকটিস", icon: <Calculator className="h-4.5 w-4.5" />, href: "#" },
-  { id: 8, name: "আন্তর্জাতিক বিষয়", icon: <Globe className="h-4.5 w-4.5" />, href: "#" },
-  { id: 9, name: "লিডারবোর্ড", icon: <Trophy className="h-4.5 w-4.5" />, href: "#" },
-  { id: 10, name: "সিলেবাস গাইড", icon: <Map className="h-4.5 w-4.5" />, href: "#" }
+  { id: 8, name: "Question Bank", icon: <BookOpen className="h-4.5 w-4.5" />, href: "/question-bank" },
+  { id: 9, name: "Vocabulary Story", icon: <Languages className="h-4.5 w-4.5" />, href: "/vocabulary/stories" },
+  { id: 10, name: "Itihaj", icon: <History className="h-4.5 w-4.5" />, href: "/vocabulary/stories" },
+  { id: 11, name: "Resource", icon: <FolderOpen className="h-4.5 w-4.5" />, href: "#" },
+  { id: 12, name: "আন্তর্জাতিক বিষয়", icon: <Globe className="h-4.5 w-4.5" />, href: "#" },
+  { id: 13, name: "লিডারবোর্ড", icon: <Trophy className="h-4.5 w-4.5" />, href: "#" },
+  { id: 14, name: "সিলেবাস গাইড", icon: <Map className="h-4.5 w-4.5" />, href: "#" }
+
 ];
 
 export default function HeroSection() {
@@ -28,7 +33,7 @@ export default function HeroSection() {
 
   return (
     <div className="relative bg-gray-50 py-4">
-      
+
       {/* আপনার মেইন আসল UI লেআউট */}
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
@@ -43,22 +48,22 @@ export default function HeroSection() {
               </div>
 
               {/* Menu List */}
-              <div className="grid grid-cols-2 grid-rows-5 grid-flow-col gap-1.5">
+              <div className="grid grid-cols-2 grid-rows-7 grid-flow-col gap-1.5">
                 {topTools.map((tool) => {
                   // সাইকোলজি টেস্ট বাটন — এখন পেজে রিডাইরেক্ট হবে
                   if (tool.id === 2) {
-      return (
-        <Link
-          key={tool.id}
-          href={tool.href}
-          className="flex items-center gap-3.5 rounded-xl px-3.5 py-2.5 text-sm font-bold text-slate-700 transition-all hover:bg-blue-50/50 hover:text-primary group text-left w-full"
-        >
-          <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#f0f4f8] text-primary transition-colors group-hover:bg-primary group-hover:text-white">
-            {tool.icon}
-          </div>
-          <span>{tool.name}</span> 
-        </Link>
-      );
+                    return (
+                      <Link
+                        key={tool.id}
+                        href={tool.href}
+                        className="flex items-center gap-3.5 rounded-xl px-3.5 py-2.5 text-sm font-bold text-slate-700 transition-all hover:bg-blue-50/50 hover:text-primary group text-left w-full"
+                      >
+                        <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#f0f4f8] text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+                          {tool.icon}
+                        </div>
+                        <span>{tool.name}</span>
+                      </Link>
+                    );
                   }
 
                   // অন্যান্য নরমাল বাটনগুলোর জন্য লিংক রেন্ডারিং
