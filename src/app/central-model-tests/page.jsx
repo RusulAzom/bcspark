@@ -167,19 +167,19 @@ export default function CentralModelTests() {
 
                     <div className="space-y-1 text-sm text-gray-600 mb-4">
                       <p className="flex items-center gap-2">
-                        <span className="font-semibold">Date | তারিখ:</span>
+                        <span className="font-semibold">তারিখ:</span>
                         <span>{getDateOnly(exam.scheduledDateTime)}</span>
                       </p>
                       <p className="flex items-center gap-2">
-                        <span className="font-semibold">Time | সময়:</span>
+                        <span className="font-semibold">সময়:</span>
                         <span>{getTimeOnly(exam.scheduledDateTime)}</span>
                       </p>
                       <p className="flex items-center gap-2">
-                        <span className="font-semibold">Questions | প্রশ্ন:</span>
+                        <span className="font-semibold">প্রশ্ন:</span>
                         <span>{exam.questions}</span>
                       </p>
                       <p className="flex items-center gap-2">
-                        <span className="font-semibold">Marks | নম্বর:</span>
+                        <span className="font-semibold">নম্বর:</span>
                         <span>{exam.marks}</span>
                       </p>
                     </div>
@@ -244,19 +244,19 @@ export default function CentralModelTests() {
 
                       <div className="space-y-1 text-sm text-gray-600 mb-4">
                         <p className="flex items-center gap-2">
-                          <span className="font-semibold">Date | তারিখ:</span>
+                          <span className="font-semibold">তারিখ:</span>
                           <span>{getDateOnly(exam.scheduledDateTime)}</span>
                         </p>
                         <p className="flex items-center gap-2">
-                          <span className="font-semibold">Time | সময়:</span>
+                          <span className="font-semibold">সময়:</span>
                           <span>{getTimeOnly(exam.scheduledDateTime)}</span>
                         </p>
                         <p className="flex items-center gap-2">
-                          <span className="font-semibold">Questions | প্রশ্ন:</span>
+                          <span className="font-semibold">প্রশ্ন:</span>
                           <span>{exam.questions}</span>
                         </p>
                         <p className="flex items-center gap-2">
-                          <span className="font-semibold">Marks | নম্বর:</span>
+                          <span className="font-semibold">নম্বর:</span>
                           <span>{exam.marks}</span>
                         </p>
                       </div>
