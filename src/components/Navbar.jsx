@@ -44,6 +44,12 @@ export default function Navbar() {
             Question Bank
           </Link>
           <Link 
+            href="/central-model-tests" 
+            className="rounded-full border border-primary px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
+          >
+            Model Tests
+          </Link>
+          <Link 
             href="/login" 
             className="rounded-full border border-primary px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
           >
@@ -93,6 +99,13 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
               >
                 Question Bank
+              </Link>
+              <Link 
+                href="/central-model-tests" 
+                className="flex w-full justify-center rounded-lg border border-primary py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
+                onClick={() => setIsOpen(false)}
+              >
+                Model Tests
               </Link>
               <Link 
                 href="/login" 

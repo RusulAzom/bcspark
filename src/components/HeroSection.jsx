@@ -113,7 +113,7 @@ export default function HeroSection() {
                 <ArrowRight className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
               </Link>
               <Link
-                href="#"
+                href="/central-model-tests"
                 className="group relative flex items-center justify-between rounded-3xl border border-gray-100 bg-gradient-to-r from-blue-700 to-indigo-700 p-6 text-white shadow-sm hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
               >
                 <div className="flex items-center gap-4">
