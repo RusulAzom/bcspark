@@ -747,8 +747,8 @@ export default function BCSExamEngine({
                     <span className="text-gray-500">Percentile:</span>{' '}
                     <strong>{leaderboard.percentile.toFixed(1)}%</strong>
                   </p>
-                  <p className="text-xs text-gray-500">
-                    Based on {participantCount} simulated participants
+                  <p className="text-lg text-gray-500">
+                    Based on {participantCount} participants
                   </p>
                 </div>
               )}
