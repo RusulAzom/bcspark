@@ -738,7 +738,7 @@ export default function BCSExamEngine({
                 <div className="my-2 border-t pt-2 space-y-1 bg-blue-50 p-3 rounded-lg">
                   <p className="font-bold text-blue-800">📊 Leaderboard</p>
                   <p>
-                    <span className="text-gray-500">Your Rank:</span>{' '}
+                    <span className="text-xl text-gray-500">Your Rank:</span>{' '}
                     <strong>
                       {leaderboard.rank} / {leaderboard.total}
                     </strong>
