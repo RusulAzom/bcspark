@@ -1,0 +1,710 @@
+{
+  "examInfo": {
+    "examName": "সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ পরীক্ষা-২০২২",
+    "examType": "preliminary",
+    "totalMarks": "70",
+    "totalQuestions": 70
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "গনিত",
+      "topics": "বীজগণিত",
+      "q": "x-y=2 এবং xy=24 হলে (x+y)^2 এর মান কত?",
+      "options": ["90", "22", "100", "20"],
+      "ans": 2,
+      "explain": "(x+y)^2 = (x-y)^2 + 4xy সূত্র প্রয়োগ করে পাই, 2^2 + 4(24) = 4 + 96 = 100। [৪]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 2,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "কোনটি অপ্রকৃত ভগ্নাংশ?",
+      "options": ["৬/৫", "১/২", "২/৩", "১১/১২"],
+      "ans": 0,
+      "explain": "যে ভগ্নাংশের লব হর অপেক্ষা বড় তাকে অপ্রকৃত ভগ্নাংশ বলে। এখানে ৬ > ৫। [৪]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 3,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "কোনটি বড়?",
+      "options": ["০.০৫", "০.৫", "০.২৫", "০.৫৫"],
+      "ans": 3,
+      "explain": "দশমিকের পরের সংখ্যাগুলো তুলনা করলে দেখা যায় ০.৫৫ মানটি সবথেকে বড়। [৪]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 4,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "ল.সা.গু এর পূর্ণরূপ কী?",
+      "options": ["লঘিষ্ঠ সাধারণ গুণনীয়ক", "লঘিষ্ঠ সাধারণ গুণফল", "লঘিষ্ঠ সাধারণ গুণিতক", "লঘিষ্ঠ সাধারণ গুণনীয়ক"],
+      "ans": 2,
+      "explain": "ল.সা.গু মানে লঘিষ্ঠ সাধারণ গুণিতক। [৪]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 5,
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "বৃত্তের দৈর্ঘ্যকে কী বলে?",
+      "options": ["জ্যা", "ব্যাস", "পরিধি", "বৃত্তচাপ"],
+      "ans": 2,
+      "explain": "একটি বৃত্তের সম্পূর্ণ দৈর্ঘ্যের পরিমাপকে তার পরিধি বলা হয়। [৪]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 6,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "কোনটি বর্গসংখ্যা নয়?",
+      "options": ["১", "৪", "৫", "৯"],
+      "ans": 2,
+      "explain": "৫ কোনো পূর্ণ সংখ্যার বর্গ নয়। ১, ৪ (২^২) এবং ৯ (৩^২) হলো বর্গসংখ্যা। [৪]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 7,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "দুইটি সংখ্যার বর্গের অন্তর ৩ হলে সংখ্যা দুটি কত?",
+      "options": ["৪ ও ৯", "১ ও ২", "১৬ ও ২৫", "৩৬ ও ৪৯"],
+      "ans": 1,
+      "explain": "২^২ - ১^২ = ৪ - ১ = ৩। সুতরাং সংখ্যা দুটি ১ ও ২। [৪]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 8,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "কবির সাহেবের তিন পুত্রের বয়স যথাক্রমে ৫, ৭ ও ৯ বছর। ৪২০০ টাকা বয়স অনুপাতে ভাগ করলে ৫ বছর বয়সী ছেলে কত পেল?",
+      "options": ["১০০০", "১৪০০", "১৮০০", "২২০০"],
+      "ans": 0,
+      "explain": "অনুপাতের যোগফল ৫+৭+৯ = ২১। ৫ বছর বয়সী ছেলে পাবে ৪২০০ এর (৫/২১) = ১০০০ টাকা। [৫]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 9,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "৩টি ৫ টাকায় কিনে ৫টি ৯ টাকায় বিক্রয় করলে শতকরা কত লাভ?",
+      "options": ["৭%", "৯%", "৮%", "৬%"],
+      "ans": 2,
+      "explain": "১টির ক্রয়মূল্য ৫/৩ টাকা এবং বিক্রয়মূল্য ৯/৫ টাকা। লাভ = (৯/৫ - ৫/৩) = ২/১৫। লাভ ৮%। [৫]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 10,
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "বর্গের ক্ষেত্রফল ৪ বর্গমিটার হলে পরিসীমা কত?",
+      "options": ["৮ মিটার", "১০ মিটার", "১২ মিটার", "২ মিটার"],
+      "ans": 0,
+      "explain": "ক্ষেত্রফল ৪ হলে বাহু = ২ মিটার। পরিসীমা = ৪ x ২ = ৮ মিটার। [৫]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 11,
+      "subject": "গনিত",
+      "topics": "বীজগণিত",
+      "q": "x=2, y=4 হলে 7x-3y= কত?",
+      "options": ["২", "৪", "৭", "১"],
+      "ans": 0,
+      "explain": "৭(২) - ৩(৪) = ১৪ - ১২ = ২। [৫]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 12,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "সরল সুদে ৫ বছরে দ্বিগুণ হলে বার্ষিক সুদের হার কত?",
+      "options": ["২০%", "১০%", "৫%", "৩০%"],
+      "ans": 0,
+      "explain": "সুদ ও আসল সমান হলে দ্বিগুণ হয়। ১০০ টাকা ৫ বছরে ১০০ টাকা সুদ দিলে হার ১০০/৫ = ২০%। [৫]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 13,
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "কোনো ত্রিভুজের একটি কোণ অপর দুই কোণের সমষ্টির সমান হলে এটি কোন ধরনের ত্রিভুজ?",
+      "options": ["সমবাহু", "সূক্ষ্মকোণী", "সমকোণী", "স্থূলকোণী"],
+      "ans": 2,
+      "explain": "যদি একটি কোণ ৯০ ডিগ্রি হয় তবে তা বাকি দুটির (৪৫+৪৫) সমষ্টির সমান হতে পারে। এটি সমকোণী ত্রিভুজ। [৫]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 14,
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "সমবাহু ত্রিভুজের প্রতিটি কোণ কত?",
+      "options": ["৬০°", "৩০°", "৭০°", " ৮০°"],
+      "ans": 0,
+      "explain": "সমবাহু ত্রিভুজের তিনটি কোণই সমান এবং ১৮০/৩ = ৬০ ডিগ্রি। [৫]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 15,
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "দুই কোণের সমষ্টি ৯০° হলে তা কী কোণ?",
+      "options": ["সম্পূরক কোণ", "পূরক কোণ", "সরল কোণ", "স্থূলকোণ"],
+      "ans": 1,
+      "explain": "দুটি কোণের সমষ্টি ৯০ ডিগ্রি হলে একটি অপরটির পূরক কোণ। [৫]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 16,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "চীন দেশের কোন ভ্রমণকারী গুপ্তযুগে বাংলাদেশে আগমন করে?",
+      "options": ["আই-সিং", "ফ-হিয়েন", "হিউয়েন সাং", "ইবনে বতুতা"],
+      "ans": 1,
+      "explain": "চীনা পরিব্রাজক ফ-হিয়েন দ্বিতীয় চন্দ্রগুপ্তের শাসনকালে ভারতে আগমন করেন। [৫]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 17,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "ইখতিয়ার উদ্দিন মোহম্মদ বখতিয়ার খলজি বাংলা জয় করেন কত সালে?",
+      "options": ["১২০০", "১২০৪", "১২১২", "১২১১"],
+      "ans": 1,
+      "explain": "১২০৪ সালে তিনি নদীয়া জয়ের মাধ্যমে বাংলায় মুসলিম শাসন প্রতিষ্ঠা করেন। [৫]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 18,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "কোন মুঘল সম্রাট বাংলার নাম জান্নাতাবাদ দেন?",
+      "options": ["হুমায়ুন", "বাবর", "আকবর", "জাহাঙ্গীর"],
+      "ans": 0,
+      "explain": "মুঘল সম্রাট হুমায়ুন গৌড়ের প্রাকৃতিক সৌন্দর্যে মুগ্ধ হয়ে এর নাম দেন জান্নাতাবাদ। [৫]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 19,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "ঢাকায় রাজধানী স্থাপনের সময় সুবেদার কে ছিলেন?",
+      "options": ["ইব্রাহিম খান", "ইসলাম খান", "শায়েস্তা খান", "মীর জুমলা"],
+      "ans": 1,
+      "explain": "সুবেদার ইসলাম খান ১৬১০ সালে বাংলার রাজধানী ঢাকায় স্থাপন করেন। [৫]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 20,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "ঢাকা বিশ্ববিদ্যালয় কত সালে প্রতিষ্ঠিত হয়?",
+      "options": ["২০১৯", "১৯২১", "১৯১৯", "১৯২৩"],
+      "ans": 1,
+      "explain": "১৯২১ সালের ১লা জুলাই ঢাকা বিশ্ববিদ্যালয় প্রতিষ্ঠিত হয়। [৬]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 21,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "বঙ্গভঙ্গ রদ হয় কোন সনে?",
+      "options": ["১৯১৬", "১৯০৫", "১৯২০", "১৯১১"],
+      "ans": 3,
+      "explain": "১৯০৫ সালে বঙ্গভঙ্গ হওয়ার পর ১৯১১ সালে এটি রদ করা হয়। [৬]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 22,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান কতবার পরিবর্তন করা হয়েছে?",
+      "options": ["১৫", "১৬", "১৭", "১৮"],
+      "ans": 2,
+      "explain": "বাংলাদেশের সংবিধান এ পর্যন্ত ১৭ বার সংশোধিত হয়েছে। [৬]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 23,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধানের মোট অনুচ্ছেদ সংখ্যা কত?",
+      "options": ["১৫২", "১৫১", "১৪৮", "১৫৩"],
+      "ans": 3,
+      "explain": "বাংলাদেশের সংবিধানে মোট ১৫৩টি অনুচ্ছেদ রয়েছে। [৬]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 24,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "মুজিবনগর সরকার গঠিত হয় কোন তারিখে?",
+      "options": ["১০ এপ্রিল ১৯৭১", "১৪ এপ্রিল ১৯৭১", "১৭ এপ্রিল ১৯৭১", "১২ এপ্রিল ১৯৭১"],
+      "ans": 0,
+      "explain": "১০ এপ্রিল ১৯৭১ তারিখে মুজিবনগর সরকার গঠিত হয়। [৬]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 25,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক",
+      "q": "‘গ্রীনপিস’ কোন দেশের পরিবেশবাদী গ্রুপ?",
+      "options": ["সুইজারল্যান্ড", "নিউজিল্যান্ড", "নেদারল্যান্ড", "যুক্তরাজ্য"],
+      "ans": 2,
+      "explain": "গ্রীনপিস নেদারল্যান্ড ভিত্তিক একটি আন্তর্জাতিক পরিবেশবাদী সংস্থা। [৬]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 26,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক",
+      "q": "জাতিসংঘের বর্তমান সদস্য সংখ্যা কত?",
+      "options": ["১৯৩", "১৯১", "১৯৭", "১৯২"],
+      "ans": 0,
+      "explain": "বর্তমানে জাতিসংঘের ১৯৩টি সদস্য রাষ্ট্র রয়েছে। [৬]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 27,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক",
+      "q": "A.C.U-এর পূর্ণরূপ কী?",
+      "options": ["American Cluster Union", "Asian Clearing Union", "Asian Cluster Union", "American Clearing Union"],
+      "ans": 1,
+      "explain": "ACU-এর পূর্ণরূপ হলো Asian Clearing Union। [৬]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 28,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "শেখ মুজিবকে ‘রাজনীতির কবি’ উপাধি দিয়েছিল–",
+      "options": ["দ্যা ইকোনমিস্ট", "দ্যা টাইম", "দ্যা গার্ডিয়ান", "দ্যা নিউজউইক"],
+      "ans": 3,
+      "explain": "মার্কিন সাময়িকী ‘নিউজউইক’ বঙ্গবন্ধুকে ‘Poet of Politics’ বা রাজনীতির কবি উপাধি দেয়। [৬]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 29,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক",
+      "q": "ইউরোপের রুটির ঝুড়ি বলা হয় কোন দেশকে?",
+      "options": ["ইউক্রেন", "পোল্যান্ড", "জার্মান", "ইতালি"],
+      "ans": 0,
+      "explain": "ইউক্রেনকে ইউরোপের রুটির ঝুড়ি বলা হয়। [৬]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 30,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "জাতির পিতা শেখ মুজিবুর রহমানের জন্মদিন কোনটি?",
+      "options": ["১৭ এপ্রিল ১৯১৮", "১৭ মার্চ ১৯১৮", "১৭ মার্চ ১৯২০", "১৭ মে ১৯২০"],
+      "ans": 2,
+      "explain": "বঙ্গবন্ধু ১৯২০ সালের ১৭ মার্চ জন্মগ্রহণ করেন। [৭]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 31,
+      "subject": "বাংলা",
+      "topics": "সাহিত্য",
+      "q": "‘দুই বিঘা জমি’ কবিতাটি কার লেখা?",
+      "options": ["কাজী নজরুল ইসলাম", "কায়কোবাদ", "রবীন্দ্রনাথ ঠাকুর", "মাইকেল মধুসূদন দত্ত"],
+      "ans": 2,
+      "explain": "এটি রবীন্দ্রনাথ ঠাকুরের একটি বিখ্যাত কবিতা। [৭]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 32,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "‘দ্রুত’ কোন পদের উদাহরণ?",
+      "options": ["विशेषण", "ক্রিয়া", "ক্রিয়া বিশেষণ", "বিশেষ্য"],
+      "ans": 2,
+      "explain": "দ্রুত একটি ক্রিয়া বিশেষণ পদের উদাহরণ। [৭]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 33,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "‘মন রূপ মাঝি’ কোন সমাসের উদাহরণ?",
+      "options": ["বহুব্রীহি", "তৎপুরুষ", "রূপক কর্মধারয়", "দ্বন্দ্ব"],
+      "ans": 2,
+      "explain": "উপমান ও উপমেয়কে অভেদ কল্পনা করলে রূপক কর্মধারয় সমাস হয়। [৭]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 34,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "শুদ্ধ বানান কোনটি?",
+      "options": ["মুমর্ষু", "মুমুষূ", "মুমূর্ষু", "মুমর্ষূ"],
+      "ans": 2,
+      "explain": "সঠিক বানানটি হলো ম-এ হ্রস্ব উ, ম-এ দীর্ঘ উ এবং মূর্ধন্য-ষ-এ হ্রস্ব উ ও রেফ। [৭]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 35,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "‘সূর্য’ শব্দের সমার্থক শব্দ কোনটি?",
+      "options": ["অর্ণব", "অর্ক", "প্রসুন", "পল্লব"],
+      "ans": 1,
+      "explain": "সূর্যের সমার্থক শব্দ হলো অর্ক, ভাস্কর, আদিত্য। [৭]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 36,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "বাংলা বর্ণমালায় মাত্রাহীন বর্ণ কয়টি?",
+      "options": ["১০টি", "৮টি", "৭টি", "৬টি"],
+      "ans": 0,
+      "explain": "বাংলা বর্ণমালায় মাত্রাহীন বর্ণ ১০টি। [৭]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 37,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "স্বরবর্ণের সংক্ষিপ্ত রূপকে কী বলে?",
+      "options": ["কার", "ফলা", "স্বরলিপি", "সম্প্রসারণ"],
+      "ans": 0,
+      "explain": "স্বরবর্ণের সংক্ষিপ্ত রূপকে কার বলা হয়। [৭]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 38,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "যা ক্রিয়া সম্পাদন করে তাকে কী বলে?",
+      "options": ["বিজ্ঞপ্তি", "উপসর্গ", "অনজ্ঞা", "কারক"],
+      "ans": 3,
+      "explain": "বাক্যের ক্রিয়াপদের সাথে অন্য পদের সম্পর্ককে কারক বলে। [৭]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 39,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "বাংলা উপসর্গ কয়টি?",
+      "options": ["২০টি", "২১টি", "১৯টি", "১২টি"],
+      "ans": 1,
+      "explain": "বাংলা উপসর্গ মোট ২১টি। [৭]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 40,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "সংখ্যা গণনার মূল একক কী?",
+      "options": ["শূন্য", "এক", "ক্রম", "তারিখ"],
+      "ans": 1,
+      "explain": "সংখ্যা গণনার মূল একক হলো এক। [৭]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 41,
+      "subject": "বাংলা",
+      "topics": "বাগধারা",
+      "q": "‘চোখের বালি’ বাগধারাটির অর্থ কী?",
+      "options": ["প্রিয় বস্তু", "বিরক্তিকর বস্তু", "আকর্ষণ", "চোখের রোগ"],
+      "ans": 1,
+      "explain": "চোখের বালি বাগধারাটির অর্থ হলো বিরক্তিকর বস্তু বা চক্ষুশূল। [৮]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 42,
+      "subject": "বাংলা",
+      "topics": "বাগধারা",
+      "q": "‘উভয় সংকট’ বাগধারাটির অর্থ কী?",
+      "options": ["দুই দিকে পথ", "দুই দিকে বিপদ", "আসন্ন সংকট", "ভুলপথে গমন"],
+      "ans": 1,
+      "explain": "উভয় সংকট বাগধারাটির অর্থ হলো দুই দিকেই বিপদ। [৮]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 43,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "বাংলা লিপির উৎস কী?",
+      "options": ["সংস্কৃত লিপি", "চীনা লিপি", "আরবী লিপি", "ব্রাহ্মী লিপি"],
+      "ans": 3,
+      "explain": "বাংলা লিপির আদি উৎস হলো ব্রাহ্মী লিপি। [৮]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 44,
+      "subject": "বাংলা",
+      "topics": "সাহিত্য",
+      "q": "বাংলাদেশের জাতীয় কবি কে?",
+      "options": ["কাজী নজরুল ইসলাম", "জীবনানন্দ দাশ", "রবীন্দ্রনাথ ঠাকুর", "জসীম উদ্দীন"],
+      "ans": 0,
+      "explain": "কাজী নজরুল ইসলাম বাংলাদেশের জাতীয় কবি। [৮]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 45,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "বাক্যে যতি চিহ্ন দাড়ি (।) থাকলে কতক্ষণ থামতে হয়?",
+      "options": ["১ সেকেন্ড", "১ বলতে যে সময় লাগে", "দ্বিগুণ সময়", "থামার প্রয়োজন নেই"],
+      "ans": 0,
+      "explain": "দাড়ি (।) চিহ্নে ১ সেকেন্ড বিরতি নিতে হয়। [৮]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 46,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "কোন পুরুষবাচক শব্দের দুইটি স্ত্রীবাচক রূপ আছে?",
+      "options": ["রাষ্ট্রপতি", "যোদ্ধা", "দেবর", "কেরানী"],
+      "ans": 2,
+      "explain": "দেবরের দুটি স্ত্রীবাচক রূপ হলো জা এবং ননদ। [৮]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 47,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "‘তারিখ’ কোন ভাষার শব্দ?",
+      "options": ["আরবী", "ফারসি", "তুর্কি", "পর্তুগিজ"],
+      "ans": 0,
+      "explain": "তারিখ একটি আরবী শব্দ। [৮]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 48,
+      "subject": "বাংলা",
+      "topics": "সাহিত্য",
+      "q": "‘কবর’ কবিতাটি কে লিখেছেন?",
+      "options": ["কায়কোবাদ", "জসীম উদ্দীন", "মাইকেল মধুসূদন দত্ত", "রবীন্দ্রনাথ ঠাকুর"],
+      "ans": 1,
+      "explain": "কবিতাটি পল্লীকবি জসীম উদ্দীনের লেখা। [৮]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 49,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "‘রবীন্দ্র’ শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+      "options": ["রবী+ইন্দ্র", "রবী+ঈন্দ্র", "রবি+ইন্দ্র", "রবি+ঈন্দ্র"],
+      "ans": 2,
+      "explain": "রবি+ইন্দ্র = রবীন্দ্র। [৮]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 50,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "ক্রিয়ার কাল কত প্রকার?",
+      "options": ["৩", "৪", "৫", "৬"],
+      "ans": 0,
+      "explain": "ক্রিয়ার কাল মূলত তিন প্রকার: বর্তমান, অতীত ও ভবিষ্যৎ। [৮]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 51,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "He has no appetite ____ food.",
+      "options": ["to", "for", "with", "about"],
+      "ans": 1,
+      "explain": "Appetite for একটি Appropriate Preposition যার অর্থ ক্ষুধা। [৯]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 52,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "His words conform ____ his work.",
+      "options": ["about", "into", "with", "for"],
+      "ans": 2,
+      "explain": "Conform with মানে হলো সামঞ্জস্যপূর্ণ হওয়া। [৯]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 53,
+      "subject": "English",
+      "topics": "Grammar",
+      "q": "One of the students ____ failed.",
+      "options": ["has", "have", "would", "will"],
+      "ans": 0,
+      "explain": "One of the এর পরে Noun plural হলেও Verb সবসময় singular হয়। [৯]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 54,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "The thief ran away after he ____ the police.",
+      "options": ["saw", "seen", "sean", "had seen"],
+      "ans": 3,
+      "explain": "After-এর পরে Past Perfect Tense (had+V3) বসে। [৯]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 55,
+      "subject": "English",
+      "topics": "Grammar",
+      "q": "Which of the following is plural?",
+      "options": ["furniture", "linguistics", "geese", "news"],
+      "ans": 2,
+      "explain": "Goose এর plural হলো Geese। বাকিগুলো singular। [৯]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 56,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "He got his house ____ last month.",
+      "options": ["to paint", "painting", "paint", "painted"],
+      "ans": 3,
+      "explain": "Get something done (Causative Verb) নিয়মে Past Participle বসে। [৯]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 57,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "She made her daughter ____ homework.",
+      "options": ["do", "did", "to do", "done"],
+      "ans": 0,
+      "explain": "Make-এর পরে object বসলে সরাসরি base verb বসে। [৯]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 58,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "The man got used to ____ a walk every morning.",
+      "options": ["take", "taken", "taking", "took"],
+      "ans": 2,
+      "explain": "Got used to এর পরে verb-এর সাথে ing যুক্ত হয়। [৯]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 59,
+      "subject": "English",
+      "topics": "Others",
+      "q": "He doesn’t like company, So He has ____ friends.",
+      "options": ["a few", "few", "many", "fewer"],
+      "ans": 1,
+      "explain": "নেতিবাচক অর্থে (নেই বললেই চলে) few বসে। [৯]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 60,
+      "subject": "English",
+      "topics": "Others",
+      "q": "There was ____ water in the jug. She could quench her thrist.",
+      "options": ["a little", "little", "less", "the little"],
+      "ans": 0,
+      "explain": "তেষ্টা মেটানোর মতো সামান্য পরিমাণ পানি অর্থে a little বসে। [৯]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 61,
+      "subject": "English",
+      "topics": "Grammar",
+      "q": "Which of the following is singular?",
+      "options": ["trousers", "jeans", "glasses", "athletics"],
+      "ans": 3,
+      "explain": "Athletics হলো একটি বিষয়ের নাম যা সবসময় singular। [১০]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 62,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "Truth triumphs ____ falsehood.",
+      "options": ["on", "over", "to", "for"],
+      "ans": 1,
+      "explain": "Triumph over মানে জয়লাভ করা। [১০]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 63,
+      "subject": "English",
+      "topics": "Grammar",
+      "q": "The jury ____ unanimous in giving verdict.",
+      "options": ["was", "were", "have", "has"],
+      "ans": 0,
+      "explain": "Collective Noun (Jury) একমত হলে singular verb (was) গ্রহণ করে। [১০]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 64,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "They were sitting by a swimming pool. Here the underlined word is a —",
+      "options": ["participle", "infinitive", "gerund", "finite verb"],
+      "ans": 2,
+      "explain": "Swimming pool এখানে একটি স্থির অবস্থা নির্দেশ করছে, তাই এটি Gerund। [১০]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 65,
+      "subject": "English",
+      "topics": "Others",
+      "q": "A stitch in time saves ____",
+      "options": ["money", "nine", "time", "energy"],
+      "ans": 1,
+      "explain": "এটি একটি প্রবাদ যার অর্থ 'সময়ের এক ফোঁড় অসময়ের দশ ফোঁড়'। [১০]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 66,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "Child saw a flying bird. Here the underlined word is a —",
+      "options": ["participle", "gerund", "infinitive", "finite verb"],
+      "ans": 0,
+      "explain": "Flying এখানে পাখিটির উড়ন্ত অবস্থা বা বিশেষণ হিসেবে কাজ করছে, তাই এটি Participle। [১০]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 67,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "It was necessary that she ____ the meeting.",
+      "options": ["joined", "join", "joins", "to join"],
+      "ans": 1,
+      "explain": "Subjunctive mood অনুযায়ী that এর পরে subjective pronoun এর সাথে base verb বসে। [১০]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 68,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "If he helps me, I ____ the work.",
+      "options": ["did", "will do", "would do", "would have done"],
+      "ans": 1,
+      "explain": "First conditional অনুযায়ী If + Present + Future Simple ব্যবহৃত হয়। [১০]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 69,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "I introduced my friend ____ my parents.",
+      "options": ["to", "with", "between", "among"],
+      "ans": 0,
+      "explain": "Introduce to মানে হলো পরিচয় করিয়ে দেওয়া। [১০]",
+      "source": ["Biddabari PDF"]
+    },
+    {
+      "id": 70,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "Vice results ____ misery.",
+      "options": ["to", "for", "with", "in"],
+      "ans": 3,
+      "explain": "Result in মানে হলো পর্যবসিত হওয়া। [১০]",
+      "source": ["Biddabari PDF"]
+    }
+  ]
+}

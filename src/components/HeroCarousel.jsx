@@ -85,6 +85,17 @@ const slides = [
     bgGradient: "from-indigo-900 via-blue-800 to-purple-900"
   },
   {
+    id: 9,
+    badge: "📝 BCS Question Bank",
+    title: "BCS ও সরকারি চাকরির প্রশ্ন ব্যাংক",
+    description: "সব ধরনের প্রশ্ন ও সমাধান একসাথে। প্রাক্তন প্রশ্নপত্র থেকে MCQ অনুশীলন করো এবং প্রস্তুতি নিশ্চিত করো।",
+    ctaText: "প্রশ্ন ব্যাংক দেখো",
+    emoji: "📝",
+    link: "/question-bank",
+    centerCta: true,
+    bgGradient: "from-blue-900 via-indigo-800 to-purple-900"
+  },
+  {
     id: 8,
     badge: "📖 ভোকাব স্টোরি হাব",
     title: "গল্পে গল্পে BCS ও জব এক্সাম ভোকাবুলারি মাস্টারক্লাস",

@@ -113,7 +113,7 @@ export default function QuickPracticeSetup() {
             </div>
 
             {/* Topic */}
-            {selectedSubject && (
+            {selectedSubject && practiceRoutes[selectedSubject] && (
 
                 <div className="mb-6">
 

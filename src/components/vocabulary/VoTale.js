@@ -64,28 +64,28 @@ function deduplicateStories(stories) {
    Popover / Tooltip Component
    ============================================================ */
 function VocabTooltip({ wordData, position, onClose, onMouseEnter, onMouseLeave }) {
-  if (!wordData) return null;
+   if (!wordData) return null;
 
-  const posColors = {
-    noun: 'bg-purple-100 text-purple-700',
-    verb: 'bg-blue-100 text-blue-700',
-    adjective: 'bg-emerald-100 text-emerald-700',
-    adverb: 'bg-amber-100 text-amber-700',
-  };
+   const posColors = {
+     noun: 'bg-purple-100 text-purple-700',
+     verb: 'bg-blue-100 text-blue-700',
+     adjective: 'bg-emerald-100 text-emerald-700',
+     adverb: 'bg-amber-100 text-amber-700',
+   };
 
-  const posBadge =
-    posColors[wordData.pos?.toLowerCase()] || 'bg-slate-100 text-slate-700';
+   const posBadge =
+     posColors[wordData.pos?.toLowerCase()] || 'bg-slate-100 text-slate-700';
 
-  return (
-    <div
-      className="fixed z-50 w-72 sm:w-80"
-      style={{
-        left: Math.min(position.x, window.innerWidth - 320),
-        top: position.y + 12,
-      }}
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
-    >
+   return (
+     <div
+       className="fixed z-50 w-[90vw] max-w-[400px]"
+       style={{
+         left: Math.min(position.x, window.innerWidth - 20),
+         top: position.y + 12,
+       }}
+       onMouseEnter={onMouseEnter}
+       onMouseLeave={onMouseLeave}
+     >
       <div className="bg-white rounded-2xl shadow-2xl border border-slate-200 overflow-hidden animate-in fade-in slide-in-from-top-2 duration-200">
         {/* Top accent bar */}
         <div className="h-1.5 bg-gradient-to-r from-red-500 via-red-400 to-rose-400" />
@@ -132,7 +132,7 @@ function VocabTooltip({ wordData, position, onClose, onMouseEnter, onMouseLeave 
 /* ============================================================
    Quiz Modal Component
    ============================================================ */
-function QuizModal({ story, dictionary, onClose }) {
+function QuizModal({ story, dictionary, onClose, onQuizComplete }) {
   const questions = useMemo(() => {
     if (!story?.quizWordIds?.length) return [];
 
@@ -187,14 +187,21 @@ function QuizModal({ story, dictionary, onClose }) {
     }
   }, [currentQ, questions.length]);
 
-  const handleRestart = useCallback(() => {
-    setCurrentQ(0);
-    setScore(0);
-    setSelected(null);
-    setFinished(false);
-  }, []);
+   const handleRestart = useCallback(() => {
+     setCurrentQ(0);
+     setScore(0);
+     setSelected(null);
+     setFinished(false);
+   }, []);
 
-  if (!questions.length) return null;
+   const handleClose = useCallback(() => {
+     if (finished) {
+       onQuizComplete?.();
+     }
+     onClose();
+   }, [finished, onClose, onQuizComplete]);
+
+   if (!questions.length) return null;
 
   const q = questions[currentQ];
   const progress = ((currentQ + 1) / questions.length) * 100;
@@ -209,7 +216,7 @@ function QuizModal({ story, dictionary, onClose }) {
               {finished ? '🎉 Quiz Complete!' : '📝 Mini Quiz'}
             </h3>
             <button
-              onClick={onClose}
+              onClick={handleClose}
               className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-500 transition-colors"
             >
               ✕
@@ -254,20 +261,20 @@ function QuizModal({ story, dictionary, onClose }) {
                     ? 'Great job! Keep practicing!'
                     : 'Keep trying, you will get better!'}
               </p>
-              <div className="flex gap-3 justify-center pt-2">
-                <button
-                  onClick={handleRestart}
-                  className="px-5 py-2.5 bg-[#1E53C5] text-white rounded-xl font-medium hover:bg-[#1E53C5]/90 transition-colors"
-                >
-                  🔄 Try Again
-                </button>
-                <button
-                  onClick={onClose}
-                  className="px-5 py-2.5 bg-slate-100 text-slate-700 rounded-xl font-medium hover:bg-slate-200 transition-colors"
-                >
-                  Close
-                </button>
-              </div>
+               <div className="flex gap-3 justify-center pt-2">
+                 <button
+                   onClick={handleRestart}
+                   className="px-5 py-2.5 bg-[#1E53C5] text-white rounded-xl font-medium hover:bg-[#1E53C5]/90 transition-colors"
+                 >
+                   🔄 Try Again
+                 </button>
+                 <button
+                   onClick={handleClose}
+                   className="px-5 py-2.5 bg-slate-100 text-slate-700 rounded-xl font-medium hover:bg-slate-200 transition-colors"
+                 >
+                   Close
+                 </button>
+               </div>
             </div>
           ) : (
             <div className="space-y-5">
@@ -358,40 +365,40 @@ function VocabListTab({ wordsUsed, dictionary }) {
         <span className="text-xs text-slate-400">Click any word to see details</span>
       </div>
 
-      <div className="grid gap-2">
-        {items.map((item, index) => (
-          <div
-            key={item.id}
-            className="group flex items-center gap-4 bg-white border border-slate-200 rounded-xl px-4 py-3 hover:border-[#1E53C5]/30 hover:shadow-sm transition-all cursor-default"
-          >
-            {/* Sequential Number — replaces raw ID */}
-            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-slate-100 text-xs font-bold text-slate-500 shrink-0">
-              {index + 1}
-            </span>
+       <div className="grid gap-2">
+         {items.map((item, index) => (
+           <div
+             key={item.id}
+             className="group flex flex-wrap items-center gap-2 bg-white border border-slate-200 rounded-xl px-3 py-2.5 hover:border-[#1E53C5]/30 hover:shadow-sm transition-all cursor-default"
+           >
+             {/* Sequential Number */}
+             <span className="flex items-center justify-center w-6 h-6 rounded-full bg-slate-100 text-[10px] font-bold text-slate-500 shrink-0">
+               {index + 1}
+             </span>
 
-            {/* Word */}
-            <div className="flex-1 min-w-0">
-              <span className="font-semibold text-slate-800 text-sm">
-                {item.word}
-              </span>
-            </div>
+             {/* Word */}
+             <div className="flex-1 min-w-0">
+               <span className="font-semibold text-slate-800 text-sm">
+                 {item.word}
+               </span>
+             </div>
 
-            {/* POS Badge */}
-            <span
-              className={`text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full shrink-0 ${
-                posColors[item.pos?.toLowerCase()] || 'bg-slate-100 text-slate-700'
-              }`}
-            >
-              {item.pos}
-            </span>
+             {/* POS Badge */}
+             <span
+               className={`text-[9px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded-full shrink-0 ${
+                 posColors[item.pos?.toLowerCase()] || 'bg-slate-100 text-slate-700'
+               }`}
+             >
+               {item.pos}
+             </span>
 
-            {/* Bangla Meaning */}
-            <span className="text-sm text-slate-600 text-right max-w-[200px] truncate shrink-0">
-              {item.bn_meaning}
-            </span>
-          </div>
-        ))}
-      </div>
+             {/* Bangla Meaning */}
+             <span className="flex-1 min-w-0 text-sm text-slate-600 break-words">
+               {item.bn_meaning}
+             </span>
+           </div>
+         ))}
+       </div>
     </div>
   );
 }
@@ -410,13 +417,14 @@ export default function VoTale({ storyId: initialStoryId }) {
     [allStories, initialStoryId]
   );
 
-  const [activeStory, setActiveStory] = useState(defaultStory);
-  const [activeTab, setActiveTab] = useState('read');
-  const [tooltipWord, setTooltipWord] = useState(null);
-  const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
-  const [showQuiz, setShowQuiz] = useState(false);
-  const contentRef = useRef(null);
-  const hideTooltipTimer = useRef(null);
+   const [activeStory, setActiveStory] = useState(defaultStory);
+   const [activeTab, setActiveTab] = useState('read');
+   const [tooltipWord, setTooltipWord] = useState(null);
+   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
+   const [showQuiz, setShowQuiz] = useState(false);
+   const [quizCompleted, setQuizCompleted] = useState(false);
+   const contentRef = useRef(null);
+   const hideTooltipTimer = useRef(null);
 
   // Fix #3: Track if the user is hovering the tooltip itself
   const [isHoveringTooltip, setIsHoveringTooltip] = useState(false);
@@ -518,12 +526,18 @@ export default function VoTale({ storyId: initialStoryId }) {
     }, 200);
   }, []);
 
-  const handleStorySelect = useCallback((story) => {
-    setActiveStory(story);
-    setActiveTab('read');
-    setTooltipWord(null);
-    setShowQuiz(false);
-  }, []);
+   const handleStorySelect = useCallback((story) => {
+     setActiveStory(story);
+     setActiveTab('read');
+     setTooltipWord(null);
+     setShowQuiz(false);
+     setQuizCompleted(false);
+   }, []);
+
+   const handleQuizComplete = useCallback(() => {
+     setQuizCompleted(true);
+     setShowQuiz(false);
+   }, []);
 
   // Fix #1: Use index as fallback for duplicate story keys
   const storySelector = useMemo(
@@ -557,159 +571,182 @@ export default function VoTale({ storyId: initialStoryId }) {
     );
   }
 
-  return (
-    <div className="w-full max-w-3xl mx-auto space-y-5">
-      {/* Story Selector (if multiple stories) */}
-      {storySelector}
+   return (
+     <div className="w-full max-w-3xl mx-auto space-y-5 overflow-x-hidden">
+       {/* Story Selector (if multiple stories) */}
+       {storySelector}
 
-      {/* Main Story Card */}
-      <div className="bg-white border border-slate-200 rounded-3xl shadow-sm overflow-hidden">
-        {/* Header Section */}
-        <div className="relative">
-          {/* Gradient background */}
-          <div className="absolute inset-0 bg-gradient-to-br from-[#1E53C5]/5 via-white to-[#F9B816]/5 rounded-t-3xl" />
+       {/* Main Story Card */}
+       <div className="bg-white border border-slate-200 rounded-3xl shadow-sm overflow-hidden overflow-x-hidden">
+         {/* Header Section */}
+         <div className="relative">
+           {/* Gradient background */}
+           <div className="absolute inset-0 bg-gradient-to-br from-[#1E53C5]/5 via-white to-[#F9B816]/5 rounded-t-3xl" />
 
-          <div className="relative px-6 pt-6 pb-4 sm:px-8 sm:pt-8 sm:pb-5">
-            {/* Source badge */}
-            <div className="inline-flex items-center gap-1.5 bg-white/80 border border-slate-200 rounded-full px-3 py-1 mb-3">
-              <span className="text-xs text-slate-500">
-                {activeStory.source}
-              </span>
-              <span className="w-1 h-1 bg-slate-300 rounded-full" />
-              <span className="text-xs text-slate-500">
-                {activeStory.readingTimeMin} min read
-              </span>
-            </div>
+           <div className="relative px-4 pt-4 pb-3 sm:px-6 sm:pt-6 sm:pb-4">
+             {/* Source badge */}
+             <div className="inline-flex items-center gap-1.5 bg-white/80 border border-slate-200 rounded-full px-2.5 py-1 mb-2">
+               <span className="text-xs text-slate-500">
+                 {activeStory.source}
+               </span>
+               <span className="w-1 h-1 bg-slate-300 rounded-full" />
+               <span className="text-xs text-slate-500">
+                 {activeStory.readingTimeMin} min read
+               </span>
+             </div>
 
-            {/* Title */}
-            <h1 className="text-2xl sm:text-3xl font-bold text-slate-800 leading-tight">
-              {activeStory.title}
-            </h1>
+             {/* Title */}
+             <h1 className="text-xl sm:text-2xl sm:text-3xl font-bold text-slate-800 leading-tight">
+               {activeStory.title}
+             </h1>
 
-            {/* Hook */}
-            <p className="mt-3 text-sm text-slate-500 italic leading-relaxed">
-              &ldquo;{activeStory.hook}&rdquo;
-            </p>
-          </div>
-        </div>
+             {/* Hook */}
+             <p className="mt-2 text-xs sm:text-sm text-slate-500 italic leading-relaxed">
+               &ldquo;{activeStory.hook}&rdquo;
+             </p>
+           </div>
+         </div>
 
-        {/* Tabs */}
-        <div className="border-b border-slate-200 px-6 sm:px-8">
-          <div className="flex gap-0 -mb-px">
-            <button
-              onClick={() => setActiveTab('read')}
-              className={`px-5 py-3 text-sm font-medium border-b-2 transition-all ${
-                activeTab === 'read'
-                  ? 'border-[#1E53C5] text-[#1E53C5]'
-                  : 'border-transparent text-slate-400 hover:text-slate-600'
-              }`}
-            >
-              📖 Read Story (গল্পটি পড়ুন)
-            </button>
-            <button
-              onClick={() => setActiveTab('vocab')}
-              className={`px-5 py-3 text-sm font-medium border-b-2 transition-all ${
-                activeTab === 'vocab'
-                  ? 'border-[#1E53C5] text-[#1E53C5]'
-                  : 'border-transparent text-slate-400 hover:text-slate-600'
-              }`}
-            >
-              📚 Vocabulary List (শব্দকোষ)
-            </button>
-          </div>
-        </div>
+         {/* Tabs */}
+         <div className="border-b border-slate-200 px-4 sm:px-6 sm:px-8">
+           <div className="flex gap-0 -mb-px overflow-x-auto scrollbar-hide">
+             <button
+               onClick={() => setActiveTab('read')}
+               className={`px-3 py-2.5 text-xs sm:text-sm font-medium border-b-2 transition-all whitespace-nowrap ${
+                 activeTab === 'read'
+                   ? 'border-[#1E53C5] text-[#1E53C5]'
+                   : 'border-transparent text-slate-400 hover:text-slate-600'
+               }`}
+             >
+               📖 Read Story (গল্পটি পড়ুন)
+             </button>
+             <button
+               onClick={() => setActiveTab('vocab')}
+               className={`px-3 py-2.5 text-xs sm:text-sm font-medium border-b-2 transition-all whitespace-nowrap ${
+                 activeTab === 'vocab'
+                   ? 'border-[#1E53C5] text-[#1E53C5]'
+                   : 'border-transparent text-slate-400 hover:text-slate-600'
+               }`}
+             >
+               📚 Vocabulary List (শব্দকোষ)
+             </button>
+           </div>
+         </div>
 
-        {/* Tab Content */}
-        <div className="px-6 sm:px-8 py-6">
-          {activeTab === 'read' && (
-            <div className="space-y-6">
-              {/* Story Content — Fix #4: Increased font size, tightened line-height */}
-              <div
-                ref={contentRef}
-                className="leading-snug text-[18px] text-slate-700 space-y-3"
-              >
-                {parsedContent.map((segment, idx) => {
-                  if (segment.type === 'text') {
-                    const parts = segment.value.split(/(\n)/g);
-                    return (
-                      <span key={`text-${idx}`}>
-                        {parts.map((part, i) =>
-                          part === '\n' ? <br key={`br-${i}`} /> : part
-                        )}
-                      </span>
-                    );
-                  }
-                  return (
-                    <button
-                      key={`token-${segment.id}-${idx}`}
-                      onClick={(e) => handleWordClick(e, segment.id)}
-                      onMouseEnter={(e) =>
-                        handleWordMouseEnter(e, segment.id)
-                      }
-                      onMouseLeave={handleWordMouseLeave}
-                      className="font-bold text-red-600 cursor-pointer underline decoration-dotted underline-offset-4 hover:text-red-700 transition-colors"
-                    >
-                      {segment.display}
-                    </button>
-                  );
-                })}
-              </div>
-
-              {/* Moral */}
-              <div className="bg-gradient-to-r from-amber-50 to-amber-50/50 border border-amber-200/60 rounded-2xl p-5">
-                <div className="flex items-start gap-3">
-                  <span className="text-xl shrink-0 mt-0.5">💡</span>
-                  <div>
-                    <span className="text-[11px] font-semibold uppercase tracking-wider text-amber-600">
-                      Moral
-                    </span>
-                    <p className="mt-1 text-sm text-amber-800 leading-relaxed">
-                      {activeStory.moral}
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* CTA Button */}
-              {activeStory.quizWordIds?.length > 0 && (
-                <button
-                  onClick={() => setShowQuiz(true)}
-                  className="w-full py-4 bg-gradient-to-r from-[#1E53C5] to-[#2a6bdf] text-white rounded-2xl font-bold text-base hover:brightness-110 transition-all shadow-lg shadow-[#1E53C5]/20"
+         {/* Tab Content */}
+         <div className="px-4 sm:px-6 sm:px-8 py-4 sm:py-6">
+           {activeTab === 'read' && (
+             <div className="space-y-6">
+                {/* Story Content */}
+                <div
+                  ref={contentRef}
+                  className="leading-snug text-sm sm:text-base text-slate-700 space-y-3 break-words overflow-wrap-anywhere"
                 >
-                  Start Quiz on this Story 🎯
-                </button>
-              )}
-            </div>
-          )}
+                 {parsedContent.map((segment, idx) => {
+                   if (segment.type === 'text') {
+                     const parts = segment.value.split(/(\n)/g);
+                     return (
+                       <span key={`text-${idx}`}>
+                         {parts.map((part, i) =>
+                           part === '\n' ? <br key={`br-${i}`} /> : part
+                         )}
+                       </span>
+                     );
+                   }
+                   return (
+                     <button
+                       key={`token-${segment.id}-${idx}`}
+                       onClick={(e) => handleWordClick(e, segment.id)}
+                       onMouseEnter={(e) =>
+                         handleWordMouseEnter(e, segment.id)
+                       }
+                       onMouseLeave={handleWordMouseLeave}
+                       className="font-bold text-red-600 cursor-pointer underline decoration-dotted underline-offset-4 hover:text-red-700 transition-colors"
+                     >
+                       {segment.display}
+                     </button>
+                   );
+                 })}
+               </div>
 
-          {activeTab === 'vocab' && (
-            <VocabListTab
-              wordsUsed={activeStory.wordsUsed}
-              dictionary={dictionary}
-            />
-          )}
-        </div>
-      </div>
+               {/* Moral */}
+               <div className="bg-gradient-to-r from-amber-50 to-amber-50/50 border border-amber-200/60 rounded-2xl p-4 sm:p-5">
+                 <div className="flex items-start gap-3">
+                   <span className="text-xl shrink-0 mt-0.5">💡</span>
+                   <div>
+                     <span className="text-[11px] font-semibold uppercase tracking-wider text-amber-600">
+                       Moral
+                     </span>
+                     <p className="mt-1 text-sm text-amber-800 leading-relaxed">
+                       {activeStory.moral}
+                     </p>
+                   </div>
+                 </div>
+               </div>
 
-      {/* Tooltip — Fix #3: Added enter/leave handlers to prevent sticky hover */}
-      {tooltipWord && (
-        <VocabTooltip
-          wordData={tooltipWord}
-          position={tooltipPos}
-          onClose={() => setTooltipWord(null)}
-          onMouseEnter={handleTooltipMouseEnter}
-          onMouseLeave={handleTooltipMouseLeave}
-        />
-      )}
+               {/* CTA Button */}
+               {activeStory.quizWordIds?.length > 0 && (
+                 <button
+                   onClick={() => setShowQuiz(true)}
+                   className="w-full py-3 sm:py-4 bg-gradient-to-r from-[#1E53C5] to-[#2a6bdf] text-white rounded-2xl font-bold text-sm sm:text-base hover:brightness-110 transition-all shadow-lg shadow-[#1E53C5]/20"
+                 >
+                   Start Quiz on this Story 🎯
+                 </button>
+               )}
+             </div>
+           )}
 
-      {/* Quiz Modal */}
-      {showQuiz && (
-        <QuizModal
-          story={activeStory}
-          dictionary={dictionary}
-          onClose={() => setShowQuiz(false)}
-        />
-      )}
-    </div>
-  );
+           {activeTab === 'vocab' && (
+             <VocabListTab
+               wordsUsed={activeStory.wordsUsed}
+               dictionary={dictionary}
+             />
+           )}
+         </div>
+       </div>
+
+       {/* All Stories — shown after quiz completion */}
+       {quizCompleted && (
+         <div className="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden overflow-x-hidden">
+           <div className="px-4 sm:px-6 py-4 sm:py-5">
+             <h2 className="text-base sm:text-lg font-bold text-[#0B1B4F] mb-3">
+               📖 All Stories
+             </h2>
+             <div className="space-y-2">
+               {allStories.map((story) => (
+                 <button
+                   key={story.id}
+                   onClick={() => handleStorySelect(story)}
+                   className="w-full text-left px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl hover:border-[#1E53C5]/30 hover:bg-[#1E53C5]/5 transition-all text-sm font-medium text-slate-700"
+                 >
+                   {story.coverEmoji} {story.title}
+                 </button>
+               ))}
+             </div>
+           </div>
+         </div>
+       )}
+
+       {/* Tooltip — Fix #3: Added enter/leave handlers to prevent sticky hover */}
+       {tooltipWord && (
+         <VocabTooltip
+           wordData={tooltipWord}
+           position={tooltipPos}
+           onClose={() => setTooltipWord(null)}
+           onMouseEnter={handleTooltipMouseEnter}
+           onMouseLeave={handleTooltipMouseLeave}
+         />
+       )}
+
+       {/* Quiz Modal */}
+       {showQuiz && (
+         <QuizModal
+           story={activeStory}
+           dictionary={dictionary}
+           onClose={() => setShowQuiz(false)}
+           onQuizComplete={handleQuizComplete}
+         />
+       )}
+     </div>
+   );
 }

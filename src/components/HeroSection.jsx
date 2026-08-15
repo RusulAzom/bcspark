@@ -2,7 +2,7 @@
 import Link from "next/link";
 import {
   Zap, Target, Cpu, FileText, BarChart3, Newspaper,
-  BookOpen, Calculator, Globe, Trophy, Map, ArrowRight
+  BookOpen, Calculator, Globe, Trophy, Map, ArrowRight, Languages, History, FolderOpen
 } from "lucide-react";
 import React, { useState } from 'react';
 import HeroCarousel from "./HeroCarousel";
@@ -18,9 +18,14 @@ const topTools = [
   { id: 5, name: "BCS নিউজ", icon: <Newspaper className="h-4.5 w-4.5" />, href: "#" },
   { id: 6, name: "বাংলা সাহিত্য", icon: <BookOpen className="h-4.5 w-4.5" />, href: "#" },
   { id: 7, name: "গণিত প্র্যাকটিস", icon: <Calculator className="h-4.5 w-4.5" />, href: "#" },
-  { id: 8, name: "আন্তর্জাতিক বিষয়", icon: <Globe className="h-4.5 w-4.5" />, href: "#" },
-  { id: 9, name: "লিডারবোর্ড", icon: <Trophy className="h-4.5 w-4.5" />, href: "#" },
-  { id: 10, name: "সিলেবাস গাইড", icon: <Map className="h-4.5 w-4.5" />, href: "#" }
+  { id: 8, name: "Question Bank", icon: <BookOpen className="h-4.5 w-4.5" />, href: "/question-bank" },
+  { id: 9, name: "Vocabulary Story", icon: <Languages className="h-4.5 w-4.5" />, href: "/vocabulary/stories" },
+  { id: 10, name: "Itihaj", icon: <History className="h-4.5 w-4.5" />, href: "/vocabulary/stories" },
+  { id: 11, name: "Resource", icon: <FolderOpen className="h-4.5 w-4.5" />, href: "#" },
+  { id: 12, name: "আন্তর্জাতিক বিষয়", icon: <Globe className="h-4.5 w-4.5" />, href: "#" },
+  { id: 13, name: "লিডারবোর্ড", icon: <Trophy className="h-4.5 w-4.5" />, href: "#" },
+  { id: 14, name: "সিলেবাস গাইড", icon: <Map className="h-4.5 w-4.5" />, href: "#" }
+
 ];
 
 export default function HeroSection() {
@@ -28,7 +33,7 @@ export default function HeroSection() {
 
   return (
     <div className="relative bg-gray-50 py-4">
-      
+
       {/* আপনার মেইন আসল UI লেআউট */}
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
@@ -43,22 +48,22 @@ export default function HeroSection() {
               </div>
 
               {/* Menu List */}
-              <div className="grid grid-cols-2 grid-rows-5 grid-flow-col gap-1.5">
+              <div className="grid grid-cols-2 grid-rows-7 grid-flow-col gap-1.5">
                 {topTools.map((tool) => {
                   // সাইকোলজি টেস্ট বাটন — এখন পেজে রিডাইরেক্ট হবে
                   if (tool.id === 2) {
-      return (
-        <Link
-          key={tool.id}
-          href={tool.href}
-          className="flex items-center gap-3.5 rounded-xl px-3.5 py-2.5 text-sm font-bold text-slate-700 transition-all hover:bg-blue-50/50 hover:text-primary group text-left w-full"
-        >
-          <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#f0f4f8] text-primary transition-colors group-hover:bg-primary group-hover:text-white">
-            {tool.icon}
-          </div>
-          <span>{tool.name}</span> 
-        </Link>
-      );
+                    return (
+                      <Link
+                        key={tool.id}
+                        href={tool.href}
+                        className="flex items-center gap-3.5 rounded-xl px-3.5 py-2.5 text-sm font-bold text-slate-700 transition-all hover:bg-blue-50/50 hover:text-primary group text-left w-full"
+                      >
+                        <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#f0f4f8] text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+                          {tool.icon}
+                        </div>
+                        <span>{tool.name}</span>
+                      </Link>
+                    );
                   }
 
                   // অন্যান্য নরমাল বাটনগুলোর জন্য লিংক রেন্ডারিং
@@ -89,8 +94,40 @@ export default function HeroSection() {
           </div>
 
           {/* Right Column: Hero Carousel */}
-          <div className="order-1 lg:order-2 lg:col-span-2">
+          <div className="order-1 lg:order-2 lg:col-span-2 flex flex-col gap-4">
             <HeroCarousel />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Link
+                href="/question-bank"
+                className="group relative flex items-center justify-between rounded-3xl border border-gray-100 bg-gradient-to-r from-blue-700 to-indigo-700 p-6 text-white shadow-sm hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/10 transition-colors group-hover:bg-white/20">
+                    <BookOpen className="h-6 w-6" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-extrabold">Question Bank</h3>
+                    <p className="text-sm opacity-90">Previous Year Questions | MCQ Practice</p>
+                  </div>
+                </div>
+                <ArrowRight className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
+              </Link>
+              <Link
+                href="/central-model-tests"
+                className="group relative flex items-center justify-between rounded-3xl border border-gray-100 bg-gradient-to-r from-blue-700 to-indigo-700 p-6 text-white shadow-sm hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/10 transition-colors group-hover:bg-white/20">
+                    <BarChart3 className="h-6 w-6" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-extrabold">Mock Test</h3>
+                    <p className="text-sm opacity-90">Full Model Tests | Performance Analytics</p>
+                  </div>
+                </div>
+                <ArrowRight className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
+              </Link>
+            </div>
           </div>
 
         </div>

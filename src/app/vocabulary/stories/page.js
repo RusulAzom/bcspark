@@ -43,7 +43,7 @@ export default function VoTalePage() {
         </div>
 
         {/* Content Area */}
-        <div className="max-w-6xl mx-auto px-4 py-8">
+        <div className="max-w-6xl mx-auto px-4 py-6 sm:py-8">
           <VoTale />
         </div>
          {/* 🎯 tEst কন্টেন্টের নিচে Native Banner */}

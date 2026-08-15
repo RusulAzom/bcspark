@@ -1,0 +1,200 @@
+{
+  "examInfo": {
+    "examName": "সমাজসেবা অধিদপ্তর ইউনিয়ন সমাজকর্মী নিয়োগ পরীক্ষা ২০১৬",
+    "examType": "preliminary",
+    "totalMarks": "70",
+    "totalQuestions": 70
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "বাংলাদেশ ছাড়া কোন অঞ্চলের মানুষের ভাষা বাংলা?",
+      "options": ["উড়িষ্যা", "তামিল", "নাগপুর", "মিজোরাম"],
+      "ans": 0,
+      "explain": "ভারতের উড়িষ্যা ও পশ্চিমবঙ্গ অঞ্চলের মানুষের প্রধান ভাষা বাংলা। [৪]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 2,
+      "subject": "বাংলা",
+      "topics": "শব্দের উৎস",
+      "q": "তারিখ শব্দটি কোন ভাষা থেকে বাংলায় এসেছে?",
+      "options": ["ফরাসি", "আরবি", "তুর্কি", "পর্তুগিজ"],
+      "ans": 1,
+      "explain": "তারিখ একটি আরবি শব্দ। [৪]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 3,
+      "subject": "বাংলা",
+      "topics": "শব্দের উৎস",
+      "q": "রিক্সা কোন ভাষার শব্দ?",
+      "options": ["গুজরাটি", "পাঞ্জাবি", "তুর্কি", "জাপানি"],
+      "ans": 3,
+      "explain": "রিক্সা জাপানি ভাষা থেকে আগত একটি শব্দ। [৪]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 5,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "বাংলা ভাষায় যৌগিক স্বরধ্বনির সংখ্যাটি?",
+      "options": ["১১টি", "২৫টি", "৪০টি", "৫০টি"],
+      "ans": 1,
+      "explain": "বাংলা ভাষায় যৌগিক স্বরধ্বনির সংখ্যা ২৫টি। [৫]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 6,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "ব্রহ্মপুত্র শব্দের 'হ্ম' যুক্ত বর্ণটি কোন বর্ণের সংযুক্ত রূপ?",
+      "options": ["ম+হ", "হ+ম", "ক্+ষ", "হ+ণ"],
+      "ans": 1,
+      "explain": "হ্ম যুক্তবর্ণটি হ এবং ম এর সংযুক্ত রূপ। [৫]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 8,
+      "subject": "বাংলা",
+      "topics": "সমাস",
+      "q": "নিচের কোনটি রূপক কর্মধারয় সমাসের উদাহরণ?",
+      "options": ["মনমরা", "মনগড়া", "মনমাঝি", "পরাণপ্রিয়"],
+      "ans": 2,
+      "explain": "মন রূপ মাঝি = মনমাঝি। [৫]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 10,
+      "subject": "বাংলা",
+      "topics": "বাগধারা",
+      "q": "তামার বিষ বাগধারাটির অর্থ কী?",
+      "options": ["ক্ষণস্থায়ী বস্তু", "অর্থের কুপ্রভাব", "তীব্র জ্বালা", "বিপজ্জনক"],
+      "ans": 1,
+      "explain": "তামার বিষ বাগধারাটির অর্থ হলো অর্থের কুপ্রভাব। [৬]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 12,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "একটি অপূর্ণ বাক্যের শেষে অন্য বাক্যের অবতারণা করতে কী চিহ্ন বসে?",
+      "options": ["ড্যাশ", "কোলন", "সেমিকোলন", "পূর্ণচ্ছেদ"],
+      "ans": 1,
+      "explain": "অপূর্ণ বাক্যের পর নতুন বাক্যের অবতারণা করতে কোলন (:) বসে। [৬]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 15,
+      "subject": "বাংলা",
+      "topics": "সাহিত্য",
+      "q": "কাজী নজরুল ইসলামের প্রথম কাব্যগ্রন্থের নাম কী?",
+      "options": ["অগ্নিবীণা", "বিষের বাঁশি", "ছায়ানট", "চক্রবাক"],
+      "ans": 0,
+      "explain": "অগ্নিবীণা নজরুল ইসলামের প্রথম কাব্যগ্রন্থ, যা ১৯২২ সালে প্রকাশিত হয়। [৭]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 20,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "যদ্যপি এর সন্ধিবিচ্ছেদ কী?",
+      "options": ["যদি + পি", "যদি + অপি", "যদি + আপি", "যদ্যা + অপি"],
+      "ans": 1,
+      "explain": "যদি + অপি = যদ্যপি। [৮]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 23,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "He is innocent ___ the charge.",
+      "options": ["of", "with", "to", "on"],
+      "ans": 1,
+      "explain": "উৎস অনুযায়ী এখানে with সঠিক উত্তর হিসেবে দেওয়া হয়েছে। [৯]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 25,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "He has no control ___ himself.",
+      "options": ["on", "at", "in", "over"],
+      "ans": 3,
+      "explain": "Control over মানে কারো বা কোনো কিছুর ওপর নিয়ন্ত্রণ থাকা। [৯]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 34,
+      "subject": "English",
+      "topics": "Grammar",
+      "q": "Thief এর plural কোনটি?",
+      "options": ["Thiefes", "Thieves", "Thiefs", "Thives"],
+      "ans": 1,
+      "explain": "Thief শব্দের শেষে 'f' থাকায় plural করার সময় 'ves' যুক্ত হয়। [১১]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 41,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "বঙ্গভঙ্গ রদ হয় কোন সালে?",
+      "options": ["১৯০৫", "১৯১৬", "১৯২৩", "১৯১১"],
+      "ans": 3,
+      "explain": "১৯১১ সালে সম্রাট পঞ্চম জর্জের দিল্লি দরবারে বঙ্গভঙ্গ রদ ঘোষণা করা হয়। [১২]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 50,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক",
+      "q": "পৃথিবীর দীর্ঘতম নদী কোনটি?",
+      "options": ["আমাজন", "ভলগা", "নীলনদ", "দানিয়ুব"],
+      "ans": 2,
+      "explain": "নীলনদ পৃথিবীর দীর্ঘতম নদী, যা আফ্রিকা মহাদেশে অবস্থিত। [১৪]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 56,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "বার্ষিক ৫% হারে ৭৫০ টাকার ৪ বছরের মুনাফা কত?",
+      "options": ["২০০ টাকা", "১৫০ টাকা", "২৫০ টাকা", "৩০০ টাকা"],
+      "ans": 1,
+      "explain": "মুনাফা = (৭৫০ * ৪ * ৫) / ১০০ = ১৫০ টাকা। [১৫, ১৬]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 62,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "১ + ২ + ৩ + ৪৪ + … + ৯৯ = কত?",
+      "options": ["৪৬৫০", "৪৭৫০", "৪৮৫০", "৪৯৫০"],
+      "ans": 3,
+      "explain": "সূত্র: n(n+1)/2 = (৯৯ * ১০০) / ২ = ৪৯৫০। [১৭]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 66,
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "যে কোণের ডিগ্রীর পরিমাপ ৯০ তাকে কী বলে?",
+      "options": ["সমকোণ", "স্থুলকোণ", "সরলকোণ", "সূক্ষ্মকোণ"],
+      "ans": 0,
+      "explain": "৯০ ডিগ্রি কোণকে সমকোণ বলা হয়। [১৮]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    },
+    {
+      "id": 69,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "একটি সংখ্যা ৭৪২ হতে যত বড় ৮৩০ হতে তত ছোট, সংখ্যাটি কত?",
+      "options": ["৭৮০", "৭৮২", "৭৯০", "৭৮৬"],
+      "ans": 3,
+      "explain": "সংখ্যাটি = (৭৪২ + ৮৩০) / ২ = ৭৮৬। [১৮]",
+      "source": ["Union_Samajkormi_Exam_2016SparkEdu.pdf"]
+    }
+  ]
+}

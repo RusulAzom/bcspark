@@ -1,0 +1,1200 @@
+{
+  "examInfo": {
+    "examName": "Combined Model Test",
+    "examType": "preliminary",
+    "totalMarks": "70",
+    "totalQuestions": 70
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "বাংলা ভাষায় যৌগিক স্বরধ্বনির সংখ্যাটি?",
+      "options": [
+        "১১টি",
+        "২৫টি",
+        "৪০টি",
+        "৫০টি"
+      ],
+      "ans": 1,
+      "explain": "বাংলা ভাষায় যৌগিক স্বরধ্বনির সংখ্যা ২৫টি। [৫]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 2,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "বার্ষিক ৫% হারে ৭৫০ টাকার ৪ বছরের মুনাফা কত?",
+      "options": [
+        "২০০ টাকা",
+        "১৫০ টাকা",
+        "২৫০ টাকা",
+        "৩০০ টাকা"
+      ],
+      "ans": 1,
+      "explain": "মুনাফা = (৭৫০ * ৪ * ৫) / ১০০ = ১৫০ টাকা। [১৫, ১৬]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 3,
+      "subject": "বাংলা",
+      "topics": "সাহিত্য",
+      "q": "রবীন্দ্রনাথ ঠাকুর কত সালে নোবেল পুরস্কার পান?",
+      "options": [
+        "১৯১০",
+        "১৯১১",
+        "১৯১৩",
+        "১৯১৫"
+      ],
+      "ans": 2,
+      "explain": "রবীন্দ্রনাথ ঠাকুর ১৯১৩ সালে গীতাঞ্জলি কাব্যের জন্য সাহিত্যে নোবেল পান। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 4,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "বার্ষিক ৪.৫% হারে কত টাকা বিনিয়োগ করলে ৪ বছরে তা ৮২৬ টাকা (সুদ-আসলে) হবে?",
+      "options": [
+        "৬৫০ টাকা",
+        "৭০০ টাকা",
+        "৭৫০ টাকা",
+        "৮০০ টাকা"
+      ],
+      "ans": 1,
+      "explain": "আসল = (সুদআসল x ১০০) / (১০০ + হার x সময়) = (৮২৬ x ১০০) / ১১৮ = ৭০০। [৫৭]",
+      "source": [
+        "All bcs-math-solutions PDF"
+      ]
+    },
+    {
+      "id": 5,
+      "subject": "বাংলা",
+      "topics": "সাহিত্য",
+      "q": "কাজী নজরুল ইসলামের প্রথম কাব্যগ্রন্থের নাম কী?",
+      "options": [
+        "অগ্নিবীণা",
+        "বিষের বাঁশি",
+        "ছায়ানট",
+        "চক্রবাক"
+      ],
+      "ans": 0,
+      "explain": "অগ্নিবীণা নজরুল ইসলামের প্রথম কাব্যগ্রন্থ, যা ১৯২২ সালে প্রকাশিত হয়। [৭]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 6,
+      "subject": "English",
+      "topics": "Grammar",
+      "q": "Thief এর plural কোনটি?",
+      "options": [
+        "Thiefes",
+        "Thieves",
+        "Thiefs",
+        "Thives"
+      ],
+      "ans": 1,
+      "explain": "Thief শব্দের শেষে 'f' থাকায় plural করার সময় 'ves' যুক্ত হয়। [১১]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 7,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক",
+      "q": "জাতিসংঘের সদর দপ্তর কোথায় অবস্থিত?",
+      "options": [
+        "লন্ডন",
+        "প্যারিস",
+        "নিউইয়র্ক",
+        "জেনেভা"
+      ],
+      "ans": 2,
+      "explain": "জাতিসংঘের সদর দপ্তর যুক্তরাষ্ট্রের নিউইয়র্কে অবস্থিত। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 8,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "If it rains, I ___ not go out.",
+      "options": [
+        "do",
+        "shall",
+        "would",
+        "did"
+      ],
+      "ans": 1,
+      "explain": "First Conditional অনুযায়ী If + Present হলে পরের অংশ Future Simple হয়। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 9,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "বাংলাদেশের সংবিধানের অভিভাবক কে?",
+      "options": [
+        "সংসদ",
+        "সুপ্রিম কোর্ট",
+        "রাষ্ট্রপতি",
+        "আইন মন্ত্রণালয়"
+      ],
+      "ans": 1,
+      "explain": "সুপ্রিম কোর্ট বাংলাদেশের সংবিধানের চূড়ান্ত ব্যাখ্যা প্রদানকারী ও অভিভাবক। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 10,
+      "subject": "বাংলা",
+      "topics": "সন্ধি",
+      "q": "'বনৌষধি' এর সঠিক সন্ধিবিচ্ছেদ কোনটি?",
+      "options": [
+        "বন + ঔষধি",
+        "বন + ওষধি",
+        "বনা + ঔষধি",
+        "বনৌ + ষধি"
+      ],
+      "ans": 1,
+      "explain": "অ-কারের পর ও-কার থাকলে উভয় মিলে ঔ-কার হয়। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 11,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক",
+      "q": "পৃথিবীর বৃহত্তম মহাসাগর কোনটি?",
+      "options": [
+        "আটলান্টিক",
+        "ভারত",
+        "প্রশান্ত",
+        "উত্তর"
+      ],
+      "ans": 2,
+      "explain": "প্রশান্ত মহাসাগর পৃথিবীর বৃহত্তম ও গভীরতম মহাসাগর। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 12,
+      "subject": "English",
+      "topics": "Others",
+      "q": "___ honest man is respected everywhere.",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "ans": 1,
+      "explain": "Honest শব্দটির উচ্চারণ 'ও' এর মতো হওয়ায় এর আগে An বসে। [৯৯]",
+      "source": [
+        "Satt Academy"
+      ]
+    },
+    {
+      "id": 13,
+      "subject": "English",
+      "topics": "Others",
+      "q": "What is the meaning of 'In a nutshell'?",
+      "options": [
+        "Briefly",
+        "Details",
+        "Nut shell",
+        "Very hard"
+      ],
+      "ans": 0,
+      "explain": "In a nutshell একটি ইডিয়াম যার অর্থ সংক্ষেপে। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 14,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "বাংলাদেশ ছাড়া কোন অঞ্চলের মানুষের ভাষা বাংলা?",
+      "options": [
+        "উড়িষ্যা",
+        "তামিল",
+        "নাগপুর",
+        "মিজোরাম"
+      ],
+      "ans": 0,
+      "explain": "ভারতের উড়িষ্যা ও পশ্চিমবঙ্গ অঞ্চলের মানুষের প্রধান ভাষা বাংলা। [৪]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 15,
+      "subject": "বাংলা",
+      "topics": "সমাস",
+      "q": "'হাটবাজার' কোন সমাসের উদাহরণ?",
+      "options": [
+        "তৎপুরুষ",
+        "অব্যয়ীভাব",
+        "দ্বন্দ্ব",
+        "বহুব্রীহি"
+      ],
+      "ans": 2,
+      "explain": "হাট ও বাজার = হাটবাজার; এটি সমার্থক দ্বন্দ্ব সমাস। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 16,
+      "subject": "বাংলা",
+      "topics": "উপসর্গ",
+      "q": "'নিখুঁত' শব্দে 'নি' কোন প্রকারের উপসর্গ?",
+      "options": [
+        "খাঁটি বাংলা",
+        "তৎসম",
+        "বিদেশি",
+        "ফারসি"
+      ],
+      "ans": 0,
+      "explain": "নি, অঘ, অজ ইত্যাদি খাঁটি বাংলা উপসর্গ। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 17,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "একটি সংখ্যা ৭৪২ হতে যত বড় ৮৩০ হতে তত ছোট, সংখ্যাটি কত?",
+      "options": [
+        "৭৮০",
+        "৭৮২",
+        "৭৯০",
+        "৭৮৬"
+      ],
+      "ans": 3,
+      "explain": "সংখ্যাটি = (৭৪২ + ৮৩০) / ২ = ৭৮৬। [১৮]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 18,
+      "subject": "বাংলা",
+      "topics": "ক্রিয়ার কাল",
+      "q": "'আমি কি ডরাই সখি ভিখারি রাঘবে' - এটি কোন কালের উদাহরণ?",
+      "options": [
+        "নিত্যবৃত্ত অতীত",
+        "পুরাঘটিত বর্তমান",
+        "সাধারণ বর্তমান",
+        "ঘটমান বর্তমান"
+      ],
+      "ans": 2,
+      "explain": "কবিতা বা কাব্যে সাধারণত সাধারণ বর্তমান কালের প্রয়োগ বেশি দেখা যায়। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 19,
+      "subject": "English",
+      "topics": "Grammar",
+      "q": "Neither of the boys ___ present.",
+      "options": [
+        "were",
+        "are",
+        "was",
+        "have"
+      ],
+      "ans": 2,
+      "explain": "Neither of এর পর Noun plural হলেও Verb সবসময় singular হয়। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 20,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "সমাজসেবা অধিদপ্তরের প্রতিষ্ঠাকাল কত সাল?",
+      "options": [
+        "১৯৬১ সাল",
+        "১৯৬০ সাল",
+        "১৯৬৫ সাল",
+        "১৯৬৯ সাল"
+      ],
+      "ans": 0,
+      "explain": "সমাজসেবা অধিদপ্তর ১৯৬১ সালে প্রতিষ্ঠিত হয়। [৪]",
+      "source": [
+        "DSS Prep Image"
+      ]
+    },
+    {
+      "id": 21,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "He is blind ___ his own faults.",
+      "options": [
+        "at",
+        "of",
+        "to",
+        "with"
+      ],
+      "ans": 2,
+      "explain": "নিজের দোষের প্রতি অন্ধ হওয়া বুঝাতে Blind to বসে। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 22,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "বঙ্গভঙ্গ রদ হয় কোন সালে?",
+      "options": [
+        "১৯০৫",
+        "১৯১৬",
+        "১৯২৩",
+        "১৯১১"
+      ],
+      "ans": 3,
+      "explain": "১৯১১ সালে সম্রাট পঞ্চম জর্জের দিল্লি দরবারে বঙ্গভঙ্গ রদ ঘোষণা করা হয়। [১২]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 23,
+      "subject": "English",
+      "topics": "Grammar",
+      "q": "What is the singular form of 'Criteria'?",
+      "options": [
+        "Criterias",
+        "Criterions",
+        "Criterion",
+        "Criteri"
+      ],
+      "ans": 2,
+      "explain": "ব্যতিক্রমী নিয়মে Criteria এর singular হলো Criterion। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 24,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক",
+      "q": "'গ্রীনপিস' কোন দেশের পরিবেশবাদী সংস্থা?",
+      "options": [
+        "যুক্তরাজ্য",
+        "নেদারল্যান্ডস",
+        "সুইজারল্যান্ড",
+        "কানাডা"
+      ],
+      "ans": 1,
+      "explain": "গ্রীনপিস নেদারল্যান্ডসভিত্তিক একটি আন্তর্জাতিক পরিবেশবাদী সংস্থা। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 25,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "একটি সংখ্যা ৭৪২ হতে যত বড় ৮৩০ হতে তত ছোট, সংখ্যাটি কত?",
+      "options": [
+        "৭৮০",
+        "৭৮২",
+        "৭৯০",
+        "৭৮৬"
+      ],
+      "ans": 3,
+      "explain": "সংখ্যাটি = (৭৪২ + ৮৩০) / ২ = ৭৮৬। [১৮]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 26,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "বার্ষিক ৫% হারে ৭৫০ টাকার ৪ বছরের মুনাফা কত?",
+      "options": [
+        "২০০ টাকা",
+        "১৫০ টাকা",
+        "২৫০ টাকা",
+        "৩০০ টাকা"
+      ],
+      "ans": 1,
+      "explain": "মুনাফা = (৭৫০ * ৪ * ৫) / ১০০ = ১৫০ টাকা। [১৫, ১৬]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 27,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "সম্রাট আকবরের রাজস্ব মন্ত্রী কে ছিলেন?",
+      "options": [
+        "বীরবল",
+        "বৈরাম খাঁ",
+        "টোডর মল",
+        "আবুল ফজল"
+      ],
+      "ans": 2,
+      "explain": "রাজা টোডর মল মুঘল সম্রাট আকবরের বিখ্যাত রাজস্ব মন্ত্রী ছিলেন। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 28,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক",
+      "q": "জাতিসংঘের সাধারণ পরিষদের প্রথম নারী সভাপতি কে?",
+      "options": [
+        "মার্গারেট থ্যাচার",
+        "বিজয়া লক্ষ্মী পণ্ডিত",
+        "ইন্দিরা গান্ধী",
+        "বেগম রোকেয়া"
+      ],
+      "ans": 1,
+      "explain": "ভারতের বিজয়া লক্ষ্মী পণ্ডিত ১৯৫৩ সালে জাতিসংঘের সাধারণ পরিষদের সভাপতি হন। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 29,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "Look ___ the map.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "up"
+      ],
+      "ans": 1,
+      "explain": "মানচিত্রের দিকে তাকানো অর্থে Look at ব্যবহৃত হয়। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 30,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "Rice ___ in Bangladesh.",
+      "options": [
+        "grows",
+        "grow",
+        "is grown",
+        "grown"
+      ],
+      "ans": 2,
+      "explain": "এটি একটি Passive voice বাক্য, চাল নিজে জন্মায় না বরং ফলানো হয়। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 31,
+      "subject": "বাংলা",
+      "topics": "শব্দের উৎস",
+      "q": "রিক্সা কোন ভাষার শব্দ?",
+      "options": [
+        "গুজরাটি",
+        "পাঞ্জাবি",
+        "তুর্কি",
+        "জাপানি"
+      ],
+      "ans": 3,
+      "explain": "রিক্সা জাপানি ভাষা থেকে আগত একটি শব্দ। [৪]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 32,
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "১৭ সেমি, ১৫ সেমি ও ৮ সেমি বাহুবিশিষ্ট ত্রিভুজটি কোন ধরনের?",
+      "options": [
+        "সমবাহু",
+        "সমকোণী",
+        "স্থূলকোণী",
+        "সূক্ষ্মকোণী"
+      ],
+      "ans": 1,
+      "explain": "১৭^২ = ২৮৯ এবং ১৫^২ + ৮^২ = ২২৫ + ৬৪ = ২৮৯। এটি পিথাগোরাস মেনে চলে। [৯১]",
+      "source": [
+        "All bcs-math-solutions PDF"
+      ]
+    },
+    {
+      "id": 33,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "১ + ২ + ৩ + ৪৪ + … + ৯৯ = কত?",
+      "options": [
+        "৪৬৫০",
+        "৪৭৫০",
+        "৪৮৫০",
+        "৪৯৫০"
+      ],
+      "ans": 3,
+      "explain": "সূত্র: n(n+1)/2 = (৯৯ * ১০০) / ২ = ৪৯৫০। [১৭]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 34,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "বাংলা ভাষায় যৌগিক স্বরধ্বনির সংখ্যাটি?",
+      "options": [
+        "১১টি",
+        "২৫টি",
+        "৪০টি",
+        "৫০টি"
+      ],
+      "ans": 1,
+      "explain": "বাংলা ভাষায় যৌগিক স্বরধ্বনির সংখ্যা ২৫টি। [৫]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 35,
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "৭ সেমি ব্যাসার্ধ বিশিষ্ট বৃত্তের অন্তর্লিথিত বর্গের ক্ষেত্রফল কত?",
+      "options": [
+        "৪৯",
+        "৯৮",
+        " ১৯৬",
+        "১৪৬"
+      ],
+      "ans": 1,
+      "explain": "বর্গের কর্ণ = বৃত্তের ব্যাস = ১৪ সেমি। ক্ষেত্রফল = (কর্ণ)^২ / ২ = ১৪^২ / ২ = ৯৮। [৮০]",
+      "source": [
+        "All bcs-math-solutions PDF"
+      ]
+    },
+    {
+      "id": 36,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "He has no control ___ himself.",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "over"
+      ],
+      "ans": 3,
+      "explain": "Control over মানে কারো বা কোনো কিছুর ওপর নিয়ন্ত্রণ থাকা। [৯]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 37,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "মুঘল সাম্রাজ্যের প্রতিষ্ঠাতা কে?",
+      "options": [
+        "হুমায়ুন",
+        "বাবর",
+        "আকবর",
+        "জাহাঙ্গীর"
+      ],
+      "ans": 1,
+      "explain": "১৫২৬ সালে পানিপথের যুদ্ধের মাধ্যমে সম্রাট বাবর মুঘল সাম্রাজ্য প্রতিষ্ঠা করেন। [১১]",
+      "source": [
+        "Mughal History Web"
+      ]
+    },
+    {
+      "id": 38,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "He has been reading ___ morning.",
+      "options": [
+        "for",
+        "since",
+        "from",
+        "at"
+      ],
+      "ans": 1,
+      "explain": "নির্দিষ্ট সময় থেকে শুরু হওয়া বুঝাতে Since বসে। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 39,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক",
+      "q": "জাতিসংঘের বর্তমান মহাসচিবের নাম কী?",
+      "options": [
+        "বান কি মুন",
+        "আন্তোনিও গুতেরেস",
+        "কফি আনান",
+        "বুট্রোস ঘালি"
+      ],
+      "ans": 1,
+      "explain": "পর্তুগালের আন্তোনিও গুতেরেস জাতিসংঘের বর্তমান ও ৯ম মহাসচিব। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 40,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "যদ্যপি এর সন্ধিবিচ্ছেদ কী?",
+      "options": [
+        "যদি + পি",
+        "যদি + অপি",
+        "যদি + আপি",
+        "যদ্যা + অপি"
+      ],
+      "ans": 1,
+      "explain": "যদি + অপি = যদ্যপি। [৮]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 41,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "I am tired ___ this work.",
+      "options": [
+        "with",
+        "by",
+        "of",
+        "for"
+      ],
+      "ans": 2,
+      "explain": "Tired of মানে কোনো কিছুতে ক্লান্ত বা বিরক্ত হওয়া। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 42,
+      "subject": "বাংলা",
+      "topics": "সাহিত্য",
+      "q": "কাজী নজরুল ইসলাম সম্পাদিত পত্রিকার নাম কী?",
+      "options": [
+        "কালি ও কলম",
+        "ধূমকেতু",
+        "সবুজপত্র",
+        "বঙ্গদর্শন"
+      ],
+      "ans": 1,
+      "explain": "ধূমকেতু পত্রিকার সম্পাদক ছিলেন বিদ্রোহী কবি কাজী নজরুল ইসলাম। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 43,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "মুঘল সম্রাটদের মধ্যে কে প্রথম আত্মজীবনী লিখেছিলেন?",
+      "options": [
+        "আকবর",
+        "বাবর",
+        "হুমায়ুন",
+        "জাহাঙ্গীর"
+      ],
+      "ans": 1,
+      "explain": "সম্রাট বাবর 'তুজুক-ই-বাবরী' নামে প্রথম আত্মজীবনী লিখেছিলেন। [২০১]",
+      "source": [
+        "Mughal History Web"
+      ]
+    },
+    {
+      "id": 44,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "I had finished the work before he ___ .",
+      "options": [
+        "came",
+        "come",
+        "comes",
+        "had come"
+      ],
+      "ans": 0,
+      "explain": "Before এর আগের অংশ Past Perfect হলে পরের অংশ Past Simple হয়। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 45,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "সমাজসেবা অধিদপ্তর কোন মন্ত্রণালয়ের অধীন পরিচালিত হয়?",
+      "options": [
+        "সমাজকল্যাণ মন্ত্রণালয়",
+        "জনপ্রশাসন মন্ত্রণালয়",
+        "অর্থ মন্ত্রণালয়",
+        "শিক্ষা মন্ত্রণালয়"
+      ],
+      "ans": 0,
+      "explain": "সমাজসেবা অধিদপ্তর সমাজকল্যাণ মন্ত্রণালয়ের আওতাধীন একটি সংস্থা। [৪]",
+      "source": [
+        "DSS Prep Image"
+      ]
+    },
+    {
+      "id": 46,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক",
+      "q": "পৃথিবীর দীর্ঘতম নদী কোনটি?",
+      "options": [
+        "আমাজন",
+        "ভলগা",
+        "নীলনদ",
+        "দানিয়ুব"
+      ],
+      "ans": 2,
+      "explain": "নীলনদ পৃথিবীর দীর্ঘতম নদী, যা আফ্রিকা মহাদেশে অবস্থিত। [১৪]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 47,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "It is high time we ___ home.",
+      "options": [
+        "return",
+        "returning",
+        "returned",
+        "will return"
+      ],
+      "ans": 2,
+      "explain": "It is time/high time এর পর subject থাকলে verb এর past form হয়। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 48,
+      "subject": "বাংলা",
+      "topics": "বানান শুদ্ধি",
+      "q": "কোন বানানটি শুদ্ধ?",
+      "options": [
+        "আকাঙ্খা",
+        "আকাঙ্ক্ষা",
+        "আকাংখা",
+        "আকাক্ষা"
+      ],
+      "ans": 1,
+      "explain": "সঠিক বানানটি হলো 'আকাঙ্ক্ষা'। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 49,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "He is innocent ___ the charge.",
+      "options": [
+        "of",
+        "with",
+        "to",
+        "on"
+      ],
+      "ans": 1,
+      "explain": "উৎস অনুযায়ী এখানে with সঠিক উত্তর হিসেবে দেওয়া হয়েছে। [৯]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 50,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "He is innocent ___ the charge.",
+      "options": [
+        "of",
+        "with",
+        "to",
+        "on"
+      ],
+      "ans": 1,
+      "explain": "উৎস অনুযায়ী এখানে with সঠিক উত্তর হিসেবে দেওয়া হয়েছে। [৯]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 51,
+      "subject": "গনিত",
+      "topics": "বীজগণিত",
+      "q": "a+b=7 এবং a^2+b^2=25 হলে ab এর মান কত?",
+      "options": [
+        "১২",
+        "১০",
+        "৬",
+        "৮"
+      ],
+      "ans": 0,
+      "explain": "২ab = (a+b)^২ - (a^2+b^2) = ৭^২ - ২৫ = ২৪। ab = ১২। [৭৫]",
+      "source": [
+        "All bcs-math-solutions PDF"
+      ]
+    },
+    {
+      "id": 52,
+      "subject": "গনিত",
+      "topics": "বীজগণিত",
+      "q": "x-1/x = 1 হলে x^3-1/x^3 এর মান কত?",
+      "options": [
+        "১",
+        "২",
+        "৩",
+        "৪"
+      ],
+      "ans": 2,
+      "explain": "মান = (১)^৩ + ৩(১)(১) = ১ + ৩ = ৪। [৯০]",
+      "source": [
+        "All bcs-math-solutions PDF"
+      ]
+    },
+    {
+      "id": 53,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "বাংলা বর্ণমালায় মাত্রাহীন বর্ণ কয়টি?",
+      "options": [
+        "৮টি",
+        "১০টি",
+        "৭টি",
+        "৯টি"
+      ],
+      "ans": 1,
+      "explain": "বাংলা বর্ণমালায় ১০টি মাত্রাহীন বর্ণ রয়েছে (স্বরবর্ণ ৪টি, ব্যঞ্জনবর্ণ ৬টি)। [১৪০]",
+      "source": [
+        "Biddabari PDF"
+      ]
+    },
+    {
+      "id": 54,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "ক ও খ এর বেতনের অনুপাত ৫:৪; ক এর বেতন খ অপেক্ষা ২০০০ টাকা বেশি হলে খ এর বেতন কত?",
+      "options": [
+        "৮০০০",
+        "১০০০০",
+        "৬০০০",
+        "৫০০০"
+      ],
+      "ans": 0,
+      "explain": "অনুপাতের পার্থক্য ১ একক = ২০০০ টাকা। খ এর বেতন ৪ একক = ৪ x ২০০০ = ৮০০০। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 55,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "বাংলা ব্যাকরণে 'বচন' অর্থ কী?",
+      "options": [
+        "কথার ভঙ্গি",
+        "সংখ্যার ধারণা",
+        "বাক্যের ধরন",
+        "ক্রিয়ার রূপ"
+      ],
+      "ans": 1,
+      "explain": "বচন অর্থ সংখ্যার ধারণা। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 56,
+      "subject": "বাংলা",
+      "topics": "শব্দের উৎস",
+      "q": "তারিখ শব্দটি কোন ভাষা থেকে বাংলায় এসেছে?",
+      "options": [
+        "ফরাসি",
+        "আরবি",
+        "তুর্কি",
+        "পর্তুগিজ"
+      ],
+      "ans": 1,
+      "explain": "তারিখ একটি আরবি শব্দ। [৪]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 57,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "বঙ্গভঙ্গ রদ হয় কোন সালে?",
+      "options": [
+        "১৯০৫",
+        "১৯১৬",
+        "১৯২৩",
+        "১৯১১"
+      ],
+      "ans": 3,
+      "explain": "১৯১১ সালে সম্রাট পঞ্চম জর্জের দিল্লি দরবারে বঙ্গভঙ্গ রদ ঘোষণা করা হয়। [১২]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 58,
+      "subject": "বাংলা",
+      "topics": "সাহিত্য",
+      "q": "'নক্সী কাঁথার মাঠ' কাব্যগ্রন্থটি কার রচনা?",
+      "options": [
+        "রবীন্দ্রনাথ ঠাকুর",
+        "জসীম উদ্দীন",
+        "কায়কোবাদ",
+        "শামসুর রাহমান"
+      ],
+      "ans": 1,
+      "explain": "এটি পল্লীকবি জসীম উদ্দীনের একটি শ্রেষ্ঠ আখ্যান কাব্য। [১৪১]",
+      "source": [
+        "Biddabari PDF"
+      ]
+    },
+    {
+      "id": 59,
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "যে কোণের ডিগ্রীর পরিমাপ ৯০ তাকে কী বলে?",
+      "options": [
+        "সমকোণ",
+        "স্থুলকোণ",
+        "সরলকোণ",
+        "সূক্ষ্মকোণ"
+      ],
+      "ans": 0,
+      "explain": "৯০ ডিগ্রি কোণকে সমকোণ বলা হয়। [১৮]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 60,
+      "subject": "বাংলা",
+      "topics": "কারক",
+      "q": "'তিলে তৈল হয়' - তিলে কোন কারক?",
+      "options": [
+        "অধিকরণ",
+        "অপাদান",
+        "কর্তা",
+        "করণ"
+      ],
+      "ans": 1,
+      "explain": "যা থেকে কোনো কিছু বিচ্যুত, গৃহীত বা জাত হয় তাকে অপাদান কারক বলে। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 61,
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশ",
+      "q": "জাতীয় সমাজসেবা দিবস কবে পালন করা হয়?",
+      "options": [
+        "০২ জানুয়ারি",
+        "০৫ জানুয়ারি",
+        "০১ জানুয়ারি",
+        "০৩ জানুয়ারি"
+      ],
+      "ans": 0,
+      "explain": "প্রতি বছর ২রা জানুয়ারি জাতীয় সমাজসেবা দিবস পালিত হয়। [৪]",
+      "source": [
+        "DSS Prep Image"
+      ]
+    },
+    {
+      "id": 62,
+      "subject": "English",
+      "topics": "Verbs & Tense",
+      "q": "The baby ___ since 10 am.",
+      "options": [
+        "is crying",
+        "has been crying",
+        "cried",
+        "was crying"
+      ],
+      "ans": 1,
+      "explain": "নির্দিষ্ট সময় ধরে কাজ চললে Present Perfect Continuous Tense হয়। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 63,
+      "subject": "বাংলা",
+      "topics": "ব্যাকরণ",
+      "q": "ব্রহ্মপুত্র শব্দের 'হ্ম' যুক্ত বর্ণটি কোন বর্ণের সংযুক্ত রূপ?",
+      "options": [
+        "ম+হ",
+        "হ+ম",
+        "ক্+ষ",
+        "হ+ণ"
+      ],
+      "ans": 1,
+      "explain": "হ্ম যুক্তবর্ণটি হ এবং ম এর সংযুক্ত রূপ। [৫]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 64,
+      "subject": "English",
+      "topics": "Grammar",
+      "q": "The news ___ true.",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "have"
+      ],
+      "ans": 1,
+      "explain": "News শব্দটি দেখতে plural হলেও এটি সবসময় singular verb গ্রহণ করে। [১৪৩]",
+      "source": [
+        "Biddabari PDF"
+      ]
+    },
+    {
+      "id": 65,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "১ হতে ৪৯ পর্যন্ত ক্রমিক সংখ্যাগুলোর গড় কত?",
+      "options": [
+        "২৩",
+        "২৪.৫",
+        "২৫",
+        "২৫.৫"
+      ],
+      "ans": 2,
+      "explain": "গড় = (১ম পদ + শেষ পদ) / ২ = (১ + ৪৯) / ২ = ২৫। [৪১]",
+      "source": [
+        "All bcs-math-solutions PDF"
+      ]
+    },
+    {
+      "id": 66,
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "একটি আয়তাকার ঘরের দৈর্ঘ্য প্রস্থের দেড়গুণ। ক্ষেত্রফল ২১৬ বর্গমিটার হলে পরিসীমা কত?",
+      "options": [
+        "৫০",
+        "৬০",
+        "৪৫",
+        "৭০"
+      ],
+      "ans": 1,
+      "explain": "দৈর্ঘ্য ১৮, প্রস্থ ১২ হলে ক্ষেত্রফল ২১৬। পরিসীমা = ২(১৮+১২) = ৬০। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 67,
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "তেলের মূল্য ২৫% বৃদ্ধি পেলে তেলের ব্যবহার শতকরা কত কমালে খরচ বাড়বে না?",
+      "options": [
+        "১৫%",
+        "২০%",
+        "২৫%",
+        "৩০%"
+      ],
+      "ans": 1,
+      "explain": "সূত্র: (১০০ x বৃদ্ধি) / (১০০ + বৃদ্ধি) = (১০০ x ২৫) / ১২৫ = ২০%। [৪২]",
+      "source": [
+        "All bcs-math-solutions PDF"
+      ]
+    },
+    {
+      "id": 68,
+      "subject": "English",
+      "topics": "Prepositions",
+      "q": "He prevented me ___ going there.",
+      "options": [
+        "to",
+        "for",
+        "from",
+        "with"
+      ],
+      "ans": 2,
+      "explain": "Prevent someone from doing something সঠিক প্রয়োগ। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    },
+    {
+      "id": 69,
+      "subject": "English",
+      "topics": "Grammar",
+      "q": "Thief এর plural কোনটি?",
+      "options": [
+        "Thiefes",
+        "Thieves",
+        "Thiefs",
+        "Thives"
+      ],
+      "ans": 1,
+      "explain": "Thief শব্দের শেষে 'f' থাকায় plural করার সময় 'ves' যুক্ত হয়। [১১]",
+      "source": [
+        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+      ]
+    },
+    {
+      "id": 70,
+      "subject": "বাংলা",
+      "topics": "সমার্থক শব্দ",
+      "q": "'অগ্নি' শব্দের সমার্থক শব্দ কোনটি?",
+      "options": [
+        "অর্ণব",
+        "হুতাশন",
+        "অর্ক",
+        "পল্লব"
+      ],
+      "ans": 1,
+      "explain": "অগ্নির সমার্থক শব্দ হলো হুতাশন, পাবক, অনল। [১৫]",
+      "source": [
+        "General Prep"
+      ]
+    }
+  ]
+}
