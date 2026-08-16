@@ -71,6 +71,7 @@ const slides = [
     description: "মডেল টেস্টে করা আপনার সকল ভুল প্রশ্ন স্বয়ংক্রিয়ভাবে জমা হবে এখানে। দুর্বল বিষয়গুলোকে চিহ্নিত করে রিভিশন দিন নিমিষেই!",
     ctaText: "ভুলের খাতা দেখো",
     emoji: "📖",
+    link: "/smart-revision",
     centerCta: true,
     bgGradient: "from-purple-950 via-[#1a365d] to-[#6b46c1]"
   },
