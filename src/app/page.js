@@ -1,3 +1,4 @@
+import { Hind_Siliguri } from "next/font/google";
 import Navbar from "@/components/Navbar";
 // adds 
 import AdBanner728 from '@/components/add/adstra/AdBanner728';
@@ -14,10 +15,17 @@ import Footer from "@/components/Footer";
 import BottomNewsTicker from "@/components/BottomNewsTicker";
 import { TodayHistoryProvider } from "@/components/TodayHistoryProvider";
 
+// Apply Hind Siliguri ONLY on the home page (font-display: swap).
+const hindSiliguri = Hind_Siliguri({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["bengali", "latin"],
+  display: "swap",
+});
+
 export default function Home() {
   return (
     <TodayHistoryProvider>
-      <div className="flex min-h-screen flex-col bg-brand-bg text-primary pb-10">
+      <div className={`flex min-h-screen flex-col bg-brand-bg text-primary pb-10 ${hindSiliguri.className}`}>
       {/* Sticky Navigation Bar */}
       <Navbar />
 
@@ -61,4 +69,3 @@ export default function Home() {
     </TodayHistoryProvider>
   );
 }
-

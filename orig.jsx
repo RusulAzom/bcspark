@@ -36,7 +36,7 @@ const slides = [
     emoji: "📢",
     link: "/job-circulars",
     centerCta: true,
-    bgGradient: "from-sky-700/90 to-blue-900/95"
+    bgGradient: "from-sky-700/90 to-blue-900/95",
   },
   {
     id: 13,
@@ -49,6 +49,7 @@ const slides = [
     ctaText: "আজকের নিউজ দেখো",
     emoji: "📰",
     link: "/current-affairs",
+    // bgImage: "/banners/daily-news.png",
     centerCta: true,
     bgGradient: "from-indigo-950/90 to-slate-900/95"
   },
@@ -121,7 +122,7 @@ const slides = [
     id: 20,
     badge: "📖 ভোকাব স্টোরি হাব",
     title: "গল্পে গল্পে BCS ও জব এক্সাম ভোকাবুলারি মাস্টারক্লাস",
-    description: "আকর্ষণীয় গল্প, ইন্টারেক্টিভ মিনি-কুইজ এবং ভিজ্যুয়াল মিনিং-র মাধ্যমে আপনার ভোকাবুলারি রিটেনশন বাড়ান ১০০%—সম্পূর্ণ ফ্রি।",
+    description: "আকর্ষণীয় গল্প, ইন্টারেক্টিভ মিনি-কুইজ এবং ভিজ্যুয়াল মিনিং-এর মাধ্যমে আপনার ভোকাবুলারি রিটেনশন বাড়ান ১০০%—সম্পূর্ণ ফ্রি।",
     ctaText: "গল্প পড়া শুরু করুন",
     emoji: "📖",
     link: "/vocabulary/stories",
@@ -133,9 +134,6 @@ const slides = [
 export default function HeroCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
-  const [isDragging, setIsDragging] = useState(false);
-  const [startX, setStartX] = useState(0);
-  const [deltaX, setDeltaX] = useState(0);
 
   const nextSlide = useCallback(() => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
@@ -151,119 +149,44 @@ export default function HeroCarousel() {
     return () => clearInterval(interval);
   }, [nextSlide, isPaused]);
 
-  // Drag/swipe handlers
-  const startDrag = useCallback((clientX) => {
-    setIsDragging(true);
-    setStartX(clientX);
-    setDeltaX(0);
-    setIsPaused(true);
-    document.body.style.userSelect = "none";
-    document.body.style.cursor = "grabbing";
-  }, []);
-
-  const endDrag = useCallback(() => {
-    if (!isDragging) return;
-    setIsDragging(false);
-    // Restore text selection & cursor immediately on drag end
-    document.body.style.userSelect = "";
-    document.body.style.cursor = "";
-    // Re-enable autoplay after 3s of inactivity
-    const timeout = setTimeout(() => {
-      setIsPaused(false);
-    }, 3000);
-    return () => clearTimeout(timeout);
-  }, [isDragging]);
-
-  const handleTouchStart = useCallback((e) => {
-    startDrag(e.touches[0].clientX);
-  }, [startDrag]);
-
-  const handleTouchMove = useCallback((e) => {
-    if (!isDragging) return;
-    setDeltaX(e.touches[0].clientX - startX);
-  }, [isDragging, startX]);
-
-  const handleTouchEnd = useCallback(() => {
-    endDrag();
-  }, [endDrag]);
-
-  const handleMouseDown = useCallback((e) => {
-    startDrag(e.clientX);
-  }, [startDrag]);
-
-  const handleMouseMove = useCallback((e) => {
-    if (!isDragging) return;
-    setDeltaX(e.clientX - startX);
-  }, [isDragging, startX]);
-
-  const handleMouseUp = useCallback(() => {
-    endDrag();
-  }, [endDrag]);
-
-  const handleMouseLeave = useCallback(() => {
-    endDrag();
-  }, [endDrag]);
-
-  // Determine slide change on drag end
-  useEffect(() => {
-    if (!isDragging && deltaX !== 0) {
-      // If dragged more than 50px left -> next slide
-      if (deltaX < -50) {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
-      }
-      // If dragged more than 50px right -> prev slide
-      if (deltaX > 50) {
-        setCurrentIndex((prevIndex) => (prevIndex - 1 + slides.length) % slides.length);
-      }
-    }
-    setDeltaX(0);
-  }, [isDragging, deltaX, slides.length]);
-
   return (
     <div
-      className="relative h-full min-h-[320px] w-full overflow-hidden rounded-2xl bg-[#0f172a] shadow-xl transition-all sm:min-h-[460px] cursor-grab"
+className="relative h-full min-h-[320px] w-full overflow-hidden rounded-2xl bg-[#0f172a] shadow-xl transition-all sm:min-h-[460px]"
       onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={handleMouseLeave}
-      onTouchStart={handleTouchStart}
-      onTouchMove={handleTouchMove}
-      onTouchEnd={handleTouchEnd}
+      onMouseLeave={() => setIsPaused(false)}
     >
-      {/* Apply grabbing cursor when dragging */}
-      <div
-        className={`${isDragging ? "cursor-grabbing" : "cursor-grab"} relative h-full min-h-[320px] w-full overflow-hidden rounded-2xl bg-[#0f172a] shadow-xl transition-all sm:min-h-[460px]`}
-      >
-        {/* Slides Container */}
-        {slides.map((slide, index) => {
-          const isActive = index === currentIndex;
-          return (
-            <div
-              key={slide.id}
-              className={`absolute inset-0 flex-col p-4 sm:p-10 
-                transition-opacity duration-1000 ease-in-out 
-                ${isActive
-                  ? "opacity-100 z-10"
-                  : "opacity-0 z-0 pointer-events-none"
-                } 
-                ${slide.centerCta ? 'justify-center gap-3 sm:gap-6' : 'justify-between'}`}
-            >
-              {/* Background Layer */}
-              {slide.bgImage ? (
-                <>
-                  <div
-                    className="absolute inset-0 bg-cover bg-center transition-transform duration-10000"
-                    style={{ backgroundImage: `url('${slide.bgImage}')` }}
-                  />
-                  <div className={`absolute inset-0 bg-gradient-to-r ${slide.bgGradient}`} />
-                </>
-              ) : (
-                <div className={`absolute inset-0 bg-gradient-to-br ${slide.bgGradient}`} />
-              )}
+      {/* Slides Container */}
+      {slides.map((slide, index) => {
+        const isActive = index === currentIndex;
+        return (
+          <div
+            key={slide.id}
+            className={`absolute inset-0 flex-col p-4 sm:p-10 
+              transition-opacity duration-1000 ease-in-out 
+              ${isActive
+                ? "opacity-100 z-10"
+                : "opacity-0 z-0 pointer-events-none"
+              } 
+              ${slide.centerCta ? 'justify-center gap-3 sm:gap-6' : 'justify-between'}`}
+          >
+            {/* Background Layer */}
+            {slide.bgImage ? (
+              <>
+                <div
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-10000"
+                  style={{ backgroundImage: `url('${slide.bgImage}')` }}
+                />
+                <div className={`absolute inset-0 bg-gradient-to-r ${slide.bgGradient}`} />
+              </>
+            ) : (
+              <div className={`absolute inset-0 bg-gradient-to-br ${slide.bgGradient}`} />
+            )}
 
-              {/* Slide Content */}
-              <div className={`relative z-20 flex flex-col h-full ${slide.centerCta ? 'justify-center gap-6' : 'justify-between'}`}>
+            {/* Slide Content */}
+            <div className={`relative z-20 flex flex-col h-full ${slide.centerCta ? 'justify-center gap-6' : 'justify-between'}`}>
 
-                {/* Top Badge & Header */}
-                <div>
+              {/* Top Badge & Header */}
+              <div>
 <span className="inline-block rounded-full bg-white/10 px-3 py-1 text-[10px] font-semibold text-accent backdrop-blur-sm border border-white/5 uppercase tracking-wider mb-3 sm:px-4 sm:py-1.5 sm:text-xs sm:mb-6">
                   {slide.badge}
                 </span>
@@ -305,22 +228,21 @@ export default function HeroCarousel() {
               </div>
 
             </div>
-            </div>
-          );
-        })}
+          </div>
+        );
+      })}
 
-        {/* Pagination Indicators */}
-        <div className="absolute bottom-3 sm:bottom-6 left-1/2 z-20 -translate-x-1/2 flex gap-2">
-          {slides.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setCurrentIndex(index)}
-              className={`h-2 rounded-full transition-all duration-300 ${index === currentIndex ? "w-8 bg-accent" : "w-2 bg-white/40"
-                }`}
-              aria-label={`Go to slide ${index + 1}`}
-            />
-          ))}
-        </div>
+      {/* Pagination Indicators */}
+      <div className="absolute bottom-3 sm:bottom-6 left-1/2 z-20 -translate-x-1/2 flex gap-2">
+        {slides.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => setCurrentIndex(index)}
+            className={`h-2 rounded-full transition-all duration-300 ${index === currentIndex ? "w-8 bg-accent" : "w-2 bg-white/40"
+              }`}
+            aria-label={`Go to slide ${index + 1}`}
+          />
+        ))}
       </div>
     </div>
   );
