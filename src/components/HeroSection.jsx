@@ -96,36 +96,26 @@ export default function HeroSection() {
           {/* Right Column: Hero Carousel */}
           <div className="order-1 lg:order-2 lg:col-span-2 flex flex-col gap-4">
             <HeroCarousel />
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="hidden lg:grid grid-cols-2 gap-3 md:gap-4">
               <Link
                 href="/question-bank"
-                className="group relative flex items-center justify-between rounded-3xl border border-gray-100 bg-gradient-to-r from-blue-700 to-indigo-700 p-6 text-white shadow-sm hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                className="group relative flex flex-col items-center gap-3 rounded-3xl border border-gray-100 bg-gradient-to-r from-blue-700 to-indigo-700 px-3 py-4 text-center text-white shadow-sm hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 md:px-5 md:py-6"
               >
-                <div className="flex items-center gap-4">
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/10 transition-colors group-hover:bg-white/20">
-                    <BookOpen className="h-6 w-6" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-extrabold">Question Bank</h3>
-                    <p className="text-sm opacity-90">Previous Year Questions | MCQ Practice</p>
-                  </div>
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-white/10 transition-colors group-hover:bg-white/20 md:h-12 md:w-12">
+                  <BookOpen className="h-5 w-5 md:h-6 md:w-6" />
                 </div>
-                <ArrowRight className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
+                <h3 className="text-sm font-extrabold leading-tight md:text-lg">Question Bank</h3>
+                <ArrowRight className="h-4 w-4 shrink-0 transition-transform group-hover:translate-x-1 md:h-5 md:w-5" />
               </Link>
               <Link
                 href="/central-model-tests"
-                className="group relative flex items-center justify-between rounded-3xl border border-gray-100 bg-gradient-to-r from-blue-700 to-indigo-700 p-6 text-white shadow-sm hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                className="group relative flex flex-col items-center gap-3 rounded-3xl border border-gray-100 bg-gradient-to-r from-blue-700 to-indigo-700 px-3 py-4 text-center text-white shadow-sm hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 md:px-5 md:py-6"
               >
-                <div className="flex items-center gap-4">
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/10 transition-colors group-hover:bg-white/20">
-                    <BarChart3 className="h-6 w-6" />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-extrabold">Mock Test</h3>
-                    <p className="text-sm opacity-90">Full Model Tests | Performance Analytics</p>
-                  </div>
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-white/10 transition-colors group-hover:bg-white/20 md:h-12 md:w-12">
+                  <BarChart3 className="h-5 w-5 md:h-6 md:w-6" />
                 </div>
-                <ArrowRight className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
+                <h3 className="text-sm font-extrabold leading-tight md:text-lg">Mock Test</h3>
+                <ArrowRight className="h-4 w-4 shrink-0 transition-transform group-hover:translate-x-1 md:h-5 md:w-5" />
               </Link>
             </div>
           </div>
