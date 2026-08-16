@@ -35,7 +35,7 @@ export default function HeroSection() {
     <div className="relative bg-gray-50 py-4">
 
       {/* আপনার মেইন আসল UI লেআউট */}
-      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8 sm:py-2">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
 
           {/* Left Column: Top AI Tools Sidebar */}
