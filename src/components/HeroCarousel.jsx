@@ -18,6 +18,17 @@ const slides = [
   },
   {
     id: 2,
+    badge: "📲 কমিউনিটি",
+    title: "আমাদের WhatsApp Study Group এ জয়েন করুন",
+    description: "অ্যাপের নিয়মিত আপডেট, প্রিমিয়াম PDF, বই এবং সাজেশন একদম ফ্রি পেতে এখনই গ্রুপে জয়েন দিন। একসাথে পড়াশোনা করি, একসাথে সফল হই!",
+    ctaText: "গ্রুপে জয়েন করুন",
+    emoji: "💬",
+    link: "https://chat.whatsapp.com/JW63CMSIlMF4sLnf6bF7g4?s=cl&p=a&ilr=1",
+    centerCta: true,
+    bgGradient: "from-indigo-900 via-blue-800 to-purple-900"
+  },
+  {
+    id: 12,
     badge: "📢 চাকরির বিজ্ঞপ্তি",
     title: "সকল সরকারি চাকরির সর্বশেষ সার্কুলার (ডেইলি আপডেট)",
     description: "দেশের সকল সরকারি চাকরির সার্কুলার এক জায়গায়। আবেদনের তারিখ, যোগ্যতা ও লিংক সহ প্রতিদিন আপডেট পাও। মিস করো না কোনো সুযোগ!",
@@ -28,7 +39,7 @@ const slides = [
     bgGradient: "from-sky-700/90 to-blue-900/95",
   },
   {
-    id: 3,
+    id: 13,
     badge: "📰 কারেন্ট অ্যাফেয়ার্স মিস নাই",
     title: "আজকের BCS নিউজ আপডেট",
     isNews: true,
@@ -43,7 +54,7 @@ const slides = [
     bgGradient: "from-indigo-950/90 to-slate-900/95"
   },
   {
-    id: 4,
+    id: 14,
     badge: "⚡ T20 কুইজ চ্যালেঞ্জ",
     title: "T20 কুইজ চ্যালেঞ্জ",
     description: "প্রতিদিন মাত্র ২০টি প্রশ্নের দ্রুত উত্তর দিয়ে যাচাই করো তোমার প্রস্তুতি। প্রতি সপ্তাহে সেরা ৫ কুইজার পাবেন আকর্ষণীয় স্পেশাল ব্যাজ ও ডিল!",
@@ -54,7 +65,7 @@ const slides = [
     bgGradient: "from-blue-950 via-[#1a365d] to-[#2b6cb0]"
   },
   {
-    id: 5,
+    id: 15,
     badge: "📖 স্মার্ট রিভিশন",
     title: "ভুলের খাতা ২.০",
     description: "মডেল টেস্টে করা আপনার সকল ভুল প্রশ্ন স্বয়ংক্রিয়ভাবে জমা হবে এখানে। দুর্বল বিষয়গুলোকে চিহ্নিত করে রিভিশন দিন নিমিষেই!",
@@ -64,7 +75,7 @@ const slides = [
     bgGradient: "from-purple-950 via-[#1a365d] to-[#6b46c1]"
   },
   {
-    id: 6,
+    id: 16,
     badge: "🤖 AI ২৪/৭ মেন্টরিং",
     title: "Study Buddy AI",
     description: "BCS সিলেবাসের যেকোনো কঠিন বিষয় বুঝতে চ্যাট করুন আমাদের পার্সোনাল AI মেন্টরের সাথে। সাথে থাকছে ইন্সট্যান্ট সমাধান ও কাস্টম নোট জেনারেশন।",
@@ -74,7 +85,7 @@ const slides = [
     bgGradient: "from-teal-950 via-[#1a365d] to-[#319795]"
   },
   {
-    id: 7,
+    id: 17,
     badge: "🧠 মানসিক স্বাস্থ্য যাচাই",
     title: "আপনার মানসিক স্বাস্থ্য কেমন আছে?",
     description: "ডিপ্রেশন, দুশ্চিন্তা ও সম্পর্কের টানাপোড়েন পরিমাপ করুন আন্তর্জাতিক বৈজ্ঞানিক স্কেলে—সম্পূর্ণ বিনামূল্যে ও গোপনে।",
@@ -85,7 +96,7 @@ const slides = [
     bgGradient: "from-indigo-900 via-blue-800 to-purple-900"
   },
   {
-    id: 8,
+    id: 18,
     badge: "⚡ ভোকাবুলারি হাব",
     title: "BCS ও জব এক্সাম ভোকাবুলারি মাস্টারক্লাস",
     description: "৩০০০+ রিয়েল ডেটা, স্মার্ট MCQ কুইজ এবং ৩ডি ফ্ল্যাশকার্ড গেমের মাধ্যমে আপনার ভোকাবুলারি রিটেনশন বাড়ান ১০০%—সম্পূর্ণ ফ্রি।",
@@ -96,7 +107,7 @@ const slides = [
     bgGradient: "from-indigo-900 via-blue-800 to-purple-900"
   },
   {
-    id: 9,
+    id: 19,
     badge: "📝 BCS Question Bank",
     title: "BCS ও সরকারি চাকরির প্রশ্ন ব্যাংক",
     description: "সব ধরনের প্রশ্ন ও সমাধান একসাথে। প্রাক্তন প্রশ্নপত্র থেকে MCQ অনুশীলন করো এবং প্রস্তুতি নিশ্চিত করো।",
@@ -107,7 +118,7 @@ const slides = [
     bgGradient: "from-blue-900 via-indigo-800 to-purple-900"
   },
   {
-    id: 10,
+    id: 20,
     badge: "📖 ভোকাব স্টোরি হাব",
     title: "গল্পে গল্পে BCS ও জব এক্সাম ভোকাবুলারি মাস্টারক্লাস",
     description: "আকর্ষণীয় গল্প, ইন্টারেক্টিভ মিনি-কুইজ এবং ভিজ্যুয়াল মিনিং-এর মাধ্যমে আপনার ভোকাবুলারি রিটেনশন বাড়ান ১০০%—সম্পূর্ণ ফ্রি।",
@@ -149,10 +160,13 @@ className="relative h-full min-h-[320px] w-full overflow-hidden rounded-2xl bg-[
         return (
           <div
             key={slide.id}
-className={`absolute inset-0 flex flex-col p-4 sm:p-10 transition-all duration-700 ease-in-out ${isActive
-                ? "opacity-100 translate-x-0 scale-100 z-10"
-                : "opacity-0 translate-x-4 scale-95 z-0 pointer-events-none"
-              } ${slide.centerCta ? 'justify-center gap-3 sm:gap-6' : 'justify-between'}`}
+            className={`absolute inset-0 flex-col p-4 sm:p-10 
+              transition-opacity duration-1000 ease-in-out 
+              ${isActive
+                ? "opacity-100 z-10"
+                : "opacity-0 z-0 pointer-events-none"
+              } 
+              ${slide.centerCta ? 'justify-center gap-3 sm:gap-6' : 'justify-between'}`}
           >
             {/* Background Layer */}
             {slide.bgImage ? (
@@ -216,22 +230,6 @@ className={`absolute inset-0 flex flex-col p-4 sm:p-10 transition-all duration-7
           </div>
         );
       })}
-
-      {/* Manual Slide Navigation Buttons */}
-<button
-        onClick={prevSlide}
-        className="absolute left-4 top-1/2 z-20 -translate-y-1/2 flex h-8 w-8 sm:h-10 sm:w-10 items-center justify-center rounded-full bg-black/20 text-white backdrop-blur-sm transition-all hover:bg-black/40 hover:scale-105 active:scale-95"
-        aria-label="Previous slide"
-      >
-        <ChevronLeft className="h-5 w-5 sm:h-6 sm:w-6" />
-      </button>
-      <button
-        onClick={nextSlide}
-        className="absolute right-4 top-1/2 z-20 -translate-y-1/2 flex h-8 w-8 sm:h-10 sm:w-10 items-center justify-center rounded-full bg-black/20 text-white backdrop-blur-sm transition-all hover:bg-black/40 hover:scale-105 active:scale-95"
-        aria-label="Next slide"
-      >
-        <ChevronRight className="h-5 w-5 sm:h-6 sm:w-6" />
-      </button>
 
       {/* Pagination Indicators */}
       <div className="absolute bottom-3 sm:bottom-6 left-1/2 z-20 -translate-x-1/2 flex gap-2">

@@ -18,7 +18,7 @@ const topTools = [
   { id: 5, name: "BCS নিউজ", icon: <Newspaper className="h-4.5 w-4.5" />, href: "#" },
   { id: 6, name: "বাংলা সাহিত্য", icon: <BookOpen className="h-4.5 w-4.5" />, href: "#" },
   { id: 7, name: "গণিত প্র্যাকটিস", icon: <Calculator className="h-4.5 w-4.5" />, href: "#" },
-  { id: 8, name: "Question Bank", icon: <BookOpen className="h-4.5 w-4.5" />, href: "/question-bank" },
+  { id: 8, name: "প্রশ্নব্যাংক", icon: <BookOpen className="h-4.5 w-4.5" />, href: "/question-bank" },
   { id: 9, name: "Vocabulary Story", icon: <Languages className="h-4.5 w-4.5" />, href: "/vocabulary/stories" },
   { id: 10, name: "Itihaj", icon: <History className="h-4.5 w-4.5" />, href: "/vocabulary/stories" },
   { id: 11, name: "Resource", icon: <FolderOpen className="h-4.5 w-4.5" />, href: "#" },
@@ -32,7 +32,7 @@ export default function HeroSection() {
   const [isPsychologyModalOpen, setIsPsychologyModalOpen] = useState(false);
 
   return (
-    <div className="relative bg-gray-50 py-4">
+    <div className="relative bg-gray-50 py-1">
 
       {/* আপনার মেইন আসল UI লেআউট */}
       <section className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8 sm:py-2">

@@ -5,7 +5,14 @@
   --color-accent: #d69e2e;
   --color-accent-dark: #b7791f;
   --color-brand-bg: #f7fafc;
-  --font-bengali: var(--font-hind-siliguri), sans-serif;
+  --font-bengali: var(--font-noto-bengali), sans-serif;
+}
+
+@font-face {
+  font-family: "Noto Sans Bengali";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans Bengali"), url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap") format("woff2");
 }
 
 :root {
@@ -48,4 +55,3 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
-
