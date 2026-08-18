@@ -1,52 +1,29 @@
-"use client";
-
-import { useEffect, useState } from "react";
+// Server Component
 import Link from "next/link";
-import { Briefcase, Calendar, MapPin, Users } from "lucide-react";
+import { Briefcase, Calendar, Users } from "lucide-react";
 import { collection, getDocs, orderBy, query } from "firebase/firestore";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
 import { db } from "@/lib/firebase";
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 type JobCircular = {
-  summary?: {
-    organization_name?: string;
-    total_vacancies?: string | number;
-    application_deadline?: string;
-  };
   id: string;
-  title?: string;
-  organization_name?: string;
-  total_vacancies?: string | number;
-  application_deadline?: string;
-  location?: string;
-  [key: string]: unknown;
+  [key: string]: any; // any type so we can handle both structures
 };
 
-export default function JobCircularPage() {
-  const [jobs, setJobs] = useState<JobCircular[]>([]);
-  const [loading, setLoading] = useState(true);
+export default async function JobCircularPage() {
+  const q = query(collection(db, "circulars"), orderBy("created_at", "desc"));
+  const querySnapshot = await getDocs(q);
 
-  useEffect(() => {
-    const fetchJobs = async () => {
-      try {
-        const q = query(collection(db, "circulars"), orderBy("createdAt", "desc"));
-        const querySnapshot = await getDocs(q);
-        const jobsData = querySnapshot.docs.map((doc) => ({
-          id: doc.id,
-          ...doc.data(),
-        })) as JobCircular[];
-        setJobs(jobsData);
-      } catch (error) {
-        console.error("Error fetching job circulars: ", error);
-      } finally {
-        setLoading(false);
-      }
-    };
+  const jobs = querySnapshot.docs.map((doc) => ({
+    id: doc.id,
+    ...doc.data(),
+  })) as JobCircular[];
 
-    fetchJobs();
-  }, []);
+  console.log("Total jobs from firebase:", jobs.length);
 
   return (
     <>
@@ -62,34 +39,16 @@ export default function JobCircularPage() {
             </p>
           </div>
 
-          {loading ? (
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {[...Array(6)].map((_, index) => (
-                <div
-                  key={index}
-                  className="animate-pulse rounded-xl border border-gray-200 bg-white p-6 shadow-sm"
-                >
-                  <div className="h-6 w-3/4 rounded bg-gray-200" />
-                  <div className="mt-4 h-4 w-1/2 rounded bg-gray-200" />
-                  <div className="mt-2 h-4 w-1/3 rounded bg-gray-200" />
-                  <div className="mt-2 h-4 w-1/4 rounded bg-gray-200" />
-                  <div className="mt-2 h-4 w-2/3 rounded bg-gray-200" />
-                </div>
-              ))}
-            </div>
-          ) : jobs.length === 0 ? (
-            <div className="flex flex-col items-center justify-center py-20">
-              <Briefcase className="h-16 w-16 text-gray-400" />
-              <h3 className="mt-4 text-lg font-medium text-gray-900">
-                No jobs found
-              </h3>
-              <p className="mt-2 text-gray-500">
-                There are no job circulars available at the moment. Please check back later.
-              </p>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {jobs.map((job) => (
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {jobs.map((job) => {
+              // FIX: Check both flat and nested structure with fallbacks
+              const title = job.title?? "No Title";
+              const org = job.organization_name?? job.organization?? "Organization Not Listed";
+              const vacancies = job.total_vacancies?? job.summary?.total_vacancies?? "N/A";
+              const deadline = job.application_deadline?? job.deadline?? "N/A";
+              const type = job.job_type;
+
+              return (
                 <Link
                   key={job.id}
                   href={`/job-circular/${job.id}`}
@@ -97,31 +56,33 @@ export default function JobCircularPage() {
                 >
                   <div className="flex-1">
                     <h2 className="line-clamp-2 text-xl font-semibold text-gray-900 group-hover:text-blue-600">
-                      {job.title}
+                      {title}
                     </h2>
                     <p className="mt-2 text-base font-medium text-gray-700">
-                      {job.summary?.organization_name ?? job.organization_name}
+                      {org}
                     </p>
                   </div>
 
                   <div className="mt-6 space-y-3">
                     <div className="flex items-center text-sm text-gray-600">
                       <Users className="mr-2 h-4 w-4 text-gray-400" />
-                      <span>Vacancies: {job.summary?.total_vacancies ?? job.total_vacancies}</span>
-                    </div>
-                    <div className="flex items-center text-sm text-gray-600">
-                      <MapPin className="mr-2 h-4 w-4 text-gray-400" />
-                      <span>{job.location}</span>
+                      <span>Vacancies: {vacancies}</span>
                     </div>
                     <div className="flex items-center text-sm text-gray-600">
                       <Calendar className="mr-2 h-4 w-4 text-gray-400" />
-                      <span>Deadline: {job.summary?.application_deadline ?? job.application_deadline}</span>
+                      <span>Deadline: {deadline}</span>
                     </div>
+                    {type && (
+                      <div className="flex items-center text-sm text-gray-600">
+                        <Briefcase className="mr-2 h-4 w-4 text-gray-400" />
+                        <span>{type}</span>
+                      </div>
+                    )}
                   </div>
                 </Link>
-              ))}
-            </div>
-          )}
+              )
+            })}
+          </div>
         </div>
       </main>
       <Footer />

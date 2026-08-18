@@ -72,7 +72,25 @@ type JobDocument = {
   id: string;
   createdAt?: unknown;
   job_blog_post?: JobBlogPost;
+  // Flat top-level fields (used by bulk upload from JSON)
+  organization_name?: string;
+  total_vacancies?: number | string;
+  application_deadline?: string;
+  application_process?: string;
+  job_type?: string;
+  source_url?: string;
 } & Partial<JobBlogPost>;
+
+// Combined type: supports both the nested job_blog_post shape AND flat top-level fields
+type JobDetailsData = JobBlogPost & {
+  organization_name?: string;
+  total_vacancies?: number | string;
+  application_deadline?: string;
+  application_process?: string;
+  job_type?: string;
+  source_url?: string;
+  [key: string]: unknown;
+};
 
 // Format an ISO date string to "dd MMM yyyy" (date-fns), fallback to raw value or "N/A"
 function formatDate(value?: string | null): string {
@@ -178,12 +196,21 @@ export default function JobDetailsPage() {
     );
   }
 
-  // Support both nested (job_blog_post) and flattened document shapes — safely with optional chaining
-  const details = job?.job_blog_post ?? job ?? {};
+  // Support both nested (job_blog_post.summary) and flattened document shapes — safely with optional chaining
+  const details = (job?.job_blog_post ?? job ?? {}) as JobDetailsData;
   const summary = details?.summary ?? {};
   const applicationDetails = details?.application_details ?? {};
   const eligibility = details?.eligibility_criteria ?? {};
   const recruitmentCategories = details?.recruitment_categories ?? [];
+
+  // Helper: read a field from the flat top-level document OR the nested summary (whichever exists)
+  const totalVacancies = details?.total_vacancies ?? summary?.total_vacancies ?? "N/A";
+  const sourceUrl = details?.source_url ?? summary?.source_url ?? null;
+  const applicationProcess =
+    details?.application_process ?? summary?.application_process ?? "N/A";
+  const organizationName = details?.organization_name ?? "N/A";
+  const applicationDeadline =
+    details?.application_deadline ?? summary?.application_deadline ?? "N/A";
 
   return (
     <div className="min-h-screen bg-slate-50 py-8 px-4 sm:px-6 lg:px-8">
@@ -202,15 +229,23 @@ export default function JobDetailsPage() {
           <h1 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
             {details?.title ?? "N/A"}
           </h1>
+          <p className="mt-2 text-base font-medium text-slate-700">
+            {organizationName}
+          </p>
           <div className="mt-4 flex flex-wrap items-center gap-3">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800">
               <Users className="h-4 w-4" />
-              Vacancies: {summary?.total_vacancies ?? "N/A"}
+              Vacancies: {totalVacancies}
             </span>
-            
-            {summary?.source_url && (
+
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800">
+              <Calendar className="h-4 w-4" />
+              Deadline: {applicationDeadline}
+            </span>
+
+            {sourceUrl && (
               <a
-                href={summary.source_url}
+                href={sourceUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 rounded-full bg-gray-100 px-3 py-1 text-sm font-medium text-gray-800 border-gray-300 hover:bg-gray-200"
@@ -387,7 +422,7 @@ export default function JobDetailsPage() {
                 APPLICATION PROCESS
               </p>
               <p className="mt-1 text-base text-slate-900">
-                {summary?.application_process ?? "N/A"}
+                {applicationProcess}
               </p>
             </div>
             <div>
