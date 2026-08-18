@@ -50,16 +50,16 @@ export default function Navbar() {
             Model Tests
           </Link>
           <Link 
-            href="/login" 
+            href="/job-circular" 
             className="rounded-full border border-primary px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
           >
-            Login
+            Job Circular
           </Link>
           <Link 
-            href="/register" 
+            href="/login" 
             className="rounded-full bg-accent px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-accent-dark"
           >
-            Register
+            Login/Register
           </Link>
         </div>
 

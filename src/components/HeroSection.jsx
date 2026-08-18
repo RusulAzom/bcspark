@@ -15,7 +15,7 @@ const topTools = [
   { id: 2, name: "সাইকোলজি টেস্ট", icon: <Cpu className="h-4.5 w-4.5" />, href: "/psychology-test-bangla" }, // চালু 
   { id: 3, name: "MCQ প্র্যাকটিস", icon: <FileText className="h-4.5 w-4.5" />, href: "#" },
   { id: 4, name: "মডেল টেস্ট", icon: <BarChart3 className="h-4.5 w-4.5" />, href: "/mock-test" },
-  { id: 5, name: "BCS নিউজ", icon: <Newspaper className="h-4.5 w-4.5" />, href: "#" },
+  { id: 5, name: "জব সার্কুলার", icon: <Newspaper className="h-4.5 w-4.5" />, href: "/job-circular" },
   { id: 6, name: "বাংলা সাহিত্য", icon: <BookOpen className="h-4.5 w-4.5" />, href: "#" },
   { id: 7, name: "গণিত প্র্যাকটিস", icon: <Calculator className="h-4.5 w-4.5" />, href: "#" },
   { id: 8, name: "প্রশ্নব্যাংক", icon: <BookOpen className="h-4.5 w-4.5" />, href: "/question-bank" },
@@ -44,7 +44,7 @@ export default function HeroSection() {
               {/* Header */}
               <div className="flex items-center gap-2 mb-6">
                 <Zap className="h-5 w-5 fill-amber-500 stroke-amber-500 animate-pulse" />
-                <h2 className="text-lg font-extrabold text-primary">টপ AI টুলস</h2>
+                <h2 className="text-lg font-extrabold text-primary">টপ Study টুলস</h2>
               </div>
 
               {/* Menu List */}

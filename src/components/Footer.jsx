@@ -43,7 +43,7 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3 text-xs sm:text-sm text-gray-400">
               <li><Link href="/syllabus" className="hover:text-white transition-colors">BCS সিলেবাস</Link></li>
-              <li><Link href="/previous-questions" className="hover:text-white transition-colors">পূর্ববর্তী প্রশ্ন</Link></li>
+              <li><Link href="/job-circular" className="hover:text-white transition-colors">জব সার্কুলার</Link></li>
               <li><Link href="/mock-tests" className="hover:text-white transition-colors">মডেল টেস্ট</Link></li>
               <li><Link href="/leaderboard" className="hover:text-white transition-colors">লিডারবোর্ড</Link></li>
               <li><Link href="/blog" className="hover:text-white transition-colors">ব্লগ</Link></li>
