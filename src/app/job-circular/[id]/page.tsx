@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { doc, getDoc } from "firebase/firestore";
+import { format, isValid, parseISO } from "date-fns";
 import {
   ArrowLeft,
   Briefcase,
@@ -16,11 +17,22 @@ import {
 
 import { db } from "@/lib/firebase";
 
+type SalaryRange = {
+  min?: number | string;
+  max?: number | string;
+};
+
+type AgeLimit = {
+  min?: number | string;
+  max?: number | string;
+  reference_date?: string;
+};
+
 type Position = {
   position_name?: string;
-  vacancies?: string | number;
-  grade?: string | number;
-  salary_scale?: string;
+  vacancy_count?: number | string;
+  grade?: number | string;
+  salary_range?: SalaryRange;
 };
 
 type RecruitmentCategory = {
@@ -31,22 +43,26 @@ type RecruitmentCategory = {
 type JobBlogPost = {
   title?: string;
   summary?: {
-    total_vacancies?: string | number;
     organization_name?: string;
+    total_vacancies?: number | string;
     application_deadline?: string;
     application_process?: string;
+    job_type?: string;
+    source_url?: string;
   };
   application_details?: {
+    application_link?: string;
     start_date?: string;
     end_date?: string;
     application_fee?: {
-      regular?: string | number;
+      regular?: number | string;
+      special_quota?: number | string;
     };
-    application_link?: string;
   };
   eligibility_criteria?: {
-    age_limit?: string;
+    age_limit?: AgeLimit | string;
     residency_requirement?: string;
+    citizenship?: string;
     other_conditions?: string[];
   };
   recruitment_categories?: RecruitmentCategory[];
@@ -54,9 +70,41 @@ type JobBlogPost = {
 
 type JobDocument = {
   id: string;
+  createdAt?: unknown;
   job_blog_post?: JobBlogPost;
-  [key: string]: unknown;
-};
+} & Partial<JobBlogPost>;
+
+// Format an ISO date string to "dd MMM yyyy" (date-fns), fallback to raw value or "N/A"
+function formatDate(value?: string | null): string {
+  if (!value) return "N/A";
+  const parsed = parseISO(String(value));
+  if (isValid(parsed)) {
+    return format(parsed, "dd MMM yyyy");
+  }
+  // Non-ISO value (e.g. Bangla date) — show as-is rather than breaking
+  return String(value);
+}
+
+// Render age_limit which may be an object {min, max, reference_date} or a plain string
+function formatAgeLimit(ageLimit?: AgeLimit | string | null): string {
+  if (ageLimit == null) return "N/A";
+  if (typeof ageLimit === "string") return ageLimit;
+  const min = ageLimit?.min ?? "N/A";
+  const max = ageLimit?.max ?? "N/A";
+  const reference = ageLimit?.reference_date
+    ? ` Reference: ${formatDate(ageLimit.reference_date)}`
+    : "";
+  return `${min} to ${max} years.${reference}`;
+}
+
+// Render salary_range object as "৳min - ৳max"; returns null when absent
+function formatSalaryRange(salaryRange?: SalaryRange | null): string | null {
+  if (!salaryRange) return null;
+  const min = salaryRange?.min;
+  const max = salaryRange?.max;
+  if (min == null && max == null) return null;
+  return `৳${min ?? "N/A"} - ৳${max ?? "N/A"}`;
+}
 
 export default function JobDetailsPage() {
   const params = useParams();
@@ -130,8 +178,8 @@ export default function JobDetailsPage() {
     );
   }
 
-  // Support both nested and flattened structures
-  const details = job.job_blog_post ?? (job as unknown as JobBlogPost);
+  // Support both nested (job_blog_post) and flattened document shapes — safely with optional chaining
+  const details = job?.job_blog_post ?? job ?? {};
   const summary = details?.summary ?? {};
   const applicationDetails = details?.application_details ?? {};
   const eligibility = details?.eligibility_criteria ?? {};
@@ -154,11 +202,23 @@ export default function JobDetailsPage() {
           <h1 className="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">
             {details?.title ?? "N/A"}
           </h1>
-          <div className="mt-4">
+          <div className="mt-4 flex flex-wrap items-center gap-3">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800">
               <Users className="h-4 w-4" />
-              Vacancies: {summary.total_vacancies ?? "N/A"}
+              Vacancies: {summary?.total_vacancies ?? "N/A"}
             </span>
+            
+            {summary?.source_url && (
+              <a
+                href={summary.source_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-full bg-gray-100 px-3 py-1 text-sm font-medium text-gray-800 border-gray-300 hover:bg-gray-200"
+              >
+                <FileText className="h-4 w-4" />
+                Source PDF
+              </a>
+            )}
           </div>
         </div>
 
@@ -174,13 +234,13 @@ export default function JobDetailsPage() {
             <div>
               <p className="text-sm font-medium text-slate-500">START DATE</p>
               <p className="mt-1 text-base font-semibold text-slate-900">
-                {applicationDetails.start_date ?? "N/A"}
+                {formatDate(applicationDetails?.start_date)}
               </p>
             </div>
             <div>
               <p className="text-sm font-medium text-slate-500">END DATE</p>
               <p className="mt-1 text-base font-semibold text-slate-900">
-                {applicationDetails.end_date ?? "N/A"}
+                {formatDate(applicationDetails?.end_date)}
               </p>
             </div>
             <div>
@@ -190,8 +250,7 @@ export default function JobDetailsPage() {
           </div>
         </div>
 
-
-        {/* Card 4: Eligibility */}
+        {/* Card 3: Eligibility */}
         <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
           <div className="mb-4 flex items-center gap-2">
             <CheckCircle className="h-5 w-5 text-blue-600" />
@@ -201,17 +260,18 @@ export default function JobDetailsPage() {
             <div>
               <p className="text-sm font-medium text-slate-500">AGE LIMIT</p>
               <p className="mt-1 text-base text-slate-900">
-                {eligibility.age_limit ?? "N/A"}
+                {formatAgeLimit(eligibility?.age_limit)}
               </p>
             </div>
             <div>
               <p className="text-sm font-medium text-slate-500">RESIDENCY</p>
               <p className="mt-1 text-base text-slate-900">
-                {eligibility.residency_requirement ?? "N/A"}
+                {eligibility?.residency_requirement ?? "N/A"}
               </p>
             </div>
           </div>
-          {Array.isArray(eligibility.other_conditions) &&
+          {Array.isArray(eligibility?.other_conditions) &&
+            eligibility?.other_conditions &&
             eligibility.other_conditions.length > 0 && (
               <div className="mt-6">
                 <p className="mb-2 text-sm font-medium text-slate-500">
@@ -226,7 +286,7 @@ export default function JobDetailsPage() {
             )}
         </div>
 
-        {/* Card 5: Vacancy Details */}
+        {/* Card 4: Vacancy Details */}
         <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
           <div className="mb-6 flex items-center gap-2">
             <Briefcase className="h-5 w-5 text-blue-600" />
@@ -242,7 +302,7 @@ export default function JobDetailsPage() {
               {recruitmentCategories.map((category, index) => (
                 <div key={index}>
                   <h3 className="mb-3 text-base font-semibold text-slate-900">
-                    {category.category_name ?? "N/A"}
+                    {category?.category_name ?? "N/A"}
                   </h3>
                   <div className="overflow-x-auto rounded-md border border-slate-200">
                     <table className="min-w-full divide-y divide-slate-200 text-sm">
@@ -275,21 +335,22 @@ export default function JobDetailsPage() {
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-slate-200 bg-white">
-                        {Array.isArray(category.positions) &&
+                        {Array.isArray(category?.positions) &&
                         category.positions.length > 0 ? (
                           category.positions.map((position, posIndex) => (
                             <tr key={posIndex}>
                               <td className="whitespace-nowrap px-4 py-3 text-slate-900">
-                                {position.position_name ?? "N/A"}
+                                {position?.position_name ?? "N/A"}
                               </td>
                               <td className="whitespace-nowrap px-4 py-3 text-slate-700">
-                                {position.vacancies ?? "N/A"}
+                                {position?.vacancy_count ?? "N/A"}
                               </td>
                               <td className="whitespace-nowrap px-4 py-3 text-slate-700">
-                                {position.grade ?? "N/A"}
+                                {position?.grade ?? "N/A"}
                               </td>
                               <td className="whitespace-nowrap px-4 py-3 text-slate-700">
-                                {position.salary_scale ?? "N/A"}
+                                {formatSalaryRange(position?.salary_range) ??
+                                  "N/A"}
                               </td>
                             </tr>
                           ))
@@ -312,7 +373,7 @@ export default function JobDetailsPage() {
           )}
         </div>
 
-        {/* Card 3: Application Info */}
+        {/* Card 5: Application Info */}
         <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
           <div className="mb-4 flex items-center gap-2">
             <FileText className="h-5 w-5 text-blue-600" />
@@ -326,7 +387,7 @@ export default function JobDetailsPage() {
                 APPLICATION PROCESS
               </p>
               <p className="mt-1 text-base text-slate-900">
-                {summary.application_process ?? "N/A"}
+                {summary?.application_process ?? "N/A"}
               </p>
             </div>
             <div>
@@ -334,10 +395,10 @@ export default function JobDetailsPage() {
                 APPLICATION FEE
               </p>
               <p className="mt-1 text-base text-slate-900">
-                {applicationDetails.application_fee?.regular ?? "N/A"}
+                {applicationDetails?.application_fee?.regular ?? "N/A"}
               </p>
             </div>
-            {applicationDetails.application_link && (
+            {applicationDetails?.application_link && (
               <div className="pt-2">
                 <a
                   href={applicationDetails.application_link}
@@ -352,8 +413,6 @@ export default function JobDetailsPage() {
             )}
           </div>
         </div>
-
-        
       </div>
     </div>
   );
