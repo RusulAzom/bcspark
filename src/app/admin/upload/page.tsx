@@ -4,6 +4,16 @@ import { db } from "@/lib/firebase";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { FileUp, Loader2 } from "lucide-react";
 
+function generateSlug(title: string): string {
+  if (!title) return "";
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-")
+    .substring(0, 80);
+}
+
 export default function BulkUploadPage() {
   const [files, setFiles] = useState<File[]>([]);
   const [loading, setLoading] = useState(false);
@@ -11,7 +21,7 @@ export default function BulkUploadPage() {
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
-      setFiles(Array.from(e.target.files)); // সবগুলা file array করে নিলাম
+      setFiles(Array.from(e.target.files));
     }
   };
 
@@ -25,18 +35,16 @@ export default function BulkUploadPage() {
       const file = files[i];
       
       try {
-        // 1. প্রথমে JSON file টা পড়ে নিবো
         const fileText = await file.text();
         const jsonData = JSON.parse(fileText);
+        const title = jsonData.title || jsonData.job_blog_post?.title || "";
+        const slug = generateSlug(title);
 
-        // 2. Firebase Storage এ PDF টা upload করো, যদি json এর ভিতর source_url থাকে
-        // যদি আলাদা PDF file ও upload দিতে চাও সেটাও এখানে করা যাবে
-
-        // 3. Firestore এ Document হিসেবে save করো
         await addDoc(collection(db, "circulars"), {
-         ...jsonData,
+          ...jsonData,
           created_at: serverTimestamp(),
           file_name: file.name,
+          slug,
         });
 
         setProgress(((i + 1) / files.length) * 100);
@@ -58,7 +66,7 @@ export default function BulkUploadPage() {
       
       <input
         type="file"
-        multiple // <-- এই ১ লাইনই কাজ
+        multiple
         accept=".json"
         onChange={handleFileChange}
         className="block w-full text-sm file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"

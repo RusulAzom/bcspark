@@ -2,12 +2,25 @@
 import { db } from "./firebase"
 import { collection, addDoc, serverTimestamp } from "firebase/firestore"
 
+function generateSlug(title: string): string {
+  if (!title) return "";
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-")
+    .substring(0, 80);
+}
+
 export async function addJobCircular(data: any) {
   try {
+    const title = data.job_blog_post?.title ?? data.title ?? "";
+    const slug = generateSlug(title);
+
     const docRef = await addDoc(collection(db, "circulars"), {
       ...data.job_blog_post,
       createdAt: serverTimestamp(),
-      slug: data.job_blog_post.title.replace(/ /g, "-").substring(0, 50) // url er jonno
+      slug,
     });
     return { success: true, id: docRef.id };
   } catch (e) {
