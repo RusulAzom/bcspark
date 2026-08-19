@@ -31,16 +31,27 @@ export async function addJobCircular(data: any) {
 
 export async function addJobSolution(data: any) {
   try {
+    // Support both JSON formats:
+    // 1) { examInfo: { examName, postName, examTaker, examDate, ... }, questions: [...] }
+    // 2) { exam_title, post_name, total_questions, time_allowed, full_marks, questions: [...] }
     const title =
       data.examInfo?.examName ??
+      data.exam_title ??
       data.examInfo?.postName ??
+      data.post_name ??
       data.title ??
       "Job Solution";
+    const organization =
+      data.examInfo?.examTaker ??
+      data.organization ??
+      data.examInfo?.organization ??
+      "";
     const slug = generateSlug(title);
 
     const docRef = await addDoc(collection(db, "job_solutions"), {
       ...data,
       title,
+      organization,
       createdAt: serverTimestamp(),
       slug,
     });

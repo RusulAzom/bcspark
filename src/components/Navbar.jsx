@@ -56,6 +56,12 @@ export default function Navbar() {
             Job Circular
           </Link>
           <Link 
+            href="/job-solution" 
+            className="rounded-full border border-primary px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
+          >
+            Job Solution
+          </Link>
+          <Link 
             href="/login" 
             className="rounded-full bg-accent px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-accent-dark"
           >
@@ -108,14 +114,21 @@ export default function Navbar() {
                 Model Tests
               </Link>
               <Link 
-                href="/login" 
+                href="/job-circular" 
                 className="flex w-full justify-center rounded-lg border border-primary py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
                 onClick={() => setIsOpen(false)}
               >
                 গভঃ জব সার্কুলার 
               </Link>
               <Link 
-                href="/job-circular" 
+                href="/job-solution" 
+                className="flex w-full justify-center rounded-lg border border-primary py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
+                onClick={() => setIsOpen(false)}
+              >
+                Job Solution
+              </Link>
+              <Link 
+                href="/login" 
                 className="flex w-full justify-center rounded-lg bg-accent py-2.5 text-sm font-semibold text-primary transition-all hover:bg-accent-dark"
                 onClick={() => setIsOpen(false)}
               >

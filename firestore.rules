@@ -1,0 +1,26 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // circulars collection এর জন্য
+    match /circulars/{docId} {
+      allow read: if true;  // সবাই পড়তে পারবে
+      allow write: if true; // সবাই লিখতে পারবে - শুধু ডেভেলপমেন্ট এর জন্য
+    }
+    // job-circular page read korte parbe
+    match /jobs/{jobId} {
+      allow read: if true;
+    }
+
+    // Recent Job Solution collection এর জন্য (নতুন যোগ করা)
+    match /job_solutions/{docId} {
+      allow read: if true;  // সবাই পড়তে পারবে
+      allow write: if true; // সবাই লিখতে পারবে - শুধু ডেভেলপমেন্ট এর জন্য
+    }
+
+    // বাকি সব collection lock করে দাও
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
