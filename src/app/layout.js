@@ -2,6 +2,8 @@ import { Hind_Siliguri } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import AdvertisePopup from "@/components/AdvertisePopup";
+import { AuthProvider } from "@/context/AuthContext";
+import { Toaster } from "sonner";
 
 const hindSiliguri = Hind_Siliguri({
   weight: ["300", "400", "500", "600", "700"],
@@ -29,8 +31,11 @@ export default function RootLayout({ children }) {
       className={`${hindSiliguri.variable} scroll-smooth`}
     >
       <body suppressHydrationWarning className="bg-brand-bg text-primary min-h-screen flex flex-col font-sans">
-        {children}
+        <AuthProvider>
+          {children}
+        </AuthProvider>
         <Analytics />
+        <Toaster richColors position="top-center" />
         {/* Global Advertisement Popup - shows 5s after load, once per 24h */}
         <AdvertisePopup />
       </body>

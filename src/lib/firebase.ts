@@ -1,5 +1,6 @@
 // lib/firebase.ts
 import { initializeApp, getApps } from "firebase/app";
+import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getAnalytics, isSupported } from "firebase/analytics";
 
@@ -13,11 +14,9 @@ const firebaseConfig = {
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
-// Initialize Firebase
-const app = getApps().length === 0? initializeApp(firebaseConfig) : getApps()[0];
+const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
 
-// Firestore - data add korar jonno
+export const auth = getAuth(app);
+export const googleProvider = new GoogleAuthProvider();
 export const db = getFirestore(app);
-
-// Analytics - sudhu browser e run hobe
-export const analytics = isSupported().then(yes => yes? getAnalytics(app) : null);
+export const analytics = isSupported().then((yes) => (yes ? getAnalytics(app) : null));
