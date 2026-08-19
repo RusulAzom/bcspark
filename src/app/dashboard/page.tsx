@@ -12,8 +12,8 @@ import {
   writeBatch,
 } from "firebase/firestore";
 import { db } from "@/lib/firebase";
-import * as XLSX from "xlsx";
-import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
+import Topbar from "@/components/Topbar";
 import Footer from "@/components/Footer";
 
 function generateSlug(title: string): string {
@@ -26,28 +26,54 @@ function generateSlug(title: string): string {
     .substring(0, 80);
 }
 
-function readWorkbook(file: File): Promise<Record<string, any>[]> {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
-    reader.onload = (e) => {
-      try {
-        const data = e.target?.result;
-        const workbook = XLSX.read(data, { type: "array" });
-        const sheet = workbook.Sheets[workbook.SheetNames[0]];
-        const json = XLSX.utils.sheet_to_json(sheet);
-        resolve(json);
-      } catch (err) {
-        reject(err);
-      }
-    };
-    reader.onerror = () => reject(reader.error);
-    reader.readAsArrayBuffer(file);
-  });
+async function parseFile(file: File): Promise<Record<string, any>[]> {
+  const text = await file.text();
+  const data = JSON.parse(text);
+
+  if (Array.isArray(data)) {
+    return data;
+  }
+
+  if (data && typeof data === "object") {
+    if ("job_blog_post" in data) {
+      return [data.job_blog_post as Record<string, any>];
+    }
+    return [data as Record<string, any>];
+  }
+
+  throw new Error("Invalid JSON format");
+}
+
+function validateCircularRow(row: Record<string, any>): string | null {
+  const required = ["title", "organization", "deadline", "slug"];
+  for (const field of required) {
+    if (!(field in row)) return field;
+  }
+  return null;
+}
+
+function validateSolutionRow(row: Record<string, any>): string | null {
+  const required = ["jobTitle", "question", "answer", "year"];
+  for (const field of required) {
+    if (!(field in row)) return field;
+  }
+  return null;
+}
+
+function mapCircularRow(row: Record<string, any>) {
+  const title = row.title ?? "";
+  const organization = row.summary?.organization_name ?? "";
+  const deadline = row.summary?.application_deadline ?? "";
+  const slug = title.toLowerCase().replace(/ /g, "-");
+  return { ...row, title, organization, deadline, slug };
 }
 
 export default function DashboardPage() {
   const { user, loading, role } = useAuth();
   const router = useRouter();
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [activeItem, setActiveItem] = useState("dashboard");
+
   const [circularFiles, setCircularFiles] = useState<File[]>([]);
   const [solutionFiles, setSolutionFiles] = useState<File[]>([]);
   const [circularLoading, setCircularLoading] = useState(false);
@@ -59,10 +85,13 @@ export default function DashboardPage() {
   const solutionInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    if (!loading && !user) {
+    if (loading) return;
+    if (!user) {
       router.push("/login");
+    } else if (role !== "admin") {
+      router.push("/");
     }
-  }, [user, loading, router]);
+  }, [user, loading, role, router]);
 
   const handleCircularUpload = async () => {
     if (circularFiles.length === 0) {
@@ -72,20 +101,30 @@ export default function DashboardPage() {
     setCircularLoading(true);
     setCircularProgress(0);
     try {
-      const rows = await readWorkbook(circularFiles[0]);
+      const rows = await parseFile(circularFiles[0]);
+      toast.success(`Found ${rows.length} items`);
+
+      const mapped = rows.map(mapCircularRow);
+
+      if (mapped.length > 0) {
+        const missing = validateCircularRow(mapped[0]);
+        if (missing) {
+          toast.error(`Missing field: ${missing}. Check example`);
+          setCircularLoading(false);
+          return;
+        }
+      }
+
       const batch = writeBatch(db);
-      rows.forEach((row) => {
-        const title = row.title || row.job_blog_post?.title || "";
-        const slug = generateSlug(title);
+      mapped.forEach((row) => {
         const ref = doc(collection(db, "circulars"));
         batch.set(ref, {
           ...row,
           createdAt: serverTimestamp(),
-          slug,
         });
       });
       await batch.commit();
-      toast.success(`${rows.length} job circulars uploaded successfully`);
+      toast.success(`${mapped.length} documents uploaded`);
       setCircularFiles([]);
       setCircularProgress(0);
       if (circularInputRef.current) circularInputRef.current.value = "";
@@ -105,33 +144,28 @@ export default function DashboardPage() {
     setSolutionLoading(true);
     setSolutionProgress(0);
     try {
-      const rows = await readWorkbook(solutionFiles[0]);
+      const rows = await parseFile(solutionFiles[0]);
+      toast.success(`Found ${rows.length} items`);
+
+      if (rows.length > 0) {
+        const missing = validateSolutionRow(rows[0]);
+        if (missing) {
+          toast.error(`Missing field: ${missing}. Check example`);
+          setSolutionLoading(false);
+          return;
+        }
+      }
+
       const batch = writeBatch(db);
       rows.forEach((row) => {
-        const title =
-          row.examInfo?.examName ??
-          row.exam_title ??
-          row.examInfo?.postName ??
-          row.post_name ??
-          row.title ??
-          "Job Solution";
-        const organization =
-          row.examInfo?.examTaker ??
-          row.organization ??
-          row.examInfo?.organization ??
-          "";
-        const slug = generateSlug(title);
         const ref = doc(collection(db, "job_solutions"));
         batch.set(ref, {
           ...row,
-          title,
-          organization,
           createdAt: serverTimestamp(),
-          slug,
         });
       });
       await batch.commit();
-      toast.success(`${rows.length} job solutions uploaded successfully`);
+      toast.success(`${rows.length} documents uploaded`);
       setSolutionFiles([]);
       setSolutionProgress(0);
       if (solutionInputRef.current) solutionInputRef.current.value = "";
@@ -151,54 +185,35 @@ export default function DashboardPage() {
     );
   }
 
-  if (!user) {
+  if (!user || role !== "admin") {
     return null;
   }
 
-  if (role !== "admin") {
-    return (
-      <>
-        <Navbar />
-        <main className="min-h-screen flex items-center justify-center bg-brand-bg">
-          <div className="text-center">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              Access Denied
-            </h1>
-            <p className="text-gray-600">
-              You do not have permission to view this page.
-            </p>
-          </div>
-        </main>
-        <Footer />
-      </>
-    );
-  }
-
   return (
-    <>
-      <Navbar />
-      <main className="min-h-screen bg-brand-bg py-10 px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-7xl">
-          <h1 className="text-3xl font-bold text-gray-900 mb-8">
-            Welcome, {user.displayName || user.email}
-          </h1>
-
+    <div className="min-h-screen bg-gray-50">
+      <Sidebar
+        isOpen={sidebarOpen}
+        onClose={() => setSidebarOpen(false)}
+        activeItem={activeItem}
+        onNavigate={setActiveItem}
+      />
+      <div className="lg:ml-[260px]">
+        <Topbar title="Dashboard" onMenuClick={() => setSidebarOpen(true)} />
+        <main className="p-4 sm:p-6 lg:p-8">
           <div className="grid gap-6 md:grid-cols-2">
-            {/* Bulk Job Upload */}
             <div className="p-6 bg-white rounded-xl shadow-md border border-gray-100">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-2">
                 <div className="p-2 bg-blue-50 rounded-lg">
                   <FileText className="h-6 w-6 text-blue-600" />
                 </div>
-                <h2 className="text-xl font-bold text-gray-900">
-                  Bulk Job Upload
-                </h2>
+                <h2 className="text-xl font-bold text-gray-900">Bulk Job Upload</h2>
               </div>
+              <p className="text-sm text-gray-500 mb-4">Upload multiple jobs via JSON</p>
 
               <input
                 ref={circularInputRef}
                 type="file"
-                accept=".xlsx,.csv"
+                accept=".json"
                 onChange={(e) => {
                   if (e.target.files) {
                     setCircularFiles(Array.from(e.target.files));
@@ -225,25 +240,23 @@ export default function DashboardPage() {
                 )}
                 {circularLoading
                   ? `Uploading... ${circularProgress.toFixed(0)}%`
-                  : "Upload All Jobs"}
+                  : "Upload"}
               </button>
             </div>
 
-            {/* Recent Job Solution Upload */}
             <div className="p-6 bg-white rounded-xl shadow-md border border-gray-100">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-2">
                 <div className="p-2 bg-green-50 rounded-lg">
                   <BookOpen className="h-6 w-6 text-green-600" />
                 </div>
-                <h2 className="text-xl font-bold text-gray-900">
-                  Recent Job Solution
-                </h2>
+                <h2 className="text-xl font-bold text-gray-900">Recent Job Solution</h2>
               </div>
+              <p className="text-sm text-gray-500 mb-4">Upload job solutions via JSON</p>
 
               <input
                 ref={solutionInputRef}
                 type="file"
-                accept=".xlsx,.csv"
+                accept=".json"
                 onChange={(e) => {
                   if (e.target.files) {
                     setSolutionFiles(Array.from(e.target.files));
@@ -270,13 +283,13 @@ export default function DashboardPage() {
                 )}
                 {solutionLoading
                   ? `Uploading... ${solutionProgress.toFixed(0)}%`
-                  : "Upload Job Solutions"}
+                  : "Upload"}
               </button>
             </div>
           </div>
-        </div>
-      </main>
-      <Footer />
-    </>
+        </main>
+        <Footer />
+      </div>
+    </div>
   );
 }

@@ -100,6 +100,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const signOut = useCallback(async () => {
+    setLoading(true);
     await firebaseSignOut(auth);
   }, []);
 
