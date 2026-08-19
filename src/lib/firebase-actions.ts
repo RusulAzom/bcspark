@@ -28,3 +28,25 @@ export async function addJobCircular(data: any) {
     return { success: false, error: e };
   }
 }
+
+export async function addJobSolution(data: any) {
+  try {
+    const title =
+      data.examInfo?.examName ??
+      data.examInfo?.postName ??
+      data.title ??
+      "Job Solution";
+    const slug = generateSlug(title);
+
+    const docRef = await addDoc(collection(db, "job_solutions"), {
+      ...data,
+      title,
+      createdAt: serverTimestamp(),
+      slug,
+    });
+    return { success: true, id: docRef.id };
+  } catch (e) {
+    console.error("Error adding document: ", e);
+    return { success: false, error: e };
+  }
+}
