@@ -112,14 +112,14 @@ export default function Navbar() {
                 className="flex w-full justify-center rounded-lg border border-primary py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
                 onClick={() => setIsOpen(false)}
               >
-                Login
+                গভঃ জব সার্কুলার 
               </Link>
               <Link 
-                href="/register" 
+                href="/job-circular" 
                 className="flex w-full justify-center rounded-lg bg-accent py-2.5 text-sm font-semibold text-primary transition-all hover:bg-accent-dark"
                 onClick={() => setIsOpen(false)}
               >
-                Register
+                Login/Register
               </Link>
             </div>
           </div>
