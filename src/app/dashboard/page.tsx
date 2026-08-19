@@ -10,6 +10,7 @@ import {
   doc,
   serverTimestamp,
   writeBatch,
+  addDoc,
 } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 import Sidebar from "@/components/Sidebar";
@@ -44,6 +45,47 @@ async function parseFile(file: File): Promise<Record<string, any>[]> {
   throw new Error("Invalid JSON format");
 }
 
+function transformSolutionData(data: Record<string, any>[]): { docs: Record<string, any>[]; skipped: number } {
+  if (data.length > 0 && "examInfo" in data[0] && "questions" in data[0]) {
+    const questions: Record<string, any>[] = [];
+    let skipped = 0;
+
+    data.forEach((item) => {
+      const examInfo = item.examInfo as Record<string, any>;
+      const examName = examInfo.examName ?? "";
+      const examDate = examInfo.examDate ?? "";
+      const year = examDate.split(".").pop() ?? "";
+
+      (item.questions as Record<string, any>[]).forEach((q) => {
+        const questionText = q.q || "";
+        const optionsArray = Array.isArray(q.options) ? q.options : [];
+        const answerIndex = Number(q.ans);
+        const answerText = optionsArray[answerIndex] || "";
+
+        if (!questionText || !answerText || !examName) {
+          skipped++;
+          return;
+        }
+
+        questions.push({
+          jobTitle: examName,
+          question: questionText,
+          answer: answerText,
+          year,
+          subject: q.subject ?? "",
+          options: optionsArray,
+          explanation: q.explain ?? "",
+          source: q.source ?? "",
+        });
+      });
+    });
+
+    return { docs: questions, skipped };
+  }
+
+  return { docs: data, skipped: 0 };
+}
+
 function validateCircularRow(row: Record<string, any>): string | null {
   const required = ["title", "organization", "deadline", "slug"];
   for (const field of required) {
@@ -66,6 +108,25 @@ function mapCircularRow(row: Record<string, any>) {
   const deadline = row.summary?.application_deadline ?? "";
   const slug = title.toLowerCase().replace(/ /g, "-");
   return { ...row, title, organization, deadline, slug };
+}
+
+async function commitBatch(db: any, collectionName: string, docs: Record<string, any>[]) {
+  const chunks: Record<string, any>[][] = [];
+  for (let i = 0; i < docs.length; i += 500) {
+    chunks.push(docs.slice(i, i + 500));
+  }
+
+  for (const chunk of chunks) {
+    const batch = writeBatch(db);
+    chunk.forEach((row) => {
+      const ref = doc(collection(db, collectionName));
+      batch.set(ref, {
+        ...row,
+        createdAt: serverTimestamp(),
+      });
+    });
+    await batch.commit();
+  }
 }
 
 export default function DashboardPage() {
@@ -115,15 +176,7 @@ export default function DashboardPage() {
         }
       }
 
-      const batch = writeBatch(db);
-      mapped.forEach((row) => {
-        const ref = doc(collection(db, "circulars"));
-        batch.set(ref, {
-          ...row,
-          createdAt: serverTimestamp(),
-        });
-      });
-      await batch.commit();
+      await commitBatch(db, "circulars", mapped);
       toast.success(`${mapped.length} documents uploaded`);
       setCircularFiles([]);
       setCircularProgress(0);
@@ -144,28 +197,35 @@ export default function DashboardPage() {
     setSolutionLoading(true);
     setSolutionProgress(0);
     try {
-      const rows = await parseFile(solutionFiles[0]);
-      toast.success(`Found ${rows.length} items`);
+      const text = await solutionFiles[0].text();
+      const data = JSON.parse(text);
 
-      if (rows.length > 0) {
-        const missing = validateSolutionRow(rows[0]);
-        if (missing) {
-          toast.error(`Missing field: ${missing}. Check example`);
-          setSolutionLoading(false);
-          return;
-        }
+      if (!data || typeof data !== "object" || !data.examInfo) {
+        toast.error("Invalid JSON format");
+        setSolutionLoading(false);
+        return;
       }
 
-      const batch = writeBatch(db);
-      rows.forEach((row) => {
-        const ref = doc(collection(db, "job_solutions"));
-        batch.set(ref, {
-          ...row,
-          createdAt: serverTimestamp(),
-        });
-      });
-      await batch.commit();
-      toast.success(`${rows.length} documents uploaded`);
+      const examInfo = data.examInfo as Record<string, any>;
+      const finalDoc = {
+        jobTitle: examInfo.examName || "",
+        examTaker: examInfo.examTaker || "",
+        examDate: examInfo.examDate || "",
+        year: examInfo.examDate?.split(".").pop() || "",
+        totalQuestions: examInfo.totalQuestions || data.questions?.length || 0,
+        questions: data.questions || [],
+        createdAt: serverTimestamp(),
+      };
+
+      if (!finalDoc.jobTitle || !finalDoc.questions.length) {
+        toast.error("Invalid JSON format");
+        setSolutionLoading(false);
+        return;
+      }
+
+      await addDoc(collection(db, "job_solutions"), finalDoc);
+      toast.success(`1 exam uploaded with ${finalDoc.totalQuestions} questions`);
+
       setSolutionFiles([]);
       setSolutionProgress(0);
       if (solutionInputRef.current) solutionInputRef.current.value = "";
