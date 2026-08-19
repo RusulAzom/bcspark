@@ -22,8 +22,12 @@ export default function JobSolutionGrid({ solutions }) {
             className="group flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
           >
             <div className="flex-1">
-              <h2 className="line-clamp-2 text-xl font-semibold text-gray-900 group-hover:text-blue-600">
-                {solution.title}
+              <span className="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-bold uppercase tracking-wide text-blue-700">
+                Job Solution
+              </span>
+
+              <h2 className="mt-3 line-clamp-2 text-xl font-semibold text-gray-900 group-hover:text-blue-600">
+                {solution.title} 
               </h2>
 
               <div className="mt-2 flex items-center text-base text-gray-700">
