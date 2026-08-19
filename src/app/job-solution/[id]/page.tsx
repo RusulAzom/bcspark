@@ -8,9 +8,7 @@ import {
   ArrowLeft,
   Building2,
   Calendar,
-  Clock,
   FileQuestion,
-  Award,
   CheckCircle2,
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -123,13 +121,10 @@ export default async function JobSolutionDetailsPage({ params }: { params: Promi
     }
 
     const examInfo = data.examInfo ?? {};
-    const title = data.title ?? examInfo.examName ?? data.exam_title ?? "Job Solution";
-    const organization = data.organization ?? examInfo.examTaker ?? "Organization Not Listed";
-    const postName = examInfo.postName ?? data.post_name ?? "";
-    const examDate = examInfo.examDate ?? data.exam_date ?? null;
-    const totalQuestions = examInfo.totalQuestions ?? data.total_questions ?? "";
-    const durationMinutes = examInfo.durationMinutes ?? data.time_allowed ?? "";
-    const fullMarks = examInfo.totalMarks ?? data.full_marks ?? "";
+    const title = data.jobTitle || examInfo.examName || data.exam_title || data.title || "Job Solution";
+    const organization = data.examTaker || examInfo.examTaker || data.organization || "Organization Not Listed";
+    const examDate = data.examDate || examInfo.examDate || data.exam_date || null;
+    const totalQuestions = data.totalQuestions || data.questions?.length || examInfo.totalQuestions || 0;
     const questions = Array.isArray(data.questions) ? data.questions : [];
 
     return (
@@ -155,11 +150,6 @@ export default async function JobSolutionDetailsPage({ params }: { params: Promi
                 <Building2 className="mr-2 h-4 w-4 text-blue-600" />
                 {organization}
               </div>
-              {postName && (
-                <p className="mt-2 text-base text-slate-600">
-                  পদ: {postName}
-                </p>
-              )}
               <div className="mt-4 flex flex-wrap items-center gap-3">
                 {examDate && (
                   <span className="inline-flex items-center gap-1.5 rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-800">
@@ -167,24 +157,10 @@ export default async function JobSolutionDetailsPage({ params }: { params: Promi
                     Exam Date: {formatDate(String(examDate))}
                   </span>
                 )}
-                {totalQuestions && (
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800">
-                    <FileQuestion className="h-4 w-4" />
-                    প্রশ্ন: {totalQuestions}
-                  </span>
-                )}
-                {durationMinutes && (
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1 text-sm font-medium text-amber-800">
-                    <Clock className="h-4 w-4" />
-                    সময়: {durationMinutes}
-                  </span>
-                )}
-                {fullMarks && (
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-purple-100 px-3 py-1 text-sm font-medium text-purple-800">
-                    <Award className="h-4 w-4" />
-                    পূর্ণমান: {fullMarks}
-                  </span>
-                )}
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-800">
+                  <FileQuestion className="h-4 w-4" />
+                  Total: {totalQuestions} Questions
+                </span>
               </div>
             </div>
 

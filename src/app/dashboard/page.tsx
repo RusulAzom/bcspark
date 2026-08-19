@@ -11,6 +11,9 @@ import {
   serverTimestamp,
   writeBatch,
   addDoc,
+  getDocs,
+  query,
+  orderBy,
 } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 import Sidebar from "@/components/Sidebar";
@@ -141,6 +144,8 @@ export default function DashboardPage() {
   const [solutionLoading, setSolutionLoading] = useState(false);
   const [circularProgress, setCircularProgress] = useState(0);
   const [solutionProgress, setSolutionProgress] = useState(0);
+  const [recentSolutions, setRecentSolutions] = useState<Record<string, any>[]>([]);
+  const [solutionsLoading, setSolutionsLoading] = useState(false);
 
   const circularInputRef = useRef<HTMLInputElement>(null);
   const solutionInputRef = useRef<HTMLInputElement>(null);
@@ -153,6 +158,23 @@ export default function DashboardPage() {
       router.push("/");
     }
   }, [user, loading, role, router]);
+
+  useEffect(() => {
+    if (!user || role !== "admin") return;
+    const fetchRecent = async () => {
+      setSolutionsLoading(true);
+      try {
+        const q = query(collection(db, "job_solutions"), orderBy("createdAt", "desc"));
+        const snap = await getDocs(q);
+        setRecentSolutions(snap.docs.map((d) => ({ id: d.id, ...d.data() })));
+      } catch (err) {
+        console.error("Failed to fetch recent solutions", err);
+      } finally {
+        setSolutionsLoading(false);
+      }
+    };
+    fetchRecent();
+  }, [user, role]);
 
   const handleCircularUpload = async () => {
     if (circularFiles.length === 0) {
@@ -346,6 +368,42 @@ export default function DashboardPage() {
                   : "Upload"}
               </button>
             </div>
+          </div>
+
+          {/* Recent Job Solutions */}
+          <div className="mt-10">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Recent Job Solutions</h2>
+            {solutionsLoading ? (
+              <div className="flex items-center justify-center py-10">
+                <Loader2 className="h-6 w-6 animate-spin text-primary" />
+              </div>
+            ) : recentSolutions.length === 0 ? (
+              <p className="text-sm text-gray-500">No job solutions uploaded yet.</p>
+            ) : (
+              <div className="grid gap-6 md:grid-cols-2">
+                {recentSolutions.map((doc) => {
+                  const displayTitle = doc.jobTitle || doc.examInfo?.examName || "No Title";
+                  const displayOrg = doc.examTaker || doc.examInfo?.examTaker || "Organization Not Listed";
+                  const displayDate = doc.examDate || doc.examInfo?.examDate || "";
+                  const displayTotal = doc.totalQuestions || doc.questions?.length || 0;
+
+                  return (
+                    <div key={doc.id} className="p-6 bg-white rounded-xl shadow-md border border-gray-100">
+                      <div className="flex items-center gap-3 mb-3">
+                        <div className="p-2 bg-green-50 rounded-lg">
+                          <BookOpen className="h-6 w-6 text-green-600" />
+                        </div>
+                        <h3 className="text-lg font-bold text-gray-900 line-clamp-1">{displayTitle}</h3>
+                      </div>
+                      <p className="text-sm text-gray-600 mb-2">{displayOrg}</p>
+                      <p className="text-xs text-gray-500">
+                        মোট প্রশ্ন: {displayTotal} | তারিখ: {displayDate}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
           </div>
         </main>
         <Footer />

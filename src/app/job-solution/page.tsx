@@ -31,11 +31,13 @@ export default async function JobSolutionPage() {
       id: doc.id, // Firestore doc ID (plain string)
       title:
         details.title ??
+        details.jobTitle ??
         examInfo.examName ??
         details.exam_title ??
         "No Title",
       organization:
         details.organization ??
+        details.examTaker ??
         examInfo.examTaker ??
         details.org ??
         "Organization Not Listed",
@@ -45,14 +47,16 @@ export default async function JobSolutionPage() {
         details.title ??
         "",
       examDate:
+        details.examDate ??
         examInfo.examDate ??
         details.exam_date ??
         details.date ??
         null,
       totalQuestions:
+        details.totalQuestions ??
         examInfo.totalQuestions ??
         details.total_questions ??
-        details.totalQuestions ??
+        details.questions?.length ??
         "",
       timeAllowed:
         examInfo.durationMinutes ??
