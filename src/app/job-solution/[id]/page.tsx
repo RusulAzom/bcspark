@@ -75,7 +75,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     const organization = data.organization ?? examInfo.examTaker ?? "";
     const postName = examInfo.postName ?? data.post_name ?? "";
 
-    const seoTitle = `${title} - ${organization} Job Solution 2026 | BCS Spark`;
+    const seoTitle = `${title} - ${organization} Recent Job Solution 2026 | BCS Spark`;
     const description =
       `Recent job solution for ${title}${postName ? ` (${postName})` : ""} at ${organization || "various organizations"}. ` +
       `Practice questions with answers at BCS Spark.`;
@@ -167,7 +167,7 @@ export default async function JobSolutionDetailsPage({ params }: { params: Promi
             {/* Card 2: Questions & Solutions */}
             <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
               <h2 className="mb-6 text-xl font-semibold text-slate-900">
-                প্রশ্ন ও সমাধান ({questions.length})
+                প্রশ্ন ও সমাধান ({questions.length-1})
               </h2>
 
               {questions.length === 0 ? (
