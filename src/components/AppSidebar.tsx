@@ -69,6 +69,8 @@ export default function AppSidebar({ isOpen, onClose, activeItem, onNavigate, ro
   const adminNavItems = [
     { id: "dashboard", label: "Dashboard", icon: LayoutDashboard, section: "MAIN" },
     { id: "upload", label: "Upload", icon: PlusCircle, section: "MAIN" },
+    { id: "blogs", label: "Blogs", icon: FileText, section: "BLOGS", url: "/admin/blog" },
+    { id: "categories", label: "Categories", icon: FolderOpen, section: "BLOGS", url: "/admin/categories" },
     { id: "circulars", label: "Circulars", icon: FileText, section: "MAIN" },
     { id: "job-solutions", label: "Job Solutions", icon: BookOpen, section: "MAIN" },
   ];
@@ -150,7 +152,11 @@ export default function AppSidebar({ isOpen, onClose, activeItem, onNavigate, ro
                           whileHover={{ scale: 1.01 }}
                           whileTap={{ scale: 0.99 }}
                           onClick={() => {
-                            onNavigate(item.id);
+                            if (item.url && (item.url.startsWith("/admin/blog") || item.url.startsWith("/admin/categories"))) {
+                              router.push(item.url);
+                            } else {
+                              onNavigate(item.id);
+                            }
                             if (onClose) onClose();
                           }}
                           className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors relative ${isActive

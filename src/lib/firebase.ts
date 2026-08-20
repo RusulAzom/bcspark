@@ -3,6 +3,7 @@ import { initializeApp, getApps } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getAnalytics, isSupported } from "firebase/analytics";
+import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -20,3 +21,11 @@ export const auth = getAuth(app);
 export const googleProvider = new GoogleAuthProvider();
 export const db = getFirestore(app);
 export const analytics = isSupported().then((yes) => (yes ? getAnalytics(app) : null));
+
+let storageInstance;
+try {
+  storageInstance = getStorage(app);
+} catch (e) {
+  console.error("Firebase Storage failed to initialize:", e);
+}
+export const storage = storageInstance;
