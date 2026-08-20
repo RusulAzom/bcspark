@@ -1,12 +1,35 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Search, Menu, X } from "lucide-react";
+import { Search, Menu, X, LayoutDashboard, LogOut, ChevronDown } from "lucide-react";
+import { useAuth } from "@/context/AuthContext";
+import { motion, AnimatePresence } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
+  const { user, loading, signOut } = useAuth();
+  const router = useRouter();
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setDropdownOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const handleLogout = async () => {
+    await signOut();
+    setDropdownOpen(false);
+    router.push("/login");
+  };
 
   return (
     <nav className="sticky top-0 z-50 h-16 w-full border-b border-gray-100 bg-white/95 shadow-sm backdrop-blur-md">
@@ -61,12 +84,62 @@ export default function Navbar() {
           >
             Job Solution
           </Link>
-          <Link 
-            href="/login" 
-            className="rounded-full bg-accent px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-accent-dark"
-          >
-            Login/Register
-          </Link>
+
+          {loading ? (
+            <div className="h-9 w-24 rounded-full bg-gray-200 animate-pulse" />
+          ) : user ? (
+            <div className="relative" ref={dropdownRef}>
+              <button
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+                className="flex items-center gap-2 rounded-full border border-gray-200 bg-white px-3 py-1.5 transition-colors hover:bg-gray-50"
+              >
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 text-sm font-bold text-white">
+                  {user.email?.charAt(0).toUpperCase() || "U"}
+                </div>
+                <span className="hidden lg:block text-sm font-medium text-gray-700 max-w-[120px] truncate">
+                  {user.email}
+                </span>
+                <ChevronDown className="h-4 w-4 text-gray-400" />
+              </button>
+
+              <AnimatePresence>
+                {dropdownOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10, scale: 0.95 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: -10, scale: 0.95 }}
+                    transition={{ duration: 0.15 }}
+                    className="absolute right-0 mt-2 w-48 rounded-xl bg-white shadow-lg border border-gray-100 py-1"
+                  >
+                    <button
+                      onClick={() => {
+                        setDropdownOpen(false);
+                        router.push("/dashboard");
+                      }}
+                      className="flex w-full items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                    >
+                      <LayoutDashboard className="h-4 w-4" />
+                      Dashboard
+                    </button>
+                    <button
+                      onClick={handleLogout}
+                      className="flex w-full items-center gap-2 px-4 py-2 text-sm text-red-600 hover:bg-red-50"
+                    >
+                      <LogOut className="h-4 w-4" />
+                      Logout
+                    </button>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+          ) : (
+            <Link 
+              href="/login" 
+              className="rounded-full bg-accent px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-accent-dark"
+            >
+              Login/Register
+            </Link>
+          )}
         </div>
 
         {/* Mobile menu button */}
@@ -127,13 +200,37 @@ export default function Navbar() {
               >
                 Job Solution
               </Link>
-              <Link 
-                href="/login" 
-                className="flex w-full justify-center rounded-lg bg-accent py-2.5 text-sm font-semibold text-primary transition-all hover:bg-accent-dark"
-                onClick={() => setIsOpen(false)}
-              >
-                Login/Register
-              </Link>
+              
+              {user ? (
+                <>
+                  <button
+                    onClick={() => {
+                      setIsOpen(false);
+                      router.push("/dashboard");
+                    }}
+                    className="flex w-full justify-center rounded-lg border border-primary py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
+                  >
+                    Dashboard
+                  </button>
+                  <button
+                    onClick={() => {
+                      setIsOpen(false);
+                      handleLogout();
+                    }}
+                    className="flex w-full justify-center rounded-lg bg-accent py-2.5 text-sm font-semibold text-primary transition-all hover:bg-accent-dark"
+                  >
+                    Logout
+                  </button>
+                </>
+              ) : (
+                <Link 
+                  href="/login" 
+                  className="flex w-full justify-center rounded-lg bg-accent py-2.5 text-sm font-semibold text-primary transition-all hover:bg-accent-dark"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Login/Register
+                </Link>
+              )}
             </div>
           </div>
         </div>
