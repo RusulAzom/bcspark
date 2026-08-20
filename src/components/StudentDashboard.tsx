@@ -151,7 +151,7 @@ export default function StudentDashboard() {
         role={role}
       />
       <div className="lg:ml-[260px]">
-        <Topbar title="Student Dashboard" onMenuClick={() => setSidebarOpen(true)} />
+        <Topbar title="Student Dashboard" onMenuClick={() => setSidebarOpen(true)} backHref="/" />
         <main className="p-4 sm:p-6 lg:p-8">
           <div className="mb-6">
             <h1 className="text-2xl font-bold text-gray-900">Welcome, {user?.displayName || "Student"}</h1>

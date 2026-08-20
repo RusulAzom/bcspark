@@ -4,14 +4,16 @@ import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useAuth } from "@/context/AuthContext";
 import { useRouter } from "next/navigation";
-import { LogOut, ChevronDown, Menu } from "lucide-react";
+import Link from "next/link";
+import { LogOut, ChevronDown, Menu, Home } from "lucide-react";
 
 interface TopbarProps {
   title: string;
   onMenuClick: () => void;
+  backHref?: string;
 }
 
-export default function Topbar({ title, onMenuClick }: TopbarProps) {
+export default function Topbar({ title, onMenuClick, backHref }: TopbarProps) {
   const { user, loading, signOut } = useAuth();
   const router = useRouter();
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -42,7 +44,17 @@ export default function Topbar({ title, onMenuClick }: TopbarProps) {
           >
             <Menu className="h-5 w-5" />
           </button>
-          <h1 className="text-xl font-semibold text-gray-900">{title}</h1>
+          {backHref ? (
+            <Link
+              href={backHref}
+              className="lg:hidden flex items-center gap-1 text-sm font-semibold text-gray-900 hover:text-blue-600 transition-colors"
+            >
+              <Home className="h-4 w-4" />
+              Back to Home
+            </Link>
+          ) : (
+            <h1 className="text-xl font-semibold text-gray-900">{title}</h1>
+          )}
         </div>
 
         <div className="relative" ref={dropdownRef}>

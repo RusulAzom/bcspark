@@ -227,7 +227,7 @@ export default function AdminDashboard() {
         role={role}
       />
       <div className="lg:ml-[260px]">
-        <Topbar title="Admin Dashboard" onMenuClick={() => setSidebarOpen(true)} />
+        <Topbar title="Admin Dashboard" onMenuClick={() => setSidebarOpen(true)} backHref="/" />
         <main className="p-4 sm:p-6 lg:p-8">
           <div className="grid gap-6 md:grid-cols-2">
             <div className="p-6 bg-white rounded-xl shadow-md border border-gray-100">
