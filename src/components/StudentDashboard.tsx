@@ -105,7 +105,7 @@ export default function StudentDashboard() {
     {
       title: "প্রশ্ন ব্যাংক ",
       description: "BCS (11-50), NTRCA, স্বাস্থ্য মন্ত্রণালয়, PSC, 12-20 Grade সহ সকল চাকরির প্রশ্ন ও সলিউশন।",
-      buttonText: "ভুলের খাতা দেখো",
+      buttonText: "See Questions",
       href: "/question-bank",
       icon: BookOpen,
       iconColor: "text-purple-600",
