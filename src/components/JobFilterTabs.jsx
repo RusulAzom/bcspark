@@ -3,6 +3,10 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Briefcase, Calendar, Users } from "lucide-react";
+import {
+  getDaysRemainingBengali,
+  badgeStyles,
+} from "@/lib/bengaliDate";
 
 // Client component for the job listing with filter tabs
 // Receives jobs data from the server component and handles filtering client-side
@@ -57,14 +61,22 @@ export default function JobFilterTabs({ jobs }) {
             .filter(Boolean)
             .join(" - ");
 
+          const badgeInfo = getDaysRemainingBengali(job.deadlineRaw);
+
           return (
             <Link
               key={job.id}
               href={`/job-circular/${job.id}`}
-              className="group flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
+              className="group relative flex flex-col rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
             >
+              {/* Floating "Days Remaining" badge in Bengali */}
+              <span
+                className={`absolute top-3 right-3 z-10 px-2.5 py-1 text-xs font-semibold rounded-full border ${badgeStyles[badgeInfo.status]}`}
+              >
+                {badgeInfo.text}
+              </span>
               <div className="flex-1">
-                <h2 className="line-clamp-2 text-xl font-semibold text-gray-900 group-hover:text-blue-600">
+                <h2 className="line-clamp-2 pr-20 text-xl font-semibold text-gray-900 group-hover:text-blue-600">
                   {seoTitle}
                 </h2>
                 <p className="mt-2 text-base font-medium text-gray-700">
