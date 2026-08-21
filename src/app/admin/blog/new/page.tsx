@@ -3,7 +3,6 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
 import { toast } from "sonner";
 import {
   collection,
@@ -14,11 +13,12 @@ import {
   orderBy,
   serverTimestamp,
 } from "firebase/firestore";
-import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
-import { db, storage } from "@/lib/firebase";
+import { db } from "@/lib/firebase";
 import { Category, buildCategoryTree, generateSlug } from "@/lib/blog-helpers";
-import MarkdownEditor from "@/components/blog/MarkdownEditor";
-import { Loader2, ArrowLeft, Save, Image, Upload } from "lucide-react";
+import RichTextEditor from "@/components/blog/RichTextEditor";
+import { sanitizeHtml } from "@/lib/sanitize";
+import { uploadFileAndGetUrl } from "@/lib/firebase-storage";
+import { Loader2, ArrowLeft, Save, Upload } from "lucide-react";
 
 export default function AdminNewBlogPage() {
   const router = useRouter();
@@ -27,7 +27,10 @@ export default function AdminNewBlogPage() {
   const [title, setTitle] = useState("");
   const [slug, setSlug] = useState("");
   const [excerpt, setExcerpt] = useState("");
-  const [content, setContent] = useState("");
+  // Rich-text content (kept live by the editor's onChange). The editor itself
+  // is uncontrolled w.r.t. these values — they are only read on submit.
+  const [contentHtml, setContentHtml] = useState("");
+  const [contentJson, setContentJson] = useState<any>(null);
   const [coverImage, setCoverImage] = useState("");
   const [selectedCategoryIds, setSelectedCategoryIds] = useState<string[]>([]);
   const [status, setStatus] = useState<"published" | "draft">("draft");
@@ -74,24 +77,14 @@ export default function AdminNewBlogPage() {
     setSlug(generateSlug(val));
   };
 
-  // Image Upload Handler
+  // Cover Image Upload Handler
   const handleImageChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
 
-    if (!storage) {
-      toast.error("ফায়ারবেস স্টোরেজ ইনিশিয়ালাইজ হয়নি। দয়া করে আপনার এনভায়রনমেন্ট ভ্যারিয়েবল চেক করুন।");
-      return;
-    }
-
     setImageUploading(true);
     try {
-      const timestamp = Date.now();
-      const cleanFilename = file.name.replace(/[^a-zA-Z0-9.]/g, "_");
-      const storageRef = ref(storage, `blog_covers/${timestamp}_${cleanFilename}`);
-
-      await uploadBytes(storageRef, file);
-      const downloadUrl = await getDownloadURL(storageRef);
+      const downloadUrl = await uploadFileAndGetUrl(file);
       setCoverImage(downloadUrl);
       toast.success("কভার ইমেজ আপলোড সফল হয়েছে");
     } catch (err) {
@@ -143,12 +136,13 @@ export default function AdminNewBlogPage() {
         return;
       }
 
-      // Add Doc to Firestore
+      // Persist sanitized HTML + editor JSON for future editing.
       const docPayload = {
         title: title.trim(),
         slug: finalSlug,
         excerpt: excerpt.trim(),
-        content: content.trim(),
+        contentHtml: sanitizeHtml(contentHtml),
+        contentJson,
         coverImage,
         categoryIds: selectedCategoryIds,
         status,
@@ -267,12 +261,20 @@ export default function AdminNewBlogPage() {
             </div>
           </div>
 
-          {/* Side-by-side split markdown editor */}
+          {/* Rich Text Editor */}
           <div className="space-y-1.5">
             <label className="block text-xs font-semibold text-gray-600 uppercase tracking-wider pl-1">
               ব্লগ কনটেন্ট
             </label>
-            <MarkdownEditor value={content} onChange={setContent} />
+            <RichTextEditor
+              initialHtml=""
+              initialJson={null}
+              onChange={(html, json) => {
+                setContentHtml(html);
+                setContentJson(json);
+              }}
+              uploadImage={uploadFileAndGetUrl}
+            />
           </div>
         </div>
 

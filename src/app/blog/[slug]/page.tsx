@@ -11,6 +11,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { db } from "@/lib/firebase";
 import { Category, getCategoryBreadcrumbs } from "@/lib/blog-helpers";
+import { sanitizeHtml } from "@/lib/sanitize";
 import { BlogPost } from "@/components/blog/BlogCard";
 
 interface BlogDetailsPageProps {
@@ -32,6 +33,8 @@ async function fetchBlogPost(slug: string): Promise<BlogPost | null> {
       slug: data.slug,
       excerpt: data.excerpt,
       content: data.content,
+      contentHtml: data.contentHtml,
+      contentJson: data.contentJson,
       coverImage: data.coverImage,
       categoryIds: data.categoryIds || [],
       status: data.status || "published",
@@ -297,9 +300,15 @@ export default async function BlogDetailsPage({ params }: BlogDetailsPageProps) 
               </div>
             )}
 
-            {/* Markdown rendered body */}
-            <div className="prose max-w-none pt-2">
-              <ReactMarkdown components={markdownComponents}>{post.content}</ReactMarkdown>
+            {/* Blog body — rich HTML (primary, sanitized) or legacy markdown fallback */}
+            <div className="prose prose-lg max-w-none pt-2 dark:prose-invert">
+              {post.contentHtml ? (
+                <div
+                  dangerouslySetInnerHTML={{ __html: sanitizeHtml(post.contentHtml) }}
+                />
+              ) : (
+                <ReactMarkdown components={markdownComponents}>{post.content}</ReactMarkdown>
+              )}
             </div>
           </article>
 

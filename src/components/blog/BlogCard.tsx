@@ -17,6 +17,12 @@ export interface BlogPost {
   views: number;
   createdAt: any;
   updatedAt?: any;
+  // Rich-Text fields (added by the Tiptap editor). `contentHtml` is the
+  // sanitized, renderable HTML; `contentJson` is the editor JSON kept for
+  // future editing. `content` is the legacy markdown field kept for backward
+  // compatibility with posts created before the rich-text editor existed.
+  contentHtml?: string;
+  contentJson?: any;
 }
 
 interface BlogCardProps {
