@@ -3,6 +3,7 @@
 
 import Link from "next/link";
 import { Category, getCategoryBreadcrumbs } from "@/lib/blog-helpers";
+import BlogCardVisual from "./BlogCardVisual";
 import { Calendar, Eye, ChevronRight } from "lucide-react";
 
 export interface BlogPost {
@@ -51,22 +52,20 @@ export default function BlogCard({ post, flatCategories }: BlogCardProps) {
   };
 
   return (
-    <article className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-all duration-300 flex flex-col h-full group">
+    <article className=" rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-all duration-300 flex flex-col h-full group">
       {/* Cover Image Container */}
-      <Link href={`/blog/${post.slug}`} className="block relative aspect-video overflow-hidden bg-gray-100">
-        {post.coverImage ? (
-          <img
-            src={post.coverImage}
-            alt={post.title}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-            loading="lazy"
-          />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center bg-blue-50 text-blue-300 font-semibold text-lg">
-            BCSpark Blog
-          </div>
-        )}
-      </Link>
+      <Link
+  href={`/blog/${post.slug}`}
+  className="block group" // group add korlam hover er jonno
+>
+  <div className="relative aspect-video overflow-hidden bg-red-50 rounded-lg">
+    <BlogCardVisual
+      category={breadcrumbs[0]?.name || "Default"}
+      excerpt={post.excerpt || "BCSpark Spetial Blog"}
+    />
+    
+  </div>
+</Link>
 
       {/* Content Area */}
       <div className="p-5 flex-1 flex flex-col">
@@ -93,9 +92,9 @@ export default function BlogCard({ post, flatCategories }: BlogCardProps) {
         </h3>
 
         {/* Blog Excerpt */}
-        <p className="text-sm text-gray-600 mb-4 line-clamp-3 flex-1">
+        {/* <p className="text-sm text-gray-600 mb-4 line-clamp-3 flex-1">
           {post.excerpt || "কোনো সংক্ষিপ্ত বিবরণ নেই।"}
-        </p>
+        </p> */}
 
         {/* Card Footer Info */}
         <div className="flex items-center justify-between pt-4 border-t border-gray-50 text-xs text-gray-500 shrink-0">

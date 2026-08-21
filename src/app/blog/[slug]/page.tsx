@@ -114,6 +114,8 @@ export async function generateMetadata({ params }: BlogDetailsPageProps): Promis
   const seoTitle = `${post.title} | BCS Spark Blog`;
   const seoDescription = post.excerpt || `${post.title} সম্পর্কে বিস্তারিত জানুন BCS Spark ব্লগে।`;
 
+  const ogImages = post.coverImage ? [{ url: post.coverImage }] : undefined;
+
   return {
     title: seoTitle,
     description: seoDescription,
@@ -122,7 +124,7 @@ export async function generateMetadata({ params }: BlogDetailsPageProps): Promis
       description: seoDescription,
       type: "article",
       publishedTime: post.createdAt?.toDate ? post.createdAt.toDate().toISOString() : undefined,
-      images: post.coverImage ? [{ url: post.coverImage }] : undefined,
+      images: ogImages,
     },
   };
 }

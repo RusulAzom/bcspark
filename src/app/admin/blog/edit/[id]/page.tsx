@@ -348,8 +348,11 @@ export default function AdminEditBlogPage({ params }: EditBlogPageProps) {
                     <Upload className="h-5 w-5" />
                   </div>
                   <span className="text-xs text-gray-500 font-semibold text-center">
-                    ক্লিক করে ইমেজ দিন
+                    ক্লিক করে ইমেজ দিন (ঐচ্ছিক)
                   </span>
+                  <p className="text-[10px] text-gray-400 text-center">
+                    ডিফল্ট ক্যাটাগরি কার্ড ব্যবহার করা হবে যদি ফাঁকা রাখেন
+                  </p>
                   <input
                     type="file"
                     accept="image/*"
