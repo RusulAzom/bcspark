@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  serverExternalPackages: ['jsdom', '@exodus/bytes', 'html-encoding-sniffer', 'isomorphic-dompurify'],
 };
 
 export default nextConfig;

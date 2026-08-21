@@ -11,7 +11,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { db } from "@/lib/firebase";
 import { Category, getCategoryBreadcrumbs } from "@/lib/blog-helpers";
-import { sanitizeHtml } from "@/lib/sanitize";
 import { BlogPost } from "@/components/blog/BlogCard";
 
 interface BlogDetailsPageProps {
@@ -302,11 +301,11 @@ export default async function BlogDetailsPage({ params }: BlogDetailsPageProps) 
               </div>
             )}
 
-            {/* Blog body — rich HTML (primary, sanitized) or legacy markdown fallback */}
+            {/* Blog body — rich HTML (primary) or legacy markdown fallback */}
             <div className="prose prose-lg max-w-none pt-2 dark:prose-invert">
               {post.contentHtml ? (
                 <div
-                  dangerouslySetInnerHTML={{ __html: sanitizeHtml(post.contentHtml) }}
+                  dangerouslySetInnerHTML={{ __html: post.contentHtml }}
                 />
               ) : (
                 <ReactMarkdown components={markdownComponents}>{post.content}</ReactMarkdown>
