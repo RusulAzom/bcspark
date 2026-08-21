@@ -1,4 +1,4 @@
-// lib/firebase.ts - SERVER SAFE
+// lib/firebase.ts - SERVER SAFE + CLIENT SAFE
 import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
@@ -14,17 +14,17 @@ const firebaseConfig = {
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID!,
 };
 
-const app = getApps().length === 0? initializeApp(firebaseConfig) : getApps()[0];
+const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);
 export const googleProvider = new GoogleAuthProvider();
 export const db = getFirestore(app);
 export const storage = getStorage(app);
 
-// Analytics sudhu client e lagbe - alada function
+// Analytics ke ar top-level e import korbo na - crash er main karon oita chilo
 export const getAnalyticsInstance = async () => {
   if (typeof window === "undefined") return null;
   const { isSupported, getAnalytics } = await import("firebase/analytics");
-  const supported = await isSupported();
-  return supported? getAnalytics(app) : null;
+  const ok = await isSupported();
+  return ok ? getAnalytics(app) : null;
 };
