@@ -499,15 +499,15 @@ export default function QuickPracticeEngine({
 
                                 <div className="my-2 border-t pt-2 space-y-1">
                                     <p>
-                                        <span className="text-gray-500">Your Score:</span>{' '}
+                                        <span className="text-gray-500">আপনার সর্বমোট স্কোর:</span>{' '}
                                         <strong>{finalScore.toFixed(2)} / {questions.length}</strong>
                                     </p>
                                     <p>
-                                        <span className="text-gray-500">Correct Answers:</span>{' '}
+                                        <span className="text-gray-500">সঠিক উত্তর:</span>{' '}
                                         <strong className="text-green-600">{correctCount} ({correctPct}%)</strong>
                                     </p>
                                     <p>
-                                        <span className="text-gray-500">Wrong Answers:</span>{' '}
+                                        <span className="text-gray-500">ভুল উত্তর:</span>{' '}
                                         <strong className="text-red-600">{wrongCount} ({wrongPct}%)</strong>
                                     </p>
                                     <p>
@@ -519,17 +519,17 @@ export default function QuickPracticeEngine({
 
                             {/* Promotional Message (Call-out Box) */}
                             <div className="mx-6 mb-4 rounded-xl p-3 bg-orange-50 border border-orange-200 text-xs text-gray-700 leading-relaxed">
-                                <p className="font-semibold text-orange-700 mb-1">আপনি কি জানেন...?</p>
+                                <p className="font-semibold text-orange-700 mb-1">ওহে! মানবতার মানবটার বিড়িওলা!</p>
                                 <p>
-                                    BCSpark-এর স্পেশাল কনটেস্টে অংশ নিলে গুরুত্বপূর্ণ MCQ পড়াশোনার পাশাপাশি প্রতিদিন থাকছে একাধিক পুরস্কার জেতার সম্ভাবনা! কনটেস্টে অংশ গ্রহণের জন্য{' '}
+                                    এটি একটি সম্পূর্ণ অবাণিজ্যিক বিজ্ঞানপনমুক্ত প্রোজেক্ট; আপনার একটা কফির/বিড়ির টাকা প্রজেক্টটা বাঁচিয়ে রাখবে। {' '}
                                     <a
-                                        href="https://bcspark.bd/contest"
+                                        href="https://bcspark.vercel.app/donate"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-blue-600 underline font-semibold"
                                     >
-                                        Registration করুন
-                                    </a>।
+                                        ডোনেট করি! 
+                                    </a>
                                 </p>
                             </div>
 
