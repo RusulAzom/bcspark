@@ -167,7 +167,7 @@ export default async function JobSolutionDetailsPage({ params }: { params: Promi
             {/* Card 2: Questions & Solutions */}
             <div className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
               <h2 className="mb-6 text-xl font-semibold text-slate-900">
-                প্রশ্ন ও সমাধান ({questions.length-1})
+                প্রশ্ন ও সমাধান ({questions.length} টি)
               </h2>
 
               {questions.length === 0 ? (

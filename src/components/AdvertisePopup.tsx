@@ -7,14 +7,14 @@ import { Briefcase, BookOpen, Gamepad2, FileText, X, Sparkles } from "lucide-rea
 
 // Global Advertisement Popup for BCSpark
 // - Shows 5 seconds after page load
-// - Only shows 1 time per 24 hours per user (localStorage: "bcspark_popup_last_shown")
+// - Only shows 1 time per Each hours per user (localStorage: "bcspark_popup_last_shown")
 // - Force show for testing: append ?popup=force to the URL
 // - Framer Motion fade-in + scale animation with backdrop blur
 // - Close on X button or backdrop click
 
 const POPUP_STORAGE_KEY = "bcspark_popup_last_shown";
-const POPUP_DELAY_MS = 5000; // 5 seconds
-const TWENTY_FOUR_HOURS_MS = 24 * 60 * 60 * 1000; // 24 hours
+const POPUP_DELAY_MS = 3000; // 3 seconds
+const TWENTY_FOUR_HOURS_MS = 1 * 60 * 60 * 1000; // 1 hours
 
 // Feature list items
 const features = [
@@ -30,8 +30,8 @@ const features = [
     icon: FileText,
     title: "Recent Job Solutions",
     desc: "সাম্প্রতিক চাকরির প্রশ্ন সমাধান",
-    href: null,
-    comingSoon: true,
+    href: "/job-solution",
+    comingSoon: false,
     color: "bg-gray-100 text-gray-500",
   },
   {
