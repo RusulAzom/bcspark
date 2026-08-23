@@ -302,7 +302,7 @@ export default async function BlogDetailsPage({ params }: BlogDetailsPageProps) 
             )}
 
             {/* Blog body — rich HTML (primary) or legacy markdown fallback */}
-            <div className="prose prose-lg max-w-none pt-2 dark:prose-invert">
+            <div className="prose prose-lg max-w-none pt-2 ">
               {post.contentHtml ? (
                 <div
                   dangerouslySetInnerHTML={{ __html: post.contentHtml }}

@@ -485,8 +485,8 @@ export default function QuickPracticeEngine({
                             >
                                 <h3 className="text-xl font-extrabold leading-snug">
                                     {passed
-                                        ? "🎉 অভিনন্দন! আপনি পাস করেছেন"
-                                        : "⚡ অল্পের জন্য মিস! আবার চেষ্টা করুন"}
+                                        ? `🎉 অভিনন্দন! আপনি পাস করেছেন`
+                                        : `⚡ অল্পের জন্য মিস! আবার চেষ্টা করুন`}
                                 </h3>
                             </div>
 
