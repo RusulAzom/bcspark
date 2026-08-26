@@ -5,9 +5,16 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import { useRouter } from 'next/navigation';
 
+// Seconds allotted per question for mock model tests launched from the
+// homepage card via ?total=N&exam=<subject>:<topic> URL params plus a
+// sessionStorage handoff. Normal visits carry no params and are unaffected.
+const SECONDS_PER_QUESTION = 36;
+const MOCK_EXAM_STORE_KEY = "bcsparkMockExam";
+
 export default function QuickPracticeEngine({
     questions,
-    config = {}
+    config = {},
+    renderChrome = true // set false when embedded inside another page/card (skips Navbar & Footer)
 }) {
     const router = useRouter();
     const {
@@ -28,6 +35,11 @@ export default function QuickPracticeEngine({
     const [time, setTime] = useState(timeLimit);
     const resultRef = useRef(null);
     const reviewRef = useRef(null);
+
+    // ===== Mock Model Test handoff state =====
+    const [mockLoad, setMockLoad] = useState(false); // replacement questions loading
+    const [mockQuestions, setMockQuestions] = useState(null);
+    const [mockTotal, setMockTotal] = useState(null);
 
     // Helper: if source has multiple separated by /, show only the first one + superscript count
     const getDisplaySource = (source) => {
@@ -59,7 +71,11 @@ export default function QuickPracticeEngine({
     // ================negative merking============
     const [correctCount, setCorrectCount] = useState(0);
     const [wrongCount, setWrongCount] = useState(0);
-    const skippedCount = questions.length - Object.keys(answers).length;
+    const activeQuestions = mockQuestions || questions;
+    const effTimeLimit = mockTotal
+        ? mockTotal * SECONDS_PER_QUESTION
+        : timeLimit;
+    const skippedCount = activeQuestions.length - Object.keys(answers).length;
 
     // ==========sessionStorage=============
     useEffect(() => {
@@ -76,7 +92,7 @@ export default function QuickPracticeEngine({
 
     // ====== টাইমার ======
     useEffect(() => {
-        if (submitted) return;
+        if (submitted || mockLoad) return;
 
         if (time <= 0) {
             setSubmitted(true);
@@ -92,9 +108,70 @@ export default function QuickPracticeEngine({
     // ===== Calculate total time taken =====
     useEffect(() => {
         if (submitted) {
-            setTimeTaken(timeLimit - time);
+            setTimeTaken(effTimeLimit - time);
         }
-    }, [submitted, time, timeLimit]);
+    }, [submitted, time, effTimeLimit]);
+
+    // ===== Resolve the Mock Model Test handoff once per mount =====
+    // The homepage card writes { examKey, total, apiPath } to sessionStorage
+    // then routes to the designated practice page with ?total=&exam=. Here we
+    // validate the pair, pull exactly `total` questions from the API
+    // equivalent and re-initialise the countdown accordingly.
+    useEffect(() => {
+        let cancelled = false;
+
+        try {
+            const params = new URLSearchParams(window.location.search);
+            const urlTotal = Number(params.get("total"));
+            const urlExam = params.get("exam");
+
+            if (!Number.isInteger(urlTotal) || urlTotal <= 0 || !urlExam) return;
+
+            const stored = JSON.parse(
+                sessionStorage.getItem(MOCK_EXAM_STORE_KEY) || "null"
+            );
+            if (!stored || stored.examKey !== urlExam) return;
+
+            setMockTotal(urlTotal);
+            setMockLoad(true);
+
+            (async () => {
+                try {
+                    const separator = stored.apiPath.includes("?") ? "&" : "?";
+                    const response = await fetch(
+                        `${stored.apiPath}${separator}total=${urlTotal}`
+                    );
+                    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                    const payload = await response.json();
+                    if (
+                        !cancelled &&
+                        Array.isArray(payload.questions) &&
+                        payload.questions.length > 0
+                    ) {
+                        setMockQuestions(payload.questions);
+                    }
+                } catch (err) {
+                    console.error("Failed to load mock exam questions:", err);
+                    if (!cancelled) setMockTotal(null); // graceful fallback to page defaults
+                } finally {
+                    if (!cancelled) setMockLoad(false);
+                }
+            })();
+        } catch {
+            // Malformed handoff data — silently fall back to normal behaviour.
+        }
+
+        return () => {
+            cancelled = true;
+        };
+    }, []);
+
+    // Re-initialise the countdown (timer init) once the mock setup resolves.
+    useEffect(() => {
+        if (!mockLoad && mockTotal) {
+            setTime(mockTotal * SECONDS_PER_QUESTION);
+        }
+    }, [mockLoad, mockTotal]);
 
     // ===== Format submit date & time (e.g. 06-07-2026 | 2:54 AM) =====
     const formatDateTime = (d = new Date()) => {
@@ -155,7 +232,7 @@ export default function QuickPracticeEngine({
 
         const dataURL = canvas.toDataURL('image/jpeg', 0.92);
         const link = document.createElement('a');
-        link.download = `BCSparkT20-${finalScore.toFixed(2)}-${questions.length}.jpg`;
+        link.download = `BCSparkT20-${finalScore.toFixed(2)}-${activeQuestions.length}.jpg`;
         link.href = dataURL;
         link.click();
     };
@@ -163,10 +240,10 @@ export default function QuickPracticeEngine({
     //  score and result review
     const finalScore = correctCount - (wrongCount * 0.5);
 
-    const scorePercentage = questions.length > 0 ? (finalScore / questions.length) * 100 : 0;
+    const scorePercentage = activeQuestions.length > 0 ? (finalScore / activeQuestions.length) * 100 : 0;
     const passed = scorePercentage >= passMark;
-    const correctPct = questions.length > 0 ? Math.round((correctCount / questions.length) * 100) : 0;
-    const wrongPct = questions.length > 0 ? Math.round((wrongCount / questions.length) * 100) : 0;
+    const correctPct = activeQuestions.length > 0 ? Math.round((correctCount / activeQuestions.length) * 100) : 0;
+    const wrongPct = activeQuestions.length > 0 ? Math.round((wrongCount / activeQuestions.length) * 100) : 0;
 
     const scrollToReview = () => {
         setShowResultPopup(false);
@@ -243,7 +320,7 @@ export default function QuickPracticeEngine({
         let wrong = 0;
 
         Object.entries(answers).forEach(([questionIndex, selectedOption]) => {
-            const question = questions[questionIndex];
+            const question = activeQuestions[questionIndex];
 
             if (Number(selectedOption) === question.ans) {
                 correct++;
@@ -272,7 +349,16 @@ export default function QuickPracticeEngine({
 
     return (
         <>
-            <Navbar />
+            {renderChrome && <Navbar />}
+            {/* Mock Model Test handoff: block the clock while replacement questions load */}
+            {mockLoad && (
+                <div className="fixed inset-0 z-[200] flex items-center justify-center bg-gray-50">
+                    <div className="text-center">
+                        <p className="text-xl font-bold animate-pulse">প্রশ্ন প্রস্তুত হচ্ছে...</p>
+                        <p className="mt-2 text-xs text-gray-500">মক মডেল টেস্ট সেটআপ করা হচ্ছে</p>
+                    </div>
+                </div>
+            )}
             <div className="max-w-6xl mx-auto p-6">
 
                 {/* কুইজ */}
@@ -290,7 +376,7 @@ export default function QuickPracticeEngine({
                     {/* Top quiz grid is hidden once submitted to avoid redundant duplicate of the review sheet below */}
                     {!submitted && (
                     <div className="grid md:grid-cols-2 gap-6">
-                        {questions.map((q, i) => {
+                        {activeQuestions.map((q, i) => {
                             const correctOptionIndex = q.ans;
                             const selectedOptionIndex = answers[i];
 
@@ -359,7 +445,7 @@ export default function QuickPracticeEngine({
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
                                     <div className="text-left space-y-3">
                                         <div className="space-y-2">
-                                            {getResultMessage(userName, finalScore, questions.length).map((line, index) => (
+                                            {getResultMessage(userName, finalScore, activeQuestions.length).map((line, index) => (
                                                 <p key={index} className={`font-bold ${index === 0 ? "text-2xl" : "text-lg opacity-90"}`}>
                                                     {line}
                                                 </p>
@@ -375,7 +461,7 @@ export default function QuickPracticeEngine({
                                             <span>⏭️ স্কিপ: {skippedCount}</span>
                                         </p>
                                         <h3 className="text-2xl font-bold">
-                                            আমোলনামা: {finalScore.toFixed(2)} / {questions.length}
+                                            আমোলনামা: {finalScore.toFixed(2)} / {activeQuestions.length}
                                         </h3>
                                     </div>
 
@@ -397,7 +483,7 @@ export default function QuickPracticeEngine({
                             </div>
                             {/* ===================Answer Sheets====================== */}
                             <div ref={reviewRef} className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6 relative z-10">
-                                {questions.map((q, i) => (
+                                {activeQuestions.map((q, i) => (
                                     <div key={`${getDisplaySource(q.source).display}-${q.id}-${i}`} className="border rounded-lg p-2 bg-gray-30">
                                         <p className="font-semibold text-xs mb-1">প্রশ্ন {i + 1}: {q.q}</p>
                                         {/* to show question source */}
@@ -500,7 +586,7 @@ export default function QuickPracticeEngine({
                                 <div className="my-2 border-t pt-2 space-y-1">
                                     <p>
                                         <span className="text-gray-500">আপনার সর্বমোট স্কোর:</span>{' '}
-                                        <strong>{finalScore.toFixed(2)} / {questions.length}</strong>
+                                        <strong>{finalScore.toFixed(2)} / {activeQuestions.length}</strong>
                                     </p>
                                     <p>
                                         <span className="text-gray-500">সঠিক উত্তর:</span>{' '}
@@ -551,7 +637,7 @@ export default function QuickPracticeEngine({
                 )}
 
             </div>
-            <Footer />
+            {renderChrome && <Footer />}
         </>
     )
 }

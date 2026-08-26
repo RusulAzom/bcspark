@@ -2,20 +2,14 @@
 
 import { useState, useEffect } from "react";
 import { 
-  Cake, CheckSquare, Play, Zap, Clock, CheckCircle2, 
+  Cake, CheckSquare, Zap, Clock, CheckCircle2, 
   TrendingUp, Flame, AlertCircle, RefreshCw, BookOpen
 } from "lucide-react";
 import { useTodayHistory } from "@/components/TodayHistoryProvider";
+import MockModelTestCard from "@/components/MockModelTestCard";
 
 export default function InfoRow() {
   const { data: todayHistory, isLoading: isHistoryLoading } = useTodayHistory();
-  // Mock Model Test Form State
-  const [exam, setExam] = useState("BCS");
-  const [phase, setPhase] = useState("Preli");
-  const [subject, setSubject] = useState("বাংলা");
-  const [questions, setQuestions] = useState("২০টি");
-  const [duration, setDuration] = useState("২০ মিনিট");
-  const [testStarted, setTestStarted] = useState(false);
 
   // Productivity widgets states
   const [pomoTime, setPomoTime] = useState(1500);
@@ -56,15 +50,6 @@ export default function InfoRow() {
 
   const toggleTask = (id) => {
     setTasks(tasks.map(t => t.id === id ? { ...t, done: !t.done } : t));
-  };
-
-  const handleStartTest = (e) => {
-    e.preventDefault();
-    setTestStarted(true);
-    setTimeout(() => {
-      setTestStarted(false);
-      alert(`পরীক্ষা শুরু হচ্ছে...\nপরীক্ষা: ${exam}\nধাপ: ${phase}\nবিষয়: ${subject}\nপ্রশ্ন: ${questions}\nসময়: ${duration}`);
-    }, 800);
   };
 
   const todayDateObj = todayHistory?.date?.iso
@@ -235,104 +220,7 @@ export default function InfoRow() {
           </div>
 
         {/* Column 2: মক মডেল টেস্ট */}
-        <div className="flex flex-col justify-between rounded-3xl border border-gray-100 bg-white p-6 shadow-sm hover:shadow-md transition-shadow min-h-[460px]">
-          <div>
-            {/* Header */}
-            <div className="flex items-center gap-4 mb-5">
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-500">
-                <Play className="h-6 w-6" />
-              </div>
-              <div>
-                <h3 className="text-lg font-bold text-primary leading-tight">মক মডেল টেস্ট</h3>
-                <p className="text-xs text-gray-500">পরীক্ষার সেটআপ ও প্রস্তুতি</p>
-              </div>
-            </div>
-
-            <form id="mockTestForm" onSubmit={handleStartTest} className="space-y-4">
-              {/* Exam Select */}
-              <div>
-                <label className="block text-[11px] font-semibold text-gray-600 mb-1">পরীক্ষা</label>
-                <select
-                  value={exam}
-                  onChange={(e) => setExam(e.target.value)}
-                  className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-800 focus:border-blue-400 focus:outline-none"
-                >
-                  <option value="BCS">BCS</option>
-                  <option value="ব্যাংক">ব্যাংক</option>
-                  <option value="আমিন">আমিন</option>
-                  <option value="অন্যান্য">অন্যান্য</option>
-                </select>
-              </div>
-
-              {/* Phase Select */}
-              <div>
-                <label className="block text-[11px] font-semibold text-gray-600 mb-1">ধাপ</label>
-                <select
-                  value={phase}
-                  onChange={(e) => setPhase(e.target.value)}
-                  className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-800 focus:border-blue-400 focus:outline-none"
-                >
-                  <option value="Preli">প্রিলি</option>
-                  <option value="Written">লিখিত</option>
-                  <option value="Viva">ভাইভা</option>
-                </select>
-              </div>
-
-              {/* Subject Select */}
-              <div>
-                <label className="block text-[11px] font-semibold text-gray-600 mb-1">বিষয়</label>
-                <select
-                  value={subject}
-                  onChange={(e) => setSubject(e.target.value)}
-                  className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-800 focus:border-blue-400 focus:outline-none"
-                >
-                  <option value="বাংলা">বাংলা</option>
-                  <option value="ইংরেজি">ইংরেজি</option>
-                  <option value="গণিত">গণিত</option>
-                  <option value="সাধারণ জ্ঞান">সাধারণ জ্ঞান</option>
-                </select>
-              </div>
-
-              {/* Questions & Duration */}
-              <div className="grid grid-cols-2 gap-3">
-                <div>
-                  <label className="block text-[11px] font-semibold text-gray-600 mb-1">প্রশ্ন</label>
-                  <input
-                    type="text"
-                    value={questions}
-                    onChange={(e) => setQuestions(e.target.value)}
-                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-800 focus:border-blue-400 focus:outline-none"
-                  />
-                </div>
-                <div>
-                  <label className="block text-[11px] font-semibold text-gray-600 mb-1">সময়</label>
-                  <input
-                    type="text"
-                    value={duration}
-                    onChange={(e) => setDuration(e.target.value)}
-                    className="w-full rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-800 focus:border-blue-400 focus:outline-none"
-                  />
-                </div>
-              </div>
-
-            </form>
-          </div>
-
-          {/* Footer: submit button (card footer) + caption below it */}
-          <div>
-            <p className="mt-2 text-[10px] mb-5 text-center text-gray-400 font-medium">
-              মক টেস্ট দিয়ে নিজেকে যাচাই করুন
-            </p>
-            <button
-              type="submit"
-              form="mockTestForm"
-              className="w-full cursor-pointer mt-2 rounded-xl bg-blue-600 py-3 text-center text-sm font-bold text-white transition-all hover:bg-blue-700 active:scale-[0.98]"
-            >
-              {testStarted ? "শুরু হচ্ছে..." : "পরীক্ষা শুরু করুন ⚡"}
-            </button>
-            
-          </div>
-        </div>
+        <MockModelTestCard />
 
   {/* Column 3: আজকের দিনে — ঐতিহাসিক ঘটনা ও বিখ্যাত ব্যক্তিত্ব */}
         <div className="flex flex-col justify-between rounded-3xl border border-gray-100 bg-white p-6 shadow-sm hover:shadow-md transition-shadow min-h-[460px]">

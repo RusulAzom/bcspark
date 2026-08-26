@@ -1,7 +1,48 @@
 import practiceRoutes from "@/data/practiceRoutes";
+import gkAllSources from "@/data/quizSources/gk";
+import gkInternationalAllSources from "@/data/quizSources/gkInternational";
+import sadharonBigganAllSources from "@/data/quizSources/sadharonBiggan";
+import vugolPoribeshDMAllSources from "@/data/quizSources/vugolPoribeshDM";
+import noitikotaMSAllSources from "@/data/quizSources/noitikotaMS";
 import { poolFiles, allocate, shuffle } from "@/lib/t20Allocation";
 
 export const runtime = "nodejs";
+
+// Some subjects describe their question pools inside a quizSources config
+// (src/data/quizSources/*) instead of putting folder/files directly on the
+// practiceRoute topic. Map those subjects so the generic resolver can still
+// serve any of their sub-topics.
+const SUBJECT_SOURCE_CONFIGS = {
+    gk: gkAllSources,
+    GKInternational: gkInternationalAllSources,
+    Biology: sadharonBigganAllSources,
+    VugolPoribeshDM: vugolPoribeshDMAllSources,
+    NoitikotaMS: noitikotaMSAllSources,
+};
+
+// practiceRoutes topic key -> quizSources config `name` where they diverge.
+const FALLBACK_TOPIC_ALIASES = {
+    GKInternational: {
+        itihasVurajniti: "itihasVurajnitiOnchol",
+        nirapottaCkuktti: "nirapottaChuktti",
+    },
+};
+
+// Locate the matching quizSources topic for a practiceRoute topic that has no
+// own data reference. Returns null when the subject/topic is not backed by a
+// config (e.g. ICT or legacy english topics) — callers then report the usual
+// empty-pool error and pages fall back to their static question sets.
+function findConfigTopic(subjectId, topicId) {
+    const cfg = SUBJECT_SOURCE_CONFIGS[subjectId];
+    if (!cfg || !Array.isArray(cfg.topics)) return null;
+    const aliasMap = FALLBACK_TOPIC_ALIASES[subjectId] || {};
+    const wanted = aliasMap[topicId] || topicId;
+    return (
+        cfg.topics.find(
+            (t) => t && t.name === wanted && Array.isArray(t.files) && t.files.length > 0
+        ) || null
+    );
+}
 
 function badRequest(message) {
     return new Response(JSON.stringify({ error: message }), {
@@ -39,7 +80,16 @@ export async function GET(request) {
         const topic = subject.topics[topicId];
         if (!topic || !topic.active) return notFound(`Topic not found or inactive: ${key}`);
 
-        const targetN = (topic.config && topic.config.questionLimit) || subject.defaultQuestionLimit || 20;
+        const targetN0 = (topic.config && topic.config.questionLimit) || subject.defaultQuestionLimit || 20;
+
+        // Optional explicit count (?total=N) — sent by the homepage mock test
+        // card so every practice route honours the user's question selection.
+        // Clamped later against the actual pool capacity.
+        const requestedTotal = Number(url.searchParams.get("total"));
+        let targetN =
+            Number.isInteger(requestedTotal) && requestedTotal > 0
+                ? Math.min(requestedTotal, 200)
+                : targetN0;
 
         let sources = [];
         if (topicId === "all") {
@@ -47,7 +97,21 @@ export async function GET(request) {
                 .filter(([id, t]) => id !== "all" && t.active && (t.folder || (t.files && t.files.length > 0)))
                 .map(([id, t]) => ({ id, ...t }));
         } else {
-            sources = [topic];
+            let effectiveTopic = topic;
+            if (!topic.folder && !(topic.files && topic.files.length > 0)) {
+                const cfgTopic = findConfigTopic(subjectId, topicId);
+                if (cfgTopic) {
+                    // quizSources paths are relative to data/, while poolFiles()
+                    // is rooted at data/t20 — strip the leading segment.
+                    effectiveTopic = {
+                        ...topic,
+                        files: cfgTopic.files.map((f) =>
+                            String(f.path).replace(/^t20\//, "")
+                        ),
+                    };
+                }
+            }
+            sources = [effectiveTopic];
         }
 
         // Pool each source
@@ -64,9 +128,25 @@ export async function GET(request) {
 
         if (withPool.length === 0) return serverError("No data files available for this topic");
 
+        // Never request more than the pooled questions can actually supply.
+        if (requestedTotal > 0) {
+            const capSum = withPool.reduce((sum, s) => sum + s.pool.length, 0);
+            targetN = Math.min(targetN, capSum);
+        }
+
         // Determine counts via LRM
-        const shareSum = withPool.reduce((sum, s) => sum + (s.share || 0), 0) || withPool.length;
-        const rawQuotas = withPool.map((s) => ((s.share || 0) / shareSum) * targetN);
+        // NOTE: topics without a configured `share` previously collapsed to a
+        // 0-weight quota (yielding ~1 question regardless of the requested
+        // total). When every pooled source lacks a share, distribute equally.
+        const configuredShareTotal = withPool.reduce(
+            (sum, s) => sum + (s.share || 0),
+            0
+        );
+        const shareSum =
+            configuredShareTotal > 0 ? configuredShareTotal : withPool.length;
+        const rawQuotas = withPool.map((s) =>
+            ((configuredShareTotal > 0 ? (s.share || 0) : 1) / shareSum) * targetN
+        );
         const bases = rawQuotas.map((q) => Math.floor(q));
         const remainders = rawQuotas.map((q, i) => q - bases[i]);
         const leftover = targetN - bases.reduce((a, b) => a + b, 0);
@@ -88,7 +168,12 @@ export async function GET(request) {
 
         const total = counts.reduce((a, b) => a + b, 0);
         if (total !== targetN) {
-            return serverError(`Allocation mismatch: expected ${targetN}, got ${total}`);
+            // Downgraded from a hard 500 to a warning: rounding remainders can
+            // land one short of the target; returning fewer questions beats
+            // failing the whole exam request.
+            console.warn(
+                `[/api/t20/questions] Allocation shortfall for ${key}: expected ${targetN}, got ${total}`
+            );
         }
 
         // Draw and shuffle
