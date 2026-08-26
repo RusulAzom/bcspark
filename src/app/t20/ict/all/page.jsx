@@ -1,59 +1,51 @@
 'use client';
-// নতুন পেজ যুক্ত করলে এখানে import করতে হবে, তারপর number হিসেব করে দিতে হবে,  
-import { useState, useEffect } from 'react';
-// *********1. update here after new data  *****************
-import ict701 from '../../../../../data/t20/ict/ict701.json';
-import ict704 from '../../../../../data/t20/ict/ict704.json';
-import ict705 from '../../../../../data/t20/ict/ict705.json';
-import ict706 from '../../../../../data/t20/ict/ict706.json';
-import ict710 from '../../../../../data/t20/ict/ict710.json';
-import ict720 from '../../../../../data/t20/ict/ict720.json';
-import ict730 from '../../../../../data/t20/ict/ict730.json';
-import ict740 from '../../../../../data/t20/ict/ict740.json';
-import ict750 from '../../../../../data/t20/ict/ict750.json';
+import { useEffect, useState } from 'react';
 
 import QuickPracticeEngine from '@/components/QuickPracticeEngine';
 
-// Helper: array থেকে random n টা item নেওয়া - Type বাদ
-function getRandomItems(arr, n) {
-    const shuffled = [...arr].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, n);
-}
-
-export default function banglaPage() {
+// Questions are fetched from the internal quiz API so that only the selected
+// questions ship to the browser instead of the full JSON pools
+// (see INTERNAL_API_DOCS.md §2).
+export default function IctAllPage() {
     const [randomQuestions, setRandomQuestions] = useState([]);
     const [isReady, setIsReady] = useState(false);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
-        // 2. ************* update here after new data নম্বর বণ্টন কর*************
-        const questionsFromIct701 = getRandomItems(ict701, 3);
-        const questionsFromIct704 = getRandomItems(ict704, 2);
-        const questionsFromIct705 = getRandomItems(ict705, 2);
-        const questionsFromIct706 = getRandomItems(ict706, 2);
-        const questionsFromIct710 = getRandomItems(ict710, 2);
-        const questionsFromIct720 = getRandomItems(ict720, 2);
-        const questionsFromIct730 = getRandomItems(ict730, 3);
-        const questionsFromIct740 = getRandomItems(ict740, 2);
-        const questionsFromIct750 = getRandomItems(ict750, 2);
+        let cancelled = false;
 
-        // 3.**********update here after new data*****************
-        const combinedQuestions = [
-            ...questionsFromIct701,
-            ...questionsFromIct704,
-            ...questionsFromIct705,
-            ...questionsFromIct706,
-            ...questionsFromIct710,
-            ...questionsFromIct720,
-            ...questionsFromIct730,
-            ...questionsFromIct740,
-            ...questionsFromIct750
-        ];
+        async function loadQuestions() {
+            try {
+                const response = await fetch('/api/quiz/ict/all');
+                if (!response.ok) {
+                    throw new Error(`Failed to load questions (${response.status})`);
+                }
+                const payload = await response.json();
+                if (cancelled) return;
+                setRandomQuestions(Array.isArray(payload.questions) ? payload.questions : []);
+                setIsReady(true);
+            } catch (err) {
+                console.error('Failed to load ICT all-topic questions:', err);
+                if (!cancelled) setError(err.message || 'Failed to load questions');
+            }
+        }
 
-        const finalShuffled = combinedQuestions.sort(() => 0.5 - Math.random());
+        loadQuestions();
 
-        setRandomQuestions(finalShuffled);
-        setIsReady(true);
+        return () => {
+            cancelled = true;
+        };
     }, []);
+
+    if (error) {
+        return (
+            <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+                <div className="text-lg font-semibold text-red-600">
+                    প্রশ্ন লোড করা যায়নি। পৃষ্ঠাটি রিফ্রেশ করে আবার চেষ্টা করুন।
+                </div>
+            </div>
+        );
+    }
 
     if (!isReady) {
         return (

@@ -1,51 +1,51 @@
 'use client';
-// নতুন পেজ যুক্ত করলে এখানে import করতে হবে, তারপর number হিসেব করে দিতে হবে,  
-import { useState, useEffect } from 'react';
-// *********1. update here after new data  *****************
-// ভূগোল topics
-import vugol from '../../../../../data/t20/vugolPoribeshDM/vugol/vugol.json';
-// পরিবেশ topics
-import abohaoyaJolobayu from '../../../../../data/t20/vugolPoribeshDM/poribesh/abohaoyaJolobayu.json';
-import bangladesherPoribesh from '../../../../../data/t20/vugolPoribeshDM/poribesh/bangladesher_poribesh.json';
-import voutoPoribesh from '../../../../../data/t20/vugolPoribeshDM/poribesh/vouto_Poribesh.json';
-// দুর্যোগ ব্যবস্থাপনা topics
-import prakitikDurjogBabosthapona from '../../../../../data/t20/vugolPoribeshDM/durjogBabosthapona/prakitikDurjogBabosthapona.json';
+import { useEffect, useState } from 'react';
 
 import QuickPracticeEngine from '@/components/QuickPracticeEngine';
 
-// Helper: array থেকে random n টা item নেওয়া - Type বাদ
-function getRandomItems(arr, n) {
-    const shuffled = [...arr].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, n);
-}
-
-export default function vugolPoribeshAllPage() {
+// Questions are fetched from the internal quiz API so that only the selected
+// questions ship to the browser instead of the full JSON pools
+// (see INTERNAL_API_DOCS.md §2).
+export default function VugolPoribeshAllPage() {
     const [randomQuestions, setRandomQuestions] = useState([]);
     const [isReady, setIsReady] = useState(false);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
-        // 2. ************* update here after new data নম্বর বণ্টন কর*************
-        // 7 from ভূগোল
-        const q1 = getRandomItems(vugol, 7);
-        // 7 from পরিবেশ (2+2+3)
-        const q2 = getRandomItems(abohaoyaJolobayu, 2);
-        const q3 = getRandomItems(bangladesherPoribesh, 2);
-        const q4 = getRandomItems(voutoPoribesh, 3);
-        // 6 from দুর্যোগ ব্যবস্থাপনা
-        const q5 = getRandomItems(prakitikDurjogBabosthapona, 6);
+        let cancelled = false;
 
-        // 3.**********update here after new data*****************
-        const combinedQuestions = [
-            ...q1,
-            ...q2, ...q3, ...q4,
-            ...q5
-        ];
+        async function loadQuestions() {
+            try {
+                const response = await fetch('/api/quiz/vugol-poribesh-dm/all');
+                if (!response.ok) {
+                    throw new Error(`Failed to load questions (${response.status})`);
+                }
+                const payload = await response.json();
+                if (cancelled) return;
+                setRandomQuestions(Array.isArray(payload.questions) ? payload.questions : []);
+                setIsReady(true);
+            } catch (err) {
+                console.error('Failed to load Vugol Poribesh all-topic questions:', err);
+                if (!cancelled) setError(err.message || 'Failed to load questions');
+            }
+        }
 
-        const finalShuffled = combinedQuestions.sort(() => 0.5 - Math.random());
+        loadQuestions();
 
-        setRandomQuestions(finalShuffled);
-        setIsReady(true);
+        return () => {
+            cancelled = true;
+        };
     }, []);
+
+    if (error) {
+        return (
+            <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+                <div className="text-lg font-semibold text-red-600">
+                    প্রশ্ন লোড করা যায়নি। পৃষ্ঠাটি রিফ্রেশ করে আবার চেষ্টা করুন।
+                </div>
+            </div>
+        );
+    }
 
     if (!isReady) {
         return (
@@ -60,7 +60,6 @@ export default function vugolPoribeshAllPage() {
             <QuickPracticeEngine
                 questions={randomQuestions}
                 config={{
-                    // *************=====5. change here ======*****************
                     title: "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা - All Topics Quiz Test - BCSpark",
                     category: "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
                     subject: "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা (All Topics)",

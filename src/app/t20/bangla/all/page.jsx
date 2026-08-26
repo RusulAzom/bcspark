@@ -1,50 +1,51 @@
 'use client';
-// নতুন পেজ যুক্ত করলে এখানে import করতে হবে, তারপর number হিসেব করে দিতে হবে,  
-import { useState, useEffect } from 'react';
-// *********1. update here after new data  *****************
-import muktijudhovashaandolon from '../../../../../data/t20/bangla/literature/muktijudhdhovashaandolon.json';
-import pokritioprotoy from '../../../../../data/t20/bangla/grammar/theory/pokritioprotoy.json';
-import modhdhojug from '../../../../../data/t20/bangla/literature/modhdhojug.json';
-import prachinjug from '../../../../../data/t20/bangla/literature/prachinjug.json';
-import writing from '../../../../../data/t20/bangla/grammar/writing/writing.json';
-import karokobivokti from '../../../../../data/t20/bangla/grammar/theory/karokobivokti.json';
+import { useEffect, useState } from 'react';
 
 import QuickPracticeEngine from '@/components/QuickPracticeEngine';
 
-// Helper: array থেকে random n টা item নেওয়া - Type বাদ
-function getRandomItems(arr, n) {
-    const shuffled = [...arr].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, n);
-}
-
-export default function banglaPage() {
+// Questions are fetched from the internal quiz API so that only the selected
+// questions ship to the browser instead of the full JSON pools
+// (see INTERNAL_API_DOCS.md §2).
+export default function BanglaAllPage() {
     const [randomQuestions, setRandomQuestions] = useState([]);
     const [isReady, setIsReady] = useState(false);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
-        // 2. ************* update here after new data নম্বর বণ্টন কর*************
-        const questionsFromMuktijudhovashaandolon = getRandomItems(muktijudhovashaandolon, 2);
-        const questionsFromPokritioprotoy = getRandomItems(pokritioprotoy, 2);
-        const questionsFromModhdhojug = getRandomItems(modhdhojug, 4);
-        const questionsFromPrachinjug = getRandomItems(prachinjug, 4);
-        const questionsFromWriting = getRandomItems(writing, 4);
-        const questionsFromKarok = getRandomItems(karokobivokti, 4);
+        let cancelled = false;
 
-        // 3.**********update here after new data*****************
-        const combinedQuestions = [
-            ...questionsFromModhdhojug,
-            ...questionsFromPokritioprotoy,
-            ...questionsFromMuktijudhovashaandolon,
-            ...questionsFromPrachinjug,
-            ...questionsFromWriting,
-            ...questionsFromKarok
-        ];
+        async function loadQuestions() {
+            try {
+                const response = await fetch('/api/quiz/bangla/all');
+                if (!response.ok) {
+                    throw new Error(`Failed to load questions (${response.status})`);
+                }
+                const payload = await response.json();
+                if (cancelled) return;
+                setRandomQuestions(Array.isArray(payload.questions) ? payload.questions : []);
+                setIsReady(true);
+            } catch (err) {
+                console.error('Failed to load Bangla all-topic questions:', err);
+                if (!cancelled) setError(err.message || 'Failed to load questions');
+            }
+        }
 
-        const finalShuffled = combinedQuestions.sort(() => 0.5 - Math.random());
+        loadQuestions();
 
-        setRandomQuestions(finalShuffled);
-        setIsReady(true);
+        return () => {
+            cancelled = true;
+        };
     }, []);
+
+    if (error) {
+        return (
+            <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+                <div className="text-lg font-semibold text-red-600">
+                    প্রশ্ন লোড করা যায়নি। পৃষ্ঠাটি রিফ্রেশ করে আবার চেষ্টা করুন।
+                </div>
+            </div>
+        );
+    }
 
     if (!isReady) {
         return (

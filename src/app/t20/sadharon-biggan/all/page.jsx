@@ -1,82 +1,51 @@
 'use client';
-// নতুন পেজ যুক্ত করলে এখানে import করতে হবে, তারপর number হিসেব করে দিতে হবে,  
-import { useState, useEffect } from 'react';
-// *********1. update here after new data  *****************
-// Biology topics
-import koshTisueGenetics from '../../../../../data/t20/sadharonBiggan/biology/koshTisueGenetics.json';
-import praniBidda from '../../../../../data/t20/sadharonBiggan/biology/praniBidda.json';
-import puttiOnubiggan from '../../../../../data/t20/sadharonBiggan/biology/puttiOnubiggan.json';
-import rogShastho from '../../../../../data/t20/sadharonBiggan/biology/rogShastho.json';
-import sorirtottoManobdeh from '../../../../../data/t20/sadharonBiggan/biology/sorirtottoManobdeh.json';
-import udvhidBiggan from '../../../../../data/t20/sadharonBiggan/biology/udvhidBiggan.json';
-// Physics topics
-import alokBiggan from '../../../../../data/t20/sadharonBiggan/physics/alok_biggan.json';
-import biddutChoumbokotto from '../../../../../data/t20/sadharonBiggan/physics/biddut_choumbokotto.json';
-import bolbiddaSokti from '../../../../../data/t20/sadharonBiggan/physics/bolbidda_sokti.json';
-import physicsXyz from '../../../../../data/t20/sadharonBiggan/physics/physics_xyz.json';
-import porimapJontropati from '../../../../../data/t20/sadharonBiggan/physics/porimap_jontropati.json';
-import pormanutejoskriyotaApikhikota from '../../../../../data/t20/sadharonBiggan/physics/pormanutejoskriyota_apikhikota.json';
-// Chemistry topics
-import acidKharLobon from '../../../../../data/t20/sadharonBiggan/chemistry/acidKharLobon.json';
-import bikriyaoToritKosh from '../../../../../data/t20/sadharonBiggan/chemistry/bikriyaoToritKosh.json';
-import dhatuKhonijPodartho from '../../../../../data/t20/sadharonBiggan/chemistry/dhatuKhonijPodartho.json';
-import folitRosayon from '../../../../../data/t20/sadharonBiggan/chemistry/folitRosayon.json';
-import joiboOjoiboChemistry from '../../../../../data/t20/sadharonBiggan/chemistry/joiboOjoiboChemistry.json';
-import podartherGothonObosthan from '../../../../../data/t20/sadharonBiggan/chemistry/podartherGothonObosthan.json';
-// Unique Topics
-import pritibiMohakash from '../../../../../data/t20/sadharonBiggan/uniqueTopics/Pritibi_mohakash.json';
+import { useEffect, useState } from 'react';
 
 import QuickPracticeEngine from '@/components/QuickPracticeEngine';
 
-// Helper: array থেকে random n টা item নেওয়া - Type বাদ
-function getRandomItems(arr, n) {
-    const shuffled = [...arr].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, n);
-}
-
-export default function sadharonBigganAllPage() {
+// Questions are fetched from the internal quiz API so that only the selected
+// questions ship to the browser instead of the full JSON pools
+// (see INTERNAL_API_DOCS.md §2).
+export default function SadharonBigganAllPage() {
     const [randomQuestions, setRandomQuestions] = useState([]);
     const [isReady, setIsReady] = useState(false);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
-        // 2. ************* update here after new data নম্বর বণ্টন কর*************
-        // 6 from Biology (1 from each)
-        const q1 = getRandomItems(koshTisueGenetics, 1);
-        const q2 = getRandomItems(praniBidda, 1);
-        const q3 = getRandomItems(puttiOnubiggan, 1);
-        const q4 = getRandomItems(rogShastho, 1);
-        const q5 = getRandomItems(sorirtottoManobdeh, 1);
-        const q6 = getRandomItems(udvhidBiggan, 1);
-        // 6 from Physics (1 from each of 6 selected topics)
-        const q7 = getRandomItems(alokBiggan, 1);
-        const q8 = getRandomItems(biddutChoumbokotto, 1);
-        const q9 = getRandomItems(bolbiddaSokti, 1);
-        const q10 = getRandomItems(physicsXyz, 1);
-        const q11 = getRandomItems(porimapJontropati, 1);
-        const q12 = getRandomItems(pormanutejoskriyotaApikhikota, 1);
-        // 6 from Chemistry (1 from each)
-        const q13 = getRandomItems(acidKharLobon, 1);
-        const q14 = getRandomItems(bikriyaoToritKosh, 1);
-        const q15 = getRandomItems(dhatuKhonijPodartho, 1);
-        const q16 = getRandomItems(folitRosayon, 1);
-        const q17 = getRandomItems(joiboOjoiboChemistry, 1);
-        const q18 = getRandomItems(podartherGothonObosthan, 1);
-        // 2 from Unique Topics
-        const q19 = getRandomItems(pritibiMohakash, 2);
+        let cancelled = false;
 
-        // 3.**********update here after new data*****************
-        const combinedQuestions = [
-            ...q1, ...q2, ...q3, ...q4, ...q5, ...q6,
-            ...q7, ...q8, ...q9, ...q10, ...q11, ...q12,
-            ...q13, ...q14, ...q15, ...q16, ...q17, ...q18,
-            ...q19
-        ];
+        async function loadQuestions() {
+            try {
+                const response = await fetch('/api/quiz/sadharon-biggan/all');
+                if (!response.ok) {
+                    throw new Error(`Failed to load questions (${response.status})`);
+                }
+                const payload = await response.json();
+                if (cancelled) return;
+                setRandomQuestions(Array.isArray(payload.questions) ? payload.questions : []);
+                setIsReady(true);
+            } catch (err) {
+                console.error('Failed to load Sadharon Biggan all-topic questions:', err);
+                if (!cancelled) setError(err.message || 'Failed to load questions');
+            }
+        }
 
-        const finalShuffled = combinedQuestions.sort(() => 0.5 - Math.random());
+        loadQuestions();
 
-        setRandomQuestions(finalShuffled);
-        setIsReady(true);
+        return () => {
+            cancelled = true;
+        };
     }, []);
+
+    if (error) {
+        return (
+            <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+                <div className="text-lg font-semibold text-red-600">
+                    প্রশ্ন লোড করা যায়নি। পৃষ্ঠাটি রিফ্রেশ করে আবার চেষ্টা করুন।
+                </div>
+            </div>
+        );
+    }
 
     if (!isReady) {
         return (
@@ -91,7 +60,6 @@ export default function sadharonBigganAllPage() {
             <QuickPracticeEngine
                 questions={randomQuestions}
                 config={{
-                    // *************=====5. change here ======*****************
                     title: "Sadharon Biggan (সাধারণ বিজ্ঞান) - All Topics Quiz Test - BCSpark",
                     category: "সাধারণ বিজ্ঞান",
                     subject: "সাধারণ বিজ্ঞান (All Topics)",

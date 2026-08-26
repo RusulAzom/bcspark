@@ -1,8 +1,8 @@
-# BCSpark Internal API — Future Optimization Documentation
+# BCSpark Internal API — Optimization Documentation
 
-> **Status:** 📋 Planned / Not Yet Implemented
+> **Status:** ✅ Implemented for all combined `/t20/{subject}/all` pages (August 2026)
 > **Created:** August 2026
-> **Purpose:** This document describes the internal API design for optimizing combined quiz pages that currently bundle large JSON data into the client. **Do not implement until traffic exceeds ~1K concurrent users OR bundle sizes become painful.**
+> **Purpose:** Internal API design that keeps combined quiz JSON on the server. Client pages fetch ~10-15 KB of questions from `/api/quiz/{subject}/all` instead of bundling megabytes of JSON. Config lives in `src/data/quizSources/`, the shared engine in `src/lib/quizSourceServer.js`.
 
 ---
 

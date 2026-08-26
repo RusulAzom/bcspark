@@ -1,65 +1,51 @@
 'use client';
-import { useState, useEffect } from 'react';
-// Subtopic 1
-import boishhikItihas from '../../../../../data/t20/gkInternational/itihasVurajnitiOnchol/boishhikItihas.json';
-import itihasVurajnitiOnchol from '../../../../../data/t20/gkInternational/itihasVurajnitiOnchol/itihasVurajnitiOnchol.json';
-import notunPuratonNam from '../../../../../data/t20/gkInternational/itihasVurajnitiOnchol/notunPuratonNam.json';
-import vurajniti from '../../../../../data/t20/gkInternational/itihasVurajnitiOnchol/vurajniti.json';
-// Subtopic 2
-import nirapottaChuktti from '../../../../../data/t20/gkInternational/nirapottaChuktti/nirapottaChuktti.json';
-import rajnotikKutnitikPorivasha from '../../../../../data/t20/gkInternational/nirapottaChuktti/rajnotikKutnitikPorivasha.json';
-// Subtopic 3
-import currentWorld from '../../../../../data/t20/gkInternational/currentWorld/currentWorld.json';
-// Subtopic 4
-import internationalEnviroment from '../../../../../data/t20/gkInternational/internationalEnviroment/internationalEnviroment.json';
-// Subtopic 5
-import intRajnoitikJot from '../../../../../data/t20/gkInternational/antorjatikSongothon/int_rajnoitikJot.json';
-import manobOdhikarSongstha from '../../../../../data/t20/gkInternational/antorjatikSongothon/manobOdhikarSongstha.json';
-import orthonoitikCuktiSonstha from '../../../../../data/t20/gkInternational/antorjatikSongothon/orthonoitikCuktiSonstha.json';
-import UNJatisongho from '../../../../../data/t20/gkInternational/antorjatikSongothon/UN_Jatisongho.json';
+import { useEffect, useState } from 'react';
 
 import QuickPracticeEngine from '@/components/QuickPracticeEngine';
 
-function getRandomItems(arr, n) {
-    const shuffled = [...arr].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, n);
-}
-
+// Questions are fetched from the internal quiz API so that only the selected
+// questions ship to the browser instead of the full JSON pools
+// (see INTERNAL_API_DOCS.md §2).
 export default function GkInternationalAllPage() {
     const [randomQuestions, setRandomQuestions] = useState([]);
     const [isReady, setIsReady] = useState(false);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
-        // 4 from subtopic 1 (1 from each file)
-        const s1 = [
-            ...getRandomItems(boishhikItihas, 1),
-            ...getRandomItems(itihasVurajnitiOnchol, 1),
-            ...getRandomItems(notunPuratonNam, 1),
-            ...getRandomItems(vurajniti, 1)
-        ];
-        // 4 from subtopic 2 (2 from each file)
-        const s2 = [
-            ...getRandomItems(nirapottaChuktti, 2),
-            ...getRandomItems(rajnotikKutnitikPorivasha, 2)
-        ];
-        // 4 from subtopic 3
-        const s3 = getRandomItems(currentWorld, 4);
-        // 4 from subtopic 4
-        const s4 = getRandomItems(internationalEnviroment, 4);
-        // 4 from subtopic 5 (1 from each file)
-        const s5 = [
-            ...getRandomItems(intRajnoitikJot, 1),
-            ...getRandomItems(manobOdhikarSongstha, 1),
-            ...getRandomItems(orthonoitikCuktiSonstha, 1),
-            ...getRandomItems(UNJatisongho, 1)
-        ];
+        let cancelled = false;
 
-        const combinedQuestions = [...s1, ...s2, ...s3, ...s4, ...s5];
-        const finalShuffled = combinedQuestions.sort(() => 0.5 - Math.random());
+        async function loadQuestions() {
+            try {
+                const response = await fetch('/api/quiz/gk-international/all');
+                if (!response.ok) {
+                    throw new Error(`Failed to load questions (${response.status})`);
+                }
+                const payload = await response.json();
+                if (cancelled) return;
+                setRandomQuestions(Array.isArray(payload.questions) ? payload.questions : []);
+                setIsReady(true);
+            } catch (err) {
+                console.error('Failed to load GK International all-topic questions:', err);
+                if (!cancelled) setError(err.message || 'Failed to load questions');
+            }
+        }
 
-        setRandomQuestions(finalShuffled);
-        setIsReady(true);
+        loadQuestions();
+
+        return () => {
+            cancelled = true;
+        };
     }, []);
+
+    if (error) {
+        return (
+            <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+                <div className="text-lg font-semibold text-red-600">
+                    প্রশ্ন লোড করা যায়নি। পৃষ্ঠাটি রিফ্রেশ করে আবার চেষ্টা করুন।
+                </div>
+            </div>
+        );
+    }
 
     if (!isReady) {
         return (
