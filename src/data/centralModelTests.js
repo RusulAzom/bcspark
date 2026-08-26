@@ -1,15 +1,25 @@
  export const CENTRAL_MODEL_TESTS = [
   {
-      examId: 'smt-gk-001',
-      title: 'GK - মহান মুক্তিযুদ্ধ স্পেশাল Model Test\n | University & Gov Job Exam Preparation',
-      scheduledDateTime: '2026-08-26T22:00:00+06:00',
-      questions: 50,
-      marks: 50,
-      description: 'বাংলাদেশ বিষয়াবলী < মহান মুক্তিযুদ্ধ',
-      route: '/question-bank/gk/gkModelTestLibarationWar',
-      status: 'scheduled',
-      isCombined: true
-    },
+    examId: 'cmt-001',
+    title: 'GK - মহান মুক্তিযুদ্ধ স্পেশাল Model Test\n | University & Gov Job Exam Preparation',
+    scheduledDateTime: '2026-08-26T22:00:00+06:00',
+    questions: 50,
+    marks: 50,
+    description: 'সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী পদের জন্য প্রথম মডেল টেস্ট',
+    route: '/question-bank/DSS/dssDemo1QuestionBank',
+    status: 'scheduled'
+  },
+  // {
+  //     examId: 'smt-gk-001',
+  //     title: 'GK - মহান মুক্তিযুদ্ধ স্পেশাল Model Test\n | University & Gov Job Exam Preparation',
+  //     scheduledDateTime: '2026-08-26T22:00:00+06:00',
+  //     questions: 50,
+  //     marks: 50,
+  //     description: 'বাংলাদেশ বিষয়াবলী < মহান মুক্তিযুদ্ধ',
+  //     route: '/question-bank/gk/gkModelTestLibarationWar',
+  //     status: 'scheduled',
+  //     isCombined: true
+  //   },
    {
     examId: 'cmt-combined-001',
     title: 'Combined Model Test\n| সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ',
@@ -21,16 +31,16 @@
     status: 'scheduled',
     isCombined: true
   },
-  {
-    examId: 'cmt-001',
-    title: 'Central Model Test 1: সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ পরীক্ষা',
-    scheduledDateTime: '2026-08-10T20:00:00+06:00',
-    questions: 70,
-    marks: 70,
-    description: 'সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী পদের জন্য প্রথম মডেল টেস্ট',
-    route: '/question-bank/DSS/dssDemo1QuestionBank',
-    status: 'scheduled'
-  },
+  // {
+  //   examId: 'cmt-001',
+  //   title: 'GK - মহান মুক্তিযুদ্ধ স্পেশাল Model Test\n | University & Gov Job Exam Preparation',
+  //   scheduledDateTime: '2026-08-26T22:00:00+06:00',
+  //   questions: 50,
+  //   marks: 50,
+  //   description: 'সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী পদের জন্য প্রথম মডেল টেস্ট',
+  //   route: '/question-bank/DSS/dssDemo1QuestionBank',
+  //   status: 'scheduled'
+  // },
   {
     examId: 'cmt-002',
     title: 'Central Model Test 2: বিসিএস প্রিলিমিনারি পরীক্ষা',
