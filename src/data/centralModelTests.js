@@ -1,5 +1,16 @@
  export const CENTRAL_MODEL_TESTS = [
   {
+      examId: 'smt-gk-001',
+      title: 'GK - মহান মুক্তিযুদ্ধ স্পেশাল Model Test\n | University & Gov Job Exam Preparation',
+      scheduledDateTime: '2026-08-26T22:00:00+06:00',
+      questions: 50,
+      marks: 50,
+      description: 'বাংলাদেশ বিষয়াবলী < মহান মুক্তিযুদ্ধ',
+      route: '/question-bank/gk/gkModelTestLibarationWar',
+      status: 'scheduled',
+      isCombined: true
+    },
+   {
     examId: 'cmt-combined-001',
     title: 'Combined Model Test\n| সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ',
     scheduledDateTime: '2026-08-07T20:00:00+06:00',
