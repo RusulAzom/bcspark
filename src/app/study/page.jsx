@@ -8,17 +8,18 @@
 //   - Level 2: specific topics only — aggregated "(All)" topics are excluded
 //     by design; users enter Study Mode for targeted topic preparation.
 //   - Level 3: micro-topic strings, each mapped to a specific JSON file.
-// Client-side pagination (20 questions per page) keeps 500+ question pools
-// lag-free — only the current page is mounted at a time.
+// Cards render blog/cheatsheet style — Question -> Direct Answer ->
+// Explanation — with MCQ options hidden, so 40 items fit per page.
+// Client-side pagination keeps 500+ question pools lag-free — only the
+// current page is mounted at a time.
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import practiceRoutes from "@/data/practiceRoutes";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const PAGE_SIZE = 20;
+const PAGE_SIZE = 40; // cards are compact revision notes (no MCQ options)
 const BN_DIGITS = "০১২৩৪৫৬৭৮৯";
-const OPT_LETTERS = ["ক", "খ", "গ", "ঘ", "ঙ", "চ"];
 
 // Level 3 "whole topic" choice: pools every micro-topic file of the selected
 // specific topic. Cross-topic "(All)" aggregates stay excluded.
@@ -449,6 +450,7 @@ export default function StudyPage() {
                                         key={globalNo}
                                         className="rounded-xl border border-slate-200 bg-white p-4 sm:p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-shadow"
                                     >
+                                        {/* Question */}
                                         <div className="flex items-start gap-3">
                                             <span className="shrink-0 inline-flex items-center justify-center h-7 min-w-[1.75rem] px-1.5 rounded-full bg-indigo-600 text-white text-xs font-bold">
                                                 {toBn(globalNo)}
@@ -458,35 +460,16 @@ export default function StudyPage() {
                                             </p>
                                         </div>
 
-                                        {/* Options (for context while studying) */}
-                                        {options.length > 0 && (
-                                            <ul className="mt-3 space-y-1.5 pl-1">
-                                                {options.map((opt, oi) => (
-                                                    <li
-                                                        key={oi}
-                                                        className={
-                                                            oi === ansIdx
-                                                                ? "text-sm font-semibold text-emerald-800"
-                                                                : "text-sm text-slate-500"
-                                                        }
-                                                    >
-                                                        <span className="inline-block min-w-[1.5rem] font-bold">
-                                                            {OPT_LETTERS[oi] || toBn(oi + 1)}.
-                                                        </span>{" "}
-                                                        {String(opt)}
-                                                    </li>
-                                                ))}
-                                            </ul>
-                                        )}
-
-                                        {/* Direct answer extracted from options[q.ans] */}
+                                        {/* Direct answer — MCQ options are intentionally
+                                            hidden; Study Mode renders revision-note style
+                                            cards (Question -> Answer -> Explanation). */}
                                         {answerText && (
-                                            <p className="mt-3.5 rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm font-bold text-emerald-800 break-words">
-                                                — সঠিক উত্তর: {answerText}
+                                            <p className="mt-3.5 inline-block max-w-full rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm font-bold text-emerald-800 break-words">
+                                                👉 সঠিক উত্তর: {answerText}
                                             </p>
                                         )}
 
-                                        {/* Styled explanation box */}
+                                        {/* Explanation box */}
                                         {explain && (
                                             <div className="mt-3 rounded-r-lg border-l-4 border-amber-400 bg-amber-50 px-3.5 py-3">
                                                 <p className="text-xs font-bold text-amber-700 uppercase tracking-wide mb-1">
