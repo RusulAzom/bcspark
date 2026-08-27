@@ -482,39 +482,39 @@
     "ict": {
         "ict": [
             {
-                "microTopic": "আইসিটি ৭০১",
+                "microTopic": "Basic ICT: Hardware and Security",
                 "file": "ict701.json"
             },
             {
-                "microTopic": "আইসিটি ৭০৪",
+                "microTopic": "কম্পিউটারের প্রজন্ম",
                 "file": "ict704.json"
             },
             {
-                "microTopic": "আইসিটি ৭০৫",
+                "microTopic": "নেটওয়ার্ক অ্যান্ড টপোলজি",
                 "file": "ict705.json"
             },
             {
-                "microTopic": "আইসিটি ৭০৬",
+                "microTopic": "কোডিংঃ ASCII, Unicode, EBCDIC, BCD ...oth",
                 "file": "ict706.json"
             },
             {
-                "microTopic": "আইসিটি ৭১০",
+                "microTopic": "Basic ICT: Input. Output Devices....oth",
                 "file": "ict710.json"
             },
             {
-                "microTopic": "আইসিটি ৭২০",
+                "microTopic": "CPU, ALU,....-মাদারবোর্ড অঙ্গসংগঠন",
                 "file": "ict720.json"
             },
             {
-                "microTopic": "আইসিটি ৭৩০",
+                "microTopic": "ইন্টারনেট ও বিশ্বগ্রাম ",
                 "file": "ict730.json"
             },
             {
-                "microTopic": "আইসিটি ৭৪০",
+                "microTopic": "নাম্বার সিস্টেমঃ বাইনারি ও অন্যান্য",
                 "file": "ict740.json"
             },
             {
-                "microTopic": "আইসিটি ৭৫০",
+                "microTopic": "কম্পিউটার ডাটাবেজ",
                 "file": "ict750.json"
             }
         ]
@@ -522,15 +522,15 @@
     "noikotaMS": {
         "noikotaMS": [
             {
-                "microTopic": "মূল্যবোধ ৯০২",
+                "microTopic": "মূল্যবোধ",
                 "file": "mullobodh902.json"
             },
             {
-                "microTopic": "নৈতিকতা ৯০১",
+                "microTopic": "নৈতিকতা",
                 "file": "noitikota901.json"
             },
             {
-                "microTopic": "সুশাসন ৯০৩",
+                "microTopic": "সুশাসন",
                 "file": "sushason903.json"
             }
         ]

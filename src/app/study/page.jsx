@@ -2,11 +2,14 @@
 
 // Dedicated Study Mode page (/study).
 //
-// Read-only browsing of the question pools behind the practice routes:
-//   - Cascading Subject -> Topic selectors driven by src/data/practiceRoutes.js
-//     (inactive topics are filtered out everywhere).
-//   - Client-side pagination (20 questions per page) so 500+ question pools
-//     render without DOM lag — only the current page is mounted at a time.
+// 3-tier cascading filtering (Subject > Topic > Micro-topic) sourced from
+// data/microTopics.json and served by /api/study/questions:
+//   - Level 1: root keys of microTopics.json (labelled via practiceRoutes).
+//   - Level 2: specific topics only — aggregated "(All)" topics are excluded
+//     by design; users enter Study Mode for targeted topic preparation.
+//   - Level 3: micro-topic strings, each mapped to a specific JSON file.
+// Client-side pagination (20 questions per page) keeps 500+ question pools
+// lag-free — only the current page is mounted at a time.
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import practiceRoutes from "@/data/practiceRoutes";
@@ -17,6 +20,10 @@ const PAGE_SIZE = 20;
 const BN_DIGITS = "০১২৩৪৫৬৭৮৯";
 const OPT_LETTERS = ["ক", "খ", "গ", "ঘ", "ঙ", "চ"];
 
+// Level 3 "whole topic" choice: pools every micro-topic file of the selected
+// specific topic. Cross-topic "(All)" aggregates stay excluded.
+const MICRO_ALL = "__all__";
+
 // ── Mock test handoff (mirrors MockModelTestCard.jsx protocol) ──────────
 // QuickPracticeEngine validates ?total=&exam= against this sessionStorage
 // entry, then pulls exactly `total` questions from `apiPath` and starts a
@@ -24,56 +31,49 @@ const OPT_LETTERS = ["ক", "খ", "গ", "ঘ", "ঙ", "চ"];
 const SECONDS_PER_QUESTION = 36;
 const MOCK_EXAM_STORE_KEY = "bcsparkMockExam";
 
-// Slugs with a dedicated combined-quiz endpoint (/api/quiz/{slug}/all);
-// an "/all" selection under one of these queries that endpoint directly.
-const COMBINED_API_SLUGS = new Set([
-    "gk",
-    "gk-international",
-    "bangla",
-    "english",
-    "ict",
-    "sadharon-biggan",
-    "vugol-poribesh-dm",
-    "noitikota-mullobodh-sushahon",
-]);
-
-function apiPathFor(subjectId, topic) {
-    if (topic.isAll) {
-        const match = (topic.route || "").match(/^\/t20\/([^/]+)\/all$/);
-        if (match && COMBINED_API_SLUGS.has(match[1])) {
-            return `/api/quiz/${match[1]}/all`;
-        }
-    }
-    return `/api/t20/questions?key=${encodeURIComponent(`${subjectId}:${topic.id}`)}`;
-}
-
-
 const toBn = (value) => String(value).replace(/\d/g, (d) => BN_DIGITS[Number(d)]);
 
-// Static, module-level derivation of the selectable subject/topic tree.
-const SUBJECTS = Object.entries(practiceRoutes)
-    .map(([id, subject]) => ({
-        id,
-        label: (subject.label || id).replace(/^👉\s*/, ""),
-        topics: Object.entries(subject.topics || {})
-            .filter(([, t]) => t && t.active)
-            .map(([topicId, t]) => ({
-                id: topicId,
-                label: t.label || topicId,
-                route: typeof t.route === "string" ? t.route : "",
-                isAll: topicId === "all",
-                // Exam size for the mock-test handoff: topic config wins,
-                // then the subject default, then the global default of 20.
-                questionLimit:
-                    Number.isInteger(t.config?.questionLimit) && t.config.questionLimit > 0
-                        ? t.config.questionLimit
-                        : Number.isInteger(subject.defaultQuestionLimit) &&
-                          subject.defaultQuestionLimit > 0
-                        ? subject.defaultQuestionLimit
-                        : 20,
-            })),
-    }))
-    .filter((s) => s.topics.length > 0);
+// Defensive display guard: the API already maps Subject/Topic keys to clean
+// labels, but if any raw camelCase/PascalCase key ever slips through, render
+// it as readable Title Case (e.g. "bangladesherSongbidhan" -> "Bangladesher
+// Songbidhan") so users never see an unformatted key.
+function formatKeyLike(label) {
+    if (typeof label !== "string" || label.trim() === "") return "";
+    const trimmed = label.trim();
+    // Already looks human (contains a space or a digit-separated pattern).
+    if (/\s/.test(trimmed)) return trimmed;
+    // No spaces — check for a camelCase boundary or snake/underscore or digit.
+    if (!/[a-z\d][A-Z]|[_-]/.test(trimmed)) return trimmed;
+    return trimmed
+        .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+        .replace(/[_\-]+/g, " ")
+        .split(" ")
+        .filter(Boolean)
+        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(" ");
+}
+
+// topic folder ("bangla Sahitto/19thSahittik") -> practice route info, used
+// by the mock-test CTA. Built from practiceRoutes (active topics only).
+const ROUTE_BY_FOLDER = Object.entries(practiceRoutes).reduce((index, [subjectId, subject]) => {
+    Object.entries(subject.topics || {}).forEach(([topicId, t]) => {
+        if (!t || !t.active || typeof t.folder !== "string") return;
+        const questionLimit =
+            Number.isInteger(t.config?.questionLimit) && t.config.questionLimit > 0
+                ? t.config.questionLimit
+                : Number.isInteger(subject.defaultQuestionLimit) &&
+                  subject.defaultQuestionLimit > 0
+                ? subject.defaultQuestionLimit
+                : 20;
+        index[t.folder] = {
+            subjectId,
+            topicId,
+            route: typeof t.route === "string" ? t.route : "",
+            questionLimit,
+        };
+    });
+    return index;
+}, {});
 
 function pageWindow(current, total, span = 5) {
     let start = Math.max(1, current - Math.floor(span / 2));
@@ -87,8 +87,11 @@ function pageWindow(current, total, span = 5) {
 export default function StudyPage() {
     const router = useRouter();
 
-    const [subjectId, setSubjectId] = useState(SUBJECTS[0]?.id || "");
-    const [topicId, setTopicId] = useState(SUBJECTS[0]?.topics[0]?.id || "");
+    // 3-tier cascading selection (sourced from microTopics.json via the API)
+    const [subjects, setSubjects] = useState(null); // null = filter tree loading
+    const [subjectKey, setSubjectKey] = useState("");
+    const [topicKey, setTopicKey] = useState("");
+    const [microFile, setMicroFile] = useState(MICRO_ALL); // MICRO_ALL = whole topic
 
     const [questions, setQuestions] = useState(null); // null = not loaded yet
     const [status, setStatus] = useState("idle"); // idle | loading | ready | error
@@ -98,22 +101,54 @@ export default function StudyPage() {
     const [page, setPage] = useState(1);
     const resultsRef = useRef(null);
 
-    // Reset pagination whenever the question set changes identity.
-    const poolKey = `${subjectId}:${topicId}`;
+    const activeSubject = useMemo(
+        () => (subjects || []).find((s) => s.id === subjectKey) || null,
+        [subjects, subjectKey]
+    );
+    const topics = activeSubject?.topics || [];
+    const activeTopic = topics.find((t) => t.id === topicKey) || null;
+    const microOptions = activeTopic?.microTopics || [];
+
+    // Load the Subject > Topic > Micro-topic tree once (microTopics.json).
+    useEffect(() => {
+        let cancelled = false;
+        fetch("/api/study/questions")
+            .then(async (res) => {
+                const data = await res.json();
+                if (!res.ok) throw new Error(data?.error || res.statusText);
+                return data;
+            })
+            .then((data) => {
+                if (cancelled) return;
+                const list = Array.isArray(data.subjects) ? data.subjects : [];
+                setSubjects(list);
+                // Default to the first subject's first specific topic.
+                setSubjectKey(list[0]?.id || "");
+                setTopicKey(list[0]?.topics[0]?.id || "");
+            })
+            .catch((err) => {
+                if (cancelled) return;
+                setSubjects([]);
+                setStatus("error");
+                setErrorMessage(err.message || "ফিল্টার তালিকা লোড করা যায়নি।");
+            });
+        return () => {
+            cancelled = true;
+        };
+    }, []);
 
     useEffect(() => {
-        if (!poolKey.includes(":")) {
-            setStatus("error");
-            setErrorMessage("বিষয় নির্বাচন করুন।");
-            return;
-        }
+        if (!subjectKey || !topicKey) return;
 
         const controller = new AbortController();
         setPage(1);
         setStatus("loading");
         setErrorMessage("");
 
-        fetch(`/api/study/questions?key=${encodeURIComponent(poolKey)}`, {
+        const params = new URLSearchParams({ subject: subjectKey, topic: topicKey });
+        if (microFile !== MICRO_ALL) params.set("micro", microFile);
+
+        fetch(`/api/study/questions?${params.toString()}`, {
             signal: controller.signal,
         })
             .then(async (res) => {
@@ -133,13 +168,7 @@ export default function StudyPage() {
             });
 
         return () => controller.abort();
-    }, [poolKey, reloadToken]);
-
-    const activeSubject = useMemo(
-        () => SUBJECTS.find((s) => s.id === subjectId) || null,
-        [subjectId]
-    );
-    const topics = activeSubject?.topics || [];
+    }, [subjectKey, topicKey, microFile, reloadToken]);
 
     const totalPages = questions ? Math.max(1, Math.ceil(questions.length / PAGE_SIZE)) : 1;
     const safePage = Math.min(page, totalPages);
@@ -151,11 +180,19 @@ export default function StudyPage() {
         [questions, safePage, status]
     );
 
+
+    // Cascading resets: a Subject change snaps to its first specific topic and
+    // clears the micro-topic; a Topic change clears the micro-topic.
     const handleSubjectChange = (e) => {
-        const nextSubject = SUBJECTS.find((s) => s.id === e.target.value);
-        setSubjectId(e.target.value);
-        // Cascade: jump to this subject's first active topic.
-        setTopicId(nextSubject?.topics[0]?.id || "");
+        const nextSubject = (subjects || []).find((s) => s.id === e.target.value);
+        setSubjectKey(e.target.value);
+        setTopicKey(nextSubject?.topics[0]?.id || "");
+        setMicroFile(MICRO_ALL);
+    };
+
+    const handleTopicChange = (e) => {
+        setTopicKey(e.target.value);
+        setMicroFile(MICRO_ALL);
     };
 
     const goToPage = (next) => {
@@ -170,27 +207,61 @@ export default function StudyPage() {
     const offsetStart = questions?.length ? (safePage - 1) * PAGE_SIZE + 1 : 0;
     const offsetEnd = Math.min(safePage * PAGE_SIZE, questions?.length || 0);
 
-    // ── Mock test handoff ────────────────────────────────────────────────
-    // Safe routing: the CTA is only offered when the selected topic is an
-    // active practiceRoutes topic whose route resolves to a real /t20 page
-    // (every active route ships a dedicated page — verified at data level).
-    const activeTopic = topics.find((t) => t.id === topicId) || null;
+    // ── Mock test handoff (micro-topic targeted) ─────────────────────────
+    // Safe routing: the CTA is only offered when the selected microTopics
+    // topic maps to an active practiceRoutes topic with a real /t20 page.
+    const routeInfo = ROUTE_BY_FOLDER[`${subjectKey}/${topicKey}`] || null;
+
+    // When a specific micro-topic is active, the exam is served strictly
+    // from that micro-topic's JSON file via the study endpoint and runs on
+    // the exact loaded pool; otherwise the topic's configured limit applies.
+    const activeMicro =
+        microFile !== MICRO_ALL
+            ? microOptions.find((m) => m.file === microFile) || null
+            : null;
+    const mockExamSize = activeMicro ? questions?.length || 0 : routeInfo?.questionLimit || 0;
+    const studyApiPath = `/api/study/questions?subject=${encodeURIComponent(
+        subjectKey
+    )}&topic=${encodeURIComponent(topicKey)}${
+        activeMicro ? `&micro=${encodeURIComponent(microFile)}` : ""
+    }`;
+
     const canStartMockTest =
         status === "ready" &&
         (questions?.length || 0) > 0 &&
-        Boolean(activeTopic && activeTopic.route.startsWith("/t20/"));
+        mockExamSize > 0 &&
+        Boolean(routeInfo && routeInfo.route.startsWith("/t20/"));
+
+    // Dynamic CTA label: surface the active micro-topic when one is selected
+    // (e.g. "কারক বিভক্তি — মক টেস্ট দিন ⚡").
+    const mockCtaLabel = activeMicro
+        ? `${activeMicro.label} — মক টেস্ট দিন ⚡`
+        : "প্রস্তুতি সম্পন্ন? এই টপিকের মক টেস্ট দিন ⚡";
 
     const handleStartMockTest = () => {
-        if (!activeTopic || !activeTopic.route.startsWith("/t20/")) return;
-        const examKey = `${subjectId}:${topicId}`;
+        if (!routeInfo || !routeInfo.route.startsWith("/t20/") || mockExamSize <= 0) return;
+        const examKey = `${routeInfo.subjectId}:${routeInfo.topicId}`;
         try {
             sessionStorage.setItem(
                 MOCK_EXAM_STORE_KEY,
                 JSON.stringify({
                     examKey,
-                    total: activeTopic.questionLimit,
+                    // Micro-topic exams run on the exact loaded pool size so
+                    // the engine's timer matches the question count; whole
+                    // topic exams use the topic's configured limit.
+                    total: mockExamSize,
                     secondsPerQuestion: SECONDS_PER_QUESTION,
-                    apiPath: apiPathFor(subjectId, activeTopic),
+                    // Dataset reference: the engine fetches strictly from
+                    // this study endpoint — the specific micro-topic file
+                    // when one is selected, else the whole topic folder.
+                    apiPath: studyApiPath,
+                    dataset: {
+                        source: "microTopics",
+                        subject: subjectKey,
+                        topic: topicKey,
+                        microTopic: activeMicro?.label || null,
+                        microFile: activeMicro ? microFile : null,
+                    },
                 })
             );
         } catch (err) {
@@ -199,7 +270,7 @@ export default function StudyPage() {
             console.error("Failed to persist mock exam handoff:", err);
         }
         router.push(
-            `${activeTopic.route}?total=${activeTopic.questionLimit}&exam=${encodeURIComponent(examKey)}`
+            `${routeInfo.route}?total=${mockExamSize}&exam=${encodeURIComponent(examKey)}`
         );
     };
 
@@ -222,44 +293,68 @@ export default function StudyPage() {
                         জানুন
                     </h1>
                     <p className="mt-2 text-sm text-slate-600 leading-relaxed">
-                        বিষয় ও টপিক বেছে নিয়ে হাজারো MCQ-এর উত্তরসহ স্টাডি কার্ডে ঘাঁটুন — কোনো
-                        সময়সীমা বা চাপ নেই।
+                        নিচে থেকে প্রথমে সাবজেক্ট সিলেক্ট করুন, এরপর টপিক এবং পরিশেষে মাইক্রো-টপিক বেছে
+                        নিয়ে নির্দিষ্ট বিষয়ের ওপর পড়াশোনা করুন ও মক টেস্ট দিন।
                     </p>
                 </header>
 
-                {/* Cascading selectors */}
+                {/* 3-tier cascading selectors: Subject > Topic > Micro-topic */}
                 <section className="rounded-xl border border-slate-200 bg-white/90 backdrop-blur shadow-sm p-4 sm:p-5 grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-5 sm:mb-6">
                     <label className="block">
                         <span className="block text-xs font-bold text-slate-500 uppercase tracking-wide mb-1.5">
                             বিষয় (Subject)
                         </span>
                         <select
-                            value={subjectId}
+                            value={subjectKey}
                             onChange={handleSubjectChange}
-                            className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm font-semibold text-slate-800 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 focus:outline-none transition"
+                            disabled={!subjects}
+                            className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm font-semibold text-slate-800 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 focus:outline-none transition disabled:bg-slate-100 disabled:text-slate-400"
                         >
-                            {SUBJECTS.map((s) => (
+                            {(subjects || []).map((s) => (
                                 <option key={s.id} value={s.id}>
-                                    {s.label}
+                                    {formatKeyLike(s.label)}
                                 </option>
                             ))}
                         </select>
                     </label>
 
+                    {/* Level 2: specific topics only — "(All)" aggregates are
+                        intentionally never offered in Study Mode. */}
                     <label className="block">
                         <span className="block text-xs font-bold text-slate-500 uppercase tracking-wide mb-1.5">
                             টপিক (Topic)
                         </span>
                         <select
-                            key={subjectId}
-                            value={topicId}
-                            onChange={(e) => setTopicId(e.target.value)}
+                            key={subjectKey}
+                            value={topicKey}
+                            onChange={handleTopicChange}
                             disabled={topics.length === 0}
                             className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm font-semibold text-slate-800 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 focus:outline-none transition disabled:bg-slate-100 disabled:text-slate-400"
                         >
                             {topics.map((t) => (
                                 <option key={t.id} value={t.id}>
-                                    {t.label}
+                                    {formatKeyLike(t.label)}
+                                </option>
+                            ))}
+                        </select>
+                    </label>
+
+                    {/* Level 3: micro-topic -> loads its specific JSON file */}
+                    <label className="block sm:col-span-2">
+                        <span className="block text-xs font-bold text-slate-500 uppercase tracking-wide mb-1.5">
+                            মাইক্রো-টপিক (Micro-topic)
+                        </span>
+                        <select
+                            key={topicKey}
+                            value={microFile}
+                            onChange={(e) => setMicroFile(e.target.value)}
+                            disabled={microOptions.length === 0}
+                            className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm font-semibold text-slate-800 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 focus:outline-none transition disabled:bg-slate-100 disabled:text-slate-400"
+                        >
+                            <option value={MICRO_ALL}>সব মাইক্রো-টপিক (পুরো টপিক)</option>
+                            {microOptions.map((m) => (
+                                <option key={m.file} value={m.file}>
+                                    {m.label}
                                 </option>
                             ))}
                         </select>
@@ -455,11 +550,12 @@ export default function StudyPage() {
                                     className="w-full rounded-2xl bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-500 px-4 py-4 sm:py-5 text-center text-white transition-transform hover:brightness-110 active:scale-[0.99]"
                                 >
                                     <span className="block text-base sm:text-lg font-black">
-                                        প্রস্তুতি সম্পন্ন? এই টপিকের মক টেস্ট দিন ⚡
+                                        {mockCtaLabel}
                                     </span>
                                     <span className="mt-1 block text-xs sm:text-sm text-blue-100">
-                                        {toBn(activeTopic.questionLimit)}টি প্রশ্ন • নেগেটিভ মার্কিং সহ •
-                                        ফলাফল ও ব্যাখ্যা সাথে সাথে
+                                        {activeMicro
+                                            ? `${activeMicro.label} এর ${toBn(mockExamSize)}টি প্রশ্ন থেকে • নেগেটিভ মার্কিং সহ`
+                                            : `${toBn(mockExamSize)}টি প্রশ্ন • নেগেটিভ মার্কিং সহ • ফলাফল ও ব্যাখ্যা সাথে সাথে`}
                                     </span>
                                 </button>
                             </div>
@@ -467,18 +563,6 @@ export default function StudyPage() {
                     </>
                 )}
             </main>
-
-            {/* Sticky bottom CTA — always reachable while studying */}
-            {canStartMockTest && (
-                <div className="sticky bottom-0 z-40 border-t border-indigo-100 bg-white/95 backdrop-blur px-3 sm:px-6 py-3 shadow-[0_-4px_16px_rgba(15,23,42,0.08)]">
-                    <button
-                        onClick={handleStartMockTest}
-                        className="mx-auto flex w-full max-w-4xl items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-indigo-600 to-blue-500 px-4 py-3 text-sm sm:text-base font-bold text-white shadow transition hover:brightness-110 active:scale-[0.99]"
-                    >
-                        প্রস্তুতি সম্পন্ন? এই টপিকের মক টেস্ট দিন ⚡
-                    </button>
-                </div>
-            )}
 
             <Footer />
         </div>

@@ -16,8 +16,9 @@ export default function Navbar() {
   const router = useRouter();
   const pathname = usePathname();
 
-  // Pill buttons shown between the search input and the user profile area.
-  // Default: subtle slate pill. Active: clean brand accent fill.
+  // Standard menu links shown between the search input and the user profile
+  // area. Rendered as clean, modern text links — pill styling is reserved for
+  // the Search Bar and the User Profile Dropdown only.
   const navLinks = [
     { href: "/question-bank", label: "Question Bank" },
     { href: "/study", label: "কুইক রিভিশন" },
@@ -28,11 +29,11 @@ export default function Navbar() {
 
   const isActiveLink = (href) => pathname === href || pathname.startsWith(`${href}/`);
 
-  const navPillBase =
-    "rounded-full border border-slate-200/80 bg-slate-50/50 px-4 py-2 text-sm font-medium text-slate-700 transition-all duration-200 hover:border-slate-300 hover:bg-slate-100 hover:text-slate-900 whitespace-nowrap";
+  const navLinkBase =
+    "text-slate-600 hover:text-slate-900 text-sm font-medium transition-colors px-3 py-2 rounded-md hover:bg-slate-100/60 whitespace-nowrap";
 
-  const navPillActive =
-    "rounded-full border border-primary bg-primary px-4 py-2 text-sm font-medium text-white transition-all duration-200 shadow-sm hover:bg-primary/90 hover:text-white whitespace-nowrap";
+  const navLinkActive =
+    "text-blue-600 font-semibold bg-blue-50/70 px-3 py-2 rounded-md whitespace-nowrap";
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -86,7 +87,7 @@ export default function Navbar() {
                 key={href}
                 href={href}
                 aria-current={isActive ? "page" : undefined}
-                className={isActive ? navPillActive : navPillBase}
+                className={isActive ? navLinkActive : navLinkBase}
               >
                 {label}
               </Link>
@@ -143,7 +144,7 @@ export default function Navbar() {
           ) : (
             <Link 
               href="/login" 
-              className="rounded-full bg-accent px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-accent-dark"
+              className="rounded-md bg-accent px-5 py-2 text-sm font-semibold text-primary transition-all hover:bg-accent-dark whitespace-nowrap"
             >
               Login/Register
             </Link>
@@ -178,43 +179,26 @@ export default function Navbar() {
                 <Search className="h-4 w-4" />
               </button>
             </div>
-            {/* Buttons Mobile */}
-            <div className="flex flex-col gap-2 pt-2">
-              <Link 
-                href="/question-bank" 
-                className="flex w-full justify-center rounded-lg border border-primary py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
-                onClick={() => setIsOpen(false)}
-              >
-                Question Bank
-              </Link>
-              <Link 
-                href="/study" 
-                className="flex w-full justify-center rounded-lg border border-primary py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
-                onClick={() => setIsOpen(false)}
-              >
-                কুইক রিভিশন
-              </Link>
-              <Link 
-                href="/central-model-tests" 
-                className="flex w-full justify-center rounded-lg border border-primary py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
-                onClick={() => setIsOpen(false)}
-              >
-                Model Tests
-              </Link>
-              <Link 
-                href="/job-circular" 
-                className="flex w-full justify-center rounded-lg border border-primary py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
-                onClick={() => setIsOpen(false)}
-              >
-                গভঃ জব সার্কুলার 
-              </Link>
-              <Link 
-                href="/job-solution" 
-                className="flex w-full justify-center rounded-lg border border-primary py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
-                onClick={() => setIsOpen(false)}
-              >
-                Job Solution
-              </Link>
+            {/* Menu links Mobile — clean text links mirroring desktop */}
+            <div className="flex flex-col gap-1 pt-2">
+              {navLinks.map(({ href, label }) => {
+                const isActive = isActiveLink(href);
+                return (
+                  <Link
+                    key={href}
+                    href={href}
+                    onClick={() => setIsOpen(false)}
+                    aria-current={isActive ? "page" : undefined}
+                    className={
+                      isActive
+                        ? "block w-full text-left text-blue-600 font-semibold bg-blue-50/70 px-3 py-2 text-sm rounded-md"
+                        : "block w-full text-left text-slate-600 hover:text-slate-900 hover:bg-slate-100/60 px-3 py-2 text-sm font-medium rounded-md transition-colors"
+                    }
+                  >
+                    {label}
+                  </Link>
+                );
+              })}
               
               {user ? (
                 <>
@@ -223,7 +207,7 @@ export default function Navbar() {
                       setIsOpen(false);
                       router.push("/dashboard");
                     }}
-                    className="flex w-full justify-center rounded-lg border border-primary py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
+                    className="block w-full text-left text-slate-600 hover:text-slate-900 hover:bg-slate-100/60 px-3 py-2 text-sm font-medium rounded-md transition-colors"
                   >
                     Dashboard
                   </button>
@@ -232,16 +216,16 @@ export default function Navbar() {
                       setIsOpen(false);
                       handleLogout();
                     }}
-                    className="flex w-full justify-center rounded-lg bg-accent py-2.5 text-sm font-semibold text-primary transition-all hover:bg-accent-dark"
+                    className="block w-full text-left text-red-600 hover:bg-red-50 px-3 py-2 text-sm font-medium rounded-md transition-colors"
                   >
                     Logout
                   </button>
                 </>
               ) : (
-                <Link 
-                  href="/login" 
-                  className="flex w-full justify-center rounded-lg bg-accent py-2.5 text-sm font-semibold text-primary transition-all hover:bg-accent-dark"
+                <Link
+                  href="/login"
                   onClick={() => setIsOpen(false)}
+                  className="block w-full text-left text-slate-600 hover:text-slate-900 hover:bg-slate-100/60 px-3 py-2 text-sm font-medium rounded-md transition-colors"
                 >
                   Login/Register
                 </Link>

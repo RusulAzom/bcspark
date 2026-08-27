@@ -1,138 +1,343 @@
 // Dedicated read-only engine for Study Mode (/study).
 //
-// Unlike /api/t20/questions (which randomly samples capped batches), this route
-// returns the FULL question pool of a subject/topic so the client can paginate
-// through 500+ question sets locally. Resolution logic intentionally mirrors
-// api/t20/questions/route.js: topics either declare their own `folder`/`files`
-// or are backed by a quizSources config under src/data/quizSources/*.
+// 3-tier filtering (Subject > Topic > Micro-topic) sourced directly from
+// data/microTopics.json. Unlike /api/t20/questions (random sampled batches),
+// this route serves two modes:
+//   - GET (no params)            -> the Subject > Topic > Micro-topic tree
+//   - GET ?subject&topic[&micro] -> the FULL pool of the targeted JSON file
+// Aggregated "(All)" topics are never offered — Level 2 lists only the
+// specific topics present in microTopics.json. Inactive practiceRoutes
+// topics are filtered out to stay consistent with the rest of the site.
+import fs from "fs/promises";
+import path from "path";
 import practiceRoutes from "@/data/practiceRoutes";
-import gkAllSources from "@/data/quizSources/gk";
-import gkInternationalAllSources from "@/data/quizSources/gkInternational";
-import sadharonBigganAllSources from "@/data/quizSources/sadharonBiggan";
-import vugolPoribeshDMAllSources from "@/data/quizSources/vugolPoribeshDM";
-import noitikotaMSAllSources from "@/data/quizSources/noitikotaMS";
+import banglaQuizSources from "@/data/quizSources/bangla";
+import englishQuizSources from "@/data/quizSources/english";
+import gkQuizSources from "@/data/quizSources/gk";
+import gkInternationalQuizSources from "@/data/quizSources/gkInternational";
+import ictQuizSources from "@/data/quizSources/ict";
+import noikotaMSQuizSources from "@/data/quizSources/noitikotaMS";
+import sadharonBigganQuizSources from "@/data/quizSources/sadharonBiggan";
+import vugolPoribeshDMQuizSources from "@/data/quizSources/vugolPoribeshDM";
 import { poolFiles } from "@/lib/t20Allocation";
 
 export const runtime = "nodejs";
 
-// Same mapping as api/t20/questions/route.js — subjects whose data lives in a
-// quizSources config instead of a practiceRoutes topic `folder`.
-const SUBJECT_SOURCE_CONFIGS = {
-    gk: gkAllSources,
-    GKInternational: gkInternationalAllSources,
-    Biology: sadharonBigganAllSources,
-    VugolPoribeshDM: vugolPoribeshDMAllSources,
-    NoitikotaMS: noitikotaMSAllSources,
-};
+const MICRO_TOPICS_PATH = path.join(process.cwd(), "data", "microTopics.json");
+// Study file paths resolve under data/t20/<subject>/<topic>/<file>.
+const DATA_ROOT = path.join(process.cwd(), "data", "t20");
 
-// practiceRoutes topic key -> quizSources config `name` where they diverge.
-const FALLBACK_TOPIC_ALIASES = {
-    GKInternational: {
-        itihasVurajniti: "itihasVurajnitiOnchol",
-        nirapottaCkuktti: "nirapottaChuktti",
-    },
-};
-
-function findConfigTopic(subjectId, topicId) {
-    const cfg = SUBJECT_SOURCE_CONFIGS[subjectId];
-    if (!cfg || !Array.isArray(cfg.topics)) return null;
-    const aliasMap = FALLBACK_TOPIC_ALIASES[subjectId] || {};
-    const wanted = aliasMap[topicId] || topicId;
-    return (
-        cfg.topics.find(
-            (t) => t && t.name === wanted && Array.isArray(t.files) && t.files.length > 0
-        ) || null
-    );
+async function pathExists(p) {
+    try {
+        await fs.stat(p);
+        return true;
+    } catch {
+        return false;
+    }
 }
 
-// Resolves a subject/topic key into one or more {folder | files} specs that
-// poolFiles() understands. Returns [] when the topic is missing/inactive and
-// null when the subject itself is unknown.
-function resolveSourceSpecs(subjectId, topicId) {
-    const subject = practiceRoutes[subjectId];
-    if (!subject) return null;
+// ---------------------------------------------------------------------------
+// Display-label mapping.
+//
+// Level 1 (Subject): microTopics.json root keys often differ from the
+// practiceRoutes subject objects, so we map each root key to its human label.
+// Bangla/Grammar/Literature labels pull from practiceRoutes; the combined-GK
+// artefacts (GK, gkInternational, ict, sadharonBiggan, …) are labelled with
+// their canonical Bengali names so users never see a raw camelCase key.
+const SUBJECT_LABELS = {
+    "bangla Sahitto": "বাংলা সাহিত্য",
+    banglaBakaron: "বাংলা ব্যাকরণ",
+    englishGrammer: "English Grammar",
+    englishLiturature: "English Literature",
+    GK: "বাংলাদেশ বিষয়াবলী",
+    gkInternational: "আন্তর্জাতিক বিষয়াবলী",
+    ict: "কম্পিউটার ও তথ্যপ্রযুক্তি",
+    noikotaMS: "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+    sadharonBiggan: "সাধারণ বিজ্ঞান",
+    vugolPoribeshDM: "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+};
 
-    const specs = [];
-    const collectTopic = (id, topic) => {
-        if (!topic || !topic.active) return false;
-        if (topic.folder || (topic.files && topic.files.length > 0)) {
-            specs.push({ folder: topic.folder, files: topic.files });
-            return true;
+// Level 2 (Topic): several subjects' specific topics have no practiceRoutes
+// folder entry (they are backed by quizSources configs instead). Each
+// quizSources config carries { name, label } — fold them into one name->label
+// index so microTopics.json topic keys resolve to the same Bengali labels the
+// quiz engine already uses (e.g. bangladesherSongbidhan -> "বাংলাদেশের সংবিধান").
+const quizTopicLabelByName = [
+  banglaQuizSources,
+  englishQuizSources,
+  gkQuizSources,
+  gkInternationalQuizSources,
+  ictQuizSources,
+  noikotaMSQuizSources,
+  sadharonBigganQuizSources,
+  vugolPoribeshDMQuizSources,
+].reduce((index, cfg) => {
+    if (cfg && Array.isArray(cfg.topics)) {
+        for (const topic of cfg.topics) {
+            if (topic && typeof topic.name === "string" && typeof topic.label === "string") {
+                index[topic.name] = topic.label;
+            }
         }
-        // Data-less topics fall back to their quizSources config entry, if any.
-        const cfgTopic = findConfigTopic(subjectId, id);
-        if (cfgTopic) {
-            // quizSources paths are relative to data/, while poolFiles() is
-            // rooted at data/t20 — strip the leading segment.
-            specs.push({
-                files: cfgTopic.files.map((f) => String(f.path).replace(/^t20\//, "")),
+    }
+    return index;
+}, {});
+
+// Defensive fallback: turn a camelCase/PascalCase/snake key into readable
+// Title Case even when no label is configured anywhere, so raw keys never
+// reach the user. (e.g. "bangladesherSongbidhan" -> "Bangladesher Songbidhan")
+function toReadableTitle(key) {
+    const words = String(key)
+        .replace(/([a-z0-9])([A-Z])/g, "$1 $2")
+        .replace(/[_\-]+/g, " ")
+        .trim()
+        .split(/\s+/)
+        .filter(Boolean);
+    if (words.length === 0) return String(key);
+    return words.map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+}
+
+// Resolve a Level 2 topic's display label.
+//  1. If the practiceRoutes folder entry exists, honour its own label.
+//  2. Otherwise fall back to the quizSources config label by topic name.
+//  3. Last resort: title-case the raw key so it always stays readable.
+function resolveTopicLabel(routeEntry, topicKey) {
+    if (routeEntry?.topic?.label) return String(routeEntry.topic.label);
+    if (quizTopicLabelByName[topicKey]) return quizTopicLabelByName[topicKey];
+    return toReadableTitle(topicKey);
+}
+
+async function readMicroTopics() {
+    const raw = await fs.readFile(MICRO_TOPICS_PATH, "utf-8");
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+        throw new Error("microTopics.json must contain an object of subjects");
+    }
+    return parsed;
+}
+
+// practiceRoutes lookup for a folder key ("bangla Sahitto/19thSahittik").
+// Returns null when no topic (active or inactive) owns that folder.
+function findRouteEntry(rootKey, topicKey) {
+    const folder = `${rootKey}/${topicKey}`;
+    for (const [subjectId, subject] of Object.entries(practiceRoutes)) {
+        for (const [topicId, t] of Object.entries(subject.topics || {})) {
+            if (t && t.folder === folder) {
+                return {
+                    subjectId,
+                    topicId,
+                    topic: t,
+                    subjectLabel: String(subject.label || subjectId).replace(/^👉\s*/, ""),
+                };
+            }
+        }
+    }
+    return null;
+}
+
+// Builds the Subject > Topic > Micro-topic tree for the Level 1-3 dropdowns.
+// Only specific topics with at least one valid micro-topic entry are listed;
+// inactive practiceRoutes topics are skipped entirely. Both Level 1 and
+// Level 2 display labels are de-camelCased into human-readable strings via
+// practiceRoutes labels, quizSources config labels, then a Title-case fallback.
+function buildStudyTree(microTopics) {
+    const subjects = [];
+    for (const [rootKey, topicsMap] of Object.entries(microTopics)) {
+        if (!topicsMap || typeof topicsMap !== "object" || Array.isArray(topicsMap)) continue;
+
+        const topics = [];
+        let subjectLabel = SUBJECT_LABELS[rootKey] || "";
+
+        for (const [topicKey, microList] of Object.entries(topicsMap)) {
+            if (!Array.isArray(microList)) continue;
+
+            const routeEntry = findRouteEntry(rootKey, topicKey);
+            if (routeEntry && !routeEntry.topic.active) continue; // inactive topic
+
+            const micros = microList
+                .filter(
+                    (m) =>
+                        m &&
+                        typeof m.microTopic === "string" &&
+                        m.microTopic.trim().length > 0 &&
+                        typeof m.file === "string" &&
+                        m.file.endsWith(".json")
+                )
+                .map((m) => ({ label: m.microTopic, file: m.file }));
+            if (micros.length === 0) continue;
+
+            topics.push({
+                id: topicKey,
+                // Whole-subject bundle topics (topicKey === rootKey, e.g. a
+                // subject-wide "GK"/"noikotaMS" folder) reuse the subject's
+                // canonical Bengali label rather than their raw key.
+                label:
+                    topicKey === rootKey && SUBJECT_LABELS[rootKey]
+                        ? SUBJECT_LABELS[rootKey]
+                        : resolveTopicLabel(routeEntry, topicKey),
+                microTopics: micros,
             });
-            return true;
         }
-        return false;
-    };
 
-    if (topicId === "all") {
-        Object.entries(subject.topics || {}).forEach(([id, t]) => {
-            if (id !== "all") collectTopic(id, t);
-        });
-        return specs;
+        if (topics.length === 0) continue;
+        subjects.push({ id: rootKey, label: subjectLabel || toReadableTitle(rootKey), topics });
+    }
+    return subjects;
+}
+
+
+// ---------------------------------------------------------------------------
+// Dynamic study-target resolution.
+//
+// Subjects store their pools in one of two layouts:
+//   3-tier (nested):  data/t20/<subject>/<topic>/<file.json>   (Bangla, English, …)
+//   2-tier (flat):    data/t20/<subject>/<file.json>           (ict, noikotaMS)
+// The resolver probes the nested path first and transparently falls back to
+// the flat layout, so both shapes work with zero configuration.
+//
+// Aggregate bundles ("<subject>All.json", e.g. ictAll.json) are excluded from
+// flat whole-topic reads — they duplicate the individual micro-topic files and
+// would double-count questions.
+const AGGREGATE_BUNDLE = /All\.json$/;
+
+async function resolveStudyTarget(rootKey, topicKey, microFile) {
+    const subjectDir = path.join(DATA_ROOT, rootKey);
+    const nestedDir = path.join(subjectDir, topicKey);
+
+    if (microFile) {
+        // Standard 3-tier: data/t20/<subject>/<topic>/<file.json>
+        const nestedFile = path.join(nestedDir, microFile);
+        if (await pathExists(nestedFile)) {
+            return { files: [`${rootKey}/${topicKey}/${microFile}`] };
+        }
+        // Flat 2-tier fallback: data/t20/<subject>/<file.json>
+        const flatFile = path.join(subjectDir, microFile);
+        if (await pathExists(flatFile)) {
+            return { files: [`${rootKey}/${microFile}`] };
+        }
+        return null;
     }
 
-    collectTopic(topicId, (subject.topics || {})[topicId]);
-    return specs;
+    // Whole topic ("সব মাইক্রো-টপিক"): nested topic folder wins when present.
+    if (await pathExists(nestedDir)) {
+        return { folder: `${rootKey}/${topicKey}` };
+    }
+
+    // Flat fallback: combine every .json directly inside data/t20/<subject>/,
+    // skipping aggregated "*All.json" bundles to prevent duplicate questions.
+    const entries = await fs.readdir(subjectDir, { withFileTypes: true });
+    const flatFiles = entries
+        .filter(
+            (e) =>
+                e.isFile() &&
+                e.name.endsWith(".json") &&
+                !AGGREGATE_BUNDLE.test(e.name)
+        )
+        .map((e) => `${rootKey}/${e.name}`);
+    if (flatFiles.length === 0) return null;
+    return { files: flatFiles };
 }
 
 /**
- * GET /api/study/questions?key=<subjectId>:<topicId>
+ * GET /api/study/questions
  *
- * Returns { questions, total } with the entire (deduplicated by identity)
- * pool for the requested key. Response shape of each question matches the
- * t20 datasets: { q, options[], ans, explain?, source? }.
+ * Mode 1 — no query params:
+ *   Returns { subjects: [...] }, the Subject > Topic > Micro-topic tree
+ *   (structure sourced from data/microTopics.json, no "(All)" topics).
+ *
+ * Mode 2 — ?subject=<rootKey>&topic=<topicKey>[&micro=<file>]:
+ *   Returns { questions, total } with the FULL pool of the targeted JSON
+ *   file (micro-topic) or the whole specific topic folder. All path segments
+ *   are validated against microTopics.json, so no user-controlled path ever
+ *   reaches the filesystem.
  */
 export async function GET(request) {
     try {
+        const microTopics = await readMicroTopics();
         const url = new URL(request.url);
-        const key = url.searchParams.get("key");
-        if (!key || !key.includes(":")) {
+        const subjectKey = url.searchParams.get("subject");
+        const topicKey = url.searchParams.get("topic");
+        const microFile = url.searchParams.get("micro");
+
+        // Mode 1: serve the filter tree.
+        if (!subjectKey && !topicKey && !microFile) {
             return Response.json(
-                { error: "Missing or invalid key. Use ?key=<subjectId>:<topicId>" },
+                { subjects: buildStudyTree(microTopics) },
+                { headers: { "Cache-Control": "public, max-age=3600" } }
+            );
+        }
+
+        if (!subjectKey || !topicKey) {
+            return Response.json(
+                { error: "Both 'subject' and 'topic' query params are required" },
                 { status: 400, headers: { "Cache-Control": "no-store" } }
             );
         }
 
-        const [subjectId, topicId] = key.split(":");
-        const specs = resolveSourceSpecs(subjectId, topicId);
-        if (specs === null) {
+        const topicsMap = microTopics[subjectKey];
+        if (!topicsMap || typeof topicsMap !== "object" || Array.isArray(topicsMap)) {
             return Response.json(
-                { error: `Unknown subject: ${subjectId}` },
-                { status: 404, headers: { "Cache-Control": "no-store" } }
-            );
-        }
-        if (specs.length === 0) {
-            return Response.json(
-                { error: `Topic not found or inactive: ${key}` },
+                { error: `Unknown subject: ${subjectKey}` },
                 { status: 404, headers: { "Cache-Control": "no-store" } }
             );
         }
 
-        const pool = [];
-        for (const spec of specs) {
-            const items = await poolFiles(spec);
-            // Keep only structurally valid study-card entries; skip garbage rows.
-            items.forEach((item) => {
-                if (
-                    item &&
-                    typeof item.q === "string" &&
-                    item.q.trim().length > 0
-                ) {
-                    pool.push(item);
-                }
-            });
+        const microList = Array.isArray(topicsMap[topicKey]) ? topicsMap[topicKey] : null;
+        if (!microList) {
+            return Response.json(
+                { error: `Unknown topic: ${subjectKey}/${topicKey}` },
+                { status: 404, headers: { "Cache-Control": "no-store" } }
+            );
         }
+
+        const routeEntry = findRouteEntry(subjectKey, topicKey);
+        if (routeEntry && !routeEntry.topic.active) {
+            return Response.json(
+                { error: `Topic is inactive: ${subjectKey}/${topicKey}` },
+                { status: 404, headers: { "Cache-Control": "no-store" } }
+            );
+        }
+
+        // Mode 2: resolve the study target. Path checks handle both the
+        // standard 3-tier layout and the flat 2-tier layout (ict/noikotaMS),
+        // so no ENOENT scandir/readFile errors can occur for either shape.
+        let spec;
+        if (microFile) {
+            const entry = microList.find((m) => m && m.file === microFile);
+            if (!entry) {
+                return Response.json(
+                    { error: `Unknown micro-topic file: ${microFile}` },
+                    { status: 404, headers: { "Cache-Control": "no-store" } }
+                );
+            }
+            spec = await resolveStudyTarget(subjectKey, topicKey, microFile);
+        } else {
+            spec = await resolveStudyTarget(subjectKey, topicKey, null);
+        }
+
+        if (!spec) {
+            return Response.json(
+                {
+                    error: `No study files found for ${subjectKey}/${topicKey}${
+                        microFile ? ` (micro: ${microFile})` : ""
+                    }`,
+                },
+                { status: 404, headers: { "Cache-Control": "no-store" } }
+            );
+        }
+
+        const pool = await poolFiles(spec);
+        const questions = pool.filter(
+            (item) => item && typeof item.q === "string" && item.q.trim().length > 0
+        );
 
         return Response.json(
-            { questions: pool, total: pool.length, subject: subjectId, topic: topicId },
+            {
+                questions,
+                total: questions.length,
+                subject: subjectKey,
+                topic: topicKey,
+                micro: microFile || null,
+            },
             // Study pools come from static dataset files — safe to cache.
             { headers: { "Cache-Control": "public, max-age=3600" } }
         );
