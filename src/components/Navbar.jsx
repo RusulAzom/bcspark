@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Search, Menu, X, LayoutDashboard, LogOut, ChevronDown } from "lucide-react";
 import { useAuth } from "@/context/AuthContext";
 import { motion, AnimatePresence } from "framer-motion";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,6 +14,24 @@ export default function Navbar() {
   const dropdownRef = useRef(null);
   const { user, loading, signOut } = useAuth();
   const router = useRouter();
+  const pathname = usePathname();
+
+  // Pill buttons shown between the search input and the user profile area.
+  // Default: subtle slate pill. Active: clean brand accent fill.
+  const navLinks = [
+    { href: "/question-bank", label: "Question Bank" },
+    { href: "/central-model-tests", label: "Model Tests" },
+    { href: "/job-circular", label: "Job Circular" },
+    { href: "/job-solution", label: "Job Solution" },
+  ];
+
+  const isActiveLink = (href) => pathname === href || pathname.startsWith(`${href}/`);
+
+  const navPillBase =
+    "rounded-full border border-slate-200/80 bg-slate-50/50 px-4 py-2 text-sm font-medium text-slate-700 transition-all duration-200 hover:border-slate-300 hover:bg-slate-100 hover:text-slate-900 whitespace-nowrap";
+
+  const navPillActive =
+    "rounded-full border border-primary bg-primary px-4 py-2 text-sm font-medium text-white transition-all duration-200 shadow-sm hover:bg-primary/90 hover:text-white whitespace-nowrap";
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -59,31 +77,20 @@ export default function Navbar() {
         </div>
 
         {/* Right: Actions (Desktop) */}
-        <div className="hidden md:flex items-center gap-4">
-          <Link 
-            href="/question-bank" 
-            className="rounded-full border border-primary px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
-          >
-            Question Bank
-          </Link>
-          <Link 
-            href="/central-model-tests" 
-            className="rounded-full border border-primary px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
-          >
-            Model Tests
-          </Link>
-          <Link 
-            href="/job-circular" 
-            className="rounded-full border border-primary px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
-          >
-            Job Circular
-          </Link>
-          <Link 
-            href="/job-solution" 
-            className="rounded-full border border-primary px-6 py-1.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
-          >
-            Job Solution
-          </Link>
+        <div className="hidden md:flex items-center gap-3 shrink-0">
+          {navLinks.map(({ href, label }) => {
+            const isActive = isActiveLink(href);
+            return (
+              <Link
+                key={href}
+                href={href}
+                aria-current={isActive ? "page" : undefined}
+                className={isActive ? navPillActive : navPillBase}
+              >
+                {label}
+              </Link>
+            );
+          })}
 
           {loading ? (
             <div className="h-9 w-24 rounded-full bg-gray-200 animate-pulse" />
