@@ -2,7 +2,7 @@
 
 import { 
   Target, Brain, FileText, BarChart3, Newspaper, 
-  BookOpen, Calculator, Globe, Trophy, Map, 
+  BookOpen, BookOpenCheck, Calculator, Globe, Trophy, Map, 
   Lightbulb, MessageSquare, Award, Bookmark, LineChart, 
   PenTool, Headphones, Video, GraduationCap, Calendar 
 } from "lucide-react";
@@ -28,7 +28,8 @@ const toolsList = [
   { id: 17, title: "অডিও লেকচার", desc: "বিশেষজ্ঞদের অডিও ক্লাস", icon: <Headphones className="h-5 w-5" />, isPro: true },
   { id: 18, title: "ভিডিও ক্লাস", desc: "লাইভ ও রেকর্ডেড ক্লাস", icon: <Video className="h-5 w-5" />, isPro: true },
   { id: 19, title: "পূর্ববর্তী প্রশ্ন", desc: "গত ৪০ বছরের প্রশ্নপত্র", icon: <GraduationCap className="h-5 w-5" />, isPro: false },
-  { id: 20, title: "স্টাডি প্ল্যান", desc: "কাস্টম স্টাডি রুটিন তৈরি", icon: <Calendar className="h-5 w-5" />, isPro: true }
+  { id: 20, title: "স্টাডি প্ল্যান", desc: "কাস্টম স্টাডি রুটিন তৈরি", icon: <Calendar className="h-5 w-5" />, isPro: true },
+  { id: 21, title: "কুইক রিভিশন", desc: "স্টাডি কার্ডে প্রশ্ন, উত্তর ও ব্যাখ্যা", icon: <BookOpenCheck className="h-5 w-5" />, isPro: false, href: "/study" }
 ];
 
 export default function ToolsGrid() {

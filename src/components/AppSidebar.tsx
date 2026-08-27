@@ -77,6 +77,7 @@ export default function AppSidebar({ isOpen, onClose, activeItem, onNavigate, ro
 
   const studentNavItems = [
     { id: "dashboard", label: "Dashboard", url: "/dashboard", icon: LayoutDashboard, section: "MAIN" },
+    { id: "study-revision", label: "কুইক রিভিশন / Study Material", url: "/study", icon: BookOpenText, section: "STUDY TOOLS" },
     { id: "t20-quiz", label: "T20 Quiz", url: "/t20", icon: GraduationCap, section: "STUDY TOOLS" },
     { id: "mcq-practice", label: "MCQ Practice", url: "/mcq-practice", icon: PenTool, section: "STUDY TOOLS" },
     { id: "model-test", label: "Model Test", url: "/model-test", icon: FileCheck, section: "STUDY TOOLS" },
@@ -152,8 +153,10 @@ export default function AppSidebar({ isOpen, onClose, activeItem, onNavigate, ro
                           whileHover={{ scale: 1.01 }}
                           whileTap={{ scale: 0.99 }}
                           onClick={() => {
-                            if (item.url && (item.url.startsWith("/admin/blog") || item.url.startsWith("/admin/categories"))) {
+                            if (item.url && (item.url.startsWith("/admin/blog") || item.url.startsWith("/admin/categories") || item.url === "/study")) {
                               router.push(item.url);
+                            } else if (item.url && item.url.startsWith("http")) {
+                              window.open(item.url, "_blank", "noopener,noreferrer");
                             } else {
                               onNavigate(item.id);
                             }

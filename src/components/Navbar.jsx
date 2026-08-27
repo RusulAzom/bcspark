@@ -20,6 +20,7 @@ export default function Navbar() {
   // Default: subtle slate pill. Active: clean brand accent fill.
   const navLinks = [
     { href: "/question-bank", label: "Question Bank" },
+    { href: "/study", label: "কুইক রিভিশন" },
     { href: "/central-model-tests", label: "Model Tests" },
     { href: "/job-circular", label: "Job Circular" },
     { href: "/job-solution", label: "Job Solution" },
@@ -185,6 +186,13 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
               >
                 Question Bank
+              </Link>
+              <Link 
+                href="/study" 
+                className="flex w-full justify-center rounded-lg border border-primary py-2.5 text-sm font-semibold text-primary transition-all hover:bg-primary hover:text-white"
+                onClick={() => setIsOpen(false)}
+              >
+                কুইক রিভিশন
               </Link>
               <Link 
                 href="/central-model-tests" 
