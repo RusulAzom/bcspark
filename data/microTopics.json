@@ -1,0 +1,656 @@
+{
+    "bangla Sahitto": {
+        "19thSahittik": [
+            {
+                "microTopic": "মাইকেল বঙ্কিম",
+                "file": "michelBonkim.json"
+            },
+            {
+                "microTopic": "মীর মোশাররফ কায়কোবাদ",
+                "file": "mirMosarofKaykobad.json"
+            },
+            {
+                "microTopic": "রবীন্দ্রনাথ ঠাকুর",
+                "file": "robindranathThakur.json"
+            }
+        ],
+        "adhunikJugerSuchona": [
+            {
+                "microTopic": "গদ্যের ইতিহাস ফোর্ট উইলিয়াম ও ছাপাখানা",
+                "file": "godderItihasFortUliyamOchapakhana.json"
+            },
+            {
+                "microTopic": "সাহিত্য সমাজ একাডেমি",
+                "file": "sahittoSomajAcademy.json"
+            }
+        ],
+        "chorjapodPrachinOmodhojug": [
+            {
+                "microTopic": "চর্যাপদ প্রাচীনযুগ",
+                "file": "chorjapodPrachinjug.json"
+            },
+            {
+                "microTopic": "মধ্যযুগ অসাহিত্য কর্ম",
+                "file": "modhdhojugOsahittoKormo.json"
+            },
+            {
+                "microTopic": "প্রাচীন যুগ লিপি ও জন্মকথা",
+                "file": "prachinJugLipiOjonmmokotha.json"
+            }
+        ],
+        "shahittorDharaObidhito": [
+            {
+                "microTopic": "৫২ ও ৭১ সাহিত্য",
+                "file": "52and71sahitto.json"
+            },
+            {
+                "microTopic": "বিখ্যাত উক্তি",
+                "file": "bikhatUkti.json"
+            },
+            {
+                "microTopic": "কাব্য ছোটগল্প জীবন চরিত",
+                "file": "kabboChotogolpoJibonCharit.json"
+            },
+            {
+                "microTopic": "পত্রিকা সাময়িকী সম্পাদক",
+                "file": "potrikaSamoyikiSompadok.json"
+            },
+            {
+                "microTopic": "উপাধি ছন্দনাম",
+                "file": "upadhiChondonam.json"
+            },
+            {
+                "microTopic": "উপন্যাস নাটক প্রবন্ধ",
+                "file": "uponnashNatokProbondho.json"
+            }
+        ]
+    },
+    "banglaBakaron": {
+        "bakaronicUpadan": [
+            {
+                "microTopic": "কারক বিভক্তি",
+                "file": "karokBivokti.json"
+            },
+            {
+                "microTopic": "ক্রিয়ার কাল ভাব",
+                "file": "kriyarKalOvab.json"
+            },
+            {
+                "microTopic": "ণ-ত্ব বিধান ষ-ত্ব বিধান",
+                "file": "ntoBidhanOshtoBidhan.json"
+            },
+            {
+                "microTopic": "অনুসর্গ উপসর্গ",
+                "file": "onusorgoUposorgo.json"
+            },
+            {
+                "microTopic": "প্রকৃতি প্রত্যয়",
+                "file": "prokitiProttoy.json"
+            },
+            {
+                "microTopic": "সন্ধি বিচ্ছেদ",
+                "file": "shondhiBichched.json"
+            },
+            {
+                "microTopic": "সমাস",
+                "file": "somash.json"
+            }
+        ],
+        "bakkotottoOproyog": [
+            {
+                "microTopic": "বাক্য প্রকরণ",
+                "file": "bakkoProkoron.json"
+            },
+            {
+                "microTopic": "বাক্য শুদ্ধিকরণ",
+                "file": "bakkoShudhikoron.json"
+            },
+            {
+                "microTopic": "ইংরেজি-বাংলা অনুবাদ",
+                "file": "en2bnOnubad.json"
+            },
+            {
+                "microTopic": "শব্দের অর্থ প্রয়োগ",
+                "file": "sobdherOrthoOproyog.json"
+            }
+        ],
+        "shobdarthoObidhito": [
+            {
+                "microTopic": "বাগধারা",
+                "file": "bagdhara.json"
+            },
+            {
+                "microTopic": "বানান শুদ্ধিকরণ",
+                "file": "bananShudhikoron.json"
+            },
+            {
+                "microTopic": "বিপরীত শব্দ",
+                "file": "biporitSobddo.json"
+            },
+            {
+                "microTopic": "ছন্দ অলংকার",
+                "file": "chondoOolonkor.json"
+            },
+            {
+                "microTopic": "এক কথায় প্রকাশ",
+                "file": "ekKothayProkash.json"
+            },
+            {
+                "microTopic": "পরিভাষিক শব্দ",
+                "file": "parivashikSobddo.json"
+            },
+            {
+                "microTopic": "পত্র লিখন",
+                "file": "potroLikhon.json"
+            },
+            {
+                "microTopic": "প্রবাদ প্রবচন",
+                "file": "probadProchonon.json"
+            },
+            {
+                "microTopic": "সমার্থক শব্দ",
+                "file": "shamorthokShobdo.json"
+            }
+        ],
+        "shobdoOruptotto": [
+            {
+                "microTopic": "বচন",
+                "file": "bochon.json"
+            },
+            {
+                "microTopic": "পদাশ্রিত নির্দেশক",
+                "file": "podasritoNirdeshok.json"
+            },
+            {
+                "microTopic": "পদ প্রকরণ",
+                "file": "podProkaron.json"
+            },
+            {
+                "microTopic": "পুরুষ দ্বিরুক্ত শব্দ",
+                "file": "purushOdirutoSobdo.json"
+            },
+            {
+                "microTopic": "পুরুষ স্ত্রীবাচক শব্দ",
+                "file": "purusOstribachokSobdo.json"
+            },
+            {
+                "microTopic": "শব্দের শ্রেণীবিভাগ",
+                "file": "sobdherSrenibivag.json"
+            }
+        ],
+        "vashaOdhonniBiggan": [
+            {
+                "microTopic": "ব্যাকরণ বিষয়ক গ্রন্থ",
+                "file": "bakaronBisoyokGrontho.json"
+            },
+            {
+                "microTopic": "ধ্বনি বর্ণ",
+                "file": "dbonniOborno.json"
+            },
+            {
+                "microTopic": "ধ্বনির পরিবর্তন",
+                "file": "dhonnirPoriborton.json"
+            },
+            {
+                "microTopic": "যতি চ্ছেদ চিহ্ন",
+                "file": "jotiChedChinho.json"
+            },
+            {
+                "microTopic": "ভাষা ও বাংলা ভাষা",
+                "file": "vashaObanglaVasha.json"
+            }
+        ]
+    },
+    "englishGrammer": {
+        "caluse": [
+            {
+                "microTopic": "Clause",
+                "file": "clause.json"
+            }
+        ],
+        "grammerCurrection": [
+            {
+                "microTopic": "Right Form of Verb",
+                "file": "rightFormOfVerb.json"
+            },
+            {
+                "microTopic": "Tense",
+                "file": "tense.json"
+            }
+        ],
+        "idiomsPhrases": [
+            {
+                "microTopic": "Idioms & Phrases",
+                "file": "idiomsAndPhrases.json"
+            }
+        ],
+        "partsOfSpeech": [
+            {
+                "microTopic": "Adjective",
+                "file": "adjective.json"
+            },
+            {
+                "microTopic": "Gender & Number",
+                "file": "genderNumber.json"
+            },
+            {
+                "microTopic": "Noun",
+                "file": "noun.json"
+            },
+            {
+                "microTopic": "Preposition, Conjunction & Interjection",
+                "file": "prepositionConjuctionInterjuction.json"
+            },
+            {
+                "microTopic": "Pronoun",
+                "file": "pronoun.json"
+            },
+            {
+                "microTopic": "Verb & Modal",
+                "file": "verbAndModal.json"
+            }
+        ],
+        "sentencesTransformations": [
+            {
+                "microTopic": "Conditional Sentence",
+                "file": "conditionalSentence.json"
+            },
+            {
+                "microTopic": "Narration & Degree",
+                "file": "narrationDgree.json"
+            },
+            {
+                "microTopic": "Voice Change",
+                "file": "voiceChange.json"
+            }
+        ],
+        "wordsVocabulary": [
+            {
+                "microTopic": "Antonym",
+                "file": "antonym.json"
+            },
+            {
+                "microTopic": "Correct Spelling",
+                "file": "correctSpelling.json"
+            },
+            {
+                "microTopic": "Group Verb",
+                "file": "groupVerb.json"
+            },
+            {
+                "microTopic": "One Word Substitution",
+                "file": "oneWordSubstitution.json"
+            },
+            {
+                "microTopic": "Synonym",
+                "file": "synonym.json"
+            }
+        ]
+    },
+    "englishLiturature": {
+        "19thCenturyLiturature": [
+            {
+                "microTopic": "19th Century Literature",
+                "file": "19thCenturyLiturature.json"
+            }
+        ],
+        "20thModernism": [
+            {
+                "microTopic": "20th Century Modernism",
+                "file": "20thModernism.json"
+            }
+        ],
+        "angloSaxon2Neoclassical": [
+            {
+                "microTopic": "Anglo-Saxon to Neoclassical",
+                "file": "angloSaxon2Neoclassical.json"
+            }
+        ],
+        "famousQuotations": [
+            {
+                "microTopic": "Famous Quotations",
+                "file": "famousQuotations.json"
+            }
+        ],
+        "LiteraryForms": [
+            {
+                "microTopic": "Literary Forms",
+                "file": "LiteraryForms.json"
+            }
+        ],
+        "williamShakespeare": [
+            {
+                "microTopic": "William Shakespeare",
+                "file": "williamShakespeare.json"
+            }
+        ]
+    },
+    "GK": {
+        "bangladesherSongbidhan": [
+            {
+                "microTopic": "বাংলাদেশের সংবিধান",
+                "file": "bangladeher_songbidhan.json"
+            }
+        ],
+        "gonomadhomProjukti": [
+            {
+                "microTopic": "গণমাধ্যম প্রযুক্তি",
+                "file": "gonomadhom_projukti.json"
+            }
+        ],
+        "jatiyaBisoyboli": [
+            {
+                "microTopic": "জাতীয় বিষয়াবলী",
+                "file": "jatiyoBisoyaboli.json"
+            },
+            {
+                "microTopic": "কৃষ্টি সংস্কৃতি",
+                "file": "kistiSongskriti.json"
+            },
+            {
+                "microTopic": "মুক্তিযুদ্ধ ১৯৭১",
+                "file": "muktijhdhdo1971.json"
+            },
+            {
+                "microTopic": "প্রাচীন বর্তমান ইতিহাস",
+                "file": "prachin_bortomanHistory.json"
+            },
+            {
+                "microTopic": "প্রথম নারী বাংলাদেশ",
+                "file": "prothom_mohilaBD.json"
+            },
+            {
+                "microTopic": "ভাষা আন্দোলন",
+                "file": "vashaAnddolon.json"
+            }
+        ],
+        "jatiyoOrjon": [
+            {
+                "microTopic": "জাতীয় অর্জন বাংলাদেশ",
+                "file": "jatiyoOrjonBD.json"
+            }
+        ],
+        "jonosumari": [
+            {
+                "microTopic": "জনশুমারি",
+                "file": "jonosumari.json"
+            }
+        ],
+        "kheladhulaCholochitra": [
+            {
+                "microTopic": "খেলাধুলা চলচ্চিত্র",
+                "file": "kheladhula_colochitra.json"
+            }
+        ],
+        "krisijSompod": [
+            {
+                "microTopic": "কৃষিজ সম্পদ",
+                "file": "krishij_sompod.json"
+            }
+        ],
+        "orthoniti": [
+            {
+                "microTopic": "অর্থনীতি বাংলাদেশ",
+                "file": "orthonitibd.json"
+            }
+        ],
+        "prothisthanSomuho": [
+            {
+                "microTopic": "প্রতিষ্ঠান সমূহ",
+                "file": "protisthan_somuho.json"
+            }
+        ],
+        "rajnoitikOsorkarBabostha": [
+            {
+                "microTopic": "রাজনৈতিক সরকার ব্যবস্থা",
+                "file": "rajnoitikSorkar_babostha.json"
+            }
+        ],
+        "shilpoBanijjo": [
+            {
+                "microTopic": "শিল্প বাণিজ্য",
+                "file": "shilpo_banijjo.json"
+            }
+        ],
+        "GK": [
+            {
+                "microTopic": "এ টু জেড বাংলাদেশ ১",
+                "file": "AtoZbd1.json"
+            }
+        ]
+    },
+    "gkInternational": {
+        "antorjatikSongothon": [
+            {
+                "microTopic": "আন্তর্জাতিক রাজনৈতিক জোট",
+                "file": "int_rajnoitikJot.json"
+            },
+            {
+                "microTopic": "মানব অধিকার সংস্থা",
+                "file": "manobOdhikarSongstha.json"
+            },
+            {
+                "microTopic": "অর্থনৈতিক চুক্তি সংস্থা",
+                "file": "orthonoitikCuktiSonstha.json"
+            },
+            {
+                "microTopic": "জাতিসংঘ",
+                "file": "UN_Jatisongho.json"
+            }
+        ],
+        "currentWorld": [
+            {
+                "microTopic": "বর্তমান বিশ্ব",
+                "file": "currentWorld.json"
+            }
+        ],
+        "internationalEnviroment": [
+            {
+                "microTopic": "আন্তর্জাতিক পরিবেশ",
+                "file": "internationalEnviroment.json"
+            }
+        ],
+        "itihasVurajnitiOnchol": [
+            {
+                "microTopic": "বৈশ্বিক ইতিহাস",
+                "file": "boishhikItihas.json"
+            },
+            {
+                "microTopic": "ইতিহাস ভূ-রাজনীতি অঞ্চল",
+                "file": "itihasVurajnitiOnchol.json"
+            },
+            {
+                "microTopic": "নতুন পুরাতন নাম",
+                "file": "notunPuratonNam.json"
+            },
+            {
+                "microTopic": "ভূ-রাজনীতি",
+                "file": "vurajniti.json"
+            }
+        ],
+        "nirapottaChuktti": [
+            {
+                "microTopic": "নিরাপত্তা চুক্তি",
+                "file": "nirapottaChuktti.json"
+            },
+            {
+                "microTopic": "রাজনৈতিক কূটনৈতিক পরিভাষা",
+                "file": "rajnotikKutnitikPorivasha.json"
+            }
+        ]
+    },
+    "ict": {
+        "ict": [
+            {
+                "microTopic": "আইসিটি ৭০১",
+                "file": "ict701.json"
+            },
+            {
+                "microTopic": "আইসিটি ৭০৪",
+                "file": "ict704.json"
+            },
+            {
+                "microTopic": "আইসিটি ৭০৫",
+                "file": "ict705.json"
+            },
+            {
+                "microTopic": "আইসিটি ৭০৬",
+                "file": "ict706.json"
+            },
+            {
+                "microTopic": "আইসিটি ৭১০",
+                "file": "ict710.json"
+            },
+            {
+                "microTopic": "আইসিটি ৭২০",
+                "file": "ict720.json"
+            },
+            {
+                "microTopic": "আইসিটি ৭৩০",
+                "file": "ict730.json"
+            },
+            {
+                "microTopic": "আইসিটি ৭৪০",
+                "file": "ict740.json"
+            },
+            {
+                "microTopic": "আইসিটি ৭৫০",
+                "file": "ict750.json"
+            }
+        ]
+    },
+    "noikotaMS": {
+        "noikotaMS": [
+            {
+                "microTopic": "মূল্যবোধ ৯০২",
+                "file": "mullobodh902.json"
+            },
+            {
+                "microTopic": "নৈতিকতা ৯০১",
+                "file": "noitikota901.json"
+            },
+            {
+                "microTopic": "সুশাসন ৯০৩",
+                "file": "sushason903.json"
+            }
+        ]
+    },
+    "sadharonBiggan": {
+        "biology": [
+            {
+                "microTopic": "কোষ টিস্যু জেনেটিক্স",
+                "file": "koshTisueGenetics.json"
+            },
+            {
+                "microTopic": "প্রাণি বিদ্যা",
+                "file": "praniBidda.json"
+            },
+            {
+                "microTopic": "অণুজীব বিজ্ঞান",
+                "file": "puttiOnubiggan.json"
+            },
+            {
+                "microTopic": "রোগ স্বাস্থ্য",
+                "file": "rogShastho.json"
+            },
+            {
+                "microTopic": "শরীরতত্ত্ব মানবদেহ",
+                "file": "sorirtottoManobdeh.json"
+            },
+            {
+                "microTopic": "উদ্ভিদ বিজ্ঞান",
+                "file": "udvhidBiggan.json"
+            }
+        ],
+        "chemistry": [
+            {
+                "microTopic": "অ্যাসিড ক্ষার লবণ",
+                "file": "acidKharLobon.json"
+            },
+            {
+                "microTopic": "বিক্রিয়া তড়িৎ কোষ",
+                "file": "bikriyaoToritKosh.json"
+            },
+            {
+                "microTopic": "ধাতু খনিজ পদার্থ",
+                "file": "dhatuKhonijPodartho.json"
+            },
+            {
+                "microTopic": "ফলিত রসায়ন",
+                "file": "folitRosayon.json"
+            },
+            {
+                "microTopic": "জৈব অজৈব রসায়ন",
+                "file": "joiboOjoiboChemistry.json"
+            },
+            {
+                "microTopic": "পদার্থের গঠন অবস্থান",
+                "file": "podartherGothonObosthan.json"
+            }
+        ],
+        "physics": [
+            {
+                "microTopic": "আলোক বিজ্ঞান",
+                "file": "alok_biggan.json"
+            },
+            {
+                "microTopic": "বিদ্যুৎ চৌম্বকত্ব",
+                "file": "biddut_choumbokotto.json"
+            },
+            {
+                "microTopic": "বলবিদ্যা শক্তি",
+                "file": "bolbidda_sokti.json"
+            },
+            {
+                "microTopic": "পদার্থবিজ্ঞান XYZ",
+                "file": "physics_xyz.json"
+            },
+            {
+                "microTopic": "পরিমাপ যন্ত্রপাতি",
+                "file": "porimap_jontropati.json"
+            },
+            {
+                "microTopic": "পারমাণবিক তেজস্ক্রিয়তা আপেক্ষিকতা",
+                "file": "pormanutejoskriyota_apikhikota.json"
+            },
+            {
+                "microTopic": "তরঙ্গ তাপ",
+                "file": "toronggo_tap.json"
+            }
+        ],
+        "uniqueTopics": [
+            {
+                "microTopic": "পৃথিবী মহাকাশ",
+                "file": "Pritibi_mohakash.json"
+            }
+        ]
+    },
+    "vugolPoribeshDM": {
+        "durjogBabosthapona": [
+            {
+                "microTopic": "প্রাকৃতিক দুর্যোগ ব্যবস্থাপনা",
+                "file": "prakitikDurjogBabosthapona.json"
+            }
+        ],
+        "poribesh": [
+            {
+                "microTopic": "আবহাওয়া জলবায়ু",
+                "file": "abohaoyaJolobayu.json"
+            },
+            {
+                "microTopic": "বাংলাদেশের পরিবেশ",
+                "file": "bangladesher_poribesh.json"
+            },
+            {
+                "microTopic": "ভৌত পরিবেশ",
+                "file": "vouto_Poribesh.json"
+            }
+        ],
+        "vugol": [
+            {
+                "microTopic": "ভূগোল",
+                "file": "vugol.json"
+            }
+        ]
+    }
+}
