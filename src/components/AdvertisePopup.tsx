@@ -13,7 +13,7 @@ import { Briefcase, BookOpen, Gamepad2, FileText, X, Sparkles } from "lucide-rea
 // - Close on X button or backdrop click
 
 const POPUP_STORAGE_KEY = "bcspark_popup_last_shown";
-const POPUP_DELAY_MS = 3000; // 3 seconds
+const POPUP_DELAY_MS = 5000; // 5 seconds
 const TWENTY_FOUR_HOURS_MS = 1 * 60 * 60 * 1000; // 1 hours
 
 // Feature list items
@@ -38,6 +38,7 @@ const features = [
     icon: BookOpen,
     title: "Subject Wise Learning and Testing",
     desc: "বিষয়ভিত্তিক শেখা এবং পরীক্ষা",
+    href: "/study",
     href: null,
     comingSoon: true,
     color: "bg-gray-100 text-gray-500",
@@ -135,7 +136,7 @@ export default function AdvertisePopup() {
                   <div className="flex items-center gap-2">
                     <Sparkles className="h-5 w-5" />
                     <h2 className="text-lg font-bold sm:text-xl">
-                      BCSpark er News Features Somuho
+                      BCSpark New Features Update
                     </h2>
                   </div>
                   <p className="mt-1 text-sm text-blue-100">
