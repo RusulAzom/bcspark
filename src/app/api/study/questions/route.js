@@ -19,7 +19,7 @@ import ictQuizSources from "@/data/quizSources/ict";
 import noikotaMSQuizSources from "@/data/quizSources/noitikotaMS";
 import sadharonBigganQuizSources from "@/data/quizSources/sadharonBiggan";
 import vugolPoribeshDMQuizSources from "@/data/quizSources/vugolPoribeshDM";
-import { poolFiles } from "@/lib/t20Allocation";
+import { poolFiles, getRandomItems, shuffle } from "@/lib/t20Allocation";
 
 export const runtime = "nodejs";
 
@@ -326,9 +326,20 @@ export async function GET(request) {
         }
 
         const pool = await poolFiles(spec);
-        const questions = pool.filter(
+        let questions = pool.filter(
             (item) => item && typeof item.q === "string" && item.q.trim().length > 0
         );
+
+        // Optional ?total=N — the mock-test handoff requests a random sample
+        // of N questions instead of the full study pool.
+        const totalParam = Number(url.searchParams.get("total"));
+        if (
+            Number.isInteger(totalParam) &&
+            totalParam > 0 &&
+            questions.length > totalParam
+        ) {
+            questions = shuffle(getRandomItems(questions, totalParam));
+        }
 
         return Response.json(
             {

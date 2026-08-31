@@ -12,8 +12,8 @@
 // Explanation — with MCQ options hidden, so 40 items fit per page.
 // Client-side pagination keeps 500+ question pools lag-free — only the
 // current page is mounted at a time.
-import { useEffect, useMemo, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
+import { Suspense, useEffect, useMemo, useRef, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import practiceRoutes from "@/data/practiceRoutes";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -31,6 +31,11 @@ const MICRO_ALL = "__all__";
 // timed exam. Normal visits without params are unaffected.
 const SECONDS_PER_QUESTION = 36;
 const MOCK_EXAM_STORE_KEY = "bcsparkMockExam";
+
+// Issue 2 — the /study exam CTA always starts the standard mock exam with
+// fixed parameters: exactly 20 questions over 12 minutes (720 seconds).
+const MOCK_EXAM_FIXED_TOTAL = 20;
+const MOCK_EXAM_FIXED_TIME = 720; // seconds (12 minutes)
 
 const toBn = (value) => String(value).replace(/\d/g, (d) => BN_DIGITS[Number(d)]);
 
@@ -85,8 +90,21 @@ function pageWindow(current, total, span = 5) {
     return pages;
 }
 
-export default function StudyPage() {
+function StudyPageContent() {
     const router = useRouter();
+    const searchParams = useSearchParams();
+
+    // Issue 1 — first-render snapshot of the deep-link filters
+    // (?subject=&topic=&micro_topic=). Frozen in a ref so our own
+    // router.push updates can never re-trigger filter hydration.
+    const initialQueryRef = useRef(null);
+    if (initialQueryRef.current === null) {
+        initialQueryRef.current = {
+            subject: searchParams.get("subject") || "",
+            topic: searchParams.get("topic") || "",
+            micro: searchParams.get("micro_topic") || "",
+        };
+    }
 
     // 3-tier cascading selection (sourced from microTopics.json via the API)
     const [subjects, setSubjects] = useState(null); // null = filter tree loading
@@ -123,9 +141,30 @@ export default function StudyPage() {
                 if (cancelled) return;
                 const list = Array.isArray(data.subjects) ? data.subjects : [];
                 setSubjects(list);
-                // Default to the first subject's first specific topic.
-                setSubjectKey(list[0]?.id || "");
-                setTopicKey(list[0]?.topics[0]?.id || "");
+
+                // Issue 1 — hydrate the cascading filters from the incoming
+                // URL (?subject=&topic=&micro_topic=); fall back to defaults.
+                const wanted = initialQueryRef.current || {};
+                const urlSubject = wanted.subject
+                    ? list.find((s) => s.id === wanted.subject)
+                    : null;
+                const chosenSubject = urlSubject || list[0] || null;
+                setSubjectKey(chosenSubject?.id || "");
+
+                const topicList = chosenSubject?.topics || [];
+                const urlTopic = wanted.topic
+                    ? topicList.find((t) => t.id === wanted.topic)
+                    : null;
+                const chosenTopic = urlTopic || topicList[0] || null;
+                setTopicKey(chosenTopic?.id || "");
+
+                if (
+                    wanted.micro &&
+                    wanted.micro !== MICRO_ALL &&
+                    (chosenTopic?.microTopics || []).some((m) => m.file === wanted.micro)
+                ) {
+                    setMicroFile(wanted.micro);
+                }
             })
             .catch((err) => {
                 if (cancelled) return;
@@ -182,18 +221,38 @@ export default function StudyPage() {
     );
 
 
+    // Issue 1 — mirror filter selections into the URL for SEO & deep-linking.
+    // { scroll: false } keeps long study lists from jumping to the top.
+    const syncUrlFilters = (next) => {
+        const params = new URLSearchParams();
+        if (next.subject) params.set("subject", next.subject);
+        if (next.topic) params.set("topic", next.topic);
+        if (next.micro && next.micro !== MICRO_ALL)
+            params.set("micro_topic", next.micro);
+        const qs = params.toString();
+        router.push(qs ? `/study?${qs}` : "/study", { scroll: false });
+    };
+
     // Cascading resets: a Subject change snaps to its first specific topic and
     // clears the micro-topic; a Topic change clears the micro-topic.
     const handleSubjectChange = (e) => {
         const nextSubject = (subjects || []).find((s) => s.id === e.target.value);
+        const nextTopic = nextSubject?.topics[0]?.id || "";
         setSubjectKey(e.target.value);
-        setTopicKey(nextSubject?.topics[0]?.id || "");
+        setTopicKey(nextTopic);
         setMicroFile(MICRO_ALL);
+        syncUrlFilters({ subject: e.target.value, topic: nextTopic, micro: MICRO_ALL });
     };
 
     const handleTopicChange = (e) => {
         setTopicKey(e.target.value);
         setMicroFile(MICRO_ALL);
+        syncUrlFilters({ subject: subjectKey, topic: e.target.value, micro: MICRO_ALL });
+    };
+
+    const handleMicroChange = (e) => {
+        setMicroFile(e.target.value);
+        syncUrlFilters({ subject: subjectKey, topic: topicKey, micro: e.target.value });
     };
 
     const goToPage = (next) => {
@@ -220,7 +279,6 @@ export default function StudyPage() {
         microFile !== MICRO_ALL
             ? microOptions.find((m) => m.file === microFile) || null
             : null;
-    const mockExamSize = activeMicro ? questions?.length || 0 : routeInfo?.questionLimit || 0;
     const studyApiPath = `/api/study/questions?subject=${encodeURIComponent(
         subjectKey
     )}&topic=${encodeURIComponent(topicKey)}${
@@ -230,7 +288,6 @@ export default function StudyPage() {
     const canStartMockTest =
         status === "ready" &&
         (questions?.length || 0) > 0 &&
-        mockExamSize > 0 &&
         Boolean(routeInfo && routeInfo.route.startsWith("/t20/"));
 
     // Dynamic CTA label: surface the active micro-topic when one is selected
@@ -240,17 +297,17 @@ export default function StudyPage() {
         : "প্রস্তুতি সম্পন্ন? এই টপিকের মক টেস্ট দিন ⚡";
 
     const handleStartMockTest = () => {
-        if (!routeInfo || !routeInfo.route.startsWith("/t20/") || mockExamSize <= 0) return;
+        if (!routeInfo || !routeInfo.route.startsWith("/t20/")) return;
         const examKey = `${routeInfo.subjectId}:${routeInfo.topicId}`;
         try {
             sessionStorage.setItem(
                 MOCK_EXAM_STORE_KEY,
                 JSON.stringify({
                     examKey,
-                    // Micro-topic exams run on the exact loaded pool size so
-                    // the engine's timer matches the question count; whole
-                    // topic exams use the topic's configured limit.
-                    total: mockExamSize,
+                    // Issue 2 — the /study CTA always starts the standard mock
+                    // exam: exactly 20 questions over a fixed 12-minute timer,
+                    // scoped to the active filters via the study endpoint.
+                    total: MOCK_EXAM_FIXED_TOTAL,
                     secondsPerQuestion: SECONDS_PER_QUESTION,
                     // Dataset reference: the engine fetches strictly from
                     // this study endpoint — the specific micro-topic file
@@ -271,7 +328,7 @@ export default function StudyPage() {
             console.error("Failed to persist mock exam handoff:", err);
         }
         router.push(
-            `${routeInfo.route}?total=${mockExamSize}&exam=${encodeURIComponent(examKey)}`
+            `${routeInfo.route}?total=${MOCK_EXAM_FIXED_TOTAL}&time=${MOCK_EXAM_FIXED_TIME}&exam=${encodeURIComponent(examKey)}`
         );
     };
 
@@ -348,7 +405,7 @@ export default function StudyPage() {
                         <select
                             key={topicKey}
                             value={microFile}
-                            onChange={(e) => setMicroFile(e.target.value)}
+                            onChange={handleMicroChange}
                             disabled={microOptions.length === 0}
                             className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm font-semibold text-slate-800 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 focus:outline-none transition disabled:bg-slate-100 disabled:text-slate-400"
                         >
@@ -537,8 +594,8 @@ export default function StudyPage() {
                                     </span>
                                     <span className="mt-1 block text-xs sm:text-sm text-blue-100">
                                         {activeMicro
-                                            ? `${activeMicro.label} এর ${toBn(mockExamSize)}টি প্রশ্ন থেকে • নেগেটিভ মার্কিং সহ`
-                                            : `${toBn(mockExamSize)}টি প্রশ্ন • নেগেটিভ মার্কিং সহ • ফলাফল ও ব্যাখ্যা সাথে সাথে`}
+                                            ? `${activeMicro.label} এর স্কোপ করা ${toBn(MOCK_EXAM_FIXED_TOTAL)}টি প্রশ্ন • ${toBn(12)} মিনিট`
+                                            : `${toBn(MOCK_EXAM_FIXED_TOTAL)}টি প্রশ্ন • ${toBn(12)} মিনিট (৭২০ সেকেন্ড) • নেগেটিভ মার্কিং সহ`}
                                     </span>
                                 </button>
                             </div>
@@ -549,6 +606,24 @@ export default function StudyPage() {
 
             <Footer />
         </div>
+    );
+}
+
+// Issue 1 — useSearchParams() requires a Suspense boundary for static/SSR
+// generation of the /study route (Next.js build requirement).
+export default function StudyPage() {
+    return (
+        <Suspense
+            fallback={
+                <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 flex items-center justify-center">
+                    <div className="text-xl font-bold animate-pulse text-slate-600">
+                        স্টাডি মোড লোড হচ্ছে...
+                    </div>
+                </div>
+            }
+        >
+            <StudyPageContent />
+        </Suspense>
     );
 }
 
