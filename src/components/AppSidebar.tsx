@@ -80,7 +80,7 @@ export default function AppSidebar({ isOpen, onClose, activeItem, onNavigate, ro
     { id: "study-revision", label: "কুইক রিভিশন / Study Material", url: "/study", icon: BookOpenText, section: "STUDY TOOLS" },
     { id: "t20-quiz", label: "T20 Quiz", url: "/t20", icon: GraduationCap, section: "STUDY TOOLS" },
     { id: "mcq-practice", label: "MCQ Practice", url: "/mcq-practice", icon: PenTool, section: "STUDY TOOLS" },
-    { id: "model-test", label: "Model Test", url: "/model-test", icon: FileCheck, section: "STUDY TOOLS" },
+    { id: "model-test", label: "Model Test", url: "/mock-test", icon: FileCheck, section: "STUDY TOOLS" },
     { id: "question-bank", label: "Question Bank", url: "/question-bank", icon: BookOpenIcon, section: "STUDY TOOLS" },
     { id: "circulars", label: "Job Circular", url: "/circulars", icon: Briefcase, section: "STUDY TOOLS" },
     { id: "bangla", label: "Bangla Literature", icon: BookMarked, section: "STUDY TOOLS" },

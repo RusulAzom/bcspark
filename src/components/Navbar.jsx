@@ -22,7 +22,7 @@ export default function Navbar() {
   const navLinks = [
     { href: "/question-bank", label: "Question Bank" },
     { href: "/study", label: "কুইক রিভিশন" },
-    { href: "/central-model-tests", label: "Model Tests" },
+    { href: "/mock-test", label: "Model Tests" },
     { href: "/job-circular", label: "Job Circular" },
     { href: "/job-solution", label: "Job Solution" },
   ];

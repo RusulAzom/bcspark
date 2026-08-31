@@ -14,7 +14,7 @@ const topTools = [
   { id: 1, name: "T20 কুইজ", icon: <Target className="h-4.5 w-4.5" />, href: "/t20" }, // চালু 
   { id: 2, name: "সাইকোলজি টেস্ট", icon: <Cpu className="h-4.5 w-4.5" />, href: "/psychology-test-bangla" }, // চালু 
   { id: 3, name: "MCQ প্র্যাকটিস", icon: <FileText className="h-4.5 w-4.5" />, href: "#" },
-  { id: 4, name: "মডেল টেস্ট", icon: <BarChart3 className="h-4.5 w-4.5" />, href: "/mock-test" },
+  { id: 4, name: "মক মডেল টেস্ট", icon: <BarChart3 className="h-4.5 w-4.5" />, href: "/mock-test" },
   { id: 5, name: "জব সার্কুলার", icon: <Newspaper className="h-4.5 w-4.5" />, href: "/job-circular" },
   { id: 6, name: "Blog/ম্যাগাজিন", icon: <BookOpen className="h-4.5 w-4.5" />, href: "/blog" },
   { id: 7, name: "গণিত প্র্যাকটিস", icon: <Calculator className="h-4.5 w-4.5" />, href: "#" },
@@ -108,7 +108,7 @@ export default function HeroSection() {
                 <ArrowRight className="h-4 w-4 shrink-0 transition-transform group-hover:translate-x-1 md:h-5 md:w-5" />
               </Link>
               <Link
-                href="/central-model-tests"
+                href="/mock-test"
                 className="group relative flex flex-col items-center gap-3 rounded-3xl border border-gray-100 bg-gradient-to-r from-blue-700 to-indigo-700 px-3 py-4 text-center text-white shadow-sm hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 md:px-5 md:py-6"
               >
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-white/10 transition-colors group-hover:bg-white/20 md:h-12 md:w-12">

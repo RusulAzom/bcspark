@@ -131,10 +131,12 @@ export default function MockModelTestCard() {
 
   // Issue 2 — clean routing: instead of mounting the quiz engine over the
   // homepage, persist the exam setup handoff and navigate to the designated
-  // practice route with ?total=&exam=. The QuickPracticeEngine mounted by
-  // that page validates the pair, pulls exactly `total` questions from the
-  // resolved API equivalent and initialises the countdown at total * 36s.
+  // practice route with ?total=&time=&exam=. The QuickPracticeEngine mounted
+  // by that page validates the pair, pulls exactly `total` questions from the
+  // resolved API equivalent and initialises the countdown from `time` (or
+  // total * 36s when `time` is absent).
   const handleConfirmStartExam = () => {
+    const totalSeconds = questionCount * SECONDS_PER_QUESTION;
     try {
       sessionStorage.setItem(
         MOCK_EXAM_STORE_KEY,
@@ -145,8 +147,10 @@ export default function MockModelTestCard() {
           apiPath: apiPathFor(selectedSubject.id, selectedTopic),
         })
       );
+      // Issue 1 — the computed duration travels on the URL so a shared link
+      // (fresh browser, no sessionStorage) still gets the right timer.
       router.push(
-        `${selectedTopic.route}?total=${questionCount}&exam=${encodeURIComponent(examKey)}`
+        `${selectedTopic.route}?total=${questionCount}&time=${totalSeconds}&exam=${encodeURIComponent(examKey)}`
       );
       setShowRulesModal(false);
     } catch (err) {

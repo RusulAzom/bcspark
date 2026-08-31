@@ -25,7 +25,6 @@ export default function QuickPracticeEngine({
         passMark = 50,
         questionLimit = 20,
         timeLimit = 120,
-        timerDisplay = "seconds",
     } = config;
 
     const [userName, setUserName] = useState("BCSpark");
@@ -40,6 +39,7 @@ export default function QuickPracticeEngine({
     const [mockLoad, setMockLoad] = useState(false); // replacement questions loading
     const [mockQuestions, setMockQuestions] = useState(null);
     const [mockTotal, setMockTotal] = useState(null);
+    const [mockTime, setMockTime] = useState(null); // explicit duration (seconds)
 
     // Helper: if source has multiple separated by /, show only the first one + superscript count
     const getDisplaySource = (source) => {
@@ -72,9 +72,11 @@ export default function QuickPracticeEngine({
     const [correctCount, setCorrectCount] = useState(0);
     const [wrongCount, setWrongCount] = useState(0);
     const activeQuestions = mockQuestions || questions;
-    const effTimeLimit = mockTotal
-        ? mockTotal * SECONDS_PER_QUESTION
-        : timeLimit;
+    // Issue 1 — explicit URL `time` (seconds) wins, then the mock handoff's
+    // total×seconds-per-question, then the page's own config (default 120s).
+    const effTimeLimit =
+        mockTime ??
+        (mockTotal ? mockTotal * SECONDS_PER_QUESTION : timeLimit);
     const skippedCount = activeQuestions.length - Object.keys(answers).length;
 
     // ==========sessionStorage=============
@@ -122,6 +124,14 @@ export default function QuickPracticeEngine({
 
         try {
             const params = new URLSearchParams(window.location.search);
+
+            // Explicit `time` (seconds) works even on a fresh browser without
+            // the sessionStorage handoff (e.g. a shared mock-test URL).
+            const urlTime = Number(params.get("time"));
+            if (Number.isInteger(urlTime) && urlTime > 0) {
+                setMockTime(urlTime);
+            }
+
             const urlTotal = Number(params.get("total"));
             const urlExam = params.get("exam");
 
@@ -168,10 +178,13 @@ export default function QuickPracticeEngine({
 
     // Re-initialise the countdown (timer init) once the mock setup resolves.
     useEffect(() => {
-        if (!mockLoad && mockTotal) {
+        if (mockLoad) return;
+        if (mockTime) {
+            setTime(mockTime);
+        } else if (mockTotal) {
             setTime(mockTotal * SECONDS_PER_QUESTION);
         }
-    }, [mockLoad, mockTotal]);
+    }, [mockLoad, mockTime, mockTotal]);
 
     // ===== Format submit date & time (e.g. 06-07-2026 | 2:54 AM) =====
     const formatDateTime = (d = new Date()) => {
@@ -290,18 +303,19 @@ export default function QuickPracticeEngine({
         ];
     };
 
-    // ======== Timer Formatter =========
+    // ======== Timer Formatter (contextual — Issue 2) ======
+    // Short quizzes (total duration <= 120s) → raw seconds ("118s").
+    // Longer exams → MM:SS, or HH:MM:SS once past the hour mark.
     const formatTimer = (seconds) => {
+        const clamped = Math.max(seconds, 0);
 
-        // T20 Mode (show seconds)
-        if (timerDisplay === "t20") {
-            return `${seconds}s`;
+        if (effTimeLimit <= 120) {
+            return `${clamped}s`;
         }
 
-        // Clock Mode
-        const hours = Math.floor(seconds / 3600);
-        const minutes = Math.floor((seconds % 3600) / 60);
-        const secs = seconds % 60;
+        const hours = Math.floor(clamped / 3600);
+        const minutes = Math.floor((clamped % 3600) / 60);
+        const secs = clamped % 60;
 
         // 1 hour or more → HH:MM:SS
         if (hours > 0) {
