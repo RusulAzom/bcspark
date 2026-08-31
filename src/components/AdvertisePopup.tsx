@@ -19,6 +19,14 @@ const TWENTY_FOUR_HOURS_MS = 1 * 60 * 60 * 1000; // 1 hours
 // Feature list items
 const features = [
   {
+    icon: BookOpen,
+    title: "Subject Wise Learning and Testing",
+    desc: "বিষয়ভিত্তিক শেখা এবং পরীক্ষা",
+    href: "/study",
+    comingSoon: false,
+    color: "bg-gray-100 text-gray-500",
+  },
+  {
     icon: Briefcase,
     title: "Job Circular",
     desc: "Sobar age sokol sorkari chakrir circular",
@@ -32,15 +40,6 @@ const features = [
     desc: "সাম্প্রতিক চাকরির প্রশ্ন সমাধান",
     href: "/job-solution",
     comingSoon: false,
-    color: "bg-gray-100 text-gray-500",
-  },
-  {
-    icon: BookOpen,
-    title: "Subject Wise Learning and Testing",
-    desc: "বিষয়ভিত্তিক শেখা এবং পরীক্ষা",
-    href: "/study",
-    href: null,
-    comingSoon: true,
     color: "bg-gray-100 text-gray-500",
   },
   {
