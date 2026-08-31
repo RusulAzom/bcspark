@@ -283,7 +283,7 @@ function StudyPageContent() {
         subjectKey
     )}&topic=${encodeURIComponent(topicKey)}${
         activeMicro ? `&micro=${encodeURIComponent(microFile)}` : ""
-    }`;
+    }&total=${MOCK_EXAM_FIXED_TOTAL}&rand=${Date.now()}`;
 
     const canStartMockTest =
         status === "ready" &&

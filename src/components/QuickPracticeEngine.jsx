@@ -148,8 +148,11 @@ export default function QuickPracticeEngine({
             (async () => {
                 try {
                     const separator = stored.apiPath.includes("?") ? "&" : "?";
+                    // Append a cache-busting timestamp so every attempt issues a
+                    // fresh request instead of the browser reusing a cached body
+                    // (guarantees a new random batch on each click).
                     const response = await fetch(
-                        `${stored.apiPath}${separator}total=${urlTotal}`
+                        `${stored.apiPath}${separator}rand=${Date.now()}&total=${urlTotal}`
                     );
                     if (!response.ok) throw new Error(`HTTP ${response.status}`);
                     const payload = await response.json();

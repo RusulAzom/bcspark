@@ -19,7 +19,7 @@ import ictQuizSources from "@/data/quizSources/ict";
 import noikotaMSQuizSources from "@/data/quizSources/noitikotaMS";
 import sadharonBigganQuizSources from "@/data/quizSources/sadharonBiggan";
 import vugolPoribeshDMQuizSources from "@/data/quizSources/vugolPoribeshDM";
-import { poolFiles, getRandomItems, shuffle } from "@/lib/t20Allocation";
+import { poolFiles, shuffle } from "@/lib/t20Allocation";
 
 export const runtime = "nodejs";
 
@@ -326,20 +326,28 @@ export async function GET(request) {
         }
 
         const pool = await poolFiles(spec);
-        let questions = pool.filter(
+        const filtered = pool.filter(
             (item) => item && typeof item.q === "string" && item.q.trim().length > 0
         );
 
-        // Optional ?total=N — the mock-test handoff requests a random sample
-        // of N questions instead of the full study pool.
+        // Quiz sampling: a request with ?total=N (e.g. from the study-page CTA
+        // or the mock-test handoff) must return a FRESHLY randomised subset
+        // spanning the ENTIRE filtered pool — never the same first N items.
+        // We fully shuffle the array (Fisher-Yates) then take the top N so
+        // every N-sized draw is an independent, uniformly random selection
+        // across all pages of the filtered archive.
         const totalParam = Number(url.searchParams.get("total"));
-        if (
-            Number.isInteger(totalParam) &&
-            totalParam > 0 &&
-            questions.length > totalParam
-        ) {
-            questions = shuffle(getRandomItems(questions, totalParam));
-        }
+        const wantsRandom = Number.isInteger(totalParam) && totalParam > 0;
+        const questions = wantsRandom
+            ? shuffle(filtered).slice(0, Math.min(totalParam, filtered.length))
+            : filtered;
+
+        // Randomised quiz responses must never be cached — a shared/public
+        // max-age header would let the browser or a CDN replay the previous
+        // batch instead of returning a fresh draw on the next click.
+        const cacheControl = wantsRandom
+            ? "no-store, max-age=0"
+            : "public, max-age=3600";
 
         return Response.json(
             {
@@ -349,8 +357,7 @@ export async function GET(request) {
                 topic: topicKey,
                 micro: microFile || null,
             },
-            // Study pools come from static dataset files — safe to cache.
-            { headers: { "Cache-Control": "public, max-age=3600" } }
+            { headers: { "Cache-Control": cacheControl } }
         );
     } catch (err) {
         console.error("[/api/study/questions] Failed to build study pool:", err);
