@@ -5,13 +5,18 @@ import { psychologyCategories, psychologyTests } from '../app/frontApp/psycholog
 
 // 🎯 এখানে { onClose } প্রোপটি সঠিকভাবে রিসিভ করা হলো
 // initialTestId পাঠানো হলে সরাসরি সেই টেস্ট চালু হবে, সিলেকশন স্ক্রিন স্কিপ হবে
-export default function PsychologyModal({ onClose, initialTestId }) {
+export default function PsychologyModal({ onClose, initialTestId, onLockTest }) {
     // ০. রেজাল্ট ক্যাপচার রেফারেন্স
     const resultRef = useRef(null);
 
     // ১. ড্রপডাউন ও সিলেকশন স্টেট
-    const [selectedCategory, setSelectedCategory] = useState("");
+    // initialTestId থাকলে সেটির ক্যাটাগরি ও টেস্ট দুটোই প্রি-সিলেক্ট করা হয়
+    const initialTestObj = initialTestId ? psychologyTests[initialTestId] : null;
+    const [selectedCategory, setSelectedCategory] = useState(initialTestObj?.parentId || "");
     const [selectedTest, setSelectedTest] = useState(initialTestId || "");
+
+    // ১.১. প্রি-সিলেক্টেড টেস্টের 'পরিবর্তন করুন' নিয়ন্ত্রণ
+    const [showChangeTest, setShowChangeTest] = useState(false);
 
     // ২. কুইজ ফ্লো কন্ট্রোল স্টেট
     const [isTestStarted, setIsTestStarted] = useState(false);
@@ -70,6 +75,13 @@ export default function PsychologyModal({ onClose, initialTestId }) {
         } else {
             setIsTestCompleted(true);
         }
+    };
+
+    // ৮.২. শুরু করুন — কার্ড ক্লিক/URL বা 'পরিবর্তন করুন' দ্বারা বাছাই যাই হোক, URL-এ test আইডি নিশ্চিত করা হয়
+    const handleStart = () => {
+        if (!selectedTest || !activeTestData) return;
+        if (onLockTest) onLockTest(activeTestData.id);
+        setIsTestStarted(true);
     };
 
     const SHEETDB_API = "https://sheetdb.io/api/v1/hyafyjkys9216";
@@ -132,6 +144,7 @@ export default function PsychologyModal({ onClose, initialTestId }) {
     const handleReset = () => {
         setSelectedCategory("");
         setSelectedTest("");
+        setShowChangeTest(false);
         setIsTestStarted(false);
         setCurrentQuestionIndex(0);
         setUserAnswers([]);
@@ -198,26 +211,54 @@ export default function PsychologyModal({ onClose, initialTestId }) {
         /* 🎯 কালো ব্যাকড্রপ এরিয়ায় ক্লিক করলে যেন মডাল বন্ধ হয় (onClose), কিন্তু ভেতরের সাদা বক্সে ক্লিক করলে যেন বন্ধ না হয় (e.stopPropagation) */
         <div
             onClick={onClose}
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4 animate-in fade-in duration-200"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-2 sm:p-4 animate-in fade-in duration-200"
         >
             <div
                 onClick={(e) => e.stopPropagation()}
-                className="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl relative border border-gray-100 animate-in zoom-in-95 duration-200 max-h-[90vh] overflow-y-auto"
+                className="bg-white rounded-2xl max-w-lg w-full p-3 sm:p-6 shadow-2xl relative border border-gray-100 animate-in zoom-in-95 duration-200 max-h-[90vh] overflow-y-auto overscroll-contain"
             >
 
                 {/* ================= সেকশন ১: সিলেকশন ড্রপডাউন স্ক্রিন ================= */}
                 {!isTestStarted && (
                     <>
-                        <div className="flex justify-center items-center border-b pb-4 mb-5">
-                            <h3 className="text-2xl font-black text-gray-800 flex items-center gap-2">
-                                🧠 সাইকোলজিক্যাল টেস্ট / মানসিক স্বাস্থ্য পরীক্ষা সেন্টার  
+                        <div className="flex justify-center items-center border-b pb-3 sm:pb-4 mb-4 sm:mb-5">
+                            <h3 className="text-lg sm:text-2xl font-black text-gray-800 flex items-center justify-center text-center gap-2">
+                                🧠 সাইকোলজিক্যাল টেস্ট / মানসিক স্বাস্থ্য পরীক্ষা সেন্টার
                             </h3>
                         </div>
 
-                        <div className="space-y-5">
+                        {/* প্রি-সিলেক্টেড টেস্টের জন্য ক্লিন ব্রেডক্রাম্ব হেডার */}
+                        {selectedTest && !showChangeTest ? (
+                            <div className="mb-5 rounded-2xl bg-gradient-to-r from-indigo-50 to-blue-50 border border-indigo-100 p-3 sm:p-4">
+                                <div className="flex items-start justify-between gap-3">
+                                    <div className="min-w-0">
+                                        <p className="text-[11px] sm:text-xs font-semibold text-indigo-400 uppercase tracking-wide mb-1">
+                                            ✅ You Selected
+                                        </p>
+                                        <p className="text-sm sm:text-base font-bold text-gray-800 leading-snug">
+                                            {selectedCategoryObj?.nameEN}
+                                            <span className="text-indigo-400 mx-1">›</span>
+                                            <span className="text-indigo-700">
+                                                {activeTestData?.name?.split(" - ")[1] || activeTestData?.name}
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <button
+                                        onClick={() => setShowChangeTest(true)}
+                                        className="shrink-0 text-xs font-semibold text-indigo-600 bg-indigo-100 hover:bg-indigo-200 rounded-lg px-3 py-1.5 transition"
+                                    >
+                                        ↻ পরিবর্তন করুন
+                                    </button>
+                                </div>
+                            </div>
+                        ) : null}
+
+                        {/* ড্রপডাউন — জেনেরিক মোডে (টেস্ট নির্বাচন করা নেই) অথবা 'পরিবর্তন করুন' চাপলে */}
+                        {(!selectedTest || showChangeTest) && (
+                        <div className="space-y-4 sm:space-y-5">
                             {/* ১ম লেয়ার ড্রপডাউন */}
                             <div className="space-y-1">
-                                <label className="block text-lg font-bold text-gray-800">
+                                <label className="block text-sm sm:text-lg font-bold text-gray-800">
                                     ১. আপনি কি ধরনের মানসিক সমস্যায় ভুগছেন?
                                 </label>
                                 <select
@@ -237,7 +278,7 @@ export default function PsychologyModal({ onClose, initialTestId }) {
                                             }
                                         }
                                     }}
-                                    className="w-full p-3.5 border-2 rounded-xl bg-gray-50 border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none text-gray-700 transition font-medium"
+                                    className="w-full p-3 sm:p-3.5 border-2 rounded-xl bg-gray-50 border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none text-gray-700 transition font-medium"
                                 >
                                     <option value="">-- এখানে ক্লিক করে নির্বাচন করুন --</option>
                                     {psychologyCategories.map((cat) => (
@@ -251,13 +292,13 @@ export default function PsychologyModal({ onClose, initialTestId }) {
                             {/* ২য় লেয়ার ড্রপডাউন — শুধুমাত্র সাব-টেস্ট আছে এমন ক্যাটাগরির জন্য */}
                             {selectedCategory && hasSubTests && (
                                 <div className="space-y-1 animate-in slide-in-from-top-3 duration-200">
-                                    <label className="block text-lg font-bold text-gray-800">
+                                    <label className="block text-sm sm:text-lg font-bold text-gray-800">
                                         ২. আপনার কাঙ্খিত Psychology Test নির্বাচন করুন:
                                     </label>
                                     <select
                                         value={selectedTest}
                                         onChange={(e) => setSelectedTest(e.target.value)}
-                                        className="w-full p-3.5 border-2 rounded-xl bg-gray-50 border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none text-gray-700 transition font-medium"
+                                        className="w-full p-3 sm:p-3.5 border-2 rounded-xl bg-gray-50 border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none text-gray-700 transition font-medium"
                                     >
                                         <option value="">-- এখানে ক্লিক করে টেস্টটি সিলেক্ট করুন --</option>
                                         {selectedCategoryObj.subTests.map((sub) => (
@@ -271,7 +312,7 @@ export default function PsychologyModal({ onClose, initialTestId }) {
 
                             {/* ডেসক্রিপশন কার্ড */}
                             {selectedTest && activeTestData && (
-                                <div className="bg-blue-50/70 border border-blue-100 rounded-2xl p-4 mt-4 text-sm text-gray-700 space-y-2 max-h-[180px] overflow-y-auto animate-in zoom-in-95 duration-200">
+                                <div className="bg-blue-50/70 border border-blue-100 rounded-2xl p-3 sm:p-4 mt-4 text-xs sm:text-sm text-gray-700 space-y-2 max-h-[180px] overflow-y-auto animate-in zoom-in-95 duration-200">
                                     <p className="leading-relaxed"><strong>টেস্টের বিবরণ:</strong> {activeTestData.description}</p>
                                     <div className="text-xs text-gray-500 border-t border-blue-100/50 pt-2 space-y-1">
                                         <p>📍 <strong>মূল বৈজ্ঞানিক সোর্স:</strong> {activeTestData.source}</p>
@@ -279,14 +320,24 @@ export default function PsychologyModal({ onClose, initialTestId }) {
                                     </div>
                                 </div>
                             )}
-                        </div>
+                        {/* পরিবর্তন মোডে ফিরে যাওয়ার বাটন */}
+                                {showChangeTest && (
+                                    <button
+                                        onClick={() => setShowChangeTest(false)}
+                                        className="text-xs font-semibold text-gray-500 hover:text-gray-700 transition"
+                                    >
+                                        ← বাতিল করুন
+                                    </button>
+                                )}
+                            </div>
+                        )}
 
                         {/* শুরু করুন বাটন */}
-                        <div className="mt-6 border-t pt-4">
+                        <div className="mt-5 sm:mt-6 border-t pt-3 sm:pt-4">
                             <button
-                                onClick={() => setIsTestStarted(true)}
+                                onClick={handleStart}
                                 disabled={!selectedTest}
-                                className={`w-full py-3 px-5 text-base font-bold text-white rounded-xl transition-all duration-200 ${!selectedTest
+                                className={`w-full py-3 px-4 sm:px-5 text-sm sm:text-base font-bold text-white rounded-xl transition-all duration-200 ${!selectedTest
                                         ? 'bg-gray-300 cursor-not-allowed shadow-none'
                                         : 'bg-emerald-600 hover:bg-emerald-700 active:scale-[0.98] shadow-lg shadow-emerald-600/20'
                                     }`}
@@ -302,10 +353,10 @@ export default function PsychologyModal({ onClose, initialTestId }) {
                     <div className="animate-in fade-in duration-300">
 
                         {/* কুইজ হেডার ও প্রোগ্রেস বার */}
-                        <div className="border-b pb-4 mb-5">
-                            <div className="flex justify-between items-center text-sm font-semibold text-gray-500 mb-2">
-                                <span>পরীক্ষা: {activeTestData.name}</span>
-                                <span>প্রশ্ন: {currentQuestionIndex + 1}/{totalQuestions}</span>
+                        <div className="border-b pb-3 sm:pb-4 mb-4 sm:mb-5">
+                            <div className="flex justify-between items-center gap-2 text-xs sm:text-sm font-semibold text-gray-500 mb-2">
+                                <span className="truncate">পরীক্ষা: {activeTestData.name}</span>
+                                <span className="shrink-0">প্রশ্ন: {currentQuestionIndex + 1}/{totalQuestions}</span>
                             </div>
                             {/* প্রোগ্রেস বার অ্যানিমেশন */}
                             <div className="w-full bg-gray-100 h-2.5 rounded-full overflow-hidden">
@@ -317,8 +368,8 @@ export default function PsychologyModal({ onClose, initialTestId }) {
                         </div>
 
                         {/* কুইজ মেইন প্রশ্ন কার্ড */}
-                        <div className="min-h-[100px] mb-6 flex items-center justify-center">
-                            <h4 className="text-xl font-bold text-gray-900 text-center leading-relaxed">
+                        <div className="min-h-[80px] mb-5 sm:mb-6 flex items-center justify-center">
+                            <h4 className="text-base sm:text-xl font-bold text-gray-900 text-center leading-relaxed">
                                 {activeTestData.questions[currentQuestionIndex]?.text}
                             </h4>
                         </div>
@@ -329,7 +380,7 @@ export default function PsychologyModal({ onClose, initialTestId }) {
                                 <button
                                     key={index}
                                     onClick={() => handleOptionSelect(option.value)}
-                                    className="w-full text-left p-4 rounded-xl border-2 border-gray-150 hover:border-blue-500 hover:bg-blue-50/30 text-gray-700 hover:text-blue-700 font-semibold transition active:scale-[0.99] flex justify-between items-center group"
+                                    className="w-full text-left p-3 sm:p-4 rounded-xl border-2 border-gray-150 hover:border-blue-500 hover:bg-blue-50/30 text-sm sm:text-base text-gray-700 hover:text-blue-700 font-semibold transition active:scale-[0.99] flex justify-between items-center group"
                                 >
                                     <span>{option.text}</span>
                                     <span className="opacity-0 group-hover:opacity-100 text-blue-500 font-bold transition">➔</span>
@@ -346,7 +397,7 @@ export default function PsychologyModal({ onClose, initialTestId }) {
                         {/* হেডার */}
                         <div className="text-center border-b pb-4 mb-5">
                             <div className="text-4xl mb-2">🎉</div>
-                            <h3 className="text-xl font-black text-gray-800">
+                            <h3 className="text-lg sm:text-xl font-black text-gray-800">
                                 আপনি সফলভাবে টেস্টটি সম্পন্ন করেছেন!
                             </h3>
                             <p className="text-gray-400 text-sm mt-1">
@@ -374,7 +425,7 @@ export default function PsychologyModal({ onClose, initialTestId }) {
                                     value={leadName}
                                     onChange={(e) => setLeadName(e.target.value)}
                                     placeholder="e.g., আপনার পুরো নাম"
-                                    className={`w-full p-3.5 border-2 rounded-xl bg-gray-50 outline-none text-gray-700 transition font-medium ${formErrors.name
+                                    className={`w-full p-3 sm:p-3.5 border-2 rounded-xl bg-gray-50 outline-none text-gray-700 transition font-medium ${formErrors.name
                                             ? 'border-red-400 focus:border-red-500 focus:ring-2 focus:ring-red-200'
                                             : 'border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200'
                                         }`}
@@ -394,7 +445,7 @@ export default function PsychologyModal({ onClose, initialTestId }) {
                                     value={leadContact}
                                     onChange={(e) => setLeadContact(e.target.value)}
                                     placeholder="e.g., 017XXXXXXXX বা email@example.com"
-                                    className={`w-full p-3.5 border-2 rounded-xl bg-gray-50 outline-none text-gray-700 transition font-medium ${formErrors.contact
+                                    className={`w-full p-3 sm:p-3.5 border-2 rounded-xl bg-gray-50 outline-none text-gray-700 transition font-medium ${formErrors.contact
                                             ? 'border-red-400 focus:border-red-500 focus:ring-2 focus:ring-red-200'
                                             : 'border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200'
                                         }`}
@@ -416,7 +467,7 @@ export default function PsychologyModal({ onClose, initialTestId }) {
                                 <button
                                     type="submit"
                                     disabled={isSubmitting}
-                                    className={`w-full py-3.5 px-5 text-base font-bold text-white rounded-xl transition shadow-lg active:scale-[0.98] ${isSubmitting
+                                    className={`w-full py-3 sm:py-3.5 px-4 sm:px-5 text-sm sm:text-base font-bold text-white rounded-xl transition shadow-lg active:scale-[0.98] ${isSubmitting
                                             ? 'bg-blue-400 cursor-not-allowed shadow-none'
                                             : 'bg-blue-600 hover:bg-blue-700 shadow-blue-600/20'
                                         }`}
@@ -455,7 +506,7 @@ export default function PsychologyModal({ onClose, initialTestId }) {
 
                         {/* হেডার */}
                         <div className="text-center border-b pb-4">
-                            <h3 className="text-2xl font-black text-gray-800">
+                            <h3 className="text-lg sm:text-2xl font-black text-gray-800">
                                 📋 ডায়াগনস্টিক রিপোর্ট
                             </h3>
                             <p className="text-gray-400 text-sm mt-1">

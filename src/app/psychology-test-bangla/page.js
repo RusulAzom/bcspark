@@ -1,6 +1,8 @@
 // src/app/psychology-test-bangla/page.js
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
+import { Suspense } from "react";
+import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import { psychologyCategories, psychologyTests } from "../frontApp/psychologyData";
 // add imports 
 import AdBanner728 from '@/components/add/adstra/AdBanner728';
@@ -12,16 +14,72 @@ import PsychologyModal from "@/components/PsychologyModal";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export default function PsychologyTestBanglaPage() {
-  const [modalState, setModalState] = useState({ open: false, testId: null });
+function PsychologyTestBanglaContent() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
 
-  const openTest = (testId) => {
-    setModalState({ open: true, testId });
-  };
+  // test আইডির কেস-অসংবেদনশীল ম্যাপিং (যেমন ?test=gad7 => GAD7)
+  // SEO / শেয়ারিং URL-এ লোয়ারকেস id ব্যবহার করা হয়
+  const canonicalIdMap = useMemo(() => {
+    const map = {};
+    Object.values(psychologyTests).forEach((t) => {
+      if (t?.id) map[(t.id || "").toLowerCase()] = t.id;
+    });
+    return map;
+  }, []);
 
-  const closeTest = () => {
-    setModalState({ open: false, testId: null });
-  };
+  // মডাল খোলা/বন্ধ নিয়ন্ত্রণ (হিরো CTA-র জেনেরিক ওপেন আলাদা ট্র্যাক করা হয়)
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const genericOpenRef = useRef(false);
+
+  // URL (?test=...) থেকে টেস্ট আইডি — direct-access/refresh ও ব্যাক/ফরোয়ার্ড প্রসেস করে
+  const urlTestParam = searchParams.get("test");
+  const activeTestId = urlTestParam ? canonicalIdMap[urlTestParam.toLowerCase()] || null : null;
+
+  // URL-এর test প্যারামিটার থাকলে (direct access/refresh/ব্যাক) মডাল অটো-ওপেন
+  useEffect(() => {
+    if (activeTestId) {
+      genericOpenRef.current = false;
+      setIsModalOpen(true);
+    } else if (!genericOpenRef.current) {
+      setIsModalOpen(false);
+    }
+  }, [activeTestId]);
+
+  // নির্দিষ্ট টেস্ট কার্ড / লিস্ট ক্লিকে URL + মডাল ওপেন (scroll: false, রিলোড ছাড়া)
+  const openTest = useCallback((testId) => {
+    const canonicalId = testId ? canonicalIdMap[(testId || "").toLowerCase()] : null;
+    if (canonicalId) {
+      genericOpenRef.current = false;
+      router.push(`${pathname}?test=${canonicalId.toLowerCase()}`, { scroll: false });
+    } else {
+      // হিরো CTA — জেনেরিক ওপেন, কোনো নির্দিষ্ট টেস্ট প্রি-সিলেক্ট হয় না
+      genericOpenRef.current = true;
+      setIsModalOpen(true);
+      if (searchParams.get("test")) {
+        router.push(pathname, { scroll: false });
+      }
+    }
+  }, [canonicalIdMap, pathname, router, searchParams]);
+
+  // মডাল বন্ধ করলে URL থেকে test প্যারামিটার মুছে ফেলা হয় (ক্লিন URL)
+  const closeTest = useCallback(() => {
+    genericOpenRef.current = false;
+    setIsModalOpen(false);
+    if (searchParams.get("test")) {
+      router.push(pathname, { scroll: false });
+    }
+  }, [pathname, router, searchParams]);
+
+  // টেস্ট শুরু / পরিবর্তনের সময় URL-এ test প্যারামিটার নিশ্চিত করা (রিলোড/স্ক্রল ছাড়া)
+  const lockTest = useCallback((testId) => {
+    const canonicalId = testId ? canonicalIdMap[(testId || "").toLowerCase()] : null;
+    if (canonicalId) {
+      genericOpenRef.current = false;
+      router.push(`${pathname}?test=${canonicalId.toLowerCase()}`, { scroll: false });
+    }
+  }, [canonicalIdMap, pathname, router]);
 
   // নির্দিষ্ট ক্যাটাগরির অধীনে থাকা টেস্টগুলো বের করা
   const getTestsForCategory = (catId) => {
@@ -62,7 +120,7 @@ export default function PsychologyTestBanglaPage() {
               </p>
               {/* সিটিএ বাটন — হিরো থেকে টেস্ট সেকশনে স্ক্রল */}
               <button
-                onClick={() => openTest('gad7')} // অথবা আপনার ডিফল্ট/প্রথম টেস্টের ID (যেমন: 'gad-7' বা 'anxiety')
+                onClick={() => openTest()} // হিরো CTA — ডিফল্ট/ম্যানুয়াল সিলেকশন মোডে ওপেন হয় (কোনো টেস্ট প্রি-সিলেক্ট হয় না)
                 className="mt-5 inline-block bg-white text-indigo-900 font-bold text-base px-8 py-4 rounded-xl shadow-2xl hover:shadow-white/30 hover:scale-105 transition-all duration-300 active:scale-[0.98]"
               >
                 চলুন নিজেকে জানি! ⚡
@@ -214,13 +272,29 @@ export default function PsychologyTestBanglaPage() {
       {/* ফুটার */}
       <Footer />
 
-      {/* মডাল — initialTestId সহ ওপেন হবে */}
-      {modalState.open && (
+      {/* মডাল — URL-এর test আইডি দিয়ে প্রি-সিলেক্ট হয়ে ওপেন হবে */}
+      {isModalOpen && (
         <PsychologyModal
           onClose={closeTest}
-          initialTestId={modalState.testId}
+          initialTestId={activeTestId}
+          onLockTest={lockTest}
         />
       )}
     </div>
+  );
+}
+
+// Note: useSearchParams()-এর জন্য Suspense boundary প্রয়োজন (Next.js build requirement)
+export default function PsychologyTestBanglaPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 flex items-center justify-center">
+          <div className="text-xl font-bold animate-pulse text-slate-600">পেজ লোড হচ্ছে...</div>
+        </div>
+      }
+    >
+      <PsychologyTestBanglaContent />
+    </Suspense>
   );
 }
