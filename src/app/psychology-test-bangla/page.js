@@ -62,14 +62,16 @@ export default function PsychologyTestBanglaPage() {
               </p>
               {/* সিটিএ বাটন — হিরো থেকে টেস্ট সেকশনে স্ক্রল */}
               <button
-                onClick={() => document.getElementById('all-tests-section')?.scrollIntoView({ behavior: 'smooth' })}
-                className="mt-8 inline-block bg-white text-indigo-900 font-bold text-lg px-8 py-4 rounded-xl shadow-2xl hover:shadow-white/30 hover:scale-105 transition-all duration-300 active:scale-[0.98]"
+                onClick={() => openTest('gad7')} // অথবা আপনার ডিফল্ট/প্রথম টেস্টের ID (যেমন: 'gad-7' বা 'anxiety')
+                className="mt-5 inline-block bg-white text-indigo-900 font-bold text-base px-8 py-4 rounded-xl shadow-2xl hover:shadow-white/30 hover:scale-105 transition-all duration-300 active:scale-[0.98]"
               >
-                এখনই টেস্ট শুরু করুন ⚡
+                চলুন নিজেকে জানি! ⚡
               </button>
               {/* adds 728 */}
               {/* <AdBanner728 /> */}
-
+              <p className="text-lg md:text-xl text-blue-100/90 leading-relaxed py-4 max-w-2xl mx-auto">
+                অথবা, নিচের যেকোনো মানসিক স্বাস্থ্য পরীক্ষা নির্বাচন করে শুরু করুন!
+              </p>
             </div>
           </div>
         </section>
