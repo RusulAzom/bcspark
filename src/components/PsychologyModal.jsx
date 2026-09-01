@@ -310,16 +310,6 @@ export default function PsychologyModal({ onClose, initialTestId, onLockTest }) 
                                 </div>
                             )}
 
-                            {/* ডেসক্রিপশন কার্ড */}
-                            {selectedTest && activeTestData && (
-                                <div className="bg-blue-50/70 border border-blue-100 rounded-2xl p-3 sm:p-4 mt-4 text-xs sm:text-sm text-gray-700 space-y-2 max-h-[180px] overflow-y-auto animate-in zoom-in-95 duration-200">
-                                    <p className="leading-relaxed"><strong>টেস্টের বিবরণ:</strong> {activeTestData.description}</p>
-                                    <div className="text-xs text-gray-500 border-t border-blue-100/50 pt-2 space-y-1">
-                                        <p>📍 <strong>মূল বৈজ্ঞানিক সোর্স:</strong> {activeTestData.source}</p>
-                                        <p>🇧🇩 <strong>বাংলাদেশি রিসার্চ ভ্যালিডেশন:</strong> {activeTestData.localResearch}</p>
-                                    </div>
-                                </div>
-                            )}
                         {/* পরিবর্তন মোডে ফিরে যাওয়ার বাটন */}
                                 {showChangeTest && (
                                     <button
@@ -329,6 +319,17 @@ export default function PsychologyModal({ onClose, initialTestId, onLockTest }) 
                                         ← বাতিল করুন
                                     </button>
                                 )}
+                            </div>
+                        )}
+
+                        {/* টেস্টের বিবরণ ও বৈজ্ঞানিক রিসার্চ সোর্স — টেস্ট সিলেক্ট হলে সবসময় দৃশ্যমান */}
+                        {selectedTest && activeTestData && (
+                            <div className="bg-blue-50/70 border border-blue-100 rounded-2xl p-3 sm:p-4 mt-4 text-xs sm:text-sm text-gray-700 space-y-2 max-h-[180px] overflow-y-auto animate-in zoom-in-95 duration-200">
+                                <p className="leading-relaxed"><strong>টেস্টের বিবরণ:</strong> {activeTestData.description}</p>
+                                <div className="text-xs sm:text-sm text-gray-600 border-t border-blue-100/50 pt-2 space-y-1.5">
+                                    <p>📍 <strong>মূল বৈজ্ঞানিক সোর্স:</strong> {activeTestData.source}</p>
+                                    <p>🇧🇩 <strong>বাংলাদেশি রিসার্চ ভ্যালিডেশন:</strong> {activeTestData.localResearch}</p>
+                                </div>
                             </div>
                         )}
 
