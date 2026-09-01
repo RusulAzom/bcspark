@@ -4,7 +4,7 @@ export const revalidate = 0;
 
 import { Metadata } from "next";
 import Link from "next/link";
-import { collection, query, where, getDocs, doc, updateDoc, increment, limit, orderBy } from "firebase/firestore";
+import { collection, query, where, getDocs, limit, orderBy } from "firebase/firestore";
 import ReactMarkdown from "react-markdown";
 import { Calendar, Eye, ArrowLeft, ChevronRight, BookOpen } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -12,6 +12,10 @@ import Footer from "@/components/Footer";
 import { db } from "@/lib/firebase";
 import { Category, getCategoryBreadcrumbs } from "@/lib/blog-helpers";
 import { BlogPost } from "@/components/blog/BlogCard";
+import { computeArticleSplit } from "@/lib/articleBanner";
+import SupportBanner from "@/components/support/SupportBanner";
+import ArticleViewTracker from "@/components/blog/ArticleViewTracker";
+import { formatBengaliNumber } from "@/lib/formatBengaliNumber";
 
 interface BlogDetailsPageProps {
   params: Promise<{ slug: string }>;
@@ -154,26 +158,14 @@ export default async function BlogDetailsPage({ params }: BlogDetailsPageProps) 
     );
   }
 
-  // 1. Increment View Count in Firestore
-  try {
-    const postRef = doc(db, "blogs", post.id);
-    await updateDoc(postRef, {
-      views: increment(1),
-    });
-    // Update local variable for rendering correct view count
-    post.views += 1;
-  } catch (err) {
-    console.error("Increment views error:", err);
-  }
-
-  // 2. Fetch category lists and build breadcrumbs
+  // Fetch category lists and build breadcrumbs
   const flatCategories = await fetchAllCategories();
   const primaryCategoryId = post.categoryIds && post.categoryIds.length > 0
     ? post.categoryIds[post.categoryIds.length - 1]
     : null;
   const breadcrumbs = getCategoryBreadcrumbs(primaryCategoryId, flatCategories);
 
-  // 3. Fetch Related posts
+  // Fetch related posts
   const relatedPosts = primaryCategoryId ? await fetchRelatedBlogs(primaryCategoryId, post.id) : [];
 
   const formatDate = (timestamp: any) => {
@@ -224,9 +216,19 @@ export default async function BlogDetailsPage({ params }: BlogDetailsPageProps) 
     img: (props: any) => <img className="rounded-xl max-h-96 mx-auto object-cover my-6 shadow-md" {...props} />,
   };
 
+  // Compute where to place the mid-article banner (safe top-level block boundary).
+  // `before`/`after` are re-usable for whichever pipeline renders the body below.
+  const articleSplit = computeArticleSplit({
+    html: post.contentHtml,
+    markdown: post.content,
+  });
+  const hasHtmlBody = Boolean(post.contentHtml);
+
   return (
     <>
       <Navbar />
+      {/* Records a view once via the deduplicated server action */}
+      <ArticleViewTracker slug={post.slug} />
 
       <main className="flex-1 bg-brand-bg py-8 font-sans">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 space-y-6">
@@ -285,7 +287,7 @@ export default async function BlogDetailsPage({ params }: BlogDetailsPageProps) 
                 </div>
                 <div className="flex items-center gap-1.5">
                   <Eye className="h-4 w-4 text-gray-400" />
-                  <span>পঠিত: {post.views} বার</span>
+                  <span>{formatBengaliNumber(post.views)} বার পঠিত</span>
                 </div>
               </div>
             </div>
@@ -303,15 +305,35 @@ export default async function BlogDetailsPage({ params }: BlogDetailsPageProps) 
 
             {/* Blog body — rich HTML (primary) or legacy markdown fallback */}
             <div className="prose prose-lg max-w-none pt-2 ">
-              {post.contentHtml ? (
-                <div
-                  dangerouslySetInnerHTML={{ __html: post.contentHtml }}
-                />
-              ) : (
-                <ReactMarkdown components={markdownComponents}>{post.content}</ReactMarkdown>
+              {articleSplit.before ? (
+                hasHtmlBody ? (
+                  <div dangerouslySetInnerHTML={{ __html: articleSplit.before }} />
+                ) : (
+                  <ReactMarkdown components={markdownComponents}>{articleSplit.before}</ReactMarkdown>
+                )
+              ) : null}
+
+              {/* Mid-article support banner (only on medium/long posts) */}
+              {articleSplit.showMiddle && (
+                <div className="not-prose mx-auto my-8 md:my-10 lg:my-12 w-full max-w-[728px]">
+                  <SupportBanner />
+                </div>
               )}
+
+              {articleSplit.after ? (
+                hasHtmlBody ? (
+                  <div dangerouslySetInnerHTML={{ __html: articleSplit.after }} />
+                ) : (
+                  <ReactMarkdown components={markdownComponents}>{articleSplit.after}</ReactMarkdown>
+                )
+              ) : null}
             </div>
           </article>
+
+          {/* End-of-article support banner — after the body, before recommendations */}
+          <div className="mx-auto w-full max-w-[728px]">
+            <SupportBanner />
+          </div>
 
           {/* Related Articles Panel */}
           {relatedPosts.length > 0 && (

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Category, getCategoryBreadcrumbs } from "@/lib/blog-helpers";
 import BlogCardVisual from "./BlogCardVisual";
 import { Calendar, Eye, ChevronRight } from "lucide-react";
+import { formatBengaliNumber } from "@/lib/formatBengaliNumber";
 
 export interface BlogPost {
   id: string;
@@ -104,7 +105,7 @@ export default function BlogCard({ post, flatCategories }: BlogCardProps) {
           </div>
           <div className="flex items-center gap-1.5">
             <Eye className="h-3.5 w-3.5 text-gray-400" />
-            <span>{post.views || 0} বার পঠিত</span>
+            <span>{formatBengaliNumber(post.views)} বার পঠিত</span>
           </div>
         </div>
       </div>

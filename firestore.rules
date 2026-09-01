@@ -27,6 +27,14 @@ service cloud.firestore {
     // Blogs Rules
     match /blogs/{docId} {
       allow read: if true;
+
+      // Anonymous visitors (no auth) may ONLY bump the read ("views") counter,
+      // and only by exactly +1 (or creating it for the first time). This enables
+      // the persistent, deduplicated view counter tracked via a server action.
+      // Everything else still requires a signed-in user.
+      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['views'])
+        && request.resource.data.views is int
+        && (!('views' in resource.data) || request.resource.data.views == resource.data.views + 1);
       allow write: if request.auth != null;
     }
 
