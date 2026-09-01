@@ -13,7 +13,7 @@ import { Briefcase, BookOpen, Gamepad2, FileText, X, Sparkles } from "lucide-rea
 // - Close on X button or backdrop click
 
 const POPUP_STORAGE_KEY = "bcspark_popup_last_shown";
-const POPUP_DELAY_MS = 5000; // 5 seconds
+const POPUP_DELAY_MS = 20000; // 20 seconds
 const TWENTY_FOUR_HOURS_MS = 1 * 60 * 60 * 1000; // 1 hours
 
 // Feature list items
