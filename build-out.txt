@@ -1,0 +1,156 @@
+
+> app_temp@0.1.0 build
+> next build
+
+▲ Next.js 16.3.1 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.mjs took 38ms
+
+⚠ The Edge Runtime is deprecated. You can use the "nodejs" runtime instead. Learn more: https://nextjs.org/docs/messages/edge-runtime-deprecated
+  Creating an optimized production build ...
+✓ Compiled successfully in 16.2s
+  Running TypeScript ...
+  Finished TypeScript in 12.6s ...
+  Collecting page data using 3 workers ...
+⚠ Using edge runtime on a page currently disables static generation for that page
+  Generating static pages using 3 workers (0/142) ...
+  Generating static pages using 3 workers (35/142) 
+  Generating static pages using 3 workers (70/142) 
+  Generating static pages using 3 workers (106/142) 
+✓ Generating static pages using 3 workers (142/142) in 9.8s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /a2z
+├ ○ /admin/blog
+├ ƒ /admin/blog/edit/[id]
+├ ○ /admin/blog/new
+├ ○ /admin/categories
+├ ƒ /api/history/today
+├ ƒ /api/question-bank/exam
+├ ƒ /api/question-bank/list
+├ ƒ /api/quiz/bangla/all
+├ ƒ /api/quiz/english/all
+├ ƒ /api/quiz/gk-international/all
+├ ƒ /api/quiz/gk/all
+├ ƒ /api/quiz/ict/all
+├ ƒ /api/quiz/noitikota-mullobodh-sushahon/all
+├ ƒ /api/quiz/sadharon-biggan/all
+├ ƒ /api/quiz/vugol-poribesh-dm/all
+├ ƒ /api/study/questions
+├ ƒ /api/t20/questions
+├ ○ /blog
+├ ƒ /blog/[slug]
+├ ƒ /blog/[slug]/opengraph-image
+├ ƒ /blog/category/[categorySlug]
+├ ○ /central-model-tests
+├ ○ /dashboard
+├ ○ /history
+├ ○ /itihase-ajj
+├ ƒ /job-circular
+├ ƒ /job-circular/[id]
+├ ƒ /job-solution
+├ ƒ /job-solution/[id]
+├ ○ /login
+├ ○ /mock-test
+├ ○ /psychology-test-bangla
+├ ○ /question-bank
+├ ƒ /question-bank/[type]/[exam]
+├ ○ /sitemap.xml
+├ ○ /study
+├ ○ /t20
+├ ○ /t20/bangla-bakaron/all
+├ ○ /t20/bangla-bakaron/bakaronic-upadan
+├ ○ /t20/bangla-bakaron/bakkototto-oproyog
+├ ○ /t20/bangla-bakaron/shobdartho-obidhito
+├ ○ /t20/bangla-bakaron/shobdo-ruptotto
+├ ○ /t20/bangla-bakaron/vasha-odhonni-biggan
+├ ○ /t20/bangla-sahitto/19th-sahittik
+├ ○ /t20/bangla-sahitto/adhunik
+├ ○ /t20/bangla-sahitto/all
+├ ○ /t20/bangla-sahitto/chorjapod
+├ ○ /t20/bangla-sahitto/dhara
+├ ○ /t20/bangla/all
+├ ○ /t20/bangla/bacaron/karokobivokti
+├ ○ /t20/bangla/bacaron/nirmit
+├ ○ /t20/bangla/bacaron/pokritioprotoy
+├ ○ /t20/bangla/shahitto/modhdhojug
+├ ○ /t20/bangla/shahitto/muktijudhovashaandolon
+├ ○ /t20/bangla/shahitto/prachinjug
+├ ○ /t20/english-grammar/all
+├ ○ /t20/english-grammar/clauses
+├ ○ /t20/english-grammar/grammar-corrections
+├ ○ /t20/english-grammar/idioms-phrases
+├ ○ /t20/english-grammar/parts-of-speech
+├ ○ /t20/english-grammar/sentences-transformations
+├ ○ /t20/english-grammar/words-vocabulary
+├ ○ /t20/english-literature/19th-century
+├ ○ /t20/english-literature/20th-century
+├ ○ /t20/english-literature/all
+├ ○ /t20/english-literature/anglo-saxon-to-neoclassical
+├ ○ /t20/english-literature/famous-quotations
+├ ○ /t20/english-literature/literary-forms
+├ ○ /t20/english-literature/william-shakespeare
+├ ○ /t20/english/all
+├ ○ /t20/english/literature
+├ ○ /t20/english/spelling
+├ ○ /t20/english/tense
+├ ○ /t20/english/verb482
+├ ○ /t20/english/vocabulary
+├ ○ /t20/english/voice
+├ ○ /t20/gk-international/all
+├ ○ /t20/gk-international/antorjatik-songothon
+├ ○ /t20/gk-international/current-world
+├ ○ /t20/gk-international/international-enviroment
+├ ○ /t20/gk-international/itihas-vurajniti
+├ ○ /t20/gk-international/nirapotta-ckuktti
+├ ○ /t20/gk/a2z
+├ ○ /t20/gk/all
+├ ○ /t20/gk/bangladesher-songbidhan
+├ ○ /t20/gk/gonomadhom-projukti
+├ ○ /t20/gk/jatiya-bisoyboli
+├ ○ /t20/gk/jatiyo-orjon
+├ ○ /t20/gk/jonosumari
+├ ○ /t20/gk/kheladhula-cholochitra
+├ ○ /t20/gk/krisij-sompod
+├ ○ /t20/gk/orthoniti
+├ ○ /t20/gk/prothisthan-somuho
+├ ○ /t20/gk/rajnoitik-osorkar-babostha
+├ ○ /t20/gk/shilpo-banijjo
+├ ○ /t20/ict/all
+├ ○ /t20/ict/comMaintanence
+├ ○ /t20/ict/computarer-itihas-prokarved
+├ ○ /t20/ict/computer-architecture
+├ ○ /t20/ict/computer-database
+├ ○ /t20/ict/computer-networking
+├ ○ /t20/ict/computer-peripherals
+├ ○ /t20/ict/doinondin-jibone-computer
+├ ○ /t20/ict/machine-code
+├ ○ /t20/ict/number-system
+├ ○ /t20/noitikota-mullobodh-sushahon/all
+├ ○ /t20/noitikota-mullobodh-sushahon/mullobodh
+├ ○ /t20/noitikota-mullobodh-sushahon/noitikota
+├ ○ /t20/noitikota-mullobodh-sushahon/sushason
+├ ○ /t20/sadharon-biggan/all
+├ ○ /t20/sadharon-biggan/biology
+├ ○ /t20/sadharon-biggan/chemistry
+├ ○ /t20/sadharon-biggan/physics
+├ ○ /t20/vugol-poribesh-dm/all
+├ ○ /t20/vugol-poribesh-dm/durjog-babosthapona
+├ ○ /t20/vugol-poribesh-dm/poribesh
+├ ○ /t20/vugol-poribesh-dm/vugol
+├ ○ /vocabulary
+├ ○ /vocabulary/stories
+└   /vocabulary/stories/[storySlug]
+  ├ ● /vocabulary/stories/day-1-s001
+  ├ ● /vocabulary/stories/day-2-s002
+  ├ ● /vocabulary/stories/day-3-s003
+  └ ● [+32 more paths]
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

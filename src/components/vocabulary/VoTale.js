@@ -1,8 +1,9 @@
 'use client';
 
 import { useState, useCallback, useMemo, useRef, useEffect } from 'react';
-import vocaStoriesData from '../../../data/t20/english/grammar/vocabulary/stories/vocastory.json';
+import Link from 'next/link';
 import vocaDictData from '../../../data/t20/english/grammar/vocabulary/stories/storyvocabulary.json';
+import { getStories } from '../../lib/vocabStories';
 
 /* ============================================================
    Parser: Extract word tokens from story content
@@ -46,18 +47,6 @@ function parseContent(content) {
   }
 
   return segments;
-}
-
-/* ============================================================
-   Deduplicate stories array by unique id
-   ============================================================ */
-function deduplicateStories(stories) {
-  const seen = new Set();
-  return stories.filter((story) => {
-    if (seen.has(story.id)) return false;
-    seen.add(story.id);
-    return true;
-  });
 }
 
 /* ============================================================
@@ -406,16 +395,20 @@ function VocabListTab({ wordsUsed, dictionary }) {
 /* ============================================================
    VoTale — Main Component
    ============================================================ */
-export default function VoTale({ storyId: initialStoryId }) {
-  // Fix #1: Deduplicate stories by unique id
-  const allStories = useMemo(() => deduplicateStories(vocaStoriesData), []);
+export default function VoTale({ initialStory = null, showPrevNext = false }) {
+  // Stories come from the shared lib: deduplicated, with stable slugs + Day numbers
+  const allStories = useMemo(() => getStories(), []);
   const dictionary = useMemo(() => vocaDictData, []);
 
-  // Pick first story as default
-  const defaultStory = useMemo(
-    () => allStories.find((s) => s.id === initialStoryId) || allStories[0],
-    [allStories, initialStoryId]
-  );
+  // Deep-link support: when a specific story is requested (via /vocabulary/stories/[storySlug]),
+  // load it natively; otherwise default to the first story.
+  const defaultStory = useMemo(() => {
+    if (initialStory) {
+      const match = allStories.find((s) => s.slug === initialStory.slug);
+      if (match) return match;
+    }
+    return allStories[0];
+  }, [allStories, initialStory]);
 
    const [activeStory, setActiveStory] = useState(defaultStory);
    const [activeTab, setActiveTab] = useState('read');
@@ -423,19 +416,20 @@ export default function VoTale({ storyId: initialStoryId }) {
    const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
    const [showQuiz, setShowQuiz] = useState(false);
    const [quizCompleted, setQuizCompleted] = useState(false);
+   const [storyExpanded, setStoryExpanded] = useState(false);
    const contentRef = useRef(null);
    const hideTooltipTimer = useRef(null);
 
   // Fix #3: Track if the user is hovering the tooltip itself
   const [isHoveringTooltip, setIsHoveringTooltip] = useState(false);
 
-  // Track story id changes
+  // Track deep-linked story changes
   useEffect(() => {
-    if (initialStoryId) {
-      const found = allStories.find((s) => s.id === initialStoryId);
+    if (initialStory) {
+      const found = allStories.find((s) => s.slug === initialStory.slug);
       if (found) setActiveStory(found);
     }
-  }, [initialStoryId, allStories]);
+  }, [initialStory, allStories]);
 
   // Close tooltip when clicking outside
   useEffect(() => {
@@ -461,6 +455,32 @@ export default function VoTale({ storyId: initialStoryId }) {
     () => parseContent(activeStory?.content || ''),
     [activeStory]
   );
+
+  // Content truncation: only the first paragraph is rendered by default
+  const firstParagraphContent = useMemo(
+    () => parseContent((activeStory?.content || '').split('\n\n')[0]),
+    [activeStory]
+  );
+
+  // Collapse back to the truncated view whenever the story changes
+  useEffect(() => {
+    setStoryExpanded(false);
+  }, [activeStory?.slug]);
+
+  // Previous / Next stories derived from the canonical day sequence
+  const prevStory = useMemo(() => {
+    const idx = allStories.findIndex((s) => s.slug === activeStory?.slug);
+    return idx > 0 ? allStories[idx - 1] : null;
+  }, [allStories, activeStory?.slug]);
+
+  const nextStory = useMemo(() => {
+    const idx = allStories.findIndex((s) => s.slug === activeStory?.slug);
+    return idx >= 0 && idx < allStories.length - 1 ? allStories[idx + 1] : null;
+  }, [allStories, activeStory?.slug]);
+
+  const handleExpandStory = useCallback(() => {
+    setStoryExpanded(true);
+  }, []);
 
   const handleWordClick = useCallback(
     (e, id) => {
@@ -526,41 +546,36 @@ export default function VoTale({ storyId: initialStoryId }) {
     }, 200);
   }, []);
 
-   const handleStorySelect = useCallback((story) => {
-     setActiveStory(story);
-     setActiveTab('read');
-     setTooltipWord(null);
-     setShowQuiz(false);
-     setQuizCompleted(false);
-   }, []);
-
    const handleQuizComplete = useCallback(() => {
      setQuizCompleted(true);
      setShowQuiz(false);
    }, []);
 
-  // Fix #1: Use index as fallback for duplicate story keys
+  // Story selector navigates to unique shareable URLs (/vocabulary/stories/[storySlug])
   const storySelector = useMemo(
     () =>
       allStories.length > 1 ? (
         <div className="flex overflow-x-auto gap-2 pb-2 -mx-4 px-4 scrollbar-thin">
-          {allStories.map((story, index) => (
-            <button
-              key={`${story.id}-${index}`}
-              onClick={() => handleStorySelect(story)}
+          {allStories.map((story) => (
+            <Link
+              key={story.slug}
+              href={`/vocabulary/stories/${story.slug}`}
               className={`shrink-0 px-4 py-2 rounded-xl text-sm font-medium transition-all whitespace-nowrap ${
-                activeStory.id === story.id
+                activeStory.slug === story.slug
                   ? 'bg-[#1E53C5] text-white shadow-md'
                   : 'bg-white border border-slate-200 text-slate-600 hover:border-[#1E53C5]/30 hover:text-[#1E53C5]'
               }`}
             >
+              <span className="text-[10px] font-bold uppercase tracking-wide opacity-70 mr-1.5">
+                Day {story.day}
+              </span>
               {story.coverEmoji}{' '}
               {story.title.split(' ').slice(0, 3).join(' ')}
-            </button>
+            </Link>
           ))}
         </div>
       ) : null,
-    [allStories, activeStory.id, handleStorySelect]
+    [allStories, activeStory.slug]
   );
 
   if (!activeStory) {
@@ -584,14 +599,19 @@ export default function VoTale({ storyId: initialStoryId }) {
            <div className="absolute inset-0 bg-gradient-to-br from-[#1E53C5]/5 via-white to-[#F9B816]/5 rounded-t-3xl" />
 
            <div className="relative px-4 pt-4 pb-3 sm:px-6 sm:pt-6 sm:pb-4">
-             {/* Source badge */}
-             <div className="inline-flex items-center gap-1.5 bg-white/80 border border-slate-200 rounded-full px-2.5 py-1 mb-2">
-               <span className="text-xs text-slate-500">
-                 {activeStory.source}
+             {/* Day Counter Badge + Source badge */}
+             <div className="inline-flex items-center gap-2 mb-2">
+               <span className="inline-flex items-center bg-gradient-to-r from-[#1E53C5] to-[#2a6bdf] text-white text-xs font-bold rounded-full px-2.5 py-1 shadow-sm">
+                 Day {activeStory.day}
                </span>
-               <span className="w-1 h-1 bg-slate-300 rounded-full" />
-               <span className="text-xs text-slate-500">
-                 {activeStory.readingTimeMin} min read
+               <span className="inline-flex items-center gap-1.5 bg-white/80 border border-slate-200 rounded-full px-2.5 py-1">
+                 <span className="text-xs text-slate-500">
+                   {activeStory.source}
+                 </span>
+                 <span className="w-1 h-1 bg-slate-300 rounded-full" />
+                 <span className="text-xs text-slate-500">
+                   {activeStory.readingTimeMin} min read
+                 </span>
                </span>
              </div>
 
@@ -642,7 +662,7 @@ export default function VoTale({ storyId: initialStoryId }) {
                   ref={contentRef}
                   className="leading-snug text-sm sm:text-base text-slate-700 space-y-3 break-words overflow-wrap-anywhere"
                 >
-                 {parsedContent.map((segment, idx) => {
+                 {(storyExpanded ? parsedContent : firstParagraphContent).map((segment, idx) => {
                    if (segment.type === 'text') {
                      const parts = segment.value.split(/(\n)/g);
                      return (
@@ -669,7 +689,19 @@ export default function VoTale({ storyId: initialStoryId }) {
                  })}
                </div>
 
-               {/* Moral */}
+               {/* Read Full Story button — shown only in truncated view */}
+               {!storyExpanded && (
+                 <button
+                   onClick={handleExpandStory}
+                   className="w-full py-3 sm:py-3.5 bg-gradient-to-r from-[#1E53C5] to-[#2a6bdf] text-white rounded-2xl font-bold text-sm sm:text-base hover:brightness-110 transition-all shadow-md shadow-[#1E53C5]/20 active:scale-[0.99]"
+                 >
+                   সম্পূর্ণ গল্প পড়ুন · Read Full Story
+                   <span className="ml-2 inline-block">▼</span>
+                 </button>
+               )}
+
+               {/* Moral — revealed only after expanding the full story */}
+               {storyExpanded && (
                <div className="bg-gradient-to-r from-amber-50 to-amber-50/50 border border-amber-200/60 rounded-2xl p-4 sm:p-5">
                  <div className="flex items-start gap-3">
                    <span className="text-xl shrink-0 mt-0.5">💡</span>
@@ -683,9 +715,10 @@ export default function VoTale({ storyId: initialStoryId }) {
                    </div>
                  </div>
                </div>
+               )}
 
                {/* CTA Button */}
-               {activeStory.quizWordIds?.length > 0 && (
+               {storyExpanded && activeStory.quizWordIds?.length > 0 && (
                  <button
                    onClick={() => setShowQuiz(true)}
                    className="w-full py-3 sm:py-4 bg-gradient-to-r from-[#1E53C5] to-[#2a6bdf] text-white rounded-2xl font-bold text-sm sm:text-base hover:brightness-110 transition-all shadow-lg shadow-[#1E53C5]/20"
@@ -705,7 +738,43 @@ export default function VoTale({ storyId: initialStoryId }) {
          </div>
        </div>
 
-       {/* All Stories — shown after quiz completion */}
+       {/* Previous / Next Story Navigation (full story pages only) */}
+       {showPrevNext && (
+         <div className="flex items-stretch gap-3">
+           {prevStory ? (
+             <Link
+               href={`/vocabulary/stories/${prevStory.slug}`}
+               className="flex-1 min-w-0 group bg-white border border-slate-200 rounded-2xl px-4 py-3 hover:border-[#1E53C5]/40 hover:bg-[#1E53C5]/5 transition-all"
+             >
+               <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 group-hover:text-[#1E53C5] transition-colors">
+                 ← Previous Story
+               </span>
+               <span className="block mt-1 text-sm font-semibold text-slate-700 group-hover:text-[#1E53C5] transition-colors truncate">
+                 Day {prevStory.day}: {prevStory.coverEmoji} {prevStory.title}
+               </span>
+             </Link>
+           ) : (
+             <div className="flex-1" />
+           )}
+           {nextStory ? (
+             <Link
+               href={`/vocabulary/stories/${nextStory.slug}`}
+               className="flex-1 min-w-0 group bg-white border border-slate-200 rounded-2xl px-4 py-3 text-right hover:border-[#1E53C5]/40 hover:bg-[#1E53C5]/5 transition-all"
+             >
+               <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 group-hover:text-[#1E53C5] transition-colors">
+                 Next Story →
+               </span>
+               <span className="block mt-1 text-sm font-semibold text-slate-700 group-hover:text-[#1E53C5] transition-colors truncate">
+                 Day {nextStory.day}: {nextStory.title} {nextStory.coverEmoji}
+               </span>
+             </Link>
+           ) : (
+             <div className="flex-1" />
+           )}
+         </div>
+       )}
+
+       {/* All Stories — shown after quiz completion (each links to its own shareable URL) */}
        {quizCompleted && (
          <div className="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden overflow-x-hidden">
            <div className="px-4 sm:px-6 py-4 sm:py-5">
@@ -714,13 +783,22 @@ export default function VoTale({ storyId: initialStoryId }) {
              </h2>
              <div className="space-y-2">
                {allStories.map((story) => (
-                 <button
-                   key={story.id}
-                   onClick={() => handleStorySelect(story)}
-                   className="w-full text-left px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl hover:border-[#1E53C5]/30 hover:bg-[#1E53C5]/5 transition-all text-sm font-medium text-slate-700"
+                 <Link
+                   key={story.slug}
+                   href={`/vocabulary/stories/${story.slug}`}
+                   className={`w-full flex items-center gap-2 text-left px-3 py-2.5 bg-slate-50 border rounded-xl transition-all text-sm font-medium ${
+                     story.slug === activeStory.slug
+                       ? 'border-[#1E53C5]/40 bg-[#1E53C5]/5 text-[#1E53C5]'
+                       : 'border-slate-200 text-slate-700 hover:border-[#1E53C5]/30 hover:bg-[#1E53C5]/5'
+                   }`}
                  >
-                   {story.coverEmoji} {story.title}
-                 </button>
+                   <span className="shrink-0 inline-flex items-center bg-white border border-slate-200 text-[10px] font-bold text-[#1E53C5] rounded-full px-2 py-0.5">
+                     Day {story.day}
+                   </span>
+                   <span className="truncate">
+                     {story.coverEmoji} {story.title}
+                   </span>
+                 </Link>
                ))}
              </div>
            </div>
