@@ -131,9 +131,9 @@ export default function SupportBanner({ className = "" }: SupportBannerProps) {
             {/* MIDDLE — explanation + highlighted amounts */}
             <div className="shrink-0" style={{ width: 244 }}>
               <p className="text-[10.5px] leading-[1.45] text-slate-300">
-                সার্ভার, ডোমেইন আর টুলসের খরচ আছে।
+                Non-Commercial এই Project এর সার্ভার, ডোমেইন আর টুলসের খরচ আছে।
                 <span className="mt-0.5 block font-bold text-amber-300">
-                  এককালীন ২০, ৫০, ১২০ টাকা
+                  এককালীন ২০/৪০/৬০/৮০/১২০ টাকা
                 </span>
                 দিয়েও আমাদের সাপোর্ট করতে পারেন।
               </p>
@@ -211,14 +211,14 @@ export default function SupportBanner({ className = "" }: SupportBannerProps) {
 
             {/* 4. Short explanation */}
             <p className="text-[12.5px] leading-[1.55] text-slate-300">
-              এই প্রজেক্টটা চালাতে সার্ভার,
+              Non-Commercial এই প্রজেক্টটা চালাতে সার্ভার,
               <br />
-              ডোমেইন ও অন্যান্য খরচ আছে।
+              ডোমেইন ও অন্যান্য খরচ আছে। 
             </p>
 
             {/* 5. One-time support amounts (gold highlight) */}
             <p className="mt-2 text-[12.5px] leading-[1.55] text-slate-300">
-              <span className="font-extrabold text-amber-300">এককালীন ২০, ৫০, ১২০ টাকা</span>
+              <span className="font-extrabold text-amber-300">এককালীন ২০/৪০/৬০/৮০/১২০ টাকা</span>
               <br />
               দিয়েও সাপোর্ট করতে পারেন।
             </p>

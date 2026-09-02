@@ -1,9 +1,10 @@
 'use client';
 
-import { useState, useCallback, useMemo, useRef, useEffect } from 'react';
+import { useState, useCallback, useMemo, useRef, useEffect, Fragment } from 'react';
 import Link from 'next/link';
 import vocaDictData from '../../../data/t20/english/grammar/vocabulary/stories/storyvocabulary.json';
-import { getStories } from '../../lib/vocabStories';
+import { getStories, buildQuizQuestions } from '../../lib/vocabStories';
+import SupportBanner from '@/components/support/SupportBanner';
 
 /* ============================================================
    Parser: Extract word tokens from story content
@@ -121,36 +122,7 @@ function VocabTooltip({ wordData, position, onClose, onMouseEnter, onMouseLeave 
 /* ============================================================
    Quiz Modal Component
    ============================================================ */
-function QuizModal({ story, dictionary, onClose, onQuizComplete }) {
-  const questions = useMemo(() => {
-    if (!story?.quizWordIds?.length) return [];
-
-    return story.quizWordIds
-      .map((id) => {
-        const correctWord = dictionary[id];
-        if (!correctWord) return null;
-
-        // Build distractors from other words in the dictionary
-        const otherEntries = Object.entries(dictionary).filter(
-          ([key]) => key !== id
-        );
-        const shuffled = otherEntries.sort(() => 0.5 - Math.random());
-        const distractors = shuffled.slice(0, 3).map(([, v]) => v.bn_meaning);
-
-        const options = [correctWord.bn_meaning, ...distractors].sort(
-          () => 0.5 - Math.random()
-        );
-
-        return {
-          wordId: id,
-          word: correctWord.word,
-          correctAnswer: correctWord.bn_meaning,
-          options,
-        };
-      })
-      .filter(Boolean);
-  }, [story, dictionary]);
-
+function QuizModal({ questions, onClose, onQuizComplete }) {
   const [currentQ, setCurrentQ] = useState(0);
   const [score, setScore] = useState(0);
   const [selected, setSelected] = useState(null);
@@ -451,15 +423,39 @@ export default function VoTale({ initialStory = null, showPrevNext = false }) {
     };
   }, []);
 
-  const parsedContent = useMemo(
-    () => parseContent(activeStory?.content || ''),
-    [activeStory]
-  );
-
   // Content truncation: only the first paragraph is rendered by default
   const firstParagraphContent = useMemo(
     () => parseContent((activeStory?.content || '').split('\n\n')[0]),
     [activeStory]
+  );
+
+  // Full story split into paragraphs (each an array of parsed segments), so a
+  // mid-reading support banner can be inserted after the 2nd paragraph.
+  const fullParagraphs = useMemo(() => {
+    if (!activeStory?.content) return [];
+    return activeStory.content
+      .split('\n\n')
+      .filter((p) => p.trim())
+      .map((p) => parseContent(p));
+  }, [activeStory]);
+
+  // The vocabulary words actually highlighted in the story body (token ids).
+  const contentWordIds = useMemo(() => {
+    if (!activeStory?.content) return [];
+    return [
+      ...new Set(
+        parseContent(activeStory.content)
+          .filter((s) => s.type === 'token')
+          .map((s) => s.id)
+      ),
+    ];
+  }, [activeStory]);
+
+  // Dynamic quiz: 3–5 MCQs generated from the story's highlighted words.
+  const quizQuestions = useMemo(
+    () =>
+      buildQuizQuestions({ ...activeStory, contentWordIds }, dictionary),
+    [activeStory, contentWordIds, dictionary]
   );
 
   // Collapse back to the truncated view whenever the story changes
@@ -530,6 +526,34 @@ export default function VoTale({ initialStory = null, showPrevNext = false }) {
       }
     }, 150);
   }, [isHoveringTooltip]);
+
+  // Renders a single parsed segment (plain text or clickable vocab token).
+  const renderSegment = useCallback(
+    (segment, idx) => {
+      if (segment.type === 'text') {
+        const parts = segment.value.split(/(\n)/g);
+        return (
+          <span key={`text-${idx}`}>
+            {parts.map((part, i) =>
+              part === '\n' ? <br key={`br-${i}`} /> : part
+            )}
+          </span>
+        );
+      }
+      return (
+        <button
+          key={`token-${segment.id}-${idx}`}
+          onClick={(e) => handleWordClick(e, segment.id)}
+          onMouseEnter={(e) => handleWordMouseEnter(e, segment.id)}
+          onMouseLeave={handleWordMouseLeave}
+          className="font-bold text-red-600 cursor-pointer underline decoration-dotted underline-offset-4 hover:text-red-700 transition-colors"
+        >
+          {segment.display}
+        </button>
+      );
+    },
+    [handleWordClick, handleWordMouseEnter, handleWordMouseLeave]
+  );
 
   const handleTooltipMouseEnter = useCallback(() => {
     setIsHoveringTooltip(true);
@@ -662,31 +686,27 @@ export default function VoTale({ initialStory = null, showPrevNext = false }) {
                   ref={contentRef}
                   className="leading-snug text-sm sm:text-base text-slate-700 space-y-3 break-words overflow-wrap-anywhere"
                 >
-                 {(storyExpanded ? parsedContent : firstParagraphContent).map((segment, idx) => {
-                   if (segment.type === 'text') {
-                     const parts = segment.value.split(/(\n)/g);
-                     return (
-                       <span key={`text-${idx}`}>
-                         {parts.map((part, i) =>
-                           part === '\n' ? <br key={`br-${i}`} /> : part
+                 {(storyExpanded ? (
+                   fullParagraphs.map((segments, pIdx) => (
+                     <Fragment key={`para-${pIdx}`}>
+                       <div className="space-y-3">
+                         {segments.map((segment, idx) =>
+                           renderSegment(segment, idx)
                          )}
-                       </span>
-                     );
-                   }
-                   return (
-                     <button
-                       key={`token-${segment.id}-${idx}`}
-                       onClick={(e) => handleWordClick(e, segment.id)}
-                       onMouseEnter={(e) =>
-                         handleWordMouseEnter(e, segment.id)
-                       }
-                       onMouseLeave={handleWordMouseLeave}
-                       className="font-bold text-red-600 cursor-pointer underline decoration-dotted underline-offset-4 hover:text-red-700 transition-colors"
-                     >
-                       {segment.display}
-                     </button>
-                   );
-                 })}
+                       </div>
+                       {/* Mid-article SupportKori banner — after the 2nd paragraph */}
+                       {pIdx === 1 && (
+                         <div className="my-6 w-full max-w-[728px] mx-auto">
+                           <SupportBanner />
+                         </div>
+                       )}
+                     </Fragment>
+                   ))
+                 ) : (
+                   firstParagraphContent.map((segment, idx) =>
+                     renderSegment(segment, idx)
+                   )
+                 ))}
                </div>
 
                {/* Read Full Story button — shown only in truncated view */}
@@ -718,7 +738,7 @@ export default function VoTale({ initialStory = null, showPrevNext = false }) {
                )}
 
                {/* CTA Button */}
-               {storyExpanded && activeStory.quizWordIds?.length > 0 && (
+               {storyExpanded && quizQuestions.length > 0 && (
                  <button
                    onClick={() => setShowQuiz(true)}
                    className="w-full py-3 sm:py-4 bg-gradient-to-r from-[#1E53C5] to-[#2a6bdf] text-white rounded-2xl font-bold text-sm sm:text-base hover:brightness-110 transition-all shadow-lg shadow-[#1E53C5]/20"
@@ -819,8 +839,7 @@ export default function VoTale({ initialStory = null, showPrevNext = false }) {
        {/* Quiz Modal */}
        {showQuiz && (
          <QuizModal
-           story={activeStory}
-           dictionary={dictionary}
+           questions={quizQuestions}
            onClose={() => setShowQuiz(false)}
            onQuizComplete={handleQuizComplete}
          />
