@@ -15,9 +15,15 @@ export default function ArticleViewTracker({ slug }: { slug: string }) {
     if (!slug || fired.current) return;
     fired.current = true;
 
-    trackArticleView(slug).catch(() => {
-      // Swallow — reading the article must never be interrupted.
-    });
+    // Fully isolated: a tracking failure (network, DB write, server error) must
+    // never affect the article the visitor is reading.
+    try {
+      Promise.resolve(trackArticleView(slug)).catch((error) => {
+        console.error("ArticleViewTracker: view tracking failed:", error);
+      });
+    } catch (error) {
+      console.error("ArticleViewTracker: view tracking failed:", error);
+    }
   }, [slug]);
 
   return null;
