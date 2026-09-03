@@ -3,15 +3,19 @@
 // at a SAFE top-level block boundary. It never inserts inside a paragraph,
 // heading, list, blockquote, code block or table.
 //
-// The primary content source is Tiptap HTML (`contentHtml`), which we split with
-// jsdom (already part of the project's server stack — see next.config.mjs
-// `serverExternalPackages`). A conservative, fence-aware splitter is used for the
-// legacy Markdown fallback.
+// IMPORTANT — jsdom is loaded with a LAZY dynamic import (never a top-level
+// `import { JSDOM } from "jsdom"`). A static jsdom import pulled a heavy Node
+// package into the /blog/[slug] serverless bundle's import graph, which is a
+// known cause of import-time 500s on Vercel. With the dynamic import:
+//   - jsdom is only loaded when an HTML article actually needs splitting, and
+//   - if it is unavailable/fails at runtime we fall back to rendering the full
+//     body (no mid banner) instead of crashing the page.
+//
+// A conservative, fence-aware splitter is used for the legacy Markdown fallback
+// (no DOM required at all).
 //
 // Returns an object describing the two article halves and whether the article is
 // long enough to deserve a middle banner (short posts → only the end banner).
-
-import { JSDOM } from "jsdom";
 
 export interface ArticleSplitResult {
   /** First half of the content (same format as the input). */
@@ -38,8 +42,23 @@ function noSplit(content: string): ArticleSplitResult {
 
 // ---------------------------------------------------------------------------
 // HTML path (primary) — split top-level blocks with a real DOM parser.
+// jsdom is loaded lazily so it stays OUT of the serverless bundle's import graph.
 // ---------------------------------------------------------------------------
-function splitHtml(html: string): ArticleSplitResult {
+async function splitHtml(html: string): Promise<ArticleSplitResult> {
+  // Lazy, fail-soft jsdom load.
+  let JSDOM: (new (html: string) => {
+    window: { document: Document };
+  }) | null = null;
+  try {
+    JSDOM = (await import("jsdom")).JSDOM;
+  } catch (error) {
+    console.error(
+      "articleBanner: jsdom unavailable — rendering full article body without the mid banner:",
+      error
+    );
+    return noSplit(html);
+  }
+
   const dom = new JSDOM(html);
   const doc = dom.window.document;
   const body = doc.body;
@@ -195,13 +214,21 @@ function splitMarkdown(md: string): ArticleSplitResult {
  * Pass the source for the format in use:
  *  - html: the `contentHtml` value
  *  - markdown: the `content` value
+ *
+ * Async + fail-soft: never throws, so the article page can never 500 because of
+ * the banner placement logic.
  */
-export function computeArticleSplit(input: {
+export async function computeArticleSplit(input: {
   html?: string | null;
   markdown?: string | null;
-}): ArticleSplitResult {
+}): Promise<ArticleSplitResult> {
   if (input.html && input.html.trim()) {
-    return splitHtml(input.html);
+    try {
+      return await splitHtml(input.html);
+    } catch (error) {
+      console.error("articleBanner: splitHtml failed — rendering full body:", error);
+      return noSplit(input.html);
+    }
   }
   if (input.markdown && input.markdown.trim()) {
     return splitMarkdown(input.markdown);

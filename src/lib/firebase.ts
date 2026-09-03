@@ -17,7 +17,11 @@ const firebaseConfig = {
 // fixing code 3 again change 
 const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
 
-export const auth = getAuth(app);
+// Auth is browser-only (used by AuthContext / login). Initialising it on the
+// server dragged browser persistence APIs into the serverless bundle, so it is
+// now created lazily only in the browser. Server code only ever needs `db`.
+export const auth =
+  typeof window !== "undefined" ? getAuth(app) : (undefined as unknown as ReturnType<typeof getAuth>);
 export const googleProvider = new GoogleAuthProvider();
 export const db = getFirestore(app);
 export const storage = getStorage(app);

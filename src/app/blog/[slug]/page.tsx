@@ -235,8 +235,26 @@ export async function generateMetadata({ params }: BlogDetailsPageProps): Promis
   }
 }
 
+// TEMPORARY DIAGNOSTIC WRAPPER — captures the EXACT runtime crash in Vercel
+// Function Logs (message + full stack + source line) for the on-demand 500.
+// Once the root cause is confirmed and fixed, this wrapper can be removed.
+// NOTE: notFound() throws a special Next.js error; rethrowing it preserves its
+// internal `digest`, so a missing post still renders a real 404 — never a 500.
 export default async function BlogDetailsPage({ params }: BlogDetailsPageProps) {
+  try {
+    return await renderBlogDetailsPage(params);
+  } catch (err: any) {
+    console.error(
+      "CRITICAL VERCEL SSR CRASH IN BLOG PAGE:",
+      err?.stack || err?.message || err
+    );
+    throw err;
+  }
+}
+
+async function renderBlogDetailsPage(params: BlogDetailsPageProps["params"]) {
   const { slug } = await params;
+  console.log("Rendering dynamic blog page for slug:", slug);
   const post = await fetchBlogPost(slug);
 
   // Missing / unpublished / deleted post → a real 404 (never a 500).
@@ -328,12 +346,8 @@ export default async function BlogDetailsPage({ params }: BlogDetailsPageProps) 
     after: null,
     showMiddle: false,
   };
-  try {
-    const computed = computeArticleSplit({ html: post.contentHtml, markdown: post.content });
-    if (computed.before || computed.after) articleSplit = computed;
-  } catch (err) {
-    console.error("Blog page: article split failed, rendering full body:", err);
-  }
+  const computed = await computeArticleSplit({ html: post.contentHtml, markdown: post.content });
+  if (computed.before || computed.after) articleSplit = computed;
   const hasHtmlBody = Boolean(post.contentHtml);
 
   return (
