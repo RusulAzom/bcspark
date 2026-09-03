@@ -10,7 +10,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { collection, query, where, getDocs, limit, orderBy } from "firebase/firestore";
 import ReactMarkdown from "react-markdown";
-import { Calendar, Eye, ArrowLeft, ChevronRight, BookOpen } from "lucide-react";
+import { Calendar, ArrowLeft, ChevronRight, BookOpen } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { db } from "@/lib/firebase";
@@ -18,8 +18,10 @@ import { Category, getCategoryBreadcrumbs } from "@/lib/blog-helpers";
 import { BlogPost } from "@/components/blog/BlogCard";
 import { computeArticleSplit, type ArticleSplitResult } from "@/lib/articleBanner";
 import SupportBanner from "@/components/support/SupportBanner";
-import ArticleViewTracker from "@/components/blog/ArticleViewTracker";
-import { formatBengaliNumber } from "@/lib/formatBengaliNumber";
+// VIEW COUNTER TEMPORARILY DISABLED (stabilize SSR on Vercel)
+// import ArticleViewTracker from "@/components/blog/ArticleViewTracker";
+// VIEW COUNTER TEMPORARILY DISABLED (stabilize SSR on Vercel)
+// import { formatBengaliNumber } from "@/lib/formatBengaliNumber";
 
 interface BlogDetailsPageProps {
   params: Promise<{ slug: string }>;
@@ -297,8 +299,8 @@ export default async function BlogDetailsPage({ params }: BlogDetailsPageProps) 
   return (
     <>
       <Navbar />
-      {/* Records a view once via the deduplicated server action */}
-      <ArticleViewTracker slug={post.slug} />
+      {/* VIEW COUNTER TEMPORARILY DISABLED (stabilize SSR on Vercel) */}
+      {/* <ArticleViewTracker slug={post.slug} /> */}
 
       <main className="flex-1 bg-brand-bg py-8 font-sans">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 space-y-6">
@@ -355,10 +357,11 @@ export default async function BlogDetailsPage({ params }: BlogDetailsPageProps) 
                   <Calendar className="h-4 w-4 text-gray-400" />
                   <span>পাবলিশড: {formatDate(post.createdAt)}</span>
                 </div>
-                <div className="flex items-center gap-1.5">
+                {/* VIEW COUNTER TEMPORARILY DISABLED (stabilize SSR on Vercel) */}
+                {/* <div className="flex items-center gap-1.5">
                   <Eye className="h-4 w-4 text-gray-400" />
                   <span>{formatBengaliNumber(post.views)} বার পঠিত</span>
-                </div>
+                </div> */}
               </div>
             </div>
 
