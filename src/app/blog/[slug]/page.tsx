@@ -3,6 +3,18 @@
 // This route must be statically generated — a Dynamic (ƒ) route streams its
 // shell, which locks the HTTP status at 200 and turns notFound() into a
 // soft-404. As an SSG route, missing slugs return a real 404 status.
+//
+// NEWLY PUBLISHED BLOGS: slugs that were not prerendered at build time are
+// rendered ON DEMAND (ISR). To keep those on-demand renders from 500-ing while
+// Firestore is slow/cold on Vercel:
+//   1. `dynamicParams = true` explicitly allows on-demand rendering of uncached
+//      slugs (instead of rejecting them).
+//   2. Every Firestore query is wrapped in a strict timeout guard, so a lagging
+//      or hung query settles quickly.
+//   3. A failed/timed-out fetch returns `null`, which becomes a graceful
+//      notFound() — never an unhandled Server Component crash.
+
+export const dynamicParams = true; // allow dynamic rendering for uncached slugs
 export const revalidate = 60;
 
 import { Metadata } from "next";
@@ -25,6 +37,27 @@ import SupportBanner from "@/components/support/SupportBanner";
 
 interface BlogDetailsPageProps {
   params: Promise<{ slug: string }>;
+}
+
+/**
+ * Hard deadline for a single Firestore query. On cold serverless starts or
+ * during on-demand (ISR) route resolution a hung query would otherwise hold the
+ * render open until Vercel's function timeout → HTTP 500. Racing the query
+ * against this timer guarantees the render always settles.
+ */
+const DB_TIMEOUT_MS = Number(process.env.BLOG_DB_TIMEOUT_MS ?? 8000);
+
+function withTimeout<T>(promise: Promise<T>, ms: number = DB_TIMEOUT_MS): Promise<T> {
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  const deadline = new Promise<never>((_, reject) => {
+    timer = setTimeout(
+      () => reject(new Error(`Firestore query timed out after ${ms}ms`)),
+      ms
+    );
+  });
+  return Promise.race([promise, deadline]).finally(() => {
+    if (timer) clearTimeout(timer);
+  });
 }
 
 // Fetch Blog post helper
@@ -51,11 +84,11 @@ async function fetchBlogPost(rawSlug: string): Promise<BlogPost | null> {
     );
 
   try {
-    let snap = await getDocs(buildQuery(slug));
+    let snap = await withTimeout(getDocs(buildQuery(slug)));
 
     // Second chance: tolerate a differently-cased slug instead of failing.
     if (snap.empty && slug !== slug.toLowerCase()) {
-      snap = await getDocs(buildQuery(slug.toLowerCase()));
+      snap = await withTimeout(getDocs(buildQuery(slug.toLowerCase())));
     }
 
     if (snap.empty) return null;
@@ -76,7 +109,9 @@ async function fetchBlogPost(rawSlug: string): Promise<BlogPost | null> {
       createdAt: data.createdAt,
     } as BlogPost;
   } catch (err) {
-    console.error("Error fetching blog post by slug:", err);
+    // Timeout / network / permission error on an on-demand request → return
+    // null so the page renders a graceful notFound() instead of a 500.
+    console.error("Error fetching dynamic blog post on Vercel:", err);
     return null;
   }
 }
@@ -84,7 +119,9 @@ async function fetchBlogPost(rawSlug: string): Promise<BlogPost | null> {
 // Fetch Categories Helper
 async function fetchAllCategories(): Promise<Category[]> {
   try {
-    const snap = await getDocs(query(collection(db, "categories"), orderBy("createdAt", "asc")));
+    const snap = await withTimeout(
+      getDocs(query(collection(db, "categories"), orderBy("createdAt", "asc")))
+    );
     return snap.docs.map((docEl) => {
       const data = docEl.data();
       return {
@@ -110,7 +147,7 @@ async function fetchRelatedBlogs(categoryId: string, currentBlogId: string): Pro
       where("categoryIds", "array-contains", categoryId),
       limit(4)
     );
-    const snap = await getDocs(q);
+    const snap = await withTimeout(getDocs(q));
     const list: BlogPost[] = [];
     snap.docs.forEach((docEl) => {
       if (docEl.id !== currentBlogId && list.length < 3) {
@@ -138,12 +175,15 @@ async function fetchRelatedBlogs(categoryId: string, currentBlogId: string): Pro
 // Prerender the slugs of all currently published posts at build time.
 // Slugs come straight from the Firestore `slug` field, so they always match the
 // exact casing/hyphenation used by `generateSlug` when the post was saved.
-// A failure here must never break the build — we fall back to on-demand
-// rendering (dynamicParams defaults to true) instead.
+// A failure/timeout here must never break the build — we return [] and fall back
+// to on-demand rendering (dynamicParams = true) instead.
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
   try {
-    const snap = await getDocs(
-      query(collection(db, "blogs"), where("status", "==", "published"), limit(1000))
+    const snap = await withTimeout(
+      getDocs(
+        query(collection(db, "blogs"), where("status", "==", "published"), limit(1000))
+      ),
+      15000 // build-time window: a bit more headroom than the per-request guard
     );
     return snap.docs
       .map((docEl) => docEl.data()?.slug)
