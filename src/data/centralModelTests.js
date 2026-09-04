@@ -22,8 +22,8 @@
   //   },
    {
     examId: 'cmt-combined-001',
-    title: 'Combined Model Test\n| সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ',
-    scheduledDateTime: '2026-08-07T20:00:00+06:00',
+    title: 'Model Test - 01\n| সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ',
+    scheduledDateTime: '2026-09-04T22:00:00+06:00',
     questions: 70,
     marks: 70,
     description: 'Combined model test with questions from DSS 2016, 2022 and Demo',

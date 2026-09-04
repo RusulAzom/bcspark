@@ -1,6 +1,6 @@
 {
   "examInfo": {
-    "examName": "Combined Model Test",
+    "examName": "১ম সাপ্তাহিক মডেল টেস্ট - ইউনিয়ন সমাজকর্মী",
     "examType": "preliminary",
     "totalMarks": "70",
     "totalQuestions": 70
@@ -9,1191 +9,1191 @@
     {
       "id": 1,
       "subject": "বাংলা",
-      "topics": "ব্যাকরণ",
-      "q": "বাংলা ভাষায় যৌগিক স্বরধ্বনির সংখ্যাটি?",
+      "topics": "কারক ও বিভক্তি",
+      "q": "‘বনে বাঘ আছে’ - ‘বনে’ কোন কারকে কোন বিভক্তি?",
       "options": [
-        "১১টি",
-        "২৫টি",
-        "৪০টি",
-        "৫০টি"
+        "অধিকরণে ৭মী",
+        "কর্মে ৭মী",
+        "করণে ৭মী",
+        "অপাদানে ৭মী"
       ],
-      "ans": 1,
-      "explain": "বাংলা ভাষায় যৌগিক স্বরধ্বনির সংখ্যা ২৫টি। [৫]",
+      "ans": 0,
+      "explain": "স্থান বোঝালে অধিকরণ কারক, ‘এ’ বিভক্তি ৭মী। [১]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 2,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "বার্ষিক ৫% হারে ৭৫০ টাকার ৪ বছরের মুনাফা কত?",
+      "subject": "বাংলা",
+      "topics": "কারক ও বিভক্তি",
+      "q": "‘টাকায় কী না হয়’ - ‘টাকায়’ কোন কারক?",
       "options": [
-        "২০০ টাকা",
-        "১৫০ টাকা",
-        "২৫০ টাকা",
-        "৩০০ টাকা"
+        "করণে ৭মী",
+        "অধিকরণে ৭মী",
+        "অপাদানে ৭মী",
+        "কর্মে ৭মী"
       ],
-      "ans": 1,
-      "explain": "মুনাফা = (৭৫০ * ৪ * ৫) / ১০০ = ১৫০ টাকা। [১৫, ১৬]",
+      "ans": 0,
+      "explain": "টাকার দ্বারা বোঝালে করণ কারক। [২]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 3,
       "subject": "বাংলা",
-      "topics": "সাহিত্য",
-      "q": "রবীন্দ্রনাথ ঠাকুর কত সালে নোবেল পুরস্কার পান?",
+      "topics": "কারক ও বিভক্তি",
+      "q": "‘পাগলে কী না বলে’ - ‘পাগলে’ কোন কারক?",
       "options": [
-        "১৯১০",
-        "১৯১১",
-        "১৯১৩",
-        "১৯১৫"
+        "কর্তায় ৭মী",
+        "কর্মে ৭মী",
+        "করণে ৭মী",
+        "অপাদানে ৭মী"
       ],
-      "ans": 2,
-      "explain": "রবীন্দ্রনাথ ঠাকুর ১৯১৩ সালে গীতাঞ্জলি কাব্যের জন্য সাহিত্যে নোবেল পান। [১৫]",
+      "ans": 0,
+      "explain": "পাগল কর্তা, ‘এ’ ৭মী বিভক্তি। [৩]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 4,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "বার্ষিক ৪.৫% হারে কত টাকা বিনিয়োগ করলে ৪ বছরে তা ৮২৬ টাকা (সুদ-আসলে) হবে?",
+      "subject": "বাংলা",
+      "topics": "কারক ও বিভক্তি",
+      "q": "‘ছাদ থেকে চাঁদ দেখা যায়’ - ‘ছাদ থেকে’ কোন কারক?",
       "options": [
-        "৬৫০ টাকা",
-        "৭০০ টাকা",
-        "৭৫০ টাকা",
-        "৮০০ টাকা"
+        "অপাদানে ৫মী",
+        "করণে ৫মী",
+        "অধিকরণে ৫মী",
+        "কর্মে ৫মী"
       ],
-      "ans": 1,
-      "explain": "আসল = (সুদআসল x ১০০) / (১০০ + হার x সময়) = (৮২৬ x ১০০) / ১১৮ = ৭০০। [৫৭]",
+      "ans": 0,
+      "explain": "হতে, থেকে, চেয়ে অপাদান কারকের চিহ্ন, ৫মী বিভক্তি। [৪]",
       "source": [
-        "All bcs-math-solutions PDF"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 5,
       "subject": "বাংলা",
-      "topics": "সাহিত্য",
-      "q": "কাজী নজরুল ইসলামের প্রথম কাব্যগ্রন্থের নাম কী?",
+      "topics": "কারক ও বিভক্তি",
+      "q": "‘ডাক্তার ডাক’ - ‘ডাক্তার’ কোন কারক?",
       "options": [
-        "অগ্নিবীণা",
-        "বিষের বাঁশি",
-        "ছায়ানট",
-        "চক্রবাক"
+        "কর্মে শূন্য",
+        "কর্তায় শূন্য",
+        "করণে শূন্য",
+        "অপাদানে শূন্য"
       ],
       "ans": 0,
-      "explain": "অগ্নিবীণা নজরুল ইসলামের প্রথম কাব্যগ্রন্থ, যা ১৯২২ সালে প্রকাশিত হয়। [৭]",
+      "explain": "যাকে আশ্রয় করে ক্রিয়া সম্পন্ন হয় তা কর্মকারক, শূন্য বিভক্তি। [৫]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 6,
-      "subject": "English",
-      "topics": "Grammar",
-      "q": "Thief এর plural কোনটি?",
+      "subject": "বাংলা",
+      "topics": "কারক ও বিভক্তি",
+      "q": "‘গরুতে দুধ দেয়’ - ‘গরুতে’ কোন কারক?",
       "options": [
-        "Thiefes",
-        "Thieves",
-        "Thiefs",
-        "Thives"
+        "কর্তায় ৭মী",
+        "কর্মে ৭মী",
+        "করণে ৭মী",
+        "অপাদানে ৭মী"
       ],
-      "ans": 1,
-      "explain": "Thief শব্দের শেষে 'f' থাকায় plural করার সময় 'ves' যুক্ত হয়। [১১]",
+      "ans": 0,
+      "explain": "গরু দুধ দেয়ার কর্তা, তে ৭মী। [৬]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 7,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক",
-      "q": "জাতিসংঘের সদর দপ্তর কোথায় অবস্থিত?",
+      "subject": "বাংলা",
+      "topics": "কারক ও বিভক্তি",
+      "q": "‘বুলবুলিতে ধান খেয়েছে’ - ‘বুলবুলিতে’ কোন কারক?",
       "options": [
-        "লন্ডন",
-        "প্যারিস",
-        "নিউইয়র্ক",
-        "জেনেভা"
+        "কর্তায় ৭মী",
+        "কর্মে ৭মী",
+        "করণে ৭মী",
+        "অপাদানে ৭মী"
       ],
-      "ans": 2,
-      "explain": "জাতিসংঘের সদর দপ্তর যুক্তরাষ্ট্রের নিউইয়র্কে অবস্থিত। [১৫]",
+      "ans": 0,
+      "explain": "বুলবুলি খাওয়ার কর্তা, কর্তায় ৭মী। [৭]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 8,
-      "subject": "English",
-      "topics": "Verbs & Tense",
-      "q": "If it rains, I ___ not go out.",
+      "subject": "বাংলা",
+      "topics": "কারক ও বিভক্তি",
+      "q": "‘সাপের ভয়ে’ - ‘ভয়ে’ কোন কারক?",
       "options": [
-        "do",
-        "shall",
-        "would",
-        "did"
+        "অপাদানে ৭মী",
+        "করণে ৭মী",
+        "অধিকরণে ৭মী",
+        "কর্মে ৭মী"
       ],
-      "ans": 1,
-      "explain": "First Conditional অনুযায়ী If + Present হলে পরের অংশ Future Simple হয়। [১৫]",
+      "ans": 0,
+      "explain": "ভয় থেকে অপাদান, এ ৭মী। [৮]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 9,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশ",
-      "q": "বাংলাদেশের সংবিধানের অভিভাবক কে?",
+      "subject": "বাংলা",
+      "topics": "কারক ও বিভক্তি",
+      "q": "‘তিলে তেল হয়’ - ‘তিলে’ কোন কারক?",
       "options": [
-        "সংসদ",
-        "সুপ্রিম কোর্ট",
-        "রাষ্ট্রপতি",
-        "আইন মন্ত্রণালয়"
+        "অপাদানে ৭মী",
+        "করণে ৭মী",
+        "অধিকরণে ৭মী",
+        "কর্মে ৭মী"
       ],
-      "ans": 1,
-      "explain": "সুপ্রিম কোর্ট বাংলাদেশের সংবিধানের চূড়ান্ত ব্যাখ্যা প্রদানকারী ও অভিভাবক। [১৫]",
+      "ans": 0,
+      "explain": "উৎপন্ন বোঝালে অপাদান, তিল থেকে তেল। [৯]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 10,
       "subject": "বাংলা",
-      "topics": "সন্ধি",
-      "q": "'বনৌষধি' এর সঠিক সন্ধিবিচ্ছেদ কোনটি?",
+      "topics": "কারক ও বিভক্তি",
+      "q": "‘জিজ্ঞাসিব জনে জনে’ - ‘জনে জনে’ কোন কারক?",
       "options": [
-        "বন + ঔষধি",
-        "বন + ওষধি",
-        "বনা + ঔষধি",
-        "বনৌ + ষধি"
+        "কর্মে ৭মী",
+        "কর্তায় ৭মী",
+        "করণে ৭মী",
+        "অপাদানে ৭মী"
       ],
-      "ans": 1,
-      "explain": "অ-কারের পর ও-কার থাকলে উভয় মিলে ঔ-কার হয়। [১৫]",
+      "ans": 0,
+      "explain": "যাকে জিজ্ঞাসা করা হবে তা কর্ম, এ ৭মী। [১০]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 11,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক",
-      "q": "পৃথিবীর বৃহত্তম মহাসাগর কোনটি?",
+      "subject": "বাংলা",
+      "topics": "কারক ও বিভক্তি",
+      "q": "‘আকাশে চাঁদ উঠেছে’ - ‘আকাশে’ কোন কারক?",
       "options": [
-        "আটলান্টিক",
-        "ভারত",
-        "প্রশান্ত",
-        "উত্তর"
+        "অধিকরণে ৭মী",
+        "কর্মে ৭মী",
+        "করণে ৭মী",
+        "অপাদানে ৭মী"
       ],
-      "ans": 2,
-      "explain": "প্রশান্ত মহাসাগর পৃথিবীর বৃহত্তম ও গভীরতম মহাসাগর। [১৫]",
+      "ans": 0,
+      "explain": "স্থান অধিকরণ, এ ৭মী। [১১]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 12,
-      "subject": "English",
-      "topics": "Others",
-      "q": "___ honest man is respected everywhere.",
+      "subject": "বাংলা",
+      "topics": "কারক ও বিভক্তি",
+      "q": "কর্তৃকারকে শূন্য বিভক্তির উদাহরণ কোনটি?",
       "options": [
-        "A",
-        "An",
-        "The",
-        "No article"
+        "ছেলেরা খেলে",
+        "ছেলেদের খেলা",
+        "ছেলেদের দ্বারা",
+        "ছেলেতে"
       ],
-      "ans": 1,
-      "explain": "Honest শব্দটির উচ্চারণ 'ও' এর মতো হওয়ায় এর আগে An বসে। [৯৯]",
+      "ans": 0,
+      "explain": "ছেলেরা কর্তা, শূন্য বিভক্তি। [১২]",
       "source": [
-        "Satt Academy"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 13,
-      "subject": "English",
-      "topics": "Others",
-      "q": "What is the meaning of 'In a nutshell'?",
+      "subject": "বাংলা",
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "১৯শ শতকের ‘দুর্গেশনন্দিনী’ উপন্যাসের রচয়িতা কে?",
       "options": [
-        "Briefly",
-        "Details",
-        "Nut shell",
-        "Very hard"
+        "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
+        "মাইকেল মধুসূদন",
+        "দীনবন্ধু মিত্র",
+        "ঈশ্বরচন্দ্র বিদ্যাসাগর"
       ],
       "ans": 0,
-      "explain": "In a nutshell একটি ইডিয়াম যার অর্থ সংক্ষেপে। [১৫]",
+      "explain": "বাংলা সাহিত্যের প্রথম সার্থক উপন্যাস দুর্গেশনন্দিনী ১৮৬৫ সালে বঙ্কিমচন্দ্র লেখেন। [১৩]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 14,
       "subject": "বাংলা",
-      "topics": "ব্যাকরণ",
-      "q": "বাংলাদেশ ছাড়া কোন অঞ্চলের মানুষের ভাষা বাংলা?",
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "‘মেঘনাদবধ কাব্য’ কোন সালে প্রকাশিত হয়?",
       "options": [
-        "উড়িষ্যা",
-        "তামিল",
-        "নাগপুর",
-        "মিজোরাম"
+        "১৮৬১",
+        "১৮৬৫",
+        "১৮৭৩",
+        "১৮৬০"
       ],
       "ans": 0,
-      "explain": "ভারতের উড়িষ্যা ও পশ্চিমবঙ্গ অঞ্চলের মানুষের প্রধান ভাষা বাংলা। [৪]",
+      "explain": "মাইকেল মধুসূদন দত্তের অমিত্রাক্ষর ছন্দের মহাকাব্য মেঘনাদবধ ১৮৬১ সালে প্রকাশিত। [১৪]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 15,
       "subject": "বাংলা",
-      "topics": "সমাস",
-      "q": "'হাটবাজার' কোন সমাসের উদাহরণ?",
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "‘নীলদর্পণ’ নাটকের রচয়িতা কে?",
       "options": [
-        "তৎপুরুষ",
-        "অব্যয়ীভাব",
-        "দ্বন্দ্ব",
-        "বহুব্রীহি"
+        "দীনবন্ধু মিত্র",
+        "বঙ্কিমচন্দ্র",
+        "মধুসূদন",
+        "বিদ্যাসাগর"
       ],
-      "ans": 2,
-      "explain": "হাট ও বাজার = হাটবাজার; এটি সমার্থক দ্বন্দ্ব সমাস। [১৫]",
+      "ans": 0,
+      "explain": "নীলকরদের অত্যাচার নিয়ে দীনবন্ধু মিত্র ১৮৬০ সালে নীলদর্পণ লেখেন। [১৫]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 16,
       "subject": "বাংলা",
-      "topics": "উপসর্গ",
-      "q": "'নিখুঁত' শব্দে 'নি' কোন প্রকারের উপসর্গ?",
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "বাংলা গদ্যের জনক কে?",
       "options": [
-        "খাঁটি বাংলা",
-        "তৎসম",
-        "বিদেশি",
-        "ফারসি"
+        "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+        "বঙ্কিমচন্দ্র",
+        "রামমোহন রায়",
+        "অক্ষয়কুমার দত্ত"
       ],
       "ans": 0,
-      "explain": "নি, অঘ, অজ ইত্যাদি খাঁটি বাংলা উপসর্গ। [১৫]",
+      "explain": "বাংলা গদ্যকে সুশৃঙ্খল রূপ দেন বিদ্যাসাগর, তাই গদ্যের জনক। [১৬]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 17,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "একটি সংখ্যা ৭৪২ হতে যত বড় ৮৩০ হতে তত ছোট, সংখ্যাটি কত?",
+      "subject": "বাংলা",
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "‘কপালকুণ্ডলা’ কোন ধরনের রচনা?",
       "options": [
-        "৭৮০",
-        "৭৮২",
-        "৭৯০",
-        "৭৮৬"
+        "উপন্যাস",
+        "নাটক",
+        "কাব্য",
+        "প্রবন্ধ"
       ],
-      "ans": 3,
-      "explain": "সংখ্যাটি = (৭৪২ + ৮৩০) / ২ = ৭৮৬। [১৮]",
+      "ans": 0,
+      "explain": "বঙ্কিমচন্দ্রের দ্বিতীয় উপন্যাস কপালকুণ্ডলা ১৮৬৬ সালের রোমান্সধর্মী উপন্যাস। [১৭]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 18,
       "subject": "বাংলা",
-      "topics": "ক্রিয়ার কাল",
-      "q": "'আমি কি ডরাই সখি ভিখারি রাঘবে' - এটি কোন কালের উদাহরণ?",
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "মাইকেল মধুসূদন দত্তের প্রথম বাংলা নাটক কোনটি?",
       "options": [
-        "নিত্যবৃত্ত অতীত",
-        "পুরাঘটিত বর্তমান",
-        "সাধারণ বর্তমান",
-        "ঘটমান বর্তমান"
+        "শর্মিষ্ঠা",
+        "পদ্মাবতী",
+        "কৃষ্ণকুমারী",
+        "মেঘনাদবধ"
       ],
-      "ans": 2,
-      "explain": "কবিতা বা কাব্যে সাধারণত সাধারণ বর্তমান কালের প্রয়োগ বেশি দেখা যায়। [১৫]",
+      "ans": 0,
+      "explain": "শর্মিষ্ঠা ১৮৫৯ সালে তাঁর প্রথম বাংলা নাটক। [১৮]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 19,
-      "subject": "English",
-      "topics": "Grammar",
-      "q": "Neither of the boys ___ present.",
+      "subject": "বাংলা",
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "‘বিষবৃক্ষ’ উপন্যাস কার?",
       "options": [
-        "were",
-        "are",
-        "was",
-        "have"
+        "বঙ্কিমচন্দ্র",
+        "শরৎচন্দ্র",
+        "রবীন্দ্রনাথ",
+        "বিদ্যাসাগর"
       ],
-      "ans": 2,
-      "explain": "Neither of এর পর Noun plural হলেও Verb সবসময় singular হয়। [১৫]",
+      "ans": 0,
+      "explain": "বঙ্কিমচন্দ্রের সামাজিক উপন্যাস বিষবৃক্ষ ১৮৭৩ সালে প্রকাশিত। [১৯]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 20,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশ",
-      "q": "সমাজসেবা অধিদপ্তরের প্রতিষ্ঠাকাল কত সাল?",
+      "subject": "বাংলা",
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "ফোর্ট উইলিয়াম কলেজ কবে প্রতিষ্ঠিত?",
       "options": [
-        "১৯৬১ সাল",
-        "১৯৬০ সাল",
-        "১৯৬৫ সাল",
-        "১৯৬৯ সাল"
+        "১৮০০",
+        "১৮০১",
+        "১৭৯৯",
+        "১৮০৫"
       ],
       "ans": 0,
-      "explain": "সমাজসেবা অধিদপ্তর ১৯৬১ সালে প্রতিষ্ঠিত হয়। [৪]",
+      "explain": "লর্ড ওয়েলেসলি ১৮০০ সালে ফোর্ট উইলিয়াম কলেজ প্রতিষ্ঠা করেন, বাংলা গদ্য চর্চার সূতিকাগার। [২০]",
       "source": [
-        "DSS Prep Image"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 21,
-      "subject": "English",
-      "topics": "Prepositions",
-      "q": "He is blind ___ his own faults.",
+      "subject": "বাংলা",
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "ঈশ্বরচন্দ্র বিদ্যাসাগরের ‘বর্ণপরিচয়’ প্রকাশ কবে?",
       "options": [
-        "at",
-        "of",
-        "to",
-        "with"
+        "১৮৫৫",
+        "১৮৫৬",
+        "১৮৫৪",
+        "১৮৫৮"
       ],
-      "ans": 2,
-      "explain": "নিজের দোষের প্রতি অন্ধ হওয়া বুঝাতে Blind to বসে। [১৫]",
+      "ans": 0,
+      "explain": "বর্ণপরিচয় প্রথম ভাগ ১৮৫৫ সালে প্রকাশিত হয়। [২১]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 22,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশ",
-      "q": "বঙ্গভঙ্গ রদ হয় কোন সালে?",
+      "subject": "বাংলা",
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "‘হুতোম প্যাঁচার নকশা’ কার লেখা?",
       "options": [
-        "১৯০৫",
-        "১৯১৬",
-        "১৯২৩",
-        "১৯১১"
+        "কালীপ্রসন্ন সিংহ",
+        "বঙ্কিমচন্দ্র",
+        "দীনবন্ধু মিত্র",
+        "ভবানীচরণ বন্দ্যোপাধ্যায়"
       ],
-      "ans": 3,
-      "explain": "১৯১১ সালে সম্রাট পঞ্চম জর্জের দিল্লি দরবারে বঙ্গভঙ্গ রদ ঘোষণা করা হয়। [১২]",
+      "ans": 0,
+      "explain": "কালীপ্রসন্ন সিংহ হুতোম প্যাঁচার নকশা ১৮৬২ সালে লেখেন। [২২]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 23,
-      "subject": "English",
-      "topics": "Grammar",
-      "q": "What is the singular form of 'Criteria'?",
+      "subject": "বাংলা",
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "বাংলার প্রথম সাময়িকপত্র কোনটি?",
       "options": [
-        "Criterias",
-        "Criterions",
-        "Criterion",
-        "Criteri"
+        "বাঙ্গাল গেজেটি",
+        "সমাচার দর্পণ",
+        "সংবাদ প্রভাকর",
+        "দিগদর্শন"
       ],
-      "ans": 2,
-      "explain": "ব্যতিক্রমী নিয়মে Criteria এর singular হলো Criterion। [১৫]",
+      "ans": 3,
+      "explain": "মার্শম্যানের দিগদর্শন ১৮১৮ সালের প্রথম বাংলা সাময়িকপত্র। [২৩]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 24,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক",
-      "q": "'গ্রীনপিস' কোন দেশের পরিবেশবাদী সংস্থা?",
+      "subject": "বাংলা",
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "‘আলালের ঘরের দুলাল’ এর রচয়িতা?",
       "options": [
-        "যুক্তরাজ্য",
-        "নেদারল্যান্ডস",
-        "সুইজারল্যান্ড",
-        "কানাডা"
+        "প্যারীচাঁদ মিত্র",
+        "বঙ্কিমচন্দ্র",
+        "বিদ্যাসাগর",
+        "কালীপ্রসন্ন"
       ],
-      "ans": 1,
-      "explain": "গ্রীনপিস নেদারল্যান্ডসভিত্তিক একটি আন্তর্জাতিক পরিবেশবাদী সংস্থা। [১৫]",
+      "ans": 0,
+      "explain": "প্যারীচাঁদ মিত্র (টেকচাঁদ ঠাকুর) ১৮৫৮ সালে প্রথম চলিত ভাষার উপন্যাস লেখেন। [২৪]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 25,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "একটি সংখ্যা ৭৪২ হতে যত বড় ৮৩০ হতে তত ছোট, সংখ্যাটি কত?",
+      "subject": "English",
+      "topics": "Clause",
+      "q": "Which one is a Noun Clause?",
       "options": [
-        "৭৮০",
-        "৭৮২",
-        "৭৯০",
-        "৭৮৬"
+        "What he said is true",
+        "The boy who came is my brother",
+        "I know the place where he lives",
+        "Having finished work, he went home"
       ],
-      "ans": 3,
-      "explain": "সংখ্যাটি = (৭৪২ + ৮৩০) / ২ = ৭৮৬। [১৮]",
+      "ans": 0,
+      "explain": "What he said = noun clause, subject হিসেবে কাজ করছে। [২৫]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 26,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "বার্ষিক ৫% হারে ৭৫০ টাকার ৪ বছরের মুনাফা কত?",
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘I know that he is honest’ - ‘that he is honest’ is a?",
       "options": [
-        "২০০ টাকা",
-        "১৫০ টাকা",
-        "২৫০ টাকা",
-        "৩০০ টাকা"
+        "Noun clause",
+        "Adjective clause",
+        "Adverb clause",
+        "Main clause"
       ],
-      "ans": 1,
-      "explain": "মুনাফা = (৭৫০ * ৪ * ৫) / ১০০ = ১৫০ টাকা। [১৫, ১৬]",
+      "ans": 0,
+      "explain": "That clause object হিসেবে, noun clause। [২৬]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 27,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশ",
-      "q": "সম্রাট আকবরের রাজস্ব মন্ত্রী কে ছিলেন?",
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘The book which you gave me is lost’ - which clause?",
       "options": [
-        "বীরবল",
-        "বৈরাম খাঁ",
-        "টোডর মল",
-        "আবুল ফজল"
+        "Adjective clause",
+        "Noun clause",
+        "Adverb clause",
+        "Co-ordinate clause"
       ],
-      "ans": 2,
-      "explain": "রাজা টোডর মল মুঘল সম্রাট আকবরের বিখ্যাত রাজস্ব মন্ত্রী ছিলেন। [১৫]",
+      "ans": 0,
+      "explain": "Which you gave me - adjective clause, book কে modify করছে। [২৭]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 28,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক",
-      "q": "জাতিসংঘের সাধারণ পরিষদের প্রথম নারী সভাপতি কে?",
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘When he came, I was sleeping’ - ‘When he came’ is?",
       "options": [
-        "মার্গারেট থ্যাচার",
-        "বিজয়া লক্ষ্মী পণ্ডিত",
-        "ইন্দিরা গান্ধী",
-        "বেগম রোকেয়া"
+        "Adverb clause of time",
+        "Noun clause",
+        "Adjective clause",
+        "Main clause"
       ],
-      "ans": 1,
-      "explain": "ভারতের বিজয়া লক্ষ্মী পণ্ডিত ১৯৫৩ সালে জাতিসংঘের সাধারণ পরিষদের সভাপতি হন। [১৫]",
+      "ans": 0,
+      "explain": "When যুক্ত time বোঝায় তাই adverb clause of time। [২৮]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 29,
       "subject": "English",
-      "topics": "Prepositions",
-      "q": "Look ___ the map.",
+      "topics": "Clause",
+      "q": "‘If you work hard, you will succeed’ - ‘If you work hard’ is?",
       "options": [
-        "in",
-        "at",
-        "on",
-        "up"
+        "Adverb clause of condition",
+        "Noun clause",
+        "Adjective clause",
+        "Noun in apposition"
       ],
-      "ans": 1,
-      "explain": "মানচিত্রের দিকে তাকানো অর্থে Look at ব্যবহৃত হয়। [১৫]",
+      "ans": 0,
+      "explain": "If যুক্ত condition বোঝায়, adverb clause of condition। [২৯]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 30,
       "subject": "English",
-      "topics": "Verbs & Tense",
-      "q": "Rice ___ in Bangladesh.",
+      "topics": "Clause",
+      "q": "‘This is the place where he was born’ - ‘where he was born’ is?",
       "options": [
-        "grows",
-        "grow",
-        "is grown",
-        "grown"
+        "Adjective clause",
+        "Noun clause",
+        "Adverb clause",
+        "Independent clause"
       ],
-      "ans": 2,
-      "explain": "এটি একটি Passive voice বাক্য, চাল নিজে জন্মায় না বরং ফলানো হয়। [১৫]",
+      "ans": 0,
+      "explain": "Place কে modify করছে তাই adjective clause (relative clause)। [৩০]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 31,
-      "subject": "বাংলা",
-      "topics": "শব্দের উৎস",
-      "q": "রিক্সা কোন ভাষার শব্দ?",
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘Though he is poor, he is honest’ - ‘Though he is poor’ is?",
       "options": [
-        "গুজরাটি",
-        "পাঞ্জাবি",
-        "তুর্কি",
-        "জাপানি"
+        "Adverb clause of concession",
+        "Noun clause",
+        "Adjective clause",
+        "Main clause"
       ],
-      "ans": 3,
-      "explain": "রিক্সা জাপানি ভাষা থেকে আগত একটি শব্দ। [৪]",
+      "ans": 0,
+      "explain": "Though যুক্ত concession/contrast বোঝায়। [৩১]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 32,
-      "subject": "গনিত",
-      "topics": "জ্যামিতি",
-      "q": "১৭ সেমি, ১৫ সেমি ও ৮ সেমি বাহুবিশিষ্ট ত্রিভুজটি কোন ধরনের?",
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘I know the man who is honest’ - ‘who is honest’ is?",
       "options": [
-        "সমবাহু",
-        "সমকোণী",
-        "স্থূলকোণী",
-        "সূক্ষ্মকোণী"
+        "Adjective clause",
+        "Noun clause",
+        "Adverb clause",
+        "None"
       ],
-      "ans": 1,
-      "explain": "১৭^২ = ২৮৯ এবং ১৫^২ + ৮^২ = ২২৫ + ৬৪ = ২৮৯। এটি পিথাগোরাস মেনে চলে। [৯১]",
+      "ans": 0,
+      "explain": "Man কে qualify করছে, adjective clause। [৩২]",
       "source": [
-        "All bcs-math-solutions PDF"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 33,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "১ + ২ + ৩ + ৪৪ + … + ৯৯ = কত?",
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘That he is honest is known to all’ - ‘That he is honest’ is?",
       "options": [
-        "৪৬৫০",
-        "৪৭৫০",
-        "৪৮৫০",
-        "৪৯৫০"
+        "Noun clause as subject",
+        "Adjective clause",
+        "Adverb clause",
+        "Main clause"
       ],
-      "ans": 3,
-      "explain": "সূত্র: n(n+1)/2 = (৯৯ * ১০০) / ২ = ৪৯৫০। [১৭]",
+      "ans": 0,
+      "explain": "বাক্যের subject হিসেবে noun clause। [৩৩]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 34,
-      "subject": "বাংলা",
-      "topics": "ব্যাকরণ",
-      "q": "বাংলা ভাষায় যৌগিক স্বরধ্বনির সংখ্যাটি?",
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘He asked me why I was absent’ - ‘why I was absent’ is?",
       "options": [
-        "১১টি",
-        "২৫টি",
-        "৪০টি",
-        "৫০টি"
+        "Noun clause",
+        "Adjective clause",
+        "Adverb clause",
+        "Main clause"
       ],
-      "ans": 1,
-      "explain": "বাংলা ভাষায় যৌগিক স্বরধ্বনির সংখ্যা ২৫টি। [৫]",
+      "ans": 0,
+      "explain": "Asked এর object হিসেবে noun clause। [৩৪]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 35,
-      "subject": "গনিত",
-      "topics": "জ্যামিতি",
-      "q": "৭ সেমি ব্যাসার্ধ বিশিষ্ট বৃত্তের অন্তর্লিথিত বর্গের ক্ষেত্রফল কত?",
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘Wait till I come’ - ‘till I come’ is?",
       "options": [
-        "৪৯",
-        "৯৮",
-        " ১৯৬",
-        "১৪৬"
+        "Adverb clause of time",
+        "Noun clause",
+        "Adjective clause",
+        "Co-ordinate clause"
       ],
-      "ans": 1,
-      "explain": "বর্গের কর্ণ = বৃত্তের ব্যাস = ১৪ সেমি। ক্ষেত্রফল = (কর্ণ)^২ / ২ = ১৪^২ / ২ = ৯৮। [৮০]",
+      "ans": 0,
+      "explain": "Till time নির্দেশক adverb clause। [৩৫]",
       "source": [
-        "All bcs-math-solutions PDF"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 36,
       "subject": "English",
-      "topics": "Prepositions",
-      "q": "He has no control ___ himself.",
+      "topics": "Clause",
+      "q": "‘The reason why he failed is unknown’ - ‘why he failed’ is?",
       "options": [
-        "on",
-        "at",
-        "in",
-        "over"
+        "Adjective clause",
+        "Noun clause",
+        "Adverb clause",
+        "Main clause"
       ],
-      "ans": 3,
-      "explain": "Control over মানে কারো বা কোনো কিছুর ওপর নিয়ন্ত্রণ থাকা। [৯]",
+      "ans": 0,
+      "explain": "Reason কে modify করছে, adjective clause। [৩৬]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 37,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশ",
-      "q": "মুঘল সাম্রাজ্যের প্রতিষ্ঠাতা কে?",
+      "subject": "English",
+      "topics": "19th Century Literature",
+      "q": "Who is called the poet of nature in 19th century?",
       "options": [
-        "হুমায়ুন",
-        "বাবর",
-        "আকবর",
-        "জাহাঙ্গীর"
+        "William Wordsworth",
+        "John Keats",
+        "P.B. Shelley",
+        "Lord Byron"
       ],
-      "ans": 1,
-      "explain": "১৫২৬ সালে পানিপথের যুদ্ধের মাধ্যমে সম্রাট বাবর মুঘল সাম্রাজ্য প্রতিষ্ঠা করেন। [১১]",
+      "ans": 0,
+      "explain": "Wordsworth (1770-1850) প্রকৃতির কবি, Lyrical Ballads 1798। [৩৭]",
       "source": [
-        "Mughal History Web"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 38,
       "subject": "English",
-      "topics": "Verbs & Tense",
-      "q": "He has been reading ___ morning.",
+      "topics": "19th Century Literature",
+      "q": "‘Pride and Prejudice’ was written by?",
       "options": [
-        "for",
-        "since",
-        "from",
-        "at"
+        "Jane Austen",
+        "Charlotte Bronte",
+        "Emily Bronte",
+        "George Eliot"
       ],
-      "ans": 1,
-      "explain": "নির্দিষ্ট সময় থেকে শুরু হওয়া বুঝাতে Since বসে। [১৫]",
+      "ans": 0,
+      "explain": "Jane Austen 1813 সালে Pride and Prejudice লেখেন। [৩৮]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 39,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক",
-      "q": "জাতিসংঘের বর্তমান মহাসচিবের নাম কী?",
+      "subject": "English",
+      "topics": "19th Century Literature",
+      "q": "Who wrote ‘Oliver Twist’?",
       "options": [
-        "বান কি মুন",
-        "আন্তোনিও গুতেরেস",
-        "কফি আনান",
-        "বুট্রোস ঘালি"
+        "Charles Dickens",
+        "Thackeray",
+        "Thomas Hardy",
+        "Walter Scott"
       ],
-      "ans": 1,
-      "explain": "পর্তুগালের আন্তোনিও গুতেরেস জাতিসংঘের বর্তমান ও ৯ম মহাসচিব। [১৫]",
+      "ans": 0,
+      "explain": "Charles Dickens 1837-39 সালে Oliver Twist লেখেন। [৩৯]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 40,
-      "subject": "বাংলা",
-      "topics": "ব্যাকরণ",
-      "q": "যদ্যপি এর সন্ধিবিচ্ছেদ কী?",
+      "subject": "English",
+      "topics": "19th Century Literature",
+      "q": "‘Frankenstein’ is written by?",
       "options": [
-        "যদি + পি",
-        "যদি + অপি",
-        "যদি + আপি",
-        "যদ্যা + অপি"
+        "Mary Shelley",
+        "Jane Austen",
+        "Emily Bronte",
+        "George Eliot"
       ],
-      "ans": 1,
-      "explain": "যদি + অপি = যদ্যপি। [৮]",
+      "ans": 0,
+      "explain": "Mary Shelley 1818 সালে Frankenstein লেখেন। [৪০]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 41,
       "subject": "English",
-      "topics": "Prepositions",
-      "q": "I am tired ___ this work.",
+      "topics": "19th Century Literature",
+      "q": "The Victorian Age is?",
       "options": [
-        "with",
-        "by",
-        "of",
-        "for"
+        "1837-1901",
+        "1800-1850",
+        "1901-1950",
+        "1770-1830"
       ],
-      "ans": 2,
-      "explain": "Tired of মানে কোনো কিছুতে ক্লান্ত বা বিরক্ত হওয়া। [১৫]",
+      "ans": 0,
+      "explain": "Queen Victoria 1837-1901, Victorian Age। [৪১]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 42,
-      "subject": "বাংলা",
-      "topics": "সাহিত্য",
-      "q": "কাজী নজরুল ইসলাম সম্পাদিত পত্রিকার নাম কী?",
+      "subject": "English",
+      "topics": "19th Century Literature",
+      "q": "Who wrote ‘Wuthering Heights’?",
       "options": [
-        "কালি ও কলম",
-        "ধূমকেতু",
-        "সবুজপত্র",
-        "বঙ্গদর্শন"
+        "Emily Bronte",
+        "Charlotte Bronte",
+        "Jane Austen",
+        "Charles Dickens"
       ],
-      "ans": 1,
-      "explain": "ধূমকেতু পত্রিকার সম্পাদক ছিলেন বিদ্রোহী কবি কাজী নজরুল ইসলাম। [১৫]",
+      "ans": 0,
+      "explain": "Emily Bronte 1847 সালে Wuthering Heights। [৪২]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 43,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশ",
-      "q": "মুঘল সম্রাটদের মধ্যে কে প্রথম আত্মজীবনী লিখেছিলেন?",
+      "subject": "English",
+      "topics": "19th Century Literature",
+      "q": "‘The Origin of Species’ by Darwin published in?",
       "options": [
-        "আকবর",
-        "বাবর",
-        "হুমায়ুন",
-        "জাহাঙ্গীর"
+        "1859",
+        "1860",
+        "1850",
+        "1871"
       ],
-      "ans": 1,
-      "explain": "সম্রাট বাবর 'তুজুক-ই-বাবরী' নামে প্রথম আত্মজীবনী লিখেছিলেন। [২০১]",
+      "ans": 0,
+      "explain": "Charles Darwin 1859 সালে Origin of Species। [৪৩]",
       "source": [
-        "Mughal History Web"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 44,
       "subject": "English",
-      "topics": "Verbs & Tense",
-      "q": "I had finished the work before he ___ .",
+      "topics": "19th Century Literature",
+      "q": "Who is the author of ‘Jane Eyre’?",
       "options": [
-        "came",
-        "come",
-        "comes",
-        "had come"
+        "Charlotte Bronte",
+        "Emily Bronte",
+        "Jane Austen",
+        "George Eliot"
       ],
       "ans": 0,
-      "explain": "Before এর আগের অংশ Past Perfect হলে পরের অংশ Past Simple হয়। [১৫]",
+      "explain": "Charlotte Bronte 1847 সালে Jane Eyre। [৪৪]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 45,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশ",
-      "q": "সমাজসেবা অধিদপ্তর কোন মন্ত্রণালয়ের অধীন পরিচালিত হয়?",
+      "subject": "English",
+      "topics": "19th Century Literature",
+      "q": "Lord Byron belongs to which century?",
       "options": [
-        "সমাজকল্যাণ মন্ত্রণালয়",
-        "জনপ্রশাসন মন্ত্রণালয়",
-        "অর্থ মন্ত্রণালয়",
-        "শিক্ষা মন্ত্রণালয়"
+        "19th century Romantic",
+        "18th century",
+        "20th century",
+        "16th century"
       ],
       "ans": 0,
-      "explain": "সমাজসেবা অধিদপ্তর সমাজকল্যাণ মন্ত্রণালয়ের আওতাধীন একটি সংস্থা। [৪]",
+      "explain": "Byron 1788-1824, 19th century Romantic poet। [৪৫]",
       "source": [
-        "DSS Prep Image"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 46,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক",
-      "q": "পৃথিবীর দীর্ঘতম নদী কোনটি?",
+      "subject": "English",
+      "topics": "19th Century Literature",
+      "q": "‘Great Expectations’ is written by?",
       "options": [
-        "আমাজন",
-        "ভলগা",
-        "নীলনদ",
-        "দানিয়ুব"
+        "Charles Dickens",
+        "Thomas Hardy",
+        "Jane Austen",
+        "Walter Scott"
       ],
-      "ans": 2,
-      "explain": "নীলনদ পৃথিবীর দীর্ঘতম নদী, যা আফ্রিকা মহাদেশে অবস্থিত। [১৪]",
+      "ans": 0,
+      "explain": "Charles Dickens 1860-61 সালে Great Expectations। [৪৬]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 47,
       "subject": "English",
-      "topics": "Verbs & Tense",
-      "q": "It is high time we ___ home.",
+      "topics": "19th Century Literature",
+      "q": "Keats died in?",
       "options": [
-        "return",
-        "returning",
-        "returned",
-        "will return"
+        "1821",
+        "1820",
+        "1822",
+        "1819"
       ],
-      "ans": 2,
-      "explain": "It is time/high time এর পর subject থাকলে verb এর past form হয়। [১৫]",
+      "ans": 0,
+      "explain": "John Keats 1795-1821, মাত্র ২৬ বছর বয়সে মারা যান। [৪৭]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 48,
-      "subject": "বাংলা",
-      "topics": "বানান শুদ্ধি",
-      "q": "কোন বানানটি শুদ্ধ?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "বাংলাদেশের সংবিধান কবে গণপরিষদে গৃহীত হয়?",
       "options": [
-        "আকাঙ্খা",
-        "আকাঙ্ক্ষা",
-        "আকাংখা",
-        "আকাক্ষা"
+        "৪ নভেম্বর ১৯৭২",
+        "১৬ ডিসেম্বর ১৯৭২",
+        "১৭ এপ্রিল ১৯৭১",
+        "২৬ মার্চ ১৯৭১"
       ],
-      "ans": 1,
-      "explain": "সঠিক বানানটি হলো 'আকাঙ্ক্ষা'। [১৫]",
+      "ans": 0,
+      "explain": "৪ নভেম্বর ১৯৭২ গৃহীত, ১৬ ডিসেম্বর ১৯৭২ কার্যকর। [৪৮]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 49,
-      "subject": "English",
-      "topics": "Prepositions",
-      "q": "He is innocent ___ the charge.",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "সংবিধানের জনক কে?",
       "options": [
-        "of",
-        "with",
-        "to",
-        "on"
+        "ড. কামাল হোসেন",
+        "বঙ্গবন্ধু শেখ মুজিবুর রহমান",
+        "সৈয়দ নজরুল ইসলাম",
+        "তাজউদ্দীন আহমদ"
       ],
-      "ans": 1,
-      "explain": "উৎস অনুযায়ী এখানে with সঠিক উত্তর হিসেবে দেওয়া হয়েছে। [৯]",
+      "ans": 0,
+      "explain": "ড. কামাল হোসেন সংবিধান প্রণয়ন কমিটির সভাপতি, সংবিধানের জনক। [৪৯]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 50,
-      "subject": "English",
-      "topics": "Prepositions",
-      "q": "He is innocent ___ the charge.",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "বাংলাদেশের সংবিধানে মোট অনুচ্ছেদ কয়টি?",
       "options": [
-        "of",
-        "with",
-        "to",
-        "on"
+        "১৫৩টি",
+        "১১টি ভাগে ১৫৩ অনুচ্ছেদ",
+        "১৫৪টি",
+        "১৫০টি"
       ],
       "ans": 1,
-      "explain": "উৎস অনুযায়ী এখানে with সঠিক উত্তর হিসেবে দেওয়া হয়েছে। [৯]",
+      "explain": "মূল সংবিধান ১১ ভাগে ১৫৩ অনুচ্ছেদ, বর্তমানে ১১ ভাগ। [৫০]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 51,
-      "subject": "গনিত",
-      "topics": "বীজগণিত",
-      "q": "a+b=7 এবং a^2+b^2=25 হলে ab এর মান কত?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "সংবিধানের কোন অনুচ্ছেদে সরকারি কর্ম কমিশন (PSC) এর কথা বলা আছে?",
       "options": [
-        "১২",
-        "১০",
-        "৬",
-        "৮"
+        "১৩৭-১৪১",
+        "১১৮-১২৬",
+        "৬৪-৬৮",
+        "৯৪-৯৯"
       ],
       "ans": 0,
-      "explain": "২ab = (a+b)^২ - (a^2+b^2) = ৭^২ - ২৫ = ২৪। ab = ১২। [৭৫]",
+      "explain": "অনুচ্ছেদ ১৩৭-১৪১ এ PSC। [৫১]",
       "source": [
-        "All bcs-math-solutions PDF"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 52,
-      "subject": "গনিত",
-      "topics": "বীজগণিত",
-      "q": "x-1/x = 1 হলে x^3-1/x^3 এর মান কত?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "রাষ্ট্র পরিচালনার মূলনীতি কয়টি?",
       "options": [
-        "১",
-        "২",
-        "৩",
-        "৪"
+        "৪টি",
+        "৫টি",
+        "৩টি",
+        "৬টি"
       ],
-      "ans": 2,
-      "explain": "মান = (১)^৩ + ৩(১)(১) = ১ + ৩ = ৪। [৯০]",
+      "ans": 0,
+      "explain": "৪টি - জাতীয়তাবাদ, সমাজতন্ত্র, গণতন্ত্র, ধর্মনিরপেক্ষতা - অনুচ্ছেদ ৮। [৫২]",
       "source": [
-        "All bcs-math-solutions PDF"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 53,
-      "subject": "বাংলা",
-      "topics": "ব্যাকরণ",
-      "q": "বাংলা বর্ণমালায় মাত্রাহীন বর্ণ কয়টি?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "সংবিধানে মৌলিক অধিকার কোন ভাগে?",
       "options": [
-        "৮টি",
-        "১০টি",
-        "৭টি",
-        "৯টি"
+        "তৃতীয় ভাগে অনুচ্ছেদ ২৬-৪৭",
+        "দ্বিতীয় ভাগে",
+        "চতুর্থ ভাগে",
+        "পঞ্চম ভাগে"
       ],
-      "ans": 1,
-      "explain": "বাংলা বর্ণমালায় ১০টি মাত্রাহীন বর্ণ রয়েছে (স্বরবর্ণ ৪টি, ব্যঞ্জনবর্ণ ৬টি)। [১৪০]",
+      "ans": 0,
+      "explain": "তৃতীয় ভাগে ২৬-৪৭ মৌলিক অধিকার। [৫৩]",
       "source": [
-        "Biddabari PDF"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 54,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "ক ও খ এর বেতনের অনুপাত ৫:৪; ক এর বেতন খ অপেক্ষা ২০০০ টাকা বেশি হলে খ এর বেতন কত?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "সংবিধান সংশোধন কোন অনুচ্ছেদে?",
       "options": [
-        "৮০০০",
-        "১০০০০",
-        "৬০০০",
-        "৫০০০"
+        "১৪২",
+        "১৪১",
+        "১৪৩",
+        "১৪৪"
       ],
       "ans": 0,
-      "explain": "অনুপাতের পার্থক্য ১ একক = ২০০০ টাকা। খ এর বেতন ৪ একক = ৪ x ২০০০ = ৮০০০। [১৫]",
+      "explain": "১৪২ অনুচ্ছেদে সংবিধান সংশোধনের পদ্ধতি। [৫৪]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 55,
-      "subject": "বাংলা",
-      "topics": "ব্যাকরণ",
-      "q": "বাংলা ব্যাকরণে 'বচন' অর্থ কী?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "বাংলাদেশের প্রথম হস্তলিখিত সংবিধানের লেখক?",
       "options": [
-        "কথার ভঙ্গি",
-        "সংখ্যার ধারণা",
-        "বাক্যের ধরন",
-        "ক্রিয়ার রূপ"
+        "আবদুর রউফ",
+        "কামাল হোসেন",
+        "জয়নুল আবেদিন",
+        "হাশেম খান"
       ],
-      "ans": 1,
-      "explain": "বচন অর্থ সংখ্যার ধারণা। [১৫]",
+      "ans": 0,
+      "explain": "শিল্পী আবদুর রউফ হস্তলিখিত সংবিধান লেখেন। [৫৫]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 56,
-      "subject": "বাংলা",
-      "topics": "শব্দের উৎস",
-      "q": "তারিখ শব্দটি কোন ভাষা থেকে বাংলায় এসেছে?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "তত্ত্বাবধায়ক সরকার ব্যবস্থা কোন সংশোধনীতে আনা হয়?",
       "options": [
-        "ফরাসি",
-        "আরবি",
-        "তুর্কি",
-        "পর্তুগিজ"
+        "১৩তম সংশোধনী",
+        "১২তম",
+        "১৪তম",
+        "১৫তম"
       ],
-      "ans": 1,
-      "explain": "তারিখ একটি আরবি শব্দ। [৪]",
+      "ans": 0,
+      "explain": "১৩তম সংশোধনী ১৯৯৬ সালে তত্ত্বাবধায়ক সরকার। [৫৬]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 57,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশ",
-      "q": "বঙ্গভঙ্গ রদ হয় কোন সালে?",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "সংবিধানে রাষ্ট্রধর্ম কোন অনুচ্ছেদে?",
       "options": [
-        "১৯০৫",
-        "১৯১৬",
-        "১৯২৩",
-        "১৯১১"
+        "২ক",
+        "২",
+        "৪",
+        "৮"
       ],
-      "ans": 3,
-      "explain": "১৯১১ সালে সম্রাট পঞ্চম জর্জের দিল্লি দরবারে বঙ্গভঙ্গ রদ ঘোষণা করা হয়। [১২]",
+      "ans": 0,
+      "explain": "২ক অনুচ্ছেদে রাষ্ট্রধর্ম ইসলাম। [৫৭]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 58,
-      "subject": "বাংলা",
-      "topics": "সাহিত্য",
-      "q": "'নক্সী কাঁথার মাঠ' কাব্যগ্রন্থটি কার রচনা?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "সংবিধানে রাষ্ট্রভাষা কোন অনুচ্ছেদে?",
       "options": [
-        "রবীন্দ্রনাথ ঠাকুর",
-        "জসীম উদ্দীন",
-        "কায়কোবাদ",
-        "শামসুর রাহমান"
+        "৩",
+        "৪",
+        "৫",
+        "৬"
       ],
-      "ans": 1,
-      "explain": "এটি পল্লীকবি জসীম উদ্দীনের একটি শ্রেষ্ঠ আখ্যান কাব্য। [১৪১]",
+      "ans": 0,
+      "explain": "অনুচ্ছেদ ৩ এ রাষ্ট্রভাষা বাংলা। [৫৮]",
       "source": [
-        "Biddabari PDF"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 59,
-      "subject": "গনিত",
-      "topics": "জ্যামিতি",
-      "q": "যে কোণের ডিগ্রীর পরিমাপ ৯০ তাকে কী বলে?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "সংবিধানে জাতীয় সংগীত, পতাকা, প্রতীক কোন অনুচ্ছেদে?",
       "options": [
-        "সমকোণ",
-        "স্থুলকোণ",
-        "সরলকোণ",
-        "সূক্ষ্মকোণ"
+        "৪",
+        "৩",
+        "৫",
+        "৬"
       ],
       "ans": 0,
-      "explain": "৯০ ডিগ্রি কোণকে সমকোণ বলা হয়। [১৮]",
+      "explain": "অনুচ্ছেদ ৪ এ জাতীয় সংগীত, পতাকা, প্রতীক। [৫৯]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 60,
-      "subject": "বাংলা",
-      "topics": "কারক",
-      "q": "'তিলে তৈল হয়' - তিলে কোন কারক?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "NATO কত সালে প্রতিষ্ঠিত হয়?",
       "options": [
-        "অধিকরণ",
-        "অপাদান",
-        "কর্তা",
-        "করণ"
+        "১৯৪৯",
+        "১৯৪৫",
+        "১৯৫০",
+        "১৯৫৫"
       ],
-      "ans": 1,
-      "explain": "যা থেকে কোনো কিছু বিচ্যুত, গৃহীত বা জাত হয় তাকে অপাদান কারক বলে। [১৫]",
+      "ans": 0,
+      "explain": "NATO ৪ এপ্রিল ১৯৪৯ সালে প্রতিষ্ঠিত। [৬০]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 61,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশ",
-      "q": "জাতীয় সমাজসেবা দিবস কবে পালন করা হয়?",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "SAARC কত সালে প্রতিষ্ঠিত?",
       "options": [
-        "০২ জানুয়ারি",
-        "০৫ জানুয়ারি",
-        "০১ জানুয়ারি",
-        "০৩ জানুয়ারি"
+        "১৯৮৫",
+        "১৯৮০",
+        "১৯৯০",
+        "১৯৯৫"
       ],
       "ans": 0,
-      "explain": "প্রতি বছর ২রা জানুয়ারি জাতীয় সমাজসেবা দিবস পালিত হয়। [৪]",
+      "explain": "SAARC ৮ ডিসেম্বর ১৯৮৫ সালে ঢাকায় প্রতিষ্ঠিত। [৬১]",
       "source": [
-        "DSS Prep Image"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 62,
-      "subject": "English",
-      "topics": "Verbs & Tense",
-      "q": "The baby ___ since 10 am.",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "EU (European Union) কত সালে গঠিত হয়?",
       "options": [
-        "is crying",
-        "has been crying",
-        "cried",
-        "was crying"
+        "১৯৯৩",
+        "১৯৯২",
+        "১৯৫৭",
+        "১৯৯০"
       ],
-      "ans": 1,
-      "explain": "নির্দিষ্ট সময় ধরে কাজ চললে Present Perfect Continuous Tense হয়। [১৫]",
+      "ans": 0,
+      "explain": "মাস্ট্রিখট চুক্তি ১৯৯২, কার্যকর ১৯৯৩। [৬২]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 63,
-      "subject": "বাংলা",
-      "topics": "ব্যাকরণ",
-      "q": "ব্রহ্মপুত্র শব্দের 'হ্ম' যুক্ত বর্ণটি কোন বর্ণের সংযুক্ত রূপ?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "ASEAN এর সদস্য সংখ্যা কত?",
       "options": [
-        "ম+হ",
-        "হ+ম",
-        "ক্+ষ",
-        "হ+ণ"
+        "১০টি",
+        "১১টি",
+        "৯টি",
+        "১২টি"
       ],
-      "ans": 1,
-      "explain": "হ্ম যুক্তবর্ণটি হ এবং ম এর সংযুক্ত রূপ। [৫]",
+      "ans": 0,
+      "explain": "ASEAN ১০টি দেশ, সদর জাকার্তা। [৬৩]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 64,
-      "subject": "English",
-      "topics": "Grammar",
-      "q": "The news ___ true.",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "OIC কত সালে প্রতিষ্ঠিত?",
       "options": [
-        "are",
-        "is",
-        "were",
-        "have"
+        "১৯৬৯",
+        "১৯৭০",
+        "১৯৭২",
+        "১৯৮০"
       ],
-      "ans": 1,
-      "explain": "News শব্দটি দেখতে plural হলেও এটি সবসময় singular verb গ্রহণ করে। [১৪৩]",
+      "ans": 0,
+      "explain": "OIC ১৯৬৯ সালে রাবাতে প্রতিষ্ঠিত। [৬৪]",
       "source": [
-        "Biddabari PDF"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 65,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "১ হতে ৪৯ পর্যন্ত ক্রমিক সংখ্যাগুলোর গড় কত?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "BRICS এর প্রতিষ্ঠাতা সদস্য কয়টি?",
       "options": [
-        "২৩",
-        "২৪.৫",
-        "২৫",
-        "২৫.৫"
+        "৫টি",
+        "৪টি",
+        "৬টি",
+        "৩টি"
       ],
-      "ans": 2,
-      "explain": "গড় = (১ম পদ + শেষ পদ) / ২ = (১ + ৪৯) / ২ = ২৫। [৪১]",
+      "ans": 0,
+      "explain": "BRICS প্রথমে BRIC (৪টি) ২০০৯, ২০১০ এ South Africa যোগে ৫টি। [৬৫]",
       "source": [
-        "All bcs-math-solutions PDF"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 66,
-      "subject": "গনিত",
-      "topics": "জ্যামিতি",
-      "q": "একটি আয়তাকার ঘরের দৈর্ঘ্য প্রস্থের দেড়গুণ। ক্ষেত্রফল ২১৬ বর্গমিটার হলে পরিসীমা কত?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "Commonwealth এর সদর দপ্তর কোথায়?",
       "options": [
-        "৫০",
-        "৬০",
-        "৪৫",
-        "৭০"
+        "লন্ডন",
+        "নিউইয়র্ক",
+        "জেনেভা",
+        "প্যারিস"
       ],
-      "ans": 1,
-      "explain": "দৈর্ঘ্য ১৮, প্রস্থ ১২ হলে ক্ষেত্রফল ২১৬। পরিসীমা = ২(১৮+১২) = ৬০। [১৫]",
+      "ans": 0,
+      "explain": "Commonwealth সদর লন্ডনের Marlborough House। [৬৬]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 67,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "তেলের মূল্য ২৫% বৃদ্ধি পেলে তেলের ব্যবহার শতকরা কত কমালে খরচ বাড়বে না?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "Arab League কত সালে প্রতিষ্ঠিত?",
       "options": [
-        "১৫%",
-        "২০%",
-        "২৫%",
-        "৩০%"
+        "১৯৪৫",
+        "১৯৪৬",
+        "১৯৫০",
+        "১৯৪৮"
       ],
-      "ans": 1,
-      "explain": "সূত্র: (১০০ x বৃদ্ধি) / (১০০ + বৃদ্ধি) = (১০০ x ২৫) / ১২৫ = ২০%। [৪২]",
+      "ans": 0,
+      "explain": "Arab League ২২ মার্চ ১৯৪৫। [৬৭]",
       "source": [
-        "All bcs-math-solutions PDF"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 68,
-      "subject": "English",
-      "topics": "Prepositions",
-      "q": "He prevented me ___ going there.",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "G-7 এর সদস্য কয়টি দেশ?",
       "options": [
-        "to",
-        "for",
-        "from",
-        "with"
+        "৭টি",
+        "৮টি",
+        "৬টি",
+        "১০টি"
       ],
-      "ans": 2,
-      "explain": "Prevent someone from doing something সঠিক প্রয়োগ। [১৫]",
+      "ans": 0,
+      "explain": "G-7 এ ৭টি দেশ - USA, UK, France, Germany, Italy, Canada, Japan। [৬৮]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 69,
-      "subject": "English",
-      "topics": "Grammar",
-      "q": "Thief এর plural কোনটি?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "BIMSTEC কত সালে প্রতিষ্ঠিত?",
       "options": [
-        "Thiefes",
-        "Thieves",
-        "Thiefs",
-        "Thives"
+        "১৯৯৭",
+        "১৯৯০",
+        "২০০০",
+        "১৯৮৫"
       ],
-      "ans": 1,
-      "explain": "Thief শব্দের শেষে 'f' থাকায় plural করার সময় 'ves' যুক্ত হয়। [১১]",
+      "ans": 0,
+      "explain": "BIMSTEC ৬ জুন ১৯৯৭ সালে প্রতিষ্ঠিত। [৬৯]",
       "source": [
-        "Union_Samajkormi_Exam_2016SparkEdu.pdf"
+        "BCSpark special suggestions (DSS)"
       ]
     },
     {
       "id": 70,
-      "subject": "বাংলা",
-      "topics": "সমার্থক শব্দ",
-      "q": "'অগ্নি' শব্দের সমার্থক শব্দ কোনটি?",
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "GCC এর সদস্য কয়টি?",
       "options": [
-        "অর্ণব",
-        "হুতাশন",
-        "অর্ক",
-        "পল্লব"
+        "৬টি",
+        "৫টি",
+        "৭টি",
+        "৮টি"
       ],
-      "ans": 1,
-      "explain": "অগ্নির সমার্থক শব্দ হলো হুতাশন, পাবক, অনল। [১৫]",
+      "ans": 0,
+      "explain": "GCC Gulf Cooperation Council ৬টি দেশ - সৌদি, কুয়েত, বাহরাইন, কাতার, ওমান, UAE। [৭০]",
       "source": [
-        "General Prep"
+        "BCSpark special suggestions (DSS)"
       ]
     }
   ]
