@@ -1,4 +1,5 @@
 import { Hind_Siliguri } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import AdvertisePopup from "@/components/AdvertisePopup";
@@ -38,6 +39,16 @@ export default function RootLayout({ children }) {
         <Toaster richColors position="top-center" />
         {/* Global Advertisement Popup - shows 5s after load, once per 24h */}
         <AdvertisePopup />
+
+        {/* SupportKori Floating Widget — lazyOnload so it never blocks initial page load / Core Web Vitals */}
+        <Script
+          data-color="#FF8A00"
+          data-id="rasumon"
+          data-message="একটা কফি খাওয়ান! "
+          data-position="right"
+          src="https://www.supportkori.com/widget.js"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );
