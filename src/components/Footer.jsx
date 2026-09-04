@@ -48,6 +48,7 @@ export default function Footer() {
               <li><Link href="/leaderboard" className="hover:text-white transition-colors">লিডারবোর্ড</Link></li>
               <li><Link href="/blog" className="hover:text-white transition-colors">ব্লগ</Link></li>
               <li><Link href="/psychology-test-bangla" className="hover:text-white transition-colors">মানসিক স্বাস্থ্য পরীক্ষা</Link></li>
+              <li><Link href="/central-model-tests" className="hover:text-white transition-colors">সেন্ট্রাল মডেল টেস্ট</Link></li>
             </ul>
           </div>
 
