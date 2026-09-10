@@ -743,6 +743,80 @@ const practiceRoutes = {
         },
     },
 
+    Math: {
+        label: "👉 গণিত",
+        defaultQuestionLimit: 20,
+        topics: {
+            all: {
+                label: "গণিত (সকল বিষয়)",
+                route: "/t20/math/all",
+                active: true,
+                config: {
+                    title: "গণিত",
+                    category: "Math",
+                    subject: "গণিত",
+                    passMark: 50,
+                    questionLimit: 20,
+                    timeLimit: 120,
+                    timerDisplay: "t20",
+                    negativeMarking: 0.5,
+                    step: "01",
+                },
+            },
+            arithmetic: {
+                label: "পাটিগণিত",
+                route: "/t20/math/arithmetic",
+                folder: "math/arithmetic",
+                active: true,
+                config: {
+                    title: "পাটিগণিত",
+                    category: "Math",
+                    subject: "পাটিগণিত",
+                    passMark: 50,
+                    questionLimit: 20,
+                    timeLimit: 120,
+                    timerDisplay: "t20",
+                    negativeMarking: 0.5,
+                    step: "02",
+                },
+            },
+            algebra: {
+                label: "বীজগণিত",
+                route: "/t20/math/algebra",
+                folder: "math/algebra",
+                active: true,
+                config: {
+                    title: "বীজগণিত",
+                    category: "Math",
+                    subject: "বীজগণিত",
+                    passMark: 50,
+                    questionLimit: 20,
+                    timeLimit: 120,
+                    timerDisplay: "t20",
+                    negativeMarking: 0.5,
+                    step: "03",
+                },
+            },
+            geometry: {
+                label: "জ্যামিতি ও ত্রিকোণমিতি",
+                route: "/t20/math/geometry",
+                folder: "math/geometry",
+                active: true,
+                config: {
+                    title: "জ্যামিতি ও ত্রিকোণমিতি",
+                    category: "Math",
+                    subject: "জ্যামিতি ও ত্রিকোণমিতি",
+                    passMark: 50,
+                    questionLimit: 20,
+                    timeLimit: 120,
+                    timerDisplay: "t20",
+                    negativeMarking: 0.5,
+                    step: "04",
+                },
+            },
+        },
+    },
+
     
 };
 

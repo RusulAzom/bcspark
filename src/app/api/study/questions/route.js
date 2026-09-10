@@ -55,6 +55,7 @@ const SUBJECT_LABELS = {
     noikotaMS: "নৈতিকতা, মূল্যবোধ ও সুশাসন",
     sadharonBiggan: "সাধারণ বিজ্ঞান",
     vugolPoribeshDM: "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+    math: "গণিত",
 };
 
 // Level 2 (Topic): several subjects' specific topics have no practiceRoutes

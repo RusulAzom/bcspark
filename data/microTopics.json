@@ -652,5 +652,97 @@
                 "file": "vugol.json"
             }
         ]
+    },
+    "math": {
+        "arithmetic": [
+            {
+                "microTopic": "সংখ্যার ধারণা",
+                "file": "shonkarDharona.json"
+            },
+            {
+                "microTopic": "বিভাজ্যতা, বর্গ ও বর্গমূল",
+                "file": "bibhajojotaBorgoOBorgomul.json"
+            },
+            {
+                "microTopic": "গড়",
+                "file": "gor.json"
+            },
+            {
+                "microTopic": "গ.সা.গু. ও ল.সা.গু.",
+                "file": "gosaguOLosagu.json"
+            },
+            {
+                "microTopic": "ঐকিক নিয়ম",
+                "file": "oikikNiyom.json"
+            },
+            {
+                "microTopic": "শতকরা হিসাব",
+                "file": "shotkoraHisab.json"
+            },
+            {
+                "microTopic": "সরল ও যৌগিক মুনাফা নির্ণয়",
+                "file": "shorolOYougiokMunafaNirnoy.json"
+            },
+            {
+                "microTopic": "লাভ-ক্ষতি",
+                "file": "labhKhoti.json"
+            },
+            {
+                "microTopic": "অনুপাত-সমানুপাত ও মিশ্রণ",
+                "file": "onupatShomanupatOMishron.json"
+            },
+            {
+                "microTopic": "পরিমাপ ও একক",
+                "file": "porimapOEkok.json"
+            }
+        ],
+        "algebra": [
+            {
+                "microTopic": "বাস্তব সমস্যা সমাধানে বীজগণিতীয় সূত্র গঠন ও প্রয়োগ",
+                "file": "bastobShomoshyaBijgonitioShutro.json"
+            },
+            {
+                "microTopic": "উৎপাদক",
+                "file": "utpadok.json"
+            },
+            {
+                "microTopic": "সূচক ও লগারিদমের সূত্র ও প্রয়োগ",
+                "file": "shuchokOLogarithmerShutroOProyog.json"
+            },
+            {
+                "microTopic": "অনুক্রম ও ধারা",
+                "file": "onukromODhara.json"
+            }
+        ],
+        "geometry": [
+            {
+                "microTopic": "পরিমিতি সম্পর্কিত সাধারণ ধারণা, নিয়ম ও প্রয়োগ",
+                "file": "porimitiShomporitoDharona.json"
+            },
+            {
+                "microTopic": "রেখা ও কোণ",
+                "file": "rekhaOKon.json"
+            },
+            {
+                "microTopic": "ত্রিভুজ",
+                "file": "tribhuj.json"
+            },
+            {
+                "microTopic": "চতুর্ভুজ",
+                "file": "choturbhuj.json"
+            },
+            {
+                "microTopic": "বৃত্ত",
+                "file": "britto.json"
+            },
+            {
+                "microTopic": "ঘন জ্যামিতি",
+                "file": "ghonoJyamiti.json"
+            },
+            {
+                "microTopic": "ত্রিকোণবিতি সম্পর্কিত সাধারণ ধারণা, নিয়ম ও প্রয়োগ",
+                "file": "trikonmitiShomporitoDharona.json"
+            }
+        ]
     }
 }
