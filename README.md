@@ -398,369 +398,101 @@ Your new quiz will automatically work with the **QuickPracticeEngine**.
 413 = The Number
 
 420 = Parts of Speech: The Pronoun, The Adjective, The Preposition, The Conjunction
-421 = The Pronoun
-422 = The Adjective
-423 = The Preposition
-424 = The Conjunction
 
-440 = Parts of Speech: The Verb Part-1
-441 = The Finite
-442 = transitive
-443 = intransitive
-444 = The Non-finite
-445 = participles
-446 = infinitives
-447 = gerunds
+## Central Model Test Architecture & Usage Guide
 
-450 = Parts of Speech: The Verb Part-2 & The Adverb
-451 = The Linking Verb
-452 = The Phrasal Verb
-453 = Modals
-454 = The Adverb
+### 1. Data Schema & JSON Format Example
 
-460 = Idioms & Phrases
-461 = Meanings of Phrases
-462 = Kinds of Phrases
-463 = Identifying Phrases
+Central model tests currently use local source files. There is no Firestore collection, central-model-tests API route, or admin CRUD screen for this feature.
 
-470 = Clauses
-471 = The Principal Clause
-472 = The Subordinate Clause
-473 = The Noun Clause
-474 = The Adjective Clause
-475 = The Adverbial Clause & its types
+The listing at `src/data/centralModelTests.js` exports an array named `CENTRAL_MODEL_TESTS`. Each listing object is expected to contain:
 
-480 = Corrections
-481 = The Tense
-482 = The Verb
-483 = The Preposition
-484 = The Determiner
-485 = The Gender
-486 = The Number
-487 = Subject-Verb Agreement
+```js
+{
+    examId: 'cmt-001',
+    title: 'Exam title',
+    scheduledDateTime: '2026-09-04T22:00:00+06:00',
+    questions: 70,
+    marks: 70,
+    description: 'Short description',
+    route: '/question-bank/DSS/combinedModelTest',
+    status: 'scheduled',
+    isCombined: true
+}
+```
 
-490 = Sentences & Transformations
-491 = The Simple Sentence
-492 = The Compound Sentence
-493 = The Complex Sentence
-494 = The Active Voice
-495 = The Passive Voice
-496 = The Positive Degree
-497 = The Comparative Degree
-498 = The Superlative Degree
+`examId`, `title`, `scheduledDateTime`, `questions`, `marks`, and `route` are the practical minimum fields for a card to render and link correctly. `description` and `status` are currently not rendered by the central-test page. `isCombined` is optional; when true, the item is placed in the “Today's Combined Model Test” section, otherwise it is placed in “Upcoming Model Tests”.
 
-430 = Words
-431 = Meanings
-432 = Synonyms
-433 = Antonyms
-434 = Spellings
-435 = Usage of words as various parts of speech
-436 = Formation of new words by adding prefixes and suffixes
-437 = vocabulary 
+The `route` must resolve to a question-bank JSON file under `data/questionBank/<type>/<exam>.json`. That file must have this shape:
 
-499 = Composition & Names of parts of paragraphs/letters/applications
+```json
+{
+    "examInfo": {
+        "examName": "১ম সাপ্তাহিক মডেল টেস্ট - ইউনিয়ন সমাজকর্মী",
+        "examType": "preliminary",
+        "examCategory": "সমাজসেবা",
+        "examDate": "2026-09-04",
+        "totalMarks": 70,
+        "totalQuestions": 70,
+        "timeLimitMinutes": 60
+    },
+    "questions": [
+        {
+            "id": 1,
+            "subject": "বাংলা",
+            "topics": "কারক ও বিভক্তি",
+            "q": "Question text",
+            "options": ["Option A", "Option B", "Option C", "Option D"],
+            "ans": 0,
+            "explain": "Explanation shown during review",
+            "source": ["Source label"]
+        }
+    ]
+}
+```
 
-## 500 = ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা
+`examInfo.examName`, `examInfo.totalQuestions`, and a non-empty `questions` array are required for the route to render the engine. The engine directly requires each question's `q`, `options`, and numeric zero-based `ans`; `id`, `subject`, `topics`, `explain`, and `source` support identity, subject filtering, and review display. `totalMarks`, `examCategory`, `examDate`, and `timeLimitMinutes` improve the pre-exam screen and timing behavior.
 
-510 = ভূগোল
-511 = বাংলাদেশ ও অঞ্চলভিত্তিক ভৌগোলিক অবস্থান
-512 = সীমানা
-513 = পারিবেশিক গুরুত্ব
-514 = আর্থ-সামাজিক গুরুত্ব
-515 = ভূ-রাজনৈতিক গুরুত্ব
+### 2. Data Flow & Component Hierarchy
 
-520 = ভৌত পরিবেশ ও ভূ-প্রাকৃতিক সম্পদ
-521 = অঞ্চলভিত্তিক ভৌত পরিবেশ (ভূ-প্রাকৃতিক)
-522 = সম্পদের বণ্টন ও গুরুত্ব
+```text
+/central-model-tests
+    -> src/app/central-model-tests/page.jsx
+         -> imports CENTRAL_MODEL_TESTS from src/data/centralModelTests.js
+         -> renders Navbar, Footer, CountdownTimer, and exam cards
+         -> links to /question-bank/[type]/[exam]
+                -> src/app/question-bank/[type]/[exam]/page.jsx
+                     -> GET /api/question-bank/exam?type=<type>&exam=<exam>
+                            -> reads data/questionBank/<type>/<exam>.json on the server
+                     -> passes examInfo, questions, and calculated timeLimit
+                            -> src/components/BCSExamEngine.jsx
+```
 
-530 = বাংলাদেশের পরিবেশ
-531 = প্রকৃতি ও সম্পদ
-532 = প্রধান চ্যালেঞ্জসমূহ
+The central page does not fetch data. It initializes its state from the imported array, separates entries only by `isCombined`, and considers a test available when `new Date(scheduledDateTime) <= new Date()`. The `status` field is not used for filtering. Dates and times are formatted for the `Asia/Dhaka` timezone, while the countdown uses the parsed timestamp.
 
-540 = বাংলাদেশ ও বৈশ্বিক পরিবেশ পরিবর্তন
-541 = আবহাওয়া ও জলবায়ু নিয়ামকসমূহের সেক্টরভিত্তিক স্থানীয় প্রভাব
-542 = আবহাওয়া ও জলবায়ু নিয়ামকসমূহের সেক্টরভিত্তিক আঞ্চলিক প্রভাব
-543 = আবহাওয়া ও জলবায়ু নিয়ামকসমূহের সেক্টরভিত্তিক বৈশ্বিক প্রভাব (অভিবাসন, কৃষি, শিল্প, মৎস্য ইত্যাদি)
+The question-bank API exposes the complete parsed JSON object. The dynamic page rejects missing/empty data, calculates the time limit with `getTimeLimit`, and then mounts `BCSExamEngine`. The list API at `/api/question-bank/list` is used by the general question-bank page, not by the central model-test landing page.
 
-550 = প্রাকৃতিক দুর্যোগ ও ব্যবস্থাপনা
-551 = দুর্যোগের ধরন
-552 = দুর্যোগের প্রকৃতি
-553 = দুর্যোগ ব্যবস্থাপনা
+### 3. Step-by-Step Guide for Adding New Central Model Tests
 
-## 600 = সাধারণ বিজ্ঞান  
-600 = সাধারণ বিজ্ঞান
+1. Add or update a JSON file at `data/questionBank/<type>/<exam>.json`.
+2. Add `examInfo` with at least `examName` and `totalQuestions`. Set `examType` when the test should use a specific entry in `src/data/questionBankConfig.js`.
+3. Add a non-empty `questions` array. Every question needs `q`, `options`, and a zero-based numeric `ans`; validate that `ans` points to an option.
+4. Add an object to `CENTRAL_MODEL_TESTS` with unique `examId`, user-facing `title`, ISO `scheduledDateTime` including the Bangladesh offset, numeric `questions` and `marks`, and the exact `/question-bank/<type>/<exam>` route.
+5. Set `isCombined: true` only for tests intended for the combined section. Do not rely on `status` to hide a test; the current page ignores it.
+6. Verify the route manually or with the question-bank API, then run `npm run lint` and `npm run build` before publishing.
 
-=== 610 & 620 ভৌত বিজ্ঞান (Physics) ===
-610 = ভৌত বিজ্ঞান (Physics)
-611 = ভৌত রাশি এবং এর পরিমাপ
-612 = ভৌত বিজ্ঞানের উন্নয়ন
-613 = চৌম্বকত্ব
-614 = তরঙ্গ এবং শব্দ
-615 = তাপ ও তাপগতি বিদ্যা
-616 = আলোর প্রকৃতি
-617 = স্থির এবং চল তড়িৎ
-618 = ইলেকট্রনিক্স
-619 = আধুনিক পদার্থবিজ্ঞান
-620 = শক্তির উৎস এবং এর প্রয়োগ
-621 = নবায়নযোগ্য শক্তির উৎস
-622 = পারমাণবিক শক্তি
-623 = শক্তির রূপান্তর
-624 = আলোক যন্ত্রপাতি
-625 = মৌলিক কণা
-626 = তড়িৎ চৌম্বক
-627 = ট্রান্সফরমার
-628 = এক্সরে
-629 = তেজস্ক্রিয়তা
+There is currently no supported admin workflow for these changes. The admin dashboard manages other Firestore-backed data such as circulars and job solutions; it neither edits `centralModelTests.js` nor uploads question-bank JSON files. In practice, publishing requires a code/data change, deployment, and a route check. As of this audit, the registry contains active entries for `/question-bank/BCS/bcsPreliminary1` and `/question-bank/ব্যাংক/bankJob1`, but matching JSON files were not present, so those links will fail until the files are added or the entries are corrected.
 
-=== 630 & 640 ভৌত বিজ্ঞান (Chemistry) ===
-630 = ভৌত বিজ্ঞান (Chemistry)
-631 = পদার্থের অবস্থা
-632 = এটমের গঠন
-633 = কার্বনের বহুমুখী ব্যবহার
-634 = এসিড
-635 = ক্ষার
-636 = লবণ
-637 = পদার্থের ক্ষয়
-638 = সাবানের কাজ
-639 = খনিজ উৎস
-640 = ধাতব পদার্থ এবং তাদের যৌগসমূহ
-641 = অধাতব পদার্থ
-642 = জারণ-বিজারণ
-643 = তড়িৎ কোষ
-644 = অজৈব যৌগ
-645 = জৈব যৌগ
+### 4. Scoring & Engine Integration Overview
 
-=== 650 & 660 জীববিজ্ঞান ===
-650 = জীববিজ্ঞান
-651 = জীববিজ্ঞান-বিষয়ক ধর্ম
-652 = টিস্যু
-653 = জেনেটিকস
-654 = জীববৈচিত্র্য
-655 = এনিম্যাল ডাইভারসিটি
-656 = প্লান্ট ডাইভারসিটি
-657 = এনিম্যাল টিস্যু
-658 = অর্গান এবং অর্গান সিস্টেম
-659 = সালোক সংশ্লেষণ
-660 = ভাইরাস
-661 = ব্যাকটেরিয়া
-662 = জুলোজিক্যাল নমেনক্লেচার
-663 = বোটানিক্যাল নমেনক্লেচার
-664 = প্রাণিজগৎ
-665 = উদ্ভিদ
-666 = ফুল
-667 = ফল
-668 = রক্ত ও রক্ত সঞ্চালন
-669 = রক্তচাপ
-670 = হৃদপিণ্ড এবং হৃদরোগ
-671 = স্নায়ু এবং স্নায়ুরোগ
-672 = খাদ্য ও পুষ্টি
-673 = ভিটামিন
-674 = মাইক্রোবায়োলজি
-675 = প্লান্ট নিউট্রেশন
-676 = পরাগায়ন ইত্যাদি
+`BCSExamEngine` stores selected option indexes in `answers`. On submission, an answer is correct when `Number(selectedOption) === question.ans`; every answered non-matching option counts as wrong and unanswered questions are skipped. The displayed final score is:
 
-=== 680&690 আধুনিক বিজ্ঞান ও অন্যান্য ===
-680 = আধুনিক বিজ্ঞান ও অন্যান্য
-681 = পৃথিবী সৃষ্টির ইতিহাস
-682 = কসমিক রে
-683 = ব্লাক হোল
-684 = হিগের কণা
-685 = বারিমণ্ডল
-686 = টাইড
-687 = বায়ুমণ্ডল
-688 = টেকটোনিক প্লেট
-689 = সাইক্লোন
-690 = সুনামি
-691 = বিবর্তন
-692 = সামুদ্রিক জীবন
-693 = মানবদেহ
-694 = রোগের কারণ ও প্রতিকার
-695 = সংক্রামক রোগ
-696 = রোগ জীবাণুর জীবনধারণ
-697 = মা ও শিশু স্বাস্থ্য
-698 = ইম্যুনাইজেশন এবং ভ্যাকসিনেশন
-699 = এইচআইভি
-601 = এইডস
-602 = টিবি
-603 = পোলিও
-604 = জোয়ার-ভাটা
-605 = এপিকালচার
-606 = সেরিকালচার
-607 = পিসিকালচার
-608 = হটিকালচার
-609 = ডায়োড
-691 = ট্রানজিস্টর
-692 = আইসি
-693 = আপেক্ষিক তত্তা
-694 = ফোটন কণা ইত্যাদি
+```text
+finalScore = correctCount - (wrongCount * negativePerWrong)
+```
 
-## 700 = কম্পিউটার ও তথ্য প্রযুক্তি 10 marks 
+The default question-bank configuration uses `negativePerWrong: 0.5` and a pass threshold of 70 percent. The engine selects configuration by `examInfo.examType`, falling back to the route `type`, then to the BCS defaults. The pre-exam pass mark is `round(totalQuestions * 0.7)`.
 
-======= কম্পিউটার Theory 711 to 759 ======== 5 marks
+Timing uses `examInfo.timeLimitMinutes` when it is a positive value. Otherwise `getTimeLimit` gives tests with 200 or more questions 80 minutes, tests with 100 or more questions 40 minutes, and smaller tests 2 hours. The central listing's `questions` and `marks` values are display metadata; the engine scores the loaded JSON array and uses `examInfo.totalQuestions` for exam metadata, so those values should be kept consistent.
 
-710 = কম্পিউটার পেরিফেরালস (Computer Peripherals)
-711 = কি-বোর্ড (Keyboard)
-712 = মাউস (Mouse)
-713 = ওসিআর (OCR) ইত্যাদি
-
-720 = কম্পিউটারের অঙ্গসংগঠন (Computer Architecture)
-721 = সিপিইউ (CPU)
-722 = হার্ড ডিস্ক (Hard Disk)
-723 = এএলইউ (ALU)
-724 = কম্পিউটারের Performance
-
-730 = দৈনন্দিন জীবনে কম্পিউটার (Computer in Practical Fields)
-731 = কৃষি
-732 = যোগাযোগ
-733 = শিক্ষা
-734 = স্বাস্থ্য
-735 = খেলাধুলা ইত্যাদি
-
-740 = Systems of Computer
-741 = কম্পিউটারের নম্বর ব্যবস্থা
-742 = অপারেটিং সিস্টেমস (Operating Systems)
-743 = এমবেডেড কম্পিউটার (Embedded Computer)
-744 = ভাইরাস (VIRUS)
-745 = ফায়ারওয়াল (Firewall) ইত্যাদি
-746 = কম্পিউটারের ইতিহাস (History of Computer)
-747 = কম্পিউটারের প্রকারভেদ (Types of Computers)
-
-750 = কম্পিউটার প্রোগ্রাম
-751 = Computer Program
-752 = ডেটাবেইস সিস্টেম (Database System)
-
-=========== তথ্য প্রযুক্তি 761 to 799 ===All Done====== 5 marks 
-
-======= কম্পিউটার Theory 711 to 759 ======== 5 marks
-701 = কম্পিউটার রক্ষণাবেক্ষণ, Virus, Cyber Security, firewall, software, Operating System ect.
- 
-704 = কম্পিউটারের ইতিহাস, প্রকারভেদ, প্রজন্ম  
-
-705 = কম্পিউটার নেটওয়ার্ক & Data communications 
-
-706 = Machine Code (ASCII, BCD, Unicode ..oth)
-710 = কম্পিউটার পেরিফেরালস (Computer Peripherals, কি-বোর্ড, মাউস, OCR )
-711 = কি-বোর্ড (Keyboard)
-712 = মাউস (Mouse)
-713 = ওসিআর (OCR) ইত্যাদি
-
-720 = কম্পিউটারের অঙ্গসংগঠন (CPU, Hard Disk, ALU, RAM, ROM)
-721 = সিপিইউ (CPU)
-722 = হার্ড ডিস্ক (Hard Disk)
-723 = এএলইউ (ALU)
-724 = কম্পিউটারের Performance
-
-730 = দৈনন্দিন জীবনে কম্পিউটার (কৃষি, যোগাযোগ, শিক্ষা, স্বাস্থ্য, খেলাধুলা ইত্যাদি)
-731 = কৃষি
-732 = যোগাযোগ
-733 = শিক্ষা
-734 = স্বাস্থ্য
-735 = খেলাধুলা ইত্যাদি
-
-740 = Computer Number System (বাইনারি, অক্টাল, হেক্সা ডেসিমল ও রুপান্তর)
-741 = কম্পিউটারের নম্বর ব্যবস্থা
-742 = অপারেটিং সিস্টেমস (Operating Systems)
-743 = এমবেডেড কম্পিউটার (Embedded Computer)
-744 = ভাইরাস (VIRUS)
-745 = ফায়ারওয়াল (Firewall) ইত্যাদি
-
-750=  ডেটাবেইস সিস্টেম (Database Management System)
-
-
-## 800 = গাণিতিক যুক্তি  20 marks 
-800 = গাণিতিক যুক্তি
-
-810 = প্রাথমিক গনিত
-811 = বাস্তব সংখ্যা
-812 = ল.সা.গু
-813 = গ.সা.গু
-814 = শতকরা
-815 = সরল মুনাফা
-816 = যৌগিক মুনাফা
-817 = অনুপাত ও সমানুপাত
-818 = লাভ ও ক্ষতি
-
-820 = বীজগাণিতি
-821 = বীজগাণিতিক সূত্রাবলি
-822 = বহুপদী উৎপাদক
-823 = সরল সমীকরণ
-824 = দ্বিপদী সমীকরণ
-825 = সরল অসমতা
-826 = দ্বিপদী অসমতা
-827 = সরল সহসমীকরণ
-
-830 = ক্যালকুলাস 
-831 = সূচক
-832 = লগারিদম
-833 = সমান্তর অনুক্রম
-834 = সমান্তর ধারা
-835 = গুণোত্তর অনুক্রম
-836 = গুণোত্তর ধারা
-
-840 = জ্যামিতি - উপপাদ্য
-841 = রেখা সংক্রান্ত উপপাদ্য
-842 = কোণ সংক্রান্ত উপপাদ্য
-843 = ত্রিভুজ সংক্রান্ত উপপাদ্য
-844 = চতুর্ভুজ সংক্রান্ত উপপাদ্য
-845 = পিথাগোরাসের উপপাদ্য
-846 = বৃত্ত সংক্রান্ত উপপাদ্য
-
-850 = পরিমিতি
-851 = সরলক্ষেত্রের পরিমিতি
-852 = ঘনবস্তুর পরিমিতি
-
-860 = পরিসংখ্যান ও সম্ভাব্যতা
-861 = সেট
-862 = বিন্যাস
-863 = সমাবেশ
-864 = পরিসংখ্যান
-865 = সম্ভাব্যতা
-
-## 890 = মানসিক দক্ষতা 15 marks 
-891 = ভাষাগত যৌক্তিক বিচার (Verbal Reasoning)
-892 = সমস্যা সমাধান (Problem Solving)
-893 = বানান ও ভাষা (Spelling and Language)
-894 = যান্ত্রিক দক্ষতা (Mechanical Reasoning)
-895 = স্থানাঙ্ক সম্পর্ক (Space Relation)
-896 = সংখ্যাগত ক্ষমতা (Numerical Ability)
-
-## 900 = নৈতিকতা, মূল্যবোধ ও সু-শাসন 15 marks 
-
-910 = Definition of Values and Good Governance (মূল্যবোধ ও সু-শাসনের সংজ্ঞা)
-911 = Definition of Values (মূল্যবোধের সংজ্ঞা)
-912 = Definition of Good Governance (সু-শাসনের সংজ্ঞা)
-
-920 = Relation between Values and Good Governance (মূল্যবোধ ও সু-শাসনের সম্পর্ক)
-921 = Relation between Values and Good Governance (মূল্যবোধ ও সু-শাসনের সম্পর্ক)
-
-930 = General Perception of Values and Good Governance (মূল্যবোধ ও সু-শাসন সম্পর্কে সাধারণ ধারণা)
-931 = General Perception of Values (মূল্যবোধ সম্পর্কে সাধারণ ধারণা)
-932 = General Perception of Good Governance (সু-শাসন সম্পর্কে সাধারণ ধারণা)
-
-940 = Importance of Values and Good Governance in the life of an individual as a citizen (নাগরিক হিসেবে ব্যক্তিজীবনে মূল্যবোধ ও সু-শাসনের গুরুত্ব)
-941 = Importance of Values in the life of an individual as a citizen (নাগরিক হিসেবে ব্যক্তিজীবনে মূল্যবোধের গুরুত্ব)
-942 = Importance of Good Governance in the life of an individual as a citizen (নাগরিক হিসেবে ব্যক্তিজীবনে সু-শাসনের গুরুত্ব)
-
-950 = Importance of Values and Good Governance in the making of society and national ideals (সমাজ ও জাতীয় আদর্শ গঠনে মূল্যবোধ ও সু-শাসনের গুরুত্ব)
-951 = Importance of Values in the making of society (সমাজ গঠনে মূল্যবোধের গুরুত্ব)
-952 = Importance of Good Governance in the making of society (সমাজ গঠনে সু-শাসনের গুরুত্ব)
-953 = Importance of Values in national ideals (জাতীয় আদর্শে মূল্যবোধের গুরুত্ব)
-954 = Importance of Good Governance in national ideals (জাতীয় আদর্শে সু-শাসনের গুরুত্ব)
-
-960 = Impact of Values and Good Governance in National Development (জাতীয় উন্নয়নে মূল্যবোধ ও সু-শাসনের প্রভাব)
-961 = Impact of Values in National Development (জাতীয় উন্নয়নে মূল্যবোধের প্রভাব)
-962 = Impact of Good Governance in National Development (জাতীয় উন্নয়নে সু-শাসনের প্রভাব)
-
-970 = How the elements of Good Governance and Values can be established in society in a given social context (প্রদত্ত সামাজিক প্রেক্ষাপটে সমাজে সু-শাসন ও মূল্যবোধের উপাদানসমূহ কীভাবে প্রতিষ্ঠা করা যায়)
-971 = Elements of Good Governance (সু-শাসনের উপাদানসমূহ)
-972 = Elements of Values (মূল্যবোধের উপাদানসমূহ)
-973 = Establishment of Good Governance in society (সমাজে সু-শাসন প্রতিষ্ঠা)
-974 = Establishment of Values in society (সমাজে মূল্যবোধ প্রতিষ্ঠা)
-
-980 = The benefit of Values and Good Governance (মূল্যবোধ ও সু-শাসনের সুবিধা)
-981 = Benefit of Values (মূল্যবোধের সুবিধা)
-982 = Benefit of Good Governance (সু-শাসনের সুবিধা)
-
-990 = The cost society pays adversely in their absence (এদের অনুপস্থিতিতে সমাজ যে বিরূপ মূল্য দেয়)
-991 = Cost of absence of Values (মূল্যবোধের অনুপস্থিতির ক্ষতি)
-992 = Cost of absence of Good Governance (সু-শাসনের অনুপস্থিতির ক্ষতি)
+The engine also groups questions by `subject`, supports subject filtering before submission, shows explanations/source data during review, and provides a JPEG result download. A central-test entry therefore does not contain its own question set or scoring logic: it is a scheduled card and route pointer into the reusable question-bank engine.
