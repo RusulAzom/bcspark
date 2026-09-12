@@ -1,9 +1,9 @@
 {
   "examInfo": {
-    "examName": "১ম সাপ্তাহিক মডেল টেস্ট - ইউনিয়ন সমাজকর্মী",
+    "examName": "২য় সাপ্তাহিক মডেল টেস্ট - ইউনিয়ন সমাজকর্মী",
     "examType": "preliminary",
-    "totalMarks": "70",
-    "totalQuestions": 70
+    "totalMarks": "50",
+    "totalQuestions": 50
   },
   "questions": [
     {
@@ -11,1190 +11,500 @@
       "subject": "বাংলা",
       "topics": "কারক ও বিভক্তি",
       "q": "‘বনে বাঘ আছে’ - ‘বনে’ কোন কারকে কোন বিভক্তি?",
-      "options": [
-        "অধিকরণে ৭মী",
-        "কর্মে ৭মী",
-        "করণে ৭মী",
-        "অপাদানে ৭মী"
-      ],
+      "options": ["অধিকরণে ৭মী", "কর্মে ৭মী", "করণে ৭মী", "অপাদানে ৭মী"],
       "ans": 0,
       "explain": "স্থান বোঝালে অধিকরণ কারক, ‘এ’ বিভক্তি ৭মী। [১]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 2,
       "subject": "বাংলা",
       "topics": "কারক ও বিভক্তি",
       "q": "‘টাকায় কী না হয়’ - ‘টাকায়’ কোন কারক?",
-      "options": [
-        "করণে ৭মী",
-        "অধিকরণে ৭মী",
-        "অপাদানে ৭মী",
-        "কর্মে ৭মী"
-      ],
+      "options": ["করণে ৭মী", "অধিকরণে ৭মী", "অপাদানে ৭মী", "কর্মে ৭মী"],
       "ans": 0,
       "explain": "টাকার দ্বারা বোঝালে করণ কারক। [২]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 3,
       "subject": "বাংলা",
       "topics": "কারক ও বিভক্তি",
-      "q": "‘পাগলে কী না বলে’ - ‘পাগলে’ কোন কারক?",
-      "options": [
-        "কর্তায় ৭মী",
-        "কর্মে ৭মী",
-        "করণে ৭মী",
-        "অপাদানে ৭মী"
-      ],
+      "q": "‘ছাদ থেকে চাঁদ দেখা যায়’ - ‘ছাদ থেকে’ কোন কারক?",
+      "options": ["অপাদানে ৫মী", "করণে ৫মী", "অধিকরণে ৫মী", "কর্মে ৫মী"],
       "ans": 0,
-      "explain": "পাগল কর্তা, ‘এ’ ৭মী বিভক্তি। [৩]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "হতে, থেকে, চেয়ে অপাদান, ৫মী বিভক্তি। [৩]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 4,
       "subject": "বাংলা",
       "topics": "কারক ও বিভক্তি",
-      "q": "‘ছাদ থেকে চাঁদ দেখা যায়’ - ‘ছাদ থেকে’ কোন কারক?",
-      "options": [
-        "অপাদানে ৫মী",
-        "করণে ৫মী",
-        "অধিকরণে ৫মী",
-        "কর্মে ৫মী"
-      ],
+      "q": "‘ডাক্তার ডাক’ - ‘ডাক্তার’ কোন কারক?",
+      "options": ["কর্মে শূন্য", "কর্তায় শূন্য", "করণে শূন্য", "অপাদানে শূন্য"],
       "ans": 0,
-      "explain": "হতে, থেকে, চেয়ে অপাদান কারকের চিহ্ন, ৫মী বিভক্তি। [৪]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "যাকে আশ্রয় করে ক্রিয়া সম্পন্ন হয় তা কর্মকারক। [৪]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 5,
       "subject": "বাংলা",
       "topics": "কারক ও বিভক্তি",
-      "q": "‘ডাক্তার ডাক’ - ‘ডাক্তার’ কোন কারক?",
-      "options": [
-        "কর্মে শূন্য",
-        "কর্তায় শূন্য",
-        "করণে শূন্য",
-        "অপাদানে শূন্য"
-      ],
+      "q": "‘তিলে তেল হয়’ - ‘তিলে’ কোন কারক?",
+      "options": ["অপাদানে ৭মী", "করণে ৭মী", "অধিকরণে ৭মী", "কর্মে ৭মী"],
       "ans": 0,
-      "explain": "যাকে আশ্রয় করে ক্রিয়া সম্পন্ন হয় তা কর্মকারক, শূন্য বিভক্তি। [৫]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "উৎপন্ন বোঝালে অপাদান কারক। [৫]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 6,
       "subject": "বাংলা",
       "topics": "কারক ও বিভক্তি",
-      "q": "‘গরুতে দুধ দেয়’ - ‘গরুতে’ কোন কারক?",
-      "options": [
-        "কর্তায় ৭মী",
-        "কর্মে ৭মী",
-        "করণে ৭মী",
-        "অপাদানে ৭মী"
-      ],
+      "q": "‘পাগলে কী না বলে’ - ‘পাগলে’ কোন কারক?",
+      "options": ["কর্তায় ৭মী", "কর্মে ৭মী", "করণে ৭মী", "অপাদানে ৭মী"],
       "ans": 0,
-      "explain": "গরু দুধ দেয়ার কর্তা, তে ৭মী। [৬]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "পাগল কর্তা, ‘এ’ ৭মী। [৬]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 7,
       "subject": "বাংলা",
       "topics": "কারক ও বিভক্তি",
-      "q": "‘বুলবুলিতে ধান খেয়েছে’ - ‘বুলবুলিতে’ কোন কারক?",
-      "options": [
-        "কর্তায় ৭মী",
-        "কর্মে ৭মী",
-        "করণে ৭মী",
-        "অপাদানে ৭মী"
-      ],
+      "q": "‘আকাশে চাঁদ উঠেছে’ - ‘আকাশে’ কোন কারক?",
+      "options": ["অধিকরণে ৭মী", "কর্মে ৭মী", "করণে ৭মী", "অপাদানে ৭মী"],
       "ans": 0,
-      "explain": "বুলবুলি খাওয়ার কর্তা, কর্তায় ৭মী। [৭]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "স্থান অধিকরণ, এ ৭মী। [৭]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 8,
       "subject": "বাংলা",
-      "topics": "কারক ও বিভক্তি",
-      "q": "‘সাপের ভয়ে’ - ‘ভয়ে’ কোন কারক?",
-      "options": [
-        "অপাদানে ৭মী",
-        "করণে ৭মী",
-        "অধিকরণে ৭মী",
-        "কর্মে ৭মী"
-      ],
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "‘দুর্গেশনন্দিনী’ উপন্যাসের রচয়িতা কে?",
+      "options": ["বঙ্কিমচন্দ্র চট্টোপাধ্যায়", "মাইকেল মধুসূদন", "দীনবন্ধু মিত্র", "বিদ্যাসাগর"],
       "ans": 0,
-      "explain": "ভয় থেকে অপাদান, এ ৭মী। [৮]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "বাংলা সাহিত্যের প্রথম সার্থক উপন্যাস দুর্গেশনন্দিনী ১৮৬৫ সালে বঙ্কিমচন্দ্র লেখেন। [৮]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 9,
       "subject": "বাংলা",
-      "topics": "কারক ও বিভক্তি",
-      "q": "‘তিলে তেল হয়’ - ‘তিলে’ কোন কারক?",
-      "options": [
-        "অপাদানে ৭মী",
-        "করণে ৭মী",
-        "অধিকরণে ৭মী",
-        "কর্মে ৭মী"
-      ],
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "‘মেঘনাদবধ কাব্য’ কত সালে প্রকাশিত?",
+      "options": ["১৮৬১", "১৮৬৫", "১৮৭৩", "১৮৬০"],
       "ans": 0,
-      "explain": "উৎপন্ন বোঝালে অপাদান, তিল থেকে তেল। [৯]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "মাইকেল মধুসূদনের মহাকাব্য মেঘনাদবধ ১৮৬১ সালে প্রকাশিত। [৯]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 10,
       "subject": "বাংলা",
-      "topics": "কারক ও বিভক্তি",
-      "q": "‘জিজ্ঞাসিব জনে জনে’ - ‘জনে জনে’ কোন কারক?",
-      "options": [
-        "কর্মে ৭মী",
-        "কর্তায় ৭মী",
-        "করণে ৭মী",
-        "অপাদানে ৭মী"
-      ],
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "‘নীলদর্পণ’ নাটকের রচয়িতা কে?",
+      "options": ["দীনবন্ধু মিত্র", "বঙ্কিমচন্দ্র", "মধুসূদন", "বিদ্যাসাগর"],
       "ans": 0,
-      "explain": "যাকে জিজ্ঞাসা করা হবে তা কর্ম, এ ৭মী। [১০]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "নীলকরদের অত্যাচার নিয়ে দীনবন্ধু মিত্র ১৮৬০ সালে নীলদর্পণ লেখেন। [১০]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 11,
       "subject": "বাংলা",
-      "topics": "কারক ও বিভক্তি",
-      "q": "‘আকাশে চাঁদ উঠেছে’ - ‘আকাশে’ কোন কারক?",
-      "options": [
-        "অধিকরণে ৭মী",
-        "কর্মে ৭মী",
-        "করণে ৭মী",
-        "অপাদানে ৭মী"
-      ],
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "বাংলা গদ্যের জনক কে?",
+      "options": ["ঈশ্বরচন্দ্র বিদ্যাসাগর", "বঙ্কিমচন্দ্র", "রামমোহন রায়", "কালীপ্রসন্ন সিংহ"],
       "ans": 0,
-      "explain": "স্থান অধিকরণ, এ ৭মী। [১১]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "বাংলা গদ্যকে সুশৃঙ্খল রূপ দেন বিদ্যাসাগর। [১১]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 12,
       "subject": "বাংলা",
-      "topics": "কারক ও বিভক্তি",
-      "q": "কর্তৃকারকে শূন্য বিভক্তির উদাহরণ কোনটি?",
-      "options": [
-        "ছেলেরা খেলে",
-        "ছেলেদের খেলা",
-        "ছেলেদের দ্বারা",
-        "ছেলেতে"
-      ],
+      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
+      "q": "ফোর্ট উইলিয়াম কলেজ কবে প্রতিষ্ঠিত?",
+      "options": ["১৮০০", "১৮০১", "১৭৯৯", "১৮০৫"],
       "ans": 0,
-      "explain": "ছেলেরা কর্তা, শূন্য বিভক্তি। [১২]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "লর্ড ওয়েলেসলি ১৮০০ সালে ফোর্ট উইলিয়াম কলেজ প্রতিষ্ঠা করেন। [১২]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 13,
       "subject": "বাংলা",
       "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "১৯শ শতকের ‘দুর্গেশনন্দিনী’ উপন্যাসের রচয়িতা কে?",
-      "options": [
-        "বঙ্কিমচন্দ্র চট্টোপাধ্যায়",
-        "মাইকেল মধুসূদন",
-        "দীনবন্ধু মিত্র",
-        "ঈশ্বরচন্দ্র বিদ্যাসাগর"
-      ],
+      "q": "‘আলালের ঘরের দুলাল’ এর রচয়িতা?",
+      "options": ["প্যারীচাঁদ মিত্র", "বঙ্কিমচন্দ্র", "বিদ্যাসাগর", "কালীপ্রসন্ন"],
       "ans": 0,
-      "explain": "বাংলা সাহিত্যের প্রথম সার্থক উপন্যাস দুর্গেশনন্দিনী ১৮৬৫ সালে বঙ্কিমচন্দ্র লেখেন। [১৩]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "প্যারীচাঁদ মিত্র ১৮৫৮ সালে প্রথম চলিত ভাষার উপন্যাস লেখেন। [১৩]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 14,
       "subject": "বাংলা",
       "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "‘মেঘনাদবধ কাব্য’ কোন সালে প্রকাশিত হয়?",
-      "options": [
-        "১৮৬১",
-        "১৮৬৫",
-        "১৮৭৩",
-        "১৮৬০"
-      ],
+      "q": "‘হুতোম প্যাঁচার নকশা’ কার লেখা?",
+      "options": ["কালীপ্রসন্ন সিংহ", "বঙ্কিমচন্দ্র", "দীনবন্ধু", "ভবানীচরণ"],
       "ans": 0,
-      "explain": "মাইকেল মধুসূদন দত্তের অমিত্রাক্ষর ছন্দের মহাকাব্য মেঘনাদবধ ১৮৬১ সালে প্রকাশিত। [১৪]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "কালীপ্রসন্ন সিংহ ১৮৬২ সালে হুতোম প্যাঁচার নকশা লেখেন। [১৪]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 15,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "‘নীলদর্পণ’ নাটকের রচয়িতা কে?",
-      "options": [
-        "দীনবন্ধু মিত্র",
-        "বঙ্কিমচন্দ্র",
-        "মধুসূদন",
-        "বিদ্যাসাগর"
-      ],
+      "subject": "English",
+      "topics": "Clause",
+      "q": "Which one is a Noun Clause?",
+      "options": ["What he said is true", "The boy who came is my brother", "I know the place where he lives", "Having finished work"],
       "ans": 0,
-      "explain": "নীলকরদের অত্যাচার নিয়ে দীনবন্ধু মিত্র ১৮৬০ সালে নীলদর্পণ লেখেন। [১৫]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "What he said = noun clause, subject হিসেবে কাজ করছে। [১৫]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 16,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "বাংলা গদ্যের জনক কে?",
-      "options": [
-        "ঈশ্বরচন্দ্র বিদ্যাসাগর",
-        "বঙ্কিমচন্দ্র",
-        "রামমোহন রায়",
-        "অক্ষয়কুমার দত্ত"
-      ],
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘I know that he is honest’ - ‘that he is honest’ is a?",
+      "options": ["Noun clause", "Adjective clause", "Adverb clause", "Main clause"],
       "ans": 0,
-      "explain": "বাংলা গদ্যকে সুশৃঙ্খল রূপ দেন বিদ্যাসাগর, তাই গদ্যের জনক। [১৬]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "That clause object হিসেবে, noun clause। [১৬]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 17,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "‘কপালকুণ্ডলা’ কোন ধরনের রচনা?",
-      "options": [
-        "উপন্যাস",
-        "নাটক",
-        "কাব্য",
-        "প্রবন্ধ"
-      ],
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘The book which you gave me is lost’ - which clause?",
+      "options": ["Adjective clause", "Noun clause", "Adverb clause", "Co-ordinate clause"],
       "ans": 0,
-      "explain": "বঙ্কিমচন্দ্রের দ্বিতীয় উপন্যাস কপালকুণ্ডলা ১৮৬৬ সালের রোমান্সধর্মী উপন্যাস। [১৭]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "Which you gave me - adjective clause। [১৭]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 18,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "মাইকেল মধুসূদন দত্তের প্রথম বাংলা নাটক কোনটি?",
-      "options": [
-        "শর্মিষ্ঠা",
-        "পদ্মাবতী",
-        "কৃষ্ণকুমারী",
-        "মেঘনাদবধ"
-      ],
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘When he came, I was sleeping’ - ‘When he came’ is?",
+      "options": ["Adverb clause of time", "Noun clause", "Adjective clause", "Main clause"],
       "ans": 0,
-      "explain": "শর্মিষ্ঠা ১৮৫৯ সালে তাঁর প্রথম বাংলা নাটক। [১৮]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "When যুক্ত time বোঝায় তাই adverb clause of time। [১৮]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 19,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "‘বিষবৃক্ষ’ উপন্যাস কার?",
-      "options": [
-        "বঙ্কিমচন্দ্র",
-        "শরৎচন্দ্র",
-        "রবীন্দ্রনাথ",
-        "বিদ্যাসাগর"
-      ],
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘If you work hard, you will succeed’ - ‘If you work hard’ is?",
+      "options": ["Adverb clause of condition", "Noun clause", "Adjective clause", "Noun in apposition"],
       "ans": 0,
-      "explain": "বঙ্কিমচন্দ্রের সামাজিক উপন্যাস বিষবৃক্ষ ১৮৭৩ সালে প্রকাশিত। [১৯]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "If যুক্ত condition বোঝায়। [১৯]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 20,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "ফোর্ট উইলিয়াম কলেজ কবে প্রতিষ্ঠিত?",
-      "options": [
-        "১৮০০",
-        "১৮০১",
-        "১৭৯৯",
-        "১৮০৫"
-      ],
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘Though he is poor, he is honest’ - ‘Though he is poor’ is?",
+      "options": ["Adverb clause of concession", "Noun clause", "Adjective clause", "Main clause"],
       "ans": 0,
-      "explain": "লর্ড ওয়েলেসলি ১৮০০ সালে ফোর্ট উইলিয়াম কলেজ প্রতিষ্ঠা করেন, বাংলা গদ্য চর্চার সূতিকাগার। [২০]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "Though যুক্ত concession বোঝায়। [২০]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 21,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "ঈশ্বরচন্দ্র বিদ্যাসাগরের ‘বর্ণপরিচয়’ প্রকাশ কবে?",
-      "options": [
-        "১৮৫৫",
-        "১৮৫৬",
-        "১৮৫৪",
-        "১৮৫৮"
-      ],
+      "subject": "English",
+      "topics": "Clause",
+      "q": "‘That he is honest is known to all’ - ‘That he is honest’ is?",
+      "options": ["Noun clause as subject", "Adjective clause", "Adverb clause", "Main clause"],
       "ans": 0,
-      "explain": "বর্ণপরিচয় প্রথম ভাগ ১৮৫৫ সালে প্রকাশিত হয়। [২১]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "বাক্যের subject হিসেবে noun clause। [২১]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 22,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "‘হুতোম প্যাঁচার নকশা’ কার লেখা?",
-      "options": [
-        "কালীপ্রসন্ন সিংহ",
-        "বঙ্কিমচন্দ্র",
-        "দীনবন্ধু মিত্র",
-        "ভবানীচরণ বন্দ্যোপাধ্যায়"
-      ],
+      "subject": "English",
+      "topics": "19th Century Literature",
+      "q": "Who is called the poet of nature in 19th century?",
+      "options": ["William Wordsworth", "John Keats", "P.B. Shelley", "Lord Byron"],
       "ans": 0,
-      "explain": "কালীপ্রসন্ন সিংহ হুতোম প্যাঁচার নকশা ১৮৬২ সালে লেখেন। [২২]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "Wordsworth (1770-1850) প্রকৃতির কবি। [২২]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 23,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "বাংলার প্রথম সাময়িকপত্র কোনটি?",
-      "options": [
-        "বাঙ্গাল গেজেটি",
-        "সমাচার দর্পণ",
-        "সংবাদ প্রভাকর",
-        "দিগদর্শন"
-      ],
-      "ans": 3,
-      "explain": "মার্শম্যানের দিগদর্শন ১৮১৮ সালের প্রথম বাংলা সাময়িকপত্র। [২৩]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "subject": "English",
+      "topics": "19th Century Literature",
+      "q": "‘Pride and Prejudice’ was written by?",
+      "options": ["Jane Austen", "Charlotte Bronte", "Emily Bronte", "George Eliot"],
+      "ans": 0,
+      "explain": "Jane Austen 1813 সালে Pride and Prejudice লেখেন। [২৩]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 24,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "‘আলালের ঘরের দুলাল’ এর রচয়িতা?",
-      "options": [
-        "প্যারীচাঁদ মিত্র",
-        "বঙ্কিমচন্দ্র",
-        "বিদ্যাসাগর",
-        "কালীপ্রসন্ন"
-      ],
+      "subject": "English",
+      "topics": "19th Century Literature",
+      "q": "Who wrote ‘Oliver Twist’?",
+      "options": ["Charles Dickens", "Thackeray", "Thomas Hardy", "Walter Scott"],
       "ans": 0,
-      "explain": "প্যারীচাঁদ মিত্র (টেকচাঁদ ঠাকুর) ১৮৫৮ সালে প্রথম চলিত ভাষার উপন্যাস লেখেন। [২৪]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "Charles Dickens 1837-39 সালে Oliver Twist লেখেন। [২৪]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 25,
       "subject": "English",
-      "topics": "Clause",
-      "q": "Which one is a Noun Clause?",
-      "options": [
-        "What he said is true",
-        "The boy who came is my brother",
-        "I know the place where he lives",
-        "Having finished work, he went home"
-      ],
+      "topics": "19th Century Literature",
+      "q": "‘Frankenstein’ is written by?",
+      "options": ["Mary Shelley", "Jane Austen", "Emily Bronte", "George Eliot"],
       "ans": 0,
-      "explain": "What he said = noun clause, subject হিসেবে কাজ করছে। [২৫]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "Mary Shelley 1818 সালে Frankenstein লেখেন। [২৫]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 26,
       "subject": "English",
-      "topics": "Clause",
-      "q": "‘I know that he is honest’ - ‘that he is honest’ is a?",
-      "options": [
-        "Noun clause",
-        "Adjective clause",
-        "Adverb clause",
-        "Main clause"
-      ],
+      "topics": "19th Century Literature",
+      "q": "Who wrote ‘Wuthering Heights’?",
+      "options": ["Emily Bronte", "Charlotte Bronte", "Jane Austen", "Charles Dickens"],
       "ans": 0,
-      "explain": "That clause object হিসেবে, noun clause। [২৬]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "Emily Bronte 1847 সালে Wuthering Heights। [২৬]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 27,
       "subject": "English",
-      "topics": "Clause",
-      "q": "‘The book which you gave me is lost’ - which clause?",
-      "options": [
-        "Adjective clause",
-        "Noun clause",
-        "Adverb clause",
-        "Co-ordinate clause"
-      ],
+      "topics": "19th Century Literature",
+      "q": "The Victorian Age is?",
+      "options": ["1837-1901", "1800-1850", "1901-1950", "1770-1830"],
       "ans": 0,
-      "explain": "Which you gave me - adjective clause, book কে modify করছে। [২৭]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "Queen Victoria 1837-1901, Victorian Age। [২৭]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 28,
       "subject": "English",
-      "topics": "Clause",
-      "q": "‘When he came, I was sleeping’ - ‘When he came’ is?",
-      "options": [
-        "Adverb clause of time",
-        "Noun clause",
-        "Adjective clause",
-        "Main clause"
-      ],
+      "topics": "19th Century Literature",
+      "q": "‘Great Expectations’ is written by?",
+      "options": ["Charles Dickens", "Thomas Hardy", "Jane Austen", "Walter Scott"],
       "ans": 0,
-      "explain": "When যুক্ত time বোঝায় তাই adverb clause of time। [২৮]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "Charles Dickens 1860-61 সালে Great Expectations। [২৮]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 29,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘If you work hard, you will succeed’ - ‘If you work hard’ is?",
-      "options": [
-        "Adverb clause of condition",
-        "Noun clause",
-        "Adjective clause",
-        "Noun in apposition"
-      ],
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "১৫ ও ২৫ এর গসাগু কত?",
+      "options": ["৫", "১০", "১৫", "২৫"],
       "ans": 0,
-      "explain": "If যুক্ত condition বোঝায়, adverb clause of condition। [২৯]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "১৫ ও ২৫ এর গসাগু ৫। [২৯]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 30,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘This is the place where he was born’ - ‘where he was born’ is?",
-      "options": [
-        "Adjective clause",
-        "Noun clause",
-        "Adverb clause",
-        "Independent clause"
-      ],
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "৮ ও ১২ এর লসাগু কত?",
+      "options": ["২৪", "১২", "৪৮", "৩৬"],
       "ans": 0,
-      "explain": "Place কে modify করছে তাই adjective clause (relative clause)। [৩০]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "৮ ও ১২ এর লসাগু ২৪। [৩০]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 31,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘Though he is poor, he is honest’ - ‘Though he is poor’ is?",
-      "options": [
-        "Adverb clause of concession",
-        "Noun clause",
-        "Adjective clause",
-        "Main clause"
-      ],
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "১০০ এর ২০% কত?",
+      "options": ["২০", "১০", "৩০", "৪০"],
       "ans": 0,
-      "explain": "Though যুক্ত concession/contrast বোঝায়। [৩১]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "১০০ এর ২০% = ২০। [৩১]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 32,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘I know the man who is honest’ - ‘who is honest’ is?",
-      "options": [
-        "Adjective clause",
-        "Noun clause",
-        "Adverb clause",
-        "None"
-      ],
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "ক্রয় ২০০ টাকা, বিক্রয় ২৫০ টাকা, লাভ কত %?",
+      "options": ["২৫%", "২০%", "১০%", "৩০%"],
       "ans": 0,
-      "explain": "Man কে qualify করছে, adjective clause। [৩২]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "লাভ ৫০ টাকা, ২৫%। [৩২]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 33,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘That he is honest is known to all’ - ‘That he is honest’ is?",
-      "options": [
-        "Noun clause as subject",
-        "Adjective clause",
-        "Adverb clause",
-        "Main clause"
-      ],
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "১০০০ টাকার ১০% সুদ ২ বছরে কত?",
+      "options": ["২০০", "১০০", "৩০০", "৪০০"],
       "ans": 0,
-      "explain": "বাক্যের subject হিসেবে noun clause। [৩৩]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "১০% হারে ২ বছরে ২০০ টাকা। [৩৩]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 34,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘He asked me why I was absent’ - ‘why I was absent’ is?",
-      "options": [
-        "Noun clause",
-        "Adjective clause",
-        "Adverb clause",
-        "Main clause"
-      ],
+      "subject": "গনিত",
+      "topics": "বীজগণিত",
+      "q": "x + 5 = 15 হলে x = ?",
+      "options": ["১০", "৫", "২০", "১৫"],
       "ans": 0,
-      "explain": "Asked এর object হিসেবে noun clause। [৩৪]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "x = 15-5 = 10। [৩৪]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 35,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘Wait till I come’ - ‘till I come’ is?",
-      "options": [
-        "Adverb clause of time",
-        "Noun clause",
-        "Adjective clause",
-        "Co-ordinate clause"
-      ],
+      "subject": "গনিত",
+      "topics": "বীজগণিত",
+      "q": "a² - b² = ?",
+      "options": ["(a+b)(a-b)", "(a-b)²", "(a+b)²", "a²+b²"],
       "ans": 0,
-      "explain": "Till time নির্দেশক adverb clause। [৩৫]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "a²-b² = (a+b)(a-b) সূত্র। [৩৫]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 36,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘The reason why he failed is unknown’ - ‘why he failed’ is?",
-      "options": [
-        "Adjective clause",
-        "Noun clause",
-        "Adverb clause",
-        "Main clause"
-      ],
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "বৃত্তের ক্ষেত্রফল সূত্র?",
+      "options": ["πr²", "2πr", "πr", "2r"],
       "ans": 0,
-      "explain": "Reason কে modify করছে, adjective clause। [৩৬]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "বৃত্তের ক্ষেত্রফল πr²। [৩৬]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 37,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "Who is called the poet of nature in 19th century?",
-      "options": [
-        "William Wordsworth",
-        "John Keats",
-        "P.B. Shelley",
-        "Lord Byron"
-      ],
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "সমকোণ কত ডিগ্রি?",
+      "options": ["৯০°", "১৮০°", "৪৫°", "৬০°"],
       "ans": 0,
-      "explain": "Wordsworth (1770-1850) প্রকৃতির কবি, Lyrical Ballads 1798। [৩৭]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "সমকোণ ৯০°। [৩৭]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 38,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "‘Pride and Prejudice’ was written by?",
-      "options": [
-        "Jane Austen",
-        "Charlotte Bronte",
-        "Emily Bronte",
-        "George Eliot"
-      ],
+      "subject": "গনিত",
+      "topics": "জ্যামিতি",
+      "q": "ত্রিভুজের ক্ষেত্রফল ভূমি ৮ উচ্চতা ৪ হলে?",
+      "options": ["১৬", "৩২", "২৪", "১২"],
       "ans": 0,
-      "explain": "Jane Austen 1813 সালে Pride and Prejudice লেখেন। [৩৮]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "১/২×৮×৪=১৬। [৩৮]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 39,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "Who wrote ‘Oliver Twist’?",
-      "options": [
-        "Charles Dickens",
-        "Thackeray",
-        "Thomas Hardy",
-        "Walter Scott"
-      ],
+      "subject": "গনিত",
+      "topics": "পাটিগণিত",
+      "q": "গড় ৫,১০,১৫ কত?",
+      "options": ["১০", "৫", "১৫", "২০"],
       "ans": 0,
-      "explain": "Charles Dickens 1837-39 সালে Oliver Twist লেখেন। [৩৯]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "৩০/৩=১০। [৩৯]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 40,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "‘Frankenstein’ is written by?",
-      "options": [
-        "Mary Shelley",
-        "Jane Austen",
-        "Emily Bronte",
-        "George Eliot"
-      ],
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "বাংলাদেশের সংবিধান কবে গৃহীত হয়?",
+      "options": ["৪ নভেম্বর ১৯৭২", "১৬ ডিসেম্বর ১৯৭২", "২৬ মার্চ ১৯৭১", "১৭ এপ্রিল ১৯৭১"],
       "ans": 0,
-      "explain": "Mary Shelley 1818 সালে Frankenstein লেখেন। [৪০]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "৪ নভেম্বর ১৯৭২ গৃহীত, ১৬ ডিসেম্বর কার্যকর। [৪০]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 41,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "The Victorian Age is?",
-      "options": [
-        "1837-1901",
-        "1800-1850",
-        "1901-1950",
-        "1770-1830"
-      ],
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "সংবিধানের জনক কে?",
+      "options": ["ড. কামাল হোসেন", "বঙ্গবন্ধু", "সৈয়দ নজরুল", "তাজউদ্দীন"],
       "ans": 0,
-      "explain": "Queen Victoria 1837-1901, Victorian Age। [৪১]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "ড. কামাল হোসেন সংবিধান প্রণয়ন কমিটির সভাপতি। [৪১]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 42,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "Who wrote ‘Wuthering Heights’?",
-      "options": [
-        "Emily Bronte",
-        "Charlotte Bronte",
-        "Jane Austen",
-        "Charles Dickens"
-      ],
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "রাষ্ট্র পরিচালনার মূলনীতি কয়টি?",
+      "options": ["৪টি", "৫টি", "৩টি", "৬টি"],
       "ans": 0,
-      "explain": "Emily Bronte 1847 সালে Wuthering Heights। [৪২]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "৪টি - জাতীয়তাবাদ, সমাজতন্ত্র, গণতন্ত্র, ধর্মনিরপেক্ষতা। [৪২]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 43,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "‘The Origin of Species’ by Darwin published in?",
-      "options": [
-        "1859",
-        "1860",
-        "1850",
-        "1871"
-      ],
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "সংবিধানে মৌলিক অধিকার কোন ভাগে?",
+      "options": ["তৃতীয় ভাগে ২৬-৪৭", "দ্বিতীয় ভাগে", "চতুর্থ ভাগে", "পঞ্চম ভাগে"],
       "ans": 0,
-      "explain": "Charles Darwin 1859 সালে Origin of Species। [৪৩]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "তৃতীয় ভাগে ২৬-৪৭ মৌলিক অধিকার। [৪৩]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 44,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "Who is the author of ‘Jane Eyre’?",
-      "options": [
-        "Charlotte Bronte",
-        "Emily Bronte",
-        "Jane Austen",
-        "George Eliot"
-      ],
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "সংবিধান সংশোধন কোন অনুচ্ছেদে?",
+      "options": ["১৪২", "১৪১", "১৪৩", "১৪৪"],
       "ans": 0,
-      "explain": "Charlotte Bronte 1847 সালে Jane Eyre। [৪৪]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "১৪২ অনুচ্ছেদে সংবিধান সংশোধন। [৪৪]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 45,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "Lord Byron belongs to which century?",
-      "options": [
-        "19th century Romantic",
-        "18th century",
-        "20th century",
-        "16th century"
-      ],
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "বাংলাদেশের সংবিধান",
+      "q": "সংবিধানে রাষ্ট্রধর্ম কোন অনুচ্ছেদে?",
+      "options": ["২ক", "২", "৪", "৮"],
       "ans": 0,
-      "explain": "Byron 1788-1824, 19th century Romantic poet। [৪৫]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "২ক অনুচ্ছেদে রাষ্ট্রধর্ম ইসলাম। [৪৫]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 46,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "‘Great Expectations’ is written by?",
-      "options": [
-        "Charles Dickens",
-        "Thomas Hardy",
-        "Jane Austen",
-        "Walter Scott"
-      ],
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "NATO কত সালে প্রতিষ্ঠিত?",
+      "options": ["১৯৪৯", "১৯৪৫", "১৯৫০", "১৯৫৫"],
       "ans": 0,
-      "explain": "Charles Dickens 1860-61 সালে Great Expectations। [৪৬]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "NATO ৪ এপ্রিল ১৯৪৯ সালে প্রতিষ্ঠিত। [৪৬]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 47,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "Keats died in?",
-      "options": [
-        "1821",
-        "1820",
-        "1822",
-        "1819"
-      ],
+      "subject": "সাধারণ জ্ঞান",
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "SAARC কত সালে প্রতিষ্ঠিত?",
+      "options": ["১৯৮৫", "১৯৮০", "১৯৯০", "১৯৯৫"],
       "ans": 0,
-      "explain": "John Keats 1795-1821, মাত্র ২৬ বছর বয়সে মারা যান। [৪৭]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "SAARC ৮ ডিসেম্বর ১৯৮৫ সালে ঢাকায় প্রতিষ্ঠিত। [৪৭]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 48,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "বাংলাদেশের সংবিধান কবে গণপরিষদে গৃহীত হয়?",
-      "options": [
-        "৪ নভেম্বর ১৯৭২",
-        "১৬ ডিসেম্বর ১৯৭২",
-        "১৭ এপ্রিল ১৯৭১",
-        "২৬ মার্চ ১৯৭১"
-      ],
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "EU গঠিত হয় কত সালে?",
+      "options": ["১৯৯৩", "১৯৯২", "১৯৫৭", "১৯৯০"],
       "ans": 0,
-      "explain": "৪ নভেম্বর ১৯৭২ গৃহীত, ১৬ ডিসেম্বর ১৯৭২ কার্যকর। [৪৮]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "মাস্ট্রিখট চুক্তি ১৯৯২, কার্যকর ১৯৯৩। [৪৮]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 49,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "সংবিধানের জনক কে?",
-      "options": [
-        "ড. কামাল হোসেন",
-        "বঙ্গবন্ধু শেখ মুজিবুর রহমান",
-        "সৈয়দ নজরুল ইসলাম",
-        "তাজউদ্দীন আহমদ"
-      ],
+      "topics": "আন্তর্জাতিক জোট",
+      "q": "ASEAN এর সদস্য কয়টি?",
+      "options": ["১০টি", "১১টি", "৯টি", "১২টি"],
       "ans": 0,
-      "explain": "ড. কামাল হোসেন সংবিধান প্রণয়ন কমিটির সভাপতি, সংবিধানের জনক। [৪৯]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "ASEAN ১০টি দেশ। [৪৯]",
+      "source": ["Gov. Job Archive"]
     },
     {
       "id": 50,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "বাংলাদেশের সংবিধানে মোট অনুচ্ছেদ কয়টি?",
-      "options": [
-        "১৫৩টি",
-        "১১টি ভাগে ১৫৩ অনুচ্ছেদ",
-        "১৫৪টি",
-        "১৫০টি"
-      ],
-      "ans": 1,
-      "explain": "মূল সংবিধান ১১ ভাগে ১৫৩ অনুচ্ছেদ, বর্তমানে ১১ ভাগ। [৫০]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 51,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "সংবিধানের কোন অনুচ্ছেদে সরকারি কর্ম কমিশন (PSC) এর কথা বলা আছে?",
-      "options": [
-        "১৩৭-১৪১",
-        "১১৮-১২৬",
-        "৬৪-৬৮",
-        "৯৪-৯৯"
-      ],
-      "ans": 0,
-      "explain": "অনুচ্ছেদ ১৩৭-১৪১ এ PSC। [৫১]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 52,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "রাষ্ট্র পরিচালনার মূলনীতি কয়টি?",
-      "options": [
-        "৪টি",
-        "৫টি",
-        "৩টি",
-        "৬টি"
-      ],
-      "ans": 0,
-      "explain": "৪টি - জাতীয়তাবাদ, সমাজতন্ত্র, গণতন্ত্র, ধর্মনিরপেক্ষতা - অনুচ্ছেদ ৮। [৫২]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 53,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "সংবিধানে মৌলিক অধিকার কোন ভাগে?",
-      "options": [
-        "তৃতীয় ভাগে অনুচ্ছেদ ২৬-৪৭",
-        "দ্বিতীয় ভাগে",
-        "চতুর্থ ভাগে",
-        "পঞ্চম ভাগে"
-      ],
-      "ans": 0,
-      "explain": "তৃতীয় ভাগে ২৬-৪৭ মৌলিক অধিকার। [৫৩]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 54,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "সংবিধান সংশোধন কোন অনুচ্ছেদে?",
-      "options": [
-        "১৪২",
-        "১৪১",
-        "১৪৩",
-        "১৪৪"
-      ],
-      "ans": 0,
-      "explain": "১৪২ অনুচ্ছেদে সংবিধান সংশোধনের পদ্ধতি। [৫৪]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 55,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "বাংলাদেশের প্রথম হস্তলিখিত সংবিধানের লেখক?",
-      "options": [
-        "আবদুর রউফ",
-        "কামাল হোসেন",
-        "জয়নুল আবেদিন",
-        "হাশেম খান"
-      ],
-      "ans": 0,
-      "explain": "শিল্পী আবদুর রউফ হস্তলিখিত সংবিধান লেখেন। [৫৫]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 56,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "তত্ত্বাবধায়ক সরকার ব্যবস্থা কোন সংশোধনীতে আনা হয়?",
-      "options": [
-        "১৩তম সংশোধনী",
-        "১২তম",
-        "১৪তম",
-        "১৫তম"
-      ],
-      "ans": 0,
-      "explain": "১৩তম সংশোধনী ১৯৯৬ সালে তত্ত্বাবধায়ক সরকার। [৫৬]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 57,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "সংবিধানে রাষ্ট্রধর্ম কোন অনুচ্ছেদে?",
-      "options": [
-        "২ক",
-        "২",
-        "৪",
-        "৮"
-      ],
-      "ans": 0,
-      "explain": "২ক অনুচ্ছেদে রাষ্ট্রধর্ম ইসলাম। [৫৭]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 58,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "সংবিধানে রাষ্ট্রভাষা কোন অনুচ্ছেদে?",
-      "options": [
-        "৩",
-        "৪",
-        "৫",
-        "৬"
-      ],
-      "ans": 0,
-      "explain": "অনুচ্ছেদ ৩ এ রাষ্ট্রভাষা বাংলা। [৫৮]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 59,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "সংবিধানে জাতীয় সংগীত, পতাকা, প্রতীক কোন অনুচ্ছেদে?",
-      "options": [
-        "৪",
-        "৩",
-        "৫",
-        "৬"
-      ],
-      "ans": 0,
-      "explain": "অনুচ্ছেদ ৪ এ জাতীয় সংগীত, পতাকা, প্রতীক। [৫৯]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 60,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "NATO কত সালে প্রতিষ্ঠিত হয়?",
-      "options": [
-        "১৯৪৯",
-        "১৯৪৫",
-        "১৯৫০",
-        "১৯৫৫"
-      ],
-      "ans": 0,
-      "explain": "NATO ৪ এপ্রিল ১৯৪৯ সালে প্রতিষ্ঠিত। [৬০]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 61,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "SAARC কত সালে প্রতিষ্ঠিত?",
-      "options": [
-        "১৯৮৫",
-        "১৯৮০",
-        "১৯৯০",
-        "১৯৯৫"
-      ],
-      "ans": 0,
-      "explain": "SAARC ৮ ডিসেম্বর ১৯৮৫ সালে ঢাকায় প্রতিষ্ঠিত। [৬১]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 62,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "EU (European Union) কত সালে গঠিত হয়?",
-      "options": [
-        "১৯৯৩",
-        "১৯৯২",
-        "১৯৫৭",
-        "১৯৯০"
-      ],
-      "ans": 0,
-      "explain": "মাস্ট্রিখট চুক্তি ১৯৯২, কার্যকর ১৯৯৩। [৬২]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 63,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "ASEAN এর সদস্য সংখ্যা কত?",
-      "options": [
-        "১০টি",
-        "১১টি",
-        "৯টি",
-        "১২টি"
-      ],
-      "ans": 0,
-      "explain": "ASEAN ১০টি দেশ, সদর জাকার্তা। [৬৩]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 64,
-      "subject": "সাধারণ জ্ঞান",
       "topics": "আন্তর্জাতিক জোট",
       "q": "OIC কত সালে প্রতিষ্ঠিত?",
-      "options": [
-        "১৯৬৯",
-        "১৯৭০",
-        "১৯৭২",
-        "১৯৮০"
-      ],
+      "options": ["১৯৬৯", "১৯৭০", "১৯৭২", "১৯৮০"],
       "ans": 0,
-      "explain": "OIC ১৯৬৯ সালে রাবাতে প্রতিষ্ঠিত। [৬৪]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 65,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "BRICS এর প্রতিষ্ঠাতা সদস্য কয়টি?",
-      "options": [
-        "৫টি",
-        "৪টি",
-        "৬টি",
-        "৩টি"
-      ],
-      "ans": 0,
-      "explain": "BRICS প্রথমে BRIC (৪টি) ২০০৯, ২০১০ এ South Africa যোগে ৫টি। [৬৫]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 66,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "Commonwealth এর সদর দপ্তর কোথায়?",
-      "options": [
-        "লন্ডন",
-        "নিউইয়র্ক",
-        "জেনেভা",
-        "প্যারিস"
-      ],
-      "ans": 0,
-      "explain": "Commonwealth সদর লন্ডনের Marlborough House। [৬৬]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 67,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "Arab League কত সালে প্রতিষ্ঠিত?",
-      "options": [
-        "১৯৪৫",
-        "১৯৪৬",
-        "১৯৫০",
-        "১৯৪৮"
-      ],
-      "ans": 0,
-      "explain": "Arab League ২২ মার্চ ১৯৪৫। [৬৭]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 68,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "G-7 এর সদস্য কয়টি দেশ?",
-      "options": [
-        "৭টি",
-        "৮টি",
-        "৬টি",
-        "১০টি"
-      ],
-      "ans": 0,
-      "explain": "G-7 এ ৭টি দেশ - USA, UK, France, Germany, Italy, Canada, Japan। [৬৮]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 69,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "BIMSTEC কত সালে প্রতিষ্ঠিত?",
-      "options": [
-        "১৯৯৭",
-        "১৯৯০",
-        "২০০০",
-        "১৯৮৫"
-      ],
-      "ans": 0,
-      "explain": "BIMSTEC ৬ জুন ১৯৯৭ সালে প্রতিষ্ঠিত। [৬৯]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
-    },
-    {
-      "id": 70,
-      "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "GCC এর সদস্য কয়টি?",
-      "options": [
-        "৬টি",
-        "৫টি",
-        "৭টি",
-        "৮টি"
-      ],
-      "ans": 0,
-      "explain": "GCC Gulf Cooperation Council ৬টি দেশ - সৌদি, কুয়েত, বাহরাইন, কাতার, ওমান, UAE। [৭০]",
-      "source": [
-        "BCSpark special suggestions (DSS)"
-      ]
+      "explain": "OIC ১৯৬৯ সালে রাবাতে প্রতিষ্ঠিত। [৫০]",
+      "source": ["Gov. Job Archive"]
     }
   ]
 }

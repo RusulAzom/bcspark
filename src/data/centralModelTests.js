@@ -11,11 +11,11 @@
   },
    {
     examId: 'cmt-combined-001',
-    title: 'Model Test - 01\n| সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী নিয়োগ',
-    scheduledDateTime: '2026-09-04T22:00:00+06:00',
-    questions: 70,
-    marks: 70,
-    description: 'Combined model test with questions from DSS 2016, 2022 and Demo',
+    title: 'Weekly Model Test - 02\n| ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
+    scheduledDateTime: '2026-09-11T23:00:00+06:00',
+    questions: 50,
+    marks: 50,
+    description: 'Combined model test with questions from Goverment Job Exam.',
     route: '/question-bank/DSS/combinedModelTest',
     status: 'scheduled',
     isCombined: true
