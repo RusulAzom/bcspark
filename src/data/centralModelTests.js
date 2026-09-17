@@ -10,7 +10,7 @@
     status: 'scheduled'
   },
    {
-    examId: 'cmt-combined-001',
+    examId: 'govjobfc-day-001',
     title: 'Exam -1 ৩০ দিনের ফাউন্ডেশন কোর্স — ১ম দিন | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
     scheduledDateTime: '2026-09-17T21:00:00+06:00',
     questions: 50,
