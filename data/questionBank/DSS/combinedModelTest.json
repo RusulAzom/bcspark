@@ -1,6 +1,6 @@
 {
   "examInfo": {
-    "examName": "২য় সাপ্তাহিক মডেল টেস্ট - ইউনিয়ন সমাজকর্মী",
+    "examName": "৩০ দিনের ফাউন্ডেশন কোর্স — ১ম দিনের (Day 1)",
     "examType": "preliminary",
     "totalMarks": "50",
     "totalQuestions": 50
@@ -8,503 +8,703 @@
   "questions": [
     {
       "id": 1,
-      "subject": "বাংলা",
-      "topics": "কারক ও বিভক্তি",
-      "q": "‘বনে বাঘ আছে’ - ‘বনে’ কোন কারকে কোন বিভক্তি?",
-      "options": ["অধিকরণে ৭মী", "কর্মে ৭মী", "করণে ৭মী", "অপাদানে ৭মী"],
-      "ans": 0,
-      "explain": "স্থান বোঝালে অধিকরণ কারক, ‘এ’ বিভক্তি ৭মী। [১]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১: ভাষা ও বাংলা ভাষা",
+      "question": "ভাষার ক্ষুদ্রতম উপাদান কোনটি?",
+      "options": {
+        "a": "শব্দ",
+        "b": "বর্ণ",
+        "c": "বাক্য",
+        "d": "ধ্বনি"
+      },
+      "correct_option": "d",
+      "explanation": "ভাষার ক্ষুদ্রতম উপাদান হলো ধ্বনি। আর বাক্যের ক্ষুদ্রতম একক হলো শব্দ।"
     },
     {
       "id": 2,
-      "subject": "বাংলা",
-      "topics": "কারক ও বিভক্তি",
-      "q": "‘টাকায় কী না হয়’ - ‘টাকায়’ কোন কারক?",
-      "options": ["করণে ৭মী", "অধিকরণে ৭মী", "অপাদানে ৭মী", "কর্মে ৭মী"],
-      "ans": 0,
-      "explain": "টাকার দ্বারা বোঝালে করণ কারক। [২]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১: ভাষা ও বাংলা ভাষা",
+      "question": "গলনালি, মুখবিবর, কণ্ঠ, জিভ, দাঁত, নাক প্রভৃতি অঙ্গপ্রত্যঙ্গকে এককথায় কী বলে?",
+      "options": {
+        "a": "বাকযন্ত্র",
+        "b": "শ্রবণযন্ত্র",
+        "c": "সংকেতযন্ত্র",
+        "d": "উচ্চারণযন্ত্র"
+      },
+      "correct_option": "a",
+      "explanation": "মানুষের ধ্বনি তৈরির অঙ্গপ্রত্যঙ্গসমূহকে একত্রে বাকযন্ত্র বলা হয়।"
     },
     {
       "id": 3,
-      "subject": "বাংলা",
-      "topics": "কারক ও বিভক্তি",
-      "q": "‘ছাদ থেকে চাঁদ দেখা যায়’ - ‘ছাদ থেকে’ কোন কারক?",
-      "options": ["অপাদানে ৫মী", "করণে ৫মী", "অধিকরণে ৫মী", "কর্মে ৫মী"],
-      "ans": 0,
-      "explain": "হতে, থেকে, চেয়ে অপাদান, ৫মী বিভক্তি। [৩]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১: ভাষা ও বাংলা ভাষা",
+      "question": "মাতৃভাষী জনসংখ্যার দিক দিয়ে বাংলা পৃথিবীর কততম প্রধান ভাষা?",
+      "options": {
+        "a": "চতুর্থ",
+        "b": "পঞ্চম",
+        "c": "ষষ্ঠ",
+        "d": "সপ্তম"
+      },
+      "correct_option": "c",
+      "explanation": "মাতৃভাষী মোট জনসংখ্যার ভিত্তিতে বাংলা পৃথিবীর ষষ্ঠ বৃহত্তম ভাষা।"
     },
     {
       "id": 4,
-      "subject": "বাংলা",
-      "topics": "কারক ও বিভক্তি",
-      "q": "‘ডাক্তার ডাক’ - ‘ডাক্তার’ কোন কারক?",
-      "options": ["কর্মে শূন্য", "কর্তায় শূন্য", "করণে শূন্য", "অপাদানে শূন্য"],
-      "ans": 0,
-      "explain": "যাকে আশ্রয় করে ক্রিয়া সম্পন্ন হয় তা কর্মকারক। [৪]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১: ভাষা ও বাংলা ভাষা",
+      "question": "বাংলা ভাষা কোন ভাষা-পরিবারের সদস্য?",
+      "options": {
+        "a": "চীনা-তিব্বতীয়",
+        "b": "ইন্দো-ইউরোপীয়",
+        "c": "দ্রাবিড়ীয়",
+        "d": "আফ্রিকীয়"
+      },
+      "correct_option": "b",
+      "explanation": "বাংলা ভাষা ইন্দো-ইউরোপীয় ভাষা-পরিবারের পূর্ব ভারতীয় শাখা থেকে উৎপত্তি লাভ করেছে।"
     },
     {
       "id": 5,
-      "subject": "বাংলা",
-      "topics": "কারক ও বিভক্তি",
-      "q": "‘তিলে তেল হয়’ - ‘তিলে’ কোন কারক?",
-      "options": ["অপাদানে ৭মী", "করণে ৭মী", "অধিকরণে ৭মী", "কর্মে ৭মী"],
-      "ans": 0,
-      "explain": "উৎপন্ন বোঝালে অপাদান কারক। [৫]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১: ভাষা ও বাংলা ভাষা",
+      "question": "বাংলা ভাষার নিজস্ব লিপির নাম কী?",
+      "options": {
+        "a": "ব্রাহ্মী লিপি",
+        "b": "কুটিল লিপি",
+        "c": "বাংলা লিপি",
+        "d": "দেবনাগরী লিপি"
+      },
+      "correct_option": "c",
+      "explanation": "বাংলা ভাষার নিজস্ব লিপির নাম হলো বাংলা লিপি। এটি ব্রাহ্মী লিপির পূর্ব-ভারতীয় শাখা থেকে এসেছে।"
     },
     {
       "id": 6,
-      "subject": "বাংলা",
-      "topics": "কারক ও বিভক্তি",
-      "q": "‘পাগলে কী না বলে’ - ‘পাগলে’ কোন কারক?",
-      "options": ["কর্তায় ৭মী", "কর্মে ৭মী", "করণে ৭মী", "অপাদানে ৭মী"],
-      "ans": 0,
-      "explain": "পাগল কর্তা, ‘এ’ ৭মী। [৬]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১: ভাষা ও বাংলা ভাষা",
+      "question": "বাংলা লিপিতে মূল বর্ণের সংখ্যা কয়টি?",
+      "options": {
+        "a": "৩৯টি",
+        "b": "১১টি",
+        "c": "৪৫টি",
+        "d": "৫০টি"
+      },
+      "correct_option": "d",
+      "explanation": "বাংলা লিপিতে মূল বর্ণ ৫০টি (স্বরবর্ণ ১১টি এবং ব্যঞ্জনবর্ণ ৩৯টি)।"
     },
     {
       "id": 7,
-      "subject": "বাংলা",
-      "topics": "কারক ও বিভক্তি",
-      "q": "‘আকাশে চাঁদ উঠেছে’ - ‘আকাশে’ কোন কারক?",
-      "options": ["অধিকরণে ৭মী", "কর্মে ৭মী", "করণে ৭মী", "অপাদানে ৭মী"],
-      "ans": 0,
-      "explain": "স্থান অধিকরণ, এ ৭মী। [৭]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১: ভাষা ও বাংলা ভাষা",
+      "question": "বাংলা ভাষার লিখিত রূপের প্রাচীনতম নিদর্শন কোনটি?",
+      "options": {
+        "a": "চর্যাপদ",
+        "b": "শ্রীকৃষ্ণকীর্তন",
+        "c": "মঙ্গলকাব্য",
+        "d": "বৈষ্ণব পদাবলী"
+      },
+      "correct_option": "a",
+      "explanation": "আনুমানিক এক হাজার বছর আগে বাংলা ভাষার লিখিত রূপের প্রাচীনতম নিদর্শন পাওয়া যায় চর্যাপদে।"
     },
     {
       "id": 8,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "‘দুর্গেশনন্দিনী’ উপন্যাসের রচয়িতা কে?",
-      "options": ["বঙ্কিমচন্দ্র চট্টোপাধ্যায়", "মাইকেল মধুসূদন", "দীনবন্ধু মিত্র", "বিদ্যাসাগর"],
-      "ans": 0,
-      "explain": "বাংলা সাহিত্যের প্রথম সার্থক উপন্যাস দুর্গেশনন্দিনী ১৮৬৫ সালে বঙ্কিমচন্দ্র লেখেন। [৮]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ২: বাংলা ব্যাকরণ",
+      "question": "ব্যাকরণের মূল আলোচ্য বিষয় কয়টি ভাগে বিভক্ত?",
+      "options": {
+        "a": "২টি",
+        "b": "৩টি",
+        "c": "৪টি",
+        "d": "৫টি"
+      },
+      "correct_option": "c",
+      "explanation": "ব্যাকরণের মূল আলোচ্য বিষয় অন্তত চারটি ভাগে বিভক্ত: ধ্বনিতত্ত্ব, রূপতত্ত্ব, বাক্যতত্ত্ব ও অর্থতত্ত্ব।"
     },
     {
       "id": 9,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "‘মেঘনাদবধ কাব্য’ কত সালে প্রকাশিত?",
-      "options": ["১৮৬১", "১৮৬৫", "১৮৭৩", "১৮৬০"],
-      "ans": 0,
-      "explain": "মাইকেল মধুসূদনের মহাকাব্য মেঘনাদবধ ১৮৬১ সালে প্রকাশিত। [৯]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ২: বাংলা ব্যাকরণ",
+      "question": "'ণ-ত্ব ও ষ-ত্ব বিধান' ব্যাকরণের কোন শাখায় আলোচিত হয়?",
+      "options": {
+        "a": "রূপতত্ত্ব",
+        "b": "ধ্বনিতত্ত্ব",
+        "c": "বাক্যতত্ত্ব",
+        "d": "অর্থতত্ত্ব"
+      },
+      "correct_option": "b",
+      "explanation": "ধ্বনি, বর্ণমালা, উচ্চারণ ও ণ-ত্ব/ষ-ত্ব বিধান ধ্বনিতত্ত্বে (Phonology) আলোচিত হয়।"
     },
     {
       "id": 10,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "‘নীলদর্পণ’ নাটকের রচয়িতা কে?",
-      "options": ["দীনবন্ধু মিত্র", "বঙ্কিমচন্দ্র", "মধুসূদন", "বিদ্যাসাগর"],
-      "ans": 0,
-      "explain": "নীলকরদের অত্যাচার নিয়ে দীনবন্ধু মিত্র ১৮৬০ সালে নীলদর্পণ লেখেন। [১০]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ২: বাংলা ব্যাকরণ",
+      "question": "প্রথম বাংলা ব্যাকরণ 'A Grammar of the Bengal Language' কত সালে প্রকাশিত হয়?",
+      "options": {
+        "a": "১৭৪৩",
+        "b": "১৭৭৮",
+        "c": "১৮০১",
+        "d": "১৮২৬"
+      },
+      "correct_option": "b",
+      "explanation": "ন্যাথানিয়েল ব্রাসি হ্যালহেড ১৭৭৮ সালে ইংরেজিতে 'A Grammar of the Bengal Language' রচনা করেন।"
     },
     {
       "id": 11,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "বাংলা গদ্যের জনক কে?",
-      "options": ["ঈশ্বরচন্দ্র বিদ্যাসাগর", "বঙ্কিমচন্দ্র", "রামমোহন রায়", "কালীপ্রসন্ন সিংহ"],
-      "ans": 0,
-      "explain": "বাংলা গদ্যকে সুশৃঙ্খল রূপ দেন বিদ্যাসাগর। [১১]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ২: বাংলা ব্যাকরণ",
+      "question": "বাংলা ভাষায় রচিত প্রথম বাংলা ব্যাকরণগ্রন্থ 'গৌড়ীয় ব্যাকরণ'-এর রচয়িতা কে?",
+      "options": {
+        "a": "ঈশ্বরচন্দ্র বিদ্যাসাগর",
+        "b": "উইলিয়াম কেরি",
+        "c": "রামমোহন রায়",
+        "d": "হরপ্রসাদ শাস্ত্রী"
+      },
+      "correct_option": "c",
+      "explanation": "১৮৩৩ সালে প্রকাশিত রামমোহন রায়ের 'গৌড়ীয় ব্যাকরণ' হলো বাংলা ভাষায় রচিত প্রথম বাংলা ব্যাকরণ।"
     },
     {
       "id": 12,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "ফোর্ট উইলিয়াম কলেজ কবে প্রতিষ্ঠিত?",
-      "options": ["১৮০০", "১৮০১", "১৭৯৯", "১৮০৫"],
-      "ans": 0,
-      "explain": "লর্ড ওয়েলেসলি ১৮০০ সালে ফোর্ট উইলিয়াম কলেজ প্রতিষ্ঠা করেন। [১২]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ২: বাংলা ব্যাকরণ",
+      "question": "শব্দগঠন ও পদ প্রকরণ ব্যাকরণের কোন অংশে আলোচিত হয়?",
+      "options": {
+        "a": "ধ্বনিতত্ত্ব",
+        "b": "রূপতত্ত্ব",
+        "c": "বাক্যতত্ত্ব",
+        "d": "অর্থতত্ত্ব"
+      },
+      "correct_option": "b",
+      "explanation": "রূপতত্ত্বে (Morphology) শব্দ, পদের গঠন, উপসর্গ, প্রত্যয়, সমাস ইত্যাদি নিয়ে আলোচনা করা হয়।"
     },
     {
       "id": 13,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "‘আলালের ঘরের দুলাল’ এর রচয়িতা?",
-      "options": ["প্যারীচাঁদ মিত্র", "বঙ্কিমচন্দ্র", "বিদ্যাসাগর", "কালীপ্রসন্ন"],
-      "ans": 0,
-      "explain": "প্যারীচাঁদ মিত্র ১৮৫৮ সালে প্রথম চলিত ভাষার উপন্যাস লেখেন। [১৩]",
-      "source": ["Gov. Job Archive"]
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ২: বাংলা ব্যাকরণ",
+      "question": "কারক বিশ্লেষণ ও বাক্যের উপাদান লোপ ব্যাকরণের কোন শাখায় আলোচিত হয়?",
+      "options": {
+        "a": "ধ্বনিতত্ত্ব",
+        "b": "অর্থতত্ত্ব",
+        "c": "রূপতত্ত্ব",
+        "d": "বাক্যতত্ত্ব"
+      },
+      "correct_option": "d",
+      "explanation": "বাক্যের গঠন, বিন্যাস, বিরামচিহ্ন ও কারক বিশ্লেষণ বাক্যতত্ত্বে (Syntax) আলোচিত হয়।"
     },
     {
       "id": 14,
-      "subject": "বাংলা",
-      "topics": "১৯শ শতকের গুরুত্বপূর্ণ সাহিত্যিক ও সাহিত্য",
-      "q": "‘হুতোম প্যাঁচার নকশা’ কার লেখা?",
-      "options": ["কালীপ্রসন্ন সিংহ", "বঙ্কিমচন্দ্র", "দীনবন্ধু", "ভবানীচরণ"],
-      "ans": 0,
-      "explain": "কালীপ্রসন্ন সিংহ ১৮৬২ সালে হুতোম প্যাঁচার নকশা লেখেন। [১৪]",
-      "source": ["Gov. Job Archive"]
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 1 (বাস্তব সংখ্যাতত্ত্ব)",
+      "question": "ক্ষুদ্রতম ও একমাত্র জোড় মৌলিক সংখ্যা কোনটি?",
+      "options": {
+        "a": "০",
+        "b": "১",
+        "c": "২",
+        "d": "৩"
+      },
+      "correct_option": "c",
+      "explanation": "২ হলো সবচেয়ে ছোট মৌলিক সংখ্যা এবং এটিই গণিতের একমাত্র জোড় মৌলিক সংখ্যা।"
     },
     {
       "id": 15,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "Which one is a Noun Clause?",
-      "options": ["What he said is true", "The boy who came is my brother", "I know the place where he lives", "Having finished work"],
-      "ans": 0,
-      "explain": "What he said = noun clause, subject হিসেবে কাজ করছে। [১৫]",
-      "source": ["Gov. Job Archive"]
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 1 (বাস্তব সংখ্যাতত্ত্ব)",
+      "question": "১ থেকে ১০০ পর্যন্ত মোট মৌলিক সংখ্যা কয়টি?",
+      "options": {
+        "a": "২০টি",
+        "b": "২৫টি",
+        "c": "৩০টি",
+        "d": "১৫টি"
+      },
+      "correct_option": "b",
+      "explanation": "১ থেকে ১০০ পর্যন্ত মোট ২৫টি মৌলিক সংখ্যা রয়েছে (যেমন: ২, ৩, ৫, ৭, ১১...)।"
     },
     {
       "id": 16,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘I know that he is honest’ - ‘that he is honest’ is a?",
-      "options": ["Noun clause", "Adjective clause", "Adverb clause", "Main clause"],
-      "ans": 0,
-      "explain": "That clause object হিসেবে, noun clause। [১৬]",
-      "source": ["Gov. Job Archive"]
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 1 (বাস্তব সংখ্যাতত্ত্ব)",
+      "question": "দুটি পরস্পর মৌলিক (Co-prime) সংখ্যার গ.সা.গু কত?",
+      "options": {
+        "a": "০",
+        "b": "১",
+        "c": "২",
+        "d": "সংখ্যা দুটির গুণফল"
+      },
+      "correct_option": "b",
+      "explanation": "দুটি সংখ্যার মধ্যে ১ ছাড়া অন্য কোনো সাধারণ উৎপাদক না থাকলে তাদের গ.সা.গু ১ হয় এবং তারা পরস্পর মৌলিক।"
     },
     {
       "id": 17,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘The book which you gave me is lost’ - which clause?",
-      "options": ["Adjective clause", "Noun clause", "Adverb clause", "Co-ordinate clause"],
-      "ans": 0,
-      "explain": "Which you gave me - adjective clause। [১৭]",
-      "source": ["Gov. Job Archive"]
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 1 (বাস্তব সংখ্যাতত্ত্ব)",
+      "question": "নিচের কোনটি অমূলদ সংখ্যা?",
+      "options": {
+        "a": "√৯",
+        "b": "√১৬",
+        "c": "√৭",
+        "d": "৩/৫"
+      },
+      "correct_option": "c",
+      "explanation": "√৭ একটি অসীম অনাবৃত দশমিক সংখ্যা, তাই এটি অমূলদ। (√৯ = ৩, √১৬ = ৪ যা মূলদ)।"
     },
     {
       "id": 18,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘When he came, I was sleeping’ - ‘When he came’ is?",
-      "options": ["Adverb clause of time", "Noun clause", "Adjective clause", "Main clause"],
-      "ans": 0,
-      "explain": "When যুক্ত time বোঝায় তাই adverb clause of time। [১৮]",
-      "source": ["Gov. Job Archive"]
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 1 (বাস্তব সংখ্যাতত্ত্ব)",
+      "question": "৪৩৭১৯২৫৮৬২ সংখ্যাটিতে '৮'-এর স্থানীয় মান কত?",
+      "options": {
+        "a": "৮",
+        "b": "৮০",
+        "c": "৮০০",
+        "d": "৮০০০"
+      },
+      "correct_option": "c",
+      "explanation": "সংখ্যাটিতে '৮' শতকের স্থানে অবস্থিত। তাই এর স্থানীয় মান ৮ × ১০০ = ৮০০।"
     },
     {
       "id": 19,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘If you work hard, you will succeed’ - ‘If you work hard’ is?",
-      "options": ["Adverb clause of condition", "Noun clause", "Adjective clause", "Noun in apposition"],
-      "ans": 0,
-      "explain": "If যুক্ত condition বোঝায়। [১৯]",
-      "source": ["Gov. Job Archive"]
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 1 (বাস্তব সংখ্যাতত্ত্ব)",
+      "question": "প্রথম চারটি মৌলিক সংখ্যার যোগফল কত?",
+      "options": {
+        "a": "১৫",
+        "b": "১৬",
+        "c": "১৭",
+        "d": "১৮"
+      },
+      "correct_option": "c",
+      "explanation": "প্রথম চারটি মৌলিক সংখ্যা হলো ২, ৩, ৫, ৭। এদের যোগফল = ২ + ৩ + ৫ + ৭ = ১৭।"
     },
     {
       "id": 20,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘Though he is poor, he is honest’ - ‘Though he is poor’ is?",
-      "options": ["Adverb clause of concession", "Noun clause", "Adjective clause", "Main clause"],
-      "ans": 0,
-      "explain": "Though যুক্ত concession বোঝায়। [২০]",
-      "source": ["Gov. Job Archive"]
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 1 (বাস্তব সংখ্যাতত্ত্ব)",
+      "question": "১ থেকে ২০ পর্যন্ত মৌলিক সংখ্যা কয়টি?",
+      "options": {
+        "a": "৭টি",
+        "b": "৮টি",
+        "c": "৯টি",
+        "d": "১০টি"
+      },
+      "correct_option": "b",
+      "explanation": "১ থেকে ২০ এর মধ্যে মৌলিক সংখ্যা ৮টি: ২, ৩, ৫, ৭, ১১, ১৩, ১৭, ১৯।"
     },
     {
       "id": 21,
-      "subject": "English",
-      "topics": "Clause",
-      "q": "‘That he is honest is known to all’ - ‘That he is honest’ is?",
-      "options": ["Noun clause as subject", "Adjective clause", "Adverb clause", "Main clause"],
-      "ans": 0,
-      "explain": "বাক্যের subject হিসেবে noun clause। [২১]",
-      "source": ["Gov. Job Archive"]
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 1 (বাস্তব সংখ্যাতত্ত্ব)",
+      "question": "যেকোনো দুটি পরপর বা ক্রমিক পূর্ণসংখ্যার গুণফল সর্বদা কী ধরনের সংখ্যা?",
+      "options": {
+        "a": "মৌলিক সংখ্যা",
+        "b": "জোড় সংখ্যা",
+        "c": "বিজোড় সংখ্যা",
+        "d": "অমূলদ সংখ্যা"
+      },
+      "correct_option": "b",
+      "explanation": "দুটি ক্রমিক পূর্ণসংখ্যার একটি অবশ্যই জোড় হবে, ফলে তাদের গুণফল সর্বদা জোড় সংখ্যা হয়।"
     },
     {
       "id": 22,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "Who is called the poet of nature in 19th century?",
-      "options": ["William Wordsworth", "John Keats", "P.B. Shelley", "Lord Byron"],
-      "ans": 0,
-      "explain": "Wordsworth (1770-1850) প্রকৃতির কবি। [২২]",
-      "source": ["Gov. Job Archive"]
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 1 (বাস্তব সংখ্যাতত্ত্ব)",
+      "question": "নিচের কোনটি মৌলিক বা যৌগিক কোনোটিই নয়?",
+      "options": {
+        "a": "০",
+        "b": "১",
+        "c": "২",
+        "d": "৩"
+      },
+      "correct_option": "b",
+      "explanation": "১ সংখ্যাটি মৌলিকও নয়, যৌগিকও নয় (মৌলিক সংখ্যার দুটি ভিন্ন উৎপাদক থাকে, ১-এর কেবল একটি উৎপাদক)।"
     },
     {
       "id": 23,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "‘Pride and Prejudice’ was written by?",
-      "options": ["Jane Austen", "Charlotte Bronte", "Emily Bronte", "George Eliot"],
-      "ans": 0,
-      "explain": "Jane Austen 1813 সালে Pride and Prejudice লেখেন। [২৩]",
-      "source": ["Gov. Job Archive"]
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 1 (বাস্তব সংখ্যাতত্ত্ব)",
+      "question": "দুটি মৌলিক সংখ্যার গ.সা.গু এবং ল.সা.গু-এর গুণফল কীসের সমান?",
+      "options": {
+        "a": "১",
+        "b": "সংখ্যা দুটির যোগফল",
+        "c": "সংখ্যা দুটির গুণফল",
+        "d": "০"
+      },
+      "correct_option": "c",
+      "explanation": "যেকোনো দুটি সংখ্যার ক্ষেত্রে: গ.সা.গু × ল.সা.গু = সংখ্যা দুটির গুণফল।"
     },
     {
       "id": 24,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "Who wrote ‘Oliver Twist’?",
-      "options": ["Charles Dickens", "Thackeray", "Thomas Hardy", "Walter Scott"],
-      "ans": 0,
-      "explain": "Charles Dickens 1837-39 সালে Oliver Twist লেখেন। [২৪]",
-      "source": ["Gov. Job Archive"]
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 1 (বাস্তব সংখ্যাতত্ত্ব)",
+      "question": "কোনো সংখ্যার একক স্থানীয় অঙ্ক ০, ২, ৪, ৬ বা ৮ হলে সংখ্যাটি কত দ্বারা বিভাজ্য?",
+      "options": {
+        "a": "২ দ্বারা",
+        "b": "৩ দ্বারা",
+        "c": "৫ দ্বারা",
+        "d": "৯ দ্বারা"
+      },
+      "correct_option": "a",
+      "explanation": "একক স্থানীয় অঙ্ক জোড় হলে সংখ্যাটি সবসময় ২ দ্বারা নিঃশেষে বিভাজ্য।"
     },
     {
       "id": 25,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "‘Frankenstein’ is written by?",
-      "options": ["Mary Shelley", "Jane Austen", "Emily Bronte", "George Eliot"],
-      "ans": 0,
-      "explain": "Mary Shelley 1818 সালে Frankenstein লেখেন। [২৫]",
-      "source": ["Gov. Job Archive"]
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 1 (বাস্তব সংখ্যাতত্ত্ব)",
+      "question": "০.৩̄ (০.৩-এর পৌনঃপুনিক)-কে সামান্য ভগ্নাংশে রূপান্তর করলে কত হবে?",
+      "options": {
+        "a": "৩/১০",
+        "b": "১/৩",
+        "c": "৩/১০০",
+        "d": "১/৯"
+      },
+      "correct_option": "b",
+      "explanation": "০.৩̄ = ৩/৯ = ১/৩।"
     },
     {
       "id": 26,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "Who wrote ‘Wuthering Heights’?",
-      "options": ["Emily Bronte", "Charlotte Bronte", "Jane Austen", "Charles Dickens"],
-      "ans": 0,
-      "explain": "Emily Bronte 1847 সালে Wuthering Heights। [২৬]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "Which of the following is an Abstract Noun?",
+      "options": {
+        "a": "Team",
+        "b": "Water",
+        "c": "Honesty",
+        "d": "Teacher"
+      },
+      "correct_option": "c",
+      "explanation": "'Honesty' denotes a quality that cannot be touched or seen physically, making it an Abstract Noun."
     },
     {
       "id": 27,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "The Victorian Age is?",
-      "options": ["1837-1901", "1800-1850", "1901-1950", "1770-1830"],
-      "ans": 0,
-      "explain": "Queen Victoria 1837-1901, Victorian Age। [২৭]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "The word 'Cattle' belongs to which category of Noun?",
+      "options": {
+        "a": "Proper Noun",
+        "b": "Collective Noun",
+        "c": "Material Noun",
+        "d": "Abstract Noun"
+      },
+      "correct_option": "b",
+      "explanation": "'Cattle' refers to a group of livestock animals taken together, so it is a Collective Noun."
     },
     {
       "id": 28,
-      "subject": "English",
-      "topics": "19th Century Literature",
-      "q": "‘Great Expectations’ is written by?",
-      "options": ["Charles Dickens", "Thomas Hardy", "Jane Austen", "Walter Scott"],
-      "ans": 0,
-      "explain": "Charles Dickens 1860-61 সালে Great Expectations। [২৮]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "Which of the following is an Uncountable Noun?",
+      "options": {
+        "a": "Book",
+        "b": "Chair",
+        "c": "Information",
+        "d": "Student"
+      },
+      "correct_option": "c",
+      "explanation": "'Information' cannot be counted individually (we say 'pieces of information'), making it Uncountable."
     },
     {
       "id": 29,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "১৫ ও ২৫ এর গসাগু কত?",
-      "options": ["৫", "১০", "১৫", "২৫"],
-      "ans": 0,
-      "explain": "১৫ ও ২৫ এর গসাগু ৫। [২৯]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "'Flock' is an example of a —",
+      "options": {
+        "a": "Collective Noun",
+        "b": "Common Noun",
+        "c": "Proper Noun",
+        "d": "Material Noun"
+      },
+      "correct_option": "a",
+      "explanation": "'Flock' (a group of birds or sheep) is a Collective Noun."
     },
     {
       "id": 30,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "৮ ও ১২ এর লসাগু কত?",
-      "options": ["২৪", "১২", "৪৮", "৩৬"],
-      "ans": 0,
-      "explain": "৮ ও ১২ এর লসাগু ২৪। [৩০]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "What type of noun is 'Iron' in the sentence 'Iron is a useful metal'?",
+      "options": {
+        "a": "Common Noun",
+        "b": "Material Noun",
+        "c": "Collective Noun",
+        "d": "Abstract Noun"
+      },
+      "correct_option": "b",
+      "explanation": "'Iron' names a substance or matter, so it is a Material Noun."
     },
     {
       "id": 31,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "১০০ এর ২০% কত?",
-      "options": ["২০", "১০", "৩০", "৪০"],
-      "ans": 0,
-      "explain": "১০০ এর ২০% = ২০। [৩১]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "Which of the following is a Countable Noun?",
+      "options": {
+        "a": "Advice",
+        "b": "Furniture",
+        "c": "Pen",
+        "d": "Knowledge"
+      },
+      "correct_option": "c",
+      "explanation": "'Pen' can be counted as one pen, two pens, etc., whereas advice, furniture, and knowledge are uncountable."
     },
     {
       "id": 32,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "ক্রয় ২০০ টাকা, বিক্রয় ২৫০ টাকা, লাভ কত %?",
-      "options": ["২৫%", "২০%", "১০%", "৩০%"],
-      "ans": 0,
-      "explain": "লাভ ৫০ টাকা, ২৫%। [৩২]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "Find the Abstract Noun from the options below:",
+      "options": {
+        "a": "Wisdom",
+        "b": "King",
+        "c": "Gold",
+        "d": "Fleet"
+      },
+      "correct_option": "a",
+      "explanation": "'Wisdom' represents a state or quality of being wise, so it is an Abstract Noun."
     },
     {
       "id": 33,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "১০০০ টাকার ১০% সুদ ২ বছরে কত?",
-      "options": ["২০০", "১০০", "৩০০", "৪০০"],
-      "ans": 0,
-      "explain": "১০% হারে ২ বছরে ২০০ টাকা। [৩৩]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "The word 'Furniture' is considered as —",
+      "options": {
+        "a": "Countable Noun",
+        "b": "Uncountable Noun",
+        "c": "Proper Noun",
+        "d": "Plural Countable Noun"
+      },
+      "correct_option": "b",
+      "explanation": "'Furniture' is an Uncountable Noun in English grammar and does not take a plural '-s'."
     },
     {
       "id": 34,
-      "subject": "গনিত",
-      "topics": "বীজগণিত",
-      "q": "x + 5 = 15 হলে x = ?",
-      "options": ["১০", "৫", "২০", "১৫"],
-      "ans": 0,
-      "explain": "x = 15-5 = 10। [৩৪]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "What type of noun is 'Class'?",
+      "options": {
+        "a": "Proper Noun",
+        "b": "Collective Noun",
+        "c": "Material Noun",
+        "d": "Abstract Noun"
+      },
+      "correct_option": "b",
+      "explanation": "'Class' denotes a collection or group of students, so it is a Collective Noun."
     },
     {
       "id": 35,
-      "subject": "গনিত",
-      "topics": "বীজগণিত",
-      "q": "a² - b² = ?",
-      "options": ["(a+b)(a-b)", "(a-b)²", "(a+b)²", "a²+b²"],
-      "ans": 0,
-      "explain": "a²-b² = (a+b)(a-b) সূত্র। [৩৫]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "Which word is a Proper Noun?",
+      "options": {
+        "a": "City",
+        "b": "River",
+        "c": "Dhaka",
+        "d": "Country"
+      },
+      "correct_option": "c",
+      "explanation": "'Dhaka' is the specific name of a city, making it a Proper Noun."
     },
     {
       "id": 36,
-      "subject": "গনিত",
-      "topics": "জ্যামিতি",
-      "q": "বৃত্তের ক্ষেত্রফল সূত্র?",
-      "options": ["πr²", "2πr", "πr", "2r"],
-      "ans": 0,
-      "explain": "বৃত্তের ক্ষেত্রফল πr²। [৩৬]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "'Rice', 'Water', and 'Paper' are examples of —",
+      "options": {
+        "a": "Uncountable Nouns",
+        "b": "Countable Nouns",
+        "c": "Proper Nouns",
+        "d": "Collective Nouns"
+      },
+      "correct_option": "a",
+      "explanation": "Substances and materials that cannot be counted individually in numbers are Uncountable Nouns."
     },
     {
       "id": 37,
-      "subject": "গনিত",
-      "topics": "জ্যামিতি",
-      "q": "সমকোণ কত ডিগ্রি?",
-      "options": ["৯০°", "১৮০°", "৪৫°", "৬০°"],
-      "ans": 0,
-      "explain": "সমকোণ ৯০°। [৩৭]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "'Laughter' is an example of which type of noun?",
+      "options": {
+        "a": "Common Noun",
+        "b": "Abstract Noun",
+        "c": "Material Noun",
+        "d": "Proper Noun"
+      },
+      "correct_option": "b",
+      "explanation": "'Laughter' denotes an action/concept derived from the verb 'laugh', making it an Abstract Noun."
     },
     {
       "id": 38,
-      "subject": "গনিত",
-      "topics": "জ্যামিতি",
-      "q": "ত্রিভুজের ক্ষেত্রফল ভূমি ৮ উচ্চতা ৪ হলে?",
-      "options": ["১৬", "৩২", "২৪", "১২"],
-      "ans": 0,
-      "explain": "১/২×৮×৪=১৬। [৩৮]",
-      "source": ["Gov. Job Archive"]
+      "subject": "English Grammar",
+      "topic": "Noun (Classification & Countability)",
+      "question": "Choose the correct sentence regarding Uncountable Nouns:",
+      "options": {
+        "a": "He gave me many advices.",
+        "b": "He gave me an advice.",
+        "c": "He gave me a piece of advice.",
+        "d": "He gave me two advices."
+      },
+      "correct_option": "c",
+      "explanation": "'Advice' is uncountable; to express singular quantity, we use 'a piece of advice'."
     },
     {
       "id": 39,
-      "subject": "গনিত",
-      "topics": "পাটিগণিত",
-      "q": "গড় ৫,১০,১৫ কত?",
-      "options": ["১০", "৫", "১৫", "২০"],
-      "ans": 0,
-      "explain": "৩০/৩=১০। [৩৯]",
-      "source": ["Gov. Job Archive"]
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "প্রাচীন বাংলার ইতিহাস ও জনপদ",
+      "question": "বাংলা অঞ্চলের সবচেয়ে প্রাচীনতম জনপদ কোনটি?",
+      "options": {
+        "a": "সমতট",
+        "b": "বঙ্গ",
+        "c": "পুণ্ড্র",
+        "d": "গৌড়"
+      },
+      "correct_option": "c",
+      "explanation": "বাংলায় আবিষ্কৃত প্রাচীনতম জনপদ হলো 'পুণ্ড্র'।"
     },
     {
       "id": 40,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "বাংলাদেশের সংবিধান কবে গৃহীত হয়?",
-      "options": ["৪ নভেম্বর ১৯৭২", "১৬ ডিসেম্বর ১৯৭২", "২৬ মার্চ ১৯৭১", "১৭ এপ্রিল ১৯৭১"],
-      "ans": 0,
-      "explain": "৪ নভেম্বর ১৯৭২ গৃহীত, ১৬ ডিসেম্বর কার্যকর। [৪০]",
-      "source": ["Gov. Job Archive"]
+      "topic": "প্রাচীন বাংলার ইতিহাস ও জনপদ",
+      "question": "প্রাচীন 'পুণ্ড্রবর্ধন'-এর রাজধানী মহাস্থানগড় কোন জেলায় অবস্থিত?",
+      "options": {
+        "a": "দিনাজপুর",
+        "b": "বগুড়া",
+        "c": "রাজশাহী",
+        "d": "রংপুর"
+      },
+      "correct_option": "b",
+      "explanation": "পুণ্ড্রবর্ধনের রাজধানী ছিল মহাস্থানগড়, যা বর্তমান বগুড়া জেলায় অবস্থিত।"
     },
     {
       "id": 41,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "সংবিধানের জনক কে?",
-      "options": ["ড. কামাল হোসেন", "বঙ্গবন্ধু", "সৈয়দ নজরুল", "তাজউদ্দীন"],
-      "ans": 0,
-      "explain": "ড. কামাল হোসেন সংবিধান প্রণয়ন কমিটির সভাপতি। [৪১]",
-      "source": ["Gov. Job Archive"]
+      "topic": "প্রাচীন বাংলার ইতিহাস ও জনপদ",
+      "question": "মহাস্থানগড় কোন নদীর তীরে অবস্থিত?",
+      "options": {
+        "a": "বুড়িগঙ্গা",
+        "b": "করতোয়া",
+        "c": "মেঘনা",
+        "d": "পদ্মা"
+      },
+      "correct_option": "b",
+      "explanation": "ঐতিহাসিক মহাস্থানগড় করতোয়া নদীর তীরে অবস্থিত।"
     },
     {
       "id": 42,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "রাষ্ট্র পরিচালনার মূলনীতি কয়টি?",
-      "options": ["৪টি", "৫টি", "৩টি", "৬টি"],
-      "ans": 0,
-      "explain": "৪টি - জাতীয়তাবাদ, সমাজতন্ত্র, গণতন্ত্র, ধর্মনিরপেক্ষতা। [৪২]",
-      "source": ["Gov. Job Archive"]
+      "topic": "প্রাচীন বাংলার ইতিহাস ও জনপদ",
+      "question": "প্রাচীন 'সমতট' বলতে দক্ষিণ-পূর্ব বাংলার কোন অঞ্চলকে বোঝানো হতো?",
+      "options": {
+        "a": "বরিশাল ও পটুয়াখালী",
+        "b": "কুমিল্লা ও নোয়াখালী",
+        "c": "ঢাকা ও ময়মনসিংহ",
+        "d": "সিলেট ও চট্টগ্রাম"
+      },
+      "correct_option": "b",
+      "explanation": "কুমিল্লা ও নোয়াখালী অঞ্চলকে প্রাচীনকালে 'সমতট' বলা হতো।"
     },
     {
       "id": 43,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "সংবিধানে মৌলিক অধিকার কোন ভাগে?",
-      "options": ["তৃতীয় ভাগে ২৬-৪৭", "দ্বিতীয় ভাগে", "চতুর্থ ভাগে", "পঞ্চম ভাগে"],
-      "ans": 0,
-      "explain": "তৃতীয় ভাগে ২৬-৪৭ মৌলিক অধিকার। [৪৩]",
-      "source": ["Gov. Job Archive"]
+      "topic": "প্রাচীন বাংলার ইতিহাস ও জনপদ",
+      "question": "প্রাচীন 'হরিকেল' জনপদটি বর্তমান কোন অঞ্চল জুড়ে বিস্তৃত ছিল?",
+      "options": {
+        "a": "সিলেট ও চট্টগ্রাম",
+        "b": "খুলনা ও যশোর",
+        "c": "রংপুর ও দিনাজপুর",
+        "d": "রাজশাহী ও পাবনা"
+      },
+      "correct_option": "a",
+      "explanation": "পূর্ব ও উত্তর-পূর্ব বাংলার সিলেট এবং চট্টগ্রাম অঞ্চলকে প্রাচীনকালে 'হরিকেল' বলা হতো।"
     },
     {
       "id": 44,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "সংবিধান সংশোধন কোন অনুচ্ছেদে?",
-      "options": ["১৪২", "১৪১", "১৪৩", "১৪৪"],
-      "ans": 0,
-      "explain": "১৪২ অনুচ্ছেদে সংবিধান সংশোধন। [৪৪]",
-      "source": ["Gov. Job Archive"]
+      "topic": "প্রাচীন বাংলার ইতিহাস ও জনপদ",
+      "question": "চীনা পরিব্রাজক 'হিউয়েন সাং' কার শাসনামলে বাংলায় এসেছিলেন?",
+      "options": {
+        "a": "সম্রাট অশোক",
+        "b": "রাজা শশাঙ্ক",
+        "c": "হর্ষবর্ধন",
+        "d": "ধর্মপাল"
+      },
+      "correct_option": "c",
+      "explanation": "চীনা বৌদ্ধ পর্যটক হিউয়েন সাং ৭ম শতকে রাজা হর্ষবর্ধনের রাজত্বকালে বাংলায় আসেন।"
     },
     {
       "id": 45,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "বাংলাদেশের সংবিধান",
-      "q": "সংবিধানে রাষ্ট্রধর্ম কোন অনুচ্ছেদে?",
-      "options": ["২ক", "২", "৪", "৮"],
-      "ans": 0,
-      "explain": "২ক অনুচ্ছেদে রাষ্ট্রধর্ম ইসলাম। [৪৫]",
-      "source": ["Gov. Job Archive"]
+      "topic": "প্রাচীন বাংলার ইতিহাস ও জনপদ",
+      "question": "ইউনেস্কো স্বীকৃত ওয়ার্ল্ড হেরিটেজ সাইট 'পাহাড়পুর বৌদ্ধ বিহার' কোন জেলায় অবস্থিত?",
+      "options": {
+        "a": "বগুড়া",
+        "b": "নওগাঁ",
+        "c": "কুমিল্লা",
+        "d": "দিনাজপুর"
+      },
+      "correct_option": "b",
+      "explanation": "পাহাড়পুর বৌদ্ধ বিহার (সোমপুর বিহার) নওগাঁ জেলার বদলগাছী উপজেলায় অবস্থিত।"
     },
     {
       "id": 46,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "NATO কত সালে প্রতিষ্ঠিত?",
-      "options": ["১৯৪৯", "১৯৪৫", "১৯৫০", "১৯৫৫"],
-      "ans": 0,
-      "explain": "NATO ৪ এপ্রিল ১৯৪৯ সালে প্রতিষ্ঠিত। [৪৬]",
-      "source": ["Gov. Job Archive"]
+      "topic": "প্রাচীন বাংলার ইতিহাস ও জনপদ",
+      "question": "প্রাচীন 'বরেন্দ্র' অঞ্চল বলতে উত্তরবঙ্গের কোন এলাকাকে বোঝায়?",
+      "options": {
+        "a": "রাজশাহী, বগুড়া ও দিনাজপুর",
+        "b": "সিলেট ও মৌলভীবাজার",
+        "c": "ঢাকা ও ফরিদপুর",
+        "d": "খুলনা ও সাতক্ষীরা"
+      },
+      "correct_option": "a",
+      "explanation": "উত্তরবঙ্গের রাজশাহী, বগুড়া, পাবনা, দিনাজপুর ও নওগাঁ অঞ্চল বরেন্দ্রভূমির অন্তর্ভুক্ত।"
     },
     {
       "id": 47,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "SAARC কত সালে প্রতিষ্ঠিত?",
-      "options": ["১৯৮৫", "১৯৮০", "১৯৯০", "১৯৯৫"],
-      "ans": 0,
-      "explain": "SAARC ৮ ডিসেম্বর ১৯৮৫ সালে ঢাকায় প্রতিষ্ঠিত। [৪৭]",
-      "source": ["Gov. Job Archive"]
+      "topic": "প্রাচীন বাংলার ইতিহাস ও জনপদ",
+      "question": "বাংলার প্রথম স্বাধীন নৃপতি বা রাজা কে ছিলেন?",
+      "options": {
+        "a": "ধর্মপাল",
+        "b": "রাজা শশাঙ্ক",
+        "c": "গোপাল",
+        "d": "লক্ষণ সেন"
+      },
+      "correct_option": "b",
+      "explanation": "৭ম শতকের শুরুতে রাজা শশাঙ্ক গৌড়ে স্বাধীন শাসন প্রতিষ্ঠা করেন; তিনি বাংলার প্রথম স্বাধীন রাজা।"
     },
     {
       "id": 48,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "EU গঠিত হয় কত সালে?",
-      "options": ["১৯৯৩", "১৯৯২", "১৯৫৭", "১৯৯০"],
-      "ans": 0,
-      "explain": "মাস্ট্রিখট চুক্তি ১৯৯২, কার্যকর ১৯৯৩। [৪৮]",
-      "source": ["Gov. Job Archive"]
+      "topic": "প্রাচীন বাংলার ইতিহাস ও জনপদ",
+      "question": "প্রাচীন তাম্রলিপ্ত কীসের জন্য বিখ্যাত ছিল?",
+      "options": {
+        "a": "রাজধানী",
+        "b": "নৌ-বন্দর",
+        "c": "যুদ্ধক্ষেত্র",
+        "d": "পাহাড়"
+      },
+      "correct_option": "b",
+      "explanation": "তাম্রলিপ্ত ছিল প্রাচীন বাংলার দক্ষিণ-পশ্চিমাঞ্চলের অত্যন্ত সমৃদ্ধ একটি বাণিজ্যিক নৌ-বন্দর।"
     },
     {
       "id": 49,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "ASEAN এর সদস্য কয়টি?",
-      "options": ["১০টি", "১১টি", "৯টি", "১২টি"],
-      "ans": 0,
-      "explain": "ASEAN ১০টি দেশ। [৪৯]",
-      "source": ["Gov. Job Archive"]
+      "topic": "প্রাচীন বাংলার ইতিহাস ও জনপদ",
+      "question": "কুমিল্লার ময়নামতি শালবন বিহার কোন প্রাচীন জনপদের অংশ ছিল?",
+      "options": {
+        "a": "সমতট",
+        "b": "পুণ্ড্র",
+        "c": "বরেন্দ্র",
+        "d": "হরিকেল"
+      },
+      "correct_option": "a",
+      "explanation": "কুমিল্লার ময়নামতি শালবন বিহার প্রাচীন সমতট জনপদের অন্যতম প্রধান কেন্দ্র ছিল।"
     },
     {
       "id": 50,
       "subject": "সাধারণ জ্ঞান",
-      "topics": "আন্তর্জাতিক জোট",
-      "q": "OIC কত সালে প্রতিষ্ঠিত?",
-      "options": ["১৯৬৯", "১৯৭০", "১৯৭২", "১৯৮০"],
-      "ans": 0,
-      "explain": "OIC ১৯৬৯ সালে রাবাতে প্রতিষ্ঠিত। [৫০]",
-      "source": ["Gov. Job Archive"]
+      "topic": "প্রাচীন বাংলার ইতিহাস ও জনপদ",
+      "question": "প্রাচীন 'চন্দ্রদ্বীপ' অঞ্চলের বর্তমান নাম কোনটি?",
+      "options": {
+        "a": "নোয়াখালী",
+        "b": "বরিশাল",
+        "c": "সন্দ্বীপ",
+        "d": "ভোলা"
+      },
+      "correct_option": "b",
+      "explanation": "বরিশাল ও এর সংলগ্ন এলাকার প্রাচীন নাম ছিল চন্দ্রদ্বীপ।"
     }
   ]
 }

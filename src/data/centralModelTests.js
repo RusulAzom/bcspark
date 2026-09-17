@@ -11,11 +11,11 @@
   },
    {
     examId: 'cmt-combined-001',
-    title: 'Weekly Model Test - 02\n| ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
-    scheduledDateTime: '2026-09-11T23:00:00+06:00',
+    title: 'Exam -1 ৩০ দিনের ফাউন্ডেশন কোর্স — ১ম দিন | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
+    scheduledDateTime: '2026-09-17T21:00:00+06:00',
     questions: 50,
     marks: 50,
-    description: 'Combined model test with questions from Goverment Job Exam.',
+    description: '',
     route: '/question-bank/DSS/combinedModelTest',
     status: 'scheduled',
     isCombined: true
