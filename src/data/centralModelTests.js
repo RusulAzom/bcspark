@@ -9,17 +9,6 @@
     route: '/question-bank/DSS/dssDemo1QuestionBank',
     status: 'scheduled'
   },
-   {
-    examId: 'govjobfc-day-001',
-    title: 'Exam -1 ৩০ দিনের ফাউন্ডেশন কোর্স — ১ম দিন | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
-    scheduledDateTime: '2026-09-17T21:00:00+06:00',
-    questions: 50,
-    marks: 50,
-    description: '',
-    route: '/question-bank/DSS/combinedModelTest',
-    status: 'scheduled',
-    isCombined: true
-  },
   {
     examId: 'cmt-002',
     title: 'Central Model Test 2: বিসিএস প্রিলিমিনারি পরীক্ষা',
@@ -39,5 +28,29 @@
     description: 'বাংলাদেশের বিভিন্ন ব্যাংক জব পরীক্ষার জন্য মডেল টেস্ট',
     route: '/question-bank/bank/bankJob1',
     status: 'scheduled'
+  },
+
+  // ####################Courses Exam######################
+{
+    examId: 'govjobfc-day-001',
+    title: 'Exam -1 ৩০ দিনের ফাউন্ডেশন কোর্স — ১ম দিন | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
+    scheduledDateTime: '2026-09-17T21:00:00+06:00',
+    questions: 50,
+    marks: 50,
+    description: '',
+    route: '/question-bank/DSS/combinedModelTest',
+    status: 'scheduled',
+    isCombined: true
+  },
+  {
+    examId: 'govjobfc-day-002',
+    title: 'পরীক্ষা ২ঃ ৩০ দিনের ফাউন্ডেশন কোর্স — দ্বিতীয় দিন | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
+    scheduledDateTime: '2026-09-18T20:00:00+06:00',
+    questions: 50,
+    marks: 50,
+    description: '',
+    route: '/courses/GJFC30/day2_50_questions.json',
+    status: 'scheduled',
+    isCombined: true
   }
 ];
