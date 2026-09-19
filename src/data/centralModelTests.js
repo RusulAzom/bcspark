@@ -56,12 +56,12 @@
   {
     examId: 'govjobfc-day-003',
     title: 'পরীক্ষা ১ঃ ৩০ দিনের ফাউন্ডেশন কোর্স — প্রথম দিন | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
-    scheduledDateTime: '2026-09-18T20:00:00+06:00',
+    scheduledDateTime: '2026-09-17T20:00:00+06:00',
     questions: 50,
     marks: 50,
     description: '',
     route: '/courses/GJFC30/day1_50_questions',
     status: 'scheduled',
-    isCombined: false
+    isCombined: true
   }
 ];
