@@ -49,7 +49,7 @@
     questions: 50,
     marks: 50,
     description: '',
-    route: '/courses/GJFC30/day2_50_questions',
+    route: '/courses/GJFC30D/day2_50_questions',
     status: 'scheduled',
     isCombined: true
   },
@@ -60,7 +60,7 @@
     questions: 50,
     marks: 50,
     description: '',
-    route: '/courses/GJFC30/day1_50_questions',
+    route: '/courses/GJFC30D/day1_50_questions',
     status: 'scheduled',
     isCombined: true
   },
@@ -71,7 +71,7 @@
     questions: 50,
     marks: 50,
     description: '',
-    route: '/courses/GJFC30/day4_50_questions',
+    route: '/courses/GJFC30D/day4_50_questions',
     status: 'scheduled',
     isCombined: true
   }
