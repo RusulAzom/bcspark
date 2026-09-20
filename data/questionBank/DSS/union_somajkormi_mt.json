@@ -1,0 +1,430 @@
+{
+  "exam_info": {
+    "title": "সমাজসেবা অধিদপ্তর ইউনিয়ন সমাজকর্মী নিয়োগ পরীক্ষা-Model Test",
+    "organization": "সমাজসেবা অধিদপ্তর (DSS)",
+    "post": "ইউনিয়ন সমাজকর্মী",
+    "date": "০",
+    "duration": "১ ঘণ্টা ৩০ মিনিট",
+    "full_marks": 100,
+    "grade": "১৬তম গ্রেড"
+  },
+  "sections": [
+    {
+      "subject": "বাংলা",
+      "marks": 30,
+      "questions": [
+        {
+          "sl": 1,
+          "type": "সন্ধি বিচ্ছেদ",
+          "question": "সন্ধি বিচ্ছেদ করুন:",
+          "marks": 5,
+          "items": [
+            {
+              "q": "উৎছেদ",
+              "ans": "উৎ + ছেদ"
+            },
+            {
+              "q": "বিদ্যালয়",
+              "ans": "বিদ্যা + আলয়"
+            },
+            {
+              "q": "গবেষণা",
+              "ans": "গো + এষণা"
+            },
+            {
+              "q": "উদ্ধার",
+              "ans": "উৎ + হার"
+            },
+            {
+              "q": "স্বাগত",
+              "ans": "সু + আগত"
+            }
+          ]
+        },
+        {
+          "sl": 2,
+          "type": "এক কথায় প্রকাশ",
+          "question": "এক কথায় প্রকাশ করুন:",
+          "marks": 5,
+          "items": [
+            {
+              "q": "যে নারীর স্বামী বিদেশে থাকে",
+              "ans": "প্রোষিতভর্তৃকা"
+            },
+            {
+              "q": "একই মায়ের সন্তান",
+              "ans": "সহোদর"
+            },
+            {
+              "q": "যে উপকারীর অপকার করে",
+              "ans": "কৃতঘ্ন"
+            },
+            {
+              "q": "একই সময়ে বর্তমান",
+              "ans": "সমসাময়িক"
+            },
+            {
+              "q": "যা লোহে বিদিত নয়",
+              "ans": "অবিদিত"
+            }
+          ]
+        },
+        {
+          "sl": 3,
+          "type": "অর্থসহ বাক্য রচনা",
+          "question": "অর্থসহ বাক্য রচনা করুন:",
+          "marks": 5,
+          "items": [
+            {
+              "phrase": "লেফাফাদুরস্ত",
+              "meaning": "বাইরের পরিপাটি",
+              "sentence": "আজকাল লেফাফাদুরস্ত মানুষের অভাব নেই, এদের বাইরের রূপ দেখেই ভুলে যাওয়া ঠিক নয়।"
+            },
+            {
+              "phrase": "সোনার পাথর বাটি",
+              "meaning": "অলিক বস্তু",
+              "sentence": "গরিব মানুষের পক্ষে রাতারাতি কোটিপতি হওয়ার স্বপ্ন দেখা সোনার পাথর বাটি পাওয়ার মতোই অসম্ভব।"
+            },
+            {
+              "phrase": "রাবণের চিতা",
+              "meaning": "চির অশান্তি",
+              "sentence": "অভাবের সংসারে প্রতিদিনের ঝগড়া-বিবাদ যেন রাবণের চিতা, এই আগুন সহজে নিভে না।"
+            },
+            {
+              "phrase": "মাছের মা",
+              "meaning": "নির্মম",
+              "sentence": "তোমার মতো এমন মাছের মা মানুষ আমি আর দুটি দেখিনি, অনাথ শিশুটির কষ্ট দেখেও তোমার একটু মায়া হলো না!"
+            },
+            {
+              "phrase": "ব্যাঙের সর্দি",
+              "meaning": "অসম্ভব ব্যাপার",
+              "sentence": "অলস রহিমের মুখে কঠোর পরিশ্রমের কথা শুনলে মনে হয় ব্যাঙের সর্দি হয়েছে।"
+            }
+          ]
+        },
+        {
+          "sl": 4,
+          "type": "কারক ও বিভক্তি",
+          "question": "কারক ও বিভক্তি নির্ণয় করুন:",
+          "marks": 5,
+          "items": [
+            {
+              "sentence": "জনে জনে জিজ্ঞাসা করো",
+              "target_word": "জনে জনে",
+              "ans": "কর্মে ৭মী বিভক্তি"
+            },
+            {
+              "sentence": "গরু দুধ দেয়",
+              "target_word": "গরু",
+              "ans": "কর্মে শূন্য বিভক্তি"
+            },
+            {
+              "sentence": "ক্ষুধার্তকে খাদ্য দাও",
+              "target_word": "ক্ষুধার্তকে",
+              "ans": "সম্প্রদানে ২য়া বিভক্তি"
+            },
+            {
+              "sentence": "তিনি কাল আসবেন",
+              "target_word": "কাল",
+              "ans": "অধিকরণে শূন্য বিভক্তি"
+            },
+            {
+              "sentence": "আমরা কানে শুনি",
+              "target_word": "কানে",
+              "ans": "করণে ৭মী বিভক্তি"
+            }
+          ]
+        },
+        {
+          "sl": 5,
+          "type": "ভাব-সম্প্রসারণ",
+          "question": "ভাব-সম্প্রসারণ করুন: \"দুঃখের মতো এত বড় পরশ পাথর আর নেই\"",
+          "marks": 10,
+          "content": {
+            "maintopic": "দুঃখের মতো এত বড় পরশ পাথর আর নেই",
+            "summary": "মানুষের জীবনকে সুন্দর, খাঁটি ও মহান করে তুলতে দুঃখের ভূমিকা সবচেয়ে বেশি।",
+            "expansion": "পরশ পাথর একটি কাল্পনিক পাথর। বলা হয়, এই পাথরের ছোঁয়া লাগলে সাধারণ লোহাও সোনা হয়ে যায়। মানুষের জীবনে দুঃখ হলো সেই পরশ পাথরের মতো। দুঃখ আমাদের মনকে খাঁটি করে তোলে। সুখ মানুষকে অন্ধ করে দেয়। কিন্তু দুঃখ মানুষকে কঠোর ও শক্তিশালী হতে শেখায়। জীবনে বিপদ বা দুঃখ না আসলে মানুষ নিজের আসল ক্ষমতা বুঝতে পারে না। আগুনে পুড়ে যেমন সোনা খাঁটি হয়, তেমনি দুঃখ-কষ্টের ভিতর দিয়ে গিয়ে মানুষ সত্যিকারের মানুষ হয়ে ওঠে। পৃথিবীর বড় বড় মহাপুরুষেরা দুঃখের সাগর পার হয়েই বড় হয়েছেন। দুঃখ মানুষের ভেতরের অহংকার দূর করে। এটি আমাদের অন্যের কষ্টের কথা বুঝতে সাহায্য করে। ফলে মানুষের মনে দয়া, মায়া ও ভালোবাসার জন্ম হয়। দুঃখ ছাড়া জীবনের আসল আনন্দ খুঁজে পাওয়া যায় না। ঘন অন্ধকারের পরেই যেমন ভোরের আলো সুন্দর লাগে, তেমনি বড় কষ্টের পরেই সুখের আনন্দ সবচেয়ে মিষ্টি হয়।",
+            "conclusion": "তাই দুঃখকে ভয় পাওয়ার কিছু নেই। দুঃখ আমাদের জীবনকে ভেঙে ফেলে না, বরং একে আরও সুন্দর ও সফল করে গড়ে তোলে।"
+          }
+        }
+      ]
+    },
+    {
+      "subject": "ENGLISH",
+      "marks": 30,
+      "questions": [
+        {
+          "sl": 6,
+          "type": "Paragraph Writing",
+          "question": "Write a paragraph on 'Our Liberation War'.",
+          "marks": 10,
+          "content": "The war of independence is a glorious period in the history of our country. The war was fought against the Pakistan army in 1971. Through this war, Bangladesh became as an independent country. About three million people died in this war, Most of them died in the genocide carried out by the Pakistani army. On March 25, the army launched a massive attack in which they killed the innocent people. Bangabandhu Sheikh Mujib was arrested. Before that, he declared the independence of Bangladesh. Under his leadership, many brave men and women of the country fought bravely for nine months. Finally, on December 16, 1971, they won the war and Bangladesh became a free country. This day is celebrated as Victory Day in Bangladesh every year. It is a day of joy and happiness for the people of Bangladesh. This is why the Bangladesh Liberation is very important."
+        },
+        {
+          "sl": 7,
+          "type": "Appropriate Preposition",
+          "question": "Fill in the blanks with appropriate preposition:",
+          "marks": 5,
+          "items": [
+            {
+              "sentence": "I was accompanied ___ my friends.",
+              "ans": "by"
+            },
+            {
+              "sentence": "He is superior ___ me.",
+              "ans": "to"
+            },
+            {
+              "sentence": "Dhaka is situated ___ the bank of the river Buriganga.",
+              "ans": "on"
+            },
+            {
+              "sentence": "Please come alone ___ all relevant papers.",
+              "ans": "with"
+            },
+            {
+              "sentence": "We should take care ___ our health.",
+              "ans": "of"
+            }
+          ]
+        },
+        {
+          "sl": 8,
+          "type": "Translation",
+          "question": "Translate into English:",
+          "marks": 5,
+          "items": [
+            {
+              "bangla": "সে বাড়ি যায়।",
+              "english": "He goes home."
+            },
+            {
+              "bangla": "মেয়েটি নাচতে নাচতে চলে গেল।",
+              "english": "The girl went away dancing."
+            },
+            {
+              "bangla": "আমি চা অপেক্ষা দুধ বেশি পছন্দ করি।",
+              "english": "I prefer milk to tea."
+            },
+            {
+              "bangla": "নাচতে না জানলে উঠান বাঁকা।",
+              "english": "A bad workman quarrels with his tools."
+            },
+            {
+              "bangla": "সূর্য কি আমাদের কিরণ দেয় না?",
+              "english": "Does the sun not give us light?"
+            },
+            {
+              "bangla": "যেতে চাও যাও।",
+              "english": "Go if you want."
+            },
+            {
+              "bangla": "সুন্দরবন দেশের দক্ষিণে।",
+              "english": "The Sundarbans is situated in south of Bangladesh."
+            },
+            {
+              "bangla": "আমি যদি ভালো খেলোয়াড় হতাম।",
+              "english": "I wish I were a good player."
+            },
+            {
+              "bangla": "আমি দুই ঘণ্টা যাবৎ পড়ছি।",
+              "english": "I have been reading for two hours."
+            },
+            {
+              "bangla": "সাকিব বাংলাদেশের ব্র্যাডম্যান।",
+              "english": "Shakib is the Bradman of Bangladesh."
+            }
+          ]
+        },
+        {
+          "sl": 9,
+          "type": "Idioms & Phrases",
+          "question": "Make sentences with the following idioms:",
+          "marks": 10,
+          "items": [
+            {
+              "idiom": "Skin and bone",
+              "meaning": "অস্থি চর্মসার",
+              "sentence": "After a long illness, the old man became skin and bone."
+            },
+            {
+              "idiom": "Take after",
+              "meaning": "অনুরূপ/সদৃশ হওয়া",
+              "sentence": "The boy takes after his father in appearance."
+            },
+            {
+              "idiom": "Ways and means",
+              "meaning": "উপায়",
+              "sentence": "We must find ways and means to solve this problem."
+            },
+            {
+              "idiom": "Red handed",
+              "meaning": "হাতে নাতে",
+              "sentence": "The police caught the thief red handed."
+            },
+            {
+              "idiom": "Look after",
+              "meaning": "দেখা-শোনা করা",
+              "sentence": "Sharif looks after his parents."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "গণিত",
+      "marks": 20,
+      "questions": [
+        {
+          "sl": 10,
+          "type": "পাটিগণিত",
+          "question": "বার্ষিক শতকরা ৬.৫ টাকা হার সুদে কত টাকার ৩ বছর ৪ মাসে সুদে-আসলে ৭৮৮.৪০ টাকা হবে?",
+          "marks": 10,
+          "solution": {
+            "given": {
+              "rate_r": "৬.৫% = ১৩/২%",
+              "time_n": "৩ বছর ৪ মাস = (৩ + ৪/১২) বছর = (৩ + ১/৩) বছর = ১০/৩ বছর",
+              "amount_A": "৭৮৮.৪০ টাকা"
+            },
+            "steps": [
+              "ধরি, আসল = P টাকা",
+              "সুদ I = (P * n * r) / ১০০",
+              "I = (P * (১০/৩) * (১৩/২)) / ১০০ = (৬৫ P) / ৩০০ টাকা",
+              "সুদ-আসল A = P + I = P + (৬৫ P / ৩০০) = (৩৬৫ P) / ৩০০ টাকা",
+              "প্রশ্নমতে, (৩৬৫ P) / ৩০০ = ৭৮৮.৪০",
+              "P = (৭৮৮.৪০ * ৩০০) / ৩৬৫",
+              "P = ৬৮৮ টাকা"
+            ],
+            "ans": "৬৮৮ টাকা"
+          }
+        },
+        {
+          "sl": 11,
+          "type": "বীজগণিত",
+          "question": "যদি a³ - b³ = 513 এবং a - b = 3 হয়, তবে ab-এর মান কত?",
+          "marks": 5,
+          "solution": {
+            "given": {
+              "a3_minus_b3": 513,
+              "a_minus_b": 3
+            },
+            "steps": [
+              "আমরা জানি, a³ - b³ = (a - b)³ + 3ab(a - b)",
+              "৫১৩ = ৩³ + ৩ * ab * ৩",
+              "৫১৩ = ২৭ + ৯ab",
+              "৯ab = ৫১৩ - ২৭",
+              "৯ab = ৪৮৬",
+              "ab = ৪৮৬ / ৯ = ৫৪"
+            ],
+            "ans": "৫৪"
+          }
+        },
+        {
+          "sl": 12,
+          "type": "সংজ্ঞা লিখন",
+          "question": "সংজ্ঞা লিখুন:",
+          "marks": 5,
+          "items": [
+            {
+              "term": "মৌলিক সংখ্যা",
+              "definition": "১ এর চেয়ে বড় যে সংখ্যাগুলোকে ১ এবং সে সংখ্যা ছাড়া অন্য কোনো পূর্ণ সংখ্যা দ্বারা ভাগ করলে ভাগফল পূর্ণ সংখ্যা হয় না, তাকে মৌলিক সংখ্যা বলে। যেমন- ২, ৩, ৫, ৭ ইত্যাদি।"
+            },
+            {
+              "term": "ট্রাপিজিয়াম",
+              "definition": "যে চতুর্ভুজের দুটি বিপরীত বাহু সমান্তরাল কিন্তু অসমান, তাকে ট্রাপিজিয়াম বলে।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "সাধারণ জ্ঞান",
+      "marks": 20,
+      "questions": [
+        {
+          "sl": 13,
+          "type": "টীকা লিখন",
+          "question": "টীকা লিখুন: বৈশ্বিক উষ্ণায়ন",
+          "marks": 5,
+          "content": "বৈশ্বিক উষ্ণায়ন বলতে মূলত মানুষের বিভিন্ন কর্মকাণ্ডের ফলে পৃথিবীর বায়ুমণ্ডলে গ্রীনহাউজ গ্যাসের পরিমাণ বৃদ্ধি পেয়ে ভূপৃষ্ঠের গড় তাপমাত্রা ক্রমাগত বেড়ে যাওয়ার প্রক্রিয়াকে বোঝায়। বর্তমান বিশ্বে এটি অন্যতম প্রধান এবং উদ্বেগজনক পরিবেশগত সমস্যা হিসেবে চিহ্নিত হয়েছে। কলকারখানা, যানবাহন ও বিদ্যুৎ উৎপাদনে কয়লা ও পেট্রোলিয়ামের মতো জীবাশ্ম জ্বালানির অতিরিক্ত ব্যবহার এবং ব্যাপক হারে বনভূমি ধ্বংসের ফলে বায়ুমণ্ডলে কার্বন ডাইঅক্সাইড (CO2), মিথেন (CH4) ও সিএফসি (CFC) গ্যাসের পরিমাণ মারাত্মকভাবে বেড়ে চলেছে। এই গ্যাসগুলো সূর্যের তাপকে মহাকাশে ফিরে যেতে বাধা দিয়ে পৃথিবীর চারপাশে একটি তাপীয় চাদর তৈরি করে, যাকে গ্রীনহাউজ প্রতিক্রিয়া বলা হয়। এর ফলে মেরু অঞ্চলের বরফ গলন শুরু হয়েছে এবং সমুদ্রপৃষ্ঠের উচ্চতা বৃদ্ধি পাচ্ছে, যা বাংলাদেশের মতো নিচু উপকূলীয় দেশগুলোর জন্য সমুদ্রজলে তলিয়ে যাওয়ার ঝুঁকি তৈরি করেছে।"
+        },
+        {
+          "sl": 14,
+          "type": "সংক্ষিপ্ত উত্তর",
+          "question": "নিচের প্রশ্নগুলোর উত্তর লিখুন:",
+          "marks": 10,
+          "items": [
+            {
+              "q": "বঙ্গবন্ধু শেখ মুজিবুর রহমানের স্বদেশ প্রত্যাবর্তন দিবস কবে?",
+              "ans": "১০ জানুয়ারি"
+            },
+            {
+              "q": "বাংলাদেশের সশস্ত্র বাহিনীর সর্বাধিনায়ক কে?",
+              "ans": "রাষ্ট্রপতি"
+            },
+            {
+              "q": "আন্তর্জাতিক প্রতিবন্ধী দিবস কত তারিখ?",
+              "ans": "৩ ডিসেম্বর"
+            },
+            {
+              "q": "ইতালির মুদ্রার নাম কী?",
+              "ans": "ইউরো"
+            },
+            {
+              "q": "যুক্তরাজ্যের আইনসভার নিম্নকক্ষের নাম কী?",
+              "ans": "House of Commons"
+            },
+            {
+              "q": "নিকারাগুয়ার রাজধানীর নাম কী?",
+              "ans": "মানাগুয়া"
+            },
+            {
+              "q": "পৃথিবীর দীর্ঘতম রেলপথ কোনটি?",
+              "ans": "ট্রান্সসাইবেরিয়ান রেলপথ"
+            },
+            {
+              "q": "বিশ্বখ্যাত প্রযুক্তি প্রতিষ্ঠান 'অ্যাপল'-এর প্রতিষ্ঠাতা কে?",
+              "ans": "স্টিভ জবস"
+            },
+            {
+              "q": "বিশ্বের সর্ববৃহৎ ম্যানগ্রোভ ফরেস্ট কোনটি?",
+              "ans": "সুন্দরবন"
+            },
+            {
+              "q": "পৃথিবীর বৃহত্তম মুসলিম রাষ্ট্র কোনটি?",
+              "ans": "ইন্দোনেশিয়া"
+            }
+          ]
+        },
+        {
+          "sl": 15,
+          "type": "পূর্ণরূপ লিখন",
+          "question": "পূর্ণরূপ লিখুন:",
+          "marks": 5,
+          "items": [
+            {
+              "abbreviation": "AIDS",
+              "full_form": "Acquired Immune Deficiency Syndrome"
+            },
+            {
+              "abbreviation": "NATO",
+              "full_form": "North Atlantic Treaty Organization"
+            },
+            {
+              "abbreviation": "RAM",
+              "full_form": "Random Access Memory"
+            },
+            {
+              "abbreviation": "IBRD",
+              "full_form": "International Bank for Reconstruction and Development"
+            },
+            {
+              "abbreviation": "BRRI",
+              "full_form": "Bangladesh Rice Research Institute"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

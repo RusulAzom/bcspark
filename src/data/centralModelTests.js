@@ -1,17 +1,17 @@
  export const CENTRAL_MODEL_TESTS = [
   {
     examId: 'cmt-001',
-    title: 'GK - মহান মুক্তিযুদ্ধ স্পেশাল Model Test\n | University & Gov Job Exam Preparation',
+    title: 'GK - স্পেশাল Model Test\n | University & Gov Job Exam Preparation',
     scheduledDateTime: '2026-08-26T22:00:00+06:00',
     questions: 50,
     marks: 50,
     description: 'সমাজসেবা অধিদপ্তরের ইউনিয়ন সমাজকর্মী পদের জন্য প্রথম মডেল টেস্ট',
-    route: '/question-bank/DSS/dssDemo1QuestionBank',
+    route: '/question-bank/DSS/union_somajkormi_mt',
     status: 'scheduled'
   },
   {
     examId: 'cmt-002',
-    title: 'Central Model Test 2: বিসিএস প্রিলিমিনারি পরীক্ষা',
+    title: 'Central Model Test 2: বিসিএস প্রিলিমিনারি পরীক্ষা', 
     scheduledDateTime: '2026-08-15T18:00:00+06:00',
     questions: 100,
     marks: 100,
@@ -56,11 +56,22 @@
   {
     examId: 'govjobfc-day-003',
     title: 'পরীক্ষা ১ঃ ৩০ দিনের ফাউন্ডেশন কোর্স — প্রথম দিন | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
-    scheduledDateTime: '2026-09-17T20:00:00+06:00',
+    scheduledDateTime: '2026-09-16T20:00:00+06:00',
     questions: 50,
     marks: 50,
     description: '',
     route: '/courses/GJFC30/day1_50_questions',
+    status: 'scheduled',
+    isCombined: true
+  },
+  {
+    examId: 'govjobfc-day-004',
+    title: 'পরীক্ষা ৪ঃ ৩০ দিনের ফাউন্ডেশন কোর্স — চতুর্থ দিন | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
+    scheduledDateTime: '2026-09-20T20:00:00+06:00',
+    questions: 50,
+    marks: 50,
+    description: '',
+    route: '/courses/GJFC30/day4_50_questions',
     status: 'scheduled',
     isCombined: true
   }
