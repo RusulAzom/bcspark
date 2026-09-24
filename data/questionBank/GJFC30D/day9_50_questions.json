@@ -1,0 +1,710 @@
+{
+  "examInfo": {
+    "examName": "৩০ দিনের ফাউন্ডেশন কোর্স — ৯মে দিনের (Day 9)",
+    "examType": "preliminary",
+    "totalMarks": "50",
+    "totalQuestions": 50
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "একই শব্দ পরপর দুবার ব্যবহৃত হয়ে বিশেষ অর্থ প্রকাশ করলে তাকে কী বলে?",
+      "options": [
+        "অনুকার শব্দ",
+        "পদদ্বিত্ব",
+        "যুগ্ম শব্দ",
+        "শব্দদ্বিত্ব"
+      ],
+      "ans": 3,
+      "explain": "একই শব্দ পরপর দুবার প্রয়োগের মাধ্যমে নতুন অর্থ তৈরি হওয়াকে শব্দদ্বিত্ব বলা হয়।"
+    },
+    {
+      "id": 2,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "শব্দদ্বিত্বকে প্রধানত কয়টি ভাগে ভাগ করা যায়?",
+      "options": [
+        "৫ ভাগে",
+        "৪ ভাগে",
+        "৩ ভাগে (অনুকরণ দ্বিত্ব, পুনরাবৃত্ত দ্বিত্ব ও ধনাত্মক দ্বিত্ব)",
+        "২ ভাগে"
+      ],
+      "ans": 2,
+      "explain": "বাংলা ব্যাকরণে শব্দদ্বিত্বকে অনুকরণ দ্বিত্ব, পুনরাবৃত্ত দ্বিত্ব ও ধনাত্মক দ্বিত্ব—এই তিন ভাগে ভাগ করা হয়েছে।"
+    },
+    {
+      "id": 3,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "'জ্বর জ্বর বোধ করছি'—এখানে 'জ্বর জ্বর' শব্দদ্বিত্বটি কী অর্থ প্রকাশ করছে?",
+      "options": [
+        "আধিক্য",
+        "ধারাবাহিকতা",
+        "তীব্রতা",
+        "সামান্যতা বা অল্পতা"
+      ],
+      "ans": 3,
+      "explain": "'জ্বর জ্বর' দিয়ে রোগটির সামান্য ভাব বা অল্প আমেজ প্রকাশ পাচ্ছে।"
+    },
+    {
+      "id": 4,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "কোনটি ধনাত্মক শব্দদ্বিত্বের সঠিক উদাহরণ?",
+      "options": [
+        "ধড়ফড়",
+        "ভাত-টাত",
+        "ঝমঝম",
+        "ভালো-ভালো"
+      ],
+      "ans": 2,
+      "explain": "কোনো প্রাকৃতির বা কাল্পনিক ধ্বনির অনুকরণে তৈরি শব্দদ্বিত্বকে ধনাত্মক দ্বিত্ব বলে (যেমন: ঝমঝম, কড়কড়)।"
+    },
+    {
+      "id": 5,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "'টাকাপয়সা' বা 'হাবভাব' কোন ধরনের শব্দদ্বিত্ব?",
+      "options": [
+        "ধনাত্মক দ্বিত্ব",
+        "পুনরাবৃত্ত দ্বিত্ব",
+        "সংখ্যাবাচক দ্বিত্ব",
+        "অনুকরণ দ্বিত্ব / সহচর দ্বিত্ব"
+      ],
+      "ans": 3,
+      "explain": "মূল শব্দের সাথে আংশিক পরিবর্তন বা সহচর শব্দ যুক্ত হয়ে অনুকরণ দ্বিত্ব গঠিত হয়।"
+    },
+    {
+      "id": 6,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "বাংলা ব্যাকরণে সংখ্যাবাচক শব্দকে কয়টি ভাগে ভাগ করা হয়?",
+      "options": [
+        "৩ ভাগে",
+        "২ ভাগে",
+        "৫ ভাগে",
+        "৪ ভাগে (ক্রমবাচক, পূরণবাচক, তারিখবাচক ও ভগ্নাংশ পূরণবাচক)"
+      ],
+      "ans": 3,
+      "explain": "সংখ্যাবাচক শব্দ চার প্রকার: ক্রমবাচক, পূরণবাচক, তারিখবাচক ও ভগ্নাংশ পূরণবাচক।"
+    },
+    {
+      "id": 7,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "১, ২, ৩, ৪... ইত্যাদি সংখ্যাগুলোকে কী ধরনের সংখ্যাবাচক শব্দ বলে?",
+      "options": [
+        "তারিখবাচক সংখ্যাশব্দ",
+        "পূরণবাচক সংখ্যাশব্দ",
+        "ক্রমবাচক বা গণনাView সংখ্যাবাচক শব্দ",
+        "ভগ্নাংশ পূরণবাচক"
+      ],
+      "ans": 2,
+      "explain": "যা দ্বারা গণনা করা হয় বা হিসাব করা হয় তা ক্রমবাচক সংখ্যাশব্দ।"
+    },
+    {
+      "id": 8,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "'প্রথম', 'দ্বিতীয়', 'তৃতীয়'... এগুলো কোন প্রকারের সংখ্যাবাচক শব্দ?",
+      "options": [
+        "ক্রমবাচক সংখ্যাশব্দ",
+        "পরিমাণবাচক সংখ্যাশব্দ",
+        "পূরণবাচক সংখ্যাশব্দ (Ordinal Numbers)",
+        "তারিখবাচক সংখ্যাশব্দ"
+      ],
+      "ans": 2,
+      "explain": "বস্তু বা ব্যক্তির অবস্থান বা ক্রম নির্দেশকারী শব্দকে পূরণবাচক সংখ্যাশব্দ বলে।"
+    },
+    {
+      "id": 9,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "বাংলা মাসের ১ থেকে ৪ তারিখ পর্যন্ত প্রকাশের জন্য কোন ভাষার নিয়মে তারিখ বা সংখ্যাবাচক শব্দ গঠিত হয়েছে?",
+      "options": [
+        "হিন্দি নিয়মে (পহেলা, দোসরা, তেসরা, চৌঠা)",
+        "সংস্কৃত নিয়মে",
+        "ফারসি নিয়মে",
+        "ইংরেজি নিয়মে"
+      ],
+      "ans": 0,
+      "explain": "বাংলা তারিখের প্রথম চার দিন (১লা-৪ঠা) হিন্দি ব্যাকরণিক নিয়মে প্রবর্তিত হয়েছে।"
+    },
+    {
+      "id": 10,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "'পোয়া', 'আধা', 'দেড়', 'আড়াই'—এগুলো কোন ধরনের সংখ্যাবাচক শব্দ?",
+      "options": [
+        "তারিখবাচক শব্দ",
+        "ক্রমবাচক শব্দ",
+        "ভগ্নাংশ পূরণবাচক শব্দ",
+        "সাধারণ পূরণবাচক শব্দ"
+      ],
+      "ans": 2,
+      "explain": "পূর্ণ সংখ্যার ভগ্নাংশ প্রকাশকারী শব্দগুলোকে ভগ্নাংশ পূরণবাচক শব্দ বলা হয়।"
+    },
+    {
+      "id": 11,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "'পহেলা বৈশাখ' শব্দে 'পহেলা' কোন ধরনের শব্দ?",
+      "options": [
+        "পূরণবাচক শব্দ",
+        "ক্রমবাচক শব্দ",
+        "ভগ্নাংশবাচক শব্দ",
+        "তারিখবাচক শব্দ"
+      ],
+      "ans": 3,
+      "explain": "তারিখ নির্দেশকারী শব্দকে তারিখবাচক শব্দ বলে।"
+    },
+    {
+      "id": 12,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "'ক্যাঁচক্যাঁচ', 'মড়মড়', 'শনশন'—এগুলো কোন শ্রেণীর দ্বিরুক্ত/শব্দদ্বিত্ব?",
+      "options": [
+        "বিভক্তিযুক্ত দ্বিত্ব",
+        "পুনরাবৃত্ত শব্দদ্বিত্ব",
+        "অনুকরণ শব্দদ্বিত্ব",
+        "অনুভূতির অনুকার বা ধনাত্মক শব্দদ্বিত্ব"
+      ],
+      "ans": 3,
+      "explain": "বাস্তব বা কাল্পনিক ধ্বনির অনুকরণে তৈরি ধ্বন্যাত্মক দ্বিত্ব।"
+    },
+    {
+      "id": 13,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৪: শব্দদ্বিত্ব ও পরিচ্ছেদ ১৬: সংখ্যাবাচক শব্দ",
+      "q": "একাদশি, দ্বাদশী, ত্রয়োদশী—এগুলো কোন ধরণের পূরণবাচক সংখ্যাশব্দ?",
+      "options": [
+        "ভগ্নাংশ পূরণবাচক",
+        "বাংলা সাধারণ পূরণবাচক",
+        "সংস্কৃত বা তৎসম পূরণবাচক শব্দ",
+        "তারিখবাচক শব্দ"
+      ],
+      "ans": 2,
+      "explain": "সংস্কৃত নিয়মে গঠিত তিথি বা অবস্থান নির্দেশক পূরণবাচক শব্দ।"
+    },
+    {
+      "id": 14,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 16 (সেট তত্ত্ব)",
+      "q": "জার্মান গণিতবিদ জর্জ ক্যান্টর (Georg Cantor) প্রবর্তিত সেটের সংজ্ঞায় কোনো উপাদানের উপস্থিতি কেমন হতে হবে?",
+      "options": [
+        "শুধুমাত্র সংখ্যাভিত্তিক",
+        "অসীম",
+        "অনির্দিষ্ট ও কাল্পনিক",
+        "সুনির্দিষ্ট ও সুসংজ্ঞায়িত (Well-defined)"
+      ],
+      "ans": 3,
+      "explain": "বাস্তব বা চিন্তাজগতের সুসংজ্ঞায়িত বস্তুর সমাবেশ বা সংগ্রহকে সেট বলে।"
+    },
+    {
+      "id": 15,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 16 (সেট তত্ত্ব)",
+      "q": "A = {1, 2, 3} এবং B = {3, 4, 5} হলে, A ∩ B (Intersection) এর মান কত?",
+      "options": [
+        "{3}",
+        "{1, 2, 3, 4, 5}",
+        "{4, 5}",
+        "{1, 2}"
+      ],
+      "ans": 0,
+      "explain": "Intersection (∩) মানে কেবল সাধারণ (common) উপাদানগুলো। এখানে কমন উপাদান কেবল 3।"
+    },
+    {
+      "id": 16,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 16 (সেট তত্ত্ব)",
+      "q": "A = {a, b} হলে, A সেটের পাওয়ার সেট বা শক্তি সেট P(A)-এর সদস্য সংখ্যা কতটি?",
+      "options": [
+        "৮টি",
+        "৪টি",
+        "৩টি",
+        "২টি"
+      ],
+      "ans": 1,
+      "explain": "কোনো সেটের উপাদান সংখ্যা n হলে তার শক্তি সেটের উপাদান সংখ্যা 2ⁿ। এখানে n = 2, তাই 2² = 4।"
+    },
+    {
+      "id": 17,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 16 (সেট তত্ত্ব)",
+      "q": "ফাঁকা সেট (Empty/Null Set)-এর প্রতীক কোনটি?",
+      "options": [
+        "{0}",
+        "0",
+        "{∅}",
+        "∅ বা { }"
+      ],
+      "ans": 3,
+      "explain": "ফাঁকা সেটে কোনো উপাদান থাকে না। একে ∅ বা ফাঁকা বন্ধনী { } দ্বারা প্রকাশ করা হয়।"
+    },
+    {
+      "id": 18,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 16 (সেট তত্ত্ব)",
+      "q": "যদি A = {1, 2, 3} এবং B = {2, 3, 4} হয়, তবে A ∪ B (Union) কত?",
+      "options": [
+        "{2, 3}",
+        "{1, 2, 3, 4, 5}",
+        "{1, 2, 3, 4}",
+        "{1, 4}"
+      ],
+      "ans": 2,
+      "explain": "Union (∪) সংযোগ সেটে দুটি সেটের সব উপাদান অন্তর্ভুক্ত থাকে (পুনরাবৃত্তি ছাড়া)।"
+    },
+    {
+      "id": 19,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 16 (সেট তত্ত্ব)",
+      "q": "A = {1, 2, 3, 4} এবং B = {3, 4, 5} হলে, A \\ B (বা A - B) অন্তরের মান কত?",
+      "options": [
+        "{1, 2, 5}",
+        "{3, 4}",
+        "{5}",
+        "{1, 2}"
+      ],
+      "ans": 3,
+      "explain": "A \\ B হলো A সেটের যেসব উপাদান B সেটে নেই। 3 ও 4 B-তে আছে, তাই বাদ যাবে। থাকে {1, 2}।"
+    },
+    {
+      "id": 20,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 16 (সেট তত্ত্ব)",
+      "q": "দুইটি সেট A ও B নিচ্ছেদ সেট (Disjoint Set) হবে যদি তাদের ইন্টারসেকশন কেমন হয়?",
+      "options": [
+        "A ∩ B = ∅ (ফাঁকা সেট)",
+        "A ∩ B = U",
+        "A ∪ B = ∅",
+        "A = B"
+      ],
+      "ans": 0,
+      "explain": "দুটি সেটের মধ্যে কোনো সাধারণ (common) উপাদান না থাকলে তাদের নিচ্ছেদ সেট বলে (A ∩ B = ∅)।"
+    },
+    {
+      "id": 21,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 16 (সেট তত্ত্ব)",
+      "q": "যদি কোনো সেটের উপাদান সংখ্যা n = 3 হয়, তবে তার প্রকৃত উপসেট (Proper Subset) সংখ্যা কত?",
+      "options": [
+        "৭টি",
+        "৬টি",
+        "৪টি",
+        "৮টি"
+      ],
+      "ans": 0,
+      "explain": "প্রকৃত উপসেটের সূত্র হলো (2ⁿ - 1)। n = 3 হলে 2³ - 1 = 8 - 1 = 7।"
+    },
+    {
+      "id": 22,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 16 (সেট তত্ত্ব)",
+      "q": "ভেন চিত্র (Venn Diagram) প্রথম প্রবর্তন করেন কোন গণিতবিদ?",
+      "options": [
+        "জন ভেন (John Venn)",
+        "ইউক্লিড",
+        "আইজ্যাক নিউটন",
+        "জর্জ ক্যান্টর"
+      ],
+      "ans": 0,
+      "explain": "১৮৮০ সালে চিত্রভিত্তিক সেটের ধারণা ভেন চিত্রের মাধ্যমে প্রবর্তন করেন জন ভেন।"
+    },
+    {
+      "id": 23,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 16 (সেট তত্ত্ব)",
+      "q": "n(A ∪ B) নির্ণয়ের সঠিক ভেন সূত্রটি কোনটি?",
+      "options": [
+        "n(A) + n(B) + n(A ∩ B)",
+        "n(A) - n(B)",
+        "n(A) × n(B)",
+        "n(A) + n(B) - n(A ∩ B)"
+      ],
+      "ans": 3,
+      "explain": "ভেন চিত্রের মৌলিক সূত্র: n(A ∪ B) = n(A) + n(B) - n(A ∩ B)।"
+    },
+    {
+      "id": 24,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 16 (সেট তত্ত্ব)",
+      "q": "৫০ জন শিক্ষার্থীর শ্রেণীতে ৩০ জন ফুটবল এবং ২৫ জন ক্রিকেট খেলে। ১০ জন উভয় খেলা খেলে। কতজন কোনো খেলা খেলে না?",
+      "options": [
+        "১৫ জন",
+        "০ জন",
+        "৫ জন",
+        "১০ জন"
+      ],
+      "ans": 2,
+      "explain": "অন্তত একটি খেলা খেলে = ৩০ + ২৫ - ১০ = ৪৫ জন। খেলা খেলে না = ৫০ - ৪৫ = ৫ জন।"
+    },
+    {
+      "id": 25,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 16 (সেট তত্ত্ব)",
+      "q": "যদি সার্বিক সেট U = {1, 2, 3, 4, 5} এবং A = {2, 4} হয়, তবে A-এর পূরক সেট A' (A Complement) কত?",
+      "options": [
+        "{1, 2, 3, 4, 5}",
+        "{1, 3, 5}",
+        "{2, 4}",
+        "∅"
+      ],
+      "ans": 1,
+      "explain": "পূরক সেট A' = U \\ A = {1, 2, 3, 4, 5} \\ {2, 4} = {1, 3, 5}।"
+    },
+    {
+      "id": 26,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Change the voice: 'Rice sells cheap.'",
+      "options": [
+        "Rice was sold cheap.",
+        "Rice has been sold cheap.",
+        "Rice is cheap when it is sold.",
+        "Rice is sold cheaply."
+      ],
+      "ans": 2,
+      "explain": "Quasi-passive voice structure: Subject + verb + adjective = Subject + be-verb + adjective + when + it is + V3."
+    },
+    {
+      "id": 27,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Change the voice: 'Do the work.'",
+      "options": [
+        "You are requested to do work.",
+        "Let do the work.",
+        "The work should be done.",
+        "Let the work be done."
+      ],
+      "ans": 3,
+      "explain": "Imperative sentence starting with verb: Let + object + be + V3."
+    },
+    {
+      "id": 28,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Change the voice: 'Who wrote the book?'",
+      "options": [
+        "By whom the book was written?",
+        "Whom wrote the book?",
+        "By whom was the book written?",
+        "Who was the book written by?"
+      ],
+      "ans": 2,
+      "explain": "Interrogative starting with 'Who': By whom + was/were + subject + V3?"
+    },
+    {
+      "id": 29,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Change the voice: 'He pleases us.'",
+      "options": [
+        "He is pleased with us.",
+        "We are pleased by him.",
+        "We are pleased with him.",
+        "We were pleased with him."
+      ],
+      "ans": 2,
+      "explain": "The verb 'please' takes 'with' instead of 'by' in passive voice."
+    },
+    {
+      "id": 30,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Change the voice: 'Panic seized the writer.'",
+      "options": [
+        "The writer was seized with panic.",
+        "The writer was seized by panic.",
+        "The writer is seized with panic.",
+        "Panic was seized by writer."
+      ],
+      "ans": 0,
+      "explain": "'Seize' takes preposition 'with' in passive voice."
+    },
+    {
+      "id": 31,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Indirect narration of: He said, 'I am reading a book.'",
+      "options": [
+        "He told he is reading a book.",
+        "He said that he was reading a book.",
+        "He said that he read a book.",
+        "He said that I was reading a book."
+      ],
+      "ans": 1,
+      "explain": "Present Continuous in direct speech becomes Past Continuous in indirect speech."
+    },
+    {
+      "id": 32,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Indirect narration of: The teacher said, 'The earth moves round the sun.'",
+      "options": [
+        "The teacher said that the earth moves round the sun.",
+        "The teacher requested earth to move.",
+        "The teacher told the earth moves.",
+        "The teacher said that the earth moved round the sun."
+      ],
+      "ans": 0,
+      "explain": "Universal truths do not change tense in indirect speech."
+    },
+    {
+      "id": 33,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Indirect narration of: He said to me, 'Are you ill?'",
+      "options": [
+        "He asked me if I was ill.",
+        "He asked me that I was ill.",
+        "He told me if I am ill.",
+        "He asked me was I ill."
+      ],
+      "ans": 0,
+      "explain": "Interrogative yes/no questions take 'if/whether' and statement word order."
+    },
+    {
+      "id": 34,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Indirect narration of: Father said to me, 'Do not run in the sun.'",
+      "options": [
+        "Father ordered me do not run in sun.",
+        "Father asked me running not in sun.",
+        "Father advised me not to run in the sun.",
+        "Father told me to not run."
+      ],
+      "ans": 2,
+      "explain": "Imperative negative prohibition: Subject + advised/forbade + object + not to + V1."
+    },
+    {
+      "id": 35,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Indirect narration of: He said, 'Alas! I am undone.'",
+      "options": [
+        "He exclaimed with joy that he was undone.",
+        "He told that alas he was undone.",
+        "He exclaimed with sorrow that he was undone.",
+        "He said sorrowfully I am undone."
+      ],
+      "ans": 2,
+      "explain": "Exclamatory sorrow sentence: Exclaimed with sorrow + that + subject + verb."
+    },
+    {
+      "id": 36,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Change the voice: 'They elected him chairman.'",
+      "options": [
+        "Chairman was elected by him.",
+        "He elected chairman by them.",
+        "They were elected chairman.",
+        "He was elected chairman by them."
+      ],
+      "ans": 3,
+      "explain": "'Chairman' is a Factitive Object, 'him' is the real object converted to subject."
+    },
+    {
+      "id": 37,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Change the voice: 'Smoke filled the room.'",
+      "options": [
+        "The room was filled by smoke.",
+        "The room was filled with smoke.",
+        "Smoke was filled in the room.",
+        "The room is filled with smoke."
+      ],
+      "ans": 1,
+      "explain": "'Fill' takes preposition 'with' in passive form."
+    },
+    {
+      "id": 38,
+      "subject": "English Grammar",
+      "topic": "Voice Change & Narration",
+      "q": "Indirect narration of: She said to him, 'May you prosper in life.'",
+      "options": [
+        "She prayed that he might prosper in life.",
+        "She prayed him to prosper.",
+        "She wished that he may prosper in life.",
+        "She told that might he prosper."
+      ],
+      "ans": 0,
+      "explain": "Optative sentence: Prayed/Wished + that + subject + might + V1."
+    },
+    {
+      "id": 39,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "বাংলাদেশ সংবিধান (মূলনীতি ও অনুচ্ছেদ)",
+      "q": "গণপ্রজাতন্ত্রী বাংলাদেশের সংবিধান কত তারিখে গণপরিষদে গৃহীত হয়?",
+      "options": [
+        "১৯৭২ সালের ১৬ ডিসেম্বর",
+        "১৯৭২ সালের ৪ নভেম্বর",
+        "১৯৭৩ সালের ২৬ মার্চ",
+        "১৯৭১ সালের ১৭ এপ্রিল"
+      ],
+      "ans": 1,
+      "explain": "১৯৭২ সালের ৪ নভেম্বর সংবিধান গণপরিষদে গৃহীত হয় (তাই ৪ নভেম্বর 'সংবিধান দিবস')।"
+    },
+    {
+      "id": 40,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "বাংলাদেশ সংবিধান (মূলনীতি ও অনুচ্ছেদ)",
+      "q": "বাংলাদেশের সংবিধান কার্যকর হয় কত তারিখে?",
+      "options": [
+        "১৯৭১ সালের ২৬ মার্চ",
+        "১৯৭২ সালের ৪ নভেম্বর",
+        "১৯৭৩ সালের ২৬ মার্চ",
+        "১৯৭২ সালের ১৬ ডিসেম্বর"
+      ],
+      "ans": 3,
+      "explain": "বিজয়ের ১ম বার্ষিকীতে অর্থাৎ ১৯৭২ সালের ১৬ই ডিসেম্বর বাংলাদেশের সংবিধান কার্যকর হয়।"
+    },
+    {
+      "id": 41,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "বাংলাদেশ সংবিধান (মূলনীতি ও অনুচ্ছেদ)",
+      "q": "বাংলাদেশের সংবিধানের মূলনীতি মোট কতটি?",
+      "options": [
+        "৭টি",
+        "৩টি",
+        "৪টি (জাতীয়তাবাদ, সমাজতন্ত্র, গণতন্ত্র ও ধর্মনিরপেক্ষতা)",
+        "৫টি"
+      ],
+      "ans": 2,
+      "explain": "অনুচ্ছেদ ৮ অনুযায়ী মূলনীতি ৪টি: জাতীয়তাবাদ, সমাজতন্ত্র, গণতন্ত্র ও ধর্মনিরপেক্ষতা।"
+    },
+    {
+      "id": 42,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "বাংলাদেশ সংবিধান (মূলনীতি ও অনুচ্ছেদ)",
+      "q": "সংবিধান প্রণয়ন কমিটির প্রধান বা আহ্বায়ক কে ছিলেন?",
+      "options": [
+        "তাজউদ্দীন আহমদ",
+        "সৈয়দ নজরুল ইসলাম",
+        "ড. কামাল হোসেন",
+        "বঙ্গবন্ধু শেখ মুজিবুর রহমান"
+      ],
+      "ans": 2,
+      "explain": "৩৪ সদস্যবিশিষ্ট সংবিধান প্রণয়ন কমিটির প্রধান ছিলেন তৎকালীন আইনমন্ত্রী ড. কামাল হোসেন।"
+    },
+    {
+      "id": 43,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "বাংলাদেশ সংবিধান (মূলনীতি ও অনুচ্ছেদ)",
+      "q": "বাংলাদেশের সংবিধানে মোট কতটি ভাগ (Parts) এবং কতটি অনুচ্ছেদ (Articles) রয়েছে?",
+      "options": [
+        "৯টি ভাগ এবং ১৪০টি অনুচ্ছেদ",
+        "১০টি ভাগ এবং ১৫০টি অনুচ্ছেদ",
+        "১২টি ভাগ এবং ১৬০টি অনুচ্ছেদ",
+        "১১টি ভাগ এবং ১৫৩টি অনুচ্ছেদ"
+      ],
+      "ans": 3,
+      "explain": "বাংলাদেশ সংবিধানে ১টি প্রস্তাবনা, ১১টি ভাগ, ১৫৩টি অনুচ্ছেদ এবং ৭টি তফসিল রয়েছে।"
+    },
+    {
+      "id": 44,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "বাংলাদেশ সংবিধান (মূলনীতি ও অনুচ্ছেদ)",
+      "q": "সংবিধানের কোন অনুচ্ছেদে 'প্রজাতন্ত্রের রাষ্ট্রভাষা বাংলা' উল্লেখ আছে?",
+      "options": [
+        "৭ নম্বর অনুচ্ছেদ",
+        "৩ নম্বর অনুচ্ছেদ",
+        "২ নম্বর অনুচ্ছেদ",
+        "১ নম্বর অনুচ্ছেদ"
+      ],
+      "ans": 1,
+      "explain": "অনুচ্ছেদ ৩ অনুযায়ী: 'প্রজাতন্ত্রের রাষ্ট্রভাষা বাংলা'।"
+    },
+    {
+      "id": 45,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "বাংলাদেশ সংবিধান (মূলনীতি ও অনুচ্ছেদ)",
+      "q": "'প্রজাতন্ত্রের সকল ক্ষমতার মালিক জনগণ'—সংবিধানের কোন অনুচ্ছেদে বলা হয়েছে?",
+      "options": [
+        "১১ নম্বর অনুচ্ছেদে",
+        "৭(১) নম্বর অনুচ্ছেদে",
+        "২১ নম্বর অনুচ্ছেদে",
+        "১৭ নম্বর অনুচ্ছেদে"
+      ],
+      "ans": 1,
+      "explain": "অনুচ্ছেদ ৭(১) অনুযায়ী: 'প্রজাতন্ত্রের সকল ক্ষমতার মালিক জনগণ'।"
+    },
+    {
+      "id": 46,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "বাংলাদেশ সংবিধান (মূলনীতি ও অনুচ্ছেদ)",
+      "q": "সংবিধানের কোন অনুচ্ছেদে অবৈতনিক ও বাধ্যতামূলক প্রাথমিক শিক্ষার কথা বলা হয়েছে?",
+      "options": [
+        "১৯ নম্বর অনুচ্ছেদে",
+        "১৭ নম্বর অনুচ্ছেদে",
+        "২৮ নম্বর অনুচ্ছেদে",
+        "১৫ নম্বর অনুচ্ছেদে"
+      ],
+      "ans": 1,
+      "explain": "অনুচ্ছেদ ১৭-এ রাষ্ট্র কর্তৃক অবৈতনিক ও বাধ্যতামূলক শিক্ষার ব্যবস্থার কথা বলা হয়েছে।"
+    },
+    {
+      "id": 47,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "বাংলাদেশ সংবিধান (মূলনীতি ও অনুচ্ছেদ)",
+      "q": "সংবিধানের মৌলিক অধিকারসমূহ কোন ভাগে বর্ণিত আছে?",
+      "options": [
+        "পঞ্চম ভাগে",
+        "দ্বিতীয় ভাগে",
+        "চতুর্থ ভাগে",
+        "তৃতীয় ভাগে (অনুচ্ছেদ ২৬ থেকে ৪৭)"
+      ],
+      "ans": 3,
+      "explain": "সংবিধানের ৩য় ভাগে মৌলিক অধিকারসমূহ সংরক্ষিত রয়েছে।"
+    },
+    {
+      "id": 48,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "বাংলাদেশ সংবিধান (মূলনীতি ও অনুচ্ছেদ)",
+      "q": "সংবিধানের কোন অনুচ্ছেদ অনুযায়ী 'আইনের দৃষ্টিতে সকল নাগরিক সমান'?",
+      "options": [
+        "২৮ নম্বর অনুচ্ছেদ",
+        "২৯ নম্বর অনুচ্ছেদ",
+        "২৭ নম্বর অনুচ্ছেদ",
+        "৩১ নম্বর অনুচ্ছেদ"
+      ],
+      "ans": 2,
+      "explain": "অনুচ্ছেদ ২৭: সকল নাগরিক আইনের দৃষ্টিতে সমান এবং আইনের সমান আশ্রয় লাভের অধিকারী।"
+    },
+    {
+      "id": 49,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "বাংলাদেশ সংবিধান (মূলনীতি ও অনুচ্ছেদ)",
+      "q": "সংবিধানের কত নম্বর অনুচ্ছেদ অনুযায়ী বিচার বিভাগকে শাসন বিভাগ থেকে পৃথকীকরণের নীতি বলা হয়েছে?",
+      "options": [
+        "৭০ নম্বর অনুচ্ছেদ",
+        "২২ নম্বর অনুচ্ছেদ",
+        "২০ নম্বর অনুচ্ছেদ",
+        "২৫ নম্বর অনুচ্ছেদ"
+      ],
+      "ans": 1,
+      "explain": "অনুচ্ছেদ ২২: রাষ্ট্রের শাসন বিভাগ হইতে বিচার বিভাগের পৃথকীকরণ।"
+    },
+    {
+      "id": 50,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "বাংলাদেশ সংবিধান (মূলনীতি ও অনুচ্ছেদ)",
+      "q": "জরুরি অবস্থা ঘোষণা সংক্রান্ত বিধান সংবিধানের কোন অনুচ্ছেদে বর্ণিত আছে?",
+      "options": [
+        "১৪২ নম্বর অনুচ্ছেদে",
+        "৭০ নম্বর অনুচ্ছেদ",
+        "৯৩ নম্বর অনুচ্ছেদ",
+        "১৪১ক নম্বর অনুচ্ছেদে"
+      ],
+      "ans": 3,
+      "explain": "সংবিধানের ১৪১ক অনুচ্ছেদে রাষ্ট্রপতি কর্তৃক জরুরি অবস্থা ঘোষণার বিধান রয়েছে।"
+    }
+  ]
+}

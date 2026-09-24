@@ -1,0 +1,710 @@
+{
+  "examInfo": {
+    "examName": "৩০ দিনের ফাউন্ডেশন কোর্স — ৮ম দিনের (Day 8)",
+    "examType": "preliminary",
+    "totalMarks": "50",
+    "totalQuestions": 50
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "সন্ধি ব্যাকরণের কোন অংশে আলোচিত হয়?",
+      "options": [
+        "বাক্যতত্ত্ব (Syntax)",
+        "রূপতত্ত্ব (Morphology)",
+        "অর্থতত্ত্ব (Semantics)",
+        "ধ্বনিতত্ত্ব (Phonology)"
+      ],
+      "ans": 3,
+      "explain": "সন্ধি মূলত দুটি ধ্বনির মিলন ঘটায়, তাই এটি ব্যাকরণের ধ্বনিতত্ত্বে আলোচিত হয়।"
+    },
+    {
+      "id": 2,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "'সন্ধি' শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+      "options": [
+        "সং + দি",
+        "সন + ধি",
+        "সং + ধি",
+        "সম + ধি"
+      ],
+      "ans": 2,
+      "explain": "সন্ধি শব্দের সঠিক সন্ধি বিচ্ছেদ হলো সম্‌/সং + ধি = সন্ধি।"
+    },
+    {
+      "id": 3,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "পরস্পর সন্নিহিত দুটি ধ্বনির মিলনকে কী বলে?",
+      "options": [
+        "সমাস",
+        "প্রত্যয়",
+        "উপসর্গ",
+        "সন্ধি"
+      ],
+      "ans": 3,
+      "explain": "পাশাপাশি অবস্থিত দুটি ধ্বনির মিলন, পরিবর্তন বা লোপ পাওয়াকে সন্ধি বলে।"
+    },
+    {
+      "id": 4,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "বাংলা ভাষায় তৎসম বা সংস্কৃত সন্ধি প্রধানত কত প্রকার?",
+      "options": [
+        "২ প্রকার",
+        "৪ প্রকার",
+        "৩ প্রকার (স্বরসন্ধি, ব্যঞ্জনসন্ধি ও বিসর্গ সন্ধি)",
+        "৫ প্রকার"
+      ],
+      "ans": 2,
+      "explain": "তৎসম সন্ধি ৩ প্রকার: স্বরসন্ধি, ব্যঞ্জনসন্ধি এবং বিসর্গ সন্ধি।"
+    },
+    {
+      "id": 5,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "'বিদ্যালয়' শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+      "options": [
+        "বিদ্য + আলয়",
+        "বিদ্যা + আলয",
+        "বিদ + আলয়",
+        "বিদ্যা + আলয়"
+      ],
+      "ans": 3,
+      "explain": "আ + আ = আ সূত্রে বিদ্যা + আলয় = বিদ্যালয়।"
+    },
+    {
+      "id": 6,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "'পবন' শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+      "options": [
+        "পৌ + অন",
+        "পা + অন",
+        "পব + অন",
+        "পো + অন"
+      ],
+      "ans": 3,
+      "explain": "ও + অন = অব সূত্রে পো + অন = পবন (এবং পৌ + অক = পাভক)।"
+    },
+    {
+      "id": 7,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "'গায়ক' শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+      "options": [
+        "গা + অক",
+        "গো + অক",
+        "গৈ + অক",
+        "গৈ + ইক"
+      ],
+      "ans": 2,
+      "explain": "ঐ + অক = আয় সূত্রে গৈ + অক = গায়ক।"
+    },
+    {
+      "id": 8,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "'পরিচ্ছেদ' শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+      "options": [
+        "পরি + ছেদ",
+        "পরিচ্ + ছেদ",
+        "পরি + ছেদ",
+        "পরিস্ + ছেদ"
+      ],
+      "ans": 0,
+      "explain": "স্বরধ্বনির পর 'ছ' থাকলে চ্ছ হয়: পরি + ছেদ = পরিচ্ছেদ।"
+    },
+    {
+      "id": 9,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "'মিথ্যুক' শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+      "options": [
+        "মিথ্যা + উকে/উক",
+        "মিথ + উকা",
+        "মিথ্য + উক",
+        "মিথ্যা + ক"
+      ],
+      "ans": 0,
+      "explain": "খাঁটি বাংলা স্বরসন্ধির নিয়মে মিথ্যা + উক = মিথ্যুক।"
+    },
+    {
+      "id": 10,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "কোনটি নিপাতনে সিদ্ধ সন্ধির উদাহরণ?",
+      "options": [
+        "রবীন্দ্র",
+        "হিমালয়",
+        "একাদশ (এক + দশ)",
+        "বিদ্যালয়"
+      ],
+      "ans": 2,
+      "explain": "যে সন্ধি কোনো সাধারণ নিয়ম মেনে চলে না, তাকে নিপাতনে সিদ্ধ সন্ধি বলে (যেমন: এক + দশ = একাদশ, গো + অক্ষ = গবাক্ষ)।"
+    },
+    {
+      "id": 11,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "'মরূদ্যান' শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+      "options": [
+        "মরু + উদ্যান",
+        "মরূ + উদ্যান",
+        "মরোদ + যান",
+        "মরু + উদ্যান"
+      ],
+      "ans": 0,
+      "explain": "উ + উ = ঊ সূত্রে মরু + উদ্যান = মরূদ্যান।"
+    },
+    {
+      "id": 12,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "'অতীব' শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+      "options": [
+        "অতী + ইব",
+        "অতীব + ইব",
+        "অতি + ঈব",
+        "অতি + ইব"
+      ],
+      "ans": 3,
+      "explain": "ই + ই = ঈ সূত্রে অতি + ইব = অতীব।"
+    },
+    {
+      "id": 13,
+      "subject": "বাংলা ব্যাকরণ",
+      "topic": "পরিচ্ছেদ ১৩: সন্ধি",
+      "q": "'মনস্তাপ' শব্দের সঠিক সন্ধি বিচ্ছেদ কোনটি?",
+      "options": [
+        "মন + তাপ",
+        "মনস + তাপ",
+        "মনঃ + তাপ",
+        "মনো + তাপ"
+      ],
+      "ans": 2,
+      "explain": "বিসর্গ (ঃ) + ত = স্ত সূত্রে মনঃ + তাপ = মনস্তাপ।"
+    },
+    {
+      "id": 14,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 15 (লগারিদম)",
+      "q": "log₂ 8-এর মান কত?",
+      "options": [
+        "৪",
+        "৮",
+        "২",
+        "৩"
+      ],
+      "ans": 3,
+      "explain": "log₂ 8 = log₂ (2³) = 3 log₂ 2 = 3 × 1 = 3।"
+    },
+    {
+      "id": 15,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 15 (লগারিদম)",
+      "q": "logₐ 1-এর মান কত (যেখানে a > 0, a ≠ 1)?",
+      "options": [
+        "০",
+        "১",
+        "অসংজ্ঞায়িত",
+        "a"
+      ],
+      "ans": 0,
+      "explain": "যে কোনো ভিত্তির সাপেক্ষে ১-এর লগারিদমের মান সর্বদাই ০ (a⁰ = 1)।"
+    },
+    {
+      "id": 16,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 15 (লগারিদম)",
+      "q": "logₐ a-এর মান কত?",
+      "options": [
+        "১০",
+        "১",
+        "a",
+        "০"
+      ],
+      "ans": 1,
+      "explain": "ভিত্তি ও নিধান একই হলে লগারিদমের মান ১ হয় (logₐ a = 1)।"
+    },
+    {
+      "id": 17,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 15 (লগারিদম)",
+      "q": "log₅ 625-এর মান কত?",
+      "options": [
+        "৩",
+        "২৫",
+        "৫",
+        "৪"
+      ],
+      "ans": 3,
+      "explain": "5⁴ = 625, সুতরাং log₅ 625 = log₅ (5⁴) = 4।"
+    },
+    {
+      "id": 18,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 15 (লগারিদম)",
+      "q": "log (m × n)-এর সমান কোনটি?",
+      "options": [
+        "log m × log n",
+        "log m / log n",
+        "log m + log n",
+        "log m - log n"
+      ],
+      "ans": 2,
+      "explain": "লগারিদমের গুণন বিধি অনুসারে log (m × n) = log m + log n।"
+    },
+    {
+      "id": 19,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 15 (লগারিদম)",
+      "q": "log (m / n)-এর সঠিক রূপ কোনটি?",
+      "options": [
+        "log (m-n)",
+        "log m + log n",
+        "log m / log n",
+        "log m - log n"
+      ],
+      "ans": 3,
+      "explain": "লগারিদমের ভাগফল বিধি অনুসারে log (m / n) = log m - log n।"
+    },
+    {
+      "id": 20,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 15 (লগারিদম)",
+      "q": "যদি logₓ 81 = 4 হয়, তবে x-এর মান কত?",
+      "options": [
+        "৩",
+        "৯",
+        "৮১",
+        "২"
+      ],
+      "ans": 0,
+      "explain": "logₓ 81 = 4 ⇒ x⁴ = 81 = 3⁴ ⇒ x = 3।"
+    },
+    {
+      "id": 21,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 15 (লগারিদম)",
+      "q": "যদি logₓ (1/16) = -2 হয়, তবে x-এর মান কত?",
+      "options": [
+        "৪",
+        "১৬",
+        "১/৪",
+        "২"
+      ],
+      "ans": 0,
+      "explain": "logₓ (1/16) = -2 ⇒ x⁻² = 1/16 ⇒ 1/x² = 1/16 ⇒ x² = 16 ⇒ x = 4।"
+    },
+    {
+      "id": 22,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 15 (লগারিদম)",
+      "q": "log₁₀ 0.001-এর মান কত?",
+      "options": [
+        "-৩",
+        "০.০০১",
+        "-২",
+        "৩"
+      ],
+      "ans": 0,
+      "explain": "0.001 = 10⁻³, সুতরাং log₁₀ (10⁻³) = -3।"
+    },
+    {
+      "id": 23,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 15 (লগারিদম)",
+      "q": "সাধারণ লগারিদম (Common Logarithm)-এর ভিত্তি (Base) কত ধরা হয়?",
+      "options": [
+        "e",
+        "১",
+        "২",
+        "১০"
+      ],
+      "ans": 3,
+      "explain": "সাধারণ লগারিদমে ভিত্তি হিসেবে ১০ ব্যবহার করা হয় (হেনরি ব্রিগস প্রবর্তিত)।"
+    },
+    {
+      "id": 24,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 15 (লগারিদম)",
+      "q": "প্রাকৃতিক লগারিদম (Natural Logarithm)-এর ভিত্তি কোনটি?",
+      "options": [
+        "২",
+        "π",
+        "e (ই)।",
+        "১০"
+      ],
+      "ans": 2,
+      "explain": "নেপিয়ারিয়ান বা প্রাকৃতিক লগারিদমে ভিত্তি হিসেবে 'e' ধরা হয় (ln x = logₑ x)।"
+    },
+    {
+      "id": 25,
+      "subject": "গণিত",
+      "topic": "Section I: Chapter 15 (লগারিদম)",
+      "q": "log₂ (1/32)-এর মান কত?",
+      "options": [
+        "-৪",
+        "-৫",
+        "৫",
+        "৩২"
+      ],
+      "ans": 1,
+      "explain": "1/32 = 1/2⁵ = 2⁻⁵, সুতরাং log₂ (2⁻⁵) = -5।"
+    },
+    {
+      "id": 26,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "Choose the correct sentence:",
+      "options": [
+        "He is living here for five years.",
+        "He has lived here since five years.",
+        "He has been living here for five years.",
+        "He lived here for five years ago."
+      ],
+      "ans": 2,
+      "explain": "Action starting in the past and continuing up to present with a period of time ('for five years') requires Present Perfect Continuous Tense."
+    },
+    {
+      "id": 27,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "Complete the sentence: 'The patient had died before the doctor ____.'",
+      "options": [
+        "comes",
+        "had come",
+        "has come",
+        "came"
+      ],
+      "ans": 3,
+      "explain": "With 'before' in past perfect structure: Past Perfect + before + Past Simple ('came')."
+    },
+    {
+      "id": 28,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "Complete the sentence: 'The doctor came after the patient ____.'",
+      "options": [
+        "died",
+        "dies",
+        "had died",
+        "has died"
+      ],
+      "ans": 2,
+      "explain": "With 'after' in past perfect structure: Past Simple + after + Past Perfect ('had died')."
+    },
+    {
+      "id": 29,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "It is high time we ____ our habits.",
+      "options": [
+        "will change",
+        "change",
+        "changed",
+        "have changed"
+      ],
+      "ans": 2,
+      "explain": "'It is time' or 'It is high time' followed by a clause takes past subjunctive / past indefinite verb ('changed')."
+    },
+    {
+      "id": 30,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "Neither he nor his friends ____ present yesterday.",
+      "options": [
+        "were",
+        "was",
+        "is",
+        "are"
+      ],
+      "ans": 0,
+      "explain": "With 'neither...nor', verb agrees with the subject closest to it ('his friends' -> 'were')."
+    },
+    {
+      "id": 31,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "Look! The sun ____.",
+      "options": [
+        "rose",
+        "is rising",
+        "has risen",
+        "rises"
+      ],
+      "ans": 1,
+      "explain": "Imperative indicators like 'Look!' or 'Listen!' signal an action happening now, requiring Present Continuous."
+    },
+    {
+      "id": 32,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "The earth ____ round the sun.",
+      "options": [
+        "revolves",
+        "has revolved",
+        "revolved",
+        "is revolving"
+      ],
+      "ans": 0,
+      "explain": "Universal truths (scientific facts) are always expressed in Present Indefinite Tense ('revolves')."
+    },
+    {
+      "id": 33,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "I ____ him yesterday.",
+      "options": [
+        "met",
+        "have met",
+        "meet",
+        "had met"
+      ],
+      "ans": 0,
+      "explain": "Time markers indicating completed past time like 'yesterday', 'ago', 'last night' require Past Indefinite Tense ('met')."
+    },
+    {
+      "id": 34,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "He talks as if he ____ everything.",
+      "options": [
+        "knows",
+        "will know",
+        "knew",
+        "has known"
+      ],
+      "ans": 2,
+      "explain": "'As if' / 'as though' introducing unreal present comparison takes past indefinite ('knew')."
+    },
+    {
+      "id": 35,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "When I entered the room, he ____ a book.",
+      "options": [
+        "read",
+        "is reading",
+        "was reading",
+        "has read"
+      ],
+      "ans": 2,
+      "explain": "An ongoing background action in the past interrupted by a shorter action takes Past Continuous ('was reading')."
+    },
+    {
+      "id": 36,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "He ____ just out.",
+      "options": [
+        "went",
+        "is going",
+        "goes",
+        "has gone"
+      ],
+      "ans": 3,
+      "explain": "Adverbs like 'just', 'already', 'recently', 'yet' typically indicate Present Perfect Tense ('has gone')."
+    },
+    {
+      "id": 37,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "If I ____ a bird, I would fly in the sky.",
+      "options": [
+        "was",
+        "were",
+        "am",
+        "had been"
+      ],
+      "ans": 1,
+      "explain": "Unreal/hypothetical condition in present takes 'were' for all persons."
+    },
+    {
+      "id": 38,
+      "subject": "English Grammar",
+      "topic": "Tense & Right Form of Verbs",
+      "q": "Would you mind ____ the door?",
+      "options": [
+        "opening",
+        "open",
+        "to open",
+        "opened"
+      ],
+      "ans": 0,
+      "explain": "Phrases like 'would you mind', 'look forward to', 'with a view to' are followed by verb+ing ('opening')."
+    },
+    {
+      "id": 39,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "মুজিবনগর সরকার, ১১টি সেক্টর ও বীরশ্রেষ্ঠগণ",
+      "q": "বাংলাদেশের প্রথম স্বাধীন সরকার 'মুজিবনগর সরকার' কত তারিখে গঠিত হয়?",
+      "options": [
+        "১৭ এপ্রিল ১৯৭১",
+        "১০ এপ্রিল ১৯৭১",
+        "৭ মার্চ ১৯৭১",
+        "২৬ মার্চ ১৯৭১"
+      ],
+      "ans": 1,
+      "explain": "১৯৭১ সালের ১০ এপ্রিল মেহেরপুরের ভবেরপাড়ার বৈদ্যনাথতলায় (মুজিবনগর) সরকার গঠিত হয় এবং স্বাধীনতার ঘোষণা জারি করা হয়।"
+    },
+    {
+      "id": 40,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "মুজিবনগর সরকার, ১১টি সেক্টর ও বীরশ্রেষ্ঠগণ",
+      "q": "মুজিবনগর সরকার আনুষ্ঠানিকভাবে কত তারিখে মেহেরপুরের আম্রকাননে শপথ গ্রহণ করে?",
+      "options": [
+        "১৬ ডিসেম্বর ১৯৭১",
+        "১০ এপ্রিল ১৯৭১",
+        "২৬ মার্চ ১৯৭১",
+        "১৭ এপ্রিল ১৯৭১"
+      ],
+      "ans": 3,
+      "explain": "১৯৭১ সালের ১৭ এপ্রিল তৎকালীন মেহেরপুর মহকুমার বৈদ্যনাথতলায় (বর্তমান মুজিবনগর) প্রথম সরকার শপথ নেয়।"
+    },
+    {
+      "id": 41,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "মুজিবনগর সরকার, ১১টি সেক্টর ও বীরশ্রেষ্ঠগণ",
+      "q": "মুজিবনগর সরকারের প্রধানমন্ত্রী কে ছিলেন?",
+      "options": [
+        "ক্যাপ্টেন এম মনসুর আলী",
+        "সৈয়দ নজরুল ইসলাম",
+        "তাজউদ্দীন আহমদ",
+        "খন্দকার মোশতাক আহমেদ"
+      ],
+      "ans": 2,
+      "explain": "মুজিবনগর সরকারের প্রধানমন্ত্রী ছিলেন তাজউদ্দীন আহমদ এবং উপ-রাষ্ট্রপতি/অস্থায়ী রাষ্ট্রপতি ছিলেন সৈয়দ নজরুল ইসলাম।"
+    },
+    {
+      "id": 42,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "মুজিবনগর সরকার, ১১টি সেক্টর ও বীরশ্রেষ্ঠগণ",
+      "q": "মুজিবনগর সরকারের অর্থমন্ত্রী পদে কে দায়িত্ব পালন করেন?",
+      "options": [
+        "তাজউদ্দীন আহমদ",
+        "এ এইচ এম কামারুজ্জামান",
+        "ক্যাপ্টেন এম মনসুর আলী",
+        "খন্দকার মোশতাক আহমেদ"
+      ],
+      "ans": 2,
+      "explain": "ক্যাপ্টেন এম মনসুর আলী অর্থ, বাণিজ্য ও শিল্প মন্ত্রণালয়ের দায়িত্বে ছিলেন।"
+    },
+    {
+      "id": 43,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "মুজিবনগর সরকার, ১১টি সেক্টর ও বীরশ্রেষ্ঠগণ",
+      "q": "মুক্তিযুদ্ধে বীরত্বসূচক অবদানের জন্য সর্বমোট কতজনকে 'বীরশ্রেষ্ঠ' উপাধিতে ভূষিত করা হয়?",
+      "options": [
+        "৪২৬ জন",
+        "৬৮ জন",
+        "১৭৫ জন",
+        "৭ জন"
+      ],
+      "ans": 3,
+      "explain": "মুক্তিযুদ্ধে সর্বোচ্চ আত্মত্যাগের স্বীকৃতিস্বরূপ ৭ জন অকুতোভয় সেনানীকে 'বীরশ্রেষ্ঠ' উপাধিতে ভূষিত করা হয়।"
+    },
+    {
+      "id": 44,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "মুজিবনগর সরকার, ১১টি সেক্টর ও বীরশ্রেষ্ঠগণ",
+      "q": "বীরশ্রেষ্ঠদের মধ্যে একমাত্র বিমান বাহিনী (Air Force) সদস্য কে ছিলেন?",
+      "options": [
+        "সিপাহী মোস্তফা কামাল",
+        "ফ্লাইট লেফটেন্যান্ট মতিউর রহমান",
+        "ক্যাপ্টেন মহিউদ্দিন জাহাঙ্গীর",
+        "স্কোয়াড্রন লিডার হামিদুল্লাহ"
+      ],
+      "ans": 1,
+      "explain": "ফ্লাইট লেফটেন্যান্ট মতিউর রহমান পাকিস্তান থেকে T-33 বিমান ছিনতাইয়ের চেষ্টাকালে শহীদ হন, তিনি একমাত্র বিমান বাহিনীর বীরশ্রেষ্ঠ।"
+    },
+    {
+      "id": 45,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "মুজিবনগর সরকার, ১১টি সেক্টর ও বীরশ্রেষ্ঠগণ",
+      "q": "বীরশ্রেষ্ঠদের মধ্যে নৌবাহিনীর (Navy) একমাত্র সদস্য কে ছিলেন?",
+      "options": [
+        "ল্যান্স নায়ক মুন্সী আব্দুর রউফ",
+        "ইঞ্জিন রুম আর্টিফিসার রুহুল আমীন",
+        "মেজর মহসিন",
+        "সিপাহী হামিদুর রহমান"
+      ],
+      "ans": 1,
+      "explain": "বীরশ্রেষ্ঠ মোস্তফা কামাল/রুহুল আমীনের মধ্যে মোহাম্মদ রুহুল আমীন ছিলেন নৌবাহিনীর গানবোট 'পলাশ'-এর ইঞ্জিন রুম আর্টিফিসার।"
+    },
+    {
+      "id": 46,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "মুজিবনগর সরকার, ১১টি সেক্টর ও বীরশ্রেষ্ঠগণ",
+      "q": "সর্বকনিষ্ঠ বীরশ্রেষ্ঠ কে এবং তিনি কোন সেক্টরে যুদ্ধ করে শহীদ হন?",
+      "options": [
+        "ল্যান্স নায়ক নূর মোহাম্মদ (৮ নম্বর সেক্টর)",
+        "সিপাহী হামিদুর রহমান (পার্বত্য শ্রীমঙ্গল/৪ নম্বর সেক্টর)",
+        "সিপাহী সিরাজুল ইসলাম (১ নম্বর সেক্টর)",
+        "সিপাহী মোস্তফা কামাল (২ নম্বর সেক্টর)"
+      ],
+      "ans": 1,
+      "explain": "সিপাহী সিপাহী/হামিদুর রহমান ছিলেন সর্বকনিষ্ঠ বীরশ্রেষ্ঠ (বয়স মাত্র ১৮ বছর), তিনি শ্রীমঙ্গলের ধলই সীমান্তে ৪ নম্বর সেক্টরে শহীদ হন।"
+    },
+    {
+      "id": 47,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "মুজিবনগর সরকার, ১১টি সেক্টর ও বীরশ্রেষ্ঠগণ",
+      "q": "বীরশ্রেষ্ঠ ক্যাপ্টেন মহিউদ্দিন জাহাঙ্গীর কোন সেক্টরে যুদ্ধ করেছিলেন এবং কোথায় শহীদ হন?",
+      "options": [
+        "৮ নম্বর সেক্টর (যশোর)",
+        "২ নম্বর সেক্টর (কুমিল্লা)",
+        "১ নম্বর সেক্টর (চট্টগ্রাম)",
+        "৭ নম্বর সেক্টর (চাপাইনবাবগঞ্জ)"
+      ],
+      "ans": 3,
+      "explain": "ক্যাপ্টেন মহিউদ্দিন জাহাঙ্গীর ৭ নম্বর সেক্টরের অধীনে চাপাইনবাবগঞ্জকে শত্রুমুক্ত করতে ১৪ ডিসেম্বর শহীদ হন।"
+    },
+    {
+      "id": 48,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "মুজিবনগর সরকার, ১১টি সেক্টর ও বীরশ্রেষ্ঠগণ",
+      "q": "মুক্তিযুদ্ধের সময় চট্টগ্রাম শহর ও পার্বত্য চট্টগ্রাম কোন সেক্টরের অধীনে ছিল?",
+      "options": [
+        "২ নম্বর সেক্টর",
+        "৩ নম্বর সেক্টর",
+        "১ নম্বর সেক্টর",
+        "১০ নম্বর সেক্টর"
+      ],
+      "ans": 2,
+      "explain": "চট্টগ্রাম, পার্বত্য চট্টগ্রাম ও ফেনী নদী পর্যন্ত এলাকা ছিল ১ নম্বর সেক্টরের অধীনে (কমান্ডার: মেজর জিয়াউর রহমান, পরে মেজর রফিকুল ইসলাম)।"
+    },
+    {
+      "id": 49,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "মুজিবনগর সরকার, ১১টি সেক্টর ও বীরশ্রেষ্ঠগণ",
+      "q": "মুক্তিযুদ্ধের সময় সম্পূর্ণ সিলেট অঞ্চল কত নম্বর সেক্টরের অধীনে ছিল?",
+      "options": [
+        "৮ ও ৯ নম্বর সেক্টর",
+        "৪ ও ৫ নম্বর সেক্টর",
+        "১ ও ২ নম্বর সেক্টর",
+        "৬ ও ৭ নম্বর সেক্টর"
+      ],
+      "ans": 1,
+      "explain": "সিলেট জেলার পূর্বাঞ্চল ৪ নম্বর সেক্টর (কমান্ডার: সি আর দত্ত) এবং পশ্চিমাঞ্চল ৫ নম্বর সেক্টর (কমান্ডার: মির্ শওকত আলী)-এর অধীনে ছিল।"
+    },
+    {
+      "id": 50,
+      "subject": "সাধারণ জ্ঞান",
+      "topic": "মুজিবনগর সরকার, ১১টি সেক্টর ও বীরশ্রেষ্ঠগণ",
+      "q": "মুজিবনগর সরকারের স্বরাষ্ট্র, ত্রাণ ও পুনর্বাসন মন্ত্রী কে ছিলেন?",
+      "options": [
+        "ক্যাপ্টেন এম মনসুর আলী",
+        "তাজউদ্দীন আহমদ",
+        "খন্দকার মোশতাক আহমেদ",
+        "এ এইচ এম কামারুজ্জামান"
+      ],
+      "ans": 3,
+      "explain": "এ এইচ এম কামারুজ্জামান ছিলেন স্বরাষ্ট্র, ত্রাণ ও পুনর্বাসন মন্ত্রণালয়ের দায়িত্বে।"
+    }
+  ]
+}
