@@ -31,7 +31,27 @@
   },
 
   // ####################Courses Exam######################
-   {
+    {
+    examId: 'govjobfc-day-018',
+    title: 'পরীক্ষা 18: ৩০ দিনের সরকারি চাকরির ফাউন্ডেশন কোর্স  | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
+    scheduledDateTime: '2026-10-05T20:00:00+06:00',
+    questions: 50,
+    marks: 50,
+    description: '৩০ দিনের Gov. Job ফাউন্ডেশন কোর্স — প্রথম সাপ্তাহিক মডেল টেস্ট',
+    route: '/question-bank/GJFC30D/day18_50_questions',
+    status: 'scheduled',
+    isCombined: true
+  }, {
+    examId: 'govjobfc-day-017',
+    title: 'পরীক্ষা 17: ৩০ দিনের সরকারি চাকরির ফাউন্ডেশন কোর্স  | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
+    scheduledDateTime: '2026-10-04T20:00:00+06:00',
+    questions: 50,
+    marks: 50,
+    description: '৩০ দিনের Gov. Job ফাউন্ডেশন কোর্স — প্রথম সাপ্তাহিক মডেল টেস্ট',
+    route: '/question-bank/GJFC30D/day17_50_questions',
+    status: 'scheduled',
+    isCombined: true
+  },{
     examId: 'govjobfc-day-016',
     title: 'পরীক্ষা 16: ৩০ দিনের সরকারি চাকরির ফাউন্ডেশন কোর্স  | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
     scheduledDateTime: '2026-10-03T20:00:00+06:00',
