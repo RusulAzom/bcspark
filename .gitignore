@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# source data cache for scripts/generateBdDistricts.js (re-downloadable)
+scripts/.cache/
+
+# generated preview render from scripts/renderExportPreview.js
+scripts/.preview.png
