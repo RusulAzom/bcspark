@@ -1,0 +1,710 @@
+{
+  "examInfo": {
+    "examName": "৩০ দিনের ফাউন্ডেশন কোর্স — ২৩তম দিনের (Day 23)",
+    "examType": "preliminary",
+    "totalMarks": "50",
+    "totalQuestions": 50
+  },
+  "questions": [
+    {
+      "id": 1,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'অগ্নি' শব্দের সমার্থক বা প্রতিশব্দ কোনটি?",
+      "options": [
+        "সলিল ও উদক",
+        "অম্বু ও নীর",
+        "অদ্রি ও শৈল",
+        "অনল, পাবক ও হুতাশন"
+      ],
+      "ans": 3,
+      "explain": "অগ্নি শব্দের সমার্থক শব্দ হলো অনল, পাবক, বহ্নি, হুতাশন, বৈশ্বানর ইত্যাদি।"
+    },
+    {
+      "id": 2,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'অম্বু' ও 'উদক' নিচের কোন শব্দের প্রতিশব্দ?",
+      "options": [
+        "বাতাস",
+        "আগুন",
+        "পানি বা জল",
+        "আকাশ"
+      ],
+      "ans": 2,
+      "explain": "পানি বা জলের প্রতিশব্দ হলো অম্বু, নীর, সলিল, উদক, তোয়, জীবন ইত্যাদি।"
+    },
+    {
+      "id": 3,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'মার্তণ্ড' এবং 'বিভাবসু' কোন শব্দের প্রতিশব্দ?",
+      "options": [
+        "চন্দ্র",
+        "সূর্য",
+        "বিদ্যুৎ",
+        "মেঘ"
+      ],
+      "ans": 1,
+      "explain": "সূর্য শব্দের প্রতিশব্দ রবি, ভানু, ভাস্কর, তপন, মার্তণ্ড, বিভাবসু, দিনমণি ইত্যাদি।"
+    },
+    {
+      "id": 4,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'অদ্রি' ও 'নগ' কোন শব্দের সমার্থক শব্দ?",
+      "options": [
+        "সমুদ্র",
+        "পর্বত বা পাহাড়",
+        "নদী",
+        "অরণ্য"
+      ],
+      "ans": 1,
+      "explain": "পর্বত শব্দের প্রতিশব্দ গিরি, শৈল, পাহাড়, অচল, নগ, অদ্রি, ভূধর ইত্যাদি।"
+    },
+    {
+      "id": 5,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'কপোত' শব্দের সঠিক প্রতিশব্দ কোনটি?",
+      "options": [
+        "কবুতর বা পায়রা",
+        "চড়ুই",
+        "ময়ূর",
+        "কোকিল"
+      ],
+      "ans": 0,
+      "explain": "কপোত সংস্কৃত শব্দ, যার বাংলা অর্থ কবুতর বা পায়রা।"
+    },
+    {
+      "id": 6,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'শার্দূল' শব্দের সমার্থক শব্দ কোনটি?",
+      "options": [
+        "বাঘ",
+        "হাতি",
+        "সিংহ",
+        "ঘোড়া"
+      ],
+      "ans": 0,
+      "explain": "শার্দূল শব্দের অর্থ বাঘ (ব্যাঘ্র)।"
+    },
+    {
+      "id": 7,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'অর্বাচীন' শব্দের সঠিক বিপরীতার্থক শব্দ কোনটি?",
+      "options": [
+        "প্রাচীন",
+        "নবীন",
+        "আধুনিক",
+        "ক্ষণস্থায়ী"
+      ],
+      "ans": 0,
+      "explain": "অর্বাচীন অর্থ আধুনিক বা অল্পবয়স্ক; এর বিপরীত শব্দ প্রাচীন।"
+    },
+    {
+      "id": 8,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'অনুরক্ত' শব্দের বিপরীত শব্দ কোনটি?",
+      "options": [
+        "অনুরূপ",
+        "বিরক্ত",
+        "অনুরোধ",
+        "আকর্ষিত"
+      ],
+      "ans": 1,
+      "explain": "অনুরক্ত শব্দের যথাযথ বিপরীতার্থক শব্দ হলো বিরক্ত।"
+    },
+    {
+      "id": 9,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'জঙ্গম' শব্দের সঠিক বিপরীত শব্দ কোনটি?",
+      "options": [
+        "অনড়",
+        "স্থায়ী",
+        "স্থাবর",
+        "অচল"
+      ],
+      "ans": 2,
+      "explain": "জঙ্গম অর্থ গতিশীল বা যা চলে; এর বিপরীত শব্দ স্থাবর (যা স্থির)।"
+    },
+    {
+      "id": 10,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'উন্মীলন' শব্দের বিপরীত শব্দ কোনটি?",
+      "options": [
+        "বিকাশ",
+        "প্রস্ফুটন",
+        "নিমীলন",
+        "উন্মোচন"
+      ],
+      "ans": 2,
+      "explain": "উন্মীলন (চোখ বা পাপড়ি খোলা)-এর বিপরীত শব্দ নিমীলন (চোখ বা পাপড়ি বোজা)।"
+    },
+    {
+      "id": 11,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'তিমির' শব্দের বিপরীত শব্দ কোনটি?",
+      "options": [
+        "রাত্রি",
+        "অন্ধকার",
+        "কুয়াশা",
+        "আলোক বা আলো"
+      ],
+      "ans": 3,
+      "explain": "তিমির অর্থ অন্ধকার; এর বিপরীত শব্দ আলোক।"
+    },
+    {
+      "id": 12,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'ক্ষীয়মাণ' শব্দের সঠিক বিপরীত শব্দ কোনটি?",
+      "options": [
+        "বর্ধিষ্ণু",
+        "স্থূল",
+        "বৃহৎ",
+        "বর্ধমান"
+      ],
+      "ans": 3,
+      "explain": "যা ক্রমশ হ্রাস পাচ্ছে তা ক্ষীয়মাণ; যা ক্রমশ বৃদ্ধি পাচ্ছে তা বর্ধমান।"
+    },
+    {
+      "id": 13,
+      "subject": "বাংলা",
+      "topic": "পরিচ্ছেদ ৪১ ও ৪২: প্রতিশব্দ ও বিপরীত শব্দ",
+      "q": "'সৌম্য' শব্দের বিপরীত শব্দ কোনটি?",
+      "options": [
+        "উগ্র",
+        "কঠোর",
+        "নিষ্ঠুর",
+        "ভয়ানক"
+      ],
+      "ans": 0,
+      "explain": "সৌম্য শব্দের অর্থ শান্ত বা মনোরম; এর বিপরীত শব্দ উগ্র।"
+    },
+    {
+      "id": 14,
+      "subject": "গণিত",
+      "topic": "Section IV: Ch 42 (সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাতসমূহ)",
+      "q": "যেকোনো সূক্ষ্মকোণ θ-এর জন্য ত্রিকোণমিতিক অভেদ sin²θ + cos²θ = কত?",
+      "options": [
+        "২",
+        "১",
+        "-১",
+        "০"
+      ],
+      "ans": 1,
+      "explain": "ত্রিকোণমিতির মৌলিক পিথাগোরীয় অভেদ sin²θ + cos²θ = ১।"
+    },
+    {
+      "id": 15,
+      "subject": "গণিত",
+      "topic": "Section IV: Ch 42 (সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাতসমূহ)",
+      "q": "tan 45° এর মান নিচের কোনটি?",
+      "options": [
+        "১/√৩",
+        "√৩",
+        "০",
+        "১"
+      ],
+      "ans": 3,
+      "explain": "সমকোণী সমদ্বিবাহু ত্রিভুজে লম্ব ও ভূমি সমান হওয়ায় tan 45° = ১।"
+    },
+    {
+      "id": 16,
+      "subject": "গণিত",
+      "topic": "Section IV: Ch 42 (সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাতসমূহ)",
+      "q": "sin 30° এবং cos 60° উভয়ের মান কত?",
+      "options": [
+        "√৩/২",
+        "১/২",
+        "১",
+        "১/√২"
+      ],
+      "ans": 1,
+      "explain": "পূরক কোণের সম্পর্ক থেকে sin 30° = cos 60° = ১/২।"
+    },
+    {
+      "id": 17,
+      "subject": "গণিত",
+      "topic": "Section IV: Ch 42 (সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাতসমূহ)",
+      "q": "sec²θ - tan²θ এর মান কত?",
+      "options": [
+        "২",
+        "১",
+        "০",
+        "-১"
+      ],
+      "ans": 1,
+      "explain": "ত্রিকোণমিতিক অভেদ sec²θ - tan²θ = ১।"
+    },
+    {
+      "id": 18,
+      "subject": "গণিত",
+      "topic": "Section IV: Ch 42 (সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাতসমূহ)",
+      "q": "একটি সূক্ষ্মকোণ θ-এর জন্য tan θ = ৩/৪ হলে, sin θ এর মান কত?",
+      "options": [
+        "৫/৩",
+        "৪/৩",
+        "৪/৫",
+        "৩/৫"
+      ],
+      "ans": 3,
+      "explain": "লম্ব = ৩, ভূমি = ৪ হলে অতিভুজ = √(৩² + ৪²) = ৫। অতএব sin θ = লম্ব/অতিভুজ = ৩/৫।"
+    },
+    {
+      "id": 19,
+      "subject": "গণিত",
+      "topic": "Section IV: Ch 42 (সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাতসমূহ)",
+      "q": "cos θ = ১২/১৩ হলে, tan θ এর মান কত?",
+      "options": [
+        "৫/১২",
+        "১৩/১২",
+        "১২/৫",
+        "৫/১৩"
+      ],
+      "ans": 0,
+      "explain": "ভূমি = ১২, অতিভুজ = ১৩ হলে লম্ব = √(১৩² - ১২²) = ৫। অতএব tan θ = লম্ব/ভূমি = ৫/১২।"
+    },
+    {
+      "id": 20,
+      "subject": "গণিত",
+      "topic": "Section IV: Ch 42 (সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাতসমূহ)",
+      "q": "cosec 30° এর মান কত?",
+      "options": [
+        "√২",
+        "১/২",
+        "২",
+        "২/√৩"
+      ],
+      "ans": 2,
+      "explain": "sin 30° = ১/২ হওয়ায় cosec 30° = ১ / sin 30° = ২।"
+    },
+    {
+      "id": 21,
+      "subject": "গণিত",
+      "topic": "Section IV: Ch 42 (সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাতসমূহ)",
+      "q": "tan θ + cot θ = ২ হলে, tan²θ + cot²θ এর মান কত?",
+      "options": [
+        "২",
+        "৪",
+        "০",
+        "১"
+      ],
+      "ans": 0,
+      "explain": "tan θ + cot θ = ২ হলে tan θ = ১ এবং cot θ = ১। অতএব ১² + ১² = ২।"
+    },
+    {
+      "id": 22,
+      "subject": "গণিত",
+      "topic": "Section IV: Ch 42 (সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাতসমূহ)",
+      "q": "সূক্ষ্মকোণ θ-এর জন্য sin θ = cos θ হলে, θ এর মান কত ডিগ্রি?",
+      "options": [
+        "৬০°",
+        "৩০°",
+        "৯০°",
+        "৪৫°"
+      ],
+      "ans": 3,
+      "explain": "sin θ = cos θ ⇒ tan θ = ১ ⇒ θ = ৪৫°।"
+    },
+    {
+      "id": 23,
+      "subject": "গণিত",
+      "topic": "Section IV: Ch 42 (সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাতসমূহ)",
+      "q": "(1 - sin²θ) (1 + tan²θ) এর মান কত?",
+      "options": [
+        "tan²θ",
+        "sec²θ",
+        "১",
+        "০"
+      ],
+      "ans": 2,
+      "explain": "1 - sin²θ = cos²θ এবং 1 + tan²θ = sec²θ। cos²θ × sec²θ = cos²θ × (1/cos²θ) = ১।"
+    },
+    {
+      "id": 24,
+      "subject": "গণিত",
+      "topic": "Section IV: Ch 42 (সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাতসমূহ)",
+      "q": "একটি সমকোণী ত্রিভুজের অতিভুজ ১০ সেমি এবং একটি কোণ ৩০° হলে, বিপরীত বাহু (লম্ব)-এর দৈর্ঘ্য কত?",
+      "options": [
+        "১০√৩ সেমি",
+        "২.৫ সেমি",
+        "৫√৩ সেমি",
+        "৫ সেমি"
+      ],
+      "ans": 3,
+      "explain": "sin 30° = লম্ব / অতিভুজ ⇒ ১/২ = লম্ব / ১০ ⇒ লম্ব = ৫ সেমি।"
+    },
+    {
+      "id": 25,
+      "subject": "গণিত",
+      "topic": "Section IV: Ch 42 (সূক্ষ্মকোণের ত্রিকোণমিতিক অনুপাতসমূহ)",
+      "q": "tan 60° × cot 30° এর মান কত?",
+      "options": [
+        "৩",
+        "১/৩",
+        "√৩",
+        "১"
+      ],
+      "ans": 0,
+      "explain": "tan 60° = √৩ এবং cot 30° = √৩। গুণফল = √৩ × √৩ = ৩।"
+    },
+    {
+      "id": 26,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Change the voice: 'The committee approved the proposal.'",
+      "options": [
+        "The proposal was being approved by the committee.",
+        "The proposal is approved by the committee.",
+        "The proposal was approved by the committee.",
+        "The proposal had been approved by the committee."
+      ],
+      "ans": 2,
+      "explain": "Past indefinite tense active voice (S + V2 + O) turns into passive: O + was/were + V3 + by + S."
+    },
+    {
+      "id": 27,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Change the narration: He said, 'I am reading a novel.'",
+      "options": [
+        "He said that he was reading a novel.",
+        "He said that he is reading a novel.",
+        "He told that he had read a novel.",
+        "He says that he was reading a novel."
+      ],
+      "ans": 0,
+      "explain": "Present continuous changes to past continuous in indirect speech when reporting verb is in past tense."
+    },
+    {
+      "id": 28,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Which of the following is a Complex sentence?",
+      "options": [
+        "Work hard or you will fail.",
+        "Though he worked hard, he could not succeed.",
+        "He worked hard and he succeeded.",
+        "In spite of working hard, he failed."
+      ],
+      "ans": 1,
+      "explain": "A complex sentence contains one independent clause and at least one dependent subordinate clause (with subordinator 'Though')."
+    },
+    {
+      "id": 29,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Choose the grammatically correct verb: 'Neither of the boys ____ present yesterday.'",
+      "options": [
+        "are",
+        "have been",
+        "were",
+        "was"
+      ],
+      "ans": 3,
+      "explain": "'Neither of' is followed by a plural noun but takes a singular verb (was)."
+    },
+    {
+      "id": 30,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Complete the sentence: 'If I had known the answer, I ____ you.'",
+      "options": [
+        "will tell",
+        "had told",
+        "would have told",
+        "would tell"
+      ],
+      "ans": 2,
+      "explain": "Third conditional structure: If + past perfect (had + V3), ... + would have + V3."
+    },
+    {
+      "id": 31,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Complete the sentence: 'The patient had died before the doctor ____.'",
+      "options": [
+        "was coming",
+        "comes",
+        "had come",
+        "came"
+      ],
+      "ans": 3,
+      "explain": "In past perfect sentences with 'before', the earlier action takes past perfect and the later takes past simple (came)."
+    },
+    {
+      "id": 32,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Choose the correctly constructed sentence avoiding dangling modifier:",
+      "options": [
+        "Walking through the garden, she saw a beautiful bird.",
+        "Walking through the garden, the flowers looked pretty.",
+        "Walking through the garden, a beautiful bird was seen by her.",
+        "While walking through the garden, a snake bit him."
+      ],
+      "ans": 0,
+      "explain": "The introductory participial phrase 'Walking through the garden' must logically modify the subject 'she'."
+    },
+    {
+      "id": 33,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Complete the sentence: 'It is high time we ____ the problem.'",
+      "options": [
+        "addressed",
+        "have addressed",
+        "address",
+        "are addressing"
+      ],
+      "ans": 0,
+      "explain": "Phrases like 'It is high time / It is time' followed by a subject take past indefinite form of the verb (addressed)."
+    },
+    {
+      "id": 34,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Choose the correct correlative conjunction: 'No sooner had we reached the station ____ the train left.'",
+      "options": [
+        "before",
+        "than",
+        "then",
+        "when"
+      ],
+      "ans": 1,
+      "explain": "'No sooner had ... than' is the mandatory correlative pair in English grammar."
+    },
+    {
+      "id": 35,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Choose the correct verb: 'One of my friends ____ a civil engineer.'",
+      "options": [
+        "are",
+        "have been",
+        "is",
+        "were"
+      ],
+      "ans": 2,
+      "explain": "'One of + plural noun' always takes a singular verb (is)."
+    },
+    {
+      "id": 36,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Choose the correct correlative conjunction: 'Scarcely had the teacher entered the classroom ____ the bell rang.'",
+      "options": [
+        "then",
+        "before",
+        "than",
+        "when"
+      ],
+      "ans": 3,
+      "explain": "'Scarcely had ... when' or 'Hardly had ... when' is the correct correlative pair."
+    },
+    {
+      "id": 37,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Identify the clause type: 'This is the school *where I studied in my childhood*.'",
+      "options": [
+        "Adjective clause",
+        "Adverb clause",
+        "Prepositional clause",
+        "Noun clause"
+      ],
+      "ans": 0,
+      "explain": "The clause modifies the noun 'the school', functioning as an Adjective (Relative) Clause."
+    },
+    {
+      "id": 38,
+      "subject": "English",
+      "topic": "Complete Grammar Overview",
+      "q": "Choose the correct preposition and gerund: 'She insisted on ____ there alone.'",
+      "options": [
+        "to go",
+        "going",
+        "went",
+        "go"
+      ],
+      "ans": 1,
+      "explain": "The verb 'insist' takes the preposition 'on', which is followed by a gerund (going)."
+    },
+    {
+      "id": 39,
+      "subject": "বিজ্ঞান",
+      "topic": "জীববিজ্ঞান (কোষ, রক্ত, ভিটামিন ও রোগব্যাধি)",
+      "q": "জীবদেহের গঠন ও কাজের মৌলিক একককে কী বলা হয়?",
+      "options": [
+        "কোষ (Cell)",
+        "অঙ্গ",
+        "টিস্যু",
+        "জিন"
+      ],
+      "ans": 0,
+      "explain": "রবার্ট হুক ১৬৬৫ সালে প্রথম পর্যবেক্ষণ করেন; কোষ হলো সকল জীবের গঠনমূলক ও কার্যকরী মৌলিক একক।"
+    },
+    {
+      "id": 40,
+      "subject": "বিজ্ঞান",
+      "topic": "জীববিজ্ঞান (কোষ, রক্ত, ভিটামিন ও রোগব্যাধি)",
+      "q": "কোষের যাবতীয় জৈবনিক কাজের শক্তি উৎপাদন করায় কাকে 'পাওয়ার হাউস' (Power House) বলা হয়?",
+      "options": [
+        "রাইবোসোম",
+        "লাইসোজোম",
+        "মাইটোকন্ড্রিয়া (Mitochondria)",
+        "গলগি বডি"
+      ],
+      "ans": 2,
+      "explain": "শ্বসনের মাধ্যমে এটিপি (ATP) তৈরির জন্য মাইটোকন্ড্রিয়াকে কোষের শক্তিঘর বলা হয়।"
+    },
+    {
+      "id": 41,
+      "subject": "বিজ্ঞান",
+      "topic": "জীববিজ্ঞান (কোষ, রক্ত, ভিটামিন ও রোগব্যাধি)",
+      "q": "মানবদেহে রক্ত পরিশোধন ও মূত্র উৎপাদনের প্রধান অঙ্গ কোনটি?",
+      "options": [
+        "ফুসফুস",
+        "যকৃৎ",
+        "বৃক্ক বা কিডনি (Kidney)",
+        "হৃৎপিণ্ড"
+      ],
+      "ans": 2,
+      "explain": "নেফ্রনের মাধ্যমে রক্ত থেকে ইউরিয়া ও বর্জ্য ছেঁকে মূত্র তৈরি করে রক্ত বিশুদ্ধ রাখে বৃক্ক।"
+    },
+    {
+      "id": 42,
+      "subject": "বিজ্ঞান",
+      "topic": "জীববিজ্ঞান (কোষ, রক্ত, ভিটামিন ও রোগব্যাধি)",
+      "q": "রক্তের কোন গ্রুপকে 'সার্বজনীন গ্রহীতা' (Universal Recipient) বলা হয়?",
+      "options": [
+        "A গ্রুপ",
+        "AB গ্রুপ (AB+)",
+        "O গ্রুপ",
+        "B গ্রুপ"
+      ],
+      "ans": 1,
+      "explain": "AB রক্ত গ্রুপে কোনো অ্যান্টিবডি না থাকায় এটি যেকোনো গ্রুপের রক্ত গ্রহণ করতে পারে।"
+    },
+    {
+      "id": 43,
+      "subject": "বিজ্ঞান",
+      "topic": "জীববিজ্ঞান (কোষ, রক্ত, ভিটামিন ও রোগব্যাধি)",
+      "q": "রক্তের কোন গ্রুপকে 'সার্বজনীন দাতা' (Universal Donor) বলা হয়?",
+      "options": [
+        "A গ্রুপ",
+        "AB গ্রুপ",
+        "O গ্রুপ (O-)",
+        "B গ্রুপ"
+      ],
+      "ans": 2,
+      "explain": "O রক্ত গ্রুপে কোনো অ্যান্টিজেন (A বা B) না থাকায় এটি যেকোনো ব্যক্তিকে রক্ত দিতে পারে।"
+    },
+    {
+      "id": 44,
+      "subject": "বিজ্ঞান",
+      "topic": "জীববিজ্ঞান (কোষ, রক্ত, ভিটামিন ও রোগব্যাধি)",
+      "q": "রক্ত জমাট বাঁধতে (Blood Clotting) সাহায্য করে কোন রক্তকণিকা?",
+      "options": [
+        "শ্বেত রক্তকণিকা (WBC)",
+        "অনুচক্রিকা (Platelets)",
+        "লোহিত রক্তকণিকা (RBC)",
+        "প্লাজমা"
+      ],
+      "ans": 1,
+      "explain": "অনুচক্রিকা বা থ্রম্বোসাইট ক্ষতস্থানে রক্ত জমাট বাঁধিয়ে রক্তপাত বন্ধ করে।"
+    },
+    {
+      "id": 45,
+      "subject": "বিজ্ঞান",
+      "topic": "জীববিজ্ঞান (কোষ, রক্ত, ভিটামিন ও রোগব্যাধি)",
+      "q": "কোন ভিটামিনের অভাবে শিশুদের রিকেটস (Rickets) এবং বয়স্কদের অস্টিওম্যালাসিয়া রোগ হয়?",
+      "options": [
+        "ভিটামিন C",
+        "ভিটামিন A",
+        "ভিটামিন D",
+        "ভিটামিন K"
+      ],
+      "ans": 2,
+      "explain": "ভিটামিন D ক্যালসিয়াম শোষণে সহায়তা করে; এর অভাবে হাড় নরম ও বাঁকা হয়ে রিকেটস রোগ হয়।"
+    },
+    {
+      "id": 46,
+      "subject": "বিজ্ঞান",
+      "topic": "জীববিজ্ঞান (কোষ, রক্ত, ভিটামিন ও রোগব্যাধি)",
+      "q": "মানবদেহে রক্তশূন্যতা বা অ্যানিমিয়া (Anemia) কোন খনিজ উপাদানের অভাবে ঘটে?",
+      "options": [
+        "ক্যালসিয়াম",
+        "লৌহ (Iron / Fe)",
+        "পটাসিয়াম",
+        "আয়োডিন"
+      ],
+      "ans": 1,
+      "explain": "হিমোগ্লোবিন তৈরির মূল উপাদান লৌহ বা আয়রন; এর অভাবে রক্তে হিমোগ্লোবিন কমে রক্তশূন্যতা দেখা দেয়।"
+    },
+    {
+      "id": 47,
+      "subject": "বিজ্ঞান",
+      "topic": "জীববিজ্ঞান (কোষ, রক্ত, ভিটামিন ও রোগব্যাধি)",
+      "q": "রাতকানা (Night Blindness) ও জেরপথালমিয়া রোগ কোন ভিটামিনের অভাবে হয়?",
+      "options": [
+        "ভিটামিন E",
+        "ভিটামিন A",
+        "ভিটামিন C",
+        "ভিটামিন B"
+      ],
+      "ans": 1,
+      "explain": "ভিটামিন A চোখের রেটিনার রড কোষের কার্যকারিতা বজায় রাখে; এর অভাবে রাতকানা রোগ হয়।"
+    },
+    {
+      "id": 48,
+      "subject": "বিজ্ঞান",
+      "topic": "জীববিজ্ঞান (কোষ, রক্ত, ভিটামিন ও রোগব্যাধি)",
+      "q": "মানবদেহে রক্তের শর্করা নিয়ন্ত্রণকারী 'ইনসুলিন' হরমোন কোথা থেকে নিঃসৃত হয়?",
+      "options": [
+        "পিটুইটারি",
+        "থাইরয়েড",
+        "যকৃৎ",
+        "অগ্ন্যাশয় (Pancreas-এর আইলেটস অব ল্যাঙ্গারহ্যান্স)"
+      ],
+      "ans": 3,
+      "explain": "অগ্ন্যাশয়ের আইলেটস অব ল্যাঙ্গারহ্যান্সের বিটা কোষ থেকে ইনসুলিন নিঃসৃত হয়ে গ্লুকোজ নিয়ন্ত্রণ করে।"
+    },
+    {
+      "id": 49,
+      "subject": "বিজ্ঞান",
+      "topic": "জীববিজ্ঞান (কোষ, রক্ত, ভিটামিন ও রোগব্যাধি)",
+      "q": "ডেঙ্গু জ্বর নিচের কোন জীবাণুঘটিত রোগ এবং কোন মশার মাধ্যমে ছড়ায়?",
+      "options": [
+        "ফ্ল্যাভিভাইরাস (Flavivirus) ও এডিস মশা",
+        "প্রোটোজোয়া ও কিউলেক্স মশা",
+        "প্যারামিক্সোভাইরাস ও মাছি",
+        "ব্যাকটেরিয়া ও অ্যানোফিলিস মশা"
+      ],
+      "ans": 0,
+      "explain": "ডেঙ্গু একটি ভাইরাসঘটিত রোগ এবং এটি স্ত্রী এডিস মশার কামড়ে বিস্তার লাভ করে।"
+    },
+    {
+      "id": 50,
+      "subject": "বিজ্ঞান",
+      "topic": "জীববিজ্ঞান (কোষ, রক্ত, ভিটামিন ও রোগব্যাধি)",
+      "q": "চিকিৎসাবিজ্ঞানের প্রথম অ্যান্টিবায়োটিক 'পেনিসিলিন' কে আবিষ্কার করেন?",
+      "options": [
+        "লুই পাস্তুর",
+        "এডওয়ার্ড জেনার",
+        "রবার্ট কখ",
+        "স্যার আলেকজান্ডার ফ্লেমিং (১৯২৮ সালে)"
+      ],
+      "ans": 3,
+      "explain": "১৯২৮ সালে স্কটিশ বিজ্ঞানী স্যার আলেকজান্ডার ফ্লেমিং পেনিসিলিয়াম নোটেটাম ছত্রাক থেকে পেনিসিলিন আবিষ্কার করেন।"
+    }
+  ]
+}

@@ -31,7 +31,47 @@
   },
 
   // ####################Courses Exam######################
-     {
+    {
+    examId: 'govjobfc-day-024',
+    title: 'পরীক্ষা 24: ৩০ দিনের সরকারি চাকরির ফাউন্ডেশন কোর্স  | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
+    scheduledDateTime: '2026-10-11T20:00:00+06:00',
+    questions: 50,
+    marks: 50,
+    description: '৩০ দিনের Gov. Job ফাউন্ডেশন কোর্স — প্রথম সাপ্তাহিক মডেল টেস্ট',
+    route: '/question-bank/GJFC30D/day24_50_questions',
+    status: 'scheduled',
+    isCombined: true
+  },{
+    examId: 'govjobfc-day-023',
+    title: 'পরীক্ষা 23: ৩০ দিনের সরকারি চাকরির ফাউন্ডেশন কোর্স  | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
+    scheduledDateTime: '2026-10-10T20:00:00+06:00',
+    questions: 50,
+    marks: 50,
+    description: '৩০ দিনের Gov. Job ফাউন্ডেশন কোর্স — প্রথম সাপ্তাহিক মডেল টেস্ট',
+    route: '/question-bank/GJFC30D/day23_50_questions',
+    status: 'scheduled',
+    isCombined: true
+  },{
+    examId: 'govjobfc-day-022',
+    title: 'পরীক্ষা 22: ৩০ দিনের সরকারি চাকরির ফাউন্ডেশন কোর্স  | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
+    scheduledDateTime: '2026-10-09T20:00:00+06:00',
+    questions: 50,
+    marks: 50,
+    description: '৩০ দিনের Gov. Job ফাউন্ডেশন কোর্স — প্রথম সাপ্তাহিক মডেল টেস্ট',
+    route: '/question-bank/GJFC30D/day22_50_questions',
+    status: 'scheduled',
+    isCombined: true
+  },{
+    examId: 'govjobfc-day-021',
+    title: 'পরীক্ষা 21: ৩০ দিনের সরকারি চাকরির ফাউন্ডেশন কোর্স  | 3rd সাপ্তাহিক মডেল টেস্ট',
+    scheduledDateTime: '2026-10-08T20:00:00+06:00',
+    questions: 60,
+    marks: 60,
+    description: '৩০ দিনের Gov. Job ফাউন্ডেশন কোর্স — 3rd সাপ্তাহিক মডেল টেস্ট',
+    route: '/question-bank/GJFC30D/day21_60_questions',
+    status: 'scheduled',
+    isCombined: true
+  }, {
     examId: 'govjobfc-day-020',
     title: 'পরীক্ষা 20: ৩০ দিনের সরকারি চাকরির ফাউন্ডেশন কোর্স  | Model Test for BCS,ইউনিয়ন সমাজকর্মী, Bank Job, BCS, University Exam Preparation',
     scheduledDateTime: '2026-10-07T20:00:00+06:00',
